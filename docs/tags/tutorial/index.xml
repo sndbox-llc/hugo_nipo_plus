@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on Nipo Plus</title>
+    <link>http://example.org/tags/tutorial/</link>
+    <description>Recent content in tutorial on Nipo Plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 21 Apr 2022 12:21:55 +0900</lastBuildDate><atom:link href="http://example.org/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>あざー</title>
+      <link>http://example.org/template/1_math/other/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>http://example.org/template/1_math/other/</guid>
+      <description>まいまっす w1 </description>
+    </item>
+    
+    <item>
+      <title>ます</title>
+      <link>http://example.org/template/1_math/p1/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>http://example.org/template/1_math/p1/</guid>
+      <description>まいまっす w2 </description>
+    </item>
+    
+    <item>
+      <title>まいまっっｓ</title>
+      <link>http://example.org/template/1_math/mymath/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>http://example.org/template/1_math/mymath/</guid>
+      <description>まいまっす w5 </description>
+    </item>
+    
+    <item>
+      <title>Checkbox</title>
+      <link>http://example.org/rule/checkbox/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>http://example.org/rule/checkbox/</guid>
+      <description>はろー   Attachments   question.png (5 KB)     A bunch of code here 
+Get Grav   </description>
+    </item>
+    
+    <item>
+      <title>Checkbox</title>
+      <link>http://example.org/template/checkbox/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>http://example.org/template/checkbox/</guid>
+      <description>はろー   Attachments   question.png (5 KB)     A bunch of code here 
+Get Grav   </description>
+    </item>
+    
+    <item>
+      <title>ます</title>
+      <link>http://example.org/rule/1_math/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>http://example.org/rule/1_math/</guid>
+      <description>これはます tesutoja
+   .Resize &#34;1000x&#34;      .Resize &#34;300x&#34;    これはいんでっくすだお
+画像処理みてみよう
+  .Resize &#34;300x&#34;    </description>
+    </item>
+    
+    <item>
+      <title>ます</title>
+      <link>http://example.org/rule/1_math/mymath/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>http://example.org/rule/1_math/mymath/</guid>
+      <description>まいまっす </description>
+    </item>
+    
+    <item>
+      <title>ます</title>
+      <link>http://example.org/template/1_math/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>http://example.org/template/1_math/</guid>
+      <description>これはます tesutoja
+   .Resize &#34;1000x&#34;      .Resize &#34;300x&#34;    これはいんでっくすだお
+画像処理みてみよう
+  .Resize &#34;300x&#34;    </description>
+    </item>
+    
+  </channel>
+</rss>

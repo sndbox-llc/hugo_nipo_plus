@@ -2,48 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/template/1_math/other/</loc>
+    <loc>https://sandbox-co-ltd.github.io/template/1_math/other/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/template/1_math/p1/</loc>
+    <loc>https://sandbox-co-ltd.github.io/template/1_math/p1/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/template/1_math/mymath/</loc>
+    <loc>https://sandbox-co-ltd.github.io/template/1_math/mymath/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/rule/</loc>
+    <loc>https://sandbox-co-ltd.github.io/rule/</loc>
     <lastmod>2022-04-21T12:18:27+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/template/</loc>
+    <loc>https://sandbox-co-ltd.github.io/template/</loc>
     <lastmod>2022-04-21T12:18:27+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/rule/checkbox/</loc>
+    <loc>https://sandbox-co-ltd.github.io/rule/checkbox/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/template/checkbox/</loc>
+    <loc>https://sandbox-co-ltd.github.io/template/checkbox/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://sandbox-co-ltd.github.io/tags/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/theme/</loc>
+    <loc>https://sandbox-co-ltd.github.io/tags/theme/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/tutorial/</loc>
+    <loc>https://sandbox-co-ltd.github.io/tags/tutorial/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/rule/1_math/</loc>
+    <loc>https://sandbox-co-ltd.github.io/rule/1_math/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/rule/1_math/mymath/</loc>
+    <loc>https://sandbox-co-ltd.github.io/rule/1_math/mymath/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/template/1_math/</loc>
+    <loc>https://sandbox-co-ltd.github.io/template/1_math/</loc>
     <lastmod>2022-04-21T12:21:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://sandbox-co-ltd.github.io/</loc>
     <lastmod>2022-04-21T11:18:13+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://sandbox-co-ltd.github.io/categories/</loc>
   </url>
 </urlset>

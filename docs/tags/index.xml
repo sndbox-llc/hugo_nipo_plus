@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nipo Plus</title>
-    <link>https://sandbox-co-ltd.github.io/hugo_nipo_plus/tags/</link>
+    <link>https://nipo-plus-doc.sndbox.jp/tags/</link>
     <description>Recent content in Tags on Nipo Plus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 21 Apr 2022 12:21:55 +0900</lastBuildDate><atom:link href="https://sandbox-co-ltd.github.io/hugo_nipo_plus/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Apr 2022 12:21:55 +0900</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>theme</title>
-      <link>https://sandbox-co-ltd.github.io/hugo_nipo_plus/tags/theme/</link>
+      <link>https://nipo-plus-doc.sndbox.jp/tags/theme/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/hugo_nipo_plus/tags/theme/</guid>
+      <guid>https://nipo-plus-doc.sndbox.jp/tags/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tutorial</title>
-      <link>https://sandbox-co-ltd.github.io/hugo_nipo_plus/tags/tutorial/</link>
+      <link>https://nipo-plus-doc.sndbox.jp/tags/tutorial/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/hugo_nipo_plus/tags/tutorial/</guid>
+      <guid>https://nipo-plus-doc.sndbox.jp/tags/tutorial/</guid>
       <description></description>
     </item>
     

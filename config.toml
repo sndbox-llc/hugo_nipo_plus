@@ -1,4 +1,4 @@
-baseURL = 'https://sandbox-co-ltd.github.io/docs'
+baseURL = 'https://sandbox-co-ltd.github.io/hugo_nipo_plus/'
 languageCode = 'ja-jp'
 title = 'Nipo Plus'
 # theme = "mainroad"

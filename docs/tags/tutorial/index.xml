@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tutorial on Nipo Plus</title>
-    <link>https://sandbox-co-ltd.github.io/tags/tutorial/</link>
+    <link>https://sandbox-co-ltd.github.io/docs/tags/tutorial/</link>
     <description>Recent content in tutorial on Nipo Plus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 21 Apr 2022 12:21:55 +0900</lastBuildDate><atom:link href="https://sandbox-co-ltd.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Apr 2022 12:21:55 +0900</lastBuildDate><atom:link href="https://sandbox-co-ltd.github.io/docs/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>あざー</title>
-      <link>https://sandbox-co-ltd.github.io/template/1_math/other/</link>
+      <link>https://sandbox-co-ltd.github.io/docs/template/1_math/other/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/template/1_math/other/</guid>
+      <guid>https://sandbox-co-ltd.github.io/docs/template/1_math/other/</guid>
       <description>まいまっす w1 </description>
     </item>
     
     <item>
       <title>ます</title>
-      <link>https://sandbox-co-ltd.github.io/template/1_math/p1/</link>
+      <link>https://sandbox-co-ltd.github.io/docs/template/1_math/p1/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/template/1_math/p1/</guid>
+      <guid>https://sandbox-co-ltd.github.io/docs/template/1_math/p1/</guid>
       <description>まいまっす w2 </description>
     </item>
     
     <item>
       <title>まいまっっｓ</title>
-      <link>https://sandbox-co-ltd.github.io/template/1_math/mymath/</link>
+      <link>https://sandbox-co-ltd.github.io/docs/template/1_math/mymath/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/template/1_math/mymath/</guid>
+      <guid>https://sandbox-co-ltd.github.io/docs/template/1_math/mymath/</guid>
       <description>まいまっす w5 </description>
     </item>
     
     <item>
       <title>Checkbox</title>
-      <link>https://sandbox-co-ltd.github.io/rule/checkbox/</link>
+      <link>https://sandbox-co-ltd.github.io/docs/rule/checkbox/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/rule/checkbox/</guid>
+      <guid>https://sandbox-co-ltd.github.io/docs/rule/checkbox/</guid>
       <description>はろー   Attachments   question.png (5 KB)     A bunch of code here 
 Get Grav   </description>
     </item>
     
     <item>
       <title>Checkbox</title>
-      <link>https://sandbox-co-ltd.github.io/template/checkbox/</link>
+      <link>https://sandbox-co-ltd.github.io/docs/template/checkbox/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/template/checkbox/</guid>
+      <guid>https://sandbox-co-ltd.github.io/docs/template/checkbox/</guid>
       <description>はろー   Attachments   question.png (5 KB)     A bunch of code here 
 Get Grav   </description>
     </item>
     
     <item>
       <title>ます</title>
-      <link>https://sandbox-co-ltd.github.io/rule/1_math/</link>
+      <link>https://sandbox-co-ltd.github.io/docs/rule/1_math/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/rule/1_math/</guid>
+      <guid>https://sandbox-co-ltd.github.io/docs/rule/1_math/</guid>
       <description>これはます tesutoja
    .Resize &#34;1000x&#34;      .Resize &#34;300x&#34;    これはいんでっくすだお
 画像処理みてみよう
@@ -68,19 +68,19 @@ Get Grav   </description>
     
     <item>
       <title>ます</title>
-      <link>https://sandbox-co-ltd.github.io/rule/1_math/mymath/</link>
+      <link>https://sandbox-co-ltd.github.io/docs/rule/1_math/mymath/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/rule/1_math/mymath/</guid>
+      <guid>https://sandbox-co-ltd.github.io/docs/rule/1_math/mymath/</guid>
       <description>まいまっす </description>
     </item>
     
     <item>
       <title>ます</title>
-      <link>https://sandbox-co-ltd.github.io/template/1_math/</link>
+      <link>https://sandbox-co-ltd.github.io/docs/template/1_math/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
-      <guid>https://sandbox-co-ltd.github.io/template/1_math/</guid>
+      <guid>https://sandbox-co-ltd.github.io/docs/template/1_math/</guid>
       <description>これはます tesutoja
    .Resize &#34;1000x&#34;      .Resize &#34;300x&#34;    これはいんでっくすだお
 画像処理みてみよう

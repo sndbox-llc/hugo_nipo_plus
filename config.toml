@@ -4,7 +4,6 @@ title = 'Nipo Plus'
 # theme = "mainroad"
 theme = "learn"
 publishDir = "docs"
-canonifyurls = true
 
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".

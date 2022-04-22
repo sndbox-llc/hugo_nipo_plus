@@ -1,7 +1,7 @@
 +++
-title = "利用規約など"
+title = "システム概要"
 date = 2022-04-21T12:18:27+09:00
-weight = 10
+weight = 100
 chapter = true
 pre = "<b>X. </b>"
 +++

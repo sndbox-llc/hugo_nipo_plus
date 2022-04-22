@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<footer class="footline">
+	{{with .Params.LastModifierDisplayName}}
+	    {{with $.Date}} <i class='fas fa-calendar'></i> 最終更新日:{{ .Format "2006/01/02" }}{{end}}
+	    </div>
+	{{end}}
+</footer>
+
+{{ partial "footer.html" . }}

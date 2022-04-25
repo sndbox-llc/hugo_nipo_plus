@@ -4,6 +4,7 @@ title: "特定商取引法に基づく表記"
 description: "Nipoでは有料プランを申し込まれる際、Webによる金銭授受が発生するため特定商取引法に基づく表記義務があります"
 tags: ["規約"]
 category: "system"
+weight: 11
 ---
 
 Nipoはネットを媒介した販売([GOLD PLAN](/system/price/)）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。

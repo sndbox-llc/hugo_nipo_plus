@@ -1,8 +1,9 @@
 ---
 title: "Checkbox"
-date: 2022-04-21T12:21:55+09:00
+date: "2022-04-21"
 draft: false
 tags: ["tutorial", "theme"]
+weight: 10
 ---
 
 はろー

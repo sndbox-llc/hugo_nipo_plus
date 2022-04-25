@@ -75,3 +75,8 @@ killall -9 hugo
 ```
 hugo --minify
 ```
+
+## 存在しない記事を消してくれるぱらめた
+```
+hugo --cleanDestinationDir
+```

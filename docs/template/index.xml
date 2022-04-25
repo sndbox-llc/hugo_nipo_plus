@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日報テンプレートについて on Nipo Plus</title><link>https://nipo-plus-doc.sndbox.jp/template/</link><description>Recent content in 日報テンプレートについて on Nipo Plus</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 21 Apr 2022 12:18:27 +0900</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/template/index.xml" rel="self" type="application/rss+xml"/><item><title>Checkbox</title><link>https://nipo-plus-doc.sndbox.jp/template/checkbox/</link><pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate><guid>https://nipo-plus-doc.sndbox.jp/template/checkbox/</guid><description>はろー 添付 question.png (5 KB) A bunch of code here Get Grav</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日報テンプレートについて on Nipo Plus</title>
+    <link>https://nipo-plus-doc.sndbox.jp/template/</link>
+    <description>Recent content in 日報テンプレートについて on Nipo Plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 21 Apr 2022 12:18:27 +0900</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/template/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checkbox</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/checkbox/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/checkbox/</guid>
+      <description>.Resize &#34;1200x&#34; はい・いいえ ２択で回答可能な設問に最適な入力フォーム チェックボックスパーツは「はい・いいえ」や「ON・OFF」「あり・なし」のように２通</description>
+    </item>
+    
+  </channel>
+</rss>

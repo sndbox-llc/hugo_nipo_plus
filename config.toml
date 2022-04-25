@@ -1,10 +1,17 @@
 # baseURL = 'https://sandbox-co-ltd.github.io/hugo_nipo_plus/'
 baseURL = 'https://nipo-plus-doc.sndbox.jp/'
-languageCode = 'ja-jp'
+languageCode = "ja"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
 title = 'Nipo Plus'
 theme = "learn"
 publishDir = "docs"
 canonifyurls = true
+enableGitInfo = true
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.

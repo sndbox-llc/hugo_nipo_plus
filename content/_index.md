@@ -70,3 +70,8 @@ A notice disclaimer
 ```
 killall -9 hugo
 ```
+
+## minifyビルド
+```
+hugo --minify
+```

@@ -13,9 +13,6 @@ draft: false
 
 画像をつけるぞ。 ?widthでサイズを指定できるみたいだけどあくまで表示上らしい。実際変換はされないっぽい？
 
-![gazou](./img.jpeg?width=500px)
-
-{{< figure src="./img.jpeg" title="Steve Francia" >}}
 
 
 チャプターを作る

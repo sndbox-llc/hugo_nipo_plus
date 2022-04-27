@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>規約 on Nipo Plus</title><link>https://nipo-plus-doc.sndbox.jp/tags/%E8%A6%8F%E7%B4%84/</link><description>Recent content in 規約 on Nipo Plus</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 21 Apr 2022 12:18:27 +0900</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/tags/%E8%A6%8F%E7%B4%84/index.xml" rel="self" type="application/rss+xml"/><item><title>特定商取引法に基づく表記</title><link>https://nipo-plus-doc.sndbox.jp/system/business-deal/</link><pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate><guid>https://nipo-plus-doc.sndbox.jp/system/business-deal/</guid><description>Nipoはネットを媒介した販売(GOLD PLAN）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。 特定商取引につ</description></item><item><title>システム利用規約</title><link>https://nipo-plus-doc.sndbox.jp/system/agree/</link><pubDate>Thu, 21 Apr 2022 12:18:27 +0900</pubDate><guid>https://nipo-plus-doc.sndbox.jp/system/agree/</guid><description>この利用規約（以下，「本規約」といいます。）は，合同会社サンドボックス（以下，「当社」といいます。）が本アプリ上で提供するサービス（以下，「</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>規約 on Nipo Plus</title>
+    <link>https://nipo-plus-doc.sndbox.jp/tags/%E8%A6%8F%E7%B4%84/</link>
+    <description>Recent content in 規約 on Nipo Plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 21 Apr 2022 12:18:27 +0900</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/tags/%E8%A6%8F%E7%B4%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>特定商取引法に基づく表記</title>
+      <link>https://nipo-plus-doc.sndbox.jp/system/business-deal/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/system/business-deal/</guid>
+      <description>Nipoはネットを媒介した販売(GOLD PLAN）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。 特定商取引につ</description>
+    </item>
+    
+    <item>
+      <title>システム利用規約</title>
+      <link>https://nipo-plus-doc.sndbox.jp/system/agree/</link>
+      <pubDate>Thu, 21 Apr 2022 12:18:27 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/system/agree/</guid>
+      <description>この利用規約（以下，「本規約」といいます。）は，合同会社サンドボックス（以下，「当社」といいます。）が本アプリ上で提供するサービス（以下，「</description>
+    </item>
+    
+  </channel>
+</rss>

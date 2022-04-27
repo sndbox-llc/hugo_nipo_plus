@@ -1,1 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日報テンプレート on Nipo Plus</title><link>https://nipo-plus-doc.sndbox.jp/tags/%E6%97%A5%E5%A0%B1%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/</link><description>Recent content in 日報テンプレート on Nipo Plus</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 21 Apr 2022 12:21:55 +0900</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/tags/%E6%97%A5%E5%A0%B1%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>数値の入力</title><link>https://nipo-plus-doc.sndbox.jp/template/math/</link><pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate><guid>https://nipo-plus-doc.sndbox.jp/template/math/</guid><description>.Resize "1200x" 集計も可能な汎用性のある数値入力フォーム 数値入力フォームは日報に数値の入力ができるようになるパーツです。 整数・小数点・負数が入力できます</description></item><item><title>日報にレート入力を追加する</title><link>https://nipo-plus-doc.sndbox.jp/template/rate/</link><pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate><guid>https://nipo-plus-doc.sndbox.jp/template/rate/</guid><description>.Resize "1200x" ワンクリックのシンプルな操作で使える入力フォーム 商品レビューなどでおなじみの入力方式です。１クリック（または１タップ）で入力ができるうえ</description></item><item><title>Checkbox</title><link>https://nipo-plus-doc.sndbox.jp/template/checkbox/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nipo-plus-doc.sndbox.jp/template/checkbox/</guid><description>.Resize "1200x" はい・いいえ ２択で回答可能な設問に最適な入力フォーム チェックボックスパーツは「はい・いいえ」や「ON・OFF」「あり・なし」のように２通</description></item><item><title>テンプレ</title><link>https://nipo-plus-doc.sndbox.jp/template/_hinagata/</link><pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate><guid>https://nipo-plus-doc.sndbox.jp/template/_hinagata/</guid><description>.Resize "1200x" タップ・クリックのシンプルな操作で使えるシンプルな入力フォーム 添付</description></item><item><title>日報に選択肢を追加する</title><link>https://nipo-plus-doc.sndbox.jp/template/select/</link><pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate><guid>https://nipo-plus-doc.sndbox.jp/template/select/</guid><description>.Resize "1200x" 予め回答を用意して、一覧から選択することで入力できます 選択肢の入力は予め用意された回答から選ぶだけで入力できるため、日報作成者の負担が少</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日報テンプレート on Nipo Plus</title>
+    <link>https://nipo-plus-doc.sndbox.jp/tags/%E6%97%A5%E5%A0%B1%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/</link>
+    <description>Recent content in 日報テンプレート on Nipo Plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 21 Apr 2022 12:21:55 +0900</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/tags/%E6%97%A5%E5%A0%B1%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数値の入力</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/math/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/math/</guid>
+      <description>.Resize &#34;1200x&#34; 集計も可能な汎用性のある数値入力フォーム 数値入力フォームは日報に数値の入力ができるようになるパーツです。 整数・小数点・負数が入力できます</description>
+    </item>
+    
+    <item>
+      <title>日報にレート入力を追加する</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/rate/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/rate/</guid>
+      <description>.Resize &#34;1200x&#34; ワンクリックのシンプルな操作で使える入力フォーム 商品レビューなどでおなじみの入力方式です。１クリック（または１タップ）で入力ができるうえ</description>
+    </item>
+    
+    <item>
+      <title>Checkbox</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/checkbox/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/checkbox/</guid>
+      <description>.Resize &#34;1200x&#34; はい・いいえ ２択で回答可能な設問に最適な入力フォーム チェックボックスパーツは「はい・いいえ」や「ON・OFF」「あり・なし」のように２通</description>
+    </item>
+    
+    <item>
+      <title>テキスト</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/text/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/text/</guid>
+      <description>.Resize &#34;1200x&#34; 業務報告本文や備考の入力に最適な日報用入力フォーム テキストはキーボードから直接文字を入力するエリアです。 見た目は１行しか入力できないよう</description>
+    </item>
+    
+    <item>
+      <title>テンプレ</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/_hinagata/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/_hinagata/</guid>
+      <description>.Resize &#34;1200x&#34; タップ・クリックのシンプルな操作で使えるシンプルな入力フォーム 添付</description>
+    </item>
+    
+    <item>
+      <title>署名</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/sign/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/sign/</guid>
+      <description>.Resize &#34;1200x&#34; 日報に手書きの署名を追加する 日報に手書きの署名（サイン）入力フォームを追加できます。電子署名のような目に見えない暗号保護と違い、目に見え</description>
+    </item>
+    
+    <item>
+      <title>日報に選択肢を追加する</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/select/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/select/</guid>
+      <description>.Resize &#34;1200x&#34; 予め回答を用意して、一覧から選択することで入力できます 選択肢の入力は予め用意された回答から選ぶだけで入力できるため、日報作成者の負担が少</description>
+    </item>
+    
+    <item>
+      <title>範囲入力</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/range/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/range/</guid>
+      <description>.Resize &#34;1200x&#34; ドラッグで直感的に入力可能な範囲入力です 本日の最低気温・最高気温のように数値で最小・最大を入力できるフォームを日報テンプレートに追加でき</description>
+    </item>
+    
+  </channel>
+</rss>

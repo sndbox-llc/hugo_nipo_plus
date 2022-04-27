@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>動作環境 on Nipo Plus</title><link>https://nipo-plus-doc.sndbox.jp/tags/%E5%8B%95%E4%BD%9C%E7%92%B0%E5%A2%83/</link><description>Recent content in 動作環境 on Nipo Plus</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/tags/%E5%8B%95%E4%BD%9C%E7%92%B0%E5%A2%83/index.xml" rel="self" type="application/rss+xml"/><item><title>動作環境</title><link>https://nipo-plus-doc.sndbox.jp/system/spec/</link><pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate><guid>https://nipo-plus-doc.sndbox.jp/system/spec/</guid><description>Webアプリ版 OS Windows / Mac / iOS / Androidで動作を確認しました 推奨ブラウザ Google Chrome / Safari 動作確認ブラウザ Microsoft Edge / FireFox / Opera その他補足 モニタサイズは13イ</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>動作環境 on Nipo Plus</title>
+    <link>https://nipo-plus-doc.sndbox.jp/tags/%E5%8B%95%E4%BD%9C%E7%92%B0%E5%A2%83/</link>
+    <description>Recent content in 動作環境 on Nipo Plus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/tags/%E5%8B%95%E4%BD%9C%E7%92%B0%E5%A2%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>動作環境</title>
+      <link>https://nipo-plus-doc.sndbox.jp/system/spec/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/system/spec/</guid>
+      <description>Webアプリ版 OS Windows / Mac / iOS / Androidで動作を確認しました 推奨ブラウザ Google Chrome / Safari 動作確認ブラウザ Microsoft Edge / FireFox / Opera その他補足 モニタサイズは13イ</description>
+    </item>
+    
+  </channel>
+</rss>

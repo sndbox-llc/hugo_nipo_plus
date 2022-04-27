@@ -35,6 +35,15 @@
     </item>
     
     <item>
+      <title>スライダ入力</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/slide/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/slide/</guid>
+      <description>.Resize &#34;1200x&#34; 数値をかんたんに入力できるスライダーを日報に追加する スライダー入力は数値を入力するためのフォームの１つです。見た目は音量調整のスライダー</description>
+    </item>
+    
+    <item>
       <title>テキスト</title>
       <link>https://nipo-plus-doc.sndbox.jp/template/text/</link>
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
@@ -49,7 +58,7 @@
       <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
       
       <guid>https://nipo-plus-doc.sndbox.jp/template/_hinagata/</guid>
-      <description>.Resize &#34;1200x&#34; タップ・クリックのシンプルな操作で使えるシンプルな入力フォーム 添付</description>
+      <description>.Resize &#34;1200x&#34; タップ・クリックのシンプルな操作で使えるシンプルな入力フォーム サンプルデータ このページで使用した実際のサンプルをダウンロードできます 添付</description>
     </item>
     
     <item>
@@ -68,6 +77,15 @@
       
       <guid>https://nipo-plus-doc.sndbox.jp/template/select/</guid>
       <description>.Resize &#34;1200x&#34; 予め回答を用意して、一覧から選択することで入力できます 選択肢の入力は予め用意された回答から選ぶだけで入力できるため、日報作成者の負担が少</description>
+    </item>
+    
+    <item>
+      <title>反復入力</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/array/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/array/</guid>
+      <description>.Resize &#34;1200x&#34; 複数の入力フォームを１つにまとめて可変長の入力として使う 反復入力は他の入力フォームを組み合わせて使用します。 反復入力に登録すると入力フォ</description>
     </item>
     
     <item>

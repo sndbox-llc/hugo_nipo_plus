@@ -15,7 +15,7 @@ draft: false
 
 
 
-チャプターを作る
+チャプターを作るよ！
 
 ```
 hugo new --kind chapter name/_index.md

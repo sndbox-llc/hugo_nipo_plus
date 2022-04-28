@@ -8,6 +8,15 @@
     <language>ja</language>
     <lastBuildDate>Thu, 21 Apr 2022 11:18:13 +0900</lastBuildDate><atom:link href="https://nipo-plus-doc.sndbox.jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>日報テンプレートの作り方</title>
+      <link>https://nipo-plus-doc.sndbox.jp/template/make/</link>
+      <pubDate>Thu, 21 Apr 2022 12:21:55 +0900</pubDate>
+      
+      <guid>https://nipo-plus-doc.sndbox.jp/template/make/</guid>
+      <description>.Resize &#34;1200x&#34; 空の日報テンプレートを作成する 最初に何もない空っぽの日報テンプレートを作成します。 .Resize &#34;1200x&#34; メニュー「グループ設定」をクリック テンプレート管理</description>
+    </item>
+    
+    <item>
       <title>動作環境</title>
       <link>https://nipo-plus-doc.sndbox.jp/system/spec/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>

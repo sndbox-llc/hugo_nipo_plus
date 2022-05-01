@@ -6,7 +6,7 @@ tags: ["日報テンプレート"]
 weight: 100
 ---
 
-{{<imgproc icatch.png Resize "1200x" />}}
+{{<imgproc icatch.png Resize "1200x" "" />}}
 
 ## タップ・クリックのシンプルな操作で使えるシンプルな入力フォーム
 

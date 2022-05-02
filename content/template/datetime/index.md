@@ -3,7 +3,7 @@ title: "日付と時刻入力フォーム"
 date: 2022-04-21T12:21:55+09:00
 draft: false
 tags: ["日報テンプレート", "入力フォーム"]
-weight: 999
+weight: 50
 ---
 
 {{<imgproc icatch.png Resize "1200x" "" />}}

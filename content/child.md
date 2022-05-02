@@ -88,3 +88,6 @@ hugo --minify
 ```
 hugo --cleanDestinationDir
 ```
+
+
+find . -name '.DS_Store' -type f -ls -delete

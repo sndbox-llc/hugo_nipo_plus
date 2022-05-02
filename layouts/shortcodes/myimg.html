@@ -1,7 +1,6 @@
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $command := .Get 1 }}
 {{ $options := .Get 2 }}
-{{ $alt := .Get 3 }}
 {{ if eq $command "Fit"}}
   {{ $img = $img.Fit $options }}
 {{ else if eq $command "Resize"}}
@@ -20,7 +19,7 @@
     {{ with .Inner }}
       {{ . }}
     {{ else }}
-      {{ $alt }}
+      .{{ $command }} "{{ $options }}"
     {{ end }}
   </small>
   </figcaption>

@@ -2,9 +2,9 @@
 date: 2022-04-21T12:18:27+09:00
 title: "日報をCSVに出力する"
 description: "受信ボックス"
-tags: ["規約"]
+tags: ["CSV出力", "日報を読む"]
 category: "system"
-weight: 12
+weight: 30
 ---
 
 ## 日報をCSVに出力する

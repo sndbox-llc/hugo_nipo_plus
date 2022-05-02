@@ -1,12 +1,12 @@
 ---
-title: "署名"
+title: "署名入力フォーム"
 date: 2022-04-21T12:21:55+09:00
 draft: false
-tags: ["日報テンプレート"]
+tags: ["日報テンプレート", "入力フォーム"]
 weight: 100
 ---
 
-{{<imgproc icatch.png Resize "1200x"/>}}
+{{<imgproc icatch.png Resize "1200x" "署名入力フォームを含んだ日報テンプレートの例" />}}
 
 ## 日報に手書きの署名を追加する
 
@@ -16,7 +16,7 @@ weight: 100
 
 ## 署名の設定
 
-{{<imgproc setting.png Resize "1200x"/>}}
+{{<imgproc setting.png Resize "1200x" "署名入力フォームの初期設定" />}}
 
 
 - 表示名
@@ -36,7 +36,7 @@ weight: 100
 ## 署名入りの日報を受け取ったときにどのように見えるのか？
 
 手書きの署名がそのまま日報に埋め込まれて表示されます
-{{<imgproc post.png Resize "1200x"/>}}
+{{<imgproc post.png Resize "1200x" "署名入力フォームを含んだ日報を受信したときの見え方" />}}
 
 ### 署名とイラストの違い
 
@@ -47,11 +47,11 @@ weight: 100
 
 CSVで出力できるのは文字、数字のみです。署名は「画像」として扱われるため、CSVに出力することはできません
 
-{{<imgproc csv.png Resize "1200x"/>}}
+{{<imgproc csv.png Resize "1200x" "署名入力フォームをCSVに出力したときの画面。署名は画像のためCSV出力に対応していません" />}}
 
 
 なお、PDFに出力したときはこのように表現されます
-{{<imgproc pdf.png Resize "1200x"/>}}
+{{<imgproc pdf.png Resize "1200x" "署名入力フォームを含む日報をPDFに出力したときの画面" />}}
 
 
 

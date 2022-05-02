@@ -1,9 +1,9 @@
 +++
 title = "組織"
 date = 2022-04-21T12:18:27+09:00
-weight = 100
+weight = 1
 chapter = true
-pre = "<b>10. </b>"
+pre = "<b>1. </b>"
 +++
 
 ### Chapter 10

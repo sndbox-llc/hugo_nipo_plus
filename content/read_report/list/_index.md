@@ -4,7 +4,7 @@ title: "日報受信BOX"
 description: "受信ボックス"
 tags: ["規約"]
 category: "system"
-weight: 12
+weight: 10
 ---
 
 ## 受信した日報を一覧で表示する

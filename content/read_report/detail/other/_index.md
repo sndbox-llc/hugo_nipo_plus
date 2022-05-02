@@ -2,8 +2,8 @@
 date: 2022-04-21T12:18:27+09:00
 title: "詳細画面のその他の機能"
 description: "受信ボックス"
-tags: ["規約"]
-category: "system"
+tags: ["日報のコピー", "タグ", "日報を読む"]
+category: "かてごり"
 weight: 100
 ---
 

@@ -6,13 +6,13 @@ tags: ["日報テンプレート"]
 weight: 1
 ---
 
-{{<imgproc icatch.png Resize "1200x" "" />}}
+{{<imgproc icatch.png Resize "1200x" "日報テンプレートの作り方" />}}
 
 ## 空の日報テンプレートを作成する
 
 最初に何もない空っぽの日報テンプレートを作成します。
 
-{{<imgproc maketemplate.png Resize "1200x" "" />}}
+{{<imgproc maketemplate.png Resize "1200x" "ブランクな日報テンプレートを作成する" />}}
 
 1. メニュー「グループ設定」をクリック
 1. テンプレート管理をクリック
@@ -27,7 +27,7 @@ weight: 1
 
 テンプレートの編集画面は次のような見た目をしています。
 
-{{<imgproc templateedit.png Resize "1200x" "" />}}
+{{<imgproc templateedit.png Resize "1200x" "日報テンプレートの編集画面" />}}
 
 大まかには３つのエリアに区分けできます
 
@@ -45,7 +45,7 @@ weight: 1
 
 追加された入力フォームは左から右へ順に詰めて配置されます。
 
-{{<imgproc width.png Resize "1200x" "" />}}
+{{<imgproc width.png Resize "1200x" "日報連プレートの入力フォーム、幅は最大で12であり、超過した入力フォームは次の行に展開されます" />}}
 
 各入力フォームでは幅を指定できます。
 1行の幅は12で固定です。これを超えると自動で次の行に入力フォームが追加されていきます。

@@ -2,7 +2,6 @@
 title: "詳細画面のその他の機能"
 description: "受信ボックス"
 tags: ["日報のコピー", "タグ", "日報を読む"]
-category: "かてごり"
 weight: 100
 ---
 

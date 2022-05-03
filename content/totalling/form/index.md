@@ -2,7 +2,6 @@
 title: "集計が可能な入力フォーム"
 description: "受信ボックス"
 tags: ["規約"]
-category: "system"
 weight: 10
 ---
 

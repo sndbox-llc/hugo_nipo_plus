@@ -2,7 +2,6 @@
 title: "日報をPDFに変換して保存"
 description: "受信ボックス"
 tags: ["規約"]
-category: "system"
 weight: 40
 ---
 

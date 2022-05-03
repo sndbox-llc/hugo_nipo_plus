@@ -2,7 +2,6 @@
 title: "日報受信BOX"
 description: "受信ボックス"
 tags: ["規約"]
-category: "system"
 weight: 10
 ---
 

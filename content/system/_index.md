@@ -6,7 +6,6 @@ chapter = true
 pre = "<b>10. </b>"
 +++
 
-### Chapter 10
 
 # 規約等
 

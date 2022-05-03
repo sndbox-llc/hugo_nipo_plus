@@ -1,6 +1,5 @@
 ---
 title: "日報テンプレート"
-date: 2022-04-21T11:18:13+09:00
 draft: false
 ---
 
@@ -12,41 +11,6 @@ draft: false
   * [Chapter 3](#chapter-3)
 
 Nipo Plusへようこそ。これは追記です
-
-更に追記してみる。Adddddddd
-
-Git hub actions　テスト
-画像をつけるぞ。 ?widthでサイズを指定できるみたいだけどあくまで表示上らしい。実際変換はされないっぽい？
-
-14:05 add
-
-14:24 add
-
-14:38 add
-
-14:58 最後のAdd
-
-チャプターを作るよ！
-
-```
-hugo new --kind chapter name/_index.md
-```
-
-普通のページを作る
-```
-hugo new チャプター名/名前/_index.md
-```
-
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-##### h5 Heading
-##### h5 Heading
-###### h6 Heading
-
-> **Fusion Drive** combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
 
 
 ## Chapter 1 <a id="chapter-1"></a>
@@ -74,20 +38,4 @@ A notice disclaimer
 {{% /notice %}}
 
 
-とめるとき
-```
-killall -9 hugo
-```
 
-## minifyビルド
-```
-hugo --minify
-```
-
-## 存在しない記事を消してくれるぱらめた
-```
-hugo --cleanDestinationDir
-```
-
-
-find . -name '.DS_Store' -type f -ls -delete

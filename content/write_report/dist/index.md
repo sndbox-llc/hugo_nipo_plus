@@ -1,6 +1,5 @@
 ---
 title: "日報の提出先"
-date: 2022-04-21T12:21:55+09:00
 draft: false
 tags: ["日報テンプレート"]
 weight: 100

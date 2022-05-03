@@ -1,5 +1,4 @@
 ---
-date: 2022-04-21T12:18:27+09:00
 title: "日報受信BOX"
 description: "受信ボックス"
 tags: ["規約"]

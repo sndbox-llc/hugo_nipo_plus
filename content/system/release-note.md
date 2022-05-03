@@ -2,7 +2,6 @@
 title: "Nipo 更新履歴"
 description: "Nipoの新しいバージョンが公開されるたびにこのページでご案内します。Android/iOS/Web版それぞれで最新のバージョンが異なる場合があります。最も早く更新されるWeb版の利用を推奨しております"
 tags: ["リリースノート", "system"]
-category: "system"
 weight: 2
 ---
 

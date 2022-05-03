@@ -2,7 +2,6 @@
 title: "CSV出力"
 description: "受信ボックス"
 tags: ["規約"]
-category: "system"
 weight: 30
 ---
 

@@ -2,7 +2,6 @@
 title: "日報の承認と棄却"
 description: "受信ボックス"
 tags: ["規約"]
-category: "system"
 weight: 10
 ---
 

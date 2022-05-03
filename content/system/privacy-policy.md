@@ -2,7 +2,6 @@
 title: "プライバシーポリシー"
 description: "クラウド日報Nipoでお客様からお預かりする個人情報の取り扱いについてのお約束事をまとめました"
 tags: ["プライバシーポリシー", "system"]
-category: "system"
 weight: 10
 ---
 

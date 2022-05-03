@@ -2,7 +2,6 @@
 title: "集計対象のテンプレート選択"
 description: "受信ボックス"
 tags: ["規約"]
-category: "system"
 weight: 20
 ---
 

@@ -2,7 +2,6 @@
 title: "動作環境"
 description: "パソコンやスマートフォン・タブレットから利用可能です。Google ChromeまたはSafariの動作する環境が必要です"
 tags: ["動作環境", "system"]
-category: "system"
 weight: 1
 ---
 

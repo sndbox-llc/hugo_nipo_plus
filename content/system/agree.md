@@ -2,7 +2,6 @@
 title: "システム利用規約"
 description: "Nipoを利用する上での利用規約になります。同じ内容のものがクラウド日報Nipoのアカウント作成後に表示されます"
 tags: ["規約"]
-category: "system"
 weight: 12
 ---
 

@@ -2,7 +2,6 @@
 title: "一定期間の日報を集計"
 description: "受信ボックス"
 tags: ["規約"]
-category: "system"
 weight: 20
 ---
 

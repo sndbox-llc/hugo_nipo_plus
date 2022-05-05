@@ -9,4 +9,4 @@ weight: 111
 
 タグの管理
 
-{{<imgproc dummy.png Resize "1200x" "" />}}
+{{<imgproc mock.png Resize "1200x" "" />}}

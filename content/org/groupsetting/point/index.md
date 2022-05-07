@@ -1,9 +1,9 @@
----
-title: "ポイント管理"
-draft: false
-tags: ["日報テンプレート"]
-weight: 111
----
++++
+title = "ポイント管理"
+draft = false
+tags = ["日報テンプレート"]
+weight = 111
++++
 
 ## ポイント管理
 

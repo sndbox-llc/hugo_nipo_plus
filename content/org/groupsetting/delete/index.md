@@ -1,9 +1,9 @@
----
-title: "日報の一括削除"
-draft: false
-tags: ["日報テンプレート"]
-weight: 111
----
++++
+title = "日報の一括削除"
+draft = false
+tags = ["日報テンプレート"]
+weight = 111
++++
 
 ## グループ内の日報をまとめて削除
 

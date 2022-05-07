@@ -1,9 +1,9 @@
----
-title: "CSV出力"
-description: "受信ボックス"
-tags: ["規約"]
-weight: 30
----
++++
+title = "CSV出力"
+description = "受信ボックス"
+tags = ["規約"]
+weight = 30
++++
 
 ## 集計対象の日報を全てCSV出力する
 集計された日報をそのままCSVに出力できます。

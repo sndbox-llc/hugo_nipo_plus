@@ -1,9 +1,9 @@
----
-title: "下書きの日報を清書する"
-draft: false
-tags: ["日報テンプレート"]
-weight: 10
----
++++
+title = "下書きの日報を清書する"
+draft = false
+tags = ["日報テンプレート"]
+weight = 10
++++
 
 ## 下書きの日報について
 

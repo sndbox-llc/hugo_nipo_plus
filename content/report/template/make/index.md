@@ -1,9 +1,9 @@
----
-title: "日報テンプレートの作り方"
-draft: false
-tags: ["日報テンプレート"]
-weight: 1
----
++++
+title = "日報テンプレートの作り方"
+draft = false
+tags = ["日報テンプレート"]
+weight = 1
++++
 
 {{<imgproc icatch.png Resize "1200x" "日報テンプレートの作り方" />}}
 

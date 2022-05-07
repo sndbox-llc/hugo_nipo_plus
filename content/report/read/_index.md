@@ -1,6 +1,5 @@
 +++
 title = "日報を読む"
-date = 2022-04-21T12:18:27+09:00
 weight = 30
 chapter = true
 pre = "<b>1. </b>"

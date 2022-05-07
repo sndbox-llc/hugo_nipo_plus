@@ -1,7 +1,6 @@
 +++
 title = "タイムカード"
-date = 2022-04-21T12:18:27+09:00
-weight = 100
+weight = 50
 chapter = true
 pre = "<b>1. </b>"
 +++

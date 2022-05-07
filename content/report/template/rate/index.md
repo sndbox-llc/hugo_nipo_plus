@@ -1,9 +1,9 @@
----
-title: "レート入力フォームフォーム"
-draft: false
-tags: ["日報テンプレート", "入力フォーム"]
-weight: 100
----
++++
+title = "レート入力フォームフォーム"
+draft = false
+tags = ["日報テンプレート", "入力フォーム"]
+weight = 100
++++
 
 {{<imgproc icatch.png Resize "1200x" "レート入力フォームを含んだ日報テンプレート" />}}
 

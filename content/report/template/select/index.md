@@ -1,9 +1,9 @@
----
-title: "選択肢入力フォーム"
-draft: false
-tags: ["日報テンプレート", "入力フォーム"]
-weight: 20
----
++++
+title = "選択肢入力フォーム"
+draft = false
+tags = ["日報テンプレート", "入力フォーム"]
+weight = 20
++++
 
 {{<imgproc icatch.png Resize "1200x" "選択肢入力フォームを含んだ日報テンプレート" />}}
 

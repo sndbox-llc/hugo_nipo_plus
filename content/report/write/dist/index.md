@@ -1,9 +1,9 @@
----
-title: "日報の提出先"
-draft: false
-tags: ["日報テンプレート"]
-weight: 100
----
++++
+title = "日報の提出先"
+draft = false
+tags = ["日報テンプレート"]
+weight = 100
++++
 
 ## 日報の提出先
 

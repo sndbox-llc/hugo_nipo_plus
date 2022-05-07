@@ -1,7 +1,7 @@
----
-title: "日報テンプレート"
-draft: false
----
++++
+title = "日報テンプレート"
+draft = false
++++
 
 {{% children  %}}
 

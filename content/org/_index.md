@@ -2,6 +2,7 @@
 title = "組織"
 weight = 10
 chapter = true
+description = "チャプター"
 pre = "<b>1. </b>"
 +++
 

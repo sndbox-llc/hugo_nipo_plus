@@ -2,6 +2,7 @@
 title = "ご利用料金"
 weight = 110
 chapter = true
+description = "チャプター"
 pre = "<b>10. </b>"
 +++
 

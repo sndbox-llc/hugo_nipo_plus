@@ -2,6 +2,7 @@
 title = "タイムカード"
 weight = 50
 chapter = true
+description = "チャプター"
 pre = "<b>1. </b>"
 +++
 

@@ -1,6 +1,7 @@
 +++
 title = "アカウント管理"
 weight = 100
+description = "チャプター"
 chapter = true
 pre = "<b>10. </b>"
 +++

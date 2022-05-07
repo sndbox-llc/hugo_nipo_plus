@@ -1,9 +1,9 @@
----
-title: "グループ内の設定"
-draft: false
-tags: ["日報テンプレート"]
-weight: 100
----
++++
+title = "グループ内の設定"
+draft = false
+tags = ["日報テンプレート"]
+weight = 100
++++
 
 ## グループ内の詳細設定ができるスタッフ
 

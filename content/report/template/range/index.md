@@ -1,9 +1,9 @@
----
-title: "範囲入力フォーム"
-draft: false
-tags: ["日報テンプレート", "入力フォーム"]
-weight: 100
----
++++
+title = "範囲入力フォーム"
+draft = false
+tags = ["日報テンプレート", "入力フォーム"]
+weight = 100
++++
 
 {{<imgproc icatch.png Resize "1200x" "範囲入力フォームを含んだ日報テンプレート" />}}
 

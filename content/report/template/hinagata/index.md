@@ -1,9 +1,9 @@
----
-title: "テンプレ"
-draft: false
-tags: ["日報テンプレート"]
-weight: 999
----
++++
+title = "テンプレ"
+draft = false
+tags = ["日報テンプレート"]
+weight = 999
++++
 
 {{<imgproc icatch.png Resize "1200x" "" />}}
 

@@ -1,9 +1,9 @@
----
-title: "ファイル入力フォーム"
-draft: false
-tags: ["日報テンプレート"]
-weight: 999
----
++++
+title = "ファイル入力フォーム"
+draft = false
+tags = ["日報テンプレート"]
+weight = 999
++++
 
 {{<imgproc icatch.png Resize "1200x" "" />}}
 

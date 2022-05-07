@@ -1,9 +1,9 @@
----
-title: "日報をCSVに出力する"
-description: "受信ボックス"
-tags: ["CSV出力", "日報を読む"]
-weight: 30
----
++++
+title = "日報をCSVに出力する"
+description = "受信ボックス"
+tags = ["CSV出力", "日報を読む"]
+weight = 30
++++
 
 ## 日報をCSVに出力する
 

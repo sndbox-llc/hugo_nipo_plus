@@ -1,7 +1,6 @@
 +++
 title = "ご利用料金"
-date = 2022-04-21T12:18:27+09:00
-weight = 999
+weight = 110
 chapter = true
 pre = "<b>10. </b>"
 +++

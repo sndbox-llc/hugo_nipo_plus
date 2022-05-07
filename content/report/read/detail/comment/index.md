@@ -1,9 +1,9 @@
----
-title: "日報にコメントを書く"
-description: "受信ボックス"
-tags: ["規約"]
-weight: 12
----
++++
+title = "日報にコメントを書く"
+description = "受信ボックス"
+tags = ["規約"]
+weight = 12
++++
 
 ## 日報にコメントを書く
 

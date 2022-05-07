@@ -1,9 +1,9 @@
----
-title: "日報の承認と棄却"
-description: "受信ボックス"
-tags: ["規約"]
-weight: 10
----
++++
+title= "日報の承認と棄却"
+description= "受信ボックス"
+tags= ["規約"]
+weight= 10
++++
 
 ## 日報の詳細表示
 

@@ -1,6 +1,5 @@
 +++
 title = "日報の詳細表示画面"
-date = 2022-04-21T12:18:27+09:00
 weight = 20
 chapter = true
 +++

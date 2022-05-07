@@ -1,9 +1,9 @@
----
-title: "日付と時刻入力フォーム"
-draft: false
-tags: ["日報テンプレート", "入力フォーム"]
-weight: 50
----
++++
+title = "日付と時刻入力フォーム"
+draft = false
+tags = ["日報テンプレート", "入力フォーム"]
+weight = 50
++++
 
 {{<imgproc icatch.png Resize "1200x" "" />}}
 

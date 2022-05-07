@@ -1,6 +1,6 @@
 +++
 title = "組織"
-weight = 1
+weight = 10
 chapter = true
 pre = "<b>1. </b>"
 +++

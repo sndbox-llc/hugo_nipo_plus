@@ -1,7 +1,7 @@
----
-title: "クラウド日報 Nipo Plus"
-draft: false
----
++++
+title = "クラウド日報 Nipo Plus"
+draft = false
++++
 
 # カスタマイズ可能な日報アプリ Nipo Plus
 

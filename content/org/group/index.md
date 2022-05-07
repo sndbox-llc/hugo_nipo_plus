@@ -1,9 +1,9 @@
----
-title: "グループを作成する"
-draft: false
-tags: ["日報テンプレート"]
-weight: 100
----
++++
+title = "グループを作成する"
+draft = false
+tags = ["日報テンプレート"]
+weight = 100
++++
 
 ## グループの役割について
 

@@ -1,9 +1,9 @@
----
-title: "集計対象のテンプレート選択"
-description: "受信ボックス"
-tags: ["規約"]
-weight: 20
----
++++
+title = "集計対象のテンプレート選択"
+description = "受信ボックス"
+tags = ["規約"]
+weight = 20
++++
 
 
 1. 日報の集計をクリック

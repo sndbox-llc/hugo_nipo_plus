@@ -1,9 +1,9 @@
----
-title: "日報受信BOX"
-description: "受信ボックス"
-tags: ["規約"]
-weight: 10
----
++++
+title = "日報受信BOX"
+description = "受信ボックス"
+tags = ["規約"]
+weight = 10
++++
 
 ## 受信した日報を一覧で表示する
 

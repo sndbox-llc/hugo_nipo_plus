@@ -6,4 +6,3 @@ weight = 30
 +++
 
 {{<imgproc mock.png Resize "1200x" "" />}}
-

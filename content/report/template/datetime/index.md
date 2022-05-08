@@ -2,7 +2,7 @@
 title = "日付と時刻入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム"]
-weight = 50
+weight = 150
 +++
 
 {{<imgproc icatch.png Resize "1200x" "" />}}

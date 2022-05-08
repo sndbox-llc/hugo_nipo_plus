@@ -2,7 +2,7 @@
 title = "チェックボックス入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム"]
-weight = 100
+weight = 170
 +++
 
 {{<imgproc icatch.png Resize "1200x" "チェックボックス入力フォームを含んだ日報の作成画面" />}}

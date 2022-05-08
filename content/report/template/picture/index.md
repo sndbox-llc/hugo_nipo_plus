@@ -2,7 +2,7 @@
 title = "写真入力フォーム"
 draft = false
 tags = ["日報テンプレート"]
-weight = 999
+weight = 220
 +++
 
 {{<imgproc icatch.png Resize "1200x" "" />}}

@@ -1,8 +1,8 @@
 +++
-title = "テンプレ"
-draft = true
+title = "選択肢入力フォーム(複)"
+draft = false
 tags = ["日報テンプレート"]
-weight = 999
+weight = 130
 +++
 
 {{<imgproc icatch.png Resize "1200x" "" />}}

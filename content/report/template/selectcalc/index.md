@@ -2,7 +2,7 @@
 title = "選択肢（２層式）入力フォーム"
 draft = false
 tags = ["日報テンプレート"]
-weight = 40
+weight = 140
 +++
 
 {{<imgproc icatch.png Resize "1200x" "" />}}

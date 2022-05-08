@@ -2,7 +2,7 @@
 title = "テキスト入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム"]
-weight = 10
+weight = 100
 +++
 
 {{<imgproc icatch.png Resize "1200x" "テキスト入力フォームを含んだ日報テンプレート" />}}

@@ -2,7 +2,7 @@
 title = "スライダ入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム"]
-weight = 100
+weight = 300
 +++
 
 {{<imgproc icatch.png Resize "1200x" "スライダ入力フォームを含んだ日報テンプレートの画面" />}}

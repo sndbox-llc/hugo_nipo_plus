@@ -2,7 +2,7 @@
 title = "数値入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "集計"]
-weight = 100
+weight = 330
 +++
 
 {{<imgproc icatch.png Resize "1200x" "数値入力フォームを含んだ日報テンプレートの作成画面" />}}

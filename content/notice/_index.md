@@ -1,7 +1,7 @@
 +++
 title = "通知機能について"
 weight = 60
-description = "チャプター"
+# description = "チャプター"
 chapter = true
 pre = "<b>1. </b>"
 +++

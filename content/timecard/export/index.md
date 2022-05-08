@@ -1,7 +1,7 @@
 +++
 title = "タイムカードの集計・ダウンロード"
-description = "受信ボックス"
-tags = ["規約"]
+# description = "チャプター"
+tags = ["タイムカード"]
 weight = 30
 +++
 

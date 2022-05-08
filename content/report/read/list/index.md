@@ -1,7 +1,7 @@
 +++
 title = "日報受信BOX"
-description = "受信ボックス"
-tags = ["規約"]
+# description = "チャプター"
+tags = ["日報"]
 weight = 10
 +++
 

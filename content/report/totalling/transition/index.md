@@ -1,7 +1,7 @@
 +++
 title = "日報のデータ推移を分析"
-description = "受信ボックス"
-tags = ["規約"]
+# description = "チャプター"
+tags = ["日報テンプレート", "日報の集計"]
 weight = 20
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "タイムカードをリスト表示する"
-description = "受信ボックス"
-tags = ["規約", "編集者"]
+# description = "チャプター"
+tags = ["タイムカード", "編集者権限"]
 weight = 20
 +++
 

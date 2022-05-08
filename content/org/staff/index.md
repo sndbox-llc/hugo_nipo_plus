@@ -2,7 +2,7 @@
 title = "組織にスタッフを追加する"
 draft = false
 tags = ["日報テンプレート"]
-weight = 100
+weight = 20
 +++
 
 

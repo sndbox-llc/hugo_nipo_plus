@@ -2,7 +2,7 @@
 title = "グループを作成する"
 draft = false
 tags = ["日報テンプレート"]
-weight = 100
+weight = 10
 +++
 
 ## グループの役割について

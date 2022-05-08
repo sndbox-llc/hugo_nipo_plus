@@ -1,7 +1,7 @@
 +++
 title = "CSV出力"
-description = "受信ボックス"
-tags = ["規約"]
+# description = "チャプター"
+tags = ["CSV出力"]
 weight = 30
 +++
 

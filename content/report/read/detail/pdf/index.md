@@ -1,7 +1,7 @@
 +++
-title= "日報をPDFに変換して保存"
-description= "受信ボックス"
-tags = ["規約"]
+title = "日報をPDFに変換して保存"
+# description = "チャプター"
+tags = ["日報", "PDF"]
 weight = 40
 +++
 

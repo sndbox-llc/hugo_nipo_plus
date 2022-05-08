@@ -1,7 +1,7 @@
 +++
 title = "日報にコメントを書く"
-description = "受信ボックス"
-tags = ["規約"]
+# description = "チャプター"
+tags = ["日報", "コメント"]
 weight = 12
 +++
 

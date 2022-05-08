@@ -1,7 +1,7 @@
 +++
 title = "日報をCSVに出力する"
-description = "受信ボックス"
-tags = ["CSV出力", "日報を読む"]
+# description = "チャプター"
+tags = ["CSV出力", "日報"]
 weight = 30
 +++
 

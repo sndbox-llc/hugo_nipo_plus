@@ -1,7 +1,7 @@
 +++
 title = "グループ内のログデータを確認"
 draft = false
-tags = ["日報テンプレート"]
+tags = ["ログ"]
 weight = 111
 +++
 

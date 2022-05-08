@@ -1,7 +1,7 @@
 +++
 title = "システム概要"
 weight = 999
-description = "チャプター"
+# description = "チャプター"
 chapter = true
 pre = "<b>10. </b>"
 +++

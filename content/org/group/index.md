@@ -1,7 +1,7 @@
 +++
 title = "グループを作成する"
 draft = false
-tags = ["日報テンプレート"]
+tags = ["グループ", "管理者権限"]
 weight = 10
 +++
 

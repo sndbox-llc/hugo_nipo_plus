@@ -1,8 +1,8 @@
 +++
 title = "グループ内のスタッフ管理"
 draft = false
-description = "チャプター"
-tags = ["スタッフ管理", "編集者権限"]
+# description = "チャプター"
+tags = ["スタッフ管理", "編集者権限", "グループ"]
 weight = 111
 +++
 

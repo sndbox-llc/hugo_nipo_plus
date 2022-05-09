@@ -1,9 +1,6 @@
-.fukidashi-wrapper {
-  width: 100%;
-  align-items: center;
-  margin: 1.5em 0;
-  display: flex;
-}
+/**
+アリス吹き出し
+*/
 .right {
   flex-direction: row-reverse;
 }
@@ -11,31 +8,28 @@
   flex-direction: row;
 }
 
-figure.fukidashi-figure {
-  width: 100px;
-  height: 100px;
-}
-
-img.fukidashi-image {
-  margin: 0 !important;
-  min-width: 100px;
-  min-height: 100px;
-  object-fit: cover;
+.mywrap {
+  display: flex;
+  align-items: center;
+  .side {
+    width: 100px;
+  }
+  .main {
+    flex: 1;
+  }
 }
 
 .fukidashi-main {
   position: relative;
-  padding: 1.35em !important;
-  display: inline-block;
+  margin: 0.5em;
+  padding: 1.35em;
   border-radius: 12px;
-  min-width: 150px;
+  min-width: 100px;
+  max-width: 95%;
   color: #888;
   background: #fff;
   border: solid 3px #888;
-  box-sizing: border-box;
-  margin: 1.5em;
   &__left {
-    max-width: calc(100% - 100px);
     &:before {
       content: "";
       position: absolute;
@@ -58,7 +52,6 @@ img.fukidashi-image {
     }
   }
   &__right {
-    max-width: calc(100% - 100px);
     &:before {
       content: "";
       position: absolute;
@@ -79,16 +72,5 @@ img.fukidashi-image {
       border-left: 14px solid #888;
       z-index: 1;
     }
-  }
-}
-
-.mywrap {
-  display: flex;
-  align-items: center;
-  .side {
-    width: 100px;
-  }
-  .main {
-    flex: 1;
   }
 }

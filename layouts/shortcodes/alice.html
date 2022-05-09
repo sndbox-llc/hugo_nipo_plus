@@ -1,9 +1,9 @@
-<div class="mywrap {{ .Get "position" }}">
+<div class="mywrap {{ .Get "pos" }}">
   <div class="side">
     <img class="fukidashi-image" src='/images/alice/{{.Get "icon"}}.png' style="min-width: 40px">
   </div>
   <div class="main">
-    <div class='fukidashi-main fukidashi-main__{{.Get "position"}}'>
+    <div class='fukidashi-main fukidashi-main__{{.Get "pos"}}'>
       <p> {{ .Inner | markdownify }}</p>
     </div>
   </div>

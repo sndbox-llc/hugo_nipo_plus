@@ -7,11 +7,12 @@ draft = false
 
 {{<imgproc icatch.png Resize "1200x" "日報作成画面" />}}
 
-{{<alice position="left" icon="pc">}}
+
+{{<alice pos="left" icon="pc">}}
 **パソコン**はもちろん
 {{</alice>}}
 
-{{<alice position="right" icon="tablet">}}
+{{<alice pos="right" icon="tablet">}}
 **スマートフォン、タブレット**でも使える日報アプリです
 {{</alice>}}
 

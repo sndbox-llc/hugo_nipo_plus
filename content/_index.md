@@ -7,17 +7,12 @@ draft = false
 
 {{<imgproc icatch.png Resize "1200x" "日報作成画面" />}}
 
-{{<alice position="left" path="default">}}
-吹き出してすとだよー
-**強調とか**できるかな？
+{{<alice position="left" icon="pc">}}
+**パソコン**はもちろん
 {{</alice>}}
 
-{{<alice position="right" path="default">}}
-右向き吹き出しだよー？aaaaaaaaaかきくけこ
-右向き吹き出しだよー？aaaaaaaaaかきくけこ
-右向き吹き出しだよー？aaaaaaaaaかきくけこ
-右向き吹き出しだよー？aaaaaaaaaかきくけこ
-右向き吹き出しだよー？aaaaaaaaaかきくけこ
+{{<alice position="right" icon="tablet">}}
+**スマートフォン、タブレット**でも使える日報アプリです
 {{</alice>}}
 
 {{% children  %}}

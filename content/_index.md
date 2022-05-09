@@ -7,16 +7,18 @@ draft = false
 
 {{<imgproc icatch.png Resize "1200x" "日報作成画面" />}}
 
-{{<alice position="left" path="default.png">}}
+{{<alice position="left" path="default">}}
 吹き出してすとだよー
 **強調とか**できるかな？
 {{</alice>}}
 
-
-{{<alice position="right" path="default.png">}}
-右向き吹き出しだよー？
+{{<alice position="right" path="default">}}
+右向き吹き出しだよー？aaaaaaaaaかきくけこ
+右向き吹き出しだよー？aaaaaaaaaかきくけこ
+右向き吹き出しだよー？aaaaaaaaaかきくけこ
+右向き吹き出しだよー？aaaaaaaaaかきくけこ
+右向き吹き出しだよー？aaaaaaaaaかきくけこ
 {{</alice>}}
-
 
 {{% children  %}}
 

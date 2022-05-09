@@ -2,7 +2,7 @@
 title = "下書きの日報を清書する"
 draft = false
 tags = ["日報の作成と提出", "下書き日報"]
-weight = 10
+weight = 40
 +++
 
 ## 下書きの日報について

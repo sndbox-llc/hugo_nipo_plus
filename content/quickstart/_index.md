@@ -6,12 +6,14 @@ pre = "<b>1. </b>"
 # description = "チャプター"
 +++
 
-初めてNipo Plusをご利用の方へ向けた、導入から使用開始までの流れを必要最小限に絞ってご紹介します。  
+初めてNipoPlusをご利用の方へ向けた、導入から使用開始までの流れを必要最小限に絞ってご紹介します。  
+{{<alice position="left" icon="default">}}
 実際に使い始めるまでにかかる時間は5分程度です
 
+{{</alice>}}
 ## アカウントの作成
 
-1. [Nipo Plusにアクセス](https://nipo-plus.web.app/)する
+1. [NipoPlusにアクセス](https://nipo-plus.web.app/)する
 1. 「アカウントの作成」をクリック
 1. E-mail・パスワードを設定
 
@@ -47,7 +49,7 @@ NipoPlusを使う上で必要な設定のうち、最低限行うべき設定は
 {{<imgproc makestaff.png Resize "1200x" "スタッフのアカウントを作成するには、組織設定＞スタッフのアカウントの作成＞の順に操作します" />}}
 
 これでスタッフが1名追加されました。  
-スタッフの実際に使用するPCから[Nipo Plusにアクセス](https://nipo-plus.web.app/)し、実際にログインできることを確認してください。  
+スタッフの実際に使用するPCから[NipoPlusにアクセス](https://nipo-plus.web.app/)し、実際にログインできることを確認してください。  
 パスワードはアカウント作成時に表示されていますが、スタッフ自身が自由に変更できます。詳しくは[パスワード変更](/account/password/)を御覧ください。
 
 {{% notice note %}}

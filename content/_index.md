@@ -1,9 +1,9 @@
 +++
-title = "クラウド日報 Nipo Plus"
+title = "クラウド日報 NipoPlus"
 draft = false
 +++
 
-# カスタマイズ可能な日報アプリ Nipo Plus
+# カスタマイズ可能な日報アプリ NipoPlus
 
 {{<imgproc icatch.png Resize "1200x" "日報作成画面" />}}
 
@@ -19,35 +19,24 @@ draft = false
 
 ## Table of Contents
 
-* [Chapter 1](#h1-heading)
+* [Chapter 1](#chapter-1)
 * [Chapter 2](#chapter-2)
 * [Chapter 3](#chapter-3)
 
-Nipo Plusへようこそ。これは追記です
+NipoPlusへようこそ。これは追記です
 
 ## Chapter 1
 
 Content for chapter one.
 
-## Chapter 2 <a id="chapter-2"></a>
+## Chapter 2
 
 Content for chapter one.
 
-## Chapter 3 <a id="chapter-3"></a>
+## Chapter 3
 
 Content for chapter one.
-
-{{%expand "Is this learn theme rocks ?" %}}Yes !.{{% /expand%}}
-
-{{<mermaid align="left">}}
-graph LR;
-    A[はじまるお] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-{{< /mermaid >}}
 
 {{% notice note %}}
 A notice disclaimer
 {{% /notice %}}
-

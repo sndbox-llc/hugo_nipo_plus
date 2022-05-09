@@ -2,7 +2,7 @@ baseURL = 'https://nipo-plus-doc.sndbox.jp/'
 languageCode = "ja"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
-title = 'Nipo Plus'
+title = 'NipoPlus'
 theme = "learn"
 publishDir = "docs"
 canonifyurls = true
@@ -55,7 +55,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
   titleSeparator = "|"
 
 [[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> Nipo Plus"
+name = "<i class='fab fa-github'></i> NipoPlus"
 identifier = "ds"
 url = "https://nipo-plus.web.app/"
 weight = 10

@@ -1,1 +1,21 @@
 @import "fukidashi.scss";
+
+h1 {
+  padding: 30px 0;
+  border-bottom: 3px #ccc solid;
+}
+h2 {
+  color: white;
+  background-color: blueviolet;
+  padding: 10px 15px;
+  font-size: 160%;
+}
+
+h3 {
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+  border-left: 10px solid blueviolet;
+  padding: 10px 15px;
+  font-size: 140%;
+  font-weight: 600;
+}

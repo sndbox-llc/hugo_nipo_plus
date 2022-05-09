@@ -4,9 +4,9 @@ URL
 
 https://nipo-plus-doc.sndbox.jp/
 
-## クラウド日報Nipo Plus公式Webサイト
+## クラウド日報NipoPlus公式Webサイト
 
-このリポジトリはクラウド日報 Nipo Plusの公式Webサイトです。  
+このリポジトリはクラウド日報 NipoPlusの公式Webサイトです。  
 静的サイトジェネレータ「[Hugo](https://gohugo.io/)」で作成されています。
 テーマには [Hugo Learn](https://learn.netlify.app/en/)を使用しています。
 

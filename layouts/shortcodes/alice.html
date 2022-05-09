@@ -1,0 +1,10 @@
+<div class="mywrap {{ .Get "position" }}">
+  <div class="side">
+    <img class="fukidashi-image" src="/images/alice/{{.Get "path"}}">
+  </div>
+  <div class="main">
+    <div class="fukidashi-main fukidashi-main__{{.Get "position"}}">
+      <p> {{ .Inner | markdownify }}</p>
+    </div>
+  </div>
+</div>

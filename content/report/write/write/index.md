@@ -2,7 +2,7 @@
 title = "日報を書くまでの流れ"
 draft = false
 tags = ["日報を書く", "日報テンプレート", "提出先", "共有先"]
-weight = 100
+weight = 10
 +++
 
 

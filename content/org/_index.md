@@ -1,5 +1,5 @@
 +++
-title = "組織"
+title = "組織全般の設定"
 weight = 10
 chapter = true
 # description = "チャプター"

@@ -10,11 +10,10 @@
 
 .mywrap {
   display: flex;
+  width: 100%;
   align-items: center; }
   .mywrap .side {
     width: 100px; }
-  .mywrap .main {
-    flex: 1; }
 
 .fukidashi-main {
   position: relative;
@@ -22,7 +21,7 @@
   padding: 1.35em;
   border-radius: 12px;
   min-width: 100px;
-  max-width: 95%;
+  max-width: 600px;
   color: #888;
   background: #fff;
   border: solid 3px #888; }
@@ -62,3 +61,21 @@
     border: 14px solid transparent;
     border-left: 14px solid #888;
     z-index: 1; }
+
+h1 {
+  padding: 30px 0;
+  border-bottom: 3px #ccc solid; }
+
+h2 {
+  color: white;
+  background-color: blueviolet;
+  padding: 10px 15px;
+  font-size: 160%; }
+
+h3 {
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+  border-left: 10px solid blueviolet;
+  padding: 10px 15px;
+  font-size: 140%;
+  font-weight: 600; }

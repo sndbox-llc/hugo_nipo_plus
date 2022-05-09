@@ -7,6 +7,17 @@ draft = false
 
 {{<imgproc icatch.png Resize "1200x" "日報作成画面" />}}
 
+{{<alice position="left" path="default.png">}}
+吹き出してすとだよー
+**強調とか**できるかな？
+{{</alice>}}
+
+
+{{<alice position="right" path="default.png">}}
+右向き吹き出しだよー？
+{{</alice>}}
+
+
 {{% children  %}}
 
 ## Table of Contents
@@ -42,3 +53,4 @@ graph LR;
 {{% notice note %}}
 A notice disclaimer
 {{% /notice %}}
+

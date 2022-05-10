@@ -22,7 +22,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
   # Description of the site, will be used in meta information
   description = "クラウド型日報管理システム。テンプレートのカスタマイズやスマホからの日報提出、CSVエクスポートも完備"
   # Shows a checkmark for visited pages on the menu
-  showVisitedLinks = false
+  showVisitedLinks = true
   # Disable search function. It will hide search bar
   disableSearch = true
   # Javascript and CSS cache are automatically busted when new version of site is generated.
@@ -55,12 +55,12 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
   titleSeparator = "|"
 
 [[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> NipoPlus"
-identifier = "ds"
+
+name = "NipoPlusを起動"
 url = "https://nipo-plus.web.app/"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tags'></i> Tags"
+name = "<i class='fas fa-tags'></i> タグ一覧"
 url = "/tags"
 weight = 30

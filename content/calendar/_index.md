@@ -3,7 +3,7 @@ title = "カレンダー機能"
 weight = 40
 chapter = true
 # description = "チャプター"
-pre = "<b>1. </b>"
+pre = "<b>4. </b>"
 +++
 
 # カレンダー

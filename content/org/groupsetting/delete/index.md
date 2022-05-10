@@ -2,7 +2,7 @@
 title = "日報の一括削除"
 draft = false
 tags = ["日報", "管理者権限"]
-weight = 111
+weight = 80
 +++
 
 ## グループ内の日報をまとめて削除

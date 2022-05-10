@@ -2,7 +2,7 @@
 title = "グループ内のログデータを確認"
 draft = false
 tags = ["ログ"]
-weight = 111
+weight = 70
 +++
 
 ## ログデータ取得

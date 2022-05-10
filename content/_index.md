@@ -17,27 +17,3 @@ draft = false
 {{</alice>}}
 
 {{% children  %}}
-
-## Table of Contents
-
-* [Chapter 1](#chapter-1)
-* [Chapter 2](#chapter-2)
-* [Chapter 3](#chapter-3)
-
-NipoPlusへようこそ。これは追記です
-
-## Chapter 1
-
-Content for chapter one.
-
-## Chapter 2
-
-Content for chapter one.
-
-## Chapter 3
-
-Content for chapter one.
-
-{{% notice note %}}
-A notice disclaimer
-{{% /notice %}}

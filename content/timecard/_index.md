@@ -3,7 +3,7 @@ title = "タイムカード"
 weight = 50
 chapter = true
 # description = "チャプター"
-pre = "<b>1. </b>"
+pre = "<b>5. </b>"
 +++
 
 # 労働時間を管理

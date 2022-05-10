@@ -3,7 +3,7 @@ title = "システム概要"
 weight = 999
 # description = "チャプター"
 chapter = true
-pre = "<b>10. </b>"
+pre = "<b>9. </b>"
 +++
 
 

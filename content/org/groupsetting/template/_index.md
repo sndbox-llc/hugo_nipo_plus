@@ -1,6 +1,6 @@
 +++
 title = "日報テンプレート"
-weight = 10
+weight = 100
 chapter = true
 # description = "チャプター"
 pre = "<b>1. </b>"

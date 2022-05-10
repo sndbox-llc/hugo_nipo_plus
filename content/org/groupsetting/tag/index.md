@@ -2,7 +2,7 @@
 title = "タグの管理"
 draft = false
 tags = ["日報テンプレート", "編集者権限", "タグ"]
-weight = 111
+weight = 40
 +++
 
 ## タグ管理

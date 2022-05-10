@@ -2,7 +2,7 @@
 title = "ポイント管理"
 draft = false
 tags = ["日報テンプレート", "ポイント管理"]
-weight = 111
+weight = 60
 +++
 
 ## ポイント管理

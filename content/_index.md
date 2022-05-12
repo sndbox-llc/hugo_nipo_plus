@@ -3,7 +3,7 @@ title = "クラウド日報 NipoPlus"
 draft = false
 +++
 
-# カスタマイズ可能な日報アプリ NipoPlus
+# カスタマイズ可能な日報アプリ NipoPlusです
 
 {{<imgproc icatch.png Resize "1200x" "日報作成画面" />}}
 

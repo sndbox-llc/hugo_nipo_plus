@@ -1,5 +1,5 @@
 +++
-title = "タグの管理"
+title = "タグの管理."
 draft = false
 tags = ["日報テンプレート", "編集者権限", "タグ"]
 weight = 40

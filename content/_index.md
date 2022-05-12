@@ -15,5 +15,3 @@ draft = false
 {{<alice pos="right" icon="tablet">}}
 **スマートフォン、タブレット**でも使える日報アプリです
 {{</alice>}}
-
-{{% children  %}}

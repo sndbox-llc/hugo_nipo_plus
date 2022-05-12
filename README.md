@@ -4,12 +4,11 @@ URL
 
 https://nipo-plus-doc.sndbox.jp/
 
-## クラウド日報NipoPlus公式Webサイト...
+## クラウド日報NipoPlus公式Webサイト
 
 このリポジトリはクラウド日報 NipoPlusの公式Webサイトです。  
 静的サイトジェネレータ「[Hugo](https://gohugo.io/)」で作成されています。
 テーマには [Hugo Learn](https://learn.netlify.app/en/)を使用しています。
-
 
 ## 使いかた
 
@@ -35,50 +34,49 @@ _index.mdとindex.mdは似ていますが微妙に違うため注意が必要で
 
 各ページによく使われます。更新日付が表示されます
 
-
-
-
 ### よく使うコマンド
 
 ローカルでサーバ起動
 
-```
+``` sh
 hugo server -D
 ```
 
 ポートが何故か開放されないとき強制的にポートをあける
 
-```
+``` sh
 killall -9 hugo
 ```
 
 Macの DS_Storeファイルを駆逐する
 
-```
+``` sh
 find . -name '.DS_Store' -type f -ls -delete
 ```
 
-
 チャプターの新規作成
-```
+
+``` sh
 hugo new --kind chapter name/_index.md
 ```
 
 普通のページの新規作成
-```
+
+``` sh
 hugo new チャプター名/名前/_index.md
 ```
-
 
 ### ビルド系コマンド（基本的にGit Actionsで処理するためあまり使わない）
 
 minifyビルド
-```
+
+``` sh
 hugo --minify
 ```
 
 存在しない記事を消してくれるぱらめた
-```
+
+``` sh
 hugo --cleanDestinationDir
 ```
 

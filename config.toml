@@ -4,7 +4,6 @@ defaultContentLanguage = "ja"
 hasCJKLanguage = true
 title = 'NipoPlus'
 theme = "learn"
-publishDir = "docs"
 canonifyurls = true
 enableGitInfo = true
 

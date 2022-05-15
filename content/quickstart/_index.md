@@ -9,8 +9,8 @@ pre = "<b>0. </b>"
 初めてNipoPlusをご利用の方へ向けた、導入から使用開始までの流れを必要最小限に絞ってご紹介します。  
 {{<alice pos="left" icon="default">}}
 実際に使い始めるまでにかかる時間は5分程度です
-
 {{</alice>}}
+
 ## アカウントの作成
 
 1. [NipoPlusにアクセス](https://nipo-plus.web.app/)する

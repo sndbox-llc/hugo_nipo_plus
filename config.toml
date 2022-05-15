@@ -54,14 +54,20 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
   titleSeparator = "|"
 
 [[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> NipoPlus"
+name = "<i class='fa fa-plane'></i> NipoPlus"
 identifier = "ds"
 url = "https://nipo-plus.web.app/"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tags'></i> Tags"
+name = "<i class='fa fa-tags'></i> Tags"
 url = "/tags"
+weight = 20
+
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-envelope'></i> お問い合わせ"
+url = "/system/inquery"
 weight = 30
 
 [markup]

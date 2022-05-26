@@ -65,7 +65,7 @@
 /* 全体設定 */
 .css-carousel-slider {
   width: 100%;
-  /* max-width: 800px */
+  max-width: 1200px;
   /* サイズ設定をする場合はここ(*1) */
   overflow: hidden;
   position: relative; }
@@ -77,7 +77,7 @@
 
 /* スライド設定 */
 .css-carousel-slider .slide-wrap {
-  width: 400%;
+  width: 500%;
   /* 画像の合計数*100%を設定(*2) */
   position: absolute;
   display: flex;
@@ -105,21 +105,21 @@
   0% {
     transform: translateX(0); }
   20% {
-    transform: translateX(calc(1 / 4 * -100%)); }
+    transform: translateX(calc(1 / 5 * -100%)); }
   25% {
-    transform: translateX(calc(1 / 4 * -100%)); }
+    transform: translateX(calc(1 / 5 * -100%)); }
   45% {
-    transform: translateX(calc(2 / 4 * -100%)); }
+    transform: translateX(calc(2 / 5 * -100%)); }
   50% {
-    transform: translateX(calc(2 / 4 * -100%)); }
+    transform: translateX(calc(2 / 5 * -100%)); }
   70% {
-    transform: translateX(calc(3 / 4 * -100%)); }
+    transform: translateX(calc(3 / 5 * -100%)); }
   75% {
-    transform: translateX(calc(3 / 4 * -100%)); }
+    transform: translateX(calc(3 / 5 * -100%)); }
   95% {
-    transform: translateX(calc(4 / 4 * -100%)); }
+    transform: translateX(calc(4 / 5 * -100%)); }
   100% {
-    transform: translateX(calc(4 / 4 * -100%)); } }
+    transform: translateX(calc(4 / 5 * -100%)); } }
 
 @keyframes css-carousel-slider-main {
   0% {

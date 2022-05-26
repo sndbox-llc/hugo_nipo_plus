@@ -1,5 +1,5 @@
 +++
-title = "クイックスタートガイド."
+title = "クイックスタートガイド"
 weight = 1
 chapter = false
 pre = "<b>0. </b>"

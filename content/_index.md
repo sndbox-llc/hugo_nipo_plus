@@ -21,13 +21,14 @@ draft = false
 NipoPlusは日報テンプレートを自由に設計できます。例えば次のような日報テンプレートを専門的な知識を必要とせずに作成できます。
 <div class="css-carousel-slider">
     <div class="slide-wrap-main">
-      <div class="slide"><img src="icatch.png" alt=""></div><!-- 最初に表示される画像(*1) -->
+      <div class="slide"><img src="ipad1.png" alt="集計可能な日報テンプレートの例"></div><!-- 最初に表示される画像(*1) -->
     </div>
     <div class="slide-wrap">
-      <div class="slide"><img src="icatch.png" alt=""></div><!-- スライド画像(*2) -->
-      <div class="slide"><img src="icatch.png" alt=""></div>
-      <div class="slide"><img src="icatch.png" alt=""></div>
-      <div class="slide"><img src="icatch.png" alt=""></div>
+      <div class="slide"><img src="ipad2.png" alt="レート入力だけを集めた日報テンプレートの例"></div><!-- スライド画像(*2) -->
+      <div class="slide"><img src="ipad3.png" alt="スライダー入力だけを集めた日報テンプレートの例"></div>
+      <div class="slide"><img src="ipad4.png" alt="日付入力だけを集めた日報テンプレートの例"></div>
+      <div class="slide"><img src="ipad5.png" alt="選択肢入力フォームだけを集めた日報テンプレートの例"></div>
+      <div class="slide"><img src="ipad6.png" alt="範囲入力フォームだけを集めた日報テンプレートの例"></div>
     </div>
 </div>
 

@@ -53,11 +53,6 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
   # Change the title separator. Default to "::".
   titleSeparator = "|"
 
-[[menu.shortcuts]] 
-name = "<i class='fa fa-plane'></i> NipoPlus"
-identifier = "ds"
-url = "https://nipo-plus.web.app/"
-weight = 10
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-tags'></i> Tags"

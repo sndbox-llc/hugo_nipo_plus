@@ -1,13 +1,15 @@
 {{ partial "header.html" . }}
 
 {{ .Content }}
+最終更新日: {{ .Lastmod.Format "2006/01/02" }}
+<footer class="footline" style="border-top: 1px solid #ccc; margin-top: 10px">
+	<a href="https://apps.apple.com/jp/app/id1625797169" target="_blank">
+		<img src='/images/ios-app.png' style="min-width: 40px">
+	</a>
+	<a href="https://nipo-plus.web.app/" target="_blank">
+		<img src='/images/banner2.png' style="min-width: 40px">
+	</a>
 
-<footer class="footline">
-	最終更新日: {{ .Lastmod.Format "2006/01/02" }}
-	{{with .Params.LastModifierDisplayName}}
-	    {{with $.Date}} <i class='fas fa-calendar'></i> 最終更新日:{{ .Lastmod.Format "2006/01/02" }}{{end}}
-	    </div>
-	{{end}}
 </footer>
 
 {{ partial "footer.html" . }}

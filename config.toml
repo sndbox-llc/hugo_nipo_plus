@@ -61,6 +61,18 @@ weight = 20
 
 
 [[menu.shortcuts]]
+name = "<i class='fa fa-tags'></i> Tags"
+url = "/tags"
+weight = 20
+
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-cube'></i>旧Nipoとの違い"
+url = "/system/about/"
+weight = 20
+
+
+[[menu.shortcuts]]
 name = "<i class='fas fa-envelope'></i> お問い合わせ"
 url = "/system/inquery"
 weight = 30

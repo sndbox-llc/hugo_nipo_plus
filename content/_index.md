@@ -111,15 +111,22 @@ graph LR;
 {{</alice>}}
 -->
 
-
 <footer class="footline" style="border-top: 1px solid #ccc; margin-top: 10px">
-	<a href="https://nipo-plus.web.app/" target="_blank">
-		<img src='/images/banner2.png' style="min-width: 40px">
-	</a>
-	<a href="https://apps.apple.com/jp/app/id1625797169" target="_blank">
-		<img src='/images/ios-app.png' style="min-width: 40px">
-	</a>
-	<a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus" target="_blank">
-		<img src='/images/android-app.png' style="min-width: 40px">
-	</a>
+	<div class="main">
+		<div class="dp33">
+			<a href="https://nipo-plus.web.app/" target="_blank">
+				<img src='/images/banner2.png' style="border-radius: 10px;">
+			</a>
+		</div>
+		<div class="dp33">
+			<a href="https://apps.apple.com/jp/app/id1625797169" target="_blank">
+				<img src='/images/ios-app.png'>
+			</a>		
+		</div>
+		<div class="dp33">
+			<a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus" target="_blank">
+				<img src='/images/android-app.png'>
+			</a>
+		</div>
+	</div>
 </footer>

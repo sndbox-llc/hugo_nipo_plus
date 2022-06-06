@@ -112,7 +112,7 @@ graph LR;
 -->
 
 <footer class="footline" style="border-top: 1px solid #ccc; margin-top: 10px">
-	<div class="main">
+	<div class="flexmain">
 		<div class="dp33">
 			<a href="https://nipo-plus.web.app/" target="_blank">
 				<img src='/images/banner2.png' style="border-radius: 10px;">

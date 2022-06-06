@@ -135,7 +135,7 @@
 * {
   box-sizing: border-box; }
 
-.main {
+.flexmain {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
@@ -199,6 +199,8 @@
   margin: 0 !important; }
 
 @media (max-width: 600px) {
+  .flexmain {
+    width: 80%; }
   .dp10, .dp12, .dp17, .dp20, .dp25, .dp33, .dp40, .dp50, .dp60, .dp67, .dp75, .dp80, .dp83, .dp100, .fluid {
     width: 100%;
     margin: 0; } }

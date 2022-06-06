@@ -3,6 +3,7 @@ title = "グループを作成する"
 draft = false
 tags = ["グループ", "管理者権限"]
 weight = 10
+pre = "<b>1. </b>"
 +++
 
 ## グループの役割

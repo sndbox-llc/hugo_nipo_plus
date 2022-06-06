@@ -59,12 +59,14 @@ NipoPlusは日報テンプレートを自由に設計できます。例えば次
 日報の承認はリレーを組む事もできるようになっています。
 例えば「A係長」が承認したあとに「B部長」最後に「C社長」が承認することができます。
 
+<div style="overflow:scroll">
 {{<mermaid align="center">}}
 graph LR;
   スタッフ -->|日報提出| A係長
   A係長 -->|承認| B部長
   B部長 -->|承認| C社長
 {{< /mermaid >}}
+</div>
 
 {{<imgproc progress.png Resize "1200x" "日報の承認リレーとコメントによるコミュニケーション" />}}
 

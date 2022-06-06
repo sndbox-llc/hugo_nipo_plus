@@ -13,7 +13,7 @@ pre = "<b>2. </b>"
 |機能|概要|
 |---|---|
 |[日報を書く](/report/write/write/)|スタッフが日報を記入し、提出するまでの流れについて解説しています|
-|[日報を読む](/report/read/list/)|提出された日報を読む・承認・棄却・コメントするといったリアクションについて解説しています|
+|[日報を読む](/report/read/list/)|提出された日報を読む・[承認・棄却](/report/read/detail/state/)・[コメントする](/report/read/detail/comment/)といったリアクションについて解説しています|
 |[日報を出力](/report/totalling/)|溜まった[日報をCSVに出力](/report/read/detail/csv/)したり、日報を[集計](/report/totalling/cumulative/)する機能について解説しています|
 
 {{<alice pos="right" icon="here">}}

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ .Page.Language | default "en" }}" class="js csstransforms3d">
+<html lang="{{ .Page.Language | default "ja" }}" class="js csstransforms3d">
   <head>
+    <!-- Analytics -->
+    {{ if not .Site.IsServer }}
+    {{ partial "gtag" . }}
+    {{ end }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ hugo.Generator }}

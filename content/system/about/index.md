@@ -2,7 +2,7 @@
 title = "NipoとNipoPlusの違い"
 # description = "チャプター"
 tags = ["システム概要"]
-weight = 1
+weight = 100
 +++
 
 {{<imgproc mo.png Resize "1200x" "NipoからNipoPlusへ" />}}

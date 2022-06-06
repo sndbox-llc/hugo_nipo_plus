@@ -3,6 +3,7 @@ title = "スタッフの管理"
 tags = ["グループ", "編集者権限", "管理者権限"]
 weight = 20
 chapter = true
+pre = "<b>2. </b>"
 # description = "利用開始前に行う各種初期設定"
 +++
 

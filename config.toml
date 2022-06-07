@@ -49,7 +49,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = ""
   # Provide a list of custom css files to load relative from the `static/` folder in the site root.
-  custom_css = ["css/css.css"]
+  # custom_css = ["css/css.css"]
   # Change the title separator. Default to "::".
   titleSeparator = "|"
 

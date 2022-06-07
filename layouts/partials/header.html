@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ .Page.Language | default "ja" }}" class="js csstransforms3d">
   <head>
-    <!-- Analytics -->
+    <!-- Analytics 本番でのみ出力する -->
     {{ if not .Site.IsServer }}
     {{ partial "gtag" . }}
+    {{ end }}
+    <!-- quasarを使うページの場合に限り、quasar cssをロードする -->
+    {{ if eq .Params.quasar true }}
+    <link href="https://cdn.jsdelivr.net/npm/quasar@2.7.1/dist/quasar.prod.css" rel="stylesheet" type="text/css">
     {{ end }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

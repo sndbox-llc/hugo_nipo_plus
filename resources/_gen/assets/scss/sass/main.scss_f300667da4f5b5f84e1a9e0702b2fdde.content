@@ -229,3 +229,6 @@ p {
 ol li {
   font-weight: 700;
   font-size: 110%; }
+
+[v-cloak] {
+  display: none; }

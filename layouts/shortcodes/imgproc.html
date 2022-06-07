@@ -1,11 +1,12 @@
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $command := .Get 1 }}
 {{ $options := .Get 2 }}
+{{ $webp := printf "%s webp" $options }}
 {{ $alt := .Get 3 }}
 {{ if eq $command "Fit"}}
   {{ $img = $img.Fit $options }}
 {{ else if eq $command "Resize"}}
-  {{ $img = $img.Resize $options }}
+  {{ $img = $img.Resize $webp }}
 {{ else if eq $command "Fill"}}
   {{ $img = $img.Fill $options }}
 {{ else if eq $command "Crop"}}

@@ -18,7 +18,8 @@ quasar = true
       <q-card-section>内容: <div style="white-space: pre">{{ msg }}</div></q-card-section>
       <q-card-section>
       自動返信メールをご確認ください。<span class="text-negative text-bold">届いていない場合はこちらからの回答メールが送れません。</span>
-      自動返信メールが届かない場合、メールアドレスが間違えていないかご確認ください。迷惑メールフォルダに入っている可能性もありますのでご確認ください
+      自動返信メールが届かない場合、メールアドレスが間違えていないかご確認ください。迷惑メールフォルダに入っている可能性もありますのでご確認ください。
+      自動返信メールは通常1分以内に送られます。
       </q-card-section>
     </q-card>
   </div>
@@ -61,6 +62,7 @@ quasar = true
         }
         try {
           const res = await axios(config)
+          console.log(res)
           Quasar.Notify.create({ message: 'ありがとうございました', color: 'primary' })
           close.value = true
         } catch (e) {

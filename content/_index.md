@@ -7,7 +7,6 @@ draft = false
 
 {{<imgproc icatch.png Resize "1200x" "日報作成画面" />}}
 
-
 {{<alice pos="left" icon="pc">}}
 **パソコン**はもちろん
 {{</alice>}}
@@ -117,17 +116,17 @@ graph LR;
 	<div class="flexmain">
 		<div class="dp33">
 			<a href="https://nipo-plus.web.app/" target="_blank">
-				<img src='/images/banner2.webp' style="border-radius: 10px;">
+				<img src='/images/banner2.webp' style="border-radius: 10px;" width="573" height="173" alt="nipoplusアプリ起動ボタン">
 			</a>
 		</div>
 		<div class="dp33">
 			<a href="https://apps.apple.com/jp/app/id1625797169" target="_blank">
-				<img src='/images/ios-app.webp'>
+				<img src='/images/ios-app.webp' width="573" height="173" alt="ios App Store">
 			</a>		
 		</div>
 		<div class="dp33">
 			<a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus" target="_blank">
-				<img src='/images/android-app.webp'>
+				<img src='/images/android-app.webp' width="573" height="173" alt="Android Google Play Store">
 			</a>
 		</div>
 	</div>

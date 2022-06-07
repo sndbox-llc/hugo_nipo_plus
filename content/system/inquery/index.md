@@ -6,7 +6,7 @@ weight = 100
 quasar = true
 +++
 
-## お問い合わせフォーム
+## NipoPlusお問い合わせフォーム
 
 <div id="q-app">
   <div v-if="close">
@@ -55,7 +55,8 @@ quasar = true
         }
         const config = {
           method: 'POST',
-          url: 'https://us-central1-nipo-77c25.cloudfunctions.net/inqueryWeb',
+          url: 'https://us-central1-nipo-plus.cloudfunctions.net/inqueryWeb',
+          // url: 'https://us-central1-nipo-77c25.cloudfunctions.net/inqueryWeb',
           params: body
         }
         try {

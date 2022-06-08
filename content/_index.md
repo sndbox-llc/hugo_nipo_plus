@@ -78,7 +78,7 @@ graph LR;
 
 {{<alice pos="right" icon="here">}}
 
-- [数値フォーム](org/groupsetting/template/math/)
+- [数値フォーム](/org/groupsetting/template/math/)
 - [レートフォーム](/org/groupsetting/template/rate/)
 - [選択肢フォーム](/org/groupsetting/template/select/)
 

@@ -11,7 +11,7 @@ weight = 30
 
 {{<imgproc csv.png Resize "1200x" "集計結果をCSVに出力する" />}}
 
-（日報を個別にCSV出力したい場合は、[日報詳細表示のCSV出力ページ](/read_report/detail/csv)を参照してください）
+（日報を個別にCSV出力したい場合は、[日報詳細表示のCSV出力ページ](/report/read/detail/csv/)を参照してください）
 
 CSV出力では日報の殆どの入力フォームがCSVに出力されますが、以下の入力フォームはCSV出力ができません
 

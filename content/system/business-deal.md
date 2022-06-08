@@ -6,7 +6,6 @@ weight = 11
 +++
 
 Nipoはネットを媒介した販売([GOLD PLAN](/price/)）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。
-特定商取引について詳しく知りたい方は[消費者庁のWebページ](http://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/)を参照してください
 
 ## 特定商取引法に基づく表記
 

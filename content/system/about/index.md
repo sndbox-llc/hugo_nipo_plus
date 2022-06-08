@@ -131,7 +131,7 @@ Nipoで3名でご利用はほぼ同額、4名以上でご利用の場合は間�
 
 - [月間カレンダー](https://guide-nipo.sndbox.jp/manual/calendar/)表示機能（週間カレンダーに統一）
 - プロジェクト機能
-- メール通知（[アプリ通知](notice/show/)に統一）
+- メール通知（[アプリ通知](/notice/show/)に統一）
 - グループモードの共有しないモード
 - １行テキスト入力フォーム（[テキスト入力フォーム](/org/groupsetting/template/text/)に統一）
 - 語録入力フォーム（[選択肢入力フォーム](/org/groupsetting/template/select/)に統一）

@@ -26,7 +26,7 @@ weight = 100
 |[papaparse](https://www.papaparse.com/)|JSON->CSVまたはその逆のように、データの変形をサポートしてくれます|
 |[Eslint](https://eslint.org/)|プログラム開発時にミスなどをチェックしてくれます|
 |[typescript](https://www.typescriptlang.org/)|データに型をもたせ、プログラムの視認性や開発効率、バグの混入リスクを軽減してくれます|
-|[Pdfmake](http://pdfmake.org/#/)|日報をPDFに変換する処理を行ってくれます|
+|[Pdfmake](http://pdfmake.org)|日報をPDFに変換する処理を行ってくれます|
 |[capacitor](https://capacitorjs.com/)|WebアプリをiOS/Android専用のアプリに変換してくれます|
 
 私が目に見えてわかる範囲を掲載させていただきました。  

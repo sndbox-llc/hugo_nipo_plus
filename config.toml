@@ -56,6 +56,10 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 
 [[menu.shortcuts]]
+name = "<i class='fa fa-search'></i> 検索"
+url = "/search"
+weight = 10
+[[menu.shortcuts]]
 name = "<i class='fa fa-tags'></i> Tags"
 url = "/tags"
 weight = 20
@@ -77,6 +81,9 @@ weight = 20
 name = "<i class='fas fa-envelope'></i> お問い合わせ"
 url = "/system/inquery"
 weight = 30
+
+[outputs]
+   home = [ "HTML", "JSON" ]
 
 [markup]
   [markup.goldmark]

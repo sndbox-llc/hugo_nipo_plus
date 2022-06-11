@@ -232,3 +232,11 @@ ol li {
 
 [v-cloak] {
   display: none; }
+
+#shortcuts h3 {
+  border: none;
+  border-bottom: 2px dotted #ccc; }
+
+#shortcuts ul li {
+  font-size: 20px;
+  font-weight: bold; }

@@ -12,7 +12,6 @@ h2 {
   padding: 10px 15px;
   font-size: 160%;
 }
-
 h3 {
   color: blueviolet;
   border-bottom: 1px solid blueviolet;
@@ -21,16 +20,25 @@ h3 {
   font-size: 140%;
   font-weight: 600;
 }
-
 p {
   font-size: 110%;
 }
-
 ol li {
   font-weight: 700;
   font-size: 110%;
 }
-
+// vue.js読み込みまでのデータを隠す処理
 [v-cloak] {
   display: none;
+}
+
+#shortcuts {
+  h3 {
+    border: none;
+    border-bottom: 2px dotted #ccc;
+  }
+  ul li {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }

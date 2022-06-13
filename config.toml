@@ -8,10 +8,6 @@ canonifyurls = true
 enableGitInfo = true
 
 [frontmatter]
-  date = ["date", "publishDate", "lastmod"]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
-  publishDate = ["publishDate", "date"]
-  expiryDate = ["expiryDate"]
 
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
@@ -66,18 +62,15 @@ name = "<i class='fa fa-tags'></i> Tags"
 url = "/tags"
 weight = 20
 
-
 [[menu.shortcuts]]
 name = "<i class='fa fa-tags'></i> Tags"
 url = "/tags"
 weight = 20
 
-
 [[menu.shortcuts]]
 name = "<i class='fa fa-cube'></i>旧Nipoとの違い"
 url = "/system/about/"
 weight = 20
-
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-envelope'></i> お問い合わせ"

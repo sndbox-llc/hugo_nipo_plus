@@ -17,23 +17,26 @@
             <q-list>
               <q-item>
                 <q-item-section>
-                  <q-item-label>[[props.row.title]]（[[props.row.date]]更新）</q-item-label>
+                  <q-item-label class="text-bold">[[props.row.title]]</q-item-label>
                 </q-item-section>
               </q-item>
               <q-item>
                 <q-item-section>
-                  <q-item-label caption>概要</q-item-label>
                   <q-item-label>[[props.row.summary]]</q-item-label>
                 </q-item-section>
               </q-item>
               <q-item>
                 <q-item-section>
-                  <q-item-label caption>タグ</q-item-label>
                   <q-item-label>
                     <q-badge v-for="tag in props.row.tags" :key="tag" class="q-mx-sm">
                       [[tag]]
                     </q-badge>
                   </q-item-label>
+                </q-item-section>
+              </q-item>
+              <q-item class="text-right">
+                <q-item-section class="text-right" style="color:#aaa">
+                [[props.row.date]]
                 </q-item-section>
               </q-item>
             </q-list>

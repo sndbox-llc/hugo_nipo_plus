@@ -7,8 +7,11 @@ weight = 20
 +++
 
 
-{{<imgproc staffs.png Resize "1200x" "グループに所属しているスタッフを一覧表示する" />}}
+{{<alice pos="left" icon="default">}}
+共用は応用的な機能です。使用しない場合は次のページへGO
+{{</alice>}}
 
+{{<imgproc staffs.png Resize "1200x" "グループに所属しているスタッフを一覧表示する" />}}
 
 ## 共用先の設定
 

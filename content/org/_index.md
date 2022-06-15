@@ -2,7 +2,7 @@
 title = "初期設定"
 weight = 10
 chapter = true
-description = "利用開始前に行う各種初期設定。。"
+description = "利用開始前に行う各種初期設定"
 pre = "<b>1. </b>"
 +++
 

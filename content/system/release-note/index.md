@@ -13,9 +13,9 @@ NipoPlusはこまめにアップデートが行われ、新しい機能が次々
 
 |App名|現在のバージョン|
 |---|---|
-|[WebApp版](https://nipoapp.sndbox.jp/) |1.1.0|
-|[iOS版](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)|1.0.5|
-|[Android版](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|1.0.5|
+|[WebApp版](https://nipoapp.sndbox.jp/) |1.3.0|
+|[iOS版](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)|1.2.3|
+|[Android版](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|1.2.3|
 
 ## お使いのNipoPlusのバージョンを確認する
 
@@ -42,6 +42,7 @@ Web版のNipoPlusをご利用の方は、起動時にバックグラウンドで
 
 |日付|バージョン|内容|
 |---|---|---|
+|2022/06/16|v1.3.0|「承認して次へ」機能の実装  メール送信機能実装  日報修正時に文書番号が欠落するバグの修正|
 |2022/06/14|v1.2.3|[選択肢(複)](/org/groupsetting/template/select2/)の[集計](/report/totalling/cumulative/)が行われないバグを修正しました|
 |2022/06/13|v1.2.2|日報作成後に他のテンプレートを選択できるように修正しました|
 |2022/06/10|v1.2.0|[日報テンプレート](/org/groupsetting/template/)のラベルを色分けできる機能が追加されました|

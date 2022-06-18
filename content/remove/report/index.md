@@ -2,7 +2,7 @@
 title = "日報を1件削除する"
 draft = false
 tags = ["日報", "管理者権限"]
-weight = 10
+weight = 70
 +++
 
 ## 削除できる日報について

@@ -2,7 +2,7 @@
 title = "お問い合わせ"
 description = "お問い合わせフォーム"
 tags = ["お問い合わせ"]
-weight = 100
+weight = 900
 quasar = true
 +++
 

@@ -2,7 +2,7 @@
 title = "グループの削除"
 draft = false
 tags = ["グループ", "管理者権限"]
-weight = 90
+weight = 200
 +++
 
 

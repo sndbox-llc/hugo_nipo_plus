@@ -13,9 +13,9 @@ NipoPlusはこまめにアップデートが行われ、新しい機能が次々
 
 |App名|現在のバージョン|
 |---|---|
-|[WebApp版](https://nipoapp.sndbox.jp/) |1.3.1|
-|[iOS版](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)|1.3.0|
-|[Android版](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|1.3.0|
+|[WebApp版](https://nipoapp.sndbox.jp/) |1.4.0|
+|[iOS版](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)|1.4.0|
+|[Android版](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|1.4.0|
 
 ## お使いのNipoPlusのバージョンを確認する
 
@@ -42,6 +42,7 @@ Web版のNipoPlusをご利用の方は、起動時にバックグラウンドで
 
 |日付|Version|変更内容|
 |---|---|---|
+|2022/06/23|v1.4.0|承認の印をはんこ風に変更しました。日報詳細表示画面で過去のデータ推移が確認できるようになりました。日報テンプレートの文字が長くて見切れてしまう問題を修正しました|
 |2022/06/16|v1.3.2|脱字を修正しました。サイトのページ一部変更に伴いリンクを修正しました|
 |2022/06/16|v1.3.1|カレンダー上で日報の表示する方式を「報告者指定日時」と「サーバ基準」から選べるようになりました。日報テンプレートの編集時に表示がずれるバグを修正しました|
 |2022/06/16|v1.3.0|「承認して次へ」機能の実装  メール送信機能実装  日報修正時に文書番号が欠落するバグの修正|

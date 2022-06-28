@@ -5,19 +5,16 @@
 // 本文エリア用のCSS
 #body-inner {
   h1 {
-    padding: 1.65rem 2rem;
-    background-color: rgba(165, 210, 255, .4);
-    background-image:
-      linear-gradient(90deg, rgba(165, 210, 255, .3) 50%, transparent 50%),
-      linear-gradient(rgba(165, 210, 255, .3) 50%, transparent 50%);
-    background-size: 40px 40px;
+    color: #364e96;/*文字色*/
+    border: solid 3px #364e96;/*線色*/
+    padding: 0.5em;/*文字周りの余白*/
+    border-radius: 0.5em;/*角丸*/
   }
   h2 {
-    padding: 1rem 2rem;
-    color: #fff;
-    background: blueviolet;
-    box-shadow: 5px 5px 0 #520d77;
-    font-size: 200%;
+    padding: 0.5em;/*文字周りの余白*/
+    color: #010101;/*文字色*/
+    background: #eaf3ff;/*背景色*/
+    border-bottom: solid 3px #516ab6;/*下線*/
   }
   h3 {
     color: blueviolet;

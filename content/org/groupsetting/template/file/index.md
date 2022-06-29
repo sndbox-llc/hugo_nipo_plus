@@ -5,7 +5,7 @@ tags = ["日報テンプレート", "入力フォーム", "編集者権限", "CS
 weight = 230
 +++
 
-{{<imgproc icatch.png Resize "1200x" "" />}}
+{{<imgproc file.png Resize "1200x" "ファイル入力フォームを含んだ日報テンプレートの例" />}}
 
 ## 日報にファイルを添付する入力フォーム
 

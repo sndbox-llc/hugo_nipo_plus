@@ -5,7 +5,7 @@ tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 140
 +++
 
-{{<imgproc icatch.png Resize "1200x" "" />}}
+{{<imgproc selectc.png Resize "1200x" "選択肢（2層)を使った日報テンプレートの例" />}}
 
 ## 第１の回答で第２の設問が変わる入力フォーム
 

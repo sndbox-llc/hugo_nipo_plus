@@ -10,7 +10,7 @@ chapter = true
 日報テンプレートを作成しておくことでスタッフはテンプレートに沿って[日報を書く](/report/write/)ことができるようになります。
 日報テンプレートは様々な**入力フォームを自由に組み合わせて作成**できます。入力フォームは次の種類があります
 
-|項目|説明|集計可否|
+|項目|説明|[集計可否](/report/totalling/form/)|
 |---|---|---|
 |[テキスト入力フォーム](/org/groupsetting/template/text/)|本文や備考など通常の文字入力ができるフォームです|不可|
 |[選択肢入力フォーム](/org/groupsetting/template/select/)|予め回答を用意しておき、回答から1つ（[または複数](/org/groupsetting/template/select2/)）選ぶだけで入力できるフォームです。回答によって第2の回答が変わる[2層式](/org/groupsetting/template/selectcalc/)もあります|可|

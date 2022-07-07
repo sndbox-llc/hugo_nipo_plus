@@ -2,7 +2,7 @@
 title = "日報を書く"
 weight = 20
 chapter = true
-pre = "<b>1. </b>"
+pre = "<b>2-1. </b>"
 # description = "チャプター"
 +++
 

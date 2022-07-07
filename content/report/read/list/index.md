@@ -3,6 +3,9 @@ title = "日報受信BOX"
 # description = "チャプター"
 tags = ["日報"]
 weight = 1
+[sitemap]
+  changefreq = 'weekly'
+  priority = 1.0
 +++
 
 ## 受信した日報を一覧で表示する

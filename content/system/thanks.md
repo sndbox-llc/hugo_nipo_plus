@@ -1,8 +1,11 @@
 +++
-title = "スペシャルサンクス"
+title = "謝辞"
 description = "NipoPlusで利用させていただいている数多の素晴らしいオープンソースをご紹介します"
-tags = ["クレジット"]
+# tags = ["クレジット"]
 weight = 100
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.3
 +++
 
 ## 数多くのオープンソースに感謝します

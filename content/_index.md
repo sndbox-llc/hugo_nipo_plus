@@ -1,6 +1,9 @@
 +++
 title = "クラウド日報 NipoPlus"
 draft = false
+[sitemap]
+  changefreq = 'weekly'
+  priority = 1.0
 +++
 
 # 日報・チェックシートアプリ - NipoPlus

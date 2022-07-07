@@ -3,7 +3,10 @@ title = "クイックスタートガイド"
 weight = 1
 chapter = false
 pre = "<b>0. </b>"
-# description = "チャプター"
+description = "初めてご利用の方向けのガイドです。アカウント作成から実際に日報を作成するまでの基本的な流れを画像つきでわかりやすく解説"
+[sitemap]
+  changefreq = 'weekly'
+  priority = 1.0
 +++
 
 初めてNipoPlusをご利用の方へ向けた、導入から使用開始までの流れを必要最小限に絞ってご紹介します。  

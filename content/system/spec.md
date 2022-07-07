@@ -3,6 +3,9 @@ title = "動作環境"
 description = "パソコンやスマートフォン・タブレットから利用可能です。Google ChromeまたはSafariの動作する環境が必要です"
 tags = ["システム概要"]
 weight = 1
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.5
 +++
 
 ## Webアプリ版

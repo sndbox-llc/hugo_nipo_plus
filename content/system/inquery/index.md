@@ -1,9 +1,12 @@
 +++
 title = "お問い合わせ"
 description = "お問い合わせフォーム"
-tags = ["お問い合わせ"]
+# tags = ["お問い合わせ"]
 weight = 900
 quasar = true
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.5
 +++
 
 ## NipoPlusお問い合わせフォーム

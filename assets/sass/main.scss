@@ -5,17 +5,17 @@
 // 本文エリア用のCSS
 #body-inner {
   h1 {
-    color: #364e96;/*文字色*/
+    color: #364e96;
     font-weight: 600;
-    border: solid 3px #364e96;/*線色*/
-    padding: 0.5em;/*文字周りの余白*/
-    border-radius: 0.5em;/*角丸*/
+    border: solid 3px #364e96;
+    padding: 0.5em;
+    border-radius: 0.5em;
   }
   h2 {
     color: blueviolet;
     font-weight: 600;
     padding: 10px;
-    border-left: solid 13px blueviolet;/*下線*/
+    border-left: solid 13px blueviolet;
   }
   h3 {
     color: blueviolet;
@@ -92,3 +92,13 @@
   }
 }
 
+#chapter {
+  h1 {
+    background-color: #364e96;
+    color: white;
+    font-weight: 600;
+    border: solid 3px #364e96;
+    padding: 0.5em;
+    border-radius: 0.5em;
+  }
+}

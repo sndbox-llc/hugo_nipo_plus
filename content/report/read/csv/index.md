@@ -1,8 +1,11 @@
 +++
 title = "日報をCSVに出力する"
 # description = "チャプター"
-tags = ["CSV出力", "日報"]
+tags = ["CSVエクスポート", "日報"]
 weight = 30
+[sitemap]
+  changefreq = 'weekly'
+  priority = 1.0
 +++
 
 

@@ -1,8 +1,11 @@
 +++
 title = "詳細画面のその他の機能"
 # description = "チャプター"
-tags = ["日報", "日報のコピー", "タグ"]
+tags = ["日報", "タグ"]
 weight = 100
+[sitemap]
+  changefreq = 'weekly'
+  priority = 1.0
 +++
 
 ## 日報を複製して新規作成する

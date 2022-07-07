@@ -1,8 +1,11 @@
 +++
 title = "日報をPDFに変換して保存"
 # description = "チャプター"
-tags = ["日報", "PDF"]
+tags = ["日報", "PDFエクスポート"]
 weight = 40
+[sitemap]
+  changefreq = 'weekly'
+  priority = 1.0
 +++
 
 1. PDFに変換したい日報を表示する

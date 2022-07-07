@@ -89,7 +89,7 @@ weight = 21
 |タイムカードの修正|可|可|可|可|
 |[タイムカードの設定](/timecard/setting/)|可|可|不可|不可|
 |タイムカードログの確認(他者)|可|可|不可|不可|
-|[タグの作成・編集](/org/groupsetting/tag)|可|可|不可|不可|
+|[タグの作成・編集](/org/groupsetting/tag/)|可|可|不可|不可|
 |[タスクの作成・削除](/task/add/)|可|可|可|不可|
 |[活動ログデータの確認](/org/groupsetting/log/)|可|可|可|不可|
 |[語録の作成](/org/groupsetting/goroku/)|可|可|不可|不可|

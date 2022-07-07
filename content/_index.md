@@ -175,7 +175,7 @@ graph LR;
 
 
 {{<alice pos="right" icon="guide">}}
-[ご利用料金について詳しくはこちら](/price)をどうぞ
+[ご利用料金について詳しくはこちら](/price/)をどうぞ
 {{</alice>}}
 
 <!--

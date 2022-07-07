@@ -117,8 +117,8 @@ NipoPlusを使う上で必要な設定のうち、最低限行うべき設定は
 日報に関するガイド
 
 - [日報を読む方法](/report/read/list/)
-- [日報を承認する方法](/report/read/detail/state/)
-- [日報をPDFに変換する方法](/report/read/detail/pdf/)
+- [日報を承認する方法](/report/read/state/)
+- [日報をPDFに変換する方法](/report/read/pdf/)
 - [日報を集計する方法](/report/totalling/)
 
 日報以外にも便利な補助機能があります

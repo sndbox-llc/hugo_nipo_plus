@@ -26,8 +26,8 @@ NipoPlusの主要な機能は**日報・チェックシートの作成・管理�
 |機能|概要|
 |---|---|
 |[日報を書く](/report/write/write/)|スタッフが日報を記入し、提出するまでの流れについて解説しています|
-|[日報を読む](/report/read/list/)|提出された日報を読む・[承認・棄却](/report/read/detail/state/)・[コメントする](/report/read/detail/comment/)といったリアクションについて解説しています|
-|[日報を出力](/report/totalling/)|溜まった[日報をCSVに出力](/report/read/detail/csv/)したり、日報を[集計](/report/totalling/transition/)する機能について解説しています|
+|[日報を読む](/report/read/list/)|提出された日報を読む・[承認・棄却](/report/read/state/)・[コメントする](/report/read/comment/)といったリアクションについて解説しています|
+|[日報を出力](/report/totalling/)|溜まった[日報をCSVに出力](/report/read/csv/)したり、日報を[集計](/report/totalling/transition/)する機能について解説しています|
 |[日報を1件削除](/remove/report/)|日報のオーナーが削除できます。承認や進行中の日報は削除できません|
 |[日報をまとめて削除](/remove/reportbatch/)|管理者のみ実行できます。承認済みの日報も関係なく削除可能です|
 

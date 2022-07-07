@@ -30,6 +30,7 @@ Web版のNipoPlusをご利用の方は、起動時にバックグラウンドで
 
 |日付|Version|変更内容|[Web](https://nipoapp.sndbox.jp/)|[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|[iOS](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)
 |---|---|---|---|---|---|
+|2022/07/07|v1.5.3|NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)のバージョンを最新版に変更しました。サイトURLの一部変更に伴うリンクの修正を行いました|○|-|-|
 |2022/07/02|v1.5.2|[選択肢（複）フォーム](/org/groupsetting/template/select2/)で特定の条件が整うと1つしか入力できないバグを修正しました|○|○|○|
 |2022/07/01|v1.5.1|[CSV出力設定が保存可能](/report/totalling/csv/)になりました。グループのテーマカラーがうまく反映されないバグを修正しました。グループ毎にメニュー項目の表示・非表示切替ができるようになりました|○|○|○|
 |2022/06/28|v1.5.0|日報作成後にメール送信ボタンが追加されました。提出専用アカウントでも[自分の日報に限り集計](/report/totalling/)できるようになりました|○|○|○|

@@ -34,7 +34,7 @@ weight = 21
 ### スタッフ
 
 日常業務において必要な権限を有します。  
-[日報の作成](/report/write/)や[タイムカードの打刻](/timecard/input/)、[コメントの書き込み](/report/read/detail/comment/)など一般的な操作が可能です。  
+[日報の作成](/report/write/)や[タイムカードの打刻](/timecard/input/)、[コメントの書き込み](/report/read/comment/)など一般的な操作が可能です。  
 [グループの設定](/org/groupsetting/)に関することはほとんど制限されます。
 
 ### 書き込みのみ

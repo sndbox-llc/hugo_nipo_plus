@@ -95,7 +95,7 @@ X部品品質シートは架空のものであり実在しません
 
 軸打ちズレ幅、線形ズレ幅の項目が選択以外除外されていますが、それ以外は入力時と同じデザインで閲覧できます。
 また軸打ちズレ幅などの[選択肢入力フォーム](/org/groupsetting/template/select/)は、切替ボタンを押すことで選ばれなかった他の回答も確認できます。  
-受け取ったチェックシートに対して[承認](/report/read/detail/state/)や[コメント](/report/read/detail/comment/)をする、[CSV](/report/read/detail/csv/)や[PDF](/report/read/detail/pdf/)に出力するといった様々なアクションが行なえます。
+受け取ったチェックシートに対して[承認](/report/read/state/)や[コメント](/report/read/comment/)をする、[CSV](/report/read/csv/)や[PDF](/report/read/pdf/)に出力するといった様々なアクションが行なえます。
 
 {{<alice pos="right" icon="pc">}}
 タブレットデザインで表示していますがPCでもスマホでも利用できます。**読むときはPC推奨**、理由は後述するデータ分析にあります

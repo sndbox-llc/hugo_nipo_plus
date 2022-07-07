@@ -57,22 +57,17 @@ enableGitInfo = true
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-search'></i> 検索"
-url = "/search"
+url = "/search/"
 weight = 10
 [[menu.shortcuts]]
 name = "<i class='fa fa-tags'></i> Tags"
-url = "/tags"
-weight = 20
-
-[[menu.shortcuts]]
-name = "<i class='fa fa-tags'></i> Tags"
-url = "/tags"
+url = "/tags/"
 weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-cube'></i>旧Nipoとの違い"
 url = "/system/about/"
-weight = 20
+weight = 21
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-envelope'></i> お問い合わせ"

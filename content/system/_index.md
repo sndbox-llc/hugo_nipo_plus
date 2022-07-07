@@ -9,7 +9,7 @@ pre = "<b>10. </b>"
 
 # 規約等
 
-[プライバシーポリシー](/system/privacy-policy/)・[システム利用規約](/system/agree)・[特定商取引法に基づく表記](/system/business-deal/)などについての情報を記載しています
+[プライバシーポリシー](/system/privacy-policy/)・[システム利用規約](/system/agree/)・[特定商取引法に基づく表記](/system/business-deal/)などについての情報を記載しています
 
 
 {{<alice pos="right" icon="here">}}

@@ -12,7 +12,7 @@ chapter = true
 日報一覧から１つの日報をクリックすると詳細表示画面に切り替わります。詳細表示では承認や棄却、印刷、コピーなど様々なアクションが行えます。
 
 |詳細表示の機能|概要|
-|---|---|http://localhost:1313/report/read/detail/other/#日報にタグをつけるタグを外す
+|---|---|
 |[承認・棄却](/report/read/detail/state/)|日報に対して承認や棄却を行います|
 |[コメント](/report/read/detail/comment/)|日報に対してコメントを書き込みます|
 |[CSV出力](/report/read/detail/csv/)|表示中の日報1件をCSVに出力します。複数の日報をまとめて出力するには[集計機能からCSV出力](/report/totalling/csv/)してください|

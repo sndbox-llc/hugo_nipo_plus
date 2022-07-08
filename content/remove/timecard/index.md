@@ -1,7 +1,7 @@
 +++
 title = "タイムカードの削除"
 draft = false
-tags = ["タイムカード", "編集者権限"]
+tags = ["編集者権限"]
 weight = 90
 +++
 

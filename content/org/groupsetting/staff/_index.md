@@ -3,7 +3,7 @@ title = "グループ内のスタッフ管理"
 draft = false
 # description = "チャプター"
 chapter = true
-tags = ["スタッフ管理", "編集者権限", "グループ"]
+tags = ["スタッフ管理", "編集者権限", "グループの管理"]
 weight = 20
 +++
 

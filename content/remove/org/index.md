@@ -1,7 +1,7 @@
 +++
 title = "組織を削除する(退会)"
 draft = false
-tags = ["管理者権限", "退会"]
+tags = ["管理者権限"]
 weight = 999
 +++
 

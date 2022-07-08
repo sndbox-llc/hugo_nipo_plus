@@ -1,7 +1,7 @@
 +++
 title = "日報を一括CSV出力"
 # description = "チャプター"
-tags = ["CSVエクスポート", "集計"]
+tags = ["CSVエクスポート", "集計機能"]
 weight = 30
 +++
 

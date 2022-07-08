@@ -1,7 +1,7 @@
 +++
 title = "グループ設定"
 draft = false
-tags = ["グループ", "編集者権限", "管理者権限"]
+tags = ["グループの管理", "編集者権限", "管理者権限"]
 weight = 100
 chapter = true
 

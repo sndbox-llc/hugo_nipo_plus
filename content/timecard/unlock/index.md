@@ -1,7 +1,7 @@
 +++
 title = "タイムカードの制限解除"
 # description = "チャプター"
-tags = ["タイムカード", "編集者権限"]
+tags = ["編集者権限"]
 weight = 50
 [sitemap]
   changefreq = 'monthly'

@@ -1,7 +1,7 @@
 +++
 title = "日報受信BOX"
 # description = "チャプター"
-tags = ["日報"]
+tags = ["日報を読む"]
 weight = 1
 [sitemap]
   changefreq = 'weekly'

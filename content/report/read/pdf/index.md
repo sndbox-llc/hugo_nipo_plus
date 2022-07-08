@@ -1,7 +1,7 @@
 +++
 title = "日報をPDFに変換して保存"
 # description = "チャプター"
-tags = ["日報", "PDFエクスポート"]
+tags = ["日報を読む", "PDFエクスポート"]
 weight = 40
 [sitemap]
   changefreq = 'weekly'

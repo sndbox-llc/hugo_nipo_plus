@@ -1,7 +1,7 @@
 +++
 title = "特定商取引法に基づく表記"
 description = "Nipoでは有料プランを申し込まれる際、Webによる金銭授受が発生するため特定商取引法に基づく表記義務があります。ここでは特定商取引法に基づき、必要な事項を表示してます"
-tags = ["規約"]
+tags = ["システム概要"]
 weight = 11
 [sitemap]
   changefreq = 'monthly'

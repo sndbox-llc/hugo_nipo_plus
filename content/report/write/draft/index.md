@@ -1,7 +1,7 @@
 +++
 title = "下書きの日報を清書する"
 draft = false
-tags = ["日報の作成と提出"]
+tags = ["日報を書く"]
 weight = 40
 +++
 

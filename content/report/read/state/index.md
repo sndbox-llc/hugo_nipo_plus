@@ -1,7 +1,7 @@
 +++
 title = "日報の承認と棄却"
 # description = "チャプター"
-tags = ["日報", "承認棄却"]
+tags = ["日報を読む"]
 weight = 10
 [sitemap]
   changefreq = 'weekly'

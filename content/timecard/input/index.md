@@ -1,7 +1,7 @@
 +++
 title = "タイムカードを入力する"
 # description = "チャプター"
-tags = ["タイムカード"]
+# tags = ["タイムカード"]
 weight = 10
 [sitemap]
   changefreq = 'monthly'

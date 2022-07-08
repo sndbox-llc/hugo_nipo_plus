@@ -1,7 +1,7 @@
 +++
 title = "タイムカードの集計・ダウンロード"
 # description = "チャプター"
-tags = ["タイムカード", "CSVエクスポート"]
+tags = ["CSVエクスポート"]
 weight = 30
 [sitemap]
   changefreq = 'weekly'

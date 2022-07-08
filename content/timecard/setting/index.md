@@ -1,7 +1,7 @@
 +++
 title = "タイムカードの設定"
 # description = "チャプター"
-tags = ["タイムカード", "編集者権限"]
+tags = ["編集者権限"]
 weight = 30
 [sitemap]
   changefreq = 'monthly'

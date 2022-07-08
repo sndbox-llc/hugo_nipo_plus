@@ -1,7 +1,7 @@
 +++
 title = "有料プランに加入"
 # description = "チャプター"
-tags = ["料金"]
+# tags = ["料金"]
 weight = 11
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "プライバシーポリシー"
 description = "クラウド日報Nipoでお客様からお預かりする個人情報の取り扱いについてのお約束事をまとめました"
-tags = ["規約"]
+tags = ["システム概要"]
 weight = 10
 [sitemap]
   changefreq = 'monthly'

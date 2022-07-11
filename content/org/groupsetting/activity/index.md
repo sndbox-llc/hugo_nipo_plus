@@ -1,5 +1,5 @@
 +++
-title = "活動実績を確認"
+title = "スタッフの活動実績"
 draft = false
 # description = "チャプター"
 tags = ["スタッフ管理", "編集者権限", "グループの管理"]

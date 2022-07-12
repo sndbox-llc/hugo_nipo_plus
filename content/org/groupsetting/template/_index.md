@@ -1,5 +1,5 @@
 +++
-title = "日報・チェックシートのテンプレート"
+title = "日報テンプレート"
 weight = 100
 chapter = true
 # description = "チャプター"

@@ -23,7 +23,7 @@ enableGitInfo = true
   # Author of the site, will be used in meta information
   author = "sandbox co.,ltd"
   # Description of the site, will be used in meta information
-  description = "クラウド型日報管理システム。テンプレートのカスタマイズやスマホからの日報提出、CSVエクスポートも完備"
+  description = "日報・チェックシート管理アプリ。スマホ・タブレット・PC対応のクラウド型です。自由にテンプレート設計可能。集計やPDF出力機能も。2ヶ月の無料お試しあり。業界最安値1名180円。製造業、営業、研修など様々な用途にご利用可能です"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = true
   # Disable search function. It will hide search bar

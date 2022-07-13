@@ -108,7 +108,7 @@ NipoPlusが使用しているFirestoreとElasticはいづれもNo-SQL型であ�
 |9|dropbox|
 
 {{<alice pos="right" icon="shield">}}
-心当たりはない？もっとバレにくいパスワードにしないとだめだよ！
+心当たりある人はもっとバレにくいパスワードにしないとだめだよ！
 {{</alice>}}
 
 ここで最後にIPAが作った秀逸なイラストを送ります
@@ -122,7 +122,7 @@ NipoPlusが使用しているFirestoreとElasticはいづれもNo-SQL型であ�
 NipoPlusはリリース後まだ日が浅いため問い合わせはそこまでありませんが、過去にNipoで頂いたご質問とその回答をここに記載します。
 NipoもNipoPlusも利用しているインフラはおなじであり、よって回答も同一です。
 
-|Q|A|
+|よくある質問|質問の回答|
 |---|---|
 |データセンターは国内にありますか？|いいえ。データセンターは米国にあります。保存されるデータは、バックアップを含めてすべて米国の複数の拠点（マルチリージョン）に保管されています|
 |データセンターは安全ですか?|はい。安全です。具体的な安全対策は[Firebase公式サイト](https://firebase.google.com/terms/data-processing-terms?hl=ja#1.-data-center-and-network-security)を参照してください|

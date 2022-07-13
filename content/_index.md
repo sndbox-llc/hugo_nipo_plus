@@ -8,7 +8,6 @@ draft = false
 
 # 日報・チェックシートアプリ - NipoPlus
 
-
 {{<alice pos="left" icon="pc">}}
 **パソコン**はもちろん
 {{</alice>}}

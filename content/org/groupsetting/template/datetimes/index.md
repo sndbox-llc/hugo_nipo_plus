@@ -3,9 +3,14 @@ title = "期間入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 160
+# description = "チャプター"
 +++
 
 {{<imgproc icatch.png Resize "1200x" "期間入力フォームを含んだ日報テンプレートの例" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|○|○|○|
 
 ## 10:00〜15:00のような期間の入力ができる入力フォームです
 

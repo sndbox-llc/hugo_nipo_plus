@@ -3,9 +3,14 @@ title = "数値入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限", "集計機能"]
 weight = 330
+# description = "チャプター"
 +++
 
 {{<imgproc math.png Resize "1200x" "数値入力フォームを含んだ日報テンプレートの作成画面" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|○|○|○|
 
 ## 集計も可能な汎用性のある数値入力フォーム
 

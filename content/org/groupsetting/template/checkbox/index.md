@@ -3,9 +3,14 @@ title = "チェックボックス入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 170
+# description = "チャプター"
 +++
 
 {{<imgproc checkbox.png Resize "1200x" "チェックボックス入力フォームを含んだ日報の作成画面" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|✗|○|○|
 
 ## はい・いいえ ２択で回答可能な設問に最適な入力フォーム
 

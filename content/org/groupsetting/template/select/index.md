@@ -3,9 +3,14 @@ title = "選択肢入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 120
+# description = "チャプター"
 +++
 
 {{<imgproc icatch.png Resize "1200x" "選択肢入力フォームを含んだ日報テンプレート" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|○|○|○|
 
 ## 予め回答を用意して、一覧から選択することで入力できます
 

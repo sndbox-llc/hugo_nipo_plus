@@ -3,9 +3,14 @@ title = "日付と時刻入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 150
+# description = "チャプター"
 +++
 
 {{<imgproc datetime.png Resize "1200x" "日付と時刻入力フォームを含んだ日報テンプレートの例" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|✗|○|○|
 
 ## 日付・時刻・またはその双方を入力できる入力フォーム
 

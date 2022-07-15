@@ -3,9 +3,14 @@ title = "範囲入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 180
+# description = "チャプター"
 +++
 
 {{<imgproc icatch.png Resize "1200x" "範囲入力フォームを含んだ日報テンプレート" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|✗|○|○|
 
 ## ドラッグで直感的に入力可能な範囲入力です
 

@@ -2,10 +2,16 @@
 title = "選択肢（２層式）入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
+# description = "チャプター"
 weight = 140
 +++
 
 {{<imgproc selectc.png Resize "1200x" "選択肢（2層)を使った日報テンプレートの例" />}}
+
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|○|○|○|
 
 ## 第１の回答で第２の設問が変わる入力フォーム
 

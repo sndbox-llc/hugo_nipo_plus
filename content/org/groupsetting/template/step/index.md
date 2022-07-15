@@ -3,9 +3,14 @@ title = "スライダ入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限", "集計機能"]
 weight = 300
+# description = "チャプター"
 +++
 
 {{<imgproc icatch.png Resize "1200x" "スライダ入力フォームを含んだ日報テンプレートの画面" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|○|○|○|
 
 ## 数値をかんたんに入力できるスライダーを日報に追加する
 

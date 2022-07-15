@@ -3,11 +3,16 @@ title = "ファイル入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 230
+# description = "チャプター"
 +++
 
 ※CSV出力、PDF出力に対応していません
 
 {{<imgproc file.png Resize "1200x" "ファイル入力フォームを含んだ日報テンプレートの例" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|✗|✗|✗|
 
 ## 日報にファイルを添付する入力フォーム
 

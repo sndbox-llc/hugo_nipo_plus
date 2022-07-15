@@ -3,9 +3,14 @@ title = "レート入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限", "集計機能"]
 weight = 320
+# description = "チャプター"
 +++
 
 {{<imgproc icatch.png Resize "1200x" "レート入力フォームを含んだ日報テンプレート" />}}
+
+|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|:---:|:---:|:---:|
+|○|○|○|
 
 ## ワンクリックのシンプルな操作で使える入力フォーム
 

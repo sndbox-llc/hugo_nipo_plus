@@ -3,6 +3,7 @@ title = "可変長入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 400
+# description = "チャプター"
 +++
 
 {{<imgproc icatch.png Resize "1200x" "可変長入力フォームを含んだ日報テンプレートの例" />}}

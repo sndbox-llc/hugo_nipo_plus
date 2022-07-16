@@ -32,6 +32,7 @@ Web版のNipoPlusをご利用の方は、起動時にバックグラウンドで
 
 |日付|Version|変更内容|[Web](https://nipoapp.sndbox.jp/)|[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|[iOS](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)
 |---|:---:|---|:---:|:---:|:---:|
+|2022/07/16|v1.5.7|日報の修正後に続けて日報を書くと上書きされてしまうバグを修正しました|○|○|○|
 |2022/07/12|v1.5.6|特定の環境で過去の[データ推移](/report/read/analytics/)が取得できないバグを修正しました|○|-|-|
 |2022/07/12|v1.5.5|バグの修正を行いました。過去データ推移の1列目を固定にしました|○|○|○|
 |2022/07/11|v1.5.4|[共用機能](/org/groupsetting/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました。[グループへの所属画面](/org/staff/assign/)をより見やすく変更しました。本サイトのページ一部URL変更に伴いアプリ内のリンクを修正しました|○|-|-|

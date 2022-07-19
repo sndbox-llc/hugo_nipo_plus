@@ -102,3 +102,32 @@
     border-radius: 0.5em;
   }
 }
+
+.cta_btn{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+}
+
+.top_left_btn {
+  background-color: #722ed2d4;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 19px;
+
+  &:hover {
+    background-color: pink;
+  }
+}

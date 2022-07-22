@@ -9,4 +9,4 @@ weight = 20
 +++
 
 
-{{<imgproc mock.png Resize "1200x" "" />}}
+{{<imgproc mock.png   "" />}}

@@ -34,7 +34,7 @@ FireBaseは、Webアプリやスマートフォンアプリに特化したサー
 今では当たり前になりつつありますが通信にはhttpsプロトコルを使用しています。サーバとの通信はすべて暗号化され第三者がデータを盗み見ることはできません。
 ブラウザのURL表示エリアに鍵のマークがついていれば安心な通信であることが確認できます。[Web版Nipo](https://nipo-plus.web.app/)をご利用の際はURLバーから確認できます
 
-{{<imgproc https.png Resize "1200x" "ご利用のアプリバージョンは左メニュー下部に記載されています" />}}
+{{<imgproc https.png   "ご利用のアプリバージョンは左メニュー下部に記載されています" />}}
 
 {{<alice pos="right" icon="phone">}}
 [Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus) / [iOS版](https://apps.apple.com/jp/app/id1625797169)のNipoではURLバーは出ませんが、Web版同様安全な通信です
@@ -113,7 +113,7 @@ NipoPlusが使用しているFirestoreとElasticはいづれもNo-SQL型であ�
 
 ここで最後にIPAが作った秀逸なイラストを送ります
 
-{{<imgproc password.jpg Resize "1200x" "IPA-情報処理推進機構 パスワード" />}}
+{{<imgproc password.jpg   "IPA-情報処理推進機構 パスワード" />}}
 
 [画像出典元はこちらです](https://www.ipa.go.jp/security/keihatsu/munekyun-pw/slideshow/index.html)
 

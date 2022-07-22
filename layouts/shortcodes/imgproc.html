@@ -1,33 +1,21 @@
 <!-- 
   画像コンバータ
   .Get 0 画像ファイル名
-  .Get 1 コマンド（基本的にはresizeしか使わない)
-  .Get 2 画像リサイズサイズ '1200x'
-  .Get 3 alt 画像の説明
+  .Get 1 alt 画像の説明
 -->
 
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
-{{ $command := .Get 1 }}
-{{ $options := .Get 2 }}
-{{ $alt := .Get 3 }}
-{{ $webp := printf "%s webp" $options }}
-{{ if eq $command "Fit"}}
-  {{ $img = $img.Fit $options }}
-{{ else if eq $command "Resize"}}
-  {{ $img = $img.Resize $webp }}
-{{ else if eq $command "Fill"}}
-  {{ $img = $img.Fill $options }}
-{{ else if eq $command "Crop"}}
-  {{ $img = $img.Crop $options }}
-{{ else }}
-  {{ errorf "Invalid image processing command: Must be one of Crop, Fit, Fill or Resize."}}
-{{ end }}
-{{ $small := $img.Resize "600x" }}
+{{ $alt := .Get 1 }}
+{{ $webp := "1800x webp" }}
+{{ $full := $img.Resize "1500x webp" }}
+{{ $mid := $img.Resize "1200x webp" }}
+{{ $small := $img.Resize "600x webp" }}
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
   <picture>
-    <img style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}" srcset="
+    <img style="max-width: 100%; width: auto; height: auto;" src="{{ $full.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}" srcset="
       {{ $small.RelPermalink }} 600w,
-      {{ $img.RelPermalink }} 1200w
+      {{ $mid.RelPermalink }} 1200x,
+      {{ $full.RelPermalink }} 1800w
     ">
     <figcaption>
       <i style="font-size: 13px;">

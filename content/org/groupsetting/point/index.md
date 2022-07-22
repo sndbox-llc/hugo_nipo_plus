@@ -12,4 +12,4 @@ weight = 2000
 
 ポイント管理
 
-{{<imgproc mock.png Resize "1200x" "" />}}
+{{<imgproc mock.png   "" />}}

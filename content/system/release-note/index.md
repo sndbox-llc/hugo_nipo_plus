@@ -32,6 +32,7 @@ Web版のNipoPlusをご利用の方は、起動時にバックグラウンドで
 
 |日付|Version|変更内容|[Web](https://nipoapp.sndbox.jp/)|[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|[iOS](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)
 |---|:---:|---|:---:|:---:|:---:|
+|2022/07/21|v1.7.0|選択肢入力フォームに色分け機能が実装されました|○|○|○|
 |2022/07/19|v1.6.0|日報・チェックシートの[CSV出力オプション](/report/totalling/csv/)が変更されました|○|○|○|
 |2022/07/16|v1.5.7|日報の修正後に続けて日報を書くと上書きされてしまうバグを修正しました|○|○|○|
 |2022/07/12|v1.5.6|特定の環境で過去の[データ推移](/report/read/analytics/)が取得できないバグを修正しました|○|-|-|

@@ -12,7 +12,7 @@ weight = 40
 1. PDF出力ボタンを押す
 1. トーストされた通知をクリックする
 
-{{<imgproc makepdf.png   "日報をPDFに変換" />}}
+{{<imgproc makepdf.png "日報をPDFに変換" />}}
 
 PDF出力はバックグラウンドで行われるため、PDF出力ボタンを押してからダウンロードボタンが表示されるまでに数秒ほどの時間がかかります。
 PDFの作成が完了すると画面右下に通知ポップが表示されます。
@@ -22,16 +22,16 @@ PDFの作成が完了すると画面右下に通知ポップが表示されま�
 ダウンロードしたPDFの日報はお使いのPC上に保存されます。どこに保存されるかはお使いのブラウザの設定により異なります。
 例えばGoogle Chromeでは次のようにPDFファイルが新しいタブで開かれ、そこからダウンロードできます。
 
-{{<imgproc pdfView.png   "PDFをchromeで表示" />}}
+{{<imgproc pdfView.png "PDFをchromeで表示" />}}
 
 ## PDF出力の設定
 
 日報をPDFに変換する前に余白や背景の透かし文字の変更ができます。設定を変更するには「PDF設定」をクリックします
 
-{{<imgproc setting.png   "PDF出力の設定" />}}
+{{<imgproc setting.png "PDF出力の設定" />}}
 
 画面がPDF出力の詳細設定画面へ切り替わります。
-{{<imgproc setting2.png   "PDF出力の設定画面" />}}
+{{<imgproc setting2.png "PDF出力の設定画面" />}}
 
 |名称|説明|
 |---|---|

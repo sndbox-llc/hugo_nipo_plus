@@ -9,4 +9,4 @@ weight = 20
 +++
 
 
-{{<imgproc mock.png   "" />}}
+{{<imgproc mock.png "" />}}

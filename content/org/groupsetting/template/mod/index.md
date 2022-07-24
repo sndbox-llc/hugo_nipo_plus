@@ -6,7 +6,7 @@ weight = 340
 # description = "チャプター"
 +++
 
-{{<imgproc icatch.png   "" />}}
+{{<imgproc icatch.png "" />}}
 
 ## タップ・クリックのシンプルな操作で使えるシンプルな入力フォーム
 

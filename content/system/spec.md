@@ -49,7 +49,7 @@ Androidタブレットやスマートフォンでご利用可能ですが、Web�
 |必要な容量|20MB以上のストレージ|
 |推奨モニタサイズ|5.4インチ以上（iPhone SE2のサイズ）以上を推奨します。これ以下のサイズでは操作性が低下します  iPad(9.7inch)サイズ以上が適しています。※iPhone SE以下の小さなディスプレイは非推奨|
 
-[App Storeへアクセス](https://apps.apple.com/jp/app/id1625797169)
+[iOSにインストールする方法](/system/ios/)
 
 {{<alice pos="right" icon="tablet">}}
 ipadやiPhoneでご利用可能ですが、Webアプリ版に比べて一部機能が制限されます

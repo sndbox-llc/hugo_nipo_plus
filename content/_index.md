@@ -219,7 +219,7 @@ NipoPlusはグループ分け機能があります。グループの中で日報
 </a>
 </div>
 <div class="dp33">
-<a href="https://apps.apple.com/jp/app/id1625797169" target="_blank">
+<a href="/system/ios/">
 <img src='/images/ios-app.webp' width="573" height="173" alt="ios App Store">
 </a>
 </div>

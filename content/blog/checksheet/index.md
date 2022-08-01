@@ -2,7 +2,7 @@
 title = "チェックリストの結果を1枚のエクセルシートにまとめる"
 # description = ""
 tags = ["日報を読む", "日報を書く", "集計機能"]
-weight = 20
+weight = 20220724
 draft = false
 [sitemap]
   changefreq = 'monthly'

@@ -2,7 +2,7 @@
 title = "タクシー日報をスマホ・タブレットで"
 # description = ""
 tags = ["日報を読む", "日報を書く"]
-weight = 10
+weight = 20220728
 draft = false
 [sitemap]
   changefreq = 'monthly'

@@ -13,7 +13,7 @@ iOSにインストールするには大きく分けて2つの方法（PWA版・A
 
 ## PWAとしてNipoPlusをインストールする【推奨】
 
-SafariからNipoPlusを起動し、Safariから直接NipoPlusをiOSにインストールできます。
+**PWAとはWebサイトをアプリのように利用できる技術**のことです。SafariからNipoPlusを起動し、Safariから直接NipoPlusをiOSにインストールできます。
 こちらの方法はWeb版のNipoPlusと同じ環境でご利用可能です。URLバーなどの不要な項目が非表示なって全画面で表示されます。またホーム画面にもNipoPlusのアイコンが表示され、普通のアプリとほぼ同じように利用できます。
 手順は以下のとおりです。
 

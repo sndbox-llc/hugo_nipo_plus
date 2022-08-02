@@ -33,8 +33,9 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
-|日付|Version|変更内容|[Web](https://nipoapp.sndbox.jp/)|[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|[iOS](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)
+|日付|Version|変更内容|[Web](https://nipo-plus.web.app/)|[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|[iOS](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)
 |---|:---:|---|:---:|:---:|:---:|
+|2022/07/30|v1.8.0|日報テンプレート選択時に本日の作成枚数が表示されるようになりました。チェックボックス入力フォームのデータが集計可能になりました。|○|○|○|
 |2022/07/30|v1.7.5|グループ切替時に同じ日報が分裂して表示されるバグを修正しました。CSV出力時に選択肢にカラー機能が使われている場合にカラーコードがそのまま出力されてしまうバグを修正しました。|○|○|○|
 |2022/07/27|v1.7.4|モバイルデバイスに限り影響のあった一部不具合の修正を行いました|-|○|○|
 |2022/07/27|v1.7.3|色分けを行ったデータが適切に集計されないバグの修正を行いました。[CSV出力](/report/totalling/csv/)に「昇順出力」オプションが追加されました|○|-|-|

@@ -64,7 +64,7 @@
                   {{ $Site := .Site }}
                   {{with $File.Path }}
                   <div id="top-github-link">
-                    <a href="https://nipo-plus.web.app/" class="top_left_btn" target="_blank">App起動</a>
+                    <a href="https://nipo-plus.web.app/" class="top_left_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">App起動</a>
                     <!-- <a class="github-link" title='{{T "Edit-this-page"}}' href="{{ $Site.Params.editURL }}{{ replace $File.Dir "\\" "/" }}{{ $File.LogicalName }}" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">{{T "Edit-this-page"}}</span>

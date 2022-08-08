@@ -46,7 +46,7 @@ quasar = true
   const app = Vue.createApp({
     setup () {
       const EMAIL_REG_EXP = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/
-      const emailVerify = Vue.computed(() => { return EMAIL_REG_EXP.test(email.value) })
+      const emailVerify = Vue.const customerId = computed(() => route.params.customerId as string) EMAIL_REG_EXP.test(email.value) })
       const close = Vue.ref(false)
       const email = Vue.ref('')
       const msg = Vue.ref('')

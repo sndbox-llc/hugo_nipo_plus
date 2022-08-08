@@ -214,7 +214,7 @@ NipoPlusはグループ分け機能があります。グループの中で日報
 <footer class="footline" style="border-top: 1px solid #ccc; margin-top: 10px">
 <div class="flexmain">
 <div class="dp33">
-<a href="https://nipo-plus.web.app/" target="_blank">
+<a href="https://nipo-plus.web.app/" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">
 <img src='/images/banner2.webp' style="border-radius: 10px;" width="573" height="173" alt="nipoplusアプリ起動ボタン">
 </a>
 </div>

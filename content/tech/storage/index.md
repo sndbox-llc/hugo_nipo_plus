@@ -155,6 +155,33 @@ await 止まれ()
 
 のおかげでStreamの書き込みが完了後に、ダウンロードURLの取得処理が走るようになりました。よって本ページトップで書いたようなnoSuchKeyエラーは発生しなくなります。
 
+## SigningErrorが発生する場合
+
+上記コードを書いて実行すると、Cloud Functionsのログに
+
+```sh
+The caller does not have permission
+```
+
+と出力されることがあります。これはgetSignedUrl()関数の実行権限が足りていないために起こります。権限を追加するにはFirebaseの外側にあるGCPからIAMを編集する必要があります。
+まずはGCPを開き、IAMのページを開きます。IAMページではたくさんのアカウントが並んでいます。ここから**プロジェクト名@appspot.gserviceaccount.comのアカウント**を見つけ出してください。
+
+{{<alice pos="right" icon="ok">}}
+名前にApp Engine default service accountと書かれているからすぐ見つかると思うよ
+{{</alice>}}
+
+見つけたらそのアカウントの鉛筆ボタンをクリックし、ロールを2つ追加します
+
+- Cloud Datastore インポート / エクスポート管理者
+- サービス アカウント トークン作成者
+
+最終的には次のような形になればOKです
+
+{{<imgproc iam.png "IAMからロールを2つ追加して最終的なかたちはこの画面のようになっているはずです。" />}}
+
+IAMの設定が完了したら再び生成を試みてください。筆者の環境ではこれで問題なく動作することが確認できました。
+この情報は[StackOverFlow](https://stackoverflow.com/questions/53305784/signingerror-with-firebase-getsignedurl)に記載されていました。大変助かりました。
+
 {{<alice pos="right" icon="ok">}}
 筆者もだんだんStreamにも慣れてきたよ
 {{</alice>}}

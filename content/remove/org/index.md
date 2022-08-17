@@ -1,5 +1,6 @@
 +++
 title = "組織を削除する(退会)"
+# menuTitle = ""
 draft = false
 tags = ["管理者権限"]
 weight = 999

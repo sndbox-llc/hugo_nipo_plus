@@ -1,5 +1,6 @@
 +++
 title = "日報を一括PDF出力"
+# menuTitle = ""
 description = "複数の日報を一度にPDFファイルへ変換することができます"
 tags = ["CSVエクスポート", "集計機能"]
 weight = 30

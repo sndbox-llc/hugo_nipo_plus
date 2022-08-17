@@ -1,5 +1,6 @@
 +++
 title = "日報を書く"
+# menuTitle = ""
 weight = 20
 chapter = true
 pre = "<b>2-1. </b>"

@@ -1,5 +1,6 @@
 +++
 title = "アカウント管理"
+menuTitle = "アカウント管理"
 weight = 100
 # description = "チャプター"
 chapter = true

@@ -1,5 +1,6 @@
 +++
 title = "日報の下書き機能"
+# menuTitle = ""
 draft = false
 tags = ["日報を書く"]
 weight = 40

@@ -1,5 +1,6 @@
 +++
 title = "日報のシステムを自作する"
+# menuTitle = ""
 description = ""
 tags = ["日報を読む", "日報を書く"]
 weight = 10

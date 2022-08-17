@@ -1,5 +1,6 @@
 +++
 title = "初期設定"
+menuTitle = "初期設定"
 weight = 10
 chapter = true
 description = "NipoPlusを利用する前に初期設定を済ませておきましょう。日報テンプレートの作成や一緒に使用するスタッフアカウントの用意、必要に応じてグループ分けなどを行います"

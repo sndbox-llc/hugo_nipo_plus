@@ -443,7 +443,6 @@ h2, h3, h4, h5, h6 {
 h1 {
     font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     text-align: center;
-    text-transform: uppercase;
     color: #222;
     font-weight: 200;
 }
@@ -662,7 +661,6 @@ hr {
 }
 #body-inner .tabs-wrapper.ui-theme-badges .tabs-nav li {
     font-size: 0.9rem;
-    text-transform: uppercase;
 }
 #body-inner .tabs-wrapper.ui-theme-badges .tabs-nav li a {
     background: #35393c;

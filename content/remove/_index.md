@@ -1,5 +1,6 @@
 +++
 title = "削除について"
+# menuTitle = ""
 weight = 900
 chapter = true
 pre = "<b>9. </b>"

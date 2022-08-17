@@ -1,5 +1,6 @@
 +++
 title = "検索"
+# menuTitle = ""
 weight = 100
 quasar = true
 [sitemap]

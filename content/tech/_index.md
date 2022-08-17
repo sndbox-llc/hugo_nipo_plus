@@ -1,5 +1,6 @@
 +++
 title = "技術系ブログ"
+# menuTitle = ""
 weight = 9000
 description = "NipoPlusのユースケースについて随時記事を書いていきます"
 chapter = true

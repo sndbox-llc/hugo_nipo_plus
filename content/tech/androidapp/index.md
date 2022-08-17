@@ -1,5 +1,7 @@
 +++
 title = "Quasar FrameworkでAndroidアプリをビルドしてストア提出する(AABファイル)"
+menuTitle = "QuasarでAndroidアプリを作成"
+
 # description = ""
 tags = ["技術系ブログ"]
 weight = 10

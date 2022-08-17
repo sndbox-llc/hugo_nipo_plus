@@ -1,5 +1,6 @@
 +++
 title = "日報を1件削除する"
+# menuTitle = ""
 draft = false
 tags = ["日報を読む", "管理者権限"]
 weight = 70

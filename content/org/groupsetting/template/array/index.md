@@ -1,5 +1,6 @@
 +++
 title = "反復入力フォーム"
+menuTitle = "反復入力フォーム"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 400

@@ -1,5 +1,6 @@
 +++
-title = "クイックスタートガイド"
+title = "NipoPlusを初めて利用される方向けの入門ガイドです。アカウント作成から日報作成までの流れをご紹介"
+menuTitle = "クイックスタートガイド"
 weight = 1
 chapter = false
 pre = "<b>0. </b>"

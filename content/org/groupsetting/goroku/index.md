@@ -1,5 +1,6 @@
 +++
 title = "語録管理"
+# menuTitle = ""
 draft = false
 tags = ["入力フォーム", "日報テンプレート", "編集者権限"]
 weight = 50

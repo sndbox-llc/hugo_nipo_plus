@@ -1,5 +1,6 @@
 +++
 title = "グループ内のログデータを確認"
+menuTitle = "ログデータ"
 draft = false
 # tags = ["ログ"]
 weight = 890

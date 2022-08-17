@@ -1,5 +1,6 @@
 +++
 title = "iosにNipoPlusをインストール"
+# menuTitle = ""
 description = "iPhone / iPadにNipoPlusをインストールするにはPWAとしてインストールする方法、App Storeからダウンロードする方法があります。PWAを推奨しています。"
 # tags = [""]
 weight = 2

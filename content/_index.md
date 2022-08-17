@@ -204,7 +204,26 @@ NipoPlusはグループ分け機能があります。グループの中で日報
 活動実績とは例えば日報を読んだ回数や日報にコメントを書いた回数などです。
 {{</alice>}}
 -->
-
+<div id="call_to_action" style="background-color: #722ed2d4;padding:20px">
+  <div class="flexmain">
+    <div class="dp25">
+      <img src='/images/app-iconx200.png' style="width:100%; max-height: 200px;" width="200" height="200" alt="nipoplusアプリ起動ボタン">
+    </div>  
+    <div class="dp75" style="color: white">
+      <h3 style="color:white">一切の企業情報を入力せずに手軽に体験できます</h3>
+      <ul>
+        <li style="color:white">メール・パスワードの設定なしで体験可能（匿名機能）</li>
+        <li style="color:white">継続利用する際も正規アカウントへ<strong>引き継ぎ可能</strong></li>
+        <li style="color:white">辞めるときも匿名なら<strong>簡単に廃棄可能</strong></li>
+        <li style="color:white">クレジットカードの登録も不要</li>
+        <li style="color:white">Webアプリだからインストール不要</li>
+      </ul>
+      <div style="text-align: center;margin-top: 3em;margin-bottom: 3em;">
+        <a href="https://nipo-plus.web.app/" class="cta_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});" >Webではじめる</a>
+      </div>  
+    </div>
+  </div>
+</div>
 <footer class="footline" style="border-top: 1px solid #ccc; margin-top: 10px">
 <div class="flexmain">
 <div class="dp33">

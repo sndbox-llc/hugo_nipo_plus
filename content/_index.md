@@ -10,7 +10,7 @@ draft = false
 
 # クラウド日報NipoPlus
 
-{{<imgproc top.png "" />}}
+{{<imgproc top.png "クラウド日報NipoPlus" />}}
 
 ## 日報・チェックシートのテンプレートが自由に作れる
 
@@ -214,7 +214,7 @@ NipoPlusはグループ分け機能があります。グループの中で日報
     <div class="dp75" style="color: white">
       <h3 style="color:white">一切の企業情報を入力せずに手軽に体験できます</h3>
       <ul>
-        <li style="color:white">メール・パスワードの設定なしで体験可能（匿名機能）</li>
+        <li style="color:white">メール・パスワードの設定なしで体験可能（<a href="/account/tokumei/">匿名機能</a>）</li>
         <li style="color:white">継続利用する際も正規アカウントへ<strong>引き継ぎ可能</strong></li>
         <li style="color:white">辞めるときも匿名なら<strong>簡単に廃棄可能</strong></li>
         <li style="color:white">クレジットカードの登録も不要</li>

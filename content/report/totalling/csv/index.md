@@ -1,6 +1,6 @@
 +++
 title = "日報を一括CSV出力"
-# menuTitle = ""
+menuTitle = "CSV出力（一括）"
 # description = "チャプター"
 tags = ["CSVエクスポート", "集計機能"]
 weight = 30

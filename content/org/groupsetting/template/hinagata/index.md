@@ -7,7 +7,6 @@ weight = 999
 # description = "チャプター"
 +++
 
-{{<imgproc icatch.png "" />}}
 
 |[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
 |:---:|:---:|:---:|

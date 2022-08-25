@@ -46,6 +46,12 @@ find . -name '.DS_Store' -type f -ls -delete
 muffet --exclude="https://.*" http://localhost:1313 
 ```
 
+フォルダの中身サイズ順に表示する
+```sh
+ls -lS -R -x /content
+
+```
+
 ポートが何故か開放されないとき強制的にポートをあける
 
 ``` sh

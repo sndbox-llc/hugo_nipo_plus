@@ -107,9 +107,9 @@
 }
 
 .cta_btn{
-  width: 209px;
+  width: 309px;
   padding: 14px 0 16px 0;
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -120,6 +120,11 @@
   line-height: 1;
   border-radius: 50px;
   transition: all .2s;
+
+  &:hover {
+    background-color: pink;
+    text-decoration: none;
+  }
 }
 
 .top_left_btn {

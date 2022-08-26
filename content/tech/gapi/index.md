@@ -2,7 +2,7 @@
 menuTitle = "GAPIを使うまでの流れ"
 title = "Vue.js（ts）でGoogle API(gapi)を使いカレンダーを取得するまで"
 description = ""
-tags = ["javascript"]
+# tags = ["javascript"]
 +++
 
 

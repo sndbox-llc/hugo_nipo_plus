@@ -2,7 +2,7 @@
 title = "日報をPDFに変換して保存"
 menuTitle = "PDF出力（単体）"
 description = "1つの日報ファイルを1枚のPDFファイルに変換します"
-tags = ["日報を読む", "PDFエクスポート"]
+# tags = ["日報を読む", "PDFエクスポート"]
 weight = 40
 [sitemap]
   changefreq = 'weekly'

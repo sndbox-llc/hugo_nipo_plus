@@ -2,7 +2,7 @@
 title = "カレンダーから日報・タスクを開く"
 # menuTitle = ""
 # description = "チャプター"
-tags = ["日報を読む", "タスク"]
+# tags = ["日報を読む", "タスク"]
 weight = 30
 +++
 

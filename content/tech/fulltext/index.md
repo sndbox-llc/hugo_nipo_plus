@@ -2,7 +2,7 @@
 menuTitle = "全文検索データベース"
 title = "Firebaseの推奨する全文検索 Elastic Search / Algolia / Typesenseの比較"
 description = "FireStoreは優れたデータベースですが全文検索機能をサポートしていません。不足した機能を補うため、Elastic Search・Algolia・Typesenseの3種類を公式では紹介してます。これらを実際に使用してみた感想をまとめています"
-tags = ["javascript", "firebase"]
+# tags = ["javascript", "firebase"]
 +++
 
 ## FireStoreで全文検索をする方法3種類を比較してみた

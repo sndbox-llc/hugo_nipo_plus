@@ -2,7 +2,7 @@
 title = "システム利用規約"
 # menuTitle = ""
 description = "Nipoを利用する上での利用規約になります。同じ内容のものがクラウド日報Nipoのアカウント作成後に表示されます"
-tags = ["システム概要"]
+# tags = ["システム概要"]
 weight = 12
 [sitemap]
   changefreq = 'monthly'

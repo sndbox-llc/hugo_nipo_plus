@@ -2,7 +2,7 @@
 title = "日報を書くまでの流れ"
 # menuTitle = ""
 draft = false
-tags = ["日報テンプレート", "日報を書く"]
+# tags = ["日報テンプレート", "日報を書く"]
 weight = 10
 +++
 

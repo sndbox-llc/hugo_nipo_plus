@@ -2,7 +2,7 @@
 title = "セキュリティについて"
 # menuTitle = ""
 description = "クラウドサービスにおいてセキュリティは最も優先しなければならない課題です。NipoPlusを安心して利用いただくためにNipoPlusで行っているセキュリティ対策についてご紹介します"
-tags = ["セキュリティ", "システム概要"]
+# tags = ["セキュリティ", "システム概要"]
 weight = 99
 [sitemap]
   changefreq = 'monthly'

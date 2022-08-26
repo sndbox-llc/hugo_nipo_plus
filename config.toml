@@ -63,10 +63,6 @@ enableGitInfo = true
 name = "<i class='fa fa-search'></i> 検索"
 url = "/search/"
 weight = 10
-[[menu.shortcuts]]
-name = "<i class='fa fa-tags'></i> Tags"
-url = "/tags/"
-weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-cube'></i>旧Nipoとの違い"

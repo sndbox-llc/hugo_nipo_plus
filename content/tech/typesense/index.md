@@ -17,7 +17,7 @@ FireStoreの公式サイトでは、[全文検索を実装するには外部の�
 - [Elastic Search](https://www.elastic.co/jp/elasticsearch/)
 - [TypeSense](https://typesense.org/)
 
-の３種類が案内されています。現在のNipoではAlgoliaを使って全文検索を実装していますが、実はAlgolia、小規模なプロジェクトでも結構高額になる料金体系のため予算に限りのあるプロダクトでは実装するのが非常に厳しいです。
+の3種類が案内されています。現在のNipoではAlgoliaを使って全文検索を実装していますが、実はAlgolia、小規模なプロジェクトでも結構高額になる料金体系のため予算に限りのあるプロダクトでは実装するのが非常に厳しいです。
 特に料金形態が変更されてからは事実上の値上げとなりました。
 
 {{<alice pos="right" icon="guide">}}
@@ -36,12 +36,12 @@ Typesenseの情報自体はまだまだ少ないです。日本語によるTypes
 
 {{<imgproc typesense_price.png "TypesenseCloudの料金はリージョンによっても金額が変わります。ムンバイは特にリーズナブルな価格で提供されています" />}}
 
-メモリが0.5GBは実運用では足りないと思いますが、ちょっと使ってみるにはお手軽です。多少遅くても、Algoliaよりずっと安価で導入できるのは魅力的ですね。（データ０件ならAlgoliaのほうが安いですが・・・）
+メモリが0.5GBは実運用では足りないと思いますが、ちょっと使ってみるにはお手軽です。多少遅くても、Algoliaよりずっと安価で導入できるのは魅力的ですね。（データ0件ならAlgoliaのほうが安いですが・・・）
 
 ### リレーショナルデータベースのようにテーブル構造を作成する必要があります
 
 Algoliaでは、Indexというまとまりを作ってそこにデータを入れて保存していきます。これはリレーショナルデータベースで言うところの「テーブル」に該当します。Typesenseではこれを「Collection」と呼びます。
-ちょっと面白いなと思ったのが、[テーブルスキーマ](https://typesense.org/docs/0.21.0/api/collections.html#create-a-collection)という概念があることです。Collectionを作る際にスキーマを定義するため、Algoliaに比べるとちょっと面倒くさいですが、そのおかげで任意のキーでソートが可能になります。（Algoliaはソートが１種類に制限されるのでここが大きな違い）
+ちょっと面白いなと思ったのが、[テーブルスキーマ](https://typesense.org/docs/0.21.0/api/collections.html#create-a-collection)という概念があることです。Collectionを作る際にスキーマを定義するため、Algoliaに比べるとちょっと面倒くさいですが、そのおかげで任意のキーでソートが可能になります。（Algoliaはソートが1種類に制限されるのでここが大きな違い）
 スキーマに定義していないデータを放り込むこともできるので、ある程度の柔軟性も持っています。
 例えばスキーマはこんな感じで書きます
 
@@ -155,7 +155,7 @@ const limitedKey = client.keys().generateScopedSearchKey(
 
 地味に不便なポイントです。数値や真偽値でのソートは可能ですが、[文字列によるソートは対応していません](https://github.com/typesense/typesense/issues/73)。Nipoなんかでは正直ソートはいりませんが、データをテーブル風に表示する製品においてはテーブルとソートはセットみたいな感じなので、文字によるソートは欲しかったですね。
 文字を文字コードの数値にして戦闘からウェイトをもたせて数値として保存する事もできますが、まぁそこまで回りくどいことをしないと実装できないってことで少しマイナスポイントでした。
-Algoliaのソートは１種類しか保存できないため、文字によるソートができない弱点は対Algoliaに対してそこまで大きな弱点にはならないでしょう。複数のキーでソートできる点では、TypesenseはAlgoliaより優秀です  
+Algoliaのソートは1種類しか保存できないため、文字によるソートができない弱点は対Algoliaに対してそこまで大きな弱点にはならないでしょう。複数のキーでソートできる点では、TypesenseはAlgoliaより優秀です  
 
 開発者に連絡をしたところ、対応可能か前向きに検討してくれるとのことです。今後に期待ですね！
 
@@ -192,7 +192,7 @@ Typesenseが動的に変えられるとのことでTypesenseの勝ちになり�
 
 ### ライセンスがGPL3である（用途によっては問題になるかも？）
 
-ライセンスの問題で、GPL３を採用しています。開発者側は[「なぜGPL3？」](https://github.com/typesense/typesense#user-content-why-the-gpl-license)と詳しく解説しているので気になる方は目を通してみてください。
+ライセンスの問題で、GPL3を採用しています。開発者側は[「なぜGPL3？」](https://github.com/typesense/typesense#user-content-why-the-gpl-license)と詳しく解説しているので気になる方は目を通してみてください。
 
 ### TypeScriptに対応していない
 
@@ -207,7 +207,7 @@ Typesenseが動的に変えられるとのことでTypesenseの勝ちになり�
 
 時々挙動がおかしいことがあります。ただこれは人が作るものである以上仕方ないと思います。  
 ありがたいことにTypsenseのチームは質問に対してのレスポンスや修正がとても早く助かります。もし使ってみて気になることがあれば質問を投げてみるといいです。
-TypeScriptに対応したV1.0.0で初期化の引数型似バグがあり、[Issue](https://github.com/typesense/typesense-js/issues/82#issuecomment-963785454)を書いたその１０分後には修正完了の返信がきていました。驚きです。
+TypeScriptに対応したV1.0.0で初期化の引数型似バグがあり、[Issue](https://github.com/typesense/typesense-js/issues/82#issuecomment-963785454)を書いたその10分後には修正完了の返信がきていました。驚きです。
 多少の粗はやむを得ないとして開発の勢いはとても強いと感じました。
 
 {{<alice pos="right" icon="guide">}}
@@ -243,8 +243,8 @@ TypeScriptに対応したV1.0.0で初期化の引数型似バグがあり、[Iss
 
 {{<imgproc typesense_result.png "Nipoで日報を検索する画面" />}}
 
-NipoではBi-gramではなくUni-gramで分解しています。つまり１文字づつ分解します。  
-数字なんかは分解するとノイズが酷いため、数字は１つのブロックとして分解しないようにしています。
+NipoではBi-gramではなくUni-gramで分解しています。つまり1文字づつ分解します。  
+数字なんかは分解するとノイズが酷いため、数字は1つのブロックとして分解しないようにしています。
 大規模なプロジェクトでは実装するのはよく考えたほうが良いですが、Nipoのように一人で気軽に開発しているプロジェクトでは、
 簡単に導入ができて、コストが安く、サーバも自分で管理しなくて良いので私の中ではベストな選択だったと思います。
 
@@ -280,7 +280,7 @@ export function makeNgramWithoutDigit (dutyVal:string | number, len = 2, tobeDig
    */
   let res = ''
   for (let i = 0; i <= resultAry.length - 1;) {
-    // 引数tobeDigitBlockがtrueなら数値はN-gramではなく１つの連なったブロックとして出力する。
+    // 引数tobeDigitBlockがtrueなら数値はN-gramではなく1つの連なったブロックとして出力する。
     // 例えば 123000という値が来たとき、
     // tobeDigitBlock= trueなら 123000
     // tobeDigitBlock = falseなら123 230 300 000(lenが3と仮定)
@@ -289,7 +289,7 @@ export function makeNgramWithoutDigit (dutyVal:string | number, len = 2, tobeDig
       const currentChar = resultAry[i]
       if (numWord.includes(currentChar)) {
         let digitNode = ''
-        // 現在のポインタは数字を示しているため、連なった数字までポインタを進め、を１つのトークンとする(Ngramにはしない)
+        // 現在のポインタは数字を示しているため、連なった数字までポインタを進め、を1つのトークンとする(Ngramにはしない)
         // eslint-disable-next-line no-constant-condition
         while (true) {
           const digitChar = resultAry[i]

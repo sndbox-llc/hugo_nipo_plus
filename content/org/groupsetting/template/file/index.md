@@ -1,6 +1,6 @@
 +++
-title = "ファイル入力フォーム"
-# menuTitle = ""
+title = "ファイル入力フォーム\n日報の資料としてPdfやExcel・Zipなどを添付可能"
+menuTitle = "ファイル入力"
 draft = false
 tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 230

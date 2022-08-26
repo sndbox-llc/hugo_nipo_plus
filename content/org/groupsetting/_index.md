@@ -56,7 +56,7 @@ graph LR;
 |グループ名|グループの名称を設定できます|
 |グループのテーマカラー|テーマカラーを設定します。メニューやボタンの色が変わります|
 |グループのモード|【共有】または【通常】から選択します|
-|[グループ内のスタッフ](/org/groupsetting/staff/)|グループに所属している[スタッフの日報提出先](/org/groupsetting/dist/)や[活動履歴](/org/groupsetting/activity/)の確認ができます|
+|[グループ内のスタッフ](/org/staff/)|グループに所属している[スタッフの日報提出先](/org/groupsetting/dist/)や[活動履歴](/org/groupsetting/activity/)の確認ができます|
 |[日報のテンプレート](/org/groupsetting/template/)|グループで使用する日報テンプレートを作成・管理できます|
 |[タグ](/org/groupsetting/tag/)|日報やタスクにつける目印となるタグを自由に設計できます|
 |[商品・ポイント管理](/org/groupsetting/point/)|在庫の増減を管理したい項目を設定できます|

@@ -1,6 +1,6 @@
 +++
-title = "語録管理"
-# menuTitle = ""
+title = "語録管理\nシンプルな単語の羅列ですが選択肢などに組み込んで使用できます"
+menuTitle = "語録管理"
 draft = false
 tags = ["入力フォーム", "日報テンプレート", "編集者権限"]
 weight = 50

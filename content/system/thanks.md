@@ -2,7 +2,7 @@
 title = "謝辞"
 # menuTitle = ""
 description = "NipoPlusは数多くのソフトウェアの助力を得て作られています。普段は表舞台に出ることのない縁の下の力持ちなソフトたちの協力がなければNipoPlusは存在できませんでした。感謝します。"
-# tags = ["クレジット"]
+# # tags = ["クレジット"]
 weight = 100
 [sitemap]
   changefreq = 'monthly'

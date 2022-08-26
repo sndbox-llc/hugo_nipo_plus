@@ -2,7 +2,7 @@
 title = "FirebaseのE-mail認証でアドレスが正しいことを確認する"
 menuTitle = "FirebaseのEmail認証"
 description = "Firebaseでユーザが登録したE-mailが本当に正しいかを確認する一連の流れについて紹介しています。FirebaseではE-mail確認に関する機能が用意されているため比較的簡単に実装できます"
-tags = ["javascript", "firebase"]
+# tags = ["javascript", "firebase"]
 +++
 
 

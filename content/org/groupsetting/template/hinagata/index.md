@@ -2,7 +2,7 @@
 title = "テンプレ"
 # menuTitle = ""
 draft = true
-tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
+# tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 999
 # description = "チャプター"
 +++

@@ -2,7 +2,7 @@
 title = "NipoとNipoPlusの違い"
 # menuTitle = ""
 description = "NipoをアップデートするのではなくNipoPlusという別サービスを作ることでより拡張性の高いAppになることを目指します。1から作り直した全く新しいNipoPlusはNipo以上に高機能で高品質なアプリとなりました"
-tags = ["システム概要"]
+# tags = ["システム概要"]
 weight = 100
 [sitemap]
   changefreq = 'monthly'

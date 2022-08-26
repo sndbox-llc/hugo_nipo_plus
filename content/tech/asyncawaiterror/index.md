@@ -2,7 +2,7 @@
 menuTitle = "JSの非同期が止まらない問題"
 title = "async関数を呼び出したときに呼び出し先でエラーが発生しても処理が止まらない時"
 description = "Javascriptの非同期処理（Async/Await)をよく理解していなかったために起きたとある開発者の奮闘について綴りました"
-tags = ["javascript"]
+# tags = ["javascript"]
 +++
 
 

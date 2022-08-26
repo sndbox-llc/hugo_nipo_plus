@@ -2,7 +2,7 @@
 title = "ポイント管理"
 # menuTitle = ""
 draft = false
-# tags = ["日報テンプレート", "ポイント管理"]
+# # tags = ["日報テンプレート", "ポイント管理"]
 weight = 2000
 [sitemap]
   changefreq = 'monthly'

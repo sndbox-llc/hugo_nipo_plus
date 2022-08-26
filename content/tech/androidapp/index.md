@@ -3,7 +3,7 @@ title = "Quasar FrameworkでAndroidアプリをビルドしてストア提出す
 menuTitle = "QuasarでAndroidアプリを作成"
 
 # description = ""
-tags = ["技術系ブログ"]
+# tags = ["技術系ブログ"]
 weight = 10
 draft = false
 [sitemap]

@@ -2,7 +2,7 @@
 title = "詳細画面のその他の機能"
 # menuTitle = ""
 # description = "チャプター"
-tags = ["日報を読む"]
+# tags = ["日報を読む"]
 weight = 100
 [sitemap]
   changefreq = 'weekly'

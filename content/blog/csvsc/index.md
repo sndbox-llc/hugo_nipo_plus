@@ -2,7 +2,7 @@
 title = "複数のCSVファイルを1つに結合するWebシステム"
 menuTitle = "複数のCSVファイルを連結する"
 description = "Web上で複数のCSVファイルをドラッグするだけで1つのCSVファイルに連結するツールです。無料で誰でも自由に利用可能です"
-tags = ["javascript", "tool"]
+# tags = ["javascript", "tool"]
 +++
 
 ## CSVを連結するWebシステムはこちらです

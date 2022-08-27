@@ -1,7 +1,7 @@
 +++
 title = "通知の種類"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "通知の種類"
+description = ""
 # tags = ["日報を読む", "日報を書く", "タスク"]
 weight = 11
 +++

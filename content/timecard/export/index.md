@@ -1,7 +1,7 @@
 +++
 title = "タイムカードの集計・ダウンロード"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "タイムカードの集計・ダウンロード"
+description = ""
 # tags = ["CSVエクスポート"]
 weight = 30
 [sitemap]

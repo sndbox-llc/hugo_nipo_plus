@@ -1,8 +1,8 @@
 +++
 title = "タイムカードを入力する"
-# menuTitle = ""
-# description = "チャプター"
-# # tags = ["タイムカード"]
+menuTitle = "タイムカードを入力する"
+description = ""
+# tags = ["タイムカード"]
 weight = 10
 [sitemap]
   changefreq = 'monthly'

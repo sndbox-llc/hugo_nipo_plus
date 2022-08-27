@@ -1,6 +1,6 @@
 +++
 title = "日報テンプレートの削除"
-# menuTitle = ""
+menuTitle = "日報テンプレートの削除"
 draft = false
 # tags = ["日報テンプレート", "編集者権限"]
 weight = 10

@@ -1,7 +1,7 @@
 +++
 title = "チェックシートデータ集計"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "チェックシートデータ集計"
+description = ""
 # tags = ["日報テンプレート", "集計機能"]
 weight = 40
 +++

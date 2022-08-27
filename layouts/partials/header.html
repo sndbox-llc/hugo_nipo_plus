@@ -78,14 +78,16 @@
                   {{ if $toc }}
                   <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
                   {{ end }}
+                  <!--
                   <span class="links">
-                 {{$showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb))}}
-                 {{if $showBreadcrumb}}
-                    {{ template "breadcrumb" dict "page" . "value" .Title }}
-                 {{ else }}
-                   {{ .Title }}
-                 {{ end }}
+                    {{$showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb))}}
+                    {{if $showBreadcrumb}}
+                        {{ template "breadcrumb" dict "page" . "value" .Title }}
+                    {{ else }}
+                      {{ .Title }}
+                    {{ end }}
                   </span>
+                -->
                 </div>
                 {{ if $toc }}
                     {{ partial "toc.html" . }}
@@ -93,12 +95,21 @@
               </div>
             </div>
             {{ end }}
+            <!-- バンくずリスト -->
+            {{if not .IsHome }}
+              <div id="breadcrumbsNavigations">
+              <ul >
+                {{ template "breadcrumbnav" dict "p1" . "p2" . }}
+              </ul>
+            </div>
+            {{ end }}
+
         <div id="head-tags">
         {{ partial "tags.html" . }}
         </div>
         {{ if .Params.chapter }}
           <div id="chapter">
-        {{ end }}
+        {{ end }}      
         <div id="body-inner">
           {{if and (not .IsHome) (not .Params.chapter) }}
             <h1>
@@ -108,7 +119,7 @@
               {{.Title}}
             </h1>
           {{end}}
-
+        <!--
         {{define "breadcrumb"}}
           {{$parent := .page.Parent }}
           {{ if $parent }}
@@ -118,3 +129,17 @@
             {{.value|safeHTML}}
           {{end}}
         {{end}}
+        -->
+        {{ define "breadcrumbnav" }}
+          {{ if .p1.Parent }}
+            {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+          {{ else if not .p1.IsHome }}
+            {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+          {{ end }}
+          {{ if eq .p1 .p2 }}
+            <li class="active">{{ .p1.Params.menuTitle }}</li>
+          {{ else }}
+            <li><a href="{{ .p1.RelPermalink }}">{{ .p1.Params.menuTitle }}</a></li>
+          {{ end }}
+        {{ end }}
+

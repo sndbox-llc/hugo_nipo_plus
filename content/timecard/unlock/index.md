@@ -1,7 +1,7 @@
 +++
 title = "タイムカードの制限解除"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "タイムカードの制限解除"
+description = ""
 # tags = ["編集者権限"]
 weight = 50
 [sitemap]

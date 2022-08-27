@@ -1,10 +1,10 @@
 +++
 title = "削除した項目の復旧"
-# menuTitle = ""
+menuTitle = "削除した項目の復旧"
 draft = false
 # tags = ["日報テンプレート", "編集者権限"]
 weight = 999
-# description = "チャプター"
+description = ""
 +++
 
 本ページは誤って日報テンプレートから必要な項目を削除してしまった場合に対する復旧法について紹介してます。

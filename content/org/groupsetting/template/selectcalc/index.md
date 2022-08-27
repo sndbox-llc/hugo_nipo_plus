@@ -3,7 +3,7 @@ title = "選択肢入力（2層式）入力フォーム\n1つ目の解答に応�
 menuTitle = "選択肢入力(2層式)"
 draft = false
 # tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
-# description = "チャプター"
+description = ""
 weight = 140
 +++
 

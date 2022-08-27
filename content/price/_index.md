@@ -1,6 +1,6 @@
 +++
 title = "ご利用料金"
-# menuTitle = ""
+menuTitle = "ご利用料金"
 weight = 110
 chapter = true
 description = "60日間の無料お試し期間あり。1名180円のリーズナブルな料金です。お試し期間中にクレジットカードの登録は一切不要です"

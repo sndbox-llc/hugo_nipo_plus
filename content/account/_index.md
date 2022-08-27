@@ -2,7 +2,7 @@
 title = "アカウント管理"
 menuTitle = "アカウント管理"
 weight = 100
-# description = "チャプター"
+description = ""
 chapter = true
 pre = "<b>7. </b>"
 +++

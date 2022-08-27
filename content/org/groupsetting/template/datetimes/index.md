@@ -4,7 +4,7 @@ menuTitle = "期間入力"
 draft = false
 # tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 160
-# description = "チャプター"
+description = ""
 +++
 
 {{<imgproc icatch.png "期間入力フォームを含んだ日報テンプレートの例" />}}

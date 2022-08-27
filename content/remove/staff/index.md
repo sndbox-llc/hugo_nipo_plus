@@ -1,7 +1,7 @@
 +++
 title = "スタッフアカウントの削除"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "スタッフアカウントの削除"
+description = ""
 # tags = ["アカウントの管理", "管理者権限"]
 weight = 40
 +++

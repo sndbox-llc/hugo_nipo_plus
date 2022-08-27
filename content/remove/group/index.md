@@ -1,6 +1,6 @@
 +++
 title = "グループの削除"
-# menuTitle = ""
+menuTitle = "グループの削除"
 draft = false
 # tags = ["グループの管理", "管理者権限"]
 weight = 200

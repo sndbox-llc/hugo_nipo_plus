@@ -1,7 +1,7 @@
 +++
 title = "詳細画面のその他の機能"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "詳細画面のその他の機能"
+description = ""
 # tags = ["日報を読む"]
 weight = 100
 [sitemap]

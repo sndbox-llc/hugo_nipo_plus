@@ -1,7 +1,7 @@
 +++
 title = "通知を確認する"
-# menuTitle = ""
-# description = "Nipoでは有料プランを申し込まれる際、Webによる金銭授受が発生するため特定商取引法に基づく表記義務があります"
+menuTitle = "通知を確認する"
+description = ""
 # tags = ["日報を読む"]
 weight = 11
 +++

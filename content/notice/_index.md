@@ -1,8 +1,8 @@
 +++
 title = "通知機能について"
-# menuTitle = ""
+menuTitle = "通知機能について"
 weight = 60
-# description = "チャプター"
+description = ""
 chapter = true
 pre = "<b>6. </b>"
 +++

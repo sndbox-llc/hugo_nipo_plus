@@ -1,7 +1,7 @@
 +++
 title = "タスクを確認する"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "タスクを確認する"
+description = ""
 # tags = ["タスク"]
 weight = 20
 [sitemap]

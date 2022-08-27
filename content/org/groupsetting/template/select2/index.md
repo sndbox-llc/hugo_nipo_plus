@@ -4,7 +4,7 @@ menuTitle = "選択肢入力(複数解答)"
 draft = false
 # tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 130
-# description = "チャプター"
+description = ""
 +++
 
 {{<imgproc select2.png "選択肢入力フォーム（複）のみで構成された日報の例。タップ操作でかんたんに日報が書ける点が特徴" />}}

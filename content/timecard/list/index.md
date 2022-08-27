@@ -1,7 +1,7 @@
 +++
 title = "タイムカードをリスト表示する"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "タイムカードをリスト表示する"
+description = ""
 # tags = ["編集者権限"]
 weight = 20
 +++

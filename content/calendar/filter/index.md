@@ -1,7 +1,7 @@
 +++
 title = "カレンダー上の表示項目を設定"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "カレンダー上の表示項目を設定"
+description = ""
 # tags = ["日報を読む", "タスク"]
 weight = 20
 +++

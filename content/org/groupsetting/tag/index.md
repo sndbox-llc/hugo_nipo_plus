@@ -1,6 +1,6 @@
 +++
 title = "タグの管理"
-# menuTitle = ""
+menuTitle = "タグの管理"
 draft = false
 # tags = ["日報テンプレート", "編集者権限"]
 weight = 40

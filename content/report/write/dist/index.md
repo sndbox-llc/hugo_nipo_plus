@@ -1,6 +1,6 @@
 +++
 title = "日報の提出先と共有先"
-# menuTitle = ""
+menuTitle = "日報の提出先と共有先"
 draft = false
 # tags = ["日報を書く"]
 weight = 20

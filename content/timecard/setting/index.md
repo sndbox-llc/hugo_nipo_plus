@@ -1,7 +1,7 @@
 +++
 title = "タイムカードの設定"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "タイムカードの設定"
+description = ""
 # tags = ["編集者権限"]
 weight = 30
 [sitemap]

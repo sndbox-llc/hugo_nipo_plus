@@ -1,6 +1,6 @@
 +++
 title = "クラウド日報 NipoPlus"
-menuTitle = "クラウド日報 NipoPlus"
+menuTitle = "Home"
 
 draft = false
 [sitemap]

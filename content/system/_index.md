@@ -1,6 +1,6 @@
 +++
 title = "システム概要・規約"
-# menuTitle = ""
+menuTitle = "システム概要・規約"
 weight = 999
 description = "システム利用規約やプライバシーポリシー、特定商取引法にもどつく表記について記載しています"
 chapter = true

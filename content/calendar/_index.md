@@ -1,9 +1,9 @@
 +++
 title = "カレンダー機能"
-# menuTitle = ""
+menuTitle = "カレンダー機能"
 weight = 40
 chapter = true
-# description = "チャプター"
+description = ""
 pre = "<b>4. </b>"
 +++
 

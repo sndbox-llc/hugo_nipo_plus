@@ -1,6 +1,6 @@
 +++
 title = "活用例"
-# menuTitle = ""
+menuTitle = "活用例"
 weight = 9000
 description = "NipoPlusのユースケースについて随時記事を書いていきます"
 chapter = true

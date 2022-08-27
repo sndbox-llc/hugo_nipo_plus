@@ -1,6 +1,6 @@
 +++
 title = "グループ設定"
-# menuTitle = ""
+menuTitle = "グループ設定"
 draft = false
 # tags = ["グループの管理", "編集者権限", "管理者権限"]
 weight = 100

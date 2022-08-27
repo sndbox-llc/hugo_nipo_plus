@@ -1,7 +1,7 @@
 +++
 title = "カレンダーからタスクを追加する"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "カレンダーからタスクを追加する"
+description = ""
 # tags = ["タスク"]
 weight = 40
 +++

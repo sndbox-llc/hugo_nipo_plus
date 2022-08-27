@@ -4,7 +4,7 @@ menuTitle = "チェックボックス入力"
 draft = false
 # tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 170
-# description = "チャプター"
+description = ""
 +++
 
 {{<imgproc checkbox.png "チェックボックス入力フォームを含んだ日報の作成画面" />}}

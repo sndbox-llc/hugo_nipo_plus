@@ -1,10 +1,10 @@
 +++
 title = "日報を書く"
-# menuTitle = ""
+menuTitle = "日報を書く"
 weight = 20
 chapter = true
 pre = "<b>2-1. </b>"
-# description = "チャプター"
+description = ""
 +++
 
 # 日報やチェックシートを書く

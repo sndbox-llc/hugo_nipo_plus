@@ -1,6 +1,6 @@
 +++
 title = "日報・チェックシート"
-# menuTitle = ""
+menuTitle = "日報・チェックシート"
 weight = 20
 chapter = true
 pre = "<b>2. </b>"

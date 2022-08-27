@@ -1,6 +1,6 @@
 +++
 title = "動作環境"
-# menuTitle = ""
+menuTitle = "動作環境"
 description = "パソコンやスマートフォン・タブレットから利用可能です。Google ChromeまたはSafariの動作する環境が必要です"
 # tags = ["システム概要"]
 weight = 1

@@ -1,10 +1,10 @@
 +++
 title = "削除について"
-# menuTitle = ""
+menuTitle = "削除について"
 weight = 900
 chapter = true
 pre = "<b>9. </b>"
-# description = "チャプター"
+description = ""
 +++
 
 # 日報やコメントなどの削除

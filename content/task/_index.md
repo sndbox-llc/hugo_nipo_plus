@@ -1,10 +1,10 @@
 +++
 title = "タスク管理"
-# menuTitle = ""
+menuTitle = "タスク管理"
 weight = 30
 chapter = true
 pre = "<b>3. </b>"
-# description = "チャプター"
+description = ""
 +++
 
 # タスク管理

@@ -1,7 +1,7 @@
 +++
 title = "タスクと日報を紐付けする"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "タスクと日報を紐付けする"
+description = ""
 # tags = ["タスク", "日報を書く"]
 weight = 30
 +++

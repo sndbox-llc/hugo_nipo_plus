@@ -1,6 +1,6 @@
 +++
 title = "検索"
-# menuTitle = ""
+menuTitle = "検索"
 weight = 100
 quasar = true
 [sitemap]

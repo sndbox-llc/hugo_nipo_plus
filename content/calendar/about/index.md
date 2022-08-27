@@ -1,7 +1,7 @@
 +++
 title = "カレンダー概要"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "カレンダー概要"
+description = "チャプター"
 # tags = ["日報を読む", "タスク"]
 weight = 10
 +++

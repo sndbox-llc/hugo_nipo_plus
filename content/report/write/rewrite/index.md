@@ -1,6 +1,6 @@
 +++
 title = "日報の修正"
-# menuTitle = ""
+menuTitle = "日報の修正"
 draft = false
 # tags = ["日報テンプレート", "日報を書く"]
 weight = 50

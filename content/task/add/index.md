@@ -1,7 +1,7 @@
 +++
 title = "タスクを追加する"
-# menuTitle = ""
-# description = "チャプター"
+menuTitle = "タスクを追加する"
+description = ""
 # tags = ["タスク"]
 weight = 10
 +++

@@ -1,10 +1,10 @@
 +++
 title = "範囲入力フォーム"
-# menuTitle = ""
+menuTitle = "範囲入力フォーム"
 draft = false
 # tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
 weight = 180
-# description = "チャプター"
+description = ""
 +++
 
 {{<imgproc icatch.png "範囲入力フォームを含んだ日報テンプレート" />}}

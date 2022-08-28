@@ -105,7 +105,7 @@
   }
 }
 
-.top_left_btn {
+.top_right_btn {
   background-color: #722ed2d4;
   padding: 5px 10px;
   color: white;
@@ -116,6 +116,14 @@
   &:hover {
     background-color: pink;
   }
+}
+
+.top_left_btn {
+  background-color: #722ed2d4;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
 }
 
 /** パンくずリストナビゲーション（上田カスタマイズモデル) */

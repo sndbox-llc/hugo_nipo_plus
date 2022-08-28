@@ -47,35 +47,12 @@
   ul {
     font-size: 105%;
     padding: 0;
-    list-style: none;
-    li{
-      position: relative;
-      padding: 0.5em 1em 0.5em 2.3em;
-      margin-bottom:5px;
-      color: rgb(134, 49, 188);
-      font-size: 15px;
+    list-style: square;
+    li {
+      padding: 0;
+      margin-left: 15px;
+      color: blueviolet;
       font-weight: bold;
-    }
-    li:after,
-    li:before{
-      content: "";
-      position: absolute;
-      border-radius: 50%;
-    }
-    li:before{
-      left: 0.2em;
-      width: 17px;
-      height: 17px;
-      background: rgba(61, 6, 97, 0.5);
-      top: 50%;
-      transform: translateY(-50%);
-    }
-    li:after{
-      top: 1.1em;
-      left: 0.7em;
-      width: 14px;
-      height: 14px;
-      background: rgba(50, 6, 107, 0.3);
     }
   }
   // vue.js読み込みまでのデータを隠す処理
@@ -169,5 +146,23 @@
       text-decoration: underline;
     }  
   }
+}
+/** テーブルオブコンテンツ */
+#tableOfContents {
+  .mokuji {
+    font-weight: bold;
+    text-align: center;
+  }
+  background: #f6f6f6;
+  padding:5px;
+  overflow: scroll;
+  ul {
+  list-style-type: none;
 
+    li a {
+      text-decoration: none;
+      color: #52b5ee;
+    }
+
+  }
 }

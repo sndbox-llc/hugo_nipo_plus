@@ -1,13 +1,11 @@
 +++
-title = "アカウント管理"
+title = "スタッフのアカウント"
 menuTitle = "アカウント管理"
 weight = 100
 description = ""
 chapter = true
 pre = "<b>7. </b>"
 +++
-
-# スタッフのアカウント
 
 アカウントはNipoPlusの利用者を特定するための**E-mailとパスワードの組み合わせ**です。  
 [ログイン](/account/signin/)することでNipoPlusが利用できます。

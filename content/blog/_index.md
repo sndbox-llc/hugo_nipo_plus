@@ -1,14 +1,11 @@
 +++
-title = "活用例"
+title = "NipoPlusの活用方法"
 menuTitle = "活用例"
 weight = 9000
 description = "NipoPlusのユースケースについて随時記事を書いていきます"
 chapter = true
 pre = "<b>-</b>"
 +++
-
-
-# NipoPlusの活用方法
 
 このセクションはマニュアルではありません。NipoPlusを使ってどのようなことができるのかについて解説するブログになります。
 

@@ -1,7 +1,8 @@
 +++
-title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
-menuTitle = "HHKBキーボード"
 description = "高級キーボードとして有名なHHKBから最新モデル HYBLID Type-Sが発売されました。かねてよりHHKBのファンである私は早速購入。プログラマからみたHHKBの魅力について語らせてください"
+menuTitle = "HHKBキーボード"
+title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
+toc = true
 weight = 10
 +++
 

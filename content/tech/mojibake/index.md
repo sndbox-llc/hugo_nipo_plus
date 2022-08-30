@@ -1,13 +1,11 @@
 +++
-title = "ダウンロードしたZipファイルが文字化けする原因と解決策-主にWindows"
-menuTitle = "Zipを解凍すると文字化けする"
 description = "WebでダウンロードしたZipファイルを解凍するとファイル名が文字化けする原因は解凍ソフトにあります。SHIFT-JISにしか対応していない解凍ソフトの利用は控えてください"
-# tags = ["技術系ブログ"]
-weight = 9
 draft = false
-[sitemap]
-  changefreq = 'monthly'
-  priority = 1.0
+menuTitle = "Zipを解凍すると文字化けする"
+tags = []
+title = "ダウンロードしたZipファイルが文字化けする原因と解決策-主にWindows"
+toc = true
+weight = 9
 +++
 
 NipoPlusの[一括CSVダウンロード](/report/totalling/csv/)を使って日報やチェックシートのデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。

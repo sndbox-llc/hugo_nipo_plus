@@ -1,8 +1,9 @@
 +++
-title = "日報テンプレートの削除"
-menuTitle = "日報テンプレートの削除"
 draft = false
-# tags = ["日報テンプレート", "編集者権限"]
+menuTitle = "日報テンプレートの削除"
+tags = []
+title = "日報テンプレートの削除"
+toc = true
 weight = 10
 +++
 

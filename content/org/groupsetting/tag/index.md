@@ -1,8 +1,9 @@
 +++
-title = "タグの管理"
-menuTitle = "タグの管理"
 draft = false
-# tags = ["日報テンプレート", "編集者権限"]
+menuTitle = "タグの管理"
+tags = []
+title = "タグの管理"
+toc = true
 weight = 40
 +++
 

@@ -1,8 +1,9 @@
 +++
-title = "チェックシートデータ集計"
-menuTitle = "チェックシートデータ集計"
 description = ""
-# tags = ["日報テンプレート", "集計機能"]
+menuTitle = "チェックシートデータ集計"
+tags = []
+title = "チェックシートデータ集計"
+toc = true
 weight = 50
 +++
 

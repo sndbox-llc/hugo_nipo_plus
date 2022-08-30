@@ -1,10 +1,11 @@
 +++
-title = "日報やコメントなどの削除"
-menuTitle = "削除について"
-weight = 900
 chapter = true
-pre = "<b>9. </b>"
 description = ""
+menuTitle = "削除について"
+pre = "<b>9. </b>"
+title = "日報やコメントなどの削除"
+toc = false
+weight = 900
 +++
 
 {{<imgproc delete.png "" />}}

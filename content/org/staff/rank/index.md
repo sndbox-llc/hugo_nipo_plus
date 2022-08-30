@@ -1,9 +1,10 @@
 +++
-title = "スタッフの権限"
-menuTitle = "スタッフの権限"
-draft = false
-# tags = ["スタッフ管理", "管理者権限"]
 description = "スタッフの権限は4段階（管理者・編集者・スタッフ・書き込みのみ）ありそれぞれにできることが異なります"
+draft = false
+menuTitle = "スタッフの権限"
+tags = []
+title = "スタッフの権限"
+toc = true
 weight = 21
 +++
 

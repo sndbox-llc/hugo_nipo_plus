@@ -1,8 +1,9 @@
 +++
-title = "日報の提出先と共有先"
-menuTitle = "日報の提出先と共有先"
 draft = false
-# tags = ["日報を書く"]
+menuTitle = "日報の提出先と共有先"
+tags = []
+title = "日報の提出先と共有先"
+toc = true
 weight = 20
 +++
 

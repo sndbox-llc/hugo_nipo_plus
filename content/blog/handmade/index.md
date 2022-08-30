@@ -1,13 +1,11 @@
 +++
-title = "日報のシステムを自作する"
-menuTitle = "日報のシステムを自作する"
 description = ""
-# tags = ["日報を読む", "日報を書く"]
-weight = 10
 draft = true
-[sitemap]
-  changefreq = 'monthly'
-  priority = 1.0
+menuTitle = "日報のシステムを自作する"
+tags = []
+title = "日報のシステムを自作する"
+toc = true
+weight = 10
 +++
 
 

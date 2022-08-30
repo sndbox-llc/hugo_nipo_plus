@@ -1,12 +1,10 @@
 +++
-title = "システム更新履歴"
-menuTitle = "システム更新履歴"
 description = "Nipoの新しいバージョンが公開されるたびにこのページでご案内します。Android/iOS/Web版それぞれで最新のバージョンが異なる場合があります。最も早く更新されるWeb版の利用を推奨しております"
-# tags = ["リリースノート"]
+menuTitle = "システム更新履歴"
+tags = []
+title = "システム更新履歴"
+toc = true
 weight = 5
-[sitemap]
-  changefreq = 'weekly'
-  priority = 0.5
 +++
 
 

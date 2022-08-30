@@ -1,12 +1,10 @@
 +++
-title = "タイムカードの集計・ダウンロード"
-menuTitle = "タイムカードの集計・ダウンロード"
 description = ""
-# tags = ["CSVエクスポート"]
+menuTitle = "タイムカードの集計・ダウンロード"
+tags = []
+title = "タイムカードの集計・ダウンロード"
+toc = true
 weight = 30
-[sitemap]
-  changefreq = 'weekly'
-  priority = 0.7
 +++
 
 

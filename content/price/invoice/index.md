@@ -1,8 +1,9 @@
 +++
-title = "請求書による支払い"
-menuTitle = "請求書による支払い"
 description = ""
-# tags = ["料金"]
+menuTitle = "請求書による支払い"
+tags = []
+title = "請求書による支払い"
+toc = true
 weight = 20
 +++
 

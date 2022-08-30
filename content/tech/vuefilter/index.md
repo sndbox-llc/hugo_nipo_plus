@@ -1,8 +1,9 @@
 +++
-title = "Vue2からVue3への移行-Filterの廃止を修正"
-menuTitle = "Vue2時代のフィルターを移行"
 description = ""
-# tags = ["javascript", "tool"]
+menuTitle = "Vue2時代のフィルターを移行"
+tags = []
+title = "Vue2からVue3への移行-Filterの廃止を修正"
+toc = true
 +++
 
 NipoはVue2で作成されたWebシステムですが、今回Vueが3にバージョンアップしたことに追従し、NipoのソースコードもVue3へ書き換え中です。

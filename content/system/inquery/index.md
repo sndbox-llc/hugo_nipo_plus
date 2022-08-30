@@ -1,13 +1,11 @@
 +++
-title = "お問い合わせ"
-menuTitle = "お問い合わせ"
 description = "NipoPlusのお問い合わせフォームです。ご不明な点がありましたらこちらのフォームよりお問い合わせください。24時間以内に返信いたします"
-# tags = ["お問い合わせ"]
-weight = 900
+menuTitle = "お問い合わせ"
 quasar = true
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.5
+tags = []
+title = "お問い合わせ"
+toc = false
+weight = 900
 +++
 
 

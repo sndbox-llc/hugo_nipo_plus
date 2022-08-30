@@ -1,8 +1,9 @@
 +++
-title = "スタッフアカウントの削除"
-menuTitle = "スタッフアカウントの削除"
 description = ""
-# tags = ["アカウントの管理", "管理者権限"]
+menuTitle = "スタッフアカウントの削除"
+tags = []
+title = "スタッフアカウントの削除"
+toc = true
 weight = 40
 +++
 

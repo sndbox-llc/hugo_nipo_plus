@@ -1,12 +1,10 @@
 +++
-title = "ポイント管理"
-menuTitle = "ポイント管理(準備中)"
 draft = false
-# tags = ["日報テンプレート", "ポイント管理"]
+menuTitle = "ポイント管理(準備中)"
+tags = []
+title = "ポイント管理"
+toc = true
 weight = 2000
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.1
 +++
 
 ## ポイント管理

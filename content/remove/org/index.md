@@ -1,8 +1,9 @@
 +++
-title = "組織を削除する(退会)"
-menuTitle = "退会"
 draft = false
-# tags = ["管理者権限"]
+menuTitle = "退会"
+tags = []
+title = "組織を削除する(退会)"
+toc = true
 weight = 999
 +++
 

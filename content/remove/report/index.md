@@ -1,8 +1,9 @@
 +++
-title = "日報を1件削除する"
-menuTitle = "日報を1件削除する"
 draft = false
-# tags = ["日報を読む", "管理者権限"]
+menuTitle = "日報を1件削除する"
+tags = []
+title = "日報を1件削除する"
+toc = true
 weight = 70
 +++
 

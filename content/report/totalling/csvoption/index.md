@@ -1,8 +1,9 @@
 +++
-title = "日報CSV出力時の各種設定"
-menuTitle = "CSV出力のオプション設定"
 description = ""
-# tags = ["CSVエクスポート", "集計機能"]
+menuTitle = "CSV出力のオプション設定"
+tags = []
+title = "日報CSV出力時の各種設定"
+toc = true
 weight = 31
 +++
 

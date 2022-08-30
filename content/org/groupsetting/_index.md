@@ -1,11 +1,12 @@
 +++
-title = "グループについて"
-menuTitle = "グループ設定"
-draft = false
-# tags = ["グループの管理", "編集者権限", "管理者権限"]
-weight = 100
 chapter = true
+draft = false
+menuTitle = "グループ設定"
 pre = "<b>1-2. </b>"
+tags = []
+title = "グループについて"
+toc = false
+weight = 100
 +++
 
 グループは組織内に作成された隔離されたエリアです。組織内に何個でも自由にグループを作成できます。

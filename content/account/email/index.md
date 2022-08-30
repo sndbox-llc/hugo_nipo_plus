@@ -1,8 +1,9 @@
 +++
-title = "ログインE-mailの変更"
-menuTitle = "ログインE-mailの変更"
 description = "NipoPlusにログインするためのメールアドレスを変更できます。アカウント保護のため変更にはログインパスワードが必要です。また変更前のメールアドレスに対して通知が発行されます"
-# tags = ["アカウントの管理", "セキュリティ"]
+menuTitle = "ログインE-mailの変更"
+tags = []
+title = "ログインE-mailの変更"
+toc = true
 weight = 20
 +++
 

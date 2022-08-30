@@ -1,13 +1,11 @@
 +++
-title = "管理"
-menuTitle = "管理"
 description = ""
-# tags = ["チェックシート", "集計機能"]
-weight = 20220725
 draft = true
-[sitemap]
-  changefreq = 'monthly'
-  priority = 1.0
+menuTitle = "管理"
+tags = []
+title = "管理"
+toc = true
+weight = 20220725
 +++
 
 日報アプリ

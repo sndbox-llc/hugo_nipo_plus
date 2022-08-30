@@ -1,8 +1,9 @@
 +++
-title = "タイムカードをリスト表示する"
-menuTitle = "タイムカードをリスト表示する"
 description = ""
-# tags = ["編集者権限"]
+menuTitle = "タイムカードをリスト表示する"
+tags = []
+title = "タイムカードをリスト表示する"
+toc = true
 weight = 20
 +++
 

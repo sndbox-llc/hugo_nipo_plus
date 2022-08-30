@@ -1,8 +1,9 @@
 +++
-title = "カレンダーからタスクを追加する"
-menuTitle = "カレンダーからタスクを追加する"
 description = ""
-# tags = ["タスク"]
+menuTitle = "カレンダーからタスクを追加する"
+tags = []
+title = "カレンダーからタスクを追加する"
+toc = true
 weight = 40
 +++
 

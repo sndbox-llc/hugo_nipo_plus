@@ -1,8 +1,9 @@
 +++
-title = "タスクと日報を紐付けする"
-menuTitle = "タスクと日報を紐付けする"
 description = ""
-# tags = ["タスク", "日報を書く"]
+menuTitle = "タスクと日報を紐付けする"
+tags = []
+title = "タスクと日報を紐付けする"
+toc = true
 weight = 30
 +++
 

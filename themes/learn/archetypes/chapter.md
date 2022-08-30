@@ -4,6 +4,7 @@ date = {{ .Date }}
 weight = 5
 chapter = true
 pre = "<b>X. </b>"
+toc = false
 +++
 
 ### Chapter X

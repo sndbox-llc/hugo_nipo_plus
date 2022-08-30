@@ -1,8 +1,9 @@
 +++
-title = "カレンダーから日報・タスクを開く"
-menuTitle = "カレンダーから日報・タスクを開く"
 description = ""
-# tags = ["日報を読む", "タスク"]
+menuTitle = "カレンダーから日報・タスクを開く"
+tags = []
+title = "カレンダーから日報・タスクを開く"
+toc = true
 weight = 30
 +++
 

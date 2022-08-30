@@ -1,12 +1,10 @@
 +++
-title = "謝辞"
-menuTitle = "謝辞"
 description = "NipoPlusは数多くのソフトウェアの助力を得て作られています。普段は表舞台に出ることのない縁の下の力持ちなソフトたちの協力がなければNipoPlusは存在できませんでした。感謝します。"
-# tags = ["クレジット"]
+menuTitle = "謝辞"
+tags = []
+title = "謝辞"
+toc = true
 weight = 100
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.3
 +++
 
 

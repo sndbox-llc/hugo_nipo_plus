@@ -88,6 +88,22 @@ https://firebasestorage.googleapis.com/v0/b/nipo-plus.appspot.com/o/a16h8Q74slMY
 上記URLはいくつかのフェイクを入れているため実際にダウンロードすることはできません。1文字でも異なれば弾き返します！
 {{</alice>}}
 
+### ファイルデータをまとめてダウンロード
+
+Version 1.12.0から日報に添付されたファイルの一括ダウンロードが可能になりました。CSV出力オプションから「写真・ファイル等を出力する」をONにします。
+{{<imgproc download.png "日報に添付されたバイナリーデータをダウンロードするオプションの設定" />}}
+
+これで[写真入力フォーム](/org/groupsetting/template/picture/)、[署名入力フォーム](/org/groupsetting/template/sign/)、[ファイル入力フォーム](/org/groupsetting/template/file/)それぞれののデータがCSV出力時にまとめてダウンロードされます。
+
+ダウンロードしたCSV.zipを解凍すると、reportsというフォルダがあります。更にreportsの中は1件1件の日報ごとにフォルダ分けされます。各フォルダは「日報の日付＋日報の文書ID」という名称になります。
+
+{{<alice pos="right" icon="ok">}}
+たとえば202208300931_wQ9jKWAyAeflv7GXuPGfのようになります。
+_が区切りで、前半が日付(年月日時分)、後半が文書IDです。
+{{</alice>}}
+
+それぞれの日報フォルダの中に写真や署名・データファイルなどがまとめられます。
+
 ### サンプルデータ
 
 このページで使用した実際のサンプルをダウンロードできます

@@ -1,12 +1,10 @@
 +++
-title = "詳細画面のその他の機能"
-menuTitle = "詳細画面のその他の機能"
 description = ""
-# tags = ["日報を読む"]
+menuTitle = "詳細画面のその他の機能"
+tags = []
+title = "詳細画面のその他の機能"
+toc = true
 weight = 100
-[sitemap]
-  changefreq = 'weekly'
-  priority = 1.0
 +++
 
 ## 日報を複製して新規作成する

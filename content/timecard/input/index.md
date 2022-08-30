@@ -1,13 +1,10 @@
 +++
-title = "タイムカードを入力する"
-menuTitle = "タイムカードを入力する"
 description = ""
-# tags = ["タイムカード"]
+menuTitle = "タイムカードを入力する"
+tags = []
+title = "タイムカードを入力する"
+toc = true
 weight = 10
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.7
-
 +++
 
 タイムカードの入力するは以下の手順で行います。

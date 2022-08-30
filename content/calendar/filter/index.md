@@ -1,8 +1,9 @@
 +++
-title = "カレンダー上の表示項目を設定"
-menuTitle = "カレンダー上の表示項目を設定"
 description = ""
-# tags = ["日報を読む", "タスク"]
+menuTitle = "カレンダー上の表示項目を設定"
+tags = []
+title = "カレンダー上の表示項目を設定"
+toc = true
 weight = 20
 +++
 

@@ -1,12 +1,10 @@
 +++
-title = "タイムカードの設定"
-menuTitle = "タイムカードの設定"
 description = ""
-# tags = ["編集者権限"]
+menuTitle = "タイムカードの設定"
+tags = []
+title = "タイムカードの設定"
+toc = true
 weight = 30
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.7
 +++
 
 タイムカード機能に関する各種設定が行なえます。  

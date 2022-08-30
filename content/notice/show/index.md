@@ -1,8 +1,9 @@
 +++
-title = "通知を確認する"
-menuTitle = "通知を確認する"
 description = ""
-# tags = ["日報を読む"]
+menuTitle = "通知を確認する"
+tags = []
+title = "通知を確認する"
+toc = true
 weight = 11
 +++
 

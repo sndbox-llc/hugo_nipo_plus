@@ -1,8 +1,9 @@
 +++
-title = "通知の種類"
-menuTitle = "通知の種類"
 description = ""
-# tags = ["日報を読む", "日報を書く", "タスク"]
+menuTitle = "通知の種類"
+tags = []
+title = "通知の種類"
+toc = true
 weight = 11
 +++
 

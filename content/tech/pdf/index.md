@@ -1,13 +1,11 @@
 +++
-title = "pdfMakeとarchiverを使い複数のPDFを1つのZipにまとめてStorageへUpする"
-menuTitle = "CloudFunctionsでPDFをZipへ変換"
-# description = ""
-# tags = ["技術系ブログ"]
-weight = 10
+description = ""
 draft = false
-[sitemap]
-  changefreq = 'monthly'
-  priority = 1.0
+menuTitle = "CloudFunctionsでPDFをZipへ変換"
+tags = []
+title = "pdfMakeとarchiverを使い複数のPDFを1つのZipにまとめてStorageへUpする"
+toc = true
+weight = 10
 +++
 
 NipoPlusには日報をPDFに変換する機能があります。PDFファイルを生成するにはいくつかのライブラリがありますが、今回は[pdfmake](http://pdfmake.org/)を使用しました。

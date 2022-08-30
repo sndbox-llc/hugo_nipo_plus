@@ -1,10 +1,11 @@
 +++
-title = "商品入力フォーム"
-menuTitle = "商品入力フォーム"
-draft = false
-# tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
-weight = 340
 description = ""
+draft = false
+menuTitle = "商品入力フォーム"
+tags = []
+title = "商品入力フォーム"
+toc = true
+weight = 340
 +++
 
 {{<imgproc icatch.png "" />}}

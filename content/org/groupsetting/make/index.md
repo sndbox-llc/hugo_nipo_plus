@@ -1,11 +1,11 @@
 +++
-title = "グループ作成と基本設定"
-menuTitle = "グループ作成と基本設定"
-draft = false
-# tags = ["グループの管理", "管理者権限"]
-weight = 10
-# pre = "<b>1. </b>"
 description = "グループ分けすることで効率的に日報を管理できます。日報はグループの中でのみ共有されます。グループの役割や作成について解説"
+draft = false
+menuTitle = "グループ作成と基本設定"
+tags = []
+title = "グループ作成と基本設定"
+toc = true
+weight = 10
 +++
 
 

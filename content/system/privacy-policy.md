@@ -1,12 +1,10 @@
 +++
-title = "プライバシーポリシー"
-menuTitle = "プライバシーポリシー"
 description = "クラウド日報Nipoでお客様からお預かりする個人情報の取り扱いについてのお約束事をまとめました"
-# tags = ["システム概要"]
+menuTitle = "プライバシーポリシー"
+tags = []
+title = "プライバシーポリシー"
+toc = true
 weight = 10
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.5
 +++
 
 合同会社サンドボックス（以下「弊社」）は、日々の日報業務に掛かる負担や不便を軽減するためのシステム「クラウド日報 NipoPlus」（以下「NipoPlus」）を提供しており、

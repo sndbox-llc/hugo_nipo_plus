@@ -70,10 +70,11 @@
           {{$showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb))}}
           {{if not .IsHome }}
             <div id="breadcrumbsNavigations">
-            <ul >
-              {{ template "breadcrumbnav" dict "p1" . "p2" . }}
-            </ul>
-          </div>
+              <ul>
+                {{ template "breadcrumbnav" dict "p1" . "p2" . }}
+              </ul>
+            </div>
+            <hr>
           {{ end }}
 
         <div id="head-tags">
@@ -92,7 +93,7 @@
             </h1>
           {{end}}
           <!-- 目次 -->
-          {{if .IsPage }}
+          {{if .Params.toc }}
             <nav id="tableOfContents">
               <div class="mokuji">目次</div>
               {{ .TableOfContents }}

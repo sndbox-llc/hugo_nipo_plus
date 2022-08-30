@@ -1,12 +1,10 @@
 +++
-title = "タスクを確認する"
-menuTitle = "タスクを確認する"
 description = ""
-# tags = ["タスク"]
+menuTitle = "タスクを確認する"
+tags = []
+title = "タスクを確認する"
+toc = true
 weight = 20
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.1
 +++
 
 

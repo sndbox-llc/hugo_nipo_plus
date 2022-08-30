@@ -1,8 +1,9 @@
 +++
-title = "日報を書くまでの流れ"
-menuTitle = "日報を書くまでの流れ"
 draft = false
-# tags = ["日報テンプレート", "日報を書く"]
+menuTitle = "日報を書くまでの流れ"
+tags = []
+title = "日報を書くまでの流れ"
+toc = true
 weight = 10
 +++
 

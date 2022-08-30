@@ -1,11 +1,9 @@
 +++
-title = "自作可能な日報アプリ"
-menuTitle = "Home"
 description = "PC・スマートフォン対応のクラウド型日報・チェックシートシステム。60日の無料お試しあり。クレカ不要で今すぐ使えます。"
 draft = false
-[sitemap]
-  changefreq = 'weekly'
-  priority = 1.0
+menuTitle = "Home"
+title = "自作可能な日報アプリ"
+toc = false
 +++
 
 # NipoPlusはブラウザ上で動作するクラウド型の日報管理システムです

@@ -1,12 +1,10 @@
 +++
-title = "トラブルシューティング"
-menuTitle = "トラブルシューティング"
 description = "NipoPlusの動作で不具合があった場合の一般的な問題解決手順について解説しています。"
-# tags = ["システム概要"]
+menuTitle = "トラブルシューティング"
+tags = []
+title = "トラブルシューティング"
+toc = true
 weight = 100
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.7
 +++
 
 NipoPlusはWeb版・Android版・iOS版があります。ベースとしてWeb版があり、Web版をスマホアプリストアで公開できるように変換したものがそれぞれAndroid / iOS版となっています。

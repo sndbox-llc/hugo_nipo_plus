@@ -1,8 +1,9 @@
 +++
-title = "タスクを追加する"
-menuTitle = "タスクを追加する"
 description = ""
-# tags = ["タスク"]
+menuTitle = "タスクを追加する"
+tags = []
+title = "タスクを追加する"
+toc = true
 weight = 10
 +++
 

@@ -1,13 +1,11 @@
 +++
-title = "アルコールチェックシートをシステム化"
-menuTitle = "アルコールチェックシートをシステム化"
 description = ""
-# tags = ["日報を読む", "日報を書く"]
-weight = 10
 draft = true
-[sitemap]
-  changefreq = 'monthly'
-  priority = 1.0
+menuTitle = "アルコールチェックシートをシステム化"
+tags = []
+title = "アルコールチェックシートをシステム化"
+toc = true
+weight = 10
 +++
 
 下書き

@@ -1,8 +1,9 @@
 +++
-title = "タイムカードの削除"
-menuTitle = "タイムカードの削除"
 draft = false
-# tags = ["編集者権限"]
+menuTitle = "タイムカードの削除"
+tags = []
+title = "タイムカードの削除"
+toc = true
 weight = 90
 +++
 

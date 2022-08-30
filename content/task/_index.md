@@ -1,10 +1,11 @@
 +++
-title = "タスク管理"
-menuTitle = "タスク管理"
-weight = 30
 chapter = true
-pre = "<b>3. </b>"
 description = ""
+menuTitle = "タスク管理"
+pre = "<b>3. </b>"
+title = "タスク管理"
+toc = false
+weight = 30
 +++
 
 

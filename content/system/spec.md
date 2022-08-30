@@ -1,12 +1,10 @@
 +++
-title = "動作環境"
-menuTitle = "動作環境"
 description = "PCやスマートフォン・タブレットから利用可能です。Google ChromeまたはSafariの動作する環境が必要です"
-# tags = ["システム概要"]
+menuTitle = "動作環境"
+tags = []
+title = "動作環境"
+toc = true
 weight = 1
-[sitemap]
-  changefreq = 'monthly'
-  priority = 0.5
 +++
 
 ## Webアプリ版

@@ -1,10 +1,11 @@
 +++
-title = "開発者の技術メモなど"
-menuTitle = "技術系ブログ"
-weight = 9000
-description = "NipoPlusのユースケースについて随時記事を書いていきます"
 chapter = true
+description = "NipoPlusのユースケースについて随時記事を書いていきます"
+menuTitle = "技術系ブログ"
 pre = "<b>-</b>"
+title = "開発者の技術メモなど"
+toc = false
+weight = 9000
 +++
 
 Vue2時代からVueを使い始めてまもなくVue歴5年程度になる私が、これまでのWebアプリ開発で気になったことや躓いたこと、新たな気付きなどをポツポツと書いていきます。

@@ -24,9 +24,6 @@ body {
     background: #fff;
     color: #777;
 }
-body #chapter h1 {
-    font-size: 3.5rem;
-}
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
     body #chapter h1 {
         font-size: 3rem;
@@ -396,17 +393,24 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #body-inner {
     margin-bottom: 5rem;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
+@media only all and (max-width: 500px) {
+    #body-inner {
+        max-width: 100%;
+    }
+}
+
 #chapter {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    padding: 2rem 0;
 }
 #chapter #body-inner {
     padding-bottom: 3rem;
-    max-width: 80%;
+    max-width: 85%;
 }
 #chapter h3 {
     font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;

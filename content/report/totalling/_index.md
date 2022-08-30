@@ -1,13 +1,11 @@
 +++
-title = "チェックシートや日報を集計する"
-menuTitle = "集計と一括出力(CSV/PDF)"
-weight = 100
 chapter = true
 description = "蓄積したチェックシートのデータを1枚のエクセルシートにまとめることができます。データ転記の労力を省略するだけでなく転記ミスや記入漏れのリスクを減らす効果があります"
+menuTitle = "集計と一括出力(CSV/PDF)"
 pre = "<b>2-3. </b>"
-[sitemap]
-  changefreq = 'weekly'
-  priority = 1.0
+title = "チェックシートや日報を集計する"
+toc = false
+weight = 100
 +++
 
 日報やチェックシートは1枚1枚独立して作成されますが、ある程度枚数が蓄積したら集計や分析のデータとして有効に活用できるようになります。

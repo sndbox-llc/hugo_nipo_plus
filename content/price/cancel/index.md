@@ -1,8 +1,9 @@
 +++
-title = "有料プランを解約"
-menuTitle = "有料プランを解約"
 description = ""
-# tags = ["退会"]
+menuTitle = "有料プランを解約"
+tags = []
+title = "有料プランを解約"
+toc = true
 weight = 11
 +++
 

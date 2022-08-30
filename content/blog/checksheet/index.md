@@ -1,14 +1,11 @@
 +++
-title = "スマホでチェックリストを作成し1枚のエクセルシートにまとめて集計や分析する"
-menuTitle = "チェックリストをエクセルで開く"
-
-# description = ""
-# tags = ["日報を読む", "日報を書く", "集計機能"]
-weight = 20220724
+description = ""
 draft = false
-[sitemap]
-  changefreq = 'monthly'
-  priority = 1.0
+menuTitle = "チェックリストをエクセルで開く"
+tags = []
+title = "スマホでチェックリストを作成し1枚のエクセルシートにまとめて集計や分析する"
+toc = true
+weight = 20220724
 +++
 
 品質管理チェックリストや設備点検チェックシートなど、チェックシートやチェックリストと呼ばれるものは様々な種類があります。

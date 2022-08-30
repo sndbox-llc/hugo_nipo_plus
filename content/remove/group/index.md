@@ -1,8 +1,9 @@
 +++
-title = "グループの削除"
-menuTitle = "グループの削除"
 draft = false
-# tags = ["グループの管理", "管理者権限"]
+menuTitle = "グループの削除"
+tags = []
+title = "グループの削除"
+toc = true
 weight = 200
 +++
 

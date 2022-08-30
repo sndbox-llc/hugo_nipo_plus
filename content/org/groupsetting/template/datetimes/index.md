@@ -1,10 +1,11 @@
 +++
-title = "期間入力フォーム\n作業日数や所要時間など要した時間の入力に最適"
-menuTitle = "期間入力"
-draft = false
-# tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
-weight = 160
 description = ""
+draft = false
+menuTitle = "期間入力"
+tags = []
+title = "期間入力フォーム\n作業日数や所要時間など要した時間の入力に最適"
+toc = true
+weight = 160
 +++
 
 {{<imgproc icatch.png "期間入力フォームを含んだ日報テンプレートの例" />}}

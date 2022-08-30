@@ -1,10 +1,11 @@
 +++
-title = "チェックボックス入力フォーム\nはい・いいえの2択で回答可能な設問の入力に最適な日報テンプレート部品"
-menuTitle = "チェックボックス入力"
-draft = false
-# tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
-weight = 170
 description = ""
+draft = false
+menuTitle = "チェックボックス入力"
+tags = []
+title = "チェックボックス入力フォーム\nはい・いいえの2択で回答可能な設問の入力に最適な日報テンプレート部品"
+toc = true
+weight = 170
 +++
 
 {{<imgproc checkbox.png "チェックボックス入力フォームを含んだ日報の作成画面" />}}

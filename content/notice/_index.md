@@ -1,10 +1,11 @@
 +++
-title = "あなたに関連する事柄の通知"
-menuTitle = "通知機能について"
-weight = 60
-description = ""
 chapter = true
+description = ""
+menuTitle = "通知機能について"
 pre = "<b>6. </b>"
+title = "あなたに関連する事柄の通知"
+toc = false
+weight = 60
 +++
 
 例えばあなた宛に日報が作成されたら通知が届きます。一方であなたが共有先になっているだけの日報は通知が行われません。この違いは何でしょう？

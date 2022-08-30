@@ -1,10 +1,11 @@
 +++
-title = "テンプレ"
-menuTitle = "テンプレ"
-draft = true
-# tags = ["日報テンプレート", "入力フォーム", "編集者権限"]
-weight = 999
 description = ""
+draft = true
+menuTitle = "テンプレ"
+tags = []
+title = "テンプレ"
+toc = true
+weight = 999
 +++
 
 

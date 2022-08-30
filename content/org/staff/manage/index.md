@@ -1,9 +1,10 @@
 +++
-title = "スタッフアカウントの管理"
-menuTitle = "スタッフアカウントの管理"
-draft = false
-# tags = ["スタッフ管理", "管理者権限", "アカウントの管理"]
 description = "スタッフアカウントを無効化したり、削除、修正する方法について解説しています。この操作には管理者権限が必要です"
+draft = false
+menuTitle = "スタッフアカウントの管理"
+tags = []
+title = "スタッフアカウントの管理"
+toc = true
 weight = 40
 +++
 

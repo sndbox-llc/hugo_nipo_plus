@@ -31,7 +31,9 @@
     font-weight: 600;
   }
   p {
-    font-size: 110%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
   }
   ol {
     font-size: 105%;
@@ -74,8 +76,10 @@
 
 #chapter {
   h1 {
-    background-color: #364e96;
+    font-size: 200%;
+    white-space: pre-wrap;
     color: white;
+    background-color: #364e96;
     font-weight: 600;
     border: solid 3px #364e96;
     padding: 0.5em;

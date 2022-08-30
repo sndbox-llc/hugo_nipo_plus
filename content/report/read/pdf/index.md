@@ -1,12 +1,10 @@
 +++
-title = "日報をPDFに変換して保存"
-menuTitle = "PDF出力（単体）"
 description = "1つの日報ファイルを1枚のPDFファイルに変換します"
-# tags = ["日報を読む", "PDFエクスポート"]
+menuTitle = "PDF出力（単体）"
+tags = []
+title = "日報をPDFに変換して保存"
+toc = true
 weight = 40
-[sitemap]
-  changefreq = 'weekly'
-  priority = 1.0
 +++
 
 こちらのガイドは表示中の日報1枚を1つのPDFに変換するガイドです。複数の日報をまとめてPDFに変換する際は「[一括PDF出力](/report/totalling/pdf/)」を参照してください。

@@ -1,8 +1,9 @@
 +++
-title = "有料プランに加入"
-menuTitle = "有料プランに加入"
 description = ""
-# tags = ["料金"]
+menuTitle = "有料プランに加入"
+tags = []
+title = "有料プランに加入"
+toc = true
 weight = 11
 +++
 

@@ -1,8 +1,9 @@
 +++
-title = "たくさんの日報を1枚のCSVファイルに一括出力する"
-menuTitle = "CSV出力（一括）"
 description = ""
-# tags = ["CSVエクスポート", "集計機能"]
+menuTitle = "CSV出力（一括）"
+tags = []
+title = "たくさんの日報を1枚のCSVファイルに一括出力する"
+toc = true
 weight = 30
 +++
 

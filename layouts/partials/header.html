@@ -92,12 +92,11 @@
             </h1>
           {{end}}
           <!-- 目次 -->
-          {{if not .IsHome }}
-
-          <nav id="tableOfContents">
-            <div class="mokuji">目次</div>
-            {{ .TableOfContents }}
-          </nav>
+          {{if .IsPage }}
+            <nav id="tableOfContents">
+              <div class="mokuji">目次</div>
+              {{ .TableOfContents }}
+            </nav>
           {{end}}
 
           {{ define "breadcrumbnav" }}

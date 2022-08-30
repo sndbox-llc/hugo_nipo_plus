@@ -6,6 +6,8 @@
 - テーマには [Hugo Learn](https://learn.netlify.app/en/)を使用しています。
 - このリポジトリは[https://nipo-plus-doc.sndbox.jp/](https://nipo-plus-doc.sndbox.jp/)に展開されるホームページの元ネタとなります
 
+**検索意図に答える・応える**ような記事を書く
+
 ## 使いかた
 
 基本的な流れとしては

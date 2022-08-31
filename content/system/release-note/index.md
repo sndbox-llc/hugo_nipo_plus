@@ -34,7 +34,8 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 |日付|Version|変更内容|[Web](https://nipo-plus.web.app/)|[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|[iOS](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)
 |---|:---:|---|:---:|:---:|:---:|
-|2022/08/29|v1.12.0|[CSV出力](/report/totalling/csv/)オプションに「画像の出力」「コメントの出力」が追加されました|○|-|-|
+|2022/08/31|v1.12.1|[可変長の入力](/org/groupsetting/template/array/)時に見出し項目を1行目以外非表示にしました。[期間入力フォーム](/org/groupsetting/template/datetimes/)の表示を一部変更しました|○|○|○|
+|2022/08/29|v1.12.0|[CSV出力](/report/totalling/csv/)オプションに「画像の出力」「コメントの出力」が追加されました|○|○|○|
 |2022/08/23|v1.11.2|日報作成時のテンプレート選択画面で画面表示切り替えの設定を記憶するように修正しました。ログイン画面のデザインを一部変更しました。|○|-|-|
 |2022/08/22|v1.11.1|[CSV出力](/report/totalling/csv/)オプションに「可変長」に関するオプションが追加されました。[可変長の日報](/org/groupsetting/template/array/)のデザインを変更しました|○|-|-|
 |2022/08/21|v1.11.0|集計CSV出力の機能が強化され、複数のテンプレートをまとめてCSV出力出来るようになりました。集計機能の画面レイアウトを一部変更しました。日報作成時のテンプレート選択画面においてスマートフォンのように画面幅が狭い端末は見た目をカードレイアウトに切り替えました。|○|○|○|

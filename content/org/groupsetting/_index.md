@@ -6,6 +6,7 @@ pre = "<b>1-2. </b>"
 tags = []
 title = "グループについて"
 toc = false
+reqMermaid = true
 weight = 100
 +++
 

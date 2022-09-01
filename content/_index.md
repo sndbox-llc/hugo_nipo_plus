@@ -4,6 +4,7 @@ draft = false
 menuTitle = "Home"
 title = "自作可能な日報アプリ"
 toc = false
+reqMermaid = true
 +++
 
 # NipoPlusはブラウザ上で動作するクラウド型の日報管理システムです

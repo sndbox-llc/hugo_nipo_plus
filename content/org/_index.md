@@ -5,6 +5,7 @@ menuTitle = "初期設定"
 pre = "<b>1. </b>"
 title = "初期設定を行う"
 toc = false
+reqMermaid = true
 weight = 10
 +++
 

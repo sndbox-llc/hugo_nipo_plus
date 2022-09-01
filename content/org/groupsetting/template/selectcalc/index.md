@@ -6,6 +6,7 @@ tags = []
 title = "選択肢入力（2層式）入力フォーム\n1つ目の解答に応じて2つ目の選択肢が変わる入力フォーム"
 toc = true
 weight = 140
+reqMermaid = true
 +++
 
 {{<imgproc selectc.png "選択肢（2層)を使った日報テンプレートの例" />}}

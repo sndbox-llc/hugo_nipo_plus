@@ -66,6 +66,11 @@ url = "/search/"
 weight = 10
 
 [[menu.shortcuts]]
+name = "<i class='fa fa-cube'></i>リリースノート"
+url = "/system/release-note/"
+weight = 20
+
+[[menu.shortcuts]]
 name = "<i class='fa fa-cube'></i>旧Nipoとの違い"
 url = "/system/about/"
 weight = 21

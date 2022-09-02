@@ -68,7 +68,7 @@
     <script src="{{"js/hugo-learn.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
     {{ if .Page.Params.reqMermaid }}
         <!-- mermaid.jsの読み込みはreqMermaidのページのみ -->
-        <script src="/js/mermaid.min.js"></script>
+        <script rel="preload" src="/js/mermaid.min.js" as="script"></script>
         <script>
             mermaid.initialize({ startOnLoad: true });
         </script>

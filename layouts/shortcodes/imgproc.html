@@ -8,17 +8,22 @@
 {{ $alt := .Get 1 }}
 {{ $webp := "1800x webp" }}
 
-{{ $small := $img.Resize "480x webp" }}
-{{ $mid := $img.Resize "1024x webp" }}
-{{ $full := $img.Resize "1500x webp" }}
+{{ $small := $img.Resize "640x webp" }}
+{{ $mid := $img.Resize "828x webp" }}
+{{ $lg := $img.Resize "1200x webp" }}
+{{ $full := $img.Resize "1920x webp" }}
 
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
   <picture>
-    <img style="max-width: 100%; width: auto; height: auto;" src="{{ $full.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}" srcset="
-      {{ $small.RelPermalink }} 480w,
-      {{ $mid.RelPermalink }} 1024w,
-      {{ $full.RelPermalink }} 1500w
-    ">
+    <img style="max-width: 100%; width: auto; height: auto;" src="{{ $full.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}" 
+      srcset="
+        {{ $small.RelPermalink }} 640w,
+        {{ $mid.RelPermalink }} 828w,
+        {{ $lg.RelPermalink }} 1200w,
+        {{ $full.RelPermalink }} 1920w
+      " 
+      sizes="100vw"
+    >
     <figcaption>
       <i style="font-size: 13px;">
         {{ with .Inner }}

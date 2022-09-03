@@ -393,13 +393,14 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #body-inner {
     margin-bottom: 5rem;
-    max-width: 90%;
+    width: 90%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 @media only all and (max-width: 500px) {
     #body-inner {
-        max-width: 100%;
+        width: 100%;
     }
 }
 

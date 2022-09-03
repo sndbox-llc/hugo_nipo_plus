@@ -1,39 +1,8 @@
 @charset "UTF-8";
 
 /* Tags */
-@import "tags.css";
+/* @import "tags.css"; */
 
-#top-github-link, #body #breadcrumbs {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-.button, .button-secondary {
-    display: inline-block;
-    padding: 7px 12px;
-}
-.button:active, .button-secondary:active {
-    margin: 2px 0 -2px 0;
-}
-
-body {
-    background: #fff;
-    color: #777;
-}
-@media only all and (min-width: 48em) and (max-width: 59.938em) {
-    body #chapter h1 {
-        font-size: 3rem;
-    }
-}
-@media only all and (max-width: 47.938em) {
-    body #chapter h1 {
-        font-size: 2rem;
-    }
-}
 a {
     color: #0018f3;
 }
@@ -56,30 +25,10 @@ b, strong, label, th {
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-#grav-logo {
-    max-width: 60%;
-}
-#grav-logo path {
-    fill: #fff !important;
-}
-#sidebar {
-    font-weight: 300 !important;
-}
 fieldset {
     border: 1px solid #ddd;
 }
-textarea, input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], select[multiple=multiple] {
-    background-color: white;
-    border: 1px solid #ddd;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
-}
-textarea:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, select[multiple=multiple]:hover {
-    border-color: #c4c4c4;
-}
-textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
-    border-color: #0018f3;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
-}
+
 #header-wrapper {
     background: #8451a1;
     color: #fff;
@@ -90,59 +39,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #header a {
     display: inline-block;
 }
-#header #logo-svg {
-    width: 8rem;
-    height: 2rem;
-}
-#header #logo-svg path {
-    fill: #fff;
-}
-.searchbox {
-    margin-top: 1rem;
-    position: relative;
-    border: 1px solid #915eae;
-    background: #764890;
-    border-radius: 4px;
-}
-.searchbox label {
-    color: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    left: 10px;
-    top: 3px;
-}
-.searchbox span {
-    color: rgba(255, 255, 255, 0.6);
-    position: absolute;
-    right: 10px;
-    top: 3px;
-    cursor: pointer;
-}
-.searchbox span:hover {
-    color: rgba(255, 255, 255, 0.9);
-}
-.searchbox input {
-    display: inline-block;
-    color: #fff;
-    width: 100%;
-    height: 30px;
-    background: transparent;
-    border: 0;
-    padding: 0 25px 0 30px;
-    margin: 0;
-    font-weight: 300;
-}
-.searchbox input::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
-.searchbox input::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
-.searchbox input:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
-.searchbox input:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
+
 #sidebar-toggle-span {
     display: none;
 }
@@ -413,14 +310,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     padding-bottom: 3rem;
     max-width: 85%;
 }
-#chapter h3 {
-    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    font-weight: 300;
-}
-#chapter h1 {
-    font-size: 5rem;
-    border-bottom: 4px solid #F0F2F4;
-}
 #chapter p {
     font-size: 1.2rem;
 }
@@ -433,23 +322,15 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin: 0;
 }
 body {
-    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 300;
     line-height: 1.6;
     font-size: 18px !important;
 }
-h2, h3, h4, h5, h6 {
-    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+h3, h4, h5, h6 {
     text-rendering: optimizeLegibility;
     color: #5e5e5e;
     font-weight: 400;
     letter-spacing: -1px;
-}
-h1 {
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    text-align: center;
-    color: #222;
-    font-weight: 200;
 }
 blockquote {
     border-left: 10px solid #F0F2F4;
@@ -480,7 +361,6 @@ div.notices p:first-child:before {
     position: absolute;
     top: 2px;
     color: #fff;
-    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f06a";
     left: 10px;
@@ -608,7 +488,6 @@ section.attachments.grey .attachments-files {
 }
 
 code, kbd, pre, samp {
-    font-family: "Consolas", menlo, monospace;
     font-size: 92%;
 }
 code {
@@ -694,32 +573,7 @@ td {
     padding: 0.5rem;
     border: 1px solid #eaeaea;
 }
-.button {
-    background: #9c6fb6;
-    color: #fff;
-    box-shadow: 0 3px 0 #00a5d4;
-}
-.button:hover {
-    background: #00a5d4;
-    box-shadow: 0 3px 0 #008db6;
-    color: #fff;
-}
-.button:active {
-    box-shadow: 0 1px 0 #008db6;
-}
-.button-secondary {
-    background: #F8B450;
-    color: #fff;
-    box-shadow: 0 3px 0 #f7a733;
-}
-.button-secondary:hover {
-    background: #f7a733;
-    box-shadow: 0 3px 0 #f69b15;
-    color: #fff;
-}
-.button-secondary:active {
-    box-shadow: 0 1px 0 #f69b15;
-}
+
 .bullets {
     margin: 1.7rem 0;
     margin-left: -0.85rem;
@@ -982,20 +836,7 @@ td {
     float: right;
     display: block;
 }
-#body #breadcrumbs {
-    height: auto;
-    margin-bottom: 0;
-    padding-left: 0;
-    line-height: 1.4;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    display: inline-block;
-    float: left;
-}
-#body #breadcrumbs span {
-    padding: 0 0.1rem;
-}
+
 @media only all and (max-width: 59.938em) {
     #sidebar {
         width: 230px;
@@ -1102,7 +943,6 @@ pre .copy-to-clipboard:hover {
 }
 
 #sidebar #shortcuts h3 {
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     color: white ;
     margin-top:1rem;
     padding-left: 1rem;
@@ -1113,10 +953,6 @@ pre .copy-to-clipboard:hover {
   color: #fff;
   padding: 7px 0;
   border-bottom: 4px solid #9c6fb6;
-}
-
-#searchResults {
-    text-align: left;
 }
 
 option {

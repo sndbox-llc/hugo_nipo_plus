@@ -4,7 +4,7 @@ description = "60日間の無料お試し期間あり。1名180円のリーズ�
 menuTitle = "ご利用料金"
 pre = "<b>8. </b>"
 title = "1名180円の業界最安値"
-toc = true
+toc = false
 weight = 110
 +++
 

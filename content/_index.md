@@ -7,7 +7,7 @@ toc = false
 reqMermaid = false
 +++
 
-# クラウド日報 NipoPlus
+# 日報アプリ NipoPlus
 
 {{<imgproc nipoplus.png "nipoPLus" />}}
 

@@ -36,7 +36,6 @@ firebase.auth().currentUser.emailVerified
 
 ユーザがアカウントを作成したときに入力したメールアドレスは、
 
-
 ```javascript
 firebase.auth().currentUser.email
 ```
@@ -65,7 +64,6 @@ async emailAuthMixin_sendVerifyMail () {
 ```
 
 [公式ガイドのリンク](https://firebase.google.com/docs/auth/web/manage-users?hl=ja#send_a_user_a_verification_email)も載せておきます
-
 
 認証メールの件名は、FireBaseの設定画面から変更できますが、文面は変更できません。（言語を日本語にすることはできます）
 

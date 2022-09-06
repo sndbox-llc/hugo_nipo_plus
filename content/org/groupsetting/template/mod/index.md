@@ -8,7 +8,7 @@ toc = true
 weight = 340
 +++
 
-{{<imgproc icatch.png "" />}}
+{{<imgproc icatch.png "準備中" />}}
 
 ## タップ・クリックのシンプルな操作で使えるシンプルな入力フォーム
 

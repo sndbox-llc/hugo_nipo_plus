@@ -137,7 +137,6 @@ compilerOptionsの中に、typesという配列を追加し、そこにgapiを�
 
 {{<imgproc gapi_type.png "GAPIの型定義がVSCode上で認識された" />}}
 
-
 ## gapi is not definedを回避するためのdeclare
 
 さて、gapiに型が当たりましたがgapi自体はVue上に定義されていません。それもそのはずで、

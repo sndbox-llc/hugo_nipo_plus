@@ -78,6 +78,7 @@ NipoPlusではテンプレートを予め用意しておき、テンプレート
 {{<alice pos="right" icon="phone">}}
 1000件の日報も数秒で1枚のエクセルにまとめられるよ
 {{</alice>}}
+
 {{<imgproc csv.png "チェックシートのデータをCSV出力し、spleadsheetで開いた画面" />}}
 
 ### 紙が不要

@@ -78,6 +78,7 @@ NipoPlusでは[テンプレート](/org/groupsetting/template/)を予め用意�
 {{<alice pos="right" icon="pc">}}
 1000件の日報も数秒で1枚のエクセルにまとめられるよ
 {{</alice>}}
+
 {{<imgproc csv.png "チェックシートのデータをCSV出力し、spleadsheetで開いた画面" />}}
 
 ここでは[GoogleSheet](https://www.google.com/intl/ja_jp/sheets/about/)を使いましたが、もちろん[Microsoft Office Excel](https://www.microsoft.com/ja-jp/microsoft-365/excel)でも開くことができます。Macであれば[Numbers](https://www.apple.com/jp/numbers/)でも開けます。

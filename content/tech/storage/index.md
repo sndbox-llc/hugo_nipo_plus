@@ -84,6 +84,7 @@ await pdfDoc.pipe(myPDFFile.createWriteStream())
 ```
 
 ただ当然ながらこの記述はうまく機能しません。VSCode上でも警告が発せられるので割と早い段階で気づくことができますが、つまりawaitを使わずにpdfDoc.pipeの完了まで待つ処理を記述する必要があります。
+
 {{<imgproc await.png "awaitはこの式に対しては効果が有りません。Tsのエラーメッセージは開発における重要なヒントです" />}}
 
 結局のところはPromiseとStreamを混同していたことが原因です。PromiseもStreamも非同期処理で似たようなものだと思いがちですが、当然ながら全くの別ものです。

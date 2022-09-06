@@ -14,24 +14,22 @@
 {{ $full := $img.Resize "1920x webp" }}
 
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
-  <picture>
-    <img style="max-width: 100%; width: auto; height: auto;" src="{{ $full.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}" 
-      srcset="
-        {{ $small.RelPermalink }} 640w,
-        {{ $mid.RelPermalink }} 828w,
-        {{ $lg.RelPermalink }} 1200w,
-        {{ $full.RelPermalink }} 1920w
-      " 
-      sizes="100vw"
-    >
-    <figcaption>
-      <i style="font-size: 13px;">
-        {{ with .Inner }}
-          {{ . }}
-        {{ else }}
-          {{ $alt }}
-        {{ end }}
-      </i>
-    </figcaption>
-  </picture>
+  <img style="max-width: 100%; width: auto; height: auto;" src="{{ $lg.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}" 
+    srcset="
+      {{ $small.RelPermalink }} 640w,
+      {{ $mid.RelPermalink }} 828w,
+      {{ $lg.RelPermalink }} 1200w,
+      {{ $full.RelPermalink }} 1920w
+    " 
+    sizes="100vw"
+  >
+  <figcaption>
+    <i style="font-size: 13px;">
+      {{ with .Inner }}
+        {{ . }}
+      {{ else }}
+        {{ $alt }}
+      {{ end }}
+    </i>
+  </figcaption>
 </figure>

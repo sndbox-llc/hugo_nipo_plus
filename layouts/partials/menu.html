@@ -49,7 +49,7 @@
     {{end}}
 
     {{ if or .Site.IsMultiLingual $showvisitedlinks }}
-    <section id="prefooter">
+    <div id="prefooter">
       <hr/>
       <ul>
       {{ if and .Site.IsMultiLingual (not .Site.Params.DisableLanguageSwitchingButton)}}
@@ -91,11 +91,11 @@
         <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> {{T "Clear-History"}}</a></li>
       {{ end }}
       </ul>
-    </section>
+    </div>
     {{ end }}
-    <section id="footer">
+    <div id="footer">
       {{ partial "menu-footer.html" . }}
-    </section>
+    </div>
   </div>
 </nav>
 

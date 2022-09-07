@@ -35,6 +35,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 |日付|Version|変更内容|[Web](https://nipo-plus.web.app/)|[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)|[iOS](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)
 |---|:---:|---|:---:|:---:|:---:|
+|2022/09/07|v1.12.3|Windows・一部のAndroidでのみ表示されていた日報のスクロールバーを非表示にしました。日報保存箱で表示形式の切替機能が実装されました。アプリ更新プロセスにバグがあったため修正を行いました（PWAとして利用中の方対象）|○|-|-|
 |2022/09/02|v1.12.2|[CSV出力](/report/totalling/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました。[ログ表示](/org/groupsetting/log/)の日付入力を使いやすく改良しました。[期間入力フォーム](/org/groupsetting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました。|○|○|○|
 |2022/08/31|v1.12.1|[可変長の入力](/org/groupsetting/template/array/)時に見出し項目を1行目以外非表示にしました。[期間入力フォーム](/org/groupsetting/template/datetimes/)の表示を一部変更しました|○|○|○|
 |2022/08/29|v1.12.0|[CSV出力](/report/totalling/csv/)オプションに「画像の出力」「コメントの出力」が追加されました|○|○|○|

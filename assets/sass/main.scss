@@ -145,7 +145,7 @@
 /** パンくずリストナビゲーション（上田カスタマイズモデル) */
 #breadcrumbsNavigations {
   max-width: 100%;
-  overflow: scroll;
+  overflow: auto;
   list-style: none;
   ul {
     padding: 0;
@@ -179,7 +179,7 @@
   }
   background: #f6f6f6;
   padding:5px;
-  overflow: scroll;
+  overflow: auto;
   ul {
   list-style-type: none;
 

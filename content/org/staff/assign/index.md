@@ -12,7 +12,7 @@ reqMermaid = true
 スタッフアカウントを組織に追加しただけでは日報の読み書きは行なえません。日報の読み書きは組織ではなくグループの中で行われるためです。そのためスタッフを任意のグループに追加しましょう。
 図解すると以下のとおりです。
 
-<div style="overflow:scroll">
+<div style="overflow-x:auto">
 
 {{<mermaid align="center">}}
 graph LR;

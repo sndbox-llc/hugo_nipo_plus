@@ -71,7 +71,7 @@ A部長のアカウントでログインして見ました。A部長は提出先
 
 このとき提出先に指定する順番も重要です。左側から先に承認が行われていきます。全体の流れを図にすると次のようなイメージです。
 
-<div style="overflow:scroll">
+<div style="overflow-x:auto">
 {{<mermaid align="center">}}
 graph LR;
   スタッフ -->|日報提出| A部長

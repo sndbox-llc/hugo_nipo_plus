@@ -32,7 +32,7 @@ reqMermaid = true
 
 さて初期化が済んだ直後はどのような組織図になっているのか図解してみましょう。
 
-<div style="overflow:scroll">
+<div style="overflow-x:auto">
 
 {{<mermaid align="center">}}
 graph LR;

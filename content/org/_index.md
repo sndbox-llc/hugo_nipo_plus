@@ -16,7 +16,7 @@ NipoPlusは**組織**という最上位の単位があり、組織の中に[ス�
 グループは1つサンプルとして自動で作成されています。スタッフはあなた自身のアカウントが組織内に登録されています。
 図解すると登録初期は以下のような構成になっています。オレンジ色はグループ・緑色はスタッフを表しています。
 
-<div style="overflow:scroll">
+<div style="overflow:auto">
 
 {{<mermaid align="center">}}
 graph LR;
@@ -37,7 +37,7 @@ graph LR;
 
 グループ分けが不要であっても**最低1つのグループは必須**です。その際は必要なスタッフを組織に追加したあとで全スタッフを同じグループに所属させてください。簡略のためスタッフは2名で図解していますが、10名でも20名でも同じグループに所属させることができます。
 
-<div style="overflow:scroll">
+<div style="overflow-x:auto">
 
 {{<mermaid align="center">}}
 graph LR;

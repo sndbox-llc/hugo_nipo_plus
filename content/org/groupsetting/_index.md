@@ -25,7 +25,7 @@ NipoPlusでは日報の作成やコメントのやり取りなど、多くの業
 もちろん、他のグループには一切影響を与えません。
 
 
-<div style="overflow:scroll">
+<div style="overflow-x:auto">
 
 {{<mermaid align="center">}}
 graph LR;

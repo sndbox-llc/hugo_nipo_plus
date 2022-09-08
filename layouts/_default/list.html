@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 {{ if eq .Kind "section" }}
-	{{ .Content }}
+	<article>{{ .Content }}</article>
 {{end}}
 
 {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
@@ -16,7 +16,7 @@
 </div>
 
 <footer class="footline" style="border-top: 1px solid #ccc; margin-top: 10px">
-{{ partial "banners.html" . }}
+	{{ partial "banners.html" . }}
 </footer>
 
 {{ partial "footer.html" . }}

@@ -17,3 +17,8 @@ weight = 30
 {{<alice pos="right" icon="ok">}}
 予定と実績、こんな管理も悪くないですね
 {{</alice>}}
+
+<aside id="childrenList">
+<h2>記事一覧</h2>
+{{% children  %}}
+</aside>

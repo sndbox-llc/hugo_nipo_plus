@@ -22,14 +22,11 @@ CSVファイルは[エクセル](https://www.microsoft.com/ja-jp/microsoft-365/e
 
 表計算を使うまでもなく手軽に集計したい場合はNipoPlusに備わっている集計機能を使ってみてください。エクセルほどの自由度は有りませんが、代わりにワンクリックで簡単にチェックシート内のデータを集計、グラフ化できます。
 
-## 目録
-
-|項目|説明|
-|---|---|
-|[集計可能なフォーム](/report/totalling/form/)|様々な入力フォームがありますが集計が可能なものとそうでないものがあります|
-|[CSV出力](/report/totalling/csv/)|エクセルなどのスプレッドシートに取り込んで利用できます|
-|[NipoPlusの集計](/report/totalling/transition/)|簡単操作で集計や分析ができます。より細かい分析が必要な場合はCSV出力を検討してください|
-
 {{<alice pos="right" icon="ok">}}
 CSVはデータのバックアップや機関システムへの入力にも使えるよ
 {{</alice>}}
+
+<aside id="childrenList">
+<h2>記事一覧</h2>
+{{% children  %}}
+</aside>

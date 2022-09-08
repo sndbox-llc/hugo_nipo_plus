@@ -1,0 +1,12 @@
+<!-- テンプレートで JSON-LD を出力する -->
+
+{{ $hierarchy := slice . }}
+
+{{ if .Parent }}
+  {{ $parentHierarchy := partial "get-hierarchy" .Parent }}
+  {{ if $parentHierarchy }}
+    {{ $hierarchy = $parentHierarchy | append $hierarchy }}
+  {{ end }}
+{{ end }}
+
+{{ return $hierarchy }}

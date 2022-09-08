@@ -19,3 +19,8 @@ Vue2時代からVueを使い始めてまもなくVue歴5年程度になる私が
 {{<alice pos="right" icon="ok">}}
 NipoPlusのマニュアルではないよ。NipoPlusを作るときに気になったことを書いてくよ
 {{</alice>}}
+
+<aside id="childrenList">
+<h2>記事一覧</h2>
+{{% children  %}}
+</aside>

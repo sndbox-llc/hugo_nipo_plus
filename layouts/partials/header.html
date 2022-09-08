@@ -70,7 +70,7 @@
           {{$showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb))}}
           {{if not .IsHome }}
             <div id="breadcrumbsNavigations">
-              <ul itemtype="http://schema.org/BreadcrumbList" itemscope>
+              <ul>
                 {{ template "breadcrumbnav" dict "p1" . "p2" . }}
               </ul>
             </div>
@@ -106,6 +106,10 @@
             {{ else if not .p1.IsHome }}
               {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
             {{ end }}
-            <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{ .p1.RelPermalink }}"><span itemprop="name">{{ .p1.Params.menuTitle }}</span></a></li>
+            {{ if eq .p1 .p2 }}
+              <li class="active">{{ .p1.Params.menuTitle }}</li>
+            {{ else }}
+              <li><a href="{{ .p1.RelPermalink }}">{{ .p1.Params.menuTitle }}</a></li>
+            {{ end }}
           {{ end }}
 

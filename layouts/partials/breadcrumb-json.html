@@ -1,0 +1,18 @@
+{{ $hierarchy := partial "get-hierarchy" . }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{- range $index, $page := $hierarchy }}
+    {{- if gt $index 0 }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $index 1 }},
+      "name": {{ $page.LinkTitle }},
+      "item": {{ $page.Permalink }}
+    }
+    {{- end }}
+  ]
+}
+</script>

@@ -5,7 +5,7 @@ menuTitle = "アカウント管理"
 pre = "<b>7. </b>"
 title = "スタッフのアカウント"
 toc = false
-weight = 100
+weight = 70
 +++
 
 アカウントはNipoPlusの利用者を特定するための**E-mailとパスワードの組み合わせ**です。  

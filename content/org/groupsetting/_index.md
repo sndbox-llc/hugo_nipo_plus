@@ -7,7 +7,7 @@ tags = []
 title = "グループについて"
 toc = false
 reqMermaid = true
-weight = 100
+weight = 12
 +++
 
 グループは組織内に作成された隔離されたエリアです。組織内に何個でも自由にグループを作成できます。

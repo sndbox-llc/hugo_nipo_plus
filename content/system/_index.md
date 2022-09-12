@@ -5,7 +5,7 @@ menuTitle = "システム概要・規約"
 pre = "<b>10. </b>"
 title = "システム概要"
 toc = false
-weight = 999
+weight = 100
 +++
 
 

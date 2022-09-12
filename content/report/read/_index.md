@@ -5,7 +5,7 @@ menuTitle = "日報を読む"
 pre = "<b>2-2. </b>"
 title = "日報やチェックシートを読む"
 toc = false
-weight = 30
+weight = 22
 +++
 
 スタッフが作成した日報やチェックシートは[受信BOX](/report/read/list/)に格納されます。受信BOXは日報の一覧を表示している場所で、1つの日報をクリックすると[詳細表示画面](/report/read/)に切り替わります。  

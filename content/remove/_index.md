@@ -5,7 +5,7 @@ menuTitle = "削除について"
 pre = "<b>9. </b>"
 title = "日報やコメントなどの削除"
 toc = false
-weight = 900
+weight = 90
 +++
 
 {{<imgproc delete.png "" />}}

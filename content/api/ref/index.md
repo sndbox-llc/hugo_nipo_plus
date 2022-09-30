@@ -1,12 +1,16 @@
 +++
-description = "APIリファレンス"
+description = "WebAPIを使って直接日報のデータを取得できます。CURLを使った具体的な使い方を交えて紹介"
 menuTitle = "APIリファレンス"
 tags = []
 title = "APIリファレンス"
 toc = false
 weight = 20
-draft = true
+draft = false
 +++
+
+{{<alice pos="right" icon="ok">}}
+API機能は当面無償で公開しますが将来有料(月額1000円程度)になる予定です
+{{</alice>}}
 
 WebAPIは少なくともCURLやJSONあたりが理解できれば利用可能です。WebAPIを使うことで、NipoPlusを起動しなくてもコマンドを叩くだけで日報データやログデータなどを取得することができます。
 取得したそれらのデータを基幹システムに取り込んだり、加工して集計や分析に使うことができます。データの出力には他にもCSV出力などがありますが、WebApiはシステムに組み込むことで自動化出来るなどのメリットがあります。
@@ -29,7 +33,6 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポ
 // URL
 https://us-central1-nipo-plus.cloudfunctions.net/v0/
 ```
-
 
 ### 日報の取得に関するWebAPI
 

@@ -26,7 +26,12 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポ
 -d '{ "key": "value", "key2": "value2" }'
 ```
 
-ヘッダーのContent-Typeはapplication/jsonである必要があります。application/x-www-form-urlencodedは対応しておりません。
+{{<alice pos="right" icon="here">}}
+Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/021/4021036/)は若干形式が変わる可能性があるので注意
+{{</alice>}}
+
+
+ヘッダーのContent-Typeはapplication/jsonである必要があります。
 [APIキーの取得方法についてはこちら](/api/key/)を御覧ください。
 
 ```url

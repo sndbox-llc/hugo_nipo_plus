@@ -17,7 +17,7 @@ WebAPIは少なくともCURLやJSONあたりが理解できれば利用可能で
 
 ## WebAPIへリクエストを投げる基本の形
 
-NipoPlusのWebAPIへリクエストを投げる基本の形は次のようになります。なお本ガイドではCURLを使った方法で解説します。
+NipoPlusのWebAPIへリクエストを投げる基本の形は次のようになります。なお本ガイドではCURLを使った方法で解説します。コマンドが苦手な方は[Postman](https://www.postman.com/)などのGUIツールで検証するのもオススメです。
 
 ```sh
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポイント】 \
@@ -30,9 +30,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポ
 Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/021/4021036/)は若干形式が変わる可能性があるので注意
 {{</alice>}}
 
-
-ヘッダーのContent-Typeはapplication/jsonである必要があります。
-[APIキーの取得方法についてはこちら](/api/key/)を御覧ください。
+ヘッダーのContent-Typeはapplication/jsonである必要があります。[APIキーの取得方法についてはこちら](/api/key/)を御覧ください。
 
 ```url
 // URL

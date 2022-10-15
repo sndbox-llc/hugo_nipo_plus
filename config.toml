@@ -21,7 +21,7 @@ enableGitInfo = true
   # See the config.toml file from this documentation site to have an example.
   editURL = "https://github.com/sandbox-co-ltd/hugo_nipo_plus/edit/main/content/"
   # Author of the site, will be used in meta information
-  author = "sandbox co.,ltd"
+  author = "sandbox LLC"
   # Description of the site, will be used in meta information
   description = "日報・チェックシート管理アプリ。スマホ・タブレット・PC対応のクラウド型です。自由にテンプレート設計可能。集計やPDF出力機能も。2ヶ月の無料お試しあり。業界最安値1名180円。製造業、営業、研修など様々な用途にご利用可能です"
   # Shows a checkmark for visited pages on the menu

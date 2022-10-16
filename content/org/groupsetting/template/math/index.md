@@ -57,7 +57,7 @@ weight = 330
 
 数値入力フォームは集計やCSV出力、検索など幅広い機能に対応しています。
 
-|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |○|○|○|○|
 

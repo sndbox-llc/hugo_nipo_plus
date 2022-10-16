@@ -50,7 +50,7 @@ NipoPlusにはどのような入力フォームがあるのかを予め知って
 
 ## 日報テンプレートの自作に使用可能な各種入力フォーム
 
-|項目|説明|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|項目|説明|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |---|---|:---:|:---:|:---:|:---:|
 |[テキスト入力フォーム](/org/groupsetting/template/text/)|本文や備考など通常の文字入力ができるフォームです|✗|○|○|○|
 |[選択肢入力フォーム](/org/groupsetting/template/select/)|予め回答を用意しておき、回答から1つ（[または複数](/org/groupsetting/template/select2/)）選ぶだけで入力できるフォームです。回答によって第2の回答が変わる[2層式](/org/groupsetting/template/selectcalc/)もあります|○|○|○|○|

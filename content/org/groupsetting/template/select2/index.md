@@ -14,7 +14,7 @@ weight = 130
 クリック・タップ操作で入力ができるため、スマートフォンやタブレットから日報・チェックシート作成する際にもストレスなく利用できます。
 選択肢入力フォーム（複）は回答から複数選択できます。回答を1つだけ選ぶ場合は「[選択肢入力フォーム（単）](/org/groupsetting/template/select/)」をご利用ください。
 
-|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
 |:---:|:---:|:---:|
 |○|○|○|
 

@@ -81,7 +81,7 @@ weight = 180
 minがスライダ上の左側のつまみを表し、maxがスライダ上の右側のつまみを表しています。このように最大・最小の2つの値を持つため、単純な集計ができません。
 よって範囲入力のデータは主にCSVに出力した上で使用することになります。範囲入力フォームのデータ対応は以下の表のとおりです。
 
-|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |✗|○|○|○|
 

@@ -63,7 +63,7 @@ weight = 170
 
 ## データ活用編
 
-|[集計可否](/report/totalling/form/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|検索|
+|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|検索|
 |:---:|:---:|:---:|:---:|
 |○|○|○|✗|
 

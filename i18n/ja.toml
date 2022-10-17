@@ -23,7 +23,7 @@ other = "編集"
 other = "その他▼"
 
 [Expand-title]
-other = "開く..."
+other = "詳細表示"
 
 [Byte-symbol]
 other = "B"

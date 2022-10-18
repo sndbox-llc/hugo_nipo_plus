@@ -25,7 +25,7 @@ reqMermaid = true
 |権限|概要|
 |---|---|
 |管理者|最低でも組織内に1名以上必須です。最も高い権限を有します。[**グループの新規作成**](/org/groupsetting/make/)・[グループ削除](/remove/group/)・[スタッフの新規作成](/org/staff/make/)・[スタッフアカウントの削除](/remove/staff/)などは管理者しか実行できません|
-|編集者|組織配下のグループ内の[日報テンプレートを作成](/org/groupsetting/template/make/)したり、スタッフの[日報提出先を指定](/org/groupsetting/dist/)、スタッフの追放といった操作が可能です。|
+|編集者|組織配下のグループ内の[日報テンプレートを作成](/org/groupsetting/template/make/)したり、スタッフの[日報提出先を指定](/org/group2/dist/)、スタッフの追放といった操作が可能です。|
 |スタッフ|[日報の作成](/report/write/)や[タイムカードの打刻](/timecard/input/)、[コメントの書き込み](/report/read/comment/)など一般的な操作が可能ですが、[グループの設定](/org/groupsetting/)に関することはほとんど制限されます|
 |書き込みのみ|[日報の作成](/report/write/)と自分の書いた日報の閲覧、修正のみ可能です。|
 
@@ -56,18 +56,18 @@ reqMermaid = true
 |タイムカードログの確認(他者)|可|可|不可|不可|
 |[タグの作成・編集](/org/groupsetting/tag/)|可|可|不可|不可|
 |[タスクの作成・削除](/task/add/)|可|可|可|不可|
-|[活動ログデータの確認](/org/groupsetting/log/)|可|可|可|不可|
-|[語録の作成](/org/groupsetting/goroku/)|可|可|不可|不可|
+|[活動ログデータの確認](/org/group2/log/)|可|可|可|不可|
+|[語録の作成](/org/group2/goroku/)|可|可|不可|不可|
 |語録の削除|可|可|不可|不可|
 |語録の修正|可|可|可|可|
-|[商品データの作成](/org/groupsetting/point/)|可|可|不可|不可|
+|[商品データの作成](/org/group2/point/)|可|可|不可|不可|
 |商品データの編集|可|可|可|可|
 |日報PDF出力の設定|可|可|可|不可|
 |[日報テンプレートの作成・編集](/org/groupsetting/template/)|可|可|不可|不可|
 |[日報の閲覧](/report/read/)|可|可変|可変|可変|
 |[日報の作成](/report/write/)|可|可|可|可|
 |日報の修正・削除|可変|可変|可変|可変|
-|[日報提出先の強制指定](/org/groupsetting/dist/)|可|可|不可|不可|
+|[日報提出先の強制指定](/org/group2/dist/)|可|可|不可|不可|
 |日報連番のリセット|可|可|不可|不可|
 
 {{% /expand%}}

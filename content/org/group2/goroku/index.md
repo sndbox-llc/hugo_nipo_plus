@@ -5,6 +5,7 @@ tags = []
 title = "語録管理\nシンプルな単語の羅列ですが選択肢などに組み込んで使用できます"
 toc = true
 weight = 50
+aliases = ["/org/groupsetting/goroku/"]
 +++
 
 ## テンプレートフォームの選択肢と組み合わせて使用

@@ -35,7 +35,7 @@ NipoPlusのアプリではデータを見やすく変形させることで日報
 |tags|String配列|日報に付けられたタグのID配列|
 |sign|コレクション|承認や棄却日時を記録したコレクションです。コードで書くと sign:{ uid: string, ts: number, agree: boolean}[]です。承認した日時や承認者IDを確認可能|
 |state|String|承認・棄却・修正・新規・進行　いづれかの文字|
-|owner|String|日報を作成したスタッフのID。[共用](/org/groupsetting/share/)を使うときに作成者IDとしてセットされる。共用を使わない場合は後述する「account」と常に同じ値が入る|
+|owner|String|日報を作成したスタッフのID。[共用](/org/group2/share/)を使うときに作成者IDとしてセットされる。共用を使わない場合は後述する「account」と常に同じ値が入る|
 |account|String|日報を作成したFirebase上のユーザID|
 |templateId|String|その日報を作成するために使用された日報テンプレートのID|
 |taskId|String|日報とタスクを紐付けられたとき、タスクのIDガセットされる|

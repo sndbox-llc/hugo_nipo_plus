@@ -1,7 +1,7 @@
 +++
 description = ""
 draft = false
-menuTitle = "タクシー日報をスマホ・タブレットで"
+menuTitle = "タクシー日報をスマホで"
 tags = []
 title = "タクシー日報をスマホ・タブレットで"
 toc = true

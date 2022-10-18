@@ -1,7 +1,7 @@
 +++
 chapter = true
 draft = false
-menuTitle = "グループ設定"
+menuTitle = "グループ基本設定"
 pre = "<b>1-2. </b>"
 tags = []
 title = "グループについて"

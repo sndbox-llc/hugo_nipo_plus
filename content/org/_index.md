@@ -7,6 +7,7 @@ title = "初期設定を行う"
 toc = false
 reqMermaid = true
 weight = 10
+# aliases = ["/hoge/"]
 +++
 
 NipoPlusのアカウントを初めて作成すると最低限のサンプルデータが自動で登録されていますが、あくまでもサンプルのためNipoPlusをより便利に使うためには初期設定を行う必要があります。

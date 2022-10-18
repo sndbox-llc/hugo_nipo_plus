@@ -3,7 +3,7 @@ chapter = true
 description = ""
 menuTitle = "日報を書く"
 pre = "<b>2-1. </b>"
-title = "日報やチェックシートを書く"
+title = "日報を書く"
 toc = false
 weight = 21
 +++

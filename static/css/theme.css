@@ -202,6 +202,7 @@ fieldset {
     position: relative;
     margin-left: 300px;
     min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #body img, #body .video-container {
     margin: 3rem auto;

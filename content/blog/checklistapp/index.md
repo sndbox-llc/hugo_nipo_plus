@@ -1,10 +1,9 @@
 +++
-title = "チェックシートアプリ NipoPlus"
+title = "チェックシートアプリで業務効率UP"
 menuTitle = "チェックシートアプリとして使う"
-description = ""
+description = "チェック項目を自分たちで自由に設計できるのでオリジナルのチェックシートを簡単に作成できます。スマホ対応で入力も楽々。CSVやPDF出力も完備"
 toc = false
 weight = 1
-
 +++
 
 {{<imgproc chk_2.png "業務用チェックシートの回答例" />}}

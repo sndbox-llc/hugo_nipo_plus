@@ -2,7 +2,7 @@
 description = "Web上で複数のCSVファイルをドラッグするだけで1つのCSVファイルに連結するツールです。無料で誰でも自由に利用可能です"
 menuTitle = "複数のCSVファイルを連結する"
 tags = []
-title = "複数のCSVファイルを1つに結合するWebアプリ"
+title = "複数のCSVファイルをドラッグ操作で簡単に1つに結合できます"
 toc = false
 weight = 20221001
 +++

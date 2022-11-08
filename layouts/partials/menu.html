@@ -22,6 +22,15 @@
 
     <div class="highlightable">
     <ul class="topics">
+      <!--
+      <span style="color:white">
+        {{ if eq .Params.old true }}
+          これはオールド
+        {{ else }}
+          これはElce
+          {{end}}
+      </span>
+    -->
 
         {{if eq .Site.Params.ordersectionsby "title"}}
           {{range .Site.Home.Sections.ByTitle}}

@@ -32,9 +32,18 @@
     <link href="{{(printf "%s" .) | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
     {{- end }}
     <!-- SCSS対応　-->
-    {{ $sass := resources.Get "sass/main.scss" }}
-    {{ $style := $sass | resources.ToCSS }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ if eq .Params.isNipo true }}
+      <!-- 旧Nipo・緑ベース -->
+      {{ $sass := resources.Get "sass/rootold.scss" }}
+      {{ $style := $sass | resources.ToCSS }}
+      <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ else }}
+      <!-- NipoPlus・紫ベース -->
+      {{ $sass := resources.Get "sass/root.scss" }}
+      {{ $style := $sass | resources.ToCSS }}
+      <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{end}}
+
     <script src="{{"js/jquery-3.6.0.min.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
 
     <style>
@@ -61,7 +70,11 @@
               </a>
             </div>
             <div id="top-github-link">
+              {{ if eq .Params.isNipo true }}
+              <a href="https://nipoapp.sndbox.jp/" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">旧Nipo起動</a>
+              {{ else }}
               <a href="https://nipo-plus.web.app/" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">App起動</a>
+              {{ end }}
             </div>
           </div>
           <!-- バンくずリスト -->
@@ -78,6 +91,13 @@
         <div id="head-tags">
         {{ partial "tags.html" . }}
         </div>
+        {{ if eq .Params.isNipo true }}
+        <div style="padding:1rem;background:red; color:white;border: 1px solid red;">
+          こちらは旧バージョンのNipoページになります
+        </div>
+
+        {{end}}
+
         {{ if .Params.chapter }}
           <div id="chapter">
         {{ end }}      

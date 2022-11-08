@@ -4,7 +4,13 @@
 {{ $showvisitedlinks := .Site.Params.showVisitedLinks }}
   <div id="header-wrapper">
     <div id="header">
-      {{ partial "logo.html" . }}
+      {{ if eq .Params.isNipo true }}
+        <!-- 旧nipo -->
+        {{ partial "logo-old.html" . }}
+      {{ else }}
+        <!-- NipoPlus -->
+        {{ partial "logo.html" . }}
+      {{end}}
     </div>
     {{if not .Site.Params.disableSearch}}
         {{ partial "search.html" . }}
@@ -22,10 +28,12 @@
 
     <div class="highlightable">
     <ul class="topics">
-      <!--
+        <!--
+
       <span style="color:white">
-        {{ if eq .Params.old true }}
+        {{ if eq .Params.isNipo true }}
           これはオールド
+          <img src="/images/nipologo.png" style="" width="200" height="200" alt="nipoplusアプリ起動ボタン">
         {{ else }}
           これはElce
           {{end}}

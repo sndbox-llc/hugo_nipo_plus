@@ -31,11 +31,11 @@ fieldset {
 }
 
 #header-wrapper {
-    background: #8451a1;
+    /* background: #8451a1; */
     color: #fff;
     text-align: center;
-    border-bottom: 4px solid #9c6fb6;
-    padding: 1rem;
+    /* border-bottom: 4px solid #9c6fb6; */
+    /* padding: 1rem; */
 }
 #header a {
     display: inline-block;

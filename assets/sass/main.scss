@@ -1,35 +1,34 @@
-@import "fukidashi.scss";
-@import "slide.scss";
-@import "flexy.scss";
-@import "sidebar.scss";
-
 // 本文エリア用のCSS
 #body-inner {
   h1 {
+    color: $baseColor;
+    /*
     text-align: center;
-
     font-size: 200%;
     white-space: pre-wrap;
-    color: #364e96;
     font-weight: 600;
-    border: solid 3px #364e96;
+    border: solid 3px $baseColor;
     padding: 0.5em;
     border-radius: 0.5em;
+    */
   }
   h2 {
-    font-size: 180%;
-    color: blueviolet;
+    color: $accentColor;
     font-weight: 600;
+
+    /*
+    font-size: 180%;
     padding: 10px;
-    border-left: solid 13px blueviolet;
+    border-left: solid 13px $accentColor;
+    */
   }
   h3 {
-    color: blueviolet;
+    color: $sideColor;
     font-size: 160%;
     font-weight: 600;
   }
   h4 {
-    color: blueviolet;
+    color: $sideColor;
     font-size: 130%;
     font-weight: 600;
   }
@@ -40,8 +39,8 @@
   }
   ol {
     font-size: 105%;
-    color: blueviolet;
-    border-left: dashed 2px blueviolet;
+    color: $accentColor;
+    border-left: dashed 2px $accentColor;
     li {
       line-height: 1.5;
       padding: 0.5em 0;
@@ -56,7 +55,7 @@
     li {
       padding: 0;
       margin-left: 15px;
-      color: blueviolet;
+      color: $accentColor;
       font-weight: bold;
     }
   }
@@ -79,23 +78,29 @@
 
 #chapter {
   h1 {
-    font-size: 200%;
-    white-space: pre-wrap;
     color: white;
-    background-color: #364e96;
+    background-color: $baseColor;
+    padding: 10px;
+
+    /*
+    font-size: 200%;
+    text-align: center;
+    white-space: pre-wrap;
     font-weight: 600;
-    border: solid 3px #364e96;
-    padding: 0.5em;
+    border: solid 3px $baseColor;
     border-radius: 0.5em;
+    */
   }
   h2 {
-    font-size: 180%;
-    color: blueviolet;
+    color: $accentColor;
     font-weight: 600;
+/*
+    font-size: 180%;
     padding: 15px 0;
-    border-top: solid 1px blueviolet;
-    border-bottom: solid 1px blueviolet;
+    border-top: solid 1px $accentColor;
+    border-bottom: solid 1px $accentColor;
     border-left: none;
+    */
   }
 }
 
@@ -122,7 +127,7 @@
 }
 
 .top_right_btn {
-  background-color: #722ed2d4;
+  background-color: $subColor;
   padding: 5px 10px;
   color: white;
   border-radius: 50px;
@@ -135,7 +140,7 @@
 }
 
 .top_left_btn {
-  background-color: #722ed2d4;
+  background-color: $subColor;
   padding: 5px 10px;
   color: white;
   font-weight: bold;

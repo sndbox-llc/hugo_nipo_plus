@@ -16,7 +16,11 @@
 </div>
 
 <footer class="footline" style="border-top: 1px solid #ccc; margin-top: 10px">
-	{{ partial "banners.html" . }}
+	{{ if eq .Params.isNipo true }}
+	{{ partial "cta-nipo.html" . }}
+	{{ else }}
+	{{ partial "cta-nipo-plus.html" . }}
+	{{ end }}
 </footer>
 
 {{ partial "footer.html" . }}

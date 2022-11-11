@@ -147,6 +147,23 @@
   font-size: 19px;
 }
 
+.my_button {
+  background-color: $baseColor;
+  padding: 15px 20px;
+  color: white !important;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 19px;
+  &:link,
+  &:visited{
+    color: white !important;
+  }
+
+  &:hover {
+    background-color: $subColor;
+  }
+}
+
 /** パンくずリストナビゲーション（上田カスタマイズモデル) */
 #breadcrumbsNavigations {
   max-width: 100%;

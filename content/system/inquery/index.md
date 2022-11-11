@@ -25,11 +25,21 @@ weight = 900
     </q-card>
   </div>
   <div v-else>
-    NipoPlusについてご不明な点があればこちらからお問い合わせください。
+    Nipo / NipoPlusについてご不明な点があればこちらからお問い合わせください。
     <q-form>
     <q-input v-model="email" label="メールアドレス"></q-input>
     <q-input v-model="msg" label="お問い合わせ内容" type="textarea"></q-input>
-    <q-btn color="primary" size="lg" label="送信" @click="submit" :disable="!emailVerify"></q-btn>
+    どちらのAppに関するお問い合わせでしょう？ nipo / nipoPlusから選んでください
+    <q-option-group v-model="version" :options="option" inline></q-option-group>
+    <div style="max-width:200px">
+      <div v-if="version === 'nipo'">
+        <img src="/images/nipologo.png" style="width:200px" />
+      </div>
+      <div v-else-if="version === 'nipoPlus'">
+        <img src="/images/app-icon.png" style="width:200px" />
+      </div>
+    </div>
+    <q-btn color="primary" size="lg" label="送信" @click="submit" :disable="!checkOk"></q-btn>
     <div v-if="!emailVerify" class="text-negative">メールアドレスの形式を確認してください</div>
     <div>お預かりしたメールアドレスはご質問に対する返信にのみ使用します</div>
     </q-form>
@@ -46,14 +56,22 @@ weight = 900
     setup () {
       const EMAIL_REG_EXP = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/
       const emailVerify = Vue.computed(() => { return EMAIL_REG_EXP.test(email.value) })
+      const checkOk = Vue.computed(() => {
+        if (emailVerify.value === false) return false
+        if (msg.value === '') return false
+        if (version.value === '') return false
+        return true
+      })
       const close = Vue.ref(false)
       const email = Vue.ref('')
       const msg = Vue.ref('')
+      const version = Vue.ref('')
+      const option = Vue.ref([{ label: 'nipo', value: 'nipo' }, { label: 'nipoPlus', value: 'nipoPlus' }])
       async function submit () {
         Quasar.Loading.show()
         const body = {
           email: email.value,
-          text: msg.value + '\n------\nNipoPlus'
+          text: msg.value + '\n------\n' + version.value
         }
         const config = {
           method: 'POST',
@@ -73,6 +91,9 @@ weight = 900
         }
       }
       return {
+        option,
+        version,
+        checkOk,
         emailVerify,
         close,
         submit,

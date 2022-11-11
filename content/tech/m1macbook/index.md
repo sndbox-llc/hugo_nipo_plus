@@ -87,7 +87,10 @@ M1を買ってプログラムを始めたい！という場合は前述の通り
 よって、Nuxt-jsの「[Nuxt-img](https://image.nuxtjs.org/components/nuxt-img/)」も対策しないとうまく動きませんでした。  
 [解決策はGitHubのissue](https://github.com/nuxt/image/issues/204)に上がっています。
 
-<Alice>Nipoの姉妹アプリ「Maroud」のWebサイトを作るときにつまづいたよ</Alice>
+{{<alice pos="left" icon="default">}}
+Nipoの姉妹アプリ「Maroud」のWebサイトを作るときにつまづいたよ
+{{</alice>}}
+
 
 Quasarが提供している[icon Genie](https://quasar.dev/icongenie/introduction)もインストールに失敗します。
 とまぁ、割と細かいところで問題が発生します。エラーを読んで調べるくらいのことができれば解決できますが、Intel版ではそもそもこんな問題が発生しないため、  

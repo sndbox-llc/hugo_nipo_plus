@@ -1,0 +1,48 @@
+dl {
+  width: 100%; /* テーブルの横幅を500pxに指定 */
+  border-top: 1px solid #ddd; /* テーブルの上の線 */
+  border-left: 1px solid #ddd; /* テーブルの左の線 */
+  display: flex; /* 子要素のdtとddを横並びにする */
+  flex-wrap: wrap; /* 1つのdtとddで1行になるよう改行させる */
+}
+dt,dd {
+  margin: 0; /* ブラウザの初期値をクリア */
+  padding: 0; /* ブラウザの初期値をクリア */
+}
+
+ dl dt,
+ dl dd {
+  border-bottom: 1px solid #ddd; /* 各セルの下の線。テーブルの下の線も補える。 */
+  border-right: 1px solid #ddd; /* 各セルの右の線。テーブルの右の線も補える。 */
+  box-sizing: border-box; /* widthの計算を楽にするため */
+  padding: 15px 30px; /* 各セルに余白を取る */
+}
+ dl dt {
+  font-size: 16px; /* フォントサイズを16pxに指定 */
+  width: 200px; /* dt（見出し項目）の横幅を200pxに指定 */
+}
+ dl dd {
+  width: calc(100% - 200px); /* テーブル幅からdtを引いた分の横幅を指定。 */
+}
+
+/* FOR smartphone landscape
+***************************************************************************/
+@media screen and (max-width:750px) {
+
+   dl {
+      width: 100%; /* 横幅をpxではなく、幅いっぱいに指定。 */
+      border-left: none; /* テーブルの左の線を消す */
+      display: block; /* 横並びにさせないようブロック要素にする */
+  }
+   dl dt,
+   dl dd {
+      border-right: none; /* セルの右の線を消す */
+      width: 100%; /* 横幅を幅いっぱいに指定 */
+      padding: 10px 15px; /* 各セルに余白を取る */
+  }
+   dl dt {
+      border-bottom: none; /* 下の線を消す（ddの下の線が残る） */
+      padding-bottom: 0; /*ddとの距離を近づけるため、0にする*/
+  }
+
+}

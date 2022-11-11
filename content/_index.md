@@ -9,6 +9,7 @@ reqMermaid = false
 
 # 日報アプリ NipoPlus
 
+
 ## NipoPlusってなに？1分で解説します
 
 百聞は一見にしかず。まずはNipoPlusの画面を御覧ください。
@@ -20,7 +21,7 @@ reqMermaid = false
 右に目を向けると[コメント欄](/report/read/comment/)や、[PDF出力、CSV出力](/report/totalling/)といったボタンが目に付きます。
 
 {{<alice pos="left" icon="phone">}}
-つまり[テンプレートを自由に設計](/org/groupsetting/template/make/)でき、承認のリレーやCSV出力・PDF変換もできる日報アプリです。スマホで利用もOK
+つまり[テンプレートを自由に設計](/org/groupsetting/template/make/)できます
 {{</alice>}}
 
 ---

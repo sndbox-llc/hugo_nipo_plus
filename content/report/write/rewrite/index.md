@@ -1,5 +1,4 @@
 +++
-draft = false
 menuTitle = "日報の修正"
 tags = []
 title = "日報の修正"

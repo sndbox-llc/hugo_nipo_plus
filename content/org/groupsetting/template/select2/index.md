@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = false
 menuTitle = "選択肢入力(複数解答)"
 tags = []
 title = "日報テンプレートに選択式の入力フォームを追加する（複数回答可能）"

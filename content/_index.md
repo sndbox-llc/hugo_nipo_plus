@@ -1,14 +1,11 @@
 +++
+archetype = "home"
 description = "日報テンプレート自作可能。会社独自の日報を手軽に設計できます。PC/スマホ/タブレット対応。CSV出力やPDF出力も対応。日報やチェックシート管理に"
-draft = false
 menuTitle = "Home"
-title = "簡単にオリジナルの日報が作れる日報アプリ"
+title = "日報アプリ NipoPlus"
 toc = false
 reqMermaid = false
 +++
-
-# 日報アプリ NipoPlus
-
 
 ## NipoPlusってなに？1分で解説します
 
@@ -151,41 +148,3 @@ NipoPlusに興味を持っていただけましたか？[匿名アカウント](
 {{<alice pos="right" icon="please">}}
 ここまでスクロールしてくれてありがとうございます
 {{</alice>}}
-
-<div id="call_to_action" style="background-color: #722ed2d4;padding:20px">
-  <div class="flexmain">
-    <div class="dp25">
-      <img src='/images/app-iconx200.png' style="width:100%; max-height: 200px;" width="200" height="200" alt="nipoplusアプリ起動ボタン">
-    </div>  
-    <div class="dp75" style="color: white">
-      <h3 style="color:white">一切の企業情報を入力せずに手軽に体験できます</h3>
-      <ul>
-        <li style="color:white">メール・パスワードの設定なしで体験可能（<a href="/account/tokumei/">匿名機能</a>）</li>
-        <li style="color:white">クレジットカードの登録も不要</li>
-        <li style="color:white">Webアプリだからインストール不要</li>
-      </ul>
-    </div>
-  </div>
-  <div style="text-align: center;margin-top: 3em;margin-bottom: 3em;">
-    <a href="https://nipo-plus.web.app/" class="cta_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});" >Webではじめる</a>
-  </div>  
-</div>
-<footer class="footline" style="border-top: 1px solid #ccc; margin-top: 10px">
-<div class="flexmain">
-<div class="dp33">
-<a href="https://nipo-plus.web.app/" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">
-<img src='/images/banner2.webp' style="border-radius: 10px;" width="573" height="173" alt="nipoplusアプリ起動ボタン">
-</a>
-</div>
-<div class="dp33">
-<a href="/system/ios/">
-<img src='/images/ios-app.webp' width="573" height="173" alt="ios App Store">
-</a>
-</div>
-<div class="dp33">
-<a href="/system/android/">
-<img src='/images/android-app.webp' width="573" height="173" alt="Android Google Play Store">
-</a>
-</div>
-</div>
-</footer>

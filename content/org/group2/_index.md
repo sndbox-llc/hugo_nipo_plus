@@ -1,8 +1,7 @@
 +++
-chapter = true
-draft = false
+# chapter = true
 menuTitle = "グループ応用設定"
-pre = "<b>1-3. </b>"
+menuPre = "<b>1-3. </b>"
 tags = []
 title = "応用設定"
 toc = false

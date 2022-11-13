@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = false
 menuTitle = "QuasarでAndroidアプリを作成"
 tags = []
 title = "Quasar FrameworkでAndroidアプリをビルドしてストア提出する(AABファイル)"

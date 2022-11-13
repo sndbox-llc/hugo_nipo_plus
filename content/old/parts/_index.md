@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "旧バージョンNipoについて"
 menuTitle = "各種入力フォーム"
-pre = "2."
+menuPre = "2."
 title = "各種入力フォーム"
 toc = false
 weight = 2000

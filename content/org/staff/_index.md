@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "スタッフのアカウントを作成・管理します。1ユーザにつき1アカウントが割り当てられスタッフ同士で日報のやり取りやコメントの読み書きができます"
 menuTitle = "スタッフの管理"
-pre = "<b>1-1. </b>"
+menuPre = "<b>1-1. </b>"
 tags = []
 title = "スタッフのアカウントについて"
 toc = false

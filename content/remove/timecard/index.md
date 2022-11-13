@@ -1,5 +1,4 @@
 +++
-draft = false
 menuTitle = "タイムカードの削除"
 tags = []
 title = "タイムカードの削除"

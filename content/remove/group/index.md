@@ -1,5 +1,4 @@
 +++
-draft = false
 menuTitle = "グループの削除"
 tags = []
 title = "グループの削除"

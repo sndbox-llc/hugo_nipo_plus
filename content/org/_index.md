@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "NipoPlusを利用する前に初期設定を済ませておきましょう。日報テンプレートの作成や一緒に使用するスタッフアカウントの用意、必要に応じてグループ分けなどを行います"
 menuTitle = "初期設定"
-pre = "<b>1. </b>"
+menuPre = "<b>1. </b>"
 title = "初期設定を行う"
 toc = false
 reqMermaid = true

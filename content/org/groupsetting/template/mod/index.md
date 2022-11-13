@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = false
 menuTitle = "商品入力フォーム"
 tags = []
 title = "商品入力フォーム"

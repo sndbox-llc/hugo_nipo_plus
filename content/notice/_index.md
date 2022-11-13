@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = ""
 menuTitle = "通知機能について"
-pre = "<b>6. </b>"
+menuPre = "<b>6. </b>"
 title = "あなたに関連する事柄の通知"
 toc = false
 weight = 60

@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = false
 menuTitle = "削除した項目の復旧"
 tags = []
 title = "削除した項目の復旧"

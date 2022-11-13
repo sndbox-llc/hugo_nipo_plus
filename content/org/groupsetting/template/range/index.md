@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = false
 menuTitle = "範囲入力フォーム"
 tags = []
 title = "範囲入力フォーム"

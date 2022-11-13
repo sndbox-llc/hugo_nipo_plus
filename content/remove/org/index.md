@@ -1,5 +1,4 @@
 +++
-draft = false
 menuTitle = "退会"
 tags = []
 title = "組織を削除する(退会)"

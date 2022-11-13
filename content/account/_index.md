@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "アプリをご利用の際はアカウントが必要になります。このページではスタッフのアカウント管理に関する情報を記載しています"
 menuTitle = "アカウント管理"
-pre = "<b>7. </b>"
+menuPre = "<b>7. </b>"
 title = "スタッフのアカウント"
 toc = false
 weight = 70

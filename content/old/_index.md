@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "旧バージョンNipoについて"
 menuTitle = "旧バージョン"
-pre = "<b>X</b>"
+menuPre = "<b>X</b>"
 title = "簡単！クラウド日報"
 toc = false
 weight = 9100

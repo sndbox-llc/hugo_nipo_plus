@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "NipoPlusのユースケースについて随時記事を書いていきます"
 menuTitle = "技術系ブログ"
-pre = "<b>-</b>"
+menuPre = "<b>-</b>"
 title = "開発者の技術メモなど"
 toc = false
 weight = 9000

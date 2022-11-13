@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "日報を読む・書く・承認する。日報に関する様々な基本操作を解説。集計やPDF出力、エクセルでグラフ生成なども可能です"
 menuTitle = "日報・チェックシート"
-pre = "<b>2. </b>"
+menuPre = "<b>2. </b>"
 title = "日報やチェックシートを使う"
 toc = false
 weight = 20

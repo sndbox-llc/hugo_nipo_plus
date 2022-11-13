@@ -1,5 +1,4 @@
 +++
-draft = false
 menuTitle = "語録管理"
 tags = []
 title = "語録管理\nシンプルな単語の羅列ですが選択肢などに組み込んで使用できます"

@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = ""
 menuTitle = "カレンダー機能"
-pre = "<b>4. </b>"
+menuPre = "<b>4. </b>"
 title = "カレンダーに日報をマッピング"
 toc = false
 weight = 40

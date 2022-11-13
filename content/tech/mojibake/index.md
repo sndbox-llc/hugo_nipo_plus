@@ -1,6 +1,5 @@
 +++
 description = "WebでダウンロードしたZipファイルを解凍するとファイル名が文字化けする原因は解凍ソフトにあります。SHIFT-JISにしか対応していない解凍ソフトの利用は控えてください"
-draft = false
 menuTitle = "Zipを解凍すると文字化けする"
 tags = []
 title = "ダウンロードしたZipファイルが文字化けする原因と解決策-主にWindows"

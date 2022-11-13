@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "60日間の無料お試し期間あり。1名180円のリーズナブルな料金です。お試し期間中にクレジットカードの登録は一切不要です"
 menuTitle = "ご利用料金"
-pre = "<b>8. </b>"
+menuPre = "<b>8. </b>"
 title = "1名180円の業界最安値"
 toc = false
 weight = 80

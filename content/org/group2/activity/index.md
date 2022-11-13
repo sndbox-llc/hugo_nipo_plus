@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = false
 menuTitle = "スタッフの活動実績"
 tags = []
 title = "スタッフの活動実績"

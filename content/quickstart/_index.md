@@ -2,7 +2,7 @@
 chapter = false
 description = "初めてご利用の方向けのガイドです。アカウント作成から実際に日報を作成するまでの基本的な流れを画像つきでわかりやすく解説"
 menuTitle = "クイックスタートガイド"
-pre = "<b>0. </b>"
+menuPre = "<b>0. </b>"
 title = "NipoPlusを初めて利用される方向けの入門ガイドです。アカウント作成から日報作成・承認までの流れをご紹介"
 toc = true
 weight = 1

@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = false
 menuTitle = "CloudFunctionsでPDFをZipへ変換"
 tags = []
 title = "pdfMakeとarchiverを使い複数のPDFを1つのZipにまとめてStorageへUpする"

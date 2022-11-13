@@ -1,5 +1,4 @@
 +++
-draft = false
 menuTitle = "商品状態管理"
 tags = []
 title = "商品状態管理"

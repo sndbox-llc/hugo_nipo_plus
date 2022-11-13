@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = ""
 menuTitle = "削除について"
-pre = "<b>9. </b>"
+menuPre = "<b>9. </b>"
 title = "日報やコメントなどの削除"
 toc = false
 weight = 90

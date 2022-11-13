@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Page.Language | default "ja" }}" class="js csstransforms3d">
+<html lang="{{ .Page.Language | default "ja" }}" dir="{{ T "Reading-direction" | default "ltr" }}">
   <head>
     <!-- Analytics 本番でのみ出力する -->
     {{ if not .Site.IsServer }}
@@ -9,125 +9,218 @@
     {{ if eq .Params.quasar true }}
     <link href="https://cdn.jsdelivr.net/npm/quasar@2.7.1/dist/quasar.prod.css" rel="stylesheet" type="text/css">
     {{ end }}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{ hugo.Generator }}
-    {{ partial "meta.html" . }}
-    {{ partial "favicon.html" . }}
-    <title>{{ .Title }} {{ default "::" .Site.Params.titleSeparator }} {{ .Site.Title }}</title>
 
-    {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
-    <link href="{{"css/nucleus.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/fontawesome-all.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/hybrid.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/featherlight.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/perfect-scrollbar.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/theme.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/tabs.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/hugo-theme.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    {{with .Site.Params.themeVariant}}
-    <link href="{{(printf "css/theme-%s.css" .) | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    {{end}}
-    {{ range .Site.Params.custom_css -}}
-    <link href="{{(printf "%s" .) | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
+  
+    {{- partial "meta.html" . }}
+    {{- $page := . }}
+    {{- $link := "<link href=\"%s\" rel=\"%s\" type=\"%s\" title=\"%s\">" }}
+    {{- $title := "" }}
+    {{- if and .Title (not (eq .Title .Site.Title)) }}
+      {{- $title = printf "%s %s " .Title (default "::" .Site.Params.titleSeparator) }}
     {{- end }}
-    <!-- SCSS対応　-->
-    {{ if eq .Params.isNipo true }}
-      <!-- 旧Nipo・緑ベース -->
-      {{ $sass := resources.Get "sass/rootold.scss" }}
-      {{ $style := $sass | resources.ToCSS }}
-      <link rel="stylesheet" href="{{ $style.Permalink }}">
-    {{ else }}
-      <!-- NipoPlus・紫ベース -->
-      {{ $sass := resources.Get "sass/root.scss" }}
-      {{ $style := $sass | resources.ToCSS }}
-      <link rel="stylesheet" href="{{ $style.Permalink }}">
-    {{end}}
+    {{- $title = printf "%s%s" $title .Site.Title }}
+    <title>{{ $title }}</title>
 
-    <script src="{{"js/jquery-3.6.0.min.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+    {{- if not (and .Title (or (ne (.Scratch.Get "relearnIsHiddenStem") true) (ne .Site.Params.disableSeoHiddenPages true) ) ) }}
+    {{- else }}
+        {{- range .AlternativeOutputFormats }}
+            {{- if eq .Rel "canonical" }}
+    {{ (printf $link .Permalink .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
+            {{- else if and (ne .Name "JSON") (ne .Name "SEARCH") }}
+    {{ (printf $link (partial "relLangPrettyUglyURL.hugo" (dict "to" .)) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
+    {{- if and (ne .Site.Params.disableSeoHiddenPages true) (ne .Site.Params.disableSearchHiddenPages true) }}
+        {{- range .AlternativeOutputFormats }}
+            {{- if eq .Name "JSON" }}
+    {{ (printf $link (.Permalink | relURL) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
 
-    <style>
-      :root #header + #content > #left > #rlblock_left{
-          display:none !important;
-      }
-      {{ if .Site.Params.disableInlineCopyToClipBoard }}
-        :not(pre) > code + span.copy-to-clipboard {
-            display: none;
-        }
-      {{ end }}
-    </style>
-    {{ partial "custom-header.html" . }}
-  </head>
-  <body class="" data-url="{{ .RelPermalink }}">
-    {{ partial "menu.html" . }}
-        <section id="body">
-        <div id="overlay"></div>
-        <div class="padding highlightable">
-          <div id="top-bar" style="padding-top:10px;padding-bottom:10px;background:white">
-            <div id="sidebar-toggle-span">
-              <a href="#" id="sidebar-toggle" class="top_left_btn" data-sidebar-toggle="">
-                <i class="fas fa-bars"></i>
-              </a>
-            </div>
-            <div id="top-github-link">
-              {{ if eq .Params.isNipo true }}
-              <a href="https://nipoapp.sndbox.jp/" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">旧Nipo起動</a>
-              {{ else }}
-              <a href="https://nipo-plus.web.app/" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">App起動</a>
-              {{ end }}
-            </div>
-          </div>
-          <!-- バンくずリスト -->
-          {{$showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb))}}
-          {{if not .IsHome }}
-            <div id="breadcrumbsNavigations">
-              <ul>
-                {{ template "breadcrumbnav" dict "p1" . "p2" . }}
-              </ul>
-            </div>
-            <hr>
-          {{ end }}
-
-        <div id="head-tags">
-        {{ partial "tags.html" . }}
-        </div>
+    {{- partial "favicon.html" . }}
+    {{- partial "stylesheet.html" . }}
+        <!-- SCSS対応　-->
         {{ if eq .Params.isNipo true }}
-        <div style="padding:1rem;background:tomato; color:white;border: 1px solid red;font-weight:bold;font-size:30px">
-          【注意】ご覧のページは旧Nipoです
+        <!-- 旧Nipo・緑ベース -->
+        {{ $sass := resources.Get "sass/rootold.scss" }}
+        {{ $style := $sass | resources.ToCSS }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}">
+      {{ else }}
+        <!-- NipoPlus・紫ベース -->
+        {{ $sass := resources.Get "sass/root.scss" }}
+        {{ $style := $sass | resources.ToCSS }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}">
+      {{end}}
+    {{- partial "custom-header.html" . }}
+  </head>
+  <body class="mobile-support {{ (partial "output-format.hugo" .) }}{{- if .Site.Params.disableInlineCopyToClipBoard }} disableInlineCopyToClipboard{{ end }}" data-url="{{ .RelPermalink }}">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+        {{- $showPrevNext := (and (not .Params.disableNextPrev) (not .Site.Params.disableNextPrev)) }}
+        {{- if $showPrevNext }}
+          {{- $parent := .Parent }}
+          {{- $ispublished := true }}
+          {{- if $parent }}
+            {{- $ispublished = gt (int (len $parent.Permalink)) 0 }}
+          {{- end }}
+          <div class="navigation">
+          {{- if and $ispublished ($.Scratch.Get "relearnNextPage") }}
+            {{- with ($.Scratch.Get "relearnNextPage") }}
+            <a class="nav nav-next" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}" title="{{.Title}} (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            {{- end }}
+          {{- else }}
+            <span class="nav nav-next"><i class="fa fa-chevron-right fa-fw"></i></span>
+          {{- end }}
+          </div>
+          <div class="navigation">
+          {{- if and $ispublished ($.Scratch.Get "relearnPrevPage") }}
+            {{- with ($.Scratch.Get "relearnPrevPage") }}
+            <a class="nav nav-prev" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}" title="{{.Title}} (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+            {{- end}}
+          {{- else }}
+            <span class="nav nav-prev"><i class="fa fa-chevron-left fa-fw"></i></span>
+          {{- end}}
+          </div>
+        {{- end }}
+        {{- with .OutputFormats.Get "PRINT" }}
+          <div id="top-print-link">
+            <a class="print-link" title='{{ T "Print-this-chapter" }} (CTRL+ALT+p)' href="{{ .RelPermalink }}">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+        {{- end -}}
+        <!-- 起動ボタン -->
+        <div id="top-github-link">
+          {{ if eq .Params.isNipo true }}
+          <a href="https://nipoapp.sndbox.jp/" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">旧Nipo起動</a>
+          {{ else }}
+          <a href="https://nipo-plus.web.app/" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">App起動</a>
+          {{ end }}
         </div>
 
-        {{end}}
+        <!--
+        {{- if .Site.Params.editURL }}
+          {{- $File := .File }}
+          {{- $Site := .Site }}
+          {{- if $File }}
+            {{- with $File.Path }}
+          <div id="top-github-link">
+            <a class="github-link" title='{{ T "Edit-this-page" }} (CTRL+ALT+w)' href="{{ $Site.Params.editURL }}{{ replace $File.Dir "\\" "/" }}{{ $File.LogicalName }}" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+            {{- end }}
+          {{- end }}
+        {{- end }}
+        -->
+        <!--
 
-        {{ if .Params.chapter }}
-          <div id="chapter">
-        {{ end }}      
-        <div id="body-inner">
-          {{if and (not .IsHome) }}
-            <h1>
-              {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
-                {{.Data.Singular}} ::
-              {{ end }}
-              {{.Title}}
-            </h1>
-          {{end}}
-          <!-- 目次 -->
-          {{if .Params.toc }}
-            <nav id="tableOfContents">
-              <div class="mokuji">目次</div>
-              {{ .TableOfContents }}
-            </nav>
-          {{end}}
+        {{- $defaultDisableToc := .Site.Params.disableToc | default false }}
+        {{- $currentDisableToc := .Params.disableToc | default $defaultDisableToc }}
+        {{- $hastoc := not (eq 0 (int (len (.TableOfContents | plainify)))) }}
+        {{- $toc := (and $hastoc (not $currentDisableToc)) }}
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='{{ T "Navigation-toggle" }} (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+          {{- if $toc }}
+            <span id="toc-menu" title='{{ T "Toc-toggle" }} (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+          {{- end }}
+          {{- $showBreadcrumb := (and (not .Params.disableBreadcrumb) (not .Site.Params.disableBreadcrumb)) }}
+          {{- if $showBreadcrumb }}
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              {{- template "breadcrumb" dict "page" . "to" . }}
+            </ol>
+          {{- else }}
+            <span class="links">
+              {{ .Title }}
+            </span>
+          {{- end }}
+          </div>
+        {{- if $toc }}
+          {{- partial "toc.html" . }}
+        {{- end }}
+        -->
 
-          {{ define "breadcrumbnav" }}
-            {{ if .p1.Parent }}
-              {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
-            {{ else if not .p1.IsHome }}
-              {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
-            {{ end }}
-            {{ if eq .p1 .p2 }}
-              <li class="active">{{ .p1.Params.menuTitle }}</li>
-            {{ else }}
-              <li><a href="{{ .p1.RelPermalink }}">{{ .p1.Params.menuTitle }}</a></li>
-            {{ end }}
-          {{ end }}
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable {{ partial "archetype.hugo" (dict "hook" "styleclass" "page" . "parameter" .) }}" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+            {{- partial "tags.html" . }}
+          </div>
+          <!-- 旧Nipoの場合に警告バナーを表示 -->
+          {{ if eq .Params.isNipo true }}
+            <div style="padding:1rem;background:tomato; color:white;border: 1px solid red;font-weight:bold;font-size:30px">
+              【注意】ご覧のページは旧Nipoです
+            </div>
+          {{end}}        
+  
+<!--
+{{- define "breadcrumb" }}
+  {{- $breadcrumb := slice }}
+  {{- $page := .page }}
+  {{- $to := .to }}
+  {{- $breadcrumb = $breadcrumb | append $to }}
+  {{- range seq (len .to.Site.Home.Pages) }}
+    {{- $to = $to.Parent }}
+    {{- if $to }}
+      {{- $breadcrumb = $breadcrumb | append $to }}
+    {{- else }}
+      {{- break }}
+    {{- end }}
+  {{- end }}
+  {{- $len := len $breadcrumb -}}
+  {{- $breadcrumbReversed := slice }}
+  {{- range seq $len }}
+    {{- $breadcrumbReversed = $breadcrumbReversed | append (index $breadcrumb (sub $len .)) }}
+  {{- end }}
+  {{- $remaining := $len }}
+  {{- $depth := 0 }}
+  {{- range $i, $e := $breadcrumbReversed }}
+    {{- $to := $e }}
+    {{- $ispublished := gt (int (len $to.Permalink)) 0 }}
+    {{- $remaining = sub $remaining 1 }}
+    {{- if $ispublished }}
+      {{- $depth = add $depth 1 }}
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement">{{ if $remaining }}<a itemprop="item" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" $to) }}">{{end}}<span itemprop="name">{{ if $to.Title }}{{ $to.Title }}{{ else }}{{ $to.Site.Title }}{{ end }}</span>{{ if $remaining }}</a>{{ end }}<meta itemprop="position" content="{{ $depth }}">{{ if $remaining }} > {{ end }}</li>
+    {{- end }}
+  {{- end }}
+{{- end }}
+-->
+{{if not .IsHome }}
+<div id="breadcrumbsNavigations">
+  <ul>
+    {{ template "breadcrumbnav" dict "p1" . "p2" . }}
+  </ul>
+</div>
+<hr>
+{{ end }}
+<!-- 目次 -->
+{{if .Params.toc }}
+  <nav id="tableOfContents">
+    <div class="mokuji">目次</div>
+    {{ .TableOfContents }}
+  </nav>
+{{end}}
+
+
+<!-- パンくずリスト（ショートタイトル版) -->
+{{ define "breadcrumbnav" }}
+{{ if .p1.Parent }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+{{ else if not .p1.IsHome }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+{{ end }}
+{{ if eq .p1 .p2 }}
+  <li class="active">{{ .p1.Params.menuTitle }}</li>
+{{ else }}
+  <li><a href="{{ .p1.RelPermalink }}">{{ .p1.Params.menuTitle }}</a></li>
+{{ end }}
+{{ end }}
 

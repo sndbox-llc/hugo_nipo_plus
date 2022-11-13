@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = ""
 menuTitle = "日報を書く"
-pre = "<b>2-1. </b>"
+menuPre = "<b>2-1. </b>"
 title = "日報を書く"
 toc = false
 weight = 21

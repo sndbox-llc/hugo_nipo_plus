@@ -2,35 +2,21 @@
 #body-inner {
   h1 {
     color: $baseColor;
-    /*
-    text-align: center;
-    font-size: 200%;
-    white-space: pre-wrap;
-    font-weight: 600;
-    border: solid 3px $baseColor;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    */
+    text-align: left;
+    font-weight: bold;
   }
   h2 {
     color: $accentColor;
-    font-weight: 600;
-
-    /*
-    font-size: 180%;
-    padding: 10px;
-    border-left: solid 13px $accentColor;
-    */
+    font-weight: bold;
   }
   h3 {
     color: $sideColor;
     font-size: 160%;
-    font-weight: 600;
+    font-weight: bold;
   }
   h4 {
     color: $sideColor;
     font-size: 130%;
-    font-weight: 600;
   }
   p {
     font-size: 18px;
@@ -64,6 +50,9 @@
     display: none;
   }
 }
+a:hover {
+  text-decoration: underline ;
+}
 #shortcuts {
   h3 {
     font-size: 150%;
@@ -75,93 +64,50 @@
     font-weight: bold;
   }
 }
-
+/*
 #chapter {
   h1 {
     color: white;
     background-color: $baseColor;
     padding: 10px;
-
-    /*
-    font-size: 200%;
-    text-align: center;
-    white-space: pre-wrap;
-    font-weight: 600;
-    border: solid 3px $baseColor;
-    border-radius: 0.5em;
-    */
   }
   h2 {
     color: $accentColor;
     font-weight: 600;
-/*
-    font-size: 180%;
-    padding: 15px 0;
-    border-top: solid 1px $accentColor;
-    border-bottom: solid 1px $accentColor;
-    border-left: none;
-    */
   }
 }
+*/
 
-.cta_btn{
-  width: 309px;
-  max-width: 100%;
-  padding: 14px 0 16px 0;
-  font-size: 20px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  margin: 0 auto;
-  color: #fff;
-  background: #444;
-  line-height: 1;
-  border-radius: 50px;
-  transition: all .2s;
-
-  &:hover {
-    background-color: pink;
-    text-decoration: none;
-  }
-}
-
-.top_right_btn {
-  background-color: $subColor;
-  padding: 5px 10px;
-  color: white;
-  border-radius: 50px;
-  font-weight: bold;
-  font-size: 19px;
-
-  &:hover {
-    background-color: pink;
-  }
-}
-
-.top_left_btn {
-  background-color: $subColor;
-  padding: 5px 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 19px;
-}
-
-.my_button {
+.baseBtn {
   background-color: $baseColor;
-  padding: 15px 20px;
-  color: white !important;
+  padding: 5px 10px;
+  color: white;
   border-radius: 5px;
   font-weight: bold;
   font-size: 19px;
-  &:link,
-  &:visited{
-    color: white !important;
-  }
-
   &:hover {
     background-color: $subColor;
+    color: white;
   }
+}
+/* 記事内で適用されるボタン.大きめ */
+.my_button {
+  @extend .baseBtn;
+  padding: 15px 20px;
+}
+/* 画面右上アプリ起動ボタン. 小さめ */
+.top_right_btn {
+  @extend .baseBtn;
+}
+/* CalltoActionのボタン */
+.cta_btn{
+  @extend .baseBtn;
+  width: 309px;
+  max-width: 100%;
+  padding: 14px 0 16px 0;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 /** パンくずリストナビゲーション（上田カスタマイズモデル) */
@@ -186,7 +132,6 @@
     }
     li a {
       text-decoration: none;
-      color: #52b5ee;
     }
     li a:hover {
       text-decoration: underline;
@@ -195,20 +140,14 @@
 }
 /** テーブルオブコンテンツ */
 #tableOfContents {
+  padding:5px;
+  background: #f6f6f6;
+  overflow: auto;
   .mokuji {
     font-weight: bold;
-    text-align: center;
   }
-  background: #f6f6f6;
-  padding:5px;
-  overflow: auto;
+
   ul {
-  list-style-type: none;
-
-    li a {
-      text-decoration: none;
-      color: #52b5ee;
-    }
-
+    list-style-type: none;
   }
 }

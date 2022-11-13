@@ -1,79 +1,110 @@
-        {{ if .Params.chapter }}
-            </div> <!-- end chapter-->
-        {{ end }}
         </div>
-        {{ partial "custom-comments.html" . }}
-      </div>
-
-    <div id="navigation">
-        <!-- Next prev page -->
-        {{ $currentNode := . }}
-
-        {{ template "menu-nextprev" dict "menu" .Site.Home "currentnode" $currentNode }}
-
-        {{ define "menu-nextprev" }}
-            {{$currentNode := .currentnode }}
-            {{ if ne .menu.Params.hidden true}}
-                {{if hasPrefix $currentNode.RelPermalink .menu.RelPermalink }}
-                    {{ $currentNode.Scratch.Set "NextPageOK" "OK" }}
-                    {{ $currentNode.Scratch.Set "prevPage" ($currentNode.Scratch.Get "prevPageTmp") }}
-                {{else}}
-                    {{if eq ($currentNode.Scratch.Get "NextPageOK") "OK"}}
-                        {{ $currentNode.Scratch.Set "NextPageOK" nil }}
-                        {{ $currentNode.Scratch.Set "nextPage" .menu }}
-                    {{end}}
-                {{end}}
-                {{ $currentNode.Scratch.Set "prevPageTmp" .menu }}
-
-                    {{ $currentNode.Scratch.Set "pages" .menu.Pages }}
-                    {{ if .menu.IsHome}}
-                        {{ $currentNode.Scratch.Set "pages" .menu.Sections }}
-                    {{ else if .menu.Sections}}
-                        {{ $currentNode.Scratch.Set "pages" (.menu.Pages | union .menu.Sections) }}
-                    {{end}}
-                    {{ $pages := ($currentNode.Scratch.Get "pages") }}
-
-                    {{ range $pages.ByWeight  }}
-                        {{ template "menu-nextprev" dict "menu" . "currentnode" $currentNode }}
-                    {{end}}
-            {{ end }}
-        {{ end }}
-
-
-	 {{$showPrevNext := (and (not .Params.disableNextPrev) (not .Site.Params.disableNextPrev))}}
-	 {{if $showPrevNext}}
-		{{with ($.Scratch.Get "prevPage")}}
-			<a class="nav nav-prev" href="{{.RelPermalink}}" title="{{.Title}}"> <i class="fa fa-chevron-left"></i></a>
-		{{end}}
-		{{with ($.Scratch.Get "nextPage")}}
-			<a class="nav nav-next" href="{{.RelPermalink}}" title="{{.Title}}" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
-		{{end}}
-	{{end}}
-    </div>
-
-    </section>
-
-    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
-    </div>
-    <script src="{{"js/clipboard.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/perfect-scrollbar.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/perfect-scrollbar.jquery.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/jquery.sticky.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/featherlight.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/highlight.pack.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="{{"js/modernizr.custom-3.6.0.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/learn.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/hugo-learn.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    {{ if .Page.Params.reqMermaid }}
-        <!-- mermaid.jsの読み込みはreqMermaidのページのみ -->
-        <script src="/js/mermaid.min.js" defer></script>
-        <script>
-            mermaid.initialize({ startOnLoad: true });
-        </script>
-    {{ end }}
-    {{ partial "custom-footer.html" . }}
+        <!-- コールトゥーアクション -->
+        <div class="footline">
+          {{ if eq .Params.isNipo true }}
+          {{ partial "cta-nipo.html" . }}
+          {{ else }}
+          {{ partial "cta-nipo-plus.html" . }}
+          {{ end }}
+        </div>
+        <div style="text-align: right;">
+          最終更新日: {{ .Lastmod.Format "2006/01/02" }}
+        </div>
+      </main><!-- #body-inner -->
+{{- partial "custom-comments.html" . }}
+    </div><!-- #body -->
+{{- partial "menu.html" . }}
+    <script src="{{"js/clipboard.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+    <script src="{{"js/perfect-scrollbar.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+    <script src="{{"js/featherlight.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+{{- $wantsMathJax := or (.Page.Store.Get "hasMathJax") (and (.Page.Store.Get (printf "%sIsNested" (partial "output-format.hugo" .Page))) (.Page.Store.Get "nestedHasMathJax")) }}
+{{- if $wantsMathJax }}
+  {{- if isset .Params "mathjaxinitialize" }}
+    {{- $.Scratch.Set "mathJaxInitialize" .Params.mathJaxInitialize }}
+  {{- else if isset .Site.Params "mathjaxinitialize" }}
+    {{- $.Scratch.Set "mathJaxInitialize" .Site.Params.mathJaxInitialize }}
+  {{- else }}
+    {{- $.Scratch.Set "mathJaxInitialize" "{}" }}
+  {{- end }}
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          // We don't support MathJax for IE11 anyways, so bail out early
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], // allow for single dollars as we set startup.elements
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false // avoid translation hassle for context menu
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse({{ $.Scratch.Get "mathJaxInitialize" }}) );
+    </script>
+  {{- if isset .Params "custommathjaxurl" }}
+    <script id="MathJax-script" async src="{{ .Params.customMathJaxURL }}"></script>
+  {{- else if isset .Site.Params "custommathjaxurl" }}
+    <script id="MathJax-script" async src="{{ .Site.Params.customMathJaxURL }}"></script>
+  {{- else }}
+    <script id="MathJax-script" async src="{{"js/mathjax/tex-mml-chtml.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
+  {{- end }}
+{{- end }}
+{{- $wantsMermaid := or (.Page.Store.Get "hasMermaid") (and (.Page.Store.Get (printf "%sIsNested" (partial "output-format.hugo" .Page))) (.Page.Store.Get "nestedHasMermaid")) }}
+{{- if $wantsMermaid }}
+    <script src="{{"js/jquery.svg.pan.zoom.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+  {{- if isset .Params "custommermaidurl" }}
+    <script src="{{ .Params.customMermaidURL }}" defer></script>
+  {{- else if isset .Site.Params "custommermaidurl" }}
+    <script src="{{ .Site.Params.customMermaidURL }}" defer></script>
+  {{- else }}
+    <script src="{{"js/mermaid.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+  {{- end }}
+  {{- if isset .Params "mermaidinitialize" }}
+    {{- $.Scratch.Set "mermaidInitialize" .Params.mermaidInitialize }}
+  {{- else if isset .Site.Params "mermaidinitialize" }}
+    {{- $.Scratch.Set "mermaidInitialize" .Site.Params.mermaidInitialize }}
+  {{- else }}
+    {{- $.Scratch.Set "mermaidInitialize" "{}" }}
+  {{- end }}
+    <script>
+      window.themeUseMermaid = JSON.parse({{ $.Scratch.Get "mermaidInitialize" }});
+    </script>
+{{- end }}
+{{- $wantsSwagger := or (.Page.Store.Get "hasSwagger") (and (.Page.Store.Get (printf "%sIsNested" (partial "output-format.hugo" .Page))) (.Page.Store.Get "nestedHasSwagger")) }}
+{{- if $wantsSwagger }}
+  {{- if isset .Params "customswaggerurl" }}
+    <script src="{{ .Params.customSwaggerURL }}" defer></script>
+  {{- else if isset .Site.Params "customswaggerurl" }}
+    <script src="{{ .Site.Params.customSwaggerURL }}" defer></script>
+  {{- else }}
+    <script src="{{ "js/rapidoc-min.js" | relURL }}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+  {{- end }}
+  {{- if isset .Params "swaggerinitialize" }}
+    {{- $.Scratch.Set "swaggerInitialize" .Params.swaggerInitialize }}
+  {{- else if isset .Site.Params "swaggerinitialize" }}
+    {{- $.Scratch.Set "swaggerInitialize" .Site.Params.swaggerInitialize }}
+  {{- else }}
+    {{- $.Scratch.Set "swaggerInitialize" "{}" }}
+  {{- end }}
+    <script>
+      window.themeUseSwagger = JSON.parse({{ $.Scratch.Get "swaggerInitialize" }});
+    </script>
+{{- end }}
+    <script src="{{"js/theme.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+    {{- partial "custom-footer.html" . }}
     <!-- JSON-LD形式のパンくずリスト -->
     {{ partial "breadcrumb-json" . }}
   </body>

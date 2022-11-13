@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "マニュアル"
 menuTitle = "マニュアル"
-pre = "1."
+menuPre = "1."
 title = "Nipo(マニュアル)"
 toc = false
 weight = 1000

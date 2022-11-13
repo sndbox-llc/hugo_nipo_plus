@@ -1,5 +1,4 @@
 +++
-draft = false
 menuTitle = "日報を書くまでの流れ"
 tags = []
 title = "日報を書くまでの流れ"

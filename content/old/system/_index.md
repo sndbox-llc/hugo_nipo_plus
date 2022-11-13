@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = "旧バージョンNipoについて"
 menuTitle = "System"
-pre = "3."
+menuPre = "3."
 title = "System"
 toc = false
 weight = 3000

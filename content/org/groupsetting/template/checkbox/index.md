@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = false
 menuTitle = "チェックボックス入力"
 tags = []
 title = "チェックボックス入力フォーム\nはい・いいえの2択で回答可能な設問の入力に最適な日報テンプレート部品"

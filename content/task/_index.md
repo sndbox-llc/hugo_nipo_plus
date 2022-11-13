@@ -1,8 +1,8 @@
 +++
-chapter = true
+# chapter = true
 description = ""
 menuTitle = "タスク管理"
-pre = "<b>3. </b>"
+menuPre = "<b>3. </b>"
 title = "タスク管理"
 toc = false
 weight = 30

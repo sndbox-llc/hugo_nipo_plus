@@ -1,8 +1,8 @@
 +++
-description = ""
+description = "1つ目の回答によって2つめの回答リストが変化する特殊な入力フォームです。カテゴリ分けしたい場合に便利です"
 menuTitle = "選択肢入力(2層式)"
 tags = []
-title = "選択肢入力（2層式）入力フォーム\n1つ目の解答に応じて2つ目の選択肢が変わる入力フォーム"
+title = "選択肢入力（2層式）入力フォーム"
 toc = true
 weight = 140
 reqMermaid = true

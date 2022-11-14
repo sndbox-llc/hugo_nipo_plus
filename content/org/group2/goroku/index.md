@@ -1,7 +1,7 @@
 +++
 menuTitle = "語録管理"
 tags = []
-title = "語録管理\nシンプルな単語の羅列ですが選択肢などに組み込んで使用できます"
+title = "語録管理"
 toc = true
 weight = 50
 aliases = ["/org/groupsetting/goroku/"]

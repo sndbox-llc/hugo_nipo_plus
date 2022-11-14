@@ -2,7 +2,7 @@
 description = "日報やチェックシートにZipやExcelなどのバイナリーファイルを添付するフォームを追加します。添付されたファイルはNipoPlusのサーバ上に保管され、日報本体を削除すると連動してサーバ上からファイルが削除されます"
 menuTitle = "ファイル入力"
 tags = []
-title = "ファイル入力フォーム\n日報の資料としてPdfやExcel・Zipなどを添付可能"
+title = "ファイル入力フォーム"
 toc = true
 weight = 230
 +++

@@ -2,7 +2,7 @@
 description = "10:00〜15:00のような期間の入力ができる入力フォームです"
 menuTitle = "期間入力"
 tags = []
-title = "日報テンプレートに所要時間を入力するフォームを追加する"
+title = "期間入力フォーム"
 toc = true
 weight = 160
 +++

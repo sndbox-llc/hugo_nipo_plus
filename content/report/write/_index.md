@@ -34,6 +34,6 @@ NipoPlusを使って日報やチェックシートを書いてみましょう。
 
 さて、準備はよろしいでしょうか？次のページから実際に日報を書くまでの具体的な流れを見ていきます。
 
-## 記事一覧
+## 次の記事
 
 {{% children description="true" containerstyle="dl" style="dt" %}}

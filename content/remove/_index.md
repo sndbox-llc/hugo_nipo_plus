@@ -19,6 +19,6 @@ NipoPlus上で作成されたデータはクラウドサーバ上に保管され
 削除する対象によって手順が違う場合もありますのでここで確認しましょう
 {{</alice>}}
   
-## 記事一覧
+## 次の記事
 
 {{% children description="true" containerstyle="dl" style="dt" %}}

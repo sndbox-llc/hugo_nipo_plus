@@ -52,9 +52,9 @@ enableGitInfo = true
   disableLanguageSwitchingButton = false
   # Hide breadcrumbs in the header and only show the current page title
   # パンくずリストは改造して常に表示されるようにしたため以下のパラメータは指定しても無意味である
-  # disableBreadcrumb = true
+  disableBreadcrumb = true
   # If set to true, hide table of contents menu in the header of all pages
-  disableToc = false
+  disableToc = true
   # If set to false, load the MathJax module on every page regardless if a MathJax shortcode is present
   disableMathJax = true
   # Specifies the remote location of the MathJax js

@@ -29,7 +29,6 @@ NipoPlusの料金はクレジットカード払いになります。決済代行
 それでもなお、請求書による支払いを希望される場合は[請求書払いのページ](/price/invoice/)を御覧ください。（クレジットカードに比べて割高になります）
 また請求書払いの際は事務負担軽減のため1年間の一括払いをお願いしております。詳しくは[お問い合わせ](/system/inquery/)ください。
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

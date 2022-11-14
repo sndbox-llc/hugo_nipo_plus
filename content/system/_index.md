@@ -15,7 +15,6 @@ NipoPlusはクラウド型の日報・チェックシート管理システムで
 
 その他、NipoPlusを使用するに必要なPCやタブレットの性能についてや、セキュリティについてなど、NipoPlusを使う前段階での情報を主に取りまとめたセクションになります。
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

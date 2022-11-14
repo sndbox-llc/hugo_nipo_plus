@@ -20,7 +20,6 @@ Vue2時代からVueを使い始めてまもなくVue歴5年程度になる私が
 NipoPlusのマニュアルではないよ。NipoPlusを作るときに気になったことを書いてくよ
 {{</alice>}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

@@ -137,7 +137,6 @@ AndroidやiOSをお使いであれば、それぞれにNipo専用のアプリも
 
 {{<button  "/old/system/price/" "料金について">}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

@@ -13,8 +13,6 @@ weight = 13
 シンプルな日報のみを使う場合は設定する必要のない項目がまとまっていますが、うまく活用することでより便利な管理ができるようにもなります。
 これらの設定はあとからでも行えるため、NipoPlusを使っていき不便を感じたときに設定をしてみるのも良いでしょう。
 
+## 記事一覧
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+{{% children description="true" containerstyle="dl" style="dt" %}}

@@ -64,20 +64,6 @@ a:hover {
     font-weight: bold;
   }
 }
-/*
-#chapter {
-  h1 {
-    color: white;
-    background-color: $baseColor;
-    padding: 10px;
-  }
-  h2 {
-    color: $accentColor;
-    font-weight: 600;
-  }
-}
-*/
-
 .baseBtn {
   background-color: $baseColor;
   padding: 5px 10px;
@@ -149,5 +135,11 @@ a:hover {
 
   ul {
     list-style-type: none;
+  }
+}
+
+.tocIsClose {
+  #tocArea {
+    display: none;
   }
 }

@@ -29,7 +29,6 @@ NipoPlusがスマートフォンに対応しているので、タイムカード
 オプションのお値段は10,000円です
 {{</alice>}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

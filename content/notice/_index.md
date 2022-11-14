@@ -26,7 +26,6 @@ NipoPlusが採用している通知はアプリを起動したときにしか表
 
 さて、準備はよろしいでしょうか？次のページから具体的な通知の種類、通知の確認方法などについて画面付きで解説します。
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

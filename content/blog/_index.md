@@ -13,7 +13,6 @@ weight = 9000
 こんな使い方もあるよ！ってネタ提供おまちしてます。ぜひ記事にさせてください。[お問い合わせフォーム](/system/inquery/)よりお待ちしております
 {{</alice>}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

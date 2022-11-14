@@ -39,7 +39,7 @@ reqMermaid = false
 入力フォームには「[文字入力](/org/groupsetting/template/text/)」や「[選択肢入力](/org/groupsetting/template/select/)」「[写真入力](/org/groupsetting/template/picture/)」「[署名入力](/org/groupsetting/template/sign/)」など様々な種類が用意されています。自由に設計できるので作り方によっては「チェックシート」風の日報もかんたんに作成できます。
 
 
-{{<button  "/org/groupsetting/template/" "日報のテンプレートについて詳しく見る">}}
+{{<button "/org/groupsetting/template/" "日報のテンプレートについて詳しく見る">}}
 
 ### 日報の記入漏れ・提出忘れを防ぐ
 
@@ -52,7 +52,7 @@ reqMermaid = false
 
 またそもそも提出自体を忘れているスタッフが居る場合もあるでしょう。このような場合は[提出簿](/report/read/list/)や、カレンダーなどから未提出者をかんたんに発見できます。
 
-{{<button  "/blog/leak/" "提出漏れのチェックについて詳しく見る">}}
+{{<button "/blog/leak/" "提出漏れのチェックについて詳しく見る">}}
 
 ### スマートフォン・タブレット・PCすべての機器から利用可能
 
@@ -63,8 +63,8 @@ reqMermaid = false
 
 モバイル機器の場合はSafariやGoogle Choromeなどのブラウザからアクセスする他、App StoreやGoogle Playから専用アプリをダウンロードして利用することもできます。
 
-{{<button  "/system/android/" "Androidにインストール">}}
-{{<button  "/system/ios/" "iOSにインストール">}}
+{{<button "/system/android/" "Androidにインストール">}}
+{{<button "/system/ios/" "iOSにインストール">}}
 
 ### 日報をCSV出力してエクセルで集計分析
 
@@ -72,9 +72,9 @@ reqMermaid = false
 
 {{<imgproc csv.png "チェックシートのデータをCSV出力し、spleadsheetで開いた画面" />}}
 
-{{<button  "/blog/checksheet/" "日報の集計方法について詳しく見る">}}
+{{<button "/blog/checksheet/" "日報の集計方法について詳しく見る">}}
 
-{{<button  "/blog/sales_report/" "応用集計について">}}
+{{<button "/blog/sales_report/" "応用集計について">}}
 
 CSVの出力形式も目的に応じて色々カスタマイズできます。バックアップや集計、資料として使うなど、目的に応じて最適なCSV形式を選べます。
 
@@ -88,7 +88,7 @@ CSVの出力形式も目的に応じて色々カスタマイズできます。�
 
 この他にもPDFファイルやZipファイルなど、各種ファイルを添付することも可能です。
 
-{{<button  "/blog/sign/" "日報に署名を添付する">}}
+{{<button "/blog/sign/" "日報に署名を添付する">}}
 
 ### 日報を通じたコミュニケーションや情報共有
 
@@ -117,7 +117,7 @@ NipoPlusではユーザのロックインを行いません。すべてのデー
 1ユーザ1ヶ月あたり180円で、10名〜ご利用可能です。つまり**1ヶ月あたり1,800円**〜でご利用可能です。  
 **無料お試し期間も2ヶ月間**と余裕のある期間を設定しました。無料お試し時にクレジットカードの登録は必要ありませんので、気づいたら勝手に課金されていたという心配も一切有りません。
 
-{{<button  "/price/" "料金について詳しく見る">}}
+{{<button "/price/" "料金について詳しく見る">}}
 
 ---
 
@@ -128,4 +128,4 @@ NipoPlusに興味を持っていただけましたか？[匿名アカウント](
 クイックスタートガイドでは匿名アカウントを使った方法で解説しています。  
 もし使い方にご不明な点があれば、いつでも遠慮なく[お問い合わせ](/system/inquery/)ください。
 
-{{<button  "https://nipo-plus.web.app/#/" "NipoPLusを起動する" "_blank">}}
+{{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動する" "_blank">}}

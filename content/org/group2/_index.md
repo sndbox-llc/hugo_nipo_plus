@@ -1,5 +1,4 @@
 +++
-# chapter = true
 menuTitle = "グループ応用設定"
 menuPre = "<b>1-3. </b>"
 tags = []

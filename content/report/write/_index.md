@@ -1,11 +1,11 @@
 +++
-# chapter = true
 description = ""
 menuTitle = "日報を書く"
 menuPre = "<b>2-1. </b>"
 title = "日報を書く"
 toc = false
 weight = 21
+tags = []
 +++
 
 NipoPlusを使って日報やチェックシートを書いてみましょう。使用するテンプレートを選ぶと入力フォームが画面に表示されるので設問に従って記入やマークをし、最後に提出ボタンを押すことで日報の提出ができます。

@@ -5,6 +5,7 @@ title = "日報受信ボックスについて"
 toc = false
 weight = 640
 isNipo = true
+tags = []
 +++
 
 ## 日報受信ボックスに日報やチェックシートが届きます

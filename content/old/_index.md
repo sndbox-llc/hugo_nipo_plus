@@ -1,10 +1,10 @@
 +++
-# chapter = true
 description = "旧バージョンNipoについて"
 menuTitle = "旧バージョン"
 menuPre = "<b>X</b>"
 title = "簡単！クラウド日報"
 toc = false
+tags = []
 weight = 9100
 isNipo = true
 +++

@@ -5,6 +5,7 @@ title = "日報やチェックシートを書いて提出する"
 toc = false
 weight = 500
 isNipo = true
+tags = []
 +++
 
 

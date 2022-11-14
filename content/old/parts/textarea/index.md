@@ -5,6 +5,7 @@ title = "本文入力-日報構成部品"
 toc = false
 weight = 10020
 isNipo = true
+tags = []
 +++
 
 {{<button "/org/groupsetting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}

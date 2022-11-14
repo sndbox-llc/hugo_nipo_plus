@@ -5,6 +5,7 @@ title = "日報をPDFに変換する"
 toc = false
 weight = 700
 isNipo = true
+tags = []
 +++
 
 {{<button "/report/read/pdf/" "この機能は後続のNipoPlusでもサポートされています">}}

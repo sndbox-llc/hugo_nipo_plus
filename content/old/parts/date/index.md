@@ -5,6 +5,7 @@ title = "日付"
 toc = false
 weight = 10020
 isNipo = true
+tags = []
 +++
 
 {{<button "/org/groupsetting/template/datetime/" "この機能は後続のNipoPlusでもサポートされています">}}

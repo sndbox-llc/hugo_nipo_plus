@@ -5,6 +5,7 @@ title = "チェックボックス-日報構成部品"
 toc = false
 weight = 10010
 isNipo = true
+tags = []
 +++
 
 {{<button "/org/groupsetting/template/checkbox/" "この機能は後続のNipoPlusでもサポートされています">}}

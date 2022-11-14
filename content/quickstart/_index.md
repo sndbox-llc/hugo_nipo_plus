@@ -5,6 +5,7 @@ menuTitle = "クイックスタートガイド"
 menuPre = "<b>0. </b>"
 title = "導入から初めて日報を書くまでの流れを紹介"
 toc = true
+tags = []
 weight = 1
 reqMermaid = true
 +++

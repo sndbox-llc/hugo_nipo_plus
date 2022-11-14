@@ -1,11 +1,11 @@
 +++
-# chapter = true
 description = "蓄積したチェックシートのデータを1枚のエクセルシートにまとめることができます。データ転記の労力を省略するだけでなく転記ミスや記入漏れのリスクを減らす効果があります"
 menuTitle = "集計と一括出力(CSV/PDF)"
 menuPre = "<b>2-3. </b>"
 title = "チェックシートや日報を集計する"
 toc = false
 weight = 23
+tags = []
 +++
 
 

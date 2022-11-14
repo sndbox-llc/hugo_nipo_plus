@@ -2,7 +2,7 @@
 description = "1件の日報やチェックシートをCSV形式でエクスポートします。出力形式を変更することで様々な用途に利用できる元データとして活用可能"
 menuTitle = "CSV出力（単体)"
 tags = []
-title = "表示中の日報・チェックシートをCSVに変換してエクスポート\n（CSVはExcel等で開くことができます)"
+title = "1件の日報をCSV出力する（Excel等で利用可)"
 toc = true
 weight = 30
 +++

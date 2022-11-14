@@ -50,27 +50,12 @@ NipoPlusにはどのような入力フォームがあるのかを予め知って
 
 ## 日報テンプレートの自作に使用可能な各種入力フォーム
 
-|項目|説明|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
-|---|---|:---:|:---:|:---:|:---:|
-|[テキスト入力フォーム](/org/groupsetting/template/text/)|本文や備考など通常の文字入力ができるフォームです|✗|○|○|○|
-|[選択肢入力フォーム](/org/groupsetting/template/select/)|予め回答を用意しておき、回答から1つ（[または複数](/org/groupsetting/template/select2/)）選ぶだけで入力できるフォームです。回答によって第2の回答が変わる[2層式](/org/groupsetting/template/selectcalc/)もあります|○|○|○|○|
-|[日付と時刻入力フォーム](/org/groupsetting/template/datetime/)|日付や時刻・[期間の入力](/org/groupsetting/template/datetimes/)に特化したフォームです。期間の場合は経過時間が自動で計算されます|○|○|○|○|
-|[チェックボックス入力フォーム](/org/groupsetting/template/checkbox/)|Yes/Noのように2択で回答できる場合に使える最もシンプルな入力フォームです|○|○|○|✗|
-|[範囲入力フォーム](/org/groupsetting/template/range/)|最低気温〜最高気温のように一定の幅のある値を入力する際に最適なフォームです|✗|○|○|○|
-|[署名入力フォーム](/org/groupsetting/template/sign/)|お客様や日報作成者の手書きのサインなどが必要な場合に使います。手書きのイラストも挿入できます。タッチパネル対応の端末でご利用ください|✗|✗|○|✗|
-|[写真入力フォーム](/org/groupsetting/template/picture/)|スマートフォンで撮影した写真などをそのまま日報に添付できます|✗|✗|▲|✗|
-|[ファイル入力フォーム](/org/groupsetting/template/file/)|PDFやZipファイルなどを日報に添付できます|✗|✗|✗|✗|
-|[スライダ入力フォーム](/org/groupsetting/template/step/)|つまみを動かすだけで数値の入力が可能な数値入力フォームです。上限・下限の設定が必要です|○|○|○|✗|
-|[レート入力フォーム](/org/groupsetting/template/rate/)|ネットショップなどでおなじみの★★☆☆☆のような形式で入力可能なフォームです|○|○|○|○|
-|[数値入力フォーム](/org/groupsetting/template/math/)|キーボードから直接数値を入力できるフォームです。スライダやレート入力フォームの原型とも言えるフォームです|○|○|○|○|
-|[商品入力フォーム](/org/groupsetting/template/mod/)|在庫の追跡が必要な場合に使える入力フォームです。追加、減少を追跡可能です|✗|○|○|✗|
-|[可変長入力フォーム](/org/groupsetting/template/array/)|様々な入力フォームを1つのグループにし、入力フォームの数を自由に増減できるようにする入力フォームです|ー|ー|ー|ー|
-
-これらの入力フォームをブロックのように積み重ねてタイル状に敷き詰めるだけで**会社オリジナルの日報テンプレートが簡単に作成**できます。もちろん専門のプログラミングの知識は一切必要ありません。簡単なマウス操作だけでテンプレートが作成できます。
-入力フォームの種類によっては集計が行えたりCSV出力で1枚のエクセルシートにまとめることが出来る項目もあります。
 
 {{<alice pos="right" icon="here">}}
 テンプレートは複数個作成して自由に切り替えて使用できます。例えば「日報」と「月報」のようにね
 {{</alice>}}
+
+
+{{% children description="true" containerstyle="dl" style="dt" %}}
 
 さて準備はよろしいでしょうか？[次のページ](/org/groupsetting/template/make/)から実際に日報テンプレートを作成する具体的な手順について解説していきます。

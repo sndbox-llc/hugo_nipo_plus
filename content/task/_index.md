@@ -18,6 +18,6 @@ weight = 30
 予定と実績、こんな管理も悪くないですね
 {{</alice>}}
 
-## 記事一覧
+## 次の記事
 
 {{% children description="true" containerstyle="dl" style="dt" %}}

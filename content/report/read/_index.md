@@ -22,6 +22,6 @@ weight = 22
 1件1件の日報・チェックシートを表示する手順について解説しています。複数の日報やチェックシートをまとめて集計する場合は[集計のセクション](/report/totalling/)を参照してください。  
 {{</alice>}}
 
-## 記事一覧
+## 次の記事
 
 {{% children description="true" containerstyle="dl" style="dt" %}}

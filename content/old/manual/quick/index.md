@@ -24,7 +24,7 @@ tags = []
 
 まずはNipoを起動するところからです。下のボタンをクリックしてNipoを起動しましょう
 
-{{<button  "https://nipoapp.sndbox.jp/" "Nipoを起動" "_blank">}}
+{{<button "https://nipoapp.sndbox.jp/" "Nipoを起動" "_blank">}}
 
 新しいタブが追加され、Nipoが起動します。
 

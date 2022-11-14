@@ -3,7 +3,7 @@ description = "業務に添った日報・チェックシートのテンプレ�
 menuTitle = "日報テンプレート"
 title = "日報テンプレートとは"
 toc = false
-weight = 100
+weight = 30
 tags = []
 reqMermaid = true
 +++
@@ -23,7 +23,6 @@ NipoPlusではテンプレートを自由に作成することができます。
 テンプレートはグループ毎に保存され、各グループ毎に最大999種類まで保存できます。
 グループ毎にテンプレートが管理されるため、例えば製造部グループと営業部グループで異なる日報のテンプレートを用意することが可能です。
 
-<div style="overflow-x:auto">
 
 {{<mermaid align="center">}}
 graph LR;
@@ -37,7 +36,6 @@ graph LR;
   営業グループ .-> 営業報告日報:::class3
 {{< /mermaid >}}
 
-</div>
 
 {{<alice pos="right" icon="here">}}
 異なるグループで同じテンプレートを使いたい場合はテンプレートの取込機能で複製できます

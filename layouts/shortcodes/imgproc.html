@@ -13,7 +13,7 @@
 {{ $full := $img.Resize "1800x webp" }}
 
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
-  <img style="max-width: 100%; width: auto; height: auto;" src="{{ $lg.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}" 
+  <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $lg.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}" 
     srcset="
       {{ $mid.RelPermalink }} 828w,
       {{ $lg.RelPermalink }} 1200w,
@@ -22,7 +22,7 @@
     sizes="100vw"
   >
   <figcaption>
-    <i style="font-size: 13px;">
+    <i style="font-size: 13px;color: #aaa">
       {{ with .Inner }}
         {{ . }}
       {{ else }}

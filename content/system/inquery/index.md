@@ -33,10 +33,10 @@ weight = 900
     <q-option-group v-model="version" :options="option" inline></q-option-group>
     <div style="max-width:200px">
       <div v-if="version === 'nipo'">
-        <img src="/images/nipologo.png" style="width:200px" />
+        <img loading="lazy" src="/images/nipologo.png" style="width:200px" width="200" height="200" />
       </div>
       <div v-else-if="version === 'nipoPlus'">
-        <img src="/images/app-icon.png" style="width:200px" />
+        <img loading="lazy" src="/images/app-icon.png" style="width:200px"　width="200" height="200" />
       </div>
     </div>
     <q-btn color="primary" size="lg" label="送信" @click="submit" :disable="!checkOk"></q-btn>

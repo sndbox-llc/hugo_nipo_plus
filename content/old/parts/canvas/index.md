@@ -5,6 +5,7 @@ title = "手書きメモを日報に含める"
 toc = false
 weight = 10000
 isNipo = true
+tags = []
 +++
 
 {{<button "/org/groupsetting/template/sign/" "この機能は後続のNipoPlusでもサポートされています">}}

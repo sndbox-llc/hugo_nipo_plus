@@ -1,5 +1,4 @@
 +++
-# chapter = true
 description = "NipoPlusを利用する前に初期設定を済ませておきましょう。日報テンプレートの作成や一緒に使用するスタッフアカウントの用意、必要に応じてグループ分けなどを行います"
 menuTitle = "初期設定"
 menuPre = "<b>1. </b>"
@@ -7,7 +6,7 @@ title = "初期設定を行う"
 toc = false
 reqMermaid = true
 weight = 10
-# aliases = ["/hoge/"]
+tags = []
 +++
 
 初期設定とは例えばグループを作成したり、[スタッフアカウントを追加](/org/staff/make/)したり、日報・チェックシートの[テンプレートを作成する](/org/groupsetting/template/make/)といった作業です。

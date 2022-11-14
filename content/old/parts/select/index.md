@@ -5,6 +5,7 @@ title = "選択肢-日報構成部品"
 toc = false
 weight = 10020
 isNipo = true
+tags = []
 +++
 
 {{<button "/org/groupsetting/template/select/" "この機能は後続のNipoPlusでもサポートされています">}}

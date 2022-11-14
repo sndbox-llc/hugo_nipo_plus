@@ -4,6 +4,7 @@ description = "日報テンプレート自作可能。会社独自の日報を�
 menuTitle = "Home"
 title = "日報アプリ NipoPlus"
 toc = false
+tags = []
 reqMermaid = false
 +++
 

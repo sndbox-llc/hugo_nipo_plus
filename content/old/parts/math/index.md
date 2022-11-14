@@ -5,6 +5,7 @@ title = "数値-日報構成部品"
 toc = false
 weight = 10030
 isNipo = true
+tags = []
 +++
 
 {{<button "/org/groupsetting/template/math/" "この機能は後続のNipoPlusでもサポートされています">}}

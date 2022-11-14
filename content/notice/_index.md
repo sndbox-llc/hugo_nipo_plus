@@ -1,10 +1,10 @@
 +++
-# chapter = true
 description = ""
 menuTitle = "通知機能について"
 menuPre = "<b>6. </b>"
 title = "あなたに関連する事柄の通知"
 toc = false
+tags = []
 weight = 60
 +++
 

@@ -5,6 +5,7 @@ title = "日報の一括削除"
 toc = false
 weight = 1300
 isNipo = true
+tags = []
 +++
 
 {{<button "/remove/reportbatch/" "この機能は後続のNipoPlusでもサポートされています">}}

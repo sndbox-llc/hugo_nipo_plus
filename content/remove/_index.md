@@ -1,10 +1,10 @@
 +++
-# chapter = true
 description = ""
 menuTitle = "削除について"
 menuPre = "<b>9. </b>"
 title = "日報やコメントなどの削除"
 toc = false
+tags = []
 weight = 90
 +++
 

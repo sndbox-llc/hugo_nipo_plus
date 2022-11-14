@@ -4,6 +4,7 @@ menuTitle = "HHKBキーボード"
 title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
 toc = true
 weight = 10
+tags = []
 +++
 
 {{<imgproc hhkb.jpg "HHKB外観" />}}

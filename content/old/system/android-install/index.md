@@ -5,6 +5,7 @@ title = "androidにNipoをインストールする"
 toc = false
 weight = 300
 isNipo = true
+tags = []
 +++
 
 AndroidやiOSでNipoを利用するには、2種類の方法が用意されています。このページは**Android向けのガイド**になります。[iPhone/iPadの方はこちら](/old/system/ios-install/)をどうぞ

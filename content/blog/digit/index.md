@@ -2,6 +2,7 @@
 title = "日報をシステム化するメリットとコスト"
 menuTitle = "日報をシステム化するメリットとコスト"
 # description: "usecase"
+tags = []
 weight = 20221024
 draft = true
 +++

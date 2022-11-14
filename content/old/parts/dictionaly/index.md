@@ -5,6 +5,7 @@ title = "語録入力-日報構成部品"
 toc = false
 weight = 10030
 isNipo = true
+tags = []
 +++
 
 {{<button "/org/group2/goroku/" "この機能は後続のNipoPlusでもサポートされています">}}

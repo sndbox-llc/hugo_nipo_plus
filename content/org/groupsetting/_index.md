@@ -49,7 +49,6 @@ graph LR;
 複数のグループに所属している場合は「グループ切替」ボタンから**設定したいグループへ切り替えるのを忘れずに**！
 {{</alice>}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

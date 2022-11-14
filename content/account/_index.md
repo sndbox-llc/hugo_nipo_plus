@@ -22,7 +22,6 @@ weight = 70
 パスワードは大切に管理してください
 {{</alice>}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

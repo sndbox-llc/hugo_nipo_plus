@@ -60,7 +60,6 @@ NipoPlusを使って作成されたチェックシートや日報は最初から
 CSVはデータのバックアップや機関システムへの入力にも使えるよ
 {{</alice>}}
 -->
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

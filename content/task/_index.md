@@ -18,7 +18,6 @@ weight = 30
 予定と実績、こんな管理も悪くないですね
 {{</alice>}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

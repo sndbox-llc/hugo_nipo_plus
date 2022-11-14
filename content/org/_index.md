@@ -59,7 +59,6 @@ graph LR;
 組織全体の設定は基本的に最初に触れるだけで日常業務ではほとんど操作しません
 {{</alice>}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

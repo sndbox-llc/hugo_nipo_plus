@@ -26,7 +26,6 @@ NipoPlusの主要な機能は**日報・チェックシートの作成・管理�
 日報もチェックシートも**決まった様式に従って記入するという意味で同じ**ものです。日誌やチェックリストも同じです
 {{</alice>}}
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

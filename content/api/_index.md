@@ -18,7 +18,6 @@ NipoPlusを起動しなくでも日報のデータを取得できるので、例
 2022年10月にWeb API Version 0が公開されました。Version 0は当面の間無償で公開されますが、Version1からAPI機能は有料オプションとして提供される予定です。
 費用は1企業単位で1ヶ月800円〜1000円、または売り切りでの販売を予定しています。（人数は関係ありません）
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

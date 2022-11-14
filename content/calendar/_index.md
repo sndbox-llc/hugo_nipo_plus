@@ -25,7 +25,6 @@ NipoPlusが提供するカレンダーは一般的な月間カレンダーでは
 みやすさを重視するか、機能を重視するかはその時時で変わります。カレンダーはカレンダーの良さがあるためNipoPlusでも採用されています。
 用途によって適切に使い分けてください。
 
-<aside id="childrenList">
-<h2>記事一覧</h2>
-{{% children  %}}
-</aside>
+## 記事一覧
+
+{{% children description="true" containerstyle="dl" style="dt" %}}

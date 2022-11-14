@@ -1,6 +1,6 @@
 +++
 description = ""
-menuTitle = "範囲入力フォーム"
+menuTitle = "範囲入力"
 tags = []
 title = "範囲入力フォーム"
 toc = true

@@ -13,8 +13,9 @@
         {{end}}
         </div>
         {{- if not .Site.Params.disableSearch }}
-{{ partial "search.html" . }}
+          {{ partial "search.html" . }}
         {{- end }}
+        {{ partial "mySearch.html" . }}
       </div>
       {{- if not .Site.Params.disableLandingPageButton }}
       <div id="homelinks" class="default-animation">

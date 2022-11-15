@@ -2,7 +2,7 @@
 description = "NipoPlusは数多くのソフトウェアの助力を得て作られています。普段は表舞台に出ることのない縁の下の力持ちなソフトたちの協力がなければNipoPlusは存在できませんでした。感謝します。"
 menuTitle = "謝辞"
 tags = []
-title = "謝辞"
+title = "Special Thanks"
 toc = true
 weight = 110
 +++
@@ -18,7 +18,7 @@ weight = 110
 |名称|用途|
 |---|---|
 |[Hugo](https://gohugo.io/)|現在ご覧頂いているホームページ作成ジェネレータです|
-|[Hugo Learn](https://learn.netlify.app/en/)|このホームページのデザインテーマです|
+|[Hugo ReLearn](https://mcshelby.github.io/hugo-theme-relearn/)|このホームページのデザインテーマです|
 |[Quasar Framework](https://quasar.dev/)|NipoPlusの土台となるフレームワークです|
 |[Vue](https://jp.vuejs.org/index.html)|Quasar Frameworkの礎となるものです|
 |[Axios](https://github.com/axios/axios)|通信のやり取りをよりかんたんに行えるようにしてくれるソフトウェアです|

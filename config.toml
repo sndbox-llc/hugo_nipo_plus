@@ -116,7 +116,7 @@ url = "/tags"
 weight = 30
 
 [outputs]
-   home = [ "HTML", "JSON" ]
+   home = [ "HTML", "JSON", "RSS", "SEARCH" ]
 
 [markup]
   [markup.goldmark]

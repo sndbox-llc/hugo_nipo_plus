@@ -33,10 +33,10 @@ weight = 900
     <q-option-group v-model="version" :options="option" inline></q-option-group>
     <div style="max-width:200px">
       <div v-if="version === 'nipo'">
-        <img loading="lazy" src="/images/nipologo.png" style="width:200px" width="200" height="200" />
+        <img src="/images/nipologo.png" style="width:200px" />
       </div>
       <div v-else-if="version === 'nipoPlus'">
-        <img loading="lazy" src="/images/app-icon.png" style="width:200px"　width="200" height="200" />
+        <img src="/images/app-icon.png" style="width:200px" />
       </div>
     </div>
     <q-btn color="primary" size="lg" label="送信" @click="submit" :disable="!checkOk"></q-btn>
@@ -46,8 +46,8 @@ weight = 900
   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/quasar@2.10.2/dist/quasar.umd.prod.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/quasar@2.10.2/dist/lang/ja.umd.prod.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quasar@2.7.1/dist/quasar.umd.prod.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quasar@2.7.1/dist/lang/ja.umd.prod.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> 
 <script>

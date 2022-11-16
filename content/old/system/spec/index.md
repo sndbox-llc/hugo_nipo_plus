@@ -24,12 +24,12 @@ tags = []
   <dt>その他の捕捉</dt>
   <dd>
     モニタサイズは13インチ以上を推奨
-    タッチ対応ディスプレイを搭載したPCであれば、<a href="https://nipo.sndbox.jp/manual/guide-admin/template-parts#canvas">手書き機能</a>を有効に活用できます。
-    カメラ内蔵のPCであれば画像の取り込みや<a href="https://nipo.sndbox.jp/manual/guide-admin/add-staff-account#join">QRコードスキャン</a>の機能が利用できます
+    タッチ対応ディスプレイを搭載したPCであれば、手書き機能を有効に活用できます。
+    カメラ内蔵のPCであれば画像の取り込みやQRコードスキャンの機能が利用できます
   </dd>
 </dl>
 
-Webアプリ版は最も早く最新版が<a href="https://nipo.sndbox.jp/news/nipo-update-note">リリース</a>されます。
+Webアプリ版は最も早く最新版が[リリース](/old/system/releasenote/)されます。
 Nipoのすべての機能が最も使いやすい形で提供されています。Nipoは各種バージョンがありますが、最も推奨されるものがこの「Web版Nipo」になります。Web版Nipoは以下のボタンから開始できます
 
 <a class="btn btn-pink btn-m" href="https://nipoapp.sndbox.jp/" target="_blank" rel="noopener">Nipoを起動する</a>
@@ -52,8 +52,6 @@ Nipoのすべての機能が最も使いやすい形で提供されています�
 
 Android端末をご利用の方は、<a href="#web_app">Webアプリ版</a>の他、こちらのAndroid専用アプリを利用することも可能です
 [![GATSBY_EMPTY_ALT](../../images/android-app.png)](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)
-
-*<a href="https://nipo.sndbox.jp/function/pdf">PDF出力</a>、<a href="https://nipo.sndbox.jp/function/csv_export#csv">CSV出力</a>はVersion6.0(<a href="https://www.android.com/intl/ja_jp/versions/marshmallow-6-0/" target="_blank" rel="noopener">marshmallow</a>)以上でご利用ください
 
 ---
 

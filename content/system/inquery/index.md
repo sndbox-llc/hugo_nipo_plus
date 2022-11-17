@@ -1,7 +1,6 @@
 +++
 description = "NipoPlusのお問い合わせフォームです。ご不明な点がありましたらこちらのフォームよりお問い合わせください。24時間以内に返信いたします"
 menuTitle = "お問い合わせ"
-quasar = true
 tags = []
 title = "お問い合わせ"
 toc = false
@@ -22,21 +21,7 @@ weight = 900
 <div id="thanks"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<style>
-  .loading {
-    border: 4px solid blue;
-    border-top: 4px solid #ffffff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin: auto;
-    animation: spin 2s linear infinite;
-}
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-</style>
+
 <script>
   // let mail = document.getElementById('mail')
   const form = document.getElementById('contactForm');

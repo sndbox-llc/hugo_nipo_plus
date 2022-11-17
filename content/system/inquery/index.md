@@ -8,101 +8,90 @@ toc = false
 weight = 900
 +++
 
+<div id="contactForm">
 
-<div id="q-app">
-  <div v-if="close">
-    <q-banner class="bg-secondary text-white q-my-md">
-      お問い合わせを受け付けました
-    </q-banner>
-    <q-card>
-      <q-card-section class="text-bold">ご連絡先E-mail: {{ email }}</q-card-section>
-      <q-card-section>内容: <div style="white-space: pre">{{ msg }}</div></q-card-section>
-      <q-card-section>
-      自動返信メールをご確認ください。<span class="text-negative text-bold">届いていない場合はこちらからの回答メールが送れません。</span>
-      自動返信メールが届かない場合、メールアドレスが間違えていないかご確認ください。迷惑メールフォルダに入っている可能性もありますのでご確認ください。
-      自動返信メールは通常1分以内に送られます。
-      </q-card-section>
-    </q-card>
-  </div>
-  <div v-else>
-    Nipo / NipoPlusについてご不明な点があればこちらからお問い合わせください。
-    <q-form>
-    <q-input v-model="email" label="メールアドレス"></q-input>
-    <q-input v-model="msg" label="お問い合わせ内容" type="textarea"></q-input>
-    どちらのAppに関するお問い合わせでしょう？ nipo / nipoPlusから選んでください
-    <q-option-group v-model="version" :options="option" inline></q-option-group>
-    <div style="max-width:200px">
-      <div v-if="version === 'nipo'">
-        <img src="/images/nipologo.png" style="width:200px" />
-      </div>
-      <div v-else-if="version === 'nipoPlus'">
-        <img src="/images/app-icon.png" style="width:200px" />
-      </div>
-    </div>
-    <q-btn color="primary" size="lg" label="送信" @click="submit" :disable="!checkOk"></q-btn>
-    <div v-if="!emailVerify" class="text-negative">メールアドレスの形式を確認してください</div>
-    <div>お預かりしたメールアドレスはご質問に対する返信にのみ使用します</div>
-    </q-form>
-  </div>
+  <label>Email</label><input type="email" id="mail" />
+  <label>お問い合わせ内容</label><textarea id="content"></textarea>
+  <label><input type="radio" name="targetRadio" value="Nipo">Nipo</label>
+  <label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
+  <div id="iconField"></div>
+
+  <button onclick="submit()" id="sendButton">送信</button>
+  <div id="errormessage" style="color:red"></div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/quasar@2.7.1/dist/quasar.umd.prod.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/quasar@2.7.1/dist/lang/ja.umd.prod.js"></script>
+<div id="thanks"></div>
+
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> 
+<style>
+  .loading {
+    border: 4px solid blue;
+    border-top: 4px solid #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
 <script>
-  // 問い合わせフォーム
-  const app = Vue.createApp({
-    setup () {
-      const EMAIL_REG_EXP = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/
-      const emailVerify = Vue.computed(() => { return EMAIL_REG_EXP.test(email.value) })
-      const checkOk = Vue.computed(() => {
-        if (emailVerify.value === false) return false
-        if (msg.value === '') return false
-        if (version.value === '') return false
-        return true
-      })
-      const close = Vue.ref(false)
-      const email = Vue.ref('')
-      const msg = Vue.ref('')
-      const version = Vue.ref('')
-      const option = Vue.ref([{ label: 'nipo', value: 'nipo' }, { label: 'nipoPlus', value: 'nipoPlus' }])
-      async function submit () {
-        Quasar.Loading.show()
-        const body = {
-          email: email.value,
-          text: msg.value + '\n------\n' + version.value
-        }
-        const config = {
-          method: 'POST',
-          url: 'https://us-central1-nipo-plus.cloudfunctions.net/inqueryWeb',
-          params: body
-        }
-        try {
-          const res = await axios(config)
-          console.log(res)
-          Quasar.Notify.create({ message: 'ありがとうございました', color: 'primary' })
-          close.value = true
-        } catch (e) {
-          console.error(e)
-          Quasar.Notify.create({ message: 'エラーが発生しました。時間をおいてやり直してください', color: 'negative' })
-        } finally {
-          Quasar.Loading.hide()
-        }
+  // let mail = document.getElementById('mail')
+  const form = document.getElementById('contactForm');
+  const thanks = document.getElementById('thanks');
+  const sendButton = document.getElementById('sendButton');
+  const errorMessage = document.getElementById('errormessage');
+  const checkOption = document.getElementsByName('targetRadio');
+  const iconField = document.getElementById('iconField')
+  const EMAIL_REG_EXP = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/;
+
+  checkOption.forEach(function(e) {
+    e.addEventListener("click", function() {
+      const selectNode = document.querySelector("input:checked[name=targetRadio]")
+      if (selectNode === null) return
+      let img = document.createElement('img')
+      img.src = selectNode.value === 'Nipo' ? '/images/nipologo.png' : '/images/app-icon.png'
+      img.id = 'icon'
+      img.width = 200
+      const oldimg = document.getElementById('icon')
+      if (oldimg) {
+        iconField.removeChild(oldimg)
       }
-      return {
-        option,
-        version,
-        checkOk,
-        emailVerify,
-        close,
-        submit,
-        email,
-        msg
+      iconField.appendChild(img)
+    });
+  });
+
+  async function submit () {
+    sendButton.disabled = true
+    const email = document.getElementById('mail')
+    const content = document.getElementById('content')
+    const target = document.querySelector("input:checked[name=targetRadio]")
+    try {
+      if (target === null) throw '問い合わせの製品をNipo/NipoPlusから選択してください'
+      if (EMAIL_REG_EXP.test(email.value) === false) throw 'メールアドレスが不正です'
+      if (content.value.length === 0) throw '本文が空欄です'
+    } catch (e) {
+      errorMessage.innerHTML = e
+      sendButton.disabled = false
+      return
+    }
+
+    const config = {
+      method: 'POST',
+      url: 'https://us-central1-nipo-plus.cloudfunctions.net/inqueryWeb',
+      params: {
+        email: email.value,
+        text: `${content.value}\n【${target.value}】`
       }
     }
-  })
-  app.use(Quasar)
-  Quasar.lang.set(Quasar.lang.ja)
-  app.mount('#q-app')
+    axios(config)
+
+    form.setAttribute('style', 'display:none')
+    const textNode = document.createTextNode(`お問い合わせありがとうございます。${email.value}宛に確認メールを送ります。5分経過してもメールが届かない場合は再度お問い合わせください`)
+    thanks.appendChild(textNode)
+    return
+  }
+
 </script>

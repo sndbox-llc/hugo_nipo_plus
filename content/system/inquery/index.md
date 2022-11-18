@@ -31,7 +31,7 @@ weight = 900
   const checkOption = document.getElementsByName('targetRadio');
   const iconField = document.getElementById('iconField')
   const EMAIL_REG_EXP = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/;
-
+  // ラジオボタン（Nipo/NipoPLus)のクリックイベントを監視。選ばれた方のバナーをセットする
   checkOption.forEach(function(e) {
     e.addEventListener("click", function() {
       const selectNode = document.querySelector("input:checked[name=targetRadio]")
@@ -47,7 +47,7 @@ weight = 900
       iconField.appendChild(img)
     });
   });
-
+  // メール送信処理
   async function submit () {
     sendButton.disabled = true
     const email = document.getElementById('mail')
@@ -71,6 +71,7 @@ weight = 900
         text: `${content.value}\n【${target.value}】`
       }
     }
+    // 完了を待つ必要はない
     axios(config)
 
     form.setAttribute('style', 'display:none')

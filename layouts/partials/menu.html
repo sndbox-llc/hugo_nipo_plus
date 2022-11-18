@@ -27,7 +27,8 @@
       </div>
       {{- end }}
       <div id="content-wrapper" class="highlightable">
-        <ul class="topics{{ if .Site.Params.collapsibleMenu }} collapsible-menu{{ end }}">
+        <div id="result"></div>
+        <ul id="menuTopics" class="topics{{ if .Site.Params.collapsibleMenu }} collapsible-menu{{ end }}">
           {{- $defaultOrdersectionsby := .Site.Params.ordersectionsby | default "weight" }}
           {{- $currentOrdersectionsby := .Site.Home.Params.ordersectionsby | default $defaultOrdersectionsby }}
           {{- $defaultAlwaysopen := .Site.Params.alwaysopen | default false }}

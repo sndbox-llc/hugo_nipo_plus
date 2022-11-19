@@ -1,7 +1,7 @@
 +++
 description = ""
 menuTitle = "チェックボックス入力"
-tags = []
+tags = ["集計可能な入力フォーム"]
 title = "チェックボックス入力フォーム"
 toc = true
 weight = 170

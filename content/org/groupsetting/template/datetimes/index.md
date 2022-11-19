@@ -1,7 +1,7 @@
 +++
 description = "10:00〜15:00のような期間の入力ができる入力フォームです"
 menuTitle = "期間入力"
-tags = []
+tags = ["集計可能な入力フォーム"]
 title = "期間入力フォーム"
 toc = true
 weight = 160

@@ -36,6 +36,9 @@ Note that some of these parameters are explained in details in other sections of
   # Javascript and CSS cache are automatically busted when new version of site is generated.
   # Set this to true to disable this behavior (some proxies don't handle well this optimization)
   disableAssetsBusting = false
+  # Set this to true if you want to disable generation for generator version meta tags of hugo and the theme;
+  # don't forget to also set Hugo's disableHugoGeneratorInject=true, otherwise it will generate a meta tag into your home page
+  disableGeneratorVersion = false
   # Set this to true to disable copy-to-clipboard button for inline code.
   disableInlineCopyToClipBoard = false
   # A title for shortcuts in menu is set by default. Set this to true to disable it.
@@ -125,7 +128,20 @@ If not already present, add the following lines in the same `config.toml` file.
   home = ["HTML", "RSS", "SEARCH"]
 ```
 
-This will generate a search index file at the root of your public folder ready to be consumed by the lunr.js javascript search engine.
+This will generate a search index file at the root of your public folder ready to be consumed by the lunr.js javascript search engine. Note that the `SEARCH` outputformat was named `JSON` in previous releases but was implemented differently. Although `JSON` still works, it is now deprecated.
+
+### Activate dedicated search page
+
+You can add a dedicated search page for your page by adding the `SEARCHPAGE` outputformat to your home page by adding the following lines in your `config.toml` file.
+
+```toml
+[outputs]
+  home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
+```
+
+You can access this page by either clicking on the magnifier glass or by typing some search term and pressing `ENTER` inside of the menu's search box .
+
+![Screenshot of the dedicated search page](search_page.png?&width=60pc)
 
 ## Activate print support
 

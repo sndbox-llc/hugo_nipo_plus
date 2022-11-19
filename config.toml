@@ -92,11 +92,6 @@ enableGitInfo = true
   disableExplicitIndexURLs = false
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-search'></i> 検索"
-url = "/search/"
-weight = 10
-
-[[menu.shortcuts]]
 name = "<i class='fa fa-cube'></i>リリースノート"
 url = "/system/release-note/"
 weight = 20

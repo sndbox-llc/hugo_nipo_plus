@@ -135,120 +135,92 @@ graph LR;
     C -->|Two| E[Result two]
 {{< /mermaid >}}
 
-### Sequence
+### Sequence Diagram with Configuration Directive
 
 ````go
 {{</* mermaid */>}}
+%%{init:{"fontFamily":"monospace", "sequence":{"showSequenceNumbers":true}}}%%
 sequenceDiagram
-    participant Alice
-    participant Bob
     Alice->>John: Hello John, how are you?
     loop Healthcheck
-        John->John: Fight against hypochondria
+        John->>John: Fight against hypochondria
     end
-    Note right of John: Rational thoughts <br>prevail...
-    John-->Alice: Great!
-    John->Bob: How about you?
-    Bob-->John: Jolly good!
+    Note right of John: Rational thoughts!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
 {{</* /mermaid */>}}
 ````
 
 {{< mermaid >}}
+%%{init:{"fontFamily":"monospace", "sequence":{"showSequenceNumbers":true}}}%%
 sequenceDiagram
-    participant Alice
-    participant Bob
     Alice->>John: Hello John, how are you?
     loop Healthcheck
-        John->John: Fight against hypochondria
+        John->>John: Fight against hypochondria
     end
-    Note right of John: Rational thoughts <br>prevail...
-    John-->Alice: Great!
-    John->Bob: How about you?
-    Bob-->John: Jolly good!
+    Note right of John: Rational thoughts!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
 {{< /mermaid >}}
 
-### GANTT
-
-````go
-{{</* mermaid */>}}
-gantt
-        dateFormat  YYYY-MM-DD
-        title Adding GANTT diagram functionality to Mermaid
-        section A section
-        Completed task            :done,    des1, 2014-01-06,2014-01-08
-        Active task               :active,  des2, 2014-01-09, 3d
-        Future task               :         des3, after des2, 5d
-        Future task2              :         des4, after des3, 5d
-        section Critical tasks
-        Completed task in the critical line :crit, done, 2014-01-06,24h
-        Implement parser and jison          :crit, done, after des1, 2d
-        Create tests for parser             :crit, active, 3d
-        Future task in critical line        :crit, 5d
-        Create tests for renderer           :2d
-        Add to Mermaid                      :1d
-{{</* /mermaid */>}}
-````
-
-{{< mermaid >}}
-gantt
-        dateFormat  YYYY-MM-DD
-        title Adding GANTT diagram functionality to Mermaid
-        section A section
-        Completed task            :done,    des1, 2014-01-06,2014-01-08
-        Active task               :active,  des2, 2014-01-09, 3d
-        Future task               :         des3, after des2, 5d
-        Future task2              :         des4, after des3, 5d
-        section Critical tasks
-        Completed task in the critical line :crit, done, 2014-01-06,24h
-        Implement parser and jison          :crit, done, after des1, 2d
-        Create tests for parser             :crit, active, 3d
-        Future task in critical line        :crit, 5d
-        Create tests for renderer           :2d
-        Add to Mermaid                      :1d
-{{< /mermaid >}}
-
-### Class Diagram Aligned to the Right
-
-````go
-{{</* mermaid align="right" */>}}
-classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-{{</* /mermaid */>}}
-````
-
-{{< mermaid align="right" >}}
-classDiagram
-  Class01 <|-- AveryLongClass : Cool
-  Class03 *-- Class04
-  Class05 o-- Class06
-  Class07 .. Class08
-  Class09 --> C2 : Where am i?
-  Class09 --* C3
-  Class09 --|> Class07
-  Class07 : equals()
-  Class07 : Object[] elementData
-  Class01 : size()
-  Class01 : int chimp
-  Class01 : int gorilla
-  Class08 <--> C2: Cool label
-{{< /mermaid >}}
-
-### State Diagram with Codefence Syntax
+### Class Diagram with Codefence Syntax
 
 ````go
 ```mermaid
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+```
+````
+
+````mermaid
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+````
+
+### State Diagram Aligned to the Right
+
+````go
+{{</* mermaid align="right" */>}}
 stateDiagram-v2
     open: Open Door
     closed: Closed Door
@@ -257,10 +229,10 @@ stateDiagram-v2
     closed --> locked: Lock
     locked --> closed: Unlock
     closed --> open: Open
-```
+{{</* /mermaid */>}}
 ````
 
-````mermaid
+{{< mermaid align="right" >}}
 stateDiagram-v2
   open: Open Door
   closed: Closed Door
@@ -269,4 +241,330 @@ stateDiagram-v2
   closed --> locked: Lock
   locked --> closed: Unlock
   closed --> open: Open
+{{< /mermaid >}}
+
+### Entity Relationship Model
+
+````go
+{{</* mermaid */>}}
+erDiagram
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER ||--o{ INVOICE : "liable for"
+    DELIVERY-ADDRESS ||--o{ ORDER : receives
+    INVOICE ||--|{ ORDER : covers
+    ORDER ||--|{ ORDER-ITEM : includes
+    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+{{</* /mermaid */>}}
 ````
+
+{{< mermaid >}}
+erDiagram
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER ||--o{ INVOICE : "liable for"
+    DELIVERY-ADDRESS ||--o{ ORDER : receives
+    INVOICE ||--|{ ORDER : covers
+    ORDER ||--|{ ORDER-ITEM : includes
+    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+{{< /mermaid >}}
+
+### User Journey
+
+````go
+{{</* mermaid */>}}
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 3: Me
+{{</* /mermaid */>}}
+````
+
+{{< mermaid >}}
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 3: Me
+{{< /mermaid >}}
+
+### GANTT Chart
+
+````go
+{{</* mermaid */>}}
+gantt
+        dateFormat  YYYY-MM-DD
+        title Adding GANTT diagram functionality to Mermaid
+        section A section
+        Completed task            :done,    des1, 2014-01-06,2014-01-08
+        Active task               :active,  des2, 2014-01-09, 3d
+        Future task               :         des3, after des2, 5d
+        Future task2              :         des4, after des3, 5d
+        section Critical tasks
+        Completed task in the critical line :crit, done, 2014-01-06,24h
+        Implement parser and jison          :crit, done, after des1, 2d
+        Create tests for parser             :crit, active, 3d
+        Future task in critical line        :crit, 5d
+        Create tests for renderer           :2d
+        Add to Mermaid                      :1d
+{{</* /mermaid */>}}
+````
+
+{{< mermaid >}}
+gantt
+        dateFormat  YYYY-MM-DD
+        title Adding GANTT diagram functionality to Mermaid
+        section A section
+        Completed task            :done,    des1, 2014-01-06,2014-01-08
+        Active task               :active,  des2, 2014-01-09, 3d
+        Future task               :         des3, after des2, 5d
+        Future task2              :         des4, after des3, 5d
+        section Critical tasks
+        Completed task in the critical line :crit, done, 2014-01-06,24h
+        Implement parser and jison          :crit, done, after des1, 2d
+        Create tests for parser             :crit, active, 3d
+        Future task in critical line        :crit, 5d
+        Create tests for renderer           :2d
+        Add to Mermaid                      :1d
+{{< /mermaid >}}
+
+### Pie Chart
+
+````go
+{{</* mermaid */>}}
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+{{</* /mermaid */>}}
+````
+
+{{< mermaid >}}
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+{{< /mermaid >}}
+
+### Requirement Diagram
+
+````go
+{{</* mermaid */>}}
+    requirementDiagram
+
+    requirement test_req {
+    id: 1
+    text: the test text.
+    risk: high
+    verifymethod: test
+    }
+
+    element test_entity {
+    type: simulation
+    }
+
+    test_entity - satisfies -> test_req
+{{</* /mermaid */>}}
+````
+
+{{< mermaid >}}
+    requirementDiagram
+
+    requirement test_req {
+    id: 1
+    text: the test text.
+    risk: high
+    verifymethod: test
+    }
+
+    element test_entity {
+    type: simulation
+    }
+
+    test_entity - satisfies -> test_req
+{{< /mermaid >}}
+
+### Git Graph
+
+````go
+{{</* mermaid */>}}
+gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit
+{{</* /mermaid */>}}
+````
+
+{{< mermaid >}}
+gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit
+{{< /mermaid >}}
+
+### C4 Diagrams
+
+````go
+{{</* mermaid */>}}
+C4Context
+    title System Context diagram for Internet Banking System
+    Enterprise_Boundary(b0, "BankBoundary0") {
+    Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+    Person(customerB, "Banking Customer B")
+    Person_Ext(customerC, "Banking Customer C", "desc")
+
+    Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
+    System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+    Enterprise_Boundary(b1, "BankBoundary") {
+
+        SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+        System_Boundary(b2, "BankBoundary2") {
+        System(SystemA, "Banking System A")
+        System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts. next line.")
+        }
+
+        System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+        SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+
+        Boundary(b3, "BankBoundary3", "boundary") {
+        SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
+        SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+        }
+    }
+    }
+
+    BiRel(customerA, SystemAA, "Uses")
+    BiRel(SystemAA, SystemE, "Uses")
+    Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+    Rel(SystemC, customerA, "Sends e-mails to")
+
+    UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
+    UpdateRelStyle(customerA, SystemAA, $textColor="blue", $lineColor="blue", $offsetX="5")
+    UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+    UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
+    UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+
+    UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
+{{</* /mermaid */>}}
+````
+
+{{< mermaid >}}
+C4Context
+    title System Context diagram for Internet Banking System
+    Enterprise_Boundary(b0, "BankBoundary0") {
+    Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+    Person(customerB, "Banking Customer B")
+    Person_Ext(customerC, "Banking Customer C", "desc")
+
+    Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
+    System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+    Enterprise_Boundary(b1, "BankBoundary") {
+
+        SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+        System_Boundary(b2, "BankBoundary2") {
+        System(SystemA, "Banking System A")
+        System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts. next line.")
+        }
+
+        System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+        SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+
+        Boundary(b3, "BankBoundary3", "boundary") {
+        SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
+        SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+        }
+    }
+    }
+
+    BiRel(customerA, SystemAA, "Uses")
+    BiRel(SystemAA, SystemE, "Uses")
+    Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+    Rel(SystemC, customerA, "Sends e-mails to")
+
+    UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
+    UpdateRelStyle(customerA, SystemAA, $textColor="blue", $lineColor="blue", $offsetX="5")
+    UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+    UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
+    UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+
+    UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
+{{< /mermaid >}}
+
+### Mindmap
+
+{{% notice note %}}
+As of Mermaid version 9.2.2 this diagram type is not included in the official distribution and will not be useable in this theme.
+{{% /notice %}}
+
+````go
+{{</* mermaid */>}}
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectivness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+{{</* /mermaid */>}}
+````
+
+{{< mermaid >}}
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectivness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+{{< /mermaid >}}

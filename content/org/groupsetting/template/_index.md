@@ -59,4 +59,6 @@ graph LR;
 
 {{% children description="true" containerstyle="dl" style="dt" %}}
 
-さて準備はよろしいでしょうか？[次のページ](/org/groupsetting/template/make/)から実際に日報テンプレートを作成する具体的な手順について解説していきます。
+さて準備はよろしいでしょうか？次のページから実際に日報テンプレートを作成する具体的な手順について解説していきます。
+
+{{<button "/org/groupsetting/template/make/" "テンプレート作成へ進む">}}

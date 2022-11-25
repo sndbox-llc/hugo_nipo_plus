@@ -15,6 +15,7 @@
     {{ if eq .Params.quasar true }}
     <link href="https://cdn.jsdelivr.net/npm/quasar@2.7.1/dist/quasar.prod.css" rel="stylesheet" type="text/css">
     {{ end }}
+    <link rel="canonical" href="{{ .Permalink }}index.html" />
 
   
     {{- partial "meta.html" . }}

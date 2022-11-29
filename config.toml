@@ -92,22 +92,20 @@ enableGitInfo = true
   disableExplicitIndexURLs = false
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-cube'></i>リリースノート"
+name = "<i class='fa fa-cube'></i>更新履歴"
 url = "/system/release-note/"
 weight = 20
 
-[[menu.shortcuts]]
-name = "<i class='fa fa-cube'></i>旧Nipoとの違い"
-url = "/system/about/"
-weight = 21
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-envelope'></i> お問い合わせ"
 url = "/system/inquery"
-weight = 30
+weight = 40
+
+
 [[menu.shortcuts]]
-name = "<i class='fas fa-tags'></i> Tags"
-url = "/tags"
+name = "<i class='fab fa-twitter'></i> Twitter"
+url = "https://twitter.com/nipo_plus"
 weight = 30
 
 [outputs]

@@ -4,7 +4,6 @@ tags = []
 title = "商品状態管理"
 toc = true
 weight = 2000
-aliases = ["/org/groupsetting/point/"]
 +++
 
 ## 商品状態管理の目的

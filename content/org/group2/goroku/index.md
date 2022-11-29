@@ -4,7 +4,6 @@ tags = []
 title = "語録管理"
 toc = true
 weight = 50
-aliases = ["/org/groupsetting/goroku/"]
 +++
 
 ## テンプレートフォームの選択肢と組み合わせて使用

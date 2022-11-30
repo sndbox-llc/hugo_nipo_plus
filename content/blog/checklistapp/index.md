@@ -74,7 +74,7 @@ NipoPlusでは[全てのデータをかんたんにダウンロード](/report/t
 NipoPlusはローコストで利用できます。転記にかかる人件費よりもずっと安上がりです。
 
 {{<alice pos="right" icon="ok">}}
-一応お伝えしておくと、NipoPlus自体にも[集計機能](/report/totalling/transition/)があります
+一応お伝えしておくと、NipoPlus自体にも[集計機能](/report/analytics/transition/)があります
 {{</alice>}}
 
 ### 5Sチェックシートも品質管理シートも。複数種類のチェックシートをこれ1つで管理

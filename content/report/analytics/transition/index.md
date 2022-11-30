@@ -5,6 +5,7 @@ tags = []
 title = "チェックシートデータ集計"
 toc = true
 weight = 50
+aliases = ['/report/totalling/transition/']
 +++
 
 蓄積したチェックシートや日報データを集計し、一覧表で表示する機能があります。チェックシート等を集計するには以下の手順に沿って操作します

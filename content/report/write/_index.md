@@ -4,7 +4,7 @@ menuTitle = "日報を書く"
 menuPre = "<b>2-1. </b>"
 title = "日報を書く"
 toc = false
-weight = 21
+weight = 10
 tags = []
 +++
 

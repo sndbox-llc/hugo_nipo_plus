@@ -29,7 +29,7 @@ enableGitInfo = true
   # Description of the site, will be used in meta information
   description = "日報業務を効率Upできます。テンプレートを自分たちで簡単に作成できるので業務に適した報告書も思いのまま。集計やPDF出力、スマホも対応"
   # Shows a checkmark for visited pages on the menu
-  showVisitedLinks = true
+  showVisitedLinks = false
   # Disable search function. It will hide search bar
   disableSearch = true
   # Disable search in hidden pages, otherwise they will be shown in search box

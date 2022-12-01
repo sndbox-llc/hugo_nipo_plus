@@ -1,5 +1,68 @@
 # Changelog
 
+## 5.7.0 (2022-11-29)
+
+### Enhancements
+
+- [**feature**] button: refactor for a11y [#372](https://github.com/McShelby/hugo-theme-relearn/issues/372)
+
+### Fixes
+
+- [**bug**] search: don't freeze browser on long search terms [#408](https://github.com/McShelby/hugo-theme-relearn/issues/408)
+- [**bug**] search: fix searchbox placeholder color in FF and IE [#405](https://github.com/McShelby/hugo-theme-relearn/issues/405)
+- [**bug**][**change**] i18n: rename Korean translation from country to lang code [#404](https://github.com/McShelby/hugo-theme-relearn/issues/404)
+
+### Maintenance
+
+- [**task**] search: update lunr languages to 1.10.0 [#403](https://github.com/McShelby/hugo-theme-relearn/issues/403)
+
+---
+
+## 5.6.6 (2022-11-23)
+
+### Enhancements
+
+- [**feature**] search: make build and js forgiving against config errors [#400](https://github.com/McShelby/hugo-theme-relearn/issues/400)
+
+### Fixes
+
+- [**bug**] variant: minor color adjustments [#402](https://github.com/McShelby/hugo-theme-relearn/issues/402)
+- [**bug**] variant: fix generator for use of neon [#401](https://github.com/McShelby/hugo-theme-relearn/issues/401)
+
+---
+
+## 5.6.5 (2022-11-19)
+
+### Fixes
+
+- [**bug**] menu: relax usage of background color [#399](https://github.com/McShelby/hugo-theme-relearn/issues/399)
+
+---
+
+## 5.6.4 (2022-11-19)
+
+### Fixes
+
+- [**bug**] theme: make alias pages usable by file:// protocol [#398](https://github.com/McShelby/hugo-theme-relearn/issues/398)
+
+---
+
+## 5.6.3 (2022-11-19)
+
+### Fixes
+
+- [**bug**] theme: be compatible with Hugo >= 0.95.0 [#397](https://github.com/McShelby/hugo-theme-relearn/issues/397)
+
+---
+
+## 5.6.2 (2022-11-19)
+
+### Fixes
+
+- [**bug**] theme: build breaks sites without "output" section in config [#396](https://github.com/McShelby/hugo-theme-relearn/issues/396)
+
+---
+
 ## 5.6.1 (2022-11-19)
 
 ### Fixes

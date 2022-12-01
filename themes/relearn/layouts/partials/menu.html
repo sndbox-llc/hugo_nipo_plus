@@ -4,7 +4,7 @@
     {{- $outputFormat := partial "output-format.hugo" (dict "page" . "format" $format) }}
     {{- $basename := "index" }}
     {{- if ne $outputFormat "html" }}
-      {{- $basename = path.BaseName $format.RelPermalink }}
+      {{- $basename = partial "BaseName.hugo" $format.RelPermalink }}
     {{- end }}
     <aside id="sidebar" class="default-animation{{ if $showvisitedlinks }} showVisitedLinks{{ end }}" dir="ltr">
       {{- $currentNode := . }}
@@ -19,9 +19,7 @@
       {{- if not .Site.Params.disableLandingPageButton }}
       <div id="homelinks" class="default-animation">
         <ul>
-          <li>
-              <a class="padding" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .Site.Home) }}">{{ .Site.Params.landingPageName | default `<i class="fas fa-home"></i> Home` | safeHTML }}</a>
-          </li>
+          <li><a class="padding" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .Site.Home) }}">{{ .Site.Params.landingPageName | default `<i class="fas fa-home"></i> Home` | safeHTML }}</a></li>
         </ul>
       </div>
       {{- end }}

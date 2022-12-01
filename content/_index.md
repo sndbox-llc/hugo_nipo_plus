@@ -87,6 +87,8 @@ reqMermaid = false
 
 本機能はVersion1.20.0から利用可能になります。リリースまで今少しお待ち下さい。
 
+{{<button "/report/analytics/chart/" "グラフについて詳しく見る">}}
+
 
 ### カレンダー上に日報を表示して全体を俯瞰
 

@@ -85,7 +85,6 @@ reqMermaid = false
 
 {{<imgproc charts.png "日報のデータをもとにグラフを動的に生成可能（円グラフ・棒グラフ・折れ線グラフ・レーダーチャートに対応）" />}}
 
-本機能はVersion1.20.0から利用可能になります。リリースまで今少しお待ち下さい。
 
 {{<button "/report/analytics/chart/" "グラフについて詳しく見る">}}
 

@@ -76,7 +76,7 @@ reqMermaid = false
 
 詳細が確認したいときは日付のボタンをクリックすることで対象に日報をポップアップで手軽に確認できます。
 
-{{<button "/report/read/analytics/" "過去データ推移について詳しく見る">}}
+{{<button "/report/analytics/list/" "過去データ推移について詳しく見る">}}
 
 ### 日報のデータをその場でグラフ化
 

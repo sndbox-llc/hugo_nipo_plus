@@ -35,6 +35,15 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2022/12/12 Version 1.22.1
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
+- バナー表示機能が追加されました。「グループ設定」から設定できます
+- 特定の条件で休憩時間の入力フォームが表示されないバグを修正しました
+
 ### 2022/12/10 Version 1.21.2
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}

@@ -2,7 +2,7 @@
 description = "CapacitorでAndroid API Lv31に対応する（Quasar Frameworkを使用)"
 menuTitle = "Quasar&Capacitor4"
 tags = []
-title = "QuasarとCapacitor4を利用してAPI Level31以上のAABファイルを作成する"
+title = "Android API Level31以上に対応する（QuasarとCapacitor4を利用）"
 toc = true
 weight = -20221209
 +++

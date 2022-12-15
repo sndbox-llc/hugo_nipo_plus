@@ -5,7 +5,7 @@ tags = []
 title = "日報の過去データの推移や累積を見る"
 toc = true
 weight = 11
-aliases = ['/report/read/analytics/']
+# aliases = ['/report/read/analytics/']
 +++
 
 {{<imgproc history.png "同じテンプレートで作成された過去のチェックシートのデータをひと目で確認できます。最大で直近30件までのデータが表示可能です" />}}

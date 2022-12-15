@@ -76,7 +76,7 @@ Typesenseでは数値フィールドであれば自由にソートできる点�
 
 3つのデータベースの中では最もとっつきにくいですが、最も優秀でした。
 日本語の全文検索制度を語る上で外すことのできないN-gramや形態素解析といった機能がプラグインとして予め用意されています。  
-[日本語の検索を実装するガイド](https://www.elastic.co/jp/blog/how-to-implement-japanese-full-text-search-in-elasticsearch)が非常に参考になります。  
+[日本語の検索を実装するガイド](https://www.elastic.co/jp/blog/how-to-implement-japanese-full-text-search-in-elasticsearch/)が非常に参考になります。  
 クエリもかなり優秀ですし、文字列によるソート、数値によるソートも完全に対応しています。  
 非常に面白いと思ったのが、1つのフィールドに2つ以上のデータをもたせることができるという仕組みでした。  
 例えば nameというフィールドに、 name.keywordとname.ngramの2つのフィールドを作ると言ったことができます。  

@@ -7,7 +7,7 @@ toc = true
 +++
 
   
-この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/fulltext)を書きました。
+この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/fulltext/)を書きました。
 
 ## AlgoliaからTypeSenseへ切替は可能か？
 

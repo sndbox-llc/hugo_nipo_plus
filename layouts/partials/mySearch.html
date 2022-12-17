@@ -10,7 +10,6 @@
   function init () { while(result.firstChild) { result.removeChild(result.lastChild) } }
     // クリアボタン押下.検索のリセット
     function remove () {
-      console.log('クリアボタン')
       const word = document.getElementById('word')
       word.value = ''
       const sideMenu = document.getElementById('menuTopics')
@@ -45,20 +44,20 @@
         return
       }
   
-      console.log(sideMenu)
       sideMenu.setAttribute('style', 'display:none')
       clearBtn.setAttribute('style', 'display:inline')
   
       const res = index.filter(i => {
         const tmp = `${i.title} ${i.content}`.toLowerCase()
-        const kata2Hira = (src) => {
+        const kana2Hira = (src) => {
           return src.replace(/[\u30a1-\u30f6]/g, function(match) {
             const chr = match.charCodeAt(0) - 0x60;
             return String.fromCharCode(chr);
           })
         }
-        const contentAll = kata2Hira(tmp)
-        return contentAll.match(searchWord)
+        const searchWordHira = kana2Hira(searchWord)
+        const contentAll = kana2Hira(tmp)
+        return contentAll.match(searchWordHira)
       })
       if (res.length === 0) {
         dataNotFound.setAttribute('style', 'display:block')

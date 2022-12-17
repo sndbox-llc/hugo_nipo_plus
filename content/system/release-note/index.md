@@ -32,6 +32,13 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2022/12/17 Version 1.23.1
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+
+- カレンダーが「月間」モードではじまるとき、正しい期間の取得がされないバグを修正しました
+- 日報テンプレートの作成画面を一部変更しました
+
 ### 2022/12/14 Version 1.23.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}

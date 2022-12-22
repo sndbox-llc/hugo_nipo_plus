@@ -12,7 +12,7 @@
 {{ $full := $img.Resize "1920x webp" }}
 
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
-  <a href="{{ $full.RelPermalink }}" data-featherlight="image">
+  <a href="{{ $img.RelPermalink }}" data-featherlight="image">
   <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}"  srcset="{{ $mid.RelPermalink }} 1024w, {{ $lg.RelPermalink }} 1280w, {{ $full.RelPermalink }} 1920w" sizes="100vw">
   </a>
   <figcaption>

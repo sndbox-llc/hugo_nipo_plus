@@ -29,7 +29,7 @@ NipoPlusでスマートな日報業務をはじめてみませんか？
 左から「日報の作成」「提出された日報を表示」「日報のデータ集計」です。
 {{</alice>}}
 
-{{<imgproc mobile.png "日報アプリNipoPlusをスマートフォンで表示した画面を3つ例示しています" />}}
+{{<imgproc app-screen-mobile-phone.png "日報アプリNipoPlusをスマートフォンで表示した画面を3つ例示しています" />}}
 
 キーボードやマウスが無いスマートフォンは、操作の感覚もPCと比べて全然違います。そのためスマートフォンでもかんたんに日報を作成できる仕組みがたくさん用意されています。  
 例えば一覧から選択するだけで入力できる[選択肢項目](/org/groupsetting/template/select/)や、シングルタップで入力できる[チェックボックス](/org/groupsetting/template/checkbox/)など、スマートフォンと相性の良いパーツを使って[日報テンプレートを作って](/org/groupsetting/template/make/)みましょう。
@@ -61,7 +61,7 @@ NipoPlusでスマートな日報業務をはじめてみませんか？
 
 たとえば、スマートフォンとタブレットではこんなに大きな差が生まれます
 
-{{<imgproc tablet.png "スマホとタブレットで同じ日報を表示したときの違い" />}}
+{{<imgproc tablet-phone.png "スマホとタブレットで同じ日報を表示したときの違い" />}}
 
 {{<alice pos="right" icon="here">}}
 上の図は同じ日報を表示しています。

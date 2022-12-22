@@ -28,7 +28,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 [iPhone/iPadにPWA版としてインストール](/system/ios/)した場合もこの手順で更新されます。
 [AndroidにPWA版としてインストール](/system/android/)した場合もこの手順で更新されます。
 
-{{<imgproc update.png "最新バージョンのインストールが終わるとポップアップで通知が表示されます" />}}
+{{<imgproc update-message.png "最新バージョンのインストールが終わるとポップアップで通知が表示されます" />}}
 
 ## リリースノート
 

@@ -1,7 +1,7 @@
 +++
 description = "Nipoの新しいバージョンが公開されるたびにこのページでご案内します。Android/iOS/Web版それぞれで最新のバージョンが異なる場合があります。最も早く更新されるWeb版の利用を推奨しております"
-menuTitle = "リリースノート"
-title = "リリースノート"
+menuTitle = "旧Nipoリリースノート"
+title = "リリースノート（旧Nipo)"
 toc = false
 weight = 700
 isNipo = true

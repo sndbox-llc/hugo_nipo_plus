@@ -32,6 +32,23 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2022/12/23 Version 1.24.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
+※iOS版は審査待ち。年末のため審査期間が長くなります
+
+今回のアップデートは管理者に関する機能がメインです。
+
+- 管理者の権限でスタッフのログインパスワードを変更できるようになりました
+- 管理者の権限でスタッフのログインE-mailを変更できるようになりました
+- スタッフアカウント作成時にログインパスワードや権限の初期設定ができるようになりました
+- グループのページから直接スタッフのアカウント作成ができるようになりました
+
+※スタッフのログインパスワードやメールアドレスを変更するとそのスタッフは次回NipoPlus起動時に再ログインが必要になります
+
 ### 2022/12/17 Version 1.23.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}

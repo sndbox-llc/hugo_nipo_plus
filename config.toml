@@ -6,6 +6,7 @@ title = 'NipoPlus'
 theme = "relearn"
 canonifyurls = true
 enableGitInfo = true
+enableRobotsTXT = true
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
@@ -70,7 +71,7 @@ enableGitInfo = true
   # Initialization parameter for Mermaid, see Mermaid documentation
   mermaidInitialize = "{ \"theme\": \"default\" }"
   # If set to false, load the Swagger module on every page regardless if a Swagger shortcode is present
-  disableSwagger = false
+  disableSwagger = true
   # Specifies the remote location of the RapiDoc js
   customSwaggerURL = "https://unpkg.com/rapidoc/dist/rapidoc-min.js"
   # Initialization parameter for Swagger, see RapiDoc documentation

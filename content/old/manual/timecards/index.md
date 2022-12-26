@@ -8,6 +8,8 @@ isNipo = true
 tags = []
 +++
 
+{{<button "/timecard/" "この機能は後続のNipoPlusでもサポートされています">}}
+
 
 ## タイムカード機能とは
 

@@ -8,6 +8,7 @@ isNipo = true
 tags = []
 +++
 
+{{<button "/org/groupsetting/template/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 日報テンプレートの役割
 

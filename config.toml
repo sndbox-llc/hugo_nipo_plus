@@ -8,7 +8,7 @@ canonifyurls = true
 enableGitInfo = true
 
 [frontmatter]
-  date = ["date", "publishDate", "lastmod"]
+  date = ["date", "publishDate", "lastmod", ":default"]
   lastmod = ["lastmod", ":git", "date", "publishDate"]
 [sitemap]
   changefreq = 'monthly'
@@ -25,9 +25,9 @@ enableGitInfo = true
   # See the config.toml file from this documentation site to have an example.
   editURL = "https://github.com/sandbox-co-ltd/hugo_nipo_plus/edit/main/content/"
   # Author of the site, will be used in meta information
-  author = "sandbox LLC"
+  author = "sandbox.LLC"
   # Description of the site, will be used in meta information
-  description = "日報業務を効率Upできます。テンプレートを自分たちで簡単に作成できるので業務に適した報告書も思いのまま。集計やPDF出力、スマホも対応"
+  description = "日報の提出漏れチェックや集計のためエクセルへの転記はもう不要です。かんたん日報App。無料から始めよう"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar
@@ -90,6 +90,8 @@ enableGitInfo = true
   # If set to true, no index.html will be appended to prettyURLs; this will cause pages not
   # to be servable from the file system
   disableExplicitIndexURLs = false
+  # For external links you can define how they are opened in your browser; this setting will only be applied to the content area but not the shortcut menu
+  externalLinkTarget = "_blank"
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-cube'></i>更新履歴"

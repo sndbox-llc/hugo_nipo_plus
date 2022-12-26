@@ -1,8 +1,8 @@
 +++
 archetype = "home"
-description = "オリジナルの日報テンプレートを手軽に作成可。集計グラフ化・PDF出力・CSV出力も対応。無料プランもあります。クラウド型の日報・チェックシート管理アプリ"
+description = "日報の提出漏れチェックや集計のためエクセルへの転記はもう不要です。かんたん日報App。無料から始めよう"
 menuTitle = "Home"
-title = "日報アプリ NipoPlus"
+title = "紙の日報に近いアプリ NipoPlus"
 toc = false
 tags = []
 reqMermaid = false
@@ -10,19 +10,14 @@ reqMermaid = false
 
 ## 日報やチェックシートの作成・集計ができるアプリです
 
-百聞は一見にしかず。次の画像はスタッフが書いた日報を上司が閲覧している画面です。
+次の画像はスタッフが書いた日報を上司が閲覧している画面です。（**クリックで拡大**）
 
 {{<imgproc app-screen.png "nipoPLusのアプリ画面イメージをiPadサイズで表示した例" />}}
 
-日報本体にはレビューでおなじみの[★★★☆☆のような形式](/org/groupsetting/template/rate/)や[ラジオボタン](/org/groupsetting/template/select/)、果ては[署名](/org/groupsetting/template/sign/)まで埋め込まれているのが確認できます。  
-日報上部には管理者の[承認](/report/read/state/)印が確認できますね。
-右に目を向けると[コメント欄](/report/read/comment/)や、[PDF出力、CSV出力](/report/totalling/)といったボタンが目に付きます。
-
-{{<alice pos="left" icon="phone">}}
-[日報テンプレートは自作](/org/groupsetting/template/make/)できます
-{{</alice>}}
-
-このように日報（チェックシート）をクラウド上で効率よく管理できるアプリです。
+ご覧の通り日報です。テンプレートを作り、テンプレートに沿って日報を読み書きします。
+集計やグラフ化など便利な機能も色々ありますが、本質としては**日報を効率よく管理**することを目的に作られたWebアプリです。
+日報と銘打っていますがチェックシートでも報告書でもテンプレートのあるものは何でも使えます。
+マイナーな日報でも大丈夫。なぜならテンプレートは自由に設計可能です。
 
 ---
 

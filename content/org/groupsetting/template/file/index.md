@@ -65,7 +65,7 @@ PCの場合はファイルをドラッグ＆ドロップすることでも追加
 ファイル入力フォームはCSV出力やPDF出力に対応しておらず、またその性質上、検索や集計にも対応しておりません。
 よって行えることは、添付されたファイルをダウンロードすることだけです。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |✗|✗|✗|✗|
 

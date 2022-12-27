@@ -98,7 +98,7 @@ PCではマウスを使って描画できますが、操作性の観点から**�
 
 署名入力フォームではPDFへの出力に対応していますが、それ以外の出力や検索には対応していません。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |✗|✗|○|✗|
 

@@ -9,7 +9,7 @@ weight = 999
 +++
 
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|
 |:---:|:---:|:---:|
 |○|○|○|
 

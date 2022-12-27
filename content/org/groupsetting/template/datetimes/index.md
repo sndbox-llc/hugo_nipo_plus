@@ -85,7 +85,7 @@ weight = 160
 
 期間入力フォームでは以下の機能に対応しています。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |○|○|○|○|
 

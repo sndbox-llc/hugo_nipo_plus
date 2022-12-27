@@ -190,7 +190,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[CSV出力](/report/totalling/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました。[ログ表示](/org/group2/log/)の日付入力を使いやすく改良しました。[期間入力フォーム](/org/groupsetting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました。
+[CSV出力](/report/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました。[ログ表示](/org/group2/log/)の日付入力を使いやすく改良しました。[期間入力フォーム](/org/groupsetting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました。
 
 ### 2022/08/31 v1.12.1
 
@@ -206,7 +206,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-[CSV出力](/report/totalling/csv/)オプションに「画像の出力」「コメントの出力」が追加されました
+[CSV出力](/report/analytics/csv/)オプションに「画像の出力」「コメントの出力」が追加されました
 
 
 ### 2022/08/23 Version 1.11.2
@@ -218,7 +218,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 ### 2022/08/22 Version 1.11.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-[CSV出力](/report/totalling/csv/)オプションに「可変長」に関するオプションが追加されました。[可変長の日報](/org/groupsetting/template/array/)のデザインを変更しました
+[CSV出力](/report/analytics/csv/)オプションに「可変長」に関するオプションが追加されました。[可変長の日報](/org/groupsetting/template/array/)のデザインを変更しました
 
 ### 2022/08/21 Version 1.11.0
 
@@ -245,7 +245,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[PDF出力機能](/report/read/pdf/)が強化されました。[一括PDF](/report/totalling/pdf/)・QRコード埋め込み・本文の編集などが可能になりました
+[PDF出力機能](/report/read/pdf/)が強化されました。[一括PDF](/report/analytics/pdf/)・QRコード埋め込み・本文の編集などが可能になりました
 
 ### 2022/08/03 Version 1.8.2
 
@@ -280,7 +280,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 ### 2022/07/27 Version 1.7.3
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-色分けを行ったデータが適切に集計されないバグの修正を行いました。[CSV出力](/report/totalling/csv/)に「昇順出力」オプションが追加されました
+色分けを行ったデータが適切に集計されないバグの修正を行いました。[CSV出力](/report/analytics/csv/)に「昇順出力」オプションが追加されました
 
 ### 2022/07/23 Version 1.7.1
 
@@ -299,7 +299,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-日報・チェックシートの[CSV出力オプション](/report/totalling/csv/)が変更されました
+日報・チェックシートの[CSV出力オプション](/report/analytics/csv/)が変更されました
 
 ### 2022/07/16 Version 1.5.7
 
@@ -347,14 +347,14 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[CSV出力設定が保存可能](/report/totalling/csv/)になりました。グループのテーマカラーがうまく反映されないバグを修正しました。グループ毎にメニュー項目の表示・非表示切替ができるようになりました
+[CSV出力設定が保存可能](/report/analytics/csv/)になりました。グループのテーマカラーがうまく反映されないバグを修正しました。グループ毎にメニュー項目の表示・非表示切替ができるようになりました
 
 ### 2022/06/28 Version 1.5.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-日報作成後にメール送信ボタンが追加されました。提出専用アカウントでも[自分の日報に限り集計](/report/totalling/)できるようになりました
+日報作成後にメール送信ボタンが追加されました。提出専用アカウントでも[自分の日報に限り集計](/report/analytics/)できるようになりました
 
 
 ### 2022/06/23 Version 1.4.0

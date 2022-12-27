@@ -54,7 +54,7 @@ weight = 330
 
 数値入力フォームは集計やCSV出力、検索など幅広い機能に対応しています。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |○|○|○|○|
 
@@ -75,7 +75,7 @@ weight = 330
 {{<imgproc span.png "日報を期間推移で見たときの画面" />}}
 
 合計と推移の2種類をサポートしていますが、より詳しいデータの分析が必要な場合は次のCSV出力機能を使ってください。
-これらの集計データはそのままダウンロードすることもできます。より詳しいがガイドに付いては[集計機能](/report/totalling/)のページを参照してください。
+これらの集計データはそのままダウンロードすることもできます。より詳しいがガイドに付いては[集計機能](/report/analytics/)のページを参照してください。
 
 ### 数値を含んだ日報をCSVに出力する
 
@@ -86,6 +86,6 @@ weight = 330
 
 CSV出力されたデータはエクセルやGoogle Spleadsheetなどの表計算ソフトを使って開くことができます。
 NipoPlusではサポートされていない平均値の算出など細かい分析にはCSV出力の利用を検討してください。
-日報をまとめてCSVに出力するには[一括CSV出力](/report/totalling/csv/)を参照してください
+日報をまとめてCSVに出力するには[一括CSV出力](/report/analytics/csv/)を参照してください
 
 {{<attachments style="orange" />}}

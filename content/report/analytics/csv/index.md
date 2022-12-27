@@ -5,6 +5,7 @@ tags = []
 title = "日報を1枚のCSVファイルに一括出力する"
 toc = true
 weight = 30
+aliases = ['/report/totalling/csv/']
 +++
 
 CSVの一括ダウンロード機能はAndroid / iOSアプリ版では利用できません。Web版(PWA版)のNipoPlusからご利用ください。
@@ -58,7 +59,7 @@ NipoPlusのCSVの出力はいくつかのオプションを選択してCSVの形
 
 {{<imgproc csvsetting.png "CSVの出力形式を変更できます。集計用やバックアップ用など、用途に応じて設定を変えることでデータ加工の手間を軽減できます" />}}
 
-CSV出力の設定に関する詳しい情報は[CSV出力オプションについて](/report/totalling/csvoption/)を参照してください
+CSV出力の設定に関する詳しい情報は[CSV出力オプションについて](/report/analytics/csvoption/)を参照してください
 
 ## 先月のCSVファイルと今月のCSVファイルを連結させたいとき
 

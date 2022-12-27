@@ -90,7 +90,7 @@ weight = 300
 
 スライダ入力で入力された値は数値データとして扱われるため、集計やCSV出力など多くの機能が利用可能です。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |○|○|○|○|
 

@@ -83,7 +83,7 @@ ONの場合、できるだけ写真を大きく見せようとします。縦列
 
 写真データはCSV出力や集計、検索に対応していません。唯一対応しているのがPDF出力になります。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |✗|✗|▲|✗|
 

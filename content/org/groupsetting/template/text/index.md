@@ -61,7 +61,7 @@ PCからはキーボードを使って入力し、スマートフォンやタブ
 
 テキスト入力フォームが含まれた日報はCSV出力やPDF出力、検索に対応しています。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |✗|○|○|○|
 

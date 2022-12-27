@@ -67,7 +67,7 @@ weight = 320
 
 レート入力フォームのデータは数値であるため、集計やCSV出力など多くの機能に対応しています。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |○|○|○|○|
 
@@ -115,7 +115,7 @@ weight = 320
 アンチパターンとして例示した項目は100列も出力されるため結構大変なことになります。
 {{</alice>}}
 
-CSV出力は複数の日報やチェックシートを[まとめてCSV出力する](/report/totalling/csv/)方法と、[1つの日報・チェックシートだけをCSV出力](/report/read/csv/)する方法があります。詳細な手順は各ページを参照してください。
+CSV出力は複数の日報やチェックシートを[まとめてCSV出力する](/report/analytics/csv/)方法と、[1つの日報・チェックシートだけをCSV出力](/report/read/csv/)する方法があります。詳細な手順は各ページを参照してください。
 
 ### データの検索
 

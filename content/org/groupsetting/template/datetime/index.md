@@ -77,7 +77,7 @@ weight = 150
 
 日付と時刻入力フォームが含まれた日報やチェックシートではCSV出力やPDF出力、検索などが利用できます。
 
-|[集計可否](/report/totalling/)|[CSV出力](/report/totalling/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
+|[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
 |✗|○|○|○|
 

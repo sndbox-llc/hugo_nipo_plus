@@ -8,7 +8,7 @@ weight = 30
 +++
 
 
-現在画面に表示されている**日報1件をCSVファイルに変換してダウンロード**できます。（複数まとめて出力したいときは[一括CSV出力](/report/totalling/csv/)を参照)
+現在画面に表示されている**日報1件をCSVファイルに変換してダウンロード**できます。（複数まとめて出力したいときは[一括CSV出力](/report/analytics/csv/)を参照)
 ダウンロードされたCSVファイルはシンプルなテキストファイルのため、テキストエディタで開く他、表計算ソフト（[Excel](https://www.microsoft.com/ja-jp/microsoft-365/excel)や[Google Sheet](https://www.google.com/intl/ja_jp/sheets/about/)など）で開くことが可能です。
 バックアップやデータ加工などにお役立てください。
 
@@ -46,11 +46,11 @@ CSV出力をクリックするとデータがCSV形式に変換され、ダウ�
 日報をCSVに出力する際、出力する項目や出力の形式について変更可能な項目があります。
 CSV出力の設定変更はCSV出力ボタンの右端にある下向きの三角矢印ボタンをクリックして行います。
 変更した内容は**スタッフごとに自動で保存**されます。つまりAさんとBさんではそれぞれ異なるCSV出力の設定が記録されます。
-また、ここで設定したCSV出力設定は[一括CSV出力](/report/totalling/csv/)でも同じ設定が自動で適用されます。（逆もまた同様です）
+また、ここで設定したCSV出力設定は[一括CSV出力](/report/analytics/csv/)でも同じ設定が自動で適用されます。（逆もまた同様です）
 
 {{<imgproc csv-export-setting.png "CSV出力の設定変更を表示するには下向き三角アイコンをクリックします。設定の内容は自動で保存されます。" />}}
 
-CSV出力の設定に関する詳しい情報は[CSV出力オプションについて](/report/totalling/csvoption/)を参照してください
+CSV出力の設定に関する詳しい情報は[CSV出力オプションについて](/report/analytics/csvoption/)を参照してください
 
 {{<alice pos="right" icon="here">}}
 画像やファイルはCSV出力不可です

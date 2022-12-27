@@ -41,6 +41,14 @@
       font-weight: bold;
     }
   }
+  strong {
+    color: black;
+    font-weight: 900;
+    background:linear-gradient(transparent 60%, #6cf 60%);
+  }
+  a {
+    font-weight: bolder;
+  }
   // vue.js読み込みまでのデータを隠す処理
   [v-cloak] {
     display: none;

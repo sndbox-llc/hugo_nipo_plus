@@ -1,5 +1,5 @@
 +++
-description = "API"
+description = "日報データをAPI経由で取得することができます"
 menuTitle = "API"
 menuPre = "<b>11. </b>"
 title = "API"

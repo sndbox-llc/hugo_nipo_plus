@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "NipoとNipoPlusのホームページを1つのサイトに統合しました"
 menuTitle = "ホームページ統合"
 tags = []
 title = "NipoとNipoPlusのホームページを統合しました"

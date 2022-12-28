@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "最新のお知らせ"
 menuTitle = "お知らせ"
 menuPre = "<b>-. </b>"
 title = "お知らせ"

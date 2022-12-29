@@ -64,8 +64,9 @@
   </head>
   <body class="mobile-support {{ $outputFormat }}{{- if .Site.Params.disableInlineCopyToClipBoard }} disableInlineCopyToClipboard{{ end }}" data-url="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}">
     <div id="body" class="default-animation">
-      <div id="sidebar-overlay"></div>
-      <div id="toc-overlay"></div>
+      <!-- テーマ純正のTOC 使わない -->
+      <!--<div id="sidebar-overlay"></div>-->
+      <!--<div id="toc-overlay"></div>-->
       <nav id="topbar" class="highlightable" dir="ltr">
         <div>
         {{- $showPrevNext := (and (not .Params.disableNextPrev) (not .Site.Params.disableNextPrev)) }}
@@ -131,9 +132,11 @@
         {{- $hastoc := not (eq 0 (int (len (.TableOfContents | plainify)))) }}
         {{- $toc := (and $hastoc (not $currentDisableToc)) }}
           <div id="breadcrumbs">
+            <!--
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" title='{{ T "Navigation-toggle" }} (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
+            -->
           {{- if $toc }}
             <span id="toc-menu" title='{{ T "Toc-toggle" }} (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
           {{- end }}

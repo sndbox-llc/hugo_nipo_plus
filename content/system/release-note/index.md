@@ -32,13 +32,23 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2023/01/03 Version 1.25.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
+- 積み上げ棒グラフが作成可能になりました
+- 日報受信BOXで表示期間を拡張するボタンが実装されました（日報が０件の場合にのみ）
+- カレンダーがデフォルトで先月が表示されるバグを修正しました
+- 日報テンプレートの編集をスマートフォンでも操作しやすいようにレイアウトを変更しました
+
 ### 2022/12/23 Version 1.24.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-※iOS版は審査待ち。年末のため審査期間が長くなります
 
 今回のアップデートは管理者に関する機能がメインです。
 2022年最後のリリースになる予定です。メリークリスマス＆ハッピーニューイヤー

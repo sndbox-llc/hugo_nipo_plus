@@ -147,3 +147,16 @@ a:hover {
     display: none;
   }
 }
+.hidden {
+  display: none;
+}
+.animeAT { animation:animeAT 1s ease-out forwards; }
+.svgAliceClass { opacity: 0; }
+@keyframes animeAT {
+	0% { opacity: 0; }
+  80% { opacity: 0.9;}
+	100% {
+		opacity: 1;
+	}
+}
+

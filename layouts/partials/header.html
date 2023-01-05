@@ -11,10 +11,6 @@
     {{ if not .Site.IsServer }}
     {{ partial "gtag" . }}
     {{ end }}
-    <!-- quasarを使うページの場合に限り、quasar cssをロードする -->
-    {{ if eq .Params.quasar true }}
-    <link href="https://cdn.jsdelivr.net/npm/quasar@2.7.1/dist/quasar.prod.css" rel="stylesheet" type="text/css">
-    {{ end }}
     <link rel="canonical" href="{{ .Permalink }}index.html" />
 
     {{- partial "meta.html" . }}
@@ -41,7 +37,8 @@
     {{- end }}
     {{- if and (ne .Site.Params.disableSeoHiddenPages true) (ne .Site.Params.disableSearchHiddenPages true) }}
         {{- range .AlternativeOutputFormats }}
-            {{- if eq .Name "JSON" }}
+            {{- if eq .Name "SEARCHPAGE" }}
+            {{- else if eq .Name "JSON" }}
     {{ (printf $link (.Permalink | relURL) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
             {{- end }}
         {{- end }}
@@ -50,23 +47,23 @@
     {{- partialCached "stylesheet.html" (dict "page" . "outputFormat" $outputFormat) $outputFormat }}
         <!-- SCSS対応　-->
         {{ if eq .Params.isNipo true }}
-        <!-- 旧Nipo・緑ベース -->
-        {{ $sass := resources.Get "sass/rootold.scss" }}
-        {{ $style := $sass | resources.ToCSS }}
-        <link rel="stylesheet" href="{{ $style.Permalink }}">
-      {{ else }}
-        <!-- NipoPlus・紫ベース -->
-        {{ $sass := resources.Get "sass/root.scss" }}
-        {{ $style := $sass | resources.ToCSS }}
-        <link rel="stylesheet" href="{{ $style.Permalink }}">
-      {{end}}
+          <!-- 旧Nipo・緑ベース -->
+          {{ $sass := resources.Get "sass/rootold.scss" }}
+          {{ $style := $sass | resources.ToCSS }}
+          <link rel="stylesheet" href="{{ $style.Permalink }}">
+        {{ else }}
+          <!-- NipoPlus・紫ベース -->
+          {{ $sass := resources.Get "sass/root.scss" }}
+          {{ $style := $sass | resources.ToCSS }}
+          <link rel="stylesheet" href="{{ $style.Permalink }}">
+        {{end}}
     {{- partial "custom-header.html" . }}
   </head>
   <body class="mobile-support {{ $outputFormat }}{{- if .Site.Params.disableInlineCopyToClipBoard }} disableInlineCopyToClipboard{{ end }}" data-url="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}">
     <div id="body" class="default-animation">
       <!-- テーマ純正のTOC 使わない -->
-      <!--<div id="sidebar-overlay"></div>-->
-      <!--<div id="toc-overlay"></div>-->
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable" dir="ltr">
         <div>
         {{- $showPrevNext := (and (not .Params.disableNextPrev) (not .Site.Params.disableNextPrev)) }}
@@ -132,11 +129,9 @@
         {{- $hastoc := not (eq 0 (int (len (.TableOfContents | plainify)))) }}
         {{- $toc := (and $hastoc (not $currentDisableToc)) }}
           <div id="breadcrumbs">
-            <!--
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" title='{{ T "Navigation-toggle" }} (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
-            -->
           {{- if $toc }}
             <span id="toc-menu" title='{{ T "Toc-toggle" }} (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
           {{- end }}
@@ -159,6 +154,8 @@
       </nav>
       {{- $hook := "styleclass" }}
       <main id="body-inner" class="highlightable {{ partialCached "archetype.hugo" (dict "hook" $hook "page" . "parameter" . "outputFormat" $outputFormat) .RelPermalink $outputFormat $hook }}" tabindex="-1">
+        {{ partial "svg-def.html" . }}
+
         <div class="flex-block-wrapper">
           <div id="head-tags">
             {{- partial "tags.html" . }}

@@ -1,0 +1,96 @@
+<script>
+  window.onload = () => {
+    const bleakPoint = 600
+    let mode = (window.innerWidth > bleakPoint) ? 'tablet' : 'phone'
+    const roots = document.querySelectorAll('.root')
+    const tabletFrameClass = document.querySelectorAll('.tabletFrameClass')
+    const images = document.querySelectorAll("image[data-src]");
+    const alices = document.querySelectorAll("image[data-alice]");
+    const alreadyLoadedImages = []
+    const observer = new IntersectionObserver(frameInFire, { threshold: 1})
+    // フレームインのリスナー登録
+    roots.forEach(root => { observer.observe(root) })
+    // フレームイン時の処理.アニメーションを追加する.フレームインは画像下部がウインドウをクロスしたとき発火
+    function frameInFire (entries) {
+      if (entries[0].intersectionRatio === 0) return
+      const aliceXPos = mode === 'tablet' ? 700 : 180
+      const svgAliceClass = entries[0].target.querySelectorAll(`:scope .svgAliceClass`)[0]
+      if(entries[0].isIntersecting && svgAliceClass) {
+        svgAliceClass.setAttribute('x', aliceXPos)
+        svgAliceClass.classList.add('animeAT')
+        const msg = svgAliceClass.dataset.msg || ''
+        const fontSize = svgAliceClass.dataset.fontsize || '22px'
+        var myTextElement = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        var honbun = document.createTextNode(msg);
+        const stringArray = msg.split(' ')
+        stringArray.forEach((node, index) => {
+          const dy = index === 0 ? 0 : '1.2em'
+          var tspan = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+          const textNode = document.createTextNode(node)
+          tspan.appendChild(textNode)
+          tspan.setAttribute('x', 10)
+          tspan.setAttribute('dy', dy)
+          myTextElement.appendChild(tspan)
+        })
+        myTextElement.setAttribute("x", "10");
+        myTextElement.setAttribute("y", "35");
+        myTextElement.setAttribute("fill", "green");
+        myTextElement.setAttribute('text-anchor', 'start')
+        myTextElement.setAttribute("font-family", "sans-serif");
+        myTextElement.setAttribute("font-weight", "bold");
+        myTextElement.setAttribute("font-size", fontSize);
+        svgAliceClass.appendChild(myTextElement);
+      }
+    }
+    // 画面幅変更を検知して適切なレイアウトをセットする
+    function resizeWindow(){
+      let preMode = mode
+      mode = (window.innerWidth > bleakPoint) ? 'tablet' : 'phone'
+      if (preMode !== mode) {
+        // 使用する画像の切り替え・すでに読み込み済みの画像フラグをリセットする
+        alreadyLoadedImages.length = 0
+        const svgAliceClass = document.querySelectorAll(`.svgAliceClass`)
+        svgAliceClass.forEach(i => i.classList.remove('animeAT'))
+      }
+      const viewBox = mode === 'tablet' ? '0 0 1000 520' : '0 0 500 520'
+      const width = mode === 'tablet' ? 800 : 300
+      const strokeWidth = mode === 'tablet' ? 20 : 14
+      // 全部のViewboxサイズを変更
+      roots.forEach(root => root.setAttribute('viewBox', viewBox))
+      tabletFrameClass.forEach(tabletFrame => {
+        tabletFrame.setAttribute('stroke', 'black')
+        tabletFrame.setAttribute('width', width)
+        tabletFrame.setAttribute('height', 500)
+        tabletFrame.setAttribute('stroke-width', strokeWidth)
+      })
+    }
+    // 画像遅延ロードリスナー登録
+    for (let i = 0; i < images.length; i++) {
+      console.log('遅延ロードリッスンスタート')
+      const image = images[i]
+      window.addEventListener("scroll", () => {
+        console.log('りっすん')
+        const target = image.getBoundingClientRect().top
+        if (window.innerHeight * 0.9 >= target) {
+          var targetFileName = `${ location.href}/${image.dataset.src}${mode}.png`
+          console.log(targetFileName)
+          const width = mode === 'tablet' ? 800 : 300
+          // すでにロード済みなら処理を中断
+          if (alreadyLoadedImages.findIndex(i => i === targetFileName) !== -1) return
+          image.setAttribute('width', width);
+          image.setAttribute('xlink:href', targetFileName);
+          image.setAttribute('href', targetFileName);
+          alreadyLoadedImages.push(targetFileName)
+        }
+      }, false)
+    }
+    // アリスの画像遅延リスナー。こちらはスクロールイベント使わず一気に読んでしまいます
+    for (let i = 0; i < alices.length; i++) {
+      const alice = alices[i]
+      alice.setAttribute('xlink:href', alice.dataset.alice)
+      alice.setAttribute('href', alice.dataset.alice)
+    }
+    resizeWindow()
+    window.addEventListener('resize', resizeWindow)
+  }
+</script>

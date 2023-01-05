@@ -541,6 +541,7 @@ function showSearch(){
 }
 
 function showNav(){
+    console.log('なびー')
     if( !document.querySelector( '#sidebar-overlay' ) ){
         // we may not have a flyout
         return;

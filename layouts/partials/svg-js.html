@@ -1,6 +1,6 @@
 <script>
   window.onload = () => {
-    const bleakPoint = 600
+    const bleakPoint = 767
     let mode = (window.innerWidth > bleakPoint) ? 'tablet' : 'phone'
     const roots = document.querySelectorAll('.root')
     const tabletFrameClass = document.querySelectorAll('.tabletFrameClass')
@@ -13,7 +13,7 @@
     // フレームイン時の処理.アニメーションを追加する.フレームインは画像下部がウインドウをクロスしたとき発火
     function frameInFire (entries) {
       if (entries[0].intersectionRatio === 0) return
-      const aliceXPos = mode === 'tablet' ? 700 : 180
+      const aliceXPos = mode === 'tablet' ? 700 : 220
       const svgAliceClass = entries[0].target.querySelectorAll(`:scope .svgAliceClass`)[0]
       if(entries[0].isIntersecting && svgAliceClass) {
         svgAliceClass.setAttribute('x', aliceXPos)
@@ -29,6 +29,8 @@
           const textNode = document.createTextNode(node)
           tspan.appendChild(textNode)
           tspan.setAttribute('x', 10)
+          tspan.setAttribute('textLength', 250)
+          tspan.setAttribute('lengthAdjust', 'spacing')
           tspan.setAttribute('dy', dy)
           myTextElement.appendChild(tspan)
         })
@@ -53,14 +55,15 @@
         svgAliceClass.forEach(i => i.classList.remove('animeAT'))
       }
       const viewBox = mode === 'tablet' ? '0 0 1000 520' : '0 0 500 520'
-      const width = mode === 'tablet' ? 800 : 300
+      const frameWidth = mode === 'tablet' ? 800 : 300
+      const frameHeight = mode === 'tablet' ? 530 : 530
       const strokeWidth = mode === 'tablet' ? 20 : 14
       // 全部のViewboxサイズを変更
       roots.forEach(root => root.setAttribute('viewBox', viewBox))
       tabletFrameClass.forEach(tabletFrame => {
         tabletFrame.setAttribute('stroke', 'black')
-        tabletFrame.setAttribute('width', width)
-        tabletFrame.setAttribute('height', 500)
+        tabletFrame.setAttribute('width', frameWidth)
+        tabletFrame.setAttribute('height', frameHeight)
         tabletFrame.setAttribute('stroke-width', strokeWidth)
       })
     }
@@ -69,10 +72,9 @@
       console.log('遅延ロードリッスンスタート')
       const image = images[i]
       window.addEventListener("scroll", () => {
-        console.log('りっすん')
         const target = image.getBoundingClientRect().top
         if (window.innerHeight * 0.9 >= target) {
-          var targetFileName = `${ location.href}/${image.dataset.src}${mode}.png`
+          var targetFileName = `${ location.href}${image.dataset.src}${mode}.png`
           console.log(targetFileName)
           const width = mode === 'tablet' ? 800 : 300
           // すでにロード済みなら処理を中断

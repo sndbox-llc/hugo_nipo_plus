@@ -167,6 +167,6 @@ a:hover {
 
 @media screen and (max-width: 47.938em) {
   .mobilehide {
-    display: none;
+    display: none !important
   }
 }

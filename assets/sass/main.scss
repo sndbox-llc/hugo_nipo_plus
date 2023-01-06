@@ -160,3 +160,13 @@ a:hover {
 	}
 }
 
+
+.featherlight-sample {
+	display: none;
+}
+
+@media screen and (max-width: 47.938em) {
+  .mobilehide {
+    display: none;
+  }
+}

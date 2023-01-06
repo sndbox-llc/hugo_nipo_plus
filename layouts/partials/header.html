@@ -64,7 +64,52 @@
       <!-- テーマ純正のTOC 使わない -->
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
-      <nav id="topbar" class="highlightable" dir="ltr">
+      
+      <div class="topnav">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" title='{{ T "Navigation-toggle" }} (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+        </span>
+
+        <a class='mobilehide {{if eq .Page.RelPermalink "/"}} active {{ end }}' href="/">Home</a>
+        <a class='mobilehide {{if eq .Page.RelPermalink "/price/"}} active {{ end }}' href="/price/">料金</a>
+        <a class='mobilehide {{if eq .Page.RelPermalink "/old/"}} active {{ end }}' href="/old/">旧Nipo</a>
+        <div class="topnav-right">
+          {{ if eq .Params.isNipo true }}
+          <a href="https://nipoapp.sndbox.jp/" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick_OLD', {'value': '1'});">App起動</a>
+          {{ else }}
+          <a href="https://nipo-plus.web.app/" id="appBoot" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick', {'value': '1'});">App起動</a>
+          {{ end }}
+          <!-- ページ送り -->
+          {{- $showPrevNext := (and (not .Params.disableNextPrev) (not .Site.Params.disableNextPrev)) }}
+          {{- if $showPrevNext }}
+            {{- $parent := .Parent }}
+            {{- $ispublished := true }}
+            {{- if $parent }}
+              {{- $ispublished = gt (int (len $parent.Permalink)) 0 }}
+            {{- end }}
+            {{- if and $ispublished ($.Scratch.Get "relearnPrevPage") }}
+            {{- with ($.Scratch.Get "relearnPrevPage") }}
+              <a class="" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}" title="{{.Title}} (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i>前</a>
+              {{- end}}
+            {{- else }}
+              <!--<span class=""><i class="fa fa-chevron-left fa-fw"></i></span>-->
+            {{- end}}
+
+            {{- if and $ispublished ($.Scratch.Get "relearnNextPage") }}
+              {{- with ($.Scratch.Get "relearnNextPage") }}
+              <a class="" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}" title="{{.Title}} (&#129106;)">次<i class="fas fa-chevron-right fa-fw"></i></a>
+              {{- end }}
+            {{- else }}
+              <!--<span class=""><i class="fa fa-chevron-right fa-fw"></i></span>-->
+            {{- end }}
+          {{- end }}
+  
+
+        </div>
+      </div>
+      
+      <!--
+      <nav id="topbar" class="highlightable" dir="ltr" style="display: none;">
         <div>
         {{- $showPrevNext := (and (not .Params.disableNextPrev) (not .Site.Params.disableNextPrev)) }}
         {{- if $showPrevNext }}
@@ -99,7 +144,6 @@
             </a>
           </div>
         {{- end -}}
-        <!-- 起動ボタン -->
         <div id="top-github-link">
           {{ if eq .Params.isNipo true }}
           <a href="https://nipoapp.sndbox.jp/" class="top_right_btn" target="_blank" onclick="gtag('event', 'footerCtaClick_OLD', {'value': '1'});">App起動</a>
@@ -108,11 +152,9 @@
           {{ end }}
         </div>
 
-        <!-- koko -->
         {{- if .Site.Params.editURL }}
           {{- $File := .File }}
           {{- $Site := .Site }}
-          <!--
           {{- if $File }}
             {{- with $File.Path }}
           <div id="top-github-link">
@@ -122,7 +164,6 @@
           </div>
             {{- end }}
           {{- end }}
-        -->
         {{- end }}
         {{- $defaultDisableToc := .Site.Params.disableToc | default false }}
         {{- $currentDisableToc := .Params.disableToc | default $defaultDisableToc }}
@@ -149,9 +190,9 @@
         {{- if $toc }}
           {{- partial "toc.html" . }}
         {{- end }}
-        <!-- koko -->
         </div>
       </nav>
+      -->
       {{- $hook := "styleclass" }}
       <main id="body-inner" class="highlightable {{ partialCached "archetype.hugo" (dict "hook" $hook "page" . "parameter" . "outputFormat" $outputFormat) .RelPermalink $outputFormat $hook }}" tabindex="-1">
         {{ partial "svg-def.html" . }}

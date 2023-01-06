@@ -12,6 +12,7 @@ reqMermaid = false
 
 次の画像はスタッフが書いた日報を上司が閲覧している画面です。（**クリックで拡大**）
 
+
 {{<imgproc app-screen.png "nipoPLusのアプリ画面イメージをiPadサイズで表示した例" />}}
 
 ご覧の通り日報です。テンプレートを作り、テンプレートに沿って日報を読み書きします。
@@ -227,3 +228,4 @@ NipoPlusに興味を持っていただけましたか？[匿名アカウント](
 もし使い方にご不明な点があれば、いつでも遠慮なく[お問い合わせ](/system/inquery/)ください。
 
 {{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動する" "_blank">}}
+

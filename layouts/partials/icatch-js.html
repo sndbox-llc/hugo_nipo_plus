@@ -73,7 +73,8 @@
       window.addEventListener("scroll", () => {
         const target = image.getBoundingClientRect().top
         if (window.innerHeight * 0.9 >= target) {
-          var targetFileName = `${ location.href}${image.dataset.src}${mode}.png`
+          var double = '//'
+          var targetFileName = `${location.protocol}${double}${location.hostname}:${location.port}${location.pathname}${image.dataset.src}${mode}.png`
           const width = mode === 'tablet' ? 800 : 300
           // すでにロード済みなら処理を中断
           if (alreadyLoadedImages.findIndex(i => i === targetFileName) !== -1) return

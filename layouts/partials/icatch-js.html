@@ -74,7 +74,10 @@
         const target = image.getBoundingClientRect().top
         if (window.innerHeight * 0.9 >= target) {
           var double = '//'
-          var targetFileName = `${location.protocol}${double}${location.hostname}:${location.port}${location.pathname}${image.dataset.src}${mode}.png`
+          var pathname =  location.pathname
+          var chop = pathname.split('index.html')
+          console.log(chop[0])
+          var targetFileName = `${location.protocol}${double}${location.hostname}:${location.port}${chop[0]}${image.dataset.src}${mode}.png`
           const width = mode === 'tablet' ? 800 : 300
           // すでにロード済みなら処理を中断
           if (alreadyLoadedImages.findIndex(i => i === targetFileName) !== -1) return

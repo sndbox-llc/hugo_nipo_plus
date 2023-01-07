@@ -108,7 +108,10 @@
     {{- partial "custom-footer.html" . }}
     <!-- JSON-LD形式のパンくずリスト -->
     {{ partial "breadcrumb-json" . }}
-    {{ partial "svg-js.html" . }}
+    {{ if eq .Params.reqIcatch true }}
+      {{ partial "icatch-js.html" . }}
+    {{ end }}
+
 
   </body>
 </html>

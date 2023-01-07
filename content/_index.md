@@ -6,13 +6,14 @@ title = "紙の日報に近いアプリ NipoPlus"
 toc = false
 tags = []
 reqMermaid = false
+reqIcatch = true
 +++
 
 ## 日報やチェックシートの作成・集計ができるアプリです
 
 次の画像はスタッフが書いた日報を上司が閲覧している画面です。
 
-{{<svg filename="app" msg="日報やチェックシート 集計・CSV出力も可" title="NipoPlus画面イメージ" desc="NipoPlus画面イメージ" fontsize="30px" alice="ok" >}}
+{{<icatch filename="app" msg="日報やチェックシート 集計・CSV出力も可" title="NipoPlus画面イメージ" desc="NipoPlus画面イメージ" fontsize="30px" alice="ok" >}}
 
 ご覧の通り日報です。テンプレートを作り、テンプレートに沿って日報を読み書きします。
 集計やグラフ化など便利な機能も色々ありますが、本質としては**日報を効率よく管理**することを目的に作られたWebアプリです。
@@ -29,7 +30,7 @@ reqMermaid = false
 日報のテンプレートを自由に作成できるので業務内容に応じた日報を**自分たちで簡単に作成**できます。
 プログラミングの知識がなくても大丈夫。誰でもかんたんに[入力フォームを積み重ねる](/org/groupsetting/template/)だけで作成できます。
 
-{{<svg filename="template-make" msg="部品を積み木のように 並べるだけです" title="日報テンプレートの編集画面" desc="日報テンプレートを作るのは簡単です。必要な部品をブロックのように並べていくだけです" fontsize="30px" alice="guide" >}}
+{{<icatch filename="template-make" msg="部品を積み木のように 並べるだけです" title="日報テンプレートの編集画面" desc="日報テンプレートを作るのは簡単です。必要な部品をブロックのように並べていくだけです" fontsize="30px" alice="guide" >}}
 
 入力フォームには「[文字入力](/org/groupsetting/template/text/)」や「[選択肢入力](/org/groupsetting/template/select/)」「[写真入力](/org/groupsetting/template/picture/)」「[署名入力](/org/groupsetting/template/sign/)」など様々な種類が用意されています。自由に設計できるので作り方によっては**チェックシート風**のテンプレートもかんたんに作成できます。
 [数値入力](/org/groupsetting/template/math/)や[時間入力](/org/groupsetting/template/datetimes/)など一部の入力フォームは**スタッフごとの集計やグラフ化**にも対応しています。
@@ -44,7 +45,7 @@ reqMermaid = false
 前述のテンプレート作成時に、入力フォームに対して**入力必須の設定**を指定することで当該項目が空欄だと日報が提出できないように制限することができます。
 これにより書き忘れやチェック漏れを防ぐことができるようになります。
 
-{{<svg filename="omission-prevention" msg="入力必須を使えば 記入漏れを０にできる" title="日報に入力必須がある例" desc="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
+{{<icatch filename="omission-prevention" msg="入力必須を使えば 記入漏れを０にできる" title="日報に入力必須がある例" desc="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
 
 
 ※入力フォームの種類によっては入力必須の指定ができないものもあります
@@ -81,7 +82,7 @@ reqMermaid = false
 今回の日報を見ながらこれまでの日報を比較できます。
 日単位やAM/PM単位で**グループ集計**もできるので、1日に何枚も提出される類の日報であっても**エクセルに転記する必要もなくすぐ集計**できます。
 
-{{<svg filename="grouping" msg="過去データを一覧表に そのままDLも可能" title="過去データ比較" desc="過去の日報データ比較では日や時間単位でグループ化して合計を算出可能" fontsize="30px" alice="pc" >}}
+{{<icatch filename="grouping" msg="過去データを一覧表に そのままDLも可能" title="過去データ比較" desc="過去の日報データ比較では日や時間単位でグループ化して合計を算出可能" fontsize="30px" alice="pc" >}}
 
 数値の比較はもちろんのこと、選択肢入力フォームのデータも表にできます。
 推移モードでは過去のデータを**時系列に並べて表示**し、累積モードでは**スタッフごとに集計**できます。モードの切り替えもワンクリックで行なえます。
@@ -95,7 +96,7 @@ reqMermaid = false
 前述の「日報のデータ推移を手軽に確認＆グループ集計」で収集したデータを利用して好みの**グラフを動的に生成**できます。
 円グラフや折れ線グラフ、第２軸を使えば複合グラフも作成可能で、作成した**グラフはワンクリックで切替**が可能です。
 
-{{<svg filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="日報をグラフ化する" desc="日報をグラフ化する" fontsize="30px" alice="here" >}}
+{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="日報をグラフ化する" desc="日報をグラフ化する" fontsize="30px" alice="here" >}}
 
 
 予めグラフ化したい項目とグラフの種類を選んで保存しておくだけで、日報が増える度にグラフの内容も自動で反映されます。
@@ -109,12 +110,12 @@ reqMermaid = false
 ## 月間・週間カレンダー上に日報をマッピングして全体を見渡す
 
 日報データは受信BOXという領域に保存されそこから読むことができます。受信BOXでは新着順に並んで表示されます。
-{{<svg filename="report-box" msg="通常の受信BOX 新着順に並びます" title="通常の日報受信BOX" desc="受信BOXでは新しい順似日報が並んで配置されます" fontsize="30px" alice="book" >}}
+{{<icatch filename="report-box" msg="通常の受信BOX 新着順に並びます" title="通常の日報受信BOX" desc="受信BOXでは新しい順似日報が並んで配置されます" fontsize="30px" alice="book" >}}
 
 この受信BOXとは別にNipoPlusでは1ヶ月のデータをまとめて表示する月間カレンダーと、スタッフを基準とした週間カレンダーの2種類が用意されています。
 両者はボタン１つで簡単に切り替えができます。
 
-{{<svg filename="mapping-reports-to-calendar" msg="カレンダーは２種類 好みや用途で切替可能" title="日報をカレンダー上にレンダリング" desc="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="default" >}}
+{{<icatch filename="mapping-reports-to-calendar" msg="カレンダーは２種類 好みや用途で切替可能" title="日報をカレンダー上にレンダリング" desc="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="default" >}}
 
 
 週間カレンダーとは言いますが表示する期間は自由に延び縮み可能です。初期状態では1週間がセットされますが、上の画像はみやすさを重視して3日分に範囲を狭めています。
@@ -136,7 +137,7 @@ NipoPlusで作られた**日報のデータはCSV形式でダウンロードが�
 1件1件日報を個別にCSV出力することもできますが非効率なので１ヶ月など期間を定めてまとめてCSVに出力しましょう。
 １ヶ月分の日報データは**テンプレート毎に分けてCSVファイルに保存**されます。CSVファイルをエクセルで開き、Sum関数やAverage関数を使って日報データを自由に集計、分析できます。
 
-{{<svg filename="report-csv" msg="CSVに出力し表計算 ソフトで自由に編集" title="日報をCSV出力しSpleadSheetで開く" desc="チェックシートのデータをCSV出力し、spleadsheetで開いた画面" fontsize="30px" alice="pc" >}}
+{{<icatch filename="report-csv" msg="CSVに出力し表計算 ソフトで自由に編集" title="日報をCSV出力しSpleadSheetで開く" desc="チェックシートのデータをCSV出力し、spleadsheetで開いた画面" fontsize="30px" alice="pc" >}}
 
 
 CSVの**出力形式は目的に応じて変更**できます。例えば日報のIDが不要であればCSV出力オプションからID出力をOFFにすることで出力しないようにできます。

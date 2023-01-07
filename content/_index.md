@@ -12,7 +12,7 @@ reqMermaid = false
 
 次の画像はスタッフが書いた日報を上司が閲覧している画面です。（**クリックで拡大**）
 
-{{<imgproc app-screen.png "nipoPLusのアプリ画面イメージをiPadサイズで表示した例" />}}
+{{<svg filename="app" msg="日報やチェックシート 集計・CSV出力も可" title="NipoPlus画面イメージ" desc="NipoPlus画面イメージ" fontsize="30px" alice="ok" >}}
 
 ご覧の通り日報です。テンプレートを作り、テンプレートに沿って日報を読み書きします。
 集計やグラフ化など便利な機能も色々ありますが、本質としては**日報を効率よく管理**することを目的に作られたWebアプリです。

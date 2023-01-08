@@ -6,9 +6,12 @@ title = "選択肢入力（2層式）入力フォーム"
 toc = true
 weight = 140
 reqMermaid = true
+reqIcatch = true
 +++
 
-{{<imgproc selectc.png "選択肢（2層)を使った日報テンプレートの例" />}}
+{{<icatch filename="select-step" msg="Q1の答によって Q2の選択が変化" title="選択肢ステップ入力フォーム" desc="選択肢（2層)を使った日報テンプレートの例" fontsize="30px" alice="ok" >}}
+
+
 
 2層式入力フォームはその名の通り、2つの階層で解答する入力フォームです。問1の回答結果により、問2の設問内容が変わります。例えば問1の回答が「野菜」だった場合と、「果物」だった場合でそれぞれ問2の選択肢が変わります。
 

@@ -5,9 +5,12 @@ tags = []
 title = "範囲入力フォーム"
 toc = true
 weight = 180
+reqIcatch = true
+
 +++
 
-{{<imgproc eye-catch.png "範囲入力フォームを含んだ日報テンプレート" />}}
+{{<icatch filename="range-input" msg="最低〜最大など 範囲の数値入力に" title="範囲入力フォーム" desc="範囲入力フォームを含んだ日報テンプレート" fontsize="30px" alice="ok" >}}
+
 
 スライダー上のつまみを左右にドラッグすることで入力が可能なフォームです。見た目は[スライダ入力フォーム](/org/groupsetting/template/step/)と似ていますが、スライダーレール上につまみが2つあるのが本フォームの特徴です。
 つまみが2つありこれらを左右にドラッグすることで、ある値の範囲入力ができるようになります。

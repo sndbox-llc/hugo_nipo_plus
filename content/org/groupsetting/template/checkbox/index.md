@@ -5,9 +5,12 @@ tags = ["集計可能な入力フォーム"]
 title = "チェックボックス入力フォーム"
 toc = true
 weight = 170
+reqIcatch = true
+
 +++
 
-{{<imgproc input-method-checkbox.png "チェックボックス入力フォームを含んだ日報の作成画面" />}}
+{{<icatch filename="input-method-checkbox" msg="YES・NO 2択で答えるならこれ" title="チェックボックス入力フォーム" desc="チェックボックス入力フォームを含んだ日報の作成画面" fontsize="30px" alice="ok" >}}
+
 
 チェックボックス入力フォームは「はい・いいえ」や「ON・OFF」「あり・なし」のように2通りで回答できる際に便利な入力フォームです。
 チェックボックス型とトグルスイッチ型の2種類が用意されています。見た目の違いだけですので好みに応じて使い分けてください。

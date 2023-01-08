@@ -5,10 +5,11 @@ tags = []
 title = "日報をグラフ化する"
 toc = true
 weight = 11
+reqIcatch = true
+
 +++
 
-
-{{<imgproc charts.png "日報のデータをもとに折れ線グラフや棒グラフを作成できます" />}}
+{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="日報をグラフ化する" desc="日報をグラフ化する" fontsize="30px" alice="guide" >}}
 
 テンプレートの入力フォームによってはグラフ化することが可能な入力フォームがあります。
 日報データをCSVに出力してエクセル上からグラフを作ることも可能ですが、NipoPlus上で直接グラフを作成することも可能です。

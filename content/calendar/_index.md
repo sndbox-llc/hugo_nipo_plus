@@ -6,9 +6,11 @@ title = "カレンダーから日報を確認する"
 toc = false
 tags = []
 weight = 40
+reqIcatch = true
 +++
 
-{{<imgproc calendar.png "カレンダー上に日報を表示。クリックで日報をポップアップ表示します" />}}
+{{<icatch filename="mapping-reports-to-calendar" msg="カレンダーから日報 を表示できます" title="日報をカレンダー上にレンダリング" desc="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here" >}}
+
 
 最新の日報をリストで表示する[日報保存箱](/report/read/list/)とは別にカレンダーから日報を確認することもできます。
 カレンダー上に配置された日報ボタンをクリックすることでその日報をポップアップで表示できます。

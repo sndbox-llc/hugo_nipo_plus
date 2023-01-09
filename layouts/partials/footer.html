@@ -108,9 +108,8 @@
     {{- partial "custom-footer.html" . }}
     <!-- JSON-LD形式のパンくずリスト -->
     {{ partial "breadcrumb-json" . }}
-    {{ if eq .Params.reqIcatch true }}
-      {{ partial "icatch-js.html" . }}
-    {{ end }}
+    <!-- reqIcatchは廃止-->
+    {{ partial "icatch-js.html" . }}
 
 
   </body>

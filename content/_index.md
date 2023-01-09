@@ -13,6 +13,7 @@ reqIcatch = true
 
 次の画像はスタッフが書いた日報を上司が閲覧している画面です。
 
+<!--{{<appscreen filename="app" title="NipoPlus画面イメージ" desc="NipoPlus画面イメージ" >}}-->
 {{<icatch filename="app" msg="日報やチェックシート 集計・CSV出力も可" title="NipoPlus画面イメージ" desc="NipoPlus画面イメージ" fontsize="30px" alice="ok" >}}
 
 ご覧の通り日報です。テンプレートを作り、テンプレートに沿って日報を読み書きします。

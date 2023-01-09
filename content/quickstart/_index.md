@@ -22,7 +22,8 @@ reqMermaid = true
 1. アカウントなしで使ってみるをクリック
 1. 確認メッセージが表示されるので「はじめる」をクリック
 
-{{<imgproc signup-anonymous.png "匿名アカウントはE-mailやパスワードの設定をせずに利用できるアカウントです" />}}
+{{<appscreen filename="signup-anonymous" title="匿名アカウントを作る" desc="匿名アカウントはE-mailやパスワードの設定をせずに利用できるアカウントです" >}}
+
 
 {{<button "/account/tokumei/" "匿名アカウントについて詳しく見る">}}
 

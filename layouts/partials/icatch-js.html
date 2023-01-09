@@ -71,7 +71,7 @@
         node.setAttribute('stroke-width', strokeWidth)
       })
       // アリスなしの場合は縦列費を少し変えたViewboxにする
-      const nonAliceViewBox = mode === 'tablet' ? '0 0 1000 645' : '0 0 500 645'
+      const nonAliceViewBox = mode === 'tablet' ? '0 0 1000 630' : '0 0 500 645'
       nonAlicesNodes.forEach(i => i.setAttribute('viewBox', nonAliceViewBox))
       
       const widthNonAlice = mode === 'tablet' ? 900 : 400

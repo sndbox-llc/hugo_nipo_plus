@@ -1,6 +1,6 @@
 +++
-description = "複数のCSVファイルをドラッグ操作で簡単に1つのCSVファイルに連結するWebアプリです。インストール不要。無料です"
-menuTitle = "複数のCSVファイルを連結する"
+description = "ドラッグ操作で複数のCSVを1つのCSVファイルに結合するWebアプリです。インストール不要。無料です"
+menuTitle = "CSVを連結するWebアプリ"
 tags = []
 title = "複数のCSVファイルをドラッグ操作で簡単に1つに結合できます"
 toc = false

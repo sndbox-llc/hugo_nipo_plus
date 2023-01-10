@@ -9,6 +9,13 @@ reqMermaid = false
 reqIcatch = true
 +++
 
+
+{{<alice pos="right" icon="default">}}
+紙の日報は「火災」「盗難」「紛失」のリスクがあるから大切なデータは[Google Drive](https://workspace.google.com/intl/ja/products/drive/)のほうが確実です。[ウイルスチェック](https://support.google.com/drive/answer/141702)や[復元](https://support.google.com/drive/answer/2375102)なども備わっています
+{{</alice>}}
+
+
+
 ## NipoPlusは日報の作成・集計ができるWebアプリ
 
 まずはNipoPlusのアプリ画面を御覧ください。

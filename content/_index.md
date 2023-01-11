@@ -13,7 +13,7 @@ reqIcatch = true
 
 まずはNipoPlusのアプリ画面を御覧ください。
 
-{{<icatch filename="app" msg="日報やチェックシート 集計・CSV出力も可" title="NipoPlus画面イメージ" desc="NipoPlus画面イメージ" fontsize="30px" alice="ok" >}}
+{{<icatch filename="app" msg="日報やチェックシート 集計・CSV出力も可" title="NipoPlus画面イメージ" desc="NipoPlusのアプリ画面のイメージ図" fontsize="30px" alice="ok" >}}
 
 テンプレートを作り、テンプレートに沿って日報を読み書きします。
 集計や[グラフ化](/report/analytics/chart/)など便利な機能も色々ありますが、本質としては**日報を効率よく管理**することを目的に作られたWebアプリです。

@@ -95,11 +95,10 @@ CSV出力の際は不要な項目を除外するといったオプション設�
 |[スライダ入力フォーム](/org/groupsetting/template/step/)|同上|数値|
 |[レート入力フォーム](/org/groupsetting/template/rate/)|レート毎の選ばれた回数を集計します。例えば☆1は4回、☆2は1回・・・といった具合です。選択肢の集計方式に近いものです|個数|
 
-{{<imgproc calc.png "集計が可能な入力フォームのみで構成されたチェックシートのテンプレート例" />}}
+{{<appscreen filename="calc" title="すべて集計が可能です" desc="集計が可能な入力フォームのみで構成されたチェックシートのテンプレート例" >}}
 
 あくまでも簡易的な集計ですので、平均値などより細かい集計が必要な場合は前述のCSV出力を使用してください。
 
 ## 次の記事
 
 {{% children description="true" containerstyle="dl" style="dt" %}}
-

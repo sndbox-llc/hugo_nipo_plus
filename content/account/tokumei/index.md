@@ -18,7 +18,7 @@ weight = 30
 
 手順はとてもシンプルです。[NipoPlusを起動](https://nipo-plus.web.app/)するとログイン画面が表示されるので、画面下部にある「アカウント無しで使ってみる」をクリックします。
 
-{{<appscreen filename="signup-anonymous" title="匿名アカウントを作る" desc="匿名アカウントはE-mailやパスワードの設定をせずに利用できるアカウントです" >}}
+{{<appscreen filename="signup-anonymous" title="匿名アカウントを作る" desc="匿名アカウントはEmailやパスワードの設定をせずに利用できるアカウントです" >}}
 
 
 その後にポップアップで匿名アカウントの簡単な説明が表示されるので、「はじめる」ボタンをクリックしてください。これで匿名アカウントでログインが行われます。

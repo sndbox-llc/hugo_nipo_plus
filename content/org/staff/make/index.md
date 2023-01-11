@@ -14,7 +14,9 @@ weight = 20
 1. ユーザの追加をクリック
 1. E-mailと名前を入力して作成をクリック
 
-{{<imgproc makestaff.png "スタッフアカウントの作成" />}}
+{{<appscreen filename="make-staff" title="スタッフアカウントの作成" desc="組織設定からスタッフ用のアカウントを作成できます" >}}
+
+
 
 スタッフアカウントを作成することで、登録したE-mailと初期のログインパスワードを使って[ログイン](/account/signin/)できるようになります。
 （安全のためにも[パスワードはログイン後に変更](/account/password/)してください）

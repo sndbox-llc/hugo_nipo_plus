@@ -42,7 +42,7 @@ Androidに標準でインストールされているGoogle Chromeを起動して
 
 {{<imgproc pwa_android5.png "ホーム画面にNipoのボタンが追加されました。" />}}
 
-## Google Playからインストールする【従来型】
+## Google Playでインストールする【従来型】
 
 いわゆる「いつものやつ」です。App Store上にNipoのアプリが公開されていますので、以下のアイコンをタップしてアプリをインストールできます
 

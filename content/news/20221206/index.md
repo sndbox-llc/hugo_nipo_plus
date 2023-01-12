@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "旧バージョンのNipoからNipoPlusへ移行する際、テンプレートをそのままNipoPlusへ引き継ぐことができます"
 menuTitle = "NipoのテンプレートをNipoPlusへ取込"
 tags = []
 title = "NipoのテンプレートをNipoPlusへ取込"

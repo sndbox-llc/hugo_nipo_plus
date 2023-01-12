@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "退会に伴いすべてのデータを安全に削除します"
 menuTitle = "退会"
 tags = []
 title = "組織を削除する(退会)"

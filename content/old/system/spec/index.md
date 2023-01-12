@@ -51,7 +51,6 @@ Nipoのすべての機能が最も使いやすい形で提供されています�
 </dl>
 
 Android端末をご利用の方は、<a href="#web_app">Webアプリ版</a>の他、こちらのAndroid専用アプリを利用することも可能です
-[![GATSBY_EMPTY_ALT](../../images/android-app.png)](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp)
 
 ---
 
@@ -70,4 +69,3 @@ Android端末をご利用の方は、<a href="#web_app">Webアプリ版</a>の�
 
 iPhone・iPadをご利用の方は、<a href="#web_app">Webアプリ版</a>の他、こちらのiOS専用アプリを利用することも可能です
 Webアプリ版と比較して、一部の機能が利用できなくなっております
-[![GATSBY_EMPTY_ALT](../../images/ios-app.png)](https://itunes.apple.com/us/app/nipo/id1385965600?l=ja&amp;ls=1&amp;mt=8)

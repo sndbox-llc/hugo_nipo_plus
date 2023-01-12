@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "日報などに目印としてタグを付けることができます。タグの追加や管理は本ページで紹介しています"
 menuTitle = "タグの管理"
 tags = []
 title = "タグの管理"

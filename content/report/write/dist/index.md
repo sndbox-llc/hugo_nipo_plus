@@ -59,3 +59,6 @@ reqMermaid = true
 {{<alice pos="right" icon="guide">}}
 権限の問題で、全員が読める共有モードと承認リレーはちょっと相性が悪いんです。
 {{</alice>}}
+
+
+承認リレーについては「[承認・棄却・既読](/report/read/state/)」のページにより詳しいガイドが記載されています。

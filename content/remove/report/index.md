@@ -1,4 +1,5 @@
 +++
+description = ""
 menuTitle = "日報を1件削除する"
 tags = []
 title = "日報を1件削除する"

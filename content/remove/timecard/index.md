@@ -1,4 +1,5 @@
 +++
+description = ""
 menuTitle = "タイムカードの削除"
 tags = []
 title = "タイムカードの削除"

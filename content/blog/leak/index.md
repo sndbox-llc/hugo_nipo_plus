@@ -1,8 +1,8 @@
 +++
+description = ""
 title = "日報の提出漏れを見落とさない"
 menuTitle = "日報の提出漏れを見落とさない"
 tags = ['集計']
-# description: "usecase"
 weight = 20221018
 +++
 

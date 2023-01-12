@@ -1,8 +1,8 @@
 +++
-description = ""
+description = "日報やコメント、グループ、アカウントなど作成した様々なデータの削除方法についてまとめています"
 menuTitle = "削除について"
 menuPre = "<b>9. </b>"
-title = "日報やコメントなどの削除"
+title = "データの削除"
 toc = false
 tags = []
 weight = 90

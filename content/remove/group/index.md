@@ -1,4 +1,5 @@
 +++
+description = ""
 menuTitle = "グループの削除"
 tags = []
 title = "グループの削除"

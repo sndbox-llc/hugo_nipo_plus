@@ -1,4 +1,5 @@
 +++
+description = ""
 menuTitle = "下書きについて"
 tags = []
 title = "下書き機能"

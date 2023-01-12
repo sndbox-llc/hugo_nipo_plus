@@ -1,8 +1,8 @@
 +++
+description = ""
 title = "ヒアリングシートをタブレットで。集計や印刷もOK"
 weight = 20221001
 tags = []
-# description: "usecase"
 +++
 
 ## コンサルティングや打ち合わせで使うヒアリングシートをクラウドシステム化

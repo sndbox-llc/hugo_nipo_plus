@@ -6,7 +6,6 @@ title = "日報を読む"
 toc = false
 tags = []
 weight = 20
-reqIcatch = true
 +++
 
 ## 日報受信BOXから目的の日報を見つける

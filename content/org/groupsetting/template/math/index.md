@@ -5,7 +5,6 @@ tags = ["集計可能な入力フォーム"]
 title = "数値入力フォーム"
 toc = true
 weight = 330
-reqIcatch = true
 +++
 
 {{<icatch filename="math" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" desc="数値入力フォームを含んだ日報テンプレートの作成画面" fontsize="30px" alice="ok" >}}

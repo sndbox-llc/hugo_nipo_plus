@@ -6,7 +6,6 @@ title = "カレンダーから日報を確認する"
 toc = false
 tags = []
 weight = 40
-reqIcatch = true
 +++
 
 {{<icatch filename="mapping-reports-to-calendar" msg="カレンダーから日報 を表示できます" title="日報をカレンダー上にレンダリング" desc="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here" >}}

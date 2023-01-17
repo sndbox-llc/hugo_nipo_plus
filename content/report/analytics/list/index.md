@@ -5,8 +5,6 @@ tags = []
 title = "日報の過去データの推移や累積を見る"
 toc = true
 weight = 11
-reqIcatch = true
-
 # aliases = ['/report/read/analytics/']
 +++
 

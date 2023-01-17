@@ -5,8 +5,6 @@ tags = []
 title = "写真入力フォーム"
 toc = true
 weight = 220
-reqIcatch = true
-
 +++
 
 {{<icatch filename="picture" msg="スマホで「パシャッ」 そのまま日報に添付" title="写真入力フォーム" desc="写真入力フォームを含んだ日報テンプレートの例" fontsize="30px" alice="ok" >}}

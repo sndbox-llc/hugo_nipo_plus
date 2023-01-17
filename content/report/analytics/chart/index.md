@@ -5,8 +5,6 @@ tags = []
 title = "日報をグラフ化する"
 toc = true
 weight = 11
-reqIcatch = true
-
 +++
 
 {{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="日報をグラフ化する" desc="日報をグラフ化する" fontsize="30px" alice="guide" >}}

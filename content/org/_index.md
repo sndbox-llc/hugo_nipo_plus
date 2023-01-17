@@ -7,7 +7,6 @@ toc = false
 reqMermaid = true
 weight = 10
 tags = []
-reqIcatch = true
 +++
 
 初期設定とは例えばグループを作成したり、[スタッフアカウントを追加](/org/staff/make/)したり、日報・チェックシートの[テンプレートを作成する](/org/groupsetting/template/make/)といった作業です。

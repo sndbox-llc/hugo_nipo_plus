@@ -7,8 +7,6 @@ toc = false
 tags = []
 weight = 30
 aliases = ['/report/totalling/']
-reqIcatch = true
-
 +++
 
 日報は1枚1枚が独立した報告書であることはご存知のとおりです。

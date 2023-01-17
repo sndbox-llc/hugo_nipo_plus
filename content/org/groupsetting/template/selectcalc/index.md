@@ -6,7 +6,6 @@ title = "選択肢入力（2層式）入力フォーム"
 toc = true
 weight = 140
 reqMermaid = true
-reqIcatch = true
 +++
 
 {{<icatch filename="select-step" msg="Q1の答によって Q2の選択が変化" title="選択肢ステップ入力フォーム" desc="選択肢（2層)を使った日報テンプレートの例" fontsize="30px" alice="ok" >}}

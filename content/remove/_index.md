@@ -6,7 +6,6 @@ title = "データの削除"
 toc = false
 tags = []
 weight = 90
-reqIcatch = true
 +++
 
 {{<icatch filename="delete" msg="個別削除や一括削除 解散や解約について" title="データの削除" desc="安全なデータの削除" fontsize="30px" alice="shield" >}}

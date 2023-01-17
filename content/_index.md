@@ -6,7 +6,6 @@ title = "1名180円 クラウド日報アプリ"
 toc = false
 tags = []
 reqMermaid = false
-reqIcatch = true
 +++
 
 ## NipoPlusは日報の作成・集計ができるWebアプリ

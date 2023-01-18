@@ -103,14 +103,19 @@
     <script>
       window.themeUseSwagger = JSON.parse({{ $.Scratch.Get "swaggerInitialize" }});
     </script>
-{{- end }}
+  {{- end }}
     <script src="{{"js/theme.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
     {{- partial "custom-footer.html" . }}
     <!-- JSON-LD形式のパンくずリスト -->
     {{ partial "breadcrumb-json" . }}
-    <!-- reqIcatchは廃止-->
+    <!-- アプリロゴ -->
+    {{ partial "logo-json" . }}
+    <!-- software JSON-LD -->
+    {{if .Page.IsHome }}
+    {{ partial "software-json" . }}
+    {{ end }}
+    <!-- 画像SVGを動かすためのツールボックス -->
     {{ partial "icatch-js.html" . }}
-
 
   </body>
 </html>

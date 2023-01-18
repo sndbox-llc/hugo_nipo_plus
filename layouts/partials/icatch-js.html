@@ -96,7 +96,11 @@
           var double = '//'
           var pathname =  location.pathname
           var chop = pathname.split('index.html')
-          var targetFileName = `${location.protocol}${double}${location.hostname}:${location.port}${chop[0]}${image.dataset.src}${mode}.png`
+          var getPort = () => {
+            if (location.port) return `:${location.port}`
+            return ''
+          }
+          var targetFileName = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.src}${mode}.png`
           // const width = mode === 'tablet' ? 800 : 300
           // すでにロード済みなら処理を中断
           if (alreadyLoadedImages.findIndex(i => i === targetFileName) !== -1) return

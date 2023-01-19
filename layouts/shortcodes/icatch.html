@@ -6,7 +6,6 @@
 {{ $fontsize := .Get "fontsize" | default "22px" }}
 
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" ($moji)) }}
-
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="withAliceNode" viewBox="0 0 1000 520" preserveAspectRatio="none">
   <title>{{ $title}}</title>
   <desc>{{ $desc }}</desc>
@@ -24,3 +23,18 @@
     <figcaption>{{ $desc }}</figcaption>
   </figure>
 </div>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": {{ $imgTablet.Permalink }},
+    "license": "/system/credit/",
+    "creditText": "sandbox LLC",
+    "creator": {
+      "@type": "Person",
+      "name": "shinya ueda"
+     },
+    "copyrightNotice": "Nipo Plus"
+  }
+</script>
+

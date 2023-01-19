@@ -7,12 +7,12 @@
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $alt := .Get 1 }}
 
-{{ $lg := $img.Resize "1280x webp" }}
+{{ $lg := $img.Resize "980x webp" }}
 {{ $full := $img.Resize "1500x webp" }}
 
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
   <a href="{{ $img.RelPermalink }}" data-featherlight="image">
-  <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}"  srcset="{{ $lg.RelPermalink }} 1280w, {{ $full.RelPermalink }} 1920w" sizes="100vw">
+  <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}"  srcset="{{ $lg.RelPermalink }} 980w, {{ $full.RelPermalink }} 1500w" sizes="100vw">
   </a>
   <figcaption>
     <i style="font-size: 13px;color: #aaa">

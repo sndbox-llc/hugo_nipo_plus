@@ -18,7 +18,6 @@ Vueでグラフを作るには、Vue-chart.jsを使うのが結構簡単です�
 - Chart.js Version 2.9.4
 - TypeScript
 
-
 ### サンプルコード
 
 Chart.jsは最近Version3に更新されましたが、この記事は**Chart.js Version2.9.4**を使っています。  
@@ -35,7 +34,6 @@ Chart.jsは最近Version3に更新されましたが、この記事は**Chart.js
 ```
 
 続いてScript部分。
-
 
 ```typescript
 <script lang="ts">
@@ -88,11 +86,9 @@ getRand関数はランダムな数値の配列を作って返すだけの処理�
 
 {{<imgproc bar_chart.png "chart.jsを使って棒グラフを作成" />}}
 
-
 シャッフルボタンを押すとグラフが再描画されます。
 なおChart.js Version3では再描画時、すでにグラフが生成されているとエラーが発生しますので、先に生成済みのグラフを破壊する必要があります。  
 参考：[公式ガイド](https://www.chartjs.org/docs/latest/developers/api.html#destroy)
-
 
 ## TypescriptとChart.js
 
@@ -101,7 +97,6 @@ getRand関数はランダムな数値の配列を作って返すだけの処理�
 Chart.jsでも型による恩恵を受けることができます。  
 
 {{<imgproc chart_ts.png "chart.jsを使って棒グラフを作成" />}}
-
 
 ## Vue-Chart.jsは不要です。意外と簡単に実装できたchart.js
 

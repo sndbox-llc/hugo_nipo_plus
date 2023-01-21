@@ -11,7 +11,6 @@ weight = 5
 
 {{<icatch filename="version" msg="画面左下にバージョン が記載されています" title="バージョンの確認" desc="ご利用のアプリバージョンは左メニュー下部に記載されています" fontsize="30px" alice="ok" >}}
 
-
 ## バージョンを更新する方法
 
 ご利用のアプリ形態によってバージョンの更新手順は異なります。
@@ -60,7 +59,6 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-
 今回のアップデートは管理者に関する機能がメインです。
 2022年最後のリリースになる予定です。メリークリスマス＆ハッピーニューイヤー
 
@@ -87,7 +85,6 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 - カレンダーに「[月間カレンダー](/calendar/)」機能が追加されました
 - カレンダーから日報を一括でPDFに変換できるようになりました
 - カレンダーから日報を一括でCSV出力できるようになりました
-
 
 ### 2022/12/12 Version 1.22.1
 
@@ -199,12 +196,10 @@ CSV出力時、各項目ごとに列の展開ON/OFFの指定ができるよう�
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 [過去データ推移](/report/analytics/list/)で最大取得件数を10件から30件に拡張しました。（オプションから選択します）過去データ推移で各行ごとに任意の色付けをすることが出来るようになりました。スタッフのアカウントを無効化するとAPIキーも同時に破壊されるように修正しました。手動でAPIキーを破壊できる機能を追加しました。
 
-
 ### 2022/09/07 Version 1.12.3
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 Windows・一部のAndroidでのみ表示されていた日報のスクロールバーを非表示にしました。日報保存箱で表示形式の切替機能が実装されました。アプリ更新プロセスにバグがあったため修正を行いました（PWAとして利用中の方対象）
-
 
 ### 2022/09/02 v1.12.2
 
@@ -220,7 +215,6 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 [可変長の入力](/org/groupsetting/template/array/)時に見出し項目を1行目以外非表示にしました。[期間入力フォーム](/org/groupsetting/template/datetimes/)の表示を一部変更しました
 
-
 ### 2022/08/29 Version 1.12.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
@@ -229,12 +223,10 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 
 [CSV出力](/report/analytics/csv/)オプションに「画像の出力」「コメントの出力」が追加されました
 
-
 ### 2022/08/23 Version 1.11.2
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 日報作成時のテンプレート選択画面で画面表示切り替えの設定を記憶するように修正しました。ログイン画面のデザインを一部変更しました。
-
 
 ### 2022/08/22 Version 1.11.1
 
@@ -335,7 +327,6 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 特定の環境で過去の[データ推移](/report/analytics/list/)が取得できないバグを修正しました
 
-
 ### 2022/07/12 Version 1.5.5
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
@@ -354,8 +345,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)のバージョンを最新版に変更しました。サイトURLの一部変更に伴うリンクの修正を行いました
 
-
-###　2022/07/02 Version 1.5.2
+### 　2022/07/02 Version 1.5.2
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
@@ -377,7 +367,6 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 日報作成後にメール送信ボタンが追加されました。提出専用アカウントでも[自分の日報に限り集計](/report/analytics/)できるようになりました
 
-
 ### 2022/06/23 Version 1.4.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
@@ -391,7 +380,7 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 
 脱字を修正しました。サイトのページ一部変更に伴いリンクを修正しました
 
-### 2022/06/16 Version 1.3.1 
+### 2022/06/16 Version 1.3.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 カレンダー上で日報の表示する方式を「報告者指定日時」と「サーバ基準」から選べるようになりました。日報テンプレートの編集時に表示がずれるバグを修正しました
@@ -426,7 +415,6 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
  CSV出力に「縦列入れ替えオプション」が追加されました
-
 
 ### 2022/05/30 Version 1.0.2
 

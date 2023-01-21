@@ -130,4 +130,3 @@ PreFlight時に発生したエラーメッセージから、**Access-Control-All
 - [Cloud Functions for Firebase で CORS エラーを回避する](https://zenn.dev/ryo_kawamata/articles/cors-on-firebase-functions)
 
 同じ悩みを抱えている方に少しでも役に立てればと思い記事を書きました
-

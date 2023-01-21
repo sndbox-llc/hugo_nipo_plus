@@ -25,7 +25,6 @@ NipoPlusでは日報の作成やコメントのやり取りなど、多くの業
 これは**グループに所属している管理者か編集者**の権限を持つスタッフになります。  
 （スタッフの権限については[こちらを参照](/org/staff/)）
 
-
 ## 次の記事
 
 {{% children description="true" containerstyle="dl" style="dt" %}}

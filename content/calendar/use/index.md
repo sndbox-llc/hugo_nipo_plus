@@ -43,7 +43,6 @@ weight = 20
 
 {{<imgproc task-icon.png "タスクと日報は見た目が異なります" />}}
 
-
 {{<alice pos="right" icon="ok">}}
 タスクはまだおまけ程度の機能ですが今後色々拡張されていく予定です
 {{</alice>}}

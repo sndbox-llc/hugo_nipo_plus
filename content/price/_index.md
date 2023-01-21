@@ -44,7 +44,6 @@ NipoPlusの料金はクレジットカード払いになります。決済代行
 |NipoPlus|180円|10名|1,800円（安いぞ！)|
 |Nipo|200〜500円|5名|2,250円|
 
-
 ## 次の記事
 
 {{% children description="true" containerstyle="dl" style="dt" %}}

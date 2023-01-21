@@ -41,7 +41,6 @@ Cloud Functionsを使った自動バックアップ方法です。詳しくは[�
 GCPの管理画面（ストレージ）を開き、バケットを１つこしらえましょう。  
 ここで注意するべき点は、バケットのリージョンにusを指定するということです。Asia/Tokyoにすると自動バックアップは失敗しますので注意してください。
 
-
 <dl>
   <dt>バケットの名前</dt>
   <dd>わかりやすいものが良いでしょう。xxxx-backupとかそんなんでいいと思います。ここで指定した名前は次の章で利用するので控えておきましょう</dd>
@@ -53,11 +52,9 @@ GCPの管理画面（ストレージ）を開き、バケットを１つこし�
   <dd>[均一]を 選択しましたがどちらでも行けると思います。</dd>
 </dl>
 
-
 ### Cloud Functionsのコード紹介
 
 Cloud functionsはこんなかんじ
-
 
 <Alice>どうやらNodeJSのバージョンが10にあがるとエラーで動かなくなるようです。下のコードはNode10にも対応したバージョンです(2020/12/18修正)</Alice>
 
@@ -139,7 +136,6 @@ firestore deploy –only functions
 
 {{<imgproc pubsub.png "GCP Cloud Pubsubの画面。「今すぐ実行」を押すと予定時刻を待たずに動作確認ができるので便利です" />}}
 
-
 ### アクセス権限を設定する
 
 PROJECT_ID を実際のプロジェクトIDに置き換えて、コンソールから次のコマンドを打ち込みます
@@ -162,7 +158,6 @@ gsutil iam ch serviceAccount:PROJECT_ID@appspot.gserviceaccount.com:admin\
 最後にきちんとバケットにバックアップが書き出されているか確認してみましょう
 
 {{<imgproc gcp_storage.png "GCPのバケット確認画面" />}}
-
 
 ### うまく動かないとき
 

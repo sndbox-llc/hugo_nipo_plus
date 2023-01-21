@@ -18,7 +18,6 @@ weight = 20
 
 {{<appscreen filename="email-edit" title="ログインメールアドレスの変更" desc="ログインメールアドレスの変更画面。変更時にログインパスワードの入力が必要です" >}}
 
-
 {{<alice pos="right" icon="shield">}}
 アカウント保護のため受信可能なメアドを使用してくださいね！
 {{</alice>}}

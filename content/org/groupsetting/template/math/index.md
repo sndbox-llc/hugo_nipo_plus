@@ -35,7 +35,6 @@ weight = 330
 
 {{<appscreen filename="math-template-edit" title="日報テンプレートの編集画面" desc="数値入力フォームだけで構成されたテンプレートの作成画面イメージ。単位や色などはここで自由に変更可能です" >}}
 
-
 ## 数値入力フォームの日報を書く
 
 {{<appscreen filename="input" title="数値入力フォームの入力画面イメージ。" desc="数値入力を含んだ日報の入力画面" >}}

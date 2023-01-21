@@ -25,7 +25,5 @@ weight = 10
 <textarea name="example" cols="30" rows="6">
 ---報告内容---
 
-
 ---引き継ぎ---
 </textarea>
-

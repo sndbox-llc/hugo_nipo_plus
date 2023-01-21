@@ -113,7 +113,6 @@ register(process.env.SERVICE_WORKER_FILE, {
 quasar.conf.jsはQuasar独自の設定ファイルです。他のフレームワークだと別のファイルになると思います
 {{</alice>}}
 
-
 ```javascript
 // quasar.conf.jsです
     // コードが長いため上の部分は省略します

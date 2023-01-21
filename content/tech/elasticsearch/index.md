@@ -105,9 +105,6 @@ async function makeElastic () {
 
 {{<imgproc terminal.png "ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました。シンプルだけど自分しか使わないならこのくらいでも必要十分ですね" />}}
 
-
-
-
 ### Cloud FunctionsでFirestoreのデータをElastic Searchへプッシュする
 
 Cloud FunctionsでFireStoreの変化を検出し、ElasticSearchへデータを書き込むような処理を書きます。

@@ -53,7 +53,9 @@ weight = 170
 
 {{<appscreen filename="pie-charts" title="日報の表示" desc="チェックボックスを含んだ日報の受信者からみた画面" >}}
 
-グラフの作り方については[日報をグラフ化する](/report/analytics/chart/)のページを御覧ください。
+{{<button "/report/analytics/chart/" "日報をグラフ化する">}}
+
+
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|検索|
 |:---:|:---:|:---:|:---:|

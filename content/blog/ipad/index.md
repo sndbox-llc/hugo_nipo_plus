@@ -4,6 +4,7 @@ menuTitle = "タブレットで日報を作成する"
 tags = []
 title = "タブレットで日報を作成する"
 weight = 20221020
+draft = true
 +++
 
 

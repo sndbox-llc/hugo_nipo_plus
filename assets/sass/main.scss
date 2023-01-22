@@ -1,4 +1,8 @@
 // 本文エリア用のCSS
+
+#body .flex-block-wrapper {
+  padding-top: 50px;
+}
 #body-inner {
   h1 {
     color: $baseColor;

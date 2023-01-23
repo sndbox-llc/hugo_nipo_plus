@@ -27,6 +27,13 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2023/01/23 Version 1.26.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+
+- テンプレートに付する説明用画像の画質を「低・中・高」の3段階から選択可能になりました（リクエスト）
+- 細かい文言の修正を行いました
+
 ### 2023/01/16 Version 1.25.2
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}

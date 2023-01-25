@@ -1,7 +1,7 @@
 +++
 chapter = false
 description = "初めてご利用の方向けのガイドです。アカウント作成から実際に日報を作成するまでの基本的な流れを画像つきでわかりやすく解説"
-menuTitle = "クイックスタートガイド"
+menuTitle = "クイックスタート"
 menuPre = "<b>0. </b>"
 title = "導入から初めて日報を書くまでの流れを紹介"
 toc = true

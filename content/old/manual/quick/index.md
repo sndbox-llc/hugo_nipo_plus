@@ -1,6 +1,6 @@
 +++
 description = "アカウントの作成から日報の作成までの基本的な流れを順に解説しています"
-menuTitle = "クイックスタートガイド"
+menuTitle = "クイックスタート"
 title = "クイックスタートガイド"
 toc = false
 weight = 100

@@ -1,7 +1,3 @@
-/* this variant does not work well if we use fallback styles for IE11 so better
-   ignore this variant in IE completely */
-@supports not (-ms-high-contrast:none) {
-
 /* here in this showcase we use our own modified chroma syntax highlightning style;
    if you want to use a predefined style instead:
    - remove `markup.highlight.noClasses` from your config.toml
@@ -9,9 +5,14 @@
    - remove the following `@import` of the self-defined chroma stylesheet */
 @import "chroma-neon.css";
 
+/* this variant does not work well if we use fallback styles for IE11 so better
+   ignore this variant in IE completely */
+@supports not (-ms-high-contrast:none) {
+
 :root {
     --PRIMARY-color: #f300b2; /* brand primary color */
     --SECONDARY-color: #1c90f3; /* brand secondary color */
+    --ACCENT-color: #ffaa00; /* brand accent color, used for search highlights */
 
     --MAIN-TEXT-color: #e0e0e0; /* text color of content and h1 titles */
     --MAIN-LINK-HOVER-color: #4cabff; /* hovered link color of content */

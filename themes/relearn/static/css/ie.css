@@ -65,6 +65,10 @@
 		border-bottom-left-radius: 0;
 	}
 
+	article ul li:has(input[type="checkbox"]) {
+		margin-left: -1rem;
+	}
+
 	/* set default colors as in variant.css for IE11 */
 	body {
 		background-color: #ffffff; /* var(--MAIN-BG-color) */
@@ -103,6 +107,22 @@
 	.searchbox {
 		border-color: #e0e0e0; /* var(--MENU-SEARCH-BORDER-color) */
 		background-color: #323232; /* var(--MENU-SEARCH-BG-color) */
+	}
+
+	.searchbox input:-ms-input-placeholder {
+		color: #e0e0e0; /* var(--INTERNAL-MENU-SEARCH-color) */
+		opacity: .45;
+	}
+
+	#sidebar .searchbox > :first-child,
+	#sidebar .searchbox button,
+	.searchbox span {
+		color: #e0e0e0; /* var(--INTERNAL-MENU-SEARCH-color) */
+	}
+
+	.searchform input:-ms-input-placeholder {
+		color: rgba( 134, 134, 134 );
+		opacity: .666;
 	}
 
 	#sidebar .collapsible-menu .toggle,
@@ -148,6 +168,10 @@
 
 	#footer {
 		color: #bababa; /* var(--MENU-SECTIONS-LINK-color) */
+	}
+
+	mark {
+		background-color: #ffff00;
 	}
 
 	h1 {
@@ -221,6 +245,14 @@
 		color: #101010; /* var(--INTERNAL-MAIN-TEXT-color) */
 	}
 
+	div.box.accent {
+		background-color: #ff88ff; /* var(--INTERNAL-ACCENT-color) */
+	}
+
+	div.box.accent > .box-content {
+		color: #101010; /* var(--INTERNAL-MAIN-TEXT-color) */
+	}
+
 	div.box.blue {
 		background-color: rgba( 48, 117, 229, 1 ); /* var(--INTERNAL-BOX-BLUE-color) */
 	}
@@ -291,6 +323,10 @@
 		background-color: #f8f8f8; /* var(--CODE-BLOCK-BG-color) */
 		border-color: #d8d8d8; /* var(--CODE-BLOCK-BORDER-color) */
 		color: #000000; /* var(--CODE-BLOCK-color) */
+	}
+
+	table {
+		background-color: #ffffff; /* var(--INTERNAL-MAIN-BG-color) */
 	}
 
 	div.featherlight .featherlight-content{
@@ -418,6 +454,14 @@
 		border-color: #486ac9; /* var(--SECONDARY-color) */
 	}
 
+	.btn.cstyle.accent {
+		background-color: #ff88ff; /* var(--ACCENT-color) */
+	}
+
+	.btn.cstyle.accent > * {
+		border-color: #ff88ff; /* var(--ACCENT-color) */
+	}
+
 	.btn.cstyle.blue {
 		background-color: rgba( 48, 117, 229, 1 ); /* var(--BOX-BLUE-color) */
 	}
@@ -496,11 +540,6 @@
 		border-color: rgba( 16, 16, 16, 1 ); /* var(--BOX-TEXT-color) */
 	}
 
-	.badge > .badge-title {
-		background-color: rgba( 16, 16, 16, 1 ); /* var(--BOX-TEXT-color) */
-		color: rgba( 255, 255, 255, .833 ); /* var(--BOX-BG-color) */
-	}
-
 	.badge > .badge-content {
 		background-color: rgba( 128, 128, 128, 1 ); /* var(--INTERNAL-BOX-NEUTRAL-color) */
 		color: rgba( 255, 255, 255, 1 ); /* var(--BOX-CAPTION-color) */
@@ -536,6 +575,11 @@
 		color: #101010; /* var(--INTERNAL-MAIN-TEXT-color) */
 	}
 
+	.badge.accent > .badge-content {
+		background-color: #ff88ff; /* var(--INTERNAL-ACCENT-color) */
+		color: #101010; /* var(--INTERNAL-MAIN-TEXT-color) */
+	}
+
 	.badge.blue > .badge-content {
 		background-color: rgba( 48, 117, 229, 1 ); /* var(--INTERNAL-BOX-BLUE-color) */
 		color: rgba( 16, 16, 16, 1 ); /* var(--INTERNAL-BOX-BLUE-TEXT-color) */
@@ -564,6 +608,15 @@
 	.badge.transparent > .badge-content {
 		background-color: transparent;
 		color: #4a4a4a; /* var(--MAIN-TITLES-TEXT-color) */
+	}
+
+	article ul li input[type="checkbox"] {
+		background-color: #ffffff; /* var(--INTERNAL-MAIN-BG-color); */
+		color: #101010; /* var(--INTERNAL-MAIN-TEXT-color) */
+	}
+
+	article ul li input[type="checkbox"]::before {
+		box-shadow: inset 1em 1em #7dc903; /* var(--INTERNAL-PRIMARY-color) */
 	}
 
 	/* set further styles to fix broken stuff in IE11 */
@@ -599,15 +652,5 @@
 	.select-style select::-ms-expand {
 		/* hide the triangle */
 		display: none;
-	}
-
-	.searchbox input:-ms-input-placeholder {
-		color: rgba( 255, 255, 255, .4 );
-		opacity: 1;
-	}
-
-	.searchform input:-ms-input-placeholder {
-		color: rgba( 134, 134, 134, .666 );
-		opacity: 1;
 	}
 }

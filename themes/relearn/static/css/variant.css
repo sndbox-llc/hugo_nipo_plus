@@ -3,6 +3,7 @@
     this is only possible because every color variant defines this variable, otherwise we would have been lost */
     --INTERNAL-PRIMARY-color: var(--PRIMARY-color, var(--MENU-HEADER-BG-color, rgba( 0, 0, 0, 0 ))); /* not --INTERNAL-MENU-HEADER-BG-color */
     --INTERNAL-SECONDARY-color: var(--SECONDARY-color, var(--MAIN-LINK-color, #486ac9)); /* not --INTERNAL-MAIN-LINK-color */
+    --INTERNAL-ACCENT-color: var(--ACCENT-color, #ffff00);
 
     --INTERNAL-MAIN-LINK-color: var(--MAIN-LINK-color, var(--SECONDARY-color, #486ac9)); /* not --INTERNAL-SECONDARY-color */
     --INTERNAL-MAIN-LINK-HOVER-color: var(--MAIN-LINK-HOVER-color, var(--INTERNAL-MAIN-LINK-color));
@@ -138,6 +139,17 @@ a:hover,
     background-color: var(--INTERNAL-MENU-SEARCH-BG-color);
 }
 
+#sidebar .searchbox > :first-child,
+#sidebar .searchbox button,
+.searchbox span {
+    color: var(--INTERNAL-MENU-SEARCH-color);
+}
+
+.searchbox input::-webkit-input-placeholder,
+.searchbox input::placeholder {
+    color: var(--INTERNAL-MENU-SEARCH-color);
+}
+
 #sidebar .collapsible-menu .toggle,
 #sidebar .select-container,
 #sidebar a,
@@ -181,6 +193,10 @@ a:hover,
 
 #footer {
     color: var(--INTERNAL-MENU-SECTIONS-LINK-color);
+}
+
+mark {
+    background-color: var(--INTERNAL-ACCENT-color);
 }
 
 h1 {
@@ -256,6 +272,11 @@ div.box > .box-content {
     --VARIABLE-BOX-TEXT-color: var(--INTERNAL-MAIN-TEXT-color);
 }
 
+.cstyle.accent {
+    --VARIABLE-BOX-color: var(--INTERNAL-ACCENT-color);
+    --VARIABLE-BOX-TEXT-color: var(--INTERNAL-MAIN-TEXT-color);
+}
+
 .cstyle.blue {
     --VARIABLE-BOX-color: var(--INTERNAL-BOX-BLUE-color);
     --VARIABLE-BOX-TEXT-color: var(--INTERNAL-BOX-BLUE-TEXT-color);
@@ -305,6 +326,10 @@ pre {
     background-color: var(--INTERNAL-CODE-BLOCK-BG-color);
     border-color: var(--INTERNAL-CODE-BLOCK-BORDER-color);
     color: var(--INTERNAL-CODE-BLOCK-color);
+}
+
+table {
+    background-color: var(--INTERNAL-MAIN-BG-color);
 }
 
 div.featherlight .featherlight-content{
@@ -419,11 +444,6 @@ pre .copy-to-clipboard-button:hover {
 
 .badge > * {
     border-color: var(--VARIABLE-BOX-TEXT-color);
-}
-
-.badge > .badge-title {
-    background-color: var(--VARIABLE-BOX-TEXT-color);
-    color: var(--VARIABLE-BOX-BG-color);
 }
 
 .badge > .badge-content {

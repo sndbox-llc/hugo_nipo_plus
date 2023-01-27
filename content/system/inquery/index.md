@@ -37,7 +37,7 @@ weight = 900
       const selectNode = document.querySelector("input:checked[name=targetRadio]")
       if (selectNode === null) return
       let img = document.createElement('img')
-      img.src = selectNode.value === 'Nipo' ? '/images/nipologo.png' : '/images/app-icon.png'
+      img.src = selectNode.value === 'Nipo' ? '/images/nipologo.svg' : '/images/favicon.svg'
       img.id = 'icon'
       img.width = 200
       const oldimg = document.getElementById('icon')

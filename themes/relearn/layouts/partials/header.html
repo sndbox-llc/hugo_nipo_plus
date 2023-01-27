@@ -17,25 +17,35 @@
     {{- $title = printf "%s%s" $title .Site.Title }}
     <title>{{ $title }}</title>
 
+    {{- if .IsTranslated -}}
+      {{- range $index, $trans := .AllTranslations }}
+        {{- if eq $index 0 }}
+    <link href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" . "abs" true "basename" $basename) }}" rel="alternate" hreflang="x-default">
+        {{- end }}
+    <link href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" . "abs" true "basename" $basename) }}" rel="alternate" hreflang="{{ .Language.Lang }}">
+      {{- end }}
+    {{- end }}
+
     {{- if not (and .Title (or (ne (.Scratch.Get "relearnIsHiddenStem") true) (ne .Site.Params.disableSeoHiddenPages true) ) ) }}
     {{- else }}
-        {{- range .AlternativeOutputFormats }}
-            {{- if eq .Rel "canonical" }}
+      {{- range .AlternativeOutputFormats }}
+        {{- if eq .Rel "canonical" }}
     {{ (printf $link (partial "relLangPrettyUglyURL.hugo" (dict "to" . "abs" true "basename" $basename)) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
-            {{- else if eq $outputFormat "searchpage" }}
-            {{- else if eq .Name "SEARCHPAGE" }}
-            {{- else if and (ne .Name "JSON") (ne .Name "SEARCH") }}
+        {{- else if eq $outputFormat "searchpage" }}
+        {{- else if eq .Name "SEARCHPAGE" }}
+        {{- else if and (ne .Name "JSON") (ne .Name "SEARCH") }}
     {{ (printf $link (partial "relLangPrettyUglyURL.hugo" (dict "to" .)) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
-            {{- end }}
         {{- end }}
+      {{- end }}
     {{- end }}
+
     {{- if and (ne .Site.Params.disableSeoHiddenPages true) (ne .Site.Params.disableSearchHiddenPages true) }}
-        {{- range .AlternativeOutputFormats }}
-            {{- if eq .Name "SEARCHPAGE" }}
-            {{- else if eq .Name "JSON" }}
+      {{- range .AlternativeOutputFormats }}
+        {{- if eq .Name "SEARCHPAGE" }}
+        {{- else if eq .Name "JSON" }}
     {{ (printf $link (.Permalink | relURL) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
-            {{- end }}
         {{- end }}
+      {{- end }}
     {{- end }}
 
     {{- partialCached "favicon.html" . }}
@@ -90,7 +100,7 @@
         {{- if and (eq $outputFormat "html") .Site.Params.editURL $File }}
           {{- with $File.Path }}
           <div id="top-github-link">
-            <a class="github-link" title='{{ T "Edit-this-page" }} (CTRL+ALT+w)' href="{{ $Site.Params.editURL }}{{ replace $File.Dir "\\" "/" }}{{ $File.LogicalName }}" target="blank">
+            <a class="github-link" title='{{ T "Edit-this-page" }} (CTRL+ALT+w)' href="{{ $Site.Params.editURL }}{{ replace $File.Dir "\\" "/" }}{{ $File.LogicalName }}" target="_blank">
               <i class="fas fa-pen fa-fw"></i>
             </a>
           </div>
@@ -134,7 +144,7 @@
   {{- $page := .page }}
   {{- $to := .to }}
   {{- $breadcrumb = $breadcrumb | append $to }}
-  {{- range seq (len .to.Site.Home.Pages) }}
+  {{- range seq (len .to.Site.AllPages) }}
     {{- $to = $to.Parent }}
     {{- if $to }}
       {{- $breadcrumb = $breadcrumb | append $to }}

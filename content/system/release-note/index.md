@@ -27,6 +27,15 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2023/01/28 Version 1.27.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
+- [数値入力フォーム](/org/groupsetting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
+- [スタッフ権限](/org/staff/)に「ゲスト権限」が追加されました（リクエスト）
+
 ### 2023/01/23 Version 1.26.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}

@@ -60,6 +60,12 @@
     {{- partial "custom-header.html" . }}
   </head>
   <body class="mobile-support {{ $outputFormat }}{{- if .Site.Params.disableInlineCopyToClipBoard }} disableInlineCopyToClipboard{{ end }}" data-url="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}">
+    {{ if not .Site.IsServer }}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCF96WN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {{ end }}
+
     <div id="body" class="default-animation">
       <!-- テーマ純正のTOC 使わない -->
       <div id="sidebar-overlay"></div>

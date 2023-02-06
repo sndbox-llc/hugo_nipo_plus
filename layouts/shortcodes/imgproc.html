@@ -9,9 +9,9 @@
 
 {{ $lg := $img.Resize "780x webp" }}
 {{ $full := $img.Resize "1500x webp" }}
-
+{{ $id := partial "make-random-md5.hugo" }}
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
-  <a href="{{ $img.RelPermalink }}" data-featherlight="image">
+  <a href="#{{ $id }}" class="lightbox-link">
   <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}"  srcset="{{ $lg.RelPermalink }} 780w, {{ $full.RelPermalink }} 1500w" sizes="100vw">
   </a>
   <figcaption>
@@ -24,3 +24,7 @@
     </i>
   </figcaption>
 </figure>
+
+<a href="javascript:history.back();" class="lightbox" id="{{ $id }}">
+  <img src="{{ $img.RelPermalink }}" alt="{{$alt}}" class="lightbox-image" loading="lazy">
+</a>

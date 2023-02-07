@@ -1,4 +1,14 @@
+// hugo relean組み込みのCSS
+@import "./theme/fontawesome-all.min.scss";
+@import "./theme/auto-complete.scss";
+@import "./theme/perfect-scrollbar.min.scss";
+@import "./theme/nucleus.scss";
+@import "./theme/fonts.scss";
+@import "./theme/variant.scss";
+
+
 // NipoPlus用カラーテーマをインポートしたタイプ
+
 @import "fukidashi.scss";
 @import "slide.scss";
 @import "flexy.scss";

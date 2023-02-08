@@ -32,7 +32,7 @@ enableRobotsTXT = true
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar
-  disableSearch = false
+  disableSearch = true
   # Disable search in hidden pages, otherwise they will be shown in search box
   disableSearchHiddenPages = false
   # Disables hidden pages from showing up in the sitemap and on Google (et all), otherwise they may be indexed by search engines

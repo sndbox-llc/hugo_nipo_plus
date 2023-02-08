@@ -22,15 +22,20 @@
     {{- if not .Site.Params.disableSearch }}
 {{ partial "search.html" . }}
     {{- end }}
+    <!--{{ partial "mySearch.html" . }}-->
+
   </div>
   {{- if not .Site.Params.disableLandingPageButton }}
   <div id="homelinks" class="default-animation">
+
     <ul>
       <li><a class="padding" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .Site.Home) }}">{{ .Site.Params.landingPageName | default `<i class="fas fa-home"></i> Home` | safeHTML }}</a></li>
     </ul>
   </div>
   {{- end }}
   <div id="content-wrapper" class="highlightable">
+    <div id="result"></div>
+
     <ul class="topics{{ if .Site.Params.collapsibleMenu }} collapsible-menu{{ end }}">
       {{- $defaultOrdersectionsby := .Site.Params.ordersectionsby | default "weight" }}
       {{- $currentOrdersectionsby := .Site.Home.Params.ordersectionsby | default $defaultOrdersectionsby }}

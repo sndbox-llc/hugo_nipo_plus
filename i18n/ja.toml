@@ -1,5 +1,5 @@
 [Search-placeholder]
-other = "検索..."
+other = "検索（3文字以上"
 
 [Clear-History]
 other = "履歴削除"

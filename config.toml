@@ -112,7 +112,7 @@ url = "https://twitter.com/nipo_plus"
 weight = 30
 
 [outputs]
-   home = [ "HTML", "JSON", "SEARCH" ]
+   home = [ "HTML", "JSON" ]
 
 [markup]
   [markup.goldmark]

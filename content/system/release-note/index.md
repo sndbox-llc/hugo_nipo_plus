@@ -32,6 +32,12 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2023/02/10 Version 1.28.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+
+異なるテンプレート間の集計を行える機能（[クロス集計](/report/analytics/cross/)と命名）を実装しました
+
 ### 2023/02/04 サーバサイド更新
 
 - 日報をPDFに出力する際、曜日をあわせて出力するように修正しました

@@ -32,11 +32,19 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2023/02/11 Version 1.29.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
+- テンプレートコピー時に提出先情報も含めてコピーされるように機能を変更しました（リクエスト）
+
 ### 2023/02/10 Version 1.28.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
-異なるテンプレート間の集計を行える機能（[クロス集計](/report/analytics/cross/)と命名）を実装しました
+- 異なるテンプレート間の集計を行える機能（[クロス集計](/report/analytics/cross/)と命名）を実装しました
 
 ### 2023/02/04 サーバサイド更新
 

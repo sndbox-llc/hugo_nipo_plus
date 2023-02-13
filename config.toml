@@ -28,7 +28,7 @@ enableRobotsTXT = true
   # Author of the site, will be used in meta information
   author = "sandbox.LLC"
   # Description of the site, will be used in meta information
-  description = "日報の提出漏れチェックや集計のためエクセルへの転記はもう不要です。かんたん日報App。無料から始めよう"
+  description = "ドラッグ操作でオリジナルの日報テンプレートが作れるクラウド型業務日報アプリです。無料プランあり。集計グラフ化やPDF出力も完備"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar

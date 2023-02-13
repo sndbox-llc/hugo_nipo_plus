@@ -7,8 +7,9 @@ toc = false
 weight = 20221001
 +++
 
+{{<icatch filename="csvsc" msg="CSVファイルを ドラッグで連結" title="複数のCSVファイルを1つに結合" desc="ドラッグ操作だけでかんたんにCSVファイルを1つに連結します" fontsize="30px" alice="here" >}}
 
-{{<imgproc csvsc.png "CSVをドラッグ操作で簡単に連結できるWebアプリ[CSVSC]無料です" />}}
+
 
 [CSVSCを起動する](https://code.sndbox.jp/csvsc/#/)  
 
@@ -138,7 +139,8 @@ B.csvが
 
 非常にシンプルなので、使い方を書くほどのものではありませんが一応操作ガイドを載せておきます。
 
-{{<imgproc guide.png "基本的にはドロップとダウンロードボタンしか使いません。簡単にCSVファイルを結合できます" />}}
+{{<appscreen filename="guide" title="CSV連結の手順" desc="基本的にはドロップとダウンロードボタンしか使いません。簡単にCSVファイルを結合できます" >}}
+
 
 1. [CSVSCを起動](https://code.sndbox.jp/csvsc/#/)します
 1. CSVファイルを所定のエリアにドラッグ＆ドロップします

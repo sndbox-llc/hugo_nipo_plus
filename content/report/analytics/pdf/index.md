@@ -20,7 +20,7 @@ aliases = ['/report/totalling/pdf/']
 
 一番シンプルな方法はカレンダーからPDF出力を行う方法です。
 
-{{<appscreen filename="calendar-pdf" title="日報を一括でPDFに変換（カレンダーから）" desc="カレンダーの表示月を指定してその月の日報をまとめてPDFに変換できます" >}}
+{{<appscreen filename="calendar-pdf" title="日報を一括でPDFに変換（カレンダーから）"  >}}
 
 月間カレンダーの場合はその月の日報すべてをPDFに変換してダウンロードできます。
 週間カレンダーの場合は指定した期間の日報をすべてPDFに変換します。
@@ -31,7 +31,7 @@ aliases = ['/report/totalling/pdf/']
 
 日報保存箱の一覧から日報をまとめてPDFに変換することもできます。
 
-{{<appscreen filename="box-pdf" title="日報を一括でPDFに変換（日報保存箱から）" desc="日報保存箱に表示されている日報をまとめてPDFに変換します" >}}
+{{<appscreen filename="box-pdf" title="日報保存箱に表示されている日報をまとめてPDFに変換します"  >}}
 
 日報保存箱では日報の表示期間変更や、スタッフ、テンプレート、状態による絞り込みの検索が可能です。
 検索や絞り込みを組み合わせて特定の種類の日報のみをPDFに変換することもできます。
@@ -39,7 +39,7 @@ aliases = ['/report/totalling/pdf/']
 
 例えば日報の状態が「修正」のものだけをリストアップし、それをまとめてPDFに変換できます。
 
-{{<appscreen filename="filter-pdf" title="日報を一括でPDFに変換（日報保存箱から）" desc="日報保存箱に表示されている日報をまとめてPDFに変換します" >}}
+{{<appscreen filename="filter-pdf" title="特定の日報だけをリストアップしてPDFに出力する"  >}}
 
 ## 日報を見てPDF出力リストに追加後まとめてPDF変換
 
@@ -50,7 +50,7 @@ aliases = ['/report/totalling/pdf/']
 1. 「登録分をまとめてダウンロード」をクリックする
 1. ZIPファイルとしてダウンロードされる
 
-{{<appscreen filename="add-pdf" title="日報を見ながらPDF出力リストに追加していく" desc="PDF出力(一括)をクリックすると表示中の日報がPDFファイルの変換候補としてリストアップされます" >}}
+{{<appscreen filename="add-pdf" title="日報を見ながらPDF出力リストに追加していく"  >}}
 
 クリックした日報は「PDFに登録済み」と表示されボタンが押せなくなります。他の日報に表示を切り替えることでボタンが押せるようになります。
 出力したい日報をリストアップしていきます。

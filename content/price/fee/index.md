@@ -19,12 +19,12 @@ weight = 30
 1. 組織全般までスクロール
 1. 状態の行にある鉛筆アイコンをクリック
 
-{{<appscreen filename="join" title="プラン変更" desc="組織設定からGOLD PLANへ申込みができます" >}}
+{{<appscreen filename="join" title="組織設定からGOLD PLANへ申込みができます"  >}}
 
 お申し込み画面へ切り替わります。
 必要事項を記入の上、送信ボタンを押してください。
 
-{{<appscreen filename="credit-card" title="クレジットカード番号の入力" desc="クレジットカード番号や申込み人数などの必要事項を記入してください" >}}
+{{<appscreen filename="credit-card" title="クレジットカード番号や申込み人数などの必要事項を記入してください"  >}}
 
 |名称|説明|
 |---|---|
@@ -43,7 +43,7 @@ weight = 30
 
 有料プランに切り替わると組織全般の状態が「GOLD PLAN(自動更新有り)」に変化し、アカウント数の分母がお申込人数に変化します。
 
-{{<appscreen filename="change" title="申し込み完了後の画面" desc="申込後のステータス変化。アカウント上限と状態が変化している" >}}
+{{<appscreen filename="change" title="申込後のステータス変化。アカウント上限と状態が変化している"  >}}
 
 また、画面下部には詳細なお支払情報画面が追加されます。
 

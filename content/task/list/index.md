@@ -7,4 +7,4 @@ toc = true
 weight = 20
 +++
 
-{{<appscreen filename="mock" title="準備中" desc="準備中" >}}
+{{<appscreen filename="mock" title="準備中"  >}}

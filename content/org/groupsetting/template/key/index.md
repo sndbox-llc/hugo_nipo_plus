@@ -12,11 +12,11 @@ weight = 999
 テンプレートの中の項目は、不要になった際削除することができます。
 仮に次のような日報テンプレートがあったとしましょう。
 
-{{<appscreen filename="pre-report" title="日報のサンプル" desc="削除前の日報" >}}
+{{<appscreen filename="pre-report" title="削除前の日報"  >}}
 
 ここから「業務報告」を削除したいときは、テンプレート編集から「業務報告」のゴミ箱アイコンをクリックして削除できます。
 
-{{<appscreen filename="field-delete" title="日報から1つのフィールドを削除する" desc="特定のフィールドを日報テンプレートから削除する" >}}
+{{<appscreen filename="field-delete" title="特定のフィールドを日報テンプレートから削除する"  >}}
 
 これで削除が完了しました。
 
@@ -26,12 +26,12 @@ weight = 999
 テンプレートデータから枠組みを生成し、そこに日報の本体データを流し込むことで日報を画面に表示します。
 つまりテンプレートから**フォームを消すと過去の日報で書かれたフォームも表示されない**ことになります。
 
-{{<appscreen filename="invisible" title="削除されたフィールドが表示されなくなる" desc="過去に書かれた日報もさかのぼって適用される" >}}
+{{<appscreen filename="invisible" title="過去に書かれた日報もさかのぼって適用される"  >}}
 
 業務報告の内容は表示されないだけでデータとしては残っています。Rawデータから確認することができます。
 Rawデータは「詳細情報」「生データを表示」の順にクリックして表示できます。
 
-{{<appscreen filename="raw-data" title="日報のRawデータ" desc="RawデータはJSONと呼ばれる形式で保存されています。" >}}
+{{<appscreen filename="raw-data" title="RawデータはJSONと呼ばれる形式で保存されています。"  >}}
 
 RawデータはJSONと呼ばれる形式で保存されます。JSONの仕組みはとてもシンプルで、"キー名": "実データ"の形式で表現します。
 
@@ -61,7 +61,7 @@ RawデータはJSONと呼ばれる形式で保存されます。JSONの仕組み
 1. スパナアイコンをクリック
 1. 控えていたキー名を入力
 
-{{<appscreen filename="edit-key" title="日報のRawデータ" desc="RawデータはJSONと呼ばれる形式で保存されています。" >}}
+{{<appscreen filename="edit-key" title="RawデータはJSONと呼ばれる形式で保存されています。"  >}}
 
 最後にテンプレートを保存してください。これで誤って削除した入力フォームが完全な形で復元できました。
 

@@ -34,7 +34,7 @@ weight = 170
 
 以下の画像は先程作成したテンプレートを使って実際に入力画面を表示したものです。
 
-{{<appscreen filename="input" title="チェックボックスの入力画面イメージ" desc="チェックシートの入力画面イメージ。左はipad・右はiPhoneのサイズでそれぞれ表示している" >}}
+{{<appscreen filename="input" title="チェックシートの入力画面イメージ。左はipad・右はiPhoneのサイズでそれぞれ表示している"  >}}
 
 設定で見た目をチェックボックスとラジオスイッチの2種類から選べますが、使い方は一緒です。
 入力の仕方は改めて説明するまでもありませんね。タップやクリックでON。もう一度タップやクリックでOFF。これだけです。
@@ -46,12 +46,12 @@ weight = 170
 
 チェックボックスは**日報作成時とほぼ同じ見た目**のままで表示されます。ですが日報の内容は読み取り専用なのでクリックはできません。
 
-{{<appscreen filename="post" title="日報の表示" desc="チェックボックスを含んだ日報の受信者からみた画面" >}}
+{{<appscreen filename="post" title="チェックボックスを含んだ日報の受信者からみた画面"  >}}
 
 また画面をもっと下にスクロールするとデータ推移のエリア、そしてグラフエリアが出現します。
 **チェックボックスのデータはデータ推移もグラフ化も利用可能**です。
 
-{{<appscreen filename="pie-charts" title="日報の表示" desc="チェックボックスを含んだ日報の受信者からみた画面" >}}
+{{<appscreen filename="pie-charts" title="グラフ化"  >}}
 
 {{<button "/report/analytics/chart/" "日報をグラフ化する">}}
 
@@ -72,7 +72,7 @@ weight = 170
 
 出力設定の変更は日報テンプレートの編集画面（本ページ上）か、CSV出力設定から行えます。
 
-{{<appscreen filename="csvsetting" title="CSV出力の設定" desc="CSVの出力前設定。チェックボックスは列の展開をON・OFF切り替えが可能です" >}}
+{{<appscreen filename="csvsetting" title="CSVの出力前設定。チェックボックスは列の展開をON・OFF切り替えが可能です"  >}}
 
 最後に、PDFに出力したときのイメージは以下からダウンロードできます
 

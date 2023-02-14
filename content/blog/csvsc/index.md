@@ -139,7 +139,7 @@ B.csvが
 
 非常にシンプルなので、使い方を書くほどのものではありませんが一応操作ガイドを載せておきます。
 
-{{<appscreen filename="guide" title="CSV連結の手順" desc="基本的にはドロップとダウンロードボタンしか使いません。簡単にCSVファイルを結合できます" >}}
+{{<appscreen filename="guide" title="基本的にはドロップとダウンロードボタンしか使いません。簡単にCSVファイルを結合できます"  >}}
 
 
 1. [CSVSCを起動](https://code.sndbox.jp/csvsc/#/)します

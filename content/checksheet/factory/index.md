@@ -1,10 +1,11 @@
 +++
 description = "蓄積したチェックシートデータをグラフ化・集計・CSV出力して分析できます。"
-menuTitle = "チェックシートを集計する"
+menuTitle = "集計/P管理図/データシート"
 tags = []
 title = "製造業チェックシートで集計や不良率ランキングを自動計算"
 toc = false
-weight = 20220724
+weight = 10
+aliases = ['/blog/checksheet/']
 +++
 
 NipoPlusはもともと日報用のアプリでしたが、今ではどちらかというと製造業向けのアプリになりつつあります。

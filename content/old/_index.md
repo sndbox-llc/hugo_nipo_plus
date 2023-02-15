@@ -1,7 +1,7 @@
 +++
 description = "旧バージョンNipoについて"
-menuTitle = "旧バージョン"
-menuPre = "<b>X</b>"
+menuTitle = "旧版Nipo"
+menuPre = "<b>-.</b>"
 title = "簡単！クラウド日報"
 toc = false
 tags = []

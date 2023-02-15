@@ -5,6 +5,8 @@ tags = []
 title = "製造業のチェックシートをシステム化"
 toc = true
 weight = 20220720
+aliases = ['/blog/maker/']
+
 +++
 
 

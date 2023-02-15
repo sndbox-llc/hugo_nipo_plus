@@ -76,9 +76,9 @@
           <a href="#" id="sidebar-toggle" class="topbar-link" title='{{ T "Navigation-toggle" }}'><i class="fas fa-bars fa-fw"></i></a>
         </span>
 
-        <a class='mobilehide {{if eq .Page.RelPermalink "/"}} active {{ end }}' href="/">Home</a>
         <a class='mobilehide {{if eq .Page.RelPermalink "/price/"}} active {{ end }}' href="/price/">料金</a>
         <a class='mobilehide {{if eq .Page.RelPermalink "/old/"}} active {{ end }}' href="/old/">旧Nipo</a>
+        <a class='mobilehide {{if eq .Page.RelPermalink "/checksheet/"}} active {{ end }}' href="/checksheet/">チェックシートApp</a>
         <a class='mobilehide {{if eq .Page.RelPermalink "/system/inquery/"}} active {{ end }}' href="/system/inquery/">問合せ</a>
         <div class="topnav-right">
           {{ if eq .Params.isNipo true }}
@@ -128,7 +128,7 @@
           {{ if eq .Params.isNipo true }}
             <div style="padding:1rem;background:tomato; color:white;border: 1px solid red;font-weight:bold;font-size:30px">
               【注意】ご覧のページは旧Nipoです<br>
-              <span style="font-size:19px">今から始めるのであればNipoPlusを推奨します</span>
+              <span style="font-size:19px">今から始めるのであればNipoPlusを推奨します（より安く高機能化）</span>
               <a href="/" class="top_right_btn">NipoPlusへ</a>
             </div>
           {{end}}        

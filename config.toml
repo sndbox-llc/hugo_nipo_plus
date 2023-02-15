@@ -94,22 +94,6 @@ enableRobotsTXT = true
   # For external links you can define how they are opened in your browser; this setting will only be applied to the content area but not the shortcut menu
   externalLinkTarget = "_blank"
 
-[[menu.shortcuts]]
-name = "<i class='fa fa-cube'></i>更新履歴"
-url = "/system/release-note/"
-weight = 20
-
-
-[[menu.shortcuts]]
-name = "<i class='fas fa-envelope'></i> お問い合わせ"
-url = "/system/inquery"
-weight = 40
-
-
-[[menu.shortcuts]]
-name = "<i class='fab fa-twitter'></i> Twitter"
-url = "https://twitter.com/nipo_plus"
-weight = 30
 
 [outputs]
    home = [ "HTML", "JSON" ]

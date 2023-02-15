@@ -7,7 +7,7 @@ toc = true
 weight = 340
 +++
 
-{{<icatch filename="calc" msg="他の項目データを 計算に使用可能" title="算術入力フォーム" desc="算術で自動計算される様子" fontsize="30px" alice="here" >}}
+{{<icatch filename="calc" msg="他の項目データを 計算に使用可能" title="算術入力フォーム" fontsize="30px" alice="here" >}}
 
 算術フォームはスタッフが直接入力するのではなく、他の入力フォームの値をもとに計算して表示される特殊なフォームです。
 例えば生産数と破損数を入力することで自動で破損率を計算することができます。

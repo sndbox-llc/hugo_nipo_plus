@@ -7,7 +7,7 @@ toc = true
 weight = 120
 +++
 
-{{<icatch filename="eye-catch" msg="選ぶだけの簡単 入力方式。集計も可" title="選択肢入力フォームを含んだ日報テンプレート" desc="選択肢入力フォームは選ぶだけで入力ができる非常に利便性の高い入力方式です。" fontsize="30px" alice="here" >}}
+{{<icatch filename="eye-catch" msg="選ぶだけの簡単 入力方式。集計も可" title="選択肢入力フォームを含んだ日報テンプレート" fontsize="30px" alice="here" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|
@@ -49,7 +49,7 @@ weight = 120
 
 これで色分け指定が完了です。正しく設定されているかはプレビューを見て確認してください。
 
-{{<icatch filename="word-color-coding" msg="色分けした例です 視認性も向上！？" title="選択肢の単語を色分けで表示する" desc="色分けの指定を行うことで選択肢の識別がしやすくなります" fontsize="30px" alice="shield" >}}
+{{<icatch filename="word-color-coding" msg="色分けした例です 視認性も向上！？" title="選択肢の単語を色分けで表示する" fontsize="30px" alice="shield" >}}
 
 {{<alice pos="right" icon="here">}}シャープは半角です！#と＃、そっくりなので注意{{</alice>}}
 

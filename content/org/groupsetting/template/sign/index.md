@@ -8,7 +8,7 @@ weight = 200
 +++
 
 
-{{<icatch filename="input-method-pen" msg="直筆サインや 手書きのイラストに" title="署名入力フォーム" desc="署名入力フォームを含んだ日報テンプレートの例" fontsize="30px" alice="tablet" >}}
+{{<icatch filename="input-method-pen" msg="直筆サインや 手書きのイラストに" title="署名入力フォーム" fontsize="30px" alice="tablet" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|

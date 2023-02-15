@@ -7,7 +7,7 @@ toc = true
 weight = 170
 +++
 
-{{<icatch filename="input-method-checkbox" msg="YES・NO 2択で答えるならこれ" title="チェックボックス入力フォーム" desc="チェックボックス入力フォームを含んだ日報の作成画面" fontsize="30px" alice="ok" >}}
+{{<icatch filename="input-method-checkbox" msg="YES・NO 2択で答えるならこれ" title="チェックボックス入力フォーム" fontsize="30px" alice="ok" >}}
 
 チェックボックス入力フォームは「はい・いいえ」や「ON・OFF」「あり・なし」のように2通りで回答できる際に便利な入力フォームです。
 チェックボックス型とトグルスイッチ型の2種類が用意されています。見た目の違いだけですので好みに応じて使い分けてください。
@@ -17,7 +17,7 @@ weight = 170
 
 チェックボックス自体はシンプルな機能のため初期設定の項目もそこまで多くは有りません。1つ注意するポイントとして、メモの使われ方がチェックボックスだけ他の項目と異なり、ボックスの横に配置されるという点です。
 
-{{<icatch filename="checkbox-template-edit" msg="基本は赤枠内を設定 余裕があれば緑枠も" title="チェックボックス入力フォームの設定画面" desc="チェックボックスの設定項目は少なめです。基本設定は２種類、応用設定は必要に応じて調整をしてください" fontsize="30px" alice="here" >}}
+{{<icatch filename="checkbox-template-edit" msg="基本は赤枠内を設定 余裕があれば緑枠も" title="チェックボックスの設定項目は少なめです。基本設定は２種類、応用設定は必要に応じて調整をしてください" fontsize="30px" alice="here" >}}
 
 共通の設定項目については[「各種入力フォームの共通設定項目」]((/org/groupsetting/template/make/#common_setting))を参照してください。
 以下は本入力フォームにのみ存在する設定項目です
@@ -54,8 +54,6 @@ weight = 170
 {{<appscreen filename="pie-charts" title="グラフ化"  >}}
 
 {{<button "/report/analytics/chart/" "日報をグラフ化する">}}
-
-
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|検索|
 |:---:|:---:|:---:|:---:|

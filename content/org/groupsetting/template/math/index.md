@@ -7,7 +7,7 @@ toc = true
 weight = 330
 +++
 
-{{<icatch filename="math" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" desc="数値入力フォームを含んだ日報テンプレートの作成画面" fontsize="30px" alice="ok" >}}
+{{<icatch filename="math" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|

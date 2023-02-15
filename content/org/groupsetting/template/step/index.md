@@ -7,7 +7,7 @@ toc = true
 weight = 300
 +++
 
-{{<icatch filename="slider-input" msg="つまみをスライドさせて 数値の入力ができます" title="スライダ入力フォーム" desc="スライダ入力フォームを含んだ日報テンプレートの画面" fontsize="30px" alice="ok" >}}
+{{<icatch filename="slider-input" msg="つまみをスライドさせて 数値の入力ができます" title="スライダ入力フォーム" fontsize="30px" alice="ok" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|

@@ -7,7 +7,7 @@ toc = true
 weight = 160
 +++
 
-{{<icatch filename="span" msg="作業時間や期間 日付の計算も可能" title="期間入力フォーム" desc="期間入力を日報に埋め込んだ例" fontsize="30px" alice="ok" >}}
+{{<icatch filename="span" msg="作業時間や期間 日付の計算も可能" title="期間入力フォーム" fontsize="30px" alice="ok" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|

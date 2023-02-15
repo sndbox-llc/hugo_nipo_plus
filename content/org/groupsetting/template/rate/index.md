@@ -7,7 +7,7 @@ toc = true
 weight = 320
 +++
 
-{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力" title="レート入力フォーム" desc="レート入力フォームを含んだ日報テンプレート" fontsize="30px" alice="ok" >}}
+{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力" title="レート入力フォーム" fontsize="30px" alice="ok" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|

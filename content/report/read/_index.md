@@ -15,7 +15,7 @@ weight = 20
 このページセクションでは**日報受信BOXを基準**に紹介しています。カレンダーについては別のセクションを設けて居ます。
 
 日報受信BOXは次のような画面です。
-{{<icatch filename="report-box" msg="検索条件保存や 一括CSV出力も可能" title="通常の日報受信BOX" desc="受信BOXでは新しい順に日報が並んで配置されます" fontsize="30px" alice="ok" >}}
+{{<icatch filename="report-box" msg="検索条件保存や 一括CSV出力も可能" title="通常の日報受信BOX" fontsize="30px" alice="ok" >}}
 
 受信BOXには新しい日報の順に並んで表示されています。そこから1つをクリックすると**日報の詳細表示画面**へ切り替わります。
 補足ですが画面切り替えを伴わない**ポップアップでの表示**も可能です。
@@ -28,7 +28,7 @@ weight = 20
 
 さて日報の詳細画面は次のような見た目をしています。
 
-{{<icatch filename="report-read" msg="集計やグラフ も同画面に表示可能" title="通常の日報受信BOX" desc="受信BOXでは新しい順に日報が並んで配置されます" fontsize="30px" alice="guide" >}}
+{{<icatch filename="report-read" msg="集計やグラフ も同画面に表示可能" title="日報の閲覧画面" fontsize="30px" alice="guide" >}}
 
 画面左には日報の本体が表示され、左下には[過去のデータ推移](/report/analytics/list/)や[グラフ](/report/analytics/chart/)が表示されます。
 画面右には「承認」や「PDF出力」「コピー」「コメント」といった様々な機能が並んでいますね。

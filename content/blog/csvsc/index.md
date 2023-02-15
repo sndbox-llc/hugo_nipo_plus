@@ -7,7 +7,7 @@ toc = false
 weight = 20221001
 +++
 
-{{<icatch filename="csvsc" msg="CSVファイルを ドラッグで連結" title="複数のCSVファイルを1つに結合" desc="ドラッグ操作だけでかんたんにCSVファイルを1つに連結します" fontsize="30px" alice="here" >}}
+{{<icatch filename="csvsc" msg="CSVファイルを ドラッグで連結" title="複数のCSVファイルを1つに結合" fontsize="30px" alice="here" >}}
 
 
 

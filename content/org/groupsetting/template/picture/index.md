@@ -7,7 +7,7 @@ toc = true
 weight = 220
 +++
 
-{{<icatch filename="picture" msg="スマホで「パシャッ」 そのまま日報に添付" title="写真入力フォーム" desc="写真入力フォームを含んだ日報テンプレートの例" fontsize="30px" alice="ok" >}}
+{{<icatch filename="picture" msg="スマホで「パシャッ」 そのまま日報に添付" title="写真入力フォーム" fontsize="30px" alice="ok" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|

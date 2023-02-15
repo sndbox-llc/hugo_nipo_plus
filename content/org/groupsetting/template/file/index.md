@@ -7,7 +7,7 @@ toc = true
 weight = 230
 +++
 
-{{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" desc="ファイル入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" fontsize="30px" alice="ok" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|

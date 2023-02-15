@@ -55,7 +55,7 @@ graph LR;
 Nipoでは1行につき最大2列までという制限がありました。
 これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/org/groupsetting/template/)できるようになりました。
 
-{{<icatch filename="responsive-design" msg="日報テンプレートの 設計自由度がUP" title="日報テンプレートのレイアウト設計の自由度が大幅UP" desc="幅を自由に調整できるようになったため、より柔軟なテンプレートが作成できます。" fontsize="30px" alice="here" >}}
+{{<icatch filename="responsive-design" msg="日報テンプレートの 設計自由度がUP" title="日報テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here" >}}
 
 {{<alice pos="right" icon="ok">}}
 例えば上図の例では、3列・4列・1列で作っているよ。スマホの場合は列がすべて1列になるのはNipoと同じだね
@@ -67,7 +67,7 @@ Nipoでは提出先は常に1名という制約が有りました。他のスタ
 多くのケースではこれでも十分ですが、NipoPlusでは**日報の提出先を複数名指定できる**ようになりました。  
 複数名指定することで承認のバトンリレーが実現できるようになります。
 
-{{<icatch filename="report-detail" msg="複数人による承認 のリレーが可能です" title="日報の承認リレー。承認印も完備" desc="日報の提出先を複数指定することで承認のリレーが行なえます" fontsize="30px" alice="ok" >}}
+{{<icatch filename="report-detail" msg="複数人による承認 のリレーが可能です" title="日報の承認リレー。承認印も完備" fontsize="30px" alice="ok" >}}
 
 {{<alice pos="right" icon="ok">}}
 もちろん承認先を1名にすることもできます。その場合はNipoと大差有りません。共有先の仕組みもNipoと同一です
@@ -83,7 +83,7 @@ Nipoでは提出先は常に1名という制約が有りました。他のスタ
 Nipoにはメールによる通知サービスは有りましたが、アプリ内での通知は有りませんでした。  
 NipoPlusではメールによる通知が廃止されましたが、代わりにアプリ内で[通知](/notice/show/)がサポートされました。
 
-{{<icatch filename="notice" msg="通知機能で 情報を見落とさない" title="通知機能" desc="アプリ内でアクティビティを通知します" fontsize="30px" alice="ok" >}}
+{{<icatch filename="notice" msg="通知機能で 情報を見落とさない" title="通知機能の実装" fontsize="30px" alice="ok" >}}
 
 {{<alice pos="right" icon="ok">}}
 通知をクリックすると該当の日報にジャンプするのも便利なポイントです
@@ -94,7 +94,7 @@ NipoPlusではメールによる通知が廃止されましたが、代わりに
 旧Nipoではアプリ起動時に多くのデータを読み込んでいました。その際たるは受信日報、送信日報です。起動するたびに数十件の日報をロードするため無駄が多くありました。たとえ日報を書くだけでも、毎回過去の日報をロードしていました。
 NipoPlusでは[日報受信BOXを開いたタイミング](/report/read/list/)でロードが開始されます。ロードされる日報も指定した期間の日報のみで、古い日報は読み込みを行いません。
 
-{{<icatch filename="report-box" msg="必要な期間の日報を 素早くロードします" title="日報の受信" desc="必要な日報のみを賢く読み込むことで無駄な通信を削減できます。" fontsize="30px" alice="ok" >}}
+{{<icatch filename="report-box" msg="必要な期間の日報を 素早くロードします" title="必要な日報のみを賢く読み込むことで無駄な通信を削減できます。" fontsize="30px" alice="ok" >}}
 
 {{<alice pos="right" icon="ok">}}
 起動時は一昨日〜今日までの日付が自動でセットされています。つまり3日分の日報しかDLしません。  

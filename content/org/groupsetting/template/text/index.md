@@ -7,7 +7,7 @@ toc = true
 weight = 100
 +++
 
-{{<icatch filename="input-method-keyboard" msg="日報の本文や引 き継ぎの入力に最適" title="テキスト入力フォーム" desc="テキスト入力フォームを含んだ日報の入力画面" fontsize="30px" alice="ok" >}}
+{{<icatch filename="input-method-keyboard" msg="日報の本文や引 き継ぎの入力に最適" title="テキスト入力フォーム" fontsize="30px" alice="ok" >}}
 
 ## テキスト入力フォームとは
 

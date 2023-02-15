@@ -8,7 +8,7 @@ weight = 11
 # aliases = ['/report/read/analytics/']
 +++
 
-{{<icatch filename="past-data" msg="同種日報の前回 と今回の比較も簡単" title="日報を一覧表にして過去と比較する" desc="過去データ推移を使えば前回との比較、前々回との比較も一目瞭然です" fontsize="30px" alice="ok" >}}
+{{<icatch filename="past-data" msg="同種日報の前回 と今回の比較も簡単" title="日報を一覧表にして過去と比較する" fontsize="30px" alice="ok" >}}
 
 現在閲覧している日報を起点として、過去30件の同種の日報を自動で一覧表にして表示できます。
 過去データの推移を見る「推移」の他に、スタッフごとに分けて集計する「累積」の２つのモードがあります。

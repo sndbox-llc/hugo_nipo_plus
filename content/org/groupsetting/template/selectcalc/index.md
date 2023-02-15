@@ -8,7 +8,7 @@ weight = 140
 reqMermaid = true
 +++
 
-{{<icatch filename="select-step" msg="Q1の答によって Q2の選択が変化" title="選択肢ステップ入力フォーム" desc="選択肢（2層)を使った日報テンプレートの例" fontsize="30px" alice="ok" >}}
+{{<icatch filename="select-step" msg="Q1の答によって Q2の選択が変化" title="選択肢二槽式入力フォーム" fontsize="30px" alice="ok" >}}
 
 |[集計可否](/report/analytics/)|[CSV出力](/report/analytics/csv/)|[PDF出力](/report/read/pdf/)|[文字検索](/report/read/list/)|
 |:---:|:---:|:---:|:---:|

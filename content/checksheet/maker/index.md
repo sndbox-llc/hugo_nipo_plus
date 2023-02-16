@@ -4,7 +4,7 @@ menuTitle = "チェックシートテンプレートを作る"
 tags = []
 title = "製造業のチェックシートテンプレートを作る"
 toc = true
-weight = 20220720
+weight = 1
 aliases = ['/blog/maker/']
 +++
 

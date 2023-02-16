@@ -27,7 +27,6 @@
   p {
     font-size: 18px;
     line-height: 1.8;
-    color: #555;
   }
   ol {
     color: $accentColor;
@@ -55,24 +54,9 @@
   a {
     font-weight: bolder;
   }
-  // vue.js読み込みまでのデータを隠す処理
-  [v-cloak] {
-    display: none;
-  }
 }
 a:hover {
   text-decoration: underline ;
-}
-#shortcuts {
-  h3 {
-    font-size: 150%;
-    border: none;
-    border-bottom: 2px dotted #ccc;
-  }
-  ul li {
-    font-size: 20px;
-    font-weight: bold;
-  }
 }
 .baseBtn {
   background-color: $baseColor;
@@ -109,7 +93,6 @@ a:hover {
 /** パンくずリストナビゲーション（上田カスタマイズモデル) */
 #breadcrumbsNavigations {
   max-width: 100%;
-  overflow: auto;
   list-style: none;
   ul {
     padding: 0;
@@ -147,7 +130,6 @@ a:hover {
     list-style-type: none;
   }
 }
-
 .tocIsClose {
   #tocArea {
     display: none;
@@ -155,15 +137,6 @@ a:hover {
 }
 .hidden {
   display: none;
-}
-.animeAT { animation:animeAT 1s ease-out forwards; }
-.svgAliceClass { opacity: 0; }
-@keyframes animeAT {
-	0% { opacity: 0; }
-  80% { opacity: 0.9;}
-	100% {
-		opacity: 1;
-	}
 }
 
 @media screen and (max-width: 47.938em) {

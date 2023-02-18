@@ -12,7 +12,7 @@
 {{ $id := partial "make-random-md5.hugo" }}
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
   <a href="#{{ $id }}" class="lightbox-link">
-  <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}"  srcset="{{ $lg.RelPermalink }} 780w, {{ $full.RelPermalink }} 1500w" sizes="100vw">
+    <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}"  srcset="{{ $lg.RelPermalink }} 780w, {{ $full.RelPermalink }} 1500w" sizes="100vw">
   </a>
   <figcaption>
     <i style="font-size: 13px;color: #aaa">
@@ -28,3 +28,18 @@
 <a href="javascript:history.back();" class="lightbox" id="{{ $id }}">
   <img src="{{ $img.RelPermalink }}" alt="{{$alt}}" class="lightbox-image" loading="lazy">
 </a>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": {{ $img.RelPermalink }},
+    "license": "/system/credit/",
+    "acquireLicensePage": "/system/credit/",
+    "creditText": "sandbox LLC",
+    "creator": {
+      "@type": "Person",
+      "name": "shinya ueda"
+     },
+    "copyrightNotice": "Nipo Plus"
+  }
+</script>

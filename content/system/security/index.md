@@ -104,7 +104,7 @@ NipoPlusが使用しているFirestoreとElasticはいづれもNo-SQL型であ�
 
 ここで最後にIPAが作った秀逸なイラストを送ります
 
-{{<imgproc password.jpg   "IPA-情報処理推進機構 パスワード" />}}
+![IPA-情報処理推進機構 パスワード](password.jpg)
 
 [画像出典元はこちらです](https://www.ipa.go.jp/security/keihatsu/munekyun-pw/slideshow/index.html)
 

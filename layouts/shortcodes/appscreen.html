@@ -1,6 +1,8 @@
 {{ $moji := .Get "filename" }}
 {{ $title := .Get "title" | default "SVGによるNipoPlus画面イメージ"}}
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" ($moji)) }}
+{{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" ($moji)) }}
+
 
 {{ $id := partial "make-random-md5.hugo" }}
 
@@ -20,6 +22,20 @@
     "@type": "ImageObject",
     "embeddedTextCaption": {{ $title }},
     "contentUrl": {{ $imgTablet.Permalink }},
+    "license": "/system/credit/",
+    "acquireLicensePage": "/system/credit/",
+    "creditText": "sandbox LLC",
+    "creator": {
+      "@type": "Person",
+      "name": "shinya ueda"
+     },
+    "copyrightNotice": "Nipo Plus"
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "embeddedTextCaption": {{ $title }},
+    "contentUrl": {{ $imgPhone.Permalink }},
     "license": "/system/credit/",
     "acquireLicensePage": "/system/credit/",
     "creditText": "sandbox LLC",

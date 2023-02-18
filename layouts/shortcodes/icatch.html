@@ -6,6 +6,7 @@
 {{ $fontsize := .Get "fontsize" | default "22px" }}
 
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" ($moji)) }}
+{{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" ($moji)) }}
 
 {{ $id := partial "make-random-md5.hugo" }}
 
@@ -26,15 +27,23 @@
   {
     "@context": "https://schema.org/",
     "@type": "ImageObject",
-    "embeddedTextCaption": {{ $title }},
+    "embeddedTextCaption": {{ (printf "%s タブレット・PC用" $title) }},
     "contentUrl": {{ $imgTablet.Permalink }},
     "license": "/system/credit/",
     "acquireLicensePage": "/system/credit/",
     "creditText": "sandbox LLC",
-    "creator": {
-      "@type": "Person",
-      "name": "shinya ueda"
-     },
+    "creator": { "@type": "Person", "name": "shinya ueda" },
+    "copyrightNotice": "Nipo Plus"
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "embeddedTextCaption": {{ (printf "%s スマートフォン用" $title) }},
+    "contentUrl": {{ $imgPhone.Permalink }},
+    "license": "/system/credit/",
+    "acquireLicensePage": "/system/credit/",
+    "creditText": "sandbox LLC",
+    "creator": { "@type": "Person", "name": "shinya ueda" },
     "copyrightNotice": "Nipo Plus"
   }
 </script>

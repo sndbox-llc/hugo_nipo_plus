@@ -5,7 +5,6 @@ tags = []
 title = "日報データを集計"
 toc = true
 weight = 50
-# aliases = ['/report/totalling/transition/']
 +++
 
 直近1ヶ月単位など任意の期間を選んで日報を集計することができます。

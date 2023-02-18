@@ -149,8 +149,8 @@
 <!-- 目次 -->
 
 {{if .Params.toc }}
-  <nav id="tableOfContents" class="tocIsClose" onClick="toggleToc()">
-    <div class="mokuji">目次▼</div>
+  <nav id="tableOfContents" class="tocIsClose" style="cursor: pointer" onClick="toggleToc()">
+    <div class="mokuji">目次（クリックで展開）</div>
     <div id="tocArea">
       {{ .TableOfContents }}
     </div>

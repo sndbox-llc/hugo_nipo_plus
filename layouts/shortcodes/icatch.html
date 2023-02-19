@@ -24,7 +24,7 @@
   <img src="{{ $imgTablet.RelPermalink }}" alt="{{$title}}" class="lightbox-image" loading="lazy">
 </a>
 <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org/",
     "@type": "ImageObject",
     "embeddedTextCaption": {{ (printf "%s タブレット・PC用" $title) }},
@@ -45,6 +45,6 @@
     "creditText": "sandbox LLC",
     "creator": { "@type": "Person", "name": "shinya ueda" },
     "copyrightNotice": "Nipo Plus"
-  }
+  }]
 </script>
 

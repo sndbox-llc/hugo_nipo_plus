@@ -9,7 +9,7 @@ tags = []
 +++
 
 
-{{<button "/timecard/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/timecard/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## タイムカードの入力画面
 

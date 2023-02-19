@@ -5,8 +5,6 @@ tags = []
 title = "タブレットで製造業のチェックシートを作成"
 toc = true
 weight = 20220725
-aliases = ['/blog/tablet/']
-
 +++
 
 チェックシートやチェックリストと呼ばれるものには様々な種類があります。ここでは業務に必要なチェックシートに焦点を当てますが、それでも膨大な種類のチェックシートがあります。
@@ -31,7 +29,7 @@ aliases = ['/blog/tablet/']
 
 {{<imgproc checksheet.png "これは5Sチェックシートのテンプレート例です。タブレットからでもタップ操作だけですべての入力ができるシンプルなチェックシートです" />}}
 
-この5Sチェックシートは[レート入力フォーム](/org/groupsetting/template/rate/)と[選択肢入力フォーム](/org/groupsetting/template/select/)の2種類（各3個づつ、計6個）を組み合わせて構成されています。
+この5Sチェックシートは[レート入力フォーム](/manual/org/groupsetting/template/rate/)と[選択肢入力フォーム](/manual/org/groupsetting/template/select/)の2種類（各3個づつ、計6個）を組み合わせて構成されています。
 NipoPlusではチェックシートの各入力フォームは独立した1つのブロックと捉えています。
 必要なブロックを積み重ねていくだけで簡単に先程のような5Sチェックシートが作成できす。
 
@@ -43,7 +41,7 @@ NipoPlusではチェックシートの各入力フォームは独立した1つ�
 
 {{<imgproc hinsitu.png "ある製品の製造時品質を記入するチェックシートの一例です。内容はすべてサンプルのため実在するチェックシートでは有りません。" />}}
 
-こちらのチェックシートでも軸ブレ幅の項目で[選択肢入力フォーム](/org/groupsetting/template/select/)が使用されています。その他に製品保証Aの項目では[チェックボックス式入力フォーム](/org/groupsetting/template/checkbox/)が使用され、重量の項目では[スライダー式入力フォーム](/org/groupsetting/template/step/)が使用されています。
+こちらのチェックシートでも軸ブレ幅の項目で[選択肢入力フォーム](/manual/org/groupsetting/template/select/)が使用されています。その他に製品保証Aの項目では[チェックボックス式入力フォーム](/manual/org/groupsetting/template/checkbox/)が使用され、重量の項目では[スライダー式入力フォーム](/manual/org/groupsetting/template/step/)が使用されています。
 特に製造業はチェックシートの項目がラインごとで異なるのも当たり前ですので、このように自由にチェックシートを自作できることは大きなポイントです。
 
 ## チェックシートを電子化するメリット
@@ -68,7 +66,7 @@ NipoPlusではチェックシートの各入力フォームは独立した1つ�
 入力の時点で電子化されるため、その後の下流にいたるまでデータとして利用できます。
 
 {{<alice pos="right" icon="pc">}}
-[CSV出力](/report/analytics/csv/)を使えば数百枚のチェックシートを1枚のエクセルシートにまとめるのもワンクリックです
+[CSV出力](/manual/report/analytics/csv/)を使えば数百枚のチェックシートを1枚のエクセルシートにまとめるのもワンクリックです
 {{</alice>}}
 
 ### チェックシートの記入漏れなどを入力時に検知できる

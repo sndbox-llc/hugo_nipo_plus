@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/org/groupsetting/template/rate/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/org/groupsetting/template/rate/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## レートの入力画面
 

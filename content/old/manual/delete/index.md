@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/remove/reportbatch/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/remove/reportbatch/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 不要な日報を一括で削除する機能
 

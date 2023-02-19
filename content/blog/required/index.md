@@ -22,7 +22,7 @@ NipoPlusでは問合せフォームと似たような仕組みを日報に組み
 ## 日報の入力欄に入力必須を指定して記入漏れを防ぐ
 
 NipoPlusは1つ1つの入力フォームに対して個別に「入力必須」の条件を追加できます。  
-[※スライダー入力フォーム](/org/groupsetting/template/step/)など一部は利用不可
+[※スライダー入力フォーム](/manual/org/groupsetting/template/step/)など一部は利用不可
 
 入力必須が有効になったフォームは空欄の場合に**入力必須の警告**が表示され、日報作成者が見落とさないように赤文字で表示されます。
 文字を入力したり、選択肢のチェックを入れることで入力されたと判断し、この警告は消えます。すべての警告が消えるまで提出ボタンは押せません。
@@ -31,11 +31,11 @@ NipoPlusは1つ1つの入力フォームに対して個別に「入力必須」�
 {{<icatch filename="clear" msg="空欄を埋めて 入力必須を解消" title="入力必須を埋めて提出" fontsize="30px" alice="here" >}}
 
 このように入力必須の指定をうまく使うことで、不備がある日報をそもそも提出できないように事前にブロックすることができます。
-なお[下書きとして保存](/report/write/draft/)する際は入力必須が空欄でも保存が可能です。
+なお[下書きとして保存](/manual/report/write/draft/)する際は入力必須が空欄でも保存が可能です。
 
 ### 【応用編】可変長にも入力必須は適用されます
 
-行数が日報毎に変化するような日報をNipoPlusでは「[可変長（反復）](/org/groupsetting/template/array/)」と呼んでいます。この可変長に対しても入力必須を指定できます。
+行数が日報毎に変化するような日報をNipoPlusでは「[可変長（反復）](/manual/org/groupsetting/template/array/)」と呼んでいます。この可変長に対しても入力必須を指定できます。
 可変長はエクセルのような行列で構成されていると考えてください。1行追加すると、各列の入力必須をチェックしますので行を追加した時点で入力必須の警告が付く場合があります。
 なおスマートフォンの場合は行とは言わず「カード」という名称に変わります
 
@@ -47,19 +47,19 @@ NipoPlusは1つ1つの入力フォームに対して個別に「入力必須」�
 
 |入力フォーム名|クリア条件|
 |---|---|
-|[テキスト入力フォーム](/org/groupsetting/template/text/)|1文字以上文字を入力する|
-|[選択肢入力フォーム](/org/groupsetting/template/select/)|選択肢から1つ選ぶ|
-|[選択肢入力フォーム（複数回答）](/org/groupsetting/template/select2/)|選択肢から少なくとも1つ選ぶ|
-|[選択肢入力フォーム（２層式）](/org/groupsetting/template/selectcalc/)|問2の選択肢から1つ選ぶ|
-|[日付・時刻入力フォーム](/org/groupsetting/template/datetime/)|日付または時刻を入力する|
-|[期間入力フォーム](/org/groupsetting/template/datetimes/)|期間（開始・終了両方とも）を入力する|
-|[チェックボックス入力フォーム](/org/groupsetting/template/checkbox/)|チェックボックスにチェックを入れる（同意や確認として利用を推奨します）|
-|[範囲入力フォーム](/org/groupsetting/template/range/)|この項目は入力必須の指定ができません|
-|[署名・イラスト入力フォーム](/org/groupsetting/template/sign/)|イラスト・署名を書く（空白のイラストでも入力必須は解除されます）|
-|[写真入力フォーム](/org/groupsetting/template/picture/)|少なくとも1枚以上のJpeg・またはPngの画像を添付する|
-|[ファイル入力フォーム](/org/groupsetting/template/file/)|少なくとも1つ以上のファイルを添付する|
-|[スライダ入力フォーム](/org/groupsetting/template/step/)|この項目は入力必須の指定ができません|
-|[レート入力フォーム](/org/groupsetting/template/rate/)|星ゼロ(☆☆☆☆☆）以外の状態にする|
-|[数値入力フォーム](/org/groupsetting/template/math/)|数値を入力する|
-|[算術](/org/groupsetting/template/calc/)|この項目は入力必須の指定ができません|
-|[反復入力フォーム](/org/groupsetting/template/array/)|反復入力フォーム自体に入力必須の指定はできませんが、反復の中に配置した各種入力フォームに対してそれぞれ入力必須の指定が可能です|
+|[テキスト入力フォーム](/manual/org/groupsetting/template/text/)|1文字以上文字を入力する|
+|[選択肢入力フォーム](/manual/org/groupsetting/template/select/)|選択肢から1つ選ぶ|
+|[選択肢入力フォーム（複数回答）](/manual/org/groupsetting/template/select2/)|選択肢から少なくとも1つ選ぶ|
+|[選択肢入力フォーム（２層式）](/manual/org/groupsetting/template/selectcalc/)|問2の選択肢から1つ選ぶ|
+|[日付・時刻入力フォーム](/manual/org/groupsetting/template/datetime/)|日付または時刻を入力する|
+|[期間入力フォーム](/manual/org/groupsetting/template/datetimes/)|期間（開始・終了両方とも）を入力する|
+|[チェックボックス入力フォーム](/manual/org/groupsetting/template/checkbox/)|チェックボックスにチェックを入れる（同意や確認として利用を推奨します）|
+|[範囲入力フォーム](/manual/org/groupsetting/template/range/)|この項目は入力必須の指定ができません|
+|[署名・イラスト入力フォーム](/manual/org/groupsetting/template/sign/)|イラスト・署名を書く（空白のイラストでも入力必須は解除されます）|
+|[写真入力フォーム](/manual/org/groupsetting/template/picture/)|少なくとも1枚以上のJpeg・またはPngの画像を添付する|
+|[ファイル入力フォーム](/manual/org/groupsetting/template/file/)|少なくとも1つ以上のファイルを添付する|
+|[スライダ入力フォーム](/manual/org/groupsetting/template/step/)|この項目は入力必須の指定ができません|
+|[レート入力フォーム](/manual/org/groupsetting/template/rate/)|星ゼロ(☆☆☆☆☆）以外の状態にする|
+|[数値入力フォーム](/manual/org/groupsetting/template/math/)|数値を入力する|
+|[算術](/manual/org/groupsetting/template/calc/)|この項目は入力必須の指定ができません|
+|[反復入力フォーム](/manual/org/groupsetting/template/array/)|反復入力フォーム自体に入力必須の指定はできませんが、反復の中に配置した各種入力フォームに対してそれぞれ入力必須の指定が可能です|

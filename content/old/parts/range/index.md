@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/org/groupsetting/template/range/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/org/groupsetting/template/range/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 範囲の入力画面
 

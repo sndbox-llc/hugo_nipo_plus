@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/report/analytics/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/report/analytics/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## たくさんの日報やチェックシートを1枚のエクセルシートで集計する
 

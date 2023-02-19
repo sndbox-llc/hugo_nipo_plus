@@ -18,10 +18,10 @@ weight = 20220801
 
 ## 日報のテンプレートを見直して無駄を無くす
 
-NipoPlusでは[テンプレートの自作](/org/groupsetting/template/make/)が可能です。入力を補助する様々な機能があるのでこれらの機能をうまく使って、今よりもわかりやすく、入力のしやすい日報に作り変えて行きましょう。
+NipoPlusでは[テンプレートの自作](/manual/org/groupsetting/template/make/)が可能です。入力を補助する様々な機能があるのでこれらの機能をうまく使って、今よりもわかりやすく、入力のしやすい日報に作り変えて行きましょう。
 いくつか具体的な例を見ながらどのようなテンプレートがより**ユーザーフレンドリー**な日報テンプレートになるかを確認して行きましょう
 
-### 回答が予め予測できる場合は[選択肢による入力](/org/groupsetting/template/select/)を使う
+### 回答が予め予測できる場合は[選択肢による入力](/manual/org/groupsetting/template/select/)を使う
 
 {{<imgproc selection-input.png "同じ設問で入力方法を3種類表示しました。それぞれメリット・デメリットがあります。" />}}
 
@@ -71,7 +71,7 @@ NipoPlusでは[テンプレートの自作](/org/groupsetting/template/make/)が
 これらの項目がすべて適切に入力されると日報の提出ができるようになります。
 
 {{<alice pos="right" icon="here">}}
-[下書きとして保存](/report/write/draft/)する場合は入力必須が空欄でも保存できます
+[下書きとして保存](/manual/report/write/draft/)する場合は入力必須が空欄でも保存できます
 {{</alice>}}
 
 ### 数値の入力は項目によって適切な入力方法を提供するようにベストな選択を模索する
@@ -79,19 +79,19 @@ NipoPlusでは[テンプレートの自作](/org/groupsetting/template/make/)が
 数値の入力は様々な場面で使用することになります。例えば社用車を使用して走行距離を報告する場合や、客先の訪問件数、アポ電の架電を行った件数、契約件数などざっと思いつくだけでも結構たくさん出てきます。
 NipoPlusで数値を入力するには
 
-- [数値入力フォーム](/org/groupsetting/template/math/)
-- [スライダ入力フォーム](/org/groupsetting/template/step/)
-- [レート入力フォーム](/org/groupsetting/template/rate/)
+- [数値入力フォーム](/manual/org/groupsetting/template/math/)
+- [スライダ入力フォーム](/manual/org/groupsetting/template/step/)
+- [レート入力フォーム](/manual/org/groupsetting/template/rate/)
 
 の3種類があります。これらはすべて「数値を入力する」という共通の機能を持っていますが、操作性や特徴がそれぞれ異なっています。項目によって最適な入力方式を使用することで、日報作成者にとってユーザーフレンドリーな日報テンプレートに繋がります。
 
 {{<imgproc input-method-comparison.png "数値の入力を3つの方法で比較した画像。上段はすべて数値の5を指しており、下段はすべて数値の30を指している" />}}
 
-数値の入力については、その項目がある程度の範囲で収まるかどうかで判断すると良いでしょう。例えば売上高などは桁数も含め予測が困難なため[数値入力フォーム](/org/groupsetting/template/math/)が適しています。
-一方で上の例でも使用した「体温」のようにある程度範囲が絞り込める場合は、[スライダ入力フォーム](/org/groupsetting/template/step/)が適しています。一方で[レート入力フォーム](/org/groupsetting/template/rate/)は体温に不向きであることがわかります。
+数値の入力については、その項目がある程度の範囲で収まるかどうかで判断すると良いでしょう。例えば売上高などは桁数も含め予測が困難なため[数値入力フォーム](/manual/org/groupsetting/template/math/)が適しています。
+一方で上の例でも使用した「体温」のようにある程度範囲が絞り込める場合は、[スライダ入力フォーム](/manual/org/groupsetting/template/step/)が適しています。一方で[レート入力フォーム](/manual/org/groupsetting/template/rate/)は体温に不向きであることがわかります。
 
 {{<alice pos="right" icon="here">}}
-そもそも入力がしにくいですがそれ以前に[レート入力フォーム](/org/groupsetting/template/rate/)では小数点の入力ができません。
+そもそも入力がしにくいですがそれ以前に[レート入力フォーム](/manual/org/groupsetting/template/rate/)では小数点の入力ができません。
 {{</alice>}}
 
 一方でレートはそのシンプルな見た目から、わかりやすく誰でも簡単に入力できるというメリットもあります。例えば5Sチェックシートなどでは効果を発揮することでしょう。
@@ -113,7 +113,7 @@ NipoPlusでは上記3種類のデバイスに対応していますが、入力�
 でも[Google Photos](https://www.google.com/intl/ja/photos/about/)などを使えばPCに写真を入れるのも割と簡単ですね
 {{</alice>}}
 
-お客様から[受領サイン](/org/groupsetting/template/sign/)をもらいたい場合などはタブレットが最も適していますが、タッチパネル対応のPCでも利用できます。
+お客様から[受領サイン](/manual/org/groupsetting/template/sign/)をもらいたい場合などはタブレットが最も適していますが、タッチパネル対応のPCでも利用できます。
 このようにデバイスによって向き不向きがあり、日報のテンプレートを自作する上ではどの端末を主として使用するのかを意識することが重要です。
 
 ## 日報業務の負担を軽減するための努力を惜しまない

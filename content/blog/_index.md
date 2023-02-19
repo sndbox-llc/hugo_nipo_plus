@@ -1,7 +1,6 @@
 +++
 description = "NipoPlusのユースケースについて随時記事を書いていきます"
 menuTitle = "活用例"
-menuPre = "<b>-</b>"
 title = "NipoPlusの活用方法"
 toc = false
 tags = []

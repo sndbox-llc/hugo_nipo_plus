@@ -44,7 +44,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
-- 異なるテンプレート間の集計を行える機能（[クロス集計](/report/analytics/cross/)と命名）を実装しました
+- 異なるテンプレート間の集計を行える機能（[クロス集計](/manual/report/analytics/cross/)と命名）を実装しました
 
 ### 2023/02/04 サーバサイド更新
 
@@ -58,8 +58,8 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-- [数値入力フォーム](/org/groupsetting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
-- [スタッフ権限](/org/staff/)に「ゲスト権限」が追加されました（リクエスト）
+- [数値入力フォーム](/manual/org/groupsetting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
+- [スタッフ権限](/manual/org/staff/)に「ゲスト権限」が追加されました（リクエスト）
 
 ### 2023/01/23 Version 1.26.0
 
@@ -72,8 +72,8 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
-- [チェックボックス](/org/groupsetting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
-- [テンプレート](/org/groupsetting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
+- [チェックボックス](/manual/org/groupsetting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
+- [テンプレート](/manual/org/groupsetting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
 - 長らく放置されていた全体設定の色に関するバグを修正しました
 
 ### 2023/01/13 Version 1.25.1
@@ -81,7 +81,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
 - 日報一括削除機能でIDの取得に失敗するバグを修正しました
-- （[組織全体設定](/org/staff/make/)）スタッフ管理の画面切替機能を追加しました
+- （[組織全体設定](/manual/org/staff/make/)）スタッフ管理の画面切替機能を追加しました
 
 ### 2023/01/03 Version 1.25.0
 
@@ -123,7 +123,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
-- カレンダーに「[月間カレンダー](/calendar/)」機能が追加されました
+- カレンダーに「[月間カレンダー](/manual/calendar/)」機能が追加されました
 - カレンダーから日報を一括でPDFに変換できるようになりました
 - カレンダーから日報を一括でCSV出力できるようになりました
 
@@ -172,7 +172,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 
-[グラフ作成機能](/report/analytics/chart/)が実装されました。Android版はSDKVersionの問題で更新を保留しています
+[グラフ作成機能](/manual/report/analytics/chart/)が実装されました。Android版はSDKVersionの問題で更新を保留しています
 
 ### 2022/11/07 Version 1.19.0
 
@@ -228,14 +228,14 @@ CSV出力時、各項目ごとに列の展開ON/OFFの指定ができるよう�
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[過去データ推移](/report/analytics/list/)の色分け機能にバグがあったため修正を行いました。（すでに設定済みの場合、設定はクリアされます）
+[過去データ推移](/manual/report/analytics/list/)の色分け機能にバグがあったため修正を行いました。（すでに設定済みの場合、設定はクリアされます）
 
 ### 2022/09/13 Version 1.13.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[過去データ推移](/report/analytics/list/)で最大取得件数を10件から30件に拡張しました。（オプションから選択します）過去データ推移で各行ごとに任意の色付けをすることが出来るようになりました。スタッフのアカウントを無効化するとAPIキーも同時に破壊されるように修正しました。手動でAPIキーを破壊できる機能を追加しました。
+[過去データ推移](/manual/report/analytics/list/)で最大取得件数を10件から30件に拡張しました。（オプションから選択します）過去データ推移で各行ごとに任意の色付けをすることが出来るようになりました。スタッフのアカウントを無効化するとAPIキーも同時に破壊されるように修正しました。手動でAPIキーを破壊できる機能を追加しました。
 
 ### 2022/09/07 Version 1.12.3
 
@@ -247,14 +247,14 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[CSV出力](/report/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました。[ログ表示](/org/group2/log/)の日付入力を使いやすく改良しました。[期間入力フォーム](/org/groupsetting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました。
+[CSV出力](/manual/report/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました。[ログ表示](/manual/org/group2/log/)の日付入力を使いやすく改良しました。[期間入力フォーム](/manual/org/groupsetting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました。
 
 ### 2022/08/31 v1.12.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[可変長の入力](/org/groupsetting/template/array/)時に見出し項目を1行目以外非表示にしました。[期間入力フォーム](/org/groupsetting/template/datetimes/)の表示を一部変更しました
+[可変長の入力](/manual/org/groupsetting/template/array/)時に見出し項目を1行目以外非表示にしました。[期間入力フォーム](/manual/org/groupsetting/template/datetimes/)の表示を一部変更しました
 
 ### 2022/08/29 Version 1.12.0
 
@@ -262,7 +262,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-[CSV出力](/report/analytics/csv/)オプションに「画像の出力」「コメントの出力」が追加されました
+[CSV出力](/manual/report/analytics/csv/)オプションに「画像の出力」「コメントの出力」が追加されました
 
 ### 2022/08/23 Version 1.11.2
 
@@ -272,7 +272,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 ### 2022/08/22 Version 1.11.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-[CSV出力](/report/analytics/csv/)オプションに「可変長」に関するオプションが追加されました。[可変長の日報](/org/groupsetting/template/array/)のデザインを変更しました
+[CSV出力](/manual/report/analytics/csv/)オプションに「可変長」に関するオプションが追加されました。[可変長の日報](/manual/org/groupsetting/template/array/)のデザインを変更しました
 
 ### 2022/08/21 Version 1.11.0
 
@@ -287,19 +287,19 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[ログアウト](/account/signin/)時にエラーメッセージが表示されるバグの修正を行いました
+[ログアウト](/manual/account/signin/)時にエラーメッセージが表示されるバグの修正を行いました
 
 ### 2022/08/16 Version 1.10.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-[匿名アカウント](/account/tokumei/)によるログインがサポートされました（Web版限定）
+[匿名アカウント](/manual/account/tokumei/)によるログインがサポートされました（Web版限定）
 
 ### 2022/08/13 Version 1.9.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[PDF出力機能](/report/read/pdf/)が強化されました。[一括PDF](/report/analytics/pdf/)・QRコード埋め込み・本文の編集などが可能になりました
+[PDF出力機能](/manual/report/read/pdf/)が強化されました。[一括PDF](/manual/report/analytics/pdf/)・QRコード埋め込み・本文の編集などが可能になりました
 
 ### 2022/08/03 Version 1.8.2
 
@@ -334,7 +334,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 ### 2022/07/27 Version 1.7.3
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-色分けを行ったデータが適切に集計されないバグの修正を行いました。[CSV出力](/report/analytics/csv/)に「昇順出力」オプションが追加されました
+色分けを行ったデータが適切に集計されないバグの修正を行いました。[CSV出力](/manual/report/analytics/csv/)に「昇順出力」オプションが追加されました
 
 ### 2022/07/23 Version 1.7.1
 
@@ -353,7 +353,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-日報・チェックシートの[CSV出力オプション](/report/analytics/csv/)が変更されました
+日報・チェックシートの[CSV出力オプション](/manual/report/analytics/csv/)が変更されました
 
 ### 2022/07/16 Version 1.5.7
 
@@ -366,7 +366,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 ### 2022/07/12 Version 1.5.6
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-特定の環境で過去の[データ推移](/report/analytics/list/)が取得できないバグを修正しました
+特定の環境で過去の[データ推移](/manual/report/analytics/list/)が取得できないバグを修正しました
 
 ### 2022/07/12 Version 1.5.5
 
@@ -378,8 +378,8 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 ### 2022/07/11 Version 1.5.4
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-[共用機能](/org/group2/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました。
-[グループへの所属画面](/org/staff/manage/)をより見やすく変更しました。本サイトのページ一部URL変更に伴いアプリ内のリンクを修正しました
+[共用機能](/manual/org/group2/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました。
+[グループへの所属画面](/manual/org/staff/manage/)をより見やすく変更しました。本サイトのページ一部URL変更に伴いアプリ内のリンクを修正しました
 
 ### 2022/07/07 Version 1.5.3
 
@@ -392,21 +392,21 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-[選択肢（複）フォーム](/org/groupsetting/template/select2/)で特定の条件が整うと1つしか入力できないバグを修正しました
+[選択肢（複）フォーム](/manual/org/groupsetting/template/select2/)で特定の条件が整うと1つしか入力できないバグを修正しました
 
 ### 2022/07/01 Version 1.5.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[CSV出力設定が保存可能](/report/analytics/csv/)になりました。グループのテーマカラーがうまく反映されないバグを修正しました。グループ毎にメニュー項目の表示・非表示切替ができるようになりました
+[CSV出力設定が保存可能](/manual/report/analytics/csv/)になりました。グループのテーマカラーがうまく反映されないバグを修正しました。グループ毎にメニュー項目の表示・非表示切替ができるようになりました
 
 ### 2022/06/28 Version 1.5.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-日報作成後にメール送信ボタンが追加されました。提出専用アカウントでも[自分の日報に限り集計](/report/analytics/)できるようになりました
+日報作成後にメール送信ボタンが追加されました。提出専用アカウントでも[自分の日報に限り集計](/manual/report/analytics/)できるようになりました
 
 ### 2022/06/23 Version 1.4.0
 
@@ -440,7 +440,7 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-[選択肢(複)](/org/groupsetting/template/select2/)の[集計](/report/analytics/transition/)が行われないバグを修正しました
+[選択肢(複)](/manual/org/groupsetting/template/select2/)の[集計](/manual/report/analytics/transition/)が行われないバグを修正しました
 
 ### 2022/06/13 Version 1.2.2
 
@@ -450,7 +450,7 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 ### 2022/06/10 Version 1.2.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-[日報テンプレート](/org/groupsetting/template/)のラベルを色分けできる機能が追加されました
+[日報テンプレート](/manual/org/groupsetting/template/)のラベルを色分けできる機能が追加されました
 
 ### 2022/06/08 Version 1.1.0
 

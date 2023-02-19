@@ -1,7 +1,6 @@
 +++
 description = "システム利用規約やプライバシーポリシー、特定商取引法にもどつく表記について記載しています"
 menuTitle = "システム概要・規約"
-menuPre = "<b>10. </b>"
 title = "システム概要"
 toc = false
 weight = 100

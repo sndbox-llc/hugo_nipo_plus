@@ -9,7 +9,7 @@ tags = []
 +++
 
 
-{{<button "/org/groupsetting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/org/groupsetting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 1行テキストの入力画面
 

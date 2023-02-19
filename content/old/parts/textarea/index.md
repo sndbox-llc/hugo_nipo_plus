@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/org/groupsetting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/org/groupsetting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 本文の入力画面
 

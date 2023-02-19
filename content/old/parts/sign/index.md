@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/org/groupsetting/template/sign/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/org/groupsetting/template/sign/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 署名の入力画面
 

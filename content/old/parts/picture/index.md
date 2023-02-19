@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/org/groupsetting/template/picture/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/org/groupsetting/template/picture/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 写真画像の入力画面
 

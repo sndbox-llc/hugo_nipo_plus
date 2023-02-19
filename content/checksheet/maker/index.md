@@ -5,7 +5,6 @@ tags = []
 title = "製造業のチェックシートテンプレートサンプル集"
 toc = true
 weight = 1
-aliases = ['/blog/maker/']
 +++
 
 
@@ -40,8 +39,8 @@ aliases = ['/blog/maker/']
 
 {{<appscreen filename="sample1" title="設備点検チェックシートのサンプル" >}}
 
-点検項目と○✗選択をNipoPlusでは[チェックボックス入力フォーム](/org/groupsetting/template/checkbox/)を使って表現出来ます。
-コメントエリアに着いては[本文入力フォーム](/org/groupsetting/template/text/)を使って表現しています。
+点検項目と○✗選択をNipoPlusでは[チェックボックス入力フォーム](/manual/org/groupsetting/template/checkbox/)を使って表現出来ます。
+コメントエリアに着いては[本文入力フォーム](/manual/org/groupsetting/template/text/)を使って表現しています。
 
 <div style="background:lightcyan;padding:30px">
 
@@ -66,9 +65,9 @@ NipoPlusでは幅12で1行になるので9+3でちょうど1行になるよう�
 {{<appscreen filename="sample2" title="" >}}
 
 ズレ幅のような入力をする場合、いくつかの作り方があります。
-ズレ幅がある程度絞れる場合は[スライダ入力フォーム](/org/groupsetting/template/step/)を使うのもありです。
-シンプルに[数値入力フォーム](/org/groupsetting/template/math/)を使っても良いでしょう。
-今回のように色分けして線形ズレなどを一覧から選ばせる場合は、[選択肢入力フォーム](/org/groupsetting/template/select/)を使います。
+ズレ幅がある程度絞れる場合は[スライダ入力フォーム](/manual/org/groupsetting/template/step/)を使うのもありです。
+シンプルに[数値入力フォーム](/manual/org/groupsetting/template/math/)を使っても良いでしょう。
+今回のように色分けして線形ズレなどを一覧から選ばせる場合は、[選択肢入力フォーム](/manual/org/groupsetting/template/select/)を使います。
 
 選択肢入力は内部的には文字データとして記録されますが、選択肢の中で数値に変換可能な値が含まれている場合は数値として集計やグラフ生成をすることが可能です。
 また、選択肢は文字であるため、例えば「1mmの選択が選ばれた回数を数える」といった集計方法も可能です。
@@ -84,7 +83,7 @@ NipoPlusでは幅12で1行になるので9+3でちょうど1行になるよう�
 
 「+1mm」のような文字を数値の「1」へ変換する処理はNipoPlus側が自動で行います。数値化出来ないものは0に置き換えられます。
 
-{{<button "/report/analytics/" "グラフ化について">}}
+{{<button "/manual/report/analytics/" "グラフ化について">}}
 
 
 ## 製造数と不良数から不良率を自動で算出するチェックシート

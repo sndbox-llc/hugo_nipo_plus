@@ -38,17 +38,17 @@ reqMermaid = false
 {{<icatch filename="template-make" msg="部品を積み木のように 並べるだけです" title="日報テンプレートを作るのは簡単です。必要な部品をブロックのように並べていくだけです" fontsize="30px" alice="guide" >}}
 
 1つ1つのボックスを入力フォームといいます。
-入力フォームには「[文字入力](/org/groupsetting/template/text/)」や「[選択肢入力](/org/groupsetting/template/select/)」「[写真入力](/org/groupsetting/template/picture/)」「[署名入力](/org/groupsetting/template/sign/)」など様々な種類が用意されています。
+入力フォームには「[文字入力](/manual/org/groupsetting/template/text/)」や「[選択肢入力](/manual/org/groupsetting/template/select/)」「[写真入力](/manual/org/groupsetting/template/picture/)」「[署名入力](/manual/org/groupsetting/template/sign/)」など様々な種類が用意されています。
 入力フォーム一覧から必要なフォームを選んで日報テンプレートに追加していきます。
-例えば営業日報で訪問件数を日報に書く必要がある場合は[数値入力フォーム](/org/groupsetting/template/math/)や[スライダ入力フォーム](/org/groupsetting/template/step/)を追加する。といった感じです。
+例えば営業日報で訪問件数を日報に書く必要がある場合は[数値入力フォーム](/manual/org/groupsetting/template/math/)や[スライダ入力フォーム](/manual/org/groupsetting/template/step/)を追加する。といった感じです。
 
-このように[入力フォームを積み重ねる](/org/groupsetting/template/)だけでオリジナル日報テンプレートの完成です。
+このように[入力フォームを積み重ねる](/manual/org/groupsetting/template/)だけでオリジナル日報テンプレートの完成です。
 
-[数値入力](/org/groupsetting/template/math/)や[時間入力](/org/groupsetting/template/datetimes/)など一部の入力フォームはスタッフごとの集計やグラフ化にも対応しています。
+[数値入力](/manual/org/groupsetting/template/math/)や[時間入力](/manual/org/groupsetting/template/datetimes/)など一部の入力フォームはスタッフごとの集計やグラフ化にも対応しています。
 
 業務毎に最適化したテンプレートを是非作ってみてくだい。
 
-{{<button "/org/groupsetting/template/" "日報のテンプレートについて詳しく見る">}}
+{{<button "/manual/org/groupsetting/template/" "日報のテンプレートについて詳しく見る">}}
 
 ## 業務日報の記入漏れを未然に防ぎます
 
@@ -60,7 +60,7 @@ reqMermaid = false
 ※入力フォームの種類によっては入力必須の指定ができないものもあります
 
 特に項目が多い場合はうっかり記入を忘れてしまいがち。そんな心配もシステム化によって未然に防ぐことが可能です。
-またそもそも提出自体を忘れているスタッフが居る場合もあるでしょう。このような場合は[提出簿](/report/read/list/)や、カレンダーなどから未提出者をかんたんに発見できます。
+またそもそも提出自体を忘れているスタッフが居る場合もあるでしょう。このような場合は[提出簿](/manual/report/read/list/)や、カレンダーなどから未提出者をかんたんに発見できます。
 
 {{<button "/blog/required/" "入力必須について詳しく見る">}}
 
@@ -98,7 +98,7 @@ reqMermaid = false
 テーブル化される前の日報を確認したいときは日付のボタンやスタッフ名のボタンをクリックすればポップアップで該当の日報を表示できます。ポップアップだからいちいち画面の切り替わりがなく手軽に確認可能です。
 テーブルを保存したいときもボタン一つで**CSV形式で保存**できます。
 
-{{<button "/report/analytics/list/" "過去データ推移について詳しく見る">}}
+{{<button "/manual/report/analytics/list/" "過去データ推移について詳しく見る">}}
 
 ## 日報のデータをもとにグラフを自由に作成できます
 
@@ -113,7 +113,7 @@ reqMermaid = false
 グラフの設定は個々のアカウントに対して記録されるので、たくさんのグラフを作っても他のスタッフには見えず、作業の邪魔になる心配は不要です。
 作成された**グラフはPngファイル形式で保存**することもできます。
 
-{{<button "/report/analytics/chart/" "グラフについて詳しく見る">}}
+{{<button "/manual/report/analytics/chart/" "グラフについて詳しく見る">}}
 
 ## 月間・週間カレンダー上に日報をマッピングして全体を見渡す
 
@@ -135,7 +135,7 @@ reqMermaid = false
 一方で月間カレンダーではスタッフごとの未提出状況などは確認できませんが、一ヶ月間の日報総数や日ごとの件数が確認できます。
 カレンダー上に表示されている**すべての日報をCSVやPDFとしてダウンロード**することも可能です。ワンクリックで１ヶ月分の日報をまとめてダウンロードできます。
 
-{{<button "/calendar/" "カレンダーについて詳しく見る">}}
+{{<button "/manual/calendar/" "カレンダーについて詳しく見る">}}
 
 ## 日報をCSV出力して表計算ソフトで集計分析
 
@@ -157,7 +157,7 @@ CSVの**出力形式は目的に応じて変更**できます。例えば日報�
 
 スマートフォンやタブレットについているカメラを使って**写真を撮影し日報に添付**できます。
 またタッチパネル対応の機器であれば画面上に**署名を書いて日報に添付**することも可能です  
-（参考：[署名入力フォーム](/org/groupsetting/template/sign/)・[写真入力フォーム](/org/groupsetting/template/picture/)）
+（参考：[署名入力フォーム](/manual/org/groupsetting/template/sign/)・[写真入力フォーム](/manual/org/groupsetting/template/picture/)）
 
 {{<imgproc apple-pencile-writed-sign.jpg "スタイラスペンで日報に直接署名を書き込むこともできます" />}}
 
@@ -193,7 +193,7 @@ NipoPlusではグループを分けて管理できますが、グループを小
 ダウンロードしたPDFファイルは1つの独立したファイルなので、メールで送ったり、印刷することも可能です。
 PDF出力前に設定を変更すればQRコードの埋め込みや透かし文字の設定、縦横の向き設定も可能です。
 
-{{<button "/report/read/pdf/" "PDF出力について詳しく見る">}}
+{{<button "/manual/report/read/pdf/" "PDF出力について詳しく見る">}}
 
 ## 日報を電子化すると物理的な保管スペースが不要に
 
@@ -236,7 +236,7 @@ NipoPlusではユーザのロックインを行いません。すべてのデー
 
 ## どうやってNipoPlusをはじめるの？
 
-NipoPlusに興味を持っていただけましたか？[匿名アカウント](/account/tokumei/)を使えばE-mailもパスワードも無しに今すぐ使い始めることができます。正式にアカウントを作る場合はE-mailとログインに使用するパスワードを決めてください。
+NipoPlusに興味を持っていただけましたか？[匿名アカウント](/manual/account/tokumei/)を使えばE-mailもパスワードも無しに今すぐ使い始めることができます。正式にアカウントを作る場合はE-mailとログインに使用するパスワードを決めてください。
 使い始めるにあたり、[クイックスタートガイド](/quickstart/)が参考になります。必要最小限の初期設定から日報を提出するまでの流れをわかりやすく解説しています。
 クイックスタートガイドでは匿名アカウントを使った方法で解説しています。  
 もし使い方にご不明な点があれば、いつでも遠慮なく[お問い合わせ](/system/inquery/)ください。

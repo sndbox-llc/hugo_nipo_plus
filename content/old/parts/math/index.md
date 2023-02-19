@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/org/groupsetting/template/math/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/org/groupsetting/template/math/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 数値の入力画面
 

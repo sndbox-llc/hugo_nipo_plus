@@ -114,4 +114,4 @@ weight = 30
 
 具体的なテンプレートの作成手順については以下のリンクを参照してください。
 
-{{<button "/org/groupsetting/template/" "テンプレートの作り方">}}
+{{<button "/manual/org/groupsetting/template/" "テンプレートの作り方">}}

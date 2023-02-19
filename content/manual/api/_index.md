@@ -1,11 +1,11 @@
 +++
 description = "日報データをAPI経由で取得することができます"
 menuTitle = "API"
-menuPre = "<b>9. </b>"
+menuPre = "<b>10. </b>"
 title = "API"
 toc = false
 tags = []
-weight = 90
+weight = 100
 +++
 
 NipoPlusではWebAPIを公開しています。このWebAPIを使うことで日報データを直接取得できます。

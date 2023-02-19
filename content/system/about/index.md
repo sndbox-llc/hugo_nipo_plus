@@ -53,7 +53,7 @@ graph LR;
 ### 日報テンプレートの自作がより柔軟になりました
 
 Nipoでは1行につき最大2列までという制限がありました。
-これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/manual/initial-setting/groupsetting/template/)できるようになりました。
+これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/manual/initial-setting/group-setting/template/)できるようになりました。
 
 {{<icatch filename="responsive-design" msg="日報テンプレートの 設計自由度がUP" title="日報テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here" >}}
 
@@ -92,7 +92,7 @@ NipoPlusではメールによる通知が廃止されましたが、代わりに
 ### 無駄な通信を大幅に削減しました
 
 旧Nipoではアプリ起動時に多くのデータを読み込んでいました。その際たるは受信日報、送信日報です。起動するたびに数十件の日報をロードするため無駄が多くありました。たとえ日報を書くだけでも、毎回過去の日報をロードしていました。
-NipoPlusでは[日報受信BOXを開いたタイミング](/manual/report/read/list/)でロードが開始されます。ロードされる日報も指定した期間の日報のみで、古い日報は読み込みを行いません。
+NipoPlusでは[日報受信BOXを開いたタイミング](/manual/read-report/list/)でロードが開始されます。ロードされる日報も指定した期間の日報のみで、古い日報は読み込みを行いません。
 
 {{<icatch filename="report-box" msg="必要な期間の日報を 素早くロードします" title="必要な日報のみを賢く読み込むことで無駄な通信を削減できます。" fontsize="30px" alice="ok" >}}
 
@@ -129,5 +129,5 @@ Nipoで3名でご利用はほぼ同額、4名以上でご利用の場合は間�
 - プロジェクト機能
 - メール通知（[アプリ通知](/manual/notice/show/)に統一）※今後メール通知はオプションで提供予定
 - グループモードの共有しないモード
-- 1行テキスト入力フォーム（[テキスト入力フォーム](/manual/initial-setting/groupsetting/template/text/)に統一）
-- 語録入力フォーム（[選択肢入力フォーム](/manual/initial-setting/groupsetting/template/select/)に統一）
+- 1行テキスト入力フォーム（[テキスト入力フォーム](/manual/initial-setting/group-setting/template/text/)に統一）
+- 語録入力フォーム（[選択肢入力フォーム](/manual/initial-setting/group-setting/template/select/)に統一）

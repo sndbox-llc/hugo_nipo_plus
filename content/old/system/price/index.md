@@ -28,7 +28,7 @@ GOLD PLANをご利用の方のおかげで、Nipoが成り立っています。�
 Nipoの全ての機能が利用できます。利用人数も申し込み内容によって最大80名まで増加します。  
 グループ単位で料金が発生し、グループ内のメンバーは全員がGOLD PLANの機能を使うことができます。  
 
-大人数でNipoを利用する場合は、[50名以上でNipoを使う](/old/system/limit-break/)の記事も併せてご確認ください
+大人数でNipoを利用する場合は、[50名以上でNipoを使う](/old/system/limitbreak/)の記事も併せてご確認ください
 
 ### Gold Planと無料プランの具体的な違い一覧表
 
@@ -52,7 +52,7 @@ Nipoの全ての機能が利用できます。利用人数も申し込み内容�
   メール通知 | 不可 | 可
   スタッフ数 | 4名 | プランに応じて変動
   [1行テキスト](/old/parts/text/) | 可 | 可
-  [本文](/pld/parts/textarea/) | 可 | 可
+  [本文](/old/parts/textarea/) | 可 | 可
   [日付](/old/parts/date/) | 可 | 可
   [時刻](/old/parts/time/) | 可 | 可
   [チェックボックス](/old/parts/checkbox/) | 可 | 可
@@ -64,7 +64,7 @@ Nipoの全ての機能が利用できます。利用人数も申し込み内容�
   [範囲](/old/parts/range/) | 可 | 可
   [表](/old/parts/slide/) | 不可 | 可
   [署名（サイン）](/old/parts/sign/) | 不可 | 可
-  [写真画像](/old/parts/pict/) | 不可 | 可
+  [写真画像](/old/parts/picture/) | 不可 | 可
   [手書きメモ](/old/parts/canvas/) | 不可 | 可
   [タイムカード](/old/parts/timecard/) | 可 | 可
   [住所](/old/parts/zip/) | 郵便番号による入力補完は不可 | 可

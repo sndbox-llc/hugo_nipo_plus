@@ -1,10 +1,10 @@
 +++
 description = "アプリをご利用の際はアカウントが必要になります。このページではスタッフのアカウント管理に関する情報を記載しています"
 menuTitle = "アカウント管理"
-menuPre = "<b>7. </b>"
+menuPre = "<b>9. </b>"
 title = "スタッフのアカウント"
 toc = false
-weight = 70
+weight = 90
 tags = []
 +++
 

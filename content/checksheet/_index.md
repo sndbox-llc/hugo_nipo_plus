@@ -65,7 +65,7 @@ iPadならアップルペンシルも使えます
 紙のチェックシートをエクセルに書き写す手間を大幅にカットできます。
 折れ線グラフや棒グラフ・円グラフなどが利用できます。
 
-{{<button "/manual/report/analytics/chart/" "グラフについて詳しく見る">}}
+{{<button "/manual/analytics/chart/" "グラフについて詳しく見る">}}
 
 ## チェックシートの過去データを表に変換（テーブル化）
 
@@ -75,7 +75,7 @@ iPadならアップルペンシルも使えます
 当日や午前・午後など時間帯で指定してグループ化することもできます。
 自動生成されたチェックシートの表はCSVファイルとしてそのままダウンロードすることも可能です。
 
-{{<button "/manual/report/analytics/list/" "過去データ推移について詳しく見る">}}
+{{<button "/manual/analytics/list/" "過去データ推移について詳しく見る">}}
 
 ## チェックシートのデータを表計算のデータとして活用
 
@@ -101,7 +101,7 @@ iPadならアップルペンシルも使えます
 
 例えば製造する部品によってチェックシートの内容が変わるとします。X部品はX部品の、Y部品はY部品のチェックシートが必要になることでしょう。
 予めチェックシートのテンプレートを作って置けばチェックシート記入時に一覧から使用するチェックシートの種類を選ぶだけです。
-更に[グループ](/manual/initial-setting/groupsetting/make/)を切り分ければ、グループごとに[チェックシートのテンプレート](/manual/initial-setting/groupsetting/template/make/)が作成可能です。
+更に[グループ](/manual/initial-setting/group-setting/make/)を切り分ければ、グループごとに[チェックシートのテンプレート](/manual/initial-setting/group-setting/template/make/)が作成可能です。
 例えばA製造グループとB品質管理グループ、C営業部に分けると、AグループのチェックシートとBグループのチェックシートでは全く異なるテンプレートが利用できます。
 
 {{<alice pos="right" icon="guide">}}

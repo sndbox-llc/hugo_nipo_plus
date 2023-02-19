@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/manual/initial-setting/groupsetting/template/select2/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/initial-setting/group-setting/template/select2/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 選択肢（複数回答）の入力画面
 

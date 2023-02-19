@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/manual/report/read/pdf/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/read-report/pdf/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 日報をかんたんにPDFへ変換できます。スマホからも操作可能
 

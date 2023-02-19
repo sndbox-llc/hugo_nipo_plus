@@ -101,7 +101,7 @@ iPadならアップルペンシルも使えます
 
 例えば製造する部品によってチェックシートの内容が変わるとします。X部品はX部品の、Y部品はY部品のチェックシートが必要になることでしょう。
 予めチェックシートのテンプレートを作って置けばチェックシート記入時に一覧から使用するチェックシートの種類を選ぶだけです。
-更に[グループ](/manual/org/groupsetting/make/)を切り分ければ、グループごとに[チェックシートのテンプレート](/manual/org/groupsetting/template/make/)が作成可能です。
+更に[グループ](/manual/initial-setting/groupsetting/make/)を切り分ければ、グループごとに[チェックシートのテンプレート](/manual/initial-setting/groupsetting/template/make/)が作成可能です。
 例えばA製造グループとB品質管理グループ、C営業部に分けると、AグループのチェックシートとBグループのチェックシートでは全く異なるテンプレートが利用できます。
 
 {{<alice pos="right" icon="guide">}}

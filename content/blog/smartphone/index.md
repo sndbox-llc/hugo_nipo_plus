@@ -29,9 +29,9 @@ NipoPlusでは日報をモバイル機器から簡単に作成したり、受け
 スワイプで簡単に数値の入力ができる**スライダ入力フォーム**や、タップだけで数値の入力が可能な**レート入力フォーム**など盛りだくさんです。
 
 <div class="flexmain">
-<div class="dp33">{{<button "/manual/org/groupsetting/template/step/" "スライダ入力">}}</div>
-<div class="dp33">{{<button "/manual/org/groupsetting/template/rate/" "レート入力">}}</div>
-<div class="dp33">{{<button "/manual/org/groupsetting/template/select/" "選択入力">}}</div>
+<div class="dp33">{{<button "/manual/initial-setting/groupsetting/template/step/" "スライダ入力">}}</div>
+<div class="dp33">{{<button "/manual/initial-setting/groupsetting/template/rate/" "レート入力">}}</div>
+<div class="dp33">{{<button "/manual/initial-setting/groupsetting/template/select/" "選択入力">}}</div>
 </div>
 
 
@@ -42,7 +42,7 @@ NipoPlusでは日報をモバイル機器から簡単に作成したり、受け
 
 書かれたサインやイラストはNipoPlusのサーバに画像として保存され、日報を読む際に自動でロードされます。電子署名といった厳格なものではありませんが、紙のサインをデジタルに置き換えるには十分です。
 
-{{<button "/manual/org/groupsetting/template/sign/" "手書きの署名について詳しく見る">}}
+{{<button "/manual/initial-setting/groupsetting/template/sign/" "手書きの署名について詳しく見る">}}
 
 
 {{<alice pos="right" icon="tablet">}}サインはタブレット＆ペンの方が書きやすくておすすめです{{</alice>}}
@@ -50,13 +50,13 @@ NipoPlusでは日報をモバイル機器から簡単に作成したり、受け
 スマートフォンやタブレットの多くにはカメラが内蔵されてます。このカメラを使って現場の写真を撮影し、現場の写真をそのまま日報の添付資料として添付することも簡単に行なえます。
 
 {{<imgproc photo.jpg "カメラで撮影した写真をそのまま日報に添付する" />}}
-{{<button "/manual/org/groupsetting/template/picture/" "写真について詳しく見る">}}
+{{<button "/manual/initial-setting/groupsetting/template/picture/" "写真について詳しく見る">}}
 
 
 NipoPlusは日報テンプレートを自分で自由に作成できます。プログラミングの知識は一切不要です。
 スマートフォンやタブレットの特徴をフルに活用できる日報を是非作り上げて見てください。
 
-{{<button "/manual/org/groupsetting/template/make/" "テンプレート作成">}}
+{{<button "/manual/initial-setting/groupsetting/template/make/" "テンプレート作成">}}
 
 
 ## スマホ・タブレットに適したレイアウトに日報が自動で変化

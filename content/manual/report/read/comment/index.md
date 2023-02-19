@@ -30,5 +30,5 @@ weight = 12
 
 ## コメントの通知とログ
 
-コメントが作成されると日報のオーナーに対してコメントの旨の[通知が発行](/manual/notice/type/)されます。またグループの[ログ](/manual/org/group2/log/)上にもコメントが残ります。
-スタッフの[活動実績](/manual/org/group2/activity/)としてもカウントされ、コメントの書き込んだ回数が加算されます。
+コメントが作成されると日報のオーナーに対してコメントの旨の[通知が発行](/manual/notice/type/)されます。またグループの[ログ](/manual/initial-setting/group2/log/)上にもコメントが残ります。
+スタッフの[活動実績](/manual/initial-setting/group2/activity/)としてもカウントされ、コメントの書き込んだ回数が加算されます。

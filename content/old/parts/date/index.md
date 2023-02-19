@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/manual/org/groupsetting/template/datetime/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/initial-setting/groupsetting/template/datetime/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 日付の入力画面
 

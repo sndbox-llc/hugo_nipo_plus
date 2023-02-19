@@ -29,7 +29,7 @@ weight = 20220725
 
 {{<imgproc checksheet.png "これは5Sチェックシートのテンプレート例です。タブレットからでもタップ操作だけですべての入力ができるシンプルなチェックシートです" />}}
 
-この5Sチェックシートは[レート入力フォーム](/manual/org/groupsetting/template/rate/)と[選択肢入力フォーム](/manual/org/groupsetting/template/select/)の2種類（各3個づつ、計6個）を組み合わせて構成されています。
+この5Sチェックシートは[レート入力フォーム](/manual/initial-setting/groupsetting/template/rate/)と[選択肢入力フォーム](/manual/initial-setting/groupsetting/template/select/)の2種類（各3個づつ、計6個）を組み合わせて構成されています。
 NipoPlusではチェックシートの各入力フォームは独立した1つのブロックと捉えています。
 必要なブロックを積み重ねていくだけで簡単に先程のような5Sチェックシートが作成できす。
 
@@ -41,7 +41,7 @@ NipoPlusではチェックシートの各入力フォームは独立した1つ�
 
 {{<imgproc hinsitu.png "ある製品の製造時品質を記入するチェックシートの一例です。内容はすべてサンプルのため実在するチェックシートでは有りません。" />}}
 
-こちらのチェックシートでも軸ブレ幅の項目で[選択肢入力フォーム](/manual/org/groupsetting/template/select/)が使用されています。その他に製品保証Aの項目では[チェックボックス式入力フォーム](/manual/org/groupsetting/template/checkbox/)が使用され、重量の項目では[スライダー式入力フォーム](/manual/org/groupsetting/template/step/)が使用されています。
+こちらのチェックシートでも軸ブレ幅の項目で[選択肢入力フォーム](/manual/initial-setting/groupsetting/template/select/)が使用されています。その他に製品保証Aの項目では[チェックボックス式入力フォーム](/manual/initial-setting/groupsetting/template/checkbox/)が使用され、重量の項目では[スライダー式入力フォーム](/manual/initial-setting/groupsetting/template/step/)が使用されています。
 特に製造業はチェックシートの項目がラインごとで異なるのも当たり前ですので、このように自由にチェックシートを自作できることは大きなポイントです。
 
 ## チェックシートを電子化するメリット

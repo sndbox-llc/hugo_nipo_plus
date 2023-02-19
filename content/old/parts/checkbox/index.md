@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/manual/org/groupsetting/template/checkbox/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/initial-setting/groupsetting/template/checkbox/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## チェックボックスの入力画面
 

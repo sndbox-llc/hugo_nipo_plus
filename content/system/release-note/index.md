@@ -64,8 +64,8 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-- [数値入力フォーム](/manual/org/groupsetting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
-- [スタッフ権限](/manual/org/staff/)に「ゲスト権限」が追加されました（リクエスト）
+- [数値入力フォーム](/manual/initial-setting/groupsetting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
+- [スタッフ権限](/manual/initial-setting/staff/)に「ゲスト権限」が追加されました（リクエスト）
 
 ### 2023/01/23 Version 1.26.0
 
@@ -78,8 +78,8 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
-- [チェックボックス](/manual/org/groupsetting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
-- [テンプレート](/manual/org/groupsetting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
+- [チェックボックス](/manual/initial-setting/groupsetting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
+- [テンプレート](/manual/initial-setting/groupsetting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
 - 長らく放置されていた全体設定の色に関するバグを修正しました
 
 ### 2023/01/13 Version 1.25.1
@@ -87,7 +87,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
 - 日報一括削除機能でIDの取得に失敗するバグを修正しました
-- （[組織全体設定](/manual/org/staff/make/)）スタッフ管理の画面切替機能を追加しました
+- （[組織全体設定](/manual/initial-setting/staff/make/)）スタッフ管理の画面切替機能を追加しました
 
 ### 2023/01/03 Version 1.25.0
 
@@ -253,14 +253,14 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[CSV出力](/manual/report/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました。[ログ表示](/manual/org/group2/log/)の日付入力を使いやすく改良しました。[期間入力フォーム](/manual/org/groupsetting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました。
+[CSV出力](/manual/report/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました。[ログ表示](/manual/initial-setting/group2/log/)の日付入力を使いやすく改良しました。[期間入力フォーム](/manual/initial-setting/groupsetting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました。
 
 ### 2022/08/31 v1.12.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-[可変長の入力](/manual/org/groupsetting/template/array/)時に見出し項目を1行目以外非表示にしました。[期間入力フォーム](/manual/org/groupsetting/template/datetimes/)の表示を一部変更しました
+[可変長の入力](/manual/initial-setting/groupsetting/template/array/)時に見出し項目を1行目以外非表示にしました。[期間入力フォーム](/manual/initial-setting/groupsetting/template/datetimes/)の表示を一部変更しました
 
 ### 2022/08/29 Version 1.12.0
 
@@ -278,7 +278,7 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 ### 2022/08/22 Version 1.11.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-[CSV出力](/manual/report/analytics/csv/)オプションに「可変長」に関するオプションが追加されました。[可変長の日報](/manual/org/groupsetting/template/array/)のデザインを変更しました
+[CSV出力](/manual/report/analytics/csv/)オプションに「可変長」に関するオプションが追加されました。[可変長の日報](/manual/initial-setting/groupsetting/template/array/)のデザインを変更しました
 
 ### 2022/08/21 Version 1.11.0
 
@@ -384,8 +384,8 @@ Windows・一部のAndroidでのみ表示されていた日報のスクロール
 ### 2022/07/11 Version 1.5.4
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-[共用機能](/manual/org/group2/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました。
-[グループへの所属画面](/manual/org/staff/manage/)をより見やすく変更しました。本サイトのページ一部URL変更に伴いアプリ内のリンクを修正しました
+[共用機能](/manual/initial-setting/group2/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました。
+[グループへの所属画面](/manual/initial-setting/staff/manage/)をより見やすく変更しました。本サイトのページ一部URL変更に伴いアプリ内のリンクを修正しました
 
 ### 2022/07/07 Version 1.5.3
 
@@ -398,7 +398,7 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-[選択肢（複）フォーム](/manual/org/groupsetting/template/select2/)で特定の条件が整うと1つしか入力できないバグを修正しました
+[選択肢（複）フォーム](/manual/initial-setting/groupsetting/template/select2/)で特定の条件が整うと1つしか入力できないバグを修正しました
 
 ### 2022/07/01 Version 1.5.1
 
@@ -446,7 +446,7 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
-[選択肢(複)](/manual/org/groupsetting/template/select2/)の[集計](/manual/report/analytics/transition/)が行われないバグを修正しました
+[選択肢(複)](/manual/initial-setting/groupsetting/template/select2/)の[集計](/manual/report/analytics/transition/)が行われないバグを修正しました
 
 ### 2022/06/13 Version 1.2.2
 
@@ -456,7 +456,7 @@ NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)�
 ### 2022/06/10 Version 1.2.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-[日報テンプレート](/manual/org/groupsetting/template/)のラベルを色分けできる機能が追加されました
+[日報テンプレート](/manual/initial-setting/groupsetting/template/)のラベルを色分けできる機能が追加されました
 
 ### 2022/06/08 Version 1.1.0
 

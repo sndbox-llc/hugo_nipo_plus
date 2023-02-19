@@ -98,13 +98,13 @@ weight = 11
 
 ### 数値データ
 
-数値データとは[数値入力フォーム](/manual/org/groupsetting/template/math/)および[スライダ入力フォーム](/manual/org/groupsetting/template/step/)、そして[算術入力フォーム](/manual/org/groupsetting/template/calc/)で入力されたデータです。
+数値データとは[数値入力フォーム](/manual/initial-setting/groupsetting/template/math/)および[スライダ入力フォーム](/manual/initial-setting/groupsetting/template/step/)、そして[算術入力フォーム](/manual/initial-setting/groupsetting/template/calc/)で入力されたデータです。
 
 {{<imgproc digit.png "数値は赤色で表示" />}}
 
 ### レートデータ
 
-[レート入力フォーム](/manual/org/groupsetting/template/rate/)のデータは緑色で表示されます。
+[レート入力フォーム](/manual/initial-setting/groupsetting/template/rate/)のデータは緑色で表示されます。
 
 {{<imgproc rate.png "レートは緑色で表示" />}}
 
@@ -121,7 +121,7 @@ weight = 11
 
 {{<imgproc select.png "選択肢は青色で表示" />}}
 
-[選択肢入力フォーム](/manual/org/groupsetting/template/select/)のデータは青色で表示されます。
+[選択肢入力フォーム](/manual/initial-setting/groupsetting/template/select/)のデータは青色で表示されます。
 選択肢は単語の選択された回数を数えることができるため表に表示されます。
 選ばれた項目を表示したい場合は、数字で 「1」と表現するよりも「●」などの記号で置き換えたほうが見やすい場合もあるため、設定で変更が可能です。
 
@@ -136,7 +136,7 @@ weight = 11
 
 ### 期間入力データ
 
-[期間入力フォーム](/manual/org/groupsetting/template/datetimes/)で入力されたデータは赤文字で、時計のアイコンが付いて表示されます。
+[期間入力フォーム](/manual/initial-setting/groupsetting/template/datetimes/)で入力されたデータは赤文字で、時計のアイコンが付いて表示されます。
 
 {{<imgproc date-range.png "期間のデータは赤文字で時計のアイコンが目印です。" />}}
 

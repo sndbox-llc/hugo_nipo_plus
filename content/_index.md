@@ -38,17 +38,17 @@ reqMermaid = false
 {{<icatch filename="template-make" msg="部品を積み木のように 並べるだけです" title="日報テンプレートを作るのは簡単です。必要な部品をブロックのように並べていくだけです" fontsize="30px" alice="guide" >}}
 
 1つ1つのボックスを入力フォームといいます。
-入力フォームには「[文字入力](/manual/org/groupsetting/template/text/)」や「[選択肢入力](/manual/org/groupsetting/template/select/)」「[写真入力](/manual/org/groupsetting/template/picture/)」「[署名入力](/manual/org/groupsetting/template/sign/)」など様々な種類が用意されています。
+入力フォームには「[文字入力](/manual/initial-setting/groupsetting/template/text/)」や「[選択肢入力](/manual/initial-setting/groupsetting/template/select/)」「[写真入力](/manual/initial-setting/groupsetting/template/picture/)」「[署名入力](/manual/initial-setting/groupsetting/template/sign/)」など様々な種類が用意されています。
 入力フォーム一覧から必要なフォームを選んで日報テンプレートに追加していきます。
-例えば営業日報で訪問件数を日報に書く必要がある場合は[数値入力フォーム](/manual/org/groupsetting/template/math/)や[スライダ入力フォーム](/manual/org/groupsetting/template/step/)を追加する。といった感じです。
+例えば営業日報で訪問件数を日報に書く必要がある場合は[数値入力フォーム](/manual/initial-setting/groupsetting/template/math/)や[スライダ入力フォーム](/manual/initial-setting/groupsetting/template/step/)を追加する。といった感じです。
 
-このように[入力フォームを積み重ねる](/manual/org/groupsetting/template/)だけでオリジナル日報テンプレートの完成です。
+このように[入力フォームを積み重ねる](/manual/initial-setting/groupsetting/template/)だけでオリジナル日報テンプレートの完成です。
 
-[数値入力](/manual/org/groupsetting/template/math/)や[時間入力](/manual/org/groupsetting/template/datetimes/)など一部の入力フォームはスタッフごとの集計やグラフ化にも対応しています。
+[数値入力](/manual/initial-setting/groupsetting/template/math/)や[時間入力](/manual/initial-setting/groupsetting/template/datetimes/)など一部の入力フォームはスタッフごとの集計やグラフ化にも対応しています。
 
 業務毎に最適化したテンプレートを是非作ってみてくだい。
 
-{{<button "/manual/org/groupsetting/template/" "日報のテンプレートについて詳しく見る">}}
+{{<button "/manual/initial-setting/groupsetting/template/" "日報のテンプレートについて詳しく見る">}}
 
 ## 業務日報の記入漏れを未然に防ぎます
 
@@ -157,7 +157,7 @@ CSVの**出力形式は目的に応じて変更**できます。例えば日報�
 
 スマートフォンやタブレットについているカメラを使って**写真を撮影し日報に添付**できます。
 またタッチパネル対応の機器であれば画面上に**署名を書いて日報に添付**することも可能です  
-（参考：[署名入力フォーム](/manual/org/groupsetting/template/sign/)・[写真入力フォーム](/manual/org/groupsetting/template/picture/)）
+（参考：[署名入力フォーム](/manual/initial-setting/groupsetting/template/sign/)・[写真入力フォーム](/manual/initial-setting/groupsetting/template/picture/)）
 
 {{<imgproc apple-pencile-writed-sign.jpg "スタイラスペンで日報に直接署名を書き込むこともできます" />}}
 

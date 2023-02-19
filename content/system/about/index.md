@@ -43,17 +43,17 @@ graph LR;
   組織 --> Cグループ
 {{< /mermaid >}}
 
-[組織](/manual/org/)の中にグループを作り、スタッフを組織にアサイン（割当て）することで、グループとしての独立性を保ちつつも全体の[スタッフを統括管理](/manual/org/staff/)できるようになりました。
+[組織](/manual/initial-setting/)の中にグループを作り、スタッフを組織にアサイン（割当て）することで、グループとしての独立性を保ちつつも全体の[スタッフを統括管理](/manual/initial-setting/staff/)できるようになりました。
 [料金形態](/price/)も組織に対して発生するため、Nipoのときは2つのグループにまたがって所属したスタッフの分も費用がかかりましたが、NipoPlusではこの無駄が有りません。
 
 {{<alice pos="right" icon="ok">}}
-組織について詳しくは[組織のページ](/manual/org/)を御覧ください
+組織について詳しくは[組織のページ](/manual/initial-setting/)を御覧ください
 {{</alice>}}
 
 ### 日報テンプレートの自作がより柔軟になりました
 
 Nipoでは1行につき最大2列までという制限がありました。
-これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/manual/org/groupsetting/template/)できるようになりました。
+これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/manual/initial-setting/groupsetting/template/)できるようになりました。
 
 {{<icatch filename="responsive-design" msg="日報テンプレートの 設計自由度がUP" title="日報テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here" >}}
 
@@ -129,5 +129,5 @@ Nipoで3名でご利用はほぼ同額、4名以上でご利用の場合は間�
 - プロジェクト機能
 - メール通知（[アプリ通知](/manual/notice/show/)に統一）※今後メール通知はオプションで提供予定
 - グループモードの共有しないモード
-- 1行テキスト入力フォーム（[テキスト入力フォーム](/manual/org/groupsetting/template/text/)に統一）
-- 語録入力フォーム（[選択肢入力フォーム](/manual/org/groupsetting/template/select/)に統一）
+- 1行テキスト入力フォーム（[テキスト入力フォーム](/manual/initial-setting/groupsetting/template/text/)に統一）
+- 語録入力フォーム（[選択肢入力フォーム](/manual/initial-setting/groupsetting/template/select/)に統一）

@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/manual/org/group2/goroku/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/initial-setting/group2/goroku/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 語録の入力画面
 

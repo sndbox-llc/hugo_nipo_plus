@@ -24,7 +24,7 @@ NipoPlusで作成可能なグラフには、「円グラフ」「折れ線グラ
 
 {{<imgproc source-data.png "5つの数値入力フォームがある日報。これをグラフ化する" />}}
 
-国語・算数・理科・英語・社会、合計5つの入力フォームがある日報です。この内上の３つは[数値入力フォーム](/manual/org/groupsetting/template/math/)を使用し、下の2つは[スライダ入力フォーム](/manual/org/groupsetting/template/step/)を使用していますがいづれもグラフ化可能です。
+国語・算数・理科・英語・社会、合計5つの入力フォームがある日報です。この内上の３つは[数値入力フォーム](/manual/initial-setting/groupsetting/template/math/)を使用し、下の2つは[スライダ入力フォーム](/manual/initial-setting/groupsetting/template/step/)を使用していますがいづれもグラフ化可能です。
 グラフを作成するには、過去データ推移の下にある「グラフ作成」ボタンをクリックします。ポップアップでグラフ作成ウィザードが表示されます。
 
 ### Step1. グラフの種類を選ぶ

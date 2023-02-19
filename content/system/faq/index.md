@@ -157,4 +157,4 @@ NipoPlusでは[API連携](/manual/api/)を提供しています。
 
 ### Nipoの利用を辞めたいんだけど
 
-[退会する](/manual/remove/org/)の記事を参照してください
+[退会する](/manual/remove/initial-setting/)の記事を参照してください

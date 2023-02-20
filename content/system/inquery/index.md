@@ -7,6 +7,15 @@ toc = false
 weight = 900
 +++
 
+ご不明な点はございますか？またはNipoPlusで追加して欲しい機能、改善してほしい点、ご感想などございましたら以下のフォームからお問い合わせください。
+
+
+{{<alice pos="right" icon="shield">}}
+Stop!営業メールは絶対に送らないでくださいね
+{{</alice>}}
+
+
+
 <div id="contactForm">
 
   <label>Email</label><input type="email" id="mail" />

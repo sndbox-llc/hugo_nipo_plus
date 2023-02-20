@@ -5,6 +5,7 @@ tags = []
 title = "カレンダーの設定"
 toc = true
 weight = 10
+aliases = ['/calendar/setting/']
 +++
 
 カレンダーを使うには、メニューから「カレンダー」をクリックします。

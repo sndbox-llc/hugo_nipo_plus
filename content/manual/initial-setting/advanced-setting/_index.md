@@ -6,6 +6,7 @@ title = "応用設定"
 toc = false
 reqMermaid = true
 weight = 13
+aliases = ['/org/group2/']
 +++
 
 この章ではグループの応用的な設定について解説しています。

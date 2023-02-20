@@ -6,6 +6,7 @@ title = "スタッフアカウントの権限"
 toc = false
 weight = 11
 reqMermaid = true
+aliases = ['/org/staff/']
 +++
 
 スタッフアカウントを作る前に、アカウントの権限について確認しておきましょう。

@@ -6,6 +6,7 @@ title = "API"
 toc = false
 tags = []
 weight = 100
+aliases = ['/api/']
 +++
 
 NipoPlusではWebAPIを公開しています。このWebAPIを使うことで日報データを直接取得できます。

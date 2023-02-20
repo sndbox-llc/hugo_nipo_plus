@@ -5,6 +5,7 @@ tags = []
 title = "写真入力フォーム"
 toc = true
 weight = 220
+aliases = ['/org/groupsetting/template/picture/']
 +++
 
 {{<icatch filename="picture" msg="スマホで「パシャッ」 そのまま日報に添付" title="写真入力フォーム" fontsize="30px" alice="ok" >}}

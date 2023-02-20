@@ -5,6 +5,7 @@ tags = []
 title = "タグの管理"
 toc = true
 weight = 40
+aliases = ['/org/groupsetting/tag/']
 +++
 
 

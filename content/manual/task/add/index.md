@@ -5,6 +5,7 @@ tags = []
 title = "タスクを追加する"
 toc = true
 weight = 10
+aliases = ['/task/add/']
 +++
 
 

@@ -5,6 +5,7 @@ tags = ["集計可能な入力フォーム"]
 title = "スライダ式入力フォーム"
 toc = true
 weight = 300
+aliases = ['/org/groupsetting/template/step/']
 +++
 
 {{<icatch filename="slider-input" msg="つまみをスライドさせて 数値の入力ができます" title="スライダ入力フォーム" fontsize="30px" alice="ok" >}}

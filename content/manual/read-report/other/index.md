@@ -5,6 +5,7 @@ tags = []
 title = "詳細画面のその他の機能"
 toc = true
 weight = 100
+aliases = ['/report/read/other/']
 +++
 
 ## 日報を複製して新規作成する

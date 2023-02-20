@@ -5,6 +5,7 @@ tags = []
 title = "タイムカードを入力する"
 toc = true
 weight = 10
+aliases = ['/timecard/input/']
 +++
 
 タイムカードの入力するは以下の手順で行います。

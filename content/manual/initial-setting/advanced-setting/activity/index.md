@@ -5,6 +5,7 @@ tags = []
 title = "スタッフの活動実績"
 toc = true
 weight = 990
+aliases = ['/org/group2/activity']
 +++
 
 グループに所属しているスタッフに対して設定をしたり、グループ内の活動実績を把握することができます。  

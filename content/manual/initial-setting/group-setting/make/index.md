@@ -5,6 +5,7 @@ tags = []
 title = "グループ作成と基本設定"
 toc = true
 weight = 10
+aliases = ['/org/groupsetting/make/']
 +++
 
 

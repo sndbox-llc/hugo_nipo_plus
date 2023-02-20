@@ -5,7 +5,7 @@ tags = []
 title = "日報を一括PDF出力"
 toc = true
 weight = 40
-# aliases = ['/report/totalling/pdf/']
+aliases = ['/analytics/pdf/']
 +++
 
 

@@ -5,6 +5,7 @@ tags = []
 title = "APIで取得される日報データ構造"
 toc = false
 weight = 30
+aliases = ['/api/report/']
 +++
 
 NipoPlusのアプリを通して見るデータと、APIから取得したデータは見た目が全く異なりますが、両者は同じものです。

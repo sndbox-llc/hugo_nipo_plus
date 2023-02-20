@@ -5,6 +5,7 @@ tags = []
 title = "日報にコメントを書く"
 toc = true
 weight = 12
+aliases = ['/report/read/comment/']
 +++
 
 日報に対してコメントを書くことができます。

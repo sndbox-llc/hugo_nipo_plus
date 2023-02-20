@@ -5,6 +5,7 @@ tags = []
 title = "商品入力フォーム"
 toc = true
 weight = 340
+aliases = ['/org/groupsetting/template/mod/']
 +++
 
 {{<imgproc eye-catch.png "商品入力フォームを含んだ日報の作成画面イメージ" />}}

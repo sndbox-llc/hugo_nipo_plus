@@ -5,6 +5,7 @@ tags = []
 title = "日報を書くまでの流れ"
 toc = true
 weight = 10
+aliases = ['/report/write/write/']
 +++
 
 

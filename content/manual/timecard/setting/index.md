@@ -5,6 +5,7 @@ tags = []
 title = "タイムカードの設定"
 toc = true
 weight = 30
+aliases = ['/timecard/setting/']
 +++
 
 タイムカード機能に関する各種設定が行なえます。  

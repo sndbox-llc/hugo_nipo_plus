@@ -6,6 +6,7 @@ title = "日報を書く"
 toc = false
 weight = 10
 tags = []
+aliases = ['/report/write/']
 +++
 
 

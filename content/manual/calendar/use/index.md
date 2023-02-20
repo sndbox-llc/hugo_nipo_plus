@@ -5,6 +5,7 @@ tags = []
 title = "カレンダーの使い方"
 toc = true
 weight = 20
+aliases = ['/calendar/use/']
 +++
 
 ## 月間カレンダーを使う

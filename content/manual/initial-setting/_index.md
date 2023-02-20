@@ -7,6 +7,7 @@ toc = false
 reqMermaid = true
 weight = 10
 tags = []
+aliases = ['/org/']
 +++
 
 初期設定とは例えばグループを作成したり、[スタッフアカウントを追加](/manual/initial-setting/staff/make/)したり、日報・チェックシートの[テンプレートを作成する](/manual/initial-setting/group-setting/template/make/)といった作業です。

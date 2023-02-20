@@ -5,6 +5,7 @@ tags = []
 title = "ログインとログアウト"
 toc = true
 weight = 10
+aliases = ['/account/signin/']
 +++
 
 ## NipoPlusにログインする

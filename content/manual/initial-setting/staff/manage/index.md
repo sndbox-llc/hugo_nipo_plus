@@ -5,6 +5,7 @@ tags = []
 title = "スタッフアカウントの管理"
 toc = true
 weight = 40
+aliases = ['/org/staff/manage/']
 +++
 
 

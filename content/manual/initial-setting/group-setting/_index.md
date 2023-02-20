@@ -6,6 +6,7 @@ title = "グループについて"
 toc = false
 reqMermaid = false
 weight = 12
+aliases = ['/org/groupsetting/']
 +++
 
 グループは組織内に作成された作業領域です。組織内に何個でも自由にグループを作成できます。

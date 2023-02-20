@@ -5,6 +5,7 @@ tags = []
 title = "タイムカードの集計・ダウンロード"
 toc = true
 weight = 30
+aliases = ['/timecard/export/']
 +++
 
 

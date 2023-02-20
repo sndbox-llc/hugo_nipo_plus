@@ -5,6 +5,7 @@ tags = []
 title = "日報を1件削除する"
 toc = true
 weight = 70
+aliases = ['/remove/report/']
 +++
 
 ## 削除できる日報について

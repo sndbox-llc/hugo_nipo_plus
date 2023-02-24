@@ -32,6 +32,16 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2023/02/24 Version 1.31.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
+- メール通知機能を実装しました。月50通まで無料です（無料プランは利用不可）。オプション開放で月10,000通まで発信可能になります
+- 複数のグループに所属している時、NipoPlusを起動時に最初に立ち上げるグループを指定できるようになりました
+- 期間入力フォームのスライダーとキーボード入力、初期状態の指定ができるようになりました
+
 ### 2023/02/21 Version 1.30.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}

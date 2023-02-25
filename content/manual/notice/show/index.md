@@ -1,8 +1,8 @@
 +++
 description = "日報を受け取った時や日報が承認・棄却された際は通知が発行されます。通知をクリックして内容を確認します"
-menuTitle = "通知を確認する"
+menuTitle = "アプリ内の通知"
 tags = []
-title = "通知を確認する"
+title = "アプリ内の通知"
 toc = true
 weight = 11
 aliases = ['/notice/show/']

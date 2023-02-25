@@ -31,5 +31,5 @@ aliases = ['/report/read/comment/']
 
 ## コメントの通知とログ
 
-コメントが作成されると日報のオーナーに対してコメントの旨の[通知が発行](/manual/notice/type/)されます。またグループの[ログ](/manual/initial-setting/advanced-setting/log/)上にもコメントが残ります。
+コメントが作成されると日報のオーナーに対してコメントの旨の[通知が発行](/manual/notice/show/)されます。またグループの[ログ](/manual/initial-setting/advanced-setting/log/)上にもコメントが残ります。
 スタッフの[活動実績](/manual/initial-setting/advanced-setting/activity/)としてもカウントされ、コメントの書き込んだ回数が加算されます。

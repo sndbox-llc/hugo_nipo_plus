@@ -3,7 +3,7 @@ archetype = "home"
 description = "【無料プランあり】直感操作で業務に沿ったテンプレートを自由に作成できます。日報をPDF・CSVに出力したり、システム上でグラフ化も可能。承認やコメント機能もあります"
 menuTitle = "Home"
 title = "クラウド型日報アプリ NipoPlus"
-toc = true
+toc = false
 tags = []
 reqMermaid = false
 +++

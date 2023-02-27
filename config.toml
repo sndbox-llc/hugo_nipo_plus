@@ -66,8 +66,6 @@ enableRobotsTXT = true
   disableMermaid = false
   # Specifies the remote location of the mermaid js
   customMermaidURL = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"
-  # customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
-  # customMermaidURL = "https://nipo-plus-doc.sndbox.jp/mermaid.min.js"
   # Initialization parameter for Mermaid, see Mermaid documentation
   mermaidInitialize = "{ \"theme\": \"default\" }"
   # If set to false, load the Swagger module on every page regardless if a Swagger shortcode is present

@@ -1,8 +1,8 @@
 +++
 chapter = false
 description = "初めてご利用の方向けのガイドです。アカウント作成から実際に日報を作成するまでの基本的な流れを画像つきでわかりやすく解説"
-menuTitle = "クイックスタート"
-title = "クイックスタートマニュアル"
+menuTitle = "チュートリアル（簡易ガイド）"
+title = "必要最小限に抑えた簡易マニュアルです"
 toc = true
 tocdefaultopen = true
 tags = []

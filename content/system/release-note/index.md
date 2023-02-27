@@ -32,6 +32,13 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ## リリースノート
 
+### 2023/02/27 Version 1.31.1
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+
+- 受信BOXで初期の表示期間を3日・1週間・2週間から選べるようになりました
+- 組織設定の画面周りを微調整しました
+
 ### 2023/02/24 Version 1.31.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}

@@ -38,7 +38,7 @@ NipoPlusの集計機能を使って手軽に過去の推移を比較すること
 エクセルほど豊富なグラフはありませんが、折れ線・棒・円・レーダー・複合のグラフを取り揃えています。
 グラフは予め複数種類作成でき、ボタン1つで**グラフを切り替えて表示**できます。
 
-一般的に文字のデータはグラフ化できませんが、NipoPlusでは[選択肢入力フォーム](/manual/initial-setting/group-setting/template/select/)のデータをグラフ化できます。
+一般的に文字のデータはグラフ化できませんが、NipoPlusでは[選択肢入力フォーム](/manual/initial-setting/template/select/)のデータをグラフ化できます。
 選ばれた回数を数えることも、選択肢の中に含まれる数字を変換してグラフ化することも可能です。より詳しいガイドは以下のマニュアルのページを御覧ください。
 
 {{<button "/manual/analytics/chart/" "グラフ化のマニュアルを見る">}}
@@ -78,13 +78,13 @@ CSV出力の際は不要な項目を除外するといったオプション設�
 
 |項目|説明|集計方式|
 |---|---|---|
-|[選択肢（単）フォーム](/manual/initial-setting/group-setting/template/select/)|各単語の選ばれた回数をカウントします。選択肢に数値が含まれる場合は数値に変換して集計することもできます。|個数|
-|[選択肢（複）フォーム](/manual/initial-setting/group-setting/template/select2/)|同上|個数|
-|[選択肢（階層）フォーム](/manual/initial-setting/group-setting/template/selectcalc/)|同上|個数|
-|[期間入力フォーム](/manual/initial-setting/group-setting/template/datetimes/)|期間を集計します。単位は「分」として集計されます。例えば入力が13:00〜14:30の場合、90(分)として出力されます|数値|
-|[数値入力フォーム](/manual/initial-setting/group-setting/template/math/)|入力された数値を単純に加算します|数値|
-|[スライダ入力フォーム](/manual/initial-setting/group-setting/template/step/)|同上|数値|
-|[レート入力フォーム](/manual/initial-setting/group-setting/template/rate/)|レート毎の選ばれた回数を集計します。例えば☆1は4回、☆2は1回・・・といった具合です。選択肢の集計方式に近いものです|個数|
+|[選択肢（単）フォーム](/manual/initial-setting/template/select/)|各単語の選ばれた回数をカウントします。選択肢に数値が含まれる場合は数値に変換して集計することもできます。|個数|
+|[選択肢（複）フォーム](/manual/initial-setting/template/select2/)|同上|個数|
+|[選択肢（階層）フォーム](/manual/initial-setting/template/selectcalc/)|同上|個数|
+|[期間入力フォーム](/manual/initial-setting/template/datetimes/)|期間を集計します。単位は「分」として集計されます。例えば入力が13:00〜14:30の場合、90(分)として出力されます|数値|
+|[数値入力フォーム](/manual/initial-setting/template/math/)|入力された数値を単純に加算します|数値|
+|[スライダ入力フォーム](/manual/initial-setting/template/step/)|同上|数値|
+|[レート入力フォーム](/manual/initial-setting/template/rate/)|レート毎の選ばれた回数を集計します。例えば☆1は4回、☆2は1回・・・といった具合です。選択肢の集計方式に近いものです|個数|
 
 {{<appscreen filename="calc" title="集計が可能な入力フォームのみで構成されたチェックシートのテンプレート例"  >}}
 

@@ -18,8 +18,8 @@ aliases = ['/org/']
 
 NipoPlusを使うためには以下の設定を行う必要があります。
 
-- [【グループ】の作成](/manual/initial-setting/group-setting/make/)（1つ自動で作成済み）
-- [【日報テンプレート】の作成](/manual/initial-setting/group-setting/template/make/)(1つ自動で作成済み)
+- [【グループ】の作成](/manual/initial-setting/make-group/)（1つ自動で作成済み）
+- [【日報テンプレート】の作成](/manual/initial-setting/template/make/)(1つ自動で作成済み)
 - [スタッフアカウントの追加](/manual/initial-setting/staff/make/)
 
 グループについては自動で作成されているので、追加する必要がなければ設定は不要です。
@@ -36,8 +36,7 @@ NipoPlusを使うためには以下の設定を行う必要があります。
 
 ※グループの作成には管理者権限が必要です。
 
-
-{{<button "/manual/initial-setting/group-setting/make/" "グループの作成マニュアルを見る" >}}
+{{<button "/manual/initial-setting/make-group/" "グループの作成マニュアルを見る" >}}
 
 ## 【日報テンプレート】とは日報を書くための枠で、一般には雛形やフォーマットとも呼ばれることもあります
 
@@ -45,13 +44,11 @@ NipoPlusを使うためには以下の設定を行う必要があります。
 グループごとにテンプレートの作成が必要ですが、他のグループのテンプレートをコピーすることも可能です。
 サンプルで１件のテンプレートが予め用意されていますが、報告に必要な項目は会社によって様々・・・。あなたの会社で必要な日報のテンプレートを作ってください。
 
-
 {{<icatch filename="sample-template" msg="テンプレートの例 項目を自由に設計可" title="作業グループの切り替え" fontsize="30px" alice="ok" >}}
 
 ※テンプレートの作成には「編集者権限以上」が必要です。
 
-
-{{<button "/manual/initial-setting/group-setting/template/make/" "テンプレートの作成マニュアルを見る" >}}
+{{<button "/manual/initial-setting/template/make/" "テンプレートの作成マニュアルを見る" >}}
 
 ## 【スタッフアカウント】はスタッフを特定するためのIDです
 
@@ -60,7 +57,6 @@ NipoPlusを使うためには以下の設定を行う必要があります。
 アカウントを作ることで日報のやり取りを相互にできるようになります。権限を指定したり、アカウントごとに提出先の相手を指定することも可能です。
 
 {{<button "/manual/initial-setting/staff/make/" "アカウントの作成マニュアルを見る" >}}
-
 
 ---
 

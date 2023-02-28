@@ -52,10 +52,10 @@ OSという選択肢があったとして、OSの項目で選ばれたデータ�
 
 |名称|説明|
 |---|---|
-|[選択肢（単回答）](/manual/initial-setting/group-setting/template/select/)の展開|オン:選択肢の回答毎に1列使用した出力が行われます。該当する列に○が付きます<br>オフ:1列に回答が出力されます|
-|[選択肢（複数回答）](/manual/initial-setting/group-setting/template/select2/)の展開|オン:選択肢（複数回答）の回答毎に1列使用します。該当する列に○が付きます<br>オフ:1列に回答がすべてまとめられます|
-|[レート](/manual/initial-setting/group-setting/template/rate/)の展開|オン:レートの最大数の数だけ列が追加され、選択されたレート毎に○がつく形でCSV出力されます<br>オフ:1列にデータの値が直接出力されます|
-|[チェックボックス](/manual/initial-setting/group-setting/template/checkbox/)の展開|オン:「Yes」と「NO」の2列に展開されて出力され、該当する列に○が付きます<br>オフ:1列にONとOFFのいづれかの文字が出力されます|
+|[選択肢（単回答）](/manual/initial-setting/template/select/)の展開|オン:選択肢の回答毎に1列使用した出力が行われます。該当する列に○が付きます<br>オフ:1列に回答が出力されます|
+|[選択肢（複数回答）](/manual/initial-setting/template/select2/)の展開|オン:選択肢（複数回答）の回答毎に1列使用します。該当する列に○が付きます<br>オフ:1列に回答がすべてまとめられます|
+|[レート](/manual/initial-setting/template/rate/)の展開|オン:レートの最大数の数だけ列が追加され、選択されたレート毎に○がつく形でCSV出力されます<br>オフ:1列にデータの値が直接出力されます|
+|[チェックボックス](/manual/initial-setting/template/checkbox/)の展開|オン:「Yes」と「NO」の2列に展開されて出力され、該当する列に○が付きます<br>オフ:1列にONとOFFのいづれかの文字が出力されます|
 
 ### CSV出力オプション【列の展開】は入力フォームごとに指定可能
 
@@ -71,7 +71,7 @@ CSV出力時のオプションで列の展開をON/OFFできますが、ここ�
 
 |名称|説明|
 |---|---|
-|行列を入れかえる|オフ:1行に1つの日報を表示します([可変長](/manual/initial-setting/group-setting/template/array/)がある場合は複数行)<br>オン:1列に1つの日報を表示するようになります|
+|行列を入れかえる|オフ:1行に1つの日報を表示します([可変長](/manual/initial-setting/template/array/)がある場合は複数行)<br>オン:1列に1つの日報を表示するようになります|
 |日付の古い順に出力する|オン:日報の日付が古い順に出力されます。<br>オフ:日報の日付が新しい順に出力されます。<br>※1件の日報だけを選んで出力する[単体出力](/manual/read-report/csv/)では設定の意味はありません|
 
 ## CSVデータの出力有無に関する設定
@@ -80,10 +80,10 @@ CSV出力時のオプションで列の展開をON/OFFできますが、ここ�
 
 |名称|説明|
 |---|---|
-|写真・ファイル等を出力|[写真入力フォーム](/manual/initial-setting/group-setting/template/picture/)、[署名入力フォーム](/manual/initial-setting/group-setting/template/sign/)、[ファイル入力フォーム](/manual/initial-setting/group-setting/template/file/)のデータを別フォルダに出力します。出力に必要な時間が多少長くなります|
+|写真・ファイル等を出力|[写真入力フォーム](/manual/initial-setting/template/picture/)、[署名入力フォーム](/manual/initial-setting/template/sign/)、[ファイル入力フォーム](/manual/initial-setting/template/file/)のデータを別フォルダに出力します。出力に必要な時間が多少長くなります|
 |コメントを出力|日報に書き込まれたコメントを出力します。出力に必要な時間が多少長くなります|
 |提出日を出力|日報の提出日時をCSVにファイルに含めます|
-|【可変-提出日】<br>同日報の2行目以降も出力|[可変長](/manual/initial-setting/group-setting/template/array/)がある場合は1つの日報が複数行に分けて出力されますが、同じ日報の2行目以降、提出日を空欄にしたい場合はOFFにします<br>（ONの場合は同じデータで埋められます)|
+|【可変-提出日】<br>同日報の2行目以降も出力|[可変長](/manual/initial-setting/template/array/)がある場合は1つの日報が複数行に分けて出力されますが、同じ日報の2行目以降、提出日を空欄にしたい場合はOFFにします<br>（ONの場合は同じデータで埋められます)|
 |提出者IDを出力|日報・チェックシートを作成したスタッフのIDをCSVファイルに含めます|
 |提出者名を出力|日報・チェックシートを作成したスタッフ名をCSVファイルに含めます|
 |[状態](/manual/read-report/state/)を出力|現在の状態を承認・棄却・新規・進行・修正のいずれかで出力します|
@@ -96,9 +96,9 @@ CSV出力時のオプションで列の展開をON/OFFできますが、ここ�
 CSVは純粋なテキストファイルのため、バイナリファイルである「画像」等のファイルをCSV上に出力することはできません。
 具体的には以下の入力フォームはCSV上に出力不可能です。
 
-- [写真入力フォーム](/manual/initial-setting/group-setting/template/picture/)
-- [署名入力フォーム](/manual/initial-setting/group-setting/template/sign/)
-- [ファイル入力フォーム](/manual/initial-setting/group-setting/template/file/)
+- [写真入力フォーム](/manual/initial-setting/template/picture/)
+- [署名入力フォーム](/manual/initial-setting/template/sign/)
+- [ファイル入力フォーム](/manual/initial-setting/template/file/)
 
 これらのデータはCSV上では「CSV出力不可」と書かれて出力されます。
 写真などのバイナリファイルをダウンロードするには、CSV出力設定から「写真・ファイル等を出力」の項目をONにしてください。

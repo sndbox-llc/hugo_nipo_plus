@@ -45,13 +45,13 @@ Nipoで3名でご利用はほぼ同額、4名以上でご利用の場合は間�
 
 Nipoでは1行につき最大2列までという制限がありました。
 これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。
-幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/manual/initial-setting/group-setting/template/)できるようになりました。
+幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/manual/initial-setting/template/)できるようになりました。
 
 {{<icatch filename="responsive-design" msg="日報テンプレートの 設計自由度がUP" title="日報テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here" >}}
 
-NipoPlusから新しく追加された[ファイル入力フォーム](/manual/initial-setting/group-setting/template/file/)を使えばZipやPDFといったデータを日報に添付できるようになります。
-また、[算術入力フォーム](/manual/initial-setting/group-setting/template/calc/)や[期間入力フォーム](/manual/initial-setting/group-setting/template/datetimes/)なども新たに追加されました。
-行数が入力の都度変化する[可変長入力フォーム](/manual/initial-setting/group-setting/template/array/)についてもNipoPlusでは大幅な機能強化がなされており、Nipo時代は3種類しか使えませんでしたが、NipoPlusではほとんどすべての入力フォームを可変長として利用することができるようになりました。
+NipoPlusから新しく追加された[ファイル入力フォーム](/manual/initial-setting/template/file/)を使えばZipやPDFといったデータを日報に添付できるようになります。
+また、[算術入力フォーム](/manual/initial-setting/template/calc/)や[期間入力フォーム](/manual/initial-setting/template/datetimes/)なども新たに追加されました。
+行数が入力の都度変化する[可変長入力フォーム](/manual/initial-setting/template/array/)についてもNipoPlusでは大幅な機能強化がなされており、Nipo時代は3種類しか使えませんでしたが、NipoPlusではほとんどすべての入力フォームを可変長として利用することができるようになりました。
 
 ## 日報の承認リレーができるようになりました
 

@@ -37,15 +37,15 @@ NipoPlusができること、導入のメリットについてご紹介します
 {{<icatch filename="template-make" msg="部品を積み木のように 並べるだけです" title="日報テンプレートを作るのは簡単です。必要な部品をブロックのように並べていくだけです" fontsize="30px" alice="guide" >}}
 
 入力フォームを自由に組み合わせて日報テンプレートを作っていきます。
-入力フォームには「[文字入力](/manual/initial-setting/group-setting/template/text/)」や「[選択肢入力](/manual/initial-setting/group-setting/template/select/)」「[写真入力](/manual/initial-setting/group-setting/template/picture/)」「[署名入力](/manual/initial-setting/group-setting/template/sign/)」など様々な種類が用意されています。
-[入力フォームを積み重ねる](/manual/initial-setting/group-setting/template/)だけでオリジナル日報テンプレートの完成です。
+入力フォームには「[文字入力](/manual/initial-setting/template/text/)」や「[選択肢入力](/manual/initial-setting/template/select/)」「[写真入力](/manual/initial-setting/template/picture/)」「[署名入力](/manual/initial-setting/template/sign/)」など様々な種類が用意されています。
+[入力フォームを積み重ねる](/manual/initial-setting/template/)だけでオリジナル日報テンプレートの完成です。
 
 営業日報・業務報告書・品質管理シートなど、組み合わせ方次第でどんなテンプレートでも作成が可能です。
 業務毎に最適化したテンプレートを是非作ってみてくだい。
 
 {{<button "/blog/template/" "こんなテンプレートも？実例紹介">}}
 
-{{<button "/manual/initial-setting/group-setting/template/" "日報テンプレートの作成マニュアル">}}
+{{<button "/manual/initial-setting/template/" "日報テンプレートの作成マニュアル">}}
 
 ## 日報アプリだからできる入力エラーチェック！日報の記入漏れは許しません
 
@@ -55,7 +55,7 @@ NipoPlusができること、導入のメリットについてご紹介します
 {{<icatch filename="omission-prevention" msg="入力必須を使えば 記入漏れを０にできる" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
 
 日報を書いた担当者名などはアカウントから自動で判別しますので提出者名の書き漏れも仕組み上起こりません。
-[選択肢入力フォーム](/manual/initial-setting/group-setting/template/select/)などを使えば決められた値から選ぶだけなので、意図しない入力も完全に回避可能です。
+[選択肢入力フォーム](/manual/initial-setting/template/select/)などを使えば決められた値から選ぶだけなので、意図しない入力も完全に回避可能です。
 
 またそもそも提出自体を忘れているスタッフが居る場合もあるでしょう。このような場合は[日報提出簿](/manual/read-report/list/)や[カレンダー](/calendar/)から日報の未提出者をかんたんに発見できます。
 
@@ -164,10 +164,10 @@ CSVの**出力形式は目的に応じて変更**できます。例えば日報�
 
 ## 日報に直筆のサインや図を記入したり、スマホカメラで撮影した写真をそのまま添付できます
 
-日報テンプレートに[署名入力フォーム](/manual/initial-setting/group-setting/template/sign/)を追加すれば、スマホやタブレットのタッチパネルがそのままキャンバスに早変わり。
+日報テンプレートに[署名入力フォーム](/manual/initial-setting/template/sign/)を追加すれば、スマホやタブレットのタッチパネルがそのままキャンバスに早変わり。
 指やスタイラスペンを使って手描きの図や署名をそのまま日報に埋め込むことが出来ます。
 
-[写真入力フォーム](/manual/initial-setting/group-setting/template/picture/)を追加すれば、スマートフォンやタブレットについているカメラを使って写真を撮影し日報に添付することもできます。
+[写真入力フォーム](/manual/initial-setting/template/picture/)を追加すれば、スマートフォンやタブレットについているカメラを使って写真を撮影し日報に添付することもできます。
 
 
 {{<imgproc photo.jpg "カメラで撮影した写真をそのまま日報に添付する" />}}

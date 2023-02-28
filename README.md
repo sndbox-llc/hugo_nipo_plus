@@ -74,3 +74,9 @@ hugo --minify
 ``` sh
 hugo --cleanDestinationDir
 ```
+
+
+### 記事ネタ
+
+検針アプリ？
+定期巡回アプリ

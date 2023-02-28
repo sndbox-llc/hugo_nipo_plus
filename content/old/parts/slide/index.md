@@ -8,7 +8,7 @@ isNipo = true
 tags = []
 +++
 
-{{<button "/manual/initial-setting/group-setting/template/step/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<button "/manual/initial-setting/template/step/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## スライダーの入力画面
 

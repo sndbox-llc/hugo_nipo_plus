@@ -10,7 +10,7 @@ aliases = ['/org/group2/goroku']
 
 ## テンプレートフォームの選択肢と組み合わせて使用
 
-語録は**単語を集めただけのシンプルなデータの塊**です。日報テンプレートの[選択肢（単）](/manual/initial-setting/group-setting/template/select/)・[選択肢（複）](/manual/initial-setting/group-setting/template/select2/)と組み合わせ、回答リストとして利用します。
+語録は**単語を集めただけのシンプルなデータの塊**です。日報テンプレートの[選択肢（単）](/manual/initial-setting/template/select/)・[選択肢（複）](/manual/initial-setting/template/select2/)と組み合わせ、回答リストとして利用します。
 選択肢入力フォームと組み合わせることで
 
 - 選択肢の再利用ができる
@@ -42,10 +42,10 @@ aliases = ['/org/group2/goroku']
 
 ## 語録と選択肢入力フォームを紐付けする
 
-語録は作成しただけでは効果が有りません。[選択肢入力フォーム](/manual/initial-setting/group-setting/template/select/)と組み合わせて使用します。
+語録は作成しただけでは効果が有りません。[選択肢入力フォーム](/manual/initial-setting/template/select/)と組み合わせて使用します。
 
-1. [日報テンプレート編集画面](/manual/initial-setting/group-setting/template/make/)を開きます
-1. [選択肢入力フォーム](/manual/initial-setting/group-setting/template/select/)を追加します
+1. [日報テンプレート編集画面](/manual/initial-setting/template/make/)を開きます
+1. [選択肢入力フォーム](/manual/initial-setting/template/select/)を追加します
 1. 選択肢を **「語録から取得」** にチェック
 1. 紐付けたい語録を選択する
 

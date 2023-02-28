@@ -27,8 +27,8 @@ NipoPlusはもともと日報用のアプリでしたが、今ではどちらか
 ### 製品チェックシートの入力、集計、P管理図などのグラフ作成もできます
 
 製造チェックシートへの入力はスマートフォンでもタブレットでも可能です。
-今回の例では1枚のチェックシートに生産数と不良数を入力する[数値入力フォーム](/manual/initial-setting/group-setting/template/math/)があります。
-また不良率を求める入力フォームは[算術入力フォーム](/manual/initial-setting/group-setting/template/calc/)が利用されています。
+今回の例では1枚のチェックシートに生産数と不良数を入力する[数値入力フォーム](/manual/initial-setting/template/math/)があります。
+また不良率を求める入力フォームは[算術入力フォーム](/manual/initial-setting/template/calc/)が利用されています。
 不良率は次の計算で求めることが可能です。
 
 ```sh

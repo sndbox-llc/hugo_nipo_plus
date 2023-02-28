@@ -1,11 +1,11 @@
 +++
 description = ""
-menuTitle = "グループ応用設定"
+menuTitle = "その他応用設定"
 tags = []
 title = "応用設定"
 toc = false
 reqMermaid = true
-weight = 13
+weight = 50
 aliases = ['/org/group2/']
 +++
 

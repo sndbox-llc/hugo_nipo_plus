@@ -64,7 +64,7 @@ NipoPlusではスタッフが日報やチェックシートを書き終えたあ
 こちらの手順はテンプレート毎に設定される大まかな指定です。
 
 {{<alice pos="right" icon="here">}}
-まだテンプレートを作っていない場合は先に[テンプレートの作成](/manual/initial-setting/group-setting/template/make/)を済ませておきましょう
+まだテンプレートを作っていない場合は先に[テンプレートの作成](/manual/initial-setting/template/make/)を済ませておきましょう
 {{</alice>}}
 
 1. グループ設定をクリック

@@ -13,7 +13,7 @@ aliases = ['/analytics/transition/', '/report/totalling/transition/']
 
 {{<appscreen filename="report-totaling" title="日報の集計画面。期間指定エリア・ダウンロードエリア・集計エリアの3つで構成される"  >}}
 
-※メニューに「集計/CSV出力」が表示されていない場合は[グループ設定](/manual/initial-setting/group-setting/make/)で無効にしている可能性があります。設定を確認してください。
+※メニューに「集計/CSV出力」が表示されていない場合は[グループ設定](/manual/initial-setting/make-group/)で無効にしている可能性があります。設定を確認してください。
 
 ## 集計期間をカレンダーから指定する
 
@@ -58,7 +58,7 @@ NipoPlusではテンプレートを自由に作成できますが、そのため
 
 {{<appscreen filename="report-filter" title="集計の対象を選択する"  >}}
 
-集計表に表示されるのは、テンプレートの中で**集計が可能な入力フォーム**のデータに限ります。例えば[数値入力フォーム](/manual/initial-setting/group-setting/template/math/)は集計が可能なため表示されますが、[テキスト入力フォーム](/manual/initial-setting/group-setting/template/text/)は集計不可能のため、表に表示されません。
+集計表に表示されるのは、テンプレートの中で**集計が可能な入力フォーム**のデータに限ります。例えば[数値入力フォーム](/manual/initial-setting/template/math/)は集計が可能なため表示されますが、[テキスト入力フォーム](/manual/initial-setting/template/text/)は集計不可能のため、表に表示されません。
 さて、集計対象テンプレートを選んだあとに作成される一覧表については、実を言うと「過去データ推移機能」と全く同じものになります。
 違いは集計期間の指定とテンプレートの切替が可能という点のみです。「過去データ推移」については以下を参照してください。
 

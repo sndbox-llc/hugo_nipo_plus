@@ -53,7 +53,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 #### 【NipoPlus】 2023/02/21 Version 1.30.0
 
-- [日付と時刻の入力フォーム](/manual/initial-setting/group-setting/template/datetime/)で初期表示時の見た目を指定できるようになりました（リクエスト）
+- [日付と時刻の入力フォーム](/manual/initial-setting/template/datetime/)で初期表示時の見た目を指定できるようになりました（リクエスト）
 - クレジットで[GOLD PLAN](/price/fee/)お申込み時、会社名の記入が必須になりました
 - 日報の文書番号採番中に承認すると承認処理が取り消される問題を受けて、採番中に承認処理が行えないように修正しました（バグ修正）
 
@@ -77,7 +77,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 #### 【NipoPlus】 2023/01/28 Version 1.27.0
 
-- [数値入力フォーム](/manual/initial-setting/group-setting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
+- [数値入力フォーム](/manual/initial-setting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
 - [スタッフ権限](/manual/initial-setting/staff/)に「ゲスト権限」が追加されました（リクエスト）
 
 #### 【NipoPlus】 2023/01/23 Version 1.26.0
@@ -87,8 +87,8 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 #### 【NipoPlus】 2023/01/16 Version 1.25.2
 
-- [チェックボックス](/manual/initial-setting/group-setting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
-- [テンプレート](/manual/initial-setting/group-setting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
+- [チェックボックス](/manual/initial-setting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
+- [テンプレート](/manual/initial-setting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
 - 長らく放置されていた全体設定の色に関するバグを修正しました
 
 #### 【NipoPlus】 2023/01/13 Version 1.25.1
@@ -217,12 +217,12 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 - [CSV出力](/manual/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました
 - [ログ表示](/manual/initial-setting/advanced-setting/log/)の日付入力を使いやすく改良しました
-- [期間入力フォーム](/manual/initial-setting/group-setting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました
+- [期間入力フォーム](/manual/initial-setting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました
 
 #### 【NipoPlus】 2022/08/31 v1.12.1
 
-- [可変長の入力](/manual/initial-setting/group-setting/template/array/)時に見出し項目を1行目以外非表示にしました
-- [期間入力フォーム](/manual/initial-setting/group-setting/template/datetimes/)の表示を一部変更しました
+- [可変長の入力](/manual/initial-setting/template/array/)時に見出し項目を1行目以外非表示にしました
+- [期間入力フォーム](/manual/initial-setting/template/datetimes/)の表示を一部変更しました
 
 #### 【NipoPlus】 2022/08/29 Version 1.12.0
 
@@ -236,7 +236,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 - 集計機能の画面レイアウトを一部変更しました
 - 日報作成時のテンプレート選択画面においてスマートフォンのように画面幅が狭い端末は見た目をカードレイアウトに切り替えました
 - [CSV出力](/manual/analytics/csv/)オプションに「可変長」に関するオプションが追加されました
-- [可変長の日報](/manual/initial-setting/group-setting/template/array/)のデザインを変更しました
+- [可変長の日報](/manual/initial-setting/template/array/)のデザインを変更しました
 
 #### 【NipoPlus】 2022/08/16 Version 1.10.0
 
@@ -302,7 +302,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 - [CSV出力設定が保存可能](/manual/analytics/csv/)になりました
 - グループのテーマカラーがうまく反映されないバグを修正しました
 - グループ毎にメニュー項目の表示・非表示切替ができるようになりました
-- [選択肢（複）フォーム](/manual/initial-setting/group-setting/template/select2/)で特定の条件が整うと1つしか入力できないバグを修正しました
+- [選択肢（複）フォーム](/manual/initial-setting/template/select2/)で特定の条件が整うと1つしか入力できないバグを修正しました
 
 
 #### 【NipoPlus】 2022/06/28 Version 1.5.0
@@ -329,12 +329,12 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 #### 【NipoPlus】 2022/06/13 Version 1.2.2
 
 - 日報作成後に他のテンプレートを選択できるように修正しました
-- [選択肢(複)](/manual/initial-setting/group-setting/template/select2/)の[集計](/manual/analytics/transition/)が行われないバグを修正しました
+- [選択肢(複)](/manual/initial-setting/template/select2/)の[集計](/manual/analytics/transition/)が行われないバグを修正しました
 
 
 #### 【NipoPlus】 2022/06/10 Version 1.2.0
 
-- [日報テンプレート](/manual/initial-setting/group-setting/template/)のラベルを色分けできる機能が追加されました
+- [日報テンプレート](/manual/initial-setting/template/)のラベルを色分けできる機能が追加されました
 
 #### 【NipoPlus】 2022/06/08 Version 1.1.0
 

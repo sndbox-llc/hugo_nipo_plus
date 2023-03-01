@@ -3,7 +3,7 @@
 {{ $hierarchy := slice . }}
 
 {{ if .Parent }}
-  {{ $parentHierarchy := partial "get-hierarchy" .Parent }}
+  {{ $parentHierarchy := partial "custom/get-hierarchy" .Parent }}
   {{ if $parentHierarchy }}
     {{ $hierarchy = $parentHierarchy | append $hierarchy }}
   {{ end }}

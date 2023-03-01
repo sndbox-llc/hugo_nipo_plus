@@ -9,7 +9,7 @@
   <head>
     <!-- Analytics 本番でのみ出力する -->
     {{ if not .Site.IsServer }}
-    {{ partial "gtag" . }}
+    {{ partial "custom/gtag" . }}
     {{ end }}
     <link rel="canonical" href="{{ .Permalink }}index.html" />
 
@@ -118,7 +118,7 @@
 
       {{- $hook := "styleclass" }}
       <main id="body-inner" class="highlightable {{ partialCached "archetype.hugo" (dict "hook" $hook "page" . "parameter" . "outputFormat" $outputFormat) .RelPermalink $outputFormat $hook }}" tabindex="-1">
-        {{ partial "svg-def.html" . }}
+        {{ partial "custom/svg-def.html" . }}
 
         <div class="flex-block-wrapper">
           <div id="head-tags">

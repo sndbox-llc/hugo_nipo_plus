@@ -1,11 +1,7 @@
         </div>
         <!-- コールトゥーアクション -->
         <div class="footline">
-          {{ if eq .Params.isNipo true }}
-          {{ partial "cta-nipo.html" . }}
-          {{ else }}
-          {{ partial "cta-nipo-plus.html" . }}
-          {{ end }}
+          {{ partial "custom/cta.html" . }}
         </div>
       </main><!-- #body-inner -->
 {{- partial "custom-comments.html" . }}
@@ -114,15 +110,15 @@
     <script src="{{"js/theme.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
     {{- partial "custom-footer.html" . }}
     <!-- JSON-LD形式のパンくずリスト -->
-    {{ partial "breadcrumb-json" . }}
+    {{ partial "custom/breadcrumb-json" . }}
     <!-- アプリロゴ -->
-    {{ partial "logo-json" . }}
+    {{ partial "custom/logo-json" . }}
     <!-- software JSON-LD -->
     {{if .Page.IsHome }}
-    {{ partial "software-json" . }}
+    {{ partial "custom/software-json" . }}
     {{ end }}
     <!-- 画像SVGを動かすためのツールボックス -->
-    {{ partial "svg-js.html" . }}
+    {{ partial "custom/svg-js.html" . }}
 
   </body>
 </html>

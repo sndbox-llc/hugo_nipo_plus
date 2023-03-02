@@ -7,10 +7,8 @@
 {{- end }}
 <html lang="{{ .Page.Language | default "ja" }}" dir="{{ T "Reading-direction" | default "ltr" }}">
   <head>
-    <!-- Analytics 本番でのみ出力する -->
-    {{ if not .Site.IsServer }}
+    <!-- GTAG -->
     {{ partial "custom/gtag" . }}
-    {{ end }}
     <link rel="canonical" href="{{ .Permalink }}index.html" />
 
     {{- partial "meta.html" . }}
@@ -45,18 +43,8 @@
     {{- end }}
     {{- partialCached "favicon.html" . }}
     {{- partialCached "stylesheet.html" (dict "page" . "outputFormat" $outputFormat) $outputFormat }}
-        <!-- SCSS対応　-->
-        {{ if eq .Params.isNipo true }}
-          <!-- 旧Nipo・緑ベース -->
-          {{ $sass := resources.Get "sass/rootold.scss" }}
-          {{ $style := $sass | resources.ToCSS }}
-          <link rel="stylesheet" href="{{ $style.Permalink }}">
-        {{ else }}
-          <!-- NipoPlus・紫ベース -->
-          {{ $sass := resources.Get "sass/root.scss" }}
-          {{ $style := $sass | resources.ToCSS }}
-          <link rel="stylesheet" href="{{ $style.Permalink }}">
-        {{end}}
+    <!-- CSS とりこみ -->
+    {{ partial "custom/scss" . }}
     {{- partial "custom-header.html" . }}
   </head>
   <body class="mobile-support {{ $outputFormat }}{{- if .Site.Params.disableInlineCopyToClipBoard }} disableInlineCopyToClipboard{{ end }}" data-url="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}">
@@ -67,7 +55,6 @@
     {{ end }}
 
     <div id="body" class="default-animation">
-      <!-- テーマ純正のTOC 使わない -->
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       
@@ -114,8 +101,6 @@
 
         </div>
       </div>
-      
-
       {{- $hook := "styleclass" }}
       <main id="body-inner" class="highlightable {{ partialCached "archetype.hugo" (dict "hook" $hook "page" . "parameter" . "outputFormat" $outputFormat) .RelPermalink $outputFormat $hook }}" tabindex="-1">
         {{ partial "custom/svg-def.html" . }}
@@ -162,12 +147,9 @@
     </div>
   </nav>
 {{end}}
-<script>
+<script defer>
   // 目次の表示・非表示切替
-  function toggleToc () {
-    var tocWrap = document.getElementById('tableOfContents');
-    tocWrap.classList.toggle('tocIsClose')
-  }
+  function toggleToc () { document.getElementById('tableOfContents').classList.toggle('tocIsClose'); }
 </script>
 
 

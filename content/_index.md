@@ -21,7 +21,7 @@ reqMermaid = false
 
 興味を持っていただけましたか？下のボタンから今すぐ無料で始めることが可能です▼
 
-{{<button "/blog/template/" "アプリを起動" "_blank">}}
+{{<button "https://nipo-plus.web.app/" "アプリを起動" "_blank">}}
 
 <hr style="margin-top: 200px;" />
 

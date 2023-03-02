@@ -29,15 +29,15 @@
   <img src="{{ $img.RelPermalink }}" alt="{{$alt}}" class="lightbox-image" loading="lazy">
 </a>
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ImageObject",
-    "embeddedTextCaption": {{ $alt }},
-    "contentUrl": {{ $img.RelPermalink }},
-    "license": "/system/credit/",
-    "acquireLicensePage": "/system/credit/",
-    "creditText": "sandbox LLC",
-    "creator": { "@type": "Person", "name": "shinya ueda" },
-    "copyrightNotice": "Nipo Plus"
-  }
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "embeddedTextCaption": {{ $alt }},
+  "contentUrl": {{ $img.RelPermalink }},
+  "license": "/system/credit/",
+  "acquireLicensePage": "/system/credit/",
+  "creditText": "sandbox LLC",
+  "creator": { "@type": "Person", "name": "shinya ueda" },
+  "copyrightNotice": "Nipo Plus"
+}
 </script>

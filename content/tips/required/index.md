@@ -5,8 +5,7 @@ tags = []
 title = "日報の記入漏れ・提出漏れを防ぐ"
 toc = true
 weight = 20221118
-aliases = ['/blog/leak/']
-
+aliases = ['/blog/leak/', '/blog/required/']
 +++
 
 

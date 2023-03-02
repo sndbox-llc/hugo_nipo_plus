@@ -30,7 +30,7 @@ aliases = ['/org/groupsetting/template/datetimes/']
 
 |名称|説明|
 |---|---|
-|[入力必須](/blog/required/)|これがONの場合、数値が空欄だと日報の提出ができなくなります|
+|[入力必須](/tips/required/)|これがONの場合、数値が空欄だと日報の提出ができなくなります|
 |初期状態でONにする|これがONの場合、日報作成時にこのチェックボックスはONの状態でスタートします|
 |集計する|[データ推移](/manual/analytics/list/)・[日報集計](/manual/analytics/transition/)でこの項目を表示させる場合はONにします。初期値はONです|
 |形式|日付（西暦あり）・日付（西暦無し）・時刻のみ・日付と時刻の4種類から選択します|
@@ -103,7 +103,7 @@ aliases = ['/org/groupsetting/template/datetimes/']
 
 のような値がCSV上に出力されます。
 エクセルなどの表計算ではこの形式をシリアル値として変換して日数計算などに利用することが可能です。
-詳しくは[営業日報の集計](/blog/sales_report/)を参照してください。
+詳しくは[営業日報の集計](/tips/sales_report/)を参照してください。
 
 ### サンプルデータ
 

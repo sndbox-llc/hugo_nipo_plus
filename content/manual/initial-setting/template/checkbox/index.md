@@ -25,7 +25,7 @@ aliases = ['/org/groupsetting/template/checkbox/']
 
 |名称|説明|
 |---|---|
-|[入力必須](/blog/required/)|これがONの場合、日報提出時にこのチェックボックスがONでないと提出ができないようになります|
+|[入力必須](/tips/required/)|これがONの場合、日報提出時にこのチェックボックスがONでないと提出ができないようになります|
 |初期状態でONにする|これがONの場合、日報作成時にこのチェックボックスはONの状態でスタートします|
 |集計する|[データ推移](/manual/analytics/list/)・[日報集計](/manual/analytics/transition/)でこの項目を表示させる場合はONにします。初期値はONです|
 |CSV出力時列を展開する|ONとOFFの2列に分割してCSV出力します。詳しくは本ページのCSV出力の項を参照|

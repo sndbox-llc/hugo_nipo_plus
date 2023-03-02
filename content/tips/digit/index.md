@@ -5,6 +5,7 @@ menuTitle = "日報をシステム化するメリットとコスト"
 tags = []
 weight = 20221024
 draft = true
+aliases = ['/blog/digit/']
 +++
 
 紙の日報の他・Excelを使った日報、最近ではSlackやLineなどのチャットアプリを使って日報を書くスタイルなども出てきています。

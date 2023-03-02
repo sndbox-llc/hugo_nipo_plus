@@ -5,6 +5,7 @@ tags = []
 title = "スマホやタブレットで日報を作成"
 toc = true
 weight = 20221020
+aliases = ['/blog/smartphone/']
 +++
 
 {{<icatch filename="field" msg="スマホやタブレット で日報を読む・書く" title="スマートフォン・タブレットで日報を書く" fontsize="30px" alice="here" >}}
@@ -100,7 +101,7 @@ NipoPlusは日報のデータを自動集計したりデータをもとにグラ
 といっても簡単です。**できるだけ文字入力を減らす**ように意識してあげるだけです。
 実際に日報を書く方の意見を聞きながら徐々に調整してください。小さな手間でも毎日のことです。
 
-{{<button "/blog/userfriendly/" "使いやすいテンプレートを作る">}}
+{{<button "/tips/userfriendly/" "使いやすいテンプレートを作る">}}
 
 
 ## モバイル専用アプリを使う

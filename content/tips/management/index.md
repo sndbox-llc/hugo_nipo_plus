@@ -6,6 +6,7 @@ tags = []
 title = "管理"
 toc = true
 weight = 20220725
+aliases = ['/blog/management/']
 +++
 
 

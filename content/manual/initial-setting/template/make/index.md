@@ -32,7 +32,7 @@ aliases = ['/org/groupsetting/template/make/']
 追加された入力フォームは**左から右へ順に詰めて配置**されます。
 
 {{<alice pos="right" icon="ok">}}
-「[入力しやすい日報の設計を考える](/blog/userfriendly/)」の記事も目を通していただくとスムーズです。
+「[入力しやすい日報の設計を考える](/tips/userfriendly/)」の記事も目を通していただくとスムーズです。
 {{</alice>}}
 
 ## 全体のレイアウトを調整する(PC/タブレット向け)

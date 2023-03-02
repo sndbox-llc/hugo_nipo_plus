@@ -3,6 +3,7 @@ description = ""
 title = "ヒアリングシートをタブレットで。集計や印刷もOK"
 weight = 20221001
 tags = []
+aliases = ['/blog/hearing/']
 +++
 
 ## コンサルティングや打ち合わせで使うヒアリングシートをクラウドシステム化

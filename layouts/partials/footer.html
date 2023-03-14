@@ -3,6 +3,10 @@
         <div class="footline">
           {{ partial "custom/cta.html" . }}
         </div>
+        <div style="text-align: right;margin-top: 20px">
+          更新日: {{ .Lastmod.Format "2006/01/02" }}
+        </div>
+        
       </main><!-- #body-inner -->
 {{- partial "custom-comments.html" . }}
     </div><!-- #body -->

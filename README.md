@@ -80,3 +80,16 @@ hugo --cleanDestinationDir
 
 検針アプリ？
 定期巡回アプリ
+
+### テーマ更新
+
+更新前にコミットをしていつでもロールバックできるようにしておくこと
+
+/themes/relearnを　relearnbkにリネームする
+更新テーマを /themes/に入れ、フォルダ名を relearnに変更する
+
+.githubを削除
+.exampleSiteを削除
+/imagesを削除
+
+themes/layouts/static/css/theme.cssを開き、 height: 100%をコメントアウトしておく

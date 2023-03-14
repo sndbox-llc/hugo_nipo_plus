@@ -21,9 +21,13 @@ reqMermaid = false
 
 興味を持っていただけましたか？下のボタンから今すぐ無料で始めることが可能です▼
 
-{{<button "https://nipo-plus.web.app/" "アプリを起動" "_blank">}}
+<div style="text-align:center;margin: 50px 0;">
+  <a href="https://nipo-plus.web.app/" class="calltoactionBtn" target="_blank">NipoPlusを起動</a>
+</div>
+
 
 <hr style="margin-top: 200px;" />
+
 
 NipoPlusができること、導入のメリットについてご紹介します。
 

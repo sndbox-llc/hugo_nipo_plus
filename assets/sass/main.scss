@@ -60,37 +60,7 @@
 a:hover {
   text-decoration: underline ;
 }
-.baseBtn {
-  background-color: $baseColor;
-  padding: 5px 10px;
-  color: white;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 19px;
-  &:hover {
-    background-color: $subColor;
-    color: white;
-  }
-}
-/* 記事内で適用されるボタン.大きめ */
-.my_button {
-  @extend .baseBtn;
-  padding: 15px 20px;
-}
-/* 画面右上アプリ起動ボタン. 小さめ */
-.top_right_btn {
-  @extend .baseBtn;
-}
-/* CalltoActionのボタン */
-.cta_btn{
-  @extend .baseBtn;
-  width: 309px;
-  max-width: 100%;
-  padding: 14px 0 16px 0;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
+
 
 /** パンくずリストナビゲーション（上田カスタマイズモデル) */
 #breadcrumbsNavigations {

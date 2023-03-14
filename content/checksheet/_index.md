@@ -1,19 +1,33 @@
 +++
 description = "チェック項目を自由に設計できます。グラフ化や集計、CSV出力も対応。スマホやタブレットから簡単にチェックシート入力が行えます"
 menuTitle = "チェックシートアプリ"
-title = "業務チェックシートアプリで点検業務を簡単に!集計やグラフ化もOK"
+title = "業務チェックシートアプリ（無料プラン有）"
 toc = false
 weight = 9000
 tags = []
 aliases = ['/blog/checklistapp/']
 +++
 
-NipoPlusはもともと日報アプリとして開発されてきましたが、製造業者様の様々なご意見を取り入れた結果、チェックシートアプリとしても十分使えるアプリになりました。  
-本ページでは日報ではなく**チェックシートアプリとしてのNipoPlus**をご紹介します。
+## 帳票に沿って各項目を入力できる業務用チェックシート管理システム
+
+かんたん操作でチェックシートのテンプレートを自由に作成でき、作ったテンプレートは繰り返し利用できます。  
+例えば次の画像は架空の「製品品質管理シート」をNipoPlusで作り、実際に入力しているシーンです
+
+{{<icatch filename="check-sheet-app" msg="繰り返し使える チェックシートApp" title="業務用チェックシートアプリ" fontsize="30px" alice="ok" >}}
+
+今から無料で始められます
+
+<div style="text-align:center;margin: 50px 0;">
+  <a href="https://nipo-plus.web.app/" class="calltoactionBtn" target="_blank">NipoPlusを起動</a>
+</div>
+
+
+<hr style="margin-top: 200px;" />
+
+更に詳しい紹介▼
 
 ## 業務におけるチェックシート
 
-{{<icatch filename="check-sheet-app" msg="繰り返し使える チェックシートApp" title="業務用チェックシートアプリ" fontsize="30px" alice="ok" >}}
 
 チェックシートは**所定のテンプレートに沿って設問に対する回答を記入する**シートです。
 「チェック」の名がつくように、確認事項の振り返りとして1項目づつチェックを入れて、漏れがないかを確認するために使用することもあります。

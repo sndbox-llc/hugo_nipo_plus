@@ -34,7 +34,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
-#### 【NipoPlus】 2023/03/14 Version 1.32.0
+#### 【NipoPlus】 2023/03/14 Version 1.32.0(リリース前)
 
 - [日報の入力順序を制御](/manual/initial-setting/template/make/#入力の順序を指定する任意)できるようになりました
 - テンプレート編集時の個別プレビュー機能を廃止しました

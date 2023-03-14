@@ -34,7 +34,12 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
-#### 【NipoPlus】 2023/03/14 Version 1.32.0(リリース前)
+#### 【NipoPlus】 2023/03/14 Version 1.32.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
 
 - [日報の入力順序を制御](/manual/initial-setting/template/make/#入力の順序を指定する任意)できるようになりました
 - テンプレート編集時の個別プレビュー機能を廃止しました
@@ -44,16 +49,12 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 #### 【NipoPlus】 2023/02/27 Version 1.31.1
 
-{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
 - 受信BOXで初期の表示期間を3日・1週間・2週間から選べるようになりました
 - 組織設定の画面周りを微調整しました
 
 #### 【NipoPlus】 2023/02/24 Version 1.31.0
 
-{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
-{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
 - [メール通知機能](/manual/notice/email/)を実装しました。月50通まで無料です（無料プランは利用不可）。オプション開放で月10,000通まで発信可能になります
 - 複数のグループに所属している時、NipoPlusを起動時に最初に立ち上げるグループを指定できるようになりました

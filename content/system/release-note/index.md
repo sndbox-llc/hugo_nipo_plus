@@ -34,12 +34,16 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
-#### 【NipoPlus】 2023/03/14 Version 1.32.0
+#### 【NipoPlus】 2023/03/15 Version 1.32.1
 
-{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
+- これまでWeb版からしか出来なかったアカウントの新規作成がiOS/Android上からも利用できるようになりました
+
+#### 【NipoPlus】 2023/03/14 Version 1.32.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
 - [日報の入力順序を制御](/manual/initial-setting/template/make/#入力の順序を指定する任意)できるようになりました
 - テンプレート編集時の個別プレビュー機能を廃止しました

@@ -34,6 +34,10 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
+#### 【NipoPlus】 2023/03/18 Version 1.33.0(リリース前)
+
+- スタッフごとに利用可能な日報テンプレートを指定できるようになりました
+
 #### 【NipoPlus】 2023/03/15 Version 1.32.1
 
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}

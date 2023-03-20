@@ -34,26 +34,27 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
-#### 【NipoPlus】 2023/03/18 Version 1.33.0(リリース前)
+#### 【NipoPlus】 2023/03/18 Version 1.33.0
+
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
 - スタッフごとに利用可能な日報テンプレートを指定できるようになりました
 - 週間カレンダーでスタッフの並び順を任意に変更できるようになりました
 - カレンダーの設定情報の保存方式が変わりました。これまでスタッフ単位で記録されていましたが、スタッフごとで且つグループごとに設定が記録されるようになります
 - CSV出力設定の設定情報の保存方式が変わりました。これまでスタッフ単位で記録されていましたが、スタッフごとで且つグループごとに設定が記録されるようになります
 - 日報テンプレートの集計対象を文字入力で絞り込めるようになりました
-- スタッフの活動実績を別の表に切り分けました
+- スタッフの活動実績表を別の表に切り分けました
 - NipoPLusのアプリ内から直接問い合わせができるようになりました
 
 #### 【NipoPlus】 2023/03/15 Version 1.32.1
 
-{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
-{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
 - これまでWeb版からしか出来なかったアカウントの新規作成がiOS/Android上からも利用できるようになりました
 
 #### 【NipoPlus】 2023/03/14 Version 1.32.0
 
-{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
 - [日報の入力順序を制御](/manual/initial-setting/template/make/#入力の順序を指定する任意)できるようになりました
 - テンプレート編集時の個別プレビュー機能を廃止しました

@@ -4,6 +4,7 @@ menuTitle = "スタッフが利用可能なテンプレートを制限"
 tags = []
 title = "スタッフが利用可能な日報テンプレートを制限する"
 toc = true
+draft=true
 weight = 21
 +++
 

@@ -7,6 +7,7 @@ tags = []
 reqMermaid = false
 +++
 
+
 PWAは便利ですがその一方で正直分かりにくいというデメリットもあります。
 Vueや、私の利用している[Quasar](https://quasar.dev/)などはPWAモードが予め用意されているので、プロジェクト作成時にPWAの指定をするだけで難しい処理もなく、簡単にPWAとしてアプリをビルドすることができます。
 非常にありがたい一方で細かい制御のやり方が本当に分かりにくい。そしてデバッグもしにくいという罠もあります。
@@ -239,44 +240,72 @@ App.vueは最もルートのコンポーネントなので初期化や今回の�
 App.vueは次のようになりました。短いので全文掲載します。
 
 ```vue
-
 <template>
   <router-view />
 </template>
-
 <script lang="ts">
+
 import { defineComponent, provide } from 'vue'
-import { mystoreKey, printStoreKey } from 'components/provide/keys'
-import MyStore from 'components/provide/MyStore'
-import PrintStore from 'components/provide/PrintStore'
+import { baseStoreKey } from 'components/provide/keys'
+import BaseStore from 'components/provide/BaseStore'
 import { Notify } from 'quasar'
 
 export default defineComponent({
   name: 'App',
   setup () {
-    provide(mystoreKey, MyStore())
-    provide(printStoreKey, PrintStore())
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    document.addEventListener('swUpdated', (e:Event) => { updateAvailable() }, { once: true })
+    // プロバイダーの登録
+    provide(baseStoreKey, BaseStore())
+    /**
+     * イベント発火元はsrc-pwr/resister-service-worker.jsに記載してます
+     */
+    document.addEventListener('swUpdated', (e) => { updateAvailable(e as CustomEvent<ServiceWorkerRegistration>) }, { once: true })
+
+    /**
+     * Service Workerのイベントがインストール済みになったとき発動。ウインドウを強制リロードさせる
+     */
+    function skipWaitingListener () {
+      if ('serviceWorker' in navigator) {
+        let isControlled = Boolean(navigator.serviceWorker.controller)
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (isControlled) {
+            console.log('☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆Page Reload☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆')
+            window.location.reload()
+          } else {
+            isControlled = true
+          }
+        })
+      }
+    }
+    skipWaitingListener()
     /**
      * SWイベント取得。画面更新ダイアログ
      */
-    function updateAvailable () {
-      console.log('☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆UPDATE☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆')
+    function updateAvailable (e:CustomEvent<ServiceWorkerRegistration>) {
+      console.log('☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆UPDATE LV1☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆')
+      console.log(e.detail.waiting)
       Notify.create({
         color: 'primary',
-        message: 'Nipo Plusの更新準備が整いました',
+        message: '更新準備が整いました.繰り返し表示される場合は一度ウインドウを閉じてください',
         timeout: 0,
         multiLine: true,
         position: 'bottom-right',
         actions: [
-          { label: '更新', color: 'white', handler: () => { window.location.reload() } },
+          {
+            label: '更新',
+            color: 'white',
+            handler: () => {
+              if (e && e.detail.waiting) {
+                e.detail.waiting.postMessage({ type: 'SKIP_WAITING' })
+              }
+            }
+          },
           { label: '後で', color: 'white' }
         ]
       })
     }
   }
 })
+
 </script>
 ```
 
@@ -291,3 +320,19 @@ register-service-worker.jsで発行した「swUpdated」イベントを、App.vu
 更新通知を発行してあげて、ユーザに「今すぐ更新か？あとで更新か？」を選んでもらいます。
 私はQuasarが大好きなので、上のコードもQuasar独自の命令が含まれています。そう、通知をトーストで表示する「[Notify](https://quasar.dev/quasar-plugins/notify)」です。
 他のフレームワークをお使いの方は、この箇所をそれぞれの通知命令に書き換えてください。
+
+### WebpackのOptionsでskipwaitingを無効化しておくことを忘れずに
+
+私の利用しているQuasarではWebpackの設定をquasar.conf.jsで記述します。
+
+```javascript
+
+workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
+// workboxOptions: {}, // only for GenerateSW
+workboxOptions: {
+  // skipWaiting: true // この処理を無効にしておく必要がある。
+},
+
+```
+
+ここでskipWaitingを無効にしておく必要があるので注意。これが有効だと更新通知のボタンを押そうが押すまいが、Skip-waitingが発動してしまい、VueRouterがうまくきのうしなくなります。

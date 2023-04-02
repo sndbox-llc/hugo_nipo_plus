@@ -34,11 +34,21 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
+#### 【NipoPlus】 2023/04/02 Version 1.35.0
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+
+- 商品データの一括CSV出力をサポートしました
+- 商品データの数量推移CSV出力をサポートしました
+- 日報内の商品データをCSV出力できるようになりました
+- 日報内の商品データをクリックするとページ遷移ではなくポップアップで数量推移を確認できるように修正しました
+- スタッフの名前を変更しても過去の日報の作成者名が一部正しく反映されていない箇所があったバグを修正しました
+- 集計・CSV出力ページのレイアウトを一部変更しました
+
 #### 【NipoPlus】 2023/03/24 Version 1.34.1
 
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
-{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 
 - タグ管理機能について項目ごとに使い分けができるように機能が強化されました
 - タグのアイコンがゴミ箱になるバグを修正しました

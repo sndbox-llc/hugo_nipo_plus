@@ -35,7 +35,7 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 ### リリースノート
 
 
-#### 【NipoPlus】 2023/04/07 Version 1.36.0(未リリース)
+#### 【NipoPlus】 2023/04/07 Version 1.36.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
 

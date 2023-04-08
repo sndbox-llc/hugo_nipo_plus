@@ -2,22 +2,26 @@
 archetype = "home"
 description = "【無料プランあり】直感操作で業務に沿ったテンプレートを自由に作成できます。日報をPDF・CSVに出力したり、システム上でグラフ化も可能。承認やコメント機能もあります"
 menuTitle = "Home"
-title = "クラウド型日報アプリ NipoPlus"
+title = "グループで使える業務用フォーム作成システム  NipoPlus"
 toc = false
 tags = []
 reqMermaid = false
 +++
 
 
-## テンプレートに沿って報告書を作成できる業務報告管理システムです
+## 自由なテンプレートでスマートな報告業務を実現
 
-次の画像はNipoPlusで作ったテンプレートをもとに、日報を書いている画面のスクリーンショットです。
+NipoPlusは、自由なカスタマイズが可能なテンプレートを使用して従業員が日報やチェックシートなどのデータ入力を行うWebシステムです。
+従業員の報告業務をスマートに、正確かつ迅速に行うことができます。
 
 {{<icatch filename="sample10" msg="NipoPlusで 日報を書くシーン" title="NipoPlusのアプリ画面のイメージ図" fontsize="30px" alice="ok" >}}
 
-ハウスクリーニングの日報をイメージして作ったサンプルですがこれらに限定されることなく、オリジナルの日報テンプレートを作成できます。
+一般的な日報業務に限らず、例えば次のようなシーンでも活用できます
 
-興味を持っていただけましたか？下のボタンから今すぐ無料で始めることが可能です▼
+- 製造現場での品質管理や生産管理の報告
+- フィールドワークでの調査や点検の報告
+- ログの取得や管理など、定期的な報告が必要な場面
+
 
 <div style="text-align:center;margin: 50px 0;">
   <a href="https://nipo-plus.web.app/" class="calltoactionBtn" target="_blank">NipoPlusを起動</a>

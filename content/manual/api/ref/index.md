@@ -5,7 +5,6 @@ tags = []
 title = "APIリファレンス"
 toc = false
 weight = 20
-aliases = ['/api/ref/']
 +++
 
 {{<alice pos="right" icon="ok">}}

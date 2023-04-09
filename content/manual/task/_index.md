@@ -6,7 +6,6 @@ title = "タスク管理"
 toc = false
 tags = []
 weight = 80
-aliases = ['/task/']
 +++
 
 

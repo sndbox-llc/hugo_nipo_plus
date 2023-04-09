@@ -5,7 +5,6 @@ tags = []
 title = "日報をグラフ化する"
 toc = true
 weight = 11
-aliases = ['/analytics/chart/']
 
 +++
 

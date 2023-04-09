@@ -5,7 +5,6 @@ tags = []
 title = "日報・チェックシートの集計/CSV出力/グラフ化"
 toc = true
 weight = 50
-aliases = ['/analytics/transition/', '/report/totalling/transition/']
 +++
 
 「今月・今週」などのように、任意の期間を指定してデータを集計することが可能です。また「承認済みだけ」のように、データステータスによってフィルタリングすることも可能です。

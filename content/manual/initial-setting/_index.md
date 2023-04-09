@@ -7,7 +7,6 @@ toc = false
 reqMermaid = true
 weight = 10
 tags = []
-aliases = ['/org/']
 +++
 
 初めての方はチュートリアルの記事を御覧ください。アカウント作成から日報提出までの基本的な流れを必要最小限にとどめて解説しています。

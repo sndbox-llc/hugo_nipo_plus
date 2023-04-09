@@ -5,7 +5,6 @@ tags = []
 title = "スタッフアカウントの削除"
 toc = true
 weight = 40
-aliases = ['/remove/staff/']
 +++
 
 

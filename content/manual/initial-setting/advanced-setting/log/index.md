@@ -5,7 +5,6 @@ tags = []
 title = "グループ内のログデータを確認"
 toc = true
 weight = 890
-aliases = ['/org/group2/log']
 +++
 
 

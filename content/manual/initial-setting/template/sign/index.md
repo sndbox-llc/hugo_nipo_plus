@@ -5,7 +5,6 @@ tags = []
 title = "署名（イラスト）入力フォーム"
 toc = true
 weight = 200
-aliases = ['/org/groupsetting/template/sign/']
 +++
 
 

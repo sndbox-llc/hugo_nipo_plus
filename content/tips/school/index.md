@@ -5,7 +5,6 @@ tags = []
 title = "学習塾で日報を活用-相互承認でやる気もアップ"
 toc = true
 weight = 20221020
-aliases = ['/blog/school/']
 +++
 
 

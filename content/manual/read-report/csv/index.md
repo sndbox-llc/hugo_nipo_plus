@@ -5,7 +5,6 @@ tags = []
 title = "1件の日報をCSV出力する（Excel等で利用可)"
 toc = true
 weight = 30
-aliases = ['/report/read/csv/']
 +++
 
 

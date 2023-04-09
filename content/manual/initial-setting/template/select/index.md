@@ -5,7 +5,6 @@ tags = ["集計可能な入力フォーム"]
 title = "選択式入力フォーム（単回答）"
 toc = true
 weight = 120
-aliases = ['/org/groupsetting/template/select/']
 +++
 
 {{<icatch filename="eye-catch" msg="選ぶだけの簡単 入力方式。集計も可" title="選択肢入力フォームを含んだ日報テンプレート" fontsize="30px" alice="here" >}}

@@ -5,7 +5,6 @@ tags = []
 title = "複数のCSVファイルをドラッグ操作で簡単に1つに結合できます"
 toc = false
 weight = 20221001
-aliases = ['/blog/csvsc/']
 +++
 
 {{<icatch filename="csvsc" msg="CSVファイルを ドラッグで連結" title="複数のCSVファイルを1つに結合" fontsize="30px" alice="here" >}}

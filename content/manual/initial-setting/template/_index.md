@@ -6,7 +6,6 @@ toc = false
 weight = 20
 tags = []
 reqMermaid = true
-aliases = ['/org/groupsetting/template/', '/manual/initial-setting/group-setting/template/']
 +++
 
 ## 入力フォームを並べるだけでテンプレートが作れます

@@ -5,7 +5,6 @@ tags = []
 title = "タイムカードの制限解除"
 toc = true
 weight = 50
-aliases = ['/timecard/unlock/']
 +++
 
 タイムカードのステータスが制限有りの場合、期間を指定しても5件までしかタイムカードが表示されません。ご利用の環境が制限ありか確認するには[タイムカード設定のページ](/manual/timecard/setting/)を参照してください。  

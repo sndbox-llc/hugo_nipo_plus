@@ -5,7 +5,6 @@ tags = []
 title = "業務日報テンプレート集"
 toc = true
 weight = 30
-aliases = ['/blog/template/']
 +++
 
 「このような業務日報テンプレートが作れますか？」  

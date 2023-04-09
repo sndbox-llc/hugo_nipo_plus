@@ -5,7 +5,6 @@ tags = []
 title = "グループの削除"
 toc = true
 weight = 200
-aliases = ['/remove/group/']
 +++
 
 

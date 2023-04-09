@@ -5,7 +5,6 @@ tags = []
 title = "フォームの削除と復旧手順"
 toc = true
 weight = 999
-aliases = ['/org/groupsetting/template/key/']
 +++
 
 ## 入力フォームを1件削除する

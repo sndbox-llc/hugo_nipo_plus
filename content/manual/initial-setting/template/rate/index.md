@@ -5,7 +5,6 @@ tags = ["集計可能な入力フォーム"]
 title = "レート入力フォーム★★☆☆☆"
 toc = true
 weight = 320
-aliases = ['/org/groupsetting/template/rate/']
 +++
 
 {{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力" title="レート入力フォーム" fontsize="30px" alice="ok" >}}

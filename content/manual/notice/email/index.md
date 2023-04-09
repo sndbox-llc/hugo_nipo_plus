@@ -5,7 +5,6 @@ tags = []
 title = "メール通知"
 toc = true
 weight = 11
-aliases = ['/notice/show/']
 +++
 
 メール通知は指定したメールアドレス宛に直接メールを送る形で通知されるシステムです。

@@ -6,7 +6,6 @@ title = "メール通知・アプリ内の通知"
 toc = false
 tags = []
 weight = 60
-aliases = ['/notice/']
 +++
 
 NipoPlusには2種類の通知があります。1つはアプリを開くと確認できるベルアイコンの通知、もう1つがメールによる通知です。

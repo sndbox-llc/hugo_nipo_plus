@@ -5,7 +5,6 @@ tags = []
 title = "システム更新履歴【NipoおよびNipoPlus】"
 toc = false
 weight = 5
-aliases = ['/old/system/releasenote/']
 +++
 
 現在ご利用中のNipoPlusのバージョンは、サイドメニュー下部に記載されております。ここからバージョンを確認してください

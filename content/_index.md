@@ -55,9 +55,9 @@ CSVの**出力形式は目的に応じて変更**できます。例えば日報�
 
 
 <div class="flexmain">
-<div class="dp33">{{<button "/tips/sales_report/" "応用集計">}}</div>
-<div class="dp33">{{<button "/manual/analytics/list/" "過去データ比較">}}</div>
 <div class="dp33">{{<button "/manual/analytics/chart/" "グラフ作成">}}</div>
+<div class="dp33">{{<button "/checksheet/factory/" "不良率などを可視化">}}</div>
+<div class="dp33">{{<button "/manual/analytics/list/" "過去データ比較">}}</div>
 </div>
 
 ## 報告書内の記入順序制御・記入漏れチェック・品質の高い報告書を維持します

@@ -6,7 +6,6 @@ toc = false
 menuPre = "<b>4. </b>"
 tags = []
 weight = 40
-aliases = ['/analytics/']
 +++
 
 日報は1枚1枚が独立した報告書であることはご存知のとおりです。

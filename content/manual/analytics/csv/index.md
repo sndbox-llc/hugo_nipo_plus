@@ -5,7 +5,6 @@ tags = []
 title = "日報を1枚のCSVファイルに一括出力する"
 toc = true
 weight = 30
-aliases = ['/analytics/csv/']
 +++
 
 CSVの一括ダウンロード機能はAndroid / iOSアプリ版では利用できません。Web版(PWA版)のNipoPlusからご利用ください。

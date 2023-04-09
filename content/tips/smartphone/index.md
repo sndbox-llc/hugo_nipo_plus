@@ -5,7 +5,6 @@ tags = []
 title = "スマホやタブレットで日報を作成"
 toc = true
 weight = 20221020
-aliases = ['/blog/smartphone/']
 +++
 
 {{<icatch filename="field" msg="スマホやタブレット で日報を読む・書く" title="スマートフォン・タブレットで日報を書く" fontsize="30px" alice="here" >}}

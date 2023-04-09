@@ -5,7 +5,6 @@ tags = []
 title = "アプリ内の通知"
 toc = true
 weight = 11
-aliases = ['/notice/show/']
 +++
 
 画面右上のベルアイコンをクリックして通知を確認できます。

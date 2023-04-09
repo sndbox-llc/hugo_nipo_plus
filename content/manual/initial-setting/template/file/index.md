@@ -5,7 +5,6 @@ tags = []
 title = "ファイル入力フォーム"
 toc = true
 weight = 230
-aliases = ['/org/groupsetting/template/file/']
 +++
 
 {{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" fontsize="30px" alice="ok" >}}

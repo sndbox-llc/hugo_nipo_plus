@@ -6,7 +6,6 @@ tags = []
 title = "日報のシステムを自作する"
 toc = true
 weight = 10
-aliases = ['/blog/handmade/']
 +++
 
 

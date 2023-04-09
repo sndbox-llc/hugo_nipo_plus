@@ -5,7 +5,6 @@ tags = []
 title = "匿名アカウントについて"
 toc = true
 weight = 30
-aliases = ['/account/tokumei/']
 +++
 
 匿名アカウントはNipoPlusを手軽に体験していただくための機能です。本来のアカウントはE-mailとパスワードの設定が必要になりますが匿名アカウントではこれらの情報が必要ありません。

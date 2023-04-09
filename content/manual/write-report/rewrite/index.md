@@ -5,7 +5,6 @@ tags = []
 title = "日報の修正"
 toc = true
 weight = 50
-aliases = ['/report/write/rewrite/']
 +++
 
 ## 日報を修正できるスタッフと日報の状態

@@ -6,7 +6,6 @@ title = "タイムカードで労働時間を管理"
 toc = false
 tags = []
 weight = 70
-aliases = ['/timecard/']
 +++
 
 

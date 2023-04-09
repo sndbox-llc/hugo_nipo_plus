@@ -5,7 +5,6 @@ tags = []
 title = "APIキーの管理"
 toc = false
 weight = 10
-aliases = ['/api/key/']
 +++
 
 ## APIキーとは

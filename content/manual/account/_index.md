@@ -6,7 +6,6 @@ title = "スタッフのアカウント"
 toc = false
 weight = 90
 tags = []
-aliases = ['/account/']
 +++
 
 アカウントはNipoPlusの利用者を特定するための**E-mailとパスワードの組み合わせ**です。  

@@ -40,9 +40,9 @@ NipoPlusは1つ1つの入力フォームに対して個別に「入力必須」�
 |入力フォーム名|クリア条件|
 |---|---|
 |[テキスト入力フォーム](/manual/initial-setting/template/text/)|1文字以上文字を入力する|
-|[選択肢入力フォーム](/manual/initial-setting/template/select/)|選択肢から1つ選ぶ|
-|[選択肢入力フォーム（複数回答）](/manual/initial-setting/template/select2/)|選択肢から少なくとも1つ選ぶ|
-|[選択肢入力フォーム（２層式）](/manual/initial-setting/template/selectcalc/)|問2の選択肢から1つ選ぶ|
+|[選択式入力フォーム](/manual/initial-setting/template/select/)|選択肢から1つ選ぶ|
+|[選択式入力フォーム（複数回答）](/manual/initial-setting/template/select2/)|選択肢から少なくとも1つ選ぶ|
+|[選択式入力フォーム（２層式）](/manual/initial-setting/template/selectcalc/)|問2の選択肢から1つ選ぶ|
 |[日付・時刻入力フォーム](/manual/initial-setting/template/datetime/)|日付または時刻を入力する|
 |[期間入力フォーム](/manual/initial-setting/template/datetimes/)|期間（開始・終了両方とも）を入力する|
 |[チェックボックス入力フォーム](/manual/initial-setting/template/checkbox/)|チェックボックスにチェックを入れる（同意や確認として利用を推奨します）|

@@ -12,7 +12,7 @@ reqMermaid = false
 ## グループで使えるカスタマイズ可能な業務報告システムです
 
 nipoplusは簡単な操作でオリジナルのテンプレートを作成できるクラウド型のWebアプリケーションです。
-[数値](/manual/initial-setting/template/math/)や写真、[選択肢](/manual/initial-setting/template/select/)など、様々な入力フォームを組み合わせて自由自在にテンプレートをカスタマイズできます。
+[数値](/manual/initial-setting/template/math/)や写真、[選択式](/manual/initial-setting/template/select/)など、様々な入力フォームを組み合わせて自由自在にテンプレートをカスタマイズできます。
 スタッフは作られたテンプレートに沿ってデータを入力し、入力されたデータは、安全にクラウド上に保存され、いつでもどこからでもアクセス可能です。
 
 {{<icatch filename="sample10" msg="テンプレートに沿って 報告書を書くシーン" title="NipoPlusのアプリ画面のイメージ図" fontsize="30px" alice="ok" >}}
@@ -56,7 +56,7 @@ CSVの**出力形式は目的に応じて変更**できます。バックアッ�
 {{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="日報をグラフ化する" fontsize="30px" alice="here" >}}
 
 グラフは複数種類保存できます。スタッフごとにグラフの設定が記録できます。
-数値の比較はもちろんのこと、選択肢入力フォームのデータも表にできます。
+数値の比較はもちろんのこと、[選択式入力フォーム](/manual/initial-setting/template/select/)のデータも表にできます。
 
 
 <div class="flexmain">
@@ -79,7 +79,7 @@ NipoPlusでは、テンプレートの作成時に、入力項目の記入すべ
 
 報告書を書いた担当者名などはアカウントから自動で判別しますので提出者名の書き漏れも仕組み上起こりません。
 単語の表記ゆれを心配される場合もあるかもしれません。例えば「コンピュータ」と「ｺﾝﾋﾟｭｰﾀｰ」のように報告書作成者によって同じ単語でも異なる記述がされると報告書の品質を保ちにくくなります。
-こういったケースでは[選択肢入力フォーム](/manual/initial-setting/template/select/)などを使えば決められた値から選ぶだけなので、意図しない表記ゆれを防ぐことが可能です。
+こういったケースでは[選択式入力フォーム](/manual/initial-setting/template/select/)などを使えば決められた値から選ぶだけなので、意図しない表記ゆれを防ぐことが可能です。
 またそもそも提出自体を忘れているスタッフが居る場合もあるでしょう。このような場合は[日報提出簿](/manual/read-report/list/)や[カレンダー](/calendar/)から日報の未提出者をかんたんに発見できます。
 
 {{<button "/tips/required/" "記入漏れ・提出漏れについて詳しく見る">}}
@@ -219,7 +219,7 @@ PDF出力前に設定を変更すればQRコードの埋め込みや透かし文
 {{<icatch filename="template-make" msg="部品を積み木のように 並べるだけです" title="日報テンプレートを作るのは簡単です。必要な部品をブロックのように並べていくだけです" fontsize="30px" alice="guide" >}}
 
 入力フォームを自由に組み合わせて日報テンプレートを作っていきます。
-入力フォームには「[文字入力](/manual/initial-setting/template/text/)」や「[選択肢入力](/manual/initial-setting/template/select/)」「[写真入力](/manual/initial-setting/template/picture/)」「[署名入力](/manual/initial-setting/template/sign/)」など様々な種類が用意されています。
+入力フォームには「[文字入力](/manual/initial-setting/template/text/)」や「[選択式入力](/manual/initial-setting/template/select/)」「[写真入力](/manual/initial-setting/template/picture/)」「[署名入力](/manual/initial-setting/template/sign/)」など様々な種類が用意されています。
 [入力フォームを積み重ねる](/manual/initial-setting/template/)だけでオリジナル日報テンプレートの完成です。
 
 営業日報・業務報告書・品質管理シートなど、組み合わせ方次第でどんなテンプレートでも作成が可能です。

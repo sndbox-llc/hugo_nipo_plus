@@ -7,6 +7,7 @@ toc = true
 weight = 3
 +++
 
+
 Android端末のスマートフォンやタブレットにNipoPlusをインストールできます。
 Android端末にインストールするには大きく分けて2つの方法（PWA版・ PlayStore版)があります。可能であればPWA版のインストールを推奨しています。
 

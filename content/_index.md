@@ -15,7 +15,7 @@ nipoplusは簡単な操作でオリジナルのテンプレートを作成でき
 [数値](/manual/initial-setting/template/math/)や写真、[選択式](/manual/initial-setting/template/select/)など、様々な入力フォームを組み合わせて自由自在にテンプレートをカスタマイズできます。
 スタッフは作られたテンプレートに沿ってデータを入力し、入力されたデータは、安全にクラウド上に保存され、いつでもどこからでもアクセス可能です。
 
-{{<icatch filename="sample10" msg="テンプレートに沿って 報告書を書くシーン" title="NipoPlusのアプリ画面のイメージ図" fontsize="30px" alice="ok" >}}
+{{<icatch filename="sample10" msg="テンプレートに沿って 報告書を書けるよ" title="NipoPlusのアプリ画面のイメージ図" fontsize="30px" alice="ok" >}}
 
 一般的な日報業務はもちろんのこと、次のようなシーンでも活用できます
 
@@ -34,8 +34,6 @@ nipoplusは簡単な操作でオリジナルのテンプレートを作成でき
 </div>
 
 -->
-
-
 
 <div style="text-align:center;margin: 50px 0;">
   <a href="https://nipo-plus.web.app/" class="calltoactionBtn" target="_blank">NipoPlusを起動</a>
@@ -75,7 +73,7 @@ NipoPlusでは、テンプレートの作成時に、入力項目の記入すべ
 日報テンプレート作成時に**入力必須の設定**を指定することで当該項目が空欄だと報告書が提出できないように制限することができます。
 これにより書き忘れやチェック漏れを防ぐことができるようになります。
 
-{{<icatch filename="omission-prevention" msg="入力必須を使えば 記入漏れを０にできる" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
+{{<icatch filename="input-order" msg="入力必須と 入力順指定の例" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
 
 報告書を書いた担当者名などはアカウントから自動で判別しますので提出者名の書き漏れも仕組み上起こりません。
 単語の表記ゆれを心配される場合もあるかもしれません。例えば「コンピュータ」と「ｺﾝﾋﾟｭｰﾀｰ」のように報告書作成者によって同じ単語でも異なる記述がされると報告書の品質を保ちにくくなります。
@@ -205,28 +203,3 @@ PDF出力前に設定を変更すればQRコードの埋め込みや透かし文
 ここまでスクロールいただきありがとうございます！
 {{</alice>}}
 
-
-<!--
-
-
-## 業務日報も点検シートも！テンプレートを自由にカスタマイズして999種類まで保存できます
-
-専門的なプログラミングの知識は一切不要で、業務内容に応じた日報のテンプレートを自分たちで簡単に作成することが可能です。  
-
-日報のテンプレートは日報作成時にPC・スマートフォン・タブレットに応じてレイアウトが自動で切り替わり、どのデバイスからでも入力しやすい日報テンプレートに早変わりします。
-次の画面は実際に業務日報テンプレートを作成しているスクリーンショットです。
-
-{{<icatch filename="template-make" msg="部品を積み木のように 並べるだけです" title="日報テンプレートを作るのは簡単です。必要な部品をブロックのように並べていくだけです" fontsize="30px" alice="guide" >}}
-
-入力フォームを自由に組み合わせて日報テンプレートを作っていきます。
-入力フォームには「[文字入力](/manual/initial-setting/template/text/)」や「[選択式入力](/manual/initial-setting/template/select/)」「[写真入力](/manual/initial-setting/template/picture/)」「[署名入力](/manual/initial-setting/template/sign/)」など様々な種類が用意されています。
-[入力フォームを積み重ねる](/manual/initial-setting/template/)だけでオリジナル日報テンプレートの完成です。
-
-営業日報・業務報告書・品質管理シートなど、組み合わせ方次第でどんなテンプレートでも作成が可能です。
-業務毎に最適化したテンプレートを是非作ってみてくだい。
-
-{{<button "/tips/template/" "こんなテンプレートも？実例紹介">}}
-
-{{<button "/manual/initial-setting/template/" "日報テンプレートの作成マニュアル">}}
-
--->

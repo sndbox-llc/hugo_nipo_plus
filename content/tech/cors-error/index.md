@@ -1,6 +1,6 @@
 +++
 description = "CORSエラーによってCloud Functionがうまく動かなかった。その原因と解決策に奔走してしまい、３時間を無駄にしました。原因と解決策についてまとめています"
-menuTitle = "Firebace CORSの回避"
+menuTitle = "Firebase CORSの回避"
 tags = []
 title = "FirebaseのCloud FunctionsでHttps.onRequestのCORS問題を回避"
 toc = true

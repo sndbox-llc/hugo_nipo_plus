@@ -1,6 +1,6 @@
 +++
 description = "長いことFirestoreはバックアップ機能を提供してきませんでした。この度Firebase公式のバックアップ手順が紹介されたため実際に導入してみたときの記事です"
-menuTitle = "Firebace CORSの回避"
+menuTitle = "FireStoreのバックアップ"
 tags = []
 title = "Firestoreのデータバックアップを自動で行う一番簡単なやり方"
 toc = true

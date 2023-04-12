@@ -2,7 +2,7 @@
 archetype = "home"
 description = "NipoPlusは、カスタマイズ可能なテンプレートを使用して、日報やチェックシートなどの報告書作成を効率化するWebシステムです。簡単な操作で独自のテンプレートを作成し、従業員はいつでもどこでもデータ入力が可能。高度な承認機能やグループ管理で情報共有をスムーズにし、セキュリティ対策で安心して業務に取り組めます。リーズナブルな価格で、企業のあらゆる業務に最適な報告書管理ツールを提供します"
 menuTitle = "Home"
-title = "スマートな報告業務を始めよう  NipoPlus"
+title = "スマートな報告業務を始めよう"
 toc = false
 tags = []
 reqMermaid = false
@@ -167,6 +167,7 @@ PDF出力前に設定を変更すればQRコードの埋め込みや透かし文
 
 |サービス名|1名単価|最小利用人数|月額総額|
 |---|---|---|---|
+|[i-Reporter](https://i-reporter.jp/)|記載なし|5名|37,500円（初期費用50,000円）|
 |[Nanoty](https://www.nanotybp.jp/price/)|600円|20名|12,000円|
 |[未来日報](https://www.mirairepo.net/)|330円|20名|6,600円
 |[Gamba](https://www.getgamba.com/price/)|816円|5名|4,080円|
@@ -198,8 +199,4 @@ PDF出力前に設定を変更すればQRコードの埋め込みや透かし文
 <div class="dp33">{{<button "/quickstart/" "クイックスタートガイド">}}</div>
 <div class="dp33">{{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動" "_blank">}}</div>
 </div>
-
-{{<alice pos="right" icon="please">}}
-ここまでスクロールいただきありがとうございます！
-{{</alice>}}
 

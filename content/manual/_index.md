@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "NipoPlusの使い方についての目録ページです。目的の記事をクリックしてください"
 menuTitle = "操作ガイド"
 title = "NipoPlus 操作ガイドマニュアル"
 toc = false

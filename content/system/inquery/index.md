@@ -1,5 +1,5 @@
 +++
-description = "NipoPlusのお問い合わせフォームです。ご不明な点がありましたらこちらのフォームよりお問い合わせください。24時間以内に返信いたします"
+description = "NipoPlusに関するご質問、ご要望、お問い合わせはこちらからお送りください。24時間以内に返信いたします。自動返信メールにて受け付け完了のお知らせを送信しています"
 menuTitle = "お問い合わせ"
 tags = []
 title = "お問い合わせ"
@@ -7,14 +7,15 @@ toc = false
 weight = 900
 +++
 
-ご不明な点はございますか？またはNipoPlusで追加して欲しい機能、改善してほしい点、ご感想などございましたら以下のフォームからお問い合わせください。
+お問い合わせいただき、ありがとうございます。
+NipoPlusについてのご質問、ご要望、不具合の報告など、何でもお気軽にお問い合わせください。
+お問い合わせ内容につきましては、24時間以内に担当者より返信させていただきます。  
+また、自動返信メールもお送りいたしますので、もし返信が届かない場合は、お手数ですが迷惑メールフォルダをご確認いただくか、再度ご連絡ください。  
+NipoPlusをより良いものにするため、皆様からのご意見・ご要望を心よりお待ちしております。
 
-
-{{<alice pos="right" icon="shield">}}
-Stop!営業メールは絶対に送らないでくださいね
+{{<alice pos="right" icon="ok">}}
+この文章、ChatGPTが作ったんですよ！
 {{</alice>}}
-
-
 
 <div id="contactForm">
 
@@ -24,7 +25,7 @@ Stop!営業メールは絶対に送らないでくださいね
   <label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
   <div id="iconField"></div>
 
-  <button onclick="submit()" id="sendButton">送信</button>
+  <button onclick="submit()" class="my_button" id="sendButton">送信</button>
   <div id="errormessage" style="color:red"></div>
 </div>
 <div id="thanks"></div>

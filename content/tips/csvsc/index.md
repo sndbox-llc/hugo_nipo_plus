@@ -7,11 +7,17 @@ toc = false
 weight = 20221001
 +++
 
+## CSVSCの概要
+
+CSVSCは、複数のCSVファイルを1つに簡単に連結することができる、Webベースのアプリケーションです。
+CSVファイルの操作に慣れていないユーザーでも、ドラッグ＆ドロップで簡単にCSVファイルを追加し、連結することができます。
+ブラウザ上で完結するため、特別なソフトウェアをインストールする必要もありません。また、データの通信は発生しないため、ユーザーのデータ漏洩リスクは低いです。
+
 {{<icatch filename="csvsc" msg="CSVファイルを ドラッグで連結" title="複数のCSVファイルを1つに結合" fontsize="30px" alice="here" >}}
 
+{{<button "https://code.sndbox.jp/csvsc/#/" "CSVSCの起動" "_blank">}}
 
-
-[CSVSCを起動する](https://code.sndbox.jp/csvsc/#/)  
+---
 
 ## CSVとはカンマ区切りのことです
 

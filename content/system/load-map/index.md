@@ -4,7 +4,7 @@ menuTitle = "ロードマップ"
 tags = []
 title = "ロードマップ"
 toc = true
-weight = 99
+weight = 6
 +++
 
 NipoPlusで現在実装されていませんがこれから実装を予定している機能についてまとめています。

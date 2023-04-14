@@ -4,7 +4,7 @@ menuTitle = "謝辞"
 tags = []
 title = "Special Thanks"
 toc = true
-weight = 110
+weight = 899
 +++
 
 

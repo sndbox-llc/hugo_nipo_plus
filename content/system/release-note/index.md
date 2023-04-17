@@ -33,19 +33,23 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
-
-#### 【NipoPlus】 2023/04/07 Version 1.36.0
+#### 【NipoPlus】 2023/04/17 Version 1.37.1
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
+- テンプレートの編集をポップアップ式に変更しました
+- テンプレートの編集時刻を一覧に表示するようにしました
+- 説明用画像で画像が消えてしまう事があるバグを修正しました
+
+#### 【NipoPlus】 2023/04/07 Version 1.36.0
 
 - [スライド入力](/manual/initial-setting/template/step/)で入力必須の指定ができるようになりました
 - [テキスト入力](/manual/initial-setting/template/text/)でURLを入力するとリンクを生成するオプションが追加されました
 - （試作）言語切替機能を追加しました。一部翻訳されていない箇所については順次対応します
 - [ログ機能](/manual/initial-setting/advanced-setting/log/)でスタッフIDだとわかりにくいためスタッフ名を表示するように修正しました
 - [スタッフアカウント](/manual/initial-setting/staff/)を「無効」にすると利用人数から減るように修正しました
-
-※iOS版の開発環境側で、１開発会社が修正することができない問題が発生しており、Android/iOS版の更新は問題が解決されるまで保留されます。
 
 #### 【NipoPlus】 2023/04/02 Version 1.35.0
 
@@ -57,9 +61,6 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 - [集計・CSV出力ページ](/manual/analytics/transition/)のレイアウトを一部変更しました
 
 #### 【NipoPlus】 2023/03/24 Version 1.34.1
-
-{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
-{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
 - [タグ管理](/manual/initial-setting/advanced-setting/tag/)機能について項目ごとに使い分けができるように機能が強化されました
 - タグのアイコンがゴミ箱になるバグを修正しました

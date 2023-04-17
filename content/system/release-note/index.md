@@ -39,6 +39,8 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
+<span style="color:red">※本バージョンからURLパラメータが変更になったため更新時に404と表示されることがありますが「TOPへ」ボタンを押すと復旧します</span>
+
 - テンプレートの編集をポップアップ式に変更しました
 - テンプレートの編集時刻を一覧に表示するようにしました
 - 説明用画像で画像が消えてしまう事があるバグを修正しました

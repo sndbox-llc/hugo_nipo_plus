@@ -33,7 +33,19 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
+#### 【NipoPlus】2023/04/26 Version 1.38.1
+
+{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+
+
+- カード決済画面のページ移動先が誤っていましたので修正しました。（決済自体は正しく動作していますのでご安心ください）
+
+
 #### 【NipoPlus】2023/04/23 Version 1.38.0
+
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
 
 - テンプレートのタイトルカラーのバリエーションが増えました
 - 商品管理「カテゴリ」が２種類、及び商品に対する写真データの添付が可能になりました
@@ -43,9 +55,6 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 #### 【NipoPlus】 2023/04/17 Version 1.37.1
 
-{{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
-{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
-{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
 <span style="color:red">※本バージョンからURLパラメータが変更になったため更新時に404と表示されることがありますが「TOPへ」ボタンを押すと復旧します</span>
 

@@ -33,9 +33,19 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
-#### 【NipoPlus】2023/04/26 Version 1.38.1
+#### 【NipoPlus】2023/05/06 Version 1.38.2
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
+
+- グループの設定に「メールアドレスの表示切替」が追加されました。日報の提出先を選ぶ際にメールアドレスを秘匿できます。
+- API機能の利用を管理者がスタッフごとに制御できるようになりました。初期値はすべて「無効」扱いとなります。
+
+※APIはセキュリティの観点から設定がなされない場合は初期状態が「無効」扱いとなりました。APIを利用する際は管理者が機能を有効にしてください
+
+#### 【NipoPlus】2023/04/26 Version 1.38.1
+
 
 
 - カード決済画面のページ移動先が誤っていましたので修正しました。（決済自体は正しく動作していますのでご安心ください）
@@ -43,8 +53,6 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 #### 【NipoPlus】2023/04/23 Version 1.38.0
 
-{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
-{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
 
 - テンプレートのタイトルカラーのバリエーションが増えました

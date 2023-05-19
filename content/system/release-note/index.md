@@ -33,9 +33,20 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 ### リリースノート
 
-#### 【NipoPlus】2023/05/06 Version 1.38.2
+
+#### 【NipoPlus】2023/05/18 Version 1.39.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+
+
+- 新しい集計方式[【予定・実績表】](/manual/analytics/progress/)が追加されました
+- フッターメニューにおけるバグを修正しました
+- E-mail解除オプションを常時表示されるように修正しました
+- 商品管理でCSVインポート時に空行をスキップするように修正しました
+
+
+#### 【NipoPlus】2023/05/06 Version 1.38.2
+
 {{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
 {{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 

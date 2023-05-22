@@ -4,7 +4,7 @@ menuTitle = "初期設定"
 menuPre = "<b>1. </b>"
 title = "初期設定を行う"
 toc = false
-reqMermaid = true
+reqMermaid = false
 weight = 10
 tags = []
 +++

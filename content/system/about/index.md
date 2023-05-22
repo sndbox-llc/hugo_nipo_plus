@@ -5,7 +5,7 @@ tags = []
 title = "NipoとNipoPlusの違い"
 toc = true
 weight = 100
-reqMermaid = true
+reqMermaid = false
 +++
 
 {{<imgproc eye-catch.png "NipoからNipoPlusへ" />}}

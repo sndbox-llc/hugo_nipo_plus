@@ -7,7 +7,7 @@ toc = true
 tocdefaultopen = true
 tags = []
 weight = 1
-reqMermaid = true
+reqMermaid = false
 +++
 
 導入から使用開始までの流れを必要最小限に絞ってご紹介します。

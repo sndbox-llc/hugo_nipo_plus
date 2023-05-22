@@ -5,7 +5,7 @@ tags = []
 title = "日報の提出先と共有先"
 toc = true
 weight = 20
-reqMermaid = true
+reqMermaid = false
 
 +++
 

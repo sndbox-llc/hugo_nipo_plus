@@ -92,4 +92,4 @@ hugo --cleanDestinationDir
 .exampleSiteを削除
 /imagesを削除
 
-themes/layouts/static/css/theme.cssを開き、 height: 100%をコメントアウトしておく
+themes/static/css/theme.cssを開き、 height: 100%をコメントアウトしておく

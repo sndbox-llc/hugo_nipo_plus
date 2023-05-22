@@ -4,7 +4,7 @@ menuTitle = "その他応用設定"
 tags = []
 title = "応用設定"
 toc = false
-reqMermaid = true
+reqMermaid = false
 weight = 50
 +++
 

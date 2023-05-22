@@ -37,6 +37,8 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 #### 【NipoPlus】2023/05/18 Version 1.39.0
 
 {{% badge style="green" icon="check-circle" %}}Web{{% /badge %}}
+{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
+{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
 
 - 新しい集計方式[【予定・実績表】](/manual/analytics/progress/)が追加されました
@@ -47,8 +49,6 @@ Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行�
 
 #### 【NipoPlus】2023/05/06 Version 1.38.2
 
-{{% badge style="red" icon="check-circle" %}}ios{{% /badge %}}
-{{% badge style="blue" icon="check-circle" %}}Android{{% /badge %}}
 
 - グループの設定に「メールアドレスの表示切替」が追加されました。日報の提出先を選ぶ際にメールアドレスを秘匿できます。
 - API機能の利用を管理者がスタッフごとに制御できるようになりました。初期値はすべて「無効」扱いとなります。

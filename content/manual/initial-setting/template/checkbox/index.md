@@ -72,6 +72,3 @@ weight = 170
 
 {{<appscreen filename="csvsetting" title="CSVの出力前設定。チェックボックスは列の展開をON・OFF切り替えが可能です"  >}}
 
-最後に、PDFに出力したときのイメージは以下からダウンロードできます
-
-{{<attachments style="orange" />}}

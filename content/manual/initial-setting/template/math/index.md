@@ -75,8 +75,3 @@ weight = 330
 CSV出力されたデータはエクセルやGoogle Spleadsheetなどの表計算ソフトを使って開くことができます。
 NipoPlusではサポートされていない平均値の算出など細かい分析にはCSV出力の利用を検討してください。
 日報をまとめてCSVに出力するには[一括CSV出力](/manual/analytics/csv/)を参照してください
-
-### PDFに出力する
-
-実際にPDFに出力したサンプルをこちらからダウンロードして確認してください。
-{{<attachments style="orange" />}}

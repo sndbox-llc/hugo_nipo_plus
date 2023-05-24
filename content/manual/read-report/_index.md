@@ -5,7 +5,7 @@ menuPre = "<b>3. </b>"
 title = "日報を読む"
 toc = false
 tags = []
-weight = 30
+weight = 101003000
 +++
 
 ## 日報受信BOXから目的の日報を見つける

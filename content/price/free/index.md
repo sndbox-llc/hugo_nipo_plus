@@ -4,7 +4,7 @@ menuTitle = "無料プランについて"
 tags = []
 title = "無料プランについて"
 toc = true
-weight = 20
+weight = 102000002
 +++
 
 

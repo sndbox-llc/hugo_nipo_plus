@@ -4,7 +4,7 @@ menuTitle = "受信BOXの検索機能変更について"
 tags = []
 title = "受信BOXの検索機能変更について"
 toc = false
-weight = -20221205
+weight = 108999996
 +++
 
 いつもNipoPlusをご利用いただきありがとうございます。さて、Version1.21.0から受信BOXにおいて検索条件を保存できるようになります。

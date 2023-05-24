@@ -5,7 +5,7 @@ menuPre = "<b>1. </b>"
 title = "初期設定を行う"
 toc = false
 reqMermaid = false
-weight = 10
+weight = 101000000
 tags = []
 +++
 

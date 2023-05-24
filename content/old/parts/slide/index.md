@@ -3,7 +3,7 @@ description = "つまみをドラッグするだけで数値の入力ができ�
 menuTitle = "スライダー"
 title = "スライダー-日報構成部品"
 toc = false
-weight = 10020
+weight = 109002005
 isNipo = true
 tags = []
 +++

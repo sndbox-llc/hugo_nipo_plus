@@ -4,7 +4,7 @@ menuTitle = "スライダ入力"
 tags = ["集計可能な入力フォーム"]
 title = "スライダ式入力フォーム"
 toc = true
-weight = 300
+weight = 101001113
 +++
 
 {{<icatch filename="slider-input" msg="つまみをスライドさせて 数値の入力ができます" title="スライダ入力フォーム" fontsize="30px" alice="ok" >}}

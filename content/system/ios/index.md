@@ -4,7 +4,7 @@ menuTitle = "iosにNipoPlusをインストール"
 tags = []
 title = "iosにNipoPlusをインストール"
 toc = true
-weight = 2
+weight = 103000002
 +++
 
 iPhoneやiPadなどのいわゆるiOSが搭載された機器にNipoPlusをインストールして利用できます。

@@ -4,7 +4,7 @@ menuTitle = "日報データ推移と累積"
 tags = []
 title = "日報の過去データの推移や累積を見る"
 toc = true
-weight = 11
+weight = 101004001
 +++
 
 {{<icatch filename="past-data" msg="同種日報の前回 と今回の比較も簡単" title="日報を一覧表にして過去と比較する" fontsize="30px" alice="ok" >}}

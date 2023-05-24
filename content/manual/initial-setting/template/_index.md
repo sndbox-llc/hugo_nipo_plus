@@ -3,7 +3,7 @@ description = "テンプレート機能は、ユーザーが自分の業務に�
 menuTitle = "日報テンプレート"
 title = "テンプレートから各種報告書や点検シートを作る"
 toc = false
-weight = 20
+weight = 101001100
 tags = []
 reqMermaid = true
 +++

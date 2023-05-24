@@ -4,7 +4,7 @@ menuTitle = "活用例"
 title = "NipoPlusの活用Tips集"
 toc = false
 tags = []
-weight = 9000
+weight = 104000000
 +++
 
 NipoPlusの本質は**テンプレートに沿って記入する入力管理アプリ**です。

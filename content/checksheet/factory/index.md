@@ -4,7 +4,7 @@ menuTitle = "集計/P管理図/データシート"
 tags = []
 title = "QCチェックシートから不良率算出やP管理図を作成"
 toc = false
-weight = 10
+weight = 106000002
 +++
 
 

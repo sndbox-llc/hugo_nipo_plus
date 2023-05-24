@@ -3,7 +3,7 @@ description = "日報に範囲入力できるパーツを追加できます。�
 menuTitle = "範囲"
 title = "範囲-日報構成部品"
 toc = false
-weight = 10020
+weight = 109002014
 isNipo = true
 tags = []
 +++

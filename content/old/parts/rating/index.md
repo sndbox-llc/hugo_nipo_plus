@@ -3,7 +3,7 @@ description = "ネットショップなどでおなじみの星（★★☆☆�
 menuTitle = "レート"
 title = "レート-日報構成部品"
 toc = false
-weight = 10020
+weight = 109002004
 isNipo = true
 tags = []
 +++

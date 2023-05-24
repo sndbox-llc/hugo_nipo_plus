@@ -4,7 +4,7 @@ menuTitle = "承認・棄却・既読"
 tags = []
 title = "日報を読んで承認をする"
 toc = true
-weight = 10
+weight = 101003002
 +++
 
 ## 日報の状態は新規・進行・修正・棄却・承認の5種類

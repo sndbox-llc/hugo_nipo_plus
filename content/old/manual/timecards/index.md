@@ -3,7 +3,7 @@ description = "日報のテンプレートにタイムカードを埋め込ん�
 menuTitle = "タイムカードと日報"
 title = "タイムカード（労働時間管理）を日報と併せて使う"
 toc = false
-weight = 1200
+weight = 109001015
 isNipo = true
 tags = []
 +++

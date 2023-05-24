@@ -4,7 +4,7 @@ menuTitle = "Firebase Storage No SuchKey"
 tags = []
 title = "Firebase StorageでNoSuchKeyのエラーが発生する原因と対策"
 toc = true
-weight = 9
+weight = 105000002
 +++
 
 Cloud FunctionsからPDFやZipなどのファイルを作成し、ダウンロードURLをフロントに返却するといった処理を実装したときに、次のようなエラーを受けました。

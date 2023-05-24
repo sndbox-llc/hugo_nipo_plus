@@ -4,7 +4,7 @@ menuTitle = "Quasar&Capacitor4"
 tags = []
 title = "Android API Level31以上に対応する（QuasarとCapacitor4を利用）"
 toc = true
-weight = -20221209
+weight = 105000001
 +++
 
 少し前からGoogle PlayStoreはAPI Level 31以上を必須としました。

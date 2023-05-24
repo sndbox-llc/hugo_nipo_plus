@@ -4,7 +4,7 @@ menuTitle = "iPhoneの画像が回転する現象"
 tags = []
 title = "iOS13.4.1で写真をアップロードすると画像が横向きになる問題"
 toc = true
-weight = 1000
+weight = 105000012
 +++
 
 

@@ -3,7 +3,7 @@ description = "予め回答を用意しておき、日報作成時には選ぶ�
 menuTitle = "選択肢"
 title = "選択肢-日報構成部品"
 toc = false
-weight = 10020
+weight = 109002011
 isNipo = true
 tags = []
 +++

@@ -3,7 +3,7 @@ description = "日報に日付が入力ができるパーツを追加できま�
 menuTitle = "日付"
 title = "日付"
 toc = false
-weight = 10020
+weight = 109002013
 isNipo = true
 tags = []
 +++

@@ -4,7 +4,7 @@ menuTitle = "システム更新履歴"
 tags = []
 title = "システム更新履歴【NipoおよびNipoPlus】"
 toc = false
-weight = 5
+weight = 103000004
 +++
 
 現在ご利用中のNipoPlusのバージョンは、サイドメニュー下部に記載されております。ここからバージョンを確認してください

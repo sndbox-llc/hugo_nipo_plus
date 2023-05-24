@@ -4,7 +4,7 @@ menuTitle = "NipoとNipoPlusの違い"
 tags = []
 title = "NipoとNipoPlusの違い"
 toc = true
-weight = 100
+weight = 103000008
 reqMermaid = false
 +++
 

@@ -4,6 +4,7 @@ menuTitle = "Typesense全文検索"
 tags = []
 title = "TypesenseとFireStoreを併用してアプリ内検索を実装【Algoliaから移住】"
 toc = true
+weight = 105000023
 +++
 
   

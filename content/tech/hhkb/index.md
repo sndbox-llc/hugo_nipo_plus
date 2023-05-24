@@ -3,7 +3,7 @@ description = "高級キーボードとして有名なHHKBから最新モデル 
 menuTitle = "HHKBキーボード"
 title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
 toc = true
-weight = 10
+weight = 105000005
 tags = []
 +++
 

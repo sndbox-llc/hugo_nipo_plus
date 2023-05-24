@@ -4,7 +4,7 @@ menuTitle = "タイムカードの設定"
 tags = []
 title = "タイムカードの設定"
 toc = true
-weight = 30
+weight = 101007004
 +++
 
 タイムカード機能に関する各種設定が行なえます。  

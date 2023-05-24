@@ -3,7 +3,7 @@ description = "グループはスタッフと日報をやり取りするため�
 menuTitle = "グループの作成と削除"
 title = "グループの新規作成と削除について"
 toc = false
-weight = 300
+weight = 109001003
 isNipo = true
 tags = []
 +++

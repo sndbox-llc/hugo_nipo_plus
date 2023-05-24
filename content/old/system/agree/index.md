@@ -3,7 +3,7 @@ description = "Nipoを利用する上での利用規約になります。同じ�
 menuTitle = "システム利用規約"
 title = "システム利用規約"
 toc = false
-weight = 500
+weight = 109003005
 isNipo = true
 tags = []
 +++

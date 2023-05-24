@@ -3,7 +3,7 @@ description = "Nipoのログインパスワードを忘れてしまった場合�
 menuTitle = "パスワードリセット"
 title = "パスワードリセット"
 toc = false
-weight = 1100
+weight = 109001014
 isNipo = true
 tags = []
 +++

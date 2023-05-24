@@ -3,7 +3,7 @@ description = "タッチペン対応端末であればスタイラスペンを�
 menuTitle = "署名"
 title = "署名-日報構成部品"
 toc = false
-weight = 10020
+weight = 109002010
 isNipo = true
 tags = []
 +++

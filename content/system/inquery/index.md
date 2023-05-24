@@ -4,7 +4,7 @@ menuTitle = "お問い合わせ"
 tags = []
 title = "お問い合わせ"
 toc = false
-weight = 1000
+weight = 103000016
 +++
 
 お問い合わせいただき、ありがとうございます。

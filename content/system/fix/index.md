@@ -4,7 +4,7 @@ menuTitle = "トラブルシューティング"
 tags = []
 title = "トラブルシューティング"
 toc = true
-weight = 100
+weight = 103000009
 +++
 
 NipoPlusはWeb版・Android版・iOS版があります。ベースとしてWeb版があり、Web版をスマホアプリストアで公開できるように変換したものがそれぞれAndroid / iOS版となっています。

@@ -4,7 +4,7 @@ menuTitle = "スタッフアカウント"
 tags = []
 title = "スタッフアカウントの権限"
 toc = false
-weight = 11
+weight = 101001002
 reqMermaid = false
 +++
 

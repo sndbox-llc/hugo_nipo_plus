@@ -4,7 +4,7 @@ menuTitle = "日報にコメントを書く"
 tags = []
 title = "日報にコメントを書く"
 toc = true
-weight = 12
+weight = 101003003
 +++
 
 日報に対してコメントを書くことができます。

@@ -3,7 +3,7 @@ description = "NipoをスマートフォンにインストールするにはApp 
 menuTitle = "iOSにインストール"
 title = "iPhone・iPadにNipoをインストールする"
 toc = false
-weight = 400
+weight = 109003004
 isNipo = true
 tags = []
 +++

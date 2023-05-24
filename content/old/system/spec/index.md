@@ -3,7 +3,7 @@ description = "パソコンやスマートフォン・タブレットから利�
 menuTitle = "動作環境"
 title = "動作環境"
 toc = false
-weight = 200
+weight = 109003002
 isNipo = true
 tags = []
 +++

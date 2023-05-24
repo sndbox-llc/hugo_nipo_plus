@@ -5,7 +5,7 @@ menuPre = "<b>X.</b>"
 title = "簡単！クラウド日報"
 toc = false
 tags = []
-weight = 9100
+weight = 109000000
 isNipo = true
 +++
 

@@ -3,7 +3,7 @@ description = "紙ベースのチェックシートをNipoPlusで電子化し、
 menuTitle = "チェックシートアプリ"
 title = "業務用チェックシートアプリで電子化"
 toc = false
-weight = 9000
+weight = 106000000
 tags = []
 +++
 

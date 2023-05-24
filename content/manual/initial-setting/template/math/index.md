@@ -4,7 +4,7 @@ menuTitle = "数値入力"
 tags = ["集計可能な入力フォーム"]
 title = "数値入力フォーム"
 toc = true
-weight = 330
+weight = 101001115
 +++
 
 {{<icatch filename="math" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok" >}}

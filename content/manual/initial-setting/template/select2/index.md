@@ -4,7 +4,7 @@ menuTitle = "選択肢入力(複数解答)"
 tags = ["集計可能な入力フォーム"]
 title = "選択式の入力フォーム（複数回答）"
 toc = true
-weight = 130
+weight = 101001104
 +++
 
 {{<icatch filename="select2" msg="選ぶだけの簡単入力 色分けも可能" title="選択肢入力フォームのテンプレート例" fontsize="30px" alice="here" >}}

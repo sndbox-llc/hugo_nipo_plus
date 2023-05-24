@@ -3,7 +3,7 @@ description = "蓄積した日報のデータを簡単に集計＆グラフ化�
 menuTitle = "日報の集計"
 title = "日報をエクセルシートで集計しよう！提出漏れもかんたんチェック"
 toc = false
-weight = 800
+weight = 109001011
 isNipo = true
 tags = []
 +++

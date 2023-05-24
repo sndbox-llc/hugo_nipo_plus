@@ -4,7 +4,7 @@ menuTitle = "有料プランを解約"
 tags = []
 title = "有料プランを解約"
 toc = true
-weight = 40
+weight = 102000004
 +++
 
 ## 手動でサブスクリプションを解約する

@@ -4,6 +4,7 @@ menuTitle = "全文検索データベース"
 tags = []
 title = "Firebaseの推奨する全文検索 Elastic Search / Algolia / Typesenseの比較"
 toc = true
+weight = 105000020
 +++
 
 ## FireStoreで全文検索をする方法3種類を比較してみた

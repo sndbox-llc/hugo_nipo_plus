@@ -5,7 +5,7 @@ menuPre = "<b>7. </b>"
 title = "タイムカードで労働時間を管理"
 toc = false
 tags = []
-weight = 70
+weight = 101007000
 +++
 
 

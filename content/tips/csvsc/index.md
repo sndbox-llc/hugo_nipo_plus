@@ -4,7 +4,7 @@ menuTitle = "CSVを連結するWebアプリ"
 tags = []
 title = "複数のCSVファイルをドラッグ操作で簡単に1つに結合できます"
 toc = false
-weight = 20221001
+weight = 104000007
 +++
 
 ## CSVSCの概要

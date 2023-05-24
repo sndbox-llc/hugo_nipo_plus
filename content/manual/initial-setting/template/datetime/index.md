@@ -4,7 +4,7 @@ menuTitle = "日付/時刻入力"
 tags = []
 title = "日付・時刻入力フォーム（単体）"
 toc = true
-weight = 150
+weight = 101001106
 +++
 
 {{<icatch filename="date-time" msg="日付と時刻の 入力に最適です" title="日付と時刻入力フォームを含んだ日報テンプレートの例" fontsize="30px" alice="ok" >}}

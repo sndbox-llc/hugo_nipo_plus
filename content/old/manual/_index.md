@@ -4,7 +4,7 @@ menuTitle = "マニュアル"
 menuPre = "1."
 title = "Nipo(マニュアル)"
 toc = false
-weight = 1000
+weight = 109001000
 isNipo = true
 tags = []
 +++

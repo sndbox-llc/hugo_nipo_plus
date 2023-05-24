@@ -4,7 +4,7 @@ menuTitle = "ホームページ統合"
 tags = []
 title = "NipoとNipoPlusのホームページを統合しました"
 toc = false
-weight = -20221114
+weight = 10899994
 +++
 
 これまで別々のサイトとして展開してきましたNipoとNipoPlusのホームページをこのホームページに統合しました。

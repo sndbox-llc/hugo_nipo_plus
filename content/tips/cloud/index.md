@@ -4,7 +4,7 @@ menuTitle = "クラウドの利点"
 tags = []
 title = "日報をクラウドシステム化するとスマホから読み書きが可能に"
 toc = true
-weight = 20220725
+weight = 104000004
 +++
 
 

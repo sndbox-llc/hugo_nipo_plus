@@ -4,7 +4,7 @@ menuTitle = "レート入力"
 tags = ["集計可能な入力フォーム"]
 title = "レート入力フォーム★★☆☆☆"
 toc = true
-weight = 320
+weight = 101001114
 +++
 
 {{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力" title="レート入力フォーム" fontsize="30px" alice="ok" >}}

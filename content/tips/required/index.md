@@ -4,7 +4,7 @@ menuTitle = "記入・提出漏れを防ぐ"
 tags = []
 title = "記入漏れや提出忘れを防止！NipoPlusで効率的に報告書を管理しよう"
 toc = true
-weight = 20221118
+weight = 104000010
 aliases = ['/blog/leak/', '/blog/required/']
 +++
 

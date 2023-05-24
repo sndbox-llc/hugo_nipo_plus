@@ -3,7 +3,7 @@ description = "郵便番号を入力することで住所の補完入力がで�
 menuTitle = "住所"
 title = "住所-日報構成部品"
 toc = false
-weight = 10020
+weight = 109002009
 isNipo = true
 tags = []
 +++

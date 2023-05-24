@@ -4,7 +4,7 @@ menuTitle = "タイムカードを入力する"
 tags = []
 title = "タイムカードを入力する"
 toc = true
-weight = 10
+weight = 101007001
 +++
 
 タイムカードの入力するは以下の手順で行います。

@@ -4,7 +4,7 @@ menuTitle = "アプリ内の通知"
 tags = []
 title = "アプリ内の通知"
 toc = true
-weight = 11
+weight = 101006001
 +++
 
 画面右上のベルアイコンをクリックして通知を確認できます。

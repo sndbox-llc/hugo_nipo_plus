@@ -4,7 +4,7 @@ menuTitle = "選択肢入力(2層式)"
 tags = ["集計可能な入力フォーム"]
 title = "選択肢入力（2層式）入力フォーム"
 toc = true
-weight = 140
+weight = 101001105
 reqMermaid = true
 +++
 

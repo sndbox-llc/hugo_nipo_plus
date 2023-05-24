@@ -5,7 +5,7 @@ menuPre = "<b>10. </b>"
 title = "API"
 toc = false
 tags = []
-weight = 100
+weight = 101010000
 +++
 
 NipoPlusではWebAPIを公開しています。このWebAPIを使うことで日報データを直接取得できます。

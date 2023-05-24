@@ -3,7 +3,7 @@ description = "1名1ヶ月180円のサブスクリプション方式です。最
 menuTitle = "ご利用料金"
 title = "ご利用料金について"
 toc = false
-weight = 80
+weight = 102000000
 tags = []
 +++
 

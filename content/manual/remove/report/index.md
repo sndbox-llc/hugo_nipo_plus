@@ -4,7 +4,7 @@ menuTitle = "日報を1件削除する"
 tags = []
 title = "日報を1件削除する"
 toc = true
-weight = 70
+weight = 101011003
 +++
 
 ## 削除できる日報について

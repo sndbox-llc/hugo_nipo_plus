@@ -4,7 +4,7 @@ menuTitle = "お知らせ"
 title = "お知らせ"
 toc = false
 tags = []
-weight = 120
+weight = 108000000
 +++
 
 

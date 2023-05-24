@@ -4,7 +4,7 @@ menuTitle = "charts.js"
 tags = []
 title = "Vue composition APIでchart.jsを使いグラフを作成(vue-chart.jsは使わない)"
 toc = true
-weight = 1000
+weight = 105000015
 +++
 
 

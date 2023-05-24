@@ -4,7 +4,7 @@ menuTitle = "月間目標と実績から進捗を管理"
 tags = []
 title = "生産目標と進捗を報告書から自動で表に変換。製造業のDX化"
 toc = true
-weight = 20230522
+weight = 104000011
 +++
 
 

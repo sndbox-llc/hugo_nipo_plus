@@ -4,7 +4,7 @@ menuTitle = "ログインE-mailの変更"
 tags = []
 title = "ログインE-mailの変更"
 toc = true
-weight = 20
+weight = 101009002
 +++
 
 ログインE-mailの変更には本人確認のため、**ログインパスワードの入力が必要**です。もしログインパスワードがわからない場合は先に[ログインパスワードの再設定](/manual/account/password/)を行ってください。

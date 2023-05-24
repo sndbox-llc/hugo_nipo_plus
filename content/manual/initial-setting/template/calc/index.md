@@ -4,7 +4,7 @@ menuTitle = "算術"
 tags = []
 title = "算術フォーム"
 toc = true
-weight = 340
+weight = 101001116
 +++
 
 {{<icatch filename="calc" msg="他の項目データを 計算に使用可能" title="算術入力フォーム" fontsize="30px" alice="here" >}}

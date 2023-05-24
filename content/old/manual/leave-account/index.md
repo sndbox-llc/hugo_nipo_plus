@@ -3,7 +3,7 @@ description = "Nipoの利用を完全にやめる場合はアカウントを削�
 menuTitle = "Nipoを削除する"
 title = "Nipoを削除する"
 toc = false
-weight = 1400
+weight = 109001017
 isNipo = true
 tags = []
 +++

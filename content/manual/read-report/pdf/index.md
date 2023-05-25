@@ -5,6 +5,7 @@ tags = []
 title = "日報をPDFに変換して保存"
 toc = true
 weight = 101003005
+contributors = []
 +++
 
 こちらのガイドは表示中の日報1枚を1つのPDFに変換するガイドです。複数の日報をまとめてPDFに変換する際は「[一括PDF出力](/manual/analytics/pdf/)」を参照してください。

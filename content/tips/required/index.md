@@ -6,6 +6,7 @@ title = "記入漏れや提出忘れを防止！NipoPlusで効率的に報告書
 toc = true
 weight = 104000010
 aliases = ['/blog/leak/', '/blog/required/']
+contributors = []
 +++
 
 製造現場などで使われるチェックシートや、日々の業務報告に使われる日報。

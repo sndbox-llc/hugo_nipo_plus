@@ -5,6 +5,7 @@ tags = []
 title = "Vue2からVue3への移行-Filterの廃止を修正"
 toc = true
 weight = 105000025
+contributors = []
 +++
 
 NipoはVue2で作成されたWebシステムですが、今回Vueが3にバージョンアップしたことに追従し、NipoのソースコードもVue3へ書き換え中です。

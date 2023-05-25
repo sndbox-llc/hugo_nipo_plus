@@ -5,6 +5,7 @@ tags = []
 title = "詳細画面のその他の機能"
 toc = true
 weight = 101003006
+contributors = []
 +++
 
 ## 日報を複製して新規作成する

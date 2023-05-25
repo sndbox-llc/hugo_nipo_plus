@@ -5,6 +5,7 @@ tags = []
 title = "Vue composition APIでchart.jsを使いグラフを作成(vue-chart.jsは使わない)"
 toc = true
 weight = 105000015
+contributors = []
 +++
 
 

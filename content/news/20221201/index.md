@@ -4,7 +4,8 @@ menuTitle = "無料お試し期間の変更"
 tags = []
 title = "無料お試し期間の変更"
 toc = true
-weight = 108999995
+weight = 108999998
+contributors = []
 +++
 
 無料プランの新設に伴い、無料お試し期間が60日から30日へ短縮されました。

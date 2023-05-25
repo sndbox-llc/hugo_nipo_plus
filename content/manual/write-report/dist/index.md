@@ -6,7 +6,7 @@ title = "日報の提出先と共有先"
 toc = true
 weight = 101002002
 reqMermaid = false
-
+contributors = []
 +++
 
 日報は通常、上司に対して提出されるものです。NipoPlusでは提出先と他に日報を読める人（以下、共有先）の2種類で日報に対するアクセス権限を設定しています。

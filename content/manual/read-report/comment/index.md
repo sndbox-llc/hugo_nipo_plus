@@ -5,6 +5,7 @@ tags = []
 title = "日報にコメントを書く"
 toc = true
 weight = 101003003
+contributors = []
 +++
 
 日報に対してコメントを書くことができます。

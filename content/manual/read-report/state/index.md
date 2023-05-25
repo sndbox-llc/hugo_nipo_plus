@@ -5,6 +5,7 @@ tags = []
 title = "日報を読んで承認をする"
 toc = true
 weight = 101003002
+contributors = []
 +++
 
 ## 日報の状態は新規・進行・修正・棄却・承認の5種類

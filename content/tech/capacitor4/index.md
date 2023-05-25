@@ -5,6 +5,7 @@ tags = []
 title = "Android API Level31以上に対応する（QuasarとCapacitor4を利用）"
 toc = true
 weight = 105000001
+contributors = []
 +++
 
 少し前からGoogle PlayStoreはAPI Level 31以上を必須としました。

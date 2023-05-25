@@ -5,6 +5,7 @@ tags = []
 title = "QCチェックシートから不良率算出やP管理図を作成"
 toc = true
 weight = 106000002
+contributors = []
 +++
 
 

@@ -5,6 +5,7 @@ tags = []
 title = "日報を1件削除する"
 toc = true
 weight = 101011003
+contributors = []
 +++
 
 ## 削除できる日報について

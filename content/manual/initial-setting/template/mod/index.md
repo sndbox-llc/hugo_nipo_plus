@@ -5,6 +5,7 @@ tags = []
 title = "商品入力フォーム"
 toc = true
 weight = 101001117
+contributors = []
 +++
 
 {{<imgproc eye-catch.png "商品入力フォームを含んだ日報の作成画面イメージ" />}}

@@ -4,7 +4,8 @@ menuTitle = "NipoのテンプレートをNipoPlusへ取込"
 tags = []
 title = "NipoのテンプレートをNipoPlusへ取込"
 toc = true
-weight = 108999997
+weight = 108999996
+contributors = []
 +++
 
 Version 1.21.0でテンプレートの取り込み機能が実装されます。

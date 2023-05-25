@@ -5,6 +5,7 @@ tags = []
 title = "日報の修正"
 toc = true
 weight = 101002004
+contributors = []
 +++
 
 ## 日報を修正できるスタッフと日報の状態

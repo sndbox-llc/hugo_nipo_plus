@@ -5,6 +5,7 @@ tags = []
 title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
 toc = true
 weight = 105000008
+contributors = []
 +++
 
 [pdfMake](https://github.com/bpampuch/pdfmake)はフロント側でPDFが簡単に作れるJavaScriptです。

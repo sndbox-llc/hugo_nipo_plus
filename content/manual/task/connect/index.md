@@ -6,6 +6,7 @@ title = "タスクと日報を紐付けする"
 toc = true
 weight = 101008003
 reqMermaid = true
+contributors = []
 +++
 
 タスクが作成された時点では、そのタスクはまだ着工されていないため予定です。  

@@ -5,6 +5,7 @@ tags = []
 title = "M1/M2 Macをプログラマが購入して実際に使った感想"
 toc = true
 weight = 105000006
+contributors = []
 +++
 
 

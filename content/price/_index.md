@@ -5,6 +5,7 @@ title = "ご利用料金について"
 toc = true
 weight = 102000000
 tags = []
+contributors = []
 +++
 
 ## 明瞭な料金設定！1名180円。少ない負担で利用できます

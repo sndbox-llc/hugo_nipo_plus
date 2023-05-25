@@ -5,6 +5,7 @@ tags = []
 title = "有料プランを解約"
 toc = true
 weight = 102000004
+contributors = []
 +++
 
 ## 手動でサブスクリプションを解約する

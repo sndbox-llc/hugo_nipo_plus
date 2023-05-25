@@ -5,6 +5,7 @@ tags = []
 title = "システム更新履歴【NipoおよびNipoPlus】"
 toc = true
 weight = 103000004
+contributors = []
 +++
 
 現在ご利用中のNipoPlusのバージョンは、サイドメニュー下部に記載されております。ここからバージョンを確認してください

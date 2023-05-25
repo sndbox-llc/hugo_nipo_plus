@@ -5,6 +5,7 @@ tags = []
 title = "Cloud Functionsのコールドスタートを回避する"
 toc = true
 weight = 105000018
+contributors = []
 +++
 
 FirebaseのCloud Functionsは関数をクラウド上に配置できる便利な機能ですが、関数にアクセスが一定時間無いとコールドスリープに入ってしまいます。

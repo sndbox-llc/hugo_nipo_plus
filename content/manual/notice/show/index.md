@@ -5,6 +5,7 @@ tags = []
 title = "アプリ内の通知"
 toc = true
 weight = 101006001
+contributors = []
 +++
 
 画面右上のベルアイコンをクリックして通知を確認できます。

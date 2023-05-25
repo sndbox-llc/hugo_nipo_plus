@@ -6,6 +6,7 @@ toc = true
 weight = 109001016
 isNipo = true
 tags = []
+contributors = []
 +++
 
 {{<button "/manual/remove/reportbatch/" "この機能は後続のNipoPlusでもサポートされています">}}

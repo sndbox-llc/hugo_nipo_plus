@@ -5,6 +5,7 @@ tags = []
 title = "生産目標と進捗を報告書から自動で表に変換。製造業のDX化"
 toc = true
 weight = 104000011
+contributors = []
 +++
 
 

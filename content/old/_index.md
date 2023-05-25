@@ -7,6 +7,7 @@ toc = true
 tags = []
 weight = 109000000
 isNipo = true
+contributors = []
 +++
 
 {{<imgproc eye-catch.png "クラウド日報Nipo" />}}

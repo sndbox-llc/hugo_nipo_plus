@@ -5,6 +5,7 @@ tags = []
 title = "日報の提出先を固定する"
 toc = true
 weight = 101001201
+contributors = []
 +++
 
 NipoPlusではスタッフが日報やチェックシートを書き終えたあと**提出先と共有先を選んで提出**します。

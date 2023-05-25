@@ -5,6 +5,7 @@ tags = []
 title = "算術フォーム"
 toc = true
 weight = 101001116
+contributors = []
 +++
 
 {{<icatch filename="calc" msg="他の項目データを 計算に使用可能" title="算術入力フォーム" fontsize="30px" alice="here" >}}

@@ -6,6 +6,7 @@ toc = true
 weight = 109001010
 isNipo = true
 tags = []
+contributors = []
 +++
 
 {{<button "/manual/read-report/pdf/" "この機能は後続のNipoPlusでもサポートされています">}}

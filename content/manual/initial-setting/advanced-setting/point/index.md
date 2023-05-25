@@ -5,6 +5,7 @@ tags = []
 title = "商品状態管理"
 toc = true
 weight = 101001207
+contributors = []
 +++
 
 ## 商品状態管理の目的

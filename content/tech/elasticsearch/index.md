@@ -5,6 +5,7 @@ tags = []
 title = "FirestoreとElasticSearchを組み合わせて\n検索に強いFirebaseアプリを作る"
 toc = true
 weight = 105000021
+contributors = []
 +++
 
 NipoPlusのバックエンドはFirebaseを使用しています。アカウント管理やストレージ、Cloud Function、データベースなどアプリ開発に必要な機能の多くが予め用意されており、Firebaseだけである程度のサービスを割と簡単に作成することができます。

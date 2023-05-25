@@ -6,6 +6,7 @@ toc = true
 weight = 109002008
 isNipo = true
 tags = []
+contributors = []
 +++
 
 {{<button "/manual/initial-setting/template/picture/" "この機能は後続のNipoPlusでもサポートされています">}}

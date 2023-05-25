@@ -3,7 +3,7 @@ description = "ドラッグ操作で複数のCSVを1つのCSVファイルに結�
 menuTitle = "CSVを連結するWebアプリ"
 tags = []
 title = "複数のCSVファイルをドラッグ操作で簡単に1つに結合できます"
-toc = false
+toc = true
 weight = 104000007
 +++
 

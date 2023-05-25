@@ -3,7 +3,7 @@ description = "旧バージョンのNipoからNipoPlusへ移行する際、テ�
 menuTitle = "NipoのテンプレートをNipoPlusへ取込"
 tags = []
 title = "NipoのテンプレートをNipoPlusへ取込"
-toc = false
+toc = true
 weight = 108999997
 +++
 

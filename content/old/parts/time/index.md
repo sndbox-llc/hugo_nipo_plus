@@ -2,7 +2,7 @@
 description = "日報に時刻の入力枠を追加できます。時刻を２つ並べると経過時間の計算も行えます"
 menuTitle = "時刻入力"
 title = "時刻入力-日報構成部品"
-toc = false
+toc = true
 weight = 109002007
 isNipo = true
 tags = []

@@ -2,7 +2,7 @@
 description = "予め回答を用意しておき、日報作成時には選ぶだけで入力ができるようになる日報構成部品です。複数の回答ができます。"
 menuTitle = "選択肢(複答)"
 title = "選択肢(複答)-日報構成部品"
-toc = false
+toc = true
 weight = 109002012
 isNipo = true
 tags = []

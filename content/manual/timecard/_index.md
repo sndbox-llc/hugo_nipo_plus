@@ -3,7 +3,7 @@ description = "日報を書く流れでタイムカードも1つのアプリで�
 menuTitle = "タイムカード"
 menuPre = "<b>7. </b>"
 title = "タイムカードで労働時間を管理"
-toc = false
+toc = true
 tags = []
 weight = 101007000
 +++

@@ -2,7 +2,7 @@
 description = "NipoをスマートフォンにインストールするにはApp storeからダウンロードするか、PWAとしてインストールする方法があります"
 menuTitle = "iOSにインストール"
 title = "iPhone・iPadにNipoをインストールする"
-toc = false
+toc = true
 weight = 109003004
 isNipo = true
 tags = []

@@ -2,7 +2,7 @@
 description = "日報に写真や画像を入力できるパーツを追加します。対応形式はJpeg/Pngです。添付した画像は圧縮の上で保存されます"
 menuTitle = "写真"
 title = "写真-日報構成部品"
-toc = false
+toc = true
 weight = 109002008
 isNipo = true
 tags = []

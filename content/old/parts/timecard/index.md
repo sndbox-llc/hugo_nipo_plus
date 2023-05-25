@@ -2,7 +2,7 @@
 description = "日報にタイムカードを組み込むことができます。タイムカードのデータは日報とは別に管理され、タイムカードだけで集計やCSV出力が行なえます。"
 menuTitle = "タイムカード"
 title = "タイムカード-日報構成部品"
-toc = false
+toc = true
 weight = 109002006
 isNipo = true
 tags = []

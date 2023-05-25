@@ -2,7 +2,7 @@
 description = "NipoPlusは、テンプレートに沿って入力する入力管理アプリであるが、テンプレートの工夫によりチェックシートアプリや日報アプリとしても利用できる。具体的なユースケースについてのTips集"
 menuTitle = "活用例"
 title = "NipoPlusの活用Tips集"
-toc = false
+toc = true
 tags = []
 weight = 104000000
 +++

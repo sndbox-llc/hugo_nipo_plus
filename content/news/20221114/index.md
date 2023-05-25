@@ -3,7 +3,7 @@ description = "NipoとNipoPlusのホームページを1つのサイトに統合�
 menuTitle = "ホームページ統合"
 tags = []
 title = "NipoとNipoPlusのホームページを統合しました"
-toc = false
+toc = true
 weight = 10899994
 +++
 

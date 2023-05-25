@@ -2,7 +2,7 @@
 description = "Nipoに登録されたE-mailに誤りが無いかを確認することを「メールの確認」といいます。このページではE-mailの確認について解説しています"
 menuTitle = "メールアドレスを確認する"
 title = "メールアドレスを確認する"
-toc = false
+toc = true
 weight = 109001002
 isNipo = true
 tags = []

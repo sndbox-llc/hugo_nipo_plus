@@ -2,7 +2,7 @@
 description = ""
 menuTitle = "PWAの更新処理"
 title = "VueとRegister Service Workerを使いアプリの更新を制御する"
-toc = false
+toc = true
 tags = []
 reqMermaid = false
 weight = 105000026

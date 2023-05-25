@@ -3,7 +3,7 @@ description = ""
 menuTitle = "通知機能"
 menuPre = "<b>6. </b>"
 title = "メール通知・アプリ内の通知"
-toc = false
+toc = true
 tags = []
 weight = 101006000
 +++

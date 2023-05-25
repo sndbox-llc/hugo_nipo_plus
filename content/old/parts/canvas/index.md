@@ -2,7 +2,7 @@
 description = "日報にフリーハンドで描けるキャンバスを追加します。描かれたデータはPng画像に変換の上保存されます"
 menuTitle = "手書きメモを日報に含める"
 title = "手書きメモを日報に含める"
-toc = false
+toc = true
 weight = 109002001
 isNipo = true
 tags = []

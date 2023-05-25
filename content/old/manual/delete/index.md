@@ -2,7 +2,7 @@
 description = "この機能は管理者限定です。蓄積した日報データをまとめて削除することができます。"
 menuTitle = "日報の一括削除"
 title = "日報の一括削除"
-toc = false
+toc = true
 weight = 109001016
 isNipo = true
 tags = []

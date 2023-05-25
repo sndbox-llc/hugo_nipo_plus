@@ -2,7 +2,7 @@
 description = "最新のお知らせ"
 menuTitle = "お知らせ"
 title = "お知らせ"
-toc = false
+toc = true
 tags = []
 weight = 108000000
 +++

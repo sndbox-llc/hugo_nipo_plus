@@ -3,7 +3,7 @@ description = "PCやスマホから日報を書きます。テンプレートを
 menuTitle = "日報を書く"
 menuPre = "<b>2. </b>"
 title = "日報を書く"
-toc = false
+toc = true
 weight = 101002000
 tags = []
 +++

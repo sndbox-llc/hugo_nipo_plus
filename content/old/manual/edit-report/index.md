@@ -2,7 +2,7 @@
 description = "自分の日報を修正するケースや他人の日報を修正するケースによって若干操作手順が変わります。承認された日報は編集や削除ができなくなります"
 menuTitle = "日報の修正と削除について"
 title = "日報の修正と削除について"
-toc = false
+toc = true
 weight = 109001008
 isNipo = true
 tags = []

@@ -3,7 +3,7 @@ description = "Nipoの新しいバージョンが公開されるたびにこの�
 menuTitle = "システム更新履歴"
 tags = []
 title = "システム更新履歴【NipoおよびNipoPlus】"
-toc = false
+toc = true
 weight = 103000004
 +++
 

@@ -3,7 +3,7 @@ description = "日報の検索機能について一部操作方法が変更に�
 menuTitle = "受信BOXの検索機能変更について"
 tags = []
 title = "受信BOXの検索機能変更について"
-toc = false
+toc = true
 weight = 108999996
 +++
 

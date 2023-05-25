@@ -3,7 +3,7 @@ description = "Nipoでは有料プランを申し込まれる際、Webによる�
 menuTitle = "特定商取引法に基づく表記"
 tags = []
 title = "特定商取引法に基づく表記"
-toc = false
+toc = true
 weight = 103000011
 +++
 

@@ -2,7 +2,7 @@
 description = "数値のデータを日報に追加できます。数値は集計にも対応しております。"
 menuTitle = "数値を日報に含める"
 title = "数値-日報構成部品"
-toc = false
+toc = true
 weight = 109002017
 isNipo = true
 tags = []

@@ -2,7 +2,7 @@
 description = "郵便番号を入力することで住所の補完入力ができる住所専用の入力パーツです"
 menuTitle = "住所"
 title = "住所-日報構成部品"
-toc = false
+toc = true
 weight = 109002009
 isNipo = true
 tags = []

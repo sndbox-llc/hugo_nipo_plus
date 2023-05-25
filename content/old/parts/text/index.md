@@ -2,7 +2,7 @@
 description = "日報に１行だけ入力ができるパーツを追加できます"
 menuTitle = "1行入力"
 title = "1行入力-日報構成部品"
-toc = false
+toc = true
 weight = 109002003
 isNipo = true
 tags = []

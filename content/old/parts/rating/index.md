@@ -2,7 +2,7 @@
 description = "ネットショップなどでおなじみの星（★★☆☆☆）による入力ができる日報パーツです。直感的で入力がかんたんです"
 menuTitle = "レート"
 title = "レート-日報構成部品"
-toc = false
+toc = true
 weight = 109002004
 isNipo = true
 tags = []

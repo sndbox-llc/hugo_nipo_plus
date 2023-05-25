@@ -2,7 +2,7 @@
 description = "グループにスタッフを追加したり、各スタッフの権限や提出先の設定を行う手順について解説しています"
 menuTitle = "スタッフアカウントの管理"
 title = "スタッフアカウントの管理"
-toc = false
+toc = true
 weight = 109001005
 tags = []
 isNipo = true

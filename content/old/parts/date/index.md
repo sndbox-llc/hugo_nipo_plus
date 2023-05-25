@@ -2,7 +2,7 @@
 description = "日報に日付が入力ができるパーツを追加できます。カレンダーから選択して入力する他、キーボードを使って入力する方式も選択できます"
 menuTitle = "日付"
 title = "日付"
-toc = false
+toc = true
 weight = 109002013
 isNipo = true
 tags = []

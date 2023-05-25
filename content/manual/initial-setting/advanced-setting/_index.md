@@ -3,7 +3,7 @@ description = "設定を行わなくても利用できますが設定するこ�
 menuTitle = "その他応用設定"
 tags = []
 title = "応用設定"
-toc = false
+toc = true
 reqMermaid = false
 weight = 101001200
 +++

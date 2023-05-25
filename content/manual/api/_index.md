@@ -3,7 +3,7 @@ description = "日報データをAPI経由で取得することができます"
 menuTitle = "API"
 menuPre = "<b>10. </b>"
 title = "API"
-toc = false
+toc = true
 tags = []
 weight = 101010000
 +++

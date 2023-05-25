@@ -2,7 +2,7 @@
 description = "パソコンやスマートフォン・タブレットから利用可能です。Google ChromeまたはSafariの動作する環境が必要です"
 menuTitle = "動作環境"
 title = "動作環境"
-toc = false
+toc = true
 weight = 109003002
 isNipo = true
 tags = []

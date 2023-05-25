@@ -3,7 +3,7 @@ description = "品質管理チェックシートを電子化することで、�
 menuTitle = "集計/P管理図/データシート"
 tags = []
 title = "QCチェックシートから不良率算出やP管理図を作成"
-toc = false
+toc = true
 weight = 106000002
 +++
 

@@ -2,7 +2,7 @@
 description = "テンプレートを選び、記入し、相手を選んで提出ボタンを押すだけで日報を提出できます。スマホやタブレットからも同様に提出可能です"
 menuTitle = "日報を書いて提出する"
 title = "日報やチェックシートを書いて提出する"
-toc = false
+toc = true
 weight = 109001007
 isNipo = true
 tags = []

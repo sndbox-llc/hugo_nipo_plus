@@ -2,7 +2,7 @@
 description = "Nipoを利用する上での利用規約になります。同じ内容のものがクラウド日報Nipoのアカウント作成後に表示されます"
 menuTitle = "無料プランと有料プランについて"
 title = "無料プランと有料プランについて"
-toc = false
+toc = true
 weight = 109003001
 isNipo = true
 tags = []

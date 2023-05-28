@@ -1,0 +1,24 @@
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+.lightbox-image {
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+}
+
+.lightbox:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}

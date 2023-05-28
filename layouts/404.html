@@ -1,44 +1,13 @@
-<!DOCTYPE html>
-{{- partialCached "page-meta.hugo" . .RelPermalink }}
-{{- $outputFormat := partial "output-format.hugo" . }}
-<html lang="{{ .Page.Language | default "en" }}" dir="{{ T "Reading-direction" | default "ltr" }}">
-  <head>
-    {{- partial "meta.html" . }}
-    {{- .Scratch.Add "title" "" }}
-    {{- if eq .Site.Data.titles .Title }}
-      {{- .Scratch.Set "title" (index .Site.Data.titles .Title).title }}
-    {{- else }}
-      {{- .Scratch.Set "title" .Title}}
-    {{- end }}
-    <title>{{ .Scratch.Get "title" }} {{ default "::" .Site.Params.titleSeparator }} {{ .Site.Title }}</title>
+{{ define "main" }}
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10 col-xl-8">
+    <article>
+      <h1 class="text-center">{{ i18n "404-title" }}</h1>
+      <p class="text-center">{{ i18n "404-text" }}</p>
+      <img src="/images/404.webp" />
+      <a href="/" class="btn btn-primary btn-lg d-block m-5">戻る</a>
 
-    {{- partialCached "favicon.html" . }}
-    {{- partialCached "stylesheet.html" (dict "page" . "outputFormat" $outputFormat) $outputFormat }}
-    <style>
-      p, li, ul {
-        text-align: center
-      }
-      ul {
-        list-style-type: none;
-      }
-    </style>
-    {{- partial "custom-header.html" . }}
-  </head>
-  <body class="mobile-support" data-url="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}">
-    <div id="body" class="default-animation" style="margin-left:0px;">
-      <div id="sidebar-overlay"></div>
-      <main id="body-inner" class="chapter" tabindex="-1">
-        <div class="flex-block-wrapper">
-          <article class="default">
-            <h1 id="{{ T "title-404" | urlize }}">{{ T "title-404" }}</h1>
-            <p></p>
-            <p>{{ T "message-404" }}</p>
-            <p></p>
-            <p><a href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .Site.Home) }}">{{ T "Go-to-homepage" }}</a></p>
-            <p><img loading="lazy" src='{{ "/images/404.webp" | relURL }}' style="width:50%" alt="Page not found!"></p>
-          </article>
-        </div>
-      </main>
-    </div>
-  </body>
-</html>
+    </article>
+  </div>
+</div>
+{{ end }}

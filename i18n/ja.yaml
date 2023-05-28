@@ -1,0 +1,17 @@
+- id: get-started
+  translation: "Get Started"
+
+- id: on-this-page
+  translation: "☆★ーー目次ーー★☆"
+
+- id: search-text
+  translation: "Search docs..."
+
+- id: 404-title
+  translation: "見つかりませんでした"
+
+- id: 404-text
+  translation: "URLが変わったか記事が削除された可能性があります"
+
+- id: browse
+  translation: "ナビ"

@@ -1,21 +1,14 @@
 {{ if eq .Params.isNipo true }}
-
-<!-- 旧Nipoの場合に警告バナーを表示 -->
-<div style="max-width:900px;margin:auto;margin-bottom: 2em;padding:1rem;background:tomato; color:white;border: 1px solid red;font-weight:bold;font-size:30px">
-  【注意】ご覧のページは旧Nipoです<br>
-  <span style="font-size:19px">今から始めるのであればNipoPlusを推奨（より安く高機能化）</span>
-  <a href="/" class="top_right_btn">NipoPlusへ</a>
-  <a href="/system/about/" class="top_right_btn">NipoとPlusの比較</a>
-</div>
+{{ partial "custom/oldapp-warning.html" . }}
 
 <!-- Nipo用CTA -->
 <div style="max-width:900px;margin:auto">
   <div id="call_to_action" style="background-color: green;padding:20px">
-    <div class="flexmain">
-      <div class="dp25">
+    <div class="row">
+      <div class="col-12 col-sm-5">
         <img loading="lazy" src='/images/nipologo.svg' style="max-width:200px; width:100%;height:auto;" width="200" height="200" alt="nipoplusアプリ起動ボタン">
       </div>
-      <div class="dp75" style="color: white">
+      <div class="col" style="color: white">
         <h3 style="color:white">旧バージョンのNipoを起動します</h3>
         <ul>
           <li style="color:white">こちらは旧バージョンのアプリになります</li>
@@ -23,46 +16,32 @@
       </div>
     </div>
     <div style="text-align: center;margin-top: 3em;margin-bottom: 3em;">
-      <a href="https://nipo-plus-doc.sndbox.jp/" class="cta_btn" style="background-color: orange;" target="_blank" >NipoPlusへ移動</a>
-      <a href="https://nipoapp.sndbox.jp/" class="cta_btn" target="_blank" >Nipoを起動</a>
+      <a href="https://nipo-plus-doc.sndbox.jp/" class="btn btn-negative" style="background-color: orange;" target="_blank" >NipoPlusへ移動</a>
+      <a href="https://nipoapp.sndbox.jp/" class="btn btn-primary" target="_blank" >Nipoを起動</a>
     </div>  
   </div>
 
-  <!-- web / ios / android各種起動ボタン
-  <div class="flexmain">
-    <div class="dp25">
-      <a href="/old/system/ios-install/">
-        <img loading="lazy" src='/images/apple.svg' width="108.85157" height="40" style="width:200px; height:auto" alt="ios App Store">
-      </a>		
-    </div>
-    <div class="dp25">
-      <a href="/old/system/android-install/">
-        <img loading="lazy" src='/images/google-play-badge.png' width="646" height="192" style="width:200px; height:auto" alt="Android Google Play Store">
-      </a>
-    </div>
-  </div>
--->
 </div>
 {{ else }}
 
 <!-- NipoPlus用CTA -->
 <div style="max-width:900px;margin:auto">
   <div id="call_to_action" style="background-color: #722ed2d4;padding:20px;">
-    <div class="flexmain">
-      <div class="dp25">
+    <div class="row">
+      <div class="col-12 col-sm-5">
         <img loading="lazy" src='/images/favicon.svg' style="max-width:200px; width:100%;height:auto;" width="200" height="200" alt="nipoplusアプリ起動ボタン">
       </div>
-      <div class="dp75" style="color: white">
+      <div class="col" style="color: white">
         <h3 style="color:white">30日の無料トライアル！クレカ登録も不要です</h3>
         <ul>
-          <li style="color:white"><a href="/price/free" style="color:white">お試し期間後は無料プランへ移行。勝手に課金が開始することは有りません</a></li>
+          <li style="color:white"><a href="/docs/price/free/" style="color:white">お試し期間後は無料プランへ移行。勝手に課金が開始することは有りません</a></li>
           <li style="color:white"><a href="/manual/account/tokumei/" style="color:white">匿名アカウントでパスワードなしに手軽に体験可</a></li>
-          <li style="color:white"><a href="/price/" style="color:white">有料プランも1ユーザ180円</a></li>
+          <li style="color:white"><a href="/docs/price/_about/" style="color:white">有料プランも1ユーザ180円</a></li>
         </ul>
       </div>
     </div>
     <div style="text-align: center;margin-top: 3em;margin-bottom: 3em;">
-      <a href="https://nipo-plus.web.app/" class="cta_btn" style="background-color:orange" target="_blank">今すぐ無料トライアルを開始する</a>
+      <a href="https://nipo-plus.web.app/" class="btn btn-lg btn-warning" style="color:black" target="_blank">今すぐ無料トライアルを開始する</a>
     </div>
   </div>
 

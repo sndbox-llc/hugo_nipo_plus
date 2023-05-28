@@ -1,0 +1,19 @@
+{{/* shortcode.html */}}
+{{ $moji := .Get "filename" }}
+{{ $title := .Get "title" | default "SVGによるNipoPlus画面イメージ"}}
+{{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" ($moji)) }}
+{{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" ($moji)) }}
+
+{{ $id := partial "make-random-md5.hugo" }}
+
+<div class="carousel-item">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="nonAliceNode" viewBox="0 0 1000 520" preserveAspectRatio="none">
+    <title>{{ $title }}</title>
+    <image x="50" y="10" width="800" height="auto" class="nonAlicePicture" data-src="{{ $moji }}_" xlink:href="data:image/gif;base64,R0lGODlhAQABAIAAAP7//wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" />
+    <use xlink:href="#nonAliceFrame" />
+  </svg>
+  <a href="#{{ $id }}" class="lightbox-link btn btn-outline-primary">PCの画面</a>
+  <a href="javascript:history.back();" class="lightbox" id="{{ $id }}">
+    <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $title }}" class="lightbox-image" loading="lazy">
+  </a>
+</div>

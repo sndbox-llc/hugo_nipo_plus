@@ -59,10 +59,10 @@ NipoPlusのグラフには「円グラフ・折れ線グラフ・棒グラフ・
 通常はこれらの機能を用いてグラフを作成できますが、より高度な分析を行う場合はエクセルを利用することが有効です。
 NipoPlusはデータをCSV形式でエクスポートすることができるので、エクセルでデータを読み込み、ピボットテーブルやグラフなどの高度な機能を利用して分析を行うことができます。
 
-<div class="flexmain">
-<div class="dp33">{{<button "/docs/manual/analytics/list/" "データ推移">}}</div>
-<div class="dp33">{{<button "/docs/manual/analytics/chart/" "グラフ作成">}}</div>
-<div class="dp33">{{<button "/tips/sales_report/" "エクセルの集計">}}</div>
+<div class="row">
+<div class="col-5">{{<button "/docs/manual/analytics/list/" "データ推移">}}</div>
+<div class="col-6">{{<button "/docs/manual/analytics/chart/" "グラフ作成">}}</div>
+<div class="col-5">{{<button "/tips/sales_report/" "エクセルの集計">}}</div>
 </div>
 
 
@@ -149,7 +149,7 @@ NipoPlusならそれらをカバーしているので中小企業に幅広く売
 有料プランへお申し込みいただく際は料金が1名1ヶ月あたり180円で10名からの申込みが可能です。
 つまり1ヶ月1800円〜ご利用が可能です。
 
-<div class="flexmain">
-<div class="dp50">{{<button "/docs/price/_about/" "料金について">}}</div>
-<div class="dp50">{{<button "/docs/price/free/" "無料プランについて">}}</div>
+<div class="row">
+<div class="col-8">{{<button "/docs/price/_about/" "料金について">}}</div>
+<div class="col-8">{{<button "/docs/price/free/" "無料プランについて">}}</div>
 </div>

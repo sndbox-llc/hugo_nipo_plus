@@ -68,10 +68,10 @@ NipoPlusはスマホやタブレットでも簡単に使える報告書作成管
 {{<icatch filename="touch" msg="タップやスワイプ タッチパネルに最適" title="タップやスワイプなどスマートフォンに適した操作性を生かして日報を書く" fontsize="30px" alice="here" >}}
 
 
-<div class="flexmain">
-<div class="dp33">{{<button "/docs/manual/initial-setting/template/step/" "スライダ入力">}}</div>
-<div class="dp33">{{<button "/docs/manual/initial-setting/template/rate/" "レート入力">}}</div>
-<div class="dp33">{{<button "/docs/manual/initial-setting/template/select/" "選択入力">}}</div>
+<div class="row">
+<div class="col-5">{{<button "/docs/manual/initial-setting/template/step/" "スライダ入力">}}</div>
+<div class="col-6">{{<button "/docs/manual/initial-setting/template/rate/" "レート入力">}}</div>
+<div class="col-5">{{<button "/docs/manual/initial-setting/template/select/" "選択入力">}}</div>
 </div>
 
 また、タッチパネルにしかできない芸当として手描きの署名やイラストを書くことができます。これはPCのマウスでは真似することができません。

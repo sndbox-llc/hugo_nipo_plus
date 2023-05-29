@@ -46,10 +46,9 @@ CSVの**出力形式は目的に応じて変更**できます。バックアッ�
 グラフは複数種類保存できます。スタッフごとにグラフの設定が記録できます。
 数値の比較はもちろんのこと、[選択式入力フォーム](/manual/initial-setting/template/select/)のデータも表にできます。
 
-
-<div class="flexmain">
-<div class="dp50">{{<button "/manual/analytics/" "集計とグラフ化">}}</div>
-<div class="dp50">{{<button "/checksheet/factory/" "不良率の計算">}}</div>
+<div class="row">
+<div class="col-8">{{<button "/manual/analytics/" "集計とグラフ化">}}</div>
+<div class="col-8">{{<button "/checksheet/factory/" "不良率の計算">}}</div>
 </div>
 
 ## 報告書内の記入順序制御・記入漏れチェック・品質の高い報告書を維持します
@@ -149,9 +148,9 @@ PDF出力前に設定を変更すればQRコードの埋め込みや透かし文
 初めてアカウントを作ると無料のお試し期間が開始されます。（30日間）この間、クレジットカードや企業名、連絡先の入力は不要です。
 お試し期間がすぎると自動で無料プランへ切り替わります。勝手に課金が開始されることはありません。
 
-<div class="flexmain">
-<div class="dp50">{{<button "/price/" "料金について">}}</div>
-<div class="dp50">{{<button "/price/free/" "無料プランについて">}}</div>
+<div class="row">
+<div class="col-8">{{<button "/price/" "料金について">}}</div>
+<div class="col-8">{{<button "/price/free/" "無料プランについて">}}</div>
 </div>
 
 ## 匿名アカウントで気軽に体験OK!パスワードも不要です
@@ -165,8 +164,8 @@ NipoPlusでは匿名アカウント機能を使うことでメールアドレス
 
 使い方についてはクイックスタートガイドが参考になります。順序立てて日報を提出するまでの流れを解説しています
 
-<div class="flexmain">
-<div class="dp33">{{<button "/manual/account/tokumei/" "匿名アカウント">}}</div>
-<div class="dp33">{{<button "/quickstart/" "クイックスタートガイド">}}</div>
-<div class="dp33">{{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動" "_blank">}}</div>
+<div class="row">
+<div class="col-5">{{<button "/manual/account/tokumei/" "匿名アカウント">}}</div>
+<div class="col-6">{{<button "/quickstart/" "クイックスタートガイド">}}</div>
+<div class="col-5">{{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動" "_blank">}}</div>
 </div>

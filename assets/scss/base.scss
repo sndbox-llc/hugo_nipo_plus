@@ -3,11 +3,13 @@
 /** Import theme variables */
 @import "common/variables";
 /** Import Bootstrap */
-@import "bootstrap.scss";
+/*@import "bootstrap.scss"; */
+@import "bootstrap/scss/bootstrap";
+
 /** Import highlight.js */
-// @import "highlight.js/scss/github-dark-dimmed";
+@import "highlight.js/scss/github-dark-dimmed";
 /** Import KaTeX */
-// @import "katex/dist/katex";
+@import "katex/dist/katex";
 /** Import theme styles */
 @import "common/global";
 @import "common/dark";

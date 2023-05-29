@@ -2,5 +2,6 @@
 {{ $label := default "クリック" (.Get 1) }}
 {{ $target := default "_self" (.Get 2) }}
 <div style="text-align:center;margin: 50px 0;">
-  <a href={{ $to }} target={{ $target }} class="my_button" style="color:white;">{{ $label }}</a>
+
+  <a href={{ $to }} target={{ $target }}  class="btn btn-primary btn-lg" role="button">{{ $label }}</a>
 </div>

@@ -86,11 +86,11 @@ NipoPlusはスマホやタブレット・PCに完全に対応しています。P
 
 どちらも同じ日報を書いている画面ですが、見た目こそ違えど肝心の内容は全く同一です。
 
-<div class="flexmain">
-<div class="dp25">{{<button "/system/android/" "Androidで使う">}}</div>
-<div class="dp25">{{<button "/system/ios/" "iOSで使う">}}</div>
-<div class="dp25">{{<button "/tips/smartphone/" "モバイルの利点">}}</div>
-<div class="dp25">{{<button "/tips/sign/" "タブレットで署名を書く">}}</div>
+<div class="row">
+<div class="col-4">{{<button "/system/android/" "Androidで使う">}}</div>
+<div class="col-4">{{<button "/system/ios/" "iOSで使う">}}</div>
+<div class="col-4">{{<button "/tips/smartphone/" "モバイルの利点">}}</div>
+<div class="col-4">{{<button "/tips/sign/" "タブレットで署名">}}</div>
 </div>
 
 ## 報告書の承認リレーやコメント機能

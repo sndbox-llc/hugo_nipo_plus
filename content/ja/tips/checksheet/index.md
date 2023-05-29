@@ -40,7 +40,7 @@ NipoPlusのテンプレートカスタマイズ機能を使えば、それぞれ
 現場スタッフが混乱しないように適切にグループ分けを行うことで、PCが不慣れなスタッフでもかんたんにチェックシートの入力が可能になります。
 
 <div style="text-align:center;margin: 50px 0;">
-  <a href="https://nipo-plus.web.app/" class="calltoactionBtn" target="_blank">NipoPlusを起動</a>
+  <a href="https://nipo-plus.web.app/" class="btn btn-lg btn-primary" target="_blank">NipoPlusを起動</a>
 </div>
 
 <hr style="margin-top: 200px;" />

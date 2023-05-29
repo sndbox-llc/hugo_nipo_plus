@@ -33,7 +33,7 @@ NipoPlusをより良いものにするため、皆様からのご意見・ご要
   <label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
   <div id="iconField"></div>
 
-  <button onclick="submit()" class="my_button" id="sendButton">送信</button>
+  <button onclick="submit()" class="btn btn-primary btn-lg mt-5" id="sendButton">送信</button>
   <div id="errormessage" style="color:red"></div>
 </div>
 <div id="thanks"></div>

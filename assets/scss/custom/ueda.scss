@@ -14,7 +14,6 @@ h2 {
 p {
   font-size: 1.3rem;
   line-height: 2rem;
-
 }
 #TableOfContents .active {
   background-color: powderblue;
@@ -28,6 +27,7 @@ p {
   background-color: $lightColor;
 }
 
-.svgIconFill {
-  fill: $accentColor
+body{
+  /* スマホ時、左右へバウンスしてしまうのを防ぐ */
+  overscroll-behavior-x: none;
 }

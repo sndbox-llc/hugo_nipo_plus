@@ -87,3 +87,6 @@ rel  = "sitemap"
 [frontmatter]
   date = ["date", "publishDate", "lastmod", ":default"]
   lastmod = ["lastmod", ":git", "date", "publishDate"]
+
+[build]
+  writeStats = true

@@ -6,17 +6,13 @@
     </div>
     <div class="col-lg-9 col-xl-9 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <!--
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}checksheet/about/" role="button">マニュアルを読みはじめる</a>
-      <p class="meta">無料で手軽にはじめられます</a></p>
-      -->
     </div>
   </div>
 </section>
 {{ end }}
 
 {{ define "hero" }}
-<div class="container">
+<div class="container-xxl">
   <div class="row align-items-center" style="height: 85vh; ">
     <div class="col-lg-7">
       <h1 class="display-4 fw-bold">日報・帳票・チェック表をまるっとアプリ化</h1>
@@ -24,7 +20,15 @@
       <a href="/docs/manual/quickstart/" class="btn btn-primary btn-lg">クイックスタートガイド</a>
     </div>
     <div class="col-lg-9 text-right">
-      <img class="rounded-lg-3 img-fluid" loading="lazy" src="images/sample10_tablet.png" alt="">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="withAliceNode" viewBox="0 0 1000 520" preserveAspectRatio="none">
+        <title>NipoPlusのアプリ画面のイメージ図</title>
+        <image x="10" y="10" width="1" class="withAlicePicture" data-src="sample10_" xlink:href="data:image/gif;base64,R0lGODlhAQABAIAAAP7//wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" />
+        <use xlink:href="#withAliceFrame" />
+        <svg x="700" y="215" class="svgAliceClass" preserveAspectRatio="none" data-fontsize="30" data-msg="テンプレートに沿って 報告書を書けるよ">
+          <image x="70" y="65" width="200" data-alice="/images/alice2/ok.png" xlink:href="data:image/gif;base64,R0lGODlhAQABAIAAAP7//wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" />
+          <path d="M216.086 82.566 214.88 99.38l20.523-16.814h15.221c10.47.0 18.97-9.056 18.97-20.21V21.937c0-11.154-8.5-20.21-18.97-20.21h-231.32c-10.47.0-18.97 9.056-18.97 20.21v40.419c0 11.154 8.5 20.21 18.97 20.21h196.782z" style="fill:#fff;stroke:#000" />
+        </svg>
+      </svg>
     </div>
   </div>
 </div>
@@ -170,35 +174,7 @@
       </div>
     </div>
   </div>
-  <!--  
-  <div class="container">
-    <div class="row justify-content-center align-items-stretch text-center">
 
-      <div class="col-lg-5">
-        <h2 class="h4"></h2>
-        
-        <a class="btn btn-outline-primary btn-lg px-4 mt-2 d-block" href="" role="button">詳しくみる</a>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4"></h2>
-        
-      </div>
-    </div>
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4">安価な料金設定💰</h2>
-        無料プランも有り〼。有料プランは月額1,800円〜！同業他社に比べて間違いなくお安い価格で提供しています。
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">入力漏れ・入力順の制御</h2>
-        書き忘れをシステムが完全にブロック！記入漏れはもちろん、記入の順序も制限できるため決まった手順で作業する作業報告シートにも最適です
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4">PDF出力</h2>
-        作成した報告書を外部に出力したいときはPDFに変換できます。
-      </div>
-    </div>
-  -->
   </div>
 </section>
 {{ end }}

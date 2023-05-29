@@ -28,13 +28,13 @@ Firebaseでは、E-mailでアカウントを作成した場合、すぐにアカ
 ユーザがログインした際、
 
 ```javascript
-firebase.auth().currentUser
+firebase.auth().currentUser;
 ```
 
 でログインユーザの情報を取得できます。同様に、
 
 ```javascript
-firebase.auth().currentUser.emailVerified
+firebase.auth().currentUser.emailVerified;
 ```
 
 でログイン中のユーザが入力したメールアドレスが認証済みか否かを取得できます。これはBoolで帰ってきます。  
@@ -45,14 +45,14 @@ firebase.auth().currentUser.emailVerified
 ユーザがアカウントを作成したときに入力したメールアドレスは、
 
 ```javascript
-firebase.auth().currentUser.email
+firebase.auth().currentUser.email;
 ```
 
 で取得できます。
 firebase.auth().currentUser.emailVerifiedがFalseだったときに、firebase.auth().currentUser.emailのメールアドレス宛に確認メールを投げます。確認メールは
 
 ```javascript
-firebase.auth().currentUser.sendEmailVerification()
+firebase.auth().currentUser.sendEmailVerification();
 ```
 
 で送信できます。メールアドレスは特に指定しなくても、勝手にログインユーザ宛に送ってくれます。
@@ -62,11 +62,11 @@ firebase.auth().currentUser.sendEmailVerification()
 // Nipoのソースからコピペしたので、独自の命令とかもあります。
 async emailAuthMixin_sendVerifyMail () {
   try {
-    await this.$firebase.auth().currentUser.sendEmailVerification()
-    alert('E-mailをおくりました')
+    await this.$firebase.auth().currentUser.sendEmailVerification();
+    alert('E-mailをおくりました');
   } catch (e) {
     console.error(e)
-    alert('なんか失敗したようですね') 
+    alert('なんか失敗したようですね');
   }
 }
 ```

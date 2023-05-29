@@ -32,19 +32,19 @@ This XML file does not appear to have any style information associated with it. 
 参考までにエラーの発生するコードを大幅に簡略化して掲載します
 
 ```typescript
-import * as functions from 'firebase-functions'
-import { getStorage } from 'firebase-admin/storage'
-import { TDocumentDefinitions } from 'pdfmake/interfaces'
-import PdfPrinter from 'pdfmake'
-import dayjs from 'dayjs'
-import ja from 'dayjs/locale/ja'
-import timezone from 'dayjs/plugin/timezone'
-import utc from 'dayjs/plugin/utc'
-dayjs.locale(ja)
-dayjs.extend(utc)
-dayjs.extend(timezone)
+import * as functions from 'firebase-functions';
+import { getStorage } from 'firebase-admin/storage';
+import { TDocumentDefinitions } from 'pdfmake/interfaces';
+import PdfPrinter from 'pdfmake';
+import dayjs from 'dayjs';
+import ja from 'dayjs/locale/ja';
+import timezone from 'dayjs/plugin/timezone';
+import utc from 'dayjs/plugin/utc';
+dayjs.locale(ja);
+dayjs.extend(utc);
+dayjs.extend(timezone);
 // Cloud Functionのサーバ時間はGMT+9の日本とずれているのでここで日本の時間にあわせてもらう
-dayjs.tz.setDefault('Asia/Tokyo')
+dayjs.tz.setDefault('Asia/Tokyo');
 
 export default functions.https.onCall(async(data: CFPdfReqParam, context):Promise<onCallResIf> => {
   const docDefinition: TDocumentDefinitions = {
@@ -53,17 +53,17 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
     content: ['PDF本体をつくりあげるよ！'],
     pageOrientation: 'landscape'
   }
-  const storage = getStorage()
-  const printer = new PdfPrinter(fonts)
-  const pdfDoc = printer.createPdfKitDocument(docDefinition)
-  const myPDFfile = storage.bucket().file('sample.pdf')
+  const storage = getStorage();
+  const printer = new PdfPrinter(fonts);
+  const pdfDoc = printer.createPdfKitDocument(docDefinition);
+  const myPDFfile = storage.bucket().file('sample.pdf');
   // ここでStorageに書き込み
-  pdfDoc.pipe(myPDFfile.createWriteStream())
-  pdfDoc.end()
+  pdfDoc.pipe(myPDFfile.createWriteStream());
+  pdfDoc.end();
   // Storageに書き込みが完了していないうちにgetSignedUrlを実行している
-  const url = await myPDFfile.getSignedUrl({ expires: dayjs().tz().add(2, 'hour').valueOf(), action: 'read' })
+  const url = await myPDFfile.getSignedUrl({ expires: dayjs().tz().add(2, 'hour').valueOf(), action: 'read' });
   // フロントにダウンロード用のURLを返却する
-  return  { code: 'ダウンロード用URL', msg: url[0], result: true}
+  return  { code: 'ダウンロード用URL', msg: url[0], result: true};
 })
 
 ```
@@ -77,7 +77,7 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
 上記コードの問題は色々あるけど何よりも問題となるのが
 
 ```typescript
-pdfDoc.pipe(myPDFFile.createWriteStream())
+pdfDoc.pipe(myPDFFile.createWriteStream());
 ```
 
 上記の処理が完了する前に次の行へ処理が流れていってしまうことです。いわゆる非同期処理というやつですね。Nodejsにとって非同期処理はイデオムといえます。
@@ -86,7 +86,7 @@ pdfDoc.pipe(myPDFFile.createWriteStream())
 
 ```typescript
 // 処理の完了を待つためにawaitを使いたいが、ここでawaitは機能しません
-await pdfDoc.pipe(myPDFFile.createWriteStream())
+await pdfDoc.pipe(myPDFFile.createWriteStream());
 ```
 
 ただ当然ながらこの記述はうまく機能しません。VSCode上でも警告が発せられるので割と早い段階で気づくことができますが、つまりawaitを使わずにpdfDoc.pipeの完了まで待つ処理を記述する必要があります。
@@ -111,9 +111,9 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
     pageMargins: [0, 0, 0, 0],
     content: ['PDF本体をつくりあげるよ！'],
     pageOrientation: 'landscape'
-  }
-  const storage = getStorage()
-  const myPDFfile = storage.bucket().file('sample.pdf')
+  };
+  const storage = getStorage();
+  const myPDFfile = storage.bucket().file('sample.pdf');
   // 実際日本語の変数名は使いませんがここではよりインパクトのある名称として日本語をあえて使用しました
   const 止まれ = (): Promise<string>  => {
     return new Promise((resolve,reject) => {
@@ -128,12 +128,12 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
       writeStream.on('error', () => {
         reject('なにかエラーがおきたかも？')
       })
-    })
+    });
   }
   // 処理まるごとPromiseでくくったのでAwaitで止めることができるようになった
-  await 止まれ()
-  const url = await myPDFfile.getSignedUrl({ expires: dayjs().tz().add(2, 'hour').valueOf(), action: 'read' })
-  return  { code: 'ダウンロード用URL', msg: url[0], result: true}
+  await 止まれ();
+  const url = await myPDFfile.getSignedUrl({ expires: dayjs().tz().add(2, 'hour').valueOf(), action: 'read' });
+  return  { code: 'ダウンロード用URL', msg: url[0], result: true};
 })
 ```
 
@@ -151,12 +151,12 @@ pdfDoc.pipeの処理周りをごっそりpromiseでくくってしまい、strea
   .on('error', function(err){
     reject('なにかエラーがおきたかも？')
   });
-  pdfDoc.end()
+  pdfDoc.end();
 
 ```
 
 ```typescript
-await 止まれ()
+await 止まれ();
 ```
 
 のおかげでStreamの書き込みが完了後に、ダウンロードURLの取得処理が走るようになりました。よって本ページトップで書いたようなnoSuchKeyエラーは発生しなくなります。

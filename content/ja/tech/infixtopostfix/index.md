@@ -42,7 +42,7 @@ NipoPlusに演算機能を実装する必要があり、色々調べたところ
 また入力もユーザができるように電卓のフォームを用意しました。
 コードはTypescript＆Vue3(script setup記法)です。
 
-```typescript
+```html
 <template>
   <div style="border:1px solid #ccc; background: #ccc">
     {{ localTemplateIni || '数式を入力してください' }}<hr>
@@ -68,14 +68,18 @@ NipoPlusに演算機能を実装する必要があり、色々調べたところ
     </div>
   </div>
 </template>
+```
+
+```typescript
+
 <script setup lang="ts">
 /** 逆ポーランドマシーン */
-import { ref } from 'vue'
+import { ref } from 'vue';
 
-type stringOrNumber = string | number
+type stringOrNumber = string | number;
 
-const localTemplateIni = ref('')
-const formula = ref<stringOrNumber[]>([])
+const localTemplateIni = ref('');
+const formula = ref<stringOrNumber[]>([]);
 
 /**
  * キーが押下されたときの処理
@@ -83,14 +87,14 @@ const formula = ref<stringOrNumber[]>([])
 function pushKey (key: string | number) {
   if (key === '変換') {
     // 文字列の数式を逆ポーランド式に変形する
-    formula.value = infixToPostfix(localTemplateIni.value)
+    formula.value = infixToPostfix(localTemplateIni.value);
   } else if (typeof key === 'number' || key === '.') {
     // 数値の場合はスペースを入れずつなげて入力する。小数点も同様
-    localTemplateIni.value += `${key}`
+    localTemplateIni.value += `${key}`;
   } else if (key === 'ac') {
-    localTemplateIni.value = ''
+    localTemplateIni.value = '';
   } else if (['+', '-', '*', '/', '(', ')'].includes(key)) {
-    localTemplateIni.value += ` ${key} `
+    localTemplateIni.value += ` ${key} `;
   } else {
     // このサンプルではこのルートは通りません
   }
@@ -100,49 +104,49 @@ function pushKey (key: string | number) {
  * 演算子
  */
 function prec (c: string) {
-  if (c === '/' || c === '*') return 2
-  if (c === '+' || c === '-') return 1
-  return -1
+  if (c === '/' || c === '*') return 2;
+  if (c === '+' || c === '-') return 1;
+  return -1;
 }
 
-const operands = ['+', '-', '*', '/']
+const operands = ['+', '-', '*', '/'];
 /**
  * 通常の数式を逆ポーランド記法に変換します
  */
 function infixToPostfix (s: string) {
-  const st:string[] = []
-  const result:stringOrNumber[] = []
+  const st:string[] = [];
+  const result:stringOrNumber[] = [];
   // 数式を半角スペースを基準に分解する
-  const arr = s.split(' ')
+  const arr = s.split(' ');
   arr.forEach(c => {
     if (c === '(') {
       // カッコの処理。スタックつみ
-      st.push('(')
+      st.push('(');
     } else if (c === ')') {
       // 閉じカッコの処理。
       while (st[st.length - 1] !== '(') {
-        result.push(st[st.length - 1])
-        st.pop()
+        result.push(st[st.length - 1]);
+        st.pop();
       }
-      st.pop()
+      st.pop();
     } else if (operands.includes(c)) {
       // このルートはオペランド + - * / ( )の処理
       while (st.length !== 0 && prec(c) <= prec(st[st.length - 1])) {
-        result.push(st[st.length - 1])
-        st.pop()
+        result.push(st[st.length - 1]);
+        st.pop();
       }
-      st.push(c)
+      st.push(c);
     } else {
       if (c) {
-        result.push(parseFloat(c))
+        result.push(parseFloat(c));
       }
     }
   })
   while (st.length !== 0) {
-    result.push(st[st.length - 1])
-    st.pop()
+    result.push(st[st.length - 1]);
+    st.pop();
   }
-  return result
+  return result;
 }
 
 </script>
@@ -167,46 +171,46 @@ function infixToPostfix (s: string) {
 ```typescript
 const calc = computed(() => {
   // 例えば[ 2, 6, "*", 9, "*" ]のような形の配列として渡ってきます
-  const formula = props.formula
-  const stack:number[] = []
+  const formula = props.formula;
+  const stack:number[] = [];
   formula.forEach(v => {
     if (v === '+') {
-      const b = stack.pop()
-      const a = stack.pop()
+      const b = stack.pop();
+      const a = stack.pop();
       if (typeof a === 'number' && typeof b === 'number') {
-        const ans = a + b
-        stack.push(ans)
+        const ans = a + b;
+        stack.push(ans);
       }
     } else if (v === '-') {
-      const b = stack.pop()
-      const a = stack.pop()
+      const b = stack.pop();
+      const a = stack.pop();
       if (typeof a === 'number' && typeof b === 'number') {
-        const ans = a - b
-        stack.push(ans)
+        const ans = a - b;
+        stack.push(ans);
       }
     } else if (v === '*') {
-      const b = stack.pop()
-      const a = stack.pop()
+      const b = stack.pop();
+      const a = stack.pop();
       if (typeof a === 'number' && typeof b === 'number') {
-        const ans = a * b
-        stack.push(ans)
+        const ans = a * b;
+        stack.push(ans);
       }
     } else if (v === '/') {
-      const b = stack.pop()
-      const a = stack.pop()
+      const b = stack.pop();
+      const a = stack.pop();
       if (typeof a === 'number' && typeof b === 'number') {
-        const ans = a / b
-        stack.push(ans)
+        const ans = a / b;
+        stack.push(ans);
       }
     } else if (typeof v === 'number') {
-      stack.push(v)
+      stack.push(v);
     } else if (typeof v === 'string') {
       // ここはNipoPlus独自仕様なので省略します
     } else {
-      Notify.create({ message: '計算式に問題があります' })
+      Notify.create({ message: '計算式に問題があります' });
     }
   })
-  return stack[0]
+  return stack[0];
 })
 ```
 

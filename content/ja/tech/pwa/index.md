@@ -28,7 +28,7 @@ PWAとしてQuasarをビルドすると、プロジェクト直下にsrc-pwaと�
 
 ```typescript
 
-import { register } from 'register-service-worker'
+import { register } from 'register-service-worker';
 
 // The ready(), registered(), cached(), updatefound() and updated()
 // events passes a ServiceWorkerRegistration instance in their arguments.
@@ -83,9 +83,9 @@ Quasarの公式サイト自体がGithubに公開されているため、まず�
 
 ```typescript
 
-import { register } from 'register-service-worker'
-import { Notify } from 'quasar'
-import { mdiCached } from '@quasar/extras/mdi-v6'
+import { register } from 'register-service-worker';
+import { Notify } from 'quasar';
+import { mdiCached } from '@quasar/extras/mdi-v6';
 
 register(process.env.SERVICE_WORKER_FILE, {
   updated () {
@@ -220,7 +220,7 @@ register(process.env.SERVICE_WORKER_FILE, {
   updated(registration) {
     // ▼ここを修正しています！イベント名は参考にさせていただいたサイト様に敬意を評し、同じイベント名を使わせていただきました
     document.dispatchEvent(
-      new CustomEvent('swUpdated', { detail: registration })
+      new CustomEvent('swUpdated', { detail: registration });
     )
   },
   offline () {
@@ -252,16 +252,16 @@ App.vueは次のようになりました。短いので全文掲載します。
 </template>
 <script lang="ts">
 
-import { defineComponent, provide } from 'vue'
-import { baseStoreKey } from 'components/provide/keys'
-import BaseStore from 'components/provide/BaseStore'
-import { Notify } from 'quasar'
+import { defineComponent, provide } from 'vue';
+import { baseStoreKey } from 'components/provide/keys';
+import BaseStore from 'components/provide/BaseStore';
+import { Notify } from 'quasar';
 
 export default defineComponent({
   name: 'App',
   setup () {
     // プロバイダーの登録
-    provide(baseStoreKey, BaseStore())
+    provide(baseStoreKey, BaseStore());
     /**
      * イベント発火元はsrc-pwr/resister-service-worker.jsに記載してます
      */
@@ -272,13 +272,13 @@ export default defineComponent({
      */
     function skipWaitingListener () {
       if ('serviceWorker' in navigator) {
-        let isControlled = Boolean(navigator.serviceWorker.controller)
+        let isControlled = Boolean(navigator.serviceWorker.controller);
         navigator.serviceWorker.addEventListener('controllerchange', () => {
           if (isControlled) {
-            console.log('☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆Page Reload☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆')
-            window.location.reload()
+            console.log('☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆Page Reload☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆');
+            window.location.reload();
           } else {
-            isControlled = true
+            isControlled = true;
           }
         })
       }
@@ -288,8 +288,8 @@ export default defineComponent({
      * SWイベント取得。画面更新ダイアログ
      */
     function updateAvailable (e:CustomEvent<ServiceWorkerRegistration>) {
-      console.log('☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆UPDATE LV1☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆')
-      console.log(e.detail.waiting)
+      console.log('☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆UPDATE LV1☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆');
+      console.log(e.detail.waiting);
       Notify.create({
         color: 'primary',
         message: '更新準備が整いました.繰り返し表示される場合は一度ウインドウを閉じてください',
@@ -319,7 +319,7 @@ export default defineComponent({
 provideとかは今回の話題とは関係ないのでスルーしてください。ポイントは以下のコードです。
 
 ```javascript
-document.addEventListener('swUpdated', (e:Event) => { updateAvailable() }, { once: true })
+document.addEventListener('swUpdated', (e:Event) => { updateAvailable(); }, { once: true });
 ```
 
 register-service-worker.jsで発行した「swUpdated」イベントを、App.vue側で受け取ります。引数としてカスタムイベントも受け取れますが、私の場合は特に使用しませんでした。

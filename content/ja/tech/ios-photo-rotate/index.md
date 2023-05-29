@@ -54,7 +54,7 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
 ```javascript
   // 一部省略しています。拙いコードですみません。
   async onFileChange (e) {
-    const file = e.target.files[0]
+    const file = e.target.files[0];
     
     loadImage.parseMetaData(file, data => {
       const options = {
@@ -70,8 +70,8 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
 
       loadImage(file, canvas => {
         
-        const base64 = canvas.toDataURL(file.type)
-        const blob = FN.b64toBlob(base64.split(',')[1], file.type, 512)
+        const base64 = canvas.toDataURL(file.type);
+        const blob = FN.b64toBlob(base64.split(',')[1], file.type, 512);
 
         // FireStoreに fileのパス・サイズ・名前 Nipo
         const dd = {
@@ -80,8 +80,8 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
           uploadFile: blob,
           type: 'pict'
         }
-        Vue.set(this.inputData, this.item.key, dd)
-      }, options)
+        Vue.set(this.inputData, this.item.key, dd);
+      }, options);
     })
   }
 ```

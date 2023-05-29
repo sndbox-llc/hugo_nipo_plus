@@ -28,19 +28,19 @@ pdfmakeをサーバサイドで利用するには、次のようなコードで�
 
 ```typescript
 // このコードはnode16で動作を確認しております
-import { TDocumentDefinitions } from 'pdfmake/interfaces'
-import PdfPrinter from 'pdfmake'
-import fs from 'fs'
+import { TDocumentDefinitions } from 'pdfmake/interfaces';
+import PdfPrinter from 'pdfmake';
+import fs from 'fs';
 
 // pdfmakeのフォントは日本語が含まれないため日本語を含んだファイルを別途用意します
 const fonts = {
   Roboto: {
     normal: 'path/to/フォントファイル.ttf'
   }
-}
+};
 
 async function main () {
-  const printer = new PdfPrinter(fonts)
+  const printer = new PdfPrinter(fonts);
 
   const docDefinition: TDocumentDefinitions = {
     pageSize: 'A4',
@@ -50,14 +50,14 @@ async function main () {
     watermark: { text: 'water', color: 'blue', opacity: 0.3 }
   }
   // このあたりからサーバサイド独自の書き方に変わります
-  const wStream = fs.createWriteStream('./somefile.pdf')
-  const pdfDoc = printer.createPdfKitDocument(docDefinition)
-  pdfDoc.pipe(wStream)
-  pdfDoc.end()
+  const wStream = fs.createWriteStream('./somefile.pdf');
+  const pdfDoc = printer.createPdfKitDocument(docDefinition);
+  pdfDoc.pipe(wStream);
+  pdfDoc.end();
 
-  return
+  return;
 }
-main()
+main();
 ```
 
 たったこれだけで、「これは1つめのPDFファイルです」と書かれたPDFファイルが生成できます。思ったより簡単ですね。
@@ -113,20 +113,20 @@ pdfmakeは公式ガイドが少し不親切ですが、[githubのサンプルペ
 Cloud Functionsとかを抜きにして、単純なnodejsで2つのpdfファイルを作成し、1つのZipにまとめるコードは次のとおりです
 
 ```typescript
-import { TDocumentDefinitions } from 'pdfmake/interfaces'
-import PdfPrinter from 'pdfmake'
-import archiver from 'archiver'
-import fs from 'fs'
+import { TDocumentDefinitions } from 'pdfmake/interfaces';
+import PdfPrinter from 'pdfmake';
+import archiver from 'archiver';
+import fs from 'fs';
 
 const fonts = {
   Roboto: {
     normal: 'path/to/フォントファイル.ttf'
   }
-}
+};
 
 async function main () {
-  const printer = new PdfPrinter(fonts)
-  const archive = archiver('zip', { zlib: { level: 9 } })
+  const printer = new PdfPrinter(fonts);
+  const archive = archiver('zip', { zlib: { level: 9 } });
   // pdfの元となるdocDefinitions。pdfを2つ作るので配列にしています
   const docDefinitions: TDocumentDefinitions[] = [
     {
@@ -142,33 +142,33 @@ async function main () {
       content: ['これは2つめのPDFファイルです。横向きです'],
       pageOrientation: 'landscape'
     }
-  ]
+  ];
   // 書き込みストリームはarchiverにセットします
-  const wStream = fs.createWriteStream('./output.zip')
-  archive.pipe(wStream)
+  const wStream = fs.createWriteStream('./output.zip');
+  archive.pipe(wStream);
   // promise.allを使わないとcloud functionsでは処理が完了する前にリターン文が実行されて正しく処理されませんでした。
   await Promise.all(docDefinitions.map( async (docDefinition, index) => {
     return new Promise((resolve, reject) => {
-      const pdfDoc = printer.createPdfKitDocument(docDefinition)
-      let chunk = [] as Uint8Array[]
+      const pdfDoc = printer.createPdfKitDocument(docDefinition);
+      let chunk = [] as Uint8Array[];
       pdfDoc.on('data', (node:Uint8Array) => {
-        chunk.push(node)
+        chunk.push(node);
       })
       pdfDoc.on('end', () => {
         // pdfの完成時に呼ばれる
-        const result = Buffer.concat(chunk)
+        const result = Buffer.concat(chunk);
         // ここでpdfがBufferとして扱えるようになったので、achiveにappendできる
-        archive.append(result, { name: `someFileName_${index}.pdf`})
-        resolve('ok')
+        archive.append(result, { name: `someFileName_${index}.pdf`});
+        resolve('ok');
       })
       // 本来はエラー処理も入れるべきですがここでは省略しています
-      pdfDoc.end()
+      pdfDoc.end();
     })
   }))
-  archive.finalize()
+  archive.finalize();
   return
 }
-main()
+main();
 ```
 
 上記プログラムを実行するとoutput.zipという圧縮ファイルが1つ作成されます。解答すると中には2つのpdfファイルが保存されています。
@@ -176,10 +176,10 @@ main()
 
 ```typescript
 // インポートの追加
-import { getStorage } from 'firebase-admin/storage'
+import { getStorage } from 'firebase-admin/storage';
 
-const storage = getStorage()
-archive.pipe(storage.bucket().file('path/to/出力するファイル名.zip').createWriteStream())
+const storage = getStorage();
+archive.pipe(storage.bucket().file('path/to/出力するファイル名.zip').createWriteStream());
 ```
 
 ## 非同期処理とcloud functionsのライフサイクルに注意する
@@ -187,7 +187,7 @@ archive.pipe(storage.bucket().file('path/to/出力するファイル名.zip').cr
 returnのが実行されると、streamの処理が途中でも関数を終えてしまうことを正しく理解していなかったため、原因究明に思った以上の時間を浪費してしまいました。
 
 ```typescript
-.on('end', () => { })
+.on('end', () => { });
 ```
 
 のような形で処理が終わることを検知できますが、それより先にreturnが走らないように注意する必要があります。

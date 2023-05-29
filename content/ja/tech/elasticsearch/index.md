@@ -45,9 +45,9 @@ FireStoreの便利な点と、Elastic Searchの高度な検索を組み合わせ
 例えばNipoPlusの日報データに関するスキーマは次のように作成しています(一部紹介)
 
 ```typescript
-import { IndicesCreateRequest, MappingTextProperty } from "@elastic/elasticsearch/lib/api/types"
+import { IndicesCreateRequest, MappingTextProperty } from "@elastic/elasticsearch/lib/api/types";
 
-export const reportIndexName = 'インデックスの名前'
+export const reportIndexName = 'インデックスの名前';
 const textParam:MappingTextProperty = {
   type: 'text',
   search_analyzer: 'ja_kuromoji_search_analyzer',
@@ -100,10 +100,10 @@ async function makeElastic () {
   })
 
   try {
-    await esClient.indices.create(先程作ったスキーマJSON)
-    console.info('○○○○ 成功 ○○○○')
+    await esClient.indices.create(先程作ったスキーマJSON);
+    console.info('○○○○ 成功 ○○○○');
   } catch (e) {
-    console.error('XXXXXX 失敗 XXXXXX')
+    console.error('XXXXXX 失敗 XXXXXX');
   }
 }
 ```
@@ -120,10 +120,10 @@ Cloud FunctionsでFireStoreの変化を検出し、ElasticSearchへデータを�
 なお更新はIDを指定して書き込みすれば上書きしてくれるのであまり深く考える必要はありません。mySQLで言うところのupsertみたいな感覚で使えます。
 
 ```typescript
-import * as functions from 'firebase-functions'
-import { ELASTIC_CLOUD_ID, ELASTIC_PW, ELASTIC_USER_NAME } from 'どこか遠いところからとってきて'
-import { Client } from '@elastic/elasticsearch'
-import { MYREPORT } from 'これは型定義ファイル（Nipoオリジナル)'
+import * as functions from 'firebase-functions';
+import { ELASTIC_CLOUD_ID, ELASTIC_PW, ELASTIC_USER_NAME } from 'どこか遠いところからとってきて';
+import { Client } from '@elastic/elasticsearch';
+import { MYREPORT } from 'これは型定義ファイル（Nipoオリジナル)';
 const client = new Client({
   cloud: { id: ELASTIC_CLOUD_ID },
   auth: {
@@ -136,19 +136,19 @@ const client = new Client({
  * 例えば group/xxxxx/document/xxxxxのデータが変わったときに発火する
  */
 export const esPushReport = functions.firestore.document('group/{groupId}/document/{documentId}').onWrite(async (change, context) => {
-  const groupId = <string>context.params.groupId
-  const documentId = <string>context.params.documentId
+  const groupId = <string>context.params.groupId;
+  const documentId = <string>context.params.documentId;
 
-  const index = '先程作ったElasticのインデックス名'
+  const index = '先程作ったElasticのインデックス名';
   if (!change.after.exists) {
     // Firestoreからデータが削除された場合は、ElasticSearchからも削除しないといけません。
-    await client.delete({ index: index, id: documentId })
-    return
+    await client.delete({ index: index, id: documentId });
+    return;
   }
 
-  const FSReport = <MYREPORT>change.after.data()
+  const FSReport = <MYREPORT>change.after.data();
 
-  const v  {
+  const v = {
     index: index,
     id: documentId,
     document: {
@@ -160,9 +160,9 @@ export const esPushReport = functions.firestore.document('group/{groupId}/docume
   }
   try {
     // Elasitic Searchへ書き込み処理
-    await client.index(v)
+    await client.index(v);
   } catch (e) {
-    functions.logger.error(e)
+    functions.logger.error(e);
   }
 })
 
@@ -181,14 +181,14 @@ FirebaseのユーザIDを保証できるhttpOnCallを使うと、アクセスユ
 以下はサンプルです。
 
 ```typescript
-import * as functions from 'firebase-functions'
-import { DocumentReference, getFirestore } from 'firebase-admin/firestore'
-import { Client } from '@elastic/elasticsearch'
-import { authError, ELASTIC_CLOUD_ID, ELASTIC_PW, ELASTIC_USER_NAME } from '../_components/const'
-import checkUserHogehoge from './check'
-import { QueryDslQueryContainer, SearchRequest } from '@elastic/elasticsearch/lib/api/types'
-import { CFQueryParam } from '../if'
-import { FSGroup } from '@FRONT/if'
+import * as functions from 'firebase-functions';
+import { DocumentReference, getFirestore } from 'firebase-admin/firestore';
+import { Client } from '@elastic/elasticsearch';
+import { authError, ELASTIC_CLOUD_ID, ELASTIC_PW, ELASTIC_USER_NAME } from '../_components/const';
+import checkUserHogehoge from './check';
+import { QueryDslQueryContainer, SearchRequest } from '@elastic/elasticsearch/lib/api/types';
+import { CFQueryParam } from '../if';
+import { FSGroup } from '@FRONT/if';
 
 /**
  * クエリ実行の例。フロントからのリクエストで発動する。contextの中にはアクセス者のFirebaseIDなどが格納されているため、これらの情報を使い適切な権限を確認します
@@ -197,10 +197,10 @@ export default functions.https.onCall(async(data, context) => {
   try {
     // 詳細は明かせませんが、起動直後に権限のチェックをしっかり行い、権限不足は速攻弾くような仕組みを作っておくと良いです。
     // Cloud Functionsはセキュリティルールを貫通してアクセスできるので特に念入りにチェックします
-    await checkUserHogehoge({ context: context })
-    if (result.result === false) { return result }
+    await checkUserHogehoge({ context: context });
+    if (result.result === false) { return result; }
   } catch (e) {
-    return { error: true, message: 'あなたはふさわしくないわ' }
+    return { error: true, message: 'あなたはふさわしくないわ' };
   }
   // 第一関門のセキュリティチェックを抜けたらElasticSearchに問い合わせする準備が始まります。
   const client = new Client({
@@ -214,10 +214,10 @@ export default functions.https.onCall(async(data, context) => {
   // Elastic のクエリでFilterをセットします。例えばアクセス可能なユーザで絞り込むなど。
   // context.auth.uidは正しいIDであることが保証されるためFilterに使うことで安全性が高まります。
   // セキュリティルールが使えないので特に念入りに！
-  elasticFilter.push({ term: { owner: context.auth?.uid } })
+  elasticFilter.push({ term: { owner: context.auth?.uid } });
   // mustやshouldなど様々なクエリが使えます。今回は簡略のため空欄のままです。
-  const must:QueryDslQueryContainer[] = []
-  const should:QueryDslQueryContainer[] = []
+  const must:QueryDslQueryContainer[] = [];
+  const should:QueryDslQueryContainer[] = [];
   // 最終的にクエリの形になるように組み立てます。
   const query:SearchRequest = {
     // ここではdataのチェックを省いていますが、dataはフロントからのパラメータのため本当はちゃんと正しい値かチェックしたほうがよいです
@@ -235,13 +235,13 @@ export default functions.https.onCall(async(data, context) => {
     }
   }
   // Elasitic Searchへ問い合わせをします
-  const esRes = await client.search(query)
+  const esRes = await client.search(query);
   const returnVal = {
     total: esRes.hits.total,
     hits: esRes.hits.hits
   }
   // ElasticSearchの結果をフロントに返却します
-  return returnVal
+  return returnVal;
 })
 
 ```

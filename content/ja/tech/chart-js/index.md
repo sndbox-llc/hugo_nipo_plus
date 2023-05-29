@@ -45,28 +45,28 @@ Chart.jsは最近Version3に更新されましたが、この記事は**Chart.js
 ```typescript
 <script lang="ts">
 
-import { defineComponent, ref, onMounted } from '@vue/composition-api'
-import { Chart } from 'chart.js'
+import { defineComponent, ref, onMounted } from '@vue/composition-api';
+import { Chart } from 'chart.js';
 
 export default defineComponent({
   setup () {
-    const canvasRef = ref<HTMLCanvasElement | null>(null)
+    const canvasRef = ref<HTMLCanvasElement | null>(null);
     onMounted(() => {
-      createCharts()
+      createCharts();
     })
     // ランダムな数値製造マシーン
     function getRand () {
-      const arr: number[] = []
+      const arr: number[] = [];
       for (let i = 0; i < 6; i++) {
-        arr.push(Math.random())
+        arr.push(Math.random());
       }
-      return arr
+      return arr;
     }
     function createCharts () {
-      if (canvasRef.value === null) return
-      const canvas = canvasRef.value.getContext('2d')
-      if (canvas === null) return
-      console.log(canvasRef.value?.getContext('2d'))
+      if (canvasRef.value === null) return;
+      const canvas = canvasRef.value.getContext('2d');
+      if (canvas === null) return;
+      console.log(canvasRef.value?.getContext('2d'));
       const c = new Chart(canvas, {
         type: 'bar',
         data: {
@@ -76,8 +76,8 @@ export default defineComponent({
             data: getRand()
           }]
         }
-      })
-      console.log(c)
+      });
+      console.log(c);
     }
     return {
       canvasRef,

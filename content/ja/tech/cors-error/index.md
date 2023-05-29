@@ -38,7 +38,7 @@ Firebaseのホスティングではサーバ側のプログラムを設置でき
 少し調べたところ、
 
 ```javascript
-functions.https.onRequest((req, res) => { 処理 }
+functions.https.onRequest((req, res) => { 処理 });
 ```
 
 という書き方が可能なことを突き止めました。[詳しくはこちら](https://firebase.google.com/docs/functions/http-events?hl=ja)。
@@ -61,19 +61,19 @@ async function send () {
       method: 'POST',
       url: 'https://us-central1-maroud1.cloudfunctions.net/websiteInquery',
       params: body
-    }
-    const res = await axios(config)
+    };
+    const res = await axios(config);
     if (res.data.status === 1) {
-      sendOk.value = true
-      email.value = ''
-      text.value = ''
+      sendOk.value = true;
+      email.value = '';
+      text.value = '';
     } else {
-      alert('メールの送信に失敗しました。少し時間をおいてやり直してください')
+      alert('メールの送信に失敗しました。少し時間をおいてやり直してください');
     }
   } catch (e) {
-    console.error(e)
+    console.error(e);
   } finally {
-    nowSending.value = false
+    nowSending.value = false;
   }
 }
 ```
@@ -82,7 +82,7 @@ async function send () {
 
 はい、ここで悪名高き**CORSのエラー**が帰ってきます
 
-```javascript
+```sh
 Access to XMLHttpRequest at 'https://us-central1-maroud1.cloudfunctions.net/test?email=info%40sndbox.jp&text=test' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 ```
 
@@ -91,7 +91,7 @@ Access to XMLHttpRequest at 'https://us-central1-maroud1.cloudfunctions.net/test
 Cloud Functionsはできるだけシンプルに保ちたいと思い、なにか方法が無いか調べたところ、Cloud Functionsの関数の頭に
 
 ```javascript
-res.set('Access-Control-Allow-Origin', '*')
+res.set('Access-Control-Allow-Origin', '*');
 ```
 
 と書くことでいけるらしいではありませんか。
@@ -117,11 +117,11 @@ export default functions.https.onRequest(async(req, res) => {
 
 ```javascript
 export default functions.https.onRequest(async(req, res) => {
-  res.set('Access-Control-Allow-Headers', '*')
-  res.set('Access-Control-Allow-Origin', '*')
-  res.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS, POST')
+  res.set('Access-Control-Allow-Headers', '*');
+  res.set('Access-Control-Allow-Origin', '*');
+  res.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS, POST');
   // 何かしらの処理
-  res.end()
+  res.end();
 })
 ```
 

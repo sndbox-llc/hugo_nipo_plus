@@ -35,10 +35,10 @@ JWTを取得してアクセスするような方法もあるようでしたが�
 
 ```typescript
 // ファイル名: wakeup.ts
-import { initializeApp, getApps, getApp } from 'firebase/app'
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
-import * as functions from 'firebase-functions'
-import { getFunctions, httpsCallable } from 'firebase/functions'
+import { initializeApp, getApps, getApp } from 'firebase/app';
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import * as functions from 'firebase-functions';
+import { getFunctions, httpsCallable } from 'firebase/functions';
 
 /** Firebase API Key */
 export const firebaseConfig = {
@@ -51,14 +51,14 @@ export const firebaseConfig = {
   measurementId: 'ないしょだよ'
 }
 
-getApps().length === 0 ? initializeApp(firebaseConfig) : getApp()
-const auth = getAuth()
+getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
+const auth = getAuth();
 
 async function SignInWithPw () {
   try {
-    await signInWithEmailAndPassword(auth, 'ログインに使用するメールアドレス', 'パスワード')
+    await signInWithEmailAndPassword(auth, 'ログインに使用するメールアドレス', 'パスワード');
   } catch (e) {
-    functions.logger.log('ログインに失敗')
+    functions.logger.log('ログインに失敗');
   }
 }
 
@@ -68,15 +68,15 @@ async function SignInWithPw () {
  * 7 - 23時までの毎回5分ごとにこの関数は実行されます
  */
 export default functions.pubsub.schedule('*/6 8-22 * * *').timeZone('JST').onRun(async (context) => {
-  const fn = getFunctions()
-  const param = { wakeup: true}
+  const fn = getFunctions();
+  const param = { wakeup: true};
   try {
-    await SignInWithPw()
-    await httpsCallable(fn, '定期実行したい関数名1')(param)
-    await httpsCallable(fn, '定期実行したい関数名2')(param)
-    await httpsCallable(fn, '定期実行したい関数名3')(param)
+    await SignInWithPw();
+    await httpsCallable(fn, '定期実行したい関数名1')(param);
+    await httpsCallable(fn, '定期実行したい関数名2')(param);
+    await httpsCallable(fn, '定期実行したい関数名3')(param);
   } catch (e) {
-    functions.logger.log(e)
+    functions.logger.log(e);
   }
 })
 
@@ -119,11 +119,11 @@ functions.pubsub.scheduleの記述があるCloud functionをデプロイする�
 ```typescript
 /** コールドスタートにしたくないCloud function。定期的に呼び出すことで問題を解決する */
 export default functions.https.onCall(async(data, context) => {
-  const codeHead = 'someFunctionName'
+  const codeHead = 'someFunctionName';
   if ('wakeup' in data) {
     // dataに wakeupというパラメータがあったら定期的な実行と判断して関数を即終了
-    functions.logger.log(`朝だぞ！起きろ ${codeHead}`)
-    return { msg: `${codeHead} wakeup`, result: true}
+    functions.logger.log(`朝だぞ！起きろ ${codeHead}`);
+    return { msg: `${codeHead} wakeup`, result: true};
   }
   // 以下、本来の処理が続く...
 })

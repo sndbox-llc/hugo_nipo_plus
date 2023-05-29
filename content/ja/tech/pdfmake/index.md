@@ -29,6 +29,7 @@ let docDefinition = {
   pageSize:pageSize,
   pageMargins:[0,0,0,0],
   content:content
+}
 ```
 
 のように簡単に指定できます。
@@ -56,18 +57,18 @@ pdfMakeで使われている単位はなんと「us pt」というもので、�
 let hagakiSize = {
   width:283.46,
   height:419.52
-}
+};
 //　おまけ　長３封筒 120*235mm 
 let naga3Size = {
   width:340.16,
   height:666.14
-}
+};
 
 // さらにおまけ　長４封筒　90*205mm
 let naga4Size = {
   width:255.12,
   height:581.10
-}
+};
 ```
 
 となります。

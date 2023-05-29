@@ -67,13 +67,13 @@ Cloud functionsはこんなかんじ
 
 ```typescript
 // 【index.ts】
-import * as functions from 'firebase-functions'
-import * as API from './api' // これはFirestoreのコンソールから引っ張ってくる情報です
+import * as functions from 'firebase-functions';
+import * as API from './api'; // これはFirestoreのコンソールから引っ張ってくる情報です
 
-const firestore = require('@google-cloud/firestore')
-const client = new firestore.v1.FirestoreAdminClient()
+const firestore = require('@google-cloud/firestore');
+const client = new firestore.v1.FirestoreAdminClient();
 
-const admin = require('firebase-admin')
+const admin = require('firebase-admin');
 
 admin.initializeApp({
   credential: admin.credential.cert(API),
@@ -82,22 +82,22 @@ admin.initializeApp({
 
 // 分 時 日 月 曜日 の順に指定します。cronと一緒。米国時間なので注意してね！
 exports.backupPubSub = functions.pubsub.schedule('30 15 * * *').onRun((context) => {
-  const projectId = process.env.GCP_PROJECT || process.env.GCLOUD_PROJECT
-　const databaseName = client.databasePath(projectId, '(default)')
-  const bucket = 'gs://さきほど指定したバケットの名前'
+  const projectId = process.env.GCP_PROJECT || process.env.GCLOUD_PROJECT;
+　const databaseName = client.databasePath(projectId, '(default)');
+  const bucket = 'gs://さきほど指定したバケットの名前';
   return client.exportDocuments({
     name: databaseName,
     outputUriPrefix: bucket,
     collectionIds: []
   })
   .then((responses: any[]) => {
-    const response = responses[0]
-    console.log(`Operation Name: ${response['name']}`)
-    return response
+    const response = responses[0];
+    console.log(`Operation Name: ${response['name']}`);
+    return response;
   })
   .catch((err: any) => {
-    console.error(err)
-    throw new Error('Export operation failed')
+    console.error(err);
+    throw new Error('Export operation failed');
   })
 })
 ```

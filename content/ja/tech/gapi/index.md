@@ -66,25 +66,28 @@ DOMの操作がやりたくないからVueを使うのですが今回は仕方�
 
 ということでコード
 
-```typescript
+```html
 <template>
   <div>
     <p>Google Calendar API Quickstart</p>
     <p id="content">p</p>
   </div>
 </template>
+```
+
+```typescript
 
 <script lang='ts'>
-import { defineComponent, onMounted } from '@vue/composition-api'
+import { defineComponent, onMounted } from '@vue/composition-api';
 export default defineComponent({
   setup () {
     onMounted(() => {
-      const script = document.createElement('script')
-      script.src = 'https://apis.google.com/js/api.js'
+      const script = document.createElement('script');
+      script.src = 'https://apis.google.com/js/api.js';
       script.onreadystatechange = script.onload = function () {
-        console.log('ロードできた！')
+        console.log('ロードできた！');
       }
-      document.head.appendChild(script)
+      document.head.appendChild(script);
     })
     return {
     }
@@ -97,8 +100,8 @@ export default defineComponent({
 
 ```typescript
 function test () {
-  console.log('すたーと')
-  gapi.load('client:auth2', initClient)
+  console.log('すたーと');
+  gapi.load('client:auth2', initClient);
 }
 ```
 
@@ -132,7 +135,7 @@ compilerOptionsの中に、typesという配列を追加し、そこにgapiを�
 
 ```typescript
 <script lang='ts'>
-  import { defineComponent, onMounted } from '@vue/composition-api'
+  import { defineComponent, onMounted } from '@vue/composition-api';
   // ▼ スラッシュ3こはこのまま維持する必要があるようです。またパスは相対のため、この例と異なる場合があります
   /// <reference path="../../node_modules/@types/gapi/index.d.ts" />
 
@@ -176,7 +179,7 @@ declare namespace gapi {}
 最後にコード全文をのせておきます。書きかけのコードでゴミデータも混ざっていますがご了承ください。  
 とりあえず動かし方を確認したかっただけなので、かなり荒削りです。なお、コードの元ネタは[Google公式のサンプル](https://developers.google.com/calendar/api/quickstart/js)をベースにして、VueJS風に少しアレンジしたものです。
 
-```typescript
+```html
 <template>
   <div>
     <p>Google Calendar API Quickstart</p>
@@ -187,26 +190,30 @@ declare namespace gapi {}
     <button @click="test()">初期化ボタン。あとで自動化する</button>
   </div>
 </template>
+```
+
+```typescript
+
 <script lang='ts'>
-import { defineComponent, onMounted } from '@vue/composition-api'
+import { defineComponent, onMounted } from '@vue/composition-api';
 /// <reference path="../../../node_modules/@types/gapi/index.d.ts" />
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 declare namespace gapi {}
 export default defineComponent({
   setup () {
-    const CLIENT_ID = '長い文字ぷらす.apps.googleusercontent.com'
-    const API_KEY = 'あなたのAPI-KEYをいれてね'
-    const DISCOVERY_DOCS = ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest']
-    const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
-    const calendarID = 'primary'
+    const CLIENT_ID = '長い文字ぷらす.apps.googleusercontent.com';
+    const API_KEY = 'あなたのAPI-KEYをいれてね';
+    const DISCOVERY_DOCS = ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'];
+    const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly';
+    const calendarID = 'primary';
 
     function test () {
-      console.log('すたーと')
-      gapi.load('client:auth2', initClient)
+      console.log('すたーと');
+      gapi.load('client:auth2', initClient);
     }
     function initClient () {
-      console.log('わん')
+      console.log('わん');
 
       gapi.client.init({
         apiKey: API_KEY,
@@ -214,40 +221,38 @@ export default defineComponent({
         discoveryDocs: DISCOVERY_DOCS,
         scope: SCOPES
       }).then(function () {
-        console.log('ひゃあああ')
+        console.log('ひゃあああ');
         // Listen for sign-in state changes.
-        gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus)
-
+        gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
         // Handle the initial sign-in state.
-        updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get())
+        updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
       }, function (error) {
-        console.log('えらあああ', error)
-
-        appendPre(JSON.stringify(error, null, 2))
+        console.log('えらあああ', error);
+        appendPre(JSON.stringify(error, null, 2));
       })
     }
     function updateSigninStatus (isSignedIn:boolean) {
-      console.log('あぷらでーとしぐんすてーたす', isSignedIn)
+      console.log('あぷらでーとしぐんすてーたす', isSignedIn);
       if (isSignedIn) {
-        listUpcomingEvents()
+        listUpcomingEvents();
       }
     }
     function handleAuthClick () {
       // const user = gapi.auth2.getAuthInstance()
-      console.log(user)
+      console.log(user);
       gapi.auth2.getAuthInstance().signIn().catch(e => { console.error(e) })
     }
     function handleSignoutClick () {
-      console.log('ろぐあーうと', gapi)
-      gapi.auth2.getAuthInstance().signOut()
+      console.log('ろぐあーうと', gapi);
+      gapi.auth2.getAuthInstance().signOut();
     }
     function appendPre (message) {
-      const pre = document.getElementById('content')
-      const textContent = document.createTextNode(message + '\n')
-      pre.appendChild(textContent)
+      const pre = document.getElementById('content');
+      const textContent = document.createTextNode(message + '\n');
+      pre.appendChild(textContent);
     }
     function listUpcomingEvents () {
-      console.log('イベントとってくるでー')
+      console.log('イベントとってくるでー');
       gapi.client.calendar.events.list({
         calendarId: calendarID,
         timeMin: (new Date()).toISOString(),
@@ -256,21 +261,21 @@ export default defineComponent({
         maxResults: 10,
         orderBy: 'startTime'
       }).then(function (response) {
-        console.log(response)
-        const events = response.result.items
-        appendPre('Upcoming events:')
+        console.log(response);
+        const events = response.result.items;
+        appendPre('Upcoming events:');
 
         if (events.length > 0) {
           for (let i = 0; i < events.length; i++) {
-            const event = events[i]
-            let when = event.start.dateTime
+            const event = events[i];
+            let when = event.start.dateTime;
             if (!when) {
-              when = event.start.date
+              when = event.start.date;
             }
-            appendPre(event.summary + ' (' + when + ')')
+            appendPre(event.summary + ' (' + when + ')');
           }
         } else {
-          appendPre('No upcoming events found.')
+          appendPre('No upcoming events found.');
         }
       })
     }
@@ -279,10 +284,10 @@ export default defineComponent({
       script.src = 'https://apis.google.com/js/api.js'
       // script.setAttribute('src', 'https://apis.google.com/js/api.js')
       script.onreadystatechange = script.onload = function () {
-        console.log('ろーどずみ')
+        console.log('ろーどずみ');
       }
 
-      document.head.appendChild(script)
+      document.head.appendChild(script);
     })
     return {
       handleAuthClick,

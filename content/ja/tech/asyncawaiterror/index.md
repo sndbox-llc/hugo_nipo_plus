@@ -29,21 +29,21 @@ async/awaitはJavascriptにおける非同期処理のthenという構文をよ�
 
 ```javascript
 async function func1 () {
-  console.log('これはfunc1だよ')
+  console.log('これはfunc1だよ');
   try {
-    const result = await sub()// ＜ーこの非同期関数がエラーを起こすシナリオ
-    console.log('subから非同期でデータをとって、resultに格納したよ', result)// ＜ー実行されたらまずいやつ
+    const result = await sub();// ＜ーこの非同期関数がエラーを起こすシナリオ
+    console.log('subから非同期でデータをとって、resultに格納したよ', result);// ＜ー実行されたらまずいやつ
   } catch (e) {
-    console.error('func1でエラーだよ', e)
+    console.error('func1でエラーだよ', e);
   }
 }
 async function sub () {
-  console.log('subです')
+  console.log('subです');
   try {
-    const res:string = await dosome() // ここで必ずエラーが発生します。dosome関数は存在しないため
-    return res
+    const res:string = await dosome(); // ここで必ずエラーが発生します。dosome関数は存在しないため
+    return res;
   } catch (e) {
-    console.error('subでエラーだよ', e)
+    console.error('subでエラーだよ', e);
   }
 }
 ```
@@ -68,7 +68,7 @@ func1:「止まるんじゃねぇぞ。俺は止まらねぇからよ」と。
 async・awaitは便利ですが特に**エラー発生時の対応に注意が必要**です。async・awaitでエラーが発生しても止まらない原因としてネットで検索すると
 
 ```javascript
-const res = hidouki().catch(e => { console.log(e) } )
+const res = hidouki().catch(e => { console.log(e); } )
 ```
 
 のような書き方をすると止まらない記事が結構沢山見受けられました。この書き方を私はしないのでよくわかりませんが、これだと呼び出し先(ここではhidouki関数)でエラーが発生してもキャッチされないとかなんとか。  
@@ -77,22 +77,22 @@ const res = hidouki().catch(e => { console.log(e) } )
 
 ```javascript
 async function func1 () {
-  console.log('これはfunc1だよ')
+  console.log('これはfunc1だよ');
   try {
-    const result = await sub() // ＜ーこの非同期関数がエラーを起こすシナリオ
-    console.log('subから非同期でデータをとって、resultに格納したよ', result) // ＜ー実行されたらまずいやつ
+    const result = await sub(); // ＜ーこの非同期関数がエラーを起こすシナリオ
+    console.log('subから非同期でデータをとって、resultに格納したよ', result); // ＜ー実行されたらまずいやつ
   } catch (e) {
-    console.error('func1でエラーだよ', e)
+    console.error('func1でエラーだよ', e);
   }
 }
 async function sub () {
-  console.log('subです')
+  console.log('subです');
   try {
-    const res = await dosome() // ここで必ずエラーが発生します。dosome関数は存在しないため
-    return res
+    const res = await dosome(); // ここで必ずエラーが発生します。dosome関数は存在しないため
+    return res;
   } catch (e) {
-    console.error('subでエラーだよ', e)
-    throw e // &#x25c0;この1行を付け足すだけですっ
+    console.error('subでエラーだよ', e);
+    throw e; // &#x25c0;この1行を付け足すだけですっ
   }
 }
 ```
@@ -114,7 +114,7 @@ awaitで呼び出した関数はresolveかrejectを返すのですが、sub関�
 throwをするときは Newするべき！という記事もありますがこれは
 
 ```typescript
-throw 'なんかやばいことが起きた'
+throw 'なんかやばいことが起きた';
 ```
 
 のように文字だけの場合はだめってことです。throw new Error(e)として更に包んでしまうとErrorオブジェクトのなかにErrorオブジェクトという、過剰包装状態になるので注意です。
@@ -127,24 +127,24 @@ throwを文中に使うとそこで処理が終わり呼び出し元へ処理が
 
 ```javascript
 async function func1 () {
-  console.log('これはfunc1だよ')
+  console.log('これはfunc1だよ');
   try {
-    const result = await sub() // ＜ーこの非同期関数がエラーを起こすシナリオ
-    console.log('subから非同期でデータをとって、resultに格納したよ', result) // ＜ー実行されたらまずいやつ
+    const result = await sub(); // ＜ーこの非同期関数がエラーを起こすシナリオ
+    console.log('subから非同期でデータをとって、resultに格納したよ', result); // ＜ー実行されたらまずいやつ
   } catch (e) {
-    console.error('func1でエラーだよ', e)
+    console.error('func1でエラーだよ', e);
   }
 }
 async function sub () {
-  console.log('subです')
+  console.log('subです');
   try {
-    const res = await dosome() // ここで必ずエラーが発生します。dosome関数は存在しないため
-    return res
+    const res = await dosome(); // ここで必ずエラーが発生します。dosome関数は存在しないため
+    return res;
   } catch (e) {
-    console.error('subでエラーだよ', e)
-    throw e // throwされる
+    console.error('subでエラーだよ', e);
+    throw e; // throwされる
   } finally {
-    console.log('このファイナリーは実行されるかな？？？') // ちゃんと実行される
+    console.log('このファイナリーは実行されるかな？？？'); // ちゃんと実行される
   }
 }
 ```

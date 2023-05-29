@@ -89,7 +89,7 @@ Algoliaでは、Indexというまとまりを作ってそこにデータを入�
 さて小細工といってもやることは単純で、n-Gramという手法を使うだけです。n-Gramは単語を決まった数にぶつ切りにすることです。
 ぶつ切りにする粒子の大きさによって呼び方が変わるようです。ぶつ切りサイズを2とした、「バイグラム」だと、こんな感じになります。
 
-```javascript
+```sh
 今日はいい天気です。 // ぶつ切り前
 今日　日は　はい　いい　い天　天気　気で　です　す。 // ぶつ切り後
 ```
@@ -100,18 +100,18 @@ FireStoreに書き込まれたデータを、バイグラムに変換して、Ty
 
 ```javascript
 export function makeBigram (dutyVal: string): string {
-  const len = 2
-  const resultAry = Array.from(dutyVal) // Array.fromはサロゲート対応をよしなにしてくれます。絵文字の問題はこれで解決
+  const len = 2;
+  const resultAry = Array.from(dutyVal); // Array.fromはサロゲート対応をよしなにしてくれます。絵文字の問題はこれで解決
   if (resultAry.length < len) {
-    return dutyVal
+    return dutyVal;
   }
-  let res = ''
+  let res = '';
   for (let i = 0; i <= resultAry.length - 1; i++) {
     if (resultAry[i + 1] !== undefined) {
-      res += `${resultAry[i]}${resultAry[i + 1]}`
+      res += `${resultAry[i]}${resultAry[i + 1]}`;
     }
   }
-  return res
+  return res;
 }
 ```
 
@@ -268,26 +268,26 @@ NipoではBi-gramではなくUni-gramで分解しています。つまり1文字
  */
 export function makeNgramWithoutDigit (dutyVal:string | number, len = 2, tobeDigitBlock = false):string {
   if (typeof dutyVal === 'number') {
-    return dutyVal.toString()
+    return dutyVal.toString();
   }
-  const resultAry = Array.from(dutyVal)
+  const resultAry = Array.from(dutyVal);
 
   if (resultAry.length <= len) {
-    return dutyVal
+    return dutyVal;
   }
   /**
    * 区切り文字列たち
    */
-  const breakWord = [' ', '　', '-', '_']
+  const breakWord = [' ', '　', '-', '_'];
   const numWord = [
     '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
     '０', '１', '２', '３', '４', '５', '６', '７', '８', '９',
     ',', '.', '・', '、', '，'
-  ]
+  ];
   /**
    * resは最終的に返す値を蓄える文字列です
    */
-  let res = ''
+  let res = '';
   for (let i = 0; i <= resultAry.length - 1;) {
     // 引数tobeDigitBlockがtrueなら数値はN-gramではなく1つの連なったブロックとして出力する。
     // 例えば 123000という値が来たとき、
@@ -295,33 +295,33 @@ export function makeNgramWithoutDigit (dutyVal:string | number, len = 2, tobeDig
     // tobeDigitBlock = falseなら123 230 300 000(lenが3と仮定)
     // となる
     if (tobeDigitBlock) {
-      const currentChar = resultAry[i]
+      const currentChar = resultAry[i];
       if (numWord.includes(currentChar)) {
-        let digitNode = ''
+        let digitNode = '';
         // 現在のポインタは数字を示しているため、連なった数字までポインタを進め、を1つのトークンとする(Ngramにはしない)
         // eslint-disable-next-line no-constant-condition
         while (true) {
-          const digitChar = resultAry[i]
-          if (!numWord.includes(digitChar)) { break }
-          digitNode += digitChar
-          i++
+          const digitChar = resultAry[i];
+          if (!numWord.includes(digitChar)) { break; }
+          digitNode += digitChar;
+          i++;
         }
-        res += `${digitNode} `
+        res += `${digitNode} `;
       }
     }
-    let charNode = ''
+    let charNode = '';
     // nグラムのノードを作成する
     for (let j = 0; j < len; j++) {
-      const char = resultAry[i + j]
-      if (char === undefined) break
-      if (breakWord.includes(char)) break
-      charNode += char
+      const char = resultAry[i + j];
+      if (char === undefined) break;
+      if (breakWord.includes(char)) break;
+      charNode += char;
     }
 
     // 出来上がったNgramのノードをスペースでつないであげる
-    res += `${charNode} `
-    i++
+    res += `${charNode} `;
+    i++;
   }
-  return res
+  return res;
 }
 ```

@@ -70,7 +70,7 @@ NipoPlusのアプリではデータを見やすく変形させることで日報
   "observer": ["mMSejOQa21d9OtXo1BtjFzrEt6J3"],
   "dists": ["mMSejOQa21d9OtXo1BtjFzrEt6J3"],
   "state": "新規"
-}
+};
 ```
 
 ## 日報テンプレートの生データ
@@ -124,8 +124,7 @@ bodyはテキスト入力フォームや選択肢入力フォーム、スライ�
       "key": "A4x",
       "type": "number",
       "w": 4
-
-],
+]
 ```
 
 このテンプレートを使って作成された日報のBodyは次のようになります

@@ -28,11 +28,11 @@ homepage = false
  * スクロール太郎
  */
 export function smoothScroll (refId?: string, offsetY = 100) {
-  if (refId === undefined) { Notify.create({ message: ('エラーが発生しました') }); return }
+  if (refId === undefined) { Notify.create({ message: ('エラーが発生しました') }); return; }
   const targetEl = <HTMLDivElement>document.querySelector(`#${refId}`)
-  if (targetEl === null) { Notify.create({ message: ('エラーが発生しました') }); return }
-  const topOfElement = targetEl.offsetTop - offsetY
-  window.scroll({ top: topOfElement, behavior: 'smooth' })
+  if (targetEl === null) { Notify.create({ message: ('エラーが発生しました') }); return; }
+  const topOfElement = targetEl.offsetTop - offsetY;
+  window.scroll({ top: topOfElement, behavior: 'smooth' });
 }
 ```
 
@@ -48,7 +48,7 @@ QuasarにはScrollについても色々便利なユーティリティを提供�
 {{<imgproc modals.png "モーダル内のウインドウに対してスクロールをさせたい" />}}
 以下、コードです。QuasarFramework環境下であればコピペで動きます。
 
-```typescript
+```html
 <template>
   <div>
     <q-btn label="モーダル Open" @click="showModal = true" />
@@ -73,32 +73,35 @@ QuasarにはScrollについても色々便利なユーティリティを提供�
     </q-dialog>
   </div>
 </template>
+```
+
+```typescript
 
 <script setup lang="ts">
-import { ref } from 'vue'
-import { getRandStr } from 'src/components/utils'
-import { scroll } from 'quasar'
+import { ref } from 'vue';
+import { getRandStr } from 'src/components/utils';
+import { scroll } from 'quasar';
 
-const showModal = ref(false)
+const showModal = ref(false);
 
-const dummy = ref<{ id: string, text: string}[]>([])
+const dummy = ref<{ id: string, text: string}[]>([]);
 
 // ダミーデータを生成
 for (let i = 0; i < 500; i++) {
   // getRandStrはランダムな文字列を作るオリジナル関数です
-  const id = getRandStr(3)
-  if (i === 100) { dummy.value.push({ id: 'hogehoge', text: '目的のDivノード hogehoge 100 ■■■■■■■■■■■■■■■■■■■■' }) }
-  if (i === 300) { dummy.value.push({ id: 'aiueo', text: '目的のDivノード aiueo 300 ■■■■■■■■■■■■■■■■■■■■' }) }
-  dummy.value.push({ id, text: `other text contents ---- ${id}` })
+  const id = getRandStr(3);
+  if (i === 100) { dummy.value.push({ id: 'hogehoge', text: '目的のDivノード hogehoge 100 ■■■■■■■■■■■■■■■■■■■■' }); }
+  if (i === 300) { dummy.value.push({ id: 'aiueo', text: '目的のDivノード aiueo 300 ■■■■■■■■■■■■■■■■■■■■' }); }
+  dummy.value.push({ id, text: `other text contents ---- ${id}` });
 }
 
 /**
  * スクロール先のIDへスクロールする処理
  */
 function scrollToElement (refId: string, offsetY = 0) {
-  const element = <HTMLDivElement>document.querySelector(`#${refId}`)
-  const getScrollTarget = scroll.getScrollTarget(element)
-  scroll.setVerticalScrollPosition(getScrollTarget, element.offsetTop - offsetY, 300)
+  const element = <HTMLDivElement>document.querySelector(`#${refId}`);
+  const getScrollTarget = scroll.getScrollTarget(element);
+  scroll.setVerticalScrollPosition(getScrollTarget, element.offsetTop - offsetY, 300);
 }
 
 </script>

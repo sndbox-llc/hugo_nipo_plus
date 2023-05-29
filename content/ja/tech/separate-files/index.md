@@ -37,8 +37,8 @@ Cloud Functionsはアクセスが有ったときだけ動くサーバのよう�
 そんな便利なクラウドファンクションは、index.tsに処理を記述していきます。記述するとこんな感じ
 
 ```typescript
-import * as functions from 'firebase-functions'
-const admin = require('firebase-admin')
+import * as functions from 'firebase-functions';
+const admin = require('firebase-admin');
 
 const firebaseKey = {
   'type': 'service_account',
@@ -62,14 +62,14 @@ admin.initializeApp({
 // 例えばデータが追加されたらカウントアップするサンプルクラウドファンクション
 // カウンターみたいな処理もクラウドファンクションに任せたほうがいいかも
 exports.addDataCounter = functions.firestore.document('user/{userId}/data/{dataId}').onCreate(async (snap, context) => {
-  const userId = context.params.userId
-  const ref = await admin.firestore().collection('user').doc(userId).collection('lock').doc('state').get()
+  const userId = context.params.userId;
+  const ref = await admin.firestore().collection('user').doc(userId).collection('lock').doc('state').get();
   if (ref.exists) {
-    let currentCnt = ref.data().dataCnt
-    currentCnt = currentCnt + 1
-    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').update({ dataCnt: currentCnt})
+    let currentCnt = ref.data().dataCnt;
+    currentCnt = currentCnt + 1;
+    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').update({ dataCnt: currentCnt});
   } else {
-    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').set({ dataCnt: 1})
+    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').set({ dataCnt: 1});
   }
 })
 ```
@@ -80,7 +80,7 @@ addDataCounterの行が実際の処理となる部分です。このサンプル
 あとはやりたい処理を書き連ねていくだけです。
 
 ```javascript
-exports.関数名 = functions.firestore.document(‘監視対象Path’) .onCreate({ 処理 })
+exports.関数名 = functions.firestore.document(‘監視対象Path’) .onCreate({ 処理 });
 ```
 
 仕組みは非常にシンプルです。exportsで指定された関数の数だけクラウドファンクションに登録されます。しかしシステムは次から次へと新たしい要望が出てきます。するとクラウドファンクションもあっという間に膨大な行数へ豹変します。
@@ -93,7 +93,7 @@ exports.関数名 = functions.firestore.document(‘監視対象Path’) .onCrea
 さて、クラウドファンクションの関数を１つのファイルに切り出してみましょう。注意点としては、
 
 ```javascript
-admin.initializeApp
+admin.initializeApp;
 ```
 
 この処理は１回しか呼び出せません。複数回呼び出すとエラーで落ちます。
@@ -102,9 +102,9 @@ admin.initializeApp
 
 ```typescript
 // 【index.ts】
-import * as functions from 'firebase-functions'
-import * as myCounter from './myCounter' // 追記
-const admin = require('firebase-admin')
+import * as functions from 'firebase-functions';
+import * as myCounter from './myCounter'; // 追記
+const admin = require('firebase-admin');
 
 const firebaseKey = {
   'type': 'service_account',
@@ -134,20 +134,20 @@ module.exports = {
 
 ```typescript
 // 【myCounter.ts】
-import * as functions from 'firebase-functions'
-import * as admin from 'firebase-admin'
+import * as functions from 'firebase-functions';
+import * as admin from 'firebase-admin';
 
 // 例えばデータが追加されたらカウントアップするサンプルクラウドファンクション
 // カウンターみたいな処理もクラウドファンクションに任せたほうがいいかも
 export default functions.firestore.document('user/{userId}/data/{dataId}').onCreate(async (snap, context) => {
-  const userId = context.params.userId
-  const ref = await admin.firestore().collection('user').doc(userId).collection('lock').doc('state').get()
+  const userId = context.params.userId;
+  const ref = await admin.firestore().collection('user').doc(userId).collection('lock').doc('state').get();
   if (ref.exists) {
-    let currentCnt = ref.data().dataCnt
-    currentCnt = currentCnt + 1
-    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').update({ dataCnt: currentCnt})
+    let currentCnt = ref.data().dataCnt;
+    currentCnt = currentCnt + 1;
+    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').update({ dataCnt: currentCnt});
   } else {
-    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').set({ dataCnt: 1})
+    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').set({ dataCnt: 1});
   }
 })
 ```

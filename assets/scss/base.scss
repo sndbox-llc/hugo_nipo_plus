@@ -1,29 +1,35 @@
+/** Import Bootstrap functions */
+@import "bootstrap/scss/functions";
+/** Import theme variables */
+@import "common/variables";
+/** Import Bootstrap */
+@import "bootstrap.scss";
+/** Import highlight.js */
+// @import "highlight.js/scss/github-dark-dimmed";
+/** Import KaTeX */
+// @import "katex/dist/katex";
+/** Import theme styles */
+@import "common/global";
+@import "common/dark";
+@import "components/alerts";
+@import "components/buttons";
+@import "components/code";
+@import "components/details";
+@import "components/syntax";
+@import "components/comments";
+@import "components/forms";
+@import "components/images";
+@import "components/mermaid";
+@import "components/search";
+@import "components/tables";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/sidebar";
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: $baseColor;
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: $accentColor;
-}
-
-
-#TableOfContents .active {
-  background-color: powderblue;
-}
-
-.breadcrumb {
-  border-bottom: 1px solid purple;
-}
-
-.navBarBackgroundColor {
-  background-color: $lightColor;
-}
-
-.svgIconFill {
-  fill: $accentColor
-}
+/** Import custom styles */
+@import "common/custom";
+@import "custom/fukidashi.scss";
+@import "custom/lightbox.scss";
+@import "custom/svg.scss";

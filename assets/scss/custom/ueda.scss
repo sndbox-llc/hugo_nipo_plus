@@ -1,0 +1,29 @@
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: $baseColor;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: $accentColor;
+}
+
+
+#TableOfContents .active {
+  background-color: powderblue;
+}
+
+.breadcrumb {
+  border-bottom: 1px solid purple;
+}
+
+.navBarBackgroundColor {
+  background-color: $lightColor;
+}
+
+.svgIconFill {
+  fill: $accentColor
+}

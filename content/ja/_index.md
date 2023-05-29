@@ -46,9 +46,9 @@ CSVの**出力形式は目的に応じて変更**できます。バックアッ�
 グラフは複数種類保存できます。スタッフごとにグラフの設定が記録できます。
 数値の比較はもちろんのこと、[選択式入力フォーム](/manual/initial-setting/template/select/)のデータも表にできます。
 
-<div class="row">
-<div class="col-8">{{<button "/manual/analytics/" "集計とグラフ化">}}</div>
-<div class="col-8">{{<button "/checksheet/factory/" "不良率の計算">}}</div>
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-8">{{<button "/manual/analytics/" "集計とグラフ化">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/checksheet/factory/" "不良率の計算">}}</div>
 </div>
 
 ## 報告書内の記入順序制御・記入漏れチェック・品質の高い報告書を維持します
@@ -85,11 +85,11 @@ NipoPlusはスマホやタブレット・PCに完全に対応しています。P
 
 どちらも同じ日報を書いている画面ですが、見た目こそ違えど肝心の内容は全く同一です。
 
-<div class="row">
-<div class="col-4">{{<button "/system/android/" "Androidで使う">}}</div>
-<div class="col-4">{{<button "/system/ios/" "iOSで使う">}}</div>
-<div class="col-4">{{<button "/tips/smartphone/" "モバイルの利点">}}</div>
-<div class="col-4">{{<button "/tips/sign/" "タブレットで署名">}}</div>
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-4">{{<button "/system/android/" "aAndroidで使う">}}</div>
+<div class="col-sm-16 col-md-4">{{<button "/system/ios/" "iOSで使う">}}</div>
+<div class="col-sm-16 col-md-4">{{<button "/tips/smartphone/" "モバイルの利点">}}</div>
+<div class="col-sm-16 col-md-4">{{<button "/tips/sign/" "タブレットで署名">}}</div>
 </div>
 
 ## 報告書の承認リレーやコメント機能
@@ -102,7 +102,7 @@ NipoPlusではグループを分けて管理できますが、グループを小
 小規模なコミュニティとは何でしょう？例えば製造部と営業部では報告書のテンプレートも、仕事内容も全く違うため、「製造部」グループと「営業部」グループを分けることでコミュニティを小さく保てます。
 グループごとにテンプレートを分けられるので、製造部が使う「設備点検シート」を営業部が目にしなくても済みます。
 
-グループを小さく保つことの他に、グループ内で **「日報を全員が共有するのか？」**という問題があります。会社やグループによってこれは判断が分かれるところです。
+グループを小さく保つことの他に、グループ内で **「日報を全員が共有するのか？」** という問題があります。会社やグループによってこれは判断が分かれるところです。
 全員が日報を読めればノウハウの蓄積、情報の共有などに効果がありますが、一方で情報を制限しなければならない場合もあります。
 
 ですのでこれは利用者側である程度設定ができるようになっています。日報を**管理者しか読めない**ようにすることも、グループ内の**全員が日報を読める**ようにすることも自由です。
@@ -148,10 +148,12 @@ PDF出力前に設定を変更すればQRコードの埋め込みや透かし文
 初めてアカウントを作ると無料のお試し期間が開始されます。（30日間）この間、クレジットカードや企業名、連絡先の入力は不要です。
 お試し期間がすぎると自動で無料プランへ切り替わります。勝手に課金が開始されることはありません。
 
-<div class="row">
-<div class="col-8">{{<button "/price/" "料金について">}}</div>
-<div class="col-8">{{<button "/price/free/" "無料プランについて">}}</div>
+
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-8">{{<button "/price/" "料金について">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/price/free/" "無料プランについて">}}</div>
 </div>
+
 
 ## 匿名アカウントで気軽に体験OK!パスワードも不要です
 
@@ -164,8 +166,9 @@ NipoPlusでは匿名アカウント機能を使うことでメールアドレス
 
 使い方についてはクイックスタートガイドが参考になります。順序立てて日報を提出するまでの流れを解説しています
 
-<div class="row">
-<div class="col-5">{{<button "/manual/account/tokumei/" "匿名アカウント">}}</div>
-<div class="col-6">{{<button "/quickstart/" "クイックスタートガイド">}}</div>
-<div class="col-5">{{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動" "_blank">}}</div>
+
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-5">{{<button "/manual/account/tokumei/" "匿名アカウント">}}</div>
+<div class="col-sm-16 col-md-6">{{<button "/quickstart/" "クイックスタートガイド">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動" "_blank">}}</div>
 </div>

@@ -19,9 +19,11 @@ NipoPlusは1名1ヶ月あたり180円のサブスクリプション方式とな�
 NipoPlusの有料プランはユーザがいつでも解約できる柔軟性があります。
 契約期間や解約手数料がかかることはありません。必要なときにいつでも利用開始、停止、再開が可能です。
 
-<div class="row">
-<div class="col-8">{{<button "/docs/system/business-deal/" "特定商取引法に基づく表記">}}</div>
-<div class="col-8">{{<button "/docs/price/free/" "無料プランについて">}}</div>
+
+
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-8">{{<button "/docs/system/business-deal/" "特定商取引法に基づく表記">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/price/free/" "無料プランについて">}}</div>
 </div>
 
 ---
@@ -53,9 +55,11 @@ NipoPlusの有料プランはユーザがいつでも解約できる柔軟性が
 更新数日前にメールで通知が届きますので、うっかり解約忘れて損をするリスクも軽減しています。
 請求書による支払いを希望される場合は[請求書払いのページ](/docs/price/invoice/)を御覧ください。（クレジットカードに比べて割高・制限も多くあります）
 
-<div class="row">
-<div class="col-8">{{<button "/docs/price/fee/" "有料プランへ加入">}}</div>
-<div class="col-8">{{<button "/docs/price/cancel/" "有料プランを解約">}}</div>
+
+
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-8">{{<button "/docs/price/fee/" "有料プランへ加入">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/price/cancel/" "有料プランを解約">}}</div>
 </div>
 
 ## 同業他社との価格比較

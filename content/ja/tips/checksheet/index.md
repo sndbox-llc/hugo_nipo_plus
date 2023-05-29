@@ -59,11 +59,13 @@ NipoPlusのグラフには「円グラフ・折れ線グラフ・棒グラフ・
 通常はこれらの機能を用いてグラフを作成できますが、より高度な分析を行う場合はエクセルを利用することが有効です。
 NipoPlusはデータをCSV形式でエクスポートすることができるので、エクセルでデータを読み込み、ピボットテーブルやグラフなどの高度な機能を利用して分析を行うことができます。
 
-<div class="row">
-<div class="col-5">{{<button "/docs/manual/analytics/list/" "データ推移">}}</div>
-<div class="col-6">{{<button "/docs/manual/analytics/chart/" "グラフ作成">}}</div>
-<div class="col-5">{{<button "/tips/sales_report/" "エクセルの集計">}}</div>
+
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-5">{{<button "/docs/manual/analytics/list/" "データ推移">}}</div>
+<div class="col-sm-16 col-md-6">{{<button "/docs/manual/analytics/chart/" "グラフ作成">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "/tips/sales_report/" "エクセルの集計">}}</div>
 </div>
+
 
 
 ## 複数種類のチェックシートを切り替えて管理

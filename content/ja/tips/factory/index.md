@@ -32,9 +32,10 @@ NipoPlusのデータ集計は色々できますが、ここでは不良率の計
 
 参考:
 
-<div class="row">
-<div class="col-8">{{<button "/docs/manual/initial-setting/template/" "テンプレート作成ガイド">}}</div>
-<div class="col-8">{{<button "/docs/manual/initial-setting/template/calc/" "算術入力フォーム">}}</div>
+
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/initial-setting/template/" "テンプレート作成ガイド">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/initial-setting/template/calc/" "算術入力フォーム">}}</div>
 </div>
 
 さて、不良率を求めるのは簡単な計算でできますね。

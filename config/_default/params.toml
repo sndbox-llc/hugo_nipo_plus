@@ -10,7 +10,7 @@ description = "オリジナルのテンプレートを使用して日報やチ�
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["nipoplus.png"]
+images = ["/images/nipoplus.png"]
 ogLocale = "ja_JP"
 domainTLD = "nipo-plus-doc.sndbox.jp"
 titleHome = "報告書App NipoPlus"
@@ -27,10 +27,10 @@ schemaAuthor = "Nipo Plus"
 schemaAuthorTwitter = "https://twitter.com/nipo_plus"
 schemaAuthorGitHub = "https://github.com/sandbox-co-ltd"
 schemaLocale = "ja-JP"
-schemaLogo = "nipoplus.png"
+schemaLogo = "/images/nipoplus.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "nipoplus.png"
+schemaImage = "/images/nipoplus.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/nipo_plus"

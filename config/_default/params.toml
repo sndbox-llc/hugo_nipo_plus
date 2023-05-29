@@ -3,8 +3,8 @@
 ## Homepage
 title = "NipoPlus"
 titleSeparator = "|"
-titleAddition = "報告書をシステム化"
-description = "オリジナルのテンプレートを使用して日報やチェックシートなどの報告書作成を効率化するWebシステム。製造業の方にも徐々に認知されてきました。モバイル対応。簡易的なノーコードアプリで無料プランもあります"
+titleAddition = "ノーコードで報告書をアプリ化"
+description = "製造業のチェックシートや日報にも。スマホで日報作成や承認棄却、報告書の集計&グラフ化📊だって可能です。無料プラン有り〼有料プランも業界最安値"
 
 ## Documentation
 # docsVersion = "0.3"

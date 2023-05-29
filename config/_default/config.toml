@@ -1,4 +1,3 @@
-# baseurl = "https://sandbox-co-ltd.github.io/doks/"
 baseurl = "https://nipo-plus-doc.sndbox.jp/"
 canonifyURLs = false
 disableAliases = false

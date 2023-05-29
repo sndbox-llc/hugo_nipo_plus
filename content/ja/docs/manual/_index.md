@@ -1,6 +1,6 @@
 +++
 title = "使い方"
-description = "Help Doks."
+description = "Help NipoPLus."
 lead = ""
 date = "2020-10-06"
 lastmod = "2020-10-06"

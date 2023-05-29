@@ -1,3 +1,5 @@
+/*
+config/postcss.jsをつかう
 const purgecss = require("@fullhuman/postcss-purgecss")({
   content: ["./hugo_stats.json"],
   defaultExtractor: (content) => {
@@ -12,3 +14,4 @@ module.exports = {
     ...(process.env.HUGO_ENVIRONMENT === "production" ? [purgecss] : []),
   ],
 };
+*/

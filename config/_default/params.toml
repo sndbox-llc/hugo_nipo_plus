@@ -4,16 +4,16 @@
 title = "NipoPlus"
 titleSeparator = "|"
 titleAddition = "報告書をシステム化"
-description = "NipoPlusは、カスタマイズ可能なテンプレートを使用して、日報やチェックシートなどの報告書作成を効率化するWebシステムです。簡単な操作で独自のテンプレートを作成し、従業員はいつでもどこでもデータ入力が可能。高度な承認機能やグループ管理で情報共有をスムーズにし、セキュリティ対策で安心して業務に取り組めます。リーズナブルな価格で、企業のあらゆる業務に最適な報告書管理ツールを提供します"
+description = "オリジナルのテンプレートを使用して日報やチェックシートなどの報告書作成を効率化するWebシステム。製造業の方にも徐々に認知されてきました。モバイル対応。簡易的なノーコードアプリで無料プランもあります"
 
 ## Documentation
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
-ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+images = ["nipoplus.png"]
+ogLocale = "ja_JP"
+domainTLD = "nipo-plus-doc.sndbox.jp"
+titleHome = "報告書App NipoPlus"
 
 ## Twitter Cards
 twitterSite = "@nipo_plus"
@@ -27,10 +27,10 @@ schemaAuthor = "Nipo Plus"
 schemaAuthorTwitter = "https://twitter.com/nipo_plus"
 schemaAuthorGitHub = "https://github.com/sandbox-co-ltd"
 schemaLocale = "ja-JP"
-schemaLogo = "logo-doks.png"
+schemaLogo = "nipoplus.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "nipoplus.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/nipo_plus"
@@ -76,13 +76,12 @@ alertText = "2023/05/28 サイトリニューアルしました"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
-# repoHost = "GitHub"
-#repoHost = "Gitea"
-# docsRepo = "https://github.com/h-enk/doks"
-# docsRepoBranch = "master"
-# docsRepoSubPath = ""
-# editPage = false
-# lastMod = true
+repoHost = "GitHub"
+docsRepo = "https://github.com/sandbox-co-ltd/hugo_nipo_plus"
+docsRepoBranch = "master"
+docsRepoSubPath = ""
+editPage = false
+lastMod = true
 
 [sections]
   sectionNav = ["docs", "guides"]
@@ -104,7 +103,7 @@ alertText = "2023/05/28 サイトリニューアルしました"
   fullWidth = true
   navbarSticky = true
   toTopButton = false
-  scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
+  scrollSpy = false
 
 [menu]
   [menu.section]

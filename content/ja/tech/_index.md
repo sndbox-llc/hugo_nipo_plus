@@ -11,13 +11,3 @@ images = []
 
 Webアプリを開発していると色々躓くことがたくさんあります。
 ここではこれまでNipoやNipoPlusを開発する上で、気になったことや共有したい情報を綴った技術系ブログのページトップです。
-
-|Key|Value|
-|---|---|
-|使用インフラ|Firebaseが多い|
-|使用PC|M1 MacBook Air|
-|使用言語|Vue(Quasar Framework愛用) / TypeScript / Nodejs|
-
-{{<alice pos="right" icon="ok">}}
-NipoPlusのマニュアルではないよ。NipoPlusを作るときに気になったことを書いてくよ
-{{</alice>}}

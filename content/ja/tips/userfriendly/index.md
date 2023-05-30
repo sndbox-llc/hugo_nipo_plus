@@ -44,7 +44,7 @@ NipoPlusでは自由に報告書のテンプレートをカスタマイズでき
 
 {{<icatch filename="word-color-coding" msg="色分けした例です 視認性も向上！？" title="選択肢が多い場合は色分けを駆使することで視認性が向上します" fontsize="30px" alice="ok" >}}
 
-{{<button "/docs/manual/initial-setting/template/select/" "選択肢の色分けについて">}}
+{{<btnCenter "/docs/manual/initial-setting/template/select/" "選択肢の色分けについて">}}
 
 ## 補足説明や補足用の画像をうまく組み込んで報告者が迷うことのないように配慮する
 
@@ -67,7 +67,7 @@ NipoPlusでは、テンプレートの作成時に入力順序を指定するこ
 
 {{<icatch filename="input-order" msg="入力順を指定すれば 次の入力項目が明確" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
 
-{{<button "/tips/required/" "入力必須・入力順の制御について詳しく">}}
+{{<btnCenter "/tips/required/" "入力必須・入力順の制御について詳しく">}}
 
 ## スマホ・タブレット・PCそれぞれの得意・不得意を意識する
 
@@ -80,7 +80,7 @@ NipoPlusはマルチプラットフォームに対応しています。つまり
 
 {{<imgproc pen2.jpg "署名はタッチパネルでの利用が大前提となります" />}}
 
-{{<button "/tips/smartphone/" "スマートフォン・タブレットの最適な利用">}}
+{{<btnCenter "/tips/smartphone/" "スマートフォン・タブレットの最適な利用">}}
 
 ## 日報業務の負担を軽減するための努力を惜しまない
 
@@ -92,4 +92,4 @@ NipoPlusのテンプレート編集機能では多くの設計方法がありま
 テンプレートは読み手と書き手をつなぐ重要な橋の役割を担うため、テンプレートの作成時にはそのことを意識してよりスタッフに負担の少ないテンプレートを意識して作成してみてください。
 もしテンプレートの作成で疑問があれば、その際はいつでも遠慮なくお問い合わせください。
 
-{{<button "/docs/system/inquery/" "お問い合わせフォーム">}}
+{{<btnCenter "/docs/system/inquery/" "お問い合わせフォーム">}}

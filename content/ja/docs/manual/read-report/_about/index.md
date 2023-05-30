@@ -25,7 +25,7 @@ aliases = ['/manual/read-report/']
 また日報受信BOXでは期間を絞って日報の表示期間を変更したり、特定の単語やテンプレートによる検索も可能です。**検索した条件は保存できる**ので利便性もバッチリです。
 タブを切り替えれば送信BOXになり、こちらではその名の通り自分が書いた日報を確認できます。
 
-{{<button "/docs/manual/read-report/_about/" "受信BOXのマニュアルを見る">}}
+{{<btnCenter "/docs/manual/read-report/_about/" "受信BOXのマニュアルを見る">}}
 
 ## 日報を詳細に表示する
 

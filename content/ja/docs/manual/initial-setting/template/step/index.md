@@ -83,4 +83,4 @@ aliases = ['/manual/initial-setting/template/step/']
 {{</alice>}}
 
 日報表示画面の集計は**直近数件の日報を集計**するため実用的ではないことに注意してください。一般的には「今月」や「先月」といった単位で集計したいはずです。
-{{<button "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
+{{<btnCenter "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}

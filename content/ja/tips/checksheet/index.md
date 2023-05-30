@@ -99,7 +99,7 @@ NipoPlusはデータをCSV形式でエクスポートすることができるの
 モバイルデバイスならではの強みを活かすことも可能です。例えば署名入力ではタッチパネルがそのままキャンバスになりますし、現場の写真をチェックシートに添付したいときも、
 タブレットやスマートフォンのカメラで撮影してそのまま添付することが可能です。
 
-{{<button "/tips/smartphone/" "モバイルに相性の良い日報について">}}
+{{<btnCenter "/tips/smartphone/" "モバイルに相性の良い日報について">}}
 
 
 ## 承認してチェックシートの編集をロック可能
@@ -122,7 +122,7 @@ NipoPlusではチェックシートのチェック項目や内容などのテン
 例えば製品の品質管理チェックシートや設備点検のチェックシート、現地調査チェックシートなど自由に作ることが出来ます。
 
 
-{{<button "/tips/maker/" "チェックシートのテンプレート例を見る">}}
+{{<btnCenter "/tips/maker/" "チェックシートのテンプレート例を見る">}}
 
 ## 自動車部品製造工場でNipoPlusを利用している実際の写真
 
@@ -151,7 +151,7 @@ NipoPlusならそれらをカバーしているので中小企業に幅広く売
 有料プランへお申し込みいただく際は料金が1名1ヶ月あたり180円で10名からの申込みが可能です。
 つまり1ヶ月1800円〜ご利用が可能です。
 
-<div class="row">
-<div class="col-8">{{<button "/docs/price/_about/" "料金について">}}</div>
-<div class="col-8">{{<button "/docs/price/free/" "無料プランについて">}}</div>
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-8">{{<button "/docs/price/_about/" "料金について">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/price/free/" "無料プランについて">}}</div>
 </div>

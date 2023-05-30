@@ -11,7 +11,7 @@ aliases = ['/old/parts/checkbox/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/checkbox/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/checkbox/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## チェックボックスの入力画面
 

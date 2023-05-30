@@ -41,15 +41,15 @@ PDFの場合は変換処理などをWebサーバ上で行うため、ボタン�
 CSVの一括ダウンロード機能はAndroid / iOSアプリ版では利用できません。Web版(PWA版)のNipoPlusからご利用ください。
 CSVデータにはUTF-8という文字コードが使用されます。古い解凍ソフトなどではUTF8に対応しておらず文字化けを起こすことがります。
 
-{{<button "/tech/mojibake/" "文字化けの原因と対策について">}}
+{{<btnCenter "/tech/mojibake/" "文字化けの原因と対策について">}}
 
 CSV出力前に行列の入れ替えや、出力しない列の選択など細かい設定が可能です。バックアップ目的なのか、集計や分析を目的としているのかによって出力形式を適時最適なものに変更することで、データ集計の労力を軽減できる可能性もあります。
 
-{{<button "/docs/manual/analytics/csvoption/" "CSV出力形式の変更">}}
+{{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力形式の変更">}}
 
 CSV出力は例えばカレンダー画面や受信BOX画面からも同様の機能が用意されています。詳しくはCSV出力のページを御覧ください
 
-{{<button "/docs/manual/analytics/csv/" "CSV出力">}}
+{{<btnCenter "/docs/manual/analytics/csv/" "CSV出力">}}
 
 
 ## 集計処理-過去データ推移・データ累積
@@ -64,7 +64,7 @@ NipoPlusではテンプレートを自由に作成できますが、そのため
 さて、集計対象テンプレートを選んだあとに作成される一覧表については、実を言うと「過去データ推移機能」と全く同じものになります。
 違いは集計期間の指定とテンプレートの切替が可能という点のみです。「過去データ推移」については以下を参照してください。
 
-{{<button "/docs/manual/analytics/list/" "過去データ推移の機能">}}
+{{<btnCenter "/docs/manual/analytics/list/" "過去データ推移の機能">}}
 
 ## グラフの作成
 
@@ -75,5 +75,5 @@ NipoPlusではテンプレートを自由に作成できますが、そのため
 グラフは複数種類定義して保存でき、用途に応じていつでも切替が可能です。
 グラフの種類やグラフの詳しい使い方については、グラフ化のページを御覧ください
 
-{{<button "/docs/manual/analytics/chart/" "グラフ化">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "グラフ化">}}
 

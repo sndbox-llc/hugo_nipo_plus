@@ -13,7 +13,7 @@ aliases = ['/manual/initial-setting/']
 
 初めての方はチュートリアルの記事を御覧ください。アカウント作成から日報提出までの基本的な流れを必要最小限にとどめて解説しています。
 
-{{<button "/docs/manual/quickstart/" "チュートリアルを見る" >}}
+{{<btnCenter "/docs/manual/quickstart/" "チュートリアルを見る" >}}
 
 ---
 
@@ -37,7 +37,7 @@ NipoPlusを使うためには以下の設定を行う必要があります。
 
 ※グループの作成には管理者権限が必要です。
 
-{{<button "/docs/manual/initial-setting/make-group/" "グループの作成マニュアルを見る" >}}
+{{<btnCenter "/docs/manual/initial-setting/make-group/" "グループの作成マニュアルを見る" >}}
 
 ## 【日報テンプレート】とは日報を書くための枠で、一般には雛形やフォーマットとも呼ばれることもあります
 
@@ -49,7 +49,7 @@ NipoPlusを使うためには以下の設定を行う必要があります。
 
 ※テンプレートの作成には「編集者権限以上」が必要です。
 
-{{<button "/docs/manual/initial-setting/template/make/" "テンプレートの作成マニュアルを見る" >}}
+{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレートの作成マニュアルを見る" >}}
 
 ## 【スタッフアカウント】はスタッフを特定するためのIDです
 
@@ -57,5 +57,5 @@ NipoPlusを使うためには以下の設定を行う必要があります。
 メールに例えるとわかりやすいですね。メールを送信する人とメールを受信する人はそれぞれ別です。
 アカウントを作ることで日報のやり取りを相互にできるようになります。権限を指定したり、アカウントごとに提出先の相手を指定することも可能です。
 
-{{<button "/docs/manual/initial-setting/staff/make/" "アカウントの作成マニュアルを見る" >}}
+{{<btnCenter "/docs/manual/initial-setting/staff/make/" "アカウントの作成マニュアルを見る" >}}
 

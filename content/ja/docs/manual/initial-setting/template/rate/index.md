@@ -58,7 +58,7 @@ aliases = ['/manual/initial-setting/template/rate/']
 
 {{<appscreen filename="make-charts" title="日報に含まれるレートのデータを使って円グラフや折れ線グラフを作成できます"  >}}
 
-{{<button "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
 
 レートの集計について少し詳しく見てみましょう。データシートを「推移」から「累積」に切り替えることで**データの集計**が可能です。
 
@@ -69,7 +69,7 @@ aliases = ['/manual/initial-setting/template/rate/']
 NipoPlusの集計はこの両方をサポートしています。初期状態では単純な**星の合計を表示**します。詳細表示ボタンを押すと各レート毎の選択回数が表示されます。
 
 日報表示画面の集計は**直近数件の日報を集計**するため実用的ではないことに注意してください。一般的には「今月」や「先月」といった単位で集計したいはずです。
-{{<button "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
+{{<btnCenter "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
 
 
 {{<alice pos="right" icon="here">}}細かい点ですが選択したアイコンが一覧表に使用されているのもポイントです{{</alice>}}

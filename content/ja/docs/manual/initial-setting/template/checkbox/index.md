@@ -56,7 +56,7 @@ aliases = ['/manual/initial-setting/template/checkbox/']
 
 {{<appscreen filename="pie-charts" title="グラフ化"  >}}
 
-{{<button "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|検索|
 |:---:|:---:|:---:|:---:|

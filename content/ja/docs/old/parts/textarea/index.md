@@ -11,7 +11,7 @@ aliases = ['/old/parts/textarea/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 本文の入力画面
 

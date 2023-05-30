@@ -50,7 +50,7 @@ NipoPlusでは、テンプレートの作成時に、入力項目の記入すべ
 こういったケースでは[選択式入力フォーム](/manual/initial-setting/template/select/)などを使えば決められた値から選ぶだけなので、意図しない表記ゆれを防ぐことが可能です。
 またそもそも提出自体を忘れているスタッフが居る場合もあるでしょう。このような場合は[日報提出簿](/manual/read-report/list/)や[カレンダー](/docs/calendar/)から日報の未提出者をかんたんに発見できます。
 
-{{<button "/tips/required/" "記入漏れ・提出漏れの防止">}}
+{{<btnCenter "/tips/required/" "記入漏れ・提出漏れの防止">}}
 
 
 ## モバイルに対応！作業現場から日報の作成が可能です。現場の写真や受領サインもタブレットから簡単に添付
@@ -98,7 +98,7 @@ NipoPlusではグループを分けて管理できますが、グループを小
 ダウンロードしたPDFファイルは1つの独立したファイルなので、メールで送ったり、印刷することも可能です。
 PDF出力前に設定を変更すればQRコードの埋め込みや透かし文字の設定、縦横の向き設定も可能です。
 
-{{<button "/manual/read-report/pdf/" "PDF出力について詳しく見る">}}
+{{<btnCenter "/manual/read-report/pdf/" "PDF出力について詳しく見る">}}
 
 ## リーズナブルな料金設定！1名180円で負担を少なくしました
 
@@ -107,35 +107,10 @@ PDF出力前に設定を変更すればQRコードの埋め込みや透かし文
 
 {{<imgproc price.png "1名180円の料金設定" />}}
 
-日報アプリを謳う製品の純粋な月額コストを比較してみました。
-
-|サービス名|1名単価|最小利用人数|月額総額▼|備考
-|---|---|---|---|---|
-[i-Reporter](https://i-reporter.jp/)|記載なし|5名|37,500円|初期費用50,000円（製造業特化型）
-[Nanoty](https://www.nanotybp.jp/price/)|600円|20名|12,000円|
-[未来日報](https://www.mirairepo.net/)|330円|20名|6,600円|
-[FieldPlus](https://www.fieldplus.net/price/)|500円|記載なし|5,500円|基本料5,000円に1ユーザ500円で5500円（税別）
-[Gamba](https://www.getgamba.com/price/)|816円|5名|4,080円|
-[日報くん](https://nippoukun.bpsinc.jp/#price)|<span style="color:red">44円</span>|60名|2,750円|
-[houren.so](https://www.houren.so/)|記載なし|記載なし|2500円|無料あり
-[Nipo](/old/)|200〜500円|5名|2,250円|無料あり
-[DeskNetsNeo](https://www.desknets.com/neo/price/)|400円|5名|2000円|パッケージ版もあり
-[NipoPlus](/)|180円|10名|<span style="color:red">1,800円</span>|無料あり
-[ニッピー](https://nippii.info/)|980円|記載なし(1名？)|980円？|製造業特化型
-[Pace](https://paces.jp/pricing/)|550円|記載なし(1名？)|550円？|もし最小が1名なら最安値
-
-※(2023年4月の掲載を基準)  
-
-安くてもNipoPlusは他の日報アプリに負けない便利な機能が沢山あります。これまで紹介してきた通りのことがこの料金ですべて利用できます。  
-初めてアカウントを作ると無料のお試し期間が開始されます。（30日間）この間、クレジットカードや企業名、連絡先の入力は不要です。
-お試し期間がすぎると自動で無料プランへ切り替わります。勝手に課金が開始されることはありません。
-
-
 <div class="row justify-content-center">
 <div class="col-sm-16 col-md-8">{{<button "/price/" "料金について">}}</div>
 <div class="col-sm-16 col-md-8">{{<button "/price/free/" "無料プランについて">}}</div>
 </div>
-
 
 ## 匿名アカウントで気軽に体験OK!パスワードも不要です
 
@@ -147,7 +122,6 @@ NipoPlusでは匿名アカウント機能を使うことでメールアドレス
 {{<appscreen filename="signup-anonymous" title="匿名アカウントはEmailやパスワードの設定をせずに利用できるアカウントです" >}}
 
 使い方についてはクイックスタートガイドが参考になります。順序立てて日報を提出するまでの流れを解説しています
-
 
 <div class="row justify-content-center">
 <div class="col-sm-16 col-md-5">{{<button "/manual/account/tokumei/" "匿名アカウント">}}</div>

@@ -67,7 +67,7 @@ graph LR;
 
 答2のデータのみが集計対象となります。円グラフを作ればどのお酒が一番選ばれたか？といったことが瞬時にわかります。
 
-{{<button "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
 
 {{<alice pos="right" icon="please">}}アードベッグ(ウイスキー)大好きな筆者です{{</alice>}}
 
@@ -79,7 +79,7 @@ graph LR;
 
 日報表示画面の集計は**直近数件の日報を集計**するため実用的ではないことに注意してください。一般的には「今月」や「先月」といった単位で集計したいはずです。
 
-{{<button "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
+{{<btnCenter "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
 
 
 ## データ活用編

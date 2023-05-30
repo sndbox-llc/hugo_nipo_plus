@@ -11,7 +11,7 @@ aliases = ['/old/parts/select/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/select/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/select/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 選択肢（単回答）の入力画面
 

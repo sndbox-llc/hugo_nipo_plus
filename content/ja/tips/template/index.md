@@ -122,4 +122,4 @@ homepage = false
 
 具体的なテンプレートの作成手順については以下のリンクを参照してください。
 
-{{<button "/docs/manual/initial-setting/template/" "テンプレートの作り方">}}
+{{<btnCenter "/docs/manual/initial-setting/template/" "テンプレートの作り方">}}

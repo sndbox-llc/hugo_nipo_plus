@@ -23,7 +23,7 @@ CSVファイルの操作に慣れていないユーザーでも、ドラッグ�
 
 {{<icatch filename="csvsc" msg="CSVファイルを ドラッグで連結" title="複数のCSVファイルを1つに結合" fontsize="30px" alice="here" >}}
 
-{{<button "https://code.sndbox.jp/csvsc/#/" "CSVSCの起動" "_blank">}}
+{{<btnCenter "https://code.sndbox.jp/csvsc/#/" "CSVSCの起動" "_blank">}}
 
 ---
 

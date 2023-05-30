@@ -11,7 +11,7 @@ aliases = ['/old/parts/math/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/math/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/math/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 数値の入力画面
 

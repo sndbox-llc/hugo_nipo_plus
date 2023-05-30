@@ -11,7 +11,7 @@ aliases = ['/old/parts/date/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/datetime/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/datetime/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 日付の入力画面
 

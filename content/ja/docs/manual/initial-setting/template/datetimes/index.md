@@ -74,14 +74,14 @@ aliases = ['/manual/initial-setting/template/datetimes/']
 
 {{<appscreen filename="charts" title="期間のデータ（単位：分）を使って積み上げたて棒グラフを作成した例。他にも折れ線や円グラフなど自由に作成できます"  >}}
 
-{{<button "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
 
 数値データをスタッフ毎に集計したい場合は累積モードに切り替えてください。合計が表示されます。
 
 {{<appscreen filename="total" title="期間のデータを集計する。単位はすべて「分」に統一されて計算されることに注意"  >}}
 
 日報表示画面の集計は**直近数件の日報を集計**するため実用的ではないことに注意してください。一般的には「今月」や「先月」といった単位で集計したいはずです。
-{{<button "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
+{{<btnCenter "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
 
 日報作成時に入力された実際のデータ（自〜至）の他に、計算で求めらされた自〜至までの経過時間が表示されます。
 また期間入力フォームは集計可能入力フォームのため、過去データ推移の領域にも集計値が表示されます。

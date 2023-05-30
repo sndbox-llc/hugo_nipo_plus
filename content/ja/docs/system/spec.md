@@ -21,7 +21,7 @@ aliases = ['/system/spec/']
 Webアプリ版は最も早く最新版がリリースされます。
 Nipoのすべての機能が最も使いやすい形で提供されています。Nipoは各種バージョンがありますが、最も推奨されるものがこの「Web版Nipo」になります。Web版Nipoは以下のボタンから開始できます
 
-{{<button "https://nipo-plus.web.app/" "NipoPlusを起動" "_blank">}}
+{{<btnCenter "https://nipo-plus.web.app/" "NipoPlusを起動" "_blank">}}
 
 {{<alice pos="right" icon="pc">}}
 Webアプリ版はPCでもスマホでも使えます
@@ -35,7 +35,7 @@ Webアプリ版はPCでもスマホでも使えます
 |必要な容量|20MB以上のストレージ|
 |推奨モニタサイズ|5.4インチ以上を推奨します。極端に小さなスマートフォンは操作性が低下します  タブレットの場合は、9.7インチ以上を推奨|
 
-{{<button "/docs/system/android/" "Androidにインストールする方法">}}
+{{<btnCenter "/docs/system/android/" "Androidにインストールする方法">}}
 
 {{<alice pos="right" icon="phone">}}
 PWAとしてインストールする方法とApp Storeからインストールする方法があります。PWA版を推奨します
@@ -49,4 +49,4 @@ PWAとしてインストールする方法とApp Storeからインストール�
 |必要な容量|20MB以上のストレージ|
 |推奨モニタサイズ|5.4インチ以上（iPhone SE2のサイズ）以上を推奨します。これ以下のサイズでは操作性が低下します  iPad(9.7inch)サイズ以上が適しています。※iPhone SE以下の小さなディスプレイは非推奨|
 
-{{<button "/docs/system/ios/" "iOSにインストールする方法">}}
+{{<btnCenter "/docs/system/ios/" "iOSにインストールする方法">}}

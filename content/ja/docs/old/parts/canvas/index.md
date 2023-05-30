@@ -10,7 +10,7 @@ contributors = []
 aliases = ['/old/parts/canvas/']
 +++
 
-{{<button "/docs/manual/initial-setting/template/sign/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/sign/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 手書きメモの入力画面
 

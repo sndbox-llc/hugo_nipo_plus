@@ -19,8 +19,6 @@ NipoPlusは1名1ヶ月あたり180円のサブスクリプション方式とな�
 NipoPlusの有料プランはユーザがいつでも解約できる柔軟性があります。
 契約期間や解約手数料がかかることはありません。必要なときにいつでも利用開始、停止、再開が可能です。
 
-
-
 <div class="row justify-content-center">
 <div class="col-sm-16 col-md-8">{{<button "/docs/system/business-deal/" "特定商取引法に基づく表記">}}</div>
 <div class="col-sm-16 col-md-8">{{<button "/docs/price/free/" "無料プランについて">}}</div>
@@ -37,7 +35,7 @@ NipoPlusの有料プランはユーザがいつでも解約できる柔軟性が
 無料プランではいくつかの制限がかかります。詳しくは無料プランのページをご覧ください。
 **無料プランへ降格してもデータは消えません**。制限の範囲内で継続して利用が可能です。
 
-{{<button "/docs/price/free/" "無料プラン">}}
+{{<btnCenter "/docs/price/free/" "無料プラン">}}
 
 ## 有料プランについて
 

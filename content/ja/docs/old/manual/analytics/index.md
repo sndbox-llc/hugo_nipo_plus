@@ -11,7 +11,7 @@ aliases = ['/old/manual/analytics/']
 
 +++
 
-{{<button "/docs/manual/analytics/_about/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/analytics/_about/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## たくさんの日報やチェックシートを1枚のエクセルシートで集計する
 

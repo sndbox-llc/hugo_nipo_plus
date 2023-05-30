@@ -21,7 +21,7 @@ NipoPlusを使い始めるまでに行うことは大まかに分けると以下
 
 NipoPlusは下のボタンから起動できます
 
-{{<button "https://nipo-plus.web.app/" "NipoPlusを起動する" "_blank">}}
+{{<btnCenter "https://nipo-plus.web.app/" "NipoPlusを起動する" "_blank">}}
 
 ---
 
@@ -36,7 +36,7 @@ NipoPlusは下のボタンから起動できます
 
 {{<appscreen filename="signup-anonymous" title="匿名アカウントはEmailやパスワードの設定をせずに利用できるアカウントです"  >}}
 
-{{<button "/docs/manual/account/tokumei/" "匿名アカウントについて詳しく見る">}}
+{{<btnCenter "/docs/manual/account/tokumei/" "匿名アカウントについて詳しく見る">}}
 
 規約同意後にデータの初期化が行われます。この処理は少し時間がかかります（10秒〜20秒ほど）  
 初期化処理が完了すると画面がグループ設定画面へ切り替わります。  
@@ -63,7 +63,7 @@ NipoPlusは下のボタンから起動できます
 お疲れさまでした。これで初めての日報テンプレート作成は完了です。次章でこの日報テンプレートを使って実際に日報を書いてみましょう。
 ここではチュートリアルのためかんたんな日報テンプレートにとどめましたが、より詳しいガイドについては以下のボタンをクリックしてください。
 
-{{<button "/docs/manual/initial-setting/template/make/" "日報テンプレート作成ガイド">}}
+{{<btnCenter "/docs/manual/initial-setting/template/make/" "日報テンプレート作成ガイド">}}
 
 ## Step3:日報を書いて自分宛てに提出してみよう
 
@@ -87,7 +87,7 @@ NipoPlusは下のボタンから起動できます
 
 より詳細なガイドについては以下のボタンをクリックしてください。
 
-{{<button "/docs/manual/write-report/write/" "日報の提出マニュアル">}}
+{{<btnCenter "/docs/manual/write-report/write/" "日報の提出マニュアル">}}
 
 {{<alice pos="right" icon="here">}}「管理者」の名前を変更する方法については後述します{{</alice>}}
 
@@ -104,7 +104,7 @@ NipoPlusは下のボタンから起動できます
 承認は日報のロックも兼ねています。一度承認するとその日報は管理者でないと削除出来なくなるため、不正防止に役立ちます。
 もちろん内容に不備があれば棄却したり、コメントで指摘したり、あるいは上司が直接修正することも出来ます。
 
-{{<button "/docs/manual/read-report/state/" "承認・棄却の操作ガイド">}}
+{{<btnCenter "/docs/manual/read-report/state/" "承認・棄却の操作ガイド">}}
 
 ## Step5:上司や部下など他のスタッフのアカウントを作成しよう
 
@@ -119,12 +119,12 @@ NipoPlusは下のボタンから起動できます
 スタッフアカウント作成にはログイン時に使用するメールアドレスを決める必要があります。
 パスワードを忘れてしまった時の再発行等に使用することがあるため、メールアドレスは必ず受信可能なアドレスを使ってください。
 
-{{<button "/docs/manual/account/password/" "パスワードリセットについて">}}
+{{<btnCenter "/docs/manual/account/password/" "パスワードリセットについて">}}
 
 パスワードについては自動で用意しますが、手動で決めることも可能です。（6文字以上）  
 スタッフのアカウントを作ると権限は「スタッフ」という権限になります。スタッフ権限は日報のテンプレートを変更したり、他のアカウントを作るといった「管理業務」が出来ませんが、日報の作成といった日常の業務は行える権限になります。
 
-{{<button "/docs/manual/initial-setting/staff/" "スタッフの権限について">}}
+{{<btnCenter "/docs/manual/initial-setting/staff/" "スタッフの権限について">}}
 
 ## Step6： スタッフにNipoPlusのログイン情報を伝えて相互にやり取りしてみよう
 
@@ -140,12 +140,12 @@ NipoPlusは下のボタンから起動できます
 例えば部下のアカウントで日報を書くときは、提出先に「管理者」を指定すると部下から管理者へ提出する日報になります。
 この日報は管理者と作成した本人しか読めない状態で保管されることになります。
 
-{{<button "/docs/manual/write-report/dist/" "日報の提出先について">}}
+{{<btnCenter "/docs/manual/write-report/dist/" "日報の提出先について">}}
 
 日報はリアルタイム性をそこまで要求しないので時間のあるときにNipoPlusを開いて読むことになります。
 もし通知が必要なときは、有料プラン限定ではありますがメール通知機能を検討してみてください。
 
-{{<button "/docs/manual/notice/email/" "メール通知について">}}
+{{<btnCenter "/docs/manual/notice/email/" "メール通知について">}}
 
 ---
 
@@ -155,20 +155,20 @@ NipoPlusは下のボタンから起動できます
 チュートリアルはここまでです。必要最低限の設定で、日報のやり取りを行うまでの流れを見てきましたがいかがでしたか？
 ここでは紹介しきれなかった便利な機能がNipoPlusにはたくさんあります。例えばスタッフごとに日報の提出先を固定させたい場合は提出先固定機能が便利です。
 
-{{<button "/docs/manual/initial-setting/advanced-setting/dist/" "日報提出先の固定化">}}
+{{<btnCenter "/docs/manual/initial-setting/advanced-setting/dist/" "日報提出先の固定化">}}
 
 今回の例では登場していませんが、日報テンプレートには集計が可能な入力フォームもあります。日報から集計可能なデータだけを抜き出して比較したり、グラフを作成することも可能です。
 
-{{<button "/docs/manual/analytics/_about/" "日報データの集計・グラフ化">}}
+{{<btnCenter "/docs/manual/analytics/_about/" "日報データの集計・グラフ化">}}
 
 また日報データをPDFに変換して保存したり、CSV出力してエクセルなどで集計することも可能です。
 「こんなことはできないの？」といった疑問があれば、いつでも遠慮なくお問い合わせください。
 
-{{<button "/others/inquery/" "お問い合わせ">}}
+{{<btnCenter "/others/inquery/" "お問い合わせ">}}
 
 ## 継続して利用する前にかならず匿名アカウントを正式アカウントへ昇格してください
 
 これまでのチュートリアルでは匿名アカウントを使った方法で解説してきましたが、もしNipoPlusを今後も継続して使っていきたいと思っていただけたら、[匿名アカウント](/docs/manual/account/tokumei/)を正式なアカウントへ早い段階で昇格させるようにしてください。
 匿名アカウントはパスワードの設定がされていないため、何らかのはずみで接続が途絶えてしまうとこれまでのデータにアクセスできなくなる危険性があります。
 
-{{<button "/docs/manual/account/tokumei/" "匿名アカウントを正規アカウントへ昇格">}}
+{{<btnCenter "/docs/manual/account/tokumei/" "匿名アカウントを正規アカウントへ昇格">}}

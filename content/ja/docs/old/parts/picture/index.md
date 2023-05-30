@@ -11,7 +11,7 @@ aliases = ['/old/parts/picture/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/picture/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/picture/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 写真画像の入力画面
 

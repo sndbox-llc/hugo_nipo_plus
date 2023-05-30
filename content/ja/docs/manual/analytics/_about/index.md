@@ -37,7 +37,7 @@ NipoPlusは報告書を作成するだけでなく、その後のデータの分
 
 いづれの分析でも集計結果に対して更に計算行を追加することが可能です。例えば「生産数」と「破損数」の結果を計算して破損率を求める行を追加できます。
 
-{{<button "/docs/manual/analytics/list/" "操作ガイドを見る">}}
+{{<btnCenter "/docs/manual/analytics/list/" "操作ガイドを見る">}}
 
 ## 累積や推移のデータを用いてグラフを作成する
 
@@ -55,7 +55,7 @@ NipoPlusでは、折れ線・棒・積上棒・円・レーダー・複合のグ
 
 {{<icatch filename="chart" msg="グラフはワンクリック でいつでも切替可" title="日報をグラフ化する" fontsize="30px" alice="guide" >}}
 
-{{<button "/docs/manual/analytics/chart/" "グラフ化のマニュアル">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "グラフ化のマニュアル">}}
 
 
 ## 報告書データをエクセルを用いて集計分析する
@@ -70,11 +70,10 @@ NipoPlusには様々な集計機能が用意されているため多くの場合
 
 NipoPlusのCSV出力機能を使えば、調査結果のデータをエクセルなどの別のツールで簡単に分析することができます。データの整理や集計など、NipoPlusではできないことをエクセルで行うことができるため、より高度な分析が必要な場合には便利な機能です。
 
-
-{{<button "/docs/manual/read-report/csv/" "1件の報告書をCSV出力する">}}
-{{<button "/docs/manual/analytics/csv/" "指定期間内の報告書を一括CSV出力する">}}
-
-
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/read-report/csv/" "1件の報告書をCSV出力する">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/analytics/csv/" "複数の報告書を一括CSV出力する">}}</div>
+</div>
 
 ## 報告書内で集計が可能な入力フォームについて
 

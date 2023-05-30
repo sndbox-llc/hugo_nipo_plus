@@ -58,15 +58,14 @@ aliases = ['/manual/initial-setting/template/math/']
 
 {{<appscreen filename="charts" title="数値のデータをグラフ化する"  >}}
 
-{{<button "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
 
 数値データをスタッフ毎に集計したい場合は累積モードに切り替えてください。合計が表示されます。
 
 {{<appscreen filename="total" title="累積モードに切り替えることでスタッフ毎に分けて数値データを集計します"  >}}
 
 日報表示画面の集計は**直近数件の日報を集計**するため実用的ではないことに注意してください。一般的には「今月」や「先月」といった単位で集計したいはずです。
-{{<button "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
-
+{{<btnCenter "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
 
 ### 数値を含んだ日報をCSVに出力する
 

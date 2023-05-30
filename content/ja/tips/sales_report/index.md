@@ -27,7 +27,7 @@ NipoPlusとExcelを併用することで、より高度な集計や分析が可�
 このページではNipoPlusの日報データをCSVに出力し、エクセルを使ってデータの並べ替えや集計、グラフの作成といった具体的な集計方法について解説していきます。
 エクセルではなくNipoPlusの集計機能については以下のボタンをクリックしてください。
 
-{{<button "/docs/manual/analytics/_about/" "NipoPlusの集計・分析">}}
+{{<btnCenter "/docs/manual/analytics/_about/" "NipoPlusの集計・分析">}}
 
 ---
 

@@ -12,7 +12,7 @@ aliases = ['/old/parts/text/']
 +++
 
 
-{{<button "/docs/manual/initial-setting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/text/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 1行テキストの入力画面
 

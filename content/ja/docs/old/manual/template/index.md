@@ -11,7 +11,7 @@ aliases = ['/old/manual/template/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 日報テンプレートの役割
 

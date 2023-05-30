@@ -30,7 +30,7 @@ Nipoでは[料金形態](/docs/price/_about/)もグループ単位での課金�
 
 Nipoでもグループ分けは可能でしたが、あくまでも「グループへの招待」といった形であり、全体を掌握することは事実上不可能でしたが、NipoPlusでは管理者が自由にグループを作り、どのグループにどのスタッフをアサインするかを一元管理可能になりました。
 
-{{<button "/docs/manual/initial-setting/_about/" "初期設定・組織について">}}
+{{<btnCenter "/docs/manual/initial-setting/_about/" "初期設定・組織について">}}
 
 ## ご利用料金がNipoより更にお安くなります
 
@@ -40,7 +40,7 @@ Nipoで3名でご利用はほぼ同額、4名以上でご利用の場合は間�
 
 {{<alice pos="right" icon="ok">}}安くて更に高機能になったのです{{</alice>}}
 
-{{<button "/docs/price/_about/" "ご利用料金">}}
+{{<btnCenter "/docs/price/_about/" "ご利用料金">}}
 
 ## 日報テンプレートのカスタマイズ性が向上しました
 

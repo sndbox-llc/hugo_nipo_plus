@@ -82,7 +82,7 @@ NipoPlusはスマホやタブレットでも簡単に使える報告書作成管
 
 書かれたサインやイラストはNipoPlusのサーバに画像として保存され、日報を読む際に自動でロードされます。電子署名といった厳格なものではありませんが、紙のサインをデジタルに置き換えるには十分です。
 
-{{<button "/docs/manual/initial-setting/template/sign/" "手書きの署名について詳しく見る">}}
+{{<btnCenter "/docs/manual/initial-setting/template/sign/" "手書きの署名について詳しく見る">}}
 
 
 ## モバイル専用のAppを使うかPWAとしてインストールできます
@@ -94,13 +94,7 @@ PWAはアプリストアを通さずにブラウザからインストールで�
 技術的、そして規約的な制約があるため、アプリストア版ではいくつかの機能が制限されております。フル機能を使うにはPWA版としてインストールすることをおすすめしています。
 Android/iOSにNipoPlusをインストールする方法については次のページをご覧ください。PWAのインストール方法についても解説してます。
 
-{{<button "/docs/system/android/" "AndroidにNipoPlusをインストール">}}
-{{<button "/docs/system/ios/" "iPhoneにNipoPlusをインストール">}}
-
-
-<!--
-{{<button "/docs/manual/initial-setting/template/picture/" "写真について詳しく見る">}}
-{{<button "/docs/manual/initial-setting/template/make/" "テンプレート作成">}}
-{{<button "/tips/userfriendly/" "使いやすいテンプレートを作る">}}
-
--->
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-8">{{<button "/docs/system/android/" "AndroidにNipoPlusをインストール">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/system/ios/" "iPhoneにNipoPlusをインストール">}}</div>
+</div>

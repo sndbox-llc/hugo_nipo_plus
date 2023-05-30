@@ -56,7 +56,7 @@ NipoPlusのデータ集計は色々できますが、ここでは不良率の計
 
 {{<appscreen filename="history" title="過去データ推移を使うと前回・前々回のチェックシートのデータと今回のチェックシートデータを比較しながら確認することが可能です"  >}}
 
-{{<button "/docs/manual/analytics/list" "過去データ推移のマニュアル">}}
+{{<btnCenter "/docs/manual/analytics/list" "過去データ推移のマニュアル">}}
 
 このデータシートは左端に現在表示中のチェックシートが配置され、右に行くに連れてより古い過去のチェックシートデータが並びます。
 最大で30件までのチェックシートデータを並べて比較出来ます。  
@@ -92,7 +92,7 @@ NipoPlusではグラフを複数種類作成することができ、ボタン1�
 
 {{<appscreen filename="pie-chart" title="チェックシートのデータをもとに円グラフを作成" >}}
 
-{{<button "/docs/manual/analytics/chart" "グラフ作成マニュアルへ">}}
+{{<btnCenter "/docs/manual/analytics/chart" "グラフ作成マニュアルへ">}}
 
 
 <!--
@@ -104,7 +104,7 @@ NipoPlusではグラフを複数種類作成することができ、ボタン1�
 検査員一人ひとりがタブレットを盛っている場合は有益な機能ですが、一方で製造現場ではタブレットを据え置きにするケースも多いと思います。
 共用機能などを使うことで検査員ごとの集計を取ることができます。共用は少し応用的な機能です。わかりにい場合はお問い合わせください。
 
-{{<button "/docs/manual/initial-setting/advanced-setting/share/" "アカウントの共用機能">}}
+{{<btnCenter "/docs/manual/initial-setting/advanced-setting/share/" "アカウントの共用機能">}}
 
 
 
@@ -125,7 +125,7 @@ NipoPlusではグラフを複数種類作成することができ、ボタン1�
 
 {{<appscreen filename="analytics" title="期間を指定してチェックシートのデータを集計する" >}}
 
-{{<button "/docs/manual/analytics/transition" "データ集計のマニュアル">}}
+{{<btnCenter "/docs/manual/analytics/transition" "データ集計のマニュアル">}}
 
 集計機能ではまず右パネルのカレンダーから集計する期間を選択します。初期値は「今月」ですが、カレンダーをクリックして任意の期間へ変更出来ます。
 続いて集計対象のチェックシートテンプレートを選びます。
@@ -148,7 +148,7 @@ NipoPlusではグラフを複数種類作成することができ、ボタン1�
 
 {{<appscreen filename="cross" title="クロス集計を使うことで複数のチェックシートテンプレートを1つの表にまとめて集計できます" >}}
 
-{{<button "/docs/manual/analytics/cross/" "クロス集計のマニュアル">}}
+{{<btnCenter "/docs/manual/analytics/cross/" "クロス集計のマニュアル">}}
 
 上図はクロス集計の結果をもとに不良率の高い順に並べ替えをしている図です。
 A部品のチェックシートとB部品のチェックシート、お互いに異なるチェックシートを1つの表にまとめて比較や並べ替えができます。

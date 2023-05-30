@@ -18,7 +18,7 @@ NipoPlusをより良いものにするため、皆様からのご意見・ご要
 
 もしシステムのトラブルの場合は、問い合わせの前にトラブルシューティングを見てください。案外簡単に解決することがあります。
 
-{{<button "/docs/system/fix/" "トラブルシューティング">}}
+{{<btnCenter "/docs/system/fix/" "トラブルシューティング">}}
 
 <div id="contactForm">
   <div>

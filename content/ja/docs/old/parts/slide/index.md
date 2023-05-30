@@ -11,7 +11,7 @@ aliases = ['/old/parts/slide/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/step/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/step/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## スライダーの入力画面
 

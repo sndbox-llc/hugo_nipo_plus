@@ -11,7 +11,7 @@ aliases = ['/price/fee/']
 
 このページのガイドは**Web版(PWA版)のNipoPlusから操作**をお願いします。iOS版・Android版からはお申し込み出来ませんので注意してください。  
 
-{{<button "https://nipo-plus.web.app/" "Web版のNipoPlusを起動" "_blank">}}
+{{<btnCenter "https://nipo-plus.web.app/" "Web版のNipoPlusを起動" "_blank">}}
 
 もし無料お試し期間でNipoPlusを気に入っていただけたら有料プランの加入を検討してください。料金は1ユーザ1ヶ月180円で最低10名からお申し込み可能です。
 

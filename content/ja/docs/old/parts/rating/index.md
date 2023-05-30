@@ -11,7 +11,7 @@ aliases = ['/old/parts/rating/']
 
 +++
 
-{{<button "/docs/manual/initial-setting/template/rate/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/rate/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## レートの入力画面
 

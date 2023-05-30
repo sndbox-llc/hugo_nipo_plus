@@ -2,7 +2,7 @@
 chapter = false
 description = "初めてご利用の方向けのガイドです。アカウント作成から実際に日報を作成するまでの基本的な流れを画像つきでわかりやすく解説"
 menuTitle = "チュートリアル（簡易ガイド）"
-title = "クイックスタートガイド"
+title = "🔰クイックスタートガイド"
 toc = true
 tocdefaultopen = true
 tags = ["操作ガイド"]

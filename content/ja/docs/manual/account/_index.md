@@ -1,5 +1,5 @@
 +++
-title = "アカウント"
+title = "👤アカウント"
 description = "Help NipoPlus."
 lead = ""
 date = "2020-10-06"

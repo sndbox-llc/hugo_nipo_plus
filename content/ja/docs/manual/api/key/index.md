@@ -1,6 +1,5 @@
 +++
 description = "日報取得APIキーとCurlコマンドで日報データを自由に取得することができます。他システムとの連携などに活用可能。APIキーが外部に流出したときは即座に無効化してください"
-menuTitle = "APIキーの管理"
 tags = []
 title = "APIキーの管理"
 toc = true

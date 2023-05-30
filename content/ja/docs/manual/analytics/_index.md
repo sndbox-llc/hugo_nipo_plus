@@ -1,5 +1,5 @@
 +++
-title = "データ集計"
+title = "📊データ集計"
 description = "Help NipoPlus."
 lead = ""
 date = "2020-10-06"

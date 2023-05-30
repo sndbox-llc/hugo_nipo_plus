@@ -1,5 +1,5 @@
 +++
-title = "使い方"
+title = "📖マニュアル"
 description = "Help NipoPLus."
 lead = ""
 date = "2020-10-06"

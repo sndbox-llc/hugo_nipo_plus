@@ -36,8 +36,14 @@
 			</nav>
 			{{ end -}}
 			{{ .Content }}
-			<div class="text-end text-muted">更新日: {{ .Lastmod.Format "2006/01/02" }}</div>
-
+			{{ if .Params.tags -}}
+			<div class="mt-4">
+				{{ range $index, $tag := .Params.tags -}}
+					<a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a>
+				{{ end -}}
+			</div>
+			{{ end -}}
+		
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				{{ if .Site.Params.lastMod -}}
 					{{ partial "main/last-modified.html" . }}

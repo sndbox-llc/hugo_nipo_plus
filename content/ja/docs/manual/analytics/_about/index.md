@@ -3,7 +3,6 @@ description = "報告書の作成から集計・グラフ化まで一括で行�
 menuTitle = "集計グラフ/CSV・PDF一括出力"
 title = "報告書データの集計・グラフ化・BI化を実現する"
 toc = true
-menuPre = "<b>4. </b>"
 tags = []
 weight = 101004000
 contributors = []

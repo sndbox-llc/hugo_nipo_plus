@@ -37,25 +37,41 @@ NipoPLUSでは、各種チェックシートや日報、報告書などのテン
 
 入力必須の挙動は各種入力フォームによって微妙に異なります。詳しくは以下の表を御覧ください。
 
-|入力フォーム名|クリア条件|
-|---|---|
-|[テキスト入力フォーム](/docs/manual/initial-setting/template/text/)|1文字以上文字を入力する|
-|[選択式入力フォーム](/docs/manual/initial-setting/template/select/)|選択肢から1つ選ぶ|
-|[選択式入力フォーム（複数回答）](/docs/manual/initial-setting/template/select2/)|選択肢から少なくとも1つ選ぶ|
-|[選択式入力フォーム（２層式）](/docs/manual/initial-setting/template/selectcalc/)|問2の選択肢から1つ選ぶ|
-|[日付・時刻入力フォーム](/docs/manual/initial-setting/template/datetime/)|日付または時刻を入力する|
-|[期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)|期間（開始・終了両方とも）を入力する|
-|[チェックボックス入力フォーム](/docs/manual/initial-setting/template/checkbox/)|チェックボックスにチェックを入れる（同意や確認として利用を推奨します）|
-|[範囲入力フォーム](/docs/manual/initial-setting/template/range/)|この項目は入力必須の指定ができません|
-|[署名・イラスト入力フォーム](/docs/manual/initial-setting/template/sign/)|イラスト・署名を書く（空白のイラストでも入力必須は解除されます）|
-|[写真入力フォーム](/docs/manual/initial-setting/template/picture/)|少なくとも1枚以上のJpeg・またはPngの画像を添付する|
-|[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)|少なくとも1つ以上のファイルを添付する|
-|[スライダ入力フォーム](/docs/manual/initial-setting/template/step/)|この項目は入力必須の指定ができません|
-|[レート入力フォーム](/docs/manual/initial-setting/template/rate/)|星ゼロ(☆☆☆☆☆）以外の状態にする|
-|[数値入力フォーム](/docs/manual/initial-setting/template/math/)|数値を入力する|
-|[算術](/docs/manual/initial-setting/template/calc/)|この項目は入力必須の指定ができません|
-|[反復入力フォーム](/docs/manual/initial-setting/template/array/)|反復入力フォーム自体に入力必須の指定はできませんが、反復の中に配置した各種入力フォームに対してそれぞれ入力必須の指定が可能です|
 
+<dl>
+  <dt><a href="/docs/manual/initial-setting/template/text/">テキスト入力フォーム</a></dt>
+  <dd>1文字以上文字を入力する</dd>
+  <dt><a href="/docs/manual/initial-setting/template/select/">選択式入力フォーム</a></dt>
+  <dd>選択肢から1つ選ぶ</dd>
+  <dt><a href="/docs/manual/initial-setting/template/select2/">選択式入力フォーム（複数回答）</a></dt>
+  <dd>選択肢から少なくとも1つ選ぶ</dd>
+  <dt><a href="/docs/manual/initial-setting/template/selectcalc/">選択式入力フォーム（２層式）</a></dt>
+  <dd>問2の選択肢から1つ選ぶ</dd>
+  <dt><a href="/docs/manual/initial-setting/template/datetime/">日付・時刻入力フォーム</a></dt>
+  <dd>日付または時刻を入力する</dd>
+  <dt><a href="/docs/manual/initial-setting/template/datetimes/">期間入力フォーム</a></dt>
+  <dd>期間（開始・終了両方とも）を入力する</dd>
+  <dt><a href="/docs/manual/initial-setting/template/checkbox/">チェックボックス入力フォーム</a></dt>
+  <dd>チェックボックスにチェックを入れる（同意や確認として利用を推奨します）</dd>
+  <dt><a href="/docs/manual/initial-setting/template/range/">範囲入力フォーム</a></dt>
+  <dd>この項目は入力必須の指定ができません</dd>
+  <dt><a href="/docs/manual/initial-setting/template/sign/">署名・イラスト入力フォーム</a></dt>
+  <dd>イラスト・署名を書く（空白のイラストでも入力必須は解除されます）</dd>
+  <dt><a href="/docs/manual/initial-setting/template/picture/">写真入力フォーム</a></dt>
+  <dd>少なくとも1枚以上のJpeg・またはPngの画像を添付する</dd>
+  <dt><a href="/docs/manual/initial-setting/template/file/">ファイル入力フォーム</a></dt>
+  <dd>少なくとも1つ以上のファイルを添付する</dd>
+  <dt><a href="/docs/manual/initial-setting/template/step/">スライダ入力フォーム</a></dt>
+  <dd>この項目は入力必須の指定ができません</dd>
+  <dt><a href="/docs/manual/initial-setting/template/rate/">レート入力フォーム</a></dt>
+  <dd>星ゼロ(☆☆☆☆☆）以外の状態にする</dd>
+  <dt><a href="/docs/manual/initial-setting/template/math/">数値入力フォーム</a></dt>
+  <dd>数値を入力する</dd>
+  <dt><a href="/docs/manual/initial-setting/template/calc/">算術</a></dt>
+  <dd>この項目は入力必須の指定ができません</dd>
+  <dt><a href="/docs/manual/initial-setting/template/array/">反復入力フォーム</a></dt>
+  <dd>反復入力フォーム自体に入力必須の指定はできませんが、反復の中に配置した各種入力フォームに対してそれぞれ入力必須の指定が可能です</dd>
+</dl>
 
 ## 入力順序を制御してミスを防ぐ
 

@@ -42,14 +42,20 @@ https://us-central1-nipo-plus.cloudfunctions.net/v0/
 
 WebAPIを使った日報の取得は4種類用意されています。
 
-|エンドポイント|概要|
-|---|---|
-|**/reports/admin**|管理者のみ実行可能。全ての日報を取得できるAPI|
-|**/reports/outbox**|自分が送信した日報のデータのみ取得できるAPI|
-|**/reports/inbox**|自分が受信した日報のデータのみ取得できるAPI|
-|**/report/:日報のID**|IDを指定して1件の日報を取得できるAPI|
+<dl>
+  <dt>/reports/admin</dt>
+  <dd>管理者のみ実行可能。全ての日報を取得できるAPI</dd>
+  <dt>/reports/outbox</dt>
+  <dd>自分が送信した日報のデータのみ取得できるAPI</dd>
+  <dt>/reports/inbox</dt>
+  <dd>自分が受信した日報のデータのみ取得できるAPI</dd>
+  <dt>/report/:日報のID</dt>
+  <dd>IDを指定して1件の日報を取得できるAPI</dd>
+</dl>
+
 
 上記APIに指定可能なパラメータは次の通りです。
+
 
 |属性名|型|説明|
 |---|---|---|

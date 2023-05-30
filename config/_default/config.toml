@@ -15,7 +15,7 @@ disableLanguages = ["en"]
 
 # add redirects/headers
 [outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS", "Algolia"]
 section = ["HTML", "RSS", "SITEMAP"]
 
 # remove .{ext} from text/netlify
@@ -45,6 +45,14 @@ isHTML = false
 isPlainText = true
 noUgly = true
 rel  = "sitemap"
+
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
 
 [caches]
   [caches.getjson]

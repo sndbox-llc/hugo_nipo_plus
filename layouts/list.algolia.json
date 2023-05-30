@@ -1,0 +1,6 @@
+{{/* Generates a valid Algolia search index */}}
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Site.RegularPages -}}
+     {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title "tags" .Params.tags "categories" .Params.categories "permalink" .Permalink "summary" .Summary "publish_date" .PublishDate) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

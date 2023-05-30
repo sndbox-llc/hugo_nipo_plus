@@ -19,3 +19,38 @@
 </footer>
 {{ partial "custom/svg-js.html" . }}
 {{ partial "custom/tocHightlight-js.html" . }}
+
+<script
+  src="https://cdn.jsdelivr.net/npm/algoliasearch@4.17.1/dist/algoliasearch.umd.js"
+  integrity="sha256-akfAZ4+oz0QZ/9Ij/btqYabueam+0owNNQSpyl+0Z+E="
+  crossorigin="anonymous"
+></script>
+<script>
+  const client = algoliasearch('RS1NGDJQ75', '2acc4011433a372f9b9b9a14a541ec10');
+
+  console.log('algolia')
+  
+  // "nipoplus"インデックスを指定
+  const index = client.initIndex('nipoplus');
+  console.log(index)
+  
+  function searchStartAl () {
+    console.log('けんさくかいしじゃよ')
+    // 検索クエリを指定してデータを検索
+    index.search('日報', (err, { hits }) => {
+      console.log('けんさくかんりょう');
+      if (err) {
+        console.error(err);
+        return;
+      }
+
+      // 検索結果の処理
+      hits.forEach(hit => {
+        console.log(hit);
+      });
+    });
+  }
+  searchStartAl()
+
+  console.log('ふぃにっしゅ')
+</script>

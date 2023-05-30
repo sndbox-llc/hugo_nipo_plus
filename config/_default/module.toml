@@ -30,6 +30,12 @@
   target = "assets/js/vendor/flexsearch"
 
 [[mounts]]
+  source = "node_modules/algolia"
+  target = "static/js/algolia"
+
+
+
+[[mounts]]
   source = "node_modules/katex"
   target = "assets/js/vendor/katex"
 

@@ -48,10 +48,13 @@ graph RL;
 
 提出者の値を書き換えることで、社員アカウントでありながらアルバイトA〜Dが書いた日報として保存することができます。換言すれば、社員アカウントがアルバイトに**成り代わる**ことができます。
 
-|名称|説明|
-|---|---|
-|共用先|アカウントを借りる側。[ログイン不可能アカウント](/docs/manual/initial-setting/staff/make/)で、共用元のアカウントを借りて日報を書きます。|
-|共用元|アカウントを貸す側。[ログイン可能アカウント](/docs/manual/initial-setting/staff/make/)で共通PC上でログインしている|
+<dl>
+  <dt>共用先</dt>
+  <dd>アカウントを借りる側。<a href="/docs/manual/initial-setting/staff/make/">ログイン不可能アカウント</a>で、共用元のアカウントを借りて日報を書きます。</dd>
+  <dt>共用元</dt>
+  <dd>アカウントを貸す側。<a href="/docs/manual/initial-setting/staff/make/">ログイン可能アカウント</a>で共通PC上でログインしている</dd>
+</dl>
+
 
 ## 共用を使うメリットとデメリット
 

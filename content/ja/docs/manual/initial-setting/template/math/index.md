@@ -25,12 +25,18 @@ aliases = ['/manual/initial-setting/template/math/']
 共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
 以下は本入力フォームにのみ存在する設定項目です
 
-|名称|説明|
-|---|---|
-|[入力必須](/tips/required/)|これがONの場合、数値が空欄だと日報の提出ができなくなります|
-|初期値|日報の新規作成時に値をセットしたい場合は数値を入力してください。不要の場合は空欄にしておきます|
-|集計する|[データ推移](/docs/manual/analytics/list/)・[日報集計](/docs/manual/analytics/transition/)でこの項目を表示させる場合はONにします。初期値はONです|
-|単位|数値入力の右端に表示されるポストフィックスです。「円」や「Km」など用途にあった文字を入力してください|
+
+<dl>
+  <dt>入力必須</dt>
+  <dd>これがONの場合、数値が空欄だと日報の提出ができなくなります</dd>
+  <dt>初期値</dt>
+  <dd>日報の新規作成時に値をセットしたい場合は数値を入力してください。不要の場合は空欄にしておきます</dd>
+  <dt>集計する</dt>
+  <dd><a href="/docs/manual/analytics/list/">データ推移</a>・<a href="/docs/manual/analytics/transition/">日報集計</a>でこの項目を表示させる場合はONにします。初期値はONです</dd>
+  <dt>単位</dt>
+  <dd>数値入力の右端に表示されるポストフィックスです。「円」や「Km」など用途にあった文字を入力してください</dd>
+</dl>
+
 
 ## 数値入力フォームを使ったテンプレートを作成
 

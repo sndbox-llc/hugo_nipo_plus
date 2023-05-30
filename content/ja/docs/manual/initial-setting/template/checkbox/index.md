@@ -25,13 +25,19 @@ aliases = ['/manual/initial-setting/template/checkbox/']
 共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
 以下は本入力フォームにのみ存在する設定項目です
 
-|名称|説明|
-|---|---|
-|[入力必須](/tips/required/)|これがONの場合、日報提出時にこのチェックボックスがONでないと提出ができないようになります|
-|初期状態でONにする|これがONの場合、日報作成時にこのチェックボックスはONの状態でスタートします|
-|集計する|[データ推移](/docs/manual/analytics/list/)・[日報集計](/docs/manual/analytics/transition/)でこの項目を表示させる場合はONにします。初期値はONです|
-|CSV出力時列を展開する|ONとOFFの2列に分割してCSV出力します。詳しくは本ページのCSV出力の項を参照|
-|形状|「スイッチ」「ボックス」から選択します。見た目が変わりますが使い方は一緒です|
+<dl>
+  <dt>入力必須</dt>
+  <dd>これがONの場合、日報提出時にこのチェックボックスがONでないと提出ができないようになります</dd>
+  <dt>初期状態でONにする</dt>
+  <dd>これがONの場合、日報作成時にこのチェックボックスはONの状態でスタートします</dd>
+  <dt>集計する</dt>
+  <dd><a href="/docs/manual/analytics/list/">データ推移</a>・<a href="/docs/manual/analytics/transition/">日報集計</a>でこの項目を表示させる場合はONにします。初期値はONです</dd>
+  <dt>CSV出力時列を展開する</dt>
+  <dd>ONとOFFの2列に分割してCSV出力します。詳しくは本ページのCSV出力の項を参照</dd>
+  <dt>形状</dt>
+  <dd>「スイッチ」「ボックス」から選択します。見た目が変わりますが使い方は一緒です</dd>
+</dl>
+
 
 ## チェックボックス入力フォームの日報を書く
 

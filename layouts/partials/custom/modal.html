@@ -14,7 +14,8 @@
         </div>
       
         <div id="app">
-          <a v-for="row in resultArr" style="border-bottom: 1px solid #ccc" :href="[[row.relpermalink]]" class="list-group-item list-group-item-action mb-2">
+          <div v-if="isNotFound">見つかりませんでした。</div>
+          <a v-else v-for="row in resultArr" style="border-bottom: 1px solid #ccc" :href="[[row.relpermalink]]" class="list-group-item list-group-item-action mb-2">
             <div class="d-flex w-100 justify-content-between">
               <h6 class="my-0">[[ row.shortTitle ]]</h6>
             </div>

@@ -30,7 +30,8 @@ const { createApp } = Vue
 createApp({
   delimiters: ['[[', ']]'],
   setup() {
-    const resultArr = Vue.ref([])
+    const resultArr = Vue.ref([]);
+    const isNotFound = Vue.ref(false);
     let timeoutId;
 
     // 入力監視の開始
@@ -44,15 +45,19 @@ createApp({
   
     // 検索関数
     function mySearch() {
-      resultArr.value = []
+      isNotFound.value = false;
+      resultArr.value = [];
       // 実行したい処理を記述する
       const text = textboxDom.value;
       index.search(text).then(( { hits }) => {
+        if (hits.length === 0) {
+          isNotFound.value = true;
+        }
         hits.forEach(function(hit) {
-          const shortTitle = cutStr(hit.title)
-          const hilights = hit._highlightResult.summary.value
-          const shortSummary = extractTextWithEmTag(hilights)
-          resultArr.value.push({ ...hit, shortSummary: shortSummary, shortTitle })
+          const shortTitle = cutStr(hit.title);
+          const hilights = hit._highlightResult.summary.value;
+          const shortSummary = extractTextWithEmTag(hilights);
+          resultArr.value.push({ ...hit, shortSummary: shortSummary, shortTitle });
         });
       }).catch((err) => {
         console.error('エラーが発生しました:', err);
@@ -61,7 +66,7 @@ createApp({
   
     return {
       resultArr,
-      message: 'waketazoHello Vue!'
+      isNotFound
     }
   }
-}).mount('#app')
+}).mount('#app');

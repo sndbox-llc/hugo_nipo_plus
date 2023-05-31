@@ -1,0 +1,27 @@
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">検索</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <div>
+          <input type="text" id="nipoSBox" class="w-100" />
+        </div>
+      
+        <div id="app">
+          <a v-for="row in resultArr" style="border-bottom: 1px solid #ccc" :href="[[row.permalink]]" class="list-group-item list-group-item-action mb-2">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="my-0">[[ row.shortTitle ]]</h5>
+            </div>
+            <p class="mb-1" v-html="row.shortSummary"></p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

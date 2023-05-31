@@ -5,12 +5,26 @@ function extractTextWithEmTag(text) {
   const endIndex = text.indexOf('</em>');
 
   if (startIndex !== -1 && endIndex !== -1) {
-    const start = Math.max(0, startIndex - 30);
+    const start = Math.max(0, startIndex - 0);
     const end = Math.min(text.length, endIndex + 30);
     const extractedText = text.substring(start, end);
     return extractedText;
   }
-  return text;
+  return cutStr(text)
+}
+function cutStr (text) {
+  if (text.length <= 30) {
+    return text;
+  }
+
+  const truncatedText = text.substring(0, 30) + '...';
+  return truncatedText;
+}
+
+function openModal() {
+  var modal = document.getElementById('exampleModal');
+  modal.classList.add('show');
+  modal.style.display = 'block';
 }
 const { createApp } = Vue
 
@@ -39,9 +53,10 @@ createApp({
       index.search(text).then(( { hits }) => {
         hits.forEach(function(hit) {
           console.log(hit);
+          const shortTitle = cutStr(hit.title)
           const hilights = hit._highlightResult.summary.value
-          const cutStr = extractTextWithEmTag(hilights)
-          resultArr.value.push({ ...hit, cutStr: cutStr })
+          const shortSummary = extractTextWithEmTag(hilights)
+          resultArr.value.push({ ...hit, shortSummary: shortSummary, shortTitle })
         });
       }).catch((err) => {
         console.error('エラーが発生しました:', err);

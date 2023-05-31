@@ -27,6 +27,11 @@ p {
   background-color: $lightColor;
 }
 
+#app em {
+  color: red;
+  background-color: yellow;
+}
+
 
 @media (min-width: 768px) {
   .myhero {

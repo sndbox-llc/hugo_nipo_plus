@@ -70,7 +70,7 @@ footer = "開発運営:<a class=\"text-muted\" href=\"https://sndbox.jp/\">合�
 copyRight = "Copyright (c) Sndbox LLC"
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 alertText = "2023/05/28 サイトリニューアルしました"
 

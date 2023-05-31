@@ -20,6 +20,7 @@
               <h6 class="my-0">[[ row.shortTitle ]]</h6>
             </div>
             <p class="mb-1" style="font-size: 15px; color: #666;" v-html="row.shortSummary"></p>
+            <span class="badge rounded-pill bg-primary mx-2 mb-2" v-for="tag in row.tags">[[ tag]]</span>
           </a>
         </div>
       </div>

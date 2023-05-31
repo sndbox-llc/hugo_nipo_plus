@@ -32,6 +32,7 @@ createApp({
   setup() {
     const resultArr = Vue.ref([]);
     const isNotFound = Vue.ref(false);
+    const debounceTime = Vue.ref(300)
     let timeoutId;
 
     // 入力監視の開始
@@ -40,7 +41,7 @@ createApp({
       clearTimeout(timeoutId); // 前回の遅延実行をキャンセル
       timeoutId = setTimeout(function() {
         mySearch(); // 遅延後に実行
-      }, 500);
+      }, debounceTime.value);
     });
   
     // 検索関数

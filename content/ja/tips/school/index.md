@@ -13,6 +13,8 @@ date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
+aliases = ['/blog/school/']
+
 +++
 
 

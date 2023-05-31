@@ -14,7 +14,7 @@ date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/checksheet/tablet/']
+aliases = ['/checksheet/tablet/', '/blog/ipad/']
 +++
 
 製造業では、品質管理や安全確保のために、定期的な点検やチェックが欠かせません。

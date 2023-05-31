@@ -14,6 +14,7 @@ date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
+aliases = ['/blog/smartphone/']
 +++
 
 ## 報告書作成がスマホ・タブレットで簡単に！作業現場から直接報告できます

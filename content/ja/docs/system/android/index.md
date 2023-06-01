@@ -35,7 +35,11 @@ Google ChromeはPWA対応のサイトを開くと、画面下部に「インス�
 
 ## Google Playで手に入れる
 
-一般的に広く知られている方法はこちらになります。[Google Play](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus)を開き、そこからNipoPlusをインストールできます。
+一般的に広く知られている方法はこちらになります。下のボタンをクリックしてダウンロードします。
+
+[![google play](google-play-badge.png)](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus)
+
+
 
 {{<alice pos="right" icon="ok">}}
 こちらの方法について詳細な説明は不要ですね

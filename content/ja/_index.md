@@ -11,19 +11,27 @@ aliases = ['/old/', '/docs/old/_about/']
 
 ---
 
-各シーンごとに機能をご紹介します。
+具体的な業務フローを見てみましょう
 
 ## Step1.報告書を書きます
 
 スタッフは管理者が予め作っておいた報告書のテンプレートに沿って業務報告を書くだけです。
-テンプレートがあるから書き手にとって**何を書くべきかがシンプルにわかる**し、記入漏れといった問題も軽減できます。
+テンプレートがあるから書き手は**何を書くべきかがわかる**し、記入漏れといった問題も軽減できます。
 入力順序の指定もすれば決められた手順を飛ばして入力できないように制御も可能です。例えば次の画像のように▼
 
 {{<icatch filename="input-order" msg="入力必須と 入力順指定の例" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
 
-決まった枠に報告内容を書いていくことができます。
+報告書のテンプレートはカスタマイズが自由自在です。日報・作業報告書・品質チェックシートなど、**現場で使う様々な「報告書」をNipoPlus一つで管理可能**になります。
 
-{{<btnCenter "/tips/required/" "記入漏れ・提出漏れの防止">}}
+報告書を「読める人」と「読めない人」「承認できる人」など細かい指定も可能です。
+
+<div class="row justify-content-center mt-5">
+<div class="col-sm-16 col-md-8">{{<button "/tips/required/" "記入・提出漏れの防止">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/tips/checksheet/" "製造業の点検シート">}}</div>
+</div>
+
+
+<div class="text-center" style="font-size: 5em; color: orange">▼</div>
 
 ## Step2.報告書を受け取って承認します
 
@@ -35,6 +43,16 @@ Step1でスタッフが書いた報告書は上司に送られます。
 
 {{<icatch filename="report-detail" msg="承認リレー/コメ ント・通知もあるよ" title="コメントでスタッフとのコミニケーションをとることや、複数スタッフによる日報の承認リレーも利用できます。" fontsize="30px" alice="please" >}}
 
+伝票のように都度都度作成される報告書の場合は通知が鳴り止まない場合もあるので、通知をOFFにしておきましょう。
+
+<div class="row justify-content-center mt-5">
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/read-report/_about/" "報告書を読む">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/notice/email/" "メール通知">}}</div>
+</div>
+
+<div class="text-center" style="font-size: 5em; color: orange">▼</div>
+
+
 ## Step3. 報告書を集計します
 
 テンプレートの構成によっては集計できる項目があります。これらのデータをスタッフ毎に集計したり、日別で増減を見ることで様々な意思決定に役立てることができます。
@@ -42,10 +60,13 @@ Step1でスタッフが書いた報告書は上司に送られます。
 
 {{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="日報をグラフ化する" fontsize="30px" alice="here" >}}
 
-<div class="row justify-content-center">
-<div class="col-sm-16 col-md-8">{{<button "/manual/analytics/" "集計とグラフ化">}}</div>
-<div class="col-sm-16 col-md-8">{{<button "/checksheet/factory/" "不良率の計算">}}</div>
+<div class="row justify-content-center mt-5">
+<div class="col-sm-16 col-md-5">{{<button "/docs/manual/analytics/chart/" "報告書のグラフ化">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "/tips/factory/" "P管理図の作成">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "/tips/progress/" "目標と進捗">}}</div>
 </div>
+
+<div class="text-center" style="font-size: 5em; color: orange">▼</div>
 
 ## Step4. 必要に応じてPDFやCSVにデータ出力しよう
 
@@ -59,7 +80,16 @@ Step1でスタッフが書いた報告書は上司に送られます。
 {{<imgproc reports-to-pdf.png "PDF" />}}
 
 
-{{<btnCenter "/manual/read-report/pdf/" "PDF出力について詳しく見る">}}
+
+<div class="row justify-content-center mt-5">
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/read-report/pdf/" "PDF出力">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/analytics/csv/" "CSV出力">}}</div>
+</div>
+
+
+
+
+<div class="text-center" style="font-size: 5em; color: orange">▼</div>
 
 ## メアドもパスワードも後回しで試用できますよ
 
@@ -68,6 +98,13 @@ Step1でスタッフが書いた報告書は上司に送られます。
 NipoPlusでは匿名アカウント機能を使うことでメールアドレスやパスワードの設定をせずとも仮のアカウントを簡単に発行できます。  
 あなたのプライバシーを守りつつも手軽に体験できます。使ってみて継続したいと感じていただけたら匿名を正規アカウントへそのまま引き継ぐことも可能です。
 
+
+<div style="color:red"><strong>※匿名アカウントは仮の状態のためログアウトやキャッシュクリアするとデータにアクセスできなくなります</strong></div>
+
+{{<alice pos="right" icon="here">}}
+あくまでも手軽に体験してもらうためのものです
+{{</alice>}}
+
 {{<appscreen filename="signup-anonymous" title="匿名アカウントはEmailやパスワードの設定をせずに利用できるアカウントです" >}}
 
 使い方についてはクイックスタートガイドが参考になります。順序立てて日報を提出するまでの流れを解説しています
@@ -75,5 +112,15 @@ NipoPlusでは匿名アカウント機能を使うことでメールアドレス
 <div class="row justify-content-center">
 <div class="col-sm-16 col-md-5">{{<button "/manual/account/tokumei/" "匿名アカウント">}}</div>
 <div class="col-sm-16 col-md-6">{{<button "/quickstart/" "クイックスタートガイド">}}</div>
+</div>
+
+<div class="text-center" style="font-size: 5em; color: orange">▼</div>
+
+ここまでスクロールありがとうございました。ご不明な点はいつでもも遠慮なく[お問い合わせ](/others/inquery/)ください。
+
+
+<div class="row justify-content-center">
+<div class="col-sm-16 col-md-4">{{<button "/docs/system/android/" "Androidで使う">}}</div>
+<div class="col-sm-16 col-md-4">{{<button "/docs/system/ios/" "iOSで使う">}}</div>
 <div class="col-sm-16 col-md-5">{{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動" "_blank">}}</div>
 </div>

@@ -19,13 +19,8 @@
           {{ partial "main/blog-meta.html" . -}}
         </article>
         {{ if .Params.tags }}
-          <div class="mt-4">
-          {{ range $index, $tag := .Params.tags }}
-            <a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ $tag | urlize }}/" role="button">{{ $tag }}</a>
-          {{ end }}
-          </div>
+  			{{ partial "custom/tags.html" . }}        
         {{ end }}
-
       </div>
     </div>
   </div>

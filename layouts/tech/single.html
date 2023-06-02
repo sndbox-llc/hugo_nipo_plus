@@ -22,6 +22,9 @@
 			{{ end }}
 
 			<h1>{{ .Title }}</h1>
+			{{ if .Params.tags -}}
+			{{ partial "custom/tags.html" . }}
+			{{ end -}}	
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
 			{{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
@@ -30,11 +33,7 @@
 			{{ end -}}
 			{{ .Content }}
 			{{ if .Params.tags -}}
-			<div class="mt-4">
-				{{ range $index, $tag := .Params.tags -}}
-					<a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a>
-				{{ end -}}
-			</div>
+			{{ partial "custom/tags.html" . }}
 			{{ end -}}
 			<div class="text-end text-muted">更新日: {{ .Lastmod.Format "2006/01/02" }}</div>
 	

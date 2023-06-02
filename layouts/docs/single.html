@@ -29,6 +29,10 @@
 			{{ end }}
 
 			<h1>{{ .Title }}</h1>
+			{{ if .Params.tags -}}
+				{{ partial "custom/tags.html" . }}
+			{{ end -}}
+	
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
 			{{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
@@ -36,13 +40,6 @@
 			</nav>
 			{{ end -}}
 			{{ .Content }}
-			{{ if .Params.tags -}}
-			<div class="mt-4">
-				{{ range $index, $tag := .Params.tags -}}
-					<a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a>
-				{{ end -}}
-			</div>
-			{{ end -}}
 		
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				{{ if .Site.Params.lastMod -}}

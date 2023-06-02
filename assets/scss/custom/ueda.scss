@@ -20,6 +20,10 @@ h2 {
   color: $accentColor;
 }
 
+h3 {
+  color: $subColor;
+}
+
 p  {
   font-size: 1.3rem;
   line-height: 2rem;
@@ -27,21 +31,77 @@ p  {
 #TableOfContents .active {
   background-color: powderblue;
 }
-
 .breadcrumb {
   border-bottom: 1px solid purple;
 }
-
 .navBarBackgroundColor {
   background-color: $lightColor;
 }
-
+/* Algolia検索結果のハイライト */
 #app em {
   color: red;
   background-color: yellow;
 }
 
+/*番号付きリスト */
+.mainContent ol {
+  counter-reset: list;
+  list-style-type: none;
+  padding: 0;
+  border: solid 1px $subColor;
+  
+  li {
+    position: relative;
+    line-height: 30px;
+    margin: 7px 0 7px 40px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
 
+    
+    &::before {
+      counter-increment: list;
+      content: counter(list);
+      position: absolute;
+      left: -35px;
+      width: 30px;
+      height: 30px;
+      background: $subColor;
+      text-align: center;
+      color: #fff;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+/* 番号なしリスト */
+.mainContent ul {
+  list-style-type: none;
+  padding: 0;
+  li {
+    position: relative;
+    line-height: 30px;
+    margin: 7px 0 7px 40px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+    &::before {
+      counter-increment: list;
+      content: "■"; /* 独自のマーカーを追加 */
+      position: absolute;
+      left: -35px;
+      width: 30px;
+      height: 30px;
+      background: $subColor;
+      text-align: center;
+      color: #fff;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
 @media (min-width: 768px) {
   .myhero {
     height: 85vh;

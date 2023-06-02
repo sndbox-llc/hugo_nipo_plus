@@ -1,6 +1,6 @@
 +++
 description = "複数の日報を一度にPDFファイルへ変換することができます"
-tags = []
+tags = ["有料プラン限定"]
 title = "日報を一括PDF出力"
 toc = true
 weight = 101004005

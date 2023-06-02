@@ -31,7 +31,9 @@
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
 			{{ end -}}
+			<div class="mainContent">
 			{{ .Content }}
+			</div>
 			{{ if .Params.tags -}}
 			{{ partial "custom/tags.html" . }}
 			{{ end -}}

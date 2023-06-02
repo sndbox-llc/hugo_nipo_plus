@@ -1,6 +1,6 @@
 +++
 description = "WebAPIを使って直接日報のデータを取得できます。CURLを使った具体的な使い方を交えて紹介"
-tags = []
+tags = ["有料プラン限定"]
 title = "APIリファレンス"
 toc = true
 weight = 101010002

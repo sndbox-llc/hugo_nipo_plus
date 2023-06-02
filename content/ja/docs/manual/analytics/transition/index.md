@@ -1,7 +1,7 @@
 +++
 description = "1000件のチェックシートデータを瞬時に集計、グラフ化します。CSV出力も可能"
 menuTitle = "日報データ集計"
-tags = []
+tags = ["有料プラン限定"]
 title = "日報・チェックシートの集計/CSV出力/グラフ化"
 toc = true
 weight = 101004006

@@ -8,7 +8,9 @@
     </div>
   </div>
   <div class="col-md-12 col-lg-9">
-    {{ .Content }}
+    <div class="mainContent">
+      {{ .Content }}
+    </div>
     {{ if .Params.tags -}}
     {{ partial "custom/tags.html" . }}
     {{ end -}}

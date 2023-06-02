@@ -1,6 +1,6 @@
 +++
 description = "日報データをAPIで取得する"
-tags = []
+tags = ["有料プラン限定"]
 title = "APIで取得される日報データ構造"
 toc = true
 weight = 101010003

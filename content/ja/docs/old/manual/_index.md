@@ -1,7 +1,7 @@
 +++
 description = "マニュアル"
 menuTitle = "マニュアル"
-title = "Nipo(マニュアル)"
+title = "マニュアル"
 toc = true
 weight = 109001000
 isNipo = true

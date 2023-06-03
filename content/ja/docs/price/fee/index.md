@@ -1,7 +1,7 @@
 +++
 description = ""
 menuTitle = "有料プランに加入"
-tags = []
+tags = ["Web版限定"]
 title = "有料プランに加入"
 toc = true
 weight = 102000003

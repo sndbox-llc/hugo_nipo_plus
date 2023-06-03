@@ -2,7 +2,7 @@
 description = "日報のあるデータをもとに簡単な四則演算を行って結果を返す計算機能を日報に埋め込みます"
 menuTitle = "算術"
 tags = []
-title = "算術フォーム"
+title = "🧩算術フォーム"
 toc = true
 weight = 101001116
 contributors = []

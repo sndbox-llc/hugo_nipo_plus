@@ -2,7 +2,7 @@
 description = "10:00〜15:00のような期間の入力ができる入力フォームです"
 menuTitle = "期間入力"
 tags = []
-title = "期間入力フォーム"
+title = "🧩期間入力"
 toc = true
 weight = 101001107
 contributors = []

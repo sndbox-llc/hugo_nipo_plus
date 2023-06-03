@@ -2,7 +2,7 @@
 description = "日報・チェックシート上に数値の入力フォームを追加します。最もシンプルな入力フォームの1つ。単位の設定や集計、検索、PDFの出力など幅広い機能に対応しています"
 menuTitle = "数値入力"
 tags = []
-title = "数値入力フォーム"
+title = "🧩数値入力"
 toc = true
 weight = 101001115
 contributors = []

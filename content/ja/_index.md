@@ -9,7 +9,6 @@ images = []
 aliases = ['/old/', '/docs/old/_about/']
 +++
 
-
 ---
 
 具体的な業務フローを見てみましょう
@@ -31,8 +30,7 @@ aliases = ['/old/', '/docs/old/_about/']
 <div class="col-sm-16 col-md-8">{{<button "/tips/checksheet/" "製造業の点検シート">}}</div>
 </div>
 
-
-<div class="text-center" style="font-size: 5em; color: orange">▼</div>
+{{<next>}}
 
 ## Step2.報告書を受け取って承認します
 
@@ -51,8 +49,7 @@ Step1でスタッフが書いた報告書は上司に送られます。
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/notice/email/" "メール通知">}}</div>
 </div>
 
-<div class="text-center" style="font-size: 5em; color: orange">▼</div>
-
+{{<next>}}
 
 ## Step3. 報告書を集計します
 
@@ -67,7 +64,7 @@ Step1でスタッフが書いた報告書は上司に送られます。
 <div class="col-sm-16 col-md-5">{{<button "/tips/progress/" "目標と進捗">}}</div>
 </div>
 
-<div class="text-center" style="font-size: 5em; color: orange">▼</div>
+{{<next>}}
 
 ## Step4. 必要に応じてPDFやCSVにデータ出力しよう
 
@@ -77,20 +74,14 @@ Step1でスタッフが書いた報告書は上司に送られます。
 またデータ自体を出力したいときにはCSV出力が便利です。Step3で行った集計をより細かく分析したいときにはCSV出力が役立ちます。使い慣れたエクセルでデータの集計ができるのですから、
 バックアップ用、報告用、分析用などにぜひお役立てください。
 
-
 {{<imgproc reports-to-pdf.png "PDF" />}}
-
-
 
 <div class="row justify-content-center mt-5">
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/read-report/pdf/" "PDF出力">}}</div>
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/analytics/csv/" "CSV出力">}}</div>
 </div>
 
-
-
-
-<div class="text-center" style="font-size: 5em; color: orange">▼</div>
+{{<next>}}
 
 ## メアドもパスワードも後回しで試用できますよ
 
@@ -98,7 +89,6 @@ Step1でスタッフが書いた報告書は上司に送られます。
 と思いますか？気持ちはよくわかります。私もそうです。
 NipoPlusでは匿名アカウント機能を使うことでメールアドレスやパスワードの設定をせずとも仮のアカウントを簡単に発行できます。  
 あなたのプライバシーを守りつつも手軽に体験できます。使ってみて継続したいと感じていただけたら匿名を正規アカウントへそのまま引き継ぐことも可能です。
-
 
 <div style="color:red"><strong>※匿名アカウントは仮の状態のためログアウトやキャッシュクリアするとデータにアクセスできなくなります</strong></div>
 
@@ -115,10 +105,9 @@ NipoPlusでは匿名アカウント機能を使うことでメールアドレス
 <div class="col-sm-16 col-md-6">{{<button "/quickstart/" "クイックスタートガイド">}}</div>
 </div>
 
-<div class="text-center" style="font-size: 5em; color: orange">▼</div>
+{{<next>}}
 
 ここまでスクロールありがとうございました。ご不明な点はいつでもも遠慮なく[お問い合わせ](/others/inquery/)ください。
-
 
 <div class="row justify-content-center">
 <div class="col-sm-16 col-md-4">{{<button "/docs/system/android/" "Androidで使う">}}</div>

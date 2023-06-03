@@ -1,0 +1,18 @@
+{{ $currentPage := .Page }}
+{{ $currentSection := .Page.Section }}
+{{ $nextPage := false }}
+{{ $pages := where .Site.RegularPages "Section" $currentSection }}
+{{ range $index, $page := $pages }}
+    {{ if eq .Permalink $currentPage.Permalink }}
+        {{ if lt $index (sub (len $pages) 1) }}
+            {{ $nextPage = index $pages (add $index 1) }}
+        {{ end }}
+        {{ break }}
+    {{ end }}
+{{ end }}
+
+{{ if $nextPage }}
+<div class="text-center my-5">
+<a href="{{ $nextPage.Permalink }}" class="btn btn-primary btn-lg">次の記事:{{ $nextPage.Title }}へ▶</a>
+</div>
+{{ end }}

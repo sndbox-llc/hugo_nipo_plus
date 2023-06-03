@@ -34,7 +34,7 @@ aliases = ['/manual/initial-setting/template/make/']
 {{<appscreen filename="make-template" title="グループの中に新しい日報のテンプレートを作成する画面のイメージ"  >}}
 
 名前入力を終えるとテンプレート作成画面へ切り替わります。名前は暫定でも構いません。
-{{<next>}}
+{{<nextArrow>}}
 
 {{<appscreen filename="templateedit" title="左側のパーツリストからクリックしてテンプレートに追加していく作業を繰り返します"  >}}
 
@@ -166,13 +166,13 @@ PDF設定はテンプレート本体の画面を下にスクロールしてい�
 {{<appscreen filename="order1" title="入力の並び順を指定する"  >}}
 
 設定画面がポップアップで表示されます。
-{{<next>}}
+{{<nextArrow>}}
 
 左の一覧から順序指定する項目の＋ボタンをクリックして右列へ追加します。
 {{<appscreen filename="order2" title="並び順の設定画面"  >}}
 
 右側のリストの上から順に入力の制御が行われます。ただしく動作するかをプレビューを使い確認してください
-{{<next>}}
+{{<nextArrow>}}
 
 {{<appscreen filename="order-preview" title="入力の並び順を指定する"  >}}
 

@@ -1,14 +1,18 @@
 +++
 description = "グループ分けすることで効率的に日報を管理できます。日報はグループの中でのみ共有されます。グループの役割や作成について解説"
-menuTitle = "グループの作成"
 tags = []
 title = "グループの作成"
 toc = true
 weight = 101001001
 contributors = []
-aliases = ['/manual/initial-setting/make-group/']
+aliases = ["/manual/initial-setting/make-group/"]
 
 +++
+
+グループ分けが不要な場合は本ページをスキップできます。
+
+{{<nextBlog>}}
+
 
 用途や目的に応じて自由にグループを作成・削除出来ます。
 日報テンプレートの作成や設定情報などはグループ単位で行うことが出来ます。このページではグループの基本設定と、グループの作成について解説しています。

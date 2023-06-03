@@ -30,7 +30,7 @@ aliases = ['/old/', '/docs/old/_about/']
 <div class="col-sm-16 col-md-8">{{<button "/tips/checksheet/" "製造業の点検シート">}}</div>
 </div>
 
-{{<next>}}
+{{<nextArrow>}}
 
 ## Step2.報告書を受け取って承認します
 
@@ -49,7 +49,7 @@ Step1でスタッフが書いた報告書は上司に送られます。
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/notice/email/" "メール通知">}}</div>
 </div>
 
-{{<next>}}
+{{<nextArrow>}}
 
 ## Step3. 報告書を集計します
 
@@ -64,7 +64,7 @@ Step1でスタッフが書いた報告書は上司に送られます。
 <div class="col-sm-16 col-md-5">{{<button "/tips/progress/" "目標と進捗">}}</div>
 </div>
 
-{{<next>}}
+{{<nextArrow>}}
 
 ## Step4. 必要に応じてPDFやCSVにデータ出力しよう
 
@@ -81,7 +81,7 @@ Step1でスタッフが書いた報告書は上司に送られます。
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/analytics/csv/" "CSV出力">}}</div>
 </div>
 
-{{<next>}}
+{{<nextArrow>}}
 
 ## メアドもパスワードも後回しで試用できますよ
 
@@ -105,7 +105,7 @@ NipoPlusでは匿名アカウント機能を使うことでメールアドレス
 <div class="col-sm-16 col-md-6">{{<button "/quickstart/" "クイックスタートガイド">}}</div>
 </div>
 
-{{<next>}}
+{{<nextArrow>}}
 
 ここまでスクロールありがとうございました。ご不明な点はいつでもも遠慮なく[お問い合わせ](/others/inquery/)ください。
 

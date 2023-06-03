@@ -1,7 +1,7 @@
 +++
 description = ""
 menuTitle = "語録管理"
-tags = []
+tags = ["語録機能"]
 title = "語録管理"
 toc = true
 weight = 101001203

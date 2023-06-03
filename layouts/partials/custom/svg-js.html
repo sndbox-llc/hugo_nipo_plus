@@ -82,7 +82,31 @@
         i.setAttribute('height', 650);
         i.setAttribute('stroke-width', strokeWidth);
       })
+    }
+    function loadImageExe (image, className) {
+      console.log('画像ロード')
+      var double = '//';
+      var pathname =  location.pathname;
+      var chop = pathname.split('index.html');
+      var getPort = () => {
+        if (location.port) return `:${location.port}`;
+        return '';
+      }
+      var targetFileName = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.src}${mode}.png`;
+      // すでにロード済みなら処理を中断
+      if (alreadyLoadedImages.findIndex(i => i === targetFileName) !== -1) return;
+      const width = (function (mode, className) {
+        if (mode === 'tablet' && className === 'nonAlicePicture') return 900;
+        if (mode === 'tablet' && className === 'withAlicePicture') return 800;
+        if (mode === 'phone' && className === 'nonAlicePicture') return 400;
+        if (mode === 'phone' && className === 'withAlicePicture') return 300;
+        return 300;
+      }(mode, className))
 
+      image.setAttribute('width', width);
+      image.setAttribute('xlink:href', targetFileName);
+      image.setAttribute('href', targetFileName);
+      alreadyLoadedImages.push(targetFileName);
     }
     // 画像遅延ロードリスナー登録
     for (let i = 0; i < images.length; i++) {
@@ -90,31 +114,9 @@
 
       window.addEventListener("scroll", () => {
         const className = image.getAttribute('class');
-
         const target = image.getBoundingClientRect().top;
         if (window.innerHeight * 0.9 >= target) {
-          var double = '//';
-          var pathname =  location.pathname;
-          var chop = pathname.split('index.html');
-          var getPort = () => {
-            if (location.port) return `:${location.port}`;
-            return '';
-          }
-          var targetFileName = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.src}${mode}.png`;
-          // すでにロード済みなら処理を中断
-          if (alreadyLoadedImages.findIndex(i => i === targetFileName) !== -1) return;
-          const width = (function (mode, className) {
-            if (mode === 'tablet' && className === 'nonAlicePicture') return 900;
-            if (mode === 'tablet' && className === 'withAlicePicture') return 800;
-            if (mode === 'phone' && className === 'nonAlicePicture') return 400;
-            if (mode === 'phone' && className === 'withAlicePicture') return 300;
-            return 300;
-          }(mode, className))
-
-          image.setAttribute('width', width);
-          image.setAttribute('xlink:href', targetFileName);
-          image.setAttribute('href', targetFileName);
-          alreadyLoadedImages.push(targetFileName);
+          loadImageExe(image, className)
         }
       }, {passive: true})
     }

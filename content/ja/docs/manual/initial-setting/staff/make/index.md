@@ -4,7 +4,7 @@ menuTitle = "スタッフの作成"
 tags = []
 title = "スタッフのアカウント作成"
 toc = true
-weight = 101001003
+weight = 101001054
 contributors = []
 aliases = ['/manual/initial-setting/staff/make/']
 

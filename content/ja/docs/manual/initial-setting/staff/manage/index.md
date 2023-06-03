@@ -4,7 +4,7 @@ menuTitle = "スタッフの管理"
 tags = []
 title = "アカウントの管理"
 toc = true
-weight = 101001004
+weight = 101001055
 contributors = []
 aliases = ['/manual/initial-setting/staff/manage/']
 

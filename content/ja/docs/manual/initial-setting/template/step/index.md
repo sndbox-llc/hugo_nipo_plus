@@ -1,7 +1,7 @@
 +++
 description = "数値をスライダーのつまみをスワイプ（ドラッグ）して入力できるフォームです。数値の範囲が予め決まっている場合に活用できます"
 menuTitle = "スライダ入力"
-tags = []
+tags = ["集計可能フォーム"]
 title = "🧩スライダ入力"
 toc = true
 weight = 101001113

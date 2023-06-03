@@ -1,20 +1,19 @@
 +++
 description = "モバイル機器で日報を書くことで、現場からすばやく正確な情報を共有することができます。タブレットやスマートフォンは持ち運びが便利で、現場での撮影や記録を簡単に行えます。画像などの添付ファイルも簡単にアップロードでき、報告書の質を高めることができます。"
-menuTitle = "スマホ・タブレットの日報作成"
-tags = []
+tags = ["モバイル"]
 title = "モバイル機器で作成する作業報告書"
 toc = true
 # weight = 104000008
 contributors = []
 
-excerpt = 'スマホ・タブレットの日報作成'
+excerpt = "スマホ・タブレットの日報作成"
 images = []
 categories = []
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/blog/smartphone/']
+aliases = ["/blog/smartphone/"]
 +++
 
 ## 報告書作成がスマホ・タブレットで簡単に！作業現場から直接報告できます

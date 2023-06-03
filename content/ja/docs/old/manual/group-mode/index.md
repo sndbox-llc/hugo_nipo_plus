@@ -1,13 +1,12 @@
 +++
 description = "スタッフ全員が日報を読めるようにしたり、逆に管理者だけに日報を読めるように制御したりすることができます。大まかな設定を3つのモードから選択します"
-menuTitle = "グループのモードを設定"
 title = "グループのモードを設定"
 toc = true
 weight = 109001004
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/group-mode/']
+aliases = ["/old/manual/group-mode/"]
 
 +++
 

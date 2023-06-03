@@ -5,7 +5,7 @@ title = "ログインとログアウト"
 toc = true
 weight = 101009001
 contributors = []
-aliases = ['/manual/account/signin/']
+aliases = ["/manual/account/signin/"]
 
 +++
 

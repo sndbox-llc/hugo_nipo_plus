@@ -1,12 +1,11 @@
 +++
 description = "CapacitorでAndroid API Lv31に対応する（Quasar Frameworkを使用)"
-menuTitle = "Quasar&Capacitor4"
 tags = []
 title = "Android API Level31以上に対応する（QuasarとCapacitor4を利用）"
 toc = true
 weight = 105000001
 contributors = []
-excerpt = 'Capacitor4'
+excerpt = 'Quasar&Capacitor4'
 images = []
 date = "2022-11-14"
 lastmod = "2022-11-14"

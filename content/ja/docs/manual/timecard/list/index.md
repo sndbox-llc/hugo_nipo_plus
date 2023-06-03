@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "タイムカードをリスト表示する"
 tags = []
 title = "タイムカードをリスト表示する"
 toc = true
 weight = 101007002
 contributors = []
-aliases = ['/manual/timecard/list/']
+aliases = ["/manual/timecard/list/"]
 
 +++
 

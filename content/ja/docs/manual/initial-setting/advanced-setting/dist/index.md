@@ -5,7 +5,7 @@ title = "🔐提出先と共有先を固定"
 toc = true
 weight = 101001201
 contributors = []
-aliases = ['/manual/initial-setting/advanced-setting/dist/']
+aliases = ["/manual/initial-setting/advanced-setting/dist/"]
 
 +++
 

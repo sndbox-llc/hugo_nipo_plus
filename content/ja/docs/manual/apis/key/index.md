@@ -5,7 +5,7 @@ title = "APIキーの管理"
 toc = true
 weight = 101010001
 contributors = []
-aliases = ['/manual/api/key/']
+aliases = ["/manual/api/key/"]
 +++
 
 

@@ -1,12 +1,11 @@
 +++
 description = "出勤時刻、退勤時刻、休憩開始時刻、休憩終了時刻を入力することができます。それぞれの時間を入力するだけで、スタッフの労働時間を自動的に集計することができます。この機能を使うことで、従業員の労働時間を正確に管理でき、給与計算の手間を軽減することができます。"
-menuTitle = "タイムカードの集計・ダウンロード"
 tags = ["CSV出力", "Web版限定"]
 title = "タイムカードの集計・ダウンロード"
 toc = true
 weight = 101007003
 contributors = []
-aliases = ['/manual/timecard/export/']
+aliases = ["/manual/timecard/export/"]
 
 +++
 

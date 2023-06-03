@@ -1,12 +1,11 @@
 +++
 description = "月間カレンダーとスタッフ基準のアジェンダ風カレンダーを切り替えて利用できます。日報のデータはカレンダー上にマッピングされて表示されます"
-menuTitle = "カレンダーの設定"
 tags = ["有料プラン限定"]
 title = "カレンダーの設定"
 toc = true
 weight = 101005001
 contributors = []
-aliases = ['/manual/calendar/setting/']
+aliases = ["/manual/calendar/setting/"]
 
 +++
 

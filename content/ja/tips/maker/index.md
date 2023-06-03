@@ -1,20 +1,18 @@
 +++
 description = "カスタマイズ自由なチェックシートのサンプルを集めました。5Sチェックシートや設備点検シート、品質管理シートなど、様々な項目に対応しており、ユーザーが自由にカスタマイズすることができます。"
-menuTitle = "チェックシートテンプレートを作る"
 title = "製造業のチェックシートテンプレートサンプル集"
 toc = true
 weight = 106000001
 contributors = []
-
-excerpt = 'チェックシートテンプレートを作る'
-images = ['factory_icatch.png']
+excerpt = "チェックシートテンプレートを作る"
+images = ["factory_icatch.png"]
 categories = ["製造業向け"]
 tags = ["製造業向け"]
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/checksheet/maker/']
+aliases = ["/checksheet/maker/"]
 +++
 
 

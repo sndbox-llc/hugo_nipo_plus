@@ -1,12 +1,11 @@
 +++
 description = "10:00〜15:00のような期間の入力ができる入力フォームです"
-menuTitle = "期間入力"
 tags = ["集計可能フォーム"]
 title = "🧩期間入力"
 toc = true
 weight = 101001107
 contributors = []
-aliases = ['/manual/initial-setting/template/datetimes/']
+aliases = ["/manual/initial-setting/template/datetimes/"]
 
 +++
 

@@ -5,7 +5,7 @@ title = "💬コメントを書く"
 toc = true
 weight = 101003003
 contributors = []
-aliases = ['/manual/read-report/comment/']
+aliases = ["/manual/read-report/comment/"]
 +++
 
 報告書を読む権限があれば報告書にコメントを残すことができます。

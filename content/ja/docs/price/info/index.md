@@ -1,12 +1,11 @@
 +++
 description = "NipoPlusでは、1ヶ月の無料トライアル期間が用意されています。管理画面から簡単に残りの日数を確認できるため、利用期間を把握しやすく、安心して利用できます。"
-menuTitle = "無料お試し期間を確認"
 tags = []
 title = "無料お試し期間を確認"
 toc = true
 weight = 102000001
 contributors = []
-aliases = ['/price/info/']
+aliases = ["/price/info/"]
 +++
 
 NipoPlusの利用を開始すると自動で登録日から**30日間の無料お試し期間**が設定されます。無料お試し期間は以下の手順で確認できます

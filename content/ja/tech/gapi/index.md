@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "GAPIを使うまでの流れ"
+excerpt = "GAPIを使うまでの流れ"
 tags = []
 title = "Vue.js（ts）でGoogle API(gapi)を使いカレンダーを取得するまで"
 toc = true
 weight = 105000024
 contributors = []
-excerpt = 'GAPIを使うまでの流れ'
 images = []
 date = "2022-11-14"
 lastmod = "2022-11-14"

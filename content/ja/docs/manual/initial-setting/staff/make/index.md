@@ -1,12 +1,11 @@
 +++
 description = "部下のアカウントを作成することで日報のやり取りができるようになります。権限は4種類あり用途に応じて設定可能です"
-menuTitle = "スタッフの作成"
 tags = []
 title = "スタッフのアカウント作成"
 toc = true
 weight = 101001054
 contributors = []
-aliases = ['/manual/initial-setting/staff/make/']
+aliases = ["/manual/initial-setting/staff/make/"]
 
 +++
 

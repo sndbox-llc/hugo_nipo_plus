@@ -5,7 +5,7 @@ toc = true
 tags = []
 weight = 101007000
 contributors = []
-aliases = ['/manual/timecard/']
+aliases = ["/manual/timecard/"]
 
 +++
 

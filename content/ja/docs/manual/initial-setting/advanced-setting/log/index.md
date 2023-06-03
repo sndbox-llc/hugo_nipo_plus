@@ -1,12 +1,11 @@
 +++
 description = "日報の提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
-menuTitle = "ログデータ"
 tags = []
-title = "グループ内のログデータを確認"
+title = "ログデータ"
 toc = true
 weight = 101001204
 contributors = []
-aliases = ['/manual/initial-setting/advanced-setting/log/']
+aliases = ["/manual/initial-setting/advanced-setting/log/"]
 
 +++
 

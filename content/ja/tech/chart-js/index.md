@@ -1,12 +1,11 @@
 +++
 description = "charts.jsを使ってグラフを表示させます。vue-chart.jsは使いません。この記事はChart.jsのVersion2を利用していますが、今の最新はVersion3です。"
-menuTitle = "charts.js"
 tags = []
 title = "Vue composition APIでchart.jsを使いグラフを作成(vue-chart.jsは使わない)"
 toc = true
 weight = 105000015
 contributors = []
-excerpt = 'charts.js'
+excerpt = "charts.js"
 images = []
 date = "2022-11-14"
 lastmod = "2022-11-14"
@@ -45,8 +44,8 @@ Chart.jsは最近Version3に更新されましたが、この記事は**Chart.js
 ```typescript
 <script lang="ts">
 
-import { defineComponent, ref, onMounted } from '@vue/composition-api';
-import { Chart } from 'chart.js';
+import { defineComponent, ref, onMounted } from "@vue/composition-api";
+import { Chart } from "chart.js";
 
 export default defineComponent({
   setup () {
@@ -64,15 +63,15 @@ export default defineComponent({
     }
     function createCharts () {
       if (canvasRef.value === null) return;
-      const canvas = canvasRef.value.getContext('2d');
+      const canvas = canvasRef.value.getContext("2d");
       if (canvas === null) return;
-      console.log(canvasRef.value?.getContext('2d'));
+      console.log(canvasRef.value?.getContext("2d"));
       const c = new Chart(canvas, {
-        type: 'bar',
+        type: "bar",
         data: {
-          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
           datasets: [{
-            label: 'てすと',
+            label: "てすと",
             data: getRand()
           }]
         }

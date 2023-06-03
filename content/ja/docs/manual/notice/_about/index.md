@@ -5,7 +5,7 @@ title = "通知概要"
 toc = true
 weight = 101006000
 contributors = []
-aliases = ['/manual/notice/email/']
+aliases = ["/manual/notice/email/"]
 
 +++
 

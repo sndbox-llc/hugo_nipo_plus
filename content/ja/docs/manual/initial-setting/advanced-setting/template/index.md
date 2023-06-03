@@ -1,13 +1,12 @@
 +++
 description = ""
-menuTitle = "スタッフが利用可能なテンプレートを制限"
 tags = []
-title = "スタッフが利用可能な日報テンプレートを制限する"
+title = "スタッフが利用可能なテンプレートを制限"
 toc = true
 draft = true
 weight = 21
 contributors = []
-aliases = ['/manual/initial-setting/advanced-setting/template/']
+aliases = ["/manual/initial-setting/advanced-setting/template/"]
 
 +++
 

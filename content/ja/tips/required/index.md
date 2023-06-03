@@ -1,12 +1,11 @@
 +++
 description = "記入漏れを防ぐための入力必須の設定や、入力順序を指定する機能など、スタッフが迷うことのないような機能が搭載されています。"
-menuTitle = "記入・提出漏れを防ぐ"
 title = "記入漏れや提出忘れを防止！NipoPlusで効率的に報告書を管理しよう"
 toc = true
 weight = 104000010
-aliases = ['/blog/leak/', '/blog/required/']
+aliases = ["/blog/leak/", "/blog/required/"]
 contributors = []
-excerpt = '記入・提出漏れを防ぐ'
+excerpt = "記入・提出漏れを防ぐ"
 images = []
 categories = []
 tags = []

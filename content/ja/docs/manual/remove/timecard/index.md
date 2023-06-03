@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "タイムカードの削除"
 tags = []
 title = "タイムカードの削除"
 toc = true
 weight = 101011005
 contributors = []
-aliases = ['/manual/remove/timecard/']
+aliases = ["/manual/remove/timecard/"]
 
 +++
 

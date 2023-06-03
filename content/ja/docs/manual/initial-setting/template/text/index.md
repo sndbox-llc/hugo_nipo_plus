@@ -1,12 +1,11 @@
 +++
 description = "日報テンプレートに文字入力フォームを追加します。本文や備考・引き継ぎなどの文章入力エリアとして利用できます"
-menuTitle = "テキスト入力"
 tags = []
 title = "🧩テキスト入力"
 toc = true
 weight = 101001102
 contributors = []
-aliases = ['/manual/initial-setting/template/text/']
+aliases = ["/manual/initial-setting/template/text/"]
 
 +++
 

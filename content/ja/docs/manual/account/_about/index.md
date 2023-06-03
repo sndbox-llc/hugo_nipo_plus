@@ -5,7 +5,7 @@ toc = true
 weight = 101009000
 tags = []
 contributors = []
-aliases = ['/manual/account/']
+aliases = ["/manual/account/"]
 +++
 
 アカウントは**メールアドレスとパスワードの組み合わせ**です。スタッフのアカウントは通常、管理者が発行します。

@@ -1,13 +1,12 @@
 +++
 description = ""
-menuTitle = "タスクと日報を紐付けする"
 tags = []
 title = "タスクと日報を紐付けする"
 toc = true
 weight = 101008003
 mermaid = true
 contributors = []
-aliases = ['/manual/task/connect/']
+aliases = ["/manual/task/connect/"]
 
 +++
 

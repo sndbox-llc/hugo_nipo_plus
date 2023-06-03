@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "日報を書くまでの流れ"
 tags = []
 title = "日報を書くまでの流れ"
 toc = true
 weight = 101002001
 contributors = []
-aliases = ['/manual/write-report/write/', '/manual/write-report/', '/docs/manual/write-report/_about/']
+aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual/write-report/_about/"]
 +++
 
 報告書を書く大まかな流れは以下のとおりです。

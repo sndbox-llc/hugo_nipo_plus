@@ -1,12 +1,11 @@
 +++
 description = "日報に写真を添付するフォームを追加できます。写真は複数枚追加できます。日報をPDF出力すると写真も埋め込まれて出力できます。一方でCSV出力には対応していません。"
-menuTitle = "写真入力"
 tags = []
 title = "🧩写真入力"
 toc = true
 weight = 101001111
 contributors = []
-aliases = ['/manual/initial-setting/template/picture/']
+aliases = ["/manual/initial-setting/template/picture/"]
 
 +++
 

@@ -1,12 +1,11 @@
 +++
 description = "NipoPlusは数多くのソフトウェアの助力を得て作られています。普段は表舞台に出ることのない縁の下の力持ちなソフトたちの協力がなければNipoPlusは存在できませんでした。感謝します。"
-menuTitle = "謝辞"
 tags = []
-title = "Special Thanks"
+title = "謝辞🌸Special Thanks"
 toc = true
 weight = 103000014
 contributors = []
-aliases = ['/system/thanks/']
+aliases = ["/system/thanks/"]
 +++
 
 

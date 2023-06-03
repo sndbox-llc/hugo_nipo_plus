@@ -5,7 +5,7 @@ title = "日報CSV出力時の各種設定"
 toc = true
 weight = 101004003
 contributors = []
-aliases = ['/manual/analytics/csvoption/']
+aliases = ["/manual/analytics/csvoption/"]
 
 +++
 

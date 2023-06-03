@@ -1,19 +1,18 @@
 +++
 description = "日報は業務で使うものと考えていませんか？今回は学習塾でNipoを使ってくれているお客様から頂いたご意見をもとに記事を書いています"
-menuTitle = "学習塾で日報を活用"
 tags = []
 title = "学習塾で日報を活用-相互承認でやる気もアップ"
 toc = true
 # weight = 104000009
 contributors = []
-excerpt = '学習塾で日報を活用'
+excerpt = "学習塾で日報を活用"
 images = []
 categories = []
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/blog/school/']
+aliases = ["/blog/school/"]
 
 +++
 

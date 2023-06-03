@@ -1,12 +1,11 @@
 +++
 description = "月間カレンダー上から日報を確認できます。スタッフ基準のカレンダーに切り替えれば提出漏れの状況なども瞬時に把握可能です"
-menuTitle = "カレンダー機能"
 title = "カレンダーから日報を確認する"
 toc = true
 tags = ["有料プラン限定"]
 weight = 101005000
 contributors = []
-aliases = ['/manual/calendar/']
+aliases = ["/manual/calendar/"]
 
 +++
 

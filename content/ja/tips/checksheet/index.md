@@ -1,19 +1,18 @@
 +++
 description = "紙ベースのチェックシートをNipoPlusで電子化し、作業効率を大幅に向上！入力必須の設定や説明画像の添付、入力順序の指定など、スタッフが迷うことのないような工夫が満載です。"
-menuTitle = "チェックシートアプリ"
 title = "業務用チェックシートアプリで電子化"
 toc = true
 # weight = 106000000
 contributors = []
-excerpt = 'チェックシートアプリ'
-images = ['factory_icatch.png']
+excerpt = "チェックシートアプリ"
+images = ["factory_icatch.png"]
 categories = ["製造業向け", "チェックシート"]
 tags = ["製造業向け", "チェックシート"]
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/checksheet/', '/blog/checksheet/']
+aliases = ["/checksheet/", "/blog/checksheet/"]
 +++
 
 

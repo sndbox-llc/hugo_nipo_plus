@@ -1,6 +1,5 @@
 +++
 description = "javascriptの世界で日付処理の金字塔を築きあげた有名なライブラリですが、惜しまれながらも開発を終了する運びになったようです。長いことありがとうございました。"
-menuTitle = "Zipを解凍すると文字化けする"
 tags = []
 title = "moment.jsが非推奨になっていたようです"
 toc = true

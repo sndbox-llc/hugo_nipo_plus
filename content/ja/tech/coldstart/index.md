@@ -1,13 +1,12 @@
 +++
 description = "Firebase Cloud Functionsのコールドスタートに関する問題をcronで定期的に実行して回避する"
-menuTitle = "コールドスタートを回避する"
 tags = ["firebase"]
 title = "Cloud Functionsのコールドスタートを回避する"
 toc = true
 weight = 105000018
 contributors = []
-excerpt = 'コールドスタートを回避する'
-images = ['firebase-icatch.png']
+excerpt = "コールドスタートを回避する"
+images = ["firebase-icatch.png"]
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false

@@ -1,12 +1,11 @@
 +++
 description = "iOSで撮影した画像をブラウザにアップすると画像が勝手に変な方向に回転するという経験はありませんか？Androidでは発生しませんがiOSではこの問題がよく起こります。この問題に対する解決に奔走したときのお話です"
-menuTitle = "iPhoneの画像が回転する現象"
+excerpt = "iPhoneの画像が回転する現象"
 tags = []
 title = "iOS13.4.1で写真をアップロードすると画像が横向きになる問題"
 toc = true
 weight = 105000012
 contributors = []
-excerpt = "iPhoneの画像が回転する現象"
 images = []
 date = "2022-11-14"
 lastmod = "2022-11-14"

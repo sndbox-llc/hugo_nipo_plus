@@ -1,12 +1,11 @@
 +++
 description = "有料プランの申込はクレジットカードのほか請求書によるお支払いも可能です。請求書の場合はクレジットに比べていくつかの制限がありますのでご注意ください"
-menuTitle = "請求書による支払い"
 tags = []
 title = "請求書による支払い"
 toc = true
 weight = 102000005
 contributors = []
-aliases = ['/price/invoice/']
+aliases = ["/price/invoice/"]
 +++
 
 

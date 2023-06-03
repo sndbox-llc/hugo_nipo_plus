@@ -1,13 +1,12 @@
 +++
 description = "日報にチェックボックスパーツを追加できます。Yes/NOのように２択で回答できる項目で力を発揮します。シンプルでほとんどの人が使い方を説明せずに直感的に利用できます。"
-menuTitle = "チェックボックス"
 title = "チェックボックス-日報構成部品"
 toc = true
 weight = 109002002
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/parts/checkbox/']
+aliases = ["/old/parts/checkbox/"]
 
 +++
 

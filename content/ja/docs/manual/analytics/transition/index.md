@@ -1,12 +1,11 @@
 +++
 description = "1000件のチェックシートデータを瞬時に集計、グラフ化します。CSV出力も可能"
-menuTitle = "日報データ集計"
 tags = ["有料プラン限定"]
-title = "日報・チェックシートの集計/CSV出力/グラフ化"
+title = "集計/CSV出力/グラフ化"
 toc = true
 weight = 101004006
 contributors = []
-aliases = ['/manual/analytics/transition/']
+aliases = ["/manual/analytics/transition/"]
 
 +++
 

@@ -5,7 +5,7 @@ title = "テンプレートの作成"
 toc = true
 weight = 101001101
 contributors = []
-aliases = ['/manual/initial-setting/template/make/']
+aliases = ["/manual/initial-setting/template/make/"]
 
 +++
 

@@ -1,6 +1,5 @@
 +++
 description = ""
-menuTitle = "PDFMake"
 tags = []
 title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
 toc = true

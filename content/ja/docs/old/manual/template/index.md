@@ -1,13 +1,12 @@
 +++
 description = "日報のテンプレートを作ることでスタッフは決められたフォームに沿って業務の報告ができます。テンプレートは10種類を超すパーツを組み合わせることでかんたんに作成できます。"
-menuTitle = "日報テンプレートの編集"
 title = "日報テンプレートの編集"
 toc = true
 weight = 109001006
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/template/']
+aliases = ["/old/manual/template/"]
 
 +++
 

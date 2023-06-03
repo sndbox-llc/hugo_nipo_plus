@@ -5,7 +5,7 @@ title = "匿名アカウント"
 toc = true
 weight = 101009004
 contributors = []
-aliases = ['/manual/account/tokumei/']
+aliases = ["/manual/account/tokumei/"]
 +++
 
 匿名アカウントとはその名の通り、匿名で利用ができる仮のアカウントです。ワンクリックで仮のアカウントを発行することができ、手軽にアプリを体験することができます。

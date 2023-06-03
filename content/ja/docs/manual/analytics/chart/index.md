@@ -5,7 +5,7 @@ title = "日報をグラフ化する"
 toc = true
 weight = 101004002
 contributors = []
-aliases = ['/manual/analytics/chart/']
+aliases = ["/manual/analytics/chart/"]
 
 +++
 

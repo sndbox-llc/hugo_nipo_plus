@@ -1,12 +1,11 @@
 +++
 description = "予め回答リストを用意しておき、スタッフは日報作成時に回答リストから複数選択して入力できるフォームです。色分けやプルダウンによる入力も可能"
-menuTitle = "選択肢入力(複数解答)"
 tags = ["語録機能", "集計可能フォーム"]
 title = "🧩選択式の入力（複数回答）"
 toc = true
 weight = 101001104
 contributors = []
-aliases = ['/manual/initial-setting/template/select2/']
+aliases = ["/manual/initial-setting/template/select2/"]
 
 +++
 

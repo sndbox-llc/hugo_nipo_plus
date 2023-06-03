@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "タイムカードを入力する"
 tags = []
 title = "タイムカードを入力する"
 toc = true
 weight = 101007001
 contributors = []
-aliases = ['/manual/timecard/input/']
+aliases = ["/manual/timecard/input/"]
 
 +++
 

@@ -5,7 +5,7 @@ title = "グループの基本設定"
 toc = true
 weight = 101001002
 contributors = []
-aliases = ['/manual/initial-setting/make-group/']
+aliases = ["/manual/initial-setting/make-group/"]
 
 +++
 

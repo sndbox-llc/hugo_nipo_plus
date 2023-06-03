@@ -1,12 +1,11 @@
 +++
 description = "NipoをアップデートするのではなくNipoPlusという別サービスを作ることでより拡張性の高いAppになることを目指します。1から作り直した全く新しいNipoPlusはNipo以上に高機能で高品質なアプリとなりました"
-menuTitle = "NipoとNipoPlusの違い"
 tags = []
 title = "NipoとNipoPlusの違い"
 toc = true
 weight = 103000008
 contributors = []
-aliases = ['/system/about/']
+aliases = ["/system/about/"]
 +++
 
 {{<imgproc eye-catch.png "NipoからNipoPlusへ" />}}

@@ -5,7 +5,7 @@ title = "報告書の修正"
 toc = true
 weight = 101002004
 contributors = []
-aliases = ['/manual/write-report/rewrite/']
+aliases = ["/manual/write-report/rewrite/"]
 
 +++
 

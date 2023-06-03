@@ -1,6 +1,5 @@
 +++
 description = "Nipo クレジットカード失敗について"
-menuTitle = "クレジットカード決済失敗について"
 title = "クレジットカード決済失敗について"
 excerpt = "クレジットカード決済失敗について"
 tags = ["blog", "news"]

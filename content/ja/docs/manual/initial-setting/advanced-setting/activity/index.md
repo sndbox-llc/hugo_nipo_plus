@@ -1,12 +1,11 @@
 +++
 description = "スタッフの頑張り具合を数値化します。日報の提出件数やコメント数、承認数といったアクティビティを数値として見れます"
-menuTitle = "スタッフの活動実績"
 tags = []
 title = "スタッフの活動実績"
 toc = true
 weight = 101001205
 contributors = []
-aliases = ['/manual/initial-setting/advanced-setting/activity/']
+aliases = ["/manual/initial-setting/advanced-setting/activity/"]
 
 +++
 

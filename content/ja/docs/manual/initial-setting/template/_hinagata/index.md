@@ -1,7 +1,6 @@
 +++
 description = ""
 draft = true
-menuTitle = "テンプレ"
 tags = []
 title = "テンプレ"
 toc = true

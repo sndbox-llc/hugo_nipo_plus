@@ -5,7 +5,7 @@ title = "報告書を読む"
 toc = true
 weight = 101003002
 contributors = []
-aliases = ['/manual/read-report/state/']
+aliases = ["/manual/read-report/state/"]
 
 +++
 

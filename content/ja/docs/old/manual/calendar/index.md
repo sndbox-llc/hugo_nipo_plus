@@ -1,13 +1,12 @@
 +++
 description = "カレンダーは予定を管理するだけではありません。日報とカレンダーを組み合わせて表示したりカレンダー上で日報の集計をすることも可能です。もちろん、予定の管理も可能です"
-menuTitle = "共有カレンダー／スケジューラー"
 title = "共有カレンダー／スケジューラー"
 toc = true
 weight = 109001012
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/calendar/']
+aliases = ["/old/manual/calendar/"]
 +++
 
 {{<btnCenter "/docs/manual/calendar/_about/" "この機能は後続のNipoPlusでもサポートされています">}}

@@ -1,13 +1,12 @@
 +++
 description = "日報のテンプレートにタイムカードを埋め込んで利用できます。タイムカードのデータはスタッフごとに集計したりCSVに出力して手元に保管するといったことも可能です。一部の機能は有償となります"
-menuTitle = "タイムカードと日報"
 title = "タイムカード（労働時間管理）を日報と併せて使う"
 toc = true
 weight = 109001015
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/timecards/']
+aliases = ["/old/manual/timecards/"]
 
 +++
 

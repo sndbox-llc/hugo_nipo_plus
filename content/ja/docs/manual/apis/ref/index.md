@@ -5,7 +5,7 @@ title = "APIリファレンス"
 toc = true
 weight = 101010002
 contributors = []
-aliases = ['/manual/api/ref/']
+aliases = ["/manual/api/ref/"]
 +++
 
 {{<alice pos="right" icon="ok">}}
@@ -23,7 +23,7 @@ NipoPlusのWebAPIへリクエストを投げる基本の形は次のようにな
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポイント】 \
 -H "Content-Type:application/json;charset=UTF-8" \
 -H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
--d '{ "key": "value", "key2": "value2" }'
+-d "{ "key": "value", "key2": "value2" }"
 ```
 
 {{<alice pos="right" icon="here">}}
@@ -63,7 +63,7 @@ WebAPIを使った日報の取得は4種類用意されています。
 |from|String|期間（開始) 2022/08/01 00:00:00のような形で指定。必ずtoとセットで使用|
 |to|String|期間（終了) 2022/09/31 23:59:59のような形で指定。必ずfromとセットで使用|
 |tags|String配列|タグのIDを配列で指定|
-|states|String配列|日報の状態で絞り込み。['承認', '棄却', '修正', '新規', '進行']のように指定|
+|states|String配列|日報の状態で絞り込み。["承認", "棄却", "修正", "新規", "進行"]のように指定|
 |templates|String配列|使用したテンプレートのIDで絞り込み。テンプレートIDの配列で指定|
 |owners|String配列|日報作成者IDで絞り込み。スタッフのIDを配列で指定|
 
@@ -77,7 +77,7 @@ WebAPIを使った日報の取得は4種類用意されています。
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/reports/admin \
 -H "Content-Type:application/json;charset=UTF-8" \
 -H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
--d '{"groupId": "nipodefaultgroup" }'
+-d "{"groupId": "nipodefaultgroup" }"
 ```
 
 日付（fromとto）の指定が無い場合は直近の日報の順に取得されます。上記コマンドの場合は直近の日報10件がAPI経由で取得されます。
@@ -148,7 +148,7 @@ https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 -H "Content-Type:application/json" \
 -H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
--d '{ "groupId": "nipodefaultgroup" }'
+-d "{ "groupId": "nipodefaultgroup" }"
 ```
 
 取得されるテンプレートのデータは生データです。詳しくは[日報データ構造](/docs/manual/api/report/)を参照してください。
@@ -171,7 +171,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
 -H "Content-Type:application/json" \
 -H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
--d '{"groupId": "nipodefaultgroup", "size": 1000, "from": "2022/08/01 10:00:00", "to": "2022/08/01 10:59:59"}'
+-d "{"groupId": "nipodefaultgroup", "size": 1000, "from": "2022/08/01 10:00:00", "to": "2022/08/01 10:59:59"}"
 ```
 
 ### スタッフのデータ取得API
@@ -189,7 +189,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 -H "Content-Type:application/json" \
 -H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
--d '{ "groupId": "nipodefaultgroup" }'
+-d "{ "groupId": "nipodefaultgroup" }"
 ```
 
 ### 組織全体に関するAPI

@@ -1,11 +1,10 @@
 +++
 description = "日報のやり取りをクラウド化することでスマホなどのモバイル機器から簡単に提出ができるようになります"
-menuTitle = "クラウドの利点"
 title = "日報をクラウドシステム化するとスマホから読み書きが可能に"
 toc = true
 # weight = 104000004
 contributors = []
-excerpt = 'クラウドの利点'
+excerpt = "クラウドの利点"
 images = []
 categories = ["製造業向け", "チェックシート"]
 tags = ["製造業向け", "チェックシート"]
@@ -13,7 +12,7 @@ date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/blog/cloud/']
+aliases = ["/blog/cloud/"]
 +++
 
 

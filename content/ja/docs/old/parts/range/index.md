@@ -1,13 +1,12 @@
 +++
 description = "日報に範囲入力できるパーツを追加できます。範囲は最小と最大の設定が必要で、その範囲を超える値は入力できません。"
-menuTitle = "範囲"
 title = "範囲-日報構成部品"
 toc = true
 weight = 109002014
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/parts/range/']
+aliases = ["/old/parts/range/"]
 
 +++
 

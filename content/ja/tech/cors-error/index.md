@@ -1,13 +1,12 @@
 +++
 description = "CORSエラーによってCloud Functionがうまく動かなかった。その原因と解決策に奔走してしまい、３時間を無駄にしました。原因と解決策についてまとめています"
-menuTitle = "Firebase CORSの回避"
 tags = ["firebase"]
 title = "FirebaseのCloud FunctionsでHttps.onRequestのCORS問題を回避"
 toc = true
 weight = 105000010
 contributors = []
-excerpt = 'Firebase CORSの回避'
-images = ['firebase-icatch.png']
+excerpt = "Firebase CORSの回避"
+images = ["firebase-icatch.png"]
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false

@@ -1,13 +1,12 @@
 +++
 description = "1つ目の回答によって2つめの回答リストが変化する特殊な入力フォームです。カテゴリ分けしたい場合に便利です"
-menuTitle = "選択肢入力(2層式)"
 tags = []
 title = "🧩選択肢入力（2層式）"
 toc = true
 weight = 101001105
 mermaid = true
 contributors = []
-aliases = ['/manual/initial-setting/template/selectcalc/']
+aliases = ["/manual/initial-setting/template/selectcalc/"]
 
 +++
 

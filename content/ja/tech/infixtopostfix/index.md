@@ -1,12 +1,11 @@
 +++
 description = "通常の数式を逆ポーランドに変換するサンプル（Typescript）と、逆ポーランドを計算するサンプルプログラムです。入力は電卓風のUIで実装"
-menuTitle = "逆ポーランド記法の作成"
+excerpt = "逆ポーランド記法の作成"
 tags = []
 title = "電卓風の見た目で逆ポーランド記法の式を作成する（vue & Typescript)"
 toc = true
 weight = 105000028
 contributors = []
-excerpt = '逆ポーランド記法の作成'
 images = []
 date = "2022-11-14"
 lastmod = "2022-11-14"

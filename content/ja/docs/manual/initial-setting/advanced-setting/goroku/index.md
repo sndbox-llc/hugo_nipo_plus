@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "語録管理"
 tags = ["語録機能"]
 title = "語録管理"
 toc = true
 weight = 101001203
 contributors = []
-aliases = ['/manual/initial-setting/advanced-setting/goroku/']
+aliases = ["/manual/initial-setting/advanced-setting/goroku/"]
 
 +++
 

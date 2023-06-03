@@ -1,13 +1,12 @@
 +++
 description = "単語集を用意して一覧から入力できる方式です。類似パーツに「選択肢」がありますがこちらは単語の数が多い場合に最適です"
-menuTitle = "語録入力"
 title = "語録入力-日報構成部品"
 toc = true
 weight = 109002016
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/parts/dictionaly/']
+aliases = ["/old/parts/dictionaly/"]
 
 +++
 

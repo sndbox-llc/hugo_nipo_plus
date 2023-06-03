@@ -5,7 +5,7 @@ title = "保存BOX"
 toc = true
 weight = 101003001
 contributors = []
-aliases = ['/manual/read-report/list/']
+aliases = ["/manual/read-report/list/"]
 +++
 
 保存BOXは次の３種類があります。切り替えて利用できます。

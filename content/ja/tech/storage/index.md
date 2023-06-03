@@ -1,13 +1,12 @@
 +++
 description = "Cloud Storageからファイルのダウンロードを行うときに発生したエラーの原因と対策。意外と調べても出てこないお粗末なエラーでした"
-menuTitle = "Firebase Storage No SuchKey"
 tags = ["firebase"]
 title = "Firebase StorageでNoSuchKeyのエラーが発生する原因と対策"
 toc = true
 weight = 105000002
 contributors = []
 excerpt = "Firebase Storage No SuchKey"
-images = ['firebase-icatch.png']
+images = ["firebase-icatch.png"]
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false

@@ -1,13 +1,12 @@
 +++
 description = "この機能は管理者限定です。蓄積した日報データをまとめて削除することができます。"
-menuTitle = "日報の一括削除"
 title = "日報の一括削除"
 toc = true
 weight = 109001016
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/delete/']
+aliases = ["/old/manual/delete/"]
 +++
 
 {{<btnCenter "/docs/manual/remove/reportbatch/" "この機能は後続のNipoPlusでもサポートされています">}}

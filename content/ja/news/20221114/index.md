@@ -1,7 +1,6 @@
 +++
 title = "NipoとNipoPlusのホームページを統合しました"
 description = "NipoとNipoPlusのホームページを1つのサイトに統合しました"
-menuTitle = "ホームページ統合"
 categories = ["News"]
 tags = ["News"]
 toc = true

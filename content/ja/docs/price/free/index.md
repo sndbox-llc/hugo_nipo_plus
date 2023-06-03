@@ -1,12 +1,11 @@
 +++
 description = "検索や集計など一部の機能は制限されますが無料で日報アプリを利用し続けることができます。コストを掛けたくない方はNipoPlusをご検討ください。ずっと無料です"
-menuTitle = "無料プランについて"
 tags = []
 title = "無料プランについて"
 toc = true
 weight = 102000002
 contributors = []
-aliases = ['/price/free/']
+aliases = ["/price/free/"]
 +++
 
 

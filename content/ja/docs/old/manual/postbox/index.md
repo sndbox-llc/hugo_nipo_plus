@@ -1,13 +1,12 @@
 +++
 description = "スタッフが作成した日報は受信BOXから読むことができます。絞り込み検索や表示した日報の印刷など様々なことが行なえます"
-menuTitle = "日報受信ボックスについて"
 title = "日報受信ボックスについて"
 toc = true
 weight = 109001009
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/postbox/']
+aliases = ["/old/manual/postbox/"]
 
 +++
 

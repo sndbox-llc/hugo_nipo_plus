@@ -1,13 +1,12 @@
 +++
 description = "つまみをドラッグするだけで数値の入力ができる日報のテンプレート用パーツです"
-menuTitle = "スライダー"
 title = "スライダー-日報構成部品"
 toc = true
 weight = 109002005
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/parts/slide/']
+aliases = ["/old/parts/slide/"]
 
 +++
 

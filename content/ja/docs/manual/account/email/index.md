@@ -5,7 +5,7 @@ title = "📨メールアドレスの変更"
 toc = true
 weight = 101009002
 contributors = []
-aliases = ['/manual/account/email/']
+aliases = ["/manual/account/email/"]
 +++
 
 ログインに使用するメールアドレスを変更できますが、この手続きには確認のためログインパスワードの入力が必要です。パスワードがわからない場合は先に[ログインパスワードの再設定](/docs/manual/account/password/)を行ってください。

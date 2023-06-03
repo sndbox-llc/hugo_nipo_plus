@@ -1,13 +1,12 @@
 +++
 description = "グループはスタッフと日報をやり取りするための空間です。用途に応じて複数のグループを作成して切り分けて使うことができます。不要になればグループを解散できます"
-menuTitle = "グループの作成と削除"
 title = "グループの新規作成と削除について"
 toc = true
 weight = 109001003
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/group/']
+aliases = ["/old/manual/group/"]
 
 +++
 

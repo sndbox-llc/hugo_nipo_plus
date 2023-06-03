@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "有料プランに加入"
 tags = ["Web版限定"]
 title = "有料プランに加入"
 toc = true
 weight = 102000003
 contributors = []
-aliases = ['/price/fee/']
+aliases = ["/price/fee/"]
 +++
 
 このページのガイドは**Web版(PWA版)のNipoPlusから操作**をお願いします。iOS版・Android版からはお申し込み出来ませんので注意してください。  

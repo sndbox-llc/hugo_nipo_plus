@@ -1,13 +1,12 @@
 +++
 description = "アカウントの作成から日報の作成までの基本的な流れを順に解説しています"
-menuTitle = "クイックスタート"
 title = "クイックスタートガイド"
 toc = true
 weight = 109001001
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/quick/']
+aliases = ["/old/manual/quick/"]
 
 +++
 

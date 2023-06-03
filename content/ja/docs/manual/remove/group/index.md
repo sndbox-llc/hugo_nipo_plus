@@ -1,12 +1,11 @@
 +++
 description = "グループを無効にすることでデータへのアクセス権を完全に閉鎖します。データ自体を削除するには無効化後に「完全に削除」を選択してデータ自体を削除することもできます。"
-menuTitle = "グループの削除"
 tags = []
 title = "グループの削除"
 toc = true
 weight = 101011006
 contributors = []
-aliases = ['/manual/remove/group/']
+aliases = ["/manual/remove/group/"]
 
 +++
 

@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "詳細画面のその他の機能"
 tags = []
 title = "詳細画面のその他の機能"
 toc = true
 weight = 101003006
 contributors = []
-aliases = ['/manual/read-report/other/']
+aliases = ["/manual/read-report/other/"]
 
 +++
 

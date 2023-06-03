@@ -1,12 +1,11 @@
 +++
 description = "1つの日報ファイルを1枚のPDFファイルに変換します"
-menuTitle = "PDF出力（単体）"
 tags = ["PDF出力"]
 title = "報告書PDF出力（単体）"
 toc = true
 weight = 101003005
 contributors = []
-aliases = ['/manual/read-report/pdf/']
+aliases = ["/manual/read-report/pdf/"]
 
 +++
 

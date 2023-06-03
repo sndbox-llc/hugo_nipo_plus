@@ -1,6 +1,5 @@
 +++
 description = "マニュアル用の画像など無機質な画像においてはPngのほうが10%以上軽くなるケースも多々ありました。色の量が大きなポイントです"
-menuTitle = "webP VS Png"
 tags = []
 title = "webPよりPngのほうが軽いケースも多い"
 toc = true

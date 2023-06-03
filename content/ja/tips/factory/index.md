@@ -1,19 +1,18 @@
 +++
 description = "品質管理チェックシートを電子化することで、従来の紙ベースの手順から解放されます。タブレット1つで入力からグラフ化までスピーディーに行え、作業効率が向上します。"
-menuTitle = "集計/P管理図/データシート"
 title = "QCチェックシートから不良率算出やP管理図を作成"
 toc = true
 # weight = 106000002
 contributors = []
-excerpt = '集計/P管理図/データシート'
-images = ['factory_icatch.png']
+excerpt = "集計/P管理図/データシート"
+images = ["factory_icatch.png"]
 categories = ["製造業向け", "集計"]
 tags = ["製造業向け", "集計"]
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/checksheet/factory/']
+aliases = ["/checksheet/factory/"]
 +++
 
 

@@ -5,7 +5,7 @@ title = "複数のテンプレートを比較し集計する"
 toc = true
 weight = 101004008
 contributors = []
-aliases = ['/manual/analytics/cross/']
+aliases = ["/manual/analytics/cross/"]
 
 +++
 

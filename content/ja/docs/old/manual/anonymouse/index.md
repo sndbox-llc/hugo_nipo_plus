@@ -1,13 +1,12 @@
 +++
 description = "匿名アカウントとはE-mailやパスワードを設定しないアカウントです。手軽に体験していただくことを目的に実装されてた機能で、あくまでも一時的なアカウントです。継続利用には正規アカウントへ簡単に昇格できます"
-menuTitle = "手軽に体験できる匿名アカウント"
 title = "手軽に体験できる匿名アカウント"
 toc = true
 weight = 109001018
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/anonymouse/']
+aliases = ["/old/manual/anonymouse/"]
 +++
 
 

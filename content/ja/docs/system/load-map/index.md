@@ -1,12 +1,11 @@
 +++
 description = "今後のアップデート予定について"
-menuTitle = "ロードマップ"
 tags = []
 title = "ロードマップ"
 toc = true
 weight = 103000005
 contributors = []
-aliases = ['/system/load-map/']
+aliases = ["/system/load-map/"]
 +++
 
 NipoPlusで現在実装されていませんがこれから実装を予定している機能についてまとめています。

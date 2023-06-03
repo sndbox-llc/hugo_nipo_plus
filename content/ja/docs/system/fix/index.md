@@ -1,12 +1,11 @@
 +++
 description = "NipoPlusの動作で不具合があった場合の一般的な問題解決手順について解説しています。"
-menuTitle = "トラブルシューティング"
 tags = []
 title = "トラブルシューティング"
 toc = true
 weight = 103000009
 contributors = []
-aliases = ['/system/fix/']
+aliases = ["/system/fix/"]
 +++
 
 NipoPlusはWeb版・Android版・iOS版があります。ベースとしてWeb版があり、Web版をスマホアプリストアで公開できるように変換したものがそれぞれAndroid / iOS版となっています。

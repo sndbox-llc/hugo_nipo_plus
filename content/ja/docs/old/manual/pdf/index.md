@@ -1,13 +1,12 @@
 +++
 description = "Nipoで作成した日報データはワンクリックでかんたんにPDFに変換できます。PDF変換前の設定で多少の見た目を変更することもできます"
-menuTitle = "日報をPDFに変換する"
 title = "日報をPDFに変換する"
 toc = true
 weight = 109001010
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/pdf/']
+aliases = ["/old/manual/pdf/"]
 
 +++
 

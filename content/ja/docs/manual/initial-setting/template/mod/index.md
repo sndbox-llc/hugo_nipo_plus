@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "商品入力フォーム"
 tags = []
 title = "🧩商品入力"
 toc = true
 weight = 101001117
 contributors = []
-aliases = ['/manual/initial-setting/template/mod/']
+aliases = ["/manual/initial-setting/template/mod/"]
 
 +++
 

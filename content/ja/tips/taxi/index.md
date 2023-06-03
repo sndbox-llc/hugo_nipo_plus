@@ -1,20 +1,19 @@
 +++
 description = "スマートフォン1台で日報の作成や提出が可能です。タクシーに特化したわけではありませんが項目を自由に設計できるので様々な使い方が可能です"
-menuTitle = "タクシー日報をスマホで"
 tags = []
 title = "タクシー日報をスマホ・タブレットで"
 toc = true
 # weight = 104000005
 contributors = []
 
-excerpt = 'タクシー日報をスマホで'
+excerpt = "タクシー日報をスマホで"
 images = []
 categories = []
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/blog/taxi/']
+aliases = ["/blog/taxi/"]
 
 +++
 

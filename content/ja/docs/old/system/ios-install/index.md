@@ -1,13 +1,12 @@
 +++
 description = "NipoをスマートフォンにインストールするにはApp storeからダウンロードするか、PWAとしてインストールする方法があります"
-menuTitle = "iOSにインストール"
 title = "iPhone・iPadにNipoをインストールする"
 toc = true
 weight = 109003004
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/system/ios-install/']
+aliases = ["/old/system/ios-install/"]
 
 +++
 

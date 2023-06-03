@@ -1,12 +1,11 @@
 +++
 description = "製造業の生産管理をエクセルシートからタブレットに切り替えることで無駄な転記を省略、製造業のDX化をサポートします。"
-menuTitle = "月間目標と実績から進捗を管理"
 title = "生産目標と進捗を報告書から自動で表に変換。製造業のDX化"
 toc = true
 # weight = 104000011
 contributors = []
-excerpt = 'CSVを連結するWebアプリ'
-images = ['factory_icatch.png']
+excerpt = "月間目標と実績から進捗を管理"
+images = ["factory_icatch.png"]
 categories = ["製造業向け", "チェックシート"]
 tags = ["製造業向け", "チェックシート"]
 date = "2022-11-14"

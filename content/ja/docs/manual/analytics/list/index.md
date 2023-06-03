@@ -1,12 +1,11 @@
 +++
 description = "これまでの日報のデータ推移を一覧表にして画面に表示します。前回や前々回と比較したりスタッフ同士の比較にも利用できます"
-menuTitle = "日報データ推移と累積"
 tags = ["有料プラン限定"]
-title = "日報の過去データの推移や累積を見る"
+title = "過去データの推移・累積"
 toc = true
 weight = 101004001
 contributors = []
-aliases = ['/manual/analytics/list/']
+aliases = ["/manual/analytics/list/"]
 
 +++
 

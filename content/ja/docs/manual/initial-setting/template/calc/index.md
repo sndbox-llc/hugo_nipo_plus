@@ -1,12 +1,11 @@
 +++
 description = "日報のあるデータをもとに簡単な四則演算を行って結果を返す計算機能を日報に埋め込みます"
-menuTitle = "算術"
 tags = ["集計可能フォーム"]
 title = "🧩算術フォーム"
 toc = true
 weight = 101001116
 contributors = []
-aliases = ['/manual/initial-setting/template/calc/']
+aliases = ["/manual/initial-setting/template/calc/"]
 
 +++
 

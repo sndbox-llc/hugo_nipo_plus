@@ -1,12 +1,11 @@
 +++
 description = "報告書の作成から集計・グラフ化まで一括で行え、業務効率化と情報活用に貢献します。スマホでも利用可能。ここでは集計・グラフ化について詳しい使い方を徹底解説します。"
-menuTitle = "集計グラフ/CSV・PDF一括出力"
 title = "報告書データの集計・グラフ化・BI化を実現する"
 toc = true
 tags = ["有料プラン限定"]
 weight = 101004000
 contributors = []
-aliases = ['/manual/analytics/']
+aliases = ["/manual/analytics/"]
 
 +++
 

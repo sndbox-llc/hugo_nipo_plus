@@ -1,13 +1,12 @@
 +++
 description = "Nipoの利用を完全にやめる場合はアカウントを削除することでセキュリティリスクを軽減できます"
-menuTitle = "Nipoを削除する"
 title = "Nipoを削除する"
 toc = true
 weight = 109001017
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/leave-account/']
+aliases = ["/old/manual/leave-account/"]
 
 +++
 

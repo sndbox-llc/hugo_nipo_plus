@@ -1,12 +1,11 @@
 +++
 description = "使用しなくなった日報テンプレートは無効化します。完全に削除する際は過去の日報のレイアウトが保てなくなるため注意が必要です"
-menuTitle = "日報テンプレートの削除"
 tags = ["削除"]
-title = "日報テンプレートの削除"
+title = "テンプレートの削除"
 toc = true
 weight = 101011001
 contributors = []
-aliases = ['/manual/remove/template/']
+aliases = ["/manual/remove/template/"]
 
 +++
 

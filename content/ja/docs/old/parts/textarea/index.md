@@ -1,13 +1,12 @@
 +++
 description = "業務内容の報告や備考などの一般的な本文入力に使用する日報の入力部品です"
-menuTitle = "本文入力"
 title = "本文入力-日報構成部品"
 toc = true
 weight = 109002015
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/parts/textarea/']
+aliases = ["/old/parts/textarea/"]
 
 +++
 

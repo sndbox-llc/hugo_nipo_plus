@@ -1,12 +1,11 @@
 +++
 description = "有料プランを解約する場合は、管理画面からいつでも手続きが可能です。解約手続きが完了すると、その月末までの期間を有効期限とするサービスが提供されます。解約後も過去のデータは残ります"
-menuTitle = "有料プランを解約"
 tags = ["Web版限定"]
 title = "有料プランを解約"
 toc = true
 weight = 102000004
 contributors = []
-aliases = ['/price/cancel/']
+aliases = ["/price/cancel/"]
 +++
 
 ## 手動でサブスクリプションを解約する

@@ -1,6 +1,5 @@
 +++
 description = "最新のお知らせ"
-menuTitle = "News"
 title = "News"
 toc = true
 tags = []

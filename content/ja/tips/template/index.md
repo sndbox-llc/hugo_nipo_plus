@@ -1,12 +1,11 @@
 +++
 description = "NipoPlusで使えるカスタマイズ自由なテンプレートサンプルをご紹介！5Sチェックシートや設備点検シート、品質管理シートなど、業種・業務に応じて簡単にカスタマイズ可能です。作業効率アップにお役立てください"
-menuTitle = "日報テンプレート集"
+excerpt = "日報テンプレート集"
 tags = []
 title = "業務日報テンプレート集"
 toc = true
 # weight = 104000001
 contributors = []
-excerpt = '日報テンプレート集'
 images = []
 categories = []
 date = "2022-11-14"

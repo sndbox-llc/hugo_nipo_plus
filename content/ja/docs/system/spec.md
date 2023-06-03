@@ -1,12 +1,11 @@
 +++
 description = "PCやスマートフォン・タブレットから利用可能です。Google ChromeまたはSafariの動作する環境が必要です"
-menuTitle = "動作環境"
 tags = []
 title = "動作環境"
 toc = true
 weight = 103000001
 contributors = []
-aliases = ['/system/spec/']
+aliases = ["/system/spec/"]
 +++
 
 ## Webアプリ版

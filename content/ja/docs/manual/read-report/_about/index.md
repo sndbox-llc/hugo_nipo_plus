@@ -5,7 +5,7 @@ toc = true
 tags = []
 weight = 101003000
 contributors = []
-aliases = ['/manual/read-report/']
+aliases = ["/manual/read-report/"]
 
 +++
 

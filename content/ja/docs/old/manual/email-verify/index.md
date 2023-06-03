@@ -1,13 +1,12 @@
 +++
 description = "Nipoに登録されたE-mailに誤りが無いかを確認することを「メールの確認」といいます。このページではE-mailの確認について解説しています"
-menuTitle = "メールアドレスを確認する"
 title = "メールアドレスを確認する"
 toc = true
 weight = 109001002
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/email-verify/']
+aliases = ["/old/manual/email-verify/"]
 +++
 
 ## E-mailの役割はログインの他にもある非常に重要な情報です

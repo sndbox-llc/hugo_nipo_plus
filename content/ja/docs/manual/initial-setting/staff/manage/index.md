@@ -1,12 +1,11 @@
 +++
 description = "スタッフアカウントを無効化したり、削除、修正する方法について解説しています。この操作には管理者権限が必要です"
-menuTitle = "スタッフの管理"
 tags = []
 title = "アカウントの管理"
 toc = true
 weight = 101001055
 contributors = []
-aliases = ['/manual/initial-setting/staff/manage/']
+aliases = ["/manual/initial-setting/staff/manage/"]
 
 +++
 

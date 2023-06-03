@@ -1,12 +1,11 @@
 +++
 description = "クラウド日報Nipoでお客様からお預かりする個人情報の取り扱いについてのお約束事をまとめました"
-menuTitle = "プライバシーポリシー"
 tags = []
 title = "プライバシーポリシー"
 toc = true
 weight = 103000013
 contributors = []
-aliases = ['/system/privacy-policy/']
+aliases = ["/system/privacy-policy/"]
 
 +++
 

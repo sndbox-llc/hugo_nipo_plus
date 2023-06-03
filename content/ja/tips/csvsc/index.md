@@ -1,11 +1,10 @@
 +++
 description = "ドラッグ操作で複数のCSVを1つのCSVファイルに結合するWebアプリです。インストール不要。無料です"
-menuTitle = "CSVを連結するWebアプリ"
 title = "複数のCSVファイルをドラッグ操作で簡単に1つに結合できます"
 toc = true
 weight = 104000007
 contributors = []
-excerpt = 'CSVを連結するWebアプリ'
+excerpt = "CSVを連結するWebアプリ"
 images = []
 categories = []
 tags = []
@@ -13,7 +12,7 @@ date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/blog/csvsc/']
+aliases = ["/blog/csvsc/"]
 
 +++
 

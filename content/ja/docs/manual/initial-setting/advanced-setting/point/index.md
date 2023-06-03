@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "商品状態管理"
 tags = []
 title = "商品状態管理"
 toc = true
 weight = 101001207
 contributors = []
-aliases = ['/manual/initial-setting/advanced-setting/point/']
+aliases = ["/manual/initial-setting/advanced-setting/point/"]
 
 +++
 

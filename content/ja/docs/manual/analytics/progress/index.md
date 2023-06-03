@@ -1,12 +1,11 @@
 +++
 description = "予定と実績の管理と進捗の管理について"
-menuTitle = "予定・実績管理"
 tags = ["有料プラン限定"]
 title = "予定と実績の管理"
 toc = true
 weight = 101004007
 contributors = []
-aliases = ['/manual/analytics/progress/']
+aliases = ["/manual/analytics/progress/"]
 
 +++
 

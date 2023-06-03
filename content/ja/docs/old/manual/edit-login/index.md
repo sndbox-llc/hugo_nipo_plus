@@ -1,13 +1,12 @@
 +++
 description = "Nipoのログインパスワードを忘れてしまった場合やメールアドレスの変更をしたい場合はこちらをご覧ください"
-menuTitle = "パスワードリセット"
 title = "パスワードリセット"
 toc = true
 weight = 109001014
 isNipo = true
 tags = ["旧バージョン"]
 contributors = []
-aliases = ['/old/manual/edit-login/']
+aliases = ["/old/manual/edit-login/"]
 +++
 
 

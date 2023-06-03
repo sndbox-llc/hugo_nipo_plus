@@ -1,13 +1,12 @@
 +++
 description = "Elastic Searchの全文検索とFireStoreのデータベースを連携して相乗効果UP"
-menuTitle = "elasticSearchを使った検索"
 tags = ["firebase"]
 title = "FirestoreとElasticSearchを組み合わせて\n検索に強いFirebaseアプリを作る"
 toc = true
 weight = 105000021
 contributors = []
-excerpt = 'elasticSearchを使った検索'
-images = ['firebase-icatch.png']
+excerpt = "elasticSearchを使った検索"
+images = ["firebase-icatch.png"]
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false

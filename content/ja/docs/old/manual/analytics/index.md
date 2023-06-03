@@ -1,14 +1,12 @@
 +++
 description = "蓄積した日報のデータを簡単に集計＆グラフ化できます。より細かい分析がしたい場合は集計データをCSVに出力することでエクセルなどの表計算ソフトを使い分析が可能です"
-menuTitle = "日報の集計"
 title = "日報をエクセルシートで集計しよう！提出漏れもかんたんチェック"
 toc = true
 weight = 109_001_011
 isNipo = true
 tags = ["旧バージョン"]
-contributors = [ ]
-aliases = ['/old/manual/analytics/']
-
+contributors = []
+aliases = ["/old/manual/analytics/"]
 +++
 
 {{<btnCenter "/docs/manual/analytics/_about/" "この機能は後続のNipoPlusでもサポートされています">}}

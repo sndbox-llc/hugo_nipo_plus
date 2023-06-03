@@ -1,12 +1,11 @@
 +++
 description = "よくある質問と答え"
-menuTitle = "FAQ"
 tags = []
-title = "よくある質問と答え"
+title = "❓FAQ💡"
 toc = true
 weight = 103000010
 contributors = []
-aliases = ['/system/faq/']
+aliases = ["/system/faq/"]
 +++
 
 

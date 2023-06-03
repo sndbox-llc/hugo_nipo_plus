@@ -1,12 +1,11 @@
 +++
 description = "クレジット表記"
-menuTitle = "クレジット表記"
 tags = []
 title = "サイト内の画像に関するクレジット表記"
 weight = 103000015
 toc = true
 contributors = []
-aliases = ['/system/credit/']
+aliases = ["/system/credit/"]
 +++
 
 Nipo/NipoPlusに関する画像については転載いただいても大丈夫ですが、出典元の名称（Nipo/NipoPlusの名前）を明記してください。可能であればリンクもお願いします。

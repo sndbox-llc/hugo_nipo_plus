@@ -1,13 +1,12 @@
 +++
 description = "長いことFirestoreはバックアップ機能を提供してきませんでした。この度Firebase公式のバックアップ手順が紹介されたため実際に導入してみたときの記事です"
-menuTitle = "FireStoreのバックアップ"
+excerpt = "FireStoreのバックアップ"
 tags = ["firebase"]
 title = "Firestoreのデータバックアップを自動で行う一番簡単なやり方"
 toc = true
 weight = 105000011
 contributors = []
-excerpt = 'FireStoreのバックアップ'
-images = ['firebase-icatch.png']
+images = ["firebase-icatch.png"]
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false

@@ -1,12 +1,11 @@
 +++
 description = "日報やチェックシートにZipやExcelなどのバイナリーファイルを添付するフォームを追加します。添付されたファイルはNipoPlusのサーバ上に保管され、日報本体を削除すると連動してサーバ上からファイルが削除されます"
-menuTitle = "ファイル入力"
 tags = []
 title = "🧩ファイル入力"
 toc = true
 weight = 101001112
 contributors = []
-aliases = ['/manual/initial-setting/template/file/']
+aliases = ["/manual/initial-setting/template/file/"]
 
 +++
 

@@ -1,12 +1,11 @@
 +++
 description = "日報やチェックシートに「日付・時刻」の入力フォームを追加します。形式は4種類ありそれぞれで入力方式も異なります。カレンダーやアナログ時計を使った入力のほか、キーボードから直接入力することも可能です"
-menuTitle = "日付/時刻入力"
 tags = []
 title = "🧩日付・時刻入力"
 toc = true
 weight = 101001106
 contributors = []
-aliases = ['/manual/initial-setting/template/datetime/']
+aliases = ["/manual/initial-setting/template/datetime/"]
 
 +++
 

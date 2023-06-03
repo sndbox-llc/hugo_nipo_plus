@@ -5,7 +5,7 @@ title = "パスワードの変更"
 toc = true
 weight = 101009003
 contributors = []
-aliases = ['/manual/account/password/']
+aliases = ["/manual/account/password/"]
 
 +++
 

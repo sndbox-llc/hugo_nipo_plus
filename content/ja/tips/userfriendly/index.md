@@ -1,19 +1,18 @@
 +++
 description = "日報テンプレートの作り方によってスタッフの入力負担を軽減したり、誤入力や品質のばらつきを最小限に抑えます。業務効率を上げるための日報テンプレート設計について解説しています"
-menuTitle = "入力しやすい日報を自作する"
-tags = [ ]
+tags = []
 title = "スタッフが使いやすい報告書テンプレートの作成方法"
 toc = true
-weight = 104_000_006
-contributors = [ ]
+weight = 104000006
+contributors = []
 excerpt = "入力しやすい日報を自作する"
-images = [ ]
-categories = [ ]
+images = []
+categories = []
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-keywords = [ ]
+keywords = []
 +++
 
 

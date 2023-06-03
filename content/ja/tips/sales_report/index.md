@@ -1,19 +1,18 @@
 +++
 description = "NipoPlusの集計機能で効率的なデータ集計が可能ですが、より高度な分析やグラフ作成を行いたい場合は、エクセルを使った集計がおすすめです。本記事では、NipoPlusの集計機能とエクセルを使った集計方法について解説します。"
-menuTitle = "営業日報を集計する"
-tags = []
+tags = ["集計"]
 title = "日報を1枚のエクセルに集約してデータ集計から分析までの流れを解説"
 toc = true
 # weight = 104000003
 contributors = []
-excerpt = '記入・提出漏れを防ぐ'
+excerpt = "営業日報を集計する"
 images = []
 categories = []
 date = "2022-11-14"
 lastmod = "2022-11-14"
 pinned = false
 homepage = false
-aliases = ['/blog/sales_report/']
+aliases = ["/blog/sales_report/"]
 
 +++
 

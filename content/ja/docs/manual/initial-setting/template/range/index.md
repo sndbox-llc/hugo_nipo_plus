@@ -1,12 +1,11 @@
 +++
 description = ""
-menuTitle = "範囲入力"
 tags = []
 title = "🧩範囲入力"
 toc = true
 weight = 101001109
 contributors = []
-aliases = ['/manual/initial-setting/template/range/']
+aliases = ["/manual/initial-setting/template/range/"]
 
 +++
 

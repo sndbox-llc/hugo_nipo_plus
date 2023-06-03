@@ -1,13 +1,12 @@
 +++
 description = "人数分のPCが用意できなくても共用機能を使うことで、1台のPCからスタッフを切り分けて日報を作成できます。共用PCで日報を管理したい際にご利用ください"
-menuTitle = "スタッフアカウントの共用"
 tags = []
 title = "スタッフアカウントの共用"
 toc = true
 weight = 101001206
 mermaid = true
 contributors = []
-aliases = ['/manual/initial-setting/advanced-setting/share/']
+aliases = ["/manual/initial-setting/advanced-setting/share/"]
 
 +++
 

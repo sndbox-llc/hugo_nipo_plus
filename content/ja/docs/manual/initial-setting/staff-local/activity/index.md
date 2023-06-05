@@ -9,24 +9,13 @@ aliases = ["/manual/initial-setting/advanced-setting/activity/", "/docs/manual/i
 
 +++
 
-グループに所属しているスタッフに対して設定をしたり、グループ内の活動実績を把握することができます。  
-グループに所属中のスタッフを確認するには、以下の手順でアクセスします。
+スタッフが月に何件報告書を書いたか？といった活動状況を見ることができます。
 
 1. グループ設定をクリック
 1. スタッフ管理をクリック
 
-{{<imgproc staffs.png "グループに所属しているスタッフを一覧表示する" />}}
+{{<appscreen filename="staff-activity" title="スタッフの活動実績を月ごとに表示" >}}
 
-所属スタッフの一覧が表示されました。各スタッフの権限や名前については[組織全般で作成されたスタッフ情報](/docs/manual/initial-setting/staff/make/)がそのまま引き継がれます。グループごとに変更することはできないため、
-必要に応じて[組織全般からスタッフ名を変更](/docs/manual/initial-setting/staff/manage/)してください。  
-権限についても同様に[組織全般からスタッフの権限を変更](/docs/manual/initial-setting/staff/_about/)してください。
-
-## 1ヶ月ごとのスタッフの活動実績を確認する
-
-グループ内のスタッフが1ヶ月間にどのような行動をどの程度行ったのかを大まかに把握できます。  
-集計は1ヶ月単位で行われます。デフォルトでは「今月」が選択されていますので、必要に応じて集計表示月を変更してください。
-
-{{<imgproc activity.png "スタッフの活動実績を月ごとに表示" />}}
 
 |名称|説明|
 |---|---|
@@ -38,10 +27,10 @@ aliases = ["/manual/initial-setting/advanced-setting/activity/", "/docs/manual/i
 |タスク完了|1ヶ月の間にタスクを完了した回数を表示します|
 |コメント|1ヶ月の間に[日報やタスクにコメント](/docs/manual/read-report/comment/)を書き込んだ回数を表示します|
 
+
+## 活動実績の集計期間を変更する
+
 集計する期間は1ヶ月単位で切替ができます。期間を変更するには日付の書かれたボタンをクリックします。
 
-{{<imgproc span.png "活動実績の集計期間を変更する" />}}
+{{<appscreen filename="change-span" title="活動実績の集計期間を変更する" >}}
 
-{{<alice pos="right" icon="here">}}
-活動実績は**グループ毎の集計**です。複数グループ所属の場合は分けて集計されますので注意！
-{{</alice>}}

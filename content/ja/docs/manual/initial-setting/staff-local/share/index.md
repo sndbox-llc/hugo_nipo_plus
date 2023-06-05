@@ -1,7 +1,7 @@
 +++
 description = "人数分のPCが用意できなくても共用機能を使うことで、1台のPCからスタッフを切り分けて日報を作成できます。共用PCで日報を管理したい際にご利用ください"
 tags = []
-title = "スタッフアカウントの共用"
+title = "⛔アカウントの共用"
 toc = true
 weight = 101001038
 mermaid = true
@@ -10,12 +10,19 @@ aliases = ["/manual/initial-setting/advanced-setting/share/", "/docs/manual/init
 
 +++
 
+この機能はかなり特殊で通常使う必要は有りません。
+以下のケース**すべてに該当する**場合にのみ読み進めてください。
 
-{{<alice pos="left" icon="default">}}
-共用は応用的な機能です。使用しない場合は次のページへGO
-{{</alice>}}
+- 据え置きのタブレットやPCを使っている
+- スタッフごとのアカウントを用意できない
+- スタッフごとに集計や分析が必要
 
-{{<imgproc staffs.png "グループに所属しているスタッフを一覧表示する" />}}
+該当しない方は次のページへ
+
+{{<nextBlog>}}
+
+---
+
 
 ## 共用先の設定
 

@@ -28,7 +28,6 @@
       const msg = svgAliceClass.dataset.msg || '';
       const fontSize = svgAliceClass.dataset.fontsize || '22px';
       var myTextElement = document.createElementNS("http://www.w3.org/2000/svg", "text");
-      var honbun = document.createTextNode(msg);
       const stringArray = msg.split(' ');
       stringArray.forEach((node, index) => {
         const dy = index === 0 ? 0 : '1.2em';

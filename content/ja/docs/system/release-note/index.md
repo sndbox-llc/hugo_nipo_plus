@@ -16,25 +16,19 @@ aliases = ["/system/release-note/", "/old/system/releasenote/"]
 
 {{<btnCenter "/docs/system/load-map/" "ロードマップを見る">}}
 
-## バージョンを更新する方法
+## バージョンを更新する
 
 ご利用のアプリ形態によってバージョンの更新手順は異なります
 
-### android / ios版
+<dl>
+<dt>
+<a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp">Android</a> / <a href="https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8">iOS</a>版</dt>
+<dd>各アプリストアからの更新を行うことでバージョンを更新できます</dd>
+<dt>web版(PWA版)</dt>
+<dd>起動時に更新チェックが入り、更新があると画面右下のポップで通知が入ります。通知を無視しても次回起動時に更新されます。</dd>
+</dl>
 
-[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp) / [iOS](https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8)版のNipoPlusをご利用の方は、各アプリストアからの更新を行うことでバージョンを更新できます
-更新はご利用の端末にもよりますが、基本的には手動で更新が必要です
-
-### web版(PWA版)
-
-Web版(PWA版)のNipoPlusをご利用の方は起動時に更新の確認が行われます。更新が確認されるとバックグラウンドでダウンロード＆インストールが行われ、完了すると更新通知の旨が画面右下に表示されます
-この通知をクリックして更新が完了します
-
----
-
-### リリースノート
-
-
+### リリース詳細▼
 
 #### 【NipoPlus】2023/06/01 Version 1.40.0
 

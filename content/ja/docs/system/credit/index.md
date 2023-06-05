@@ -1,7 +1,7 @@
 +++
 description = "クレジット表記"
 tags = []
-title = "サイト内の画像に関するクレジット表記"
+title = "画像のクレジット表記"
 weight = 103000015
 toc = true
 contributors = []

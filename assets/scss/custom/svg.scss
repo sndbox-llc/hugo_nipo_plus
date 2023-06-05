@@ -1,7 +1,21 @@
-.animeAT { animation:animeAT 1s ease-out forwards; }
-.svgAliceClass { opacity: 0; }
+
+.svgAliceClass {
+  opacity: 0;
+}
+
+.animeAT {
+  animation: animeAT 1s ease-out forwards;
+}
+
+
 @keyframes animeAT {
-	0% { opacity: 0; }
-  80% { opacity: 0.9;}
-	100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
 }

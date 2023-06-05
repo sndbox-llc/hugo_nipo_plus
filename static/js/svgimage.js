@@ -122,7 +122,7 @@ export function initSVGLoading () {
   }
 
   // 画像遅延ロードリスナー登録
-  for (let i = 1; i < nodes.images.length; i++) {
+  for (let i = 0; i < nodes.images.length; i++) {
     const image = nodes.images[i];
 
     window.addEventListener("scroll", () => {

@@ -18,6 +18,12 @@
   url = "/others/inquery/"
   weight = 40
 
+
+[[main]]
+  name = "旧Nipo"
+  url = "/docs/old/quick/"
+  weight = 40
+
 [[main]]
   name = "ブログ"
   weight = 50
@@ -26,14 +32,14 @@
 
 [[main]]
   name = "ニュース"
-  weight = 40
+  weight = 51
   identifier = "news"
   url = "/news/"
   parent = "blogroot"
 
 [[main]]
   name = "技術系ブログ"
-  weight = 50
+  weight = 52
   identifier = "tech"
   url = "/tech/"
   parent = "blogroot"

@@ -3,9 +3,9 @@ description = "NipoをアップデートするのではなくNipoPlusという�
 tags = []
 title = "NipoとNipoPlusの違い"
 toc = true
-weight = 103000008
+weight = 109000000
 contributors = []
-aliases = ["/system/about/"]
+aliases = ["/system/about/", "/docs/system/diff/"]
 +++
 
 {{<imgproc eye-catch.png "NipoからNipoPlusへ" />}}

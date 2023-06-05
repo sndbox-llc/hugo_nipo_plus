@@ -109,6 +109,7 @@ NipoPlusでは匿名アカウント機能を使うことでメールアドレス
 
 ここまでスクロールありがとうございました。ご不明な点はいつでもも遠慮なく[お問い合わせ](/others/inquery/)ください。
 
+
 <div class="row justify-content-center">
 <div class="col-sm-16 col-md-4">{{<button "/docs/system/android/" "Androidで使う">}}</div>
 <div class="col-sm-16 col-md-4">{{<button "/docs/system/ios/" "iOSで使う">}}</div>

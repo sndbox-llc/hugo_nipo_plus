@@ -84,7 +84,6 @@ function resizeWindow(){
   })
 }
 function loadImageExe (image, className) {
-  console.log('画像ロード')
   var double = '//';
   var pathname =  location.pathname;
   var chop = pathname.split('index.html');

@@ -1,7 +1,7 @@
 +++
 description = "NipoPlusの動作で不具合があった場合の一般的な問題解決手順について解説しています。"
 tags = []
-title = "トラブルシューティング"
+title = "🚧トラブルシューティング"
 toc = true
 weight = 103000009
 contributors = []

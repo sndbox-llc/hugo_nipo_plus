@@ -5,7 +5,7 @@ title = "ログデータ"
 toc = true
 weight = 101001204
 contributors = []
-aliases = ["/manual/initial-setting/advanced-setting/log/"]
+aliases = ["/manual/initial-setting/advanced-setting/log/", "/docs/manual/initial-setting/advanced-setting/log/"]
 
 +++
 

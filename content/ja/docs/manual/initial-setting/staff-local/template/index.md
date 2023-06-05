@@ -4,9 +4,9 @@ tags = []
 title = "スタッフが利用可能なテンプレートを制限"
 toc = true
 draft = true
-weight = 21
+weight = 101001039
 contributors = []
-aliases = ["/manual/initial-setting/advanced-setting/template/"]
+aliases = ["/manual/initial-setting/advanced-setting/template/", "/docs/manual/initial-setting/advanced-setting/template/"]
 
 +++
 

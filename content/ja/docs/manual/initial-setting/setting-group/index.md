@@ -3,7 +3,7 @@ description = "グループ分けすることで効率的に日報を管理で�
 tags = ["要編集者権限"]
 title = "グループの基本設定"
 toc = true
-weight = 101001002
+weight = 101001011
 contributors = []
 aliases = ["/manual/initial-setting/make-group/"]
 

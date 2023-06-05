@@ -3,10 +3,10 @@ description = "人数分のPCが用意できなくても共用機能を使うこ
 tags = []
 title = "スタッフアカウントの共用"
 toc = true
-weight = 101001206
+weight = 101001038
 mermaid = true
 contributors = []
-aliases = ["/manual/initial-setting/advanced-setting/share/"]
+aliases = ["/manual/initial-setting/advanced-setting/share/", "/docs/manual/initial-setting/advanced-setting/share/"]
 
 +++
 

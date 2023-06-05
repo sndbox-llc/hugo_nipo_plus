@@ -3,9 +3,9 @@ description = "スタッフの頑張り具合を数値化します。日報の�
 tags = []
 title = "スタッフの活動実績"
 toc = true
-weight = 101001205
+weight = 101001036
 contributors = []
-aliases = ["/manual/initial-setting/advanced-setting/activity/"]
+aliases = ["/manual/initial-setting/advanced-setting/activity/", "/docs/manual/initial-setting/advanced-setting/activity/"]
 
 +++
 

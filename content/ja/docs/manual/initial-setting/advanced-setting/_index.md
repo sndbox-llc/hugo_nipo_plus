@@ -1,7 +1,7 @@
 +++
 description = "設定を行わなくても利用できますが設定することでより便利に利用できる項目をまとめています。"
 tags = []
-title = "応用設定"
+title = "その他のグループ設定"
 toc = true
 weight = 101001200
 contributors = []

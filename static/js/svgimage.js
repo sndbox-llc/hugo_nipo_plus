@@ -119,7 +119,6 @@ export function initSVGLoading () {
     const className = firstImage.getAttribute('class');
     const target = firstImage.getBoundingClientRect().top;
     loadImageExe(firstImage, className)
-
   }
 
   // 画像遅延ロードリスナー登録
@@ -136,6 +135,7 @@ export function initSVGLoading () {
   }
   // アリスの画像遅延リスナー。こちらはスクロールイベント使わず一気に読んでしまいます
   for (let i = 0; i < nodes.alices.length; i++) {
+    console.log('alice loaded')
     const alice = nodes.alices[i];
     alice.setAttribute('xlink:href', alice.dataset.alice);
     alice.setAttribute('href', alice.dataset.alice);

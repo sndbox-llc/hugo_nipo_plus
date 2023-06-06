@@ -51,6 +51,18 @@ aliases = ["/manual/analytics/"]
 
 {{<btnCenter "/docs/manual/analytics/chart/" "グラフ化のマニュアル">}}
 
+
+## 予定と実績の対比表
+
+予め目標を設定することで、報告書から当該目標に対する実績を一覧で俯瞰できます。
+
+{{<icatch filename="list" msg="予定と実績 進捗の管理" title="予定と実績の進捗表" fontsize="30px" alice="guide" >}}
+
+この機能は製造業の生産管理からリクエストを頂いたため、生産予定に対する進捗なども機能として組み込まれています。
+販売目標、訪問目標など非製造業でも利用可能です。
+
+{{<btnCenter "/docs/manual/analytics/list/" "予定／実績">}}
+
 ## 報告書データを表計算ソフトで集計
 
 報告書データをCSVに一括出力する機能があります。
@@ -65,6 +77,7 @@ CSVデータはエクセルでそのまま開くことが可能です。CSVで�
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/read-report/csv/" "1件の報告書をCSV出力する">}}</div>
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/analytics/csv/" "複数の報告書を一括CSV出力する">}}</div>
 </div>
+
 
 ## 集計方式の違い
 

@@ -56,7 +56,7 @@ Step1でスタッフが書いた報告書は上司に送られます。
 テンプレートの構成によっては集計できる項目があります。これらのデータをスタッフ毎に集計したり、日別で増減を見ることで様々な意思決定に役立てることができます。
 一覧表だけでなくデータの可視化（いわゆるBI化）も可能。可視化の代表といえばそう、グラフですね。
 
-{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="日報をグラフ化する" fontsize="30px" alice="here" >}}
+{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="報告書をグラフ化する" fontsize="30px" alice="here" >}}
 
 <div class="row justify-content-center mt-5">
 <div class="col-sm-16 col-md-5">{{<button "/docs/manual/analytics/chart/" "報告書のグラフ化">}}</div>

@@ -63,7 +63,7 @@ aliases = ["/manual/initial-setting/template/rate/"]
 
 {{<appscreen filename="make-charts" title="日報に含まれるレートのデータを使って円グラフや折れ線グラフを作成できます"  >}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 
 レートの集計について少し詳しく見てみましょう。データシートを「推移」から「累積」に切り替えることで**データの集計**が可能です。
 

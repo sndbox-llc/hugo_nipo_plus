@@ -63,7 +63,7 @@ aliases = ["/manual/initial-setting/template/math/"]
 
 {{<appscreen filename="charts" title="数値のデータをグラフ化する"  >}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 
 数値データをスタッフ毎に集計したい場合は累積モードに切り替えてください。合計が表示されます。
 

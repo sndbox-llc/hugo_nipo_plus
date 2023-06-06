@@ -84,7 +84,7 @@ aliases = ["/manual/initial-setting/template/datetimes/"]
 
 {{<appscreen filename="charts" title="期間のデータ（単位：分）を使って積み上げたて棒グラフを作成した例。他にも折れ線や円グラフなど自由に作成できます"  >}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "日報をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 
 数値データをスタッフ毎に集計したい場合は累積モードに切り替えてください。合計が表示されます。
 

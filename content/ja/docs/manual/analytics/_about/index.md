@@ -47,7 +47,7 @@ aliases = ["/manual/analytics/"]
 折れ線・棒・積上棒・円・レーダー・複合のグラフを用意しています。
 予め複数種類作成でき、ボタン1つでグラフを切り替えて表示できます。
 
-{{<icatch filename="chart" msg="グラフはワンクリック でいつでも切替可" title="日報をグラフ化する" fontsize="30px" alice="guide" >}}
+{{<icatch filename="chart" msg="グラフはワンクリック でいつでも切替可" title="報告書をグラフ化する" fontsize="30px" alice="guide" >}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "グラフ化のマニュアル">}}
 

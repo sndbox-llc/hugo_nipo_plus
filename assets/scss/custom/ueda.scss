@@ -107,3 +107,24 @@ p  {
     height: 85vh;
   }
 }
+
+.excelTable {
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  tr:first-child th {
+    background-color: #000;
+    color: white;
+  }
+  
+  td:first-child {
+    background-color: #000; /* 1列目の背景色を緑に設定 */
+    color: white;
+
+  }
+}

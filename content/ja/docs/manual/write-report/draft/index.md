@@ -19,7 +19,7 @@ aliases = ["/manual/write-report/draft/"]
 
 下書き保存の場合は**入力必須項目が空欄であっても保存が可能**です。
 
-{{<appscreen filename="report-draft-save" title="日報やチェックシートを作成する際に、「下書き」にチェックを入れて保存すると下書きBOXに保存されます"  >}}
+{{<appscreen filename="report-draft-save" title="報告書を作成する際に、「下書き」にチェックを入れて保存すると下書きBOXに保存されます"  >}}
 
 ## 下書きの報告書を清書する
 

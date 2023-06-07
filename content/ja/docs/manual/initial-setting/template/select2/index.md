@@ -23,9 +23,6 @@ aliases = ["/manual/initial-setting/template/select2/"]
 
 ## 選択肢入力フォーム（複）の初期設定
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
-
 
 <dl>
   <dt>入力切替を無効にする</dt>
@@ -42,6 +39,9 @@ aliases = ["/manual/initial-setting/template/select2/"]
   <dt>入力方式</dt>
   <dd>ラジオ式・プルダウン式から選択できます。日報作成時に執筆者は自由に切り替えることができます（入力切替を無効にするがONの場合は不可）</dd>
 </dl>
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
 ## 選択肢入力フォームの日報作成

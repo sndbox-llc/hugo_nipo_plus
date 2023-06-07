@@ -34,7 +34,6 @@ graph LR;
 {{<appscreen filename="template" title="テンプレート編集。選択肢二槽式の初期設定"  >}}
 
 質問1の選択肢を追加するごとに、質問2の選択肢欄も自動で追加されていきます。
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
 以下は本入力フォームにのみ存在する設定項目です
 
 
@@ -49,6 +48,9 @@ graph LR;
   <dd>〜〜には「選択肢」で追加した項目が入ります。選択肢の数だけこの項目が生成されます。</dd>
 
 </dl>
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
 ## 選択肢(2層式)の日報入力画面イメージ

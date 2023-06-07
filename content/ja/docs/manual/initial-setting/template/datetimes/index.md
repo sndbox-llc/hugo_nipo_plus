@@ -26,8 +26,6 @@ aliases = ["/manual/initial-setting/template/datetimes/"]
 
 {{<appscreen filename="date-span-template-edit" title="期間入力フォームのみで構成されたテンプレートの例"  >}}
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
 
 <dl>
   <dt>入力必須</dt>
@@ -62,6 +60,9 @@ aliases = ["/manual/initial-setting/template/datetimes/"]
 {{<alice pos="right" icon="ok">}}
 エクセルなどの一般的な表計算ソフトでも解釈可能な形式だよ。
 {{</alice>}}
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 ## 期間入力フォームの入力画面
 

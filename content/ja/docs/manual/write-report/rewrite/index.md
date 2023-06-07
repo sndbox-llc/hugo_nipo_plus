@@ -60,8 +60,8 @@ aliases = ["/manual/write-report/rewrite/"]
 
 報告書を修正すると状態が「修正」に切り替わります。
 
-{{<appscreen filename="report-status-change" title="修正された日報やチェックシートは状態が「修正」になります"  >}}
+{{<appscreen filename="report-status-change" title="修正された報告書は状態が「修正」になります"  >}}
 
-もし承認リレーが組まれていた日報やチェックシート出会った場合は、承認リレーがどこまで進んでいても1から振り出しに戻ります。
+もし承認リレーが組まれていた報告書出会った場合は、承認リレーがどこまで進んでいても1から振り出しに戻ります。
 
 {{<alice pos="right" icon="default">}}少し不便ですが変わっているんだから仕方ないですね{{</alice>}}

@@ -1,5 +1,5 @@
 +++
-description = "日報やチェックシートにZipやExcelなどのバイナリーファイルを添付するフォームを追加します。添付されたファイルはNipoPlusのサーバ上に保管され、日報本体を削除すると連動してサーバ上からファイルが削除されます"
+description = "報告書にZipやExcelなどのバイナリーファイルを添付するフォームを追加します。添付されたファイルはNipoPlusのサーバ上に保管され、日報本体を削除すると連動してサーバ上からファイルが削除されます"
 tags = []
 title = "🧩ファイル入力"
 toc = true
@@ -15,7 +15,7 @@ aliases = ["/manual/initial-setting/template/file/"]
 |:---:|:---:|:---:|:---:|
 |✗|✗|✗|✗|
 
-日報やチェックシートににファイルを添付できるフォームを追加できます。**1つのファイルにつき1MB、最大で10ファイルまで**ファイルを添付できます。
+報告書ににファイルを添付できるフォームを追加できます。**1つのファイルにつき1MB、最大で10ファイルまで**ファイルを添付できます。
 現場写真など画像データを添付したい場合は、[写真入力フォーム](/docs/manual/initial-setting/template/picture/)が別途用意されています。もちろん本フォームでも写真を添付できますが、いくつかの理由により[写真入力フォーム](/docs/manual/initial-setting/template/picture/)の利用を推奨します。
 ファイルの追加はファイル入力フォームをクリックするか、ファイル入力フォーム上にファイルをドラッグ＆ドロップします。
 
@@ -25,7 +25,10 @@ aliases = ["/manual/initial-setting/template/file/"]
 
 {{<appscreen filename="file-template-edit" title="日報にPDF等のファイルを添付するフォームを追加します"  >}}
 
-特に固有の設定はありません。共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
+特に固有の設定はありません。
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
+
 
 ## ファイル入力フォームの日報テンプレートを作成
 

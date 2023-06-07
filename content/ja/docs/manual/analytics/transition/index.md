@@ -28,7 +28,7 @@ aliases = ["/manual/analytics/transition/"]
 
 ## レポートデータを一括でダウンロードする（PDF）
 
-NipoPlusでは、日報やチェックシートなどのデータを「CSV形式」、または「PDF形式」でダウンロードできます。
+NipoPlusでは、報告書などのデータを「CSV形式」、または「PDF形式」でダウンロードできます。
 ダウンロードする状態によってはZipファイルに圧縮されてダウンロードされることもあります。
 
 {{<appscreen filename="report-download" title="日報のデータをCSV形式、またはPDF形式でダウンロードできます"  >}}

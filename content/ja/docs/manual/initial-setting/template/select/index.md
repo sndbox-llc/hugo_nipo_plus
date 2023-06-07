@@ -29,8 +29,7 @@ aliases = ["/manual/initial-setting/template/select/"]
 
 選択肢はテキストボックス内に書いていきます。改行で選択肢の区切りとなります。なお**重複や空の選択肢は保存の際自動で削除**されます。
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
+
 
 
 <dl>
@@ -48,6 +47,10 @@ aliases = ["/manual/initial-setting/template/select/"]
   <dt>入力方式</dt>
   <dd>ラジオ式・プルダウン式から選択できます。日報作成時に執筆者は自由に切り替えることができます（入力切替を無効にするがONの場合は不可）</dd>
 </dl>
+
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 ### 選択肢の色分けについて
 

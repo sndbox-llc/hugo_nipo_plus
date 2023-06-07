@@ -123,7 +123,7 @@ https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/
 
 ### テンプレートの取得API
 
-日報やチェックシートのテンプレートを取得するAPIです。２種類のAPIが用意されています。
+報告書のテンプレートを取得するAPIです。２種類のAPIが用意されています。
 
 <dl>
   <dt>/templtes</dt>

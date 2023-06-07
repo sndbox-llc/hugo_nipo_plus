@@ -38,8 +38,7 @@ aliases = ["/manual/initial-setting/template/step/"]
 スライダレール上の値はこの3つの要素で決まると言っても良いでしょう。
 これらの要素によってレール上の密度がかわります。密度が濃すぎると少しつまみを動かしただけでたくさん値が変動してしまい、入力しづらくなってしまいます。
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
+
 
 
 <dl>
@@ -62,6 +61,9 @@ aliases = ["/manual/initial-setting/template/step/"]
 {{<alice pos="right" icon="here">}}
 スライダは最初から値があるため入力必須の指定はできません。珍しいタイプです
 {{</alice>}}
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 ## スライダ入力フォームの入力画面
 

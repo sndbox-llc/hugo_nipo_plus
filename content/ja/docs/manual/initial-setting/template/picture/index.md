@@ -28,9 +28,6 @@ aliases = ["/manual/initial-setting/template/picture/"]
 
 添付された写真データは**幅いっぱいになるように画像を表示**しようとするため、幅が広いと写真が大きく表示されます。
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
-
 
 <dl>
   <dt><a href="/tips/required/">入力必須</a></dt>
@@ -38,6 +35,10 @@ aliases = ["/manual/initial-setting/template/picture/"]
   <dt>初期値</dt>
   <dd>日報の新規作成時に値をセットしたい場合は数値を入力してください。不要の場合は空欄にしておきます</dd>
 </dl>
+
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 ## 写真入力フォームの含まれた日報を書く
 

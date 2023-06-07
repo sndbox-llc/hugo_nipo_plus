@@ -28,7 +28,7 @@ aliases = ["/manual/initial-setting/template/array/"]
 
 {{<appscreen filename="template" title="反復入力の設定は反復の中に使用する項目（列）を追加して行きます"  >}}
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
+
 以下は本入力フォームにのみ存在する設定項目です
 
 <dl>
@@ -39,6 +39,9 @@ aliases = ["/manual/initial-setting/template/array/"]
   <dt>初期の行数</dt>
   <dd>日報作成時に反復入力を生成する行数です。初期値は1です</dd>
 </dl>
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
 ## 反復入力フォームを使った日報の作成

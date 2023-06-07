@@ -27,8 +27,7 @@ aliases = ["/manual/initial-setting/template/range/"]
 ポイントはスライダーレールの範囲を決める「最小値」「最大値」そしてつまみの移動量を決める「刻み」です。この3つの要素でスライダーレールの「密度」が決まります。
 密度が高すぎるとつまみの操作がしにくくなり、操作性が低下してしまいます。密度が高くなりすぎないように注意してください。
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
+
 
 <dl>
   <dt><a href="/tips/required/">入力必須</a></dt>
@@ -48,6 +47,9 @@ aliases = ["/manual/initial-setting/template/range/"]
   <dt>単位</dt>
   <dd>数値の単位を指定します。例えば気温であれば「度」と入力します。単位は入力時の画面左上にヒントとして表示されます</dd>
 </dl>
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
 ## 範囲入力フォームのテンプレートを作る

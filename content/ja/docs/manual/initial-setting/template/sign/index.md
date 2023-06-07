@@ -36,8 +36,6 @@ PCではマウスを使って描画できます。スマートフォンでも指
 
 {{<appscreen filename="edit-report-template" title="署名入力フォームだけで構成された日報テンプレートを作成しました。この例をもとに入力・出力画面をご紹介していきます"  >}}
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
 
 <dl>
   <dt><a href="/tips/required/">入力必須</a></dt>
@@ -45,6 +43,10 @@ PCではマウスを使って描画できます。スマートフォンでも指
   <dt>キャンバスサイズ</dt>
   <dd>署名サイズと全画面サイズから選択できます。署名用であれば署名サイズを選択してください。手書きの地図など、イラスト目的の場合は全画面サイズを選択してください</dd>
 </dl>
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
+
 
 ## 署名入力フォームの入力画面
 

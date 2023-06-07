@@ -1,5 +1,5 @@
 +++
-description = "日報やチェックシートに「日付・時刻」の入力フォームを追加します。形式は4種類ありそれぞれで入力方式も異なります。カレンダーやアナログ時計を使った入力のほか、キーボードから直接入力することも可能です"
+description = "報告書に「日付・時刻」の入力フォームを追加します。形式は4種類ありそれぞれで入力方式も異なります。カレンダーやアナログ時計を使った入力のほか、キーボードから直接入力することも可能です"
 tags = []
 title = "🧩日付・時刻入力"
 toc = true
@@ -13,7 +13,7 @@ aliases = ["/manual/initial-setting/template/datetime/"]
 
 ## 日付・時刻入力フォームとは
 
-日付・時刻・またはその双方を入力できる入力フォームです。日報やチェックシートにはテンプレートの他に「提出日」を指定する欄が別途用意されていますので、日報提出日の目的として本パーツをあえて設置する必要は有りません。
+日付・時刻・またはその双方を入力できる入力フォームです。報告書にはテンプレートの他に「提出日」を指定する欄が別途用意されていますので、日報提出日の目的として本パーツをあえて設置する必要は有りません。
 提出日とは別に何かしらの日付入力が必要な際に利用してください。  
 本フォームは一定時点の時刻や日付の入力に限られます。例えば**所要時間のように何時間(何日)かかったのかを入力したい場合**は[期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)を利用してください。
 
@@ -25,8 +25,6 @@ aliases = ["/manual/initial-setting/template/datetime/"]
 
 日付のみ・時間のみ、などの設定は初期設定で設定できます。入力方法はキーボードから直接打つ方法のほか、カレンダーや時計マークから入力する方法がありますので、好みに応じて使い分けができます。
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
 
 <dl>
   <dt><a href="/tips/required/">入力必須</a></dt>
@@ -47,6 +45,9 @@ aliases = ["/manual/initial-setting/template/datetime/"]
 {{<alice pos="right" icon="ok">}}
 エクセルなどの一般的な表計算ソフトでも解釈可能な形式だよ。
 {{</alice>}}
+
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 ## 日付と時刻入力フォームの使用例
 
@@ -79,7 +80,7 @@ aliases = ["/manual/initial-setting/template/datetime/"]
 
 ## データ活用編
 
-日付と時刻入力フォームが含まれた日報やチェックシートではCSV出力やPDF出力、検索などが利用できます。
+日付と時刻入力フォームが含まれた報告書ではCSV出力やPDF出力、検索などが利用できます。
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|

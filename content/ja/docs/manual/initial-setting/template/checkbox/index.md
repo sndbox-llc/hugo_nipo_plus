@@ -9,74 +9,108 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
 
 +++
 
+あまりにも有名なのでもはや説明不要ですね。次のようなものです。
+
+<div class="form-check" style="padding:20px;border:1px solid #ccc">
+<div style="margin-left:20px;">
+  <input class="form-check-input" type="checkbox" id="myCheckbox" name="myCheckbox">
+  <label class="form-check-label" for="myCheckbox">ランプの色が緑色か？</label>
+  </div>
+</div>
+
+これを報告書に追加できます。
+
+|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|検索|
+|:---:|:---:|:---:|:---:|
+|○|○|○|✗|
+
 {{<icatch filename="input-method-checkbox" msg="YES・NO 2択で答えるならこれ" title="チェックボックス入力フォーム" fontsize="30px" alice="ok" >}}
 
-チェックボックス入力フォームは「はい・いいえ」や「ON・OFF」「あり・なし」のように2通りで回答できる際に便利な入力フォームです。
-チェックボックス型とトグルスイッチ型の2種類が用意されています。見た目の違いだけですので好みに応じて使い分けてください。
-入力パターンはONかOFFの2種類しかない、非常にシンプルな入力フォームです。3択以上の選択肢が必要な場合は[選択肢入力フォーム](/docs/manual/initial-setting/template/select/)を検討してください。
+用途としては次のようなものがあります
 
-## チェックボックス入力フォームの初期設定
+- 車両使用の有無
+- トラブルの有無
+- 手順に従ったかの確認
 
-チェックボックス自体はシンプルな機能のため初期設定の項目もそこまで多くは有りません。1つ注意するポイントとして、メモの使われ方がチェックボックスだけ他の項目と異なり、ボックスの横に配置されるという点です。
+## 文字入力フォームをテンプレートに追加する
 
-{{<icatch filename="checkbox-template-edit" msg="基本は赤枠内を設定 余裕があれば緑枠も" title="チェックボックスの設定項目は少なめです。基本設定は２種類、応用設定は必要に応じて調整をしてください" fontsize="30px" alice="here" >}}
+1. テンプレート編集画面を開く
+1. フォームリストからYes/Noをクリックして追加
+1. 必要に応じて設定を行う
 
-共通の設定項目については[「各種入力フォームの共通設定項目」](/docs/manual/initial-setting/template/make/#common_setting)を参照してください。
-以下は本入力フォームにのみ存在する設定項目です
+チェックボックスフォームの設定は以下の通り。
+
 
 <dl>
+  <dt>メモ</dt>
+  <dd>チェックボックスの右隣に表示される文字</dd>
   <dt>入力必須</dt>
-  <dd>これがONの場合、日報提出時にこのチェックボックスがONでないと提出ができないようになります</dd>
-  <dt>初期状態でONにする</dt>
-  <dd>これがONの場合、日報作成時にこのチェックボックスはONの状態でスタートします</dd>
+  <dd>ON:提出時にこのチェックボックスがONでないと提出ができないようになります</dd>
+  <dt>初期状態でON</dt>
+  <dd>ON:報告書作成時にチェックボックスはONの状態でスタート</dd>
   <dt>集計する</dt>
-  <dd><a href="/docs/manual/analytics/list/">データ推移</a>・<a href="/docs/manual/analytics/transition/">日報集計</a>でこの項目を表示させる場合はONにします。初期値はONです</dd>
-  <dt>CSV出力時列を展開する</dt>
-  <dd>ONとOFFの2列に分割してCSV出力します。詳しくは本ページのCSV出力の項を参照</dd>
+  <dd>ON:集計機能で利用できます</dd>
+  <dt>CSV出力時列を展開</dt>
+  <dd><a href="/docs/manual/analytics/csvoption/">CSV出力オプションを参照</a></dd>
   <dt>形状</dt>
-  <dd>「スイッチ」「ボックス」から選択します。見た目が変わりますが使い方は一緒です</dd>
+  <dd><ul><li>スイッチ</li><li>ボックス</li></ul>から選択します</dd>
 </dl>
 
+共通設定事項については以下を参照してください。
+{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-## チェックボックス入力フォームの日報を書く
+メモの使われ方がチェックボックスだけ他の項目と異なり、ボックスの横に配置されるという点にだけ注意してください。
 
-以下の画像は先程作成したテンプレートを使って実際に入力画面を表示したものです。
+{{<appscreen filename="template-edit-checkbox"  title="チェックボックスをテンプレートに追加する設定画面" fontsize="30px" alice="here" >}}
 
-{{<appscreen filename="input" title="チェックシートの入力画面イメージ。左はipad・右はiPhoneのサイズでそれぞれ表示している"  >}}
+{{<nextArrow>}}
 
-設定で見た目をチェックボックスとラジオスイッチの2種類から選べますが、使い方は一緒です。
-入力の仕方は改めて説明するまでもありませんね。タップやクリックでON。もう一度タップやクリックでOFF。これだけです。
+{{<appscreen filename="checkbox-preview"  title="チェックボックスを使った報告書のプレビュー" fontsize="30px" alice="here" >}}
 
-チェックボックスの入力フォームに入力必須が設定されているとそのチェックボックスがONにならないと提出ができません。
-用途としては限定的になりますが、同意や確認などに活用できます。
+
 
 ## チェックボックスのデータを表示する
 
-チェックボックスは**日報作成時とほぼ同じ見た目**のままで表示されます。ですが日報の内容は読み取り専用なのでクリックはできません。
-
-{{<appscreen filename="post" title="チェックボックスを含んだ日報の受信者からみた画面"  >}}
-
-また画面をもっと下にスクロールするとデータ推移のエリア、そしてグラフエリアが出現します。
 **チェックボックスのデータはデータ推移もグラフ化も利用可能**です。
 
 {{<appscreen filename="pie-charts" title="グラフ化"  >}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 
-|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|検索|
-|:---:|:---:|:---:|:---:|
-|○|○|○|✗|
 
 ## チェックボックスの日報をCSVに出力する
 
-チェックボックスのデータをCSVに出力することができますが、**出力の形式を2種類から選ぶ**ことができます。
+出力形式を変えることができます。
 
-出力形式|説明|出力
----|---|---
-列の展開をON|1つのチェックボックスに対して2列（ONの列・OFFの列）が生成されます。|○または空欄
-列の展開をOFF|1つのチェックボックスに対して1列で出力します。|ONまたはOFFの文字
+{{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}
 
-出力設定の変更は日報テンプレートの編集画面（本ページ上）か、CSV出力設定から行えます。
 
-{{<appscreen filename="csvsetting" title="CSVの出力前設定。チェックボックスは列の展開をON・OFF切り替えが可能です"  >}}
+列展開がONの場合のCSV出力例
+<div class="excelTable">
+
+|=|A|B|C|D|E|F|
+|---|---|---|---|---|---|---|
+1|提出日|【ON】質問A|【OFF】質問A|【ON】質問B|【OFF】質問B|業務内容|
+2|2023/06/06|◯|-|◯|-|
+3|2023/06/06|-|◯|-|◯|
+4|2023/06/06|-|◯|◯|-|
+5|2023/06/06|◯|-|-|◯|
+6|2023/06/06|◯|-|◯|-|これはサンプルです
+
+</div>
+
+列展開がOFFの場合のCSV出力例
+<div class="excelTable">
+
+|=|A|B|C|D|
+|---|---|---|---|---|
+1|提出日|質問A|質問B|業務内容
+2|2023/06/06 11:15|ON|ON|
+3|2023/06/05 11:15|OFF|OFF|
+4|2023/06/04 11:15|OFF|ON|
+5|2023/06/02 11:15|ON|OFF|
+6|2023/06/01 11:15|ON|ON|これはサンプルです
+
+</div>
+
 

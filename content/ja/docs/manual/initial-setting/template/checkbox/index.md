@@ -32,10 +32,11 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
 - トラブルの有無
 - 手順に従ったかの確認
 
-## 文字入力フォームをテンプレートに追加する
+## フォームをテンプレートに追加する
 
 1. テンプレート編集画面を開く
 1. フォームリストからYes/Noをクリックして追加
+1. メモを入力（チェックボックスの右隣に表示される）
 1. 必要に応じて設定を行う
 
 チェックボックスフォームの設定は以下の通り。
@@ -49,7 +50,7 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
   <dt>初期状態でON</dt>
   <dd>ON:報告書作成時にチェックボックスはONの状態でスタート</dd>
   <dt>集計する</dt>
-  <dd>ON:集計機能で利用できます</dd>
+  <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
   <dt>CSV出力時列を展開</dt>
   <dd><a href="/docs/manual/analytics/csvoption/">CSV出力オプションを参照</a></dd>
   <dt>形状</dt>
@@ -69,16 +70,16 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
 
 
 
-## チェックボックスのデータを表示する
+## チェックボックスのデータを集計
 
-**チェックボックスのデータはデータ推移もグラフ化も利用可能**です。
+チェックボックスのデータは集計対象です。過去データ推移や累積、そこからグラフの作成も可能です。
 
 {{<appscreen filename="pie-charts" title="グラフ化"  >}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 
 
-## チェックボックスの日報をCSVに出力する
+## チェックボックスのデータをCSVに出力
 
 出力形式を変えることができます。
 

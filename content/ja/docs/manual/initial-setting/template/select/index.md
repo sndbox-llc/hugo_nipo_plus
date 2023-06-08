@@ -66,7 +66,6 @@ aliases = ["/manual/initial-setting/template/select/"]
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-
 {{<appscreen filename="template-edit-select1" title="選択肢入力フォームのみで構成されたチェックシートのサンプル。このテンプレートを使って実際の入力画面や表示画面を確認していきましょう"  >}}
 
 {{<nextArrow>}}

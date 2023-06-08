@@ -75,16 +75,17 @@ https://firebasestorage.googleapis.com/v0/b/nipo-plus.appspot.com/o/a16h8Q74slMY
 上記URLはいくつかのフェイクを入れているため実際にダウンロードすることはできません。1文字でも異なれば弾き返します！
 {{</alice>}}
 
-### ファイルデータをまとめてダウンロード
 
-CSV出力機能を使ってファイルを纏めてダウンロードできます。バイナリファイル（写真・署名・ファイルなど）はその性質上、CSV上に表現することができません。
-CSV出力時にファイルをダウンロードする際はCSV出力オプションから「写真・ファイル等を出力する」をONにしてください。
-CSV出力を行うと**CSVファイルとは別のフォルダに展開してダウンロード**されます。
+## イラストデータのダウンロード
 
-{{<appscreen filename="download" title="日報に添付されたバイナリーデータをダウンロードするオプションの設定"  >}}
+CSV出力のオプション設定から「写真・ファイル等を出力する」をONにしてCSV出力すると別フォルダに署名やイラストがダウンロードされます。
+
+
+{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード"  >}}
 
 これで[写真入力フォーム](/docs/manual/initial-setting/template/picture/)、[署名入力フォーム](/docs/manual/initial-setting/template/sign/)、[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)それぞれののデータがCSV出力時にまとめてダウンロードされます。
 それぞれの日報フォルダの中に写真や署名・データファイルなどがまとめられます。
+
 
 ### PDFの出力
 

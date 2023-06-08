@@ -18,7 +18,7 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
   </div>
 </div>
 
-これを報告書に追加できます。
+このようなチェックボックスを報告書に追加できます。
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|検索|
 |:---:|:---:|:---:|:---:|

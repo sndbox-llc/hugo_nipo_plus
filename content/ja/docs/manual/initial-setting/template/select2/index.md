@@ -6,7 +6,6 @@ toc = true
 weight = 101001104
 contributors = []
 aliases = ["/manual/initial-setting/template/select2/"]
-
 +++
 
 選択式入力（複）は次のようなフォームです。
@@ -75,11 +74,10 @@ aliases = ["/manual/initial-setting/template/select2/"]
 
 {{<btnCenter "/docs/manual/initial-setting/template/select/" "単語の色分け">}}
 
-### CSV出力
+## CSV出力
 
 出力形式を変えることができます。
 {{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}
-
 
 **列展開がON**の場合のCSV出力例（長くなるためF列以降省略）
 

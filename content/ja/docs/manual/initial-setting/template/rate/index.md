@@ -11,8 +11,6 @@ aliases = ["/manual/initial-setting/template/rate/"]
 
 ネットショップやレビューでおなじみの★を使った入力フォームです。星の上限は変更可能です。
 
-
-
 {{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力" title="レート入力フォーム" fontsize="30px" alice="ok" >}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
@@ -33,7 +31,7 @@ aliases = ["/manual/initial-setting/template/rate/"]
   <dt>入力必須</dt>
   <dd>これがONの場合、レートが0だと日報・チェックシートの提出ができません（レートは2回同じレートをクリックすると0にできます</dd>
   <dt>集計する</dt>
-  <dd><a href="/docs/manual/analytics/list/">データ推移</a>・<a href="/docs/manual/analytics/transition/">日報集計</a>でこの項目を表示させる場合はONにします。初期値はONです</dd>
+  <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
 
   <dt>最大値</dt>
   <dd>レートの最大数を設定します。推奨は5〜10です</dd>

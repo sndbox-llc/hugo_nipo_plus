@@ -30,7 +30,7 @@ aliases = ["/manual/initial-setting/template/select2/"]
   <dt>入力必須</dt>
   <dd>これがONの場合、選択肢が選ばれていないと日報の提出ができません</dd>
   <dt>集計する</dt>
-  <dd><a href="/docs/manual/analytics/list/">データ推移</a>・<a href="/docs/manual/analytics/transition/">日報集計</a>でこの項目を表示させる場合はONにします。初期値はONです</dd>
+  <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
 
   <dt>選択肢を直接指定</dt>
   <dd>こちらがONの場合はすぐ下の「選択肢」エリアに直接選択肢を入力できます。最もシンプルな方法です</dd>

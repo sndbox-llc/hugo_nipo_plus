@@ -49,7 +49,7 @@ aliases = ["/manual/initial-setting/template/step/"]
   <dt>最大値</dt>
   <dd>スライダーの右端の値です。負数も利用できます</dd>
   <dt>集計する</dt>
-  <dd><a href="/docs/manual/analytics/list/">データ推移</a>・<a href="/docs/manual/analytics/transition/">日報集計</a>でこの項目を表示させる場合はONにします。初期値はONです</dd>
+  <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
 
   <dt>刻み</dt>
   <dd>つまみを動かしたときに増減する値です。小数点の指定も可能です</dd>

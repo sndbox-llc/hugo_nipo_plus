@@ -34,7 +34,7 @@ aliases = ["/manual/initial-setting/template/datetimes/"]
   <dd>これがONの場合、日報作成時にこのチェックボックスはONの状態でスタートします</dd>
   
   <dt>集計する</dt>
-  <dd><a href="/docs/manual/analytics/list/">データ推移</a>・<a href="/docs/manual/analytics/transition/">日報集計</a>でこの項目を表示させる場合はONにします。初期値はONです</dd>
+  <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
 
   <dt>形式</dt>
   <dd>日付（西暦あり）・日付（西暦無し）・時刻のみ・日付と時刻の4種類から選択します</dd>

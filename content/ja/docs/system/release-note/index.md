@@ -12,9 +12,9 @@ aliases = ["/system/release-note/", "/old/system/releasenote/"]
 
 {{<icatch filename="version" msg="画面左下にバージョン が記載されています" title="NipoPlusアプリバージョンの確認" fontsize="30px" alice="ok" >}}
 
-今後のアップデートで実装される機能予定についてはロードマップのページを御覧ください
+今後のアップデートで実装される機能予定については以下参照
 
-{{<btnCenter "/docs/system/load-map/" "ロードマップを見る">}}
+{{<btnCenter "/docs/system/load-map/" "今後のアップデート予定">}}
 
 ## バージョンを更新する
 

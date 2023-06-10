@@ -1,60 +1,57 @@
 +++
 description = "WebAPIを使って直接日報のデータを取得できます。CURLを使った具体的な使い方を交えて紹介"
 tags = ["有料プラン限定"]
-title = "APIリファレンス"
+title = "APIを使う"
 toc = true
 weight = 101010002
 contributors = []
 aliases = ["/manual/api/ref/"]
 +++
 
-{{<alice pos="right" icon="ok">}}
-API機能は当面無償で公開しますが将来有料(月額1000円程度)になる予定です
-{{</alice>}}
+APIの利用には少し技術者の知識が必要です。
 
-WebAPIは少なくともCURLやJSONあたりが理解できれば利用可能です。WebAPIを使うことで、NipoPlusを起動しなくてもコマンドを叩くだけで日報データやログデータなどを取得することができます。
-取得したそれらのデータを基幹システムに取り込んだり、加工して集計や分析に使うことができます。データの出力には他にもCSV出力などがありますが、WebApiはシステムに組み込むことで自動化出来るなどのメリットがあります。
+- CURL
+- JSON
 
-## WebAPIへリクエストを投げる基本の形
+このあたりの基本が理解できれば問題有りません。本ガイドはCURLを使用しています。コマンドが苦手な方は[Postman](https://www.postman.com/)などのGUIツールをご利用ください。
 
-NipoPlusのWebAPIへリクエストを投げる基本の形は次のようになります。なお本ガイドではCURLを使った方法で解説します。コマンドが苦手な方は[Postman](https://www.postman.com/)などのGUIツールで検証するのもオススメです。
+
+## APIへリクエストを投げる基本の形を報告書取得の例から見る
 
 ```sh
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポイント】 \
 -H "Content-Type:application/json;charset=UTF-8" \
--H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
--d "{ "key": "value", "key2": "value2" }"
+-H "Authorization: Bearer 【取得したAPIキー（200文字程度)】" \
+-d "{ "【パラメータ1】": "【値1】", "【パラメータ2】": "【値2】" }"
 ```
 
-{{<alice pos="right" icon="here">}}
+{{<warning>}}
 Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/021/4021036/)は若干形式が変わる可能性があるので注意
-{{</alice>}}
+{{</warning>}}
 
-ヘッダーのContent-Typeはapplication/jsonである必要があります。[APIキーの取得方法についてはこちら](/docs/manual/api/key/)を御覧ください。
+上記基本形のうち、【】で囲われたエリアは独自に値を指定します。
 
-```url
-// URL
-https://us-central1-nipo-plus.cloudfunctions.net/v0/
-```
+### 【エンドポイント】
 
-### 日報の取得に関するWebAPI
-
-WebAPIを使った日報の取得は4種類用意されています。
+ここでは報告書の取得に関するエンドポイントのみ紹介します。以下のいづれかの値を指定します。必須です。
 
 <dl>
-  <dt>/reports/admin</dt>
+  <dt>reports/admin</dt>
   <dd>管理者のみ実行可能。全ての日報を取得できるAPI</dd>
-  <dt>/reports/outbox</dt>
+  <dt>reports/outbox</dt>
   <dd>自分が送信した日報のデータのみ取得できるAPI</dd>
-  <dt>/reports/inbox</dt>
+  <dt>reports/inbox</dt>
   <dd>自分が受信した日報のデータのみ取得できるAPI</dd>
-  <dt>/report/:日報のID</dt>
+  <dt>report/:日報のID</dt>
   <dd>IDを指定して1件の日報を取得できるAPI</dd>
 </dl>
 
+他のエンドポイントについては本ページ末尾で解説します。
 
-上記APIに指定可能なパラメータは次の通りです。
+### 【パラメータ】・【値】
 
+報告書取得に感るうパラメータを紹介します。
+パラメータをセットします。**グループIDは必須**です。必要に応じて複数パラメータを指定できます。
 
 |属性名|型|説明|
 |---|---|---|
@@ -67,27 +64,36 @@ WebAPIを使った日報の取得は4種類用意されています。
 |templates|String配列|使用したテンプレートのIDで絞り込み。テンプレートIDの配列で指定|
 |owners|String配列|日報作成者IDで絞り込み。スタッフのIDを配列で指定|
 
-{{<alice pos="right" icon="here">}}
-日報取得系はいずれのAPIも**groupIdの指定必須**です
-{{</alice>}}
+### 【取得したAPIキー】
 
-最低限のパラメータだけ指定してリクエストを投げる例文は次のようになります。
+取得したAPIキーをCurlに含めてください。長いので必ずコピーペーストして使用してください。
+APIキーの取得が済んでいないかたは先にAPIキーの取得を行ってください。
+
+{{<btnCenter "/docs/manual/apis/key/" "APIキーの取得">}}
+
+本ガイドではこれ以降も実際のAPIキーは使用せず解説します。
+
+### エンドポイントとパラメータを指定した最小限のCurl
 
 ```sh
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/reports/admin \
 -H "Content-Type:application/json;charset=UTF-8" \
--H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
+-H "Authorization: Bearer 【取得したAPIキー】" \
 -d "{"groupId": "nipodefaultgroup" }"
 ```
 
-日付（fromとto）の指定が無い場合は直近の日報の順に取得されます。上記コマンドの場合は直近の日報10件がAPI経由で取得されます。
-全パラメータを指定した記述例。見やすいようにヒアドキュメントで記述しています
+このコマンドは報告書を取得する命令を送っています。パラメータに期間の指定が無いため、直近10件の報告書がAPI経由で取得できます。
+
+
+### パラメータを色々指定した実用性のあるCurl
+
+設定可能なパラメータを追加した例です。
 
 ```sh
 # パラメータが多いためヒアドキュメントを使っています
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/reports/admin \
 -H "Content-Type:application/json;charset=UTF-8" \
--H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
+-H "Authorization: Bearer 【取得したAPIキー】" \
 -d @- <<EOS
 {
   "groupId": "nipodefaultgroup",
@@ -102,15 +108,33 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/reports/admin \
 EOS
 ```
 
-この場合は条件が細かく指定されたため、上記の条件に一致する日報のみが取得されます。
-取得される日報のデータは生データです。詳しくは[日報データ構造](/docs/manual/api/report/)を参照してください
+{{<warning>}}
+見やすさを重視してヒアドキュメント（EOSの箇所）を使っています。
+{{</warning>}}
 
-#### グループIDの確認方法
+この例を少し詳しく見てみます
 
-いくつかの方法がありますが、最も手っ取り早く確認するにはURLを見てください。URLは次のような構造になっています
+<dl>
+<dt>groupId</dt>
+<dd>グループIDを指定します。グループIDはグループ全般やURLから確認できます。</dd>
+<dt>size</dt>
+<dd>報告書を1000件リクエストしています</dd>
+<dt>from・to</dt>
+<dd>検索期間を2022年8月1日〜2022年9月30日に指定しています　</dd>
+<dt>tags</dt>
+<dd>タグによるフィルタを使う場合に指定します。タグ名ではなくタグのIDで指定します。タグのIDは<a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ管理</a>から確認できます</dd>
+<dt>states</dt>
+<dd>報告書の状態によるフィルタを使う場合に指定します。この例では新規、進行、棄却の報告書のみを取得します（承認や修正の報告書は除外）</dd>
+<dt>templates</dt>
+<dd>テンプレートによるフィルタを使う場合に指定します。テンプレートIDを指定します。複数件指定できるため配列です</dd>
+<dt>owners</dt>
+<dd>報告書を書いたスタッフによるフィルタを使う場合に指定します。スタッフIDを指定します</dd>
+</dl>
+
+補足：URLからグループIDを確認する際はURLの意味を見てください。
 
 ```url
-https://nipo-plus.web.app/#/room/組織ID/グループID/テーマカラー/path/to/any...
+https://nipo-plus.web.app/#/room/組織ID/グループID/__/path/to/any...
 ```
 
 例えばURLが次のようなデータだった場合
@@ -121,9 +145,13 @@ https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/
 
 グループIDは「eZu8bXFNh73YtVoR83ic」となります。
 
-### テンプレートの取得API
 
-報告書のテンプレートを取得するAPIです。２種類のAPIが用意されています。
+## その他のエンドポイント
+
+報告書の取得以外に用意されているエンドポイントとパラメータについてまとめています。
+
+### テンプレートの取得エンドポイント
+
 
 <dl>
   <dt>/templtes</dt>
@@ -133,29 +161,29 @@ https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/
 </dl>
 
 
-パラメータは次のとおりです。
+パラメータ:
 
 |名称|型|説明|必須|
 |---|---|---|---|
 |groupId|String|取得するグループのID|○|
 
-{{<alice pos="right" icon="here">}}
-テンプレート取得系はいずれのAPIも**groupIdの指定必須**です
-{{</alice>}}
 
 ```sh
 # 記述例
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 -H "Content-Type:application/json" \
--H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
+-H "Authorization: Bearer 【取得したAPIキー】" \
 -d "{ "groupId": "nipodefaultgroup" }"
 ```
 
-取得されるテンプレートのデータは生データです。詳しくは[日報データ構造](/docs/manual/api/report/)を参照してください。
+### ログデータ取得エンドポイント
 
-### ログデータ取得API
+<dl>
+<dt>/logs</dt>
+<dd>ログデータを取得する</dd>
+</dl>
 
-エンドポイント: **/logs**
+パラメータ:
 
 |名称|型|説明|必須|
 |---|---|---|---|
@@ -164,21 +192,23 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 |from|String|取得する日報の期間（開始点) 2022/08/01 00:00:00のような形で指定|○|
 |to|string|取得する日報の期間（終了点) 2022/09/31 23:59:59のような形で指定|○|
 
-ログデータをAPIから取得できます。4つ全てのパラメータが必須です。
 
 ```sh
 # 記述例
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
 -H "Content-Type:application/json" \
--H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
+-H "Authorization: Bearer 【取得したAPIキー】" \
 -d "{"groupId": "nipodefaultgroup", "size": 1000, "from": "2022/08/01 10:00:00", "to": "2022/08/01 10:59:59"}"
 ```
 
-### スタッフのデータ取得API
+### スタッフ取得エンドポイント
 
-特定グループ内に所属しているスタッフを取得します
 
-エンドポイント: **/staffs**
+<dl>
+<dt>/staffs</dt>
+<dd>スタッフ情報を取得する</dd>
+</dl>
+
 
 |名称|型|説明|必須|
 |---|---|---|---|
@@ -188,16 +218,13 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
 # 記述例
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 -H "Content-Type:application/json" \
--H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
+-H "Authorization: Bearer 【取得したAPIキー】" \
 -d "{ "groupId": "nipodefaultgroup" }"
 ```
 
-### 組織全体に関するAPI
+### 組織全体のエンドポイント
 
-グループの上位階層に位置する組織に対するAPIがいくつか用意されています。組織全体に関する情報のため、アクセスには管理者権限が必要です。
-
-エンドポイント:
-
+組織全体に関する情報のためアクセスには管理者権限が必要です。
 <dl>
   <dt>/staffs/admin</dt>
   <dd>組織に所属している全スタッフのデータを取得します</dd>
@@ -211,12 +238,8 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 # 記述例
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs/admin \
 -H "Content-Type:application/json" \
--H "Authorization: Bearer 【取得したAPIキー（およそ200文字程度)】" \
+-H "Authorization: Bearer 【取得したAPIキー】" \
 ```
-
-## その他のAPI
-
-CSV出力など、データを加工したあとで取得できるAPIについては現在開発中です。
 
 ## エラーの種類と対策
 

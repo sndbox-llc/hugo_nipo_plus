@@ -11,7 +11,6 @@ aliases = ["/manual/api/report/"]
 普段見慣れた報告書の形ではなくJSON形式で取得されます。
 JSON形式は { key: value }の形で表現されたデータ構造です。
 
-
 ## 報告書のJSON構造
 
 |キー|型|説明|

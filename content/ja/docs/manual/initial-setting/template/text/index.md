@@ -34,7 +34,7 @@ aliases = ["/manual/initial-setting/template/text/"]
 
 文字入力フォームの設定は以下の通り。
 
-<dl>
+<dl class="basic">
   <dt>入力必須</dt>
   <dd>これがONの場合、日報提出時に文字が空欄だと日報が提出できなくなります</dd>
   <dt>初期値</dt>

@@ -37,7 +37,7 @@ aliases = ["/manual/initial-setting/template/sign/"]
 
 署名入力フォームの設定は以下の通り
 
-<dl>
+<dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
   <dd>これがONの場合、イラストが描画されていないと日報の提出ができません</dd>
   <dt>キャンバスサイズ</dt>

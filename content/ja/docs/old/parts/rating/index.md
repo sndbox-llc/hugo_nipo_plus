@@ -43,7 +43,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_rating6.png "レートの初期設定画面" />}}
 
-<dl>
+<dl class="basic">
   <dt>アイコンの種類</dt>
   <dd>星かハートから選んでください。初期値は「星」です</dd>
   <dt>アイコンの表示数</dt>

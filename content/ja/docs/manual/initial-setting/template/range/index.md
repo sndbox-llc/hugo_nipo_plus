@@ -33,7 +33,7 @@ aliases = ["/manual/initial-setting/template/range/"]
 
 範囲フォームの設定は下の通り
 
-<dl>
+<dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
   <dd>これがONの場合、ファイルが添付されていない場合日報の提出ができなくなります</dd>
   <dt>初期値</dt>

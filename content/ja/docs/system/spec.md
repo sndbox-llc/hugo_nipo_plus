@@ -10,7 +10,7 @@ aliases = ["/system/spec/"]
 
 ## Webアプリ版
 
-<dl>
+<dl class="basic">
 <dt>OS</dt>
 <dd>Windows / Mac / iOS / Androidで動作を確認しました</dd>
 <dt>推奨ブラウザ</dt>
@@ -36,7 +36,7 @@ Webアプリ版はPCでもスマホでも使えます
 
 ## Androidアプリ版
 
-<dl>
+<dl class="basic">
   <dt>AndroidVersion</dt>
   <dd>Pie(API Lv28)以上</dd>
   <dt>必要な容量</dt>
@@ -54,7 +54,7 @@ PWAとしてインストールする方法とApp Storeからインストール�
 
 ## iOSアプリ版
 
-<dl>
+<dl class="basic">
   <dt>iOSバージョン</dt>
   <dd>iOS14.0以上のiPhone / iPad</dd>
   <dt>必要な容量</dt>

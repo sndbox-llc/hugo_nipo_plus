@@ -63,7 +63,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 {{<imgproc parts_tc7.png "タイムカードの初期設定画面" />}}
 
 
-<dl>
+<dl class="basic">
   <dt>タイトル</dt>
   <dd>タイトルを編集できます。改行も扱えます</dd>
   <dt>出勤・退勤の初期値</dt>

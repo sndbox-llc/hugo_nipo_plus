@@ -54,7 +54,7 @@ aliases = ["/manual/initial-setting/template/datetimes/"]
 
 期間入力フォームの設定は以下の通り
 
-<dl>
+<dl class="basic">
   <dt>入力必須</dt>
   <dd>これがONの場合、数値が空欄だと日報の提出ができなくなります</dd>
   <dt>初期状態でONにする</dt>

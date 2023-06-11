@@ -34,7 +34,7 @@ aliases = ["/manual/initial-setting/template/math/"]
 
 数値入力フォームの設定は以下の通り
 
-<dl>
+<dl class="basic">
   <dt>入力必須</dt>
   <dd>これがONの場合、数値が空欄だと日報の提出ができなくなります</dd>
   <dt>初期値</dt>

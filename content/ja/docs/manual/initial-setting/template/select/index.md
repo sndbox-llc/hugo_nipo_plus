@@ -48,7 +48,7 @@ aliases = ["/manual/initial-setting/template/select/"]
 
 選択式フォームの設定は下の通り
 
-<dl>
+<dl class="basic">
   <dt>入力切替を無効にする</dt>
   <dd>ON:報告書作成時に入力方式を変更するボタンが非表示になります</dd>
   <dt>入力必須</dt>
@@ -90,7 +90,7 @@ aliases = ["/manual/initial-setting/template/select/"]
 
 使用可能な色は以下のとおりです。
 
-<dl>
+<dl class="basic">
 <dt>red</dt>
 <dd style="color:red">■これはサンプルです</dd>
 <dt>pink</dt>

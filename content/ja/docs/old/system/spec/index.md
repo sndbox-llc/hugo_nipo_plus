@@ -13,7 +13,7 @@ aliases = ["/old/system/spec/"]
 
 ## Webアプリ版
 
-<dl>
+<dl class="basic">
   <dt>OS</dt>
   <dd>Windows / Mac / iOS / Androidで動作を確認しました</dd>
   <dt>ブラウザ</dt>
@@ -40,7 +40,7 @@ Nipoのすべての機能が最も使いやすい形で提供されています�
 
 ## Androidアプリ版
 
-<dl>
+<dl class="basic">
   <dt>Androidバージョン</dt>
   <dd>
     必須：<a href="https://www.android.com/intl/ja_jp/versions/lollipop-5-0/">5.0(Lolipop)</a>以上
@@ -58,7 +58,7 @@ Android端末をご利用の方は、<a href="#web_app">Webアプリ版</a>の�
 
 ## iOSアプリ版
 
-<dl>
+<dl class="basic">
   <dt>iOSバージョン</dt>
   <dd>iOS13.0以上のiPhone / iPad</dd>
   <dt>必要な容量</dt>

@@ -26,7 +26,7 @@ aliases = ["/manual/initial-setting/advanced-setting/tag/"]
 保存ボタンを押すとタグが一覧に追加されます。  
 
 設定項目詳細は以下の通り。
-<dl>
+<dl class="basic">
 <dt>タグ名</dt>
 <dd>タグの名前を決めます。常に表示されるためわかりやすい名前をつけます</dd>
 <dt>タグの色</dt>

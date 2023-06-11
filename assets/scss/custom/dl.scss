@@ -1,39 +1,102 @@
-dl {
+/* 用語説明等に使う一般的なDL */
+dl.basic {
   width: 100%;
   border: none;
   display: flex;
   flex-wrap: wrap;
+  
   dt {
     background-color: aliceblue;
     font-size: 16px;
     width: 200px;
   }
+  
   dd, p {
     width: calc(100% - 200px);
   }
-  dt,dd, p {
+  
+  dt, dd, p {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #ddd;
     box-sizing: border-box;
     padding: 15px 30px;
   }
-}
-
-/* FOR smartphone landscape */
-@media screen and (max-width:750px) {
-  dl {
+  
+  @media screen and (max-width: 750px) {
     width: 100%;
     border-left: none;
     display: block;
+    
     dt, p {
       border-bottom: none;
       padding-bottom: 0;
     }
-    dt, dd, p{
+    
+    dt, dd, p {
       border-right: none;
       width: 100%;
       padding: 10px 15px;
+    }
+  }
+}
+
+dl.faq {
+  padding: 1em;
+
+
+  dt {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+
+    &:before {
+      content: "Q";
+      font-weight: normal;
+      background: red;
+      color: #fff;
+      width: 1.5em;
+      height: 1.5em;
+      line-height: 1.6;
+      text-align: center;
+      display: inline-block;
+      border-radius: 1em;
+      margin-right: .5em;
+      flex-shrink: 0;
+    }
+  }
+  dd {
+    ul {
+      display: inline-block; /* UL要素をインライン要素として扱い、回り込みを回避する */
+    }
+    margin-bottom: 2em;
+    display: flex;
+    align-items: flex-start;
+  
+    &:before {
+      content: "A";
+      font-weight: normal;
+      background: blueviolet;
+      color: #fff;
+      width: 1.5em;
+      height: 1.5em;
+      line-height: 1.6;
+      text-align: center;
+      display: inline-block;
+      border-radius: 1em;
+      margin-right: .5em;
+      flex-shrink: 0;
+    }
+  
+    span {
+      flex-grow: 1;
+    }
+  
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }

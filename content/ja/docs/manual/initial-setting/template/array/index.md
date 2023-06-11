@@ -31,7 +31,7 @@ aliases = ["/manual/initial-setting/template/array/"]
 
 以下は本入力フォームにのみ存在する設定項目です
 
-<dl>
+<dl class="basic">
   <dt>入力切替を無効にする</dt>
   <dd>これがOnの場合、日報作成時に入力方式（ラジオ・プルダウン）を変更するボタンが表示されなくなります。画面をスッキリさせたいときはONにしてください</dd>
   <dt><a href="/tips/required/">入力必須</a></dt>

@@ -61,7 +61,7 @@ aliases = ["/manual/analytics/list/"]
 
 グループ化の種類は次の項目があります。
 
-<dl>
+<dl class="basic">
   <dt>グループ化しない</dt>
   <dd>1件1件の日報が過去データ推移に表示されます</dd>
   <dt>同日でグループ化</dt>

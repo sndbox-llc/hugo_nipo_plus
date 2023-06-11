@@ -55,7 +55,7 @@ Nipoの受信Boxなどから表示される見た目は、1行テキストとほ
 {{<imgproc parts_selecto7.png "選択肢の初期設定画面" />}}
 
 
-<dl>
+<dl class="basic">
   <dt>タイトル</dt>
   <dd>タイトルを編集できます。改行も扱えます</dd>
   <dt>表示形式</dt>

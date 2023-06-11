@@ -171,7 +171,7 @@ aliases = ["/manual/analytics/chart/"]
 個々からは少し細かい話になります。
 まず集計ルールですが大きく分けて２つの集計ルールがあります。
 
-<dl>
+<dl class="basic">
 <dt>回数の集計</dt>
 <dd>
 単語の選ばれた回数を集計できます。以下のフォームが該当します
@@ -201,7 +201,7 @@ aliases = ["/manual/analytics/chart/"]
 
 {{<imgproc report-sample-select.png "このような報告書をグラフ化する" />}}
 
-<dl>
+<dl class="basic">
 <dt>線形ずれ</dt>
 <dd>選択肢ですが全て数を含んでいます(+1mmなど)</dd>
 <dt>重量誤差</dt>

@@ -44,7 +44,7 @@ aliases = ["/manual/initial-setting/advanced-setting/point/"]
 
 各項目についての詳細は次のとおりです
 
-<dl>
+<dl class="basic">
   <dt>日付</dt>
   <dd>商品を登録した日付です。初期値は本日が入ります</dd>
   <dt>品名</dt>

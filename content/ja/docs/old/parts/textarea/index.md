@@ -40,7 +40,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 {{<imgproc parts_textarea5.png "本文の初期設定画面" />}}
 
 
-<dl>
+<dl class="basic">
   <dt>タイトル</dt>
   <dd>タイトルを編集できます。改行も扱えます</dd>
   <dt>多機能エディタを使う</dt>

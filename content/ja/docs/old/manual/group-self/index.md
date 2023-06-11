@@ -23,7 +23,7 @@ aliases = ["/old/manual/group-self/"]
 
 {{<imgproc me_1.png "グループ内で自分にしか影響のない設定を開く" />}}
 
-<dl>
+<dl class="basic">
   <dt>コンタクト</dt>
   <dd>Nipoの開発者へコンタクトが取れます。お問い合わせフォームだと思ってください</dd>
   <dt>ユーザ名</dt>

@@ -29,7 +29,7 @@ aliases = ["/manual/initial-setting/template/picture/"]
 添付された写真データは**幅いっぱいになるように画像を表示**しようとするため、幅が広いと写真が大きく表示されます。
 
 
-<dl>
+<dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
   <dd>これがONの場合、ファイルが添付されていない場合日報の提出ができなくなります</dd>
   <dt>初期値</dt>

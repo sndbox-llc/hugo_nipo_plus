@@ -28,7 +28,7 @@ aliases = ["/manual/initial-setting/advanced-setting/goroku/"]
 
 {{<appscreen filename="make-word-list" title="語録の作成" >}}
 
-<dl>
+<dl class="basic">
   <dt>語録タイトル</dt>
   <dd>語録のタイトルです。わかりやすい名前をつけてください</dd>
   <dt>語録郡</dt>

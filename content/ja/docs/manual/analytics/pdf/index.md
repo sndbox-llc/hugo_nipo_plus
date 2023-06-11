@@ -12,7 +12,7 @@ aliases = ["/manual/analytics/pdf/"]
 報告書をまとめてPDFに変換してダウンロードできます。
 一括PDF出力はいくつかの方法があります
 
-<dl>
+<dl class="basic">
 <dt>カレンダーを使う</dt>
 <dd>カレンダーに表示されている報告書をまとめてPDF出力します</dd>
 <dt>受信BOXからPDF出力</dt>

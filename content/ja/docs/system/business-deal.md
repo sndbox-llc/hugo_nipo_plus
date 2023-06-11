@@ -12,7 +12,7 @@ Nipoはネットを媒介した販売([GOLD PLAN](/docs/price/_about/)）があ�
 
 ## 特定商取引法に基づく表記
 
-<dl>
+<dl class="basic">
   <dt>販売事業者</dt>
   <dd>合同会社サンドボックス</dd>
   <dt>販売事業者所在地</dt>

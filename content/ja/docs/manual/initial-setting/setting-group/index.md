@@ -32,7 +32,7 @@ aliases = ["/manual/initial-setting/make-group/"]
 
 グループに関する様々な設定がまとまっています。
 
-<dl>
+<dl class="basic">
 <dt>グループ全般</dt>
 <dd>グループ全般に関する設定が行なえます。本ページで解説</dd>
 <dt>スタッフ管理</dt>
@@ -55,7 +55,7 @@ aliases = ["/manual/initial-setting/make-group/"]
 複数のグループが存在する場合、ここでの設定は他のグループには影響せず、編集したグループに対してのみ有効です。
 グループの基本設定は以下の表のとおりです。
 
-<dl>
+<dl class="basic">
   <dt>グループ名</dt>
   <dd>グループの名称です。左上のグループ切替などで使用されます。</dd>
   <dt>テーマカラー</dt>

@@ -27,7 +27,7 @@ aliases = ["/manual/initial-setting/template/rate/"]
 文字入力フォームの設定は以下の通り。
 
 
-<dl>
+<dl class="basic">
   <dt>入力必須</dt>
   <dd>これがONの場合、レートが0だと日報・チェックシートの提出ができません（レートは2回同じレートをクリックすると0にできます</dd>
   <dt>集計する</dt>

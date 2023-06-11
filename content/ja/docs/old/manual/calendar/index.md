@@ -21,7 +21,7 @@ aliases = ["/old/manual/calendar/"]
 
 カレンダー上に日報が表示されました。日報のステータスによって色分けされています
 
-<dl>
+<dl class="basic">
   <dt>赤色アイコン</dt>
   <dd>棄却済みの日報</dd>
   <dt>青色アイコン</dt>
@@ -75,7 +75,7 @@ aliases = ["/old/manual/calendar/"]
 
 {{<imgproc calendar7.png "予定の表示はポップアップで行われる" />}}
 
-<dl>
+<dl class="basic">
   <dt>予定見出し</dt>
   <dd>予定のタイトルです。太字で表示されます</dd>
   <dt>予定本文</dt>
@@ -97,7 +97,7 @@ aliases = ["/old/manual/calendar/"]
 
 {{<imgproc calendar8.png "カレンダー上に予定を追加する" />}}
 
-<dl>
+<dl class="basic">
   <dt>タイトル</dt>
   <dd>カレンダー上に表示される見出しです。長すぎる場合は...で略式表記されます</dd>
   <dt>内容</dt>
@@ -128,7 +128,7 @@ aliases = ["/old/manual/calendar/"]
 
 {{<imgproc calendar11.png "カレンダーの表示項目を変更する" />}}
 
-<dl>
+<dl class="basic">
   <dt>表示する曜日</dt>
   <dd>表示する曜日にチェックを入れます。デフォルトではすべてONです。</dd>
   <dt>見出しの長さ</dt>
@@ -146,7 +146,7 @@ aliases = ["/old/manual/calendar/"]
 週間カレンダーは時刻を指定した予定もうまく表示してくれますが、簡易的ですのであまり大人数で使うと予定が重なってうまく機能しません。  
 週間カレンダーはオマケくらいの認識でお願いします。敢えてこのページで週間カレンダーは紹介しません。
 
-<dl>
+<dl class="basic">
   <dt>タイトル</dt>
   <dd>タイトルを編集できます。改行も扱えます</dd>
 </dl>

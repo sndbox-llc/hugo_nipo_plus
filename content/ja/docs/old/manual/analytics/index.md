@@ -33,7 +33,7 @@ aliases = ["/old/manual/analytics/"]
 
 {{<imgproc totaling-start.png "日報を集計する設定画面" />}}
 
-<dl>
+<dl class="basic">
   <dt>集計テンプレート</dt>
   <dd>複数の日報テンプレートがある場合はここから集計するテンプレートを1つだけ選んでください。同時に異なるテンプレートを集計することはできません</dd>
   <dt>削除済みテンプレートを含む</dt>
@@ -56,7 +56,7 @@ aliases = ["/old/manual/analytics/"]
 
 {{<imgproc csv-export-option.png "集計した日報をCSVにダウンロードする" />}}
 
-<dl>
+<dl class="basic">
   <dt>日報のコメントも含めてCSV出力する</dt>
   <dd>日報にコメントがある場合、そのコメントをCSVに含めて出力します</dd>
   <dt>選択肢(複数回答)の列を展開して出力する</dt>

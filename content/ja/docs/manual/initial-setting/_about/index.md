@@ -14,7 +14,7 @@ aliases = ["/manual/initial-setting/"]
 先に用語を紹介しておきます。
 
 
-<dl>
+<dl class="basic">
 <dt>組織</dt>
 <dd>NipoPlus上の一番上位の単位です。１企業につき１つです</dd>
 <dt>グループ</dt>

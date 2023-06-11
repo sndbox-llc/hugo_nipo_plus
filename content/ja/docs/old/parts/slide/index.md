@@ -49,7 +49,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 {{<imgproc parts_slide6.png "スライダーの初期設定画面" />}}
 
 
-<dl>
+<dl class="basic">
   <dt>タイトル</dt>
   <dd>タイトルを編集できます。改行も扱えます</dd>
   <dt>表示形式の設定</dt>

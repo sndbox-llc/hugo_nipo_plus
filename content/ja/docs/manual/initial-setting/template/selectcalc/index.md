@@ -37,7 +37,7 @@ graph LR;
 以下は本入力フォームにのみ存在する設定項目です
 
 
-<dl>
+<dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
   <dd>これがONの場合、選択肢が選ばれていないと日報の提出ができません</dd>
   <dt>入力方式</dt>

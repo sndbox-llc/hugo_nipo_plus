@@ -42,7 +42,7 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
 チェックボックスフォームの設定は以下の通り。
 
 
-<dl>
+<dl class="basic">
   <dt>メモ</dt>
   <dd>チェックボックスの右隣に表示される文字</dd>
   <dt>入力必須</dt>

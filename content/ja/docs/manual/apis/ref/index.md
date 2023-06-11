@@ -35,7 +35,7 @@ Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/
 
 ここでは報告書の取得に関するエンドポイントのみ紹介します。以下のいづれかの値を指定します。必須です。
 
-<dl>
+<dl class="basic">
   <dt>reports/admin</dt>
   <dd>管理者のみ実行可能。全ての日報を取得できるAPI</dd>
   <dt>reports/outbox</dt>
@@ -114,7 +114,7 @@ EOS
 
 この例を少し詳しく見てみます
 
-<dl>
+<dl class="basic">
 <dt>groupId</dt>
 <dd>グループIDを指定します。グループIDはグループ全般やURLから確認できます。</dd>
 <dt>size</dt>
@@ -153,7 +153,7 @@ https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/
 ### テンプレートの取得エンドポイント
 
 
-<dl>
+<dl class="basic">
   <dt>/templtes</dt>
   <dd>パラメータで指定したグループ内の全てのテンプレートを取得します</dd>
   <dt>/template/:テンプレートのID</dt>
@@ -178,7 +178,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 
 ### ログデータ取得エンドポイント
 
-<dl>
+<dl class="basic">
 <dt>/logs</dt>
 <dd>ログデータを取得する</dd>
 </dl>
@@ -204,7 +204,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
 ### スタッフ取得エンドポイント
 
 
-<dl>
+<dl class="basic">
 <dt>/staffs</dt>
 <dd>スタッフ情報を取得する</dd>
 </dl>
@@ -225,7 +225,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 ### 組織全体のエンドポイント
 
 組織全体に関する情報のためアクセスには管理者権限が必要です。
-<dl>
+<dl class="basic">
   <dt>/staffs/admin</dt>
   <dd>組織に所属している全スタッフのデータを取得します</dd>
   <dt>/group/admin</dt>
@@ -248,7 +248,7 @@ WebAPIにリクエストを投げたとき、戻り値に{ error: true }がか�
 
 以下は代表的なエラーの例です
 
-<dl>
+<dl class="basic">
   <dt>トークンの更新に失敗</dt>
   <dd>Bearerトークンが失効しています.<a href="/docs/manual/api/key/">APIキーの管理</a>から再度取得してください</dd>
   <dt>グループIDが不正です</dt>

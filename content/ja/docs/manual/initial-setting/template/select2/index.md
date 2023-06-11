@@ -46,7 +46,7 @@ aliases = ["/manual/initial-setting/template/select2/"]
 
 設定項目は「選択式入力フォーム（単回答）と同一です。
 
-<dl>
+<dl class="basic">
   <dt>入力切替を無効にする</dt>
   <dd>ON:報告書作成時に入力方式を変更するボタンが非表示になります</dd>
   <dt>入力必須</dt>

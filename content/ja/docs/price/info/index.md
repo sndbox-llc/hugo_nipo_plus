@@ -25,7 +25,7 @@ aliases = ["/price/info/"]
 
 その他の項目については以下のとおりです
 
-<dl>
+<dl class="basic">
 <dt>組織ID</dt>
 <dd>アカウント作成時に自動で割り振られます</dd>
 <dt>利用開始日</dt>

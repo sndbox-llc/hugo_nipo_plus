@@ -37,7 +37,7 @@ NipoPLUSでは、各種チェックシートや日報、報告書などのテン
 入力必須の挙動は各種入力フォームによって微妙に異なります。詳しくは以下の表を御覧ください。
 
 
-<dl>
+<dl class="basic">
   <dt><a href="/docs/manual/initial-setting/template/text/">テキスト入力フォーム</a></dt>
   <dd>1文字以上文字を入力する</dd>
   <dt><a href="/docs/manual/initial-setting/template/select/">選択式入力フォーム</a></dt>

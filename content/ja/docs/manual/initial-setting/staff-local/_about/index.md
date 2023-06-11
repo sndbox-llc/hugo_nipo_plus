@@ -24,7 +24,7 @@ contributors = []
 {{<appscreen filename="staff-local" title="ご利用中の端末からログアウトするにはアカウント＞ログアウトの順にクリックします。" >}}
 
 スタッフリストの各部名称について。
-<dl>
+<dl class="basic">
 <dt>名前</dt>
 <dd>スタッフの名前です。変更は組織のスタッフ管理にて</dd>
 <dt>権限</dt>

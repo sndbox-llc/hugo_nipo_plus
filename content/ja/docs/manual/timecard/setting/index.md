@@ -18,7 +18,7 @@ aliases = ["/manual/timecard/setting/"]
 
 {{<appscreen filename="setting" title="タイムカード機能の設定項目。折りたたまれているためクリックして展開します"  >}}
 
-<dl>
+<dl class="basic">
   <dt>各日で端折りする</dt>
   <dd>1日ごとに出勤と退勤の時間を一定の区切りで端折る場合はONにします。初期値はOFFです。出勤時と退勤時でそれぞれ設定できます。0分〜30分まで指定できます。</dd>
   <dt>合計で端折りする</dt>

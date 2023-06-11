@@ -53,7 +53,7 @@ aliases = ["/manual/initial-setting/template/step/"]
 
 スライダフォームの設定は以下の通り。
 
-<dl>
+<dl class="basic">
   <dt>初期値</dt>
   <dd>日報新規作成時にスライダのつまみが配置される位置です。最小値と最大値の中間となる値を推奨します</dd>
   <dt>最小値</dt>

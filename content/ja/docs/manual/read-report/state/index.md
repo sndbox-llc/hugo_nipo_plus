@@ -16,7 +16,7 @@ aliases = ["/manual/read-report/state/"]
 
 状態は新規から始まり、最終的に承認へ向けて進みます。各段階の状態は以下のとおりです。
 
-<dl>
+<dl class="basic">
 <dt>新規</dt>
 <dd>日報が作成され、まだ承認や棄却が行われていない状態</dd>
 <dt>進行</dt>

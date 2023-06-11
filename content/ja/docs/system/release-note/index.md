@@ -20,7 +20,7 @@ aliases = ["/system/release-note/", "/old/system/releasenote/"]
 
 ご利用のアプリ形態によってバージョンの更新手順は異なります
 
-<dl>
+<dl class="basic">
 <dt>
 <a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp">Android</a> / <a href="https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8">iOS</a>版</dt>
 <dd>各アプリストアからの更新を行うことでバージョンを更新できます</dd>

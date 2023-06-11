@@ -39,7 +39,7 @@ aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual
 
 日報作成は大きく分けて3つのセクションに分離できます。
 
-<dl>
+<dl class="basic">
 <dt>日報作成エリア</dt>
 <dd>選択したテンプレートをもとに表示される入力エリアです。スマートフォンでは縦1列に表示されます。タブレット以上の画面では普通のレイアウトで表示されます</dd>
 <dt>タグエリア</dt>
@@ -64,7 +64,7 @@ aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual
 {{<appscreen filename="report-header" title="日報の提出日・提出先といったヘッダ情報を入力する"  >}}
 
 ヘッダーの各項目については以下の対応表を御覧ください。
-<dl>
+<dl class="basic">
 <dt>提出日時</dt>
 <dd>自動で本日の現在時刻が入ります。必要に応じて修正可能（実際の提出時間も別途記録されます）</dd>
 <dt>提出先</dt>
@@ -91,7 +91,7 @@ aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual
 
 品質チェックなど製造現場ではチェックー＞提出ー＞チェックー＞提出の繰り返しになるためこのような機能が用意されています（製造業の方からのリクエストにより実装）
 
-<dl>
+<dl class="basic">
 <dt>続けて書く</dt>
 <dd>同じテンプレートを使用して日報を新規作成します</dd>
 <dt>テンプレートを変更</dt>

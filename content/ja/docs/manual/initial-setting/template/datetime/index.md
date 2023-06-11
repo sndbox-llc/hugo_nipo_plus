@@ -26,7 +26,7 @@ aliases = ["/manual/initial-setting/template/datetime/"]
 日付のみ・時間のみ、などの設定は初期設定で設定できます。入力方法はキーボードから直接打つ方法のほか、カレンダーや時計マークから入力する方法がありますので、好みに応じて使い分けができます。
 
 
-<dl>
+<dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
   <dd>これがONの場合、数値が空欄だと日報の提出ができなくなります</dd>
   <dt>形式</dt>

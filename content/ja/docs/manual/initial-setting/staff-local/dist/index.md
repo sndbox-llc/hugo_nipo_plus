@@ -52,7 +52,7 @@ aliases = ["/manual/initial-setting/advanced-setting/dist/", "/docs/manual/initi
 必要に応じてオプションの設定も可能です。オプションは以下の通り
 
 
-<dl>
+<dl class="basic">
   <dt>提出先や共有先の変更を許可しない</dt>
   <dd><ul><li>ON:報告書作成時に提出先や共有先を変更できなくします。(推奨)</li><li>OFF:初期値で指定した提出先が選ばれますが変更が可能です</li></ul></dd>
   <dt>グループ内の全スタッフを自動で含める</dt>

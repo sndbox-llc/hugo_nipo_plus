@@ -2,6 +2,7 @@
 description = "蓄積した日報のデータを簡単に集計＆グラフ化できます。より細かい分析がしたい場合は集計データをCSVに出力することでエクセルなどの表計算ソフトを使い分析が可能です"
 title = "日報をエクセルシートで集計しよう！提出漏れもかんたんチェック"
 toc = true
+draft = true
 weight = 109_001_011
 isNipo = true
 tags = ["旧バージョン"]
@@ -9,6 +10,7 @@ contributors = []
 aliases = ["/old/manual/analytics/"]
 +++
 
+<!--
 {{<btnCenter "/docs/manual/analytics/_about/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## たくさんの報告書を1枚のエクセルシートで集計する
@@ -149,3 +151,5 @@ Nipoのデータはすべて**UTF-8**で保存されますが、古いエクセ�
 {{<imgproc old-excel.png "Excel2007の画面" />}}
 {{<imgproc csv-import.png "Excel2007の画面" />}}
 {{<imgproc comma-separate.png "Excel2007の画面" />}}
+
+-->

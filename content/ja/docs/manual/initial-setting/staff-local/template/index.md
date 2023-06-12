@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "スタッフごとに利用が可能な報告書のテンプレートを指定できます"
 tags = []
 title = "利用可能なテンプレートの制限"
 toc = true

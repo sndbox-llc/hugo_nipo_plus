@@ -1,5 +1,5 @@
 +++
-description = "日報データをAPIで取得する"
+description = "WebAPIで取得した報告書データの構造に関する操作ガイドです"
 tags = ["有料プラン限定"]
 title = "API取得のデータ構造"
 toc = true

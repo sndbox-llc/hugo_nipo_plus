@@ -5,7 +5,6 @@ title = "タクシー日報をスマホ・タブレットで"
 toc = true
 # weight = 104000005
 contributors = []
-
 excerpt = "タクシー日報をスマホで"
 images = []
 categories = []

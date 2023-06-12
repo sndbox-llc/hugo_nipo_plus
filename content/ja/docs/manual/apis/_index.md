@@ -1,5 +1,5 @@
 +++
-description = "日報データをAPI経由で取得することができます"
+description = "APIに関する操作ガイド"
 title = "📡API"
 toc = true
 tags = []

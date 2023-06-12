@@ -1,5 +1,5 @@
 +++
-description = "WebAPIを使って直接日報のデータを取得できます。CURLを使った具体的な使い方を交えて紹介"
+description = "WebAPIを使い報告書データを取得します。APIコマンドの使い方に関する操作ガイドです"
 tags = ["有料プラン限定"]
 title = "APIを使う"
 toc = true

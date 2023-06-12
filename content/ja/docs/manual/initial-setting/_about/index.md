@@ -1,5 +1,5 @@
 +++
-description = "NipoPlusを利用する前に初期設定を済ませておきましょう。日報テンプレートの作成や一緒に使用するスタッフアカウントの用意、必要に応じてグループ分けなどを行います"
+description = "初期設定ではグループを作ります"
 title = "組織とグループについて"
 toc = true
 weight = 101000000
@@ -12,7 +12,6 @@ aliases = ["/manual/initial-setting/"]
 
 
 先に用語を紹介しておきます。
-
 
 <dl class="basic">
 <dt>組織</dt>

@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "タスクに関する操作ガイド"
 title = "タスク管理"
 toc = true
 tags = []

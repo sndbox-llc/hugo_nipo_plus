@@ -1,6 +1,6 @@
 +++
 title = "👤アカウント"
-description = "Help NipoPlus."
+description = "アカウントの操作ガイド"
 lead = ""
 date = "2020-10-06"
 lastmod = "2020-10-06"

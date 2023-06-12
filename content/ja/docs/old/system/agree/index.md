@@ -1,7 +1,7 @@
 +++
 description = "Nipoを利用する上での利用規約になります。同じ内容のものがクラウド日報Nipoのアカウント作成後に表示されます"
 title = "システム利用規約"
-toc = true
+toc = false
 weight = 109003005
 isNipo = true
 tags = ["旧バージョン"]

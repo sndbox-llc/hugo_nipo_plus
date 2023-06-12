@@ -2,7 +2,7 @@
 description = "Nipoを利用する上での利用規約になります。同じ内容のものがクラウド日報Nipoのアカウント作成後に表示されます"
 tags = []
 title = "システム利用規約"
-toc = true
+toc = false
 weight = 103000012
 contributors = []
 aliases = ["/system/agree/"]

@@ -10,6 +10,8 @@ aliases = ["/old/manual/write-report/"]
 
 +++
 
+{{<btnCenter "/docs/manual/write-report/write/" "この機能は後続のNipoPlusでもサポートされています">}}
+
 
 ## たったの3ステップで日報が書けます
 

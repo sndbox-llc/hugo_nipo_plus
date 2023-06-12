@@ -9,6 +9,7 @@ contributors = []
 aliases = ["/old/manual/edit-report/"]
 +++
 
+{{<btnCenter "/docs/manual/write-report/rewrite/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## 自分が書いた日報を削除する
 

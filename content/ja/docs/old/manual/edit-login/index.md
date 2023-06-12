@@ -9,7 +9,7 @@ contributors = []
 aliases = ["/old/manual/edit-login/"]
 +++
 
-
+{{<btnCenter "/docs/manual/account/password/" "この機能は後続のNipoPlusでもサポートされています">}}
 
 ## アカウントの設定画面からログインのメールアドレスやパスワードの変更ができます
 

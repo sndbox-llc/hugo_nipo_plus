@@ -10,6 +10,8 @@ aliases = ["/old/manual/group/"]
 
 +++
 
+{{<btnCenter "/docs/manual/initial-setting/make-group/" "この機能は後続のNipoPlusでもサポートされています">}}
+
 ## グループの役割
 
 Nipoはグループを作り、その中にスタッフのアカウントを追加します。同じグループのスタッフ間で[日報を読むこと](/old/manual/postbox/)や[スケジュールの管理](/old/manual/calendar/)が行なえます。

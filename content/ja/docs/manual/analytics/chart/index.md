@@ -3,7 +3,7 @@ description = "報告書のデータを抜き出して円・折れ線・棒グ�
 tags = ["有料プラン限定"]
 title = "報告書をグラフ化する"
 toc = true
-weight = 101004002
+weight = 101004003
 contributors = []
 aliases = ["/manual/analytics/chart/"]
 +++

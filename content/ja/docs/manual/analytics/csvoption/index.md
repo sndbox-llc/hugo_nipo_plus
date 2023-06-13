@@ -3,7 +3,7 @@ description = "報告書のデータをCSV出力する際に出力形式を変�
 tags = ["有料プラン限定"]
 title = "CSV出力の設定"
 toc = true
-weight = 101004003
+weight = 101004020
 contributors = []
 aliases = ["/manual/analytics/csvoption/"]
 +++

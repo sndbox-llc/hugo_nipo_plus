@@ -3,7 +3,7 @@ description = "期間を指定して報告書のデータを一括でCSVに出�
 tags = ["有料プラン限定", "Web版限定"]
 title = "CSV出力（一括）"
 toc = true
-weight = 101004004
+weight = 101004021
 contributors = []
 aliases = ["/manual/analytics/csv/"]
 

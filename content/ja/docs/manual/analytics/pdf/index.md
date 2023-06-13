@@ -3,7 +3,7 @@ description = "報告書のデータをPDFに一括で変換します。"
 tags = ["有料プラン限定"]
 title = "PDF出力（一括）"
 toc = true
-weight = 101004005
+weight = 101004022
 contributors = []
 aliases = ["/manual/analytics/pdf/"]
 

@@ -20,6 +20,9 @@ aliases = ["/manual/initial-setting/template/picture/"]
 
 {{<alice pos="right" icon="ok">}}ついでにいうと写真入力フォームは画像圧縮も自動で行います{{</alice>}}
 
+{{<btnCenter "/tips/photo/" "特設記事:写真付き日報">}}
+
+
 ## 写真入力フォームの初期設定
 
 写真入力フォームは初期設定項目が非常に少ないです。その中で唯一気にかける項目は**幅の指定**です。

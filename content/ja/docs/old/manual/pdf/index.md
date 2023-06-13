@@ -10,7 +10,7 @@ aliases = ["/old/manual/pdf/"]
 
 +++
 
-{{<btnCenter "/docs/manual/read-report/pdf/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/read-report/pdf/" "新バージョンでも使えます">}}
 
 ## 日報をかんたんにPDFへ変換できます。スマホからも操作可能
 

@@ -10,7 +10,7 @@ aliases = ["/old/parts/dictionaly/"]
 
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/advanced-setting/goroku/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/advanced-setting/goroku/" "新バージョンでも使えます">}}
 
 ## 語録の入力画面
 

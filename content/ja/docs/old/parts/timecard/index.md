@@ -11,7 +11,7 @@ aliases = ["/old/parts/timecard/"]
 +++
 
 
-{{<btnCenter "/docs/manual/timecard/_about/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/timecard/_about/" "新バージョンでも使えます">}}
 
 ## タイムカードの入力画面
 

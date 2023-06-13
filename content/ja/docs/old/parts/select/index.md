@@ -10,7 +10,7 @@ aliases = ["/old/parts/select/"]
 
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/select/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/select/" "新バージョンでも使えます">}}
 
 ## 選択肢（単回答）の入力画面
 

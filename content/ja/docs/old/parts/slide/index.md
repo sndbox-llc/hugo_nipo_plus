@@ -10,7 +10,7 @@ aliases = ["/old/parts/slide/"]
 
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/step/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/step/" "新バージョンでも使えます">}}
 
 ## スライダーの入力画面
 

@@ -1,12 +1,12 @@
 +++
-description = ""
+description = "現場や作業前後の写真を報告書に添付し、PDFに出力が可能です。撮影・報告・PDF出力までをタブレット1台でスマートに"
 title = "写真付きの日報で現場の状況をわかり易く報告する"
 toc = true
 # weight = 104000010
 aliases = []
 contributors = []
-excerpt = "写真つきの報告書"
-images = []
+excerpt = "現場や作業前後の写真を報告書に添付し、PDFに出力が可能です。撮影・報告・PDF出力までをタブレット1台でスマートに"
+images = ["icatch-photo-report_tablet.png"]
 categories = []
 tags = []
 date = "2023-6-12"
@@ -16,9 +16,16 @@ homepage = false
 draft = false
 +++
 
+
+<dl class="faq">
+<dt>現場の写真を日報に添付できますか？</dt>
+<dd>写真入力フォームを使えば実現可能です</dd>
+</dl>
+
+
 業務報告には文字だけではなく、作業現場の写真や現地調査の写真などを添付する必要がある場合があります。
 
-{{<icatch filename="photo-report" msg="現場の写真を 報告書に添付可" title="予定と実績の進捗表" fontsize="30px" alice="guide" >}}
+{{<icatch filename="icatch-photo-report" msg="現場の写真を 報告書に添付可" title="予定と実績の進捗表" fontsize="30px" alice="guide" >}}
 
 ## 撮影してWordに貼り付けは手間がかかる
 

@@ -9,7 +9,7 @@ contributors = []
 aliases = ["/old/manual/anonymouse/"]
 +++
 
-{{<btnCenter "/docs/manual/account/tokumei/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/account/tokumei/" "新バージョンでも使えます">}}
 
 匿名アカウントはE-mail・パスワードの設定をしないアカウントです。ワンクリックでアカウントが作成され、すぐに利用ができます。
 

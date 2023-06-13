@@ -10,7 +10,7 @@ aliases = ["/old/manual/postbox/"]
 
 +++
 
-{{<btnCenter "/docs/manual/read-report/list/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/read-report/list/" "新バージョンでも使えます">}}
 
 
 ## 日報受信ボックスに報告書が届きます

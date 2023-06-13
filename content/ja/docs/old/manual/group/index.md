@@ -10,7 +10,7 @@ aliases = ["/old/manual/group/"]
 
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/make-group/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/make-group/" "新バージョンでも使えます">}}
 
 ## グループの役割
 

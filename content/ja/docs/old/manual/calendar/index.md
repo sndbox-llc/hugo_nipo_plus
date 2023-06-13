@@ -9,7 +9,7 @@ contributors = []
 aliases = ["/old/manual/calendar/"]
 +++
 
-{{<btnCenter "/docs/manual/calendar/_about/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/calendar/_about/" "新バージョンでも使えます">}}
 
 グループ内のメンバー全員が同じカレンダーを共有できます。非常にシンプルな見た目で、操作も簡単です。スタッフの予定管理などに役立ててください。
 

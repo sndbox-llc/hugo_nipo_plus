@@ -9,7 +9,7 @@ contributors = []
 aliases = ["/old/manual/delete/"]
 +++
 
-{{<btnCenter "/docs/manual/remove/reportbatch/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/remove/reportbatch/" "新バージョンでも使えます">}}
 
 ## 不要な日報を一括で削除する機能
 

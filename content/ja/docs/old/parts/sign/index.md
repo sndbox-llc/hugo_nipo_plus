@@ -10,7 +10,7 @@ aliases = ["/old/parts/sign/"]
 
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/sign/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/sign/" "新バージョンでも使えます">}}
 
 ## 署名の入力画面
 

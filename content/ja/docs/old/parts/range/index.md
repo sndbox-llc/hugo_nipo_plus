@@ -10,7 +10,7 @@ aliases = ["/old/parts/range/"]
 
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/range/" "この機能は後続のNipoPlusでもサポートされています">}}
+{{<btnCenter "/docs/manual/initial-setting/template/range/" "新バージョンでも使えます">}}
 
 ## 範囲の入力画面
 

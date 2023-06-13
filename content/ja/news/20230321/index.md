@@ -2,13 +2,13 @@
 description = "Nipo クレジットカード失敗について"
 title = "クレジットカード決済失敗について"
 excerpt = "クレジットカード決済失敗について"
-tags = ["blog", "news"]
+tags = []
 toc = true
 #weight = 108999998
 contributors = []
 date = "2023-03-21"
 lastmod = "2022-03-21"
-categories = ["News"]
+categories = []
 images = []
 pinned = false
 homepage = false

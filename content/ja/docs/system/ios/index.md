@@ -1,6 +1,6 @@
 +++
 description = "iPhone / iPadにNipoPlusをインストールするにはPWAとしてインストールする方法、App Storeからダウンロードする方法があります。PWAを推奨しています。"
-tags = []
+tags = ["モバイル"]
 title = "iOSで使う"
 toc = true
 weight = 103000002

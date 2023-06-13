@@ -1,8 +1,8 @@
 +++
 title = "NipoとNipoPlusのホームページを統合しました"
 description = "NipoとNipoPlusのホームページを1つのサイトに統合しました"
-categories = ["News"]
-tags = ["News"]
+categories = []
+tags = []
 toc = true
 # weight = 108999996
 excerpt = "ホームページ統合"

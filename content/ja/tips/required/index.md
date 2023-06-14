@@ -1,102 +1,122 @@
 +++
-description = "記入漏れを防ぐための入力必須の設定や、入力順序を指定する機能など、スタッフが迷うことのないような機能が搭載されています。"
-title = "記入漏れや提出忘れを防止！NipoPlusで効率的に報告書を管理しよう"
+description = "入力必須の指定により報告書の「うっかり記入漏れ」を未然に防ぐことができます。うっかり提出忘れも「提出簿」を見ればすぐに分かります"
+title = "日報のよくある「記入/提出忘れ」を0にする"
 toc = true
-# weight = 104000010
 aliases = ["/blog/leak/", "/blog/required/"]
 contributors = []
-excerpt = "記入・提出漏れを防ぐ"
-images = []
+excerpt = "入力必須の指定により報告書の「うっかり記入漏れ」を未然に防ぐことができます。うっかり提出忘れも「提出簿」を見ればすぐに分かります"
+images = ["input-order_tablet.png"]
 categories = []
 tags = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
 pinned = false
 homepage = false
 +++
 
-製造現場などで使われるチェックシートや、日々の業務報告に使われる日報。
-必要な項目を書き込んでいくだけの簡単な作業のように見えますが、記入漏れや提出忘れが発生しやすいという問題があります。
-NipoPlusでは単純なヒューマンエラーを極力減らすためのいくつかの機能を備えています。システムによるチェックを行うことで記入漏れや提出忘れを防ぎ、一定の品質を保ち続けることが可能になります。
 
-## うっかり記入漏れは報告書の提出時点で検知できます
+<dl class="faq">
+<dt>日報の必要事項が空欄で提出されることがあり困っている</dt>
+<dd>入力必須の指定で日報作成者にミスを知らせます</dd>
+</dl>
 
-NipoPLUSでは、各種チェックシートや日報、報告書などのテンプレートを自由にカスタマイズすることができますがその反面、記入漏れのリスクがあるため、徹底した入力チェックが必要です。
-記入漏れのチェックには「入力の必須設定」を使用することで、特定の項目に入力漏れがないように設定することができます。必須項目には必ず入力するように指示することができるため、記入漏れを防止することができます。
+記入する項目が多いと見落としてしまい、ミスに気づかず提出してしまうことがあります。
+ただこの問題は入力必須指定で簡単に回避することが可能です。
 
-「入力の必須」を指定するには報告書テンプレートの編集画面から行うことができます。入力の必須がONになった項目は空欄の場合に赤いポップで警告を表示するため、報告書作成者が見落とさないようにできます。
-設定した項目が空欄のままでは報告書を提出すること自体ができないように制限がかかります。これで報告書の「うっかり記入漏れ」を確実に防ぐことができます。
-入力の必須は項目ごとに設定できるため、空欄でも良い場合は入力の必須をOFFにすれば一部だけ入力の必須とすることもできます。
+
+## テンプレート作成時に入力必須をONにする
+
+1. 必ず入力しなければならない項目がある場合は入力必須をONにします。
+1. 入力必須がONの項目は左上に「入力必須」と表示され、報告書の作成者に注意を促します。
+1. 入力がされると警告は消えます（すべての警告が消えるまで報告書の提出ボタンは押せません）
+1. すべての警告を解消して提出します
+
+
+入力必須にすると日報作成時に次のように表示されます。
+
+{{<icatch filename="required" msg="警告があるため 提出ボタンを無効化" title="入力必須の指定がされた日報" fontsize="30px" alice="here" >}}
+
+入力必須がたくさん出ていますね。この警告をすべて消すまで報告書の提出はできません。これにより入力漏れを提出時点でしっかりブロックできます。
 なお[下書きとして保存](/docs/manual/write-report/draft/)する際は入力必須が空欄でも保存が可能です。
 
 
-{{<icatch filename="required" msg="空欄があるため 提出ボタンを無効化" title="入力必須の指定がされた日報" fontsize="30px" alice="here" >}}
+### 入力必須の各フォームごとのクリア条件
 
-
-
-入力必須の挙動は各種入力フォームによって微妙に異なります。詳しくは以下の表を御覧ください。
+入力必須の挙動は各種入力フォームによって微妙に異なります。
 
 
 <dl class="basic">
-  <dt><a href="/docs/manual/initial-setting/template/text/">テキスト入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/text/">本文入力</a></dt>
   <dd>1文字以上文字を入力する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/select/">選択式入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/select/">選択式入力</a></dt>
   <dd>選択肢から1つ選ぶ</dd>
-  <dt><a href="/docs/manual/initial-setting/template/select2/">選択式入力フォーム（複数回答）</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/select2/">選択式入力（複）</a></dt>
   <dd>選択肢から少なくとも1つ選ぶ</dd>
-  <dt><a href="/docs/manual/initial-setting/template/selectcalc/">選択式入力フォーム（２層式）</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/selectcalc/">選択式入力（2層）</a></dt>
   <dd>問2の選択肢から1つ選ぶ</dd>
-  <dt><a href="/docs/manual/initial-setting/template/datetime/">日付・時刻入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/datetime/">日付・時刻入力</a></dt>
   <dd>日付または時刻を入力する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/datetimes/">期間入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/datetimes/">期間入力</a></dt>
   <dd>期間（開始・終了両方とも）を入力する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/checkbox/">チェックボックス入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/checkbox/">チェックボックス入力</a></dt>
   <dd>チェックボックスにチェックを入れる（同意や確認として利用を推奨します）</dd>
-  <dt><a href="/docs/manual/initial-setting/template/range/">範囲入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/range/">範囲入力</a></dt>
   <dd>この項目は入力必須の指定ができません</dd>
-  <dt><a href="/docs/manual/initial-setting/template/sign/">署名・イラスト入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/sign/">署名入力</a></dt>
   <dd>イラスト・署名を書く（空白のイラストでも入力必須は解除されます）</dd>
-  <dt><a href="/docs/manual/initial-setting/template/picture/">写真入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/picture/">写真入力</a></dt>
   <dd>少なくとも1枚以上のJpeg・またはPngの画像を添付する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/file/">ファイル入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/file/">ファイル入力</a></dt>
   <dd>少なくとも1つ以上のファイルを添付する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/step/">スライダ入力フォーム</a></dt>
-  <dd>この項目は入力必須の指定ができません</dd>
-  <dt><a href="/docs/manual/initial-setting/template/rate/">レート入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/step/">スライダ入力</a></dt>
+  <dd>スライダにつまみを置く</dd>
+  <dt><a href="/docs/manual/initial-setting/template/rate/">レート入力</a></dt>
   <dd>星ゼロ(☆☆☆☆☆）以外の状態にする</dd>
-  <dt><a href="/docs/manual/initial-setting/template/math/">数値入力フォーム</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/math/">数値入力</a></dt>
   <dd>数値を入力する</dd>
   <dt><a href="/docs/manual/initial-setting/template/calc/">算術</a></dt>
   <dd>この項目は入力必須の指定ができません</dd>
-  <dt><a href="/docs/manual/initial-setting/template/array/">反復入力フォーム</a></dt>
-  <dd>反復入力フォーム自体に入力必須の指定はできませんが、反復の中に配置した各種入力フォームに対してそれぞれ入力必須の指定が可能です</dd>
+  <dt><a href="/docs/manual/initial-setting/template/array/">反復入力</a></dt>
+  <dd>反復の中に配置した各種入力フォームに対してそれぞれ入力必須の指定が可能</dd>
 </dl>
 
-## 入力順序を制御してミスを防ぐ
+## 入力順序を制御してケアレスミスを防ぐ
 
-NipoPlusでは、チェックシートなどの入力項目に順序をつけることができます。
-例えば日報の場合、重要な項目を先に入力することで、スタッフが忘れてしまうことを防止することができます。
-また、検査表の場合、順序通りに入力することで漏れがないようにすることができます。このように、入力順序を制御することで、スタッフの入力ミスを防止し、より正確なデータを収集することができます。  
-入力順序の指定は「**今記入しなければならない項目**」が明確にわかるため、報告書を作成するスタッフにとってもやるべきことが明確になるという利点があります。
-入力順序の制御はテンプレート全体に指定することも、一部だけを制御することも可能です。
-
+人間は慣れや慢心により、手順の省略や手順に沿わない操作を行うことがあります。
+報告書を書く際に記入の順番を設定することで、少なくても報告書に関しては記入の順番を矯正（強制）することができます。
+入力必須と組み合わせることも可能です。
 
 {{<icatch filename="input-order" msg="入力必須と 入力順指定の併用" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
 
+入力順序の指定は手順遵守の他にも、次に入力すべき項目がわかりやすいので特に操作に不慣れなスタッフには有益な機能として活用できます。
+入力必須の指定はテンプレート作成のページを御覧ください。
 
-## 提出簿から報告書の作成を忘れているスタッフを瞬時に特定する
+{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレート作成">}}
 
-提出簿とはスタッフ（行）と日付（列）で構成された格子状の一覧表です。日付とスタッフの交差する各セルにはその日の報告書の提出件数が表示されます。
-1件も報告書の提出がない場合はバツマークで表示されるため、このスタッフが報告書の提出を忘れていることを簡単に把握できます。
-また、各セルには「提出した枚数」が表示されるため、これを逆手に使い、1以外の数字がセットされている場合、誤って2回提出してしまったり、日付の指定を間違えているといったミスの発見にも役立てられます。
+
+---
+
+
+## 提出簿から報告書の作成を忘れているスタッフを瞬時に特定
+
+入力必須により記入漏れを防ぐことはできました。ではそもそも報告書自体を書き忘れた場合はどうでしょう？  
+出席簿ならぬ「提出簿」を使えば誰が提出し忘れているかをすぐ特定できます。
 
 {{<icatch filename="submission-status-list" msg="提出簿を見れば 提出漏れも一目瞭然" title="報告書の未提出者を瞬時に把握できる提出簿機能" fontsize="30px" alice="here" >}}
 
-提出漏れを確認するもう１つの方法としてカレンダー機能があります。
-カレンダーも提出簿と同じ構成で、縦軸にスタッフ、横軸に日付の格子状カレンダーになります。
-カレンダーについてはカレンダーのページをご覧ください
 
-{{<btnCenter "/docs/manual/calendar/_about/" "カレンダー">}}
+{{<alice pos="right" icon="please">}}
+上の画像は未提出ばかりですが、サンプルなのでご容赦ください
+{{</alice>}}
+
+各セルには「提出した枚数」が表示されます。誤って2枚以上提出している場合も簡単に判定できますね。未提出者を見つけたらそっと本人に教えて上げてください。
+
+{{<btnCenter "/docs/manual/read-report/list/" "提出簿について">}}
+
+{{<info>}}
+<a href="/docs/manual/calendar/_about/">カレンダーから未提出者を見つけることもできます</a>
+{{</info>}}
+
+
 
 ## 報告書テンプレートに提出目安を指定し提出の必要件数を指示する
 
@@ -107,9 +127,3 @@ NipoPlusでは、チェックシートなどの入力項目に順序をつける
 提出枚数目安を設定すると1日に提出する予定の件数とすでに提出した件数の進捗バーが表示されるため、日報を作成するスタッフが未提出に気づくことができます。
 提出枚数目安を設定していないテンプレートでは、その日に何件提出したかだけが表示されます。
 定休日などもあるため警告が表示されることはありませんが、スタッフ自らが提出漏れを気づくことができるため、設定しておくと提出漏れを減らすことができます。
-
-## 提出漏れを見つけたら本人へ通達してください
-
-NipoPlusはチャット機能などがありませんので、もし提出漏れを見つけたらスタッフへメールや口頭で日報提出漏れの旨を伝えてください。
-提出漏れのチェックはスタッフが多くなるほど手間が増えますが、NipoPlusなどの日報アプリでは提出漏れを効率よく見つける仕組みが用意されてます。
-Wordやエクセル、チャットアプリを日報に使うのではチェック漏れを探すのが困難になりますので、効率よく提出漏れを探せる日報アプリを検討してください。

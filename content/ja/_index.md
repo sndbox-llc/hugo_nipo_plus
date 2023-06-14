@@ -112,7 +112,7 @@ graph LR;
 
 {{<nextArrow>}}
 
-ここまでスクロールありがとうございました。ご不明な点はいつでもも遠慮なく[お問い合わせ](/others/inquery/)ください。
+ご不明な点はいつでもも遠慮なく[お問い合わせ](/others/inquery/)ください。
 
 
 <div class="row justify-content-center">

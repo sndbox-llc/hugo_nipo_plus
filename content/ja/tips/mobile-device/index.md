@@ -8,7 +8,6 @@ excerpt = "スマホ・タブレットの日報作成"
 images = ["tablet-phone.png"]
 categories = []
 date = "2022-11-14"
-# lastmod = "2022-11-14"
 pinned = false
 homepage = false
 aliases = ["/blog/smartphone/", "/tips/smartphone/"]
@@ -115,13 +114,10 @@ PCでは真似できない日報の作り方ができます。
 
 {{<btnCenter "/tips/checksheet/" "チェックシートとして使う">}}
 
-
 ## 専用アプリも用意しています
 
 - Google PlayやApp StoreからNipoPlusをダウンロードして利用できます
-- もし完全版を使いたい場合はWeb版のNipoPlusをPWAとしてインストールして利用できます
-
-
+- もし完全版を使いたい場合はWeb版のNipoPlusをPWAとしてインストールして利用できます。
 
 <div class="row justify-content-center">
 <div class="col-sm-16 col-md-8">{{<button "/docs/system/android/" "AndroidにNipoPlusをインストール">}}</div>

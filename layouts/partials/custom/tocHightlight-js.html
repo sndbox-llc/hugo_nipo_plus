@@ -12,7 +12,7 @@
     // 一定時間後に処理を実行
     throttleTimer = setTimeout(function() {
       // 現在のスクロール位置を取得
-      var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      var currentScroll = window.pageYOffset + 80 || document.documentElement.scrollTop + 80;
       // 目次のアイテムをキャッシュしておく
       var tocItems = document.querySelectorAll('.mainTableOfContents #TableOfContents a');
       // 目次の見出しをキャッシュしておく
@@ -28,7 +28,7 @@
   
       for (var i = 0; i < tocItems.length; i++) {
         var tocItem = tocItems[i];
-        if (i === activeHeadingIndex - 2) {
+        if (i === activeHeadingIndex - 2 || (activeHeadingIndex === null && i === 0)) {
           tocItem.parentElement.classList.add('active');
         } else {
           tocItem.parentElement.classList.remove('active');

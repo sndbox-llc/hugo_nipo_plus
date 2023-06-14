@@ -1,6 +1,6 @@
 +++
 description = "数値のデータを日報に追加できます。数値は集計にも対応しております。"
-title = "数値-日報構成部品"
+title = "数値"
 toc = true
 weight = 109002017
 isNipo = true

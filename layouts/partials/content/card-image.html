@@ -12,7 +12,6 @@
 {{ $image = $image.Resize $webp}}
 
 {{ $lqip := $image.Resize site.Params.lqipWidth -}}
-
 <img
   class="card-img-top img-fluid lazyload blur-up"
   src="{{ $lqip.Permalink }}"

@@ -1,7 +1,8 @@
 +++
 description = "本文や備考・引き継ぎといった文字入力エリアを報告書に追加できます"
-tags = []
-title = "🧩文字入力"
+tags = ["日報構成部品"]
+title = "【文字入力】を日報に追加"
+menuTitle = "🧩文字入力"
 toc = true
 weight = 101001102
 contributors = []

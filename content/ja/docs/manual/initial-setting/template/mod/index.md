@@ -1,7 +1,8 @@
 +++
 description = ""
-tags = []
-title = "🧩商品入力"
+tags = ["日報構成部品"]
+title = "【商品入力】を日報に追加"
+menuTitle = "🧩商品入力"
 toc = true
 weight = 101001117
 contributors = []

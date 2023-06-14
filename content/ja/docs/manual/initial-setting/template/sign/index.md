@@ -1,7 +1,8 @@
 +++
 description = "指やスタイラスペンを使って署名を入力できるフォームを報告書に追加できます"
-tags = []
-title = "🧩署名・イラスト入力"
+tags = ["日報構成部品"]
+title = "【署名・イラスト入力】を日報に追加"
+menuTitle = "🧩署名・イラスト入力"
 toc = true
 weight = 101001110
 contributors = []

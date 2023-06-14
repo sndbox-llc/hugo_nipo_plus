@@ -1,6 +1,6 @@
 +++
 description = "日報に１行だけ入力ができるパーツを追加できます"
-title = "1行入力-日報構成部品"
+title = "1行入力"
 toc = true
 weight = 109002003
 isNipo = true

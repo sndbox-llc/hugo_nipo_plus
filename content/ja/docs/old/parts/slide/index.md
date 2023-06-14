@@ -1,6 +1,6 @@
 +++
 description = "つまみをドラッグするだけで数値の入力ができる日報のテンプレート用パーツです"
-title = "スライダー-日報構成部品"
+title = "スライダー"
 toc = true
 weight = 109002005
 isNipo = true

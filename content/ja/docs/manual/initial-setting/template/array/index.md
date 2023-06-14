@@ -1,10 +1,12 @@
 +++
 description = "日報の報告内容によって必要な行数が変わるようなケースで利用できる反復の入力フォームです。単体では動作せず反復の中に各種フォームを追加することでご利用可能です"
-tags = []
-title = "🧩反復可変長入力"
+tags = ["日報構成部品"]
+title = "【反復可変長入力】を日報に追加"
+menuTitle = "🧩反復可変長入力"
 toc = true
 weight = 101001118
 contributors = []
+images = ["sample.png"]
 aliases = ["/manual/initial-setting/template/array/"]
 
 +++

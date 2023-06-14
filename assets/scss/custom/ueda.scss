@@ -109,6 +109,8 @@ p  {
 }
 
 .excelTable {
+  max-width:100%;
+  overflow:scroll;
   table {
     border-collapse: collapse;
   }

@@ -287,11 +287,11 @@ aliases = ["/system/release-note/", "/old/system/releasenote/"]
 
 - カレンダー表示の1行目・1列目をそれぞれ固定化しました
 - 過去データ推移の1列目の幅を調整しました
-- [過去データ推移](/docs/manual/analytics/list/)の色分け機能にバグがあったため修正を行いました。（すでに設定済みの場合、設定はクリアされます）
+- [過去データ推移](/docs/manual/analytics/transition/)の色分け機能にバグがあったため修正を行いました。（すでに設定済みの場合、設定はクリアされます）
 
 #### 【NipoPlus】 2022/09/13 Version 1.13.0
 
-- [過去データ推移](/docs/manual/analytics/list/)で最大取得件数を10件から30件に拡張しました。（オプションから選択します）
+- [過去データ推移](/docs/manual/analytics/transition/)で最大取得件数を10件から30件に拡張しました。（オプションから選択します）
 - 過去データ推移で各行ごとに任意の色付けをすることが出来るようになりました
 - スタッフのアカウントを無効化するとAPIキーも同時に破壊されるように修正しました
 - 手動でAPIキーを破壊できる機能を追加しました
@@ -380,7 +380,7 @@ aliases = ["/system/release-note/", "/old/system/releasenote/"]
 
 - 過去データ推移の1列目を固定にしました
 - 日報の修正後に続けて日報を書くと上書きされてしまうバグを修正しました
-- 特定の環境で過去の[データ推移](/docs/manual/analytics/list/)が取得できないバグを修正しました
+- 特定の環境で過去の[データ推移](/docs/manual/analytics/transition/)が取得できないバグを修正しました
 - [共用機能](/docs/manual/initial-setting/advanced-setting/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました
 - [グループへの所属画面](/docs/manual/initial-setting/staff/manage/)をより見やすく変更しました
 - NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)のバージョンを最新版に変更しました

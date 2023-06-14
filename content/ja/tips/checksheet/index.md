@@ -60,7 +60,7 @@ NipoPlusはデータをCSV形式でエクスポートすることができるの
 
 
 <div class="row justify-content-center">
-<div class="col-sm-16 col-md-5">{{<button "/docs/manual/analytics/list/" "データ推移">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "/docs/manual/analytics/transition/" "データ推移">}}</div>
 <div class="col-sm-16 col-md-6">{{<button "/docs/manual/analytics/chart/" "グラフ作成">}}</div>
 <div class="col-sm-16 col-md-5">{{<button "/tips/sales_report/" "エクセルの集計">}}</div>
 </div>

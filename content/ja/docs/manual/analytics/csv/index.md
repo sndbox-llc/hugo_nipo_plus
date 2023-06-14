@@ -2,6 +2,7 @@
 description = "期間を指定して報告書のデータを一括でCSVに出力できます。バックアップやエクセルを使った集計分析、印刷など様々な形でご利用いただけます"
 tags = ["有料プラン限定", "Web版限定"]
 title = "CSV出力（一括）"
+# menuTitle = "メニュー用"
 toc = true
 weight = 101004021
 contributors = []

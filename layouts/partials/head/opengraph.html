@@ -20,7 +20,8 @@
     <meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
   {{ end -}}
   {{ if not .Lastmod.IsZero -}}
-    <meta property="article:modified_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
+    {{- $date := partial "main/date" (dict "Date" .GitInfo.AuthorDate.Local "Format" $iso8601) -}}
+    <meta property="article:modified_time" {{ $date | printf "content=%q" | safeHTMLAttr }}>
   {{ end -}}
 {{ else -}}
   {{ if not .Date.IsZero -}}

@@ -9,6 +9,7 @@ contributors = []
 aliases = ["/manual/initial-setting/template/select2/"]
 +++
 
+
 選択式入力（複）は次のようなフォームです。
 
 <div class="list-group my-3" style="padding: 20px; border: 1px solid #ccc;">

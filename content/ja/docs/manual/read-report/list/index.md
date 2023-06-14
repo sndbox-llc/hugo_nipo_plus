@@ -1,7 +1,8 @@
 +++
 description = "スタッフが作成した日報・チェックシートは保存箱に蓄積されます。提出簿を見れば未提出者を素早く特定可能。検索機能で素早く目的の日報を探し出せます"
 tags = []
-title = "保存BOX"
+title = "保存BOXはこれまでの日報を一覧で表示します"
+menuTitle = "保存BOX"
 toc = true
 weight = 101003001
 contributors = []

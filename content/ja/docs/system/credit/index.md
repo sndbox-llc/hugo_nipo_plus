@@ -1,5 +1,5 @@
 +++
-description = "クレジット表記"
+description = "本Webサイトに使用されている画像の取り扱いについて記載しています。NipoPlusの画像は転載可能です"
 tags = []
 title = "🖼️画像のクレジット表記"
 weight = 103000015
@@ -19,7 +19,6 @@ Nipo/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fon
 {{<alice pos="right" icon="ok">}}
 この子のことですよ▶
 {{</alice>}}
-
 
 本サイトで使用されている画像のすべてが当社のものと言うわけでは有りません。例えばGoogle Play StoreやAppStoreのロゴは各アプリストア元が画像を管理しています。  
 

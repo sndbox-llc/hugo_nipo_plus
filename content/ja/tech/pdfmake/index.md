@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "PDFを生成するPDFMake、結構便利ですが単位のが少しわかりにくいので注意です。US_PTが使われています"
 tags = []
 title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
 toc = true

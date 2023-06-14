@@ -1,7 +1,8 @@
 +++
 description = "パスワードをお忘れの方やパスワードの変更を希望される方は本ページに従い操作してください"
 tags = []
-title = "パスワードの変更"
+title = "ログインパスワードの変更・リセット"
+menuTitle = "パスワードの変更"
 toc = true
 weight = 101009003
 contributors = []

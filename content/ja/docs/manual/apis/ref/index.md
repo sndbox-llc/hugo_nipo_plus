@@ -1,7 +1,8 @@
 +++
 description = "WebAPIを使い報告書データを取得します。APIコマンドの使い方に関する操作ガイドです"
 tags = ["有料プラン限定"]
-title = "APIを使う"
+title = "APIを使い日報やテンプレートを取得する"
+menuTitle = "APIを使う"
 toc = true
 weight = 101010002
 contributors = []

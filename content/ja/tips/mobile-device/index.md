@@ -4,12 +4,12 @@ tags = ["モバイル"]
 title = "スマホ・タブレットで日報を書く"
 toc = true
 contributors = []
-excerpt = "スマホ・タブレットの日報作成"
+excerpt = "現場から直接業務報告をサクッと作れます。現場写真や受け取りサインもタブレット１台で完結"
 images = ["tablet-phone.png"]
 categories = []
 date = "2022-11-14"
-pinned = false
-homepage = false
+# pinned = false
+# homepage = false
 aliases = ["/blog/smartphone/", "/tips/smartphone/"]
 +++
 
@@ -45,7 +45,6 @@ NipoPlusではWordやExcelと同じ感覚で手軽に様式を作成できます
 
 キーボードが無いので長文の入力には不向きですが、カメラとタッチパネルは非常に強力な機能として日報作成にも活用できます。
 PCでは真似できない日報の作り方ができます。
-
 
 ### 写真付き日報が書ける
 

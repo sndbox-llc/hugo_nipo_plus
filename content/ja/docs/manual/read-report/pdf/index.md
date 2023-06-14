@@ -1,7 +1,8 @@
 +++
 description = "1つの日報ファイルを1枚のPDFファイルに変換します"
 tags = ["PDF出力"]
-title = "報告書PDF出力（単体）"
+title = "1件の日報をPDFに変換・出力する"
+menuTitle = "報告書PDF出力（単体）"
 toc = true
 weight = 101003005
 contributors = []

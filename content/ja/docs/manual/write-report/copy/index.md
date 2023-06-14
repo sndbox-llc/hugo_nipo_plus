@@ -1,7 +1,8 @@
 +++
-description = ""
+description = "過去の報告書を複写して新規に作成したいときはコピー＆新規を使うことで簡単に報告書を複製できます"
 tags = []
-title = "報告書をコピー&新規作成"
+title = "報告書をコピーして新規作成する"
+menuTitle = "コピー&新規作成"
 toc = true
 weight = 101002005
 contributors = []

@@ -1,7 +1,8 @@
 +++
 description = "報告書を承認できる人が「提出先」報告書を読むことができるのが「共有先」です。"
 tags = []
-title = "提出先と共有先"
+title = "日報の提出先と共有先について"
+menuTitle = "提出先と共有先"
 toc = true
 weight = 101002002
 contributors = []

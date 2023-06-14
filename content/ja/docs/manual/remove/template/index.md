@@ -2,6 +2,7 @@
 description = "使用しなくなった日報テンプレートは無効化します。完全に削除する際は過去の日報のレイアウトが保てなくなるため注意が必要です"
 tags = ["削除"]
 title = "テンプレートの削除"
+menuTitle = "テンプレートの削除"
 toc = true
 weight = 101011001
 contributors = []

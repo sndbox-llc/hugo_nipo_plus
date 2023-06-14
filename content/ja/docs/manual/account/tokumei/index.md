@@ -1,7 +1,8 @@
 +++
 description = "手軽に体験できるように匿名アカウントを用意しています。ワンクリックですぐに始めることができます"
 tags = []
-title = "匿名アカウント"
+title = "匿名アカウントは体験用の仮IDです"
+menuTitle = "匿名アカウント"
 toc = true
 weight = 101009004
 contributors = []

@@ -1,5 +1,4 @@
 <script>
-  console.log('Version2')
   const bleakPoint = 767;
   let mode = (window.innerWidth > bleakPoint) ? 'tablet' : 'phone';
   const nodes = {}
@@ -137,7 +136,6 @@
     }
     // アリスの画像遅延リスナー。こちらはスクロールイベント使わず一気に読んでしまいます
     for (let i = 0; i < nodes.alices.length; i++) {
-      console.log('alice loaded')
       const alice = nodes.alices[i];
       alice.setAttribute('xlink:href', alice.dataset.alice);
       alice.setAttribute('href', alice.dataset.alice);

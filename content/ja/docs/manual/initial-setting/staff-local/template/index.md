@@ -1,8 +1,9 @@
 +++
 description = "スタッフごとに利用が可能な報告書のテンプレートを指定できます"
 tags = []
-title = "利用可能なテンプレートの制限"
-toc = true
+title = "スタッフが利用できるテンプレートを制限する"
+menuTitle = "利用可能テンプレートの制限"
+toc = false
 draft = false
 weight = 101001035
 contributors = []

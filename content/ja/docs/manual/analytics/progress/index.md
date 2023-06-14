@@ -1,7 +1,8 @@
 +++
 description = "日毎に目標を設定し、報告書のデータから目標の到達率や、１ヶ月間の到達率を表で管理できます"
 tags = ["有料プラン限定"]
-title = "予定と実績の管理"
+title = "日報の実データと予定データを表にして管理"
+menuTitle = "予定と実績の管理"
 toc = true
 weight = 101004007
 contributors = []

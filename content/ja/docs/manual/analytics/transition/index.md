@@ -1,9 +1,10 @@
 +++
 description = "1000件のチェックシートデータを瞬時に集計、グラフ化します。CSV出力も可能"
 tags = ["有料プラン限定"]
-title = "データの推移"
+title = "日報データの変化を見る【推移表】"
+menuTitle = "データの推移"
 toc = true
-weight = 101004001
+weight = 101004002
 contributors = []
 aliases = ["/manual/analytics/transition/"]
 

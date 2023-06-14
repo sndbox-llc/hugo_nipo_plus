@@ -2,7 +2,6 @@
 description = "日報のやり取りをクラウド化することでスマホなどのモバイル機器から簡単に提出ができるようになります"
 title = "日報をクラウドシステム化するとスマホから読み書きが可能に"
 toc = true
-# weight = 104000004
 contributors = []
 excerpt = "クラウドの利点"
 images = []

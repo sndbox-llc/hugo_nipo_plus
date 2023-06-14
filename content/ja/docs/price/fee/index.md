@@ -1,5 +1,5 @@
 +++
-description = ""
+description = "有料プランへ加入するとすべての機能が利用可能になります。いつでも加入・解約が可能です"
 tags = ["Web版限定"]
 title = "有料プランに加入"
 toc = true

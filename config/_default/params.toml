@@ -4,7 +4,7 @@
 title = "NipoPlus"
 titleSeparator = "|"
 titleAddition = "ノーコードで報告書をアプリ化"
-description = "製造業のチェックシートや日報にも。スマホで日報作成や承認棄却、報告書の集計&グラフ化📊だって可能です。無料プラン有り〼有料プランも業界最安値"
+description = "チェックシートや日報もOK。スマホで日報作成や承認棄却、報告書の集計&グラフ化📊だって可能です。無料プラン有り〼有料プランも業界最安値"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -30,7 +30,7 @@ schemaLocale = "ja-JP"
 schemaLogo = "/images/nipoplus.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "/images/nipoplus.png"
+schemaImage = "/images/banner.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/nipo_plus"
@@ -84,7 +84,7 @@ editPage = false
 lastMod = true
 
 [sections]
-  sectionNav = ["docs", "guides"]
+  sectionNav = ["docs"]
 
 [options]
   lazySizes = true

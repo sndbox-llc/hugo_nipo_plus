@@ -1,7 +1,8 @@
 +++
 description = "報告書のデータをPDFに一括で変換します。"
 tags = ["有料プラン限定"]
-title = "PDF出力（一括）"
+title = "複数の日報をまとめてPDFに変換する"
+menuTitle = "PDF一括出力"
 toc = true
 weight = 101004022
 contributors = []

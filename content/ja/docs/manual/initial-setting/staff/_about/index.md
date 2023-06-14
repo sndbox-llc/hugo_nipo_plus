@@ -1,7 +1,8 @@
 +++
 description = "スタッフアカウントに関する操作ガイドです"
 tags = []
-title = "概要|組織のスタッフ"
+title = "組織のスタッフ管理"
+menuTitle = "概要"
 toc = true
 weight = 101001002
 contributors = []

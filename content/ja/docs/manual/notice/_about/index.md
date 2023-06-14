@@ -1,7 +1,8 @@
 +++
 description = "スタッフが報告書を提出したときやコメント・承認・棄却などの変化があると通知でお知らせします"
 tags = []
-title = "通知概要"
+title = "日報が提出されたときにお知らせします"
+menuTitle = "通知概要"
 toc = true
 weight = 101006000
 contributors = []

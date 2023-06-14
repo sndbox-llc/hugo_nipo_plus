@@ -1,7 +1,8 @@
 +++
 description = "報告書を一度に書き上げることができない場合は下書き機能を利用してください"
 tags = []
-title = "下書き機能"
+title = "日報を下書きとして保存する"
+menuTitle = "下書き機能"
 toc = true
 weight = 101002003
 contributors = []

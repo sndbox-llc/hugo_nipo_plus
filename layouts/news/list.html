@@ -14,7 +14,10 @@
         <article>
           <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
           <p>{{ .Params.excerpt | safeHTML }}</p>
-          {{ partial "main/blog-meta.html" . -}}
+          {{ if .Params.date }}
+            {{ .Params.date.Format "2006年01月02日" }}
+          {{ end }}
+
         </article>
         {{ if .Params.tags }}
   			{{ partial "custom/tags.html" . }}

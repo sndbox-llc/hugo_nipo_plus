@@ -4,7 +4,9 @@
   <div class="col-md-12 col-lg-10">
     <div class="blog-header">
       <h1>{{ .Title }}</h1>
-      {{ partial "main/blog-meta.html" . }}
+      {{ if .Params.date }}
+        {{ .Params.date.Format "2006年01月02日" }}
+      {{ end }}
     </div>
   </div>
   <div class="col-md-12 col-lg-9">
@@ -38,7 +40,6 @@
         <article>
           <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
           <p>{{ .Params.excerpt | safeHTML }}</p>
-          {{ partial "main/blog-meta.html" . -}}
         </article>
       </div>
     </div>

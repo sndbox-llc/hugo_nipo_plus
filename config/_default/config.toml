@@ -65,7 +65,7 @@ notAlternative = true
   priority = 0.5
 
 [taxonomies]
-  contributor = "contributors"
+  # contributor = "contributors"
   category = "categories"
   tag = "tags"
 

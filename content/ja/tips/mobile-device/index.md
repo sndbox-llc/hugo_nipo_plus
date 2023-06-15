@@ -10,7 +10,7 @@ categories = []
 date = "2022-11-14"
 # pinned = false
 # homepage = false
-aliases = ["/blog/smartphone/", "/tips/smartphone/"]
+aliases = ["/blog/smartphone/", "/tips/smartphone/", "/blog/cloud/", "/tips/cloud/"]
 +++
 
 <dl class="faq">

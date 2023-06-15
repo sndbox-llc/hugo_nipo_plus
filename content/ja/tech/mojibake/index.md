@@ -4,13 +4,9 @@ tags = []
 title = "ダウンロードしたZipファイルが文字化けする原因と解決策-主にWindows"
 toc = true
 weight = 105000003
-contributors = []
 excerpt = "Zipを解凍すると文字化けする"
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 NipoPlusの[一括CSVダウンロード](/docs/manual/analytics/csv/)を使って報告書のデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。

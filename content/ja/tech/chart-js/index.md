@@ -4,13 +4,9 @@ tags = []
 title = "Vue composition APIでchart.jsを使いグラフを作成(vue-chart.jsは使わない)"
 toc = true
 weight = 105000015
-contributors = []
 excerpt = "charts.js"
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 

@@ -5,9 +5,7 @@ title = "【商品入力】を日報に追加"
 menuTitle = "🧩商品入力"
 toc = true
 weight = 101001117
-contributors = []
 aliases = ["/manual/initial-setting/template/mod/"]
-
 +++
 
 {{<imgproc eye-catch.png "商品入力フォームを含んだ日報の作成画面イメージ" />}}

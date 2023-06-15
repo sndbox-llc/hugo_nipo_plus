@@ -4,7 +4,6 @@ tags = ["有料プラン限定"]
 title = "API取得のデータ構造"
 toc = true
 weight = 101010003
-contributors = []
 aliases = ["/manual/api/report/"]
 +++
 

@@ -5,9 +5,7 @@ toc = false
 weight = 109003005
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/system/agree/"]
-
 +++
 
 

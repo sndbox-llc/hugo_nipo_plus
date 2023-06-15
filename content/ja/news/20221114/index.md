@@ -4,14 +4,9 @@ description = "NipoとNipoPlusのホームページを1つのサイトに統合�
 categories = []
 tags = []
 toc = true
-# weight = 108999996
 excerpt = "ホームページ統合"
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-contributors = []
-pinned = false
-homepage = false
 +++
 
 これまで別々のサイトとして展開してきましたNipoとNipoPlusのホームページをこのホームページに統合しました。

@@ -5,9 +5,7 @@ toc = true
 weight = 109003004
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/system/ios-install/"]
-
 +++
 
 

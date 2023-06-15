@@ -5,9 +5,7 @@ title = "【スライダ入力】を日報に追加"
 menuTitle = "🧩スライダ入力"
 toc = true
 weight = 101001113
-contributors = []
 aliases = ["/manual/initial-setting/template/step/"]
-
 +++
 スライダとは次のようなものです。
 

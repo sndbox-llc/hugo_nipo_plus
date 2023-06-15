@@ -5,7 +5,6 @@ title = "保存BOXはこれまでの日報を一覧で表示します"
 menuTitle = "保存BOX"
 toc = true
 weight = 101003001
-contributors = []
 aliases = ["/manual/read-report/list/"]
 +++
 

@@ -5,9 +5,7 @@ toc = true
 weight = 109001013
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/group-self/"]
-
 +++
 
 ## グループの中で自分にのみ影響する設定をする

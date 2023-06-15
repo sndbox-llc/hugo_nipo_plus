@@ -5,7 +5,6 @@ title = "匿名アカウントは体験用の仮IDです"
 menuTitle = "匿名アカウント"
 toc = true
 weight = 101009004
-contributors = []
 aliases = ["/manual/account/tokumei/"]
 +++
 

@@ -6,9 +6,7 @@ toc = true
 tocdefaultopen = true
 tags = []
 weight = 1000000
-contributors = []
 aliases = ["/quickstart/"]
-
 +++
 
 導入から使用開始までの流れを必要最小限に絞ってご紹介します。

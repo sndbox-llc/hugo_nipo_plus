@@ -5,12 +5,8 @@ title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
 toc = true
 weight = 105000005
 tags = ["開発環境"]
-contributors = []
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 {{<imgproc hhkb.jpg "HHKB外観" />}}

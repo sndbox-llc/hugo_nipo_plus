@@ -4,5 +4,4 @@ title = "🗑データの削除"
 toc = true
 tags = []
 weight = 101011000
-contributors = []
 +++

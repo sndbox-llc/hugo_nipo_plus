@@ -4,7 +4,6 @@ tags = ["有料プラン限定", "CSV出力", "Web版限定"]
 title = "報告書CSV出力（単体）"
 toc = true
 weight = 101003004
-contributors = []
 aliases = ["/manual/read-report/csv/"]
 +++
 

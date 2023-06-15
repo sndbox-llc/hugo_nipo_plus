@@ -4,15 +4,9 @@ excerpt = "タッチパネル対応の端末であれば指やスタイラスペ
 tags = []
 title = "日報アプリ内に直筆のサインを埋め込む"
 toc = true
-# weight = 104000002
-contributors = []
 images = ["width12.png"]
-
 categories = []
-date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
+date = "2023-05-14"
 +++
 
 <dl class="faq">

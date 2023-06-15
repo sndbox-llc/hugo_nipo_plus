@@ -5,7 +5,6 @@ title = "iPhone/iPadにNipoPlusをインストール"
 menuTitle = "iOSで使う"
 toc = true
 weight = 103000002
-contributors = []
 aliases = ["/system/ios/"]
 +++
 

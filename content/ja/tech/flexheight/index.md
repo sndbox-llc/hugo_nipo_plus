@@ -5,12 +5,8 @@ tags = []
 title = "Quasar Framework QCardの高さを揃えて見た目を良くする"
 toc = true
 weight = 105000014
-contributors = []
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 

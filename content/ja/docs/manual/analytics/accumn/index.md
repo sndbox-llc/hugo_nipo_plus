@@ -5,7 +5,6 @@ title = "日報データをスタッフごとに集計する累積表"
 menuTitle = "データの累積"
 toc = true
 weight = 101004001
-contributors = []
 aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]
 
 +++

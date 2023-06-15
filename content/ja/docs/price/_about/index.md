@@ -4,7 +4,6 @@ title = "料金概要"
 toc = true
 weight = 102000000
 tags = []
-contributors = []
 aliases = ["/price/"]
 +++
 

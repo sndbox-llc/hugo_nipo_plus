@@ -5,7 +5,6 @@ toc = true
 weight = 109001012
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/calendar/"]
 +++
 

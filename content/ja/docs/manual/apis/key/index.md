@@ -4,7 +4,6 @@ tags = ["有料プラン限定"]
 title = "APIキーの取得"
 toc = true
 weight = 101010001
-contributors = []
 aliases = ["/manual/api/key/"]
 +++
 

@@ -5,9 +5,7 @@ toc = true
 weight = 109002006
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/timecard/"]
-
 +++
 
 

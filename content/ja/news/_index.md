@@ -4,7 +4,6 @@ title = "News"
 toc = true
 tags = []
 weight = 108000000
-contributors = []
 images = []
 +++
 

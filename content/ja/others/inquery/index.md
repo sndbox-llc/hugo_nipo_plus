@@ -4,7 +4,6 @@ tags = []
 title = "📩お問い合わせ"
 toc = true
 weight = 103000016
-contributors = []
 aliases = ["/docs/system/inquery/", "/system/inquery/"]
 +++
 

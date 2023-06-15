@@ -4,9 +4,7 @@ tags = []
 title = "フォームの削除と復旧手順"
 toc = true
 weight = 101001119
-contributors = []
 aliases = ["/manual/initial-setting/template/key/"]
-
 +++
 
 ## 入力フォームを1件削除する

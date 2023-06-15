@@ -5,9 +5,7 @@ title = "日報が提出されたときにお知らせします"
 menuTitle = "通知概要"
 toc = true
 weight = 101006000
-contributors = []
 aliases = ["/manual/notice/email/"]
-
 +++
 
 NipoPlusには2種類の通知があります。1つはアプリを開くと確認できるベルアイコンの通知（アプリ内通知）、もう1つがメールによる通知です。

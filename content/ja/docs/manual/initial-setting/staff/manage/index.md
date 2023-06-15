@@ -4,9 +4,7 @@ tags = ["要管理者権限"]
 title = "アカウントの管理"
 toc = true
 weight = 101001005
-contributors = []
 aliases = ["/manual/initial-setting/staff/manage/"]
-
 +++
 
 ## スタッフをグループに参加させる

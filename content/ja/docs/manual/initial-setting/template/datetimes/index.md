@@ -5,9 +5,7 @@ title = "【期間入力】を日報に追加"
 menuTitle = "🧩期間入力"
 toc = true
 weight = 101001107
-contributors = []
 aliases = ["/manual/initial-setting/template/datetimes/"]
-
 +++
 
 作業にかかった時間や日数を入力するのに最適のフォームです。

@@ -4,9 +4,7 @@ tags = []
 title = "タイムカードの設定"
 toc = true
 weight = 101007004
-contributors = []
 aliases = ["/manual/timecard/setting/"]
-
 +++
 
 タイムカード機能に関する各種設定が行なえます。  

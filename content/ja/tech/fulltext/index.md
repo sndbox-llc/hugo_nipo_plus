@@ -5,12 +5,8 @@ tags = ["firebase"]
 title = "Firebaseの推奨する全文検索 Elastic Search / Algolia / Typesenseの比較"
 toc = true
 weight = 105000020
-contributors = []
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 ## FireStoreで全文検索をする方法3種類を比較してみた

@@ -4,9 +4,7 @@ tags = []
 title = "報告書を1件削除する"
 toc = true
 weight = 101011003
-contributors = []
 aliases = ["/manual/remove/report/"]
-
 +++
 
 ## 削除できる日報について

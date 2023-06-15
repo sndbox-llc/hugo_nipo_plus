@@ -5,10 +5,8 @@ title = "【反復可変長入力】を日報に追加"
 menuTitle = "🧩反復可変長入力"
 toc = true
 weight = 101001118
-contributors = []
 images = ["sample.png"]
 aliases = ["/manual/initial-setting/template/array/"]
-
 +++
 
 

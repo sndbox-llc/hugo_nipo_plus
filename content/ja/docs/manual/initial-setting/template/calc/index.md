@@ -5,9 +5,7 @@ title = "【算術フォーム】を日報に追加"
 menuTitle = "🧩算術フォーム"
 toc = true
 weight = 101001116
-contributors = []
 aliases = ["/manual/initial-setting/template/calc/"]
-
 +++
 
 

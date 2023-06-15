@@ -5,9 +5,7 @@ toc = true
 weight = 109002004
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/rating/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/rate/" "新バージョンでも使えます">}}

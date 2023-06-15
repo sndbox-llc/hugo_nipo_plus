@@ -5,9 +5,7 @@ title = "タスクと日報を紐付けする"
 toc = true
 weight = 101008003
 mermaid = true
-contributors = []
 aliases = ["/manual/task/connect/"]
-
 +++
 
 タスクが作成された時点では、そのタスクはまだ着工されていないため予定です。  

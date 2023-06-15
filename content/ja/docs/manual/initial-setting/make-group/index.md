@@ -4,9 +4,7 @@ tags = ["要管理者権限"]
 title = "グループの作成"
 toc = true
 weight = 101001010
-contributors = []
 aliases = ["/manual/initial-setting/make-group/"]
-
 +++
 
 グループ分けが不要な場合は本ページをスキップできます。

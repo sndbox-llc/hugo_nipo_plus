@@ -3,16 +3,10 @@ description = "年末の営業状況について"
 excerpt = "2022年年末年始の営業"
 title = "2022年年末年始の営業"
 toc = true
-#weight = 108999998
-contributors = []
 date = "2022-12-22"
-lastmod = "2022-12-22"
 categories = []
 tags = []
 images = []
-pinned = false
-homepage = false
-
 +++
 
 いつもNipo/NipoPlusをご利用いただきありがとうございます。
@@ -23,5 +17,3 @@ homepage = false
 
 Nipo・NipoPlusは年末年始の間でも問題なく利用できます。
 以上、よろしくおねがいします。
-
-

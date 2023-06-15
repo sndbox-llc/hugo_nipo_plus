@@ -5,9 +5,7 @@ title = "【レート入力★★☆☆☆】を日報に追加"
 menuTitle = "🧩レート入力★★☆☆☆"
 toc = true
 weight = 101001114
-contributors = []
 aliases = ["/manual/initial-setting/template/rate/"]
-
 +++
 
 ネットショップやレビューでおなじみの★を使った入力フォームです。星の上限は変更可能です。

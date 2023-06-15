@@ -5,5 +5,4 @@ toc = true
 weight = 101001100
 tags = []
 mermaid = true
-contributors = []
 +++

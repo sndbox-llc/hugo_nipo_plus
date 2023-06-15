@@ -4,9 +4,7 @@ tags = []
 title = "アプリ内の通知"
 toc = true
 weight = 101006001
-contributors = []
 aliases = ["/manual/notice/show/", "/docs/manual/notice/show/"]
-
 +++
 
 画面右上のベルアイコンをクリックして通知を確認できます。

@@ -4,9 +4,7 @@ tags = []
 title = "🏷タグの管理"
 toc = true
 weight = 101001202
-contributors = []
 aliases = ["/manual/initial-setting/advanced-setting/tag/"]
-
 +++
 
 タグは目印や検索に使える管理用の付箋です。タグを追加するには以下の手順です

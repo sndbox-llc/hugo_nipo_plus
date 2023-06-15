@@ -5,7 +5,6 @@ menuTitle = "カレンダー概要"
 toc = true
 tags = ["有料プラン限定"]
 weight = 101005000
-contributors = []
 aliases = ["/manual/calendar/"]
 
 +++

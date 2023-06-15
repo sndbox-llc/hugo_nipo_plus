@@ -4,7 +4,6 @@ tags = []
 title = "🌸謝辞"
 toc = false
 weight = 103000014
-contributors = []
 aliases = ["/system/thanks/"]
 +++
 

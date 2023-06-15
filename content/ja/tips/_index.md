@@ -5,7 +5,6 @@ title = "NipoPlusの活用Tips集"
 toc = true
 tags = []
 weight = 104000000
-contributors = []
 +++
 
 シンプルに言えば **「テンプレートに沿って報告書のデータを入力する」** これこそがNipoPlusの本質です。そこからどのような使い方をするかは皆様次第。どんな使い方ができるかをいくつかPickUpしてみました。

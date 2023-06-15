@@ -5,9 +5,7 @@ toc = true
 weight = 109001003
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/group/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/make-group/" "新バージョンでも使えます">}}

@@ -2,15 +2,11 @@
 description = "製造業のDX化を小さな一歩から始めましょう。コストも小さく、月額1800円から始められる進捗管理です。紙の伝票とさようならすれば進捗管理を自動化できます"
 title = "【進捗管理】報告書の生産数を自動で進捗管理表にまとめる"
 toc = true
-contributors = []
 excerpt = "製造業のDX化を小さな一歩から始めましょう。コストも小さく、月額1800円から始められる進捗管理です。紙の伝票とさようならすれば進捗管理を自動化できます"
 images = ["progress-table_tablet.png"]
 categories = ["製造業向け", "チェックシート", "集計"]
 tags = ["製造業向け", "チェックシート", "集計"]
-date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
+date = "2023-04-01"
 +++
 
 <dl class="faq">

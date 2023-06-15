@@ -4,14 +4,10 @@ tags = []
 title = "async関数を呼び出したときに呼び出し先でエラーが発生しても処理が止まらない時"
 toc = true
 weight = 105000017
-contributors = []
 excerpt = 'JSの非同期が止まらない問題'
 images = []
 date = "2022-11-14"
-pinned = false
-homepage = false
 +++
-
 
 ## async/awaitの見落としがちな落とし穴。try/catchしても呼び出し元でcatch出来ません
 

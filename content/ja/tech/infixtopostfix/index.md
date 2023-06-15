@@ -5,12 +5,8 @@ tags = []
 title = "電卓風の見た目で逆ポーランド記法の式を作成する（vue & Typescript)"
 toc = true
 weight = 105000028
-contributors = []
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 NipoPlusに演算機能を実装する必要があり、色々調べたところ「逆ポーランド記法」という方法が電卓の実装として最も良さそうだったので作ってみました。

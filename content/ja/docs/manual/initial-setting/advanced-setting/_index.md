@@ -4,7 +4,6 @@ tags = []
 title = "その他のグループ設定"
 toc = true
 weight = 101001200
-contributors = []
 +++
 
 この章ではグループの応用的な設定について解説しています。

@@ -4,7 +4,6 @@ tags = ["Web版限定"]
 title = "有料プランを解約"
 toc = true
 weight = 102000004
-contributors = []
 aliases = ["/price/cancel/"]
 +++
 

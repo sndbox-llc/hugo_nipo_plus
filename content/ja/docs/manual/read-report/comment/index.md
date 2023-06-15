@@ -4,7 +4,6 @@ tags = ["有料プラン限定"]
 title = "💬コメントを書く"
 toc = true
 weight = 101003003
-contributors = []
 aliases = ["/manual/read-report/comment/"]
 +++
 

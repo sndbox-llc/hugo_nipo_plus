@@ -5,9 +5,7 @@ toc = true
 weight = 109003002
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/system/spec/"]
-
 +++
 
 

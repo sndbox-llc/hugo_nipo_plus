@@ -5,7 +5,6 @@ title = "CSV出力の設定"
 menuTitle = "CSV出力の設定"
 toc = true
 weight = 101004020
-contributors = []
 aliases = ["/manual/analytics/csvoption/"]
 +++
 

@@ -5,9 +5,7 @@ toc = true
 weight = 109002017
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/math/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/math/" "新バージョンでも使えます">}}

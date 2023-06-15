@@ -3,14 +3,11 @@ description = "入力必須の指定により報告書の「うっかり記入�
 title = "日報のよくある「記入/提出忘れ」を0にする"
 toc = true
 aliases = ["/blog/leak/", "/blog/required/"]
-contributors = []
 excerpt = "入力必須の指定により報告書の「うっかり記入漏れ」を未然に防ぐことができます。うっかり提出忘れも「提出簿」を見ればすぐに分かります"
 images = ["input-order_tablet.png"]
 categories = []
 tags = []
-date = "2022-11-14"
-pinned = false
-homepage = false
+date = "2023-05-14"
 +++
 
 
@@ -21,7 +18,6 @@ homepage = false
 
 記入する項目が多いと見落としてしまい、ミスに気づかず提出してしまうことがあります。
 ただこの問題は入力必須指定で簡単に回避することが可能です。
-
 
 ## テンプレート作成時に入力必須をONにする
 

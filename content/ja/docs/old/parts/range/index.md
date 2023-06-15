@@ -5,9 +5,7 @@ toc = true
 weight = 109002014
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/range/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/range/" "新バージョンでも使えます">}}

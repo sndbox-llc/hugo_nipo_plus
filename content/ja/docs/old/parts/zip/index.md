@@ -5,9 +5,7 @@ toc = true
 weight = 109002009
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/zip/"]
-
 +++
 
 この機能はNipoPlusでは廃止されました

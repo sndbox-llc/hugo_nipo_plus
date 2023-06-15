@@ -5,9 +5,7 @@ toc = true
 weight = 109001009
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/postbox/"]
-
 +++
 
 {{<btnCenter "/docs/manual/read-report/list/" "新バージョンでも使えます">}}

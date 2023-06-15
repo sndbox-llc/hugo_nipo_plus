@@ -4,7 +4,6 @@ tags = []
 title = "システム更新履歴"
 toc = false
 weight = 103000004
-contributors = []
 aliases = ["/system/release-note/", "/old/system/releasenote/"]
 +++
 

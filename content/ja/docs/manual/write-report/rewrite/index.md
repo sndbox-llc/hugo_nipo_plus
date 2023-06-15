@@ -4,9 +4,7 @@ tags = []
 title = "報告書の修正"
 toc = true
 weight = 101002004
-contributors = []
 aliases = ["/manual/write-report/rewrite/"]
-
 +++
 
 報告書はロックが掛かると修正できません。ロックは以下のケースで発生します

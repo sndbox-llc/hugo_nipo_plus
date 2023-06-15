@@ -6,7 +6,6 @@ menuTitle = "概要"
 toc = true
 weight = 101001032
 draft = false
-contributors = []
 +++
  
  スタッフは組織から作成されて各グループに所属します。

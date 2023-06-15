@@ -5,9 +5,7 @@ title = "【ファイル入力】を日報に追加"
 menuTitle = "🧩ファイル入力"
 toc = true
 weight = 101001112
-contributors = []
 aliases = ["/manual/initial-setting/template/file/"]
-
 +++
 
 {{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" fontsize="30px" alice="ok" >}}

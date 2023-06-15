@@ -5,7 +5,6 @@ title = "日報の提出先を固定する"
 menuTitle = "🔐提出先の固定"
 toc = true
 weight = 101001034
-contributors = []
 aliases = ["/manual/initial-setting/advanced-setting/dist/", "/docs/manual/initial-setting/advanced-setting/dist/"]
 
 +++

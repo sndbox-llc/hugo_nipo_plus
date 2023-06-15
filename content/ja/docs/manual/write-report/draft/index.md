@@ -5,7 +5,6 @@ title = "日報を下書きとして保存する"
 menuTitle = "下書き機能"
 toc = true
 weight = 101002003
-contributors = []
 aliases = ["/manual/write-report/draft/"]
 +++
 

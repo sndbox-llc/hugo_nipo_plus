@@ -4,7 +4,6 @@ tags = []
 title = "システム利用規約"
 toc = false
 weight = 103000012
-contributors = []
 aliases = ["/system/agree/"]
 +++
 

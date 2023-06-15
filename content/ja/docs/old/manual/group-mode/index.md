@@ -5,9 +5,7 @@ toc = true
 weight = 109001004
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/group-mode/"]
-
 +++
 
 

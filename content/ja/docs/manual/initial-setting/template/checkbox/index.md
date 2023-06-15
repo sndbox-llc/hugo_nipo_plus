@@ -5,9 +5,7 @@ title = "【チェックボックス入力】を日報に追加"
 menuTitle = "🧩チェックボックス入力"
 toc = true
 weight = 101001108
-contributors = []
 aliases = ["/manual/initial-setting/template/checkbox/"]
-
 +++
 
 あまりにも有名なのでもはや説明不要ですね。次のようなものです。

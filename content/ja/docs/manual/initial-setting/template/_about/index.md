@@ -6,7 +6,6 @@ toc = true
 weight = 101001100
 tags = []
 mermaid = true
-contributors = []
 +++
 
 テンプレートは記入する項目の枠組みのことです。一般的にはフォームやフォーマット、雛形と呼ばれることもあります。

@@ -4,9 +4,7 @@ tags = ["CSV出力", "Web版限定"]
 title = "タイムカードの集計・ダウンロード"
 toc = true
 weight = 101007003
-contributors = []
 aliases = ["/manual/timecard/export/"]
-
 +++
 
 

@@ -5,5 +5,4 @@ title = "グループのスタッフ"
 toc = true
 weight = 101001033
 draft = false
-contributors = []
 +++

@@ -5,9 +5,7 @@ title = "報告書のテンプレートを作成する"
 menuTitle = "テンプレートの作成"
 toc = true
 weight = 101001101
-contributors = []
 aliases = ["/manual/initial-setting/template/make/"]
-
 +++
 
 テンプレートは入力フォームと呼ばれるパーツを並べることで作成します。入力フォームはそれぞれに「幅」を設定できます。

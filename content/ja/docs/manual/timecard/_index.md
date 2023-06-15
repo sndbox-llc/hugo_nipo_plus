@@ -4,5 +4,4 @@ title = "⏰タイムカード"
 toc = true
 tags = []
 weight = 101007000
-contributors = []
 +++

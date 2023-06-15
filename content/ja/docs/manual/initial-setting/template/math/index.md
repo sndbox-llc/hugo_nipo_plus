@@ -5,9 +5,7 @@ title = "【数値入力】を日報に追加"
 menuTitle = "🧩数値入力"
 toc = true
 weight = 101001115
-contributors = []
 aliases = ["/manual/initial-setting/template/math/"]
-
 +++
 
 最も普通な数値の入力を報告書に追加できます。小数点や負数もOK。

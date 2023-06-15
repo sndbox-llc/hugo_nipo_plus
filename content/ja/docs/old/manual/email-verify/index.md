@@ -5,7 +5,6 @@ toc = true
 weight = 109001002
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/email-verify/"]
 +++
 

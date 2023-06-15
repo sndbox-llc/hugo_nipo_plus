@@ -3,15 +3,10 @@ description = "日報の検索機能について一部操作方法が変更に�
 excerpt = "受信BOXの検索機能変更について"
 title = "受信BOXの検索機能変更について"
 toc = true
-# weight = 108999996
-contributors = []
 date = "2022-12-05"
-lastmod = "2022-12-05"
 categories = []
 tags = []
 images = []
-pinned = false
-homepage = false
 +++
 
 いつもNipoPlusをご利用いただきありがとうございます。さて、Version1.21.0から受信BOXにおいて検索条件を保存できるようになります。

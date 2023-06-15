@@ -5,7 +5,6 @@ toc = true
 weight = 109002001
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/canvas/"]
 +++
 

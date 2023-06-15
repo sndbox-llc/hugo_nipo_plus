@@ -3,16 +3,10 @@ description = "見やすく、わかりやすい報告書のテンプレート�
 tags = []
 title = "使いやすい日報テンプレートを作る"
 toc = true
-weight = 104000006
-contributors = []
 excerpt = "見やすく、わかりやすい報告書のテンプレートを心がけましょう。毎日使うからこそ無駄を削ぎ、報告業務を効率化することでみんなが幸せになれます"
 images = []
 categories = []
-date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
-keywords = []
+date = "2023-04-01"
 +++
 
 テンプレートを作る際はそのテンプレートを使って報告書を書く人間の立場に立ち返ってみてください。

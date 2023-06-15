@@ -4,7 +4,6 @@ tags = []
 title = "NipoとNipoPlusの違い"
 toc = true
 weight = 109000000
-contributors = []
 aliases = ["/system/about/", "/docs/system/diff/"]
 +++
 

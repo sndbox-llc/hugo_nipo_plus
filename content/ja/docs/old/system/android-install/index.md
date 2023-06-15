@@ -5,9 +5,7 @@ toc = true
 weight = 109003003
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/system/android-install/"]
-
 +++
 
 AndroidやiOSでNipoを利用するには、2種類の方法が用意されています。このページは**Android向けのガイド**になります。[iPhone/iPadの方はこちら](/old/system/ios-install/)をどうぞ

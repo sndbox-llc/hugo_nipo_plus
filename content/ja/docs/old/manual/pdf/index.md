@@ -5,9 +5,7 @@ toc = true
 weight = 109001010
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/pdf/"]
-
 +++
 
 {{<btnCenter "/docs/manual/read-report/pdf/" "新バージョンでも使えます">}}

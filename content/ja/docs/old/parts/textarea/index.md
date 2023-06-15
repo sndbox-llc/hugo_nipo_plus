@@ -5,9 +5,7 @@ toc = true
 weight = 109002015
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/textarea/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/text/" "新バージョンでも使えます">}}

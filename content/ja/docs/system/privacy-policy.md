@@ -4,9 +4,7 @@ tags = []
 title = "プライバシーポリシー"
 toc = false
 weight = 103000013
-contributors = []
 aliases = ["/system/privacy-policy/"]
-
 +++
 
 合同会社サンドボックス（以下「弊社」）は、日々の日報業務に掛かる負担や不便を軽減するためのシステム「クラウド日報 NipoPlus」（以下「NipoPlus」）を提供しており、

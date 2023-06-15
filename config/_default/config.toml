@@ -65,7 +65,6 @@ notAlternative = true
   priority = 0.5
 
 [taxonomies]
-  # contributor = "contributors"
   category = "categories"
   tag = "tags"
 
@@ -93,7 +92,7 @@ notAlternative = true
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod", ":default"]
-  lastmod = ["lastmod", ":git", "date", "publishDate"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
 
 [build]
   writeStats = true

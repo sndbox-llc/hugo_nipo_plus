@@ -4,7 +4,6 @@ tags = []
 title = "❓FAQ💡"
 toc = true
 weight = 103000010
-contributors = []
 aliases = ["/system/faq/"]
 +++
 

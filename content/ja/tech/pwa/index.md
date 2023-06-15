@@ -4,13 +4,9 @@ title = "VueとRegister Service Workerを使いアプリの更新を制御する
 toc = true
 tags = []
 weight = 105000026
-contributors = []
 excerpt = "PWAの更新処理"
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 

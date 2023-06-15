@@ -5,9 +5,7 @@ title = "1件の日報をPDFに変換・出力する"
 menuTitle = "報告書PDF出力（単体）"
 toc = true
 weight = 101003005
-contributors = []
 aliases = ["/manual/read-report/pdf/"]
-
 +++
 
 この記事は報告書1件をPDF出力するものです。まとめて出力するには一括PDF出力を御覧ください。

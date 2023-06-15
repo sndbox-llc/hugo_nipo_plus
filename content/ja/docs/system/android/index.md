@@ -5,7 +5,6 @@ title = "AndroidにNipoPlusをインストール"
 menuTitle = "Androidで使う"
 toc = true
 weight = 103000003
-contributors = []
 aliases = ["/system/android/"]
 +++
 

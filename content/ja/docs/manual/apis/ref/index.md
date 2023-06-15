@@ -5,7 +5,6 @@ title = "APIを使い日報やテンプレートを取得する"
 menuTitle = "APIを使う"
 toc = true
 weight = 101010002
-contributors = []
 aliases = ["/manual/api/ref/"]
 +++
 

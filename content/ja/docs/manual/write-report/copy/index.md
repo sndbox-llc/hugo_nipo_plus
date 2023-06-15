@@ -5,7 +5,6 @@ title = "報告書をコピーして新規作成する"
 menuTitle = "コピー&新規作成"
 toc = true
 weight = 101002005
-contributors = []
 aliases = []
 +++
 

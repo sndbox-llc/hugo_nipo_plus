@@ -5,9 +5,7 @@ title = "【選択式入力（単回答）】を日報に追加"
 menuTitle = "🧩選択式入力（単回答）"
 toc = true
 weight = 101001103
-contributors = []
 aliases = ["/manual/initial-setting/template/select/"]
-
 +++
 
 

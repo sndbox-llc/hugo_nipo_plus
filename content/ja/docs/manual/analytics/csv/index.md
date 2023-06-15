@@ -3,10 +3,8 @@ description = "期間を指定して報告書のデータを一括でCSVに出�
 tags = ["有料プラン限定", "Web版限定"]
 title = "日報データをまとめてCSVでダウンロードする"
 menuTitle = "CSV一括出力"
-# menuTitle = "メニュー用"
 toc = true
 weight = 101004021
-contributors = []
 aliases = ["/manual/analytics/csv/"]
 
 +++

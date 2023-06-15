@@ -4,13 +4,9 @@ tags = []
 title = "webPよりPngのほうが軽いケースも多い"
 toc = true
 weight = 105000027
-contributors = []
 excerpt = "webP VS Png"
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 4G通信から5G通信へ通信技術が進んでも絶対に変わらないことは「重いより軽いほうが良い」という点です。

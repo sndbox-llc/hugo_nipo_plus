@@ -5,9 +5,7 @@ toc = true
 weight = 109001015
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/timecards/"]
-
 +++
 
 {{<btnCenter "/docs/manual/timecard/_about/" "新バージョンでも使えます">}}

@@ -3,15 +3,10 @@ description = "無料お試し期間が短縮されました"
 excerpt = "無料お試し期間の変更"
 title = "無料お試し期間の変更"
 toc = true
-# weight = 108999996
 date = "2022-12-01"
-lastmod = "2022-12-01"
-contributors = []
 categories = []
 tags = []
 images = []
-pinned = false
-homepage = false
 +++
 
 無料プランの新設に伴い、無料お試し期間が60日から30日へ短縮されました。

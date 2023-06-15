@@ -2,16 +2,11 @@
 description = "品質管理チェックシートを電子化することで、従来の紙ベースの手順から解放されます。タブレット1つで入力からグラフ化までスピーディーに行え、作業効率が向上します。"
 title = "報告書を電子化してP管理図を自動で作る"
 toc = true
-# weight = 106000002
-contributors = []
 excerpt = "品質管理チェックシートを電子化することで、従来の紙ベースの手順から解放されます。タブレット1つで入力からグラフ化までスピーディーに行え、作業効率が向上します。"
 images = ["factory_icatch.png"]
 categories = ["製造業向け", "集計"]
 tags = ["製造業向け", "集計"]
-date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
+date = "2023-04-01"
 aliases = ["/checksheet/factory/"]
 +++
 

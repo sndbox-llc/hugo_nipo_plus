@@ -4,9 +4,7 @@ tags = []
 title = "タイムカードの削除"
 toc = true
 weight = 101011005
-contributors = []
 aliases = ["/manual/remove/timecard/"]
-
 +++
 
 タイムカードは労働時間の把握、ひいてはお給料の計算にも使われることが考えられるため、削除には厳格なルールと権限が設けられています。

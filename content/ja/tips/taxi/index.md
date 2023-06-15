@@ -3,17 +3,11 @@ description = "スマートフォン1台で日報の作成や提出が可能で�
 tags = []
 title = "タクシー日報をスマホ・タブレットで"
 toc = true
-# weight = 104000005
-contributors = []
 excerpt = "タクシー日報をスマホで"
 images = []
 categories = []
-date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
+date = "2023-04-01"
 aliases = ["/blog/taxi/"]
-
 +++
 
 NipoPlusを使えばタクシー運転業務の日報を下車のたびに手軽に作成できます。テンプレートを自由に自作できる特徴を生かして、例えば次のようなタクシー日報のテンプレートを作ることができます。

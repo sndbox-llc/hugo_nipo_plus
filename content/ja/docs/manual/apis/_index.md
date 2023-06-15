@@ -4,6 +4,5 @@ title = "📡API"
 toc = true
 tags = []
 weight = 101010000
-contributors = []
 aliases = ["/manual/api/"]
 +++

@@ -4,7 +4,6 @@ tags = []
 title = "日報を書くまでの流れ"
 toc = true
 weight = 101002001
-contributors = []
 aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual/write-report/_about/"]
 +++
 

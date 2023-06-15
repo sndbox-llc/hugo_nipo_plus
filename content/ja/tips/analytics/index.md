@@ -6,8 +6,8 @@ isNipo = true
 excerpt = "蓄積した日報のデータを簡単に集計＆グラフ化できます。より細かい分析がしたい場合は集計データをCSVに出力することでエクセルなどの表計算ソフトを使い分析が可能です"
 images = ['report1_tablet.png']
 tags = ["集計"]
-contributors = []
 categories = []
+date = "2023-06-15"
 aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
 +++
 

@@ -5,9 +5,7 @@ menuTitle = "概要"
 toc = true
 tags = ["有料プラン限定"]
 weight = 101004000
-contributors = []
 aliases = ["/manual/analytics/"]
-
 +++
 
 報告書のテンプレートに数値や選択肢が含まれている場合はそれらのデータを集計、グラフ化できます。

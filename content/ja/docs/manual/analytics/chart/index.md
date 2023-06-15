@@ -5,7 +5,6 @@ title = "日報データを自動集計しグラフを作成する"
 menuTitle = "📈グラフの作成"
 toc = true
 weight = 101004003
-contributors = []
 aliases = ["/manual/analytics/chart/"]
 +++
 

@@ -4,9 +4,7 @@ tags = ["有料プラン限定"]
 title = "カレンダーの設定"
 toc = true
 weight = 101005001
-contributors = []
 aliases = ["/manual/calendar/setting/"]
-
 +++
 
 カレンダーを使うには、メニューから「カレンダー」をクリックします。

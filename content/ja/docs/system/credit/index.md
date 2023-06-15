@@ -4,7 +4,6 @@ tags = []
 title = "🖼️画像のクレジット表記"
 weight = 103000015
 toc = false
-contributors = []
 aliases = ["/system/credit/"]
 +++
 

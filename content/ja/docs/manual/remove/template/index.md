@@ -5,9 +5,7 @@ title = "テンプレートの削除"
 menuTitle = "テンプレートの削除"
 toc = true
 weight = 101011001
-contributors = []
 aliases = ["/manual/remove/template/"]
-
 +++
 
 日報テンプレートは無効化・削除の2段構えによる削除となります。

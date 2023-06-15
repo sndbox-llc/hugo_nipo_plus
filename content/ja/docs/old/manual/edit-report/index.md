@@ -5,7 +5,6 @@ toc = true
 weight = 109001008
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/edit-report/"]
 +++
 

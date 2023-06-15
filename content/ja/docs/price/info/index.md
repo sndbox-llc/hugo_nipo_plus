@@ -5,7 +5,6 @@ title = "無料お試し期間（トライアル期間）"
 menuTitle = "無料お試し期間"
 toc = true
 weight = 102000001
-contributors = []
 aliases = ["/price/info/"]
 +++
 

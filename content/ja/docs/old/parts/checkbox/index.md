@@ -5,9 +5,7 @@ toc = true
 weight = 109002002
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/checkbox/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/checkbox/" "新バージョンでも使えます">}}

@@ -4,9 +4,7 @@ tags = []
 title = "タイムカードをリスト表示する"
 toc = true
 weight = 101007002
-contributors = []
 aliases = ["/manual/timecard/list/"]
-
 +++
 
 スタッフが入力したタイムカードを一覧で表示するには、メニューからタイムカード一覧をクリックします。

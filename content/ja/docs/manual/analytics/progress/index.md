@@ -5,7 +5,6 @@ title = "日報の実データと予定データを表にして管理"
 menuTitle = "予定と実績の管理"
 toc = true
 weight = 101004007
-contributors = []
 aliases = ["/manual/analytics/progress/"]
 
 +++

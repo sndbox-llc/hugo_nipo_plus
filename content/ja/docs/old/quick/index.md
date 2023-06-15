@@ -5,7 +5,6 @@ toc = true
 weight = 109000001
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/quick/", "/docs/old/manual/quick/"]
 +++
 

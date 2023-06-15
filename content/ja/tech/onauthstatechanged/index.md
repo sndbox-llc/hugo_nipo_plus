@@ -4,13 +4,9 @@ tags = ["firebase"]
 title = "FirebaseのonAuthStateChangedが複数回呼ばれないように正しく使う（Vuejs3)"
 toc = true
 weight = 10
-contributors = []
 excerpt = "onAuthStateChangedの使い方"
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
 
 NipoPlusのバックエンドはFirebaseを使用しています。Firebaseではアカウントのログイン状態が変化するとonAuthStateChangedというオブザーバが変化を検知し、所定の動作を行います。

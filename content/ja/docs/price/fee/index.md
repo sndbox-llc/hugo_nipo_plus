@@ -4,7 +4,6 @@ tags = ["Web版限定"]
 title = "有料プランに加入"
 toc = true
 weight = 102000003
-contributors = []
 aliases = ["/price/fee/"]
 +++
 

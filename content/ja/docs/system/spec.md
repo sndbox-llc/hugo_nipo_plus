@@ -4,7 +4,6 @@ tags = []
 title = "動作環境"
 toc = true
 weight = 103000001
-contributors = []
 aliases = ["/system/spec/"]
 +++
 

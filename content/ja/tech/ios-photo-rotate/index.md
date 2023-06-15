@@ -5,15 +5,9 @@ tags = []
 title = "iOS13.4.1で写真をアップロードすると画像が横向きになる問題"
 toc = true
 weight = 105000012
-contributors = []
 images = []
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
-
-
 
 ## iPhoneで写真を日報に添付すると画像が回転してしまいます
 

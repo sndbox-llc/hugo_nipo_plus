@@ -4,7 +4,6 @@ tags = []
 title = "特定商取引法に基づく表記"
 toc = false
 weight = 103000011
-contributors = []
 aliases = ["/system/business-deal/"]
 +++
 

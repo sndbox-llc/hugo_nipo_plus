@@ -5,7 +5,6 @@ title = "日報データの変化を見る【推移表】"
 menuTitle = "データの推移"
 toc = true
 weight = 101004002
-contributors = []
 aliases = ["/manual/analytics/transition/"]
 
 +++

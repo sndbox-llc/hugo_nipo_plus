@@ -5,14 +5,9 @@ tags = ["firebase"]
 title = "Firestoreのデータバックアップを自動で行う一番簡単なやり方"
 toc = true
 weight = 105000011
-contributors = []
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
-lastmod = "2022-11-14"
-pinned = false
-homepage = false
 +++
-
 
 ## FireStoreのバックアップ機能は最近やっとまともに実装されました
 

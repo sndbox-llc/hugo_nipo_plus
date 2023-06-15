@@ -5,9 +5,7 @@ toc = true
 weight = 109002016
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/dictionaly/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/advanced-setting/goroku/" "新バージョンでも使えます">}}

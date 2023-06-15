@@ -5,9 +5,7 @@ toc = true
 weight = 109001017
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/manual/leave-account/"]
-
 +++
 
 

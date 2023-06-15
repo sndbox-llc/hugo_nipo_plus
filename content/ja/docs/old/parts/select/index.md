@@ -5,9 +5,7 @@ toc = true
 weight = 109002011
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/select/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/select/" "新バージョンでも使えます">}}

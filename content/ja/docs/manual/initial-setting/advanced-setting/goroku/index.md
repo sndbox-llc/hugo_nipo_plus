@@ -4,9 +4,7 @@ tags = ["語録機能", "有料プラン限定"]
 title = "語録管理"
 toc = true
 weight = 101001203
-contributors = []
 aliases = ["/manual/initial-setting/advanced-setting/goroku/"]
-
 +++
 
 語録とはシンプルな単語の集まり（単語帳）です。  

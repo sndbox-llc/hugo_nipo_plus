@@ -4,10 +4,8 @@ title = "組織とグループについて"
 toc = true
 weight = 101000000
 tags = []
-contributors = []
 mermaid = true
 aliases = ["/manual/initial-setting/"]
-
 +++
 
 

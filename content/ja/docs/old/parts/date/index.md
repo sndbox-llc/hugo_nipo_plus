@@ -5,9 +5,7 @@ toc = true
 weight = 109002013
 isNipo = true
 tags = ["旧バージョン"]
-contributors = []
 aliases = ["/old/parts/date/"]
-
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/datetime/" "新バージョンでも使えます">}}

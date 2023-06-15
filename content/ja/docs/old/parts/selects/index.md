@@ -6,6 +6,9 @@ weight = 109002012
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/selects/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/select2/" "新バージョンでも使えます">}}

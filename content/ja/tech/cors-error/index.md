@@ -6,6 +6,9 @@ toc = true
 excerpt = "Firebase CORSの回避"
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 

@@ -7,6 +7,9 @@ weight = 105000001
 excerpt = 'Quasar&Capacitor4'
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 少し前からGoogle PlayStoreはAPI Level 31以上を必須としました。

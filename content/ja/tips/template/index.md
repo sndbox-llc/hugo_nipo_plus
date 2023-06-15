@@ -7,6 +7,8 @@ toc = true
 images = []
 categories = []
 date = "2023-04-01"
+[sitemap]
+  priority = 0.9
 +++
 
 「このような業務日報テンプレートが作れますか？」  

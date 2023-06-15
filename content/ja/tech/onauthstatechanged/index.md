@@ -7,6 +7,9 @@ weight = 10
 excerpt = "onAuthStateChangedの使い方"
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 NipoPlusのバックエンドはFirebaseを使用しています。Firebaseではアカウントのログイン状態が変化するとonAuthStateChangedというオブザーバが変化を検知し、所定の動作を行います。

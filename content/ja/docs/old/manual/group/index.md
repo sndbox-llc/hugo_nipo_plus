@@ -6,6 +6,9 @@ weight = 109001003
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/group/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/make-group/" "新バージョンでも使えます">}}

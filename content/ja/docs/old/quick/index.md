@@ -6,6 +6,9 @@ weight = 109000001
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/quick/", "/docs/old/manual/quick/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 

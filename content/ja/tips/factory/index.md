@@ -8,6 +8,8 @@ categories = ["製造業向け", "集計"]
 tags = ["製造業向け", "集計"]
 date = "2023-04-01"
 aliases = ["/checksheet/factory/"]
+[sitemap]
+  priority = 0.9
 +++
 
 <dl class="faq">

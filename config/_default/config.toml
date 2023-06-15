@@ -62,7 +62,7 @@ notAlternative = true
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
-  priority = 0.5
+  priority = 0.6
 
 [taxonomies]
   category = "categories"

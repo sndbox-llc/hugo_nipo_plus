@@ -7,6 +7,9 @@ weight = 105000026
 excerpt = "PWAの更新処理"
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 

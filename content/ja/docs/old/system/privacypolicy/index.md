@@ -6,6 +6,9 @@ weight = 109003006
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/system/privacypolicy/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.1
 +++
 
 

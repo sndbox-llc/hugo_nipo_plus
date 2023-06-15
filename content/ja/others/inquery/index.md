@@ -5,6 +5,9 @@ title = "📩お問い合わせ"
 toc = true
 weight = 103000016
 aliases = ["/docs/system/inquery/", "/system/inquery/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.3
 +++
 
 お問い合わせいただき、ありがとうございます。

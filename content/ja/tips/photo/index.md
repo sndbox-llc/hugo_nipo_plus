@@ -9,6 +9,8 @@ categories = []
 tags = []
 date = "2023-06-12"
 draft = false
+[sitemap]
+  priority = 0.9
 +++
 
 

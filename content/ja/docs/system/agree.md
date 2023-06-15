@@ -5,6 +5,9 @@ title = "システム利用規約"
 toc = false
 weight = 103000012
 aliases = ["/system/agree/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.1
 +++
 
 この利用規約（以下，「本規約」といいます。）は，合同会社サンドボックス（以下，「当社」といいます。）が本アプリ上で提供するサービス（以下，「本サービス」といいます。）の利用条件を定めるものです。

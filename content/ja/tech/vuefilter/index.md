@@ -7,6 +7,9 @@ weight = 105000025
 excerpt = "Vue2時代のフィルターを移行"
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 NipoはVue2で作成されたWebシステムですが、今回Vueが3にバージョンアップしたことに追従し、NipoのソースコードもVue3へ書き換え中です。

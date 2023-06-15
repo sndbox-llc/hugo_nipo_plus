@@ -7,6 +7,9 @@ date = "2022-12-22"
 categories = []
 tags = []
 images = []
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.3
 +++
 
 いつもNipo/NipoPlusをご利用いただきありがとうございます。

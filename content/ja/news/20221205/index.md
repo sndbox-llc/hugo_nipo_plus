@@ -7,6 +7,9 @@ date = "2022-12-05"
 categories = []
 tags = []
 images = []
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.3
 +++
 
 いつもNipoPlusをご利用いただきありがとうございます。さて、Version1.21.0から受信BOXにおいて検索条件を保存できるようになります。

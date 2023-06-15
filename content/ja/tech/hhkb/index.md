@@ -7,6 +7,9 @@ weight = 105000005
 tags = ["開発環境"]
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 {{<imgproc hhkb.jpg "HHKB外観" />}}

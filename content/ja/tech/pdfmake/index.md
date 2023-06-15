@@ -7,6 +7,9 @@ weight = 105000008
 excerpt = "PDFMake"
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 [pdfMake](https://github.com/bpampuch/pdfmake)はフロント側でPDFが簡単に作れるJavaScriptです。

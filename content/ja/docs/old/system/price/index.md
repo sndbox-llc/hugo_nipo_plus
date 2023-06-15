@@ -6,6 +6,9 @@ weight = 109003001
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/system/price/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 

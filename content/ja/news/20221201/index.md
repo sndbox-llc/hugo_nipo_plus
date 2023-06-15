@@ -7,6 +7,9 @@ date = "2022-12-01"
 categories = []
 tags = []
 images = []
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.3
 +++
 
 無料プランの新設に伴い、無料お試し期間が60日から30日へ短縮されました。

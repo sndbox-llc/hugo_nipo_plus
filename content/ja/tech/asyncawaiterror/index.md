@@ -7,6 +7,9 @@ weight = 105000017
 excerpt = 'JSの非同期が止まらない問題'
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 ## async/awaitの見落としがちな落とし穴。try/catchしても呼び出し元でcatch出来ません

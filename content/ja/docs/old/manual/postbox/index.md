@@ -6,6 +6,9 @@ weight = 109001009
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/postbox/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/read-report/list/" "新バージョンでも使えます">}}

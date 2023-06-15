@@ -7,6 +7,9 @@ weight = 105000022
 excerpt = "modal内のスクロール処理"
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 ## Modalを使うとwindow.scrollでは動かない原因と解決策

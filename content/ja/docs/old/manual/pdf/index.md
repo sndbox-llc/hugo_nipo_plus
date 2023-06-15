@@ -6,6 +6,9 @@ weight = 109001010
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/pdf/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/read-report/pdf/" "新バージョンでも使えます">}}

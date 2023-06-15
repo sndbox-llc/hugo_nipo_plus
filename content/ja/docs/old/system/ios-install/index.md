@@ -6,6 +6,9 @@ weight = 109003004
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/system/ios-install/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 

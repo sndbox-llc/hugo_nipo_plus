@@ -6,6 +6,9 @@ weight = 109002008
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/picture/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/picture/" "新バージョンでも使えます">}}

@@ -6,6 +6,9 @@ weight = 109002009
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/zip/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 この機能はNipoPlusでは廃止されました

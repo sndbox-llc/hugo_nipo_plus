@@ -5,6 +5,9 @@ title = "🔐セキュリティ対策"
 toc = true
 weight = 103000007
 aliases = ["/system/security/"]
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.6
 +++
 
 クラウドサービスを利用するにあたりセキュリティを気にすることはとても重要です。NipoPlusではセキュリティ対策を最も重要な課題として常に安全に気を配り、お客様のデータを安全に保護できるよう努めております。

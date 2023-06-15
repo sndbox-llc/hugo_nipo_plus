@@ -6,6 +6,9 @@ weight = 109001004
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/group-mode/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 

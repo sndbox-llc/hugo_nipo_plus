@@ -6,6 +6,9 @@ weight = 109001014
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/edit-login/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/account/password/" "新バージョンでも使えます">}}

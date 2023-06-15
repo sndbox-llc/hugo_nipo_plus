@@ -7,6 +7,9 @@ toc = true
 weight = 105000019
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 

@@ -6,6 +6,9 @@ toc = true
 excerpt = "コールドスタートを回避する"
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 FirebaseのCloud Functionsは関数をクラウド上に配置できる便利な機能ですが、関数にアクセスが一定時間無いとコールドスリープに入ってしまいます。

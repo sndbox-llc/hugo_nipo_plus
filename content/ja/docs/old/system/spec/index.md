@@ -6,6 +6,9 @@ weight = 109003002
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/system/spec/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 

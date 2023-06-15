@@ -8,6 +8,8 @@ categories = ["製造業向け", "チェックシート"]
 tags = ["製造業向け", "チェックシート"]
 date = "2023-04-01"
 aliases = ["/checksheet/tablet/", "/blog/ipad/"]
+[sitemap]
+  priority = 0.9
 +++
 
 製造業では、品質管理や安全確保のために、定期的な点検やチェックが欠かせません。

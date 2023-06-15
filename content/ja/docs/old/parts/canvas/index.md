@@ -6,6 +6,9 @@ weight = 109002001
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/canvas/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/sign/" "新バージョンでも使えます">}}

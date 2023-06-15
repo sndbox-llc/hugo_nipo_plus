@@ -7,6 +7,8 @@ toc = true
 images = ["width12.png"]
 categories = []
 date = "2023-05-14"
+[sitemap]
+  priority = 0.9
 +++
 
 <dl class="faq">

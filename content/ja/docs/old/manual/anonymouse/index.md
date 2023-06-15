@@ -6,6 +6,9 @@ weight = 109001018
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/anonymouse/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/account/tokumei/" "新バージョンでも使えます">}}

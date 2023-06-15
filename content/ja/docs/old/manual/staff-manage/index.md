@@ -6,6 +6,9 @@ weight = 109001005
 tags = ["旧バージョン"]
 isNipo = true
 aliases = ["/old/manual/staff-manage/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 

@@ -6,6 +6,9 @@ weight = 109002002
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/checkbox/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/checkbox/" "新バージョンでも使えます">}}

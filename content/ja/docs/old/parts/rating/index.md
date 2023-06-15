@@ -6,6 +6,9 @@ weight = 109002004
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/rating/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/rate/" "新バージョンでも使えます">}}

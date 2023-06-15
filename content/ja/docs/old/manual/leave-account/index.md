@@ -6,6 +6,9 @@ weight = 109001017
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/leave-account/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 

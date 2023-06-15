@@ -8,6 +8,8 @@ images = ["input-order_tablet.png"]
 categories = []
 tags = []
 date = "2023-05-14"
+[sitemap]
+  priority = 0.9
 +++
 
 

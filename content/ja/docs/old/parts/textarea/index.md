@@ -6,6 +6,9 @@ weight = 109002015
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/textarea/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/text/" "新バージョンでも使えます">}}

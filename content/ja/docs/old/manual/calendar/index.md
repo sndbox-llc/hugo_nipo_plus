@@ -6,6 +6,9 @@ weight = 109001012
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/calendar/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/calendar/_about/" "新バージョンでも使えます">}}

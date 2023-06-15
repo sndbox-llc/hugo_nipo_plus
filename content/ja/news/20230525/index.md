@@ -7,6 +7,9 @@ toc = true
 date = "2023-05-26"
 categories = []
 images = []
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.3
 +++
 
 いつもNipo/NipoPlusをご利用いただきありがとうございます。

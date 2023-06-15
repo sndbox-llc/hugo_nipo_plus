@@ -6,6 +6,9 @@ weight = 109001008
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/edit-report/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/write-report/rewrite/" "新バージョンでも使えます">}}

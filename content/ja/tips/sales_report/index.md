@@ -8,7 +8,8 @@ images = ["work3.png"]
 categories = []
 date = "2023-04-01"
 aliases = ["/blog/sales_report/"]
-
+[sitemap]
+  priority = 0.9
 +++
 
 <dl class='faq'>

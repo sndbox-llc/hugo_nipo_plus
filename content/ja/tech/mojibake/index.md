@@ -7,6 +7,9 @@ weight = 105000003
 excerpt = "Zipを解凍すると文字化けする"
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 NipoPlusの[一括CSVダウンロード](/docs/manual/analytics/csv/)を使って報告書のデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。

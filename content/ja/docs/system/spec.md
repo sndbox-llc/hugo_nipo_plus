@@ -5,6 +5,9 @@ title = "動作環境"
 toc = true
 weight = 103000001
 aliases = ["/system/spec/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 ## Webアプリ版

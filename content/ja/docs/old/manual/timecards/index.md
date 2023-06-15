@@ -6,6 +6,9 @@ weight = 109001015
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/timecards/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/timecard/_about/" "新バージョンでも使えます">}}

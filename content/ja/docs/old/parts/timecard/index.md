@@ -6,6 +6,9 @@ weight = 109002006
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/timecard/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 

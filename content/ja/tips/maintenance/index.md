@@ -9,6 +9,8 @@ images = []
 categories = []
 date = "2023-06-01"
 aliases = []
+[sitemap]
+  priority = 0.9
 +++
 
 設備点検のチェックシートに関する記事

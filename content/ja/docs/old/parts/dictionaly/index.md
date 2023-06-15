@@ -6,6 +6,9 @@ weight = 109002016
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/dictionaly/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/advanced-setting/goroku/" "新バージョンでも使えます">}}

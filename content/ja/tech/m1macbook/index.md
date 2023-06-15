@@ -7,6 +7,9 @@ toc = true
 weight = 105000006
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 ## 新型MacBook Airを購入しました

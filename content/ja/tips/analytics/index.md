@@ -9,6 +9,8 @@ tags = ["集計"]
 categories = []
 date = "2023-06-15"
 aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
+[sitemap]
+  priority = 0.9
 +++
 
 

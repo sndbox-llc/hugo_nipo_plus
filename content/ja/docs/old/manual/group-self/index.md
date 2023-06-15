@@ -6,6 +6,9 @@ weight = 109001013
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/group-self/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 ## グループの中で自分にのみ影響する設定をする

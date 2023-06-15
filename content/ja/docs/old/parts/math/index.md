@@ -6,6 +6,9 @@ weight = 109002017
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/math/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/math/" "新バージョンでも使えます">}}

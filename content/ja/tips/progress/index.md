@@ -7,6 +7,8 @@ images = ["progress-table_tablet.png"]
 categories = ["製造業向け", "チェックシート", "集計"]
 tags = ["製造業向け", "チェックシート", "集計"]
 date = "2023-04-01"
+[sitemap]
+  priority = 0.9
 +++
 
 <dl class="faq">

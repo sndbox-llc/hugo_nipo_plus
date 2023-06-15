@@ -7,6 +7,9 @@ weight = 105000013
 excerpt = "Zipを解凍すると文字化けする"
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 

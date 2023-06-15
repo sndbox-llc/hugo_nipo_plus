@@ -8,6 +8,8 @@ categories = ["製造業向け"]
 tags = ["製造業向け"]
 date = "2023-04-01"
 aliases = ["/checksheet/maker/"]
+[sitemap]
+  priority = 0.9
 +++
 
 

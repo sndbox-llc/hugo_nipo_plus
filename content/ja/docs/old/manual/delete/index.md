@@ -6,6 +6,9 @@ weight = 109001016
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/delete/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/remove/reportbatch/" "新バージョンでも使えます">}}

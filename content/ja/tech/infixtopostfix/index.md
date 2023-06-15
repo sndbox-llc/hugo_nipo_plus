@@ -7,6 +7,9 @@ toc = true
 weight = 105000028
 images = []
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 NipoPlusに演算機能を実装する必要があり、色々調べたところ「逆ポーランド記法」という方法が電卓の実装として最も良さそうだったので作ってみました。

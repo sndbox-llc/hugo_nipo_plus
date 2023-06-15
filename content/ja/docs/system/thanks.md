@@ -5,6 +5,9 @@ title = "🌸謝辞"
 toc = false
 weight = 103000014
 aliases = ["/system/thanks/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.1
 +++
 
 

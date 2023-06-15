@@ -6,6 +6,9 @@ weight = 109001002
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/manual/email-verify/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 ## E-mailの役割はログインの他にもある非常に重要な情報です

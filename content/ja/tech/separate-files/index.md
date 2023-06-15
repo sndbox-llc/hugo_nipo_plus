@@ -7,6 +7,9 @@ weight = 105000016
 excerpt = "Cloud Functionsのファイル分割"
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.5
 +++
 
 ## FirebaseにおけるCloud Functions

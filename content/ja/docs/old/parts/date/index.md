@@ -6,6 +6,9 @@ weight = 109002013
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/parts/date/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.2
 +++
 
 {{<btnCenter "/docs/manual/initial-setting/template/datetime/" "新バージョンでも使えます">}}

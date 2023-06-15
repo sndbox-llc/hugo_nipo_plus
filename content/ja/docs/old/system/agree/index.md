@@ -6,6 +6,9 @@ weight = 109003005
 isNipo = true
 tags = ["旧バージョン"]
 aliases = ["/old/system/agree/"]
+[sitemap]
+  changefreq = "yearly"
+  priority = 0.1
 +++
 
 

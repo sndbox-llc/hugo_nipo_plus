@@ -8,6 +8,8 @@ categories = ["製造業向け", "チェックシート"]
 tags = ["製造業向け", "チェックシート"]
 date = "2023-06-15"
 aliases = ["/checksheet/", "/blog/checksheet/"]
+[sitemap]
+  priority = 0.9
 +++
 
 ## テンプレートに沿って各項目を入力できる業務用チェックシート管理システム

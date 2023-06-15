@@ -6,6 +6,9 @@ menuTitle = "Androidで使う"
 toc = true
 weight = 103000003
 aliases = ["/system/android/"]
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.6
 +++
 
 AndroidでNipoPlusを使うには2つの方法があります

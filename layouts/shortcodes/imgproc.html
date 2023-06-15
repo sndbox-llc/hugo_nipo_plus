@@ -15,7 +15,7 @@
     <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}"  srcset="{{ $lg.RelPermalink }} 780w, {{ $full.RelPermalink }} 1500w" sizes="100vw">
   </a>
   <figcaption>
-    <i style="font-size: 13px;color: #aaa">
+    <i>
       {{ with .Inner }}
         {{ . }}
       {{ else }}

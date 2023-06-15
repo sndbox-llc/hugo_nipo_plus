@@ -6,6 +6,7 @@ titleSeparator = "|"
 titleAddition = "ノーコードで報告書をアプリ化"
 description = "チェックシートや日報もOK。スマホで日報作成や承認棄却、報告書の集計&グラフ化📊だって可能です。無料プラン有り〼有料プランも業界最安値"
 
+BookDateFormat = "2006年01月02日"
 ## Documentation
 # docsVersion = "0.3"
 
@@ -82,6 +83,7 @@ docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false
 lastMod = true
+editBaseURL = "https://github.com/sandbox-co-ltd/hugo_nipo_plus/edit/main/content/ja/"
 
 [sections]
   sectionNav = ["docs"]

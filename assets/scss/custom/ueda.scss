@@ -49,6 +49,9 @@ p  {
 .navBarBackgroundColor {
   background-color: $lightColor;
 }
+.svgLineColor {
+  fill: $baseColor;
+}
 /* Algolia検索結果のハイライト */
 #app em {
   color: red;

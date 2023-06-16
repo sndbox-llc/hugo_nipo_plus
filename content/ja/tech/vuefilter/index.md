@@ -3,8 +3,6 @@ description = "Vue3で廃止されたfilter機能は関数として定義して�
 tags = []
 title = "Vue2からVue3への移行-Filterの廃止を修正"
 toc = true
-weight = 105000025
-excerpt = "Vue2時代のフィルターを移行"
 images = []
 date = "2022-11-14"
 [sitemap]

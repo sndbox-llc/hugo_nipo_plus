@@ -3,8 +3,6 @@ description = "Elastic Searchの全文検索とFireStoreのデータベースを
 tags = ["firebase"]
 title = "FirestoreとElasticSearchを組み合わせて\n検索に強いFirebaseアプリを作る"
 toc = true
-weight = 105000021
-excerpt = "elasticSearchを使った検索"
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]

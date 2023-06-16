@@ -1,6 +1,5 @@
 +++
 description = "無料お試し期間が短縮されました"
-excerpt = "無料お試し期間の変更"
 title = "無料お試し期間の変更"
 toc = true
 date = "2022-12-01"

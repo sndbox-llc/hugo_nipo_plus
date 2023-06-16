@@ -1,10 +1,8 @@
 +++
 description = "速いと噂のM1マックブックを買ってみました。プログラマ視点でM1マックは業務にそのまま使えるのかを書いてみました。"
-excerpt = "M1マックブック"
 tags = ["開発環境"]
 title = "M1/M2 Macをプログラマが購入して実際に使った感想"
 toc = true
-weight = 105000006
 images = []
 date = "2022-11-14"
 [sitemap]

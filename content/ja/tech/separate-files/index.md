@@ -3,8 +3,6 @@ description = "Cloud Functionはサーバで実行できる関数で、フロン
 tags = ["firebase"]
 title = "肥大化するCloud Functionsのファイルを複数のTsファイルに分ければメンテナンスもしやすい"
 toc = true
-weight = 105000016
-excerpt = "Cloud Functionsのファイル分割"
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]

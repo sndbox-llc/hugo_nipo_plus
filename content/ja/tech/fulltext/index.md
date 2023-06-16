@@ -1,10 +1,8 @@
 +++
 description = "FireStoreは優れたデータベースですが全文検索機能をサポートしていません。不足した機能を補うため、Elastic Search・Algolia・Typesenseの3種類を公式では紹介してます。これらを実際に使用してみた感想をまとめています"
-excerpt = "全文検索データベース"
 tags = ["firebase"]
 title = "Firebaseの推奨する全文検索 Elastic Search / Algolia / Typesenseの比較"
 toc = true
-weight = 105000020
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]

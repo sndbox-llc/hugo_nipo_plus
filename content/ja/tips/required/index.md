@@ -3,7 +3,6 @@ description = "入力必須の指定により報告書の「うっかり記入�
 title = "日報のよくある「記入/提出忘れ」を0にする"
 toc = true
 aliases = ["/blog/leak/", "/blog/required/"]
-excerpt = "入力必須の指定により報告書の「うっかり記入漏れ」を未然に防ぐことができます。うっかり提出忘れも「提出簿」を見ればすぐに分かります"
 images = ["input-order_tablet.png"]
 categories = []
 tags = []

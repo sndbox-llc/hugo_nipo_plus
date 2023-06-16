@@ -2,7 +2,6 @@
 description = "ドラッグ操作で複数のCSVを1つのCSVファイルに結合するWebアプリです。インストール不要。無料です"
 title = "複数のCSVファイルをドラッグで1つに結合-CSVSC"
 toc = true
-excerpt = "ドラッグ操作で複数のCSVを1つのCSVファイルに結合するWebアプリです。インストール不要。無料です"
 images = ["linking-multi-csv.png"]
 categories = []
 tags = []

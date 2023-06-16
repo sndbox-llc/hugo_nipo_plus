@@ -1,10 +1,8 @@
 +++
-description = ""
-excerpt = "GAPIを使うまでの流れ"
+description = "GAPIを使うまでの流れ"
 tags = []
 title = "Vue.js（ts）でGoogle API(gapi)を使いカレンダーを取得するまで"
 toc = true
-weight = 105000024
 images = []
 date = "2022-11-14"
 [sitemap]

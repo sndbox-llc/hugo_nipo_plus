@@ -2,7 +2,6 @@
 description = ""
 tags = []
 title = "機器点検のチェックシートをスマホ・タブレットで"
-excerpt = "機器点検のチェックシートをスマホ・タブレットで"
 toc = true
 draft = true
 images = []

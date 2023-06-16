@@ -3,7 +3,6 @@ description = "スマートフォン1台で日報の作成や提出が可能で�
 tags = []
 title = "タクシー日報をスマホ・タブレットで"
 toc = true
-excerpt = "タクシー日報をスマホで"
 images = []
 categories = []
 date = "2023-04-01"

@@ -4,7 +4,6 @@ description = "NipoとNipoPlusのホームページを1つのサイトに統合�
 categories = []
 tags = []
 toc = true
-excerpt = "ホームページ統合"
 images = []
 date = "2022-11-14"
 [sitemap]

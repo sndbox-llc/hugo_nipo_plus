@@ -3,7 +3,6 @@ description = "現場から直接業務報告をサクッと作れます。現�
 tags = ["モバイル"]
 title = "スマホ・タブレットで日報を書く"
 toc = true
-excerpt = "現場から直接業務報告をサクッと作れます。現場写真や受け取りサインもタブレット１台で完結"
 images = ["tablet-phone.png"]
 categories = []
 date = "2023-04-01"

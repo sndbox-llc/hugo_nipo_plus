@@ -1,10 +1,8 @@
 +++
-description = ""
+description = "PWAの更新処理"
 title = "VueとRegister Service Workerを使いアプリの更新を制御する"
 toc = true
 tags = []
-weight = 105000026
-excerpt = "PWAの更新処理"
 images = []
 date = "2022-11-14"
 [sitemap]

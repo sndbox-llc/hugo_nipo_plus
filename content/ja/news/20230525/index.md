@@ -1,6 +1,5 @@
 +++
 description = "インボイス制度登録番号が交付されました"
-excerpt = "インボイス制度登録番号"
 tags = []
 title = "インボイス制度登録番号"
 toc = true

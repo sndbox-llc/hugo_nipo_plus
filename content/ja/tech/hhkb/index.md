@@ -1,11 +1,9 @@
 +++
 description = "高級キーボードとして有名なHHKBから最新モデル HYBLID Type-Sが発売されました。かねてよりHHKBのファンである私は早速購入。プログラマからみたHHKBの魅力について語らせてください"
-excerpt = "HHKBキーボード"
 title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
 toc = true
-weight = 105000005
 tags = ["開発環境"]
-images = []
+images = ["hhkb.jpg"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

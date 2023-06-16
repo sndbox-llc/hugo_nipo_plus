@@ -1,9 +1,8 @@
 +++
-description = ""
+description = "QuasarでAndroidアプリを作成"
 tags = []
 title = "Quasar FrameworkでAndroidアプリをビルドしてストア提出する(AABファイル)"
 toc = true
-excerpt = 'QuasarでAndroidアプリを作成'
 images = []
 date = "2022-11-14"
 [sitemap]

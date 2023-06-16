@@ -3,8 +3,6 @@ description = "マニュアル用の画像など無機質な画像において�
 tags = []
 title = "webPよりPngのほうが軽いケースも多い"
 toc = true
-weight = 105000027
-excerpt = "webP VS Png"
 images = []
 date = "2022-11-14"
 [sitemap]

@@ -18,24 +18,43 @@ aliases = ["/system/thanks/"]
 数多くのオープンソースソフトウェアに感謝します
 {{</alice>}}
 
-|名称|用途|
-|---|---|
-|[Hugo](https://gohugo.io/)|現在ご覧頂いているホームページ作成ジェネレータです|
-|[Hugo ReLearn](https://mcshelby.github.io/hugo-theme-relearn/)|このホームページのデザインテーマです|
-|[Quasar Framework](https://quasar.dev/)|NipoPlusの土台となるフレームワークです|
-|[Vue](https://jp.vuejs.org/index.html)|Quasar Frameworkの礎となるものです|
-|[Axios](https://github.com/axios/axios)|通信のやり取りをよりかんたんに行えるようにしてくれるソフトウェアです|
-|[Blue imp load Image](https://github.com/blueimp/JavaScript-Load-Image)|画像の圧縮や回転といった処理を補助してくれます|
-|[chart.js](https://www.chartjs.org/)|棒グラフや折れ線グラフを作成してくれます|
-|[day.js](https://day.js.org/)|日付に関する処理を補助してくれます|
-|[deepCopy](https://github.com/sasaplus1/deepcopy.js)|データの深い層でのコピーを高速に処理してくれます|
-|[dexie](https://dexie.org/)|indexedDBの複雑な操作をかんたんにしてくれます|
-|[firebase](https://firebase.google.com/)|Nipoのインフラとしてデータの保存やアクセス制御などバックエンドを行ってくれています|
-|[papaparse](https://www.papaparse.com/)|JSON->CSVまたはその逆のように、データの変形をサポートしてくれます|
-|[Eslint](https://eslint.org/)|プログラム開発時にミスなどをチェックしてくれます|
-|[typescript](https://www.typescriptlang.org/)|データに型をもたせ、プログラムの視認性や開発効率、バグの混入リスクを軽減してくれます|
-|[Pdfmake](http://pdfmake.org)|日報をPDFに変換する処理を行ってくれます|
-|[capacitor](https://capacitorjs.com/)|WebアプリをiOS/Android専用のアプリに変換してくれます|
+<dl class="basic">
+<dt><a href="https://gohugo.io/">Hugo</a></dt>
+<dd>現在ご覧頂いているホームページ作成ジェネレータです</dd>
+<dt><a href="https://getdoks.org/">Doks</a></dt>
+<dd>現在のホームページのメインテーマです。マニュアルに適したサイトを作れます</dd>
+<dt><a href="https://mcshelby.github.io/hugo-theme-relearn/">Hugo ReLearn</a></dt>
+<dd>以前に使用していたNipoPlusのホームページテーマです</dd>
+<dt><a href="https://quasar.dev/">Quasar Framework</a></dt>
+<dd>Nipo/Nipo Plusの土台となるフレームワークです</dd>
+<dt><a href="https://jp.vuejs.org/index.html">Vue</a></dt>
+<dd>QuasarFrameworkの礎となるものです。本ページの検索処理にも使われています</dd>
+<dt><a href="https://github.com/axios/axios">Axios</a></dt>
+<dd>通信のやり取りをよりかんたんに行えるようにしてくれるソフトウェアです</dd>
+<dt><a href="https://github.com/blueimp/JavaScript-Load-Image">Blue imp load Image</a></dt>
+<dd>画像の圧縮や回転といった処理を補助してくれます</dd>
+<dt><a href="https://www.chartjs.org/">chart.js</a></dt>
+<dd>棒グラフや折れ線グラフを作成してくれます</dd>
+<dt><a href="https://day.js.org/">day.js</a></dt>
+<dd>日付に関する処理を補助してくれます</dd>
+<dt><a href="https://github.com/sasaplus1/deepcopy.js">deepCopy</a></dt>
+<dd>データの深い層でのコピーを高速に処理してくれます</dd>
+<dt><a href="https://dexie.org/">dexie</a></dt>
+<dd>indexedDBの複雑な操作をかんたんにしてくれます</dd>
+<dt><a href="https://firebase.google.com/">firebase</a></dt>
+<dd>Nipoのインフラとしてデータの保存やアクセス制御などバックエンドを行ってくれています</dd>
+<dt><a href="https://www.papaparse.com/">papaparse</a></dt>
+<dd>JSON->CSVまたはその逆のように、データの変形をサポートしてくれます。<a href="/tips/csvsc/">CSVSC</a>にも使用しています</dd>
+<dt><a href="https://eslint.org/">Eslint</a></dt>
+<dd>プログラム開発時にミスなどをチェックしてくれます</dd>
+<dt><a href="https://www.typescriptlang.org/">typescript</a></dt>
+<dd>データに型をもたせ、プログラムの視認性や開発効率、バグの混入リスクを軽減してくれます</dd>
+<dt><a href="http://pdfmake.org">Pdfmake</a></dt>
+<dd>日報をPDFに変換する処理を行ってくれます</dd>
+<dt><a href="https://capacitorjs.com/">capacitor</a></dt>
+<dd>WebアプリをiOS/Android専用のアプリに変換してくれます</dd>
+</dl>
+
 
 目に見えてわかる範囲を掲載させていただきました。記載漏れが有りましたらご連絡ください。修正させていただきます。  
 ※これらのソフトウェアの中でも別のソフトウェアが使用されている可能性があります

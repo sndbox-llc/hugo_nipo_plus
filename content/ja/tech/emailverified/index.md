@@ -1,10 +1,8 @@
 +++
 description = "Firebaseでユーザが登録したE-mailが本当に正しいかを確認する一連の流れについて紹介しています。FirebaseではE-mail確認に関する機能が用意されているため比較的簡単に実装できます"
-excerpt = "FirebaseのEmail認証"
 tags = ["firebase"]
 title = "FirebaseのE-mail認証でアドレスが正しいことを確認する"
 toc = true
-weight = 105000019
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]

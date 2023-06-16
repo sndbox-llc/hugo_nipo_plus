@@ -3,8 +3,6 @@ description = "charts.jsを使ってグラフを表示させます。vue-chart.j
 tags = []
 title = "Vue composition APIでchart.jsを使いグラフを作成(vue-chart.jsは使わない)"
 toc = true
-weight = 105000015
-excerpt = "charts.js"
 images = []
 date = "2022-11-14"
 [sitemap]

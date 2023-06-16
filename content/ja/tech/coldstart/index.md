@@ -3,7 +3,6 @@ description = "Firebase Cloud Functionsのコールドスタートに関する�
 tags = ["firebase"]
 title = "Cloud Functionsのコールドスタートを回避する"
 toc = true
-excerpt = "コールドスタートを回避する"
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]

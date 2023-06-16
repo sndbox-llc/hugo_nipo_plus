@@ -3,7 +3,6 @@ description = "現場や作業前後の写真を報告書に添付し、PDFに�
 title = "写真付きの日報で現場の状況をわかり易く報告する"
 toc = true
 aliases = []
-excerpt = "現場や作業前後の写真を報告書に添付し、PDFに出力が可能です。撮影・報告・PDF出力までをタブレット1台でスマートに"
 images = ["icatch-photo-report_tablet.png"]
 categories = []
 tags = []

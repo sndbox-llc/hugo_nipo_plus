@@ -13,7 +13,7 @@
       <div class="card-body">
         <article>
           <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
-          <p>{{ .Params.excerpt | safeHTML }}</p>
+          <p>{{ .Params.description | safeHTML }}</p>
           {{ if .Params.date }}
             {{ .Params.date.Format "2006年01月02日" }}
           {{ end }}

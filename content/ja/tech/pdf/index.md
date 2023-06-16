@@ -1,10 +1,8 @@
 +++
-description = ""
+description = "CloudFunctionsでPDFをZipへ変換"
 tags = []
 title = "pdfMakeとarchiverを使い複数のPDFを1つのZipにまとめてStorageへUpする"
 toc = true
-weight = 105000007
-excerpt = "CloudFunctionsでPDFをZipへ変換"
 images = []
 date = "2022-11-14"
 [sitemap]

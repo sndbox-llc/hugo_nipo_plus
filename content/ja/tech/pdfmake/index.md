@@ -3,8 +3,6 @@ description = "PDFを生成するPDFMake、結構便利ですが単位のが少�
 tags = []
 title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
 toc = true
-weight = 105000008
-excerpt = "PDFMake"
 images = []
 date = "2022-11-14"
 [sitemap]

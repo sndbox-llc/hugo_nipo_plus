@@ -1,10 +1,8 @@
 +++
 description = "長いことFirestoreはバックアップ機能を提供してきませんでした。この度Firebase公式のバックアップ手順が紹介されたため実際に導入してみたときの記事です"
-excerpt = "FireStoreのバックアップ"
 tags = ["firebase"]
 title = "Firestoreのデータバックアップを自動で行う一番簡単なやり方"
 toc = true
-weight = 105000011
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]

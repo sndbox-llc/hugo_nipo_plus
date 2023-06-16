@@ -1,7 +1,6 @@
 +++
 description = "Nipo クレジットカード失敗について"
 title = "クレジットカード決済失敗について"
-excerpt = "クレジットカード決済失敗について"
 tags = []
 toc = true
 date = "2023-03-21"

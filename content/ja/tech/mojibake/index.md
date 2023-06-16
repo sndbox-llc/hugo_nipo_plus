@@ -3,9 +3,7 @@ description = "WebでダウンロードしたZipファイルを解凍すると�
 tags = []
 title = "ダウンロードしたZipファイルが文字化けする原因と解決策-主にWindows"
 toc = true
-weight = 105000003
-excerpt = "Zipを解凍すると文字化けする"
-images = []
+images = ["zip-open.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

@@ -122,6 +122,8 @@
       "itemListElement": [{{ $list := $.Scratch.Get "breadcrumb" }}{{ $len := (len $list) }}{{ range $index, $element := $list }}{{ if ne .position 1 }},{{ end }}{
         "@type": "ListItem",
         "position": {{ .position }},
+        "name": "{{ .name | humanize | title }}",
+
         "item": {
           {{ if ne (add $index 1) $len -}}
           "@type": "WebPage",

@@ -6,7 +6,7 @@ images = ["factory-usage.jpg"]
 categories = ["製造業向け", "チェックシート"]
 tags = ["製造業向け", "チェックシート"]
 date = "2023-06-15"
-aliases = ["/checksheet/", "/blog/checksheet/"]
+aliases = ["/checksheet/", "/blog/checksheet/", "/blog/checklistapp/"]
 [sitemap]
   priority = 0.9
 +++

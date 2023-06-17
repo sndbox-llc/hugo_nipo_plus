@@ -6,6 +6,7 @@ menuTitle = "データの推移"
 toc = true
 weight = 101004002
 aliases = ["/manual/analytics/transition/"]
+images = ["make-charts_tablet.png"]
 +++
 
 今回の報告と比較して前回、前々回はどのような値だったのかを一覧表にして確認できます。

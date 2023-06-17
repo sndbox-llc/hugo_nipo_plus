@@ -5,6 +5,7 @@ title = "グループの基本設定"
 toc = true
 weight = 101001011
 aliases = ["/manual/initial-setting/make-group/"]
+images = ["switch_tablet.png"]
 +++
 
 グループの設定は編集者権限以上が必要です。

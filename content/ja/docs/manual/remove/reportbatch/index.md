@@ -5,6 +5,7 @@ title = "日報の一括削除"
 toc = true
 weight = 101011004
 aliases = ["/manual/remove/reportbatch/"]
+images = []
 +++
 
 ## グループ内の日報をまとめて削除

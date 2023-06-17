@@ -6,6 +6,7 @@ weight = 101000000
 tags = []
 mermaid = true
 aliases = ["/manual/initial-setting/"]
+images = ["sample-template_tablet.png"]
 +++
 
 

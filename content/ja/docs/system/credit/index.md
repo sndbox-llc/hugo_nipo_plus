@@ -5,6 +5,7 @@ title = "🖼️画像のクレジット表記"
 weight = 103000015
 toc = false
 aliases = ["/system/credit/"]
+images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

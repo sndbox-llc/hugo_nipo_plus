@@ -6,13 +6,12 @@ toc = true
 tags = ["有料プラン限定"]
 weight = 101005000
 aliases = ["/manual/calendar/"]
-
+images = ["mapping-reports-to-calendar_tablet.png"]
 +++
 
 報告書をカレンダー上に表示できます。日毎に報告書をチェックしたいときに便利です。
 
 {{<icatch filename="mapping-reports-to-calendar" msg="カレンダーから日報 を表示できます" title="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here">}}
-
 
 ## カレンダーの表示切替
 

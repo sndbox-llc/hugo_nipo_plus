@@ -5,6 +5,7 @@ title = "APIキーの取得"
 toc = true
 weight = 101010001
 aliases = ["/manual/api/key/"]
+images = ["invoke-api-key_tablet.png"]
 +++
 
 APIを使うとアプリを使わず直接報告書のデータを取得することができます。

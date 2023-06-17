@@ -7,6 +7,7 @@ toc = false
 draft = false
 weight = 101001035
 aliases = ["/manual/initial-setting/advanced-setting/template/", "/docs/manual/initial-setting/advanced-setting/template/"]
+images = []
 +++
 
 スタッフごとに報告書作成時に選択できるテンプレートを制限できます。

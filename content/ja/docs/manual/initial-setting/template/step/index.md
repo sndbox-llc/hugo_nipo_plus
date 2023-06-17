@@ -6,7 +6,9 @@ menuTitle = "🧩スライダ入力"
 toc = true
 weight = 101001113
 aliases = ["/manual/initial-setting/template/step/"]
+images = []
 +++
+
 スライダとは次のようなものです。
 
 <div class="container my-3" style="padding:20px;border:1px solid #ccc">

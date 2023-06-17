@@ -6,6 +6,7 @@ menuTitle = "提出先と共有先"
 toc = true
 weight = 101002002
 aliases = ["/manual/write-report/dist/"]
+images = []
 +++
 
 報告書を提出する際に、提出先と共有先の２種類を指定できます。それぞれの違いは以下のとおりです。

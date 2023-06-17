@@ -6,6 +6,7 @@ menuTitle = "🧩範囲入力"
 toc = true
 weight = 101001109
 aliases = ["/manual/initial-setting/template/range/"]
+images = []
 +++
 
 スライダにつまみが2つあります。これらを操作して範囲を入力できます。

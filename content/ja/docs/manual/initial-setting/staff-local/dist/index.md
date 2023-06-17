@@ -6,6 +6,7 @@ menuTitle = "🔐提出先の固定"
 toc = true
 weight = 101001034
 aliases = ["/manual/initial-setting/advanced-setting/dist/", "/docs/manual/initial-setting/advanced-setting/dist/"]
+images = []
 +++
 
 通常、スタッフが報告書を書く際に提出先・共有先を都度指定できますが、提出先を固定することも可能です。

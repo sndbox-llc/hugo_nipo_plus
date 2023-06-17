@@ -5,6 +5,7 @@ title = "商品状態管理"
 toc = true
 weight = 101001207
 aliases = ["/manual/initial-setting/advanced-setting/point/"]
+images = []
 +++
 
 ## 商品状態管理の目的

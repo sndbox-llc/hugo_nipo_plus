@@ -6,7 +6,7 @@ menuTitle = "予定と実績の管理"
 toc = true
 weight = 101004007
 aliases = ["/manual/analytics/progress/"]
-
+images = ["list_tablet.png"]
 +++
 
 報告書のデータを集計して日毎の予定とその実績を比較することができます。

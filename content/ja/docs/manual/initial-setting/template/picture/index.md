@@ -6,6 +6,7 @@ title = "【写真入力】を日報に追加"
 toc = true
 weight = 101001111
 aliases = ["/manual/initial-setting/template/picture/"]
+images = []
 +++
 
 {{<icatch filename="picture" msg="スマホで「パシャッ」 そのまま日報に添付" title="写真入力フォーム" fontsize="30px" alice="ok">}}

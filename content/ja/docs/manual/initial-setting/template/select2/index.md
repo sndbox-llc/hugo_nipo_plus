@@ -6,6 +6,7 @@ menuTitle = "🧩選択式入力（複数回答）"
 toc = true
 weight = 101001104
 aliases = ["/manual/initial-setting/template/select2/"]
+images = []
 +++
 
 

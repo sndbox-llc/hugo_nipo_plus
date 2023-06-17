@@ -5,6 +5,7 @@ title = "報告書を1件削除する"
 toc = true
 weight = 101011003
 aliases = ["/manual/remove/report/"]
+images = []
 +++
 
 ## 削除できる日報について

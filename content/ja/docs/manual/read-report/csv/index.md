@@ -5,6 +5,7 @@ title = "報告書CSV出力（単体）"
 toc = true
 weight = 101003004
 aliases = ["/manual/read-report/csv/"]
+images = []
 +++
 
 CSV出力機能はWeb版（PWA版)のNipo限定の機能です。Android / iOSアプリではご利用になれませんので注意してください。

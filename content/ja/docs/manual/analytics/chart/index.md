@@ -6,6 +6,7 @@ menuTitle = "📈グラフの作成"
 toc = true
 weight = 101004003
 aliases = ["/manual/analytics/chart/"]
+images = ["pie-chart_tablet.png"]
 +++
 
 集計が可能なフォームが含まれたテンプレートはグラフ化できます。

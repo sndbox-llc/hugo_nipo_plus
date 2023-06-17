@@ -5,6 +5,7 @@ title = "❓FAQ💡"
 toc = true
 weight = 103000010
 aliases = ["/system/faq/"]
+images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6

@@ -6,6 +6,7 @@ menuTitle = "🧩文字入力"
 toc = true
 weight = 101001102
 aliases = ["/manual/initial-setting/template/text/"]
+images = []
 +++
 
 文字入力フォームは報告書にシンプルな文字の入力フォームを追加します。

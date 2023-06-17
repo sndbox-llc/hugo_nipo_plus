@@ -5,6 +5,7 @@ title = "カレンダーの使い方"
 toc = true
 weight = 101005002
 aliases = ["/manual/calendar/use/"]
+images = ["monthly-calendar.png"]
 +++
 
 ## 月間カレンダーを使う

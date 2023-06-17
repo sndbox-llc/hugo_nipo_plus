@@ -6,7 +6,7 @@ menuTitle = "PDF一括出力"
 toc = true
 weight = 101004022
 aliases = ["/manual/analytics/pdf/"]
-
+images = []
 +++
 
 報告書をまとめてPDFに変換してダウンロードできます。
@@ -51,7 +51,6 @@ aliases = ["/manual/analytics/pdf/"]
 1. ZIPファイルとしてダウンロードされる
 
 {{<appscreen filename="add-pdf" title="PDFに変換したい報告書をリストに追加する">}}
-
 
 ## ダウンロードしたZipファイルが文字化けする？
 

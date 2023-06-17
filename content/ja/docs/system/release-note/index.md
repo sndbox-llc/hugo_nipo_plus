@@ -5,6 +5,7 @@ title = "システム更新履歴"
 toc = false
 weight = 103000004
 aliases = ["/system/release-note/", "/old/system/releasenote/"]
+images = []
 +++
 
 現在ご利用中のNipoPlusのバージョンは、サイドメニュー下部に記載されております。ここからバージョンを確認してください

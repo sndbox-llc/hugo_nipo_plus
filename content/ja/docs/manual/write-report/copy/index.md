@@ -6,6 +6,7 @@ menuTitle = "コピー&新規作成"
 toc = true
 weight = 101002005
 aliases = []
+images = []
 +++
 
 過去に書いた報告書をコピーして新たに報告書を作成できます。

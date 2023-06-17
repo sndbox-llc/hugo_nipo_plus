@@ -6,6 +6,7 @@ menuTitle = "iOSで使う"
 toc = true
 weight = 103000002
 aliases = ["/system/ios/"]
+images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6

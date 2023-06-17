@@ -5,6 +5,7 @@ title = "アカウントの管理"
 toc = true
 weight = 101001005
 aliases = ["/manual/initial-setting/staff/manage/"]
+images = []
 +++
 
 ## スタッフをグループに参加させる

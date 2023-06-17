@@ -6,6 +6,7 @@ menuTitle = "メール通知"
 toc = true
 weight = 101006002
 aliases = ["/manual/notice/email/"]
+images = []
 +++
 
 メール通知機能は報告書を受け取ったときやコメントが追加されたときなどのタイミングでメールでお知らせします。

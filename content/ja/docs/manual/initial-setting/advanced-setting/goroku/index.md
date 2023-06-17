@@ -5,6 +5,7 @@ title = "語録管理"
 toc = true
 weight = 101001203
 aliases = ["/manual/initial-setting/advanced-setting/goroku/"]
+images = []
 +++
 
 語録とはシンプルな単語の集まり（単語帳）です。  

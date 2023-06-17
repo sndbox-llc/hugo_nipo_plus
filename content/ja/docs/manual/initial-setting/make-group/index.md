@@ -5,6 +5,7 @@ title = "グループの作成"
 toc = true
 weight = 101001010
 aliases = ["/manual/initial-setting/make-group/"]
+images = []
 +++
 
 グループ分けが不要な場合は本ページをスキップできます。

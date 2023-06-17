@@ -5,7 +5,7 @@ title = "ログインとログアウト"
 toc = true
 weight = 101009001
 aliases = ["/manual/account/signin/"]
-
+images = ["signin_tablet.png"]
 +++
 
 ## NipoPlusにログインする

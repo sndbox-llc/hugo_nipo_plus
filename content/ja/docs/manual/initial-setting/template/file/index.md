@@ -6,6 +6,7 @@ menuTitle = "🧩ファイル入力"
 toc = true
 weight = 101001112
 aliases = ["/manual/initial-setting/template/file/"]
+images = []
 +++
 
 {{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" fontsize="30px" alice="ok">}}

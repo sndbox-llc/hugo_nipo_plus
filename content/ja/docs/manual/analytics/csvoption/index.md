@@ -6,6 +6,7 @@ menuTitle = "CSV出力の設定"
 toc = true
 weight = 101004020
 aliases = ["/manual/analytics/csvoption/"]
+images = ["csv-setting1_tablet.png"]
 +++
 
 報告書のデータをCSVに出力する際に出力の形式をカスタマイズできます。

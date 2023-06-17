@@ -5,6 +5,7 @@ title = "報告書を読む"
 toc = true
 weight = 101003002
 aliases = ["/manual/read-report/state/"]
+images = []
 +++
 
 保存BOXやカレンダーから報告書をクリックすると報告書の詳細が表示されます。

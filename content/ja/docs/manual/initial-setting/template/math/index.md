@@ -6,6 +6,7 @@ menuTitle = "🧩数値入力"
 toc = true
 weight = 101001115
 aliases = ["/manual/initial-setting/template/math/"]
+images = ["math_tablet.png"]
 +++
 
 最も普通な数値の入力を報告書に追加できます。小数点や負数もOK。

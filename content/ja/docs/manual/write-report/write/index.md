@@ -5,6 +5,7 @@ title = "日報を書くまでの流れ"
 toc = true
 weight = 101002001
 aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual/write-report/_about/"]
+images = []
 +++
 
 報告書を書く大まかな流れは以下のとおりです。

@@ -5,6 +5,7 @@ toc = false
 tags = []
 weight = 101011000
 aliases = ["/manual/remove/"]
+images = []
 +++
 
 {{<icatch filename="delete" msg="個別削除や一括削除 解散や解約について" title="安全なデータの削除" fontsize="30px" alice="shield">}}

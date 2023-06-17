@@ -5,6 +5,7 @@ toc = true
 tags = []
 weight = 101007000
 aliases = ["/manual/timecard/"]
+images = []
 +++
 
 

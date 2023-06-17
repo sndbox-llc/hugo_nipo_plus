@@ -6,7 +6,7 @@ menuTitle = "CSV一括出力"
 toc = true
 weight = 101004021
 aliases = ["/manual/analytics/csv/"]
-
+images = ["report-csv-export_tablet.png"]
 +++
 
 CSV出力はWeb版のみ対応しています。Android / iOSアプリ版では利用できません。

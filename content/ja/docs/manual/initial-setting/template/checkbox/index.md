@@ -6,6 +6,7 @@ menuTitle = "🧩チェックボックス入力"
 toc = true
 weight = 101001108
 aliases = ["/manual/initial-setting/template/checkbox/"]
+images = []
 +++
 
 あまりにも有名なのでもはや説明不要ですね。次のようなものです。

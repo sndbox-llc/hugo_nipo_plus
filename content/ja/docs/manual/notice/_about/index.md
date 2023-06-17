@@ -6,6 +6,7 @@ menuTitle = "通知概要"
 toc = true
 weight = 101006000
 aliases = ["/manual/notice/email/"]
+images = []
 +++
 
 NipoPlusには2種類の通知があります。1つはアプリを開くと確認できるベルアイコンの通知（アプリ内通知）、もう1つがメールによる通知です。

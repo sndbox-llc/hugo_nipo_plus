@@ -5,6 +5,7 @@ title = "グループの削除"
 toc = true
 weight = 101011006
 aliases = ["/manual/remove/group/"]
+images = []
 +++
 
 

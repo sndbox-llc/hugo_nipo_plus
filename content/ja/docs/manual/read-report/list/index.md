@@ -6,6 +6,7 @@ menuTitle = "保存BOX"
 toc = true
 weight = 101003001
 aliases = ["/manual/read-report/list/"]
+images = []
 +++
 
 保存BOXは次の３種類があります。切り替えて利用できます。

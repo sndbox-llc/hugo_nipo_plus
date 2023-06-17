@@ -6,7 +6,7 @@ menuTitle = "データの累積"
 toc = true
 weight = 101004001
 aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]
-
+images = ["charts_tablet.png"]
 +++
 
 報告書データの内計算が可能なデータをスタッフごとに分けて集計した表を「累積表」と言います。

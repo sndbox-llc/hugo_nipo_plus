@@ -5,6 +5,7 @@ title = "タイムカードの削除"
 toc = true
 weight = 101011005
 aliases = ["/manual/remove/timecard/"]
+images = []
 +++
 
 タイムカードは労働時間の把握、ひいてはお給料の計算にも使われることが考えられるため、削除には厳格なルールと権限が設けられています。

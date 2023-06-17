@@ -6,6 +6,7 @@ menuTitle = "下書き機能"
 toc = true
 weight = 101002003
 aliases = ["/manual/write-report/draft/"]
+images = []
 +++
 
 書きかけの報告書を下書きとして保存することで自分以外読めない状態で残すことができます。

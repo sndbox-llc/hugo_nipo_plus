@@ -5,6 +5,7 @@ title = "アプリ内の通知"
 toc = true
 weight = 101006001
 aliases = ["/manual/notice/show/", "/docs/manual/notice/show/"]
+images = []
 +++
 
 画面右上のベルアイコンをクリックして通知を確認できます。

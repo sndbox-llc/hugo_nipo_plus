@@ -6,6 +6,7 @@ toc = true
 weight = 101008003
 mermaid = true
 aliases = ["/manual/task/connect/"]
+images = []
 +++
 
 タスクが作成された時点では、そのタスクはまだ着工されていないため予定です。  

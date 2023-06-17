@@ -5,6 +5,7 @@ title = "📩お問い合わせ"
 toc = true
 weight = 103000016
 aliases = ["/docs/system/inquery/", "/system/inquery/"]
+images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.3

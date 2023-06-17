@@ -5,6 +5,7 @@ title = "カレンダーの設定"
 toc = true
 weight = 101005001
 aliases = ["/manual/calendar/setting/"]
+images = ["monthly-calendar.png"]
 +++
 
 カレンダーを使うには、メニューから「カレンダー」をクリックします。

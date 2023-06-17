@@ -6,6 +6,7 @@ menuTitle = "日報の詳細情報を表示する"
 toc = true
 weight = 101003006
 aliases = ["/manual/read-report/other/"]
+images = []
 +++
 
 日報本文の下にある「詳細」をクリックするとその文書データの詳細な情報を確認できます。

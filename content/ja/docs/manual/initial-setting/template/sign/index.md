@@ -6,6 +6,7 @@ menuTitle = "🧩署名・イラスト入力"
 toc = true
 weight = 101001110
 aliases = ["/manual/initial-setting/template/sign/"]
+images = []
 +++
 
 ペンや指を使って直筆サインやイラストを報告書に添付できます。

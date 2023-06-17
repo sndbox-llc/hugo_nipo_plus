@@ -5,6 +5,7 @@ title = "スタッフのアカウント作成"
 toc = true
 weight = 101001004
 aliases = ["/manual/initial-setting/staff/make/"]
+images = []
 +++
 
 スタッフの使用するメールアドレスを用意すれば簡単にスタッフアカウントを作成できます。(ログインパスワードは自動で設定されます)

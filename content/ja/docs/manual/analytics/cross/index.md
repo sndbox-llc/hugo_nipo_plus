@@ -6,7 +6,7 @@ menuTitle = "クロス集計"
 toc = true
 weight = 101004008
 aliases = ["/manual/analytics/cross/"]
-
+images = ["previews_tablet.png"]
 +++
 
 クロス集計とは異なる複数のテンプレートを横断して比較・集計する機能です。

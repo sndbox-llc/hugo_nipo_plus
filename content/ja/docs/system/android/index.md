@@ -6,6 +6,7 @@ menuTitle = "Androidで使う"
 toc = true
 weight = 103000003
 aliases = ["/system/android/"]
+images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6

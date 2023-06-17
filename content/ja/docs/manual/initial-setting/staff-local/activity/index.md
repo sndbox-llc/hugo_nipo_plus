@@ -5,7 +5,7 @@ title = "スタッフの活動実績"
 toc = true
 weight = 101001036
 aliases = ["/manual/initial-setting/advanced-setting/activity/", "/docs/manual/initial-setting/advanced-setting/activity/"]
-
+images = []
 +++
 
 スタッフが月に何件報告書を書いたか？といった活動状況を見ることができます。

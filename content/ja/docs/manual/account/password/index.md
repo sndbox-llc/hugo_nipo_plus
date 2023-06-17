@@ -6,7 +6,7 @@ menuTitle = "パスワードの変更"
 toc = true
 weight = 101009003
 aliases = ["/manual/account/password/"]
-
+images = ["login_tablet.png"]
 +++
 
 ログインに使用するパスワードの変更ができます。パスワードを忘れてしまいログインできない方は本ページ末尾の「パスワードを忘れてログインできない方」を御覧ください。

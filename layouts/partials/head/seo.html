@@ -12,8 +12,12 @@
 
 {{ if .IsHome -}}
   <title>{{ .Site.Params.title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.titleAddition }}</title>
-{{ else -}}
-  <title>{{ .Title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.title }}</title>
+{{ else if .Params.isNipo -}}
+  <title>{{ .Title }} {{ .Site.Params.titleSeparator }} Nipo(旧Ver)</title>
+{{ else if in .Permalink "/docs/" -}}
+  <title>{{ .Title }} （操作ガイド）{{ .Site.Params.titleSeparator }}クラウド日報 NipoPlus</title>
+{{ else  -}}
+  <title>{{ .Title }} {{ .Site.Params.titleSeparator }} クラウド日報NipoPlus</title>
 {{ end -}}
 
 {{ with .Description -}}

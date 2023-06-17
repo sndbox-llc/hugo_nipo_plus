@@ -6,7 +6,16 @@ toc = true
 weight = 102000002
 aliases = ["/price/free/"]
 images = []
+mermaid = true
 +++
+
+{{<mermaid align="center">}}
+graph LR;
+classDef class1 fill:#7BCCAC
+  利用開始 --> トライアル期間 --> 満了 -->  無料プランへ:::class1
+  無料プランへ--> 無料で継続利用:::class1
+  無料プランへ--> 有料プランへ加入
+{{< /mermaid >}}
 
 無料お試し期間が終了すると無料プランへ切り替わります。
 無料プランでも基本的な日報の作成や閲覧は可能です。詳しくはこちらの記事をどうぞ

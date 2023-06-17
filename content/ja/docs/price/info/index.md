@@ -1,13 +1,24 @@
 +++
 description = "NipoPlusでは、1ヶ月の無料トライアル期間が用意されています。管理画面から簡単に残りの日数を確認できるため、利用期間を把握しやすく、安心して利用できます。"
 tags = []
-title = "無料お試し期間（トライアル期間）"
+title = "無料お試しトライアル期間"
 menuTitle = "無料お試し期間"
 toc = true
 weight = 102000001
 aliases = ["/price/info/"]
 images = []
+mermaid = true
+
 +++
+
+{{<mermaid align="center">}}
+graph LR;
+classDef class1 fill:#7BCCAC
+  利用開始 --> トライアル期間:::class1 --> 満了 -->  無料プランへ
+  無料プランへ--> 無料で継続利用
+  無料プランへ--> 有料プランへ加入
+{{< /mermaid >}}
+
 
 初めてNipoPlusを使うと無料お試し期間が自動で付与されます。
 

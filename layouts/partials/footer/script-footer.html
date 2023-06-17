@@ -77,7 +77,7 @@
   {{ if .Site.Params.options.bootStrapJs -}}
     <script src="{{ $bs.RelPermalink }}" defer></script>
   {{ end -}}
-  {{ if .Site.Params.options.highLight -}}
+  {{ if .Params.code -}}
     <script src="{{ $highlight.RelPermalink }}" defer></script>
   {{ end -}}
   {{ if .Site.Params.options.kaTex -}}
@@ -102,7 +102,7 @@
   {{ if .Site.Params.options.bootStrapJs -}}
     <script src="{{ $bs.RelPermalink }}" integrity="{{ $bs.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
-  {{ if .Site.Params.options.highLight -}}
+  {{ if .Params.code -}}
     <script src="{{ $highlight.RelPermalink }}" integrity="{{ $highlight.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
   {{ if .Site.Params.options.kaTex -}}

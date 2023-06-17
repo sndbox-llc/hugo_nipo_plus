@@ -23,7 +23,7 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
 |:---:|:---:|:---:|:---:|
 |○|○|○|✗|
 
-{{<icatch filename="input-method-checkbox" msg="YES・NO 2択で答えるならこれ" title="チェックボックス入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="input-method-checkbox" msg="YES・NO 2択で答えるならこれ" title="チェックボックス入力フォーム" fontsize="30px" alice="ok">}}
 
 用途としては次のようなものがあります
 
@@ -61,29 +61,25 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
 
 メモの使われ方がチェックボックスだけ他の項目と異なり、ボックスの横に配置されるという点にだけ注意してください。
 
-{{<appscreen filename="template-edit-checkbox"  title="チェックボックスをテンプレートに追加する設定画面" fontsize="30px" alice="here" >}}
+{{<appscreen filename="template-edit-checkbox"  title="チェックボックスをテンプレートに追加する設定画面">}}
 
 {{<nextArrow>}}
 
-{{<appscreen filename="checkbox-preview"  title="チェックボックスを使った報告書のプレビュー" fontsize="30px" alice="here" >}}
-
-
+{{<appscreen filename="checkbox-preview"  title="チェックボックスが含まれた報告書のプレビュー">}}
 
 ## チェックボックスのデータを集計
 
 チェックボックスのデータは集計対象です。過去データ推移や累積、そこからグラフの作成も可能です。
 
-{{<appscreen filename="pie-charts" title="グラフ化"  >}}
+{{<appscreen filename="pie-charts" title="チェックボックスのデータを円グラフにしたイメージ">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
-
 
 ## チェックボックスのデータをCSVに出力
 
 出力形式を変えることができます。
 
 {{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}
-
 
 列展開がONの場合のCSV出力例
 <div class="excelTable">
@@ -112,5 +108,3 @@ aliases = ["/manual/initial-setting/template/checkbox/"]
 6|2023/06/01 11:15|ON|ON|これはサンプルです
 
 </div>
-
-

@@ -9,7 +9,6 @@ aliases = ["/manual/initial-setting/make-group/"]
 
 グループの設定は編集者権限以上が必要です。
 
-
 ## 作業グループの確認と切替
 
 今作業しているグループは画面上部のバーに表示されています。必要に応じて編集するグループに切り替えの上作業してください。
@@ -20,13 +19,13 @@ aliases = ["/manual/initial-setting/make-group/"]
 1. 作業するグループ名をクリック
 1. グループが切り替わる
 
-{{<appscreen filename="switch" title="グループの編集"  >}}
+{{<appscreen filename="switch" title="グループ名をクリックして他のグループに切り替えます">}}
 
 ## グループ設定画面構成
 
 メニューから「グループ設定」をクリックします。
 
-{{<appscreen filename="group-manage" title="グループの編集"  >}}
+{{<appscreen filename="group-manage" title="グループの全般設定では使用する機能やテーマカラーの変更が可能です">}}
 
 グループに関する様々な設定がまとまっています。
 

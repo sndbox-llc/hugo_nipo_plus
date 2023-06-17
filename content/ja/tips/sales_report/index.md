@@ -27,14 +27,14 @@ NipoPlus上で集計やグラフを作ることが可能です。こちらの記
 ## 1ヶ月分の日報をまとめてCSV出力
 
 今回は下図のような営業日報を例に見ていきましょう。
-{{<appscreen filename="sample-report" title="CSV出力する報告書のサンプル"  >}}
+{{<appscreen filename="sample-report" title="CSV出力する報告書のサンプル">}}
 
 日報は日別に提出されるためそのままでは集計に不向きです。上の図でも1件の報告書であり、集約されていません。  
 毎日、日報からエクセルに必要なデータを書き写すような作業をしていませんか？
 これはあまりにも非効率です。NipoPlusでは期間を指定してワンクリックで1ヶ月分の日報をCSVでダウンロードできます。
 
 
-{{<appscreen filename="csv-export" title="1ヶ月分の報告書をまとめてCSVに出力する"  >}}
+{{<appscreen filename="csv-export" title="1ヶ月分の報告書をまとめてCSVに出力する">}}
 
 
 

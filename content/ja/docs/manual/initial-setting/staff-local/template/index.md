@@ -18,11 +18,11 @@ aliases = ["/manual/initial-setting/advanced-setting/template/", "/docs/manual/i
 1. 「利用可能なテンプレートを制限する」をONにする
 1. 利用可能なテンプレートをリストから選ぶ
 
-{{<appscreen filename="show-template-setting" title="スタッフが使用できるテンプレートを制限する" >}}
+{{<appscreen filename="show-template-setting" title="スタッフが使用できる報告書のテンプレートを制限する">}}
 
 {{<nextArrow>}}
 ポップアップで設定が開きます。
-{{<appscreen filename="template-control-setting" title="設定画面がポップアップで表示される。使用可能なテンプレートを選ぶことでそれ以外が使えなくなる" >}}
+{{<appscreen filename="template-control-setting" title="使用可能なテンプレートを選ぶことでそれ以外の報告書テンプレートが使えなくなる">}}
 
 利用可能なテンプレートを制限するのチェックを入れ、テンプレートを選んでください。
 報告書作成時に選ばれたテンプレートだけが一覧に表示されるようになります。

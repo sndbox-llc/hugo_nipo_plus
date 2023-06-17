@@ -29,7 +29,7 @@ aliases = ["/manual/initial-setting/template/select2/"]
 
 このような選択式フォームを報告書に追加できます。
 
-{{<icatch filename="select2" msg="選ぶだけの簡単入力 色分けも可能" title="選択肢入力フォームのテンプレート例" fontsize="30px" alice="here" >}}
+{{<icatch filename="select2" msg="選ぶだけの簡単入力 色分けも可能" title="選択肢入力フォームのテンプレート例" fontsize="30px" alice="here">}}
 
 回答を1つだけ選ぶ場合は「[選択肢入力フォーム（単）](/docs/manual/initial-setting/template/select/)」をご利用ください。
 
@@ -66,10 +66,10 @@ aliases = ["/manual/initial-setting/template/select2/"]
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
-{{<appscreen filename="template-edit-select2" title="選択肢入力フォームを含んだ報告書の設計"  >}}
+{{<appscreen filename="template-edit-select2" title="選択肢入力フォームを含んだ報告書の設計">}}
 
 {{<nextArrow>}}
-{{<appscreen filename="select2-preview"  title="選択式の入力画面イメージ" fontsize="30px" alice="here" >}}
+{{<appscreen filename="select2-preview"  title="選択式の入力画面イメージ">}}
 
 選択肢の色分けについてはこちらに記載しています。やり方は同じです。
 

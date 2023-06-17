@@ -21,7 +21,7 @@ draft = false
 
 業務報告には文字だけではなく、作業現場の写真や現地調査の写真などを添付する必要がある場合があります。
 
-{{<icatch filename="icatch-photo-report" msg="現場の写真を 報告書に添付可" title="予定と実績の進捗表" fontsize="30px" alice="guide" >}}
+{{<icatch filename="icatch-photo-report" msg="現場の写真を 報告書に添付可" title="予定と実績の進捗表" fontsize="30px" alice="guide">}}
 
 ## 撮影してWordに貼り付けは手間がかかる
 
@@ -38,7 +38,7 @@ NipoPlusを使えばタブレット１台で現場の撮影から写真付き報
 
 必要な項目が洗い出せたらそれをもとに報告書のテンプレートを作ります。
 
-{{<appscreen filename="make-photo-report" msg="現場の写真を 報告書に添付可" title="報告書テンプレートの設計画面。写真をテンプレートに埋め込む" fontsize="30px" alice="guide" >}}
+{{<appscreen filename="make-photo-report" title="報告書テンプレートの設計画面。写真をテンプレートに埋め込む">}}
 
 今回主役となる「写真入力フォーム」も忘れず追加しておきましょう。
 
@@ -58,7 +58,7 @@ NipoPlusを使えばタブレット１台で現場の撮影から写真付き報
 1. 写真のフォームに撮影しておいた写真を添付する
 1. その他必要事項を埋めて提出
 
-{{<appscreen filename="write-photo-report"  title="報告書の作成画面。写真はタップして追加できます" fontsize="30px" alice="guide" >}}
+{{<appscreen filename="write-photo-report"  title="報告書の作成画面。写真はタップして追加できます">}}
 
 写真はタップして追加してください。
 １つのフォームに複数枚の写真を添付できますが後述するPDF出力と相性が悪いので１つの入力フォームに1枚の写真（つまり今回は３枚）にしておきます。
@@ -72,7 +72,7 @@ NipoPlusを使えばタブレット１台で現場の撮影から写真付き報
 
 報告書はNipoPlusのアカウントが無いと読めませんが、もし顧客や関係者に報告書を提出する際はPDFに変換して提出できます。
 
-{{<appscreen filename="convert-pdf"  title="写真付き報告書をPDFに変換して出力" fontsize="30px" alice="guide" >}}
+{{<appscreen filename="convert-pdf"  title="写真付き報告書をPDFに変換して出力">}}
 
 {{<warning>}}
 ものすごく色が濁って見えるのは説明用画像なのであえて色彩を８色に落としているためです。実際はもっとキレイに見えます。
@@ -90,7 +90,7 @@ PDFに出力された報告書はプレーンなPDFファイルです。
 
 先程までは写真のフォームを専有幅4として作りました。専有幅が広いほど大きな写真としてPDFに出力されます。
 
-{{<appscreen filename="pdf-sample2"  title="写真付き報告書をPDFに変換して出力" fontsize="30px" alice="guide" >}}
+{{<appscreen filename="pdf-sample2"  title="写真付き報告書をPDFに変換して出力">}}
 
 以下の専有幅に設定を変更しました。
 

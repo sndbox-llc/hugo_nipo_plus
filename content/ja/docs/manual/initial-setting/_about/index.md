@@ -51,7 +51,7 @@ graph LR;
 複数のグループに所属しているアカウントは画面左上のボタンから作業グループを簡単に切り替えできます。
 
 
-{{<icatch filename="switch" msg="グループの切替は 画面左上から操作" title="作業グループの切り替え" fontsize="30px" alice="ok" >}}
+{{<icatch filename="switch" msg="グループの切替は 画面左上から操作" title="作業グループの切り替え" fontsize="30px" alice="ok">}}
 
 ※グループの作成には管理者権限が必要です。
 

@@ -32,7 +32,7 @@ aliases = ["/manual/write-report/rewrite/"]
 <div class="col-sm-16 col-md-6">{{<button "/docs/manual/notice/app/" "アプリ内通知">}}</div>
 </div>
 
-{{<appscreen filename="edit" title="修正したい日報を選択します。ここでは送信BOXから探す手順ですが直接URLを開いてもいいですし、通知エリアからジャンプしても良いです"  >}}
+{{<appscreen filename="edit" title="修正したい日報を選択します。ここでは送信BOXから探す手順ですが直接URLを開いてもいいですし、通知エリアからジャンプしても良いです">}}
 
 修正ボタンをクリックすると日報の編集画面に切り替わります。一見すると日報の作成画面と同じですが細かな違いがあります。
 
@@ -58,7 +58,7 @@ aliases = ["/manual/write-report/rewrite/"]
 
 報告書を修正すると状態が「修正」に切り替わります。
 
-{{<appscreen filename="report-status-change" title="修正された報告書は状態が「修正」になります"  >}}
+{{<appscreen filename="report-status-change" title="修正された報告書は状態が「修正」になります">}}
 
 もし承認リレーが組まれていた報告書出会った場合は、承認リレーがどこまで進んでいても1から振り出しに戻ります。
 

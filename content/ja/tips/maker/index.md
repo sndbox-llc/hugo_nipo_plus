@@ -41,7 +41,7 @@ aliases = ["/checksheet/maker/"]
 
 これをNipoPlusのチェックシートテンプレートとして作ると、次のように作成することができます。
 
-{{<appscreen filename="sample1" title="設備点検チェックシートのサンプル" >}}
+{{<appscreen filename="sample1" title="設備点検チェックシートのサンプル">}}
 
 点検項目と○✗選択をNipoPlusでは[チェックボックス入力フォーム](/docs/manual/initial-setting/template/checkbox/)を使って表現出来ます。
 コメントエリアに着いては[本文入力フォーム](/docs/manual/initial-setting/template/text/)を使って表現しています。
@@ -59,14 +59,14 @@ NipoPlusでは幅12で1行になるので9+3でちょうど1行になるよう�
 
 具体的なチェックシートの設計画面です。
 
-{{<appscreen filename="edit1" title="設備点検チェックシートの設計画面" >}}
+{{<appscreen filename="edit1" title="設備点検チェックシートの設計画面">}}
 
 ## 製造部品のズレ幅を記入するチェックシート（品質保証部）
 
 とある自動車部品メーカーの品質保証部の方からのリクエストで、**外国人のスタッフでもわかるように選択式を色分けしたい**とのご要望をいただきました。
 部品のズレ幅などを[選択式](/docs/manual/initial-setting/template/select/)から選ぶスタイルで入力を行う製品チェックシートになります。
 
-{{<appscreen filename="sample2" title="" >}}
+{{<appscreen filename="sample2" title="">}}
 
 ズレ幅のような入力をする場合、いくつかの作り方があります。
 ズレ幅がある程度絞れる場合は[スライダ入力フォーム](/docs/manual/initial-setting/template/step/)を使うのもありです。
@@ -79,11 +79,11 @@ NipoPlusでは幅12で1行になるので9+3でちょうど1行になるよう�
 言葉では説明しにくいですね。選択式の集計方式を視覚化してみましょう。
 「+1mmが選ばれた回数」や「+2mmが選ばれた回数」のように基準を「回数」としてカウントすることで円グラフや棒グラフの作成が可能です。
 
-{{<appscreen filename="pie-chart" title="選択された回数を基準として集計し、円グラフを生成" >}}
+{{<appscreen filename="pie-chart" title="選択された回数を基準として集計し、円グラフを生成">}}
 
 一方で「+1mm」を数値の1に変換することで、折れ線グラフなどを生成することも可能です。
 
-{{<appscreen filename="line-chart" title="選択されたデータを数値化し、折れ線グラフを生成" >}}
+{{<appscreen filename="line-chart" title="選択されたデータを数値化し、折れ線グラフを生成">}}
 
 「+1mm」のような文字を数値の「1」へ変換する処理はNipoPlus側が自動で行います。数値化出来ないものは0に置き換えられます。
 
@@ -97,7 +97,7 @@ NipoPlusでは幅12で1行になるので9+3でちょうど1行になるよう�
 
 仮に生産数が100個、不良数が5個であった場合、不良率が5%という計算を自動で行うチェックシートの例です。
 
-{{<appscreen filename="auto-calc" title="" >}}
+{{<appscreen filename="auto-calc" title="">}}
 
 基本的な四則演算とカッコ、そして入力フォームを組み合わせてオリジナルの計算式を作ることができます。
 ルートなど特殊な記号は使えませんが、製造業において一般的な計算は作成することが可能です。

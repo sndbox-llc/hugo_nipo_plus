@@ -11,7 +11,7 @@ aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]
 
 報告書データの内計算が可能なデータをスタッフごとに分けて集計した表を「累積表」と言います。
 
-{{<appscreen filename="acc-table" title="日報を一覧表にして過去と比較する" fontsize="30px" alice="ok" >}}
+{{<appscreen filename="acc-table" title="報告書を提出したスタッフごとに分けて集計可能。スタッフ同士の比較に最適">}}
 
 - 累積表は報告書を越担持に自動で生成され、直近最大30件の報告書を集計します。
 - スタッフ別に分けて集計されるため、スタッフ同士の成績比較などに向いています
@@ -21,7 +21,6 @@ aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]
 報告書閲覧時の自動生成は直近何件といった形での集計になります。  
 そうではなく先月や先々月など、期間を指定してデータ累積表を作成するには集計機能を使います。
 
-
 1. メニューから「集計・CSV出力」をクリック
 1. 集計期間を選択
 1. 「推移・累積・グラフ」を選択
@@ -29,7 +28,7 @@ aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]
 1. 「累積」タブをクリック
 1. 累積表が表示される
 
-{{<appscreen filename="acc-table2" title="集計機能を使い期間を指定して累積表を生成した" fontsize="30px" alice="ok" >}}
+{{<appscreen filename="acc-table2" title="集計機能を使い報告書を集計した結果">}}
 
 - オレンジ色の数字はそのスタッフが期間内に提出した報告書の件数を表しています
 - スタッフ名をクリックするとスタッフの報告書がポップアップで表示されます
@@ -59,9 +58,7 @@ aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]
 
 </div>
 
-
 ## 生成された表に独自の計算フィールドを追加する
-
 
 表に独自の計算フィールドを追加できます。
 
@@ -72,7 +69,7 @@ aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]
 
 例えば約定件数と訪問件数から約定率を算出すると行ったことができます。
 
-{{<appscreen filename="make-fomula" title="独自の計算式を使って表に計算を加える" fontsize="30px" alice="ok" >}}
+{{<appscreen filename="make-fomula" title="集計表に数式を追加して計算行を付け足す">}}
 
 計算式には各種フォームの他、簡単な四則演算や（）が使えます。
 また選択式入力フォームを計算式に使う場合は、単語に「数字」が含まれている場合に限り数字として振る舞います。
@@ -86,18 +83,16 @@ aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]
 削除したい数式の行にあるゴミ箱アイコンをクリックし、確認メッセージにOKを返せば削除は完了です。
 数式を修正したい場合は同行にある鉛筆アイコンをクリックして、数式を修正できます。
 
-
 ## 累積表をグラフ化する
 
 累積表のデータを折れ線や円・棒グラフにすることができます。
 前述した数式もグラフに使用することができます。例えば下の画像の折れ線は数式のデータ（約定率）ですがグラフ化できていることがわかります。
 
-{{<appscreen filename="charts" title="累積表のデータをもとに棒グラフを作った" fontsize="30px" alice="ok" >}}
+{{<appscreen filename="charts" title="累積表のデータを元に棒グラフを作成">}}
 
 グラフの作成については「グラフの作成」を御覧ください。
 
 {{<btnCenter "/docs/manual/analytics/chart/" "グラフの作成">}}
-
 
 <!--
 

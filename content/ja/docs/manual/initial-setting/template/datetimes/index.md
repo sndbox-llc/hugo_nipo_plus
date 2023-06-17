@@ -32,7 +32,7 @@ aliases = ["/manual/initial-setting/template/datetimes/"]
 
 
 
-{{<icatch filename="datetimes-icatch" msg="作業時間や期間 日付の計算も可能" title="期間入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="datetimes-icatch" msg="作業時間や期間 日付の計算も可能" title="期間入力フォーム" fontsize="30px" alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
@@ -82,17 +82,14 @@ aliases = ["/manual/initial-setting/template/datetimes/"]
 |時刻のみ|HH:mm|13:21|可|
 |日付と時刻|YYYY/MM/DD HH:mm|2022/12/01 13:21|不可|
 
-
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-
-
-{{<appscreen filename="template-edit-datetimes" title="期間入力フォームのみで構成されたテンプレートの例"  >}}
+{{<appscreen filename="template-edit-datetimes" title="期間入力フォームのみで構成されたテンプレートの例">}}
 
 {{<nextArrow>}}
 
-{{<appscreen filename="datetimes-preview" title="期間入力の入力イメージ。時刻の場合はスライダーを使った入力方式も可能"  >}}
+{{<appscreen filename="datetimes-preview" title="期間入力の入力イメージ。時刻の場合はスライダーを使った入力方式も可能">}}
 
 
 スライダは便利ですがこの状態だと宵越しの入力はできません。**深夜12時をまたぐ入力が必要な場合は入力方式を切り替える**ことで入力が可能です。
@@ -107,11 +104,9 @@ aliases = ["/manual/initial-setting/template/datetimes/"]
 期間は時間のため集計が可能です。集計は単位が分に統一されることに注意してください。
 例えば10:00 - 11:30は1時間半ですが集計上は 90(分)となります。
 
-{{<appscreen filename="charts" title="期間のデータ（単位：分）を使って積み上げたて棒グラフを作成した例。他にも折れ線や円グラフなど自由に作成できます"  >}}
+{{<appscreen filename="charts" title="期間のデータ（単位：分）を使って積み上げたて棒グラフを作成した例。他にも折れ線や円グラフなど自由に作成できます">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
-
-
 
 ### CSVs出力
 
@@ -131,8 +126,6 @@ CSV出力時は開始時点・終了時点の2列に分けて出力されます�
 
 ## おまけ：その他の入力方式
 
-
 時刻以外の期間入力を一覧で記載します。
 
-
-{{<appscreen filename="input" title="期間入力の入力イメージ。時刻の場合はスライダーを使った入力方式も可能"  >}}
+{{<appscreen filename="input" title="報告書に期間入力を追加した例。いくつかのパタンーンがある">}}

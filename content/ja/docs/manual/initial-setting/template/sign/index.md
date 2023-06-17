@@ -10,7 +10,7 @@ aliases = ["/manual/initial-setting/template/sign/"]
 
 ペンや指を使って直筆サインやイラストを報告書に添付できます。
 
-{{<icatch filename="input-method-pen" msg="直筆サインや 手書きのイラストに" title="署名入力フォーム" fontsize="30px" alice="tablet" >}}
+{{<icatch filename="input-method-pen" msg="直筆サインや 手書きのイラストに" title="署名入力フォーム" fontsize="30px" alice="tablet">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
@@ -50,26 +50,26 @@ aliases = ["/manual/initial-setting/template/sign/"]
 署名の場合幅は4〜8を推奨。全画面の場合は幅12を推奨
 {{< /warning >}}
 
-{{<appscreen filename="edit-report-template" title="署名入力フォームだけで構成された日報テンプレートを作成しました。この例をもとに入力・出力画面をご紹介していきます"  >}}
+{{<appscreen filename="edit-report-template" title="署名入力フォームだけで構成された日報テンプレートを作成しました。この例をもとに入力・出力画面をご紹介していきます">}}
 {{<nextArrow>}}
-{{<appscreen filename="input" title="日報作成画面。署名ボタンをタップして署名入力ウインドウがポップ表示されます"  >}}
+{{<appscreen filename="input" title="日報作成画面。署名ボタンをタップして署名入力ウインドウがポップ表示されます">}}
 
 {{<nextArrow>}}
 
 ボタンをクリックするとキャンバスが表示されます。下の画像は署名用のものです。
 S/M/Lの３段階に調整できます。
 
-{{<appscreen filename="write-signature" title="署名をスタイラスペンで書く"  >}}
+{{<appscreen filename="write-signature" title="署名をスタイラスペンで書く">}}
 
 イラスト用のキャンバスは次のようなデザインです。
 
-{{<appscreen filename="draw-stylus-pen" title="イラスト用キャンバスの画面。カラーパレットや線の太さを調整するボタンなどが表示されている"  >}}
+{{<appscreen filename="draw-stylus-pen" title="イラスト用キャンバスの画面。カラーパレットや線の太さを調整するボタンなどが表示されている">}}
 
 {{<nextArrow>}}
 
 署名の書かれた報告書は指定した幅に合わせて描画されます。
 
-{{<appscreen filename="post" title="署名入力フォームを含んだ日報を受信したときの見え方"  >}}
+{{<appscreen filename="post" title="署名入力フォームを含んだ日報を受信したときの見え方">}}
 
 （※あくまで縮小されるだけでもとの署名データは同一です）
 
@@ -78,7 +78,7 @@ S/M/Lの３段階に調整できます。
 CSV出力のオプション設定から「写真・ファイル等を出力する」をONにしてCSV出力すると別フォルダに署名やイラストがダウンロードされます。
 
 
-{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード"  >}}
+{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード">}}
 
 これで[写真入力フォーム](/docs/manual/initial-setting/template/picture/)、[署名入力フォーム](/docs/manual/initial-setting/template/sign/)、[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)それぞれののデータがCSV出力時にまとめてダウンロードされます。
 それぞれの日報フォルダの中に写真や署名・データファイルなどがまとめられます。

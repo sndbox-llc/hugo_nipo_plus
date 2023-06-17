@@ -8,7 +8,7 @@ weight = 101001112
 aliases = ["/manual/initial-setting/template/file/"]
 +++
 
-{{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" fontsize="30px" alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
@@ -22,7 +22,7 @@ aliases = ["/manual/initial-setting/template/file/"]
 
 ファイル入力フォームの初期設定項目は非常にシンプルです。
 
-{{<appscreen filename="file-template-edit" title="日報にPDF等のファイルを添付するフォームを追加します"  >}}
+{{<appscreen filename="file-template-edit" title="日報にPDF等のファイルを添付するフォームを追加します">}}
 
 特に固有の設定はありません。
 共通設定事項については以下を参照してください。
@@ -35,13 +35,13 @@ aliases = ["/manual/initial-setting/template/file/"]
 1つの入力フォームに対して10ファイルまで添付できるので、この例では最大40ファイルまで添付できます。
 ただし1ファイルに付き1MBを超えることはできません。
 
-{{<appscreen filename="input" title="ファイル入力フォームを使った日報の作成画面イメージ。添付したファイルは即座にアップロードされます。"  >}}
+{{<appscreen filename="input" title="ファイル入力フォームを使った日報の作成画面イメージ。添付したファイルは即座にアップロードされます。">}}
 
 ## ファイルの添付された日報の表示
 
 添付時のファイル名がリスト上に表示されます。クリックでそのファイルをダウンロードできます。
 
-{{<appscreen filename="post" title="添付されたファイルはクリックしてローカルにダウンロードして使用できます。"  >}}
+{{<appscreen filename="post" title="添付されたファイルはクリックしてローカルにダウンロードして使用できます。">}}
 
 仮に添付されたファイルが**画像データであってもプレビューされません**。これが写真入力フォームとの大きな違いです。
 汎用性は本フォームのほうが高いですが写真に限定するとプレビューされる写真入力フォームも利便性では優位です。
@@ -74,17 +74,14 @@ https://firebasestorage.googleapis.com/v0/b/nipo-plus.appspot.com/o/a16h8Q74slMY
 上記URLはいくつかのフェイクを入れているため実際にダウンロードすることはできません。1文字でも異なれば弾き返します！
 {{</alice>}}
 
-
 ## イラストデータのダウンロード
 
 CSV出力のオプション設定から「写真・ファイル等を出力する」をONにしてCSV出力すると別フォルダに署名やイラストがダウンロードされます。
 
-
-{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード"  >}}
+{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード">}}
 
 これで[写真入力フォーム](/docs/manual/initial-setting/template/picture/)、[署名入力フォーム](/docs/manual/initial-setting/template/sign/)、[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)それぞれののデータがCSV出力時にまとめてダウンロードされます。
 それぞれの日報フォルダの中に写真や署名・データファイルなどがまとめられます。
-
 
 ### PDFの出力
 

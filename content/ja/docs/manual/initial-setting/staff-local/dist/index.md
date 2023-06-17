@@ -6,7 +6,6 @@ menuTitle = "🔐提出先の固定"
 toc = true
 weight = 101001034
 aliases = ["/manual/initial-setting/advanced-setting/dist/", "/docs/manual/initial-setting/advanced-setting/dist/"]
-
 +++
 
 通常、スタッフが報告書を書く際に提出先・共有先を都度指定できますが、提出先を固定することも可能です。
@@ -35,13 +34,12 @@ aliases = ["/manual/initial-setting/advanced-setting/dist/", "/docs/manual/initi
 1. 設定するテンプレートを選択
 1. 提出先を指定する
 
-{{<appscreen filename="dist-setting" title="グループに所属しているスタッフ一覧から、提出先を指定したいスタッフを見つけて提出先の指定をクリックしてください" >}}
-
+{{<appscreen filename="dist-setting" title="スタッフアカウントに対して報告書の提出先を強制的に固定する">}}
 
 {{<nextArrow>}}
 ポップアップで提出先の指定ウインドウが表示されます。
 
-{{<appscreen filename="dist-detail" title="スタッフごとに提出先の設定を行う" >}}
+{{<appscreen filename="dist-detail" title="スタッフが報告書を提出する相手を指定">}}
 
 スタッフごとに、テンプレートと提出先の設定をします。シンプルに考えましょう。
 
@@ -66,17 +64,16 @@ aliases = ["/manual/initial-setting/advanced-setting/dist/", "/docs/manual/initi
 報告書のテンプレートごとに提出先の指定が可能です。設定が競合する場合は前述の「スタッフ基準の指定」が優先されます。
 この設定はテンプレート管理画面から行うため画面を切り替えてください。
 
-
 1. グループ設定をクリック
 1. テンプレート管理をクリック
 1. 提出先を指定したいテンプレートの行にある「提出先の指定」をクリック
 1. 設定画面が表示される
 1. 提出先や共有先を指定する
 
-{{<appscreen filename="template-dist" title="テンプレートごとに提出先を指定する" >}}
+{{<appscreen filename="template-dist" title="報告書のテンプレートごとに提出先を指定する">}}
 {{<nextArrow>}}
 
-{{<appscreen filename="template-dist-detail" title="詳細設定画面" >}}
+{{<appscreen filename="template-dist-detail" title="詳細設定画面">}}
 
 スタッフごとの指定に比べると非常にシンプルです。
 
@@ -84,7 +81,7 @@ aliases = ["/manual/initial-setting/advanced-setting/dist/", "/docs/manual/initi
 
 提出先を指定ときは報告書作成時に提出先が自動でセットされます。変更のロックが有効だと提出先の変更も不可能になります。
 
-{{<appscreen filename="dist-locked" title="報告書の執筆画面。提出先が変更できないように固定された" >}}
+{{<appscreen filename="dist-locked" title="報告書の提出時に、提出先が変更できないように固定された">}}
 
 ## 可能であれば提出先の指定をすることが望ましい
 

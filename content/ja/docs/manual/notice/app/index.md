@@ -10,7 +10,7 @@ aliases = ["/manual/notice/show/", "/docs/manual/notice/show/"]
 画面右上のベルアイコンをクリックして通知を確認できます。
 ベルアイコンには通知の個数が表示されます。
 
-{{<appscreen filename="notify" title="右上のベルアイコンをクリックして通知を確認します"  >}}
+{{<appscreen filename="notify" title="右上のベルアイコンをクリックして通知を確認します">}}
 
 ピンク色になっている通知は現在、画面に表示されている通知のデータを表しています。
 同じデータに対して複数の通知が発行されるケースもあります  

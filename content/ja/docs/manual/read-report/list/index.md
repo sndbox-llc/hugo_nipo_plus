@@ -26,7 +26,7 @@ aliases = ["/manual/read-report/list/"]
 
 保存ボックスはメニュー「日報保存箱」をクリックして開きます。次の画像は保存BOXの全体画面です。
 
-{{<appscreen filename="box-about" msg="検索条件保存や 一括CSV出力も可能" title="通常の日報受信BOX" fontsize="30px" alice="ok" >}}
+{{<appscreen filename="box-about" title="報告書の受信BOX。ここに報告書が一覧で表示されます。クリックで詳細画面へ移行します。検索や一括CSV出力も可能です。">}}
 
 各部名称と意味は以下の通り。  
 ※このページをスマートフォンでご覧の方は「PCの画面」をタップしていただくとイメージしやすくなります
@@ -46,7 +46,7 @@ aliases = ["/manual/read-report/list/"]
 
 表示切替から提出簿を選ぶと未提出のスタッフを速やかに発見できます。
 
-{{<appscreen filename="map"  title="提出簿" fontsize="30px" alice="ok" >}}
+{{<appscreen filename="map"  title="提出簿">}}
 
 提出簿内の数値ボタンはその日の報告書提出件数です。
 ボタンをクリックすると該当する報告書がポップアップで表示されます。複数ある場合はページ送りで切替できます。
@@ -121,4 +121,4 @@ aliases = ["/manual/read-report/list/"]
 
 画面を切り替えたくない場合はポップアップが便利です。
 
-{{<appscreen filename="popup"  title="提出簿" fontsize="30px" alice="ok" >}}
+{{<appscreen filename="popup"  title="提出簿">}}

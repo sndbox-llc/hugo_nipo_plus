@@ -28,7 +28,7 @@ aliases = ["/manual/initial-setting/template/select/"]
 |:---:|:---:|:---:|:---:|
 |○|○|○|○|
 
-{{<icatch filename="eye-catch" msg="選ぶだけの簡単 入力方式。集計も可" title="選択肢入力フォームを含んだ日報テンプレート" fontsize="30px" alice="here" >}}
+{{<icatch filename="eye-catch" msg="選ぶだけの簡単 入力方式。集計も可" title="選択肢入力フォームを含んだ日報テンプレート" fontsize="30px" alice="here">}}
 
 用途としては次のようなものがあります
 
@@ -65,11 +65,11 @@ aliases = ["/manual/initial-setting/template/select/"]
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-{{<appscreen filename="template-edit-select1" title="選択肢入力フォームのみで構成されたチェックシートのサンプル。このテンプレートを使って実際の入力画面や表示画面を確認していきましょう"  >}}
+{{<appscreen filename="template-edit-select1" title="選択肢入力フォームのみで構成されたチェックシートのサンプル。このテンプレートを使って実際の入力画面や表示画面を確認していきましょう">}}
 
 {{<nextArrow>}}
 
-{{<appscreen filename="select1-preview"  title="選択式の入力画面イメージ" fontsize="30px" alice="here" >}}
+{{<appscreen filename="select1-preview"  title="選択式の入力画面イメージ">}}
 
 右のフォームは「プルダウン式」です。検索で選択肢を絞り込んでいます。
 
@@ -83,7 +83,7 @@ aliases = ["/manual/initial-setting/template/select/"]
 
 正しく設定されているかはプレビューを見て確認してください。
 
-{{<appscreen filename="word-color-coding"  title="選択肢の単語を色分けで表示する" fontsize="30px" alice="shield" >}}
+{{<appscreen filename="word-color-coding"  title="選択肢の単語を色分けで表示する">}}
 
 {{<alice pos="right" icon="here">}}シャープは半角です！#と＃、そっくりなので注意{{</alice>}}
 
@@ -122,7 +122,7 @@ aliases = ["/manual/initial-setting/template/select/"]
 
 選択式フォームは集計・グラフ化が可能です。単語が選ばれた回数を自動集計し、円グラフや棒グラフとして表示できます。
 
-{{<appscreen filename="pie-charts" title="単語の出現回数をカウントして円グラフを生成する"  >}}
+{{<appscreen filename="pie-charts" title="単語の出現回数をカウントして円グラフを生成する">}}
 
 選択式の単語に数字が含まれていれば**数値として集計**やグラフ化できます。
 たとえば次のような選択肢は集計もグラフ化もできます。

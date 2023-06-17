@@ -11,7 +11,7 @@ aliases = ["/manual/initial-setting/staff/manage/"]
 
 操作したいスタッフの行にある「所属グループ」をクリックします。作成済みのグループ一覧が表示されるのでそこから所属させたいグループをクリックしてください。
 
-{{<appscreen filename="join1" title="スタッフを所属させるグループを選んでチェックを入れてください。チェックのついたグループに対してアクセス権限が付与されます"  >}}
+{{<appscreen filename="join1" title="組織のスタッフをグループにアサイン（所属）します。">}}
 
 所属済みのグループにはチェックマークが付きます。もう一度クリックするとグループから脱退します。
 
@@ -24,7 +24,7 @@ aliases = ["/manual/initial-setting/staff/manage/"]
 1. 名前やメモなどの情報を修正する
 1. 保存ボタンをクリック
 
-{{<appscreen filename="edit" title="スタッフの名称を修正するにはスタッフ名をクリックしてください"  >}}
+{{<appscreen filename="edit" title="スタッフの名前を変更する（管理者権限が必要）">}}
 
 ## スタッフの権限を変更する
 
@@ -37,7 +37,7 @@ aliases = ["/manual/initial-setting/staff/manage/"]
 1. 権限を変更したいスタッフの権限をクリック
 1. 一覧から権限を選ぶ
 
-{{<appscreen filename="rank" title="権限を変更したいスタッフを選び、権限を切替できます"  >}}
+{{<appscreen filename="rank" title="スタッフの権限を変更する（管理者権限が必要）">}}
 
 ### 管理者は最低1名必要です
 
@@ -48,7 +48,7 @@ aliases = ["/manual/initial-setting/staff/manage/"]
 
 組織で設定した権限は各グループへとそのまま引き継がれます。グループ内でスタッフの権限は変更できません。
 
-{{<imgproc ingroup.png "グループ内スタッフの画面。権限は固定されて変更できない" />}}
+{{<imgproc ingroup.png "グループから見たスタッフの情報。権限はグループ内からは変更できません" />}}
 
 ## アカウントの無効化と削除
 
@@ -67,7 +67,7 @@ aliases = ["/manual/initial-setting/staff/manage/"]
 管理者の権限でスタッフのログインEmail、およびログインパスワードを変更することができます。
 この操作を行うと変更されたスタッフは**次回NipoPlusを起動時に再ログインが必要**になりますので注意してください。
 
-{{<appscreen filename="email-password" title="ログインに関する情報を変更すると次回ログイン時に再度E-mailとパスワードの入力が必要になります"  >}}
+{{<appscreen filename="email-password" title="スタッフのE-mailやパスワードを管理者が変更できます。変更後はそのスタッフは自動でログアウトします">}}
 
 また管理者権限がなくても、自分自身のアカウントに関してはログインパスワードやログインE-mailの変更を行うことができます。
 メールアドレスの変更について詳しくは[ログインE-mailの変更](/docs/manual/account/email/)を参照してください。

@@ -9,7 +9,7 @@ aliases = ["/system/release-note/", "/old/system/releasenote/"]
 
 現在ご利用中のNipoPlusのバージョンは、サイドメニュー下部に記載されております。ここからバージョンを確認してください
 
-{{<icatch filename="version" msg="画面左下にバージョン が記載されています" title="NipoPlusアプリバージョンの確認" fontsize="30px" alice="ok" >}}
+{{<icatch filename="version" msg="画面左下にバージョン が記載されています" title="NipoPlusアプリバージョンの確認" fontsize="30px" alice="ok">}}
 
 今後のアップデートで実装される機能予定については以下参照
 

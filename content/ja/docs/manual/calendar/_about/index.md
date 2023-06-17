@@ -11,7 +11,7 @@ aliases = ["/manual/calendar/"]
 
 報告書をカレンダー上に表示できます。日毎に報告書をチェックしたいときに便利です。
 
-{{<icatch filename="mapping-reports-to-calendar" msg="カレンダーから日報 を表示できます" title="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here" >}}
+{{<icatch filename="mapping-reports-to-calendar" msg="カレンダーから日報 を表示できます" title="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here">}}
 
 
 ## カレンダーの表示切替
@@ -27,7 +27,7 @@ aliases = ["/manual/calendar/"]
 
 ボタン1つで表示モードを簡単に切り替えできます。例えばスタッフカレンダーは次のような見た目をしています。（月間カレンダーは本ページ最初のアイキャッチ画像を参照）
 
-{{<appscreen filename="agenda" title="アジェンダ式カレンダーの例。縦軸にスタッフ、横軸に日付の見た目をしており、スタッフ毎の状況を確認するのに適しています"  >}}
+{{<appscreen filename="agenda" title="横軸に日付、縦軸にスタッフで構成されたカレンダー。スタッフごとの日報提出状況を把握し易い">}}
 
 ## 保存BOXとの違い
 

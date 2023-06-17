@@ -49,12 +49,12 @@ NipoPlusは日報アプリなんですが結構色々できます。
 そんなわけで作ってみました。まずは製造現場のスタッフさんは紙の伝票ではなくタブレットやスマートフォンから生産高や備考を入力します。  
 まずは現場の方の画面です。数量だけ入力して提出をおします。紙より楽かも？
 
-{{<appscreen filename="report-write" title="報告書の作成画面" >}}
+{{<appscreen filename="report-write" title="報告書の作成画面">}}
 
 {{<nextArrow>}}
 
 そして集計画面。入力されたデータは予定実績表の「実績」として自動で表に反映されるってわけです。
-{{<appscreen filename="progress-table" title="進捗状況" >}}
+{{<appscreen filename="progress-table" title="進捗状況">}}
 
 現場にも管理者にもメリットがあります。
 
@@ -70,7 +70,7 @@ NipoPlusは日報アプリなんですが結構色々できます。
 作った表はボタンとして表示されるのでワンクリックで瞬時に予定実績表を切替できます。
 また集計期間については基本的に月単位で行うことが前提ですが、週単位や15日単位など任意に変更することも可能です。
 
-{{<appscreen filename="dashboard" title="予定・実績表を作る" >}}
+{{<appscreen filename="dashboard" title="予定・実績表を作る">}}
 
 {{<warning>}}
 この機能は「予定・実績の管理」であり、在庫管理ではないことに注意してください。

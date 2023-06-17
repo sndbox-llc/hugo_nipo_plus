@@ -7,7 +7,7 @@ weight = 101011000
 aliases = ["/manual/remove/"]
 +++
 
-{{<icatch filename="delete" msg="個別削除や一括削除 解散や解約について" title="安全なデータの削除" fontsize="30px" alice="shield" >}}
+{{<icatch filename="delete" msg="個別削除や一括削除 解散や解約について" title="安全なデータの削除" fontsize="30px" alice="shield">}}
 
 報告書という性質上、基本的に一度作成したデータを消すケースは少ないでしょう。  
 しかし場合によっては削除が必要になります。個人情報などを扱う場合、規約で定期的に削除する必要があるというケースもあります。  

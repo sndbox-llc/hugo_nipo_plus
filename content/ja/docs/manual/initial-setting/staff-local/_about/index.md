@@ -21,7 +21,7 @@ draft = false
 1. メニュー「グループ設定」をクリック
 1. 上部メニュー「スタッフ管理」をクリック
 
-{{<appscreen filename="staff-local" title="ご利用中の端末からログアウトするにはアカウント＞ログアウトの順にクリックします。" >}}
+{{<appscreen filename="staff-local" title="スタッフアカウントの管理">}}
 
 スタッフリストの各部名称について。
 <dl class="basic">

@@ -18,7 +18,7 @@ aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
 報告書は、現場の生きた声です。ぜひとも有効に活用したいものです。  
 日報の中でも、集計が可能な項目があります。例えば次のような日報を想定してみましょう。
 
-{{<icatch filename="report1" msg="日報のデータ 自動で集計できる！" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="here" >}}
+{{<icatch filename="report1" msg="日報のデータ 自動で集計できる！" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="here">}}
 
 テキスト入力や数値入力などが混在した日報です。赤い枠内の項目はすべて集計機能を使って**簡単に集計**できます。
 
@@ -33,7 +33,7 @@ aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
 集計するには、集計タブをクリックし、集計の条件を入力します。出状況をひと目で把握できます
 
 
-{{<icatch filename="data-list" msg="データを1枚の表に 集約するのも簡単" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="ok" >}}
+{{<icatch filename="data-list" msg="データを1枚の表に 集約するのも簡単" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="ok">}}
 
 
 <dl class="basic">
@@ -64,7 +64,7 @@ aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
 グラフは複数作ってワンクリックで簡単に切り替えできます。
 日報が増えれば自動でグラフも変わるので超便利ですねぇ
 
-{{<icatch filename="charts" msg="楽をするのでなく... 効率化するのです" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="default" >}}
+{{<icatch filename="charts" msg="楽をするのでなく... 効率化するのです" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="default">}}
 
 ちなみにグラフデータはPNG形式でダウンロードできます。
 
@@ -76,13 +76,13 @@ aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
 
 指定した集計期間の合計値を一覧で表示できます。
 
-{{<icatch filename="staff-analytics" msg="スタッフ同士の比較に 便利な機能だよ" title="集計期間の合計をスタッフごとに棒グラフで表示" fontsize="30px" alice="default" >}}
+{{<icatch filename="staff-analytics" msg="スタッフ同士の比較に 便利な機能だよ" title="集計期間の合計をスタッフごとに棒グラフで表示" fontsize="30px" alice="default">}}
 
 
 こちらは前述の推移とは違い、**期間の合計**です。X軸にスタッフ名、Y軸に各項目が表示されます。X軸のスタッフ名はボタンになっており、クリックすると**集計前の日報を個別に確認**できます。
 累計のデータはそのままCSVにダウンロードすることもできます。もちろんスタッフごとの集計結果をグラフにすることも可能です。
 
-{{<icatch filename="charts2" msg="スタッフ同士の比較を グラフ化したよ" title="集計期間の合計をスタッフごとに棒グラフで表示" fontsize="30px" alice="tablet" >}}
+{{<icatch filename="charts2" msg="スタッフ同士の比較を グラフ化したよ" title="集計期間の合計をスタッフごとに棒グラフで表示" fontsize="30px" alice="tablet">}}
 
 
 

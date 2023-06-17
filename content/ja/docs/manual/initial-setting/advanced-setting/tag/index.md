@@ -14,11 +14,11 @@ aliases = ["/manual/initial-setting/advanced-setting/tag/"]
 1. 新規作成をクリック
 1. タグ名・タグカラーなどの設定を行う
 
-{{<appscreen filename="tag-manage" title="タグ管理画面を開く"  >}}
+{{<appscreen filename="tag-manage" title="タグの管理画面|タグの編集には編集者の権限が必要です">}}
 
 {{<nextArrow>}}
 
-{{<appscreen filename="tag-make" title="タグを新規追加する"  >}}
+{{<appscreen filename="tag-make" title="タグを新規追加する。タグ名、タグの色、アイコンなどを指定して独自のタグを作成できます。タグは報告書に貼り付けることができます。">}}
 
 最低でもタグの名前だけ入力してください。他の設定は任意です。
 保存ボタンを押すとタグが一覧に追加されます。  
@@ -77,5 +77,5 @@ aliases = ["/manual/initial-setting/advanced-setting/tag/"]
 タグは様々な箇所で利用できます。詳しくは各項目で解説しますが、ここでは一つ例を紹介します。
 例えば報告書にタグをセットすることで一覧から確認したり、タグによる報告書の検索が可能になります。
 
-{{<appscreen filename="set-tag" title="報告書にタグをセットした例"  >}}
+{{<appscreen filename="set-tag" title="報告書にタグをセットします。タグをつけることでその報告書を一覧から目立たせることができる他、タグによる検索も可能になります">}}
 

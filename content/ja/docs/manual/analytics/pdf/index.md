@@ -28,7 +28,7 @@ aliases = ["/manual/analytics/pdf/"]
 1. PDF生成完了を待つ
 1. 完了後にポップで通知
 
-{{<appscreen filename="calendar-pdf" title="日報を一括でPDFに変換（カレンダーから）"  >}}
+{{<appscreen filename="calendar-pdf" title="カレンダー上に表示されている報告書をワンクリックでまとめてPDFに変換する">}}
 
 カレンダー上部にあるPDF出力ボタンからまとめてPDF出力できます。
 
@@ -39,7 +39,7 @@ aliases = ["/manual/analytics/pdf/"]
 カレンダーと違い受信BOXでは報告書の絞り込み検索が可能です。
 例えば報告書の状態が修正のステータスになっているものだけをPDF出力するといったことができます。
 
-{{<appscreen filename="filter-pdf" title="特定の日報だけをリストアップしてPDFに出力する"  >}}
+{{<appscreen filename="filter-pdf" title="報告書を個別に選び、一括でPDFに変換する">}}
 
 ## 個別にPDF出力リストへ追加して一括出力する
 
@@ -50,7 +50,7 @@ aliases = ["/manual/analytics/pdf/"]
 1. 「登録分をまとめてダウンロード」をクリックする
 1. ZIPファイルとしてダウンロードされる
 
-{{<appscreen filename="add-pdf" title="日報を見ながらPDF出力リストに追加していく"  >}}
+{{<appscreen filename="add-pdf" title="PDFに変換したい報告書をリストに追加する">}}
 
 
 ## ダウンロードしたZipファイルが文字化けする？

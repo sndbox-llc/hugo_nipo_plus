@@ -19,10 +19,24 @@
     <path d="M216.086,82.566l-1.206,16.814l20.523,-16.814l15.221,0c10.47,0 18.97,-9.056 18.97,-20.21l-0,-40.419c-0,-11.154 -8.5,-20.21 -18.97,-20.21l-231.32,0c-10.47,0 -18.97,9.056 -18.97,20.21l0,40.419c0,11.154 8.5,20.21 18.97,20.21l196.782,0Z" style="fill:#fff;stroke:black"/>
   </svg>
 </svg>
-<a href="#{{ $id }}" class="lightbox-link btn btn-outline-primary d-inline" >PCの画面</a>
-<a href="javascript:history.back();" class="lightbox" id="{{ $id }}">
+<div class="mt-1">
+<a href="#{{ $id }}_phone" class="lightbox-link btn btn-outline-primary d-md-inline d-none">
+  <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" width="25"><title>スマートフォン</title><path d="M260-40q-24 0-42-18t-18-42v-760q0-24 18-42t42-18h440q24 0 42 18t18 42v760q0 24-18 42t-42 18H260Zm0-150v90h440v-90H260Zm220.175 75q12.825 0 21.325-8.675 8.5-8.676 8.5-21.5 0-12.825-8.675-21.325-8.676-8.5-21.5-8.5-12.825 0-21.325 8.675-8.5 8.676-8.5 21.5 0 12.825 8.675 21.325 8.676 8.5 21.5 8.5ZM260-250h440v-520H260v520Zm0-580h440v-30H260v30Zm0 640v90-90Zm0-640v-30 30Z"/></svg>
+  スマホの画面
+</a>
+<a href="#{{ $id }}_pc" class="lightbox-link btn btn-outline-primary d-inline d-md-none">
+  <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" width="25"><title>コンピュータ</title><path d="M70-120q-12.75 0-21.375-8.675Q40-137.351 40-150.175 40-163 48.625-171.5T70-180h820q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T890-120H70Zm70-120q-24 0-42-18t-18-42v-480q0-24 18-42t42-18h680q24 0 42 18t18 42v480q0 24-18 42t-42 18H140Zm0-60h680v-480H140v480Zm0 0v-480 480Z"/></svg>
+  PCの画面
+</a>
+</div>
+
+<a href="javascript:history.back();" class="lightbox" id="{{ $id }}_pc">
   <img src="{{ $imgTablet.RelPermalink }}" alt="{{$title}}" class="lightbox-image" loading="lazy">
 </a>
+<a href="javascript:history.back();" class="lightbox" id="{{ $id }}_phone">
+  <img src="{{ $imgPhone.RelPermalink }}" alt="{{$title}}" class="lightbox-image" loading="lazy">
+</a>
+
 <script type="application/ld+json">
   [{
     "@context": "https://schema.org/",

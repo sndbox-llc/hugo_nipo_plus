@@ -18,7 +18,7 @@ aliases = ["/manual/calendar/setting/"]
 1. 各種設定を行う
 
 
-{{<appscreen filename="calendar-setting" title="カレンダーに関する設定画面" >}}
+{{<appscreen filename="calendar-setting" title="カレンダーに関する設定画面">}}
 
 <dl class="basic">
 <dt>カレンダーの日付基準</dt>

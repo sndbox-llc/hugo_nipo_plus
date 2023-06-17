@@ -9,7 +9,7 @@ aliases = ["/manual/initial-setting/template/calc/"]
 +++
 
 
-{{<icatch filename="calc-icatch" msg="自動で計算 四則演算OK" title="算術入力フォーム" fontsize="30px" alice="here" >}}
+{{<icatch filename="calc-icatch" msg="自動で計算 四則演算OK" title="算術入力フォーム" fontsize="30px" alice="here">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|
 |:---:|:---:|:---:|
@@ -31,13 +31,13 @@ aliases = ["/manual/initial-setting/template/calc/"]
 1. 必要に応じてその他の設定を行う
 
 
-{{<appscreen filename="template-edit-calc" title="算術フォームをテンプレートに追加"  >}}
+{{<appscreen filename="template-edit-calc" title="算術フォームを報告書テンプレートに追加">}}
 
 {{<nextArrow>}}
 
 最も重要なのは計算式を正しく作成することです。
 
-{{<appscreen filename="make-fomula" title="数式を入力して計算を自動化できます。式には基本的な四則演算の他、カッコも利用可能"  >}}
+{{<appscreen filename="make-fomula" title="数式を入力して報告書内のデータから自動計算して結果を報告書に書き込みます">}}
 
 計算式に使えるエレメントは以下の通り
 
@@ -51,8 +51,7 @@ aliases = ["/manual/initial-setting/template/calc/"]
 
 {{<nextArrow>}}
 
-{{<appscreen filename="calc-preview" title="算術フォームを使った報告書の作成例"  >}}
-
+{{<appscreen filename="calc-preview" title="算術の含まれた報告書のプレビュー">}}
 
 ## 算術で利用可能な入力フォーム
 
@@ -65,7 +64,6 @@ aliases = ["/manual/initial-setting/template/calc/"]
 
 選択式入力フォーム、選択式の単語中に数字が含まれている場合、その数字が計算式に利用されます。
 例えば次のように設計してください
-
 
 <div class="container mt-4" style="padding:20px;border:1px solid #ccc">
   <label for="platformSelect" class="form-label">選択式の例:</label>

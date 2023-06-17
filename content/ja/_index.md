@@ -19,7 +19,7 @@ mermaid = true
 テンプレートがあるから書き手は**何を書くべきかがわかる**し、入力必須を指定すれば記入漏れといった問題も防げます。
 入力順序の指定もすれば手順を飛ばして入力できないように制御できます。例えば次の画像のように。
 
-{{<icatch filename="input-order" msg="入力必須と 入力順指定の例" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
+{{<icatch filename="input-order" msg="入力必須と 入力順指定の例" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here">}}
 
 レスポンシブに対応しているのでPC・タブレット、スマートフォンどのデバイスからでも報告書の作成が可能です。興味のある方は今ご覧のページを狭めて見てください。
 スマートフォンの画像に切り替わることが確認できます。
@@ -41,7 +41,7 @@ mermaid = true
 承認は複数人がリレーで行うこともできます。
 また報告書に対してコメントを残すことも可能です。
 
-{{<icatch filename="report-show" msg="承認リレー/コメ ント・通知もあるよ" title="コメントでスタッフとのコミニケーションをとることや、複数スタッフによる日報の承認リレーも利用できます。" fontsize="30px" alice="please" >}}
+{{<icatch filename="report-show" msg="承認リレー/コメ ント・通知もあるよ" title="コメントでスタッフとのコミニケーションをとることや、複数スタッフによる日報の承認リレーも利用できます。" fontsize="30px" alice="please">}}
 
 報告書が届いたらメール通知やアプリ内のお知らせがあるので見落としの心配もありません。
 また承認されたら報告者に対しても通知が発行されます。
@@ -58,7 +58,7 @@ mermaid = true
 テンプレートの構成によっては集計できる項目があります。これらのデータをスタッフ毎に集計したり、日別で増減を見ることで様々な意思決定に役立てることができます。
 一覧表だけでなくデータの可視化（いわゆるBI化）も可能。可視化の代表といえばそう、グラフですね。
 
-{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="報告書をグラフ化する" fontsize="30px" alice="here" >}}
+{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="報告書をグラフ化する" fontsize="30px" alice="here">}}
 
 <div class="row justify-content-center mt-5">
 <div class="col-sm-16 col-md-5">{{<button "/docs/manual/analytics/chart/" "報告書のグラフ化">}}</div>

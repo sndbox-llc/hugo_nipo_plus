@@ -24,7 +24,7 @@ Nipoはグループの中で日報のやり取りを行います。これはNipo
 NipoPlusでは組織という上位の単位が作られ、組織の中でグループを自由に分割して運用できるようになりました。
 Nipoでは[料金形態](/docs/price/_about/)もグループ単位での課金でしたが、NipoPlusは組織単位のため、複数のグループに分けても料金が安く抑えられます。
 
-{{<icatch filename="group" msg="グループの追加所属 管理者が一元管理可" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
+{{<icatch filename="group" msg="グループの追加所属 管理者が一元管理可" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here">}}
 
 Nipoでもグループ分けは可能でしたが、あくまでも「グループへの招待」といった形であり、全体を掌握することは事実上不可能でしたが、NipoPlusでは管理者が自由にグループを作り、どのグループにどのスタッフをアサインするかを一元管理可能になりました。
 
@@ -46,7 +46,7 @@ Nipoでは1行につき最大2列までという制限がありました。
 これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。
 幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/docs/manual/initial-setting/template/_about/)できるようになりました。
 
-{{<icatch filename="responsive-design" msg="日報テンプレートの 設計自由度がUP" title="日報テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here" >}}
+{{<icatch filename="responsive-design" msg="日報テンプレートの 設計自由度がUP" title="日報テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here">}}
 
 NipoPlusから新しく追加された[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)を使えばZipやPDFといったデータを日報に添付できるようになります。
 また、[算術入力フォーム](/docs/manual/initial-setting/template/calc/)や[期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)なども新たに追加されました。
@@ -58,7 +58,7 @@ Nipoでは提出先は常に1名という制約が有りました。他のスタ
 多くのケースではこれでも十分ですが、NipoPlusでは**日報の提出先を複数名指定できる**ようになりました。  
 複数名指定することで承認リレーが実現できるようになりました。
 
-{{<icatch filename="report-detail" msg="複数人による承認 のリレーが可能です" title="日報の承認リレー。承認印も完備" fontsize="30px" alice="ok" >}}
+{{<icatch filename="report-detail" msg="複数人による承認 のリレーが可能です" title="日報の承認リレー。承認印も完備" fontsize="30px" alice="ok">}}
 
 ※提出先が1名の場合はこれまでのNipoと変わりません。
 
@@ -67,7 +67,7 @@ Nipoでは提出先は常に1名という制約が有りました。他のスタ
 Nipo時代のCSV出力は設定で変更することが一切できませんでした。決まったCSV形式しか出来ません。NipoPlusではCSVの出力形式を事前に細かく指定できるように強化されました。
 CSVファイルの利用目的に応じて設定を適切にすることで、CSVファイルの加工の手間を大幅に軽減できます。
 
-{{<icatch filename="csv-export" msg="CSV出力形式 細かく設定が可能" title="日報データのCSV出力形式を細かく指定可能になりました" fontsize="30px" alice="here" >}}
+{{<icatch filename="csv-export" msg="CSV出力形式 細かく設定が可能" title="日報データのCSV出力形式を細かく指定可能になりました" fontsize="30px" alice="here">}}
 
 またCSV出力設定から「ファイルの出力」をONにすることで、日報に添付された写真やイラスト、ファイルなどをZipで一括ダウンロードできるようになりました。
 Nipo時代は画像データを出力するにはPDF出力するしかなく、NipoPlusで大幅に強化された機能の1つといえます。
@@ -77,13 +77,13 @@ Nipo時代は画像データを出力するにはPDF出力するしかなく、N
 Nipoにも集計やグラフ作成機能はありましたが、グラフは折れ線グラフ1種類のみでした。また項目の設定などは一切行うことが出来ませんでした。
 NipoPlusでは円グラフ・折れ線グラフ・棒グラフ・レーダーチャート・複合グラフ・積上縦棒グラフなど、かなり豊富なグラフを自由に作成することができるようになりました。
 
-{{<icatch filename="check-sheet-charts" msg="グラフの作成 細かく設定が可能" title="日報データをもとに自由にグラフを作成できるようになりました" fontsize="30px" alice="here" >}}
+{{<icatch filename="check-sheet-charts" msg="グラフの作成 細かく設定が可能" title="日報データをもとに自由にグラフを作成できるようになりました" fontsize="30px" alice="here">}}
 
 ## アプリ内の通知機能が実装されました
 
 Nipoでは新規の日報やコメントの検知をメールで発行していました。NipoPlusではアプリ内の通知領域から最新の通知を確認できるようになりました。
 
-{{<icatch filename="notice" msg="通知機能で 情報を見落とさない" title="通知機能の実装" fontsize="30px" alice="ok" >}}
+{{<icatch filename="notice" msg="通知機能で 情報を見落とさない" title="通知機能の実装" fontsize="30px" alice="ok">}}
 
 現時点でNipoPlusにはメール通知機能がありませんが、近い将来メール通知機能も実装される予定です。
 Nipo時代のメールはあまり使いやすいものではなかったでしょう。通知のメールのみで、そこにはリンクの1つもなかったからです。
@@ -94,7 +94,7 @@ NipoPlusでは通知にすべてリンクが貼られ、クリックでそのデ
 旧Nipoではアプリ起動時に多くのデータを読み込んでいました。その際たるは受信日報、送信日報です。起動するたびに数十件の日報をロードするため無駄が多くありました。たとえ日報を書くだけでも、毎回過去の日報をロードしていました。
 NipoPlusでは[日報受信BOXを開いたタイミング](/docs/manual/read-report/list/)でロードが開始されます。ロードされる日報も指定した期間の日報のみで、古い日報は読み込みを行いません。
 
-{{<icatch filename="report-box" msg="必要な期間の日報を 素早くロードします" title="必要な日報のみを賢く読み込むことで無駄な通信を削減できます。" fontsize="30px" alice="ok" >}}
+{{<icatch filename="report-box" msg="必要な期間の日報を 素早くロードします" title="必要な日報のみを賢く読み込むことで無駄な通信を削減できます。" fontsize="30px" alice="ok">}}
 
 {{<alice pos="right" icon="ok">}}
 起動時は一昨日〜今日までの日付が自動でセットされています。つまり3日分の日報しかDLしません。  

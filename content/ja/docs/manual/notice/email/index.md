@@ -20,7 +20,7 @@ aliases = ["/manual/notice/email/"]
 1. 通知を受け取る項目を取捨選択
 
 
-{{<appscreen filename="email-notice" title="メール通知の設定をONにする"  >}}
+{{<appscreen filename="email-notice" title="メール通知の設定をONにする">}}
 
 ## メール通知の条件を増やす
 
@@ -30,7 +30,7 @@ aliases = ["/manual/notice/email/"]
 1. 「組織全般」までスクロール
 1. 「今月のメール送信」の列にある鉛筆アイコンをクリック
 
-{{<appscreen filename="unlock" title="メール通知の上限を緩和する"  >}}
+{{<appscreen filename="unlock" title="メール通知の上限を緩和する">}}
 
 クレジット決済画面へ移動しますので、必要事項を記入の上お申し込みいただくと即日制限が緩和されます。
 メール通知上限緩和は1度きりのお支払いでずっと利用可能です。料金は執筆時点で10,000円です。  

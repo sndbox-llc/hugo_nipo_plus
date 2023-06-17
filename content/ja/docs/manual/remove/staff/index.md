@@ -18,7 +18,7 @@ aliases = ["/manual/remove/staff/"]
 1. 無効化するスタッフの「状態」列にあるボタンをクリック
 1. ボタンが赤色になれば無効化完了
 
-{{<appscreen filename="disable-account" title="状態を1回クリックで無効化、もう1回クリックすると有効に戻ります"  >}}
+{{<appscreen filename="disable-account" title="状態を1回クリックで無効化、もう1回クリックすると有効に戻ります">}}
 
 無効化されたスタッフのアカウントはすべてのアクセス権が無くなります。
 本人の画面には権限不足のエラーメッセージが出力されます。
@@ -44,7 +44,7 @@ aliases = ["/manual/remove/staff/"]
 1. 「削除する」ボタンをクリック
 
 
-{{<appscreen filename="remove-account" title="スタッフのアカウントを完全に削除する"  >}}
+{{<appscreen filename="remove-account" title="スタッフのアカウントを完全に削除する">}}
 
 
 アカウントが削除されるとそのメールアドレスは空きの状態になるため、再び同じメールアドレスでアカウントの作成ができます。しかしIDは作成の都度ランダムに割り当てられるため

@@ -24,15 +24,13 @@ aliases = ["/manual/analytics/"]
 
 機械のメンテナンスシートなど、定期的な検査の結果を俯瞰するのに適しています。
 
-{{<appscreen filename="history" msg="これは推移の例です 前回との比較が容易" title="集計機能の例" fontsize="30px" alice="here" >}}
-
+{{<appscreen filename="history" title="集計機能:報告書内のデータを時系列に見ることが可能。前回、前々回との比較に便利">}}
 
 {{<alice pos="right" icon="here">}}
 品質検査で前回と比べ異常か判断したり、営業件数が昨日と比べ増えたかすぐわかるっ
 {{</alice>}}
 
 {{<btnCenter "/docs/manual/analytics/transition/" "推移表について詳しく見る">}}
-
 
 ## 報告書データの累積表
 
@@ -41,8 +39,7 @@ aliases = ["/manual/analytics/"]
 
 報告書自体の提出件数を知ることもできますので提出漏れのチェックにも有用です。
 
-{{<appscreen filename="acc-table" msg="グラフはワンクリック でいつでも切替可" title="報告書をグラフ化する" fontsize="30px" alice="guide" >}}
-
+{{<appscreen filename="acc-table" title="報告書のデータを集計してグラフ化する">}}
 
 {{<btnCenter "/docs/manual/analytics/accumn/" "操作ガイドを見る">}}
 
@@ -52,11 +49,9 @@ aliases = ["/manual/analytics/"]
 - 折れ線・円・棒・積み上げ縦棒・レーダー・複合のグラフを作成可能
 - 複数のグラフを作成し、ワンクリックで切替可能
 
-
-{{<icatch filename="chart" msg="グラフはワンクリック でいつでも切替可" title="報告書をグラフ化する" fontsize="30px" alice="guide" >}}
+{{<icatch filename="chart" msg="グラフはワンクリック でいつでも切替可" title="報告書をグラフ化する" fontsize="30px" alice="guide">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "グラフ化のマニュアル">}}
-
 
 ## 予定と実績の対比表
 
@@ -68,8 +63,7 @@ aliases = ["/manual/analytics/"]
 - 前月在庫を指定すると実績累積が加算され必要数の調整ができる
 - 目標の累積、実績の累積を表示するので遅れの度合いを一目で把握できる
 
-
-{{<icatch filename="list" msg="予定と実績 進捗の管理" title="予定と実績の進捗表" fontsize="30px" alice="guide" >}}
+{{<icatch filename="list" msg="予定と実績 進捗の管理" title="予定と実績の進捗表" fontsize="30px" alice="guide">}}
 
 もとは生産管理としてのリクエスト機能ですが、売上に対する目標・実績など他業種でも利用できるように汎用的に作っています。
 
@@ -82,16 +76,11 @@ NipoPlusの集計でカバーできない範囲はCSV出力してエクセルか
 1. 報告書データをCSV形式で一括出力します
 1. エクセルでそのまま開けるのでエクセル機能を使って集計や分析が可能です
 
-
 {{<imgproc work1.png "訪問の件数と約定件数から約定率を計算する" />}}
-
-
 
 エクセルによる集計テクニックを別途記事にまとめています。
 
 {{<btnCenter "/tips/sales_report/" "エクセルにて集計する">}}
-
-
 
 ## 集計方式の違い
 
@@ -119,4 +108,4 @@ NipoPlusの集計でカバーできない範囲はCSV出力してエクセルか
 
 単純な数値だけでなく単語も集計できるのが面白いですね。
 
-{{<appscreen filename="calc" title="集計が可能な入力フォームのみで構成されたチェックシートのテンプレート例"  >}}
+{{<appscreen filename="calc" title="集計が可能な入力フォームで構成された報告書">}}

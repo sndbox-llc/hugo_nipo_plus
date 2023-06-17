@@ -21,7 +21,7 @@ aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual
 日報作成をクリックすると使用可能なテンプレート一覧が表示されますので、使用するテンプレートを選びます。  
 （※テンプレートが1種類の場合はこの画面は省略されます）
 
-{{<appscreen filename="report-template-select" title="「日報作成」をクリックするとテンプレートの選択画面が表示されます。"  >}}
+{{<appscreen filename="report-template-select" title="「日報作成」をクリックするとテンプレートの選択画面が表示されます。">}}
 
 {{<alice pos="right" icon="here">}}
 テンプレートは名前の順に並びます
@@ -34,7 +34,7 @@ aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual
 テンプレートを選ぶと入力画面に切り替わります。所定の項目を適切に記入してください。
 入力画面はPCとスマートフォンでは大きく異なります。
 
-{{<appscreen filename="write-report" title="選んだテンプレートをもとに日報画面が表示。左はiPad・右はiPhoneで開いた例。見た目が違いますが項目は同じであることが確認できます。必要事項を記入して日報を書き上げます"  >}}
+{{<appscreen filename="write-report" title="選んだテンプレートをもとに日報画面が表示。左はiPad・右はiPhoneで開いた例。見た目が違いますが項目は同じであることが確認できます。必要事項を記入して日報を書き上げます">}}
 
 日報作成は大きく分けて3つのセクションに分離できます。
 
@@ -60,7 +60,7 @@ aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual
 - 提出先は一度選べば次回以降は自動でセットされます。
 - [提出先は管理者が固定する](/docs/manual/initial-setting/advanced-setting/dist/)こともできます。
 
-{{<appscreen filename="report-header" title="日報の提出日・提出先といったヘッダ情報を入力する"  >}}
+{{<appscreen filename="report-header" title="日報の提出日・提出先といったヘッダ情報を入力する">}}
 
 ヘッダーの各項目については以下の対応表を御覧ください。
 <dl class="basic">
@@ -86,7 +86,7 @@ aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual
 
 報告書の提出後は次のアクションを選びます。特にこれ以上やることがなければこの時点でアプリを閉じてしまってもOKです。
 
-{{<appscreen filename="writed-report" title="日報提出後に次の操作を選ぶ画面が表示されます"  >}}
+{{<appscreen filename="writed-report" title="日報提出後に次の操作を選ぶ画面が表示されます">}}
 
 品質チェックなど製造現場ではチェックー＞提出ー＞チェックー＞提出の繰り返しになるためこのような機能が用意されています（製造業の方からのリクエストにより実装）
 
@@ -106,7 +106,7 @@ aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual
 
 報告書記入中にアプリがフリーズしたり誤って閉じてしまった場合でも書きかけのデータを復旧できます。
 
-{{<appscreen filename="recovery-report" title="記入途中のデータが検知されると復元確認のメッセージが表示されます。"  >}}
+{{<appscreen filename="recovery-report" title="記入途中のデータが検知されると復元確認のメッセージが表示されます。">}}
 
 書きかけの自動バックアップデータは報告書が提出された時点でクリアされます。  
 類似の機能に[下書き機能](/docs/manual/write-report/draft/)があります。

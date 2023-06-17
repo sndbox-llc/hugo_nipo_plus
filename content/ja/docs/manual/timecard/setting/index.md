@@ -14,7 +14,7 @@ aliases = ["/manual/timecard/setting/"]
 1. 設定をクリック（折りたたまれている項目が展開される）
 1. 必要に応じて値を書き換える（書き換え内容は自動で保存されます）
 
-{{<appscreen filename="setting" title="タイムカード機能の設定項目。折りたたまれているためクリックして展開します"  >}}
+{{<appscreen filename="setting" title="タイムカード機能の設定項目。折りたたまれているためクリックして展開します">}}
 
 <dl class="basic">
   <dt>各日で端折りする</dt>
@@ -40,4 +40,4 @@ aliases = ["/manual/timecard/setting/"]
 
 締日は月単位であり、週単位での締めはできません。もし週単位で締めたい場合は、画面右側のカレンダーから任意の期間を手動でセットしてください。
 
-{{<appscreen filename="date-picker" title="週単位でタイムカードを集計する際は期間をカレンダーから手動で切り替えます"  >}}
+{{<appscreen filename="date-picker" title="週単位でタイムカードを集計する際は期間をカレンダーから手動で切り替えます">}}

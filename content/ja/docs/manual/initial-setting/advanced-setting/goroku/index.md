@@ -24,7 +24,7 @@ aliases = ["/manual/initial-setting/advanced-setting/goroku/"]
 1. 語録のタイトル及び単語リストを入力（単語リストは１行に１単語）
 1. 保存をクリック
 
-{{<appscreen filename="make-word-list" title="語録の作成" >}}
+{{<appscreen filename="make-word-list" title="語録の作成">}}
 
 <dl class="basic">
   <dt>語録タイトル</dt>

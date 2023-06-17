@@ -10,7 +10,7 @@ aliases = ["/manual/read-report/state/"]
 保存BOXやカレンダーから報告書をクリックすると報告書の詳細が表示されます。
 先に報告書の状態について解説します。報告書の状態は報告書内の左上に表示されています。
 
-{{<appscreen filename="report-status" title="報告書の状態"  >}}
+{{<appscreen filename="report-status" title="報告書の状態">}}
 
 状態は新規から始まり、最終的に承認へ向けて進みます。各段階の状態は以下のとおりです。
 
@@ -41,7 +41,7 @@ aliases = ["/manual/read-report/state/"]
 先にシンプルな既読から解説します。既読は報告書を読んだことを示す意思表示です。
 既読ボタンはあなたが「[共有先](/docs/manual/write-report/dist/)」に指定された報告書で表示されます。
 
-{{<appscreen filename="readed" title="日報を既読する。既読は承認できないスタッフが日報を読んだことを伝えるための機能です"  >}}
+{{<appscreen filename="readed" title="日報を既読する。既読は承認できないスタッフが日報を読んだことを伝えるための機能です">}}
 
 報告書を開いたら既読ボタンを押してください。これで完了です。
 
@@ -49,12 +49,12 @@ aliases = ["/manual/read-report/state/"]
 
 報告書の検印欄にあなたの名前があればその報告書を承認・棄却できます。
 
-{{<appscreen filename="done" title="報告書を承認する"  >}}
+{{<appscreen filename="done" title="報告書を承認する">}}
 
 あなたの検印欄の右側に更に検印欄があれば次の人へ承認権限が回ります。この時点であなたは承認権限がなくなることに注意してください。
 あなたが右端の場合はこれで日報が承認済みとなります。末尾の場合承認権限は移転せず、報告書の状態が「承認」となります。
 
-{{<appscreen filename="report-approval" title="日報の状態が承認になる"  >}}
+{{<appscreen filename="report-approval" title="日報の状態が承認になる">}}
 
 
 ### 報告書を棄却する
@@ -62,7 +62,7 @@ aliases = ["/manual/read-report/state/"]
 日報に不備がある場合はその不備を修正する必要があります。日報を棄却して修正してもらいましょう。
 棄却の際は不備の理由をコメント欄に書いてあげると親切です。
 
-{{<appscreen filename="report-rejected" title="承認リレー中に誰かが棄却するとその時点で日報の状態は「棄却」となります。"  >}}
+{{<appscreen filename="report-rejected" title="承認リレー中に誰かが棄却するとその時点で日報の状態は「棄却」となります。">}}
 
 棄却の際は承認の権限が次のスタッフへ移動しません。そのため承認や棄却ボタンはそのまま表示され続けます。
 棄却された事実は**日報の作成者に通知**されます。棄却された日報をその後どうするのかは各会社でルールを明確に決めておくと良いでしょう。
@@ -72,4 +72,4 @@ aliases = ["/manual/read-report/state/"]
 
 もし仮に先程の日報を修正するとどうなるのか見ておきましょう。状態は「修正」となり、承認のハンコはすべてクリアされて最初からとなります。
 
-{{<appscreen filename="report-fixed" title="修正された日報は承認のハンコがクリアされます"  >}}
+{{<appscreen filename="report-fixed" title="修正された日報は承認のハンコがクリアされます">}}

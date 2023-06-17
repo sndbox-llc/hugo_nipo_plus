@@ -17,7 +17,7 @@ aliases = ["/manual/initial-setting/advanced-setting/log/", "/docs/manual/initia
 1. メニューの表示項目から「ログ」にチェックを入れる
 1. 保存をクリック
 
-{{<appscreen filename="logging" title="ログ画面はデフォルトで非表示です。設定からログのチェックを入れて使います" >}}
+{{<appscreen filename="logging" title="ログ画面はデフォルトで非表示です。設定からログのチェックを入れて使います">}}
 
 ログデータは2年以上保存されます。それを超えた古いログは一定期間ごとに削除されます。
 

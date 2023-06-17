@@ -16,7 +16,7 @@ aliases = ["/manual/initial-setting/template/text/"]
 |:---:|:---:|:---:|:---:|
 |✗|○|○|○|
 
-{{<icatch filename="input-method-keyboard" msg="日報の本文や引 き継ぎの入力に最適" title="文字入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="input-method-keyboard" msg="日報の本文や引 き継ぎの入力に最適" title="文字入力フォーム" fontsize="30px" alice="ok">}}
 
 主な用途には次のようなものがあります。
 
@@ -45,10 +45,10 @@ aliases = ["/manual/initial-setting/template/text/"]
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 例えば次のようにテンプレートを編集しました
-{{<appscreen filename="template-edit-text" title="テキスト入力をテンプレートに追加した画面イメージ"  >}}
+{{<appscreen filename="template-edit-text" title="テキスト入力をテンプレートに追加した画面イメージ">}}
 
 {{<nextArrow>}}
 
 実際に報告書を書く際は次のように表示されます。
 
-{{<appscreen filename="text-preview" title="作成したテンプレートのプレビュー"  >}}
+{{<appscreen filename="text-preview" title="作成したテンプレートのプレビュー">}}

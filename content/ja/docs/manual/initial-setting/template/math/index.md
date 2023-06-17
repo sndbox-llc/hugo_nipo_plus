@@ -10,7 +10,7 @@ aliases = ["/manual/initial-setting/template/math/"]
 
 最も普通な数値の入力を報告書に追加できます。小数点や負数もOK。
 
-{{<icatch filename="math" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="math" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
@@ -48,11 +48,11 @@ aliases = ["/manual/initial-setting/template/math/"]
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
-{{<appscreen filename="math-template-edit" title="数値入力フォームだけで構成されたテンプレートの作成画面イメージ。単位や色などはここで自由に変更可能です"  >}}
+{{<appscreen filename="math-template-edit" title="数値入力フォームだけで構成されたテンプレートの作成画面イメージ。単位や色などはここで自由に変更可能です">}}
 
 {{<nextArrow>}}
 報告書作成画面
-{{<appscreen filename="input" title="数値入力フォームの入力画面イメージ。"  >}}
+{{<appscreen filename="input" title="数値入力フォームの入力画面イメージ。">}}
 
 - 数値以外は入力できないので注意してください。
 - 桁が大きくなる場合はカンマが提出時に自動で付きます。手動では入れられません。
@@ -61,7 +61,7 @@ aliases = ["/manual/initial-setting/template/math/"]
 
 数値入力フォームは集計・グラフ化が可能です。
 
-{{<appscreen filename="charts" title="数値のデータをグラフ化する"  >}}
+{{<appscreen filename="charts" title="数値のデータをグラフ化する">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 

@@ -14,7 +14,7 @@ aliases = ["/manual/initial-setting/staff/make/"]
 1. ユーザの追加をクリック
 1. E-mailと名前を入力して作成をクリック
 
-{{<appscreen filename="make-staff" title="組織設定からスタッフ用のアカウントを作成できます"  >}}
+{{<appscreen filename="make-staff" title="組織内にスタッフのアカウントを追加します">}}
 
 スタッフアカウントを作成することで、登録したE-mailと初期のログインパスワードを使って[ログイン](/docs/manual/account/signin/)できるようになります。
 （安全のためにも[パスワードはログイン後に変更](/docs/manual/account/password/)してください）
@@ -31,7 +31,7 @@ aliases = ["/manual/initial-setting/staff/make/"]
 ログイン不可アカウントは少し特殊な環境で使うものです！通常はログイン可能なアカウントの利用を検討してください
 {{</alice>}}
 
-{{<appscreen filename="anony" title="ログイン不可能なスタッフアカウントの作成"  >}}
+{{<appscreen filename="anony" title="ログイン不可能なスタッフアカウントの作成">}}
 
 ログイン不可能なアカウントはその性質上、多くの制限があります
 

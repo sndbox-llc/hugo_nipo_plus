@@ -10,7 +10,7 @@ aliases = ["/manual/initial-setting/template/rate/"]
 
 ネットショップやレビューでおなじみの★を使った入力フォームです。星の上限は変更可能です。
 
-{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力" title="レート入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力" title="レート入力フォーム" fontsize="30px" alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
@@ -43,13 +43,13 @@ aliases = ["/manual/initial-setting/template/rate/"]
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-{{<appscreen filename="template-edit-rate" title="レート入力のみで構成された日報テンプレートの作成画面"  >}}
+{{<appscreen filename="template-edit-rate" title="レート入力のみで構成された日報テンプレートの作成画面">}}
 
 {{<nextArrow>}}
 
 実際に報告書を書く際は次のように表示されます
 
-{{<appscreen filename="rate-preview" title="レートはタップ操作で簡単に入力が可能です。見た目も視覚的にわかりやすく便利です"  >}}
+{{<appscreen filename="rate-preview" title="レートはタップ操作で簡単に入力が可能です。見た目も視覚的にわかりやすく便利です">}}
 
 ## レート入力フォームの集計
 
@@ -62,7 +62,7 @@ aliases = ["/manual/initial-setting/template/rate/"]
 
 レート入力の結果をグラフにした例
 
-{{<appscreen filename="make-charts" title="日報に含まれるレートのデータを使って円グラフや折れ線グラフを作成できます"  >}}
+{{<appscreen filename="make-charts" title="日報に含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 

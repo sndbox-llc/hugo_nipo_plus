@@ -42,7 +42,7 @@ aliases = ["/price/info/"]
 
 無料お試し期間の残り日数が10日を切ると画面上に残りの期間日数が表示されます。この日数をクリックすると正確な失効日がポップアップで表示されます。
 
-{{<appscreen filename="remaining" title="期日が近づくと警告ボタンが表示されます"  >}}
+{{<appscreen filename="remaining" title="期日が近づくと警告ボタンが表示されます">}}
 
 
 残り日数は近づくにつれて色が変わります。

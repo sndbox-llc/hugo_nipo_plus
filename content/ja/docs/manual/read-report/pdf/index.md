@@ -23,7 +23,7 @@ PDFに変換する手順は次のとおりです。
 1. PDF作成完了まで待つ
 1. 作成処理が完了後にダウンロード通知が発行される
 
-{{<appscreen filename="report-to-pdf" title="1件の日報をPDFに変換してダウンロード"  >}}
+{{<appscreen filename="report-to-pdf" title="1件の日報をPDFに変換してダウンロード">}}
 
 PDFの作成には少し時間がかかります。完了後、画面右下に通知が届くのでその通知からPDFをダウンロードできます。
 なおPDF作成中に他の作業へ切り替えても問題有りません。
@@ -33,7 +33,7 @@ PDFの作成には少し時間がかかります。完了後、画面右下に�
 
 ダウンロードしたPDFは普通のPDFファイルとして扱えます。
 
-{{<appscreen filename="pdf-download" title="PDFの日報をダウンロードしてブラウザで表示"  >}}
+{{<appscreen filename="pdf-download" title="PDFの日報をダウンロードしてブラウザで表示">}}
 
 
 ## PDFの出力設定
@@ -57,13 +57,13 @@ PDF出力設定では以下の設定が可能です。
 1. PDF設定画面がポップアップで表示される
 1. 設定を行い、「現在の設定でPDF出力」をクリック
 
-{{<appscreen filename="pdf-option" title="PDF出力前に誤字脱字の修正やレイアウトの変更ができます。ただしこれらの設定は保存できません"  >}}
+{{<appscreen filename="pdf-option" title="PDF出力前に誤字脱字の修正やレイアウトの変更ができます。ただしこれらの設定は保存できません">}}
 
 {{<nextArrow>}}
 
 ポップアップでPDFに出力する前の設定が表示されます。
 
-{{<appscreen filename="pdf-setting" title="PDF出力前の編集画面はポップアップで表示されます。修正後に「現在の設定でPDF出力」をクリックしてPDFを作成します"  >}}
+{{<appscreen filename="pdf-setting" title="PDF出力前の編集画面はポップアップで表示されます。修正後に「現在の設定でPDF出力」をクリックしてPDFを作成します">}}
 
 本文の編集、レイアウトの編集が行なえます。内容を修正の上で「現在の設定でPDF出力」をクリックすると指定した内容とデータでPDFの作成が行われます。
 

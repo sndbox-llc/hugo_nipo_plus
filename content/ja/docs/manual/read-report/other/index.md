@@ -11,7 +11,7 @@ aliases = ["/manual/read-report/other/"]
 日報本文の下にある「詳細」をクリックするとその文書データの詳細な情報を確認できます。
 これを見れば例えば本当にサーバに保存された時間等を知ることができます。
 
-{{<appscreen filename="report-detail" title="日報という１ドキュメントの詳細な情報" >}}
+{{<appscreen filename="report-detail" title="日報という１ドキュメントの詳細な情報">}}
 
 <dl class="basic">
 <dt>作者ID</dt>

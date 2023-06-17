@@ -6,7 +6,6 @@ menuTitle = "データの推移"
 toc = true
 weight = 101004002
 aliases = ["/manual/analytics/transition/"]
-
 +++
 
 今回の報告と比較して前回、前々回はどのような値だったのかを一覧表にして確認できます。
@@ -17,7 +16,7 @@ aliases = ["/manual/analytics/transition/"]
 {{</info>}}
 データ推移表は報告書を表示すると自動で画面下部に作成されます。
 
-{{<appscreen filename="data-history" title="過去の報告書のデータを表に自動で変換"  >}}
+{{<appscreen filename="data-history" title="横軸に日付、縦軸に各種項目（売上や仕入高などの報告書内容）をもつ推移表です。前回、前々回との比較が可能です。">}}
 
 報告書表示時のデータ推移表は最大で直近30件まで生成します。いちいち集計機能を開かなくてもその場で確認できるため手軽な表です。
 主な特徴は以下のとおりです。
@@ -42,7 +41,7 @@ aliases = ["/manual/analytics/transition/"]
 1. 集計対象のテンプレートを選択
 1. 推移表が表示される
 
-{{<appscreen filename="range-transition" title="過去の報告書のデータを表に自動で変換"  >}}
+{{<appscreen filename="range-transition" title="推移表を期間指定して表示します。「先月」のように月単位の他、週単位や15日単位など細かく範囲を変更できます">}}
 
 ## 推移表をCSV形式でダウンロードする
 
@@ -67,7 +66,7 @@ aliases = ["/manual/analytics/transition/"]
 グループ化を使うことで同じ日の報告書を合算できます。同日の他、AM・PM単位、１時間単位でのグループ化も可能です。
 グループ化されたときはその列に何件の報告書が合算されたかをオレンジのボタンで表示します。
 
-{{<imgproc grouping.png "グループ集計を行った例。グループ化された列はオレンジのボタンでグループ化された件数を表示します" />}}
+{{<imgproc grouping.png "推移表のX軸（日付）をグループ化します。同日やAM/PM、1時間単位などでグループ化できます" />}}
 
 グループ化の詳細
 
@@ -82,7 +81,6 @@ aliases = ["/manual/analytics/transition/"]
   <dd>同日の同じ時間（例えば13:00〜13:59までが1つのグループ)を基準としてグループ化します</dd>
 </dl>
 
-
 {{<alice pos="right" icon="pc">}}
 グラフを作っているとグループ化によってグラフの表示も変化します。詳しくはグラフ化を御覧ください
 {{</alice>}}
@@ -91,13 +89,8 @@ aliases = ["/manual/analytics/transition/"]
 
 推移表のデータをもとにしてを折れ線や棒グラフ、円グラフを作成できます。
 
-
-{{<appscreen filename="make-charts" title="データ推移表をもとに積み上げ縦棒＆折れ線の複合フラフを作成した"  >}}
-
+{{<appscreen filename="make-charts" title="データ推移表をもとに積み上げ縦棒&折れ線の複合フラフを作成した">}}
 
 詳しい手順については「グラフの作成」を御覧ください。
 
 {{<btnCenter "/docs/manual/analytics/chart/" "グラフの作成">}}
-
-
-

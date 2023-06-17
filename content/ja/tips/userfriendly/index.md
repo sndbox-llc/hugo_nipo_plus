@@ -30,7 +30,7 @@ date = "2023-04-01"
 
 など予め解答を予測できます。このような場合はキーボードで「晴れ」と打つより一覧から「晴れ」を選んだほうがずっと楽です。
 
-{{<icatch filename="select" msg="結果が同じなら楽な 入力の方が絶対良い" title="同じ設問で入力方法を3種類表示しました。それぞれメリット・デメリットがあります。" fontsize="30px" alice="shield" >}}
+{{<icatch filename="select" msg="結果が同じなら楽な 入力の方が絶対良い" title="同じ設問で入力方法を3種類表示しました。それぞれメリット・デメリットがあります。" fontsize="30px" alice="shield">}}
 
 {{<btnCenter "/docs/manual/initial-setting/template/select/" "選択式入力">}}
 
@@ -42,7 +42,7 @@ date = "2023-04-01"
 
 それぞれの入力フォームごとに説明用の画像とヒントを書き込めます。
 
-{{<appscreen filename="report-guide-memo" msg="補足説明文や 画像の添付で補助" title="表現が曖昧な項目ではメモを駆使して日報作成者が混乱しないようにサポートします。" fontsize="30px" alice="here" >}}
+{{<appscreen filename="report-guide-memo" title="表現が曖昧な項目ではメモや説明用画像を付けてスタッフが迷わないようにガイドする">}}
 
 上の画像は色々説明を付したテンプレートの例です。
 
@@ -62,7 +62,7 @@ date = "2023-04-01"
 
 入力順序を指定することで、他の項目がグレースケールになるため「次に何を記入するか」が視覚的にわかりやすくなります。
 
-{{<icatch filename="input-order" msg="入力順を指定すれば 次の入力項目が明確" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
+{{<icatch filename="input-order" msg="入力順を指定すれば 次の入力項目が明確" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here">}}
 
 入力がされると次の項目が解除されるため、よりスムーズな入力が可能になります。
 似た機能に入力必須という指定もできます。入力必須を指定すると未入力の際警告するのでうっかり記入漏れを防ぐことができます。

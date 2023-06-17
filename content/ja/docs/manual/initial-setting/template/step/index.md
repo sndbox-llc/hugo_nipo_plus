@@ -26,7 +26,7 @@ aliases = ["/manual/initial-setting/template/step/"]
 
 このようなスライダーを報告書に追加できます。
 
-{{<icatch filename="slider-input" msg="つまみをスライドさせて 数値の入力ができます" title="スライダ入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="slider-input" msg="つまみをスライドさせて 数値の入力ができます" title="スライダ入力フォーム" fontsize="30px" alice="ok">}}
 
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
@@ -79,12 +79,12 @@ aliases = ["/manual/initial-setting/template/step/"]
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
-{{<appscreen filename="template-edit-slider" title="スライダ入力フォームのみで構成された日報テンプレート"  >}}
+{{<appscreen filename="template-edit-slider" title="スライダ入力フォームのみで構成された日報テンプレート">}}
 
 
 {{<nextArrow>}}
 
-{{<appscreen filename="slider-preview" title="スライダーを使った日報入力画面"  >}}
+{{<appscreen filename="slider-preview" title="スライダーを使った日報入力画面">}}
 
 
 
@@ -92,7 +92,7 @@ aliases = ["/manual/initial-setting/template/step/"]
 
 スライダは数値のためデータ集計に対応しています。
 
-{{<appscreen filename="charts" title="スライダのデータを用いて折れ線グラフを生成"  >}}
+{{<appscreen filename="charts" title="スライダのデータを用いて折れ線グラフを生成">}}
 
 ## スライダのデータをCSVに出力
 

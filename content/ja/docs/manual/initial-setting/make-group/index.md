@@ -22,11 +22,11 @@ aliases = ["/manual/initial-setting/make-group/"]
 1. グループ名やカラーテーマを設定
 1. グループに所属するスタッフを選択
 
-{{<appscreen filename="sosiki" title="メニュー左から「組織設定」を選ぶ"  >}}
+{{<appscreen filename="sosiki" title="メニュー左から「組織設定」を選ぶ">}}
 
 {{<nextArrow>}}
 
-{{<appscreen filename="add_group" title="グループの新規作成を行うには組織設定＞グループ管理＞グループの追加の順にクリックします"  >}}
+{{<appscreen filename="add_group" title="「グループ設定」のセクションに移動し、新規追加をクリックしてグループを作成します">}}
 
 グループの新規作成ポップが表示されます。グループ名を入力し、作成ボタンをクリックしてください。
 以上でグループが作成できました。作成したグループはグループ管理の一覧に表示されます。
@@ -44,7 +44,7 @@ aliases = ["/manual/initial-setting/make-group/"]
 1. スタッフリストが表示される
 1. 所属するスタッフを選ぶ(オレンジ色のスタッフは1名以上選ぶ)
 
-{{<appscreen filename="assign-staff" title="グループに所属するスタッフを選択"  >}}
+{{<appscreen filename="assign-staff" title="グループに所属するスタッフを選択">}}
 
 グループの中で様々な設定を行う必要が出てきますが、グループの設定ができるのは編集者以上の権限が必要になります。
 そのためグループには少なくとも１名以上、編集者か管理者を所属させてください。編集者以上のスタッフは<span style="color:orange;font-weight:bold">オレンジ色で表示</span>されます。
@@ -54,7 +54,7 @@ aliases = ["/manual/initial-setting/make-group/"]
 グループ内の設定をするにはそのグループに所属している必要があります。
 所属している場合はグループ一覧に「編集」ボタンが表示されるので編集ボタンを押してグループを切り替えてください。
 
-{{<appscreen filename="move-group" title="グループの切替"  >}}
+{{<appscreen filename="move-group" title="作業グループの切替は簡単に行なえます">}}
 
 グループの詳細設定画面に切り替わりましたか？この記事はグループの作成までになります。グループ内の細かい設定については次の記事を参照してください。
 

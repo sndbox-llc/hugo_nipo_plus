@@ -13,7 +13,7 @@ aliases = ["/manual/analytics/chart/"]
 
 {{<btnCenter "/tags/集計可能フォーム/" "集計可能フォーム一覧">}}
 
-{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="報告書をグラフ化する" fontsize="30px" alice="guide" >}}
+{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="報告書をグラフ化する" fontsize="30px" alice="guide">}}
 
 ## グラフの種類
 
@@ -42,13 +42,13 @@ aliases = ["/manual/analytics/chart/"]
 
 グラフ作成をクリックします。
 
-{{<appscreen filename="source-data" title="5つの数値入力フォームがある日報。これをグラフ化する"  >}}
+{{<appscreen filename="source-data" title="5つの数値入力フォームがある日報。これをグラフ化する">}}
 
 {{<nextArrow>}}
 
 グラフの種類を選択します。この例では「折れ線グラフ」を選択しました。
 
-{{<appscreen filename="select-chart-type" title="手順1:グラフの種類を選びます"  >}}
+{{<appscreen filename="select-chart-type" title="手順1:グラフの種類を選びます">}}
 
 選んだら次へボタンをクリックします
 {{<nextArrow>}}
@@ -56,13 +56,13 @@ aliases = ["/manual/analytics/chart/"]
 グラフに使用する入力フォームを選びます。利用可能なものだけリストアップされています。
 この例では3つチェックしています。
 
-{{<appscreen filename="select-use-field" title="手順2:グラフに使用するフィールドを選びます"  >}}
+{{<appscreen filename="select-use-field" title="手順2:グラフに使用するフィールドを選びます">}}
 
 {{<nextArrow>}}
 
 グラフのプレビューが表示されますのでイメージどおりか確認します。
 
-{{<appscreen filename="chart-preview" title="手順3:詳細設定"  >}}
+{{<appscreen filename="chart-preview" title="手順3:詳細設定とグラフのプレビューを確認">}}
 
 グラフに名前をつけてください。後で切り替える際にわかりやすい名称を設定します。
 グラフのタイプは「推移」「累積」から選びます。両者の違いは言葉では伝えにくいので画像付きで紹介します。
@@ -72,14 +72,14 @@ aliases = ["/manual/analytics/chart/"]
 - スタッフごとに集計が行われます
 - スタッフ同士の比較に適したグラフになります
 
-{{<appscreen filename="each-staff-chart" title="スタッフを基準にグラフ化する"  >}}
+{{<appscreen filename="each-staff-chart" title="グラフの基準（X軸）をスタッフにする。これによりスタッフ同士の成績比較が可能">}}
 
 **推移グラフ**の特徴
 
 - 時系列を基準に集計が行われます
 - 日毎の変化を見るのに適しています
 
-{{<appscreen filename="time" title="時間を基準グラフ化する"  >}}
+{{<appscreen filename="time" title="グラフの基準（X軸）を日付にする。これによりデータの推移を見ることが可能">}}
 
 詳しくは次のセクションで紹介します。
 最後に設定完了ボタンをクリックしてください。これでグラフが作成できました。
@@ -92,14 +92,14 @@ aliases = ["/manual/analytics/chart/"]
 
 作成したグラフがボタンとして追加されます。ボタンをクリックしてグラフを表示します。
 
-{{<appscreen filename="chart-created" title="グラフを表示する"  >}}
+{{<appscreen filename="chart-created" title="作成したグラフの表示:複数のグラフはクリックで切替が可能">}}
 
 ### データのグループ化
 
 グラフタイプが「推移」のものはグループ化集計が可能です。グループ化とは「同日」など基準を設けてその範囲の日報を合算してグラフ化する仕組みです。
 初期状態ではグループ化は無効になっています。次の画像は「同日」を基準にグループ化した例です。
 
-{{<appscreen filename="grouping" title="グループ化を「同日」で生成するとグラフとデータシート双方が変化します"  >}}
+{{<appscreen filename="grouping" title="時系列グラフは「日」「時間」など基準を変更してグループ化できる">}}
 
 「同日」を基準にすると同じ日に提出された日報を1つの日報に見立てて合算処理を行います。何件のデータが合算されたのかはオレンジ色のバーで表示します。上の画像では、12/2日に3件のデータが合算されたことがわかります。
 合算されたデータはグラフにもそのまま反映されます。
@@ -118,7 +118,7 @@ aliases = ["/manual/analytics/chart/"]
 - 棒グラフを選ぶと第2軸が折れ線グラフになります
 
 
-{{<appscreen filename="seccond-axis-chart" title="グラフに第２軸を追加する"  >}}
+{{<appscreen filename="seccond-axis-chart" title="グラフに第2軸を追加する">}}
 
 {{<alice pos="right" icon="ok">}}
 入場者数と売上高を1つのグラフにすると桁が違うので小さい方がみえなくなるよね。これを回避するよ
@@ -129,7 +129,7 @@ aliases = ["/manual/analytics/chart/"]
 グラフの種類選択時に「積み上げ棒グラフ」を選ぶことで積み上げ棒グラフが作成できます。
 前述した第二軸と組み合わせることも可能です。
 
-{{<appscreen filename="stack-bar-chart" title="積み上げ棒グラフと折れ線グラフを組み合わせた例"  >}}
+{{<appscreen filename="stack-bar-chart" title="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
 
 ## 円グラフを作る
 
@@ -140,29 +140,26 @@ aliases = ["/manual/analytics/chart/"]
 
 - 期間内のデータを合計してグラフ化
 
-{{<appscreen filename="pie-chart" title="推移で円グラフを作成"  >}}
+{{<appscreen filename="pie-chart" title="報告書のデータを元に円グラフを作成（日付を基準）">}}
 
 **累積**の例です。
 
 - 期間内のスタッフごとに分けて合計しグラフ化
 - スタッフ数×項目のため円が細分化しやすい
 
-{{<appscreen filename="pie-chart-accumulation" title="累積で円グラフを作成"  >}}
-
-
+{{<appscreen filename="pie-chart-accumulation" title="スタッフを基準として円グラフを作成">}}
 
 {{<alice pos="right" icon="ok">}}
 難しく考えずにプレビューをみながら調整すればいいよ
 {{</alice>}}
-
 
 ## レーダーチャートを作る
 
 グラフ作成時に「レーダーチャート」を選ぶとレーダーチャートが作成できます。
 レーダーチャートは円グラフと似た性質を持っています。
 
-{{<imgproc radar-chart.png "推移でレーダーチャートを作成" />}}
-{{<imgproc radar-chart-accumulation.png "累積でレーダーチャートを作成" />}}
+{{<imgproc radar-chart.png "レーダーチャート（日付を基準として作成）" />}}
+{{<imgproc radar-chart-accumulation.png "レーダーチャート（スタッフを基準として作成）" />}}
 
 ---
 

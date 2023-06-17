@@ -9,7 +9,7 @@ mermaid = true
 aliases = ["/manual/initial-setting/template/selectcalc/"]
 +++
 
-{{<icatch filename="select-step" msg="Q1の答によって Q2の選択が変化" title="選択肢二槽式入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="select-step" msg="Q1の答によって Q2の選択が変化" title="選択肢二槽式入力フォーム" fontsize="30px" alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
@@ -30,7 +30,7 @@ graph LR;
 ## 選択肢（2層式）の初期設定
 
 問１のリストと問２のリストを作成する必要があるため初期設定は少し手間がかかります。
-{{<appscreen filename="template" title="テンプレート編集。選択肢二槽式の初期設定"  >}}
+{{<appscreen filename="template" title="テンプレート編集。選択肢二槽式の初期設定">}}
 
 質問1の選択肢を追加するごとに、質問2の選択肢欄も自動で追加されていきます。
 以下は本入力フォームにのみ存在する設定項目です
@@ -56,7 +56,7 @@ graph LR;
 
 日報作成直後の画面では問1しか表示されませんが、問1を選択すると自動で問2が出現します。**問2の内容は問1によって変化**します。
 
-{{<appscreen filename="input" title="問1の選択によって問2の解凍リストが変化します"  >}}
+{{<appscreen filename="input" title="問1の選択によって問2の解凍リストが変化します">}}
 
 入力方式はラジオ式とプルダウン式の2種類があります。プルダウンでは文字入力による絞り込みが利用できるため**選択肢が多い場合はプルダウンを推奨**します。
 入力必須が設定されている場合は、**問2まで回答して初めて提出が可能**になります。
@@ -65,12 +65,12 @@ graph LR;
 
 受け取った日報を表示すると、答1・答2といった形で分けて画面に表示されます。
 
-{{<appscreen filename="post" title="受け取った日報を表示する。問1・問2のように分けて表示される"  >}}
+{{<appscreen filename="post" title="受け取った日報を表示する。問1・問2のように分けて表示される">}}
 
 表示切り替えをすることでラジオ式に切り替えることも可能です。ラジオ式の場合は選ばれなかった他の選択肢を見ることができます。
 選択肢(2層式)は**自動集計にも対応**しています。
 
-{{<appscreen filename="charts" title="問1の選択によって問2の回答リストが変化します"  >}}
+{{<appscreen filename="charts" title="問1の選択によって問2の回答リストが変化します">}}
 
 答2のデータのみが集計対象となります。円グラフを作ればどのお酒が一番選ばれたか？といったことが瞬時にわかります。
 
@@ -80,7 +80,7 @@ graph LR;
 
 データシートの集計方式を累積にすることで、選ばれた回数をスタッフアカウントごとにカウントできます。
 
-{{<appscreen filename="totaling" title="選択肢が何回選ばれたのかをスタッフアカウントごとに集計できます。"  >}}
+{{<appscreen filename="totaling" title="選択肢が何回選ばれたのかをスタッフアカウントごとに集計できます。">}}
 
 単語に数値が含まれていれば数値を基準とした集計等も可能です。
 

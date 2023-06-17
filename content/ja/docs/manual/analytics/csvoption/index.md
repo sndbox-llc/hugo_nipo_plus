@@ -13,7 +13,7 @@ CSVファイルの用途に応じて設定を変更してください。
 出力設定は「CSV出力」ボタンの隣りにある▼ボタンから設定できます。
 設定の内容は自動で保存されます。
 
-{{<appscreen filename="csv-setting1" title="CSV出力設定は様々な箇所から設定できます。ここでは受信BOXから設定を開いています"  >}}
+{{<appscreen filename="csv-setting1" title="CSV出力時の形式設定変更オプション">}}
 
 ## 列の展開について
 
@@ -73,7 +73,7 @@ CSV出力設定には「展開」に関する設定が多くあります。具�
 
 CSV出力設定では一括で展開のON/OFFが適用されてしまいますが、一部だけ展開を変えたい場合はテンプレートの編集から設定可能です。
 
-{{<appscreen filename="template-setting" title="日報テンプレート編集からCSVの設定を個別で行う"  >}}
+{{<appscreen filename="template-setting" title="テンプレートからCSV出力時の設定を独自に行う">}}
 
 テンプレートでの設定が優先して適用され、その後にCSV出力が適用されます。
 

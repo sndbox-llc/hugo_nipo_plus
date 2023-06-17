@@ -32,13 +32,13 @@ NipoPlusは３つのプランが用意されています
 まず知ってほしいのは無料でも日報の基本的な機能はすべてつかえるという点。
 テンプレートのカスタマイズもできるし、日報の読み書きも可能です。
 
-{{<icatch filename="write-report" msg="無料でも日報を 普通に書けますよ" title="無料プランでも日報を書くことが可能です" fontsize="30px" alice="ok" >}}
+{{<icatch filename="write-report" msg="無料でも日報を 普通に書けますよ" title="無料プランでも日報を書くことが可能です" fontsize="30px" alice="ok">}}
 
 {{<nextArrow>}}
 
 提出された日報を読むことも、PDF出力やCSVの出力も可能です。
 
-{{<icatch filename="free-export" msg="閲覧はもちろん 承認やPDF出力も" title="無料でも日報を読む・承認する・PDF出力することが可能です" fontsize="30px" alice="guide" >}}
+{{<icatch filename="free-export" msg="閲覧はもちろん 承認やPDF出力も" title="無料でも日報を読む・承認する・PDF出力することが可能です" fontsize="30px" alice="guide">}}
 
 - 日報の作成
 - 日報の閲覧

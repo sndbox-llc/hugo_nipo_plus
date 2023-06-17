@@ -8,7 +8,7 @@ weight = 101001111
 aliases = ["/manual/initial-setting/template/picture/"]
 +++
 
-{{<icatch filename="picture" msg="スマホで「パシャッ」 そのまま日報に添付" title="写真入力フォーム" fontsize="30px" alice="ok" >}}
+{{<icatch filename="picture" msg="スマホで「パシャッ」 そのまま日報に添付" title="写真入力フォーム" fontsize="30px" alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
@@ -26,7 +26,7 @@ aliases = ["/manual/initial-setting/template/picture/"]
 
 写真入力フォームは初期設定項目が非常に少ないです。その中で唯一気にかける項目は**幅の指定**です。
 
-{{<appscreen filename="picture-template-edit" title="写真入力フォームのみで構成された日報テンプレートを作成"  >}}
+{{<appscreen filename="picture-template-edit" title="写真入力フォームのみで構成された日報テンプレートを作成">}}
 
 添付された写真データは**幅いっぱいになるように画像を表示**しようとするため、幅が広いと写真が大きく表示されます。
 
@@ -46,7 +46,7 @@ aliases = ["/manual/initial-setting/template/picture/"]
 
 PCからはドラッグ操作で写真を日報に添付できます。スマートフォン・タブレットの場合はボックスをタップして追加してください。
 
-{{<appscreen filename="input" title="写真入力フォームの含まれた日報作成画面のイメージ。写真を添付できる枠がありそこから写真を追加できる。PCの場合はドラッグ操作で追加も可能"  >}}
+{{<appscreen filename="input" title="写真入力フォームの含まれた日報作成画面のイメージ。写真を添付できる枠がありそこから写真を追加できる。PCの場合はドラッグ操作で追加も可能">}}
 
 日報作成時は高さ制限があるため縦長の画像は上下がカットされたように見えますが、単にクロップされているだけです。データ自体は残っているのでご安心ください。
 全体の写真は日報受信時に表示できるようになります。
@@ -55,7 +55,7 @@ PCからはドラッグ操作で写真を日報に添付できます。スマー
 
 写真は幅いっぱいに表示されるため、同じ画像でも幅によって見え方が変わります。
 
-{{<appscreen filename="posted1" title="日報表示画面。写真はテンプレートの指定した幅にあわせて拡大されるため、同じ画像でも表示倍率が異なることがある"  >}}
+{{<appscreen filename="posted1" title="日報表示画面。写真はテンプレートの指定した幅にあわせて拡大されるため、同じ画像でも表示倍率が異なることがある">}}
 
 また、各写真には「表示切り替え」スイッチが付属します。スイッチがOFFの際は縦横比を維持して画像全体を表示します。そのため一般的には画像が小さくなります。
 スイッチをONにすると画像を大きく表示し、縦に長い画像は上下をクロップします。
@@ -69,7 +69,7 @@ PCからはドラッグ操作で写真を日報に添付できます。スマー
 CSV出力のオプション設定から「写真・ファイル等を出力する」をONにしてCSV出力すると別フォルダに署名やイラストがダウンロードされます。
 
 
-{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード"  >}}
+{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード">}}
 
 これで[写真入力フォーム](/docs/manual/initial-setting/template/picture/)、[署名入力フォーム](/docs/manual/initial-setting/template/sign/)、[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)それぞれののデータがCSV出力時にまとめてダウンロードされます。
 それぞれの日報フォルダの中に写真や署名・データファイルなどがまとめられます。

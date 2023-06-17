@@ -7,4 +7,4 @@ weight = 101008002
 aliases = ["/manual/task/list/"]
 +++
 
-{{<appscreen filename="mock" title="準備中"  >}}
+{{<appscreen filename="mock" title="準備中">}}

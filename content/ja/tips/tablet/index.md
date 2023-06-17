@@ -22,7 +22,7 @@ NipoPLUSを使用することで、独自の点検シートやチェックシー
 チェックボックスやラジオボタン、レート入力フォームなど入力効率の良い様々な入力フォームがあり、これらを組み合わせるだけでオリジナルのテンプレートが完成です。
 例えばどのようなテンプレートが作れるのでしょうか？1つサンプルを用意しました。
 
-{{<icatch filename="check-sheet-app" msg="架空部品の管理 シートの例です" title="業務用チェックシートアプリ" fontsize="30px" alice="ok" >}}
+{{<icatch filename="check-sheet-app" msg="架空部品の管理 シートの例です" title="業務用チェックシートアプリ" fontsize="30px" alice="ok">}}
 
 上画像のサンプルは[選択式入力フォーム](/docs/manual/initial-setting/template/select/)、
 製品保証Aの項目では[チェックボックス式入力フォーム](/docs/manual/initial-setting/template/checkbox/)が使用され、重量の項目では[スライダー式入力フォーム](/docs/manual/initial-setting/template/step/)が使用されています。
@@ -50,7 +50,7 @@ NipoPLUSでは、グラフの種類や範囲、表示する項目などを自由
 この機能は製造業や品質管理など、データ分析が重要な業務において、過去のデータから傾向を把握し、改善につなげることができるため、非常に有用です。
 例えば製造業において広く利用されている**P管理図**に近いものをNipoPlus内で簡単に作成することが可能です。
 
-{{<icatch filename="charts" msg="チェックシートデータを もとにP管理図を作成" title="業務用チェックシートアプリ" fontsize="30px" alice="ok" >}}
+{{<icatch filename="charts" msg="チェックシートデータを もとにP管理図を作成" title="業務用チェックシートアプリ" fontsize="30px" alice="ok">}}
 
 {{<alice pos="right" icon="pc">}}
 [CSV出力](/docs/manual/analytics/csv/)を使えば数百枚のチェックシートを1枚のエクセルシートにまとめるのもワンクリックです
@@ -73,7 +73,7 @@ NipoPLUSでは、グラフの種類や範囲、表示する項目などを自由
 システムの補助によりヒューマンエラーを限りなく減らします。
 また色分け機能などを使えばチェックシート入力時、スタッフに注意をうながすこともできます。コスト的にカラー印刷は大変ですが、システムはカラフルなチェックシートを使いスタッフに注意をうながす事も簡単です。
 
-{{<icatch filename="input-order" msg="決まった順に入力 を強制できます" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here" >}}
+{{<icatch filename="input-order" msg="決まった順に入力 を強制できます" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here">}}
 
 {{<btnCenter "/tips/required/" "記入漏れ・提出漏れについて詳しく見る">}}
 
@@ -87,7 +87,7 @@ NipoPLUSでは、グラフの種類や範囲、表示する項目などを自由
 
 NipoPlusではグループごとにチェックシートなどのテンプレートが管理されます。製造部門毎にグループを分け、その中に必要なチェックシートのテンプレートを用意しておけば、検査のたびにチェックシートがタブレット上に出現します。
 
-{{<icatch filename="group" msg="製造部や営業部 グループ分けで見やすく" title="報告書のテンプレートはグループ単位で利用可能です" fontsize="30px" alice="here" >}}
+{{<icatch filename="group" msg="製造部や営業部 グループ分けで見やすく" title="報告書のテンプレートはグループ単位で利用可能です" fontsize="30px" alice="here">}}
 
 ## スタートアップや小規模な企業様でも導入しやすい低価格！
 

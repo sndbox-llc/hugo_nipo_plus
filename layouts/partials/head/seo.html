@@ -11,7 +11,7 @@
 {{ end -}}
 
 {{ if .IsHome -}}
-  <title>{{ .Site.Params.title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.titleAddition }}</title>
+  <title>どんな日報でも簡単にアプリ化して管理{{ .Site.Params.titleSeparator }}{{ .Site.Params.title }}</title>
 {{ else if .Params.isNipo -}}
   <title>{{ .Title }} {{ .Site.Params.titleSeparator }} Nipo(旧Ver)</title>
 {{ else if in .Permalink "/docs/manual/" -}}

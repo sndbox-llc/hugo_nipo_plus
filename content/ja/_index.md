@@ -13,6 +13,20 @@ mermaid = true
 
 具体的な業務フローを見てみましょう.
 
+## Step0.オリジナルのテンプレートを作ろう
+
+10種類を超す入力フォームを組み合わせるだけで、「日報・チェックシート・作業報告書」など様々な報告書のテンプレートが簡単に作れます。テンプレートは複数保存でき、報告書作成時にテンプレートを選ぶと利用できます。
+
+{{<icatch filename="template" msg="入力フォームを選んで 幅調整すれば完成" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here">}}
+
+テンプレートは一回作れば繰り返し何度でも使えます。なので通常は初期設定時に作ればあとは不要ですね。だからStep0です。
+
+
+{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレート作成を見る">}}
+
+{{<nextArrow>}}
+
+
 ## Step1.報告書を書きます
 
 管理者が作った報告書のテンプレートに沿って業務報告を書きましょう。
@@ -27,10 +41,10 @@ mermaid = true
 
 報告書を「読める人」と「読めない人」「承認できる人」など細かい指定も可能です。
 
-<div class="row justify-content-center mt-5">
-<div class="col-sm-16 col-md-8">{{<button "/tips/required/" "記入・提出漏れの防止">}}</div>
-<div class="col-sm-16 col-md-8">{{<button "/tips/checksheet/" "製造業の点検シート">}}</div>
-</div>
+
+{{<btnCenter "/tips/mobile-device/" "モバイル機器で日報を書く">}}
+
+
 
 {{<nextArrow>}}
 
@@ -60,11 +74,9 @@ mermaid = true
 
 {{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="報告書をグラフ化する" fontsize="30px" alice="pc">}}
 
-<div class="row justify-content-center mt-5">
-<div class="col-sm-16 col-md-5">{{<button "/docs/manual/analytics/chart/" "報告書のグラフ化">}}</div>
-<div class="col-sm-16 col-md-5">{{<button "/tips/factory/" "P管理図の作成">}}</div>
-<div class="col-sm-16 col-md-5">{{<button "/tips/progress/" "目標と進捗">}}</div>
-</div>
+
+{{<btnCenter "/tips/analytics/" "日報をワンクリックで集計する">}}
+
 
 {{<nextArrow>}}
 
@@ -80,7 +92,7 @@ mermaid = true
 
 <div class="row justify-content-center mt-5">
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/read-report/pdf/" "PDF出力">}}</div>
-<div class="col-sm-16 col-md-8">{{<button "/docs/manual/analytics/csv/" "CSV出力">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/tips/sales_report/" "CSV出力">}}</div>
 </div>
 
 {{<nextArrow>}}
@@ -96,20 +108,23 @@ graph LR;
   無料プランへ降格--> 有料プランへ加入する
 {{< /mermaid >}}
 
+<div class="mainContent">
+
 1. アカウントが作られたら30日のトライアル期間がスタート（すべて利用可能）
 1. トライアル期間がすぎると無料プランへ切り替わります(一部機能制限がかかる)
 1. 無料で継続するか、有料プランの加入を検討してください
 
-
+</div>
 
 {{<alice pos="right" icon="book">}}
 <a href="/docs/manual/quickstart/">マニュアルはこちらです</a>
 {{</alice>}}
 
 
+{{<btnCenter "https://nipo-plus.web.app/#/" "Web版のNipoPlusを起動" "_blank">}}
 
-<div class="row justify-content-center">
-<div class="col-sm-16 col-md-4">{{<button "/docs/system/android/" "Androidで使う">}}</div>
-<div class="col-sm-16 col-md-4">{{<button "/docs/system/ios/" "iOSで使う">}}</div>
-<div class="col-sm-16 col-md-5">{{<button "https://nipo-plus.web.app/#/" "NipoPLusを起動" "_blank">}}</div>
+
+<div  style="text-align:right">
+<a href="/docs/system/ios/" ><img src="/images/apple.svg" width="150px" alt="iOSにNipoPlusをインストール"></a>
+<a href="/docs/system/android/"><img src="google-play-badge.png" width="150px" alt="androidにNipoPlusをインストール"></a>
 </div>

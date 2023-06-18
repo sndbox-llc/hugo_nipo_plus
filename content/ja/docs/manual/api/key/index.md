@@ -4,7 +4,7 @@ tags = ["有料プラン限定"]
 title = "APIキーの取得"
 toc = true
 weight = 101010001
-aliases = ["/manual/api/key/"]
+aliases = ["/manual/api/key/", "/docs/manual/api/"]
 images = ["invoke-api-key_tablet.png"]
 +++
 

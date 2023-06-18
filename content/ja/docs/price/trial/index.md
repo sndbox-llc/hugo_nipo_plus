@@ -5,10 +5,9 @@ title = "無料お試しトライアル期間"
 menuTitle = "無料お試し期間"
 toc = true
 weight = 102000001
-aliases = ["/price/info/"]
+aliases = ["/price/info/", "/docs/price/info/"]
 images = []
 mermaid = true
-
 +++
 
 {{<mermaid align="center">}}

@@ -8,7 +8,7 @@ images = []
 categories = []
 date = "2023-06-01"
 mermaid = true
-aliases = []
+aliases = ["/tips/_free/"]
 [sitemap]
   priority = 0.9
 +++

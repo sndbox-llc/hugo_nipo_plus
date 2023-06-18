@@ -5,6 +5,7 @@ title = "Firestoreのデータバックアップを自動で行う一番簡単�
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -60,7 +61,7 @@ Cloud functionsはこんなかんじ
 
 <Alice>どうやらNodeJSのバージョンが10にあがるとエラーで動かなくなるようです。下のコードはNode10にも対応したバージョンです(2020/12/18修正)</Alice>
 
-```typescript
+```javascript
 // 【index.ts】
 import * as functions from 'firebase-functions';
 import * as API from './api'; // これはFirestoreのコンソールから引っ張ってくる情報です

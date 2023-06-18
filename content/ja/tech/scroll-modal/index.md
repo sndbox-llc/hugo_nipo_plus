@@ -5,6 +5,7 @@ toc = true
 tags = []
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -19,7 +20,7 @@ date = "2022-11-14"
 {{<imgproc scrollbtn.png "スクロールを使う例" />}}
 
 
-```typescript
+```javascript
 /**
  * スクロール太郎
  */
@@ -71,9 +72,8 @@ QuasarにはScrollについても色々便利なユーティリティを提供�
 </template>
 ```
 
-```typescript
+```javascript
 
-<script setup lang="ts">
 import { ref } from 'vue';
 import { getRandStr } from 'src/components/utils';
 import { scroll } from 'quasar';
@@ -99,8 +99,6 @@ function scrollToElement (refId: string, offsetY = 0) {
   const getScrollTarget = scroll.getScrollTarget(element);
   scroll.setVerticalScrollPosition(getScrollTarget, element.offsetTop - offsetY, 300);
 }
-
-</script>
 
 ```
 

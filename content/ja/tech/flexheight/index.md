@@ -4,8 +4,8 @@ tags = []
 title = "Quasar Framework QCardの高さを揃えて見た目を良くする"
 toc = true
 images = []
-code = true
 date = "2023-01-01"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5

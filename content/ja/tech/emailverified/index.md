@@ -5,6 +5,7 @@ title = "FirebaseのE-mail認証でアドレスが正しいことを確認する
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5

@@ -5,6 +5,7 @@ title = "Firebase StorageでNoSuchKeyのエラーが発生する原因と対策"
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -27,7 +28,7 @@ This XML file does not appear to have any style information associated with it. 
 
 参考までにエラーの発生するコードを大幅に簡略化して掲載します
 
-```typescript
+```javascript
 import * as functions from 'firebase-functions';
 import { getStorage } from 'firebase-admin/storage';
 import { TDocumentDefinitions } from 'pdfmake/interfaces';
@@ -72,7 +73,7 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
 
 上記コードの問題は色々あるけど何よりも問題となるのが
 
-```typescript
+```javascript
 pdfDoc.pipe(myPDFFile.createWriteStream());
 ```
 
@@ -80,7 +81,7 @@ pdfDoc.pipe(myPDFFile.createWriteStream());
 大抵は**async / await**を使えば問題は解決しますが、nodeJSに不慣れな私にとってpdfDoc.pipe()の完了をどのように受け取るかやり方が分かっていませんでした。
 例えばこんな感じで記述ができれば世話ない話なんですけどね。
 
-```typescript
+```javascript
 // 処理の完了を待つためにawaitを使いたいが、ここでawaitは機能しません
 await pdfDoc.pipe(myPDFFile.createWriteStream());
 ```
@@ -100,7 +101,7 @@ await pdfDoc.pipe(myPDFFile.createWriteStream());
 pdfDoc.pipeは結局の所Internal.WriteStreamなのでこのStreamが完了するまで処理を止めればよいわけです。cloud Functionsはreturnで関数自体が終了してしまうので、Streamの書き込みが終わるまではreturnを実行してはいけません。
 処理を止めるにはPromiseを使えば簡単です。やり方はいくつかあると思います。
 
-```typescript
+```javascript
 export default functions.https.onCall(async(data: CFPdfReqParam, context):Promise<onCallResIf> => {
   const docDefinition: TDocumentDefinitions = {
     pageSize: 'A4',
@@ -137,7 +138,7 @@ pdfDoc.pipeの処理周りをごっそりpromiseでくくってしまい、strea
 これでstreamの書き込みが終わるまで次の処理へ進むことなく止まってくれます。
 なお余談ですが以下のような書き方も可能です
 
-```typescript
+```javascript
 // （止まれ）の中の一部抜粋
   pdfDoc.pipe(myPDFfile.createWriteStream())
 
@@ -151,7 +152,7 @@ pdfDoc.pipeの処理周りをごっそりpromiseでくくってしまい、strea
 
 ```
 
-```typescript
+```javascript
 await 止まれ();
 ```
 

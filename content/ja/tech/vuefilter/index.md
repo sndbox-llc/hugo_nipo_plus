@@ -5,6 +5,7 @@ title = "Vue2からVue3への移行-Filterの廃止を修正"
 toc = true
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -30,14 +31,14 @@ Vue.filter('longformat', function (t) { return (!!t) ? '-' : moment(t).format('Y
 
 様々な箇所で使っているので、関数化してFilterのときと同じように酷使できるようにします
 
-```typescript
+```javascript
 export function longformat (t) { return (!!t) ? '-' : moment(t).format('YYYY年MM月DD日(dddd)') };
 
 ```
 
 利用する箇所で importして、リターンしてあげれば使えるようになります。このあたりはVue3だとsetup()構文の中で全部書けるようなので、今後Vue3になるとこんな感じかな？
 
-```typescript
+```javascript
 import { defineComponent } from '@vue/composition-api'; // vue2でvue3っぽいことをするにはこれを使う
 import { longformat } from 'components/myfilters.ts';
 

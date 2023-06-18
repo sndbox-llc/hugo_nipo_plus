@@ -5,6 +5,7 @@ title = "pdfMakeとarchiverを使い複数のPDFを1つのZipにまとめてStor
 toc = true
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -22,7 +23,7 @@ pdfmake単体で2MB！加えて日本語フォント情報も別に持つ必要�
 
 pdfmakeをサーバサイドで利用するには、次のようなコードで実行できます。
 
-```typescript
+```javascript
 // このコードはnode16で動作を確認しております
 import { TDocumentDefinitions } from 'pdfmake/interfaces';
 import PdfPrinter from 'pdfmake';
@@ -97,7 +98,7 @@ Typescriptなので環境の構築も必要になります。[構築はこちら
 
 nodejsでアーカイブを作成するために今回は[achiver](https://github.com/archiverjs/node-archiver)を使用しました。
 
-```typescript
+```javascript
 archive.append(data: string | Buffer | internal.Readable)
 ```
 
@@ -108,7 +109,7 @@ pdfmakeは公式ガイドが少し不親切ですが、[githubのサンプルペ
 
 Cloud Functionsとかを抜きにして、単純なnodejsで2つのpdfファイルを作成し、1つのZipにまとめるコードは次のとおりです
 
-```typescript
+```javascript
 import { TDocumentDefinitions } from 'pdfmake/interfaces';
 import PdfPrinter from 'pdfmake';
 import archiver from 'archiver';
@@ -170,7 +171,7 @@ main();
 上記プログラムを実行するとoutput.zipという圧縮ファイルが1つ作成されます。解答すると中には2つのpdfファイルが保存されています。
 もしこれをFirebaseのCloud Functions上で実行させる場合は保存先がstorageになると思いますので、ファイルの書き出し先を次のように書き換えてあげればOKです
 
-```typescript
+```javascript
 // インポートの追加
 import { getStorage } from 'firebase-admin/storage';
 
@@ -182,7 +183,7 @@ archive.pipe(storage.bucket().file('path/to/出力するファイル名.zip').cr
 
 returnのが実行されると、streamの処理が途中でも関数を終えてしまうことを正しく理解していなかったため、原因究明に思った以上の時間を浪費してしまいました。
 
-```typescript
+```javascript
 .on('end', () => { });
 ```
 

@@ -5,6 +5,7 @@ title = "電卓風の見た目で逆ポーランド記法の式を作成する�
 toc = true
 images = ["reverce-polish-sample.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -66,9 +67,7 @@ NipoPlusに演算機能を実装する必要があり、色々調べたところ
 </template>
 ```
 
-```typescript
-
-<script setup lang="ts">
+```javascript
 /** 逆ポーランドマシーン */
 import { ref } from 'vue';
 
@@ -145,7 +144,6 @@ function infixToPostfix (s: string) {
   return result;
 }
 
-</script>
 ```
 
 入力された文字は数値の場合つながった文字列として入力され、四則演算記号は半角スペースで区切って入力されます。
@@ -164,7 +162,7 @@ function infixToPostfix (s: string) {
 
 逆ポーランド記法の数式を計算するサンプルは少し探すとたくさん出てきましたので、ここではおまけ程度に載せておきます。
 
-```typescript
+```javascript
 const calc = computed(() => {
   // 例えば[ 2, 6, "*", 9, "*" ]のような形の配列として渡ってきます
   const formula = props.formula;

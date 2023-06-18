@@ -5,6 +5,7 @@ title = "FirebaseのonAuthStateChangedが複数回呼ばれないように正し
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -19,8 +20,7 @@ NipoPlusのバックエンドはFirebaseを使用しています。Firebaseで�
 NipoPlusではこのonAuthStateChangedをログイン画面のコンポーネントに登録しています。
 VueRouterで起動時は必ずこのログインコンポーネントへリダイレクトされるため、ここでオブザーバが必ず登録される仕組みです。
 
-```typescript
-<script lang="ts">
+```javascript
 
 import { defineComponent, ref, inject, defineAsyncComponent, computed, onBeforeUnmount } from 'vue';
 import { initializeApp, getApps, getApp, FirebaseApp } from 'firebase/app';
@@ -58,7 +58,7 @@ export default defineComponent({
 しかしユーザがログアウトなどを行って再びこのログインコンポーネントが呼び出されると、初回時とログアウト後の2回、onAuthStateChangedがアプリ上に起動してしまうことになります。
 これで何が困るかというとログイン時にonAuthStateChangedが2回実行されてしまうわけです。上のコードの例であれば、
 
-```typescript
+```javascript
 loginStart();
 ```
 
@@ -108,7 +108,7 @@ Vueのライフサイクルでログインコンポーネントが破壊され�
 
 unsubscribeをしてしまうとonAuthStateChangedが監視を辞めてしまいます。ログアウト時にも本来発生する検知が行われなくなるため注意が必要です。
 
-```typescript
+```javascript
 const unsubscribe = onAuthStateChanged(auth, (user) => {
   if (user) {
     // ログイン時に行いたい処理などをここに書く

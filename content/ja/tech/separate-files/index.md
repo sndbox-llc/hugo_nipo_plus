@@ -5,6 +5,7 @@ title = "肥大化するCloud Functionsのファイルを複数のTsファイル
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -30,7 +31,7 @@ Cloud Functionsはアクセスが有ったときだけ動くサーバのよう�
 
 そんな便利なクラウドファンクションは、index.tsに処理を記述していきます。記述するとこんな感じ
 
-```typescript
+```javascript
 import * as functions from 'firebase-functions';
 const admin = require('firebase-admin');
 
@@ -94,7 +95,7 @@ admin.initializeApp;
 
 先程のサンプルコードを例に、addDataCounterを別のファイル（myCounter.ts）に切り分けてみましょう。
 
-```typescript
+```javascript
 // 【index.ts】
 import * as functions from 'firebase-functions';
 import * as myCounter from './myCounter'; // 追記
@@ -126,7 +127,7 @@ module.exports = {
 
 続いて分割された側のファイルコードはこちら
 
-```typescript
+```javascript
 // 【myCounter.ts】
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';

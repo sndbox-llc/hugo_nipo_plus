@@ -5,6 +5,7 @@ title = "FirebaseのCloud FunctionsでHttps.onRequestのCORS問題を回避"
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5

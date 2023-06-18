@@ -5,6 +5,7 @@ title = "Vue.js（ts）でGoogle API(gapi)を使いカレンダーを取得す�
 toc = true
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -71,7 +72,7 @@ DOMの操作がやりたくないからVueを使うのですが今回は仕方�
 </template>
 ```
 
-```typescript
+```javascript
 
 <script lang='ts'>
 import { defineComponent, onMounted } from '@vue/composition-api';
@@ -94,7 +95,7 @@ export default defineComponent({
 
 こんな感じで書くらしい。そして読み込みが終わると、いつのまにかgapiというオブジェクトが使えるようになるのです。
 
-```typescript
+```javascript
 function test () {
   console.log('すたーと');
   gapi.load('client:auth2', initClient);
@@ -129,9 +130,8 @@ gapiの型定義は、いつもの型定義郡からダウンロードできま�
 
 compilerOptionsの中に、typesという配列を追加し、そこにgapiを書き込みます。gapiを使うVueファイルの中で、次の文を追記します
 
-```typescript
-<script lang='ts'>
-  import { defineComponent, onMounted } from '@vue/composition-api';
+```javascript
+import { defineComponent, onMounted } from '@vue/composition-api';
   // ▼ スラッシュ3こはこのまま維持する必要があるようです。またパスは相対のため、この例と異なる場合があります
   /// <reference path="../../node_modules/@types/gapi/index.d.ts" />
 
@@ -155,7 +155,7 @@ compilerOptionsの中に、typesという配列を追加し、そこにgapiを�
 から直接やってくるのですから、未定義として怒られるのは当然です。
 この問題を解決するためにTypeScriptにはdeclareという構文が用意されています。これを書けばundefinedの問題は解決できます。
 
-```typescript
+```javascript
 declare const gapi: gapi
 ```
 
@@ -166,7 +166,7 @@ declare const gapi: gapi
 
 色々試行錯誤しましたが、とりあえず次のように書くことでTypeScriptさんを説得します。
 
-```typescript
+```javascript
 // eslint-disable-next-line @typescript-eslint/no-namespace
 declare namespace gapi {}
 ```
@@ -188,7 +188,7 @@ declare namespace gapi {}
 </template>
 ```
 
-```typescript
+```javascript
 
 <script lang='ts'>
 import { defineComponent, onMounted } from '@vue/composition-api';

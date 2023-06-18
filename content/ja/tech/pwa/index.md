@@ -5,6 +5,7 @@ toc = true
 tags = []
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -22,7 +23,7 @@ Vueや、私の利用している[Quasar](https://quasar.dev/)などはPWAモー
 PWAとしてQuasarをビルドすると、プロジェクト直下にsrc-pwaというディレクトリが作成され、その中に「register-service-worker.js(ts)」というファイルが自動で作成されます。
 中身はこんな感じでシンプルです。
 
-```typescript
+```javascript
 
 import { register } from 'register-service-worker';
 
@@ -77,7 +78,7 @@ Service Workerのそれぞれのイベントに応じて、行いたい処理を
 Quasarの公式サイト自体がGithubに公開されているため、まずはGithubの中身を確認してみます。[そのファイルはここから見れます](https://github.com/quasarframework/quasar/blob/dev/docs/src-pwa/register-service-worker.js)
 リンク先と同じコードをここにも書いておきます。ファイル名は register-service-worker.js です。（.tsではありませんでした）
 
-```typescript
+```javascript
 
 import { register } from 'register-service-worker';
 import { Notify } from 'quasar';

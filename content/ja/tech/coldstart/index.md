@@ -5,6 +5,7 @@ title = "Cloud Functionsのコールドスタートを回避する"
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -29,7 +30,7 @@ https.onCallは**Firebaseにログインした状態で呼び出す**ことが�
 JWTを取得してアクセスするような方法もあるようでしたが、個人的にはフロントのログインと同じように書ける方法のほうが好みだったのでnode.js上でFirebaseにログインし、Cloud Functionsに定期的にアクセスするような処理にしてみました。
 以下、コードです。
 
-```typescript
+```javascript
 // ファイル名: wakeup.ts
 import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
@@ -112,7 +113,7 @@ functions.pubsub.scheduleの記述があるCloud functionをデプロイする�
 定期的にCloud Functionsを実行するわけですが、バカ正直に最後まで走らせる必要はありません。まぁ普通に考えればパラメータ不足などで途中でエラー終了になるパターンが多そうですが。
 呼び出される側の関数で、特定のパラメータが来たらすぐに抜けるような処理を書いてあげるといいと思います。
 
-```typescript
+```javascript
 /** コールドスタートにしたくないCloud function。定期的に呼び出すことで問題を解決する */
 export default functions.https.onCall(async(data, context) => {
   const codeHead = 'someFunctionName';

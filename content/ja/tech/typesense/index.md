@@ -5,6 +5,7 @@ title = "TypesenseとFireStoreを併用してアプリ内検索を実装【Algol
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -255,7 +256,7 @@ NipoではBi-gramではなくUni-gramで分解しています。つまり1文字
 
 最後に、Nipoの入力をN-gramにするサンプルプログラム（数値ブロック対応版）の例を載せておきます
 
-```typescript
+```javascript
 
 /**
  * Ngram生成改良プログラム絵文字対応バージョン

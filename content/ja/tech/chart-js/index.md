@@ -5,6 +5,7 @@ title = "Vue composition APIでchart.jsを使いグラフを作成(vue-chart.js�
 toc = true
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -38,7 +39,7 @@ Chart.jsは最近Version3に更新されましたが、この記事は**Chart.js
 
 続いてScript部分。
 
-```typescript
+```javascript
 <script lang="ts">
 
 import { defineComponent, ref, onMounted } from "@vue/composition-api";

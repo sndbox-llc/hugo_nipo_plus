@@ -5,6 +5,7 @@ title = "moment.jsが非推奨になっていたようです"
 toc = true
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5

@@ -7,6 +7,7 @@ categories = []
 tags = []
 date = "2023-04-01"
 aliases = ["/blog/csvsc/"]
+code = true
 [sitemap]
   priority = 0.9
 +++

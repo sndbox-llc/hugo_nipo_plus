@@ -5,6 +5,7 @@ title = "APIを使い日報やテンプレートを取得する"
 menuTitle = "APIを使う"
 toc = true
 weight = 101010002
+code = true
 aliases = ["/manual/api/ref/"]
 +++
 
@@ -14,7 +15,6 @@ APIの利用には少し技術者の知識が必要です。
 - JSON
 
 このあたりの基本が理解できれば問題有りません。本ガイドはCURLを使用しています。コマンドが苦手な方は[Postman](https://www.postman.com/)などのGUIツールをご利用ください。
-
 
 ## APIへリクエストを投げる基本の形を報告書取得の例から見る
 

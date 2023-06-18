@@ -6,6 +6,7 @@ toc = true
 weight = 101001119
 aliases = ["/manual/initial-setting/template/key/"]
 images = []
+code = true
 +++
 
 ## 入力フォームを1件削除する

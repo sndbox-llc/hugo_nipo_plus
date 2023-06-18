@@ -5,6 +5,7 @@ title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
 toc = true
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -19,7 +20,7 @@ GitHub上でも5000スターを超えており、人気の様子がうかがえ�
 
 A4のように、メジャーなサイズはあらかじめ用意されているため、
 
-```typescript
+```javascript
 let pageSize = 'a4'
 let docDefinition = {
   pageSize:pageSize,
@@ -32,7 +33,7 @@ let docDefinition = {
 しかしちょっと変わったサイズ、特に日本独自のサイズを指定するとおかしなサイズになります。
 例えばハガキは100*148mm なので、
 
-```typescript
+```javascript
 let pageSize = {
   width:100,
   height:148
@@ -48,7 +49,7 @@ pdfMakeで使われている単位はなんと「us pt」というもので、�
 
 よって pdfMakeでハガキサイズを指定するには
 
-```typescript
+```javascript
 // ハガキサイズの指定 100 * 148mm
 let hagakiSize = {
   width:283.46,

@@ -5,6 +5,7 @@ title = "FirestoreとElasticSearchを組み合わせて\n検索に強いFirebase
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -40,7 +41,7 @@ FireStoreの便利な点と、Elastic Searchの高度な検索を組み合わせ
 スキーマの作成は記述量が多くなるのでtsファイルなどに書き、いつでも作成出来るようにしておくとデータベースの復旧などでも使い回せるのでオススメです。
 例えばNipoPlusの日報データに関するスキーマは次のように作成しています(一部紹介)
 
-```typescript
+```javascript
 import { IndicesCreateRequest, MappingTextProperty } from "@elastic/elasticsearch/lib/api/types";
 
 export const reportIndexName = 'インデックスの名前';
@@ -115,7 +116,7 @@ Cloud FunctionsでFireStoreの変化を検出し、ElasticSearchへデータを�
 この例ではonWriteを使っており、書き込み、更新、削除の３つを1つのCloud Funstionsで処理しています。
 なお更新はIDを指定して書き込みすれば上書きしてくれるのであまり深く考える必要はありません。mySQLで言うところのupsertみたいな感覚で使えます。
 
-```typescript
+```javascript
 import * as functions from 'firebase-functions';
 import { ELASTIC_CLOUD_ID, ELASTIC_PW, ELASTIC_USER_NAME } from 'どこか遠いところからとってきて';
 import { Client } from '@elastic/elasticsearch';
@@ -176,7 +177,7 @@ FirebaseのユーザIDを保証できるhttpOnCallを使うと、アクセスユ
 
 以下はサンプルです。
 
-```typescript
+```javascript
 import * as functions from 'firebase-functions';
 import { DocumentReference, getFirestore } from 'firebase-admin/firestore';
 import { Client } from '@elastic/elasticsearch';

@@ -5,6 +5,7 @@ title = "async関数を呼び出したときに呼び出し先でエラーが発
 toc = true
 images = []
 date = "2022-11-14"
+code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
@@ -109,7 +110,7 @@ awaitで呼び出した関数はresolveかrejectを返すのですが、sub関�
 だから明確に、sub関数の中でエラーが発生したことを呼び出し元に伝えるために、エラーを再送する必要があります。エラーの再送が　「 throw e 」なわけです。
 throwをするときは Newするべき！という記事もありますがこれは
 
-```typescript
+```javascript
 throw 'なんかやばいことが起きた';
 ```
 

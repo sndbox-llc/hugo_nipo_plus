@@ -2,7 +2,6 @@
 description = "蓄積した日報のデータを簡単に集計＆グラフ化できます。より細かい分析がしたい場合は集計データをCSVに出力することでエクセルなどの表計算ソフトを使い分析が可能です"
 title = "日報をワンクリックで集計"
 toc = true
-isNipo = true
 images = ['report1_tablet.png']
 tags = ["集計"]
 categories = []

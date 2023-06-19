@@ -3,7 +3,6 @@ description = "無料お試し期間が短縮されました"
 title = "無料お試し期間の変更"
 toc = true
 date = "2022-12-01"
-categories = []
 tags = []
 images = []
 [sitemap]

@@ -4,7 +4,6 @@ title = "日報のよくある「記入/提出忘れ」を0にする"
 toc = true
 aliases = ["/blog/leak/", "/blog/required/"]
 images = ["input-order_tablet.png"]
-categories = []
 tags = []
 date = "2023-05-14"
 [sitemap]

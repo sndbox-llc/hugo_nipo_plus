@@ -5,7 +5,6 @@ title = "無料でもずっと使える日報アプリ"
 toc = true
 draft = false
 images = []
-categories = []
 date = "2023-06-01"
 mermaid = true
 aliases = ["/tips/_free/"]

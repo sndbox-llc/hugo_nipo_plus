@@ -4,7 +4,6 @@ tags = []
 title = "インボイス制度登録番号"
 toc = true
 date = "2023-05-26"
-categories = []
 images = []
 [sitemap]
   changefreq = "yearly"

@@ -3,7 +3,6 @@ description = "品質管理チェックシートを電子化することで、�
 title = "報告書を電子化してP管理図を自動で作る"
 toc = true
 images = ["factory_icatch.png"]
-categories = ["製造業向け", "集計"]
 tags = ["製造業向け", "集計"]
 date = "2023-04-01"
 aliases = ["/checksheet/factory/"]

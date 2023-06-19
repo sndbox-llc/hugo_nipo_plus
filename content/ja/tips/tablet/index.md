@@ -3,7 +3,6 @@ description = " 製造業に最適なNipoPLUSで簡単な点検シート作成�
 title = "タブレットで製造業のチェックシートを作成"
 toc = true
 images = ["factory_icatch.png"]
-categories = ["製造業向け", "チェックシート"]
 tags = ["製造業向け", "チェックシート"]
 date = "2023-04-01"
 aliases = ["/checksheet/tablet/", "/blog/ipad/"]

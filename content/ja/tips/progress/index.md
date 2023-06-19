@@ -3,7 +3,6 @@ description = "製造業のDX化を小さな一歩から始めましょう。コ
 title = "【進捗管理】報告書の生産数を自動で進捗管理表にまとめる"
 toc = true
 images = ["progress-table_tablet.png"]
-categories = ["製造業向け", "チェックシート", "集計"]
 tags = ["製造業向け", "チェックシート", "集計"]
 date = "2023-04-01"
 [sitemap]

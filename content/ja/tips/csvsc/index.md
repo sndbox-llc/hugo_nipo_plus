@@ -3,7 +3,6 @@ description = "ドラッグ操作で複数のCSVを1つのCSVファイルに結�
 title = "複数のCSVファイルをドラッグで1つに結合-CSVSC"
 toc = true
 images = ["linking-multi-csv.png"]
-categories = []
 tags = []
 date = "2023-04-01"
 aliases = ["/blog/csvsc/"]

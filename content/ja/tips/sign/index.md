@@ -4,7 +4,6 @@ tags = []
 title = "日報アプリ内に直筆のサインを埋め込む"
 toc = true
 images = ["width12.png"]
-categories = []
 date = "2023-05-14"
 [sitemap]
   priority = 0.9

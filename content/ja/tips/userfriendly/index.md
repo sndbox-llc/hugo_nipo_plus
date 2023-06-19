@@ -4,7 +4,6 @@ tags = []
 title = "使いやすい日報テンプレートを作る"
 toc = true
 images = []
-categories = []
 date = "2023-04-01"
 [sitemap]
   priority = 0.9

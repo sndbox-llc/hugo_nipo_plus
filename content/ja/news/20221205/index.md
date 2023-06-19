@@ -3,7 +3,6 @@ description = "日報の検索機能について一部操作方法が変更に�
 title = "受信BOXの検索機能変更について"
 toc = true
 date = "2022-12-05"
-categories = []
 tags = []
 images = []
 [sitemap]

@@ -3,7 +3,6 @@ description = "紙ベースのチェックシートをNipoPlusで電子化し、
 title = "業務用チェックシートアプリで電子化"
 toc = true
 images = ["factory-usage.jpg"]
-categories = ["製造業向け", "チェックシート"]
 tags = ["製造業向け", "チェックシート"]
 date = "2023-06-15"
 aliases = ["/checksheet/", "/blog/checksheet/", "/blog/checklistapp/"]

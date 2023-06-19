@@ -4,7 +4,6 @@ tags = []
 title = "タクシー日報をスマホ・タブレットで"
 toc = true
 images = []
-categories = []
 date = "2023-04-01"
 aliases = ["/blog/taxi/"]
 [sitemap]

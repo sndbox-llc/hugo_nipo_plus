@@ -5,7 +5,6 @@ title = "日報管理"
 toc = true
 draft = true
 images = []
-categories = []
 date = "2023-06-01"
 aliases = []
 [sitemap]

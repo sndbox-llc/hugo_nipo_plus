@@ -5,7 +5,6 @@ title = "社内外のアンケート調査をアプリで手軽に"
 toc = true
 draft = true
 images = []
-categories = []
 date = "2023-06-01"
 aliases = []
 [sitemap]

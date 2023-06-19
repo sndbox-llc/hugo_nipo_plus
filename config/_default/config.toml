@@ -1,7 +1,7 @@
 baseurl = "https://nipo-plus-doc.sndbox.jp/"
 canonifyURLs = false
 disableAliases = false
-disableHugoGeneratorInject = true
+disableHugoGeneratorInject = false
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
@@ -65,7 +65,6 @@ notAlternative = true
   priority = 0.6
 
 [taxonomies]
-  category = "categories"
   tag = "tags"
 
 # [permalinks]
@@ -79,9 +78,6 @@ notAlternative = true
   threshold = 80
   includeNewer = true
   toLower = false
-    [[related.indices]]
-    name = "categories"
-    weight = 40
     [[related.indices]]
     name = "tags"
     weight = 100

@@ -4,7 +4,6 @@ tags = ["モバイル"]
 title = "スマホ・タブレットで日報を書く"
 toc = true
 images = ["tablet-phone.png"]
-categories = []
 date = "2023-04-01"
 aliases = ["/blog/smartphone/", "/tips/smartphone/", "/blog/cloud/", "/tips/cloud/"]
 [sitemap]

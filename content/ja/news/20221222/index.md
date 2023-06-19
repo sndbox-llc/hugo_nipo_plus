@@ -3,7 +3,6 @@ description = "年末の営業状況について"
 title = "2022年年末年始の営業"
 toc = true
 date = "2022-12-22"
-categories = []
 tags = []
 images = []
 [sitemap]

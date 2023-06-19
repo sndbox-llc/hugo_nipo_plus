@@ -4,7 +4,6 @@ tags = []
 title = "業務日報テンプレート集"
 toc = true
 images = []
-categories = []
 date = "2023-04-01"
 [sitemap]
   priority = 0.9

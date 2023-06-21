@@ -19,6 +19,7 @@ module.exports = {
         'th',
         'td',
         ...whitelister([
+          './assets/scss/custom/fukidashi.scss',
           './assets/scss/custom/ueda.scss',
           './assets/scss/components/_doks.scss',
           './assets/scss/components/_code.scss',

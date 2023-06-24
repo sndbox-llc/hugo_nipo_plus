@@ -1,7 +1,7 @@
-/** アリス吹き出し*/
 .right {
   flex-direction: row-reverse;
 }
+
 .left {
   flex-direction: row;
 }
@@ -10,9 +10,10 @@
   display: flex;
   width: 100%;
   align-items: center;
-  .side {
-    width: 100px;
-  }
+}
+
+.mywrap .side {
+  width: 100px;
 }
 
 .fukidashi-main {
@@ -25,48 +26,49 @@
   color: #444;
   background: #fff;
   border: solid 3px #888;
-  &__left {
-    &:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: -24px;
-      margin-top: -12px;
-      border: 12px solid transparent;
-      border-right: 12px solid #fff;
-      z-index: 2;
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: -30px;
-      margin-top: -14px;
-      border: 14px solid transparent;
-      border-right: 14px solid #888;
-      z-index: 1;
-    }
-  }
-  &__right {
-    &:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      right: -24px;
-      margin-top: -12px;
-      border: 12px solid transparent;
-      border-left: 12px solid #fff;
-      z-index: 2;
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      right: -30px;
-      margin-top: -14px;
-      border: 14px solid transparent;
-      border-left: 14px solid #888;
-      z-index: 1;
-    }
-  }
+  overflow-wrap: break-word;
+}
+
+.fukidashi-main__left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #fff;
+  z-index: 2;
+}
+
+.fukidashi-main__left:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-right: 14px solid #888;
+  z-index: 1;
+}
+
+.fukidashi-main__right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-left: 12px solid #fff;
+  z-index: 2;
+}
+
+.fukidashi-main__right:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-left: 14px solid #888;
+  z-index: 1;
 }

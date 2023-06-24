@@ -8,13 +8,16 @@ h1 {
   color: $baseColor;
 }
 
-
-
 h2 {
   font-size: 2rem;
   margin-top: 3rem;
   font-weight: bold;
   color: $accentColor;
+}
+strong {
+  color: black;
+  font-weight: 900;
+  background:linear-gradient(transparent 60%, orange 60%);
 }
 
 @media only screen and (max-width: 480px) {

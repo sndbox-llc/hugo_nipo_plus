@@ -14,6 +14,12 @@ h2 {
   font-weight: bold;
   color: $accentColor;
 }
+
+h2, h3, h4 {
+  margin: 2rem 0 1rem;
+  padding-top: 67px;
+  margin-top:-67px;
+}
 strong {
   color: black;
   font-weight: 900;

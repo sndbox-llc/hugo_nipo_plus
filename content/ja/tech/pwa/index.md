@@ -243,11 +243,13 @@ App.vueは最もルートのコンポーネントなので初期化や今回の�
 
 App.vueは次のようになりました。短いので全文掲載します。
 
-```vue
+```html
 <template>
   <router-view />
 </template>
-<script lang="ts">
+```
+
+```javascript
 
 import { defineComponent, provide } from 'vue';
 import { baseStoreKey } from 'components/provide/keys';
@@ -309,8 +311,6 @@ export default defineComponent({
     }
   }
 })
-
-</script>
 ```
 
 provideとかは今回の話題とは関係ないのでスルーしてください。ポイントは以下のコードです。

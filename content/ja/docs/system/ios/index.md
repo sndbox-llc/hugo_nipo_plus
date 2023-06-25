@@ -6,7 +6,7 @@ menuTitle = "iOSで使う"
 toc = true
 weight = 103000002
 aliases = ["/system/ios/"]
-images = []
+images = ["ios-pwa-install1.png"]
 [sitemap]
   changefreq = "monthly"
   priority = 0.6
@@ -20,7 +20,6 @@ iPhone・iPadでNipoPlusを使うには2つの方法があります。
 ## WebのNipoPlusをインストール（推奨）
 
 WebのNipoPlusはPWAという技術が使われているため**Webでありながらインストールが可能**です。
-
 
 1. Safariから[NipoPlusを起動](https://nipo-plus.web.app)する
 1. メニューをタップ
@@ -52,7 +51,6 @@ NipoPlusは下のボタンから起動できます
 <a href="https://apps.apple.com/jp/app/id1625797169" target="_blank"><img src="/images/apple.svg" width="400px" alt="app store logo"></a>
 
 App Store版はいくつか機能制限があります。
-
 
 - CSV出力などの「ダウンロード」を伴う処理ができません
 - 有料プランのお申し込みや解約ができません

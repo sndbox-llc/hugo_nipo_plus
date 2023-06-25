@@ -4,7 +4,7 @@ title = "テンプレートは報告書のひな型です"
 menuTitle = "ℹ️テンプレート概要"
 toc = true
 weight = 101001100
-tags = []
+tags = ["テンプレート"]
 mermaid = true
 images = []
 +++

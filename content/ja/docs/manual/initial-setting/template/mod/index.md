@@ -1,6 +1,6 @@
 +++
 description = ""
-tags = ["日報構成部品"]
+tags = ["日報構成部品", "テンプレート"]
 title = "【商品入力】を日報に追加"
 menuTitle = "🧩商品入力"
 toc = true

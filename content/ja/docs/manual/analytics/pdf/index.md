@@ -1,6 +1,6 @@
 +++
 description = "報告書のデータをPDFに一括で変換します。"
-tags = ["有料プラン限定"]
+tags = ["有料プラン限定", "PDF出力"]
 title = "複数の日報をまとめてPDFに変換する"
 menuTitle = "PDF一括出力"
 toc = true

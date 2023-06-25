@@ -1,6 +1,6 @@
 +++
 description = "点検項目を自由に作れます。スマホ・タブレット完全対応。180円"
-tags = []
+tags = ["PDF出力"]
 title = "点検表アプリで点検業務を効率化。スマホ対応！無料プランあり"
 toc = true
 draft = false

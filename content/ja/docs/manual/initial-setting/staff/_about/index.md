@@ -1,6 +1,6 @@
 +++
 description = "スタッフアカウントに関する操作ガイドです"
-tags = []
+tags = ["要管理者権限", "スタッフアカウント管理"]
 title = "組織のスタッフ管理"
 menuTitle = "概要"
 toc = true

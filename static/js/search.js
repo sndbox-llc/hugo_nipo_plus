@@ -1,30 +1,4 @@
 
-/* <em>タグの前後30文字を切り抜くマン*/
-function extractTextWithEmTag(text) {
-  const startIndex = text.indexOf('<em>');
-  const endIndex = text.indexOf('</em>');
-  if (startIndex !== -1 && endIndex !== -1) {
-    const start = Math.max(0, startIndex - 10);
-    const end = Math.min(text.length, endIndex + 100);
-    const extractedText = text.substring(start, end);
-    return cutStr(extractedText, 50);
-  }
-  return cutStr(text, 50)
-}
-function cutStr (text, len = 30) {
-  if (text.length <= len) {
-    return text;
-  }
-
-  const truncatedText = text.substring(0, len) + '...';
-  return truncatedText;
-}
-
-function openModal() {
-  var modal = document.getElementById('exampleModal');
-  modal.classList.add('show');
-  modal.style.display = 'block';
-}
 const { createApp } = Vue
 
 createApp({
@@ -43,6 +17,27 @@ createApp({
         mySearch(); // 遅延後に実行
       }, debounceTime.value);
     });
+
+    /* <em>タグの前後30文字を切り抜くマン*/
+    function extractTextWithEmTag(text) {
+      const startIndex = text.indexOf('<em>');
+      const endIndex = text.indexOf('</em>');
+      if (startIndex !== -1 && endIndex !== -1) {
+        const start = Math.max(0, startIndex - 10);
+        const end = Math.min(text.length, endIndex + 100);
+        const extractedText = text.substring(start, end);
+        return cutStr(extractedText, 50);
+      }
+      return cutStr(text, 50)
+    };
+    /** 指定した長さ以上のTextをカット */
+    function cutStr (text, len = 30) {
+      if (text.length <= len) {
+        return text;
+      }
+      const truncatedText = text.substring(0, len) + '...';
+      return truncatedText;
+    }
   
     // 検索関数
     function mySearch() {

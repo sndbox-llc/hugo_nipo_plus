@@ -1,18 +1,18 @@
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="searchBoxModal" tabindex="-1" aria-labelledby="searchBoxModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">検索</h5>
+        <h5 class="modal-title" id="searchBoxModalLabel">検索</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
       <div class="modal-body">
-        <div>
-          <input type="text" id="nipoSBox" class="w-100">
-        </div>
         <div id="app">
+          <input type="text" v-model="word" class="w-100">
+          <hr />
+
           <div v-if="isNotFound">見つかりませんでした。</div>
           <a v-else v-for="row in resultArr" style="border-bottom: 1px solid #ccc" :href="[[row.relpermalink]]" class="list-group-item list-group-item-action mb-2">
             <div class="d-flex w-100 justify-content-between">
@@ -29,6 +29,7 @@
         <a href="https://www.algolia.com/" target="_blank"><img src="/images/Algolia-logo-blue.svg" width="100px" alt="algolia logo"></a>
       </div>
       </div>
+
     </div>
   </div>
 </div>

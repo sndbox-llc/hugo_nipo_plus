@@ -21,11 +21,9 @@ mermaid = true
 
 テンプレートは一回作れば繰り返し何度でも使えます。なので通常は初期設定時に作ればあとは不要ですね。だからStep0です。
 
-
 {{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレート作成を見る">}}
 
 {{<nextArrow>}}
-
 
 ## Step1.報告書を書きます
 
@@ -41,10 +39,7 @@ mermaid = true
 
 報告書を「読める人」と「読めない人」「承認できる人」など細かい指定も可能です。
 
-
 {{<btnCenter "/tips/mobile-device/" "モバイル機器で日報を書く">}}
-
-
 
 {{<nextArrow>}}
 
@@ -99,8 +94,6 @@ mermaid = true
 
 ## 無料プランもあります。今すぐ始めませんか？
 
-
-
 {{<mermaid align="center">}}
 graph LR;
   アカウント作成 --> トライアル期間 --> 期間満了 -->  無料プランへ降格
@@ -120,11 +113,9 @@ graph LR;
 <a href="/docs/manual/quickstart/">マニュアルはこちらです</a>
 {{</alice>}}
 
-
 {{<btnCenter "https://nipo-plus.web.app/#/" "Web版のNipoPlusを起動" "_blank">}}
 
-
 <div  style="text-align:right">
-<a href="/docs/system/ios/" ><img src="/images/apple.svg" width="150px" alt="iOSにNipoPlusをインストール"></a>
-<a href="/docs/system/android/"><img src="google-play-badge.png" width="150px" alt="androidにNipoPlusをインストール"></a>
+<a href="/docs/system/ios/" ><img loading="lazy" src='/images/apple.svg' width="108.85157" height="40" style="width:200px; height:auto" alt="ios App Store"></a>
+<a href="/docs/system/android/"><img loading="lazy" src="google-play-badge.png" width="646" height="192" style="width:240px; height:auto" alt="Android Google Play Store"></a>
 </div>

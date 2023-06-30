@@ -6,7 +6,7 @@ toc = true
 draft = false
 images = ["pdf.png"]
 date = "2023-06-24"
-aliases = []
+aliases = ["/tips/_maintenance/"]
 [sitemap]
   priority = 0.9
 +++

@@ -4,7 +4,7 @@
     <div class="col-lg-12 text-center">
       <h1 class="mt-0">{{ .Title }}</h1>
     </div>
-    <div class="col-lg-9 col-xl-9 text-center">
+    <div class="col-lg-9 col-xl-9 text-center" style="margin-top: 6em">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
     </div>
   </div>
@@ -15,17 +15,23 @@
 <div class="container-xxl">
   <div class="row align-items-center myhero" >
     <div class="col-sm-16 col-lg-7">
-      <h1>どんな報告書でもノーコードでアプリ化</h1>
+      <h1>報告書をシステム化して<br>スマホやPCで管理できます</h1>
       <div class="mainContent">
+        ▼例えば以下のような報告書も簡単にアプリ化✨
         <ul>
-          <li>設備点検シート</li>
-          <li>日報・週報・月報</li>
-          <li>清掃メンテナンスシート</li>
-          <li>現地調査表</li>
+          <li><a href="/tips/photo/">写真付き日報</a>や週報・月報</li>
+          <li><a href="/tips/checksheet/">製造チェックシート</a></li>
+          <li><a href="/tips/maintenance/">設備点検シート</a></li>
           <li>業務報告書</li>
-          <li>写真付き日報</li>
+          <li>作業完了報告書</li>
         </ul>
-        <p>テンプレートを自由に作ったら、入力欄に沿って記入するだけで簡単に報告書が提出できるアプリです。カスタマイズ性が高いので御社の業務に必要な報告書を大抵自作できます。プログラミングの知識は一切不要です</p>
+        <p>
+          要は<strong>所定の枠に沿って入力するタイプの報告書</strong>は何でもアプリ化できます。
+          <dl class="faq">
+            <dt>アプリ化すると何がいいの？</dt>
+            <dd>外出先からスマホで日報を書いたり、作業場に据え置きのタブレットで検査結果を入力したりできます。報告書の管理がとても楽になります</dd>
+          </dl>
+        </p>
       </div>
       <a href="/docs/manual/quickstart/" class="btn btn-primary btn-lg my-5">🔰入門ガイド</a>
     </div>
@@ -212,7 +218,7 @@
 
 
 {{ define "sidebar-footer" }}
-<section class="section section-sm container-fluid">
+<section class="section section-sm container-fluid docs-content" >
   <div class="row justify-content-center ">
     <div class="col-xs-16 col-md-12">
       {{- .Content -}}

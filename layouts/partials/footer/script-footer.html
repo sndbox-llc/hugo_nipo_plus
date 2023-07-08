@@ -86,7 +86,8 @@
   {{ end -}}
   <script src="{{ $js.RelPermalink }}" defer></script>
   {{ with .Params.mermaid -}}
-    <script src="{{ $mermaid.RelPermalink }}" defer></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.min.js" integrity="sha512-KxXF2PTpQ6vOh92ibaJXQxPA4hTD6mSAHBPT8SxbfSh6DupjgwTT2wHcn7x3Q1vvD5JnFXK1C46q5PDHRnyWWg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--<script src="{{ $mermaid.RelPermalink }}" defer></script>-->
   {{ end -}}
   {{ if $showFlexSearch -}}
     <script src="{{ $index.RelPermalink }}" defer></script>

@@ -22,7 +22,7 @@ API LV31以上に対応するにはCapacirot4に更新します。しかし[Quas
 
 ### 具体的なフロー
 
-いつものようにQuasarからAndroidのビルドを行います
+いつものようにQuasarからAndroidのビルドを行います.
 
 ```sh
 quasar build -m capacitor -T android --ide

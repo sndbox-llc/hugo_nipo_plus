@@ -92,20 +92,6 @@
           {{ end -}}
         </ul>
 
-        {{- $showFlexSearch := .Site.Params.options.flexSearch }}
-        {{- if $showFlexSearch }}
-        {{- if and (isset .Site.Params.options "searchsectionsshow") (not (eq .Site.Params.options.searchSectionsShow "ALL")) }}
-        {{- $showFlexSearch = or (eq (len .Site.Params.options.searchSectionsShow) 0) (in .Site.Params.options.searchSectionsShow .Section) (and .IsHome (in .Site.Params.options.searchSectionsShow "HomePage")) }}
-        {{- end }}
-        {{- end }}
-
-        {{ if $showFlexSearch -}}
-        <hr class="text-black-50 my-4 d-lg-none">
-        <form class="doks-search position-relative flex-grow-1 ms-lg-auto me-lg-2">
-          <input id="search" class="form-control is-search" type="search" placeholder="{{ i18n "search-text" }}" aria-label="{{ i18n "search-text" }}" autocomplete="off">
-          <div id="suggestions" class="shadow bg-white rounded d-none"></div>
-        </form>
-        {{ end -}}
         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#searchBoxModal">
           <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" width="25"><path d="M796-121 533-384q-30 26-69.959 40.5T378-329q-108.162 0-183.081-75Q120-479 120-585t75-181q75-75 181.5-75t181 75Q632-691 632-584.85 632-542 618-502q-14 40-42 75l264 262-44 44ZM377-389q81.25 0 138.125-57.5T572-585q0-81-56.875-138.5T377-781q-82.083 0-139.542 57.5Q180-666 180-585t57.458 138.5Q294.917-389 377-389Z"/></svg>
           検索

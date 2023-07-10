@@ -19,6 +19,8 @@ module.exports = {
         'th',
         'td',
         ...whitelister([
+          './node_modules/highlight.js/scss/base16/unikitty-light.scss',
+          './node_modules/highlight.js/scss/base16/unikitty-dark.scss',
           './assets/scss/custom/fukidashi.scss',
           './assets/scss/custom/ueda.scss',
           './assets/scss/components/_doks.scss',

@@ -2,6 +2,7 @@
 description = "NipoPlusに関するご質問、ご要望、お問い合わせはこちらからお送りください。24時間以内に返信いたします。自動返信メールにて受け付け完了のお知らせを送信しています"
 tags = []
 title = "📩Inquery"
+menuTitle = "📩Inquery"
 toc = true
 weight = 103000016
 aliases = ["/docs/system/inquery/", "/system/inquery/"]

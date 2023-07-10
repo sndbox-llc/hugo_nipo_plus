@@ -1,6 +1,6 @@
 
 [[main]]
-  name = "操作ガイド"
+  name = "📖操作ガイド"
   url = "/docs/manual/quickstart/"
   weight = 10
 [[main]]
@@ -9,12 +9,12 @@
   weight = 11
 
 [[main]]
-  name = "料金"
+  name = "💰料金"
   url = "/docs/price/_about/"
   weight = 20
 
 [[main]]
-  name = "お問い合わせ"
+  name = "📩お問い合わせ"
   url = "/others/inquery/"
   weight = 40
 

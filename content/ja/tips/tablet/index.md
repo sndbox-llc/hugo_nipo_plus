@@ -1,6 +1,7 @@
 +++
 description = " 製造業に最適なNipoPLUSで簡単な点検シート作成を実現！タブレットを活用し、効率的な入力やリアルタイムな情報共有で品質管理が向上します。今すぐNipoPLUSで効率化を体験しましょう"
 title = "タブレットで製造業のチェックシートを作成"
+menuTitle = "タブレットで製造業のチェックシートを作成"
 toc = true
 images = ["factory_icatch.png"]
 tags = ["製造業向け", "チェックシート"]

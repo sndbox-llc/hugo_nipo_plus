@@ -2,6 +2,7 @@
 description = "無料で使える日報アプリをお探しですか？NipoPlusの無料プランは日報の提出や承認など基本的な機能を０円で利用可能です"
 tags = []
 title = "無料でもずっと使える日報アプリ"
+menuTitle = "無料でもずっと使える日報アプリ"
 toc = true
 draft = false
 images = []

@@ -1,7 +1,8 @@
 +++
 description = "1件の報告書をCSV形式でエクスポートします。出力形式を変更することで様々な用途に利用できる元データとして活用可能"
 tags = ["有料プラン限定", "CSV出力", "Web版限定"]
-title = "報告書CSV出力（単体）"
+title = "1件の日報をCSVに変換・出力する"
+menuTitle = "CSV出力（単体）"
 toc = true
 weight = 101003004
 aliases = ["/manual/read-report/csv/"]

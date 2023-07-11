@@ -11,6 +11,8 @@ defaultMarkdownHandler = "goldmark"
       title = true
   [goldmark.renderer]
     unsafe = true
+    [goldmark.renderer.headingAttribute]
+      ID = true
 
 [highlight]
   codeFences = false

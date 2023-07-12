@@ -10,7 +10,7 @@ aliases = ["/system/spec/"]
   priority = 0.5
 +++
 
-## Webアプリ版
+## Webアプリ版{#web}
 
 <dl class="basic">
 <dt>OS</dt>
@@ -36,7 +36,7 @@ Nipoのすべての機能が最も使いやすい形で提供されています�
 Webアプリ版はPCでもスマホでも使えます
 {{</alice>}}
 
-## Androidアプリ版
+## Androidアプリ版{#android}
 
 <dl class="basic">
   <dt>AndroidVersion</dt>
@@ -54,7 +54,7 @@ Webアプリ版はPCでもスマホでも使えます
 PWAとしてインストールする方法とApp Storeからインストールする方法があります。PWA版を推奨します
 {{</alice>}}
 
-## iOSアプリ版
+## iOSアプリ版{#ios}
 
 <dl class="basic">
   <dt>iOSバージョン</dt>

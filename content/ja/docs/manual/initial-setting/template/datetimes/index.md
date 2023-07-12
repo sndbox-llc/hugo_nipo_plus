@@ -31,8 +31,6 @@ images = []
   </form>
 </div>
 
-
-
 {{<icatch filename="datetimes-icatch" msg="作業時間や期間 日付の計算も可能" title="期間入力フォーム" fontsize="30px" alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
@@ -45,7 +43,7 @@ images = []
 - 日付と時刻
 - 日付
 
-## フォームをテンプレートに追加する
+## フォームをテンプレートに追加する{#add}
 
 1. テンプレート編集画面を開く
 1. フォームリストから「日付時刻（期間）」をクリックして追加
@@ -100,7 +98,7 @@ images = []
 {{< /warning >}}
 
 
-## 期間入力の集計は分単位で行われる
+## 期間入力の集計は分単位で行われる{#subtotal}
 
 期間は時間のため集計が可能です。集計は単位が分に統一されることに注意してください。
 例えば10:00 - 11:30は1時間半ですが集計上は 90(分)となります。
@@ -109,7 +107,7 @@ images = []
 
 {{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 
-### CSVs出力
+### CSVs出力{#csv}
 
 CSV出力時は開始時点・終了時点の2列に分けて出力されます。
 
@@ -125,7 +123,7 @@ CSV出力時は開始時点・終了時点の2列に分けて出力されます�
 
 </div>
 
-## おまけ：その他の入力方式
+## おまけ：その他の入力方式{#hint}
 
 時刻以外の期間入力を一覧で記載します。
 

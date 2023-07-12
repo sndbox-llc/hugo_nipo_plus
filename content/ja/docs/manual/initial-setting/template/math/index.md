@@ -25,7 +25,7 @@ images = ["math_tablet.png"]
 - 製造高
 - 不良数
 
-## フォームをテンプレートに追加する
+## フォームをテンプレートに追加する{#add}
 
 1. テンプレート編集画面を開く
 1. フォームリストから「数値」をクリックして追加
@@ -48,7 +48,6 @@ images = ["math_tablet.png"]
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-
 {{<appscreen filename="math-template-edit" title="数値入力フォームだけで構成されたテンプレートの作成画面イメージ。単位や色などはここで自由に変更可能です">}}
 
 {{<nextArrow>}}
@@ -58,7 +57,7 @@ images = ["math_tablet.png"]
 - 数値以外は入力できないので注意してください。
 - 桁が大きくなる場合はカンマが提出時に自動で付きます。手動では入れられません。
 
-## 数値入力フォームの集計
+## 数値入力フォームの集計{#subtotal}
 
 数値入力フォームは集計・グラフ化が可能です。
 
@@ -66,7 +65,7 @@ images = ["math_tablet.png"]
 
 {{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
 
-## データをCSVに出力
+## データをCSVに出力{#csv}
 
 数値の日報はCSVに出力できます。オプションは有りません。
 設定で指定した数値の**単位**については、CSV上のラベル（1行目）に【】に囲まれて出力されます。

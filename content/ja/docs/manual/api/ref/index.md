@@ -16,7 +16,7 @@ APIの利用には少し技術者の知識が必要です。
 
 このあたりの基本が理解できれば問題有りません。本ガイドはCURLを使用しています。コマンドが苦手な方は[Postman](https://www.postman.com/)などのGUIツールをご利用ください。
 
-## APIへリクエストを投げる基本の形を報告書取得の例から見る
+## APIへリクエストを投げる基本の形を報告書取得の例から見る{#sample}
 
 ```sh
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポイント】 \
@@ -31,7 +31,7 @@ Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/
 
 上記基本形のうち、【】で囲われたエリアは独自に値を指定します。
 
-### 【エンドポイント】
+### 【エンドポイント】{#endpoint}
 
 ここでは報告書の取得に関するエンドポイントのみ紹介します。以下のいづれかの値を指定します。必須です。
 
@@ -48,7 +48,7 @@ Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/
 
 他のエンドポイントについては本ページ末尾で解説します。
 
-### 【パラメータ】・【値】
+### 【パラメータ】・【値】{#param}
 
 報告書取得に感るうパラメータを紹介します。
 パラメータをセットします。**グループIDは必須**です。必要に応じて複数パラメータを指定できます。
@@ -64,7 +64,7 @@ Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/
 |templates|String配列|使用したテンプレートのIDで絞り込み。テンプレートIDの配列で指定|
 |owners|String配列|日報作成者IDで絞り込み。スタッフのIDを配列で指定|
 
-### 【取得したAPIキー】
+### 【取得したAPIキー】{#auth}
 
 取得したAPIキーをCurlに含めてください。長いので必ずコピーペーストして使用してください。
 APIキーの取得が済んでいないかたは先にAPIキーの取得を行ってください。
@@ -73,7 +73,7 @@ APIキーの取得が済んでいないかたは先にAPIキーの取得を行�
 
 本ガイドではこれ以降も実際のAPIキーは使用せず解説します。
 
-### エンドポイントとパラメータを指定した最小限のCurl
+### エンドポイントとパラメータを指定した最小限のCurl{#smallest}
 
 ```sh
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/reports/admin \
@@ -85,7 +85,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/reports/admin \
 このコマンドは報告書を取得する命令を送っています。パラメータに期間の指定が無いため、直近10件の報告書がAPI経由で取得できます。
 
 
-### パラメータを色々指定した実用性のあるCurl
+### パラメータを色々指定した実用性のあるCurl{#long_sample}
 
 設定可能なパラメータを追加した例です。
 
@@ -146,11 +146,11 @@ https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/
 グループIDは「eZu8bXFNh73YtVoR83ic」となります。
 
 
-## その他のエンドポイント
+## その他のエンドポイント{#other}
 
 報告書の取得以外に用意されているエンドポイントとパラメータについてまとめています。
 
-### テンプレートの取得エンドポイント
+### テンプレートの取得エンドポイント{#template}
 
 
 <dl class="basic">
@@ -176,7 +176,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 -d "{ "groupId": "nipodefaultgroup" }"
 ```
 
-### ログデータ取得エンドポイント
+### ログデータ取得エンドポイント{#log}
 
 <dl class="basic">
 <dt>/logs</dt>
@@ -201,7 +201,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
 -d "{"groupId": "nipodefaultgroup", "size": 1000, "from": "2022/08/01 10:00:00", "to": "2022/08/01 10:59:59"}"
 ```
 
-### スタッフ取得エンドポイント
+### スタッフ取得エンドポイント{#staff}
 
 
 <dl class="basic">
@@ -222,7 +222,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 -d "{ "groupId": "nipodefaultgroup" }"
 ```
 
-### 組織全体のエンドポイント
+### 組織全体のエンドポイント{#org}
 
 組織全体に関する情報のためアクセスには管理者権限が必要です。
 <dl class="basic">
@@ -241,7 +241,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs/admin \
 -H "Authorization: Bearer 【取得したAPIキー】" \
 ```
 
-## エラーの種類と対策
+## エラーの種類と対策{#error}
 
 WebAPIにリクエストを投げたとき、戻り値に{ error: true }がかえってきたときは何かしらのエラーが発生しています。
 エラーの内容が messageプロパティにセットされていますので、メッセージを確認の上正しいパラメータを設定してください。

@@ -43,8 +43,7 @@ images = []
 「本日の来客者」のように上限が予測できない項目では適しません。
 スマートフォンやタブレットと相性が良いフォームです。
 
-
-## フォームをテンプレートに追加する
+## フォームをテンプレートに追加する{#add}
 
 1. テンプレート編集画面を開く
 1. フォームリストから数値入力（スライダ）をクリックして追加
@@ -71,8 +70,6 @@ images = []
   <dd>ON:提出時に未入力だと提出ができません</dd>
 </dl>
 
-
-
 {{< warning >}}
 レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。
 {{< /warning >}}
@@ -80,26 +77,21 @@ images = []
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-
 {{<appscreen filename="template-edit-slider" title="スライダ入力フォームのみで構成された日報テンプレート">}}
-
 
 {{<nextArrow>}}
 
 {{<appscreen filename="slider-preview" title="スライダーを使った日報入力画面">}}
 
-
-
-## スライダのデータを集計
+## スライダのデータを集計{#subtotal}
 
 スライダは数値のためデータ集計に対応しています。
 
 {{<appscreen filename="charts" title="スライダのデータを用いて折れ線グラフを生成">}}
 
-## スライダのデータをCSVに出力
+## スライダのデータをCSVに出力{#csv}
 
 スラライダで入力された値は数値データとしてCSVに出力できます。単位は【】内に記載されます
-
 
 <div class="excelTable">
 

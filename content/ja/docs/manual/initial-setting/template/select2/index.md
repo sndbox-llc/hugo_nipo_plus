@@ -38,8 +38,7 @@ images = []
 |:---:|:---:|:---:|
 |○|○|○|
 
-
-## フォームをテンプレートに追加する
+## フォームをテンプレートに追加する{#add}
 
 1. テンプレート編集画面を開く
 1. フォームリストから「選択肢」をクリックして追加
@@ -76,7 +75,7 @@ images = []
 
 {{<btnCenter "/docs/manual/initial-setting/template/select/" "単語の色分け">}}
 
-## CSV出力
+## CSV出力{#csv}
 
 出力形式を変えることができます。
 {{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}

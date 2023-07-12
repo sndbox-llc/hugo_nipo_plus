@@ -17,7 +17,7 @@ images = ["chart_tablet.png"]
 
 様々な集計分析が可能です。このページは概要のため各機能を大まかに紹介します。
 
-## 報告書データの推移表
+## 報告書データの推移表{#line}
 
 - 前回、前々回・・・n回前の結果を並べて表示します
 - 過去と今回との比較を見たいときに便利です
@@ -33,7 +33,7 @@ images = ["chart_tablet.png"]
 
 {{<btnCenter "/docs/manual/analytics/transition/" "推移表について詳しく見る">}}
 
-## 報告書データの累積表
+## 報告書データの累積表{#stack}
 
 - スタッフごとに売上や仕入れといったデータを累積します
 - スタッフ同士の成績比較に適しています
@@ -44,7 +44,7 @@ images = ["chart_tablet.png"]
 
 {{<btnCenter "/docs/manual/analytics/accumn/" "操作ガイドを見る">}}
 
-## 報告書データのグラフ化
+## 報告書データのグラフ化{#charts}
 
 - 前述の累積表・推移表をもとにグラフを作成可能
 - 折れ線・円・棒・積み上げ縦棒・レーダー・複合のグラフを作成可能
@@ -54,7 +54,7 @@ images = ["chart_tablet.png"]
 
 {{<btnCenter "/docs/manual/analytics/chart/" "グラフ化のマニュアル">}}
 
-## 予定と実績の対比表
+## 予定と実績の対比表{#schedule}
 
 {{<info>}}
 生産管理担当者からの要望で実装されました。納期までに目標数を用意する管理に適しています
@@ -70,7 +70,7 @@ images = ["chart_tablet.png"]
 
 {{<btnCenter "/docs/manual/analytics/progress/" "予定／実績">}}
 
-## エクセルを用いた集計・分析
+## エクセルを用いた集計・分析{#excel}
 
 NipoPlusの集計でカバーできない範囲はCSV出力してエクセルから集計が可能です。
 
@@ -83,7 +83,7 @@ NipoPlusの集計でカバーできない範囲はCSV出力してエクセルか
 
 {{<btnCenter "/tips/sales_report/" "エクセルにて集計する">}}
 
-## 集計方式の違い
+## 集計方式の違い{#hint}
 
 大きく分けて２つの集計ルールがあります
 <dl class="basic">

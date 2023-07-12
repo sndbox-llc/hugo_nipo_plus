@@ -15,7 +15,7 @@ images = ["pdf-download_tablet.png"]
 
 ---
 
-## 表示中の報告書1件をPDFに出力する
+## 表示中の報告書1件をPDFに出力する{#pdf_export}
 
 PDFに変換する手順は次のとおりです。
 
@@ -37,7 +37,7 @@ PDFの作成には少し時間がかかります。完了後、画面右下に�
 {{<appscreen filename="pdf-download" title="PDFの日報をダウンロードしてブラウザで表示">}}
 
 
-## PDFの出力設定
+## PDFの出力設定{#setting}
 
 ※この機能は有料プラン限定です  
 
@@ -51,7 +51,7 @@ PDF出力設定では以下の設定が可能です。
 
 {{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレートの編集">}}
 
-### 1度限り有効な設定を行う
+### 1度限り有効な設定を行う{#once}
 
 1. PDF出力（一括）の下向き三角ボタンをクリック
 1. PDF出力設定をクリック

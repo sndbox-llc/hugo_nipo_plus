@@ -13,7 +13,7 @@ images = ["mapping-reports-to-calendar_tablet.png"]
 
 {{<icatch filename="mapping-reports-to-calendar" msg="カレンダーから日報 を表示できます" title="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here">}}
 
-## カレンダーの表示切替
+## カレンダーの表示切替{#switch}
 
 カレンダーは２種類用意されています
 
@@ -28,7 +28,7 @@ images = ["mapping-reports-to-calendar_tablet.png"]
 
 {{<appscreen filename="agenda" title="横軸に日付、縦軸にスタッフで構成されたカレンダー。スタッフごとの日報提出状況を把握し易い">}}
 
-## 保存BOXとの違い
+## 保存BOXとの違い{#diff}
 
 報告書を読む際は保存BOXからも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
 検索が必要な場合は日報保存箱を活用してください。

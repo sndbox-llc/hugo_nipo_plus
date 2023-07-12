@@ -13,7 +13,7 @@ aliases = ["/old/system/android-install/"]
 
 AndroidやiOSでNipoを利用するには、2種類の方法が用意されています。このページは**Android向けのガイド**になります。[iPhone/iPadの方はこちら](/old/system/ios-install/)をどうぞ
 
-## PWA版としてインストールする【推奨】
+## PWA版としてインストールする【推奨】{#pwa}
 
 PWAとはかんたんに言うと**Webアプリを本当のアプリのように見せる技術**です。
 本物のアプリのように見えるので**ホーム画面にアイコンが表示**されますし、アイコンをタップすることでアプリ起動が可能です。  
@@ -24,7 +24,7 @@ PWAとしてインストールすることで、Web版のNipoを使えます。W
 
 という点です。
 
-### PWA版のインストール手順(Android版)
+### PWA版のインストール手順(Android版){#pwa_install}
 
 画像による解説と動画による解説を併記しております。この操作はandroidの方を対象にしています。[iOS方はこちら](/old/system/ios-install/)。  
 Androidに標準でインストールされているGoogle Chromeを起動してください。
@@ -45,7 +45,7 @@ Androidに標準でインストールされているGoogle Chromeを起動して
 
 {{<imgproc pwa_android5.png "ホーム画面にNipoのボタンが追加されました。" />}}
 
-## Google Playでインストールする【従来型】
+## Google Playでインストールする【従来型】{#app_store}
 
 いわゆる「いつものやつ」です。App Store上にNipoのアプリが公開されていますので、以下のアイコンをタップしてアプリをインストールできます
 

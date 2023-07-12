@@ -13,7 +13,7 @@ aliases = ["/old/parts/date/"]
 
 {{<btnCenter "/docs/manual/initial-setting/template/datetime/" "新バージョンでも使えます">}}
 
-## 日付の入力画面
+## 日付の入力画面{#display}
 
 カレンダーから日付を選んで入力したり、キーボードを使って直接日付を入力できます。
 初期値が「本日」になるため、初期値を固定することができません。  
@@ -21,7 +21,7 @@ aliases = ["/old/parts/date/"]
 
 {{<imgproc parts_date1.png "日付を含む日報の入力画面例" />}}
 
-## 日付を含んだ日報の各種出力画面
+## 日付を含んだ日報の各種出力画面{#output}
 
 [PDFに出力](/old/manual/pdf/)すると次のように表示されます。
 
@@ -35,7 +35,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_date4.png "クラウド日報Nipoのアプリ上から日付を表示した画面" />}}
 
-## 設定画面
+## 設定画面{#setting}
 
 日報テンプレートの編集画面では次のような設定画面となっております。
 

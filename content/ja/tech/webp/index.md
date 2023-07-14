@@ -33,7 +33,7 @@ date = "2022-11-14"
 こちらはダウンロードすると**ファイルサイズが33KB**。WebPのほうが軽くなって、なおかつ見た目の劣化もほぼ見られません。
 
 WebPへの変換はこのサイトのジェネレータであるHugoのWebp変換機能を使っています。
-念の為Google謹製の[https://squoosh.app/](squoosh)でも試してみましたが結果は同じでした。
+念の為Google謹製の[squoosh](https://squoosh.app/)でも試してみましたが結果は同じでした。
 
 {{<imgproc squoosh.jpg "Squoosh画面" />}}
 

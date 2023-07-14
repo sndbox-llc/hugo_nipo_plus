@@ -28,7 +28,7 @@ images = []
 例：
 <ul>
 <li><a href="/docs/manual/initial-setting/template/make/">テンプレートの作成</a></li>
-<li><a href="(/docs/manual/initial-setting/advanced-setting/dist/">日報提出先の指定</a></li>
+<li><a href="/docs/manual/initial-setting/advanced-setting/dist/">日報提出先の指定</a></li>
 <li>グループからスタッフを追放する</li>
 </dd>
 <dt>スタッフ</dt>

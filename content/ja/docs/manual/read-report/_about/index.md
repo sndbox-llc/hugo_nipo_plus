@@ -23,7 +23,7 @@ images = []
 
 <div class="row justify-content-center mt-5">
 <div class="col-sm-16 col-md-5">{{<button "/docs/manual/calendar/_about/" "カレンダーで報告書を読む">}}</div>
-<div class="col-sm-16 col-md-5">{{<button "docs/manual/notice/app/" "通知で報告書を読む">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "/docs/manual/notice/app/" "通知で報告書を読む">}}</div>
 <div class="col-sm-16 col-md-5">{{<button "/docs/manual/notice/email/" "メール通知で報告書を読む">}}</div>
 </div>
 

@@ -12,7 +12,7 @@ aliases = ["/old/system/price/"]
 +++
 
 
-{{<imgproc price.png "" />}}
+{{<imgproc price.png "料金アイキャッチ" />}}
 
 ## 無料で使える日報アプリです。利用期間の制限もありません{#about}
 

@@ -22,7 +22,7 @@ Nipo/NipoPlusのユーザから頂戴した様々なお問い合わせの内容�
 <dt>正しいパスワードを入れたのにログインできません</dt>
 <dd>大文字小文字の打ち間違いに注意してください。またログインE-mailも正しいことを確認してください。何度か間違えると数分間ロックが掛かるので少し時間をおいて試してください</dd>
 <dt>ログインメールアドレスを変更したいのですが</dt>
-<dd>はい、可能です。<a href="docs/manual/account/email/">mailとパスワードのリセットについて</a>を参照してください</dd>
+<dd>はい、可能です。<a href="/docs/manual/account/email/">mailとパスワードのリセットについて</a>を参照してください</dd>
 <dt>パスワード再設定のメールが届きません</dt>
 <dd><div>再設定のメールは「noreply@nipo-plus.firebaseapp.com」または「noreply@nipo-77c25.firebaseapp.com」というアドレスから送信されます。<ul style="display:block"><li>迷惑メールフォルダを確認してください</li><li>ドメイン指定受信をしている場合firebaseapp.comを受信できるように設定してください</li></ul></div></dd>
 </dl>

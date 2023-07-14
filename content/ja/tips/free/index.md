@@ -60,7 +60,7 @@ NipoPlusは３つのプランが用意されています
 <dd>集計に関するすべての機能がロックされます</dd>
 <dt><a href="/docs/manual/calendar/_about/">カレンダー機能</a></dt>
 <dd>日報をカレンダー上二表示する機能がロックされます</dd>
-<dt><a href="docs/manual/read-report/comment/">日報のコメント機能</a></dt>
+<dt><a href="/docs/manual/read-report/comment/">日報のコメント機能</a></dt>
 <dd>日報に対してコメントを書く機能がロックされます</dd>
 <dt>メール通知</dt>
 <dd>日報の提出時にメールで通知する機能がロックされます。アプリ内通知は利用可能です</dd>

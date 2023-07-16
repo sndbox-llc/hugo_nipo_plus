@@ -3,8 +3,8 @@
 ## Homepage
 title = "Nipo Plus"
 titleSeparator = "|"
-titleAddition = "ノーコードで報告書をアプリ化"
-description = "チェックシートや日報もOK。スマホで日報作成や承認棄却、報告書の集計&グラフ化📊だって可能です。無料プラン有り〼有料プランも業界最安値"
+titleAddition = "ノーコードで日報をアプリ化"
+description = "NipoPlus(ニポプラス)はスマホやタブレットで日報の読み書きが可能です。無料プランもあり。PDF出力や集計機能も完備しています"
 
 BookDateFormat = "2006年01月02日"
 ## Documentation
@@ -14,17 +14,16 @@ BookDateFormat = "2006年01月02日"
 images = ["/images/nipoplus.png"]
 ogLocale = "ja_JP"
 domainTLD = "nipo-plus-doc.sndbox.jp"
-titleHome = "報告書App NipoPlus"
+titleHome = "NipoPlus(ニポプラス)"
 
 ## Twitter Cards
 twitterSite = "@nipo_plus"
 twitterCreator = "@nipo_plus"
 
 ## JSON-LD
-# schemaType = "Person"
 schemaType = "Organization"
-schemaName = "NipoPlus"
-schemaAuthor = "Nipo Plus"
+schemaName = "NipoPlus(ニポプラス)"
+schemaAuthor = "Nipo+"
 schemaAuthorTwitter = "https://twitter.com/nipo_plus"
 schemaAuthorGitHub = "https://github.com/sandbox-co-ltd"
 schemaLocale = "ja-JP"
@@ -73,7 +72,7 @@ copyRight = "Copyright (c) Sndbox LLC"
 # Alert
 alert = false
 alertDismissable = true
-alertText = "2023/05/28 サイトリニューアルしました"
+alertText = ""
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster

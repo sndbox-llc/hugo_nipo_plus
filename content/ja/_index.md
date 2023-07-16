@@ -103,7 +103,8 @@ mermaid = true
 またデータ自体を出力したいときにはCSV出力が便利です。Step3で行った集計をより細かく分析したいときにはCSV出力が役立ちます。使い慣れたエクセルでデータの集計ができるのですから、
 バックアップ用、報告用、分析用などにぜひお役立てください。
 
-{{<imgproc reports-to-pdf.png "PDF" />}}
+{{<imgproc pdf.png "日報やチェックシートなどのデータを簡単にPDFに変換してダウンロードできます" />}}
+
 
 <div class="row justify-content-center mt-5">
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/read-report/pdf/" "PDF出力">}}</div>

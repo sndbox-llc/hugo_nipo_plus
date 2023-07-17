@@ -173,3 +173,36 @@ p  {
 .docs-content {
   max-width: 2200px;
 }
+
+/* リード */
+.myLead {
+  position: relative;
+  border: solid 1px $baseColor;
+  border-radius: 5px;
+  background-color: $veryLightColor;
+  margin-bottom: 40px;
+
+  &__label {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-weight: 600;
+    padding: 0 10px;  // paddingを左右にいれて消す線の長さを延ばす
+    transform: translateY(-50%);
+
+    &::before {
+      position: absolute;
+      z-index: -1;  // 何もしないと線が上に来ていたので-1して後ろに回り込ませる
+      left: 0;
+      bottom: 50%;  // top: 50%だと1pxずれていたのでbottomから計算する
+      width: 100%;  // 親要素の幅を参照するため必ず文字分は消せる
+      height: 1px;
+      background-color: #fff;
+      content: '';
+    }
+  }
+
+  &__content {
+    padding: 20px;
+  }
+}

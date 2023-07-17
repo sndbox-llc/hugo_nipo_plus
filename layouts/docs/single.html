@@ -29,11 +29,14 @@
 			{{ end }}
 
 			<h1>{{ .Title }}</h1>
-			{{ if .Params.tags -}}
-				{{ partial "custom/tags.html" . }}
-			{{ end -}}
-	
-			<p class="lead">{{ .Params.lead | safeHTML }}</p>
+			{{ if .Params.lead -}}
+
+			<div class="myLead">
+				<div class="myLead__label">概要</div>
+				<div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
+			</div>
+			{{ end }}
+			
 			{{ if ne .Params.toc false -}}
 			<nav class="d-xl-none" aria-label="Quaternary navigation">
 				{{ partial "sidebar/docs-toc.html" . }}
@@ -51,15 +54,12 @@
 					{{ partial "main/edit-page.html" . }}
 				{{ end -}}
 			</div>
+			{{ if .Params.tags -}}
+				{{ partial "custom/tags.html" . }}
+			{{ end -}}
+
 			{{ partial "main/docs-navigation.html" . }}
 
-			<!--
-			{{ if not .Site.Params.options.collapsibleSidebar -}}
-				{{ partial "main/docs-navigation.html" . }}
-			{{ else -}}
-				<div class="my-n3"></div>
-			{{ end -}}
-			-->
 		</main>
 	</div>
 {{ end }}

@@ -11,16 +11,17 @@
 {{ end -}}
 
 {{ if .IsHome -}}
-  <title>日報をアプリ化してスマホやPCで読み書き|NipoPlus（ニポプラス）</title>
+  <title>日報をノーコードでアプリ化しスマホやPCから日報の管理や集計が可能{{ .Site.Params.titleSeparator }}NipoPlus</title>
 {{ else if .Params.isNipo -}}
-  <title>{{ .Title }} {{ .Site.Params.titleSeparator }} Nipo(旧Ver)</title>
+  <title>{{ .Title }}{{ .Site.Params.titleSeparator }}Nipo(旧Version)</title>
 {{ else if in .Permalink "/docs/manual/" -}}
-  <title>{{ .Title }} (操作ガイド){{ .Site.Params.titleSeparator }} Nipo+（ニポプラス）</title>
+  <title>{{ .Title }} (操作ガイド){{ .Site.Params.titleSeparator }}Nipo+</title>
 {{ else if in .Permalink "/docs/price/" -}}
-<title>{{ .Title }} (料金プラン){{ .Site.Params.titleSeparator }} Nipo+（ニポプラス）</title>
-
+<title>{{ .Title }} (料金プラン){{ .Site.Params.titleSeparator }}Nipo+</title>
+{{ else if in .Permalink "/tags/" -}}
+<title>🏷{{ .Title }} のタグ{{ .Site.Params.titleSeparator }}Nipo+</title>
 {{ else  -}}
-  <title>{{ .Title }} {{ .Site.Params.titleSeparator }} クラウド日報 Nipo+（ニポプラス）</title>
+  <title>{{ .Title }}{{ .Site.Params.titleSeparator }}クラウド日報 Nipo+（ニポプラス）</title>
 {{ end -}}
 
 {{ with .Description -}}

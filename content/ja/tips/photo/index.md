@@ -6,7 +6,7 @@ menuTitle = "写真付きの日報で現場の状況をわかり易く報告す�
 toc = true
 aliases = []
 images = ["icatch-photo-report_tablet.png"]
-tags = ["モバイル"]
+tags = ["モバイル", "PDF出力"]
 date = "2023-06-12"
 draft = false
 [sitemap]

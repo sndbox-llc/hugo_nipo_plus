@@ -2,9 +2,10 @@
 description = "不要な日報を削除する手順について説明しています。改ざん防止のため承認された日報は通常削除できません。一旦解除してから削除を行う必要があります"
 tags = []
 title = "報告書を1件削除する"
+menuTitle = "日報単体を削除"
 toc = true
 weight = 101011003
-aliases = ["/manual/remove/report/"]
+aliases = ["/manual/remove/report/", "/docs/manual/remove/_about/"]
 images = []
 +++
 

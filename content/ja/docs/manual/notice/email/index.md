@@ -5,7 +5,7 @@ title = "メール通知"
 menuTitle = "メール通知"
 toc = true
 weight = 101006002
-aliases = ["/manual/notice/email/"]
+aliases = ["/manual/notice/email/", "/docs/manual/notice/_about/"]
 images = []
 +++
 

@@ -6,6 +6,7 @@ toc = true
 weight = 101008001
 aliases = ["/manual/task/add/"]
 images = []
+draft = true
 +++
 
 

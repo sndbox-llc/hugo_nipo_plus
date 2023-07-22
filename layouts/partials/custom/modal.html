@@ -11,7 +11,7 @@
       <div class="modal-body">
         <div id="app">
           <input type="text" v-model="word" class="w-100">
-          <hr />
+          <hr>
 
           <div v-if="isNotFound">見つかりませんでした。</div>
           <a v-else v-for="row in resultArr" style="border-bottom: 1px solid #ccc" :href="[[row.relpermalink]]" class="list-group-item list-group-item-action mb-2">
@@ -26,7 +26,7 @@
       <div class="modal-footer">
         <div style="font-size:13px">
         検索にはAlgoliaを利用
-        <a href="https://www.algolia.com/" target="_blank"><img src="/images/Algolia-logo-blue.svg" width="100px" alt="algolia logo"></a>
+        <a href="https://www.algolia.com/" target="_blank"><img src="/images/Algolia-logo-blue.svg" width="100" alt="algolia logo"></a>
       </div>
       </div>
 

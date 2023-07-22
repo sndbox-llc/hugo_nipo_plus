@@ -1,5 +1,5 @@
 +++
-# title = "NipoPlus" h1が重複するためここでは使わない
+title = "クラウド型日報管理システム NipoPlus"
 description = "テンプレートを自由にカスタマイズしてチェック表や作業報告書、写真つき日報などを作れます。スマホにも完全対応。今すぐ無料で始めることができます"
 lead = "製造業をはじめ、ディーラー、林業、商社など様々な企業で利用頂いております"
 date = "2023-04-01"
@@ -8,7 +8,6 @@ images = []
 aliases = ["/old/", "/docs/old/_about/"]
 mermaid = true
 +++
-
 
 {{<nextArrow>}}
 
@@ -35,8 +34,8 @@ NipoPlusはスマートフォン・タブレット・PCで動作するクラウ�
 
 {{<icatch filename="submission-status-list" msg="誰が出し忘れたのか？ 表を見ればすぐわかる" title="報告書の未提出者を瞬時に把握できる提出簿機能" fontsize="30px" alice="ok">}}
 
-
 ❌がついているセルは日報の提出がないところ。提出漏れのスタッフを見つけるのなんて簡単です。それが日報管理の大きな役割の一つとも言えます。  
+
 {{<nextArrow>}}
 
 ## 新人さんでも迷わないサポート機能が充実
@@ -53,9 +52,7 @@ NipoPlusで点検シートのようなテンプレートを作るとき、説明
 
 {{<nextArrow>}}
 
-
 ## 承認・棄却のフローを全てオンラインで完結{#read_report}
-
 
 日報は報告なので「書く人」と「読む人」は通常、別であることが一般的です。NipoPlusには日報の承認機能があり、読み手が日報を承認や棄却することができます。
 承認するスタッフは１名でも、複数名でもOK．複数名いる場合は承認のリレーが行われます。承認したら検印欄にスタンプがぽんと押されます。
@@ -93,7 +90,6 @@ A4サイズは固定ですが、横向きと縦向きの変更は可能です。
 
 {{<btnCenter "/docs/manual/read-report/pdf/" "PDF出力">}}
 
-
 {{<nextArrow>}}
 
 ## 無料プランもあります。今すぐ始めませんか？{#prices}
@@ -120,6 +116,6 @@ graph LR;
 {{<btnCenter "https://nipo-plus.web.app/#/" "Web版のNipoPlusを起動" "_blank">}}
 
 <div  style="text-align:right">
-<a href="/docs/system/ios/" ><img loading="lazy" src='/images/apple.svg' width="108.85157" height="40" style="width:200px; height:auto" alt="ios App Store"></a>
+<a href="/docs/system/ios/" ><img loading="lazy" src='/images/apple.svg' width="109" height="40" style="width:200px; height:auto" alt="ios App Store"></a>
 <a href="/docs/system/android/"><img loading="lazy" src="google-play-badge.png" width="646" height="192" style="width:240px; height:auto" alt="Android Google Play Store"></a>
 </div>

@@ -102,11 +102,21 @@
       if (mode === 'phone' && className === 'withAlicePicture') return 300;
       return 300;
     }(mode, className))
-  
+
+    const height = (function (mode, className) {
+      if (mode === 'tablet' && className === 'nonAlicePicture') return 627;
+      if (mode === 'tablet' && className === 'withAlicePicture') return 556;
+      if (mode === 'phone' && className === 'nonAlicePicture') return 711;
+      if (mode === 'phone' && className === 'withAlicePicture') return 533;
+      return 300;
+    }(mode, className))
+
     image.setAttribute('width', width);
+    image.setAttribute('height', height);
     image.setAttribute('xlink:href', targetFileName);
     image.setAttribute('href', targetFileName);
     alreadyLoadedImages.push(targetFileName);
+    console.log(image.naturalWidth);
   }
   
   

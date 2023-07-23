@@ -47,4 +47,3 @@ CSV出力形式はスタッフアカウントごとに記録されるため他�
 {{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}
 
 CSV出力設定は[一括CSV出力](/docs/manual/analytics/csv/)でも同じ設定が自動で適用されます。（逆もまた同様）
-

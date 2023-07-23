@@ -9,7 +9,6 @@ aliases = ["/manual/initial-setting/template/calc/"]
 images = []
 +++
 
-
 {{<icatch filename="calc-icatch" msg="自動で計算 四則演算OK" title="算術入力フォーム" fontsize="30px" alice="here">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|
@@ -29,7 +28,6 @@ images = []
 1. 式の入力をクリック
 1. 計算式を入力
 1. 必要に応じてその他の設定を行う
-
 
 {{<appscreen filename="template-edit-calc" title="算術フォームを報告書テンプレートに追加">}}
 

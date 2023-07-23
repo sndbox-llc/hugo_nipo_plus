@@ -33,4 +33,3 @@ images = ["monthly-calendar.png"]
 <dt>週カレンダの表示を反転する</dt>
 <dd>アジェンダで日付の順を反転できます。</dd>
 </dl>
-

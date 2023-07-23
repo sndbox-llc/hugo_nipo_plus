@@ -145,13 +145,11 @@ https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/
 
 グループIDは「eZu8bXFNh73YtVoR83ic」となります。
 
-
 ## その他のエンドポイント{#other}
 
 報告書の取得以外に用意されているエンドポイントとパラメータについてまとめています。
 
 ### テンプレートの取得エンドポイント{#template}
-
 
 <dl class="basic">
   <dt>/templtes</dt>
@@ -160,13 +158,11 @@ https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/
   <dd>IDで指定された1件のテンプレートを取得します</dd>
 </dl>
 
-
 パラメータ:
 
 |名称|型|説明|必須|
 |---|---|---|---|
 |groupId|String|取得するグループのID|○|
-
 
 ```sh
 # 記述例
@@ -192,7 +188,6 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 |from|String|取得する日報の期間（開始点) 2022/08/01 00:00:00のような形で指定|○|
 |to|string|取得する日報の期間（終了点) 2022/09/31 23:59:59のような形で指定|○|
 
-
 ```sh
 # 記述例
 curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
@@ -203,12 +198,10 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
 
 ### スタッフ取得エンドポイント{#staff}
 
-
 <dl class="basic">
 <dt>/staffs</dt>
 <dd>スタッフ情報を取得する</dd>
 </dl>
-
 
 |名称|型|説明|必須|
 |---|---|---|---|

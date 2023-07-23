@@ -117,9 +117,7 @@ images = []
 <dd style="color:gray">■これはサンプルです</dd>
 </dl>
 
-
 ## 選択式入力フォームの集計{#subtotal}
-
 
 選択式フォームは集計・グラフ化が可能です。単語が選ばれた回数を自動集計し、円グラフや棒グラフとして表示できます。
 
@@ -129,12 +127,10 @@ images = []
 たとえば次のような選択肢は集計もグラフ化もできます。
 {{<appscreen filename="num-select"  title="選択肢は単語ですが数値に置き換えてグラフ化することも可能です"   >}}
 
-
 ## データをCSVに出力{#csv}
 
 出力形式を変えることができます。
 {{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}
-
 
 **列展開がON**の場合のCSV出力例
 

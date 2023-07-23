@@ -57,7 +57,6 @@ images = []
 
 {{<appscreen filename="report-approval" title="日報の状態が承認になる">}}
 
-
 ### 報告書を棄却する{#reject}
 
 日報に不備がある場合はその不備を修正する必要があります。日報を棄却して修正してもらいましょう。

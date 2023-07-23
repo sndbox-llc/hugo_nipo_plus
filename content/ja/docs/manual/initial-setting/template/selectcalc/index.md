@@ -36,7 +36,6 @@ graph LR;
 質問1の選択肢を追加するごとに、質問2の選択肢欄も自動で追加されていきます。
 以下は本入力フォームにのみ存在する設定項目です
 
-
 <dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
   <dd>これがONの場合、選択肢が選ばれていないと日報の提出ができません</dd>
@@ -51,7 +50,6 @@ graph LR;
 
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
-
 
 ## 選択肢(2層式)の日報入力画面イメージ{#preview}
 
@@ -88,7 +86,6 @@ graph LR;
 日報表示画面の集計は**直近数件の日報を集計**するため実用的ではないことに注意してください。一般的には「今月」や「先月」といった単位で集計したいはずです。
 
 {{<btnCenter "/docs/manual/analytics/transition/" "期間指定して日報を集計する">}}
-
 
 ## データ活用編{#fire}
 

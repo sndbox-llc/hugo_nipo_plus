@@ -20,7 +20,6 @@ images = []
 1. 通知先のメールアドレスを指定
 1. 通知を受け取る項目を取捨選択
 
-
 {{<appscreen filename="email-notice" title="メール通知の設定をONにする">}}
 
 ## メール通知の条件を増やす{#option}

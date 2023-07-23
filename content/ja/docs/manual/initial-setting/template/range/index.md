@@ -13,7 +13,6 @@ images = []
 
 {{<icatch filename="range-input" msg="最低〜最大など 範囲の数値入力に" title="範囲入力フォーム" fontsize="30px" alice="ok">}}
 
-
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
 |✗|○|○|○|
@@ -52,11 +51,9 @@ images = []
   <dd>数値の単位を指定します。例えば気温であれば「度」と入力します。単位は入力時の画面左上にヒントとして表示されます</dd>
 </dl>
 
-
 {{< warning >}}
 レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。
 {{< /warning >}}
-
 
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
@@ -66,7 +63,6 @@ images = []
 {{<nextArrow>}}
 
 {{<appscreen filename="range-preview"  title="範囲選択入力イメージ">}}
-
 
 ## CSV出力{#csv}
 

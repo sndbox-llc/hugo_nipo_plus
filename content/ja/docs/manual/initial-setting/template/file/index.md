@@ -29,7 +29,6 @@ images = []
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-
 ## ファイル入力フォームの日報テンプレートを作成{#make_template}
 
 日報にファイルを添付するにはドラッグ＆ドロップ、またはフォームをタップしてファイルを追加します。

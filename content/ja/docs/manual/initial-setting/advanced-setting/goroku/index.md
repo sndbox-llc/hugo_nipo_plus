@@ -33,11 +33,9 @@ images = []
   <dd>語録の実データ。<br><ul><li>改行で単語を区別します</li><li>重複した語録は保存時に自動で削除されます</li><li>1つの語録に付き、最大で10,000個の語録を登録できます</li></ul></dd>
 </dl>
 
-
 ## 語録を使う{#usage}
 
 前述の通り語録は単体では機能しません。選択肢入力フォームと組み合わせて利用します。具体的な設定手順についてはそれぞれの入力フォーム設定ガイドを参照してください。
-
 
 <div class="row justify-content-center mt-5">
 <div class="col-sm-16 col-md-8">{{<button "/docs/manual/initial-setting/template/select/" "選択肢入力フォーム（単）">}}</div>

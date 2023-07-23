@@ -9,8 +9,6 @@ aliases = ["/manual/initial-setting/advanced-setting/dist/", "/docs/manual/initi
 images = []
 +++
 
-
-
 通常、スタッフが報告書を書く際に提出先・共有先を都度指定できますが、提出先を固定することも可能です。
 固定されるとスタッフは提出先の変更ができなくなります。
 
@@ -51,7 +49,6 @@ images = []
 
 たったこれだけです。  
 必要に応じてオプションの設定も可能です。オプションは以下の通り
-
 
 <dl class="basic">
   <dt>提出先や共有先の変更を許可しない</dt>

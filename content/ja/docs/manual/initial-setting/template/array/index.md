@@ -9,7 +9,6 @@ images = ["sample.png"]
 aliases = ["/manual/initial-setting/template/array/"]
 +++
 
-
 そもそも反復とはどのようなものでしょうか？例えば次のような日報をイメージしてください。
 
 {{<imgproc sample.png "反復入力フォームの具体例。時間ごとに作業内容を分けて書くといったケースでは必要な行数が毎回変わります。この場合は反復を使うとスマートに表現できます" />}}

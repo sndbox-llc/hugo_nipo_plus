@@ -21,9 +21,7 @@ images = ["email-edit_tablet.png"]
 
 {{<appscreen filename="email-edit" title="ログインメールアドレスの変更画面。変更時にログインパスワードの入力が必要です">}}
 
-{{<alice pos="right" icon="shield">}}
-アカウント保護のため受信可能なメアドを使用してくださいね！
-{{</alice>}}
+{{<alice pos="right" icon="shield">}}アカウント保護のため受信可能なメアドを使用してくださいね！{{</alice>}}
 
 ## メールアドレスの変更をキャンセルする{#cancel}
 
@@ -33,6 +31,4 @@ images = ["email-edit_tablet.png"]
 メールアドレスが変更されるとそこからパスワード再設定がおこなえるためアカウントを乗っ取られる危険性があります。
 アカウントを適切に守るためにも必ず受信できるメールアドレスを使用するようにしてください。
 
-{{<alice pos="right" icon="shield">}}
-パスワードよりもメールアドレスのほうが重要なのです！
-{{</alice>}}
+{{<alice pos="right" icon="shield">}}パスワードよりもメールアドレスのほうが重要なのです！{{</alice>}}

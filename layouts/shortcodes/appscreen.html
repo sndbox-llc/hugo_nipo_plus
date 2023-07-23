@@ -4,11 +4,12 @@
 {{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" ($moji)) }}
 
 
+
 {{ $id := partial "make-random-md5.hugo" }}
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="nonAliceNode" viewBox="0 0 1000 520" preserveAspectRatio="none">
   <title>{{ $title}}</title>
-  <image  x="50" y="10" width="1" height="1" class="nonAlicePicture" data-src="{{ $moji}}_" xlink:href="data:image/gif;base64,R0lGODlhAQABAIAAAP7//wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" />
+  <image  x="50" y="10" width="1" height="1" class="nonAlicePicture" data-src="{{ $moji}}_" data-phone-path="{{$imgPhone.RelPermalink}}" data-tablet-path="{{$imgTablet.RelPermalink}}" xlink:href="data:image/gif;base64,R0lGODlhAQABAIAAAP7//wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" />
   <use xlink:href="#nonAliceFrame" />
 </svg>
 <div class="mt-1 mb-4">

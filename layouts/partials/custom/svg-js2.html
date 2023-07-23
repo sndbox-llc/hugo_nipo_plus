@@ -99,6 +99,9 @@
     if (mode === 'phone') {
       path = `${window.location.origin}${image.dataset.phonePath}`
     }
+    if (image.dataset.tabletPath === 'none') {
+      path = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.src}${mode}.png`;
+    }
     console.log(path)
     var targetFileName = path//`${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.tabletPath}`;
     // すでにロード済みなら処理を中断

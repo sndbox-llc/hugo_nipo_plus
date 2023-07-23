@@ -85,6 +85,7 @@
     })
   }
   function loadImageExe (image, className) {
+    console.log(image.dataset.phonePath, image.dataset.tabletPath)
     var double = '//';
     var pathname =  location.pathname;
     var chop = pathname.split('index.html');
@@ -92,7 +93,14 @@
       if (location.port) return `:${location.port}`;
       return '';
     }
-    var targetFileName = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.src}${mode}.png`;
+    // var targetFileName = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.src}${mode}.png`;
+    //const path = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.tabletPath}`;
+    let path = `${window.location.origin}${image.dataset.tabletPath}`
+    if (mode === 'phone') {
+      path = `${window.location.origin}${image.dataset.phonePath}`
+    }
+    console.log(path)
+    var targetFileName = path//`${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.tabletPath}`;
     // すでにロード済みなら処理を中断
     if (alreadyLoadedImages.findIndex(i => i === targetFileName) !== -1) return;
     const width = (function (mode, className) {
@@ -116,7 +124,6 @@
     image.setAttribute('xlink:href', targetFileName);
     image.setAttribute('href', targetFileName);
     alreadyLoadedImages.push(targetFileName);
-    console.log(image.naturalWidth);
   }
   
   

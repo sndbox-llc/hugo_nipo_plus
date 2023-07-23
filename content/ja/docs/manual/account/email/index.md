@@ -19,7 +19,7 @@ images = ["email-edit_tablet.png"]
 1. 変更したいE-mailアドレスを入力
 1. 変更ボタンをクリック
 
-{{<appscreen filename="email-edit" title="ログインメールアドレスの変更画面。変更時にログインパスワードの入力が必要です">}}
+{{<appscreenWebp filename="email-edit" title="ログインメールアドレスの変更画面。変更時にログインパスワードの入力が必要です">}}
 
 {{<alice pos="right" icon="shield">}}アカウント保護のため受信可能なメアドを使用してくださいね！{{</alice>}}
 

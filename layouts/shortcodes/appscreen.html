@@ -3,8 +3,6 @@
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" ($moji)) }}
 {{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" ($moji)) }}
 
-
-
 {{ $id := partial "make-random-md5.hugo" }}
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="nonAliceNode" viewBox="0 0 1000 520" preserveAspectRatio="none">

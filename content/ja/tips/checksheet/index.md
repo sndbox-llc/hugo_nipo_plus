@@ -132,7 +132,6 @@ NipoPlusはデータをCSV形式でエクスポートすることができるの
 
 {{<btnCenter "/tips/mobile-device/" "モバイルに相性の良い日報について">}}
 
-
 ## 承認してチェックシートの編集をロック可能{#lock}
 
 {{<icatch filename="check-sheet-data-lock" msg="捺印しデータをロック 改ざんの抑制・防止" title="チェックシートのデータをロックする" fontsize="30px" alice="shield">}}

@@ -28,9 +28,7 @@ aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
 でもフラッシュ暗算より高速で正確な集計ができます。
 集計するには、集計タブをクリックし、集計の条件を入力します。出状況をひと目で把握できます
 
-
 {{<icatch filename="data-list" msg="データを1枚の表に 集約するのも簡単" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="ok">}}
-
 
 <dl class="basic">
   <dt>集計期間</dt>
@@ -94,5 +92,7 @@ Nipoのデータはすべて**UTF-8**で保存されますが、古いエクセ�
 文字コードが異なると当然ですが**文字化け**が発生し、データを読むことができません。この場合はCSVファイルを開くとき、文字コードをUtf-8と指定して開くことで回避してください。
 
 {{<imgproc old-excel.png "Excel2007の画面" />}}
+
 {{<imgproc csv-import.png "Excel2007の画面" />}}
+
 {{<imgproc comma-separate.png "Excel2007の画面" />}}

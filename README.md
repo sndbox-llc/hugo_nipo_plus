@@ -5,6 +5,22 @@
 - 静的サイトジェネレータ「[Hugo](https://gohugo.io/)」で作成されています。
 - テーマには Doksを使用しています。
 
+## png -> webP変換
+
+HugoのWebp変換もあるが、ファイル名がランダムになるデメリットがあるためコマンドで変換するように運用方針変更。
+ディレクトリを変更して以下のコマンドを叩くと変換してくれます
+
+```sh
+for file in *.png; do cwebp -q 80 -resize 1800 0 -mt "$file" -o "${file%.*}.webp"; done
+```
+
+※※※※ 注意 ※※※※
+⚡再帰的に行うには以下の通り。⚡取り扱いには注意するべし！！！！！
+ls -d $(find -E `pwd` -iregex ".*\.(jpg|jpeg|png)" -type f) | xargs -L 1 -I {} cwebp {} -o {}.webp
+
+詳しいガイドはこちら
+https://cruw.co.jp/blog/webp-conversion/
+
 ## 使いかた
 
 基本的な流れとしては

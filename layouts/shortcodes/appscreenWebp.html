@@ -33,7 +33,7 @@
   [{
     "@context": "https://schema.org/",
     "@type": "ImageObject",
-    "embeddedTextCaption": {{ $title }},
+    "caption": {{ (printf "%s（タブレット/PC画面）" ($title)) }},
     "contentUrl": {{ $imgTablet.Permalink }},
     "license": "/system/credit/",
     "acquireLicensePage": "/system/credit/",
@@ -44,7 +44,7 @@
   {
     "@context": "https://schema.org/",
     "@type": "ImageObject",
-    "embeddedTextCaption": {{ $title }},
+    "caption": {{ (printf "%s（スマートフォン画面）" ($title)) }},
     "contentUrl": {{ $imgPhone.Permalink }},
     "license": "/system/credit/",
     "acquireLicensePage": "/system/credit/",

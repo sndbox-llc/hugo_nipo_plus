@@ -23,7 +23,7 @@ images = []
 
 アップルペンシルや互換品のペン、指で描画可能です。
 
-{{<imgproc use-stylus-pen.jpg "iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" />}}
+{{<imgproc use-stylus-pen.webp "iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" />}}
 
 {{<btnCenter "/tips/sign/" "関連：署名の特設記事">}}
 

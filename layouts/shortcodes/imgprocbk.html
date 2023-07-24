@@ -7,10 +7,12 @@
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $alt := .Get 1 }}
 
+{{ $lg := $img.Resize "780x webp" }}
+{{ $full := $img.Resize "1500x webp" }}
 {{ $id := partial "make-random-md5.hugo" }}
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
   <a href="#{{ $id }}" class="lightbox-link">
-    <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
+    <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $full.Width }}" height="{{ $full.Height }}" alt="{{ $alt }}"  srcset="{{ $lg.RelPermalink }} 780w, {{ $full.RelPermalink }} 1500w" sizes="100vw">
   </a>
   <figcaption>
     <i>

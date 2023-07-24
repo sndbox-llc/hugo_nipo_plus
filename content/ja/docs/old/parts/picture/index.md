@@ -25,7 +25,7 @@ aliases = ["/old/parts/picture/"]
 
 [PDFに出力](/old/manual/pdf/)すると次のように表示されます。
 
-{{<imgproc parts_pic2.jpg "写真画像を含む日報をPDFに変換した出力結果" />}}
+{{<imgproc parts_pic2.webp "写真画像を含む日報をPDFに変換した出力結果" />}}
 
 CSVに出力すると対応外とのエラーが表示されます
 

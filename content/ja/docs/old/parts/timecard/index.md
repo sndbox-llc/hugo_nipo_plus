@@ -37,7 +37,7 @@ aliases = ["/old/parts/timecard/"]
 
 [PDFに出力](/old/manual/pdf/)すると次のように表示されます。
 
-{{<imgproc parts_tc2.jpg "タイムカードを含む日報をPDFに変換した出力結果" />}}
+{{<imgproc parts_tc2.webp "タイムカードを含む日報をPDFに変換した出力結果" />}}
 
 [CSVに出力](/old/manual/analytics/)すると次のように表示されます。
 

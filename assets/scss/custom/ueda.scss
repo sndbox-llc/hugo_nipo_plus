@@ -131,11 +131,7 @@ p  {
     }
   }
 }
-@media (min-width: 768px) {
-  .myhero {
-    height: 85vh;
-  }
-}
+
 
 .excelTable {
   max-width:100%;
@@ -204,5 +200,42 @@ p  {
 
   &__content {
     padding: 20px;
+  }
+}
+
+#myhero {
+  height: calc(100vh - 120px);
+  padding: 0 2em;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .headLine{
+    animation: SlideIn 1.0s forwards;
+  }
+  .mainLead {
+    font-size: 2rem;
+  }
+  /* CSSアニメーションの設定 */
+  @keyframes SlideIn {
+    0% {
+      opacity: 0;/*初期状態では透明に*/
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #myhero {
+    padding: 0;
+    .mainLead {
+      font-size: 1.6rem;
+    }
+  
   }
 }

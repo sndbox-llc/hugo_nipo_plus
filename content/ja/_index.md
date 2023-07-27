@@ -6,7 +6,7 @@ date = "2023-04-01"
 draft = false
 images = []
 aliases = ["/old/", "/docs/old/_about/"]
-mermaid = true
+mermaid = false
 +++
 
 {{<nextArrow>}}
@@ -94,12 +94,7 @@ A4サイズは固定ですが、横向きと縦向きの変更は可能です。
 
 ## 無料プランもあります。今すぐ始めませんか？{#prices}
 
-{{<mermaid align="center">}}
-graph LR;
-  アカウント作成 --> トライアル期間 --> 期間満了 -->  無料プランへ降格
-  無料プランへ降格--> 無料で利用し続ける
-  無料プランへ降格--> 有料プランへ加入する
-{{< /mermaid >}}
+{{<imgproc flow.png "無料トライアルとその後の流れ" />}}
 
 <div class="mainContent">
 

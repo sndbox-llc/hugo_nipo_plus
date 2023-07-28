@@ -17,20 +17,18 @@
     {{ partial "header/header.html" . }}
     {{ partial "custom/svg-def.html" . }}
 
-    {{ block "hero" . }}{{ end }}
+    {{ block "rootHero" . }}{{ end }}
+    {{ block "sidebar-prefooter" . }}{{ end }}
 
     <div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
       <div class="content">
         {{ block "main" . }}{{ end }}
       </div>
     </div>
-    {{ block "sidebar-prefooter" . }}{{ end }}
     <!--
     {{ block "price" . }}{{ end }}
     -->
 
-
-    {{ block "sidebar-footer" . }}{{ end }}
     <div class="mt-10" style="margin-top: 100px;">
       {{ partial "custom/cta.html" . }}
     </div>

@@ -1,18 +1,35 @@
 {{ define "main" }}
-<section class="section container-fluid mt-n3 pb-3">
-  <div class="row justify-content-center">
-    <div class="col-lg-12 text-center">
-      <h1 class="mt-0">{{ .Title }}</h1>
-    </div>
-    <div class="col-lg-9 col-xl-9 text-center" style="margin-top: 6em">
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+<!-- TOPページのメインコンテンツ -->
+<section class="section section-sm container-fluid docs-content" >
+  <div class="row justify-content-center ">
+    <div class="col-xs-16 col-md-12">
+    <article>
+      {{ if .Params.lead -}}
+        <div class="myLead">
+          <div class="myLead__label">概要</div>
+          <div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
+        </div>
+			{{ end }}
+      <div class="mainContent">
+        {{- .Content -}}
+      </div>
+    </article>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid docs-content" >
+  <div class="row justify-content-center ">
+    <div class="col-xs-16 col-md-12">
+      {{- .Content -}}
     </div>
   </div>
 </section>
 {{ end }}
 
 
-{{ define "hero" }}
+{{ define "rootHero" }}
 <div id="myhero">
   <h1 class="headLine">簡単にカスタマイズ可能<br>クラウド報告書アプリ NipoPlus</h1>
   <div class="mainLead">
@@ -27,7 +44,7 @@
 </div>
 {{ end }}
 
-{{ define "herov" }}
+{{ define "heroOld" }}
 <div class="container-xxl">
   <div class="row align-items-center myhero" >
     <div class="col-sm-16 col-lg-7">
@@ -142,6 +159,7 @@
 
 {{ define "sidebar-prefooter" }}
 <section class="section section-sm" style="background: rgba(178, 205, 214, 0.875)">
+  <h2 style="text-align: center;">特徴の一部をご紹介</h2>
   <div class="container">
     <div class="row justify-content-center align-items-stretch text-center">
       <div class="col-lg-5 mb-5">
@@ -185,58 +203,8 @@
           <a class="btn btn-outline-primary btn-lg px-4" href="/tips/analytics/" role="button">詳細</a>
         </div>
       </div>
-      <div class="col-lg-5 mb-5">
-        <div class="h-100 d-flex flex-column">
-          <div class="text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="60" viewBox="0 -960 960 960" width="60">
-              <title>ペン</title>
-              <path d="M560-120q-12 0-21-9t-9-21q0-13 9-21.5t21-8.5q59 0 99.5-24t40.5-56q0-23-29.5-45T591-339l47-47q63 19 92.5 52.5T760-260q0 67-61 103.5T560-120ZM240-414q-64-14-92-44t-28-62q0-35 26-63t120-62q66-24 85-39t19-35q0-25-22-43t-68-18q-27 0-46 7t-34 22q-8 8-20.5 9.5T157-748q-11-8-11.5-20t7.5-21q17-22 51-36.5t76-14.5q68 0 109 32.5t41 88.5q0 41-28.5 69.5T290-590q-67 25-88.5 39.5T180-520q0 16 27 30.5t81 27.5l-48 48Zm496-154L608-696l45-45q18-18 40-18t40 18l48 48q18 18 18 40t-18 40l-45 45ZM220-180h42l345-345-42-42-345 345v42Zm-60 60v-128l405-405 128 128-405 405H160Zm405-447 42 42-42-42Z"/>
-            </svg>
-          </div>
-          <h2 class="h4">入力順序の制御</h2>
-          <p class="flex-grow-1">うっかり記入漏れや慢心による作業手順のスキップを未然に防ぎます</p>
-          <a class="btn btn-outline-primary btn-lg px-4" href="/tips/required/" role="button">詳細</a>
-        </div>
-      </div>
-      <div class="col-lg-5 mb-5">
-        <div class="h-100 d-flex flex-column">
-          <div class="text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="60" viewBox="0 -960 960 960" width="60">
-              <title>PDF</title>
-              <path d="M331-431h37v-83h48q15.725 0 26.362-10.638Q453-535.275 453-551v-48q0-15.725-10.638-26.362Q431.725-636 416-636h-85v205Zm37-120v-48h48v48h-48Zm129 120h84q15 0 26-10.638 11-10.637 11-26.362v-131q0-15.725-11-26.362Q596-636 581-636h-84v205Zm37-37v-131h47v131h-47Zm133 37h37v-83h50v-37h-50v-48h50v-37h-87v205ZM260-200q-24 0-42-18t-18-42v-560q0-24 18-42t42-18h560q24 0 42 18t18 42v560q0 24-18 42t-42 18H260Zm0-60h560v-560H260v560ZM140-80q-24 0-42-18t-18-42v-620h60v620h620v60H140Zm120-740v560-560Z"/>
-            </svg>
-          </div>
-          <h2 class="h4">CSV/PDF出力</h2>
-          <p class="flex-grow-1">エクセルで開いて集計したり他のシステムにインポートしたりできます</p>
-          <a class="btn btn-outline-primary btn-lg px-4" href="/tips/sales_report/" role="button">詳細</a>
-        </div>
-      </div>
-      <div class="col-lg-5 mb-5">
-        <div class="h-100 d-flex flex-column">
-          <div class="text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="60" viewBox="0 -960 960 960" width="60">
-              <title>カメラ</title>
-              <path d="M479.5-266q72.5 0 121.5-49t49-121.5q0-72.5-49-121T479.5-606q-72.5 0-121 48.5t-48.5 121q0 72.5 48.5 121.5t121 49Zm0-60q-47.5 0-78.5-31.5t-31-79q0-47.5 31-78.5t78.5-31q47.5 0 79 31t31.5 78.5q0 47.5-31.5 79t-79 31.5ZM140-120q-24 0-42-18t-18-42v-513q0-23 18-41.5t42-18.5h147l73-87h240l73 87h147q23 0 41.5 18.5T880-693v513q0 24-18.5 42T820-120H140Zm680-60v-513H645l-73-87H388l-73 87H140v513h680ZM480-436Z"/>
-            </svg>
-
-          </div>
-          <h2 class="h4">写真や署名の埋め込み</h2>
-          <p class="flex-grow-1">報告書に写真や直筆サインを埋め込み可能（署名はタッチパネル推奨）</p>
-          <a class="btn btn-outline-primary btn-lg px-4" href="/tips/photo/" role="button">詳細</a>
-        </div>
-      </div>
     </div>
   </div>
 </section>
 {{ end }}
 
-
-{{ define "sidebar-footer" }}
-<section class="section section-sm container-fluid docs-content" >
-  <div class="row justify-content-center ">
-    <div class="col-xs-16 col-md-12">
-      {{- .Content -}}
-    </div>
-  </div>
-</section>
-{{ end }}

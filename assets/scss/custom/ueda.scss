@@ -10,20 +10,56 @@ h1 {
   margin-bottom: 3rem;
   color: $baseColor;
 }
+/* h2-h6のページ内リンクズレ修正用スタイル */
+@mixin heading-style {
+  font-weight: bold;
+  position: relative;
+  padding-top: 67px;
+
+  &::before {
+    content: '';
+    display: block;
+    height: 40px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+  }
+}
 
 h2 {
-  font-size: 2rem;
-  margin-top: 3rem;
-  font-weight: bold;
+  @include heading-style;
   color: $accentColor;
+  font-size: 2rem;
+  margin-top: 50px
 }
 
-h2, h3, h4 {
-  margin: 2rem 0 1rem;
-  padding-top: 67px;
-  margin-top:-67px;
-  margin-bottom: 20px;
+h3 {
+  @include heading-style;
+  color: $subColor;
+  font-size: 1.8rem;
+  margin: 3rem 0 1rem;
 }
+
+h4 {
+  @include heading-style;
+  font-size: 1.6rem;
+  margin: 2rem 0 1rem;
+}
+
+h5 {
+  @include heading-style;
+  font-size: 1.4rem;
+  margin: 1.5rem 0 1rem;
+}
+
+h6 {
+  @include heading-style;
+  font-size: 1.2rem;
+  margin: 1rem 0 1rem;
+  padding-top: 40px;
+}
+
 strong {
   color: black;
   font-weight: 900;
@@ -37,10 +73,6 @@ strong {
   h2 {
     font-size: 1.5rem;
   }
-}
-
-h3 {
-  color: $subColor;
 }
 
 p  {
@@ -57,9 +89,11 @@ p  {
 #TableOfContents .active {
   background-color: powderblue;
 }
+/*パンくずリスト下の下線 */
 .breadcrumb {
-  border-bottom: 1px solid purple;
+  border-bottom: 1px dashed purple;
 }
+/* Top Navi 背景*/
 .navBarBackgroundColor {
   background-color: $lightColor;
 }
@@ -78,7 +112,6 @@ p  {
   list-style-type: none;
   padding: 0;
   border: solid 1px $subColor;
-  
   li {
     position: relative;
     line-height: 30px;
@@ -86,8 +119,6 @@ p  {
     padding-left: 10px;
     font-weight: bold;
     font-size: 1.1rem;
-
-    
     &::before {
       counter-increment: list;
       content: counter(list);
@@ -132,27 +163,23 @@ p  {
   }
 }
 
-
+/* Excel風の見た目をしたTable */
 .excelTable {
   max-width:100%;
   overflow:scroll;
   table {
     border-collapse: collapse;
   }
-  
   table, th, td {
     border: 1px solid #ccc;
   }
-  
   tr:first-child th {
     background-color: #000;
     color: white;
   }
-  
   td:first-child {
     background-color: #000; /* 1列目の背景色を緑に設定 */
     color: white;
-
   }
 }
 

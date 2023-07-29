@@ -20,17 +20,6 @@
   color: $black;
 }
 
-/*
-.alert-light {
-  color: #215888;
-  background: linear-gradient(-45deg, rgb(212, 245, 255), rgb(234, 250, 255), rgb(234, 250, 255), #d3f6ef);
-}
-
-.alert-light .alert-link {
-  color: #215888;
-}
-*/
-
 .alert-white {
   background-color: rgba(255, 255, 255, 0.95);
 }
@@ -47,19 +36,6 @@
 .alert-primary .alert-link {
   color: $white;
 }
-
-/*
-.alert-primary {
-  color: #084298;
-  background-color: #cfe2ff;
-  border-color: #b6d4fe;
-}
-
-.alert-primary .alert-link {
-  color: #06357a;
-}
-*/
-
 .alert-secondary {
   color: #41464b;
   background-color: #e2e3e5;

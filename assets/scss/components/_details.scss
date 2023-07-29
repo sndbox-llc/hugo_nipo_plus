@@ -1,3 +1,4 @@
+/*
 details {
   display: block;
   border: 1px solid $gray-200;
@@ -34,12 +35,6 @@ details[open] > summary::before {
   transform: rotate(90deg);
 }
 
-/*
-details summary > * {
-  display: inline-block;
-}
-*/
-
 details[open] {
   padding: 0.5rem 1rem;
 }
@@ -67,3 +62,5 @@ details ol {
 details pre {
   margin: 0 0 1rem;
 }
+
+*/

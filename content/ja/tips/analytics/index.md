@@ -86,6 +86,9 @@ CSVはそのままエクセルで開くことができ、集計や並べ替え�
 ということでNipo公式のCSV結合システムを無償で公開しております。詳しくはCSVSCの紹介に譲りますが、一言で言うと
 **複数のCSVファイルをドラッグ操作で1個のCSVに変換するWebシステム**です。
 
+{{<btnCenter "/tips/csvsc/" "CSVSCについて詳しく">}}
+
+
 ## CSVファイルが文字化けする場合の対策{#text_shaking}
 
 Nipoのデータはすべて**UTF-8**で保存されますが、古いエクセル（Excel 2007やそれ以前のバージョン)でCSVファイルを開くと、文字コードをSHIFT-JISとして認識して開いてしまうことがあります。
@@ -96,3 +99,5 @@ Nipoのデータはすべて**UTF-8**で保存されますが、古いエクセ�
 {{<imgproc csv-import.png "Excel2007の画面" />}}
 
 {{<imgproc comma-separate.png "Excel2007の画面" />}}
+
+{{<btnCenter "/tech/mojibake/" "文字化けについて詳しく">}}

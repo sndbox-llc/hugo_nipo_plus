@@ -217,6 +217,13 @@ p  {
   .mainLead {
     font-size: 2rem;
   }
+  .heroList {
+    font-size: 2rem;
+    list-style: none;
+    li::before {
+      content: "✅ ";
+    }
+  }
   /* CSSアニメーションの設定 */
   @keyframes SlideIn {
     0% {
@@ -235,6 +242,10 @@ p  {
     padding: 0;
     .mainLead {
       font-size: 1.6rem;
+    }
+    .heroList {
+      font-size: 1.6rem;
+
     }
   
   }

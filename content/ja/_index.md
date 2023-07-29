@@ -116,14 +116,6 @@ A4サイズは固定ですが、横向きと縦向きの変更は可能です。
 1. トライアル期間がすぎると無料プランへ切り替わります(一部機能制限がかかる)
 1. 無料で継続するか、有料プランの加入を検討してください
 
-
 {{<alice pos="right" icon="book">}}
 <a href="/docs/manual/quickstart/">マニュアルはこちらです</a>
 {{</alice>}}
-
-{{<btnCenter "https://nipo-plus.web.app/#/" "Web版のNipoPlusを起動" "_blank">}}
-
-<div  style="text-align:right">
-<a href="/docs/system/ios/" ><img loading="lazy" src='/images/apple.svg' width="109" height="40" style="width:200px; height:auto" alt="ios App Store"></a>
-<a href="/docs/system/android/"><img loading="lazy" src="google-play-badge.png" width="646" height="192" style="width:240px; height:auto" alt="Android Google Play Store"></a>
-</div>

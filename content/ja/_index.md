@@ -92,7 +92,6 @@ mermaid = false
 
 {{<nextArrow>}}
 
-
 ## 日報未提出者は誰？提出簿を見れば一目瞭然{#teishutubo}
 
 日報が1件足りない！？未提出者は誰？一人ひとり名簿と照らし合わせて犯人探しをするのも今日までです。
@@ -102,16 +101,12 @@ mermaid = false
 
 ❌がついているセルは日報の提出がないところ。提出漏れのスタッフを見つけるのなんて簡単です。それが日報管理の大きな役割の一つとも言えます。  
 
-
 {{<btnCenter "/tips/required/#easy_find" "記入・提出漏れを防ぐ">}}
 
 {{<nextArrow>}}
-
-
 
 <div class="text-center" style="font-size:3rem">
 <a href="/docs/manual/quickstart/" style="border:1px solid blue;background-color:darkblue;color: white" >
 🔰入門ガイドはこちら
 </a>
 </div>
-

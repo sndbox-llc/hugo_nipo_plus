@@ -231,7 +231,7 @@ p  {
 }
 
 #myhero {
-  height: calc(100vh - 120px);
+  height: calc(100vh);
   padding: 0 2em;
   min-height: 400px;
   background-size: cover;
@@ -245,6 +245,7 @@ p  {
     font-size: 2rem;
   }
   .heroList {
+    margin-top: 30px;
     font-size: 2rem;
     list-style: none;
     li::before {
@@ -266,6 +267,7 @@ p  {
 
 @media screen and (max-width: 599px) {
   #myhero {
+    overflow-x: hidden;
     padding: 0;
     .mainLead {
       font-size: 1.6rem;

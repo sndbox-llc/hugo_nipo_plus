@@ -1,5 +1,5 @@
 +++
-description = "NipoPlusに関するご質問、ご要望、お問い合わせはこちらからお送りください。24時間以内に返信いたします。自動返信メールにて受け付け完了のお知らせを送信しています"
+description = "Nipo+に関するご質問、ご要望、お問い合わせはこちらからお送りください。24時間以内に返信いたします。自動返信メールにて受け付け完了のお知らせを送信しています"
 tags = []
 title = "📩Inquery"
 menuTitle = "📩Inquery"
@@ -14,10 +14,10 @@ draft = true
 +++
 
 お問い合わせいただき、ありがとうございます。
-NipoPlusについてのご質問、ご要望、不具合の報告など、何でもお気軽にお問い合わせください。
+Nipo+についてのご質問、ご要望、不具合の報告など、何でもお気軽にお問い合わせください。
 お問い合わせ内容につきましては、24時間以内に担当者より返信させていただきます。  
 また、自動返信メールもお送りいたしますので、もし返信が届かない場合は、お手数ですが迷惑メールフォルダをご確認いただくか、再度ご連絡ください。  
-NipoPlusをより良いものにするため、皆様からのご意見・ご要望を心よりお待ちしております。
+Nipo+をより良いものにするため、皆様からのご意見・ご要望を心よりお待ちしております。
 
 もしシステムのトラブルの場合は、問い合わせの前にトラブルシューティングを見てください。案外簡単に解決することがあります。
 
@@ -33,7 +33,7 @@ NipoPlusをより良いものにするため、皆様からのご意見・ご要
     <textarea id="content" class="form-control"></textarea>
   </div>
   <label><input type="radio" name="targetRadio" value="Nipo">Nipo</label>
-  <label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
+  <label><input type="radio" name="targetRadio" value="NipoPlus">Nipo+</label>
   <div id="iconField"></div>
 
   <button onclick="submit()" class="btn btn-primary btn-lg mt-5" id="sendButton">送信</button>
@@ -52,7 +52,7 @@ NipoPlusをより良いものにするため、皆様からのご意見・ご要
   const checkOption = document.getElementsByName("targetRadio");
   const iconField = document.getElementById("iconField")
   const EMAIL_REG_EXP = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/;
-  // ラジオボタン（Nipo/NipoPLus)のクリックイベントを監視。選ばれた方のバナーをセットする
+  // ラジオボタン（Nipo/Nipo+)のクリックイベントを監視。選ばれた方のバナーをセットする
   checkOption.forEach(function(e) {
     e.addEventListener("click", function() {
       const selectNode = document.querySelector("input:checked[name=targetRadio]")
@@ -75,7 +75,7 @@ NipoPlusをより良いものにするため、皆様からのご意見・ご要
     const content = document.getElementById("content")
     const target = document.querySelector("input:checked[name=targetRadio]")
     try {
-      if (target === null) throw "問い合わせの製品をNipo/NipoPlusから選択してください"
+      if (target === null) throw "問い合わせの製品をNipo/Nipo+から選択してください"
       if (EMAIL_REG_EXP.test(email.value) === false) throw "メールアドレスが不正です"
       if (content.value.length === 0) throw "本文が空欄です"
     } catch (e) {

@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Nipo Plus"
+title = "Nipo+"
 titleSeparator = "|"
 titleAddition = "ノーコードで日報をアプリ化"
 description = "NipoPlus(ニポプラス)はスマホやタブレットで日報の読み書きが可能です。無料プランもあり。PDF出力や集計機能も完備しています"
@@ -14,7 +14,7 @@ BookDateFormat = "2006年01月02日"
 images = ["/images/nipoplus.png"]
 ogLocale = "ja_JP"
 domainTLD = "nipo-plus-doc.sndbox.jp"
-titleHome = "NipoPlus(ニポプラス)"
+titleHome = "Nipo+"
 
 ## Twitter Cards
 twitterSite = "@nipo_plus"
@@ -22,7 +22,7 @@ twitterCreator = "@nipo_plus"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaName = "NipoPlus(ニポプラス)"
+schemaName = "Nipo+"
 schemaAuthor = "Nipo+"
 schemaAuthorTwitter = "https://twitter.com/nipo_plus"
 schemaAuthorGitHub = "https://github.com/sandbox-co-ltd"

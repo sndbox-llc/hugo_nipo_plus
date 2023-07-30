@@ -8,7 +8,7 @@ aliases = ["/manual/account/signin/", "/docs/manual/account/_about/"]
 images = ["signin_tablet.png"]
 +++
 
-## NipoPlusにログインする{#signin}
+## Nipo+にログインする{#signin}
 
 E-mailとパスワードを入力し、ログインボタンをクリックします。
 

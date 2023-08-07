@@ -9,6 +9,10 @@ aliases = ["/price/invoice/"]
 images = []
 +++
 
+{{<info>}}
+近日中に最低申し込み人数が20名→5名に緩和される予定です(2023/08/07追記)
+{{</info>}}
+
 
 {{<alice pos="left" icon="default">}}
 請求書払いは非推奨です。可能であれば[クレカ](/docs/price/fee/)を利用してください

@@ -9,6 +9,11 @@ images = []
 mermaid = true
 +++
 
+{{<info>}}
+近日中に最低申し込み人数が10名→5名に緩和される予定です(2023/08/07追記)
+{{</info>}}
+
+
 {{<mermaid align="center">}}
 graph LR;
 classDef class1 fill:#7BCCAC

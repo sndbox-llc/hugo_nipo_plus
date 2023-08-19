@@ -84,3 +84,5 @@ classDef class1 fill:#7BCCAC
 [NipoPlus](/)|180円|10名|<span style="color:red">1,800円</span>|無料有
 [ニッピー](https://nippii.info/)|980円|記載なし|980円？|製造業特化型
 [Pace](https://paces.jp/pricing/)|550円|記載なし|550円？|最小が1名なら最安
+
+※NipoPlusは近い将来申し込み人数が5名からに緩和されます。上記の表は緩和前の数値です。

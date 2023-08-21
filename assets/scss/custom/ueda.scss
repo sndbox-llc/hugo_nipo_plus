@@ -242,7 +242,7 @@ p  {
     animation: SlideIn 1.0s forwards;
   }
   .mainLead {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .heroList {
     margin-top: 30px;
@@ -269,11 +269,16 @@ p  {
   #myhero {
     overflow-x: hidden;
     padding: 0;
+    .headLine {
+      font-size: 1.7em;
+      margin-bottom: 10px;
+      margin-top: 0;
+    }
     .mainLead {
-      font-size: 1.6rem;
+      font-size: 1.2em;
     }
     .heroList {
-      font-size: 1.6rem;
+      font-size: 1.2em;
 
     }
   

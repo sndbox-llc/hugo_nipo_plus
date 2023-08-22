@@ -1,0 +1,9 @@
+# グループ作成の上限数
+[groupLimit]
+free = 3
+paid = 500
+
+[prices]
+free = 0
+goldCredit = 180
+goldInvoice = 200

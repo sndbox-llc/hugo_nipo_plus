@@ -62,7 +62,7 @@
           <h4 class="my-0 fw-normal">無料プラン</h4>
         </div>
         <div class="card-body d-flex flex-column">
-          <p class="card-title pricing-card-title priceBoard">￥0<small class="text-muted">/月</small></p>
+          <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.free }}<small class="text-muted">/月</small></p>
           <ul class="list-unstyled mt-3">
             <li>4名まで</li>
             <li>🟢報告書の作成</li>
@@ -85,7 +85,7 @@
           <h4 class="my-0 fw-normal">GOLDプラン(クレジット)</h4>
         </div>
         <div class="card-body d-flex flex-column">
-          <p class="card-title pricing-card-title priceBoard">￥180<small class="text-muted">/月</small></p>
+          <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.goldCredit }}<small class="text-muted">/月</small></p>
           <ul class="list-unstyled mt-3">
             <li>10名〜（将来5名〜）</li>
             <li>🟢すべての機能が利用可能です</li>
@@ -103,7 +103,7 @@
           <h4 class="my-0 fw-normal">GOLDプラン(請求書)</h4>
         </div>
         <div class="card-body d-flex flex-column">
-          <p class="card-title pricing-card-title priceBoard">￥200<small class="text-muted">/月</small></p>
+          <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.goldInvoice }}<small class="text-muted">/月</small></p>
           <ul class="list-unstyled mt-3 ">
             <li>20名〜（将来5名〜）</li>
             <li>🟢すべての機能が利用可能です</li>

@@ -1,0 +1,3 @@
+{{ $category := .Get 0 }}
+{{ $plan := .Get 1 }}
+{{ index $.Site.Data.constants $category $plan }}

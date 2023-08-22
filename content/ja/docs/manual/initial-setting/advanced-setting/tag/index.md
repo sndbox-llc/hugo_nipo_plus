@@ -15,7 +15,7 @@ images = ["tag-manage_tablet.png"]
 1. 新規作成をクリック
 1. タグ名・タグカラーなどの設定を行う
 
-{{<appscreen filename="tag-manage" title="タグの管理画面|タグの編集には編集者の権限が必要です">}}
+{{<appscreen filename="tag-add1" title="タグの管理画面|タグの編集には編集者の権限が必要です">}}
 
 {{<nextArrow>}}
 
@@ -55,6 +55,14 @@ images = ["tag-manage_tablet.png"]
 1. 保存ボタンをクリック
 
 特にこれ以上の説明は有りません。
+
+## タグを絞り込む{#filterd}
+
+
+タグの使用用途による絞り込みが可能です。例えば「日報」で利用するタグのみを絞り込んで表示するには、「日報」のラジオボタンをONにします。
+
+{{<appscreen filename="tag-filter" title="タグの絞り込み検索。この画像は日報のタグで絞り込みをしている例です">}}
+
 
 ## タグを無効化する{#disable}
 

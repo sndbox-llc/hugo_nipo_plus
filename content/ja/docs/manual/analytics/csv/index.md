@@ -1,7 +1,7 @@
 +++
 description = "期間を指定して報告書のデータを一括でCSVに出力できます。バックアップやエクセルを使った集計分析、印刷など様々な形でご利用いただけます"
 tags = ["有料プラン限定", "Web版限定"]
-title = "日報データをまとめてCSVでダウンロードする"
+title = "日報のCSV一括ダウンロード"
 menuTitle = "CSV一括出力"
 toc = true
 weight = 101004021
@@ -16,7 +16,7 @@ CSV出力はWeb版のみ対応しています。Android / iOSアプリ版では�
 1. CSV出力ボタンをクリックします
 1. ダウンロードが開始されます
 
-{{<appscreen filename="report-csv-export" title="指定した期間の報告書を一括でCSVに出力">}}
+{{<appscreen filename="report-csv-export1" title="指定した期間の報告書を一括でCSVに出力">}}
 
 - CSVはテンプレートごとに分けて出力されます。テンプレートが多いとCSVファイルも比例して多くなります。
 - 指定期間内に1度も使用されなかったテンプレートは自動で除外されます。
@@ -26,6 +26,14 @@ CSV出力はWeb版のみ対応しています。Android / iOSアプリ版では�
 {{<alice pos="right" icon="ok">}}
 ダウンロードしたCSVファイルはエクセルで開けるよ
 {{</alice>}}
+
+## スタッフ別や日別に分けてCSV出力する{#splid_download}
+
+日別に分けてCSV出力したり、スタッフ別に分けてCSV出力できます。この機能を使うには対象となるテンプレートを1種類選ぶ必要があります。
+
+{{<appscreen filename="selectable-csv-download" title="日別やスタッフ別に分けて日報のダウンロードが可能です">}}
+
+
 
 ## CSVを解凍すると文字化けする？{#text_shaking}
 

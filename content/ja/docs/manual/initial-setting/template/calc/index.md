@@ -4,7 +4,7 @@ tags = ["集計可能フォーム", "日報構成部品", "テンプレート"]
 title = "【算術フォーム】を日報に追加"
 menuTitle = "🧩算術フォーム"
 toc = true
-weight = 101001116
+weight = 101001117
 aliases = ["/manual/initial-setting/template/calc/"]
 images = []
 +++

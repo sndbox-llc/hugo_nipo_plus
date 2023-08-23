@@ -4,7 +4,7 @@ tags = ["日報構成部品", "テンプレート"]
 title = "【反復可変長入力】を日報に追加"
 menuTitle = "🧩反復可変長入力"
 toc = true
-weight = 101001118
+weight = 101001119
 images = ["sample.png"]
 aliases = ["/manual/initial-setting/template/array/"]
 +++

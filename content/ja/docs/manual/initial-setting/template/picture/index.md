@@ -4,7 +4,7 @@ tags = ["日報構成部品", "テンプレート"]
 menuTitle = "🧩写真入力"
 title = "【写真入力】を日報に追加"
 toc = true
-weight = 101001111
+weight = 101001112
 aliases = ["/manual/initial-setting/template/picture/"]
 images = []
 +++

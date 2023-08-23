@@ -4,7 +4,7 @@ tags = ["集計可能フォーム", "日報構成部品", "テンプレート"]
 title = "【数値入力】を日報に追加"
 menuTitle = "🧩数値入力"
 toc = true
-weight = 101001115
+weight = 101001116
 aliases = ["/manual/initial-setting/template/math/"]
 images = ["math_tablet.png"]
 +++

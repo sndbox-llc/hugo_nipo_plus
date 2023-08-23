@@ -4,7 +4,7 @@ tags = ["日報構成部品", "テンプレート"]
 title = "【文字入力】を日報に追加"
 menuTitle = "🧩文字入力"
 toc = true
-weight = 101001102
+weight = 101001103
 aliases = ["/manual/initial-setting/template/text/"]
 images = []
 +++

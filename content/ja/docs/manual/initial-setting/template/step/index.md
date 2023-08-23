@@ -4,7 +4,7 @@ tags = ["集計可能フォーム", "日報構成部品", "テンプレート"]
 title = "【スライダ入力】を日報に追加"
 menuTitle = "🧩スライダ入力"
 toc = true
-weight = 101001113
+weight = 101001114
 aliases = ["/manual/initial-setting/template/step/"]
 images = []
 +++

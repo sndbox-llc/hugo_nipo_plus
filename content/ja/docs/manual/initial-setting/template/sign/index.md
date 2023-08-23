@@ -4,7 +4,7 @@ tags = ["日報構成部品", "テンプレート"]
 title = "【署名・イラスト入力】を日報に追加"
 menuTitle = "🧩署名・イラスト入力"
 toc = true
-weight = 101001110
+weight = 101001111
 aliases = ["/manual/initial-setting/template/sign/"]
 images = []
 +++

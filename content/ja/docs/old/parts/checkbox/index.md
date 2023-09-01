@@ -23,13 +23,13 @@ aliases = ["/old/parts/checkbox/"]
 
 ## チェックボックスを含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_chkbox2.png "チェックボックスを含む日報をPDFに変換した出力結果" />}}
 
 チェックボックスはCSV出力時に列を展開して出力することもできます。
 
-列を展開せずに[CSVに出力](/old/manual/analytics/)すると次のように表示されます。
+列を展開せずに[CSVに出力](/docs/old/manual/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_chkbox3.png "チェックボックスを含む日報をCSV出力し、エクセルで開いた例ー列の展開を無効" />}}
 

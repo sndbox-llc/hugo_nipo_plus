@@ -24,7 +24,7 @@ aliases = ["/old/parts/select/"]
 
 ## 選択肢（単回答）を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
 {{<imgproc parts_selecto2.png "選択肢を含む日報をPDFに変換した出力結果" />}}
 
 選択肢（単回答）ではCSV出力時に「**列の展開**」を指定できます。文字では伝えにくいので実際のデータをみて比較してください  
@@ -33,9 +33,9 @@ aliases = ["/old/parts/select/"]
 
 {{<imgproc parts_selecto4.png "CSV出力したデータをエクセルで開いた様子（列を展開する）" />}}
 
-列を展開すると各回答ごとに1列使用されます。これにより[集計](/old/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
+列を展開すると各回答ごとに1列使用されます。これにより[集計](/docs/old/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
 
-選択肢の入力はNipoの[集計機能](/old/manual/analytics/)を使って集計することもできます。
+選択肢の入力はNipoの[集計機能](/docs/old/manual/analytics/)を使って集計することもできます。
 
 {{<imgproc parts_selecto5.png "選択肢を集計した画面" />}}
 

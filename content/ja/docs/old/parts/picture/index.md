@@ -23,7 +23,7 @@ aliases = ["/old/parts/picture/"]
 
 ## 写真画像を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_pic2.webp "写真画像を含む日報をPDFに変換した出力結果" />}}
 

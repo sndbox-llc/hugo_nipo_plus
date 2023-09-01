@@ -11,7 +11,7 @@ aliases = ["/old/system/android-install/"]
   priority = 0.2
 +++
 
-AndroidやiOSでNipoを利用するには、2種類の方法が用意されています。このページは**Android向けのガイド**になります。[iPhone/iPadの方はこちら](/old/system/ios-install/)をどうぞ
+AndroidやiOSでNipoを利用するには、2種類の方法が用意されています。このページは**Android向けのガイド**になります。[iPhone/iPadの方はこちら](/docs/old/system/ios-install/)をどうぞ
 
 ## PWA版としてインストールする【推奨】{#pwa}
 
@@ -26,7 +26,7 @@ PWAとしてインストールすることで、Web版のNipoを使えます。W
 
 ### PWA版のインストール手順(Android版){#pwa_install}
 
-画像による解説と動画による解説を併記しております。この操作はandroidの方を対象にしています。[iOS方はこちら](/old/system/ios-install/)。  
+画像による解説と動画による解説を併記しております。この操作はandroidの方を対象にしています。[iOS方はこちら](/docs/old/system/ios-install/)。  
 Androidに標準でインストールされているGoogle Chromeを起動してください。
 
 {{<imgproc pwa_android1.png "AndroidにPWAをインストールする。手順1Google Chormeを起動します" />}}

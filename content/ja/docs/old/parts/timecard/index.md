@@ -35,15 +35,15 @@ aliases = ["/old/parts/timecard/"]
 
 ## タイムカードを含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_tc2.webp "タイムカードを含む日報をPDFに変換した出力結果" />}}
 
-[CSVに出力](/old/manual/analytics/)すると次のように表示されます。
+[CSVに出力](/docs/old/manual/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_tc3.png "タイムカードを含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-日報に埋め込まれたタイムカードはCSVに出力できませんが、[タイムカード集計](/old/manual/timecards/)からはタイムカードのデータだけを抜き出してCSV出力できます。
+日報に埋め込まれたタイムカードはCSVに出力できませんが、[タイムカード集計](/docs/old/manual/timecards/)からはタイムカードのデータだけを抜き出してCSV出力できます。
 
 タイムカード集計の画面
 

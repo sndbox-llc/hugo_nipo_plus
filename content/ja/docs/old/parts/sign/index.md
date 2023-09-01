@@ -26,7 +26,7 @@ aliases = ["/old/parts/sign/"]
 
 ## 署名を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_sign2.png "署名を含む日報をPDFに変換した出力結果" />}}
 

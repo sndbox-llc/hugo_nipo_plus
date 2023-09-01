@@ -23,7 +23,7 @@ aliases = ["/old/parts/rating/"]
 
 ## レートを含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_rating2.png "レートを含む日報をPDFに変換した出力結果" />}}
 
@@ -32,7 +32,7 @@ aliases = ["/old/parts/rating/"]
 {{<imgproc parts_rating3.png "CSV出力したデータをエクセルで開いた様子（列を展開しない）" />}}
 {{<imgproc parts_rating4.png "CSV出力したデータをエクセルで開いた様子（列を展開する）" />}}
 
-列を展開すると各回答ごとに1列使用されます。これにより[集計](/old/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
+列を展開すると各回答ごとに1列使用されます。これにより[集計](/docs/old/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
 
 Nipoの受信・送信BOXからは次のように表示されます
 

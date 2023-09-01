@@ -23,11 +23,11 @@ aliases = ["/old/parts/date/"]
 
 ## 日付を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_date2.png "日付を含む日報をPDFに変換した出力結果" />}}
 
-[CSVに出力](/old/manual/analytics/)すると次のように表示されます。
+[CSVに出力](/docs/old/manual/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_date3.png "日付を含む日報をCSVに出力し、Excelで開いた画面" />}}
 

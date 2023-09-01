@@ -35,7 +35,7 @@ aliases = ["/old/manual/leave-account/"]
 
 {{<imgproc group_delete.png "グループを解散する" />}}
 
-グループの解散について詳しくは[グループについて](/old/manual/group/)を御覧ください。
+グループの解散について詳しくは[グループについて](/docs/old/manual/group/)を御覧ください。
 
 グループに他のスタッフが残っている場合は、２つのやり方があります
 

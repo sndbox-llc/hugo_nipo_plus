@@ -16,21 +16,21 @@ aliases = ["/old/parts/math/"]
 ## 数値の入力画面{#display}
 
 数値項目はその名の通り**数値のみ入力が可能**です。（整数・負数・小数点が指定可能です）この項目の特徴は、集計され、グラフ化の対象となることです。
-数値の範囲が限定的であれば、数値ではなく[スライダー](/old/parts/slide/)の利用を検討してください。
+数値の範囲が限定的であれば、数値ではなく[スライダー](/docs/old/parts/slide/)の利用を検討してください。
 
 {{<imgproc parts_math1.png "数値を日報に添付した様子" />}}
 
 ## 数値を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_math2.png "数値を含む日報をPDFに変換した出力結果" />}}
 
-[CSVに出力](/old/manual/analytics/)すると次のように表示されます。
+[CSVに出力](/docs/old/manual/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_math3.png "数値を含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-数値パーツは[集計](/old/manual/analytics/)ができます。例えばスタッフごとの期間推移を表示した例は次のとおりです
+数値パーツは[集計](/docs/old/manual/analytics/)ができます。例えばスタッフごとの期間推移を表示した例は次のとおりです
 
 {{<imgproc parts_math4.png "数値を含む日報を集計し、折れ線グラフ付きで表示した例" />}}
 

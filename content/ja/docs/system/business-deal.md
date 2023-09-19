@@ -47,3 +47,5 @@ T9060003001832
 合同会社サンドボックス
 
 登録年月日　令和５年１０月１日
+
+[税務署サイトにて](https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=9060003001832)確認可能です。

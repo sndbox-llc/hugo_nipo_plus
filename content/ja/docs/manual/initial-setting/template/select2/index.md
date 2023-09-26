@@ -5,7 +5,7 @@ title = "【選択式入力（複数回答）】を日報に追加"
 menuTitle = "🧩選択式入力（複数回答）"
 toc = true
 weight = 101001105
-aliases = ["/manual/initial-setting/template/select2/"]
+aliases = ["/manual/initial-setting/template/select2/", "/manual/org/groupsetting/template/select2/"]
 images = []
 +++
 

@@ -5,7 +5,7 @@ title = "【数値入力】を日報に追加"
 menuTitle = "🧩数値入力"
 toc = true
 weight = 101001116
-aliases = ["/manual/initial-setting/template/math/"]
+aliases = ["/manual/initial-setting/template/math/", "/manual/org/groupsetting/template/math/"]
 images = ["math_tablet.png"]
 +++
 

@@ -5,7 +5,7 @@ title = "【範囲入力】を日報に追加"
 menuTitle = "🧩範囲入力"
 toc = true
 weight = 101001110
-aliases = ["/manual/initial-setting/template/range/"]
+aliases = ["/manual/initial-setting/template/range/", "/manual/org/groupsetting/template/range/"]
 images = []
 +++
 

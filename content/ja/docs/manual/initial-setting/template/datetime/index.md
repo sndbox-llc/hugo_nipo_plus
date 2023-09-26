@@ -5,7 +5,7 @@ title = "【日付・時刻入力】を日報に追加"
 menuTitle = "🧩日付・時刻入力"
 toc = true
 weight = 101001107
-aliases = ["/manual/initial-setting/template/datetime/"]
+aliases = ["/manual/initial-setting/template/datetime/", "/manual/org/groupsetting/template/datetime/"]
 images = []
 +++
 

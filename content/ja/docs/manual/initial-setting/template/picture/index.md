@@ -5,7 +5,7 @@ menuTitle = "🧩写真入力"
 title = "【写真入力】を日報に追加"
 toc = true
 weight = 101001112
-aliases = ["/manual/initial-setting/template/picture/"]
+aliases = ["/manual/initial-setting/template/picture/", "/manual/org/groupsetting/template/picture/"]
 images = []
 +++
 

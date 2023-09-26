@@ -5,7 +5,7 @@ title = "【ファイル入力】を日報に追加"
 menuTitle = "🧩ファイル入力"
 toc = true
 weight = 101001113
-aliases = ["/manual/initial-setting/template/file/"]
+aliases = ["/manual/initial-setting/template/file/", "/manual/org/groupsetting/template/file/"]
 images = []
 +++
 

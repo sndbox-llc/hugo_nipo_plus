@@ -5,7 +5,7 @@ title = "【レート入力★★☆☆☆】を日報に追加"
 menuTitle = "🧩レート入力★★☆☆☆"
 toc = true
 weight = 101001115
-aliases = ["/manual/initial-setting/template/rate/"]
+aliases = ["/manual/initial-setting/template/rate/", "/manual/org/groupsetting/template/rate/"]
 images = []
 +++
 

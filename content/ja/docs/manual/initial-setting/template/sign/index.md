@@ -5,7 +5,7 @@ title = "【署名・イラスト入力】を日報に追加"
 menuTitle = "🧩署名・イラスト入力"
 toc = true
 weight = 101001111
-aliases = ["/manual/initial-setting/template/sign/"]
+aliases = ["/manual/initial-setting/template/sign/", "/manual/org/groupsetting/template/sign/"]
 images = []
 +++
 

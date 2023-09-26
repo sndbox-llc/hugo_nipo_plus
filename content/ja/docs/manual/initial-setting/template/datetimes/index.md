@@ -5,7 +5,7 @@ title = "【期間入力】を日報に追加"
 menuTitle = "🧩期間入力"
 toc = true
 weight = 101001108
-aliases = ["/manual/initial-setting/template/datetimes/"]
+aliases = ["/manual/initial-setting/template/datetimes/", "/manual/org/groupsetting/template/datetimes/"]
 images = []
 +++
 

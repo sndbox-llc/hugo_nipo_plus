@@ -6,7 +6,7 @@ menuTitle = "🧩選択式入力（2層式）"
 toc = true
 weight = 101001106
 mermaid = true
-aliases = ["/manual/initial-setting/template/selectcalc/"]
+aliases = ["/manual/initial-setting/template/selectcalc/", "/manual/org/groupsetting/template/selectcalc/"]
 images = []
 +++
 

@@ -4,7 +4,7 @@ tags = []
 title = "請求書による支払い"
 menuTitle = "請求書で支払う(問い合わせから)"
 toc = true
-weight = 102000005
+weight = 102000006
 aliases = ["/price/invoice/"]
 images = []
 +++

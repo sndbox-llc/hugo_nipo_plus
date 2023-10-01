@@ -3,7 +3,7 @@ description = "有料プランを解約する場合は、管理画面からい�
 tags = ["Web版限定"]
 title = "有料プランを解約"
 toc = true
-weight = 102000004
+weight = 102000009
 aliases = ["/price/cancel/"]
 images = []
 +++

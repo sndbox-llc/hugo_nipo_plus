@@ -2,6 +2,7 @@
 description = "有料プランへ加入するとすべての機能が利用可能になります。いつでも加入・解約が可能です"
 tags = ["Web版限定"]
 title = "有料プランに加入"
+menuTitle = "有料プランを開始（クレカ決済）"
 toc = true
 weight = 102000003
 aliases = ["/price/fee/"]

@@ -16,7 +16,7 @@ iOSについてはこれまでそこまで大きなトラブルは比較的少�
 ここでは2022年8月現在、Android AppをQuasar Frameworkでビルドしてストアに提出するまでの流れについて備忘録を兼ねて記載しています。
 開発にはMacBook Air(M1)を使用しております。NodeJSのバージョンは16を使用しています。変換にはCapacitor3を使用しています。
 
-## Android Appとしてビルドする前に
+## Android Appとしてビルドする前に{#build_android}
 
 初回ビルド時は必要ありませんが、2回目、3回目の更新の際はApp Versionを更新しないとGoogle Play Storeに提出できません。そのためビルド前にApp Versionの値を現在より大きな値に更新する必要があります。
 
@@ -32,7 +32,7 @@ versionCode 123
 
 と記載された箇所（123はここでは適当な値です）を見つけ、123より大きな数値に書き換えする（例えば124など）
 
-## ideモードでビルドする
+## ideモードでビルドする{#build_ios}
 
 続いてソースコードのビルドを行います。Quasarのコマンドを叩くとCapacitorなどが自動で良しなに行ってくれるはずです。
 
@@ -65,13 +65,13 @@ Build -> Generate Signed Bundle / Apk...
 最後にreleaseを選択して、Finishボタンをクリックします。署名が完了するとsrc-capacitor/android/app/release　の中に app-release.aabが出力されています。
 このAABファイルをAndroid StudioにアップロードすることでAndroid Studioにアプリのリリースが行なえます。
 
-### 作成した鍵ファイルはなくさないように注意
+### 作成した鍵ファイルはなくさないように注意{#careful_key}
 
 署名に使用する鍵ファイルは紛失しないように気をつけてください。筆者は実際一度誤って紛失させてしまったことがあります。
 万が一紛失した場合はGoogle Play Storeのヘルプセンターに問い合わせをすることで、鍵をリセットしてもらうことが可能です。
 しかしリセットを依頼するにしても一定の時間（1週間程度）はかかるので注意してください。なくさないように大切に保管することが重要です。
 
-## Web / Android / iOSアプリの開発にはQuasarがおすすめ
+## Web / Android / iOSアプリの開発にはQuasarがおすすめ{#quasar}
 
 Quasar Framewrorkの良い点としてWebアプリはもちろんのこと、Androidアプリ・iOSアプリそれぞれへの変換が比較的簡単に行える点があります。
 特に小規模な開発現場で同じアプリを3つ分けて開発するのは非常に大変です。

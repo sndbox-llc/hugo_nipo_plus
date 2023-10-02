@@ -15,12 +15,12 @@ code = true
 Quasar Frame workを使って API Lv31以上のAABを作成してPlay Storeにアップロードするまでに至った手順を紹介します。
 色々手間取りましたが無事提出できました。とりあえず以下の作業を進める前に別ブランチで作業することを推奨します。
 
-## Capacitor4を使う
+## Capacitor4を使う{#use_capacitor4}
 
 API LV31以上に対応するにはCapacirot4に更新します。しかし[Quasarの公式サイト](https://quasar.dev/quasar-cli-vite/developing-capacitor-apps/capacitor-version-support)にはCapacitor4に関する言及がありません。
 記事はCapacitor3で止まっています。サポートされていないように見えますが、Capasitor4でも動作しました。
 
-### 具体的なフロー
+### 具体的なフロー{#about}
 
 いつものようにQuasarからAndroidのビルドを行います.
 
@@ -83,7 +83,7 @@ npx cap migrate
 
 エラーが出なくなれば成功です。
 
-### android studio上での作業
+### android studio上での作業{#android_studio}
 
 npx cap openでAndroid Studioを立ち上げます。起動と同時にビルド処理？が始まりますが、ここでエラーが発生することがあります。
 
@@ -144,7 +144,7 @@ android {
 これで再度ビルドし、アップロードしたところ無事にAPI Lv31を対象とすることができました。
 {{<imgproc android-api-lv-31.png "API Lv31になりました" />}}
 
-## 最後に
+## 最後に{#end}
 
 AndroidのAPILv31については当初ビルドが失敗して色々調べました。Quasarでは次のような[Pull Request](https://github.com/quasarframework/quasar/pull/14226)があります。
 このプルリクが実装されればもう少しスマートに移行できたかもしれません。ただ更新が止まっているためこのプルリクが実装される見込みは低そうです。

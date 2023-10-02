@@ -11,7 +11,7 @@ mermaid = true
 +++
 
 {{<info>}}
-[Version 1.42.2](/docs/system/release-note/#vp1.42.0)から申し込み最少人数が5名に緩和されました
+[Version 1.42.2](/docs/system/release-note/#vp1_42_0)から申し込み最少人数が5名に緩和されました
 {{</info>}}
 
 

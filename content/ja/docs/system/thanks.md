@@ -64,7 +64,7 @@ aliases = ["/system/thanks/"]
 パターンは11種類あります
 {{</alice>}}
 
-## Nipo およびNipoPlusを取り上げてくれた方々
+## Nipo およびNipoPlusを取り上げてくれた方々{#medias}
 
 - Senses Lab　様[おすすめ日報アプリ・ツールの7選を比較 | 価格（無料あり）・特徴](https://product-senses.mazrica.com/senseslab/tool-reviews/nippou-software)
 - BOXIL 様[日報をアプリで！クラウド日報ツールまとめ](https://boxil.jp/mag/a1499/)
@@ -75,7 +75,7 @@ aliases = ["/system/thanks/"]
 - 情シス　様 日報業務を効率化する日報管理ツール7選まとめ （サイト閉鎖？リンクぎれ）
 - B2B　ハッカー 様[無料から使える！営業日報管理ツール5選](https://b2bhacker.baseconnect.in/articles/2611)
 
-### Nipoご利用のお客様からのご紹介
+### Nipoご利用のお客様からのご紹介{#special_thanks}
 
 - 曽我冷熱株式会社　様[クラウド版の業務日報Nipo](https://www.sogareinetsu.com/worklog/nipo/)
 - 有限会社デューク　様[デュークの日報](https://ameblo.jp/dukeblog-life/entry-12452375114.html)

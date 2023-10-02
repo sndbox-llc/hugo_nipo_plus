@@ -64,6 +64,10 @@ aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
 
 選択した期間における１名のスタッフのデータを細かく表で確認できます。
 
+{{<btnCenter "/docs/manual/analytics/chart/" "グラフ作成のガイドを見る">}}
+
+
+
 ### 集計期間のスタッフごとの累計を分析{#stack}
 
 例えばAさんとBさんの成績比較をしたいときにエクセルで集計するって？大丈夫、スタッフごとの比較もNipoPlusがぱぱっとやってくれます。

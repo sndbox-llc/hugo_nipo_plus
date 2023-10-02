@@ -14,7 +14,7 @@ code = true
 NipoPlusのバックエンドはFirebaseを使用しています。アカウント管理やストレージ、Cloud Function、データベースなどアプリ開発に必要な機能の多くが予め用意されており、Firebaseだけである程度のサービスを割と簡単に作成することができます。
 データの多くはFirebaseの1サービスである「FireStore」に保管することになります。FireStoreはリアルタイム同期やセキュリティルールなど、特徴のあるデータベースで、慣れてくるととても使いやすいデータベースですが、困ったことが1つあります。それが、「検索の貧弱さ」です。
 
-## FireStoreのクエリは貧弱である
+## FireStoreのクエリは貧弱である{#fireStoreQuery}
 
 リレーショナルデータベースなどに比べるとどうしてもクエリの制限が気になります。2つ以上のキーで絞り込みをする場合はインデックスの作成が必要になってきますし、全文検索などもサポートされていません。
 弱点を補って余る程の魅力があるFireStoreですが、実際にアプリを作ると様々な検索が必要になってきますのでFireStore単体だとどうしても行き詰まってしまうことでしょう。
@@ -25,17 +25,17 @@ NipoPlusのバックエンドはFirebaseを使用しています。アカウン�
 状態や期間、単語を使った検索をFireStore単体で実装しようとすると茨の道となります。フロントにデータを大量にロードしてJavascript側でフィルターを掛ける手もありますが、無駄な通信も多く処理負担も大きくなるため、あまり現実的な回避策とは言えません。
 NipoPlusではこの問題に対して、FireStoreの他にElasitc Searchという全文検索対応のデータベースを併用することでこのような機能を実現しています。
 
-## Elastic Searchとは？
+## Elastic Searchとは？{#aboutElasticSearch}
 
 ElasticSearchは全文検索に対応したデータベースです。FireStoreではできない全文検索や高度なクエリを行うことができます。オープンソースで開発されており、自前でサーバを用意する場合は無料で利用することもできます。
 自前でサーバを用意できない場合はElastic Cloudというサーバを有償で利用することもできます。NipoPlusはElastic Cloudを使用しています。
 
-## FirestoreとElasitc Searchを組み合わせて使う
+## FirestoreとElasitc Searchを組み合わせて使う{#convinationFsAndEs}
 
 FireStoreの便利な点と、Elastic Searchの高度な検索を組み合わせることで強力なデータベースになります。
 2つのデータベースを使いますがElasticSearchはあくまでも検索専用で、メインはFireStoreです。FireStoreでデータが書き込まれたら、その変化をCloudFunctionsでキャッチしてElasticSearchへ書き込む処理をしてあげます。
 
-### Elastic Searchの準備
+### Elastic Searchの準備{#setupElasticSearch}
 
 まずはElasticSearchのデータベースを準備することからはじめます。ElasticSearchではデータを保存すると良しなに型を決めてくれますが、実際は予め型（スキーマ）を決めておいたほうが良いです。
 スキーマの作成は記述量が多くなるのでtsファイルなどに書き、いつでも作成出来るようにしておくとデータベースの復旧などでも使い回せるのでオススメです。
@@ -110,7 +110,7 @@ async function makeElastic () {
 
 {{<imgproc terminal.png "ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました。シンプルだけど自分しか使わないならこのくらいでも必要十分ですね" />}}
 
-### Cloud FunctionsでFirestoreのデータをElastic Searchへプッシュする
+### Cloud FunctionsでFirestoreのデータをElastic Searchへプッシュする{#documentMerge}
 
 Cloud FunctionsでFireStoreの変化を検出し、ElasticSearchへデータを書き込むような処理を書きます。
 この例ではonWriteを使っており、書き込み、更新、削除の３つを1つのCloud Funstionsで処理しています。
@@ -168,7 +168,7 @@ export const esPushReport = functions.firestore.document('group/{groupId}/docume
 これでFireStoreのデータとElasticSearchのデータをほぼ同じ状態に保つことができます。
 処理の流れは絶対に Firestore => Elastic Searchの一方通行になるように意識しています。相互通信してしまうとわけがわからない事になりかねないため、この流れは絶対遵守します。
 
-## データの検索はCloud Functionsを経由して行う
+## データの検索はCloud Functionsを経由して行う{#usageCloudFunctions}
 
 ElasticSearchのデータは大切なデータなのでセキュリティ上、安全に守られながら運用しなければなりません。FireStoreであればセキュリティルールを使うことでデータを安全に保護できますが、ElasticSearchにはセキュリティルールがありません。
 ElasticSearchには独自のアクセス権限などが設定できますが、あくまでもFireStoreの補助として使う場合、ElasticSearchのアクセス権限を設定してしまうと話がこじれてしまいます。
@@ -245,7 +245,7 @@ export default functions.https.onCall(async(data, context) => {
 
 結果をフロントに返却し、フロントはフロントで受け取ったデータを良しなに表示します。
 
-## 他の全文検索データベースとの比較
+## 他の全文検索データベースとの比較{#otherDatabaseInfo}
 
 [Firebaseの公式サイト](https://firebase.google.com/docs/firestore/solutions/search?provider=elastic)でも全文検索を行うには外部DBを使う方法を紹介しています。
 紹介されているデータベースは以下の3種類です。

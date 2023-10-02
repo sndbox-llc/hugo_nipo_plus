@@ -180,7 +180,7 @@ if (navigator.serviceWorker) {
 正解を先に書くと、この記事の章タイトルの通りで、「Register Servie worker上ではなくVue上で更新処理を行う」ことで、iPadなどの機器でも正常に更新が行えるようになりました。
 以下、修正の具体的な例です。参考にさせていただいたサイトはVuetifyですが、私はQuasarを使っているのでQuasar基準の解答です。
 
-### register-service-worker.jsで更新イベントを発行する
+### register-service-worker.jsで更新イベントを発行する{#firedUpdateEvent}
 
 まずはregister-service-worker.js側の修正です
 
@@ -232,7 +232,7 @@ register(process.env.SERVICE_WORKER_FILE, {
 
 これでService workerがUpdateになったとき、swUpdatedというイベントが発行されます。このイベントをVue側で受け取り処理を引き継ぐ感じですね
 
-### App.vue側でswUpdateイベントを広い、更新通知を行う
+### App.vue側でswUpdateイベントを広い、更新通知を行う{#noticeFrontEnd}
 
 Quasarのプロジェクトでは、プロジェクトフォルダ/srcの中にApp.vueというファイルがあります。
 今回はこのApp.vue上でイベントを拾ってみます。
@@ -325,7 +325,7 @@ register-service-worker.jsで発行した「swUpdated」イベントを、App.vu
 私はQuasarが大好きなので、上のコードもQuasar独自の命令が含まれています。そう、通知をトーストで表示する「[Notify](https://quasar.dev/quasar-plugins/notify)」です。
 他のフレームワークをお使いの方は、この箇所をそれぞれの通知命令に書き換えてください。
 
-### WebpackのOptionsでskipwaitingを無効化しておくことを忘れずに
+### WebpackのOptionsでskipwaitingを無効化しておくことを忘れずに{#skipWaiting}
 
 私の利用しているQuasarではWebpackの設定をquasar.conf.jsで記述します。
 

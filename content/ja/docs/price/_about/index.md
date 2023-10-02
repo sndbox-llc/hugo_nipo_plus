@@ -1,6 +1,7 @@
 +++
 description = "無料プラン有り。有料プランは1名1ヶ月180円のサブスクリプション方式です。最低5名から申し込みが可能。"
-title = "料金プラン"
+title = "無料版有り。有料は1名180円か200円で5名〜"
+menuTitle = "料金プラン"
 toc = true
 weight = 102000000
 tags = []
@@ -8,6 +9,8 @@ aliases = ["/price/"]
 images = []
 mermaid = true
 +++
+
+利用を開始すると１ヶ月の「トライアル期間」が自動で適用されます。トライアル期間は有料プランと同じくすべての機能が利用可能です。人数も10名まで利用可能です。  
 
 
 {{<mermaid align="center">}}
@@ -18,15 +21,14 @@ classDef class1 fill:#7BCCAC
   無料プランへ--> 有料プランへ加入:::class1
 {{< /mermaid >}}
 
-料金プランは大きく分けて3種類あります
+トライアルが満了したら３つの選択肢があります。
 
-- 無料プラン
-- 有料プラン（クレジットカード）
-- 有料プラン（請求書払い）
+- 無料プランへ降格しずっと使い続ける
+- GOLDプラン（自動更新有り）に申し込む
+- GOLDプラン（自動更新無し）に申し込む
 
-初めて利用を開始すると「トライアル期間」が自動で適用されます。トライアル期間は有料プランと同じくすべての機能が利用可能です。人数も10名まで利用可能です。  
+何もしなければ勝手に無料プランへ切り替わります。
 
-トライアル期間中、またはトライアル終了後にプランを選択します。
 
 {{<btnCenter "/docs/price/trial/" "トライアル期間について">}}
 
@@ -37,7 +39,7 @@ classDef class1 fill:#7BCCAC
 
 {{<btnCenter "/docs/price/free/" "無料プランについて">}}
 
-## 有料プランへ加入する{#fee}
+## GOLDプランへ加入する{#fee}
 
 最低5名からご利用可能です。5名に満たない場合でもお申し込み可能ですが料金は5名分発生します。**つまり900円〜利用可能です**。ギリギリの料金でやっていますので、何卒ご容赦ください。
 
@@ -48,11 +50,11 @@ classDef class1 fill:#7BCCAC
 （※請求書払いは単価やルールが異なります）
 
 <div class="row justify-content-center">
-<div class="col-sm-16 col-md-8">{{<button "/docs/price/fee/" "クレジットカードで加入">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/price/fee/" "自動更新有りで加入">}}</div>
 <div class="col-sm-16 col-md-8">{{<button "/docs/price/invoice/" "請求書払いで加入">}}</div>
 </div>
 
-## 有料プランを解約する{#cancel}
+## GOLDプランを解約する{#cancel}
 
 請求書払いとクレジットカード払いによって異なります。
 
@@ -82,7 +84,6 @@ classDef class1 fill:#7BCCAC
 [houren.so](https://www.houren.so/)|❓|❓|2,500円|無料有
 [Nipo](/docs/old/)|200〜500円|5名|2,250円|無料有
 [DeskNetsNeo](https://www.desknets.com/neo/price/)|400円|5名|2,000円|売切版有
-[NipoPlus](/)|180円|5名|<span style="color:red">900円</span>|無料有
+[NipoPlus](/)|180円|5名|<span style="color:red;background-color:pink;">900円</span>|無料有
 [ニッピー](https://nippii.info/)|980円|❓|❓980円|製造業特化型
 [Pace](https://paces.jp/pricing/)|550円|❓|❓550円|最小が1名なら最安
-

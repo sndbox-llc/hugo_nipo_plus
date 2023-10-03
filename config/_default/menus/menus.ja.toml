@@ -3,10 +3,7 @@
   name = "📖操作ガイド"
   url = "/docs/manual/quickstart/"
   weight = 10
-[[main]]
-  name = "ユースケース"
-  url = "/tips/"
-  weight = 11
+
 
 [[main]]
   name = "💰料金"
@@ -21,8 +18,14 @@
 
 [[main]]
   name = "旧Nipo"
-  url = "/docs/old/quick/"
+  url = "/legacy/about/diff/"
   weight = 40
+
+[[main]]
+  name = "ユースケース"
+  url = "/tips/"
+  weight = 45
+
 
 [[main]]
   name = "ブログ"

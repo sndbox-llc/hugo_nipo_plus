@@ -5,12 +5,12 @@
     {{ with .Content -}}<div class="text-center">{{ . }}</div>{{ end -}}
   </div>
 </div>
-<div class="row g-lg-5">
+<div class="row g-lg-5" >
   {{ $paginator := .Paginate (.Data.Pages) -}}
   {{ range $paginator.Pages -}}
-  <div class="col-16">
+  <div class="col-16 mb-3">
     <a class="noUnderline" href="{{ .RelPermalink }}">
-      <div class="card">
+      <div class="card" style="border:1px solid purple">
         <div class="row">
           <!-- Image on the left -->
           <div class="col-lg-4">

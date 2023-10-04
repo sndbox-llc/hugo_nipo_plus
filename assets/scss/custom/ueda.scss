@@ -26,35 +26,35 @@ h1 {
     right: 0;
   }
 }
+.docs-content {
+  h2, h3, h4, h5, h6 {
+    @include heading-style;
+  }
+}
 
 h2 {
-  @include heading-style;
   color: $accentColor;
   font-size: 2rem;
   margin-top: 50px
 }
 
 h3 {
-  @include heading-style;
   color: $subColor;
   font-size: 1.8rem;
   margin: 3rem 0 1rem;
 }
 
 h4 {
-  @include heading-style;
   font-size: 1.6rem;
   margin: 2rem 0 1rem;
 }
 
 h5 {
-  @include heading-style;
   font-size: 1.4rem;
   margin: 1.5rem 0 1rem;
 }
 
 h6 {
-  @include heading-style;
   font-size: 1.2rem;
   margin: 1rem 0 1rem;
   padding-top: 40px;

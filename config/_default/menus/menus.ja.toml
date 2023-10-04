@@ -11,7 +11,7 @@
   weight = 20
 
 [[main]]
-  name = "📩お問い合わせ"
+  name = "📩問合せ"
   url = "/others/inquery/"
   weight = 40
 
@@ -22,7 +22,7 @@
   weight = 40
 
 [[main]]
-  name = "ユースケース"
+  name = "活用例"
   url = "/tips/"
   weight = 45
 

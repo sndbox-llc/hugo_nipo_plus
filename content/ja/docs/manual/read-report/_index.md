@@ -4,5 +4,6 @@ title = "🔍日報を読む"
 toc = true
 tags = []
 weight = 101003000
+robots = "noindex, follow"
 +++
 

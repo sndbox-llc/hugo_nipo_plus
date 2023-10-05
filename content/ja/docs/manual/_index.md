@@ -5,4 +5,5 @@ lead = ""
 draft = false
 images = []
 weight = 600
+robots = "noindex, follow"
 +++

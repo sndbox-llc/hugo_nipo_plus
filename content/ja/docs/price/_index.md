@@ -4,6 +4,7 @@ title = "💰ご利用料金"
 toc = true
 weight = 102000000
 tags = []
+robots = "noindex, follow"
 +++
 
 NipoPlusは無料でも利用可能な日報・チェックシート管理アプリです。  

@@ -1,13 +1,14 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10 col-xl-8">
     <article>
       <h1 class="text-center">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{ .Title }}{{ end }}</h1>
       <div class="text-center">{{ .Content }}</div>
 			<div class="card-list">
 				{{ $currentSection := .CurrentSection }}
+				<div class="row justify-content-center">
 				{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
 					{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+						<div class="col-md-15 col-lg-8 col-xl-5">
+
 						<div class="card my-3 pageCards">
 							<div class="card-body">
 								<a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
@@ -17,10 +18,10 @@
 							</div>
 
 						</div>
+						</div>
 					{{ end }}
 				{{ end }}
+				</div>
 			</div>
     </article>
-  </div>
-</div>
 {{ end }}

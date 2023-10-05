@@ -59,6 +59,9 @@ h6 {
   margin: 1rem 0 1rem;
   padding-top: 40px;
 }
+.accentColor {
+  color: $accentColor;
+}
 
 strong {
   color: black;
@@ -111,7 +114,8 @@ p  {
   counter-reset: list;
   list-style-type: none;
   padding: 0;
-  border: solid 1px $subColor;
+  margin-top: 30px;
+  margin-bottom: 30px;
   li {
     position: relative;
     line-height: 30px;

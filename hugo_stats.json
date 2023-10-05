@@ -5,6 +5,7 @@
       "alice",
       "article",
       "aside",
+      "b",
       "blockquote",
       "body",
       "br",
@@ -69,6 +70,7 @@
       "use"
     ],
     "classes": [
+      "accentColor",
       "active",
       "alert",
       "alert-info",
@@ -121,6 +123,7 @@
       "col-lg-9",
       "col-md-10",
       "col-md-12",
+      "col-md-14",
       "col-md-15",
       "col-md-16",
       "col-md-5",
@@ -336,6 +339,7 @@
       "tags",
       "tech",
       "text-body",
+      "text-bold",
       "text-center",
       "text-dark",
       "text-end",

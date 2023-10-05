@@ -1,5 +1,5 @@
 +++
-description = "【旧バージョン】マニュアル"
+description = "旧バージョンマニュアル【アーカイブスページ】"
 title = "マニュアル"
 toc = true
 weight = 109001000

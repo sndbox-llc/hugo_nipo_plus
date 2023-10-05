@@ -1,5 +1,5 @@
 +++
-description = "データ削除に関する操作ガイド"
+description = "データ削除に関する操作ガイド【アーカイブスページ】"
 title = "🗑データの削除"
 toc = true
 tags = []

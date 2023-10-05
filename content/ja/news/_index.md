@@ -1,5 +1,5 @@
 +++
-description = "最新のお知らせ"
+description = "最新のお知らせ【アーカイブスページ】"
 title = "News"
 toc = true
 tags = []

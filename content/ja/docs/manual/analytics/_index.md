@@ -1,6 +1,6 @@
 +++
 title = "📊データ集計"
-description = "データ集計の操作ガイド"
+description = "データ集計の操作ガイド【アーカイブスページ】"
 lead = "れあｄ"
 date = "2020-10-06"
 draft = false

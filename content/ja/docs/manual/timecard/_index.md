@@ -1,5 +1,5 @@
 +++
-description = "タイムカードに関する操作ガイド"
+description = "タイムカードに関する操作ガイド【アーカイブスページ】"
 title = "⏰タイムカード"
 toc = true
 tags = []

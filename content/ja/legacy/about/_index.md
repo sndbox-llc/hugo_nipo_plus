@@ -1,5 +1,5 @@
 +++
-description = "旧バージョンNipoについて"
+description = "旧バージョンNipoについて【アーカイブスページ】"
 title = "⚠️旧バージョンのNipo"
 toc = true
 tags = ["旧バージョン"]

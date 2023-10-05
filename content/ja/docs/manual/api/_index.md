@@ -1,5 +1,5 @@
 +++
-description = "APIに関する操作ガイド"
+description = "APIに関する操作ガイド【アーカイブスページ】"
 title = "📡API"
 toc = true
 tags = []

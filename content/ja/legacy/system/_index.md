@@ -1,5 +1,5 @@
 +++
-description = "旧バージョンNipoについて"
+description = "システムスペック等【アーカイブスページ】"
 title = "System"
 toc = true
 weight = 109003000

@@ -1,6 +1,6 @@
 +++
 title = "その他"
-description = ""
+description = "その他【アーカイブスページ】"
 lead = "その他"
 date = 2020-10-06T08:47:36.000Z
 lastmod = 2020-10-06T08:47:36.000Z

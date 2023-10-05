@@ -1,5 +1,5 @@
 +++
-description = "カレンダーに関する操作ガイド"
+description = "カレンダーに関する操作ガイド【アーカイブスページ】"
 title = "📅カレンダー"
 toc = true
 tags = []

@@ -14,18 +14,13 @@
 <div class="row row-cols-1 row-cols-lg-2 g-lg-5">
   {{ $paginator := .Paginate (.Data.Pages) -}}
   {{ range $paginator.Pages -}}
-  <div class="col">
-    <div class="card">
-      {{- .Scratch.Set "fillImage" "1270x620 Center" -}}
-      {{ partial "content/card-image.html" . }}
+  <div class="col-md-15 col-lg-8 col-xl-5">
+    <div class="card my-3 pageCards" style="border:1px solid purple">
       <div class="card-body">
         <article>
           <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
           <p>{{ .Params.description | safeHTML }}</p>
         </article>
-        {{ if .Params.tags }}
-  			{{ partial "custom/tags.html" . }}        
-        {{ end }}
       </div>
     </div>
   </div>

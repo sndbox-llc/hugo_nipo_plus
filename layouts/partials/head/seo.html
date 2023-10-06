@@ -1,5 +1,7 @@
 {{ if eq .Kind "404" -}}
   <meta name="robots" content="noindex, follow">
+{{ else if eq .Type "tags" -}}
+<meta name="robots" content="noindex, follow">
 {{ else -}}
   {{ with .Params.robots -}}
     <meta name="robots" content="{{ . }}">

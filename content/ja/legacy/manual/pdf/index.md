@@ -32,7 +32,7 @@ Windows/Macでご利用の際、ファイル名は
 [Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp) /[iOS](https://apps.apple.com/jp/app/nipo/id1385965600)版では挙動が少し変わり、自動で共有機能が立ち上がります。  
 
 AndroidやiOSからもWeb版のNipoを利用できます。この場合はWindows/Macと同様に「ファイル」として保存されます。
-詳しくは[モバイル機器にインストールする](/docs/old/system/ios-install/)を御覧ください
+詳しくは[モバイル機器にインストールする](/legacy/system/ios-install/)を御覧ください
 
 {{<alice pos="left" icon="default">}}
 AndroidやiPhoneでもWeb版Nipoを使えば、共有機能は立ち上がらずタブとして表示されます。
@@ -50,8 +50,8 @@ AndroidやiPhoneでもWeb版Nipoを使えば、共有機能は立ち上がらず
 なお**一括PDFダウンロードはWebアプリ版でのみ利用可能**です。
 [Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp) /[iOS](https://apps.apple.com/jp/app/nipo/id1385965600)版では利用できませんので注意してください。  
 もしAndroidやiOSでこの機能が必要な場合は、PWA版としてインストールしてください。
-詳しくは[モバイル機器にインストールする](/docs/old/system/ios-install/)を御覧ください。
-この機能は[GOLD PLAN](/docs/old/system/price/)限定の機能です
+詳しくは[モバイル機器にインストールする](/legacy/system/ios-install/)を御覧ください。
+この機能は[GOLD PLAN](/legacy/system/price/)限定の機能です
 
 ## PDFに出力前の設定で余白やレイアウトを調整する{#edit}
 
@@ -114,13 +114,13 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 {{<imgproc pdf_sample3.png "PDF設定で縦と横にした場合の比較" />}}
 
 新レイアウトは従来に比べてスッキリとした見た目になります。  
-また、表示されるデータ自体も情報量が増えました（例えば[スライダー](/docs/old/parts/slide/)入力における大まかな位置などが #と-で表現）  
+また、表示されるデータ自体も情報量が増えました（例えば[スライダー](/legacy/parts/slide/)入力における大まかな位置などが #と-で表現）  
 
 {{<imgproc pdf_sample4.png "新レイアウトのPDF出力例" />}}
 
 ## 無料プランにおけるPDF出力の制約{#limited}
 
-[無料プラン](/docs/old/system/price/)でも日報をPDFに変換する機能をご利用になれますが、以下の制限があります
+[無料プラン](/legacy/system/price/)でも日報をPDFに変換する機能をご利用になれますが、以下の制限があります
 
 - 使用可能な漢字の種類に制限があります。おおよそ小学校5年生前後までに習う漢字までしか利用できません
 - 赤文字で透かしが強制的に入ります

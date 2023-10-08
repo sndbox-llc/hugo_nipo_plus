@@ -87,7 +87,7 @@ classDef class1 fill:#7BCCAC
 [Gamba](https://www.getgamba.com/price/)|816円|5名|4,080円|
 [日報くん](https://nippoukun.bpsinc.jp/#price)|<span style="color:red">44円</span>|60名|2,750円|
 [houren.so](https://www.houren.so/)|❓|❓|2,500円|無料有
-[Nipo](/docs/old/)|200〜500円|5名|2,250円|無料有
+[Nipo](/legacy/about/quick/)|200〜500円|5名|2,250円|無料有
 [DeskNetsNeo](https://www.desknets.com/neo/price/)|400円|5名|2,000円|売切版有
 [NipoPlus](/)|180円|5名|<span style="color:red;background-color:pink;">900円</span>|無料有
 [ニッピー](https://nippii.info/)|980円|❓|❓980円|製造業特化型

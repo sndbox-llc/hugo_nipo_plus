@@ -40,13 +40,13 @@ Nipoの全ての機能が利用できます。利用人数も申し込み内容�
 
   比較早見表|無料プラン|有料プラン  
   ---- | --- | ---
-  [日報テンプレート](/docs/old/manual/template/)の件数 | 3 | 100
+  [日報テンプレート](/legacy/manual/template/)の件数 | 3 | 100
   日報の保管件数 | 無制限 | 無制限
   グループ保存期間 | 最終利用から6ヶ月 | 無制限
-  [PDF出力](/docs/old/manual/pdf/) | 使用可能な字種に制限あり | 制限なし
-  [PDF一括出力](/docs/old/manual/pdf/) | 不可 | 可
-  [日報の集計](/docs/old/manual/analytics/) | 当日分のみ | 可
-  [カレンダーの利用](/docs/old/manual/calendar/) | 一部制限あり | 可
+  [PDF出力](/legacy/manual/pdf/) | 使用可能な字種に制限あり | 制限なし
+  [PDF一括出力](/legacy/manual/pdf/) | 不可 | 可
+  [日報の集計](/legacy/manual/analytics/) | 当日分のみ | 可
+  [カレンダーの利用](/legacy/manual/calendar/) | 一部制限あり | 可
   ログデータの記録 | 無し | 有り
   日報にコメントを書く | 不可 | 可
   日報の検索 | 不可 | 可
@@ -54,24 +54,24 @@ Nipoの全ての機能が利用できます。利用人数も申し込み内容�
   入力必須の指定 | 不可 | 可
   メール通知 | 不可 | 可
   スタッフ数 | 4名 | プランに応じて変動
-  [1行テキスト](/docs/old/parts/text/) | 可 | 可
-  [本文](/docs/old/parts/textarea/) | 可 | 可
-  [日付](/docs/old/parts/date/) | 可 | 可
-  [時刻](/docs/old/parts/time/) | 可 | 可
-  [チェックボックス](/docs/old/parts/checkbox/) | 可 | 可
-  [レート](/docs/old/parts/rating/) | 可 | 可
-  [数値](/docs/old/parts/math/) | 可 | 可
-  [選択肢（単回答）](/docs/old/parts/select/) | 解答択５つまで | 可
-  [選択肢（複回答）](/docs/old/parts/selects/) | 解答択５つまで | 可
-  [スライダー](/docs/old/parts/slide/) | 可 | 可
-  [範囲](/docs/old/parts/range/) | 可 | 可
-  [表](/docs/old/parts/slide/) | 不可 | 可
-  [署名（サイン）](/docs/old/parts/sign/) | 不可 | 可
-  [写真画像](/docs/old/parts/picture/) | 不可 | 可
-  [手書きメモ](/docs/old/parts/canvas/) | 不可 | 可
-  [タイムカード](/docs/old/parts/timecard/) | 可 | 可
-  [住所](/docs/old/parts/zip/) | 郵便番号による入力補完は不可 | 可
-  [語録](/docs/old/parts/dictionaly/) | 可 | 可
+  [1行テキスト](/legacy/parts/text/) | 可 | 可
+  [本文](/legacy/parts/textarea/) | 可 | 可
+  [日付](/legacy/parts/date/) | 可 | 可
+  [時刻](/legacy/parts/time/) | 可 | 可
+  [チェックボックス](/legacy/parts/checkbox/) | 可 | 可
+  [レート](/legacy/parts/rating/) | 可 | 可
+  [数値](/legacy/parts/math/) | 可 | 可
+  [選択肢（単回答）](/legacy/parts/select/) | 解答択５つまで | 可
+  [選択肢（複回答）](/legacy/parts/selects/) | 解答択５つまで | 可
+  [スライダー](/legacy/parts/slide/) | 可 | 可
+  [範囲](/legacy/parts/range/) | 可 | 可
+  [表](/legacy/parts/slide/) | 不可 | 可
+  [署名（サイン）](/legacy/parts/sign/) | 不可 | 可
+  [写真画像](/legacy/parts/picture/) | 不可 | 可
+  [手書きメモ](/legacy/parts/canvas/) | 不可 | 可
+  [タイムカード](/legacy/parts/timecard/) | 可 | 可
+  [住所](/legacy/parts/zip/) | 郵便番号による入力補完は不可 | 可
+  [語録](/legacy/parts/dictionaly/) | 可 | 可
 
 </div>
 
@@ -276,5 +276,5 @@ GOLD PLAN(Gift)の有効期限は15日間です。この期間を過ぎると、
 
 ## タイムカード機能のアンロック{#unlock}
 
-[タイムカード集計](/docs/old/manual/timecards/)の機能制限解除は売り切りです。アンロックには一度だけお支払いが必要です。費用は50,000円（税込み）です。
+[タイムカード集計](/legacy/manual/timecards/)の機能制限解除は売り切りです。アンロックには一度だけお支払いが必要です。費用は50,000円（税込み）です。
 解除が無い場合でも７件までのタイムカードは集計が可能です

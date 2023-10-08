@@ -4,7 +4,7 @@ import re
 def extract_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-    matches = re.findall(r'{{<app.*?>}}', content)
+    matches = re.findall(r'aliases\s*=\s*\[.*?\]', content)
     return matches
 
 def main():

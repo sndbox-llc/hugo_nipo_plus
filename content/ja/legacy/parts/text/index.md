@@ -29,11 +29,11 @@ OKと表示されているのは入力必須が有効になっている項目で
 
 ## 1行テキストを含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_text2.png "１行テキストを含む日報をPDFに変換した出力結果" />}}
 
-[CSVに出力](/docs/old/manual/analytics/)すると次のように表示されます。
+[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_text3.png "１行テキストを含む日報をCSVに出力し、Excelで開いた画面" />}}
 

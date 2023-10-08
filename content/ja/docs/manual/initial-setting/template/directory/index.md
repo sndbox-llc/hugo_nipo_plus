@@ -5,7 +5,7 @@ title = "📂報告書テンプレートをフォルダ分けして効率よく�
 menuTitle = "📂フォルダによる管理"
 toc = true
 weight = 101001102
-aliases = ["/manual/initial-setting/template/make/"]
+aliases = []
 images = []
 +++
 

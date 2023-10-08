@@ -22,7 +22,7 @@ NipoPlusはテンプレートを自由に作り変えることができます。
 アイデア次第で色々作れるよ
 {{</alice>}}
 
-{{<btnCenter "/tips/template/" "色々なテンプレートのサンプル">}}
+{{<btnCenter "/tips/userfriendly/" "色々なテンプレートのサンプル">}}
 
 ## テンプレートはグループ単位で管理する{#maange_in_group}
 

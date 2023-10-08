@@ -33,5 +33,5 @@ images = []
 
 ## コメントの通知とログ{#log}
 
-コメントが作成されると報告書のオーナーに対して[通知が発行](/docs/manual/notice/show/)されます。[ログ](/docs/manual/initial-setting/advanced-setting/log/)上にもコメントが残ります。
-スタッフの[活動実績](/docs/manual/initial-setting/advanced-setting/activity/)としてもカウントされます。
+コメントが作成されると報告書のオーナーに対して[通知が発行](/docs/manual/notice/app/)されます。[ログ](/docs/manual/utils/log/)上にもコメントが残ります。
+スタッフの[活動実績](/docs/manual/initial-setting/staff-local/activity/)としてもカウントされます。

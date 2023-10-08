@@ -1,256 +1,103 @@
-{{<appscreen filename="plan" title="現在の料金プランを確認">}}
-{{<appscreen filename="entry" title="組織設定からGOLD PLANへ申込みができます">}}
-{{<appscreen filename="input-card" title="クレジットカード番号や申込み人数などの必要事項を記入してください">}}
-{{<appscreen filename="receipt" title="これまでの決済履歴を確認。領収証のダウンロードもここからできます">}}
-{{<appscreen filename="withdrawal" title="組織設定を開き、退会の項目までスクロールしてください。退会ボタンをクリックするとパスワード入力画面が表示されます">}}
-{{<appscreen filename="invoice1" title="請求書発行画面">}}
-{{<appscreen filename="invoice2" title="申し込み人数や期間を指定します">}}
-{{<appscreen filename="invoice-dl" title="手動で請求書をダウンロードできます">}}
-{{<appscreen filename="invoice-online" title="オンライン版の請求書。必要に応じてPDF版もダウンロードできます">}}
-{{<appscreen filename="receipt-download" title="領収証のダウンロード">}}
-{{<appscreen filename="remaining" title="画面上部に満期日までの残日数が表示されます。この警告は残り15日を切ると表示されます">}}
-{{<appscreen filename="invoice-cancel" title="誤って発行した請求書をキャンセルできます">}}
-{{<appscreen filename="change-member-limit" title="利用人数の変更は残存期間の変化で帳尻を合わせます">}}
-{{<appscreen filename="switch" title="グループ名をクリックして他のグループに切り替えます">}}
-{{<appscreen filename="group-manage" title="グループの全般設定では使用する機能やテーマカラーの変更が可能です">}}
-{{<appscreen filename="template-edit-rate" title="レート入力のみで構成された日報テンプレートの作成画面">}}
-{{<appscreen filename="rate-preview" title="レートはタップ操作で簡単に入力が可能です。見た目も視覚的にわかりやすく便利です">}}
-{{<appscreen filename="make-charts" title="日報に含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
-{{<appscreen filename="uservility"  title="報告書の作成者が使いやすいようにテンプレートを作る" fontsize="30px" alice="here">}}
-{{<appscreen filename="template" title="テンプレート編集。選択肢二槽式の初期設定">}}
-{{<appscreen filename="input" title="問1の選択によって問2の解凍リストが変化します">}}
-{{<appscreen filename="post" title="受け取った日報を表示する。問1・問2のように分けて表示される">}}
-{{<appscreen filename="charts" title="問1の選択によって問2の回答リストが変化します">}}
-{{<appscreen filename="totaling" title="選択肢が何回選ばれたのかをスタッフアカウントごとに集計できます。">}}
-{{<appscreen filename="file-template-edit" title="日報にPDF等のファイルを添付するフォームを追加します">}}
-{{<appscreen filename="input" title="ファイル入力フォームを使った日報の作成画面イメージ。添付したファイルは即座にアップロードされます。">}}
-{{<appscreen filename="post" title="添付されたファイルはクリックしてローカルにダウンロードして使用できます。">}}
-{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード">}}
-{{<appscreen filename="template" title="反復入力の設定は反復の中に使用する項目（列）を追加して行きます">}}
-{{<appscreen filename="input" title="反復の含まれた報告書の入力画面イメージ。スマートフォンではカード風のレイアウトになります">}}
-{{<appscreen filename="post" title="反復入力の偶数行は水色の背景で表示されます">}}
-{{<appscreen filename="datetime-template-edit" title="報告書に「日付と時刻」を追加したプレビュー">}}
-{{<appscreen filename="input" title="日付と時刻入力フォームのみで構成されたテンプレートの入力画面イメージ。日付のみ・時刻のみなど様々な形式での入力があることがわかる">}}
-{{<appscreen filename="post" title="日付と時刻フォームを含んだ日報を受信した画面イメージ">}}
-{{<appscreen filename="picture-template-edit" title="写真入力フォームのみで構成された日報テンプレートを作成">}}
-{{<appscreen filename="input" title="写真入力フォームの含まれた日報作成画面のイメージ。写真を添付できる枠がありそこから写真を追加できる。PCの場合はドラッグ操作で追加も可能">}}
-{{<appscreen filename="posted1" title="日報表示画面。写真はテンプレートの指定した幅にあわせて拡大されるため、同じ画像でも表示倍率が異なることがある">}}
-{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード">}}
-{{<appscreen filename="template-edit-checkbox"  title="チェックボックスをテンプレートに追加する設定画面">}}
-{{<appscreen filename="checkbox-preview"  title="チェックボックスが含まれた報告書のプレビュー">}}
-{{<appscreen filename="pie-charts" title="チェックボックスのデータを円グラフにしたイメージ">}}
-{{<appscreen filename="template-edit-slider" title="スライダ入力フォームのみで構成された日報テンプレート">}}
-{{<appscreen filename="slider-preview" title="スライダーを使った日報入力画面">}}
-{{<appscreen filename="charts" title="スライダのデータを用いて折れ線グラフを生成">}}
-{{<appscreen filename="pre-report" title="不要になった報告書を削除します">}}
-{{<appscreen filename="field-delete" title="報告書テンプレートから不要な入力フォームを削除する">}}
-{{<appscreen filename="invisible" title="過去に提出された報告書からも削除したフォームが消えます">}}
-{{<appscreen filename="raw-data" title="入力フォームを削除してもRawデータにはデータが残ります">}}
-{{<appscreen filename="edit-key" title="報告書テンプレートの入力フォームにはそれぞれKeyがあります。Keyを手動で書き換えることで削除したフォームを復旧できます">}}
-{{<appscreen filename="use-directory" title="フォルダ機能の有効化はワンクリックで完了です。ONにするとフォルダ作成やツリー表示ボタンなど様々な機能が表示されるようになります">}}
-{{<appscreen filename="make-directory" title="フォルダの新規作成。現在の作業フォルダ内に新規に追加されます">}}
-{{<appscreen filename="move" title="テンプレートを指定したフォルダへ移動する">}}
-{{<appscreen filename="move-batch" title="移動させるテンプレートを選び、まとめて移動が可能です">}}
-{{<appscreen filename="directory-setting" title="フォルダの編集や削除はメニューボタンをクリックして表示します">}}
-{{<appscreen filename="tree-view" title="ツリー表示">}}
-{{<appscreen filename="math-template-edit" title="数値入力フォームだけで構成されたテンプレートの作成画面イメージ。単位や色などはここで自由に変更可能です">}}
-{{<appscreen filename="input" title="数値入力フォームの入力画面イメージ。">}}
-{{<appscreen filename="charts" title="数値のデータをグラフ化する">}}
-{{<appscreen filename="template-edit-calc" title="算術フォームを報告書テンプレートに追加">}}
-{{<appscreen filename="make-fomula" title="数式を入力して報告書内のデータから自動計算して結果を報告書に書き込みます">}}
-{{<appscreen filename="calc-preview" title="算術の含まれた報告書のプレビュー">}}
-{{<appscreen filename="template-edit-datetimes" title="期間入力フォームのみで構成されたテンプレートの例">}}
-{{<appscreen filename="datetimes-preview" title="期間入力の入力イメージ。時刻の場合はスライダーを使った入力方式も可能">}}
-{{<appscreen filename="charts" title="期間のデータ（単位：分）を使って積み上げたて棒グラフを作成した例。他にも折れ線や円グラフなど自由に作成できます">}}
-{{<appscreen filename="input" title="報告書に期間入力を追加した例。いくつかのパタンーンがある">}}
-{{<appscreen filename="template" title="入力フォームを自由に組み合わせるだけでオリジナルの報告書テンプレートを簡単に作成できます">}}
-{{<appscreen filename="make-template" title="グループの中に新しい日報のテンプレートを作成する画面のイメージ">}}
-{{<appscreen filename="templateedit" title="左側のパーツリストからクリックしてテンプレートに追加していく作業を繰り返します">}}
-{{<appscreen filename="form-width" title="幅は12で折り返されます。タイルのように上手に敷き詰めてオリジナルのテンプレートを作ってください">}}
-{{<appscreen filename="common-settings" title="多くの入力フォームで存在する共通の設定項目">}}
-{{<appscreen filename="common-preview" title="設定のプレビュー">}}
-{{<appscreen filename="preview" title="テンプレートの設計図をもとに入力イメージをプレビューします">}}
-{{<appscreen filename="pdf-setting" title="日報のPDF出力時の設定画面。初期では折りたたまれているためクリックで展開します。">}}
-{{<appscreen filename="header" title="文書番号プレフィックや、メモなど補足的な事項を設定できます">}}
-{{<appscreen filename="order1" title="入力の並び順を指定する">}}
-{{<appscreen filename="order2" title="並び順の設定画面">}}
-{{<appscreen filename="order-preview" title="入力の並び順を指定する">}}
-{{<appscreen filename="copy" title="同じグループの中でテンプレートをコピーするにはコピーしたいテンプレートの行で「コピー」ボタンをクリックします">}}
-{{<appscreen filename="import" title="他グループの日報テンプレートを取り込むことで他のグループと同じテンプレートを使用できるようになります。">}}
-{{<appscreen filename="template-edit-text" title="テキスト入力をテンプレートに追加した画面イメージ">}}
-{{<appscreen filename="text-preview" title="作成したテンプレートのプレビュー">}}
-{{<appscreen filename="template-edit-select1" title="選択肢入力フォームのみで構成されたチェックシートのサンプル。このテンプレートを使って実際の入力画面や表示画面を確認していきましょう">}}
-{{<appscreen filename="select1-preview"  title="選択式の入力画面イメージ">}}
-{{<appscreen filename="word-color-coding"  title="選択肢の単語を色分けで表示する">}}
-{{<appscreen filename="pie-charts" title="単語の出現回数をカウントして円グラフを生成する">}}
-{{<appscreen filename="num-select"  title="選択肢は単語ですが数値に置き換えてグラフ化することも可能です"   >}}
-{{<appscreen filename="template-edit-range" title="範囲入力フォームをテンプレートに追加">}}
-{{<appscreen filename="range-preview"  title="範囲選択入力イメージ">}}
-{{<appscreen filename="template-edit-select2" title="選択肢入力フォームを含んだ報告書の設計">}}
-{{<appscreen filename="select2-preview"  title="選択式の入力画面イメージ">}}
-{{<appscreen filename="edit-report-template" title="署名入力フォームだけで構成された日報テンプレートを作成しました。この例をもとに入力・出力画面をご紹介していきます">}}
-{{<appscreen filename="input" title="日報作成画面。署名ボタンをタップして署名入力ウインドウがポップ表示されます">}}
-{{<appscreen filename="write-signature" title="署名をスタイラスペンで書く">}}
-{{<appscreen filename="draw-stylus-pen" title="イラスト用キャンバスの画面。カラーパレットや線の太さを調整するボタンなどが表示されている">}}
-{{<appscreen filename="post" title="署名入力フォームを含んだ日報を受信したときの見え方">}}
-{{<appscreen filename="download" title="バイナリファイルを一括ダウンロード">}}
-{{<appscreen filename="sosiki" title="メニュー左から「組織設定」を選ぶ">}}
-{{<appscreen filename="add_group" title="「グループ設定」のセクションに移動し、新規追加をクリックしてグループを作成します">}}
-{{<appscreen filename="assign-staff" title="グループに所属するスタッフを選択">}}
-{{<appscreen filename="move-group" title="作業グループの切替は簡単に行なえます">}}
-{{<appscreen filename="make-word-list" title="語録の作成">}}
-{{<appscreen filename="tag-add1" title="タグの管理画面|タグの編集には編集者の権限が必要です">}}
-{{<appscreen filename="tag-make" title="タグを新規追加する。タグ名、タグの色、アイコンなどを指定して独自のタグを作成できます。タグは報告書に貼り付けることができます。">}}
-{{<appscreen filename="tag-filter" title="タグの絞り込み検索。この画像は日報のタグで絞り込みをしている例です">}}
-{{<appscreen filename="set-tag" title="報告書にタグをセットします。タグをつけることでその報告書を一覧から目立たせることができる他、タグによる検索も可能になります">}}
-{{<appscreen filename="staff-local" title="スタッフアカウントの管理">}}
-{{<appscreen filename="dist-setting" title="スタッフアカウントに対して報告書の提出先を強制的に固定する">}}
-{{<appscreen filename="dist-detail" title="スタッフが報告書を提出する相手を指定">}}
-{{<appscreen filename="template-dist" title="報告書のテンプレートごとに提出先を指定する">}}
-{{<appscreen filename="template-dist-detail" title="詳細設定画面">}}
-{{<appscreen filename="dist-locked" title="報告書の提出時に、提出先が変更できないように固定された">}}
-{{<appscreen filename="staff-activity" title="スタッフの活動実績を月ごとに表示">}}
-{{<appscreen filename="change-span" title="スタッフの活動実績集計期間を変更する">}}
-{{<appscreen filename="show-template-setting" title="スタッフが使用できる報告書のテンプレートを制限する">}}
-{{<appscreen filename="template-control-setting" title="使用可能なテンプレートを選ぶことでそれ以外の報告書テンプレートが使えなくなる">}}
-{{<appscreen filename="gotoAdmin" title="管理者はメニューに「組織設定」が表示されます。このボタンをクリックしてください。編集者以下はこのボタンが表示されません">}}
-{{<appscreen filename="create-new-staff" title="組織内にスタッフのアカウントを追加します">}}
-{{<appscreen filename="anony" title="ログイン不可能なスタッフアカウントの作成">}}
-{{<appscreen filename="assign-group" title="組織のスタッフをグループにアサイン（所属）します。">}}
-{{<appscreen filename="group-member" title="グループ内から見た所属スタッフの一覧">}}
-{{<appscreen filename="staff-edit" title="スタッフの名前や権限・メモを変更するにはそれぞれの対象データをクリックしてください">}}
-{{<appscreen filename="disable-group" title="組織設定を開き、グループ管理セクションを表示。無効化したいグループのゴミ箱ボタンをクリックして無効化します">}}
-{{<appscreen filename="group-delete" title="無効化されたグループから「完全に削除」ボタンをクリックしてグループを削除できます。">}}
-{{<appscreen filename="withdrawal" title="組織設定を開き、退会の項目までスクロールしてください。退会ボタンをクリックするとパスワード入力画面が表示されます">}}
-{{<appscreen filename="re-auth" title="アカウントのログインパスワードを入力して本人であることを再確認します">}}
-{{<appscreen filename="disable-template" title="テンプレートを削除するにはテンプレートを無効化後に削除という２段階の処理を行います">}}
-{{<appscreen filename="report-raw-data" title="テンプレートが無いため見出しや項目名がロストしています。しかし日報自体は残るため再現可能な範囲で表示されます">}}
-{{<appscreen filename="report-delete" title="一括削除では承認済みの日報や進行中の日報もお構いなしに削除できます。実行には編集者権限が必要です">}}
-{{<appscreen filename="search-save" title="検索の条件を保存することで次回から同じ条件の検索をワンクリックで行なえます">}}
-{{<appscreen filename="report-delete" title="自分の日報でかつ状態が新規のため削除可能。削除ボタンが表示される">}}
-{{<appscreen filename="back" title="日報が削除されたため表示中の日報が読み込みエラーとなる。戻るボタンをクリックして一覧へ戻ります">}}
-{{<appscreen filename="disable-account" title="状態を1回クリックで無効化、もう1回クリックすると有効に戻ります">}}
-{{<appscreen filename="remove-account" title="スタッフのアカウントを完全に削除する">}}
-{{<appscreen filename="agenda" title="横軸に日付、縦軸にスタッフで構成されたカレンダー。スタッフごとの日報提出状況を把握し易い">}}
-{{<appscreen filename="calendar-setting" title="カレンダーに関する設定画面">}}
-{{<appscreen filename="report-template-select" title="「日報作成」をクリックするとテンプレートの選択画面が表示されます。">}}
-{{<appscreen filename="write-report" title="選んだテンプレートをもとに日報画面が表示。左はiPad・右はiPhoneで開いた例。見た目が違いますが項目は同じであることが確認できます。必要事項を記入して日報を書き上げます">}}
-{{<appscreen filename="report-header" title="日報の提出日・提出先といったヘッダ情報を入力する">}}
-{{<appscreen filename="writed-report" title="日報提出後に次の操作を選ぶ画面が表示されます">}}
-{{<appscreen filename="recovery-report" title="記入途中のデータが検知されると復元確認のメッセージが表示されます。">}}
-{{<appscreen filename="report-draft-save" title="報告書を作成する際に、「下書き」にチェックを入れて保存すると下書きBOXに保存されます">}}
-{{<appscreen filename="draft-delete" title="下書きの日報を削除">}}
-{{<appscreen filename="edit" title="修正したい日報を選択します。ここでは送信BOXから探す手順ですが直接URLを開いてもいいですし、通知エリアからジャンプしても良いです">}}
-{{<appscreen filename="report-status-change" title="修正された報告書は状態が「修正」になります">}}
-{{<appscreen filename="report-progression" title="最初の承認者が承認を押したところ。承認権限が二人目に譲渡され自身は共有先となる。そのため承認後の取り消し操作はできません">}}
-{{<appscreen filename="copy" title="過去の報告書を複写して新しい報告書を作成する">}}
-{{<appscreen filename="punch-time-card" title="日報作成と同時にタイムカードを入力する方法について">}}
-{{<appscreen filename="timecard-submit" title="タイムカードの入力画面">}}
-{{<appscreen filename="timecard-list" title="タイムカード一覧からタイムカードを入力する">}}
-{{<appscreen filename="setting" title="タイムカード機能の設定項目。折りたたまれているためクリックして展開します">}}
-{{<appscreen filename="date-picker" title="週単位でタイムカードを集計する際は期間をカレンダーから手動で切り替えます">}}
-{{<appscreen filename="logging" title="ログ画面はデフォルトで非表示です。設定からログのチェックを入れて使います">}}
-{{<appscreen filename="signup-anonymous" title="匿名アカウントはEmailやパスワードの設定をせずに利用できるアカウントです">}}
-{{<appscreen filename="new-template" title="日報テンプレートの新規作成">}}
-{{<appscreen filename="make-template" title="日報テンプレートの編集">}}
-{{<appscreen filename="write-report2" title="初めての日報作成。テンプレートに添って記入を行い、提出先を指定します。最後に提出ボタンをクリックするとその日報は提出者に対して送信されます">}}
-{{<appscreen filename="next" title="日報提出後のアクション">}}
-{{<appscreen filename="report-agree" title="日報を承認する">}}
-{{<appscreen filename="create-account" title="スタッフアカウントを作成する">}}
-{{<appscreen filename="sign-in" title="スタッフのアカウントでログインする">}}
-{{<appscreen filename="notify" title="右上のベルアイコンをクリックして通知を確認します">}}
-{{<appscreen filename="email-notice" title="メール通知の設定をONにする">}}
-{{<appscreen filename="unlock" title="メール通知の上限を緩和する">}}
-{{<appscreen filename="mock" title="準備中">}}
-{{<appscreen filename="enable-api" title="スタッフごとにAPIキーの利用を許可・禁止にできます。初期状態では全スタッフが「禁止」です">}}
-{{<appscreen filename="apikeyGet" title="APIキーを取得するには再認証のためログインパスワードの入力が必要です">}}
-{{<appscreen filename="password-reset" title="パスワードの変更にはアカウント管理画面からログインパスワードリセットボタンをクリックします">}}
-{{<appscreen filename="login" title="ログイン画面にあるパスワードリセットボタンをクリックして再設定する">}}
-{{<appscreen filename="force-update-pw" title="管理者権限でスタッフのパスワードを変更する">}}
-{{<appscreen filename="signin" title="ログイン画面:E-mailとパスワードを入力してログインします">}}
-{{<appscreen filename="signout" title="ご利用中の端末からログアウトするにはアカウント＞ログアウトの順にクリックします。">}}
-{{<appscreen filename="email-edit" title="ログインメールアドレスの変更画面。変更時にログインパスワードの入力が必要です">}}
-{{<appscreen filename="signup-anonymous" title="匿名アカウントはEmailやパスワードの設定をせずに利用できる仮のアカウントです">}}
-{{<appscreen filename="promotion-account" title="匿名アカウントを正規アカウントへ昇格させるにはEmailとパスワードを設定します">}}
-{{<appscreen filename="write-comment" title="コメントエリアには表示中の日報に対して付されたコメントが表示されます。1つの日報に付き最大で500コメントまで保存できます">}}
-{{<appscreen filename="report-detail" title="日報という１ドキュメントの詳細な情報">}}
-{{<appscreen filename="report-to-pdf" title="1件の日報をPDFに変換してダウンロード">}}
-{{<appscreen filename="pdf-download" title="PDFの日報をダウンロードしてブラウザで表示">}}
-{{<appscreen filename="pdf-option" title="PDF出力前に誤字脱字の修正やレイアウトの変更ができます。ただしこれらの設定は保存できません">}}
-{{<appscreen filename="pdf-setting" title="PDF出力前の編集画面はポップアップで表示されます。修正後に「現在の設定でPDF出力」をクリックしてPDFを作成します">}}
-{{<appscreen filename="report-status" title="報告書の状態">}}
-{{<appscreen filename="readed" title="日報を既読する。既読は承認できないスタッフが日報を読んだことを伝えるための機能です">}}
-{{<appscreen filename="done" title="報告書を承認する">}}
-{{<appscreen filename="report-approval" title="日報の状態が承認になる">}}
-{{<appscreen filename="report-rejected" title="承認リレー中に誰かが棄却するとその時点で日報の状態は「棄却」となります。">}}
-{{<appscreen filename="report-fixed" title="修正された日報は承認のハンコがクリアされます">}}
-{{<appscreen filename="report-to-csv" title="表示中の日報1件をCSVに出力します。スマートフォンは画面幅の関係で出力ボタンが下部に配置されます">}}
-{{<appscreen filename="box-about" title="報告書の受信BOX。ここに報告書が一覧で表示されます。クリックで詳細画面へ移行します。検索や一括CSV出力も可能です。">}}
-{{<appscreen filename="map"  title="提出簿">}}
-{{<appscreen filename="popup"  title="提出簿">}}
-{{<appscreen filename="data-history" title="横軸に日付、縦軸に各種項目（売上や仕入高などの報告書内容）をもつ推移表です。前回、前々回との比較が可能です。">}}
-{{<appscreen filename="range-transition" title="推移表を期間指定して表示します。「先月」のように月単位の他、週単位や15日単位など細かく範囲を変更できます">}}
-{{<appscreen filename="make-charts" title="データ推移表をもとに積み上げ縦棒&折れ線の複合フラフを作成した">}}
-{{<appscreen filename="history" title="集計機能:報告書内のデータを時系列に見ることが可能。前回、前々回との比較に便利">}}
-{{<appscreen filename="acc-table" title="報告書のデータを集計してグラフ化する">}}
-{{<appscreen filename="calc" title="集計が可能な入力フォームで構成された報告書">}}
-{{<appscreen filename="acc-table" title="報告書を提出したスタッフごとに分けて集計可能。スタッフ同士の比較に最適">}}
-{{<appscreen filename="acc-table2" title="集計機能を使い報告書を集計した結果">}}
-{{<appscreen filename="make-fomula" title="集計表に数式を追加して計算行を付け足す">}}
-{{<appscreen filename="charts" title="累積表のデータを元に棒グラフを作成">}}
-{{<appscreen filename="csv-setting1" title="CSV出力時の形式設定変更オプション">}}
-{{<appscreen filename="template-setting" title="テンプレートからCSV出力時の設定を独自に行う">}}
-{{<appscreen filename="make" title="予定実績表は報告書の結果（実績）と目標値（予定）を日別に比較する表です。新規作成から予定実績表を作成します">}}
-{{<appscreen filename="select-form" title="予定・実績表で使用する各種入力フォームを選択します">}}
-{{<appscreen filename="list" title="予定実績表の完成">}}
-{{<appscreen filename="batch" title="予定実績表の「予定」を一括で指定します。土日は除外するといった指定も可能です。">}}
-{{<appscreen filename="edit" title="予定・実績表の修正と削除">}}
-{{<appscreen filename="source-data" title="5つの数値入力フォームがある日報。これをグラフ化する">}}
-{{<appscreen filename="select-chart-type" title="手順1:グラフの種類を選びます">}}
-{{<appscreen filename="select-use-field" title="手順2:グラフに使用するフィールドを選びます">}}
-{{<appscreen filename="chart-preview" title="手順3:詳細設定とグラフのプレビューを確認">}}
-{{<appscreen filename="each-staff-chart" title="グラフの基準（X軸）をスタッフにする。これによりスタッフ同士の成績比較が可能">}}
-{{<appscreen filename="time" title="グラフの基準（X軸）を日付にする。これによりデータの推移を見ることが可能">}}
-{{<appscreen filename="chart-created" title="作成したグラフの表示:複数のグラフはクリックで切替が可能">}}
-{{<appscreen filename="grouping" title="時系列グラフは「日」「時間」など基準を変更してグループ化できる">}}
-{{<appscreen filename="seccond-axis-chart" title="グラフに第2軸を追加する">}}
-{{<appscreen filename="stack-bar-chart" title="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
-{{<appscreen filename="pie-chart" title="報告書のデータを元に円グラフを作成（日付を基準）">}}
-{{<appscreen filename="pie-chart-accumulation" title="スタッフを基準として円グラフを作成">}}
-{{<appscreen filename="table-make" title="異なるテンプレート同士を同時に集計するクロス集計を作成する">}}
-{{<appscreen filename="table-edit" title="行と列とセルをそれぞれ設定する">}}
-{{<appscreen filename="calc-field" title="クロス集計に計算列を追加">}}
-{{<appscreen filename="previews" title="クロス集計の結果をプレビューで表示">}}
-{{<appscreen filename="view" title="作成したクロス集計を表示する">}}
-{{<appscreen filename="calendar-pdf" title="カレンダー上に表示されている報告書をワンクリックでまとめてPDFに変換する">}}
-{{<appscreen filename="filter-pdf" title="報告書を個別に選び、一括でPDFに変換する">}}
-{{<appscreen filename="add-pdf" title="PDFに変換したい報告書をリストに追加する">}}
-{{<appscreen filename="report-csv-export1" title="指定した期間の報告書を一括でCSVに出力">}}
-{{<appscreen filename="selectable-csv-download" title="日別やスタッフ別に分けて日報のダウンロードが可能です">}}
-{{<appscreen filename="guide" title="基本的にはドロップとダウンロードボタンしか使いません。簡単にCSVファイルを結合できます">}}
-{{<appscreen filename="agenda" msg="日報をカレンダー上 に配置する表示モード" title="スタッフごとに分けたカレンダー表示。スタッフの提出漏れも瞬時に判別可能" fontsize="30px" alice="guide">}}
-{{<appscreen filename="sample-report" title="CSV出力する報告書のサンプル">}}
-{{<appscreen filename="csv-export" title="1ヶ月分の報告書をまとめてCSVに出力する">}}
-{{<appscreen filename="uservility"  title="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる" >}}
-{{<appscreen filename="report-guide-memo" title="表現が曖昧な項目ではメモや説明用画像を付けてスタッフが迷わないようにガイドする">}}
-{{<appscreen filename="sample11" title="時間毎に書くタイプの業務日報テンプレート2">}}
-{{<appscreen filename="sample3" title="マイクロ日報テンプレート">}}
-{{<appscreen filename="sample4" title="現地調査報告書のテンプレート">}}
-{{<appscreen filename="sample6" title="設備点検チェックシートのテンプレート（簡易版）">}}
-{{<appscreen filename="sample8" title="製品品質チェックシートのテンプレート">}}
-{{<appscreen filename="sample9" title="タクシー日報のテンプレート">}}
-{{<appscreen filename="sample10" title="署名欄ありの完了報告書テンプレート">}}
-{{<appscreen filename="auto-calc" title="生産数と不良数から不良率を自動で計算できるチェックシート">}}
-{{<appscreen filename="sample12" title="設備点検チェックシートのサンプル">}}
-{{<appscreen filename="sample13" title="">}}
-{{<appscreen filename="kouji" title="工事現場の報告書テンプレート">}}
-{{<appscreen filename="make-photo-report" title="報告書テンプレートの設計画面。写真をテンプレートに埋め込む">}}
-{{<appscreen filename="write-photo-report"  title="報告書の作成画面。写真はタップして追加できます">}}
-{{<appscreen filename="convert-pdf"  title="写真付き報告書をPDFに変換して出力">}}
-{{<appscreen filename="pdf-sample2"  title="写真付き報告書をPDFに変換して出力">}}
-{{<appscreen filename="auto-calc" title="チェックシートにデータを入力します。スマホやタブレットからも入力が可能です。不良率などの計算フォームがある場合は自動で値が計算されます">}}
-{{<appscreen filename="history" title="過去データ推移を使うと前回・前々回のチェックシートのデータと今回のチェックシートデータを比較しながら確認することが可能です">}}
-{{<appscreen filename="charts" title="チェックシートのデータをもとにP管理図を作成">}}
-{{<appscreen filename="report-write" title="報告書の作成画面">}}
-{{<appscreen filename="progress-table" title="進捗状況">}}
-{{<appscreen filename="cross" title="クロス集計を使うことで複数のチェックシートテンプレートを1つの表にまとめて集計できます">}}
+aliases = ["/old/parts/timecard/", "/docs/old/parts/timecard/"]
+aliases = ["/old/parts/picture/", "/docs/old/parts/picture/"]
+aliases = ["/old/parts/checkbox/", "/docs/old/parts/checkbox/"]
+aliases = ["/old/parts/math/", "/docs/old/parts/math/"]
+aliases = ["/old/parts/canvas/", "/docs/old/parts/canvas/"]
+aliases = ["/old/parts/time/", "/docs/old/parts/time/"]
+aliases = ["/old/parts/zip/", "/docs/old/parts/zip/"]
+aliases = ["/old/parts/textarea/", "/docs/old/parts/textarea/"]
+aliases = ["/old/parts/text/", "/docs/old/parts/text/"]
+aliases = ["/old/parts/select/", "/docs/old/parts/select/"]
+aliases = ["/old/parts/range/", "/docs/old/parts/range/"]
+aliases = ["/old/parts/sign/", "/docs/old/parts/sign/"]
+
+
+aliases = ["", "/docs/price/trial/"]
+aliases = ["/price/fee/", ""]
+aliases = ["/price/free/", ""]
+aliases = ["/price/invoice/"]
+aliases = ["/manual/initial-setting/"]
+aliases = ["/manual/initial-setting/make-group/"]
+aliases = ["/manual/initial-setting/template/rate/", ""]
+aliases = ["/manual/initial-setting/template/selectcalc/", ""]
+aliases = ["/manual/initial-setting/template/file/", ""]
+aliases = ["/manual/initial-setting/template/array/"]
+aliases = ["/manual/initial-setting/template/datetime/", ""]
+aliases = ["/manual/initial-setting/template/picture/", ""]
+aliases = ["/manual/initial-setting/template/checkbox/", ""]
+aliases = ["/manual/initial-setting/template/step/", ""]
+aliases = ["/manual/initial-setting/template/key/"]
+aliases = ["/manual/initial-setting/template/make/"]
+aliases = ["/manual/initial-setting/template/math/", ""]
+aliases = ["/manual/initial-setting/template/calc/"]
+aliases = ["", ""]
+aliases = ["/manual/initial-setting/template/make/"]
+aliases = ["/manual/initial-setting/template/text/", ""]
+aliases = ["/manual/initial-setting/template/select/", ""]
+aliases = ["/manual/initial-setting/template/range/", ""]
+aliases = ["/manual/initial-setting/template/select2/", ""]
+aliases = ["/manual/initial-setting/template/sign/", ""]
+aliases = ["/manual/initial-setting/template/mod/", ""]
+aliases = ["/manual/initial-setting/make-group/"]
+aliases = ["/manual/initial-setting/advanced-setting/goroku/"]
+aliases = ["/manual/initial-setting/advanced-setting/point/"]
+aliases = ["/manual/initial-setting/advanced-setting/tag/"]
+aliases = ["/manual/initial-setting/advanced-setting/dist/", ""]
+aliases = ["", ""]
+aliases = ["/manual/initial-setting/advanced-setting/template/", ""]
+aliases = ["/manual/initial-setting/advanced-setting/share/", ""]
+aliases = ["/manual/initial-setting/staff/make/"]
+aliases = ["/manual/initial-setting/staff/manage/"]
+aliases = [""]
+aliases = ["/manual/remove/"]
+aliases = ["/manual/remove/group/"]
+aliases = ["/manual/remove/org/"]
+aliases = ["/manual/remove/timecard/"]
+aliases = ["/manual/remove/template/"]
+aliases = ["/manual/remove/reportbatch/"]
+aliases = ["/manual/remove/report/", ""]
+aliases = ["/manual/remove/staff/"]
+aliases = ["/manual/calendar/"]
+aliases = ["/manual/calendar/use/"]
+aliases = ["/manual/calendar/setting/"]
+aliases = ["/manual/write-report/write/", "", ""]
+aliases = ["/manual/write-report/draft/"]
+aliases = ["/manual/write-report/rewrite/"]
+aliases = ["/manual/write-report/dist/"]
+aliases = ["/manual/timecard/"]
+aliases = ["/manual/timecard/input/"]
+aliases = ["/manual/timecard/list/"]
+aliases = ["/manual/timecard/unlock/"]
+aliases = ["/manual/timecard/export/"]
+aliases = ["/manual/timecard/setting/"]
+aliases = ["", ""]
+aliases = ["/quickstart/"]
+aliases = ["/manual/notice/show/", ""]
+aliases = ["/manual/notice/email/", ""]
+aliases = ["/manual/task/add/"]
+aliases = ["/manual/task/list/", "", ""]
+aliases = ["/manual/task/connect/"]
+aliases = ["/manual/api/ref/"]
+aliases = ["/manual/api/key/", ""]
+aliases = ["/manual/api/report/"]
+aliases = ["/manual/account/"]
+aliases = ["/manual/account/password/"]
+aliases = ["/manual/account/signin/", ""]
+aliases = ["/manual/account/email/"]
+aliases = ["/manual/account/tokumei/"]
+aliases = ["/manual/read-report/"]
+aliases = [""]
+aliases = ["/manual/read-report/other/"]
+aliases = ["/manual/read-report/pdf/"]
+aliases = ["/manual/read-report/state/"]
+aliases = ["/manual/read-report/csv/"]
+aliases = ["/manual/read-report/list/"]
+aliases = [""]
+aliases = ["/manual/analytics/"]
+aliases = ["/manual/analytics/list/", ""]
+aliases = [""]
+aliases = ["/manual/analytics/progress/"]
+aliases = ["/manual/analytics/chart/"]
+aliases = ["/manual/analytics/cross/"]
+aliases = ["/manual/analytics/pdf/"]
+aliases = [""]

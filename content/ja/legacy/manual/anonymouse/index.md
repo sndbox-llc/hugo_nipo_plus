@@ -40,7 +40,7 @@ aliases = ["/old/manual/anonymouse/", "/docs/old/manual/anonymouse/"]
 
 {{<imgproc anonymouse3.png "正式なアカウントにするため、E-mailとパスワードをセットする" />}}
 
-これで匿名アカウントから正式アカウントへ昇格しました。最後に[E-mail確認](/docs/old/manual/email-verify/)を行って下さい。
+これで匿名アカウントから正式アカウントへ昇格しました。最後に[E-mail確認](/legacy/manual/email-verify/)を行って下さい。
 
 ## 仮アカウントを削除する{#remove}
 

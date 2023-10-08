@@ -24,15 +24,15 @@ aliases = ["/old/parts/slide/", "/docs/old/parts/slide/"]
 
 ## スライダーを含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_slide2.png "スライダーを含む日報をPDFに変換した出力結果" />}}
 
-[CSVに出力](/docs/old/manual/analytics/)すると次のように表示されます。
+[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_slide3.png "スライダーを含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-スライダー入力の値は数値として記憶されるため、[集計](/docs/old/manual/analytics/)がNipo上からもかんたんに行えます。
+スライダー入力の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo上からもかんたんに行えます。
 {{<imgproc parts_slide4.png "スライダーのデータを集計する" />}}
 
 {{<alice pos="left" icon="default">}}

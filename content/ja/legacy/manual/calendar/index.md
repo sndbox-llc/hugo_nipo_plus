@@ -40,7 +40,7 @@ aliases = ["/old/manual/calendar/", "/docs/old/manual/calendar/"]
 カレンダーをクリックすると日付の選択になり、日報は開きません。ダブルクリックが必要です
 {{</alice>}}
 
-送信日報は無料で表示可能ですが、受信日報に関しては[GOLD PLAN](/docs/old/system/price/)限定です。  
+送信日報は無料で表示可能ですが、受信日報に関しては[GOLD PLAN](/legacy/system/price/)限定です。  
 
 ### スタッフごとのカレンダーに切り替えて日報を確認する{#switch}
 
@@ -63,7 +63,7 @@ aliases = ["/old/manual/calendar/", "/docs/old/manual/calendar/"]
 また、集計は**受信日報**がデフォルトで選択されていますが、自分が提出した日報を集計したい場合は集計対象を**送信日報**に切り替えてください。
 切り替え箇所は左ペインに配置されています。  
 またカレンダーから集計すると、カレンダー内の表示が非常にごちゃついて見にくくなりますので、余分な項目などは非表示にすると多少見やすくなります。
-より強力な集計については[日報を集計する](/docs/old/manual/analytics/)を御覧ください
+より強力な集計については[日報を集計する](/legacy/manual/analytics/)を御覧ください
 
 ## カレンダー上に予定を表示する{#show_schedule}
 

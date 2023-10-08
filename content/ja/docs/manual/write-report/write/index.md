@@ -59,7 +59,7 @@ images = []
 本文が終わったらヘッダー周りの指定です。特に重要なのは提出先の指定です。誰宛に報告書を提出するのかを選んでください。  
 
 - 提出先は一度選べば次回以降は自動でセットされます。
-- [提出先は管理者が固定する](/docs/manual/initial-setting/advanced-setting/dist/)こともできます。
+- [提出先は管理者が固定する](/docs/manual/initial-setting/staff-local/dist/)こともできます。
 
 {{<appscreen filename="report-header" title="日報の提出日・提出先といったヘッダ情報を入力する">}}
 

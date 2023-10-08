@@ -12,7 +12,7 @@ aliases = ["/old/system/ios-install/", "/docs/old/system/ios-install/"]
 +++
 
 
-AndroidやiOSでNipoを利用するには、2種類の方法が用意されています。このページは**iOS向けのガイド**になります。[Androidの方はこちら](/docs/old/system/android-install/)をどうぞ
+AndroidやiOSでNipoを利用するには、2種類の方法が用意されています。このページは**iOS向けのガイド**になります。[Androidの方はこちら](/legacy/system/android-install/)をどうぞ
 
 ## PWA版としてインストールする【推奨】{#pwa}
 
@@ -27,7 +27,7 @@ PWAとしてインストールすることで、Web版のNipoを使えます。W
 
 ### PWA版のインストール手順(iOS版){#pwa_install}
 
-画像による解説と動画による解説を併記しております。この操作はiOSの方を対象にしています。[Androidの方はこちら](/docs/old/system/android-install/)をどうぞ  
+画像による解説と動画による解説を併記しております。この操作はiOSの方を対象にしています。[Androidの方はこちら](/legacy/system/android-install/)をどうぞ  
 **Safari（方位磁石のアイコンで、インターネットを開くソフトのことです）を開き、Nipoのアプリページを開いてください**。
 
 {{<imgproc pwa1.png "safariのメニューを開く" />}}

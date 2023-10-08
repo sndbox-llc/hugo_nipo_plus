@@ -120,8 +120,8 @@ images = []
 - [スライド入力](/docs/manual/initial-setting/template/step/)で入力必須の指定ができるようになりました
 - [テキスト入力](/docs/manual/initial-setting/template/text/)でURLを入力するとリンクを生成するオプションが追加されました
 - （試作）言語切替機能を追加しました。一部翻訳されていない箇所については順次対応します
-- [ログ機能](/docs/manual/initial-setting/advanced-setting/log/)でスタッフIDだとわかりにくいためスタッフ名を表示するように修正しました
-- [スタッフアカウント](/docs/manual/initial-setting/staff/_about/)を「無効」にすると利用人数から減るように修正しました
+- [ログ機能](/docs/manual/utils/log/)でスタッフIDだとわかりにくいためスタッフ名を表示するように修正しました
+- [スタッフアカウント](/docs/manual/initial-setting/staff/rank/)を「無効」にすると利用人数から減るように修正しました
 
 #### 【Nipo+】 2023/04/02 Version 1.35.0{#vp1_35_0}
 
@@ -203,7 +203,7 @@ images = []
 #### 【Nipo+】 2023/01/28 Version 1.27.0{#vp1_27_0}
 
 - [数値入力フォーム](/docs/manual/initial-setting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
-- [スタッフ権限](/docs/manual/initial-setting/staff/_about/)に「ゲスト権限」が追加されました（リクエスト）
+- [スタッフ権限](/docs/manual/initial-setting/staff/rank/)に「ゲスト権限」が追加されました（リクエスト）
 
 #### 【Nipo+】 2023/01/23 Version 1.26.0{#vp1_26_0}
 
@@ -346,7 +346,7 @@ images = []
 #### 【Nipo+】 2022/09/02 v1.12.2{#vp1_12_2}
 
 - [CSV出力](/docs/manual/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました
-- [ログ表示](/docs/manual/initial-setting/advanced-setting/log/)の日付入力を使いやすく改良しました
+- [ログ表示](/docs/manual/utils/log/)の日付入力を使いやすく改良しました
 - [期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました
 
 #### 【Nipo+】 2022/08/31 v1.12.1{#vp1_12_1}
@@ -422,7 +422,7 @@ images = []
 - 過去データ推移の1列目を固定にしました
 - 日報の修正後に続けて日報を書くと上書きされてしまうバグを修正しました
 - 特定の環境で過去の[データ推移](/docs/manual/analytics/transition/)が取得できないバグを修正しました
-- [共用機能](/docs/manual/initial-setting/advanced-setting/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました
+- [共用機能](/docs/manual/initial-setting/staff-local/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました
 - [グループへの所属画面](/docs/manual/initial-setting/staff/manage/)をより見やすく変更しました
 - NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)のバージョンを最新版に変更しました
 - サイトURLの一部変更に伴うリンクの修正を行いました

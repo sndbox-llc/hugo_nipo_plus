@@ -22,20 +22,20 @@ aliases = ["/old/parts/dictionaly/", "/docs/old/parts/dictionaly/"]
 - 田中さん
 
 といった**語録データ**が格納できます。
-語録はプランによって異なりますが、[GOLD PLAN](/docs/old/system/price/)の場合、１つの語録集に対して最大1,000件までの語録が登録可能です。  
+語録はプランによって異なりますが、[GOLD PLAN](/legacy/system/price/)の場合、１つの語録集に対して最大1,000件までの語録が登録可能です。  
 必要になったら追加し、不要になったら消していく、とても柔軟な使い方ができます。
-語録は[選択肢](/docs/old/parts/select/)と[1行テキスト](/docs/old/parts/text/)を合わせたような機能を持つパーツです。  
+語録は[選択肢](/legacy/parts/select/)と[1行テキスト](/legacy/parts/text/)を合わせたような機能を持つパーツです。  
 選択肢パーツと異なり、**語録は容易に新しい語録を追加可能**です。この特性を生かして現場名、顧客名、商品名など頻繁に追加される項目に向いています。
 
 {{<imgproc parts_dic1.png "語録を含む日報の入力画面例" />}}
 
 ## 語録を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/docs/old/manual/pdf/)すると次のように表示されます。
+[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
 {{<imgproc parts_dic2.png "語録を含む日報をPDFに変換した出力結果" />}}
 
-[CSVに出力](/docs/old/manual/analytics/)すると次のように表示されます。
+[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_dic3.png "語録を含む日報をCSVに出力し、Excelで開いた画面" />}}
 
@@ -98,7 +98,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 
 ### 未登録の語録を新規追加する{#add}
 
-語録集の便利な点は、かんたんに新しい語録を追加できる点にあります。[選択肢](/docs/old/parts/select/)パーツと比べても圧倒的に簡単です。
+語録集の便利な点は、かんたんに新しい語録を追加できる点にあります。[選択肢](/legacy/parts/select/)パーツと比べても圧倒的に簡単です。
 
 {{<alice pos="left" icon="default">}}
 百聞は一見に如かず 千聞とてまた然り。今サンプルを出しますね

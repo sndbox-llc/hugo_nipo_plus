@@ -12,7 +12,7 @@ images = []
  このセクションはグループに所属しているスタッフの設定をまとめています。
  組織上のスタッフについてはこちら
 
-{{<btnCenter "/docs/manual/initial-setting/staff/_about/" "組織のスタッフ">}}
+{{<btnCenter "/docs/manual/initial-setting/staff/rank/" "組織のスタッフ">}}
 
 ---
 

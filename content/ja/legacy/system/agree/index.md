@@ -103,4 +103,4 @@ aliases = ["/old/system/agree/", "/docs/old/system/agree/"]
 
 以上
 
-また、お客さまからお預かりしたプライバシーポリシーについては[プライバシーポリシー](/docs/old/system/privacypolicy/)のページをご確認ください
+また、お客さまからお預かりしたプライバシーポリシーについては[プライバシーポリシー](/legacy/system/privacypolicy/)のページをご確認ください

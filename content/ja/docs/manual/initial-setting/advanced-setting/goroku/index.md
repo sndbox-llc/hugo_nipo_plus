@@ -1,6 +1,6 @@
 +++
 description = ""
-tags = ["語録機能", "有料プラン限定"]
+tags = ["語録機能", "有料プラン限定", "要編集者権限"]
 title = "語録管理"
 toc = true
 weight = 101001203

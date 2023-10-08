@@ -1,6 +1,6 @@
 +++
 description = ""
-tags = []
+tags = ["データ削除", "要編集者権限"]
 title = "タイムカードの削除"
 toc = true
 weight = 101011005

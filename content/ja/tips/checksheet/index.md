@@ -4,7 +4,7 @@ title = "チェックシートAppで製造業の点検を電子化！スマホ�
 lead = "あらゆる「◯◯シート」をまるっと電子化できます"
 toc = true
 images = ["factory-usage.jpg"]
-tags = ["製造業向け", "チェックシート"]
+tags = ["製造業向け"]
 date = "2023-06-15"
 aliases = ["/checksheet/", "/blog/checksheet/", "/blog/checklistapp/", "/tips/maintenance/", "/tips/tablet/"]
 [sitemap]

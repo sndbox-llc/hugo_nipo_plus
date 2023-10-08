@@ -1,36 +1,39 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-  <div class="col-md-12 col-lg-9">
-    <h1 class="text-center">{{ .Title }}</h1>
-    {{ with .Content -}}<div class="text-center">{{ . }}</div>{{ end -}}
-  </div>
-</div>
-<div class="row row-cols-1 row-cols-lg-2 g-lg-5">
-  {{ $paginator := .Paginate (.Data.Pages) -}}
-  {{ range $paginator.Pages -}}
-  <div class="col">
-    <a class="noUnderline" href="{{ .RelPermalink }}">
-    <div class="card">
-      {{- .Scratch.Set "fillImage" "1270x620 Center" -}}
-      {{ partial "content/card-image.html" . }}
-      <div class="card-body">
-        <article>
-          <h2 class="h3">{{ .Params.title }}</h2>
-          <p>{{ .Params.description | safeHTML }}</p>
-        </article>
-        {{ if .Params.tags }}
-  			{{ partial "custom/tags.html" . }}        
-        {{ end }}
-      </div>
-    </div>
-    </a>
-  </div>
-  {{ end -}}
-</div>
-<div class="row justify-content-center">
-  <div class="col-md-12 col-lg-9">
-    {{ $.Scratch.Set "paginator" true }}
-    {{ template "_internal/pagination.html" . }}
-  </div>
-</div>
+	<article>
+		<h1 class="text-center">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{ .Title }}{{ end }}</h1>
+		{{ if .Params.lead -}}
+		<div class="row justify-content-center">
+			<div class="col-md-14">
+				<div class="myLead" style="max-width: 90%;">
+					<div class="myLead__label">概要</div>
+					<div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
+				</div>
+		
+			</div>
+		</div>
+		{{ end }}
+
+		<div class="text-center">{{ .Content }}</div>
+		<div class="card-list">
+			{{ $currentSection := .CurrentSection }}
+			<div class="row justify-content-center" style="align-items: stretch;">
+			{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+				{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+					<div class="col-md-15 col-lg-8 col-xl-5">
+						<a href="{{ .RelPermalink}}" style="text-decoration: none;margin-bottom:20px;display:block">
+							<div class="card my-3 pageCards" style="border:1px dotted purple;">
+								<div class="card-body">
+									<div style="font-weight: bold;" class="accentColor">{{ .Params.title | title }}</div>
+								</div>
+								<div class="card-body" style="font-size: 16px;">
+									{{ .Params.description }}
+								</div>
+							</div>
+						</a>
+					</div>
+				{{ end }}
+			{{ end }}
+			</div>
+		</div>
+	</article>
 {{ end }}

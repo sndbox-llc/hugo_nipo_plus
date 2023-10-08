@@ -8,3 +8,5 @@ draft = false
 images = []
 robots = "noindex, follow"
 +++
+
+旧バージョンのNipoに関するガイドです。

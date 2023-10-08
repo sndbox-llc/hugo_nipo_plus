@@ -15,27 +15,8 @@ disableLanguages = ["en"]
 
 # add redirects/headers
 [outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS", "Algolia"]
+home = ["HTML", "RSS", "Algolia"]
 section = ["HTML", "RSS", "SITEMAP"]
-
-# remove .{ext} from text/netlify
-[mediaTypes."text/netlify"]
-suffixes = [""]
-delimiter = ""
-
-# add output format for netlify _redirects
-[outputFormats.REDIRECTS]
-mediaType = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-
-# add output format for netlify _headers
-[outputFormats.HEADERS]
-mediaType = "text/netlify"
-baseName = "_headers"
-isPlainText = true
-notAlternative = true
 
 # add output format for section sitemap.xml
 [outputFormats.SITEMAP]
@@ -67,9 +48,6 @@ notAlternative = true
 [taxonomies]
   tag = "tags"
 
-# [permalinks]
-  # blog = "/blog/:title/"
-# docs = "/docs/1.0/:sections[1:]/:title/"
 
 [minify.tdewolff.html]
   keepWhitespace = false

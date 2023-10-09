@@ -84,7 +84,7 @@ classDef class1 fill:#7BCCAC
 [Nanoty](https://www.nanotybp.jp/price/)|600円|20名|12,000円|
 [未来日報](https://www.mirairepo.net/)|330円|20名|6,600円|
 [FieldPlus](https://www.fieldplus.net/price/)|500円|❓|5,500円|基本料5,000円
-[Gamba](https://www.getgamba.com/price/)|816円|5名|4,080円|
+[Gamba](https://www.getgamba.com/price/)|980円|5名|4,900円(※税別)|
 [日報くん](https://nippoukun.bpsinc.jp/#price)|<span style="color:red">44円</span>|60名|2,750円|
 [houren.so](https://www.houren.so/)|❓|❓|2,500円|無料有
 [Nipo](/legacy/about/quick/)|200〜500円|5名|2,250円|無料有
@@ -92,6 +92,7 @@ classDef class1 fill:#7BCCAC
 [NipoPlus](/)|180円|5名|<span style="color:red;background-color:pink;">900円</span>|無料有
 [ニッピー](https://nippii.info/)|980円|❓|❓980円|製造業特化型
 [Pace](https://paces.jp/pricing/)|550円|❓|❓550円|最小が1名なら最安
+
 
 
 ## 必要になるアカウント数は人数か端末の少ない方です

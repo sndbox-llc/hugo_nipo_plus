@@ -19,19 +19,22 @@
     </a>
     <!-- 検索ボタン -->
     <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#searchBoxModal">
-      <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" width="25"><path d="M796-121 533-384q-30 26-69.959 40.5T378-329q-108.162 0-183.081-75Q120-479 120-585t75-181q75-75 181.5-75t181 75Q632-691 632-584.85 632-542 618-502q-14 40-42 75l264 262-44 44ZM377-389q81.25 0 138.125-57.5T572-585q0-81-56.875-138.5T377-781q-82.083 0-139.542 57.5Q180-666 180-585t57.458 138.5Q294.917-389 377-389Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <circle cx="10" cy="10" r="7" stroke="black" stroke-width="2" fill="none"/>
+        <line x1="15" y1="15" x2="22" y2="22" stroke="black" stroke-width="2"/>
+    </svg>
     </button>
     
 
 
     <!-- 右端ボタン -->
     <button class="btn btn-menu order-2 d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
-        <title>メニューボタン</title>
-        <line x1="3" y1="12" x2="21" y2="12"></line>
-        <line x1="3" y1="6" x2="21" y2="6"></line>
-        <line x1="3" y1="18" x2="21" y2="18"></line>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="4" y1="8" x2="20" y2="8"></line>
+        <line x1="4" y1="16" x2="20" y2="16"></line>
       </svg>
+
     </button>
     <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
       <div class="offcanvas-header d-lg-none">
@@ -126,7 +129,7 @@
     {{ if eq .Params.isNipo true }}
     <a class="btn btn-success" href="https://nipoapp.sndbox.jp/" target="_blank" role="button">起動</a>
     {{ else }}
-    <a class="btn btn-primary" href="https://nipo-plus.web.app/" target="_blank" role="button">始める</a>
+    <a class="btn btn-primary" href="https://nipo-plus.web.app/" target="_blank" role="button">起動</a>
     {{ end }}
 
 

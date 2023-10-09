@@ -243,6 +243,10 @@ button#doks-versions {
   user-select: none;
 }
 
+.navbar .offcanvas {
+  max-width: 80%;
+}
+
 .navbar .menu-icon .navicon {
   background: $navbar-light-color;
   display: block;

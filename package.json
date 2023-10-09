@@ -8,7 +8,8 @@
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/h-enk/doks",
+  
+  "repository": "https://github.com/sndbox-llc/hugo_nipo_plus",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

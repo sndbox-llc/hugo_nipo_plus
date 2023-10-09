@@ -120,8 +120,3 @@ mermaid = false
 
 {{<nextArrow>}}
 
-<div class="text-center" style="font-size:3rem">
-<a href="/docs/manual/quickstart/" style="border:1px solid blue;background-color:darkblue;color: white" >
-🔰入門ガイドはこちら
-</a>
-</div>

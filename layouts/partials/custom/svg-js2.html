@@ -85,15 +85,10 @@
     })
   }
   function loadImageExe (image, className) {
-    var double = '//';
-    var pathname =  location.pathname;
-    var chop = pathname.split('index.html');
-    var getPort = () => {
-      if (location.port) return `:${location.port}`;
-      return '';
-    }
-    // var targetFileName = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.src}${mode}.png`;
-    //const path = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.tabletPath}`;
+    const double = '//';
+    const chop = location.pathname.split('index.html');
+    const getPort = () => location.port ? `:${location.port}` : '';
+
     let path = `${window.location.origin}${image.dataset.tabletPath}`
     if (mode === 'phone') {
       path = `${window.location.origin}${image.dataset.phonePath}`
@@ -102,7 +97,7 @@
       // TOPなどWebP変換がされないデータ用
       path = `${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.src}${mode}.png`;
     }
-    var targetFileName = path//`${location.protocol}${double}${location.hostname}${getPort()}${chop[0]}${image.dataset.tabletPath}`;
+    var targetFileName = path
     // すでにロード済みなら処理を中断
     if (alreadyLoadedImages.findIndex(i => i === targetFileName) !== -1) return;
     const width = (function (mode, className) {

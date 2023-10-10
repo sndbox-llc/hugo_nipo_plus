@@ -29,7 +29,7 @@
     </div>
     {{ block "price" . }}{{ end }}
 
-    <div class="mt-10" style="margin-top: 100px;">
+    <div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
       {{ partial "custom/cta.html" . }}
     </div>
 

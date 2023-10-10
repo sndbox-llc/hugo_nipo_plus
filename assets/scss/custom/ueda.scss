@@ -316,3 +316,11 @@ blockquote {
     padding-top: 0.5em; 
   }
 }
+
+.offcanvas {
+  transition: none !important;
+}
+
+.offcanvas.show {
+  transform: none !important;
+}

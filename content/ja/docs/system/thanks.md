@@ -5,6 +5,7 @@ title = "🌸謝辞"
 toc = false
 weight = 103000014
 aliases = ["/system/thanks/"]
+robots = "noindex, follow"
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

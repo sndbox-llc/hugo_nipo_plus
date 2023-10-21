@@ -1,0 +1,25 @@
+<div class="excelTable">
+  <table>
+      <thead>
+          <tr>
+              <th>-</th>
+              {{ $firstRow := index (split (strings.Trim .Inner "\n ") "\n") 0 }}
+              {{ $numColumns := len (split $firstRow ", ") }}
+              {{ range seq 65 (add 64 $numColumns) }}
+              <th>{{ . | printf "%c" }}</th>
+              {{ end }}
+          </tr>
+      </thead>
+      <tbody>
+          {{ $rows := split (strings.Trim .Inner "\n ") "\n" }}
+          {{ range $index, $row := $rows }}
+          <tr>
+              <td>{{ add $index 1 }}</td>
+              {{ range $cell := split $row ", " }}
+              <td>{{ $cell }}</td>
+              {{ end }}
+          </tr>
+          {{ end }}
+      </tbody>
+  </table>
+</div>

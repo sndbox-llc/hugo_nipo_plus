@@ -169,21 +169,25 @@ p  {
 
 /* Excel風の見た目をしたTable */
 .excelTable {
-  max-width:100%;
-  overflow:scroll;
+  max-width: 100%;
+  overflow-x: auto; /* 横スクロールを有効化 */
   table {
     border-collapse: collapse;
+    width: auto; /* テーブルの幅を内容に合わせる */
   }
-  table, th, td {
+  th, td {
     border: 1px solid #ccc;
+    padding: 8px 12px; /* セルの内部余白を設定 */
+    white-space: nowrap; /* セルの内容を改行しない */
   }
   tr:first-child th {
     background-color: #000;
     color: white;
   }
-  td:first-child {
-    background-color: #000; /* 1列目の背景色を緑に設定 */
+  td:first-child, th:first-child {
+    background-color: #000; /* 1列目の背景色を黒に設定 */
     color: white;
+    width: 50px; /* 1列目の幅を固定 */
   }
 }
 

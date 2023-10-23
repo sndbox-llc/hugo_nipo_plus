@@ -7,7 +7,7 @@ tags = ["エクセル",  "集計"]
 date = "2023-10-23"
 aliases = [""]
 images = ["icatch.png"]
-draft = true
+draft = false
 [sitemap]
   priority = 0.9
 +++

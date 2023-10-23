@@ -48,7 +48,7 @@
   parent = "blogroot"
 [[main]]
   name = "Excel活用術"
-  weight = 54
+  weight = 48
   identifier = "excel"
   url = "/excel/"
-  parent = "blogroot"
+  parent = ""

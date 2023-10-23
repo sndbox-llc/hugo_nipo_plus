@@ -6,7 +6,7 @@ menuTitle = "1ヶ月分の日報を1枚のエクセルにして集計する"
 toc = true
 images = ["work3.png"]
 date = "2023-04-01"
-aliases = ["/blog/sales_report/"]
+aliases = ["/blog/sales_report/", "/tips/sales_report/"]
 [sitemap]
   priority = 0.9
 +++

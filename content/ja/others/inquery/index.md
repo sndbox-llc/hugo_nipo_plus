@@ -17,7 +17,6 @@ NipoPlusについてのご質問、ご要望、不具合の報告など、何で
 また、自動返信メールもお送りいたしますので、もし返信が届かない場合は、お手数ですが迷惑メールフォルダをご確認いただくか、再度ご連絡ください。  
 NipoPlusをより良いものにするため、皆様からのご意見・ご要望を心よりお待ちしております。
 
-
 もしシステムのトラブルの場合は、問い合わせの前にトラブルシューティングを見てください。案外簡単に解決することがあります。
 
 {{<btnCenter "/docs/system/fix/" "トラブルシューティング">}}
@@ -29,11 +28,19 @@ NipoPlusをより良いものにするため、皆様からのご意見・ご要
   </div>
   <div>
     <label for="content" class="form-label">お問い合わせ内容</label>
-    <textarea id="content" class="form-control"></textarea>
+    <textarea id="content" class="form-control" rows="10"></textarea>
   </div>
+  <div>
+  対象製品を選択してください<br>
   <label><input type="radio" name="targetRadio" value="Nipo">Nipo</label>
   <label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
   <div id="iconField"></div>
+  </div>
+
+  <div style="margin-top: 15px;margin-bottom:15px;border:1px solid #ccc">
+  お客様のお問い合わせ用です。<span  style="color:red">営業メールは絶対に送らないで</span>ください<br>
+  特にSEO対策・IT人材派遣の営業メールが目立ちます
+  </div>
 
   <button onclick="submit()" class="btn btn-primary btn-lg mt-5" id="sendButton">送信</button>
   <div id="errormessage" style="color:red"></div>

@@ -1,7 +1,7 @@
 +++
 description = "長いことFirestoreはバックアップ機能を提供してきませんでした。この度Firebase公式のバックアップ手順が紹介されたため実際に導入してみたときの記事です"
 tags = ["firebase"]
-title = "Firestoreのデータバックアップを自動で行う一番簡単なやり方"
+title = "Firestoreのポイントインタイムリカバリでバックアップ。実際に一部の復元もやってみた"
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
@@ -32,180 +32,201 @@ Firebaseを使い始めて5年ほどが経過します。これまでの間に�
 インクリメントの実装や配列内の検索機能、Collection Groupなんかも以前は有りませんでした。
 そして今回ついにバックアップの実装。いやはや、Firebaseはどんどん便利になっていきますね。
 
+## ポイントインタイムリカバリを使って実際にデータを一部のみ復元してみた
 
-さて、ポイントインタイムリカバリが実装されたため、以下の記事は完全に過去の残骸となりました。
-もはや読む価値のないものですが、消すのもなんかもったいないので一応過去の遺産として残しておきます。
+さて、実際にポイントインタイムリカバリ機能を使う機会があったので、備忘録も兼ねて記事にしたいと思います。
+完全に復元する場合は簡単ですが、今回はとあるドキュメントとその配下のサブコレクションすべてを復元する必要がありました。そのため、少し回りくどい手順を踏む必要があります。
+大まかな流れを説明すると次のような手順になります。
+
+1. バックアップのバケットを作る（一時保管用）
+1. 復元用のFirestoreを作る
+2. 復元用のFirestoreにデータを流し込む
+3. 復元用のFirestoreから本稼働のFiresoreに復元したいドキュメントのデータを流し込む
+
+こんな感じでやります。
+作業時にはいくつか控える項目があるので先にリストアップしておきましょう。
+
+- バケット名
+- ファイル名
+- データベース名
+
+この３つが登場します。混同しないようにしっかり分けてコピペしてください。
 
 
----
+### 一時保管用バケットを作る
 
-2023年8月より過去の内容です▼
+復元したい時点のFirestoreスナップショットをBucketにコピーします。
+GCPにログインし、適当なBucketを作っておきましょう。
 
-## FireStoreのバックアップ機能は最近やっとまともに実装されました
+{{<imgproc createBuket.png "GCPにログインして一時保管用のバケットを作っておきます。バケット名はあとから使うので名前を控えておきます" />}}
 
-データベースのバックアップはとても重要です。万が一プログラムのバグでデータが消えたり、クラッキングによりデータが破壊、改ざんされたとき、復元するための命綱として、バックアップは必ず取らなければなりません。
-FireStoreはちょっと前までβ版だっただけあって、正式なバックアップツールは用意されてきませんでした。しかしバックアップをせずにシステム稼働させるわけには行かないため、様々な人が独自に動きバックアップの方法を模索、実装してきました。
-正式に公式サイトからFireStoreのバックアップツールが用意されたのは記憶に新しいです。
+ここではバケット名を nipoplus_tmp とします。バケット名はあとから使うので忘れずにメモして下さい。
 
-### 初めて公式が用意したFireStoreのバックアップツール
+バケット名: nipoplus_tmp
 
-Firestoreのバックアップツールとして最初に用意されたのが
+### 復元したい時点でのスナップショットを先程作ったバケットに保存します
 
-```bash
-gcloud alpha firestore export gs://firestore-export
+
+直近１週間以内の任意の時点でバックアップを取得できます。バックアップを取得し、先ほど作ったバケットにバックアップを保存します
+バックアップの取得はGCPのターミナルから行います
+```sh
+gcloud alpha firestore export gs://[バケット名] --snapshot-time=[復元したい時刻]
 ```
 
-というエクスポートコマンドでした。その後にalphaからbetaに変わり
+[]の中身は適時書き換えてください。例えば以下のように書きます▼
 
-```bash
-gcloud beta firestore export gs://fs-export
+```sh
+gcloud alpha firestore export gs://nipoplus_tmp --snapshot-time=2023-10-31T10:20:00.00Z
 ```
 
-となりましたが、特段大きな違いはありません。 cronで自動実行させるなど色々錯誤しましたが今はそんなことする必要はありません。  
-公式サイトからより良いバックアップ方法が用意されたのです
+{{<imgproc input_terminal.png "GCPからターミナルを起動させて復元させたい時点のSnapshotを取得しバケットに書き込みます" />}}
 
-## FireStoreのデータを決まった時間に自動でバックアップ
 
-Cloud Functionsを使った自動バックアップ方法です。詳しくは[公式サイト](https://firebase.google.com/docs/firestore/solutions/schedule-export?hl=ja)に記載があります。  
-ただ、Firestoreの公式マニュアルってちょっと不親切なんですよね。説明を端折っていたりわかる前提で話が進むので、不慣れな人にとっては結構鬼門です。
+バックアップが作成されるとバケット上に追加されます。確認しておきましょう。
 
-### Firestoreのバックアップ先となるバケットを用意する
+{{<imgproc check_file.png "バケットを確認すると先ほど取得したファイルが存在しています。" />}}
 
-GCPの管理画面（ストレージ）を開き、バケットを１つこしらえましょう。  
-ここで注意するべき点は、バケットのリージョンにusを指定するということです。Asia/Tokyoにすると自動バックアップは失敗しますので注意してください。
+バケット内に作成されたファイル名は後に使用するので、パスを含めてファイル名を控えておきます。
 
-<dl class="basic">
-  <dt>バケットの名前</dt>
-  <dd>わかりやすいものが良いでしょう。xxxx-backupとかそんなんでいいと思います。ここで指定した名前は次の章で利用するので控えておきましょう</dd>
-  <dt>ロケーションのタイプ</dt>
-  <dd>私はMulti Regionを選びました。ロケーションにUSを必ず選択してください</dd>
-  <dt>ストレージクラス</dt>
-  <dd>用途に合わせて選べばいいと思う</dd>
-  <dt>アクセス制御</dt>
-  <dd>[均一]を 選択しましたがどちらでも行けると思います。</dd>
-</dl>
+ファイル名： nipoplus_tmp/2023011-01T〜 のような形式
 
-### Cloud Functionsのコード紹介
+### 復元用のFirestoreを作り、スナップショットのデータを復元用Firestoreにインポートする
 
-Cloud functionsはこんなかんじ
+さてバックアップデータを開いてみてもよくわからない連続した数字ファイルの集まりであり、そのままでは使用できません。
+せめてJSON形式だったら・・・と思いますが残念ながらバイナリファイルのため何もできません。
+このバックアップファイルをFirestoreに取り込めば復元は完了しますが、今回は「特定のドキュメントとその配下の全サブコレクション」を復元したいので、少し回りくどいですが復旧用にもう１つのFirestoreを作りそこに復元します。
+Firestoreは本記事執筆時点ではコマンドから作る必要があります。
+以下のコマンドでFirestoreを作れます。
 
-<Alice>どうやらNodeJSのバージョンが10にあがるとエラーで動かなくなるようです。下のコードはNode10にも対応したバージョンです(2020/12/18修正)</Alice>
-
-```javascript
-// 【index.ts】
-import * as functions from 'firebase-functions';
-import * as API from './api'; // これはFirestoreのコンソールから引っ張ってくる情報です
-
-const firestore = require('@google-cloud/firestore');
-const client = new firestore.v1.FirestoreAdminClient();
-
-const admin = require('firebase-admin');
-
-admin.initializeApp({
-  credential: admin.credential.cert(API),
-  databaseURL: 'hogehogemogemogefugafuga'
-})
-
-// 分 時 日 月 曜日 の順に指定します。cronと一緒。米国時間なので注意してね！
-exports.backupPubSub = functions.pubsub.schedule('30 15 * * *').onRun((context) => {
-  const projectId = process.env.GCP_PROJECT || process.env.GCLOUD_PROJECT;
-　const databaseName = client.databasePath(projectId, '(default)');
-  const bucket = 'gs://さきほど指定したバケットの名前';
-  return client.exportDocuments({
-    name: databaseName,
-    outputUriPrefix: bucket,
-    collectionIds: []
-  })
-  .then((responses: any[]) => {
-    const response = responses[0];
-    console.log(`Operation Name: ${response['name']}`);
-    return response;
-  })
-  .catch((err: any) => {
-    console.error(err);
-    throw new Error('Export operation failed');
-  })
-})
+```sh
+gcloud alpha firestore databases create --database=[作成する DB 名] --location=us-west1 --type=firestore-native
 ```
 
-いわゆるクラウドファンクションです。ついで依存関係はこんな感じ(こういう情報は公式が書いてくれないので公式は不親切です）
+作成するDB名は今後の工程で使うので控えておきます。
+データベース名: nipoplus_recover
 
-```javascript
-{
-  "name": "functions",
-  "scripts": {
-    "lint": "tslint --project tsconfig.json",
-    "build": "tsc",
-    "serve": "npm run build && firebase serve --only functions",
-    "shell": "npm run build && firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "main": "lib/index.js",
-  "dependencies": {
-    "@google-cloud/firestore": "^2.6.1",
-    "firebase-admin": "~8.8.0",
-    "firebase-functions": "^3.3.0"
-  },
-  "devDependencies": {
-    "tslint": "^5.20.1",
-    "typescript": "^3.7.3"
-  },
-  "engines": {
-    "node": "8"
-  },
-  "private": true
+{{<alice pos="right" icon="here">}}
+DB名は一度使うと数週間使用できなくなるとのことですので注意
+{{</alice>}}
+
+
+作成してから画面をリロードし、Firestoreをひらくと追加したDBがリストに増えていることが確認できます。
+
+{{<imgproc firestore_list.png "Firestoreに切り替えて一覧に先程作ったFirestoreが追加されていることを確認してください。反映されない場合はリロードします" />}}
+
+
+これまで控えてきた名前を使います。今一度確認してみましょう。
+
+- ファイル名： nipoplus_tmp/2023011-01T〜 のような形式
+- データベース名: nipoplus_recover
+
+この情報をターミナルに入力します
+
+```sh
+gcloud firestore import gs://[ファイル名] --database=[データベース名]
+```
+
+これで復元用のFirestoreにデータが書き込まれます。この時点でまだ本番には一切手を触れていません。
+
+
+### 復元DBから本番DBへ一部のデータを移動する
+
+ここからはかなり慎重に作業する必要があります。本番のデータベースにデータを書き込むので、ミスしたら大問題です。
+念のためバックアップを撮っておくのも良いでしょう。
+
+さて、FireStore全体の復元、または特定のコレクションの復元はGCP上からできます。
+しかし特定のドキュメント以下を復元する機能は用意されていないため、自前で実装する必要があります。
+
+例えば /user/{userId}/配下のデータだけ復元したいってケースは結構あると思うんですけどね。残念ながら機能としては用意されていないので自前で実装します。
+
+私はNodejsで実装しました。拙いコードですが共有しておきます。
+
+```typescript
+import { initializeApp, cert, getApps, getApp } from 'firebase-admin/app'
+import { FIREBASE_CERT } from './const'
+import { getFirestore } from 'firebase-admin/firestore'
+
+const BATCH_LIMIT = 500
+const app = getApps().length === 0 ? initializeApp({ credential: cert(FIREBASE_CERT) }) : getApp()
+
+// 本番で稼働しているFireStore
+const defaultDb = getFirestore(app)
+// 復旧用のFirestore。第二引数にデータベース名を指定します
+const recoverDb = getFirestore(app, 'nipoPlus_recover')
+let batch = defaultDb.batch()
+let opsCount = 0
+
+/**
+ * @param src Firebaseの復元したいドキュメントパス。例: /company/4DeCz6E5MxzlczFeAgfv/customer/4akxxQ6chqzu1jqJdHBx
+ * @param dist 書き込み先のパス。srcと同じパスを指定すれば、復旧用DBー＞本番用DBへ同じパス上に書き込みされます。異なるパスを指定することもできます
+ */
+export async function recovery(src: string, dist: string) {
+  /** 復元用DBのパス */
+  const sourceDocRef = recoverDb.doc(src)
+  /** 本番用DBのパス */
+  const targetDocRef = defaultDb.doc(dist)
+  console.time('recoverFn timer')
+  try {
+    await fetchRecursive(sourceDocRef, targetDocRef)
+    if (opsCount > 0) {
+      batch.commit() // 残りのバッチをコミット
+    }
+  } catch (error) {
+    console.error('エラーが発生', error)
+  }
+  console.timeEnd('recoverFn timer')
 }
+
+/**
+ * 1ドキュメント単位で再起させる
+ */
+async function fetchRecursive(sourceDocRef: FirebaseFirestore.DocumentReference, targetDocRef: FirebaseFirestore.DocumentReference) {
+  const doc = await sourceDocRef.get()
+  if (!doc.exists) return
+
+  const data = doc.data()
+  batch.set(targetDocRef, data)
+  opsCount++
+
+  // バッチの制限を超えた場合、バッチをコミットして新しいバッチを開始
+  if (opsCount >= BATCH_LIMIT) {
+    console.log('バッチ書き込みを実行します...')
+    await batch.commit()
+    batch = defaultDb.batch()
+    opsCount = 0
+  }
+
+  const collections = await sourceDocRef.listCollections()
+  for (const collection of collections) {
+    const docs = await collection.listDocuments()
+    for (const doc of docs) {
+      console.log('再帰: NextPath->', collection.id, doc.path, opsCount)
+      await fetchRecursive(doc, targetDocRef.collection(collection.id).doc(doc.id))
+    }
+  }
+}
+
 ```
 
-これをクラウドファンクションとして登録してください。
+こんな感じのコードを書いて、あとは実行します。
+緊張の一瞬ですね。こういう本番のデータベースをいじるのは心臓に悪いのでできればやりたく有りません。
+上記コードをお試しいただく場合は、入念に確認のうえ行ってください。
 
-```bash
-firestore deploy –only functions
-```
+このプログラムは特定のドキュメントパスを受け取る（src）と、復元用データベースのドキュメントを取得し、それを本番用データベースのパス（dist）上に書き込みます。
+サブコレクションがあれば再帰的に調査して読み取り、書き込みをバッチで行います。
 
-というお決まりのコマンドですね。登録完了するとGCPの[クラウドスケジューラ](https://cloud.google.com/scheduler/?hl=ja)という画面に先程追加した関数が追加されています
+簡単に言えば指定したドキュメントパスをルートとし、その中の全てのサブコレクション、サブドキュメントを復元します。
+復元処理には多少時間が掛かります。（１０００ドキュメントでおよそ２分ほど掛かります。）
 
-{{<imgproc pubsub.png "GCP Cloud Pubsubの画面。「今すぐ実行」を押すと予定時刻を待たずに動作確認ができるので便利です" />}}
 
-### アクセス権限を設定する
+## 最後に
 
-PROJECT_ID を実際のプロジェクトIDに置き換えて、コンソールから次のコマンドを打ち込みます
+必要に迫られて実際に復元したときの流れを記述してみましたがいかがでしたか？
+実はテスト環境ですが顧客データを間違えて消してしまい、急遽復元が必要になったのです。
+全体を復元させてしまうと、正常な他の顧客のデータが「巻き戻る」事になってしまうため、全体の復元を使うわけには行きませんでした。
+そのため、今回のような回りくどい手法で復旧させました。
 
-```bash
-gcloud projects add-iam-policy-bindingPROJECT_ID \
-   --member serviceAccount:PROJECT_ID@appspot.gserviceaccount.com\
-   --role roles/datastore.importExportAdmin
-```
+いやしかし、全体を復元させるってのは楽でしょうが、あれはほんとうの意味での最終手段ですね。
+影響範囲が大きすぎるので、そう手軽には使えないなぁと改めて実感しました。
 
-```bash
-gsutil iam ch serviceAccount:PROJECT_ID@appspot.gserviceaccount.com:admin\
-    gs://BUCKET_NAME
-```
-
-このあたりについては公式サイト：[アクセス権限を設定する](https://firebase.google.com/docs/firestore/solutions/schedule-export?hl=ja#configure_access_permissions)のほうがわかりやすいのでそちらも参照してください
-
-### バックアップファイルがバケットに保存されるか確認する
-
-最後にきちんとバケットにバックアップが書き出されているか確認してみましょう
-
-{{<imgproc gcp_storage.png "GCPのバケット確認画面" />}}
-
-### うまく動かないとき
-
-エラーメッセージを確認してみましょう。エラーメッセージはFireBaseのクラウドファンクション上で確認ができます。  
-この手のエラーではおそらく、**アクセス権限不足による失敗**が多いと思います
-
-## サーバ不要で自動バックアップも取れるのでこのやり方おすすめです
-
-わざわざCron用にサーバを建てる必要がないのはとても便利ですね。  
-公式サイトの情報ですので、一番良いやり方だと思います。まだ
-
-```bash
-gcloud aplha
-```
-
-とコマンド叩いている人、重い腰を上げて今こそバックアップを自動化しましょう
-
-<Alice>ただしバックアップは１件につき１アクセスとカウントされるため、費用が結構掛かる可能性があります</Alice>
+Firestoreは非常に優れた製品ですが、バックアップと復元はまだちょっと不便なところが多くあるなと感じた騒動でした。

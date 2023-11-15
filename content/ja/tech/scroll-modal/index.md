@@ -75,7 +75,7 @@ QuasarにはScrollについても色々便利なユーティリティを提供�
 ```javascript
 
 import { ref } from 'vue';
-import { getRandStr } from 'src/components/utils';
+import { getRandStr } from 'components/utils';
 import { scroll } from 'quasar';
 
 const showModal = ref(false);

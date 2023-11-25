@@ -19,7 +19,7 @@ NipoPlusを使い始めるまでに行うことは大まかに分けると以下
 
 NipoPlusは下のボタンから起動できます
 
-{{<btnCenter "https://nipo-plus.web.app/" "NipoPlusを起動する" "_blank">}}
+{{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動する" "_blank">}}
 
 ---
 

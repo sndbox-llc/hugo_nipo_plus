@@ -30,7 +30,7 @@ WebのNipoPlusはPWAという技術が使われているため**Webでありな�
 
 NipoPlusは下のボタンから起動できます
 
-{{<btnCenter "https://nipo-plus.web.app/" "NipoPlusを起動する" "_blank">}}
+{{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動する" "_blank">}}
 
 {{<imgproc android-install-pwa.png "ChoromeからPWA対応サイトを開くとインストールの通知が表示されます。ホーム画面に追加をタップするだけでインストールが完了し、ホーム画面にアイコンが追加されます。" />}}
 

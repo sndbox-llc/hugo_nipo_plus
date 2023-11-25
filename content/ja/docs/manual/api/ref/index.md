@@ -134,13 +134,13 @@ EOS
 補足：URLからグループIDを確認する際はURLの意味を見てください。
 
 ```url
-https://nipo-plus.web.app/#/room/組織ID/グループID/__/path/to/any...
+https://nipoplus.sndbox.jp/#/room/組織ID/グループID/__/path/to/any...
 ```
 
 例えばURLが次のようなデータだった場合
 
 ```url
-https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/home/PageNameGroupSettingAbout
+https://nipoplus.sndbox.jp/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal/home/PageNameGroupSettingAbout
 ```
 
 グループIDは「eZu8bXFNh73YtVoR83ic」となります。

@@ -67,13 +67,13 @@ Skip waitingが表示されるときは次のように見えます。Skipwaiting
 誤りのURL❌
 
 ```sh
-https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/Lpi7TCw4WV3xLVrrHOCs/blue-grey/home/PageNameGroupSettingStaff
+https://nipoplus.sndbox.jp/#/room/BLyx3SG72rId24BnKcGC/Lpi7TCw4WV3xLVrrHOCs/blue-grey/home/PageNameGroupSettingStaff
 ```
 
 正しいURL🟢
 
 ```sh
-https://nipo-plus.web.app/
+https://nipoplus.sndbox.jp/
 ```
 
 {{<alice pos="right" icon="here">}}
@@ -127,7 +127,7 @@ NipoPlusではお預かりしている日報データを厳重に管理するた
 ブックマークを
 
 ```sh
-https://nipo-plus.web.app/
+https://nipoplus.sndbox.jp/
 ```
 
 に修正することで起動時に権限不足のエラーが表示されなくなるはずです。

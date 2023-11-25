@@ -39,7 +39,7 @@ NipoPlusでは、データベースやファイルなど、重要なデータを
 
 NipoPLUSでは、SSL通信によりデータの暗号化を実施しています。
 ユーザがサイトにアクセスした際、HTTPSプロトコルによって暗号化通信が行われ、外部からの盗聴や改ざんなどの攻撃から情報を保護します。
-[Web版Nipo](https://nipo-plus.web.app/)をご利用の際はURLバーからSSL通信を確認することもできます。
+[Web版Nipo](https://nipoplus.sndbox.jp/)をご利用の際はURLバーからSSL通信を確認することもできます。
 {{<imgproc https.png "ご利用のアプリバージョンは左メニュー下部に記載されています" />}}
 
 ※[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus) / [iOS版](https://apps.apple.com/jp/app/id1625797169)のNipoではURLバーは出ませんが、Web版同様安全な通信です

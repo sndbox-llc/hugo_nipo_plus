@@ -30,7 +30,7 @@ aliases = ["/system/spec/"]
 Webアプリ版は最も早く最新版がリリースされます。
 Nipoのすべての機能が最も使いやすい形で提供されています。Nipoは各種バージョンがありますが、最も推奨されるものがこの「Web版Nipo」になります。Web版Nipoは以下のボタンから開始できます
 
-{{<btnCenter "https://nipo-plus.web.app/" "NipoPlusを起動" "_blank">}}
+{{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動" "_blank">}}
 
 {{<alice pos="right" icon="pc">}}
 Webアプリ版はPCでもスマホでも使えます

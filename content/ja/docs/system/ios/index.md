@@ -29,7 +29,7 @@ WebのNipoPlusはPWAという技術が使われているため**Webでありな�
 
 NipoPlusは下のボタンから起動できます
 
-{{<btnCenter "https://nipo-plus.web.app/" "NipoPlusを起動する" "_blank">}}
+{{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動する" "_blank">}}
 
 {{<imgproc ios-pwa-install1.png "PWAをiOSにインストールするにはSafariを起動してインストールしたいページを開きます。その後メニューから「ホーム画面に追加」をタップします" />}}
 {{<nextArrow>}}

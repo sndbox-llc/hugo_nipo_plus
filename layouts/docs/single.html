@@ -27,8 +27,12 @@
 			{{ if eq .Params.isNipo true }}
 				{{ partial "custom/oldapp-warning.html" . }}
 			{{ end }}
+			{{ if .Params.tags -}}
+				{{ partial "custom/tags.html" . }}
+			{{ end -}}
 
 			<h1>{{ .Title }}</h1>
+
 			{{ if .Params.lead -}}
 			<div class="myLead">
 				<div class="myLead__label">概要</div>

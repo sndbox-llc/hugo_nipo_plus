@@ -20,6 +20,10 @@
 					</ol>
 				</nav>
 			{{ end }}
+			{{ if .Params.tags -}}
+				{{ partial "custom/tags.html" . }}
+			{{ end -}}
+
 			<h1>{{ .Title }}</h1>
 			{{ if .Params.lead -}}
 			<div class="myLead">

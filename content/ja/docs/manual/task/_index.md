@@ -1,6 +1,6 @@
 +++
-description = "タスクに関する操作ガイド【アーカイブスページ】"
-title = "タスク管理"
+description = "予定に関する操作ガイド【アーカイブスページ】"
+title = "予定管理"
 toc = true
 tags = []
 weight = 101008000

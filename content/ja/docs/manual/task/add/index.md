@@ -1,13 +1,18 @@
 +++
 description = ""
 tags = []
-title = "タスクを追加する"
+title = "予定を追加する"
 toc = true
 weight = 101008001
 aliases = ["/manual/task/add/"]
 images = []
-draft = true
+draft = false
 +++
+
+予定はカレンダーまたは予定管理画面から追加することができます。
+
+## カレンダーから予定を追加する手順
+
 
 
 シンプルなタスク管理ができます。タスクはカレンダーから確認したり、タスクリストから確認できます。  

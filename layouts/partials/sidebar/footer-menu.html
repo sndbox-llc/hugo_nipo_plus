@@ -1,0 +1,14 @@
+<footer>
+    <div class="footer-container">
+      {{ range .Site.Sections }}
+        <div class="footer-section">
+          <h3>{{ .Title }}</h3>
+          <ul class="footer-links">
+            {{ range .Pages }}
+              <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    </div>
+  </footer>

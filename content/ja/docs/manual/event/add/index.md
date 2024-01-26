@@ -4,7 +4,7 @@ tags = []
 title = "予定を追加する"
 toc = true
 weight = 101008001
-aliases = ["/manual/task/add/"]
+aliases = ["/manual/task/add/", "/docs/manual/task/add/"]
 images = []
 draft = false
 +++

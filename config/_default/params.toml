@@ -75,9 +75,9 @@ footer = "開発運営:<a class=\"text-muted\" href=\"https://sndbox.jp/\">合�
 copyRight = "Copyright (c) Sndbox LLC"
 
 # Alert
-alert = false
+alert = true
 alertDismissable = true
-alertText = ""
+alertText = "w"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster

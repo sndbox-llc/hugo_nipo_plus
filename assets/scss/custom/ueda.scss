@@ -328,3 +328,12 @@ blockquote {
 .offcanvas.show {
   transform: none !important;
 }
+
+.tableWrapper {
+  overflow-x: auto;
+
+}
+
+.tableWrapper table {
+  min-width: 768px; /* 例として、768pxを設定 */
+}

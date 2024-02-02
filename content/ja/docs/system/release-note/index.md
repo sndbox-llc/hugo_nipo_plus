@@ -40,7 +40,7 @@ images = []
 昨年末から続いている通信の不安定化についてなかなか問題が解決できませんでしたが、使用するFirebaseのバージョンを少し落とすことで安定するようになりました。
 このエラーはGit hubのIssueにもあがっており、このIssueにもっと早く気づくことができればここまで苦戦しなかった問題です。まさかFirebase側に原因があるとは完全に想定外でした。
 
-https://github.com/firebase/firebase-js-sdk/issues/7860
+[https://github.com/firebase/firebase-js-sdk/issues/7860](https://github.com/firebase/firebase-js-sdk/issues/7860)
 
 長いことご不便をおかけして申し訳ございません。これで一連の不安定な状態は解消されました。
 

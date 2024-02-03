@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "..\\node_modules\\mermaid\\*"
+    "../node_modules/mermaid/*"
    ]
   }
  }

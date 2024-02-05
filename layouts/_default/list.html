@@ -1,4 +1,7 @@
 {{ define "main" }}
+<div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
+	<div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
+
 	<article>
 		<h1 class="text-center">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{ .Title }}{{ end }}</h1>
 		{{ if .Params.lead -}}
@@ -36,4 +39,6 @@
 			</div>
 		</div>
 	</article>
+	</div>
+	</div>
 {{ end }}

@@ -1,4 +1,7 @@
 {{ define "main" }}
+<div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
+	<div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
+
 <article>
 <div class="row justify-content-center">
   <div class="col-md-12 col-lg-10">
@@ -48,7 +51,8 @@
 </div>
 </div>
 {{ end -}}
-
+</div>
+</div>
 {{ end }}
 
 

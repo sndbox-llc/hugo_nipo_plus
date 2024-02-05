@@ -1,4 +1,7 @@
 {{ define "main" }}
+<div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
+	<div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
+
   <article>
     <h1>{{ .Title }}</h1>
     <p class="lead">{{ .Params.lead | safeHTML }}</p>
@@ -24,4 +27,6 @@
       {{ end -}}
     </div>
   </article>
+  </div>
+  </div>
 {{ end }}

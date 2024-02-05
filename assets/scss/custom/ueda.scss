@@ -248,6 +248,7 @@ p  {
   flex-direction: column;
   .headLine{
     animation: SlideIn 1.0s forwards;
+    font-size: calc(1.875rem + 1.5vw);
   }
   .mainLead {
     font-size: 1.6rem;

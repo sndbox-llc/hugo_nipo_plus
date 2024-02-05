@@ -1,4 +1,7 @@
 {{ define "main" }}
+<div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
+	<div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
+
 	<div class="row flex-xl-nowrap justify-content-center">
     
 		{{ if ne .Params.toc false -}}
@@ -55,5 +58,7 @@
 
 			{{ partial "main/docs-navigation.html" . }}
 		</main>
+	</div>
+	</div>
 	</div>
 {{ end }}

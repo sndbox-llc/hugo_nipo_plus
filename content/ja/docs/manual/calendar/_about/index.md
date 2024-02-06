@@ -31,6 +31,6 @@ images = ["mapping-reports-to-calendar_tablet.png"]
 ## 保存BOXとの違い{#diff}
 
 レポートを読む際は保存BOXからも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
-検索が必要な場合は日報保存箱を活用してください。
+検索が必要な場合はレポート保存箱を活用してください。
 
-{{<btnCenter "/docs/manual/read-report/list/" "日報保存箱">}}
+{{<btnCenter "/docs/manual/read-report/list/" "レポート保存箱">}}

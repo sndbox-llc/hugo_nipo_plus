@@ -9,7 +9,7 @@ aliases = ["/manual/initial-setting/template/sign/", "/manual/org/groupsetting/t
 images = []
 +++
 
-ペンや指を使って直筆サインやイラストを報告書に添付できます。
+ペンや指を使って直筆サインやイラストをレポートに添付できます。
 
 {{<icatch filename="input-method-pen" msg="直筆サインや 手書きのイラストに" title="署名入力フォーム" fontsize="30px" alice="tablet">}}
 
@@ -67,7 +67,7 @@ S/M/Lの３段階に調整できます。
 
 {{<nextArrow>}}
 
-署名の書かれた報告書は指定した幅に合わせて描画されます。
+署名の書かれたレポートは指定した幅に合わせて描画されます。
 
 {{<appscreen filename="post" title="署名入力フォームを含んだ日報を受信したときの見え方">}}
 
@@ -83,7 +83,7 @@ CSV出力のオプション設定から「写真・ファイル等を出力す�
 これで[写真入力フォーム](/docs/manual/initial-setting/template/picture/)、[署名入力フォーム](/docs/manual/initial-setting/template/sign/)、[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)それぞれののデータがCSV出力時にまとめてダウンロードされます。
 それぞれの日報フォルダの中に写真や署名・データファイルなどがまとめられます。
 
-### 署名の報告書をPDFに出力{#pdf}
+### 署名のレポートをPDFに出力{#pdf}
 
 幅の影響はPDFにおいても適用されます。狭い幅では署名が小さくなり、広い幅は大きく表示されます。
 幅3以下だと**枠からはみ出してしまうことがある**ので注意してください。

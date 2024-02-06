@@ -46,7 +46,7 @@ images = []
 
 {{<nextArrow>}}
 
-実際に報告書を書く際は次のように表示されます
+実際にレポートを書く際は次のように表示されます
 
 {{<appscreen filename="rate-preview" title="レートはタップ操作で簡単に入力が可能です。見た目も視覚的にわかりやすく便利です">}}
 
@@ -63,7 +63,7 @@ images = []
 
 {{<appscreen filename="make-charts" title="日報に含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
 ## CSVに出力する{#csv}
 

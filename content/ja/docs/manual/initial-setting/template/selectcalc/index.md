@@ -73,7 +73,7 @@ graph LR;
 
 答2のデータのみが集計対象となります。円グラフを作ればどのお酒が一番選ばれたか？といったことが瞬時にわかります。
 
-{{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
 {{<alice pos="right" icon="please">}}アードベッグ(ウイスキー)大好きな筆者です{{</alice>}}
 

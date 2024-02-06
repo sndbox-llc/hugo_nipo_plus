@@ -9,7 +9,7 @@ aliases = ["/manual/initial-setting/template/math/", "/manual/org/groupsetting/t
 images = ["math_tablet.png"]
 +++
 
-最も普通な数値の入力を報告書に追加できます。小数点や負数もOK。
+最も普通な数値の入力をレポートに追加できます。小数点や負数もOK。
 
 {{<icatch filename="math" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok">}}
 
@@ -51,7 +51,7 @@ images = ["math_tablet.png"]
 {{<appscreen filename="math-template-edit" title="数値入力フォームだけで構成されたテンプレートの作成画面イメージ。単位や色などはここで自由に変更可能です">}}
 
 {{<nextArrow>}}
-報告書作成画面
+レポート作成画面
 {{<appscreen filename="input" title="数値入力フォームの入力画面イメージ。">}}
 
 - 数値以外は入力できないので注意してください。
@@ -63,7 +63,7 @@ images = ["math_tablet.png"]
 
 {{<appscreen filename="charts" title="数値のデータをグラフ化する">}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
 ## データをCSVに出力{#csv}
 

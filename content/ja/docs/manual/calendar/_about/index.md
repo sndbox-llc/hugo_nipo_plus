@@ -1,5 +1,5 @@
 +++
-description = "カレンダー上に報告書が表示されます。日別に報告書を管理したいときに便利です。カレンダーは週・月の２種類用意しています"
+description = "カレンダー上にレポートが表示されます。日別にレポートを管理したいときに便利です。カレンダーは週・月の２種類用意しています"
 title = "日報をカレンダー上から確認できます"
 menuTitle = "カレンダー概要"
 toc = true
@@ -9,7 +9,7 @@ aliases = ["/manual/calendar/"]
 images = ["mapping-reports-to-calendar_tablet.png"]
 +++
 
-報告書をカレンダー上に表示できます。日毎に報告書をチェックしたいときに便利です。
+レポートをカレンダー上に表示できます。日毎にレポートをチェックしたいときに便利です。
 
 {{<icatch filename="mapping-reports-to-calendar" msg="カレンダーから日報 を表示できます" title="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here">}}
 
@@ -30,7 +30,7 @@ images = ["mapping-reports-to-calendar_tablet.png"]
 
 ## 保存BOXとの違い{#diff}
 
-報告書を読む際は保存BOXからも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
+レポートを読む際は保存BOXからも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
 検索が必要な場合は日報保存箱を活用してください。
 
 {{<btnCenter "/docs/manual/read-report/list/" "日報保存箱">}}

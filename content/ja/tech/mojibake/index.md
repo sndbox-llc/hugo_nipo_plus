@@ -10,7 +10,7 @@ date = "2022-11-14"
   priority = 0.5
 +++
 
-NipoPlusの[一括CSVダウンロード](/docs/manual/analytics/csv/)を使って報告書のデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。
+NipoPlusの[一括CSVダウンロード](/docs/manual/analytics/csv/)を使ってレポートのデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。
 
 {{<imgproc zip-open.png "ZIPファイルをダブルクリックで開くと文字化けしてしまう" />}}
 

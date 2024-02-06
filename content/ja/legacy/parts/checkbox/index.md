@@ -29,7 +29,7 @@ aliases = ["/old/parts/checkbox/", "/docs/old/parts/checkbox/"]
 
 チェックボックスはCSV出力時に列を展開して出力することもできます。
 
-列を展開せずに[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+列を展開せずに[CSVに出力](/tips/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_chkbox3.png "チェックボックスを含む日報をCSV出力し、エクセルで開いた例ー列の展開を無効" />}}
 

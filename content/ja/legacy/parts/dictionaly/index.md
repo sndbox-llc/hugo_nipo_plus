@@ -35,7 +35,7 @@ aliases = ["/old/parts/dictionaly/", "/docs/old/parts/dictionaly/"]
 
 {{<imgproc parts_dic2.png "語録を含む日報をPDFに変換した出力結果" />}}
 
-[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+[CSVに出力](/tips/analytics/)すると次のように表示されます。
 
 {{<imgproc parts_dic3.png "語録を含む日報をCSVに出力し、Excelで開いた画面" />}}
 

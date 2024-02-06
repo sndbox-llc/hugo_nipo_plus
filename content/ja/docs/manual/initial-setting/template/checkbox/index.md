@@ -18,7 +18,7 @@ images = []
   </div>
 </div>
 
-このようなチェックボックスを報告書に追加できます。
+このようなチェックボックスをレポートに追加できます。
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|検索|
 |:---:|:---:|:---:|:---:|
@@ -47,7 +47,7 @@ images = []
   <dt>入力必須</dt>
   <dd>ON:提出時にこのチェックボックスがONでないと提出ができないようになります</dd>
   <dt>初期状態でON</dt>
-  <dd>ON:報告書作成時にチェックボックスはONの状態でスタート</dd>
+  <dd>ON:レポート作成時にチェックボックスはONの状態でスタート</dd>
   <dt>集計する</dt>
   <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
   <dt>CSV出力時列を展開</dt>
@@ -65,7 +65,7 @@ images = []
 
 {{<nextArrow>}}
 
-{{<appscreen filename="checkbox-preview"  title="チェックボックスが含まれた報告書のプレビュー">}}
+{{<appscreen filename="checkbox-preview"  title="チェックボックスが含まれたレポートのプレビュー">}}
 
 ## チェックボックスのデータを集計{#subtotal}
 
@@ -73,7 +73,7 @@ images = []
 
 {{<appscreen filename="pie-charts" title="チェックボックスのデータを円グラフにしたイメージ">}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
 ## チェックボックスのデータをCSVに出力{#csv}
 

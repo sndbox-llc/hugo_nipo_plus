@@ -5,13 +5,13 @@ toc = true
 images = ['report1_tablet.png']
 tags = ["集計"]
 date = "2023-06-15"
-aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/"]
+aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/", "/legacy/manual/analytics/"]
 [sitemap]
   priority = 0.9
 +++
 
 例えば10名から毎日日報が提出されると**1か月で200通**を超えてしまいます。報告がルーチン化すると、「読み流す」だけのたんなる流れ作業になっていませんか？  
-報告書は、現場の生きた声です。ぜひとも有効に活用したいものです。  
+レポートは、現場の生きた声です。ぜひとも有効に活用したいものです。  
 日報の中でも、集計が可能な項目があります。例えば次のような日報を想定してみましょう。
 
 {{<icatch filename="report1" msg="日報のデータ 自動で集計できる！" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="here">}}

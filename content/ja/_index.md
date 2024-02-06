@@ -19,7 +19,7 @@ showPrice = true
 - テンプレートは最大999種類保管可能
 - 作成したテンプレートは繰り返し何度でも使用可能です
 
-{{<icatch filename="make-template" msg="入力フォームを並べて テンプレートを作る" title="報告書のテンプレートを作成" fontsize="30px" alice="pc">}}
+{{<icatch filename="make-template" msg="入力フォームを並べて テンプレートを作る" title="レポートのテンプレートを作成" fontsize="30px" alice="pc">}}
 
 {{<btnCenter "/docs/manual/initial-setting/template/make/" "マニュアル:テンプレートの作成">}}
 
@@ -92,7 +92,7 @@ showPrice = true
 - 集計結果はCSVでダウンロード可能、グラフもPNGで保存できます
 
 
-{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="報告書をグラフ化する" fontsize="30px" alice="pc">}}
+{{<icatch filename="chart" msg="日報をグラフ化して 視覚的に分析が可能" title="レポートをグラフ化する" fontsize="30px" alice="pc">}}
 
 エクセルを使った集計術などについては「[エクセル活用術](/excel/)」にまとめています。
 
@@ -120,7 +120,7 @@ showPrice = true
 - 作業ごとに日報を書く業務方式なら提出枚数＝作業量として評価しやすい
 - 提出状況からボタンクリックですぐ日報が読める
 
-{{<icatch filename="submission-status-list" msg="誰が出し忘れたのか？ 表を見ればすぐわかる" title="報告書の未提出者を瞬時に把握できる提出簿機能" fontsize="30px" alice="here">}}
+{{<icatch filename="submission-status-list" msg="誰が出し忘れたのか？ 表を見ればすぐわかる" title="レポートの未提出者を瞬時に把握できる提出簿機能" fontsize="30px" alice="here">}}
 
 ❌がついているセルは日報の提出がないところ。提出漏れのスタッフを見つけるのなんて簡単です。それが日報管理の大きな役割の一つとも言えます。  
 また、シフト管理と提出状況チェックが連動するため、❌が「提出忘れ」なのか、単に「休暇」なのかの判別も簡単にできます。シフトを登録しておけば、シフト表と照らし合わせる手間も有りません。

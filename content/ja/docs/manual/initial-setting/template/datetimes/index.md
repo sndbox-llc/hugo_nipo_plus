@@ -103,7 +103,7 @@ images = []
 
 {{<appscreen filename="charts" title="期間のデータ（単位：分）を使って積み上げたて棒グラフを作成した例。他にも折れ線や円グラフなど自由に作成できます">}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "報告書をグラフ化する">}}
+{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
 ### CSVs出力{#csv}
 
@@ -124,4 +124,4 @@ CSV出力時は開始時点・終了時点の2列に分けて出力されます�
 
 時刻以外の期間入力を一覧で記載します。
 
-{{<appscreen filename="input" title="報告書に期間入力を追加した例。いくつかのパタンーンがある">}}
+{{<appscreen filename="input" title="レポートに期間入力を追加した例。いくつかのパタンーンがある">}}

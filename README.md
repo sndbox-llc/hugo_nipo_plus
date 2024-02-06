@@ -58,7 +58,10 @@ find . -name '.DS_Store' -type f -ls -delete
 リンク切れのチェック(localhost環境下で同サイト内のリンク切れをチェックしてください)
 
 ```sh
-muffet --exclude="https://.*" http://localhost:1313
+hugo
+quasar serve public
+muffet  http://127.0.0.1:4000 -b 100000
+
 ```
 
 フォルダの中身サイズ順に表示する

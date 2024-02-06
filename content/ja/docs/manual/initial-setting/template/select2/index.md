@@ -1,5 +1,5 @@
 +++
-description = "日報テンプレートカスタムパーツの1つ。一覧から選ぶだけで入力が可能なフォームを報告書に追加できます。複数個選ぶことが可能です。集計にも対応しています"
+description = "日報テンプレートカスタムパーツの1つ。一覧から選ぶだけで入力が可能なフォームをレポートに追加できます。複数個選ぶことが可能です。集計にも対応しています"
 tags = ["語録機能", "集計可能フォーム", "テンプレートパーツ", "テンプレート"]
 title = "【選択式入力（複数回答）】を日報に追加"
 menuTitle = "🧩選択式入力（複数回答）"
@@ -28,7 +28,7 @@ images = []
   </label>
 </div>
 
-このような選択式フォームを報告書に追加できます。
+このような選択式フォームをレポートに追加できます。
 
 {{<icatch filename="select2" msg="選ぶだけの簡単入力 色分けも可能" title="選択肢入力フォームのテンプレート例" fontsize="30px" alice="here">}}
 
@@ -49,15 +49,15 @@ images = []
 
 <dl class="basic">
   <dt>入力切替を無効にする</dt>
-  <dd>ON:報告書作成時に入力方式を変更するボタンが非表示になります</dd>
+  <dd>ON:レポート作成時に入力方式を変更するボタンが非表示になります</dd>
   <dt>入力必須</dt>
-  <dd>ON:選択肢が選ばれていないと報告書の提出ができません</dd>
+  <dd>ON:選択肢が選ばれていないとレポートの提出ができません</dd>
   <dt>集計する</dt>
   <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
   <dt>選択肢を直接指定</dt>
   <dd>すぐ下の「選択肢」エリアに選択肢を入力できます。初期値はこの方式です</dd>
   <dt>選択肢を語録から取得</dt>
-  <dd>語録を使って単語を指定。以下のケースで導入を検討してください。<ul><li>選択肢の単語リストを使いまわしたい場合</li><li>選択肢を報告書作成時に自由に追加したい場合</li></ul><br>詳しくは<a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録</a>を参照</dd>
+  <dd>語録を使って単語を指定。以下のケースで導入を検討してください。<ul><li>選択肢の単語リストを使いまわしたい場合</li><li>選択肢をレポート作成時に自由に追加したい場合</li></ul><br>詳しくは<a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録</a>を参照</dd>
   <dt>入力方式</dt>
   <dd>以下から選択します。<ul><li>ラジオ式</li><li>プルダウン式</li></ul><br>プルダウンは検索が使えるため単語が多い場合に推奨</dd>
 </dl>
@@ -66,7 +66,7 @@ images = []
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
-{{<appscreen filename="template-edit-select2" title="選択肢入力フォームを含んだ報告書の設計">}}
+{{<appscreen filename="template-edit-select2" title="選択肢入力フォームを含んだレポートの設計">}}
 
 {{<nextArrow>}}
 {{<appscreen filename="select2-preview"  title="選択式の入力画面イメージ">}}

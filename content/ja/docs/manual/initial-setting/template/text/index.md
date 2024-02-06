@@ -1,5 +1,5 @@
 +++
-description = "日報テンプレートカスタムパーツの1つ。本文や備考・引き継ぎといった文字入力エリアを報告書に追加できます"
+description = "日報テンプレートカスタムパーツの1つ。本文や備考・引き継ぎといった文字入力エリアをレポートに追加できます"
 tags = ["テンプレートパーツ", "テンプレート"]
 title = "【文字入力】を日報に追加"
 menuTitle = "🧩文字入力"
@@ -9,7 +9,7 @@ aliases = ["/manual/initial-setting/template/text/", "/manual/org/groupsetting/t
 images = []
 +++
 
-文字入力フォームは報告書にシンプルな文字の入力フォームを追加します。
+文字入力フォームはレポートにシンプルな文字の入力フォームを追加します。
 改行を入れることで入力エリアが自動で広がります。
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
@@ -48,6 +48,6 @@ images = []
 
 {{<nextArrow>}}
 
-実際に報告書を書く際は次のように表示されます。
+実際にレポートを書く際は次のように表示されます。
 
 {{<appscreen filename="text-preview" title="作成したテンプレートのプレビュー">}}

@@ -29,13 +29,13 @@ images = []
 1. 計算式を入力
 1. 必要に応じてその他の設定を行う
 
-{{<appscreen filename="template-edit-calc" title="算術フォームを報告書テンプレートに追加">}}
+{{<appscreen filename="template-edit-calc" title="算術フォームをレポートテンプレートに追加">}}
 
 {{<nextArrow>}}
 
 最も重要なのは計算式を正しく作成することです。
 
-{{<appscreen filename="make-fomula" title="数式を入力して報告書内のデータから自動計算して結果を報告書に書き込みます">}}
+{{<appscreen filename="make-fomula" title="数式を入力してレポート内のデータから自動計算して結果をレポートに書き込みます">}}
 
 計算式に使えるエレメントは以下の通り
 
@@ -49,7 +49,7 @@ images = []
 
 {{<nextArrow>}}
 
-{{<appscreen filename="calc-preview" title="算術の含まれた報告書のプレビュー">}}
+{{<appscreen filename="calc-preview" title="算術の含まれたレポートのプレビュー">}}
 
 ## 算術で利用可能な入力フォーム{#required}
 

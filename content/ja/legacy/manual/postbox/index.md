@@ -14,7 +14,7 @@ aliases = ["/old/manual/postbox/", "/docs/old/manual/postbox/"]
 {{<btnCenter "/docs/manual/read-report/list/" "新バージョンでも使えます">}}
 
 
-## 日報受信ボックスに報告書が届きます{#read_report}
+## 日報受信ボックスにレポートが届きます{#read_report}
 
 グループのスタッフが作成した日報の内、あなたが読める日報だけがこの「受信ボックス」に表示されます。この受信ボックスは「一覧表示」と「詳細表示」の２種類の表示形式があります。
 

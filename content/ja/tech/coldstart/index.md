@@ -80,7 +80,7 @@ export default functions.pubsub.schedule('*/6 8-22 * * *').timeZone('JST').onRun
 ```
 
 さて、処理の流れですがフロントで書くFirebaseの処理とほぼ同じです。
-Firebaseにログインする必要があるため、この定期タスクを実行するためのアカウントをFirebase上に登録しておく必要があります。
+Firebaseにログインする必要があるため、この定期予定を実行するためのアカウントをFirebase上に登録しておく必要があります。
 このFirebaseユーザでログインをする処理がsignInWithEmailAndPasswordです。（フロントと全く同じですね）
 
 functions.https.onCall型の関数にアクセスする際は httpsCallable関数を使います。これもフロントの書き方と全く同じです。簡略のため即時実行の書き方をしています。

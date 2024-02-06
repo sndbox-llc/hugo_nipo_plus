@@ -31,7 +31,7 @@ JSON形式は { key: value }の形で表現されたデータ構造です。
 |owner|String|日報を作成したスタッフのID。[共用](/docs/manual/initial-setting/staff-local/share/)を使うときに作成者IDとしてセットされる。共用を使わない場合は後述する「account」と常に同じ値が入る|
 |account|String|日報を作成したFirebase上のユーザID|
 |templateId|String|その日報を作成するために使用されたテンプレートのID|
-|taskId|String|日報とタスクを紐付けられたとき、タスクのIDガセットされる|
+|taskId|String|日報と予定を紐付けられたとき、予定のIDがセットされる|
 
 以下は実際にAPIを使ってロードした日報のデータのサンプルです。
 

@@ -33,7 +33,7 @@ images = []
 <div class="col-sm-16 col-md-6">{{<button "/docs/manual/notice/app/" "アプリ内通知">}}</div>
 </div>
 
-{{<appscreen filename="edit" title="修正したい日報を選択します。ここでは送信BOXから探す手順ですが直接URLを開いてもいいですし、通知エリアからジャンプしても良いです">}}
+{{<appscreen filename="edit" title="修正したいレポートを選択します。ここでは送信BOXから探す手順ですが直接URLを開いてもいいですし、通知エリアからジャンプしても良いです">}}
 
 修正ボタンをクリックするとレポートの編集画面に切り替わります。一見するとレポートの作成画面と同じですが細かな違いがあります。
 

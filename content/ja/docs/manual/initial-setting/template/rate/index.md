@@ -61,7 +61,7 @@ images = []
 
 レート入力の結果をグラフにした例
 
-{{<appscreen filename="make-charts" title="日報に含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
+{{<appscreen filename="make-charts" title="レポートに含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 

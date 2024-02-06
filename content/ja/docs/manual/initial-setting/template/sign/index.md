@@ -1,5 +1,5 @@
 +++
-description = "テンプレートカスタムパーツの1つ。日報に直筆サインを追加できます。タブレット＆スタイラスペン推奨。受領サインなどに"
+description = "テンプレートカスタムパーツの1つ。レポートに直筆サインを追加できます。タブレット＆スタイラスペン推奨。受領サインなどに"
 tags = ["テンプレートパーツ", "テンプレート"]
 title = "【署名・イラスト入力】レポートテンプレートに追加"
 menuTitle = "🧩署名・イラスト入力"
@@ -38,7 +38,7 @@ images = []
 
 <dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
-  <dd>これがONの場合、イラストが描画されていないと日報の提出ができません</dd>
+  <dd>これがONの場合、イラストが描画されていないとレポートの提出ができません</dd>
   <dt>キャンバスサイズ</dt>
   <dd>以下から選択します。<ul><li>署名サイズ</li><li>全画面サイズ</li></ul>全画面サイズでは色変え機能も利用可能です。</dd>
 </dl>
@@ -52,7 +52,7 @@ images = []
 
 {{<appscreen filename="edit-report-template" title="署名入力フォームだけで構成されたテンプレートを作成しました。この例をもとに入力・出力画面をご紹介していきます">}}
 {{<nextArrow>}}
-{{<appscreen filename="input" title="日報作成画面。署名ボタンをタップして署名入力ウインドウがポップ表示されます">}}
+{{<appscreen filename="input" title="レポート作成画面。署名ボタンをタップして署名入力ウインドウがポップ表示されます">}}
 
 {{<nextArrow>}}
 
@@ -69,7 +69,7 @@ S/M/Lの３段階に調整できます。
 
 署名の書かれたレポートは指定した幅に合わせて描画されます。
 
-{{<appscreen filename="post" title="署名入力フォームを含んだ日報を受信したときの見え方">}}
+{{<appscreen filename="post" title="署名入力フォームを含んだレポートを受信したときの見え方">}}
 
 （※あくまで縮小されるだけでもとの署名データは同一です）
 
@@ -81,7 +81,7 @@ CSV出力のオプション設定から「写真・ファイル等を出力す�
 {{<appscreen filename="download" title="バイナリファイルを一括ダウンロード">}}
 
 これで[写真入力フォーム](/docs/manual/initial-setting/template/picture/)、[署名入力フォーム](/docs/manual/initial-setting/template/sign/)、[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)それぞれののデータがCSV出力時にまとめてダウンロードされます。
-それぞれの日報フォルダの中に写真や署名・データファイルなどがまとめられます。
+それぞれのレポートフォルダの中に写真や署名・データファイルなどがまとめられます。
 
 ### 署名のレポートをPDFに出力{#pdf}
 

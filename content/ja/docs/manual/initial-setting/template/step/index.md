@@ -54,7 +54,7 @@ images = []
 
 <dl class="basic">
   <dt>初期値</dt>
-  <dd>日報新規作成時にスライダのつまみが配置される位置です。最小値と最大値の中間となる値を推奨します</dd>
+  <dd>レポート新規作成時にスライダのつまみが配置される位置です。最小値と最大値の中間となる値を推奨します</dd>
   <dt>最小値</dt>
   <dd>スライダーの左端の値です。負数も利用できます</dd>
   <dt>最大値</dt>
@@ -80,7 +80,7 @@ images = []
 
 {{<nextArrow>}}
 
-{{<appscreen filename="slider-preview" title="スライダーを使った日報入力画面">}}
+{{<appscreen filename="slider-preview" title="スライダーを使ったレポート入力画面">}}
 
 ## スライダのデータを集計{#subtotal}
 

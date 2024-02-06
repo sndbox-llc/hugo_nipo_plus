@@ -16,7 +16,7 @@ images = []
 |:---:|:---:|:---:|:---:|
 |✗|○|○|○|
 
-{{<icatch filename="input-method-keyboard" msg="日報の本文や引 き継ぎの入力に最適" title="文字入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="input-method-keyboard" msg="レポートの本文や引 き継ぎの入力に最適" title="文字入力フォーム" fontsize="30px" alice="ok">}}
 
 主な用途には次のようなものがあります。
 
@@ -34,9 +34,9 @@ images = []
 
 <dl class="basic">
   <dt>入力必須</dt>
-  <dd>これがONの場合、日報提出時に文字が空欄だと日報が提出できなくなります</dd>
+  <dd>これがONの場合、レポート提出時に文字が空欄だとレポートが提出できなくなります</dd>
   <dt>初期値</dt>
-  <dd>日報新規作成時に最初から文字を入力済みにできます。不要の場合は空欄にしておきます</dd>
+  <dd>レポート新規作成時に最初から文字を入力済みにできます。不要の場合は空欄にしておきます</dd>
 </dl>
 
 

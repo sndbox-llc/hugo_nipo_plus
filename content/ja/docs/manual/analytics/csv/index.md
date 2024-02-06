@@ -31,7 +31,7 @@ CSV出力はWeb版のみ対応しています。Android / iOSアプリ版では�
 
 日別に分けてCSV出力したり、スタッフ別に分けてCSV出力できます。この機能を使うには対象となるテンプレートを1種類選ぶ必要があります。
 
-{{<appscreen filename="selectable-csv-download" title="日別やスタッフ別に分けて日報のダウンロードが可能です">}}
+{{<appscreen filename="selectable-csv-download" title="日別やスタッフ別に分けてレポートのダウンロードが可能です">}}
 
 
 

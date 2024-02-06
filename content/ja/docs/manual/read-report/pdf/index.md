@@ -24,7 +24,7 @@ PDFに変換する手順は次のとおりです。
 1. PDF作成完了まで待つ
 1. 作成処理が完了後にダウンロード通知が発行される
 
-{{<appscreen filename="report-to-pdf" title="1件の日報をPDFに変換してダウンロード">}}
+{{<appscreen filename="report-to-pdf" title="1件のレポートをPDFに変換してダウンロード">}}
 
 PDFの作成には少し時間がかかります。完了後、画面右下に通知が届くのでその通知からPDFをダウンロードできます。
 なおPDF作成中に他の作業へ切り替えても問題有りません。
@@ -34,7 +34,7 @@ PDFの作成には少し時間がかかります。完了後、画面右下に�
 
 ダウンロードしたPDFは普通のPDFファイルとして扱えます。
 
-{{<appscreen filename="pdf-download" title="PDFの日報をダウンロードしてブラウザで表示">}}
+{{<appscreen filename="pdf-download" title="PDFのレポートをダウンロードしてブラウザで表示">}}
 
 
 ## PDFの出力設定{#setting}

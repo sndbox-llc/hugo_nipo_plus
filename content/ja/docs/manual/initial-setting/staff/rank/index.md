@@ -35,11 +35,11 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 例：
 <ul>
 <li><a href="/docs/manual/initial-setting/template/make/">テンプレートの作成</a></li>
-<li><a href="/docs/manual/initial-setting/staff-local/dist/">日報提出先の指定</a></li>
+<li><a href="/docs/manual/initial-setting/staff-local/dist/">レポート提出先の指定</a></li>
 <li>グループからスタッフを追放する</li>
 </dd>
 <dt>スタッフ</dt>
-<dd>日報の作成や集計など一般的なことが行なえますが、グループ全体に関する設定は一切不可</dd>
+<dd>レポートの作成や集計など一般的なことが行なえますが、グループ全体に関する設定は一切不可</dd>
 </dl>
 
 

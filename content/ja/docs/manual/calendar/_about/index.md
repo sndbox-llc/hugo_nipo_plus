@@ -1,6 +1,6 @@
 +++
 description = "カレンダー上にレポートが表示されます。日別にレポートを管理したいときに便利です。カレンダーは週・月の２種類用意しています"
-title = "日報をカレンダー上から確認できます"
+title = "レポートをカレンダー上から確認できます"
 menuTitle = "カレンダー概要"
 toc = true
 tags = ["有料プラン限定"]
@@ -11,7 +11,7 @@ images = ["mapping-reports-to-calendar_tablet.png"]
 
 レポートをカレンダー上に表示できます。日毎にレポートをチェックしたいときに便利です。
 
-{{<icatch filename="mapping-reports-to-calendar" msg="カレンダーから日報 を表示できます" title="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here">}}
+{{<icatch filename="mapping-reports-to-calendar" msg="カレンダーからレポート を表示できます" title="カレンダーモードではレポートの提出日や枚数が月単位で俯瞰できます" fontsize="30px" alice="here">}}
 
 ## カレンダーの表示切替{#switch}
 
@@ -26,7 +26,7 @@ images = ["mapping-reports-to-calendar_tablet.png"]
 
 ボタン1つで表示モードを簡単に切り替えできます。例えばスタッフカレンダーは次のような見た目をしています。（月間カレンダーは本ページ最初のアイキャッチ画像を参照）
 
-{{<appscreen filename="agenda" title="横軸に日付、縦軸にスタッフで構成されたカレンダー。スタッフごとの日報提出状況を把握し易い">}}
+{{<appscreen filename="agenda" title="横軸に日付、縦軸にスタッフで構成されたカレンダー。スタッフごとのレポート提出状況を把握し易い">}}
 
 ## 保存BOXとの違い{#diff}
 

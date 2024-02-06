@@ -1,7 +1,7 @@
 +++
 description = "WebAPIを使いレポートデータを取得します。APIコマンドの使い方に関する操作ガイドです"
 tags = ["有料プラン限定"]
-title = "APIを使い日報やテンプレートを取得する"
+title = "APIを使いレポートやテンプレートを取得する"
 menuTitle = "APIを使う"
 toc = true
 weight = 101010002
@@ -37,13 +37,13 @@ Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/
 
 <dl class="basic">
   <dt>reports/admin</dt>
-  <dd>管理者のみ実行可能。全ての日報を取得できるAPI</dd>
+  <dd>管理者のみ実行可能。全てのレポートを取得できるAPI</dd>
   <dt>reports/outbox</dt>
-  <dd>自分が送信した日報のデータのみ取得できるAPI</dd>
+  <dd>自分が送信したレポートのデータのみ取得できるAPI</dd>
   <dt>reports/inbox</dt>
-  <dd>自分が受信した日報のデータのみ取得できるAPI</dd>
-  <dt>report/:日報のID</dt>
-  <dd>IDを指定して1件の日報を取得できるAPI</dd>
+  <dd>自分が受信したレポートのデータのみ取得できるAPI</dd>
+  <dt>report/:レポートのID</dt>
+  <dd>IDを指定して1件のレポートを取得できるAPI</dd>
 </dl>
 
 他のエンドポイントについては本ページ末尾で解説します。
@@ -56,13 +56,13 @@ Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/
 |属性名|型|説明|
 |---|---|---|
 |groupId|String(必須)|取得するグループのID|
-|size|Number|取得する日報の件数。1〜1000の間で指定します。未指定の場合は10が自動で適用されます|
+|size|Number|取得するレポートの件数。1〜1000の間で指定します。未指定の場合は10が自動で適用されます|
 |from|String|期間（開始) 2022/08/01 00:00:00のような形で指定。必ずtoとセットで使用|
 |to|String|期間（終了) 2022/09/31 23:59:59のような形で指定。必ずfromとセットで使用|
 |tags|String配列|タグのIDを配列で指定|
-|states|String配列|日報の状態で絞り込み。["承認", "棄却", "修正", "新規", "進行"]のように指定|
+|states|String配列|レポートの状態で絞り込み。["承認", "棄却", "修正", "新規", "進行"]のように指定|
 |templates|String配列|使用したテンプレートのIDで絞り込み。テンプレートIDの配列で指定|
-|owners|String配列|日報作成者IDで絞り込み。スタッフのIDを配列で指定|
+|owners|String配列|レポート作成者IDで絞り込み。スタッフのIDを配列で指定|
 
 ### 【取得したAPIキー】{#auth}
 
@@ -184,9 +184,9 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 |名称|型|説明|必須|
 |---|---|---|---|
 |groupId|String|取得するグループのID|○|
-|size|Number|取得する日報の件数。1〜1000の間で指定|○|
-|from|String|取得する日報の期間（開始点) 2022/08/01 00:00:00のような形で指定|○|
-|to|string|取得する日報の期間（終了点) 2022/09/31 23:59:59のような形で指定|○|
+|size|Number|取得するレポートの件数。1〜1000の間で指定|○|
+|from|String|取得するレポートの期間（開始点) 2022/08/01 00:00:00のような形で指定|○|
+|to|string|取得するレポートの期間（終了点) 2022/09/31 23:59:59のような形で指定|○|
 
 ```sh
 # 記述例

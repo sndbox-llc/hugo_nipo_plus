@@ -9,10 +9,10 @@ mermaid = false
 showPrice = true
 +++
 
-## ノーコードで作る、オリジナル日報テンプレート{#customize_template}
+## ノーコードで作る、オリジナルテンプレート{#customize_template}
 
 プログラミングの知識不要でオリジナルのレポート（日報やチェックシートなど）のテンプレートを自由に作成できます。  
-[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/math/)、[画像入力](/docs/manual/initial-setting/template/picture/)、[選択入力](/docs/manual/initial-setting/template/select/)などの豊富な入力部品を用意しています。これらをブロックのように並べ、最後にタイトルをつければオリジナル日報テンプレートの出来上がりです。  
+[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/math/)、[画像入力](/docs/manual/initial-setting/template/picture/)、[選択入力](/docs/manual/initial-setting/template/select/)などの豊富な入力部品を用意しています。これらをブロックのように並べ、最後にタイトルをつければオリジナルテンプレートの出来上がりです。  
 ブロックの幅を変えたり、見出しの色を変えることでより使い勝手の良いテンプレートを作ることが可能です。
 
 - 10を超す豊富なパーツから選んで並べるだけの簡単作成
@@ -48,9 +48,9 @@ showPrice = true
 - 入力必須を指定して記入漏れをなくすことができます
 - 項目の入力順序を制御することで工程飛ばしを防ぎつつ、次の記入先を明瞭化できます
 
-{{<imgproc report-guide.webp "この画像では、日報テンプレート内で使える色分けや説明用画像の例を示しています" />}}
+{{<imgproc report-guide.webp "この画像では、テンプレート内で使える色分けや説明用画像の例を示しています" />}}
 
-{{<btnCenter "/tips/userfriendly/" "使いやすい日報テンプレートを作る">}}
+{{<btnCenter "/tips/userfriendly/" "使いやすいテンプレートを作る">}}
 
 
 {{<nextArrow>}}

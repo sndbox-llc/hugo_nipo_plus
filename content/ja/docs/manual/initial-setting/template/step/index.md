@@ -1,5 +1,5 @@
 +++
-description = "日報テンプレートカスタムパーツの1つ。つまみをドラッグして入力できるフォームをレポートに追加できます"
+description = "テンプレートカスタムパーツの1つ。つまみをドラッグして入力できるフォームをレポートに追加できます"
 tags = ["集計可能フォーム", "テンプレートパーツ", "テンプレート"]
 title = "【スライダ入力】レポートテンプレートに追加"
 menuTitle = "🧩スライダ入力"
@@ -76,7 +76,7 @@ images = []
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-{{<appscreen filename="template-edit-slider" title="スライダ入力フォームのみで構成された日報テンプレート">}}
+{{<appscreen filename="template-edit-slider" title="スライダ入力フォームのみで構成されたテンプレート">}}
 
 {{<nextArrow>}}
 

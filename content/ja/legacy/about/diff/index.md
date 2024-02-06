@@ -54,13 +54,13 @@ Nipoでもグループ分けは可能でしたが、あくまでも「グルー�
 {{<btnCenter "/docs/manual/initial-setting/_about/" "初期設定・組織について">}}
 
 
-## 日報テンプレートのカスタマイズ性が向上しました{#customize}
+## テンプレートのカスタマイズ性が向上しました{#customize}
 
 Nipoでは1行につき最大2列までという制限がありました。
 これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。
-幅を自由に設定できるためより本物に近い[日報テンプレートを作成](/docs/manual/initial-setting/template/_about/)できるようになりました。
+幅を自由に設定できるためより本物に近い[テンプレートを作成](/docs/manual/initial-setting/template/_about/)できるようになりました。
 
-{{<icatch filename="responsive-design" msg="日報テンプレートの 設計自由度がUP" title="日報テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here">}}
+{{<icatch filename="responsive-design" msg="テンプレートの 設計自由度がUP" title="テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here">}}
 
 NipoPlusから新しく追加された[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)を使えばZipやPDFといったデータを日報に添付できるようになります。
 また、[算術入力フォーム](/docs/manual/initial-setting/template/calc/)や[期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)なども新たに追加されました。

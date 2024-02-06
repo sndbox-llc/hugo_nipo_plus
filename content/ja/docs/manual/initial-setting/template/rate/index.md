@@ -1,5 +1,5 @@
 +++
-description = "日報テンプレートカスタムパーツの1つ。レビューでおなじみの★を使った入力レポートテンプレートに追加できます。集計にも対応"
+description = "テンプレートカスタムパーツの1つ。レビューでおなじみの★を使った入力レポートテンプレートに追加できます。集計にも対応"
 tags = ["集計可能フォーム", "テンプレートパーツ", "テンプレート"]
 title = "【レート入力★★☆☆☆】レポートテンプレートに追加"
 menuTitle = "🧩レート入力★★☆☆☆"
@@ -42,7 +42,7 @@ images = []
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-{{<appscreen filename="template-edit-rate" title="レート入力のみで構成された日報テンプレートの作成画面">}}
+{{<appscreen filename="template-edit-rate" title="レート入力のみで構成されたテンプレートの作成画面">}}
 
 {{<nextArrow>}}
 

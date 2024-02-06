@@ -6,6 +6,7 @@ draft = false
 images = []
 aliases = ["/old/", "/docs/old/_about/"]
 mermaid = false
+showPrice = true
 +++
 
 ## ノーコードで作る、オリジナル日報テンプレート{#customize_template}

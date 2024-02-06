@@ -19,9 +19,10 @@
     <!-- TOPのヒーローはここにいる -->
     {{ block "rootHero" . }}{{ end }}
 
-        <!-- 一方でLPのヒーローはここに来てしまう -->
-        {{ block "main" . }}{{ end }}
-    {{ block "price" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
+    {{ if .Params.showPrice }}
+    {{ partial "custom/price.html" . }}
+  {{ end }}
 
     <div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
       {{ partial "custom/cta.html" . }}

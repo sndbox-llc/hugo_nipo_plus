@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
 	<div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
-
 <!-- TOPページのメインコンテンツ -->
 <section>
   <div class="row justify-content-center ">
@@ -39,7 +38,7 @@
 <div id="myhero">
   <h1 class="headLine">カスタマイズ可能なテンプレートで日報や点検表を簡単作成<br>NipoPlus</h1>
   <ul class="heroList">
-    <li><a href="/tips/photo/">写真付きの報告書</a>や<a href="/tips/checksheet/">設備点検シート</a>、直筆サインを含む多様な報告書をノーコードで作成できます</li>
+    <li><a href="/tips/photo/">写真付きの報告書</a>や<a href="/lp/checksheet/">設備点検シート</a>、直筆サインを含む多様な報告書をノーコードで作成できます</li>
     <li><a href="/tips/mobile-device/">PC、タブレット、スマートフォン</a>に対応。ブラウザ版のほかAndroid/IOS専用アプリも用意しています</li>
     <li><a href="/tips/analytics/">データの集計・グラフ化も簡単</a>にできます。CSV・PDF出力にも対応</li>
   </ul>
@@ -53,78 +52,6 @@
 {{ end }}
 
 
-{{ define "price" }}
-<section class="section section-sm" style="background: rgba(178, 205, 214, 0.875)">
-
-<div class="container my-5">
-<h2 class="text-center">料金は4名までは無料でも使えます</h2>
-  <div class="text-center">
-    無料でも基本機能はずっと使える無料プラン。全ての機能が利用可能な有料プランがあります。  
-    有料プランは1名180円と業界最安値水準です。5名から申し込み可能です
-    安くても性能に妥協は有りません
-  </div>
-  <div class="row justify-content-center align-items-stretch">
-    <div class="col-md-5 mb-5">
-      <div class="card h-100">
-        <div class="card-header bg-primary text-white">
-          <h3 class="my-0 fw-normal" style="color: white;">無料プラン</h3>
-        </div>
-        <div class="card-body d-flex flex-column">
-          <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.free }}<small class="text-muted">/月</small></p>
-          <ul class="list-unstyled mt-3">
-            <li>4名まで</li>
-            <li>🟢日報作成など必要最低限の機能</li>
-            <li>❌集計やコメントなどの付加機能</li>
-            <li>⚠テンプレート数などに制限あり</li>
-          </ul>
-          <a href="/docs/price/free/" class="d-block btn btn-lg btn-outline-primary mt-auto">詳細</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-5 mb-5">
-      <div class="card h-100">
-        <div class="card-header bg-primary text-white">
-          <h3 class="my-0 fw-normal" style="color: white;">GOLDプラン(自動更新有)</h3>
-        </div>
-        <div class="card-body d-flex flex-column">
-          <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.goldCredit }}<small class="text-muted">/月</small></p>
-          <ul class="list-unstyled mt-3">
-            <li>5名〜999名</li>
-            <li>🟢すべての機能が利用可能です</li>
-            <li>自動更新有り（毎月）</li>
-            <li>※1名あたりの単価（税込）です</li>
-          </ul>
-          <a href="/docs/price/fee/" class="d-block btn btn-block btn-lg btn-outline-primary mt-auto">詳細</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-5 mb-5">
-      <div class="card h-100">
-        <div class="card-header bg-primary text-white">
-          <h3 class="my-0 fw-normal" style="color: white;">GOLDプラン(請求書)</h3>
-        </div>
-        <div class="card-body d-flex flex-column">
-          <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.goldInvoice }}<small class="text-muted">/月</small></p>
-          <ul class="list-unstyled mt-3 ">
-            <li>5名〜999名</li>
-            <li>🟢すべての機能が利用可能です</li>
-            <li>自動更新無し（手動で更新）</li>
-            <li>請求書を発行して決済します</li>
-            <li>※1名あたりの単価（税込）です</li>
-          </ul>
-          <a href="/docs/price/invoice/" class="d-block btn btn-lg btn-outline-primary mt-auto">詳細</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="text-center">
-    <a href="/docs/price/_about/#diff">同業他社との料金比較</a>
-  </div>
-
-</div>
-
-</section>
-{{ end }}
 
 
 {{ define "sidebar-prefooter" }}

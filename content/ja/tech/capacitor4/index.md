@@ -34,7 +34,7 @@ src-capacirorフォルダを開き、package.jsonを修正します。 capacitor
 {
   "name": "nipo_plus",
   "version": "1.21.0",
-  "description": "日報・チェックシートのWeb管理システム",
+  "description": "レポートWeb管理システム",
   "author": "sandbox LLC <info@sndbox.jp>",
   "private": true,
   "dependencies": {

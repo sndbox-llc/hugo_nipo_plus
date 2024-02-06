@@ -18,7 +18,7 @@ NipoPlusのバックエンドはFirebaseを使用しています。アカウン�
 
 リレーショナルデータベースなどに比べるとどうしてもクエリの制限が気になります。2つ以上のキーで絞り込みをする場合はインデックスの作成が必要になってきますし、全文検索などもサポートされていません。
 弱点を補って余る程の魅力があるFireStoreですが、実際にアプリを作ると様々な検索が必要になってきますのでFireStore単体だとどうしても行き詰まってしまうことでしょう。
-例えば次の画面はNipoPlusで日報データを検索する画面です。
+例えば次の画面はNipoPlusでレポートを検索する画面です。
 
 {{<imgproc report-search.png "NipoPlusの検索画面の例。このように複雑な検索はFireStore単体では実装することができません。" />}}
 
@@ -39,7 +39,7 @@ FireStoreの便利な点と、Elastic Searchの高度な検索を組み合わせ
 
 まずはElasticSearchのデータベースを準備することからはじめます。ElasticSearchではデータを保存すると良しなに型を決めてくれますが、実際は予め型（スキーマ）を決めておいたほうが良いです。
 スキーマの作成は記述量が多くなるのでtsファイルなどに書き、いつでも作成出来るようにしておくとデータベースの復旧などでも使い回せるのでオススメです。
-例えばNipoPlusの日報データに関するスキーマは次のように作成しています(一部紹介)
+例えばNipoPlusのレポートに関するスキーマは次のように作成しています(一部紹介)
 
 ```javascript
 import { IndicesCreateRequest, MappingTextProperty } from "@elastic/elasticsearch/lib/api/types";

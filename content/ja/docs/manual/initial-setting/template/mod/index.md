@@ -1,7 +1,7 @@
 +++
 description = ""
 tags = ["テンプレートパーツ", "テンプレート"]
-title = "【商品入力】を日報に追加"
+title = "【商品入力】をレポートテンプレートに追加"
 menuTitle = "🧩商品入力"
 toc = true
 weight = 101001118

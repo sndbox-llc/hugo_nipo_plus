@@ -2,7 +2,7 @@
 description = "日報テンプレートカスタムパーツの1つ。日報に写真を添付できるようになります。作業現場の写真をタブレットで撮影し、タブレットで日報を書き、そのまま提出できます。"
 tags = ["テンプレートパーツ", "テンプレート"]
 menuTitle = "🧩写真入力"
-title = "【写真入力】を日報に追加"
+title = "【写真入力】レポートテンプレートに追加"
 toc = true
 weight = 101001112
 aliases = ["/manual/initial-setting/template/picture/", "/manual/org/groupsetting/template/picture/"]

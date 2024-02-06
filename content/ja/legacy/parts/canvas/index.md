@@ -33,7 +33,7 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 
 Nipoの受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_canvas3.png "クラウド日報Nipoのアプリ上から手書きメモを含む日報を表示した画面" />}}
+{{<imgproc parts_canvas3.png "クラウド日報Nipoのアプリ上から手書きメモを含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

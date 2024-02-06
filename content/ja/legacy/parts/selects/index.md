@@ -46,7 +46,7 @@ aliases = ["/old/parts/selects/", "/docs/old/parts/selects/"]
 
 Nipoの受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_selectm6.png "クラウド日報Nipoのアプリ上から選択肢を含む日報を表示した画面" />}}
+{{<imgproc parts_selectm6.png "クラウド日報Nipoのアプリ上から選択肢を含むレポートを表示した画面" />}}
 
 Nipoの受信Boxなどから表示される見た目は、1行テキストとほとんど変わりありません。
 

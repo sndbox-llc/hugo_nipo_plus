@@ -32,7 +32,7 @@ aliases = ["/old/parts/time/", "/docs/old/parts/time/"]
 
 Nipoの受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_time4.png "クラウド日報Nipoのアプリ上から時刻を含む日報を表示した画面" />}}
+{{<imgproc parts_time4.png "クラウド日報Nipoのアプリ上から時刻を含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

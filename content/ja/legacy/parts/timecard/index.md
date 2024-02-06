@@ -55,7 +55,7 @@ aliases = ["/old/parts/timecard/", "/docs/old/parts/timecard/"]
 
 Nipoの受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_tc6.png "クラウド日報Nipoのアプリ上からタイムカードを含む日報を表示した画面" />}}
+{{<imgproc parts_tc6.png "クラウド日報Nipoのアプリ上からタイムカードを含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

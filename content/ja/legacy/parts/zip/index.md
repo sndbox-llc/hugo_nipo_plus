@@ -34,7 +34,7 @@ aliases = ["/old/parts/zip/", "/docs/old/parts/zip/"]
 
 Nipoの受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_zip4.png "クラウド日報Nipoのアプリ上から住所を含む日報を表示した画面" />}}
+{{<imgproc parts_zip4.png "クラウド日報Nipoのアプリ上から住所を含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

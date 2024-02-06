@@ -56,7 +56,7 @@ aliases = ["/manual/initial-setting/template/array/"]
 ゴミ箱が見えないときは横にスクロールしてください
 {{</alice>}}
 
-## 反復の日報を表示{#show}
+## 反復のレポートを表示{#show}
 
 反復入力では偶数行と奇数行で色が互い違いに表示されます。
 

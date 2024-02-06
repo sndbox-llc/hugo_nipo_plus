@@ -36,7 +36,7 @@ aliases = ["/old/parts/math/", "/docs/old/parts/math/"]
 
 Nipoの受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_math5.png "クラウド日報Nipoのアプリ上から数値を含む日報を表示した画面" />}}
+{{<imgproc parts_math5.png "クラウド日報Nipoのアプリ上から数値を含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

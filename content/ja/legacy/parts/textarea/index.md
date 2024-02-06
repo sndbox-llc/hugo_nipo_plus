@@ -32,7 +32,7 @@ aliases = ["/old/parts/textarea/", "/docs/old/parts/textarea/"]
 
 Nipoの受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_textarea4.png "クラウド日報Nipoのアプリ上から本文を含む日報を表示した画面" />}}
+{{<imgproc parts_textarea4.png "クラウド日報Nipoのアプリ上から本文を含むレポートを表示した画面" />}}
 
 ## 本文の設定画面{#setting}
 

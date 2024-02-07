@@ -1,7 +1,7 @@
 +++
 description = "PCやスマートフォン・タブレットから利用可能です。Google ChromeまたはSafariの動作する環境が必要です"
 tags = []
-title = "動作環境"
+title = "🖥️動作環境"
 toc = true
 weight = 103000001
 aliases = ["/system/spec/"]
@@ -9,6 +9,7 @@ aliases = ["/system/spec/"]
   changefreq = "yearly"
   priority = 0.5
 +++
+
 
 ## Webアプリ版{#web}
 

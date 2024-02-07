@@ -1,7 +1,7 @@
 +++
 description = ""
 tags = []
-title = "タイムカードの設定"
+title = "⚙️タイムカードの設定"
 toc = true
 weight = 101007004
 aliases = ["/manual/timecard/setting/"]

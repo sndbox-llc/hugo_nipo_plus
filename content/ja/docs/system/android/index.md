@@ -2,7 +2,7 @@
 description = "Android端末にNipoPlusをインストールするにはPWAとしてインストールする方法、PlayStoreからダウンロードする方法があります。PWAを推奨しています。"
 tags = ["モバイル"]
 title = "AndroidにNipoPlusをインストール"
-menuTitle = "Androidで使う"
+menuTitle = "🤖Androidで使う"
 toc = true
 weight = 103000003
 aliases = ["/system/android/"]

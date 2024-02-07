@@ -1,7 +1,7 @@
 +++
 description = "レポートの提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
 tags = []
-title = "ログデータ"
+title = "📚ログデータ"
 toc = true
 weight = 101001204
 aliases = ["/manual/initial-setting/advanced-setting/log/", "/docs/manual/initial-setting/advanced-setting/log/"]

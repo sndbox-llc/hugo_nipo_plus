@@ -1,8 +1,8 @@
 +++
 description = "メールアドレスもパスワードも無しで手軽にNipoPlusを使ってみてください。言葉通りワンクリックでお試しができます。"
 tags = []
-title = "匿名アカウントは体験用の仮IDで、E-mailもパスワードも不要です"
-menuTitle = "匿名アカウント"
+title = "👤匿名アカウントは体験用の仮IDで、E-mailもパスワードも不要です"
+menuTitle = "👤匿名アカウント"
 toc = true
 weight = 101009004
 aliases = ["/manual/account/tokumei/"]

@@ -1,7 +1,7 @@
 +++
 description = "スタッフのレポート提出数やコメントの件数といった「活動」に関する履歴を見れます。"
 tags = ["要編集者権限"]
-title = "スタッフの活動実績"
+title = "📊スタッフの活動実績"
 toc = true
 weight = 101001036
 aliases = ["/manual/initial-setting/advanced-setting/activity/", "/docs/manual/initial-setting/advanced-setting/activity/"]

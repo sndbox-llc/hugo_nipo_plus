@@ -1,7 +1,7 @@
 +++
 description = "レポートを受け取った時やレポートが承認・棄却された際は通知が発行されます。通知をクリックして内容を確認します"
 tags = []
-title = "アプリ内の通知"
+title = "🔔アプリ内の通知"
 toc = true
 weight = 101006001
 aliases = ["/manual/notice/show/", "/docs/manual/notice/show/"]

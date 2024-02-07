@@ -1,8 +1,8 @@
 +++
 description = "レポートのデータをCSV出力する際に出力形式を変更できます。バックアップ用、集計用など目的に応じて設定してください"
 tags = ["有料プラン限定", "CSV出力"]
-title = "CSV出力の設定"
-menuTitle = "CSV出力の設定"
+title = "⚙️CSV出力の設定"
+menuTitle = "⚙️CSV出力の設定"
 toc = true
 weight = 101004020
 aliases = ["/manual/analytics/csvoption/"]

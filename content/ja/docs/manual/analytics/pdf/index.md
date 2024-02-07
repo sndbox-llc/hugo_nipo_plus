@@ -1,8 +1,8 @@
 +++
 description = "レポートのデータをPDFに一括で変換します。"
 tags = ["有料プラン限定", "PDF出力"]
-title = "複数のレポートをまとめてPDFに変換する"
-menuTitle = "PDF一括出力"
+title = "📄複数のレポートをまとめてPDFに変換する"
+menuTitle = "📄PDF一括出力"
 toc = true
 weight = 101004022
 aliases = ["/manual/analytics/pdf/"]

@@ -2,7 +2,7 @@
 description = "APIキーを使うことでCurlといったコマンドからレポートデータを取得できます。本ガイドはAPIキーの取得、破棄についての操作ガイドです"
 tags = ["有料プラン限定", "スタッフアカウント管理"]
 
-title = "APIキーの取得"
+title = "🔑APIキーの取得"
 toc = true
 weight = 101010001
 aliases = ["/manual/api/key/", "/docs/manual/api/"]

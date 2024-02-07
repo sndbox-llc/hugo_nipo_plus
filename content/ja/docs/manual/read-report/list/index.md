@@ -1,8 +1,8 @@
 +++
 description = "スタッフが作成したレポートは保存箱に蓄積されます。提出簿を見れば未提出者を素早く特定可能。検索機能で素早く目的のレポートを探し出せます"
 tags = []
-title = "保存ボックスからレポートを探す"
-menuTitle = "保存BOXから探して読む"
+title = "🔍保存ボックスからレポートを探す"
+menuTitle = "🔍保存BOXから探して読む"
 toc = true
 weight = 101003001
 aliases = ["/manual/read-report/list/"]

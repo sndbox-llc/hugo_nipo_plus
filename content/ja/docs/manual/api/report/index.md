@@ -1,7 +1,7 @@
 +++
 description = "WebAPIで取得したレポートデータの構造に関する操作ガイドです"
 tags = ["有料プラン限定"]
-title = "API取得のデータ構造"
+title = "📄API取得のデータ構造"
 toc = true
 weight = 101010003
 code = true

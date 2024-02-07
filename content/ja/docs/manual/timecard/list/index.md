@@ -1,7 +1,7 @@
 +++
 description = ""
 tags = []
-title = "タイムカードをリスト表示する"
+title = "📋タイムカードをリスト表示する"
 toc = true
 weight = 101007002
 aliases = ["/manual/timecard/list/"]

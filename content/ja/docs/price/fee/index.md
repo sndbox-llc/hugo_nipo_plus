@@ -2,7 +2,7 @@
 description = "1名180円のサブスクリプションです。5名から申込可能ですべての機能が利用可能になります"
 tags = ["Web版限定", "要管理者権限"]
 title = "毎月自動で決済される有料プランに加入する手順"
-menuTitle = "有料プラン（自動更新有）"
+menuTitle = "💳有料プラン（自動更新有）"
 toc = true
 weight = 102000003
 aliases = ["/price/fee/", "/docs/price/cancel/"]

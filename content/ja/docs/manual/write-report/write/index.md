@@ -1,8 +1,8 @@
 +++
 description = "テンプレートを選ぶ▶レポートを書く▶提出先を選ぶ（初回のみ）▶提出ボタンクリック。これでレポートが提出できます。"
 tags = []
-menuTitle = "レポートを書く"
-title = "レポートを書くまでの流れ"
+menuTitle = "✍️レポートを書く"
+title = "✍️レポートを書くまでの流れ"
 toc = true
 weight = 101002001
 aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual/write-report/_about/"]

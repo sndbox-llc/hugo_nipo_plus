@@ -1,8 +1,8 @@
 +++
 description = "レポートの提出が完了すると、提出者や管理者に対してメールで通知することができます。これにより、レポートの提出漏れを防ぎ、業務の効率化が図れます。"
 tags = ["有料プラン限定"]
-title = "メール通知"
-menuTitle = "メール通知"
+title = "📧メール通知"
+menuTitle = "📧メール通知"
 toc = true
 weight = 101006002
 aliases = ["/manual/notice/email/", "/docs/manual/notice/_about/"]

@@ -1,7 +1,7 @@
 +++
 description = ""
 tags = []
-title = "タイムカードを入力する"
+title = "✍️タイムカードを入力する"
 toc = true
 weight = 101007001
 aliases = ["/manual/timecard/input/"]

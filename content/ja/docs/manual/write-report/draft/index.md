@@ -1,8 +1,8 @@
 +++
 description = "レポートを一度に書き上げることができない場合は下書き機能を利用してください"
 tags = []
-title = "レポートを下書きとして保存する"
-menuTitle = "下書き機能"
+title = "📝レポートを下書きとして保存する"
+menuTitle = "📝下書き機能"
 toc = true
 weight = 101002003
 aliases = ["/manual/write-report/draft/"]

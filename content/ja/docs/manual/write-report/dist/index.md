@@ -1,8 +1,8 @@
 +++
 description = "レポートを承認できる人が「提出先」レポートを読むことができるのが「共有先」です。"
 tags = []
-title = "レポートの提出先と共有先について"
-menuTitle = "提出先と共有先"
+title = "📤レポートの提出先と共有先について"
+menuTitle = "📤提出先と共有先"
 toc = true
 weight = 101002002
 aliases = ["/manual/write-report/dist/"]

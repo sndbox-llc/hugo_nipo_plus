@@ -1,8 +1,8 @@
 +++
 description = "これまでのレポートのデータ推移を一覧表にして画面に表示します。前回や前々回と比較したりスタッフ同士の比較にも利用できます"
 tags = ["有料プラン限定"]
-title = "レポートデータをスタッフごとに集計する累積表"
-menuTitle = "データの累積"
+title = "📊レポートデータをスタッフごとに集計する累積表"
+menuTitle = "📊データの累積"
 toc = true
 weight = 101004001
 aliases = ["/manual/analytics/list/", "/docs/manual/analytics/list/"]

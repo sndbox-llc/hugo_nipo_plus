@@ -2,7 +2,7 @@
 description = "Nipoの新しいバージョンが公開されるたびにこのページでご案内します。Android/iOS/Web版それぞれで最新のバージョンが異なる場合があります。最も早く更新されるWeb版の利用を推奨しております"
 tags = []
 title = "システム更新履歴(リリースノート)"
-menuTitle = "システム更新履歴"
+menuTitle = "📜システム更新履歴"
 toc = true
 weight = 103000004
 aliases = ["/system/release-note/", "/old/system/releasenote/"]

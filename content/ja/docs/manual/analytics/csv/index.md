@@ -1,8 +1,8 @@
 +++
 description = "期間を指定してレポートのデータを一括でCSVに出力できます。バックアップやエクセルを使った集計分析、印刷など様々な形でご利用いただけます"
 tags = ["有料プラン限定", "Web版限定", "CSV出力"]
-title = "レポートのCSV一括ダウンロード"
-menuTitle = "CSV一括出力"
+title = "🗂️レポートのCSV一括ダウンロード"
+menuTitle = "🗂️CSV一括出力"
 toc = true
 weight = 101004021
 aliases = ["/manual/analytics/csv/"]

@@ -1,7 +1,7 @@
 +++
 description = "提出したレポートに誤りがあったり棄却された際は修正して再提出できます。または削除して新規に作ることもできます"
 tags = []
-title = "レポートの修正"
+title = "🛠️レポートの修正"
 toc = true
 weight = 101002004
 aliases = ["/manual/write-report/rewrite/"]

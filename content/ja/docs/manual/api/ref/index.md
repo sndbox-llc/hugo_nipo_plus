@@ -2,7 +2,7 @@
 description = "WebAPIを使いレポートデータを取得します。APIコマンドの使い方に関する操作ガイドです"
 tags = ["有料プラン限定"]
 title = "APIを使いレポートやテンプレートを取得する"
-menuTitle = "APIを使う"
+menuTitle = "🤖APIを使う"
 toc = true
 weight = 101010002
 code = true

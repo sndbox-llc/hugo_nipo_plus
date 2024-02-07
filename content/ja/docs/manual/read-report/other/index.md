@@ -1,8 +1,8 @@
 +++
 description = ""
 tags = []
-title = "レポートの詳細情報を表示する"
-menuTitle = "レポートの詳細情報を表示する"
+title = "ℹレポートの詳細情報を表示する"
+menuTitle = "ℹレポートの詳細情報を表示する"
 toc = true
 weight = 101003006
 aliases = ["/manual/read-report/other/"]

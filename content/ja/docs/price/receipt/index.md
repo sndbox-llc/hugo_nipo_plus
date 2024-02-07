@@ -2,7 +2,7 @@
 description = "NipoPlusでお支払い頂いた領収証は管理画面からダウンロードできます"
 tags = ["Web版限定", "要管理者権限"]
 title = "領収証をダウンロードする"
-menuTitle = "領収証の発行"
+menuTitle = "🧾領収証の発行"
 toc = true
 weight = 102000006
 aliases = ["/price/invoice/"]

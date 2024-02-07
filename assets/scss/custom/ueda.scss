@@ -342,3 +342,20 @@ blockquote {
 .tableWrapper table {
   min-width: 768px; /* 例として、768pxを設定 */
 }
+p {
+  a {
+    font-weight: bold;
+    color: #4843b0;
+  }
+}
+
+.playBtn {
+  background-color: transparent;
+  color: red; 
+  border: 2px solid red; /* 枠線を赤色に設定 */
+  border-radius: 10px; /* 角の丸みを指定 */
+  font-size: 14px; /* 文字のサイズを指定 */
+  padding: 10px 20px; /* 上下のパディングを10px、左右のパディングを20pxに設定 */
+  cursor: pointer; /* マウスカーソルをポインターに設定 */
+  outline: none; /* フォーカス時のアウトラインを無くす */
+}

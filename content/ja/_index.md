@@ -39,7 +39,7 @@ showPrice = true
 
 {{<icatch filename="write-report" msg="テンプレートに沿って 日報を書きます" title="テンプレートに沿って日報を書き上げる" fontsize="30px" alice="ok">}}
 
-{{<btnCenter "/docs/manual/write-report/write/" "マニュアル:日報を書く">}}
+{{<btnCenter "/docs/manual/write-report/write/" "マニュアル:レポートを書く">}}
 
 
 デジタルに不慣れな方や新人の方でも安心して使える様々なサポート機能が充実しています。例えば次のようなサポート機能があります。
@@ -74,7 +74,7 @@ showPrice = true
 {{<icatch filename="read-report" msg="提出された日報を読む 承認やコメントも" title="提出された日報を読む 承認やコメントも" fontsize="30px" alice="ok">}}
 
 
-{{<btnCenter "/docs/manual/read-report/_about/" "マニュアル:日報を読む">}}
+{{<btnCenter "/docs/manual/read-report/_about/" "マニュアル:レポートを読む">}}
 
 {{<nextArrow>}}
 
@@ -96,7 +96,7 @@ showPrice = true
 
 エクセルを使った集計術などについては「[エクセル活用術](/excel/)」にまとめています。
 
-{{<btnCenter "/tips/analytics/" "日報をワンクリックで集計する">}}
+{{<btnCenter "/tips/analytics/" "Tips:日報をワンクリックで集計">}}
 
 また、日報を印刷したり、メールで送りたい場合は日報をそのままPDFに変換する機能も便利です。
 
@@ -107,7 +107,7 @@ showPrice = true
 {{<imgproc pdf.webp "日報やチェックシートなどのデータを簡単にPDFに変換してダウンロードできます" />}}
 
 
-{{<btnCenter "/docs/manual/read-report/pdf/" "PDF出力">}}
+{{<btnCenter "/docs/manual/read-report/pdf/" "マニュアル:PDF出力">}}
 
 
 

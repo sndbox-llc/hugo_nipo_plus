@@ -15,7 +15,7 @@ code = true
 Vue js上でGoogleカレンダーのデータを取得して表示しようと思いましたが思いの外苦労しました。  
 環境はVue.js(Composition API）＋TypeScriptです。フレームワークは Quasarを使用しています。
 
-## gapiよ、なぜ君はnode moduleに登録されていないのか？
+## gapiよ、なぜ君はnode moduleに登録されていないのか？{#gapi}
 
 今どきのフロントエンジニアっ子はyarn addとか、npm installって叩くだけでその機能が追加できるnode moduleに慣れきっています。逆に、
 
@@ -46,7 +46,7 @@ node_moduleとしてインストールできない以上、マニュアルに従
 一応[Vue向けのGapi](https://github.com/vue-gapi/vue-gapi)もありましたがあまり活発な開発とは言えず、
 またVue3への移行も検討している中で余計な依存は増やしたくないため、今回は見送りました
 
-## VueJSでGapiを使えるようにしよう
+## VueJSでGapiを使えるようにしよう{#vue_use_gapi}
 
 index.htmlのヘッダーで
 
@@ -109,7 +109,7 @@ function test () {
 ちなみに<a href="https://www.youtube.com/watch?v=Bj15-6rBHQw" target="_blank">この動画</a>で「gapi」を「ギャッピー」と呼んでいました。だからgapiは「じーえーぴーあい」ではなく「ギャッピー」と呼びましょう
 {{</alice>}}
 
-## TypeScriptにGapiを認識させるまでの流れ
+## TypeScriptにGapiを認識させるまでの流れ{#how_to_use_gapi}
 
 gapiの型定義は、いつもの型定義郡からダウンロードできます。gapiの型定義はかなり細分化されて公開されているようでした。今回私が必要だったのは、
 
@@ -144,7 +144,7 @@ import { defineComponent, onMounted } from '@vue/composition-api';
 
 {{<imgproc gapi_type.png "GAPIの型定義がVSCode上で認識された" />}}
 
-## gapi is not definedを回避するためのdeclare
+## gapi is not definedを回避するためのdeclare{#fixed_declare}
 
 さて、gapiに型が当たりましたがgapi自体はVue上に定義されていません。それもそのはずで、
 
@@ -298,7 +298,7 @@ export default defineComponent({
 
 グーグルに認証を通してログインすると、ログイン中のユーザのカレンダー予定が画面に表示されます。なおAPI Keyの取得やCliantIDの作成は[Google Developer Console](https://console.cloud.google.com/)から行います。
 
-## front endで実装するべきか、サーバ側で実装するべきか？
+## front endで実装するべきか、サーバ側で実装するべきか？{#question}
 
 ここまでの例はすべてフロントで完結するプログラムです。色々調べて見るとnodeJSのgapiも用意されているようです。
 FirebaseであればCloud functionsで実装できそうな雰囲気がありますね。認証Tokenのリフレッシュが必要だったりTokenを保存する仕組みだったりと色々宿題もたくさんありますが。

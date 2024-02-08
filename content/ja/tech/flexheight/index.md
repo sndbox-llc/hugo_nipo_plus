@@ -31,7 +31,7 @@ display: flex
 ```
 
 
-## 高さを揃えるには items-stretchではなくheight:100%
+## 高さを揃えるには items-stretchではなくheight:100%{#height_flex}
 
 とまあ、ここまでは前置きです。rowやcolといった便利なクラスですが、要素の高さが違うと見た目が不格好になるというデメリットがあります。
 

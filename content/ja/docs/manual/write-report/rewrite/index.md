@@ -29,7 +29,7 @@ images = []
 修正するレポートは送信BOXから見つけることができます。あるいは通知エリアから直接、修正するレポートへ飛ぶこともできます。
 
 <div class="row justify-content-center">
-<div class="col-sm-16 col-md-5">{{<button "/docs/manual/read-report/list/" "保存BOXについて">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "/docs/manual/read-report/list/" "保存箱について">}}</div>
 <div class="col-sm-16 col-md-6">{{<button "/docs/manual/notice/app/" "アプリ内通知">}}</div>
 </div>
 

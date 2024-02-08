@@ -28,9 +28,9 @@ images = ["mapping-reports-to-calendar_tablet.png"]
 
 {{<appscreen filename="agenda" title="横軸に日付、縦軸にスタッフで構成されたカレンダー。スタッフごとのレポート提出状況を把握し易い">}}
 
-## 保存BOXとの違い{#diff}
+## 保存箱との違い{#diff}
 
-レポートを読む際は保存BOXからも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
-検索が必要な場合はレポート保存箱を活用してください。
+レポートを読む際は[保存箱](/docs/manual/read-report/list/)からも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
+検索が必要な場合はレポート[保存箱](/docs/manual/read-report/list/)を活用してください。
 
 {{<btnCenter "/docs/manual/read-report/list/" "レポート保存箱">}}

@@ -10,7 +10,7 @@ date = "2022-11-14"
   priority = 0.5
 +++
 
-## FireStoreで全文検索をする方法3種類を比較してみた
+## FireStoreで全文検索をする方法3種類を比較してみた{#hikaku}
 
 ご存知の通りFireStoreは[全文検索機能をサポートしておりません](https://firebase.google.com/docs/firestore/solutions/search?hl=ja&provider=elastic)。それ以外の機能がとても優秀なだけに、非常に残念です。  
 全文検索をするには外部の全文検索データベースを併用することを案内しております。
@@ -26,7 +26,7 @@ Firebase公式サイトでは、全文検索データベースとして、
 これらのデータベースの目的は、FireStoreで補えない全文検索をサポートするという目的に着眼しています。  
 すべてのDBで共通ですが、データの書き込みは Firebase Cloud Functionsを使うことになります。
 
-## Algolia
+## Algolia{#algolia}
 
 最も簡単で即効性のある全文検索データベースでした。導入までのハードルは低いです。  
 難しいことを考えずとも良しなにインデックスしてくれます。
@@ -48,7 +48,7 @@ Cloud FunctionsからFirebaseのログインユーザIDなどを取得して、�
 |精度|4|
 |コスト|1|
 
-## Typesense
+## Typesense{#typesense}
 
 Algoliaの廉価版という立ち位置かな？と思いますが、Algoliaより優れた点も多くあります。  
 Algolia同様に制限付きAPIキーを発行できるのはとても便利です。Cloud Functionsから制限つきAPIキーをフロントに渡せば、フロント側で直接Typesenseにアクセスできます。  
@@ -76,7 +76,7 @@ Typesenseでは数値フィールドであれば自由にソートできる点�
 |精度|2|
 |コスト|4|
 
-## Elastic Search
+## Elastic Search{#es}
 
 3つのデータベースの中では最もとっつきにくいですが、最も優秀でした。
 日本語の全文検索制度を語る上で外すことのできないN-gramや形態素解析といった機能がプラグインとして予め用意されています。  
@@ -106,7 +106,7 @@ AlgoliaやTypesenseの管理画面は比較的GUIチックでデータを直感�
 |精度|4|
 |コスト|4|
 
-## 総括
+## 総括{#finally}
 
 Firebaseの公式サイトで紹介されている3つの全文検索を、実際に使った側の立場でざっくりとまとめてみました。  
 個人的に最も推奨するのはElastic Searchです。  

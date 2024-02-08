@@ -21,7 +21,7 @@ Cloud Functionsがコールドスタートにならないようにするため�
 Firebaseで[Cloud Functions(第二世代)](https://firebase.google.com/docs/functions/beta)が開始されましたがまだベータ版であり、色々注意点も多くあります。
 {{</alice>}}
 
-## Cloud SchedulerとPub/subを使って定期的にCloud Functionsを実行する
+## Cloud SchedulerとPub/subを使って定期的にCloud Functionsを実行する{#schedule_cloud_functions_with_cloud_scheduler_and_pubsub}
 
 定期的に関数が実行されればよいので、自動でCloud Functionsにアクセスする処理を別に走らせることで問題を解決できそうです。
 FirebaseのCloud Functionsはいくつかのトリガータイプがありますが、ここでは**functions.https.onCall**の関数について対策をしました。
@@ -94,7 +94,7 @@ functions.https.onCall型の関数にアクセスする際は httpsCallable関�
 
 Cloud Functionsは最初の200万回アクセスは無料なので、正直誤差レベルですね。
 
-## Cloud schedulerに登録されていることを確認する
+## Cloud schedulerに登録されていることを確認する{#verify_registration_in_cloud_scheduler}
 
 先程の関数はCloud functionsとして記述しています。
 functions.pubsub.scheduleの記述があるCloud functionをデプロイすると自動でCloud SchedulerとPub/subにこの関数の情報が登録されるようです。
@@ -108,7 +108,7 @@ functions.pubsub.scheduleの記述があるCloud functionをデプロイする�
 関数をGCPの管理画面から削除してもSchedulerは自動で消えなかったので注意してください
 {{</alice>}}
 
-## 定期実行される関数は特定のパラメータがきたらすぐ抜けるように修正
+## 定期実行される関数は特定のパラメータがきたらすぐ抜けるように修正{#modify_periodic_function_to_exit_immediately_on_specific_parameter}
 
 定期的にCloud Functionsを実行するわけですが、バカ正直に最後まで走らせる必要はありません。まぁ普通に考えればパラメータ不足などで途中でエラー終了になるパターンが多そうですが。
 呼び出される側の関数で、特定のパラメータが来たらすぐに抜けるような処理を書いてあげるといいと思います。
@@ -127,7 +127,7 @@ export default functions.https.onCall(async(data, context) => {
 
 ```
 
-## 実際に実装してみて
+## 実際に実装してみて{#try_implementing_in_real}
 
 NipoPlusはまだ利用者がそこまで多くないため、定期的にコールドスタートが発生していました。
 特に頻繁に利用されない日報をPDFに変換するような処理は高確率でコールドスタートとなっていましたが、この定期実行のおかげでコールドスタートの頻度は大幅に減ったと感じています。

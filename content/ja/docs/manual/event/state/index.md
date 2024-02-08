@@ -13,7 +13,7 @@ images = []
 
 {{<appscreen filename="color-event" title="予定を色分けして管理可能">}}
 
-## 予定の状態と予定色の変化について
+## 予定の状態と予定色の変化について{#event_color}
 
 予定には4種類の状態があります
 

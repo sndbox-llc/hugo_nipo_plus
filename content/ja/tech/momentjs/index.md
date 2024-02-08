@@ -14,7 +14,7 @@ code = true
 
 Javascriptで日付を扱う際は、「Moment一択」という方もいるのではないでしょうか？私自身、日付の処理はMoment.jsで行っていましたが、久しぶりに[Moment.js公式サイト](https://momentjs.com/docs/)を訪問したところ、なんとMomentが非推奨になっていました。
 
-## Javascriptで日付といったらMomentの時代は終わったようです
+## Javascriptで日付といったらMomentの時代は終わったようです{#end_of_momentjs_era_for_dates_in_javascript}
 
 公式サイトによれば、システムの老朽化に伴い、新しいMomentを作り直すと全く別物になってしまうから今後の新規機能は搭載せず、メンテナンスモードとして運用していくことになったそうです。  
 **「新規のプロジェクトとしてMomentを選択しないでください。」**ここまで書かれてしまうと、少しさみしいものを感じますね。  
@@ -26,7 +26,7 @@ Javascriptの日付機能は非常に使い勝手が悪く、バグが混入し�
 フロントエンドでの開発が活発になる中で、「Moment.jsはデータ量が多くて重い」という記事を目にするようになり、軽量な[Dayjs](https://day.js.org/)への移行記事などもたくさん見かけられます。
 Maroudはそんなさなかの開発だったので、最初からDayjsを選択しました。実際にDayjsを使ってみて思ったのは、**「Momentの代用は十分可能」**という率直な感想でした。
 
-## Moment.js今までありがとう
+## Moment.js今までありがとう{#thank_you_moment_js}
 
 老朽化に伴いMomentの更新はメンテナンスモードとなりますが、未だにMoment.jsの人気はすごいです。
 

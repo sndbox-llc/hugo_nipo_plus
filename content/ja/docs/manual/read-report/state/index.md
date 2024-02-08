@@ -8,7 +8,7 @@ aliases = ["/manual/read-report/state/"]
 images = []
 +++
 
-保存BOXやカレンダーからレポートをクリックするとレポートの詳細が表示されます。
+[保存箱](/docs/manual/read-report/list/)やカレンダーからレポートをクリックするとレポートの詳細が表示されます。
 先にレポートの状態について解説します。レポートの状態はレポート内の左上に表示されています。
 
 {{<appscreen filename="report-status" title="レポートの状態">}}

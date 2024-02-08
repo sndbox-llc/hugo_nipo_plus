@@ -18,7 +18,7 @@ heroLinks = [
 
 +++
 
-## テンプレートを編集してあらゆる業界向け独自のチェックシートを作成：5Sシートや点検表も簡単に
+## テンプレートを編集してあらゆる業界向け独自のチェックシートを作成：5Sシートや点検表も簡単に{#create_custom_checklists_for_any_industry_by_editing_templates_5s_sheets_and_inspection_forms_easy}
 
 複数の設問から1つを選ぶ[選択式入力](/docs/manual/initial-setting/template/select/)や、レビューでおなじみの★★★☆☆を使った[レート入力](/docs/manual/initial-setting/template/rate/)、つまみを動かして入力できる[スライダ入力](/docs/manual/initial-setting/template/step/)など豊富な入力パーツを用意しました。
 これらをブロックのように組み合わせるだけで、あっという間にオリジナルのチェックシートが作れます。  
@@ -37,12 +37,12 @@ heroLinks = [
 {{<nextArrow>}}
 
 
-## 入力サポート機能でヒューマンエラーを削減
+## 入力サポート機能でヒューマンエラーを削減{#reduce_human_errors_with_input_support_feature}
 
 
 現場作業の精度と効率性は、正確なデータ入力に大きく依存しています。しかし、人間の操作によるミスは避けられないもの。そこで、私たちのチェックシートアプリは、入力ミスを減らし、作業の正確性を高めるための多数のサポート機能を備えています。
 
-### 入力漏れの検知と入力順の矯正
+### 入力漏れの検知と入力順の矯正{#detect_missing_inputs_and_correct_input_order}
 
 チェックシートのテンプレートを作る際に、「入力必須」の指定と、「入力順序」を指定することができます。
 入力必須はイメージしやすいと思います。該当のチェック項目が空欄であればチェックシートの提出ボタンが押せないようになるため、うっかり記入漏れを防ぎます。
@@ -56,7 +56,7 @@ heroLinks = [
 {{<btnCenter "/docs/manual/initial-setting/template/make/#input_control" "マニュアル:入力順の指定">}}
 
 
-### 補足用のガイド画像や色分けによる視認性向上で入力をサポート
+### 補足用のガイド画像や色分けによる視認性向上で入力をサポート{#support_input_with_supplementary_guide_images_and_enhanced_visibility_through_color_coding}
 
 「X軸線形」と一言書かれていても不慣れな方はどこの幅かわかりません。こういうときは画像が便利です。  
 チェック項目1つにつき1枚の画像を埋め込むことができます。普段は設問の右下に小さなサムネイルとして表示され、タップすることで拡大画像を表示します。
@@ -89,7 +89,7 @@ heroLinks = [
 {{</alice>}}
 
 
-## チェックシートのデータを活用する
+## チェックシートのデータを活用する{#utilize_checklist_data}
 
 紙媒体のチェックシートは直感的でわかりやすい反面、データの集計や分析が苦手です。
 チェックシート自体を電子化することでチェックシートのデータを視覚的に分析したり、表計算ソフトにデータを流し込んで会議資料の作成などにも使えます。
@@ -97,7 +97,7 @@ heroLinks = [
 
 NipoPlusをつかうことで、データ集計や分析が大幅に改善できるはずです。いくつかの機能をピックアップ
 
-### 今回と前回、前々回で過去の点検結果と比較するのも簡単です
+### 今回と前回、前々回で過去の点検結果と比較するのも簡単です{#compare_past_inspection_results_between_current_and_previous_or_previous_previous}
 
 今閲覧しているチェックシートの下には、自動で同じテンプレートで作成された過去のチェックシートが一覧表で表示されます。いちいち過去のチェックシートを開かなくても、前回と比べて今回がどの程度増減したのか、一目でわかります。
 
@@ -106,7 +106,7 @@ NipoPlusをつかうことで、データ集計や分析が大幅に改善でき
 {{<btnCenter "/docs/manual/analytics/transition/" "マニュアル:データ推移について">}}
 
 
-### チェックシートのデータをもとに円グラフや折れ線グラフも作れます
+### チェックシートのデータをもとに円グラフや折れ線グラフも作れます{#create_pie_charts_and_line_graphs_based_on_checklist_data}
 
 チェック項目によっては集計やグラフ化が作成可能なものもあります。
 例えば[レート入力](/docs/manual/initial-setting/template/rate/)、[スライダ入力](/docs/manual/initial-setting/template/step/)、[数値入力](/docs/manual/initial-setting/template/math/)などはグラフにできます。  
@@ -124,7 +124,7 @@ NipoPlusをつかうことで、データ集計や分析が大幅に改善でき
 {{<btnCenter "/docs/manual/analytics/chart/" "マニュアル:グラフ作成">}}
 
 
-### チェックシートのデータをCSV出力して保管や集計分析に活用できます
+### チェックシートのデータをCSV出力して保管や集計分析に活用できます{#export_checklist_data_as_csv_for_storage_and_analysis}
 
 CSVとはカンマ・セパレート・バリューのことで、日本語ではカンマ区切りと言われます。データとデータの区切りにカンマと改行で表現する非常にシンプルな形式です。CSVはシンプル故にエクセルやAccessといった様々な表計算・データベースソフトに取り込んで利用できます。
 NipoPlusで蓄積したチェックシートデータをCSVに出力し、エクセルで開くと次のように見えます▼

@@ -94,7 +94,7 @@ getRand関数はランダムな数値の配列を作って返すだけの処理�
 なおChart.js Version3では再描画時、すでにグラフが生成されているとエラーが発生しますので、先に生成済みのグラフを破壊する必要があります。  
 参考：[公式ガイド](https://www.chartjs.org/docs/latest/developers/api.html#destroy)
 
-## TypescriptとChart.js
+## TypescriptとChart.js{#typescript_and_chartjs}
 
 今回はTypeScriptで実装しましたが、Typescriptは本当にありがたいです。  
 型があることでプログラマの間違いを教えてくれるので、開発の効率も上がり、つまらないバグの混入リスクも軽減できます。
@@ -102,7 +102,7 @@ Chart.jsでも型による恩恵を受けることができます。
 
 {{<imgproc chart_ts.png "chart.jsを使って棒グラフを作成" />}}
 
-## Vue-Chart.jsは不要です。意外と簡単に実装できたchart.js
+## Vue-Chart.jsは不要です。意外と簡単に実装できたChart.js{#chartjs_instead_of_vuechartjs}
 
 Vue-chart.jsはMixinを使うなど、記述の仕方が少しわかりにくく、どうにかならないかなーと思っていました。  
 直接Chart.jsを使うというやり方も思いの外簡単だったので、ぜひ皆さんも試してみてください。特にVue3でグラフが必要な場合、Vue-Chart.jsはまだVue3に対応していない（2021年4月現在)ため、必然的にChart.jsで直接グラフを作成するやり方が必須になるかと思います。  

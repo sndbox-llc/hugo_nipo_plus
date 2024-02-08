@@ -44,7 +44,7 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 
 
 
-## 少し特殊な権限
+## 少し特殊な権限{#others}
 
 管理者・編集者・スタッフの他にも少し特殊な権限があります。通常は使用しません。少し特殊な用途でのみ利用されます。
 

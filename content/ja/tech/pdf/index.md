@@ -19,7 +19,7 @@ NipoPlusではPDFの生成をサーバサイドで行うように設計しまし
 pdfmake単体で2MB！加えて日本語フォント情報も別に持つ必要があり、subset化しても総重量は5MBを超えます
 {{</alice>}}
 
-## 1つのPDFファイルをnodejsで作成する
+## 1つのPDFファイルをNode.jsで作成する{#create_single_pdf_with_nodejs}
 
 pdfmakeをサーバサイドで利用するには、次のようなコードで実行できます。
 
@@ -94,7 +94,7 @@ Typescriptなので環境の構築も必要になります。[構築はこちら
 フロントばかりコーディングしているとstreamとかpipeといった概念がほとんどでてこないので、結構新鮮でした。
 そしてこのstreamはとっつきにくく、これらのせいで丸一日時間を浪費することに・・・
 
-## PDFファイルを生成せずに直接アーカイブする（複数ファイル）
+## PDFファイルを生成せずに直接アーカイブする（複数ファイル）{#archive_multiple_files_without_generating_pdf}
 
 nodejsでアーカイブを作成するために今回は[achiver](https://github.com/archiverjs/node-archiver)を使用しました。
 
@@ -179,7 +179,7 @@ const storage = getStorage();
 archive.pipe(storage.bucket().file('path/to/出力するファイル名.zip').createWriteStream());
 ```
 
-## 非同期処理とcloud functionsのライフサイクルに注意する
+## 非同期処理とCloud Functionsのライフサイクルに注意する{#note_async_processing_and_cloud_functions_lifecycle}
 
 returnのが実行されると、streamの処理が途中でも関数を終えてしまうことを正しく理解していなかったため、原因究明に思った以上の時間を浪費してしまいました。
 

@@ -51,7 +51,7 @@ vue/require-prop-types: Prop "propsReports" should define at least its type.
 
 これに対応するため、 propsReportsに対して type: Object と書いてもいいのですが、なんか違う・・・これじゃない感がありました。
 
-## type: Object as PropType &lt;型&gt;を使う
+## type: Object as PropType &lt;型&gt;を使う{#use_object_as_proptype}
 
 よくよく調べてみると、propのTypeに自分が作った型を指定できるようです。それがこの **PropType** です。
 
@@ -72,7 +72,7 @@ export default defineComponent({
 
 このPropTypeを使えばInterfaceで別途型定義しなくても、propsの中に独自の型を書き込むことができるようです。ちゃんと型推論も機能します。
 
-## TypeScriptはなれるまで大変だけど便利
+## TypeScriptはなれるまで大変だけど便利{#typescript_challenging_but_useful}
 
 まだまだTypeScriptはわからないことがたくさんあります。今回Vue3のリリースからTypeScriptを正式に始めようと思いましたが、最初はワーニングの雨あられ。心が折れそうになりました。
 しかし１週間も四苦八苦しているとだんだんやり方が分かってきます。Vue3ではTypeScriptと相性が良くなったので、ぜひ活用したいですね

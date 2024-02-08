@@ -27,7 +27,7 @@ code = true
 サーバ側でメールを処理するプログラムが置けないので、問い合わせフォームに関しては別途用意しなければなりません。
 今回はMaroudのWebサイトを静的サイトに切り替えたとき、問い合わせフォームの設置に思いの外苦労したことをお話します
 
-## ホスティング先がFireBaseなので問い合わせフォームはCloud Functionsで実装したい
+## ホスティング先がFirebaseなので問い合わせフォームはCloud Functionsで実装したい{#implement_contact_form_with_cloud_functions_on_firebase_hosting}
 
 MaroudはアプリもWebページもFirebase上にホスティングされています。なので問い合わせフォームの処理自体もFirebase上に実装するのが一番しっくりきます。  
 Firebaseのホスティングではサーバ側のプログラムを設置できないため、FirebaseのCloud Functionsを使うことになります。
@@ -42,7 +42,7 @@ functions.https.onRequest((req, res) => { 処理 });
 これでかんたんにHttpのリクエストを受けてプログラムを走らせることができます。  
 簡易的な問い合わせフォームには十分でしょう。メール送信などのプログラムについてはここでは触れません。
 
-### フロントエンドではAxiosを使ってhttpリクエストを送るように作る。ここでCORS発生
+### フロントエンドではAxiosを使ってhttpリクエストを送るように作る。ここでCORS発生{#cors_issue_with_http_request_using_axios}
 
 フロント側では問い合わせフォームに入力された内容を元に、httpリクエストを発行します。Axiosを使って実装しました。
 
@@ -108,7 +108,7 @@ export default functions.https.onRequest(async(req, res) => {
 しかしCURLでアクセスするとちゃんと正しくアクセスできていることが確認できました。
 ブラウザのネットワークをよく見てみると、Preflightなるアクセスを先に行っており、どうもこれが原因でまたエラーが発生しているようです。
 
-### だらだら書いても仕方ないので、結論を
+### だらだら書いても仕方ないので、結論を{#finally}
 
 とりあえず次のように書くと、CORSの問題を回避できました
 

@@ -18,7 +18,7 @@ Vueや、私の利用している[Quasar](https://quasar.dev/)などはPWAモー
 今回はPWAでアプリの更新が来たときに、ユーザに通知を促してアプリの更新を行ってもらう処理を埋め込むまでの紆余曲折についてまとめました。
 主にQuasarを基準としていますが、純粋なVueでもほぼ同様のことが言えると思います。
 
-## Register Service Worker
+## Register Service Worker{#register_service_worker}
 
 PWAとしてQuasarをビルドすると、プロジェクト直下にsrc-pwaというディレクトリが作成され、その中に「register-service-worker.js(ts)」というファイルが自動で作成されます。
 中身はこんな感じでシンプルです。
@@ -72,7 +72,7 @@ register(process.env.SERVICE_WORKER_FILE, {
 Service Workerのそれぞれのイベントに応じて、行いたい処理を記述してあげるという感じでしょうか。
 今回はアプリの更新が完了したら、ユーザにその旨を通知し、アプリを更新してもらいたいわけです。よって updatedの部分に何かしらの処理を書けば良いわけです。
 
-## Quasar公式サイトの真似をしてみる
+## Quasar公式サイトの真似をしてみる{#imitate_quasar_official_website}
 
 実はQuasarの公式Webサイトも更新通知機能が実装されており、最初はこれを真似すればよいのでは？と安易に考えていました。
 Quasarの公式サイト自体がGithubに公開されているため、まずはGithubの中身を確認してみます。[そのファイルはここから見れます](https://github.com/quasarframework/quasar/blob/dev/docs/src-pwa/register-service-worker.js)
@@ -149,7 +149,7 @@ quasar.conf.jsはQuasar独自の設定ファイルです。他のフレームワ
 PWAの効率良いデバッグ方法が知りたい・・・・なんでこんなにデバッグしにくいのかしら
 {{</alice>}}
 
-## iPadやAndroidで更新時にアプリがフリーズするトラブルが発覚
+## iPadやAndroidで更新時にアプリがフリーズするトラブルが発覚{#trouble_with_app_freezing_on_update_on_ipad_and_android}
 
 PCのブラウザであれば問題なく更新ができていたPWAですが、AndroidやiPadでPWAの更新がうまくできないことがわかりました。
 [こちらの手順](/docs/system/ios/)でPWAをタブレットにインストールし、更新をテストしたところ、更新のメッセージが表示され、「後で更新」を選ぶとvue Routerが機能しなくなり、ページ遷移ができなくなります。
@@ -158,7 +158,7 @@ PCのブラウザであれば問題なく更新ができていたPWAですが、
 色々調べてみたところ、Service Worker内ではwindowにアクセスできないようです。ただregister-service-workerを使うと色々アクセス出来るようですし、実際にPCやiPhoneでは正常に更新ができていたため、iPadOSなど特定のOSで対応していないのかもしれません。
 正直原因はよくわかりませんが、問題を解決するほうが重要です。
 
-## Service worker上ではなくVue上で更新処理を行うように修正
+## Service worker上ではなくVue上で更新処理を行うように修正{#update_process_moved_to_vue_instead_of_service_worker}
 
 service workerについて調べると、とにかくよく出てくるコード。
 

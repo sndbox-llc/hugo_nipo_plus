@@ -159,7 +159,7 @@ Jis9xSl43L3iZpA4Ekj0, ueda 管理者, 未処理, 横倉, 未処理, 900, 32, 3.5
 
 
 
-## 点検箇所を写真で添付することも簡単です。手書きのサインやイラストだって扱えます
+## 点検箇所を写真で添付することも簡単です。手書きのサインやイラストだって扱えます{#easily_attach_photos_to_inspection_points_handwritten_signatures_and_illustrations_are_also_supported}
 
 スマートフォンやタブレットにはカメラが搭載されているので、その場で「カシャ」と撮影し、写真をそのままチェックシートに埋め込むことができます。
 

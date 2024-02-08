@@ -13,14 +13,14 @@ code = true
 
 NipoはVue2で作成されたWebシステムですが、今回Vueが3にバージョンアップしたことに追従し、NipoのソースコードもVue3へ書き換え中です。
 
-## Filter機能の廃止
+## Filter機能の廃止{#discontinuation_of_filter_feature}
 
 Vue2で大変お世話になったFilter機能がなんとVue3では廃止になります。実はNipoの中身はたくさんFilterを使っているので、この処理を別の方法に置き換えなければなりません。
 filterは定義すればすぐにすべてのページで使いませたので非常に便利でした。
 Vue3へ移行しないという選択肢は考えたくないので、Vue3のルールに従ってFilterを削除し、これに代替する処理を用意しなければなりません。
 computedで置き換えるか、関数で置き換える必要があります。
 
-### Filterを関数で置き換える
+### Filterを関数で置き換える{#replace_filter_with_function}
 
 今回はFilterの処理を関数に置き換えることで対応します。例えばMomentで日付の表示形式を書き換えるフィルター「longformat」はこれまでFilterで書かれていました。
 
@@ -52,7 +52,7 @@ export default defineComponent({
 
 ```
 
-### $options.filters.フィルター名の修正も忘れずに
+### $options.filters.フィルター名の修正も忘れずに{#dont_forget_to_update_option_filters_filter_name}
 
 Filterは主にTemplateの中で利用してきましたが、稀にコード内で利用することもありました。例えばNipoはCSV出力時に日付形式を変換する際に使っていました。コード内でFilterを呼び出すには
 
@@ -69,7 +69,7 @@ longformat(day)
 
 こんな感じでただの関数として呼び出すだけで済むわけですね。
 
-## 結論: VueのFilterは要らない
+## 結論: VueのFilterは要らない{#conclusion_filters_are_not_needed_in_vue}
 
 Filterは開発当時非常に便利で多用していましたが、改めてコードを見返すと結構見にくいものでした。特にコード内で利用するときとTemplate内で利用するときの記述方法が大きく異なるので、わかりにくいこと山のごとし。Vue3へ移行するにはどのみちFilterと永遠の別れをしなければなりませんので、これから新規に立ち上げるプロジェクトなんかではFilterを使わないほうが良さそうです。
 

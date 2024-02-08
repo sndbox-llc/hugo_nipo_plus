@@ -12,7 +12,7 @@ code = true
 +++
 
 
-## Vue-chart.jsを使わずにグラフを作ってみる
+## Vue-chart.jsを使わずにグラフを作ってみる{#create_graph_without_using_vue_chart_js}
 
 Vueでグラフを作るには、Vue-chart.jsを使うのが結構簡単ですが、できるだけ依存度を減らしたいので、直接chart.jsを使ってVue.jsでグラフを作成できるようにしてみました。
 やってみると意外と簡単でした。
@@ -22,7 +22,7 @@ Vueでグラフを作るには、Vue-chart.jsを使うのが結構簡単です�
 - Chart.js Version 2.9.4
 - TypeScript
 
-### サンプルコード
+### サンプルコード{#sample_code}
 
 Chart.jsは最近Version3に更新されましたが、この記事は**Chart.js Version2.9.4**を使っています。  
 実際のコードは次の通り。まずはテンプレート部分 。canvasタグにrefをもたせて、プログラム部分からも使えるように紐付けします。

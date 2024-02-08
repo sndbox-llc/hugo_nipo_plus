@@ -11,7 +11,7 @@ code = true
   priority = 0.5
 +++
 
-## async/awaitの見落としがちな落とし穴。try/catchしても呼び出し元でcatch出来ません
+## async/awaitの見落としがちな落とし穴。try/catchしても呼び出し元でcatch出来ません{#async_await_pitfalls_try_catch_does_not_catch_at_caller}
 
 async/awaitはJavascriptにおける非同期処理のthenという構文をよりわかりやすく記述できる素晴らしい書き方です。
 とても便利なので多くのジャバスクリプターの方々は利用されていることと思います。
@@ -60,7 +60,7 @@ func1:「止まるんじゃねぇぞ。俺は止まらねぇからよ」と。
 
 {{<imgproc console-log-screen.png "async・awaitでエラー時に処理が止まらない" />}}
 
-## なぜfunc1はエラー発生時に止まらないのか？ try・catchを利用しても止まらない理由
+## なぜfunc1はエラー発生時に止まらないのか？ try・catchを利用しても止まらない理由{#reasons_why_func1_does_not_stop_on_error_even_with_try_catch}
 
 async・awaitは便利ですが特に**エラー発生時の対応に注意が必要**です。async・awaitでエラーが発生しても止まらない原因としてネットで検索すると
 
@@ -98,7 +98,7 @@ async function sub () {
 
 {{<imgproc error-chatch.png "async関数の呼び出し元で正しくエラーをキャッチできた" />}}
 
-## そもそもawaitの結果はresolveかrejectと考えれば止まらないのも道理
+## そもそもawaitの結果はresolveかrejectと考えれば止まらないのも道理{#thinking_of_await_results_as_resolve_or_reject_is_logical}
 
 非同期関数の呼び出し元が止まらないのは、sub関数の中でrejectされていないことが原因です。
 awaitで呼び出した関数はresolveかrejectを返すのですが、sub関数のcatch文の中で何もreturnせず、その後の処理でも結局何も返していないため、resolveと認識されてfunc1は止まらなかったのです。
@@ -118,7 +118,7 @@ throw 'なんかやばいことが起きた';
 
 {{<imgproc over-lap-error.png "errorオブジェクトをnewErrorで包むと扱いにくくなる" />}}
 
-## throw したあとでもfinallyは実行されます
+## throw したあとでもfinallyは実行されます{#finally_executes_even_after_throw}
 
 throwを文中に使うとそこで処理が終わり呼び出し元へ処理が戻ります。そこで疑問になるのがfinally句がどうなるのかですが、心配ご無用。ちゃんとfinallyは実行されます
 

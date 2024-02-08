@@ -5,7 +5,7 @@ menuTitle = "カレンダー概要"
 toc = true
 tags = ["有料プラン限定"]
 weight = 101005000
-aliases = ["/manual/calendar/"]
+aliases = ["/manual/calendar/", "/manual/calendar/setting/", "/docs/manual/calendar/setting/", "/manual/calendar/use/", "/docs/manual/calendar/use/"]
 +++
 
 

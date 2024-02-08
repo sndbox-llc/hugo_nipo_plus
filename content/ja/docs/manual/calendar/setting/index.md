@@ -3,7 +3,7 @@ description = "スタッフが提出したレポートをカレンダーから�
 tags = ["有料プラン限定"]
 title = "カレンダーの設定"
 toc = true
-weight = 101005001
+weight = 101005011
 aliases = ["/manual/calendar/setting/"]
 images = ["monthly-calendar.png"]
 +++

@@ -7,9 +7,9 @@ weight = 101001011
 aliases = ["/manual/initial-setting/make-group/"]
 images = ["switch_tablet.png"]
 +++
-
+{{<warning>}}
 グループの設定は編集者権限以上が必要です。
-
+{{</warning>}}
 ## 作業グループの確認と切替{#swich_group}
 
 今作業しているグループは画面上部のバーに表示されています。必要に応じて編集するグループに切り替えの上作業してください。

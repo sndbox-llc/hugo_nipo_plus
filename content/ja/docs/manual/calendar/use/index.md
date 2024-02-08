@@ -3,7 +3,7 @@ description = "月間カレンダー上にレポートを表示して一ヶ月�
 tags = ["有料プラン限定"]
 title = "カレンダーの使い方"
 toc = true
-weight = 101005002
+weight = 101005012
 aliases = ["/manual/calendar/use/"]
 images = ["monthly-calendar.png"]
 +++

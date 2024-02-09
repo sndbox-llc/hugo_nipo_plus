@@ -1,7 +1,7 @@
 +++
 description = ""
 tags = []
-title = "予定を確認する"
+title = "👀予定を確認する"
 toc = true
 weight = 101008002
 aliases = ["/manual/task/list/", "/docs/manual/task/list/"]

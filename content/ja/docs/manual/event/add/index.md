@@ -1,7 +1,7 @@
 +++
 description = ""
 tags = []
-title = "予定を追加する"
+title = "➕予定を追加する"
 toc = true
 weight = 101008001
 aliases = ["/manual/task/add/", "/docs/manual/task/add/"]
@@ -9,9 +9,7 @@ images = []
 draft = false
 +++
 
-予定はカレンダーまたは予定管理画面から追加することができます。
-
-
+予定は[カレンダー](/docs/manual/calendar/_about/)または予定管理画面から追加することができます。
 予定の追加方法は何種類かあります。
 
 1. 時間軸からドラッグして追加する
@@ -44,7 +42,10 @@ draft = false
 
 ## カレンダー上から予定を追加する{#add_event}
 
-この他にもカレンダー画面から予定を追加することもできます。カレンダーから予定を追加するには追加したい「日」のボタンをクリックします。
-{{<appscreen filename="add-event-calendar" title="カレンダー画面からも予定の追加が可能です">}}
+この他にもカレンダー画面から予定を追加することもできます。カレンダーの表示モードによって手順が若干異なります。
+詳しくは各種カレンダーページをご覧ください
 
-日のボタンをクリックすると予定追加モーダルが表示されます。
+- [月カレンダから予定を追加する](/docs/manual/calendar/monthly/#add_event)
+- [週カレンダから予定を追加する](/docs/manual/calendar/weekly/#add_event)
+- [表カレンダから予定を追加する](/docs/manual/calendar/table/#add_event)
+- [日カレンダから予定を追加する](/docs/manual/calendar/dayly/#add_event)

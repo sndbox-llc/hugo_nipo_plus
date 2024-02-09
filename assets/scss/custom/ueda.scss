@@ -359,3 +359,7 @@ p {
   cursor: pointer; /* マウスカーソルをポインターに設定 */
   outline: none; /* フォーカス時のアウトラインを無くす */
 }
+
+figcaption.small {
+  color: cadetblue;font-size:12px;text-align:right;margin-right:50px;
+}

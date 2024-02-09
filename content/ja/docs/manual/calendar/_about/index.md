@@ -55,6 +55,6 @@ aliases = ["/manual/calendar/", "/manual/calendar/setting/", "/docs/manual/calen
 
 ## 保存箱との違い{#diff}
 
-レポートを読む際は[保存箱](/docs/manual/read-report/list/)からも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
+[レポートを読む](/docs/manual/read-report/state/)際は[保存箱](/docs/manual/read-report/list/)からも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
 検索が必要な場合はレポート[保存箱](/docs/manual/read-report/list/)を活用してください。
 

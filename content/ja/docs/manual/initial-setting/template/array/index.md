@@ -43,7 +43,7 @@ aliases = ["/manual/initial-setting/template/array/"]
 
 ## 反復入力フォームを使ったレポートの作成{#write}
 
-反復入力フォームを含んだテンプレートを使ってレポートを書くときの画面は次のように見えます。
+反復入力フォームを含んだテンプレートを使って[レポートを書く](/docs/manual/write-report/write/)ときの画面は次のように見えます。
 
 {{<appscreen filename="input" title="反復の含まれたレポートの入力画面イメージ。スマートフォンではカード風のレイアウトになります">}}
 

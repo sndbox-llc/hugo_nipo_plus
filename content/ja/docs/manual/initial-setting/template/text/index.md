@@ -48,6 +48,6 @@ images = []
 
 {{<nextArrow>}}
 
-実際にレポートを書く際は次のように表示されます。
+実際に[レポートを書く](/docs/manual/write-report/write/)際は次のように表示されます。
 
 {{<appscreen filename="text-preview" title="作成したテンプレートのプレビュー">}}

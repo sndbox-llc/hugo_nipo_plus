@@ -39,7 +39,7 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 <li>グループからスタッフを追放する</li>
 </dd>
 <dt>スタッフ</dt>
-<dd>レポートの作成や集計など一般的なことが行なえますが、グループ全体に関する設定は一切不可</dd>
+<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>や集計など一般的なことが行なえますが、グループ全体に関する設定は一切不可</dd>
 </dl>
 
 
@@ -50,7 +50,7 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 
 <dl class="basic">
 <dt>書き込みのみ</dt>
-<dd>レポートの作成・自分の書いたレポートの閲覧とその修正のみ可能</dd>
+<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>・自分の書いたレポートの閲覧とその修正のみ可能</dd>
 <dt>ゲスト</dt>
-<dd>レポートの作成のみ可能<br>※外部の利用者にレポートを書いてもらうことを想定しており用途としては限定的です</dd>
+<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>のみ可能<br>※外部の利用者にレポートを書いてもらうことを想定しており用途としては限定的です</dd>
 </dl>

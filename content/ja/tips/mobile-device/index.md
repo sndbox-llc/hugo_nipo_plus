@@ -21,7 +21,7 @@ aliases = ["/blog/smartphone/", "/tips/smartphone/", "/blog/cloud/", "/tips/clou
 
 {{<imgproc tablet-phone.png "スマホとタブレットで同じレポートを表示したときの違い" />}}
 
-- 電車やバスなどの移動時間にレポートを書くことでスキマ時間を有効活用できます
+- 電車やバスなどの移動時間に[レポートを書く](/docs/manual/write-report/write/)ことでスキマ時間を有効活用できます
 - 作業現場から直接日報を書くことができれば直帰という選択もできます
 
 ## 自社オリジナルの日報様式もノーコードで簡単に作れます{#make_it}

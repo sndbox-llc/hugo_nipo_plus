@@ -13,13 +13,15 @@ showPrice = true
 
 プログラミングの知識不要でオリジナルのレポート（日報やチェックシートなど）のテンプレートを自由に作成できます。  
 [文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/math/)、[画像入力](/docs/manual/initial-setting/template/picture/)、[選択入力](/docs/manual/initial-setting/template/select/)などの豊富な入力部品を用意しています。これらをブロックのように並べ、最後にタイトルをつければオリジナルテンプレートの出来上がりです。  
-ブロックの幅を変えたり、見出しの色を変えることでより使い勝手の良いテンプレートを作ることが可能です。
+ブロックの幅を変えたり、見出しの色を変えることでより使い勝手の良いテンプレートを作ることが可能です。どんなテンプレートが作れるのか気になる方は[テンプレートのサンプル集](/tips/userfriendly/#template_samples_collection)を御覧ください。
 
 - 10を超す豊富なパーツから選んで並べるだけの簡単作成
 - テンプレートは最大999種類保管可能
 - 作成したテンプレートは繰り返し何度でも使用可能です
 
 {{<icatch filename="make-template" msg="入力フォームを並べて テンプレートを作る" title="レポートのテンプレートを作成" fontsize="30px" alice="pc">}}
+
+
 
 {{<btnCenter "/docs/manual/initial-setting/template/make/" "マニュアル:テンプレートの作成">}}
 

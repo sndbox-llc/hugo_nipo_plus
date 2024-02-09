@@ -46,7 +46,7 @@ images = []
 
 {{<nextArrow>}}
 
-実際にレポートを書く際は次のように表示されます
+実際に[レポートを書く](/docs/manual/write-report/write/)際は次のように表示されます
 
 {{<appscreen filename="rate-preview" title="レートはタップ操作で簡単に入力が可能です。見た目も視覚的にわかりやすく便利です">}}
 

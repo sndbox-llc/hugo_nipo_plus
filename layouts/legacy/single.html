@@ -23,7 +23,12 @@
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
 						{{ partial "main/breadcrumb" . -}}
-						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+						{{ with .Params.menuTitle }}
+							<li class="breadcrumb-item active" aria-current="page">{{ . }}</li>
+						{{ else }}
+							<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+						{{ end }}
+
 					</ol>
 				</nav>
 			{{ end }}

@@ -18,15 +18,19 @@
 		{{ else -}}
 		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
 		{{ end -}}
-			{{ if .Site.Params.options.breadCrumb -}}
-				<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb">
-						{{ partial "main/breadcrumb" . -}}
+		{{ if .Site.Params.options.breadCrumb -}}
+			<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					{{ partial "main/breadcrumb" . -}}
+					{{ with .Params.menuTitle }}
+						<li class="breadcrumb-item active" aria-current="page">{{ . }}</li>
+					{{ else }}
 						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-					</ol>
-				</nav>
-			{{ end }}
+					{{ end }}
+				</ol>
+			</nav>
+		{{ end }}
 			{{ if eq .Params.isNipo true }}
 				{{ partial "custom/oldapp-warning.html" . }}
 			{{ end }}

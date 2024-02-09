@@ -7,7 +7,7 @@ tags = ["製造業向け"]
 date = "2023-06-15"
 aliases = ["/checksheet/", "/blog/checksheet/", "/blog/checklistapp/", "/tips/maintenance/", "/tips/tablet/", "/tips/checksheet/"]
 showPrice = true
-heroTitle = "テンプレートカスタマイズで業界ごとのチェックシートを簡単作成"
+heroTitle = "設問を自分で作れる現場の点検チェックシートApp|製造業等に"
 heroLinks = [
   { label = "現場の写真を添付が必要なチェックシートも作れる", url = "/tips/photo/" },
   { label = "5Sチェックシートも作れる" },

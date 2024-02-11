@@ -339,4 +339,4 @@ workboxOptions: {
 
 ```
 
-ここでskipWaitingを無効にしておく必要があるので注意。これが有効だと更新通知のボタンを押そうが押すまいが、Skip-waitingが発動してしまい、VueRouterがうまくきのうしなくなります。
+ここでskipWaitingを無効にしておく必要があるので注意。これが有効だと更新通知のボタンを押そうが押すまいが、Skip-waitingが発動してしまい、VueRouterがうまく機能しなくなります。

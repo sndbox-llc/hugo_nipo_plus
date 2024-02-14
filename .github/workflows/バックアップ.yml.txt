@@ -59,10 +59,10 @@ jobs:
           hugo --minify --cleanDestinationDir \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: website
           path: ./public
+
   # Deployment job
   deploy:
     environment:

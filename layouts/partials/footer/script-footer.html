@@ -5,6 +5,15 @@
 {{ $highlight := resources.Get "js/highlight.js" -}}
 {{ $highlight := $highlight | js.Build -}}
 
+{{ $tocHightlight := resources.Get "js/tocHightlight.js" -}}
+{{ $tocHightlight := $tocHightlight | js.Build -}}
+
+
+{{ $svg := resources.Get "js/svg.js" -}}
+{{ $svg := $svg | js.Build -}}
+
+<script src="{{ $svg.RelPermalink }}" defer></script>
+
 
 {{ $mermaid := resources.Get "js/mermaid.js" | js.Build -}}
 

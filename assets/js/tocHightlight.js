@@ -1,5 +1,3 @@
-<script>
-  // この処理は assets/js/tocHightlight.jsに移行しました。このコードは使用されていません
   // スロットリング用の変数
   var throttleTimer;
   
@@ -46,5 +44,3 @@
   });
   
   window.addEventListener('scroll', updateActiveTocLink);
-  </script>
-  

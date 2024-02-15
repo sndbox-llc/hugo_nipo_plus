@@ -8,6 +8,10 @@
 {{ $tocHightlight := resources.Get "js/tocHightlight.js" -}}
 {{ $tocHightlight := $tocHightlight | js.Build -}}
 
+{{ if .Params.toc -}}
+<script defer src="{{ $tocHightlight.RelPermalink }}" defer></script>
+{{ end }}
+
 
 {{ $svg := resources.Get "js/svg.js" -}}
 {{ $svg := $svg | js.Build -}}

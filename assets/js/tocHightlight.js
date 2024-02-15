@@ -1,16 +1,11 @@
 function updateActiveTocLink() {
-  var throttleTimer;
+  var myTimer;
   // 画面幅が800px以下の場合は処理を実行しない
-  if (window.innerWidth <= 1200) {
-    return;
-  }
-
+  if (window.innerWidth <= 1200) return;
   // スロットリングのため、一定時間内に複数回呼ばれても処理は1回のみ実行する
-  if (throttleTimer) {
-    return;
-  }
+  if (myTimer) return;
 
-  throttleTimer = setTimeout(function() {
+  myTimer = setTimeout(function() {
     // 現在のスクロール位置を取得
     var currentScroll = window.pageYOffset + 80 || document.documentElement.scrollTop + 80;
     // 目次のアイテムと見出しのキャッシュ
@@ -29,17 +24,16 @@ function updateActiveTocLink() {
 
     // 目次のアクティブなリンクを更新
     for (var i = 0; i < tocItems.length; i++) {
-      var tocItem = tocItems[i];
       if (i === activeHeadingIndex - 2 || (activeHeadingIndex === null && i === 0)) {
-        tocItem.parentElement.classList.add('active');
+        tocItems[i].parentElement.classList.add('active');
       } else {
-        tocItem.parentElement.classList.remove('active');
+        tocItems[i].parentElement.classList.remove('active');
       }
     }
 
     // スロットリング用のタイマーをリセット
-    throttleTimer = null;
-  }, 200);
+    myTimer = null;
+  }, 1000);
 }
 
 // イベントリスナーを設定

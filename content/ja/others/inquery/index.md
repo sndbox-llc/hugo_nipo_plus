@@ -127,7 +127,7 @@ async function submit() {
     if (target === null) throw "問い合わせの製品をNipo/NipoPlusから選択してください";
     if (EMAIL_REG_EXP.test(email.value) === false) throw "メールアドレスが不正です";
     if (content.value.length === 0) throw "本文が空欄です";
-    if (containsKeyword(content.value.toLowerCase())) throw "営業関連のメッセージはご遠慮ください。"; // 小文字に変換してからチェック
+    if (containsKeyword(content.value.toLowerCase())) throw "営業関連のメッセージはご遠慮ください。あなたのメッセージは営業に関するキーワードが含まれています。本当のお問い合わせの方、誤検知でご不便をおかけして申し訳ありません。営業の方。さっさと消えてください。"; // 小文字に変換してからチェック
   } catch (e) {
     errorMessage.innerHTML = e;
     sendButton.disabled = false;

@@ -76,3 +76,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
+      - name: Notify IndexNow
+        run: curl -X POST 'https://api.indexnow.org/indexnow' -H 'Content-Type:application/json' -d '{"key":"17a4de0d765348d48af904a7faa1097d", "urlList":["https://nipo-plus-doc.sndbox.jp/"]}'

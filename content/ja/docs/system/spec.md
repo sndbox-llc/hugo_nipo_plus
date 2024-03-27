@@ -31,6 +31,15 @@ aliases = ["/system/spec/"]
 Webアプリ版は最も早く最新版がリリースされます。
 Nipoのすべての機能が最も使いやすい形で提供されています。Nipoは各種バージョンがありますが、最も推奨されるものがこの「Web版Nipo」になります。Web版Nipoは以下のボタンから開始できます
 
+<ul>
+<li>※Internet Explorerは動作しません</li>
+<li>※レガシーなMicrosoft Edige（非Chromiumベース板）は一部機能が動作しません</li>
+<li>※レガシーなSafari（Version14以前）は一部機能が動作しません</li>
+</ul>
+
+
+その他、極端に古いブラウザの利用は避け、可能な限り最新版のブラウザに更新の上ご利用ください
+
 {{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動" "_blank">}}
 
 {{<alice pos="right" icon="pc">}}

@@ -148,39 +148,12 @@ async function submit() {
   form.setAttribute("style", "display:none");
   const textNode = document.createTextNode(`お問い合わせありがとうございます。${email.value}宛に確認メールを送ります。5分経過してもメールが届かない場合は再度お問い合わせください`);
   thanks.appendChild(textNode);
+
+  // クラスを追加
+  textNode.classList.add('completedMessage');
+
   return;
 }
-  // メール送信処理
-  async function submitBk () {
-    sendButton.disabled = true
-    const email = document.getElementById("mail")
-    const content = document.getElementById("content")
-    const target = document.querySelector("input:checked[name=targetRadio]")
-    try {
-      if (target === null) throw "問い合わせの製品をNipo/NipoPlusから選択してください"
-      if (EMAIL_REG_EXP.test(email.value) === false) throw "メールアドレスが不正です"
-      if (content.value.length === 0) throw "本文が空欄です"
-    } catch (e) {
-      errorMessage.innerHTML = e
-      sendButton.disabled = false
-      return
-    }
-
-    const config = {
-      method: "POST",
-      url: "https://us-central1-nipo-plus.cloudfunctions.net/inqueryWeb",
-      params: {
-        email: email.value,
-        text: `${content.value}\n【${target.value}】`
-      }
-    }
-    // 完了を待つ必要はない
-    axios(config)
-
-    form.setAttribute("style", "display:none")
-    const textNode = document.createTextNode(`お問い合わせありがとうございます。${email.value}宛に確認メールを送ります。5分経過してもメールが届かない場合は再度お問い合わせください`)
-    thanks.appendChild(textNode)
-    return
-  }
+  
 
 </script>

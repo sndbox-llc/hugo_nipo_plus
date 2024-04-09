@@ -10,6 +10,8 @@
       {{ if .Params.date }}
         {{ .Params.date.Format "2006年01月02日" }}
       {{ end }}
+      {{ if .Lastmod }}<div style="text-align: right;">最終更新日: {{ .Lastmod.Format "2006年01月02日" }}</div>{{ end }}
+
     </div>
   </div>
   <div class="col-md-12 col-lg-9">

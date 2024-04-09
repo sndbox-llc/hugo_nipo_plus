@@ -20,7 +20,6 @@
           {{ if .Params.date }}
             {{ .Params.date.Format "2006年01月02日" }}
           {{ end }}
-
         </article>
         {{ if .Params.tags }}
   			{{ partial "custom/tags.html" . }}

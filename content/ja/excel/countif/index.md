@@ -5,7 +5,6 @@ menuTitle = "エクセルのCOUNTIF・COUNTIFSを駆使してスタッフの日�
 toc = true
 tags = ["エクセル",  "集計"]
 date = "2023-10-23"
-aliases = [""]
 images = ["icatch.png"]
 draft = false
 [sitemap]

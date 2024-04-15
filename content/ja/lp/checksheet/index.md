@@ -37,6 +37,18 @@ heroLinks = [
 {{<btnCenter "/docs/manual/initial-setting/template/make/" "マニュアル:テンプレートの作成">}}
 {{<nextArrow>}}
 
+### プログラマがいなくても設問を動的に変化できます
+
+例えば１つ目の設問「地域」の答えによって２つ目の設問「支店」を変えたい。難しそうですって？いえいえ、専門知識がなくてもその程度の機能はNipoPlusで作れちゃいます。  
+アイデア次第でいろいろな設問のテンプレートが作れますね。オーダーメイドのシステムを作るのはお金も時間もかかりますが、NipoPlusはあなたの手で組み立てるパズルみたいなものです。  
+だから安いして月に作って手軽に試すことができます。
+
+
+{{<icatch filename="dinamic-selection" msg="回答に応じて次の 質問を変化させる" title="動的な設問の変更" fontsize="30px" alice="here">}}
+
+
+{{<btnCenter "/docs/manual/initial-setting/template/dinamic_selection/" "マニュアル:動的設問の設定">}}
+
 
 ## 入力サポート機能でヒューマンエラーを削減{#reduce_human_errors_with_input_support_feature}
 

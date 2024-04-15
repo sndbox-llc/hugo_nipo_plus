@@ -12,7 +12,7 @@
   <a href="#{{ $id }}" class="lightbox-link">
     <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
   </a>
-  <figcaption>
+  <figcaption class="small">
     <i>
       {{ with .Inner }}
         {{ . }}

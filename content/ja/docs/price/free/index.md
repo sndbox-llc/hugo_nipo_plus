@@ -41,11 +41,11 @@ classDef class1 fill:#7BCCAC
 <dt>CSVの一括出力</dt>
 <dd>１件単位のCSV出力は可能ですが複数のレポートをまとめて出力する機能はロックされます</dd>
 <dt>PDFの一括作成</dt>
-<dd>1件単位のPDF出力は可能ですが複数のレポートをまとめてPDF出力する機能はロックされます</dd>
+<dd>最大5件までしか一括出力できません。またNipoPlusの透かしとロゴが自動で挿入されます</dd>
 <dt><a href="/docs/manual/analytics/_about/">集計・グラフ作成</a></dt>
 <dd>集計に関するすべての機能がロックされます</dd>
 <dt><a href="/docs/manual/calendar/_about/">カレンダー機能</a></dt>
-<dd>レポートをカレンダー上二表示する機能がロックされます</dd>
+<dd>レポートをカレンダー上に表示する機能がロックされます</dd>
 <dt><a href="/docs/manual/read-report/comment/">レポートのコメント機能</a></dt>
 <dd>レポートに対してコメントを書く機能がロックされます</dd>
 <dt>メール通知</dt>

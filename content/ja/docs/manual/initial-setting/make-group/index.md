@@ -69,7 +69,7 @@ images = []
 {{<nextBlog>}}
 
 
-<details id="a">
+<details>
   <summary>グループ削除について</summary>
 
 

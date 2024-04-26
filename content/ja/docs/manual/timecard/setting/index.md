@@ -2,9 +2,10 @@
 description = "タイムカード機能の各種設定方法についてのマニュアルページです。端数処理の設定、超過労働時間の定義、給与計算の締日設定など、タイムカード一覧のカスタマイズ方法を詳しく説明しています。設定変更には編集者権限が必要です。"
 tags = []
 title = "⚙️タイムカードの設定"
+menuTitle = "⚙️設定・制限解除"
 toc = true
 weight = 101007004
-aliases = ["/manual/timecard/setting/", "/manual/timecard/unlock/", "/docs/manual/timecard/unlock/"]
+aliases = ["/docs/manual/timecard/unlock/"]
 images = []
 +++
 
@@ -12,8 +13,8 @@ images = []
 設定変更には[**編集者権限**](/docs/manual/initial-setting/staff/rank/)が必要です。
 
 1. タイムカード一覧をクリック
-1. 設定をクリック（折りたたまれている項目が展開される）
-1. 必要に応じて値を書き換える（書き換え内容は自動で保存されます）
+2. 設定をクリック（折りたたまれている項目が展開される）
+3. 必要に応じて値を書き換える（書き換え内容は自動で保存されます）
 
 {{<appscreen filename="setting" title="タイムカード機能の設定項目。折りたたまれているためクリックして展開します">}}
 

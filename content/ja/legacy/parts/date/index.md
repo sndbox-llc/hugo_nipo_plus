@@ -1,11 +1,11 @@
 +++
 description = "日報に日付が入力ができるパーツを追加できます。カレンダーから選択して入力する他、キーボードを使って入力する方式も選択できます"
-title = "日付"
+title = "日付・時刻"
 toc = true
 weight = 109002013
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/parts/date/", "/docs/old/parts/date/"]
+aliases = ["/old/parts/date/", "/docs/old/parts/date/", "/old/parts/time/", "/docs/old/parts/time/"]
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
@@ -21,7 +21,7 @@ aliases = ["/old/parts/date/", "/docs/old/parts/date/"]
 
 {{<imgproc parts_date1.png "日付を含む日報の入力画面例" />}}
 
-## 日付を含んだ日報の各種出力画面{#output}
+### 日付を含んだ日報の各種出力画面{#output}
 
 [PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
@@ -35,7 +35,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_date4.png "クラウド日報Nipoのアプリ上から日付を表示した画面" />}}
 
-## 設定画面{#setting}
+### 設定画面{#setting}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
@@ -51,6 +51,52 @@ Nipoの受信・送信BOXからは次のように表示されます
   <dd>実際の動きが確認できます</dd>
   <dt>エラーチェックをする</dt>
   <dd>ONにすると存在しない日付（例えば12月33日)が入力されたときに警告を発します。カレンダーなどから入力する場合はエラーが発生しないうえ、無用な負荷がかかる可能性があるため、通常はOFFを推奨しています</dd>
+  <dt>説明文</dt>
+  <dd>日報作成者が何を書くべきか迷わないようにするために説明を付すことができます。</dd>
+</dl>
+
+
+
+---
+
+
+{{<btnCenter "/docs/manual/initial-setting/template/datetime/" "新バージョンでも使えます">}}
+
+## 時刻の入力画面{#display}
+
+時刻入力は2種類あります。上図をご覧ください。アナログ時計から選択するやり方と、ブラウザ依存から選ぶことができます。ブラウザ依存の場合は使用するブラウザによって入力方式が変わります。
+（例えばiPhoneのSafariならドラム式の入力になる）日報作成時の時刻が初期値として設定されるため、初期値の設定はできません。また、時刻パーツを連結して2つ並べると、双方の時間差を自動で計算します
+
+{{<imgproc parts_time.png "時刻を日報に添付した様子" />}}
+
+### 時刻を含んだ日報の各種出力画面{#output}
+
+[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
+
+{{<imgproc parts_time2.png "時刻を含む日報をPDFに変換した出力結果" />}}
+
+[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+
+{{<imgproc parts_time3.png "時刻を含む日報をCSVに出力し、Excelで開いた画面" />}}
+
+Nipoの受信・送信BOXからは次のように表示されます
+
+{{<imgproc parts_time4.png "クラウド日報Nipoのアプリ上から時刻を含むレポートを表示した画面" />}}
+
+### 設定画面{#setting}
+
+テンプレートの編集画面では次のような設定画面となっております。
+
+{{<imgproc parts_time5.png "時刻の初期設定画面" />}}
+
+
+<dl class="basic">
+  <dt>タイトル</dt>
+  <dd>タイトルを編集できます。改行も扱えます</dd>
+  <dt>表示形式</dt>
+  <dd>アナログ時計の針をクリックして入力する方式か、キーボードで直接入力する方式からお選びください</dd>
+  <dt>入力必須</dt>
+  <dd>ONにするとHH:mm以外の形式では日報の提出ができなくなります。この機能は無料プランでは無視されます</dd>
   <dt>説明文</dt>
   <dd>日報作成者が何を書くべきか迷わないようにするために説明を付すことができます。</dd>
 </dl>

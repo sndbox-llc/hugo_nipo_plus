@@ -9,14 +9,16 @@
 
 <header class="navbar navbar-expand-lg  navBarBackgroundColor" style="height: 60px !important;">
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation" >
-
-    <a class="navbar-brand m-0 p-0" href="{{ .Site.BaseURL | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
-      {{ if eq .Params.isNipo true }}
-      <img loading="lazy" src='/images/nipologo.svg' style="max-width:50px;" width="50" height="50" alt="Nipo ロゴ">
-      {{ else }}
+    <div>
+    <a class="navbar-brand m-0 p-0" href="/" aria-label="{{ .Site.Params.Title }}">
       <img loading="lazy" src='/images/favicon.svg' style="max-width:50px;" width="50" height="50" alt="NipoPlus ロゴ">
-      {{ end}}
     </a>
+
+    <a class="navbar-brand m-0 p-0" href="/legacy/about/diff/" aria-label="{{ .Site.Params.Title }}">
+    <img loading="lazy" src='/images/nipologo.svg' style="max-width:50px;" width="50" height="50" alt="Nipo ロゴ">
+    </a>
+  </div>
+
     <!-- 検索ボタン -->
     <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#searchBoxModal" aria-label="検索">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

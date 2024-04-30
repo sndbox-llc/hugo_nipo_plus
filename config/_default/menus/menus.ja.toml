@@ -16,10 +16,6 @@
   weight = 40
 
 
-[[main]]
-  name = "旧Nipo"
-  url = "/legacy/about/diff/"
-  weight = 40
 
 [[main]]
   name = "活用例"

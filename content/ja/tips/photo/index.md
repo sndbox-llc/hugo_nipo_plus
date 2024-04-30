@@ -4,7 +4,6 @@ description = "スマートフォンのカメラで撮影した写真を簡単�
 title = "スマホを使えば写真付きのレポートを驚くほど簡単に作成可能。スマホから印刷も"
 menuTitle = "写真付きの日報で現場の状況をわかり易く報告する"
 toc = true
-aliases = []
 images = ["icatch-photo-report_tablet.png"]
 tags = ["モバイル", "PDF出力"]
 date = "2023-06-12"

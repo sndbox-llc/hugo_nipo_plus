@@ -6,7 +6,6 @@ toc = true
 draft = true
 images = []
 date = "2023-06-01"
-aliases = []
 [sitemap]
   priority = 0.9
 +++

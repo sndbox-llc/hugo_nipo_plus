@@ -4,7 +4,7 @@ description = "カスタマイズ可能なテンプレートで自社オリジ�
 date = "2023-04-01"
 draft = false
 images = []
-aliases = ["/old/", "/docs/old/_about/"]
+aliases = ["/docs/old/_about/"]
 mermaid = false
 showPrice = true
 +++

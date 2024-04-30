@@ -81,15 +81,41 @@ NipoではFirebaseとTypesenseを使用していましたが、NipoPlusではFir
 
 ### テンプレートのカスタマイズ性が向上しました{#customize}
 
-Nipoでは1行につき最大2列までという制限がありました。
-これに対してNipoPlusでは、**1行につき最大で12列**まで項目を追加できるようになりました。
-幅を自由に設定できるためより本物に近い[テンプレートを作成](/docs/manual/initial-setting/template/_about/)できるようになりました。
+Nipoに比べて各入力フォームの幅をより柔軟に変更できるようになっています。  
+例えば次の画像のようなテンプレートが作れます▼
 
-{{<icatch filename="responsive-design" msg="テンプレートの 設計自由度がUP" title="テンプレートのレイアウト設計の自由度が大幅UP" fontsize="30px" alice="here">}}
+{{<appscreen filename="report-template" msg="テンプレートの 設計自由度がUP" title="テンプレートの自由度UP" fontsize="30px" alice="here">}}
 
-NipoPlusから新しく追加された[ファイル入力フォーム](/docs/manual/initial-setting/template/file/)を使えばZipやPDFといったデータを日報に添付できるようになります。
-また、[算術入力フォーム](/docs/manual/initial-setting/template/calc/)や[期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)なども新たに追加されました。
-行数が入力の都度変化する[可変長入力フォーム](/docs/manual/initial-setting/template/array/)についてもNipoPlusでは大幅な機能強化がなされており、Nipo時代は3種類しか使えませんでしたが、NipoPlusではほとんどすべての入力フォームを可変長として利用することができるようになりました。
+Nipo時代は１行に最大で２列までしか追加できなかったため、上画像のようなテンプレートは物理的に作れませんでした。
+また、NipoPlusではいくつかの入力フォームも追加されました
+
+- [ファイル入力フォーム](/docs/manual/initial-setting/template/file/)
+- [算術入力フォーム](/docs/manual/initial-setting/template/calc/)
+- [期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)
+- [可変長入力フォーム](/docs/manual/initial-setting/template/array/)
+  
+可変長入力フォームはNipo時代にも有りましたが大幅なレベルアップをしているので新規追加と言っても良いレベルです。そのためリストに掲載させていただきました。  
+他にも見出しの色変え機能や説明用画像の添付、入力順序の制御など、数多くの機能がNipoPlusにて実装されました。  
+選択肢１に応じて他の選択肢が変化する[動的変化機能](/docs/manual/initial-setting/template/dinamic_selection/)など、ユニークな機能も追加されています。
+
+
+{{<btnCenter "/docs/manual/initial-setting/template/_about/" "テンプレート概要">}}
+
+
+### レポートの検索もこれまで以上に多機能に{#report_search}
+
+Nipoのシンプルな受信BOXと比較してかなり機能が追加されたことが画像から読み取れます。
+
+{{<appscreen filename="search-report" msg="日報の検索 表示形式も変更OK" title="テンプレートの自由度UP" fontsize="30px" alice="here">}}
+
+右側のカレンダーで選択した範囲の日報しかロードしません。先述した容量節約の点です。  
+また、よく使う検索があれば検索条件として保存することもできます。毎回同じ検索を指定しなくてもワンクリックで検索が可能に。  
+Nipoではスクロールし続けて次のレポートを読み込む仕組みでした。これはスマートフォンのようなモバイル機器とは相性が良いですが、PCとはあまり相性がよくありません。  
+一般的なページネーション機能を実装することで、PCからでもページの切り替えが簡単に行えるようになっています。  
+
+一覧から任意の日報をクリックするとポップアップで表示されるようになった点も注目です。一覧画面を維持したまま、目的の日報を見ることができるため、操作性が大幅に向上します。
+
+
 
 ### 日報の承認リレーができるようになりました{#agrees}
 
@@ -113,10 +139,19 @@ Nipo時代は画像データを出力するにはPDF出力するしかなく、N
 
 ### 集計、分析機能の強化！グラフ化や過去データ比較が可能に{#diff}
 
-Nipoにも集計やグラフ作成機能はありましたが、グラフは折れ線グラフ1種類のみでした。また項目の設定などは一切行うことが出来ませんでした。
-NipoPlusでは円グラフ・折れ線グラフ・棒グラフ・レーダーチャート・複合グラフ・積上縦棒グラフなど、かなり豊富なグラフを自由に作成することができるようになりました。
+集計に関してはNipo時代の集計と比べて雲泥の差があります。まずグラフ(円グラフ・折れ線グラフ・棒グラフ・レーダーチャート・複合グラフ・積上縦棒グラフなど)を自由に作れるようになりました。
+
 
 {{<icatch filename="check-sheet-charts" msg="グラフの作成 細かく設定が可能" title="レポートをもとに自由にグラフを作成できるようになりました" fontsize="30px" alice="here">}}
+
+複数のグラフを作り、ワンクリックで切り替えも可能です。  
+他にも多くの機能がありますがここに書くには内容が多すぎるのでよしておきましょう。詳しくはグラフ作成のページを御覧ください。
+
+
+
+{{<btnCenter "/docs/manual/analytics/chart/" "グラフ作成">}}
+
+
 
 ### アプリ内の通知機能が実装されました{#notify}
 

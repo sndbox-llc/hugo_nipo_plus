@@ -9,8 +9,8 @@ aliases = ["/manual/read-report/csv/"]
 images = []
 +++
 
-CSV出力機能はWeb版（PWA版)のNipo限定の機能です。Android / iOSアプリではご利用になれませんので注意してください。
-スマホからCSVを出力したいときはPWA版としてインストールしてください。[Android](/docs/system/android/)・[iOS](/docs/system/ios/)  
+CSV出力機能はWeb版（PWA版)のNipo限定の機能です。[Android](/docs/system/mobile-install#googlePlay/)・[iOS](/docs/system/mobile-install#appStore/)  アプリではご利用になれませんので注意してください。
+スマホからCSVを出力したいときはPWA版としてインストールしてください。
 この記事はレポート1件をCSV出力するものです。まとめて出力するには一括CSV出力を御覧ください。
 
 {{<btnCenter "/docs/manual/analytics/csv/" "一括CSV出力">}}

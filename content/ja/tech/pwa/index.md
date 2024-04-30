@@ -152,7 +152,7 @@ PWAの効率良いデバッグ方法が知りたい・・・・なんでこん�
 ## iPadやAndroidで更新時にアプリがフリーズするトラブルが発覚{#trouble_with_app_freezing_on_update_on_ipad_and_android}
 
 PCのブラウザであれば問題なく更新ができていたPWAですが、AndroidやiPadでPWAの更新がうまくできないことがわかりました。
-[こちらの手順](/docs/system/ios/)でPWAをタブレットにインストールし、更新をテストしたところ、更新のメッセージが表示され、「後で更新」を選ぶとvue Routerが機能しなくなり、ページ遷移ができなくなります。
+[こちらの手順](/docs/system/mobile-install/)でPWAをタブレットにインストールし、更新をテストしたところ、更新のメッセージが表示され、「後で更新」を選ぶとvue Routerが機能しなくなり、ページ遷移ができなくなります。
 余談ですがiPhoneでは正常に更新ができます。（それにより発見が遅れたため悪いケースです）
 
 色々調べてみたところ、Service Worker内ではwindowにアクセスできないようです。ただregister-service-workerを使うと色々アクセス出来るようですし、実際にPCやiPhoneでは正常に更新ができていたため、iPadOSなど特定のOSで対応していないのかもしれません。

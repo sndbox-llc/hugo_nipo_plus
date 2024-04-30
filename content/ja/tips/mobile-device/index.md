@@ -117,6 +117,6 @@ PCでは真似できない日報の作り方ができます。
 - もし完全版を使いたい場合はWeb版のNipoPlusをPWAとしてインストールして利用できます。
 
 <div class="row justify-content-center">
-<div class="col-sm-16 col-md-8">{{<button "/docs/system/android/" "AndroidにNipoPlusをインストール">}}</div>
-<div class="col-sm-16 col-md-8">{{<button "/docs/system/ios/" "iPhoneにNipoPlusをインストール">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/system/mobile-install/#android" "AndroidにNipoPlusをインストール">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/system/mobile-install/#ios" "iPhoneにNipoPlusをインストール">}}</div>
 </div>

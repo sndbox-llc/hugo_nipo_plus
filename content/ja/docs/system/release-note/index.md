@@ -54,12 +54,12 @@ images = []
 
 #### 【Nipo+】2024/4/14 Version 1.50.1{#vp1_50_1}
 
-- 選択肢入力フォームに[動的変化機能](/docs/manual/initial-setting/template/dinamic_selection/)が実装されました。
+- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)に[動的変化機能](/docs/manual/initial-setting/template/dinamic_selection/)が実装されました。
 - ポップアップビューで日報を表示する際、各項目のタイトル文字が小さくなりすぎる問題を修正しました
 
 ####  【Nipo+】2024/4/6 Version 1.49.0{#vp1_49_0}
 
-- 選択肢入力フォーム（単体・複数両方）に初期値の設定ができるようになりました
+- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)（単体・複数両方）に初期値の設定ができるようになりました
 - レポート作成に使用した端末のOS・端末タイプ（デスクトップ・モバイル）の判別情報が追加されるようになりました
 
 
@@ -357,8 +357,8 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 #### 【Nipo+】 2023/04/07 Version 1.36.0{#vp1_36_0}
 
-- [スライド入力](/docs/manual/initial-setting/template/step/)で入力必須の指定ができるようになりました
-- [テキスト入力](/docs/manual/initial-setting/template/text/)でURLを入力するとリンクを生成するオプションが追加されました
+- [スライダ入力フォーム](/docs/manual/initial-setting/template/step/)で入力必須の指定ができるようになりました
+- [テキスト入力フォーム](/docs/manual/initial-setting/template/text/)でURLを入力するとリンクを生成するオプションが追加されました
 - （試作）言語切替機能を追加しました。一部翻訳されていない箇所については順次対応します
 - [ログ機能](/docs/manual/utils/log/)でスタッフIDだとわかりにくいためスタッフ名を表示するように修正しました
 - [スタッフアカウント](/docs/manual/initial-setting/staff/rank/)を「無効」にすると利用人数から減るように修正しました
@@ -452,7 +452,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 #### 【Nipo+】 2023/01/16 Version 1.25.2{#vp1_25_2}
 
-- [チェックボックス](/docs/manual/initial-setting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
+- [チェックボックス入力フォーム](/docs/manual/initial-setting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
 - [テンプレート](/docs/manual/initial-setting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
 - 長らく放置されていた全体設定の色に関するバグを修正しました
 
@@ -505,7 +505,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 
 - 軽微なバグを修正しました
-- 選択肢入力フォームの単語を削除しても過去のデータ推移やグラフで単語が消えないように修正しました
+- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)の単語を削除しても過去のデータ推移やグラフで単語が消えないように修正しました
 - 期間入力フォームにおいて休憩時間の入力に「簡易モード」を追加しました
 
 
@@ -626,7 +626,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 #### 【Nipo+】 2022/07/30 Version 1.8.0{#vp1_8_0}
 
 - レポートテンプレート選択時に本日の作成枚数が表示されるようになりました
-- チェックボックス入力フォームのデータが集計可能になりました
+- [チェックボックス入力フォーム](/docs/manual/initial-setting/template/checkbox/)のデータが集計可能になりました
 
 #### 【Nipo+】 2022/07/30 Version 1.7.5{#vp1_7_5}
 
@@ -646,12 +646,12 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 #### 【Nipo+】 2022/07/23 Version 1.7.1{#vp1_7_1}
 
-- 選択肢入力フォームの色付けを目立つように修正しました
+- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)の色付けを目立つように修正しました
 - テンプレートの編集でKeyの修正ができるようになりました
 
 #### 【Nipo+】 2022/07/21 Version 1.7.0{#vp1_7_0}
 
-- 選択肢入力フォームに色分け機能が実装されました
+- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)に色分け機能が実装されました
 
 #### 【Nipo+】 2022/07/19 Version 1.6.0{#vp1_6_0}
 

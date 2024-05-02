@@ -16,7 +16,7 @@ aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/", "/legacy/man
 
 {{<icatch filename="report1" msg="日報のデータ 自動で集計できる！" title="集計対象となる日報の例。文字は集計できないが数値は集計できる" fontsize="30px" alice="here">}}
 
-テキスト入力や数値入力などが混在した日報です。赤い枠内の項目はすべて集計機能を使って**簡単に集計**できます。
+[テキスト入力フォーム](/docs/manual/initial-setting/template/text/)や[数値入力フォーム](/docs/manual/initial-setting/template/math/)などが混在した日報です。赤い枠内の項目はすべて集計機能を使って**簡単に集計**できます。
 
 {{<alice pos="left" icon="default">}}
 他にもチェックボックスや選択式入力の集計も対応しています

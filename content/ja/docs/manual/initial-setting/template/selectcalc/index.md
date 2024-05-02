@@ -2,13 +2,21 @@
 description = "テンプレートカスタムパーツの1つ。1つ目の回答によって2つめの回答リストが変化する特殊な入力フォームです。"
 tags = ["テンプレートパーツ", "テンプレート"]
 title = "【選択式入力（2層式）】レポートテンプレートに追加"
-menuTitle = "🧩選択式入力（2層式）"
+menuTitle = "⛔選択式入力（2層式）"
 toc = true
 weight = 101001106
 mermaid = true
 aliases = ["/manual/initial-setting/template/selectcalc/", "/manual/org/groupsetting/template/selectcalc/"]
 images = []
 +++
+
+
+
+{{<warning>}}
+この機能は非推奨です。[動的変化](/docs/manual/initial-setting/template/dinamic_selection/)を使うことで同様の機能をもたせることができます。
+
+{{</warning>}}
+
 
 {{<icatch filename="select-step" msg="Q1の答によって Q2の選択が変化" title="選択肢二槽式入力フォーム" fontsize="30px" alice="ok">}}
 
@@ -26,7 +34,7 @@ graph LR;
     C -->|果物を選択| E[いちご<br>ばなな<br>パイナップル<br>etc...]
 {{< /mermaid >}}
 
-階層分けが不要であれば類似の入力フォームである[選択肢入力フォーム](/docs/manual/initial-setting/template/select/)を使用してください。
+階層分けが不要であれば類似の入力フォームである[選択式入力フォーム](/docs/manual/initial-setting/template/select/)を使用してください。
 
 ## 選択肢（2層式）の初期設定{#setting}
 

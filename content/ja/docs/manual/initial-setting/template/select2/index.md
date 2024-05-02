@@ -30,9 +30,9 @@ images = []
 
 このような選択式フォームをレポートに追加できます。
 
-{{<icatch filename="select2" msg="選ぶだけの簡単入力 色分けも可能" title="選択肢入力フォームのテンプレート例" fontsize="30px" alice="here">}}
+{{<icatch filename="select2" msg="選ぶだけの簡単入力 色分けも可能" title="選択式入力フォームのテンプレート例" fontsize="30px" alice="here">}}
 
-回答を1つだけ選ぶ場合は「[選択肢入力フォーム（単）](/docs/manual/initial-setting/template/select/)」をご利用ください。
+回答を1つだけ選ぶ場合は「[選択式入力フォーム（単）](/docs/manual/initial-setting/template/select/)」をご利用ください。
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|
 |:---:|:---:|:---:|
@@ -66,7 +66,7 @@ images = []
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
 
-{{<appscreen filename="template-edit-select2" title="選択肢入力フォームを含んだレポートの設計">}}
+{{<appscreen filename="template-edit-select2" title="選択式入力フォームを含んだレポートの設計">}}
 
 {{<nextArrow>}}
 {{<appscreen filename="select2-preview"  title="選択式の入力画面イメージ">}}

@@ -55,10 +55,10 @@ images = []
 
 計算式として利用できる入力フォームは以下のとおりです。
 
-- 数値入力フォーム
-- レート入力フォーム
-- スライダ入力フォーム
-- 選択式入力フォーム
+- [数値入力フォーム](/docs/manual/initial-setting/template/math/)
+- [レート入力フォーム](/docs/manual/initial-setting/template/rate/)
+- [スライダ入力フォーム](/docs/manual/initial-setting/template/step/)
+- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)
 
 選択式入力フォーム、選択式の単語中に数字が含まれている場合、その数字が計算式に利用されます。
 例えば次のように設計してください

@@ -195,7 +195,7 @@ images = ["pie-chart_tablet.png"]
 ### 選択式入力フォームに数値が含まれる場合のグラフ化{#text}
 
 選択肢の単語に数字が含まれている場合は数字として集計が可能です。
-選択肢入力フォームのテンプレートを用意しました。項目は3つ（線形ズレ・重量誤差・状態）です。
+[選択式入力フォーム](/docs/manual/initial-setting/template/select/)を含んだテンプレートを用意しました。項目は3つ（線形ズレ・重量誤差・状態）です。
 
 {{<imgproc report-sample-select.png "このようなレポートをグラフ化する" />}}
 
@@ -264,7 +264,7 @@ images = ["pie-chart_tablet.png"]
 
 {{<imgproc field-select.png "独自に追加した数式をグラフとして使う" />}}
 
-追加した数式はシステム上、数値として扱われるので数値入力フォームと同じような挙動をします。
+追加した数式はシステム上、数値として扱われるので[数値入力フォーム](/docs/manual/initial-setting/template/math/)と同じような挙動をします。
 
 {{<imgproc usage-guide.png "数式に指定した名前がそのままグラフの凡例として使用されます" />}}
 

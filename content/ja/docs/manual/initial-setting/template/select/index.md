@@ -29,7 +29,7 @@ images = []
 |:---:|:---:|:---:|:---:|
 |○|○|○|○|
 
-{{<icatch filename="eye-catch" msg="選ぶだけの簡単 入力方式。集計も可" title="選択肢入力フォームを含んだテンプレート" fontsize="30px" alice="here">}}
+{{<icatch filename="eye-catch" msg="選ぶだけの簡単 入力方式。集計も可" title="選択式入力フォームを含んだテンプレート" fontsize="30px" alice="here">}}
 
 用途としては次のようなものがあります
 
@@ -66,7 +66,7 @@ images = []
 共通設定事項については以下を参照してください。
 {{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
 
-{{<appscreen filename="template-edit-select1" title="選択肢入力フォームのみで構成されたチェックシートのサンプル。このテンプレートを使って実際の入力画面や表示画面を確認していきましょう">}}
+{{<appscreen filename="template-edit-select1" title="選択式入力フォームのみで構成されたチェックシートのサンプル。このテンプレートを使って実際の入力画面や表示画面を確認していきましょう">}}
 
 {{<nextArrow>}}
 

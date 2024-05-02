@@ -27,7 +27,7 @@ CSV出力設定には「展開」に関する設定が多くあります。具�
 
 列の展開はデータの列をどのように表現するかの違いです。
 展開がOFFの場合は1列で表現し、ONの場合は項目の数だけ列を増やし（展開し）ます。
-以下は選択肢入力フォームをCSV出力したときのイメージです。選択肢は「Windows,Mac,Android,iOS」があるとします。
+以下は[選択式入力フォーム](/docs/manual/initial-setting/template/select/)をCSV出力したときのイメージです。選択肢は「Windows,Mac,Android,iOS」があるとします。
 
 **列展開をOFF**にして出力
 

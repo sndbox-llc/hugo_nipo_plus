@@ -32,7 +32,7 @@ aliases = ["/old/parts/slide/", "/docs/old/parts/slide/"]
 
 {{<imgproc parts_slide3.png "スライダーを含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-スライダー入力の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo上からもかんたんに行えます。
+[スライダ入力](/docs/manual/initial-setting/template/step/)の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo上からもかんたんに行えます。
 {{<imgproc parts_slide4.png "スライダーのデータを集計する" />}}
 
 {{<alice pos="left" icon="default">}}

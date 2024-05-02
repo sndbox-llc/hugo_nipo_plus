@@ -1,5 +1,5 @@
 +++
-description = "語録管理機能を活用して、選択肢入力フォームの効率を大幅に向上させましょう。このガイドでは、語録の作成、編集、および削除方法について詳しく解説します"
+description = "語録管理機能を活用して、選択式入力フォームの効率を大幅に向上させましょう。このガイドでは、語録の作成、編集、および削除方法について詳しく解説します"
 tags = ["語録機能", "有料プラン限定", "要編集者権限"]
 title = "語録管理"
 toc = true
@@ -9,12 +9,12 @@ images = []
 +++
 
 語録とはシンプルな単語の集まり（単語帳）です。  
-語録は単体では利用できません。必ず「選択肢入力フォーム」と組み合わせ、選択肢のリストとして使います。
-選択肢入力フォーム上でもリストは作成できるため語録を無理に使う必要は有りませんが、以下のケースでは語録を使うと効率よく管理ができます。
+語録は単体では利用できません。必ず[選択式入力フォーム](/docs/manual/initial-setting/template/select/)と組み合わせ、選択肢のリストとして使います。
+[選択式入力フォーム](/docs/manual/initial-setting/template/select/)上でもリストは作成できるため語録を無理に使う必要は有りませんが、以下のケースでは語録を使うと効率よく管理ができます。
 
 - 選択肢の数が非常に多い場合
 - 流動的に選択肢のリストを追加・削除したい場合
-- 複数の選択肢入力フォームを設置しそれぞれに同じリストを使いたい場合
+- 複数の[選択式入力フォーム](/docs/manual/initial-setting/template/select/)を設置しそれぞれに同じリストを使いたい場合
 
 ## 語録を作成する{#make}
 
@@ -35,11 +35,11 @@ images = []
 
 ## 語録を使う{#usage}
 
-前述の通り語録は単体では機能しません。選択肢入力フォームと組み合わせて利用します。具体的な設定手順についてはそれぞれの入力フォーム設定ガイドを参照してください。
+前述の通り語録は単体では機能しません。[選択式入力フォーム](/docs/manual/initial-setting/template/select/)と組み合わせて利用します。具体的な設定手順についてはそれぞれの入力フォーム設定ガイドを参照してください。
 
 <div class="row justify-content-center mt-5">
-<div class="col-sm-16 col-md-8">{{<button "/docs/manual/initial-setting/template/select/" "選択肢入力フォーム（単）">}}</div>
-<div class="col-sm-16 col-md-8">{{<button "/docs/manual/initial-setting/template/select2/" "選択肢入力フォーム（複）">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/initial-setting/template/select/" "選択式入力フォーム（単）">}}</div>
+<div class="col-sm-16 col-md-8">{{<button "/docs/manual/initial-setting/template/select2/" "選択式入力フォーム（複）">}}</div>
 </div>
 
 ## 語録の単語を編集する{#edit}

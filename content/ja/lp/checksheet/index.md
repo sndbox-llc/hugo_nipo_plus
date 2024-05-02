@@ -33,9 +33,9 @@ NipoPlusは点検チェックシートのように**繰り返し何度でも使�
 オーダーメイドの入力システムはコストも時間も掛かりますが、NipoPlusは専門知識がなくても簡単に入力テンプレートを作成できます。しかも自分で作るから安価です。  
 作り方は簡単です。10種類以上の用意された入力パーツをブロックのように並べていくだけです。いくつかのパーツをピックアップでご紹介
 
-- [選択式入力](/docs/manual/initial-setting/template/select/)：複数の設問から1つを選ぶ
-- [レート入力](/docs/manual/initial-setting/template/rate/)：レビューでおなじみの★★★☆☆を使った入力が可能
-- [スライダ入力](/docs/manual/initial-setting/template/step/)：つまみを動かして入力できるスマホ・タブレットと相性良い入力
+- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)：複数の設問から1つを選ぶ
+- [レート入力フォーム](/docs/manual/initial-setting/template/rate/)：レビューでおなじみの★★★☆☆を使った入力が可能
+- [スライダ入力フォーム](/docs/manual/initial-setting/template/step/)：つまみを動かして入力できるスマホ・タブレットと相性良い入力
 
 
 
@@ -154,7 +154,7 @@ NipoPlusでは今回と過去との比較を一覧表で表示する機能が備
 ### チェックシートのデータをもとに円グラフや折れ線グラフも作ろう{#create_pie_charts_and_line_graphs_based_on_checklist_data}
 
 チェック項目によっては集計やグラフ化が作成可能なものもあります。
-例えば[レート入力](/docs/manual/initial-setting/template/rate/)、[スライダ入力](/docs/manual/initial-setting/template/step/)、[数値入力](/docs/manual/initial-setting/template/math/)などはグラフにできます。  
+例えば[レート入力フォーム](/docs/manual/initial-setting/template/rate/)、[スライダ入力フォーム](/docs/manual/initial-setting/template/step/)、[数値入力フォーム](/docs/manual/initial-setting/template/math/)などはグラフにできます。  
 
 少し意外かもしれませんが、[選択式入力](/docs/manual/initial-setting/template/select/)もグラフ化できます。
 どのようなものかというと、選択された回数を集計する方法と、選択肢の先頭に数値を含めることで数値として振る舞うこともできます。

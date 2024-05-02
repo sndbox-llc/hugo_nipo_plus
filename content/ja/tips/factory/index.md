@@ -30,7 +30,7 @@ aliases = ["/checksheet/factory/", "/tips/progress/"]
 
 > 不良率 = （不良数÷生産数）×100
 
-NipoPlusのテンプレートには簡単な[四則演算を埋め込む](/docs/manual/initial-setting/template/calc/)ことができるので、レポート記入の時点で自動で不良率を求めることができます。
+NipoPlusのテンプレートには簡単な[算術入力フォーム](/docs/manual/initial-setting/template/calc/)で四則演算を埋め込むことができるので、レポート記入の時点で自動で不良率を求めることができます。
 
 
 {{<appscreen filename="auto-calc" title="チェックシートにデータを入力します。スマホやタブレットからも入力が可能です。不良率などの計算フォームがある場合は自動で値が計算されます">}}

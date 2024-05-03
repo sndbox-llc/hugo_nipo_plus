@@ -82,18 +82,18 @@ classDef class1 fill:#7BCCAC
 
 |サービス名|1名単価|最小利用人数|月額総額▼|備考
 |---|---:|---:|---:|---|
-[i-Reporter](https://i-reporter.jp/)|❓|5名|37,500円|初期費用50,000円
-[Nanoty](https://www.nanotybp.jp/price/)|600円|20名|12,000円|
-[未来レポート](https://www.mirairepo.net/)|330円|20名|6,600円|
-[FieldPlus](https://www.fieldplus.net/price/)|500円|❓|5,500円|基本料5,000円
-[Gamba](https://www.getgamba.com/price/)|980円|5名|4,900円|税別
-[レポートくん](https://nippoukun.bpsinc.jp/#price)|<span style="color:red">44円</span>|60名|2,750円|
-[houren.so](https://www.houren.so/)|❓|❓|2,500円|無料有
-[Nipo](/legacy/about/quick/)|200〜500円|5名|2,250円|無料有
-[DeskNetsNeo](https://www.desknets.com/neo/price/)|400円|5名|2,000円|売切版有
-[NipoPlus](/)|180円|5名|<span style="color:red;background-color:pink;">900円</span>|無料有
-[ニッピー](https://nippii.info/)|980円|❓|❓980円|製造業特化型
 [Pace](https://paces.jp/pricing/)|550円|❓|❓550円|最小が1名なら最安
+✅[NipoPlus](/)|180円|5名|<span style="color:red;background-color:pink;">900円</span>|無料有
+[ニッピー](https://nippii.info/)|980円|❓|❓980円|製造業特化型
+[DeskNetsNeo](https://www.desknets.com/neo/price/)|400円|5名|2,000円|売切版有
+[Nipo](/legacy/about/quick/)|200〜500円|5名|2,250円|無料有
+[houren.so](https://www.houren.so/)|❓|❓|2,500円|無料有
+[レポートくん](https://nippoukun.bpsinc.jp/#price)|<span style="color:red">44円</span>|60名|2,750円|
+[Gamba](https://www.getgamba.com/price/)|980円|5名|4,900円|税別
+[FieldPlus](https://www.fieldplus.net/price/)|500円|❓|5,500円|基本料5,000円
+[未来レポート](https://www.mirairepo.net/)|330円|20名|6,600円|
+[Nanoty](https://www.nanotybp.jp/price/)|600円|20名|12,000円|
+[i-Reporter](https://i-reporter.jp/)|❓|5名|37,500円|初期費用50,000円
 
 </div>
 

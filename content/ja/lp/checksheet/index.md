@@ -1,17 +1,17 @@
 +++
-description = "機器の点検チェックにも製品の品質チェックシートにもなります。点検結果を集計グラフ化するのも簡単。製造業や建設業でご活用ください。業界最安値でありながら多機能なチェックシートアプリです"
-title = "製造業などで使えるチェックシートアプリ"
-menuTitle = "チェックシートアプリ"
+description = "設備点検や巡回点検、現場点検といった業務をデジタル化し、効率的に管理。点検結果をグラフで簡単に集計できるテンプレートを提供。製造業や建設業での保守点検に最適なアプリです。"
+title = "点検業務の効率化をサポートするチェックシートアプリ"
+menuTitle = "点検チェックシートアプリ"
 toc = true
 images = ["factory-usage.jpg"]
-tags = ["製造業向け"]
+tags = ["製造業向け", "設備点検"]
 date = "2023-06-15"
 aliases = ["/checksheet/", "/blog/checksheet/", "/blog/checklistapp/", "/tips/maintenance/", "/tips/tablet/", "/tips/checksheet/"]
 showPrice = true
-heroTitle = "現場の点検チェックシート入力App|現場調査・機材点検にも"
+heroTitle = "現場の点検表アプリ|電子化で集計や管理を効率的に"
 heroLinks = [
-  { label = "現場の写真を添付が必要なチェックシートに", url = "/tips/photo/" },
-  { label = "5Sチェックシートに" },
+  { label = "入力漏れや点検手順スキップを防ぐ制御機能あり", url = "/tips/required/" },
+  { label = "Android /iPadにも完全対応" , url = "/tips/mobile-device/"},
   { label = "設備点検・ビルメンテナンス等にも"},
 ]
 [sitemap]

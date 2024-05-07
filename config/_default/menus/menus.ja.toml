@@ -47,4 +47,4 @@
   weight = 48
   identifier = "excel"
   url = "/excel/"
-  parent = ""
+  parent = "blogroot"

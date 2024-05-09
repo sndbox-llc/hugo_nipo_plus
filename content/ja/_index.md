@@ -9,7 +9,7 @@ mermaid = false
 showPrice = true
 +++
 
-## ノーコードで作る、オリジナルテンプレート{#customize_template}
+## ノーコードで作れるオリジナルの日報テンプレート{#customize_template}
 
 プログラミングの知識不要でオリジナルのレポート（日報やチェックシートなど）のテンプレートを自由に作成できます。  
 [文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/math/)、[画像入力](/docs/manual/initial-setting/template/picture/)、[選択入力](/docs/manual/initial-setting/template/select/)などの豊富な入力部品を用意しています。これらをブロックのように並べ、最後にタイトルをつければオリジナルテンプレートの出来上がりです。  
@@ -27,7 +27,7 @@ showPrice = true
 {{<nextArrow>}}
 
 
-## スマートに日報作成：どこでも、いつでも簡単入力{#write_report}
+## PCはもちろん・スマホやタブレットで時間や場所に囚われず日報作成{#write_report}
 
 日報作成はNipoPlusの主要で最も使いやすい機能の一つです。最小限の手順で日報作成が可能です。
 
@@ -57,7 +57,7 @@ showPrice = true
 {{<nextArrow>}}
 
 
-## コミュニケーションを強化する日報閲覧と承認{#read_report}
+## コミュニケーションを強化するコメント機能と承認{#read_report}
 
 
 レポートの共有と承認プロセスを通じて、チーム内の透明性とコミュニケーションを促進します。
@@ -80,7 +80,7 @@ showPrice = true
 {{<nextArrow>}}
 
 
-## データを形に：PDF・CSV出力とグラフ化機能{#report_analytics}
+## データを形に：PDF・CSV出力とグラフ化で日報を見える化{#report_analytics}
 
 集計に対応した入力部品、例えば[数値パーツで入力されたデータ](/docs/manual/initial-setting/template/math/)や[選択肢パーツで入力されたデータ](/docs/manual/initial-setting/template/select/)はNipoPlus上でそのまま集計・グラフの作成が可能です。  
 蓄積していく日報を手動で集計する手間はもうおしまいです。単純な集計はNipoPlusにお任せください。

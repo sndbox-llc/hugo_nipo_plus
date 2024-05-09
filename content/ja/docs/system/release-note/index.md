@@ -208,6 +208,9 @@ images = []
 - グループが解散できないバグを修正しました
 
 
+<details>
+  <summary>２０２３年の更新情報</summary>
+
 
 #### 【Nipo】2023/12/25 Version 8.0.2{#vo8_0_2}
 
@@ -241,6 +244,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 - ログアウト時に「権限不足」の警告が表示されてしまうバグを修正しました
 - 特定の条件で「シフト表」がロード画面から進まなくなるバグを修正しました
+
 
 
 #### 【Nipo+】2023/12/10 Version 1.45.0{#vp1_45_0}
@@ -467,6 +471,15 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 - レポート受信BOXで表示期間を拡張するボタンが実装されました（レポートが０件の場合にのみ）
 - カレンダーがデフォルトで先月が表示されるバグを修正しました
 - レポートテンプレートの編集をスマートフォンでも操作しやすいようにレイアウトを変更しました
+
+</details>
+
+
+
+<details>
+  <summary>２０２２年の更新情報</summary>
+
+
 
 #### 【Nipo+】 2022/12/23 Version 1.24.0{#vp1_24_0}
 
@@ -722,6 +735,14 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 - プレリリース
 
+</details>
+
+
+
+<details>
+  <summary>２０２１年の更新情報</summary>
+
+
 #### 【Nipo】 2021/01/06 v7.1.10{#v7.1.10}
 
 - バグの修正を行いました
@@ -795,6 +816,15 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 - GOLD PLANの申し込み上限人数を６５名に拡張しました
 - リストレイアウトで項目が多い場合に潰れてしまう問題を修正しました
 - 関連する全てのフレームワークやライブラリを最新版に刷新しました
+
+
+
+</details>
+
+
+
+<details>
+  <summary>２０２０年の更新情報</summary>
 
 #### 【Nipo】 2020/10/19 v6.2.5{#v6.2.5}
 
@@ -970,6 +1000,12 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 - 「承認・棄却」のステータスをわかりやすい入国スタンプ風に表示されるようになりました
 - 関連するフレームワーク・ライブラリを最新に更新しました
 
+
+</details>
+<details>
+  <summary>２０１９年の更新情報</summary>
+
+
 #### 【Nipo】 2019/12/16 v5.4.0 {#v5.4.0}
 
 - レポートテンプレートパーツ「表」が追加されました
@@ -1133,6 +1169,11 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 - これまでできなかった、レポート本文の選択やコピーができるようになりました
 - 2019年もNipoをよろしくお願いします
 
+</details>
+<details>
+  <summary>２０１８年の更新情報</summary>
+
+
 #### 【Nipo】 2018/12/27 Version 3.21.1{#v3.21.1}
 
 - TRIAL PLANの廃止に伴う修正が行われました
@@ -1237,3 +1278,6 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 #### 【Nipo】 2018/05/01 Version 3.0.0 {#v3.0.0}
 
 - Nipo初版リリース
+
+
+</details>

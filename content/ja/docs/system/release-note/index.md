@@ -34,9 +34,8 @@ images = []
 #### 【Nipo+】2024/5/10 Version 1.51.2{#vp1_51_2}
 
 
-- 進捗管理でCSVが正しく出力されないバグを修正しました
-- レポートのCSV出力オプションに「案件出力」が追加されました
-- 一部の誤った表記を修正しました
+- [予定実績管理](/docs/manual/analytics/progress/)でCSVが正しく出力されないバグを修正しました
+- レポートの[CSV出力オプション](/docs/manual/analytics/csvoption/)に「案件出力」が追加されました
 
 
 #### 【Nipo+】2024/4/25 Version 1.51.1{#vp1_51_1}

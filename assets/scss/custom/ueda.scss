@@ -385,3 +385,12 @@ details[open] summary {
   margin-bottom: 0.5em;
 }
 
+
+
+.tableWrapFper {
+  overflow-x: auto;
+  width: 100%; /* 必要に応じて調整 */
+  td {
+    white-space: nowrap; /* テキストの折り返しを防ぐ */
+  }
+}

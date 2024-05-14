@@ -1,15 +1,15 @@
 +++
-description = "設備点検や巡回点検、現場点検といった業務をデジタル化し、効率的に管理。点検結果をグラフで簡単に集計できるテンプレートを提供。製造業や建設業での保守点検に最適なアプリです。"
+description = "機材点検・品質チェックなど現場のチェックシートをまるっと電子化。点検表アプリとして破格の1名180円でご提供"
 title = "点検業務の効率化をサポートするチェックシートアプリ"
 menuTitle = "点検チェックシートアプリ"
 toc = true
 mermaid = true
 images = ["factory-usage.jpg"]
-tags = ["製造業向け", "設備点検"]
+tags = ["製造業向け", "設備点検", "チェックシートアプリ"]
 date = "2023-06-15"
 aliases = ["/checksheet/", "/blog/checksheet/", "/blog/checklistapp/", "/tips/maintenance/", "/tips/tablet/", "/tips/checksheet/"]
 showPrice = true
-heroTitle = "現場の点検表アプリ|電子化で集計や管理を効率的に"
+heroTitle = "製造現場やフィールドワークの点検・チェック業務をアプリ化"
 heroLinks = [
   { label = "入力漏れや点検手順スキップを防ぐ制御機能あり", url = "/tips/required/" },
   { label = "Android /iPadにも完全対応" , url = "/tips/mobile-device/"},

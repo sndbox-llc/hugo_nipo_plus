@@ -23,6 +23,8 @@ images = []
 - システムのトラブルの場合は問い合わせの前にトラブルシューティングをお試しください（案外すんなり解決することもあります）
 
 
+[▶Nipoの解約手順がわからない方はお問い合わせ前にこちらを御覧ください](/legacy/system/leave/)。  
+[▶NipoからNipoPlusへ乗り換えを検討の方はお問い合わせ前にこちらを御覧ください](/legacy/about/diff/#disabled)  
 
 
 {{<btnCenter "/docs/system/fix/" "トラブルシューティング">}}

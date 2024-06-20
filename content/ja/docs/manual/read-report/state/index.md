@@ -4,7 +4,7 @@ tags = []
 title = "📖レポートを読む"
 toc = true
 weight = 101003002
-aliases = ["/manual/read-report/state/", "/manual/read-report/other/", "/docs/manual/read-report/other/"]
+aliases = ["/manual/read-report/state/", "/manual/read-report/other/", "/docs/manual/read-report/other/", "/manual/read-report/comment/", "/docs/manual/read-report/comment/", "/manual/read-report/csv/", "/docs/manual/read-report/csv/"]
 images = []
 +++
 
@@ -68,7 +68,7 @@ images = []
 棄却された事実はレポートの作成者に[通知](/docs/manual/notice/app/)されます。棄却されたレポートをその後どうするのかは各会社でルールを明確に決めておくと良いでしょう。
 一般的には修正して再提出という流れになるかと思います。もし修正が必要な場合は[レポート・チェックシートの修正](/docs/manual/write-report/rewrite/)を御覧ください
 
-## レポートの修正という状態について{#state}
+### レポートの修正という状態について{#state}
 
 もし仮に先程のレポートを修正するとどうなるのか見ておきましょう。状態は「修正」となり、承認のハンコはすべてクリアされて最初からとなります。
 
@@ -100,3 +100,81 @@ images = []
 <dt>承認</dt>
 <dd>そのレポートが<a href="/docs/manual/read-report/state/">承認</a>された日時を表示します。承認者が複数名いる場合、この項目は承認者の数だけ増えます</dd>
 </dl>
+
+---
+
+
+## レポートにコメントを書く{#comment}
+
+【この機能はGOLDPLAN限定です】
+
+[レポートを読む](/docs/manual/read-report/state/)権限があればレポートにコメントを残すことができます。
+
+1. コメントを書くレポートを開く
+2. コメントを記入し、投稿ボタンを押す
+
+{{<appscreen filename="write-comment" title="コメントエリアには表示中のレポートに対して付されたコメントが表示されます。1つのレポートに付き最大で500コメントまで保存できます">}}
+
+- 自分の書いたコメントは右側にグレーの吹き出しで表示されます
+- 自分以外が書いたコメントは左側に緑色の吹き出しで表示されます。  
+- コメント自体は新しいものが上位に表示されます。
+- 1つのレポートに対してコメントは**最大で500件**まで書込みが可能です。
+- 自分の書いたコメントのみ、削除することができます。
+
+{{<alice pos="left" icon="default">}}
+おつかれさまです
+{{</alice>}}
+
+{{<alice pos="right" icon="ok">}}
+来週もよろしくおねがいします
+{{</alice>}}
+
+些細なやり取りかもしれませんがコミュニケーション図るツールとしてぜひご活用ください
+
+### コメントの通知とログ{#log}
+
+コメントが作成されるとレポートのオーナーに対して[通知が発行](/docs/manual/notice/app/)されます。[ログ](/docs/manual/utils/log/)上にもコメントが残ります。
+スタッフの[活動実績](/docs/manual/initial-setting/staff-local/activity/)としてもカウントされます。
+
+---
+
+
+## 表示中のレポート1件をCSVに出力する{#csv_export}
+
+
+CSV出力機能はWeb版（PWA版)のNipo限定の機能です。[Android](/docs/system/mobile-install#googlePlay/)・[iOS](/docs/system/mobile-install#appStore/)  アプリではご利用になれませんので注意してください。
+スマホからCSVを出力したいときはPWA版としてインストールしてください。
+この記事はレポート1件をCSV出力するものです。まとめて出力するには一括CSV出力を御覧ください。
+
+{{<btnCenter "/docs/manual/analytics/csv/" "一括CSV出力">}}
+
+
+
+出力する手順は次の通りです。
+
+1. CSV出力したいレポートを表示
+1. メニューから「CSV出力」をクリック
+
+{{<appscreen filename="report-to-csv" title="表示中のレポート1件をCSVに出力します。スマートフォンは画面幅の関係で出力ボタンが下部に配置されます">}}
+
+クリック後の挙動はお使いのブラウザの設定により異なります。downloadフォルダに自動で保存されるケース、保存先を自分で設定するケースなどがあるので各自環境をご確認ください。
+
+### CSVファイルが文字化けする場合{#text_shaking}
+
+ダウンロードされたCSVファイルはメモ帳などのテキストエディタや、エクセルなどの表計算ソフトを使って開くことができます。
+CSVファイルの**文字コードはUTF-8**を採用しています。エクセル2007以前の古いエクセルではCSVファイルをShift-jis形式で開こうとするため、文字ーコード違いによる文字化けが発生します。
+エクセルを2010以上のバージョンにするか、[こちらの記事](https://www.pc-koubou.jp/magazine/38143)を参考に文字化けを解消してください。
+
+またレポートに画像が添付されていた場合はZip形式でダウンロードされます。解凍時に文字化けする場合は解凍ソフトに問題があります。
+
+{{<btnCenter "/tech/mojibake/" "Zipの文字化けを解消">}}
+
+### CSV出力形式を変更する{#edit}
+
+行列の入れ替えや並び順の変更など様々な設定が可能です。
+CSV出力形式はスタッフアカウントごとに記録されるため他のスタッフに影響を与えません。
+設定については専用のセクションを用意しているのでそちらの記事を参照してください。
+
+{{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}
+
+CSV出力設定は[一括CSV出力](/docs/manual/analytics/csv/)でも同じ設定が自動で適用されます。（逆もまた同様）

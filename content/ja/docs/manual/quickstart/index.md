@@ -102,7 +102,6 @@ NipoPlusはテンプレートを作り、その**テンプレートに沿って�
 
 {{<btnCenter "/docs/manual/write-report/write/" "レポートの提出マニュアル">}}
 
-{{<alice pos="right" icon="here">}}「管理者」の名前を変更する方法については後述します{{</alice>}}
 
 {{<nextArrow>}}
 

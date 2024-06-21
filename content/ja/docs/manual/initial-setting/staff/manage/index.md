@@ -54,7 +54,7 @@ HINT：グループに所属するとグループの管理画面にそのスタ�
 パスワードとメールアドレスの変更についてはこちらの記事も参照してください。
 
 - [ログインE-mailの変更](/docs/manual/account/email/)
-- [ログインパスワードを忘れた方](/docs/manual/account/password/)
+- [ログインパスワードを忘れた方](/docs/manual/account/email/#password)
 
 また、権限変更の際、管理者は最低１名以上必要になります。管理者が0名になるように変更はできません。
 

@@ -11,7 +11,7 @@ aliases = ["/old/manual/edit-login/", "/docs/old/manual/edit-login/"]
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/account/password/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/account/email/#password" "新バージョンでも使えます">}}
 
 ## アカウントの設定画面からログインのメールアドレスやパスワードの変更ができます{#account}
 

@@ -30,7 +30,7 @@ images = []
 {{<appscreen filename="create-new-staff" title="組織内にスタッフのアカウントを追加します">}}
 
 E-mailのみ必須です。それ以外に名前や[権限の設定](/docs/manual/initial-setting/staff/manage/)もできます。パスワードは初期設定時にデフォルトのものが設定されますが、任意に変更可能です。
-指定したパスワードは実際にアカウントを利用するスタッフが[ログイン後に変更](/docs/manual/account/password/)できます。
+指定したパスワードは実際にアカウントを利用するスタッフが[ログイン後に変更](/docs/manual/account/email/#password)できます。
 
 作成されたスタッフアカウントの権限は初期状態では「スタッフ権限」になります。必要に応じてを行ってください。
 

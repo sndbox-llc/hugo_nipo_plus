@@ -8,7 +8,7 @@ aliases = ["/docs/manual/timecard/_about", "/manual/timecard/", "/manual/timecar
 +++
 
 {{<info>}}
-タイムカードは初期状態で「無効」になっています。利用するには[グループ設定](/docs/manual/initial-setting/setting-group/#edit)から「タイムカード」を有効にしてください
+タイムカードは初期状態で「無効」になっています。利用するには[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から「タイムカード」を有効にしてください
 {{</info>}}
 
 ## タイムカード機能の概要{#about}

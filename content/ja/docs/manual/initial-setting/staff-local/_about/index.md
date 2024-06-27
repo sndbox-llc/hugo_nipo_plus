@@ -28,18 +28,20 @@ images = []
 <dl class="basic">
 <dt>名前</dt>
 <dd>スタッフの名前です。変更は組織のスタッフ管理にて</dd>
-<dt>権限</dt>
-<dd>スタッフの権限。変更は組織のスタッフ管理にて</dd>
+<dt><a href="/docs/manual/initial-setting/staff/rank/">権限</a></dt>
+<dd>スタッフの権限。変更は組織のスタッフ管理から行います（グループ内スタッフ管理からは変更できません）</dd>
 <dt>状態</dt>
-<dd><ul><li>緑：有効</li><li>赤：無効</li></ul>変更は組織のスタッフ管理にて</dd>
+<dd><ul><li>緑：有効</li><li>赤：無効</li></ul>変更は組織のスタッフ管理から行います（グループ内スタッフ管理からは変更できません）</dd>
 <dt>E-mail</dt>
 <dd>スタッフがログインに使用するメールアドレス</dd>
-<dt>提出先の指定</dt>
+<dt><a href="/docs/manual/initial-setting/staff-local/dist/">提出先の指定</a></dt>
 <dd>レポートの提出先をスタッフごとに制御可能です</dd>
-<dt>テンプレートの制限</dt>
+<dt><a href="/docs/manual/initial-setting/staff-local/template/">テンプレートの制限</a></dt>
 <dd>使用可能なテンプレートをスタッフごとに制御可能です</dd>
 <dt>追放</dt>
 <dd>グループからスタッフを追放します。アカウントの削除ではありません</dd>
 <dt>重役</dt>
 <dd>グループ内のすべてのレポートを閲覧可能になります</dd>
+<dt><a href="/docs/manual/initial-setting/staff-local/share/">共用</a></dt>
+<dd>１つのアカウントを複数人で使い回す際に使用します。応用的な設定のため基本的に非推奨です</dd>
 </dl>

@@ -33,17 +33,17 @@ images = ["switch_tablet.png"]
 <dl class="basic">
 <dt>グループ全般</dt>
 <dd>グループ全般に関する設定が行なえます。本ページで解説</dd>
-<dt>スタッフ管理</dt>
+<dt><a href="/docs/manual/initial-setting/staff-local/_about/">スタッフ管理</a></dt>
 <dd>グループに所属しているスタッフを管理します</dd>
-<dt>テンプレート管理</dt>
+<dt><a href="/docs/manual/initial-setting/template/make/">テンプレート管理</a></dt>
 <dd>テンプレートの作成や修正を行います</dd>
-<dt>タグ管理</dt>
+<dt><a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ管理</a></dt>
 <dd>タグの追加や削除を行います</dd>
-<dt>商品管理</dt>
+<dt><a href="/docs/manual/initial-setting/advanced-setting/point/">商品管理</a></dt>
 <dd>応用編にて解説します</dd>
-<dt>語録管理</dt>
+<dt><a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録管理</a></dt>
 <dd>選択式入力フォームで使える語録を管理します</dd>
-<dt>一括削除</dt>
+<dt><a href="/docs/manual/read-report/removereport/#batch_remove">一括削除</a></dt>
 <dd>レポートをまとめて削除します</dd>
 </dl>
 

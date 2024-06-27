@@ -43,13 +43,13 @@ aliases = ["/manual/calendar/", "/manual/calendar/setting/", "/docs/manual/calen
 カレンダー画面右パネルにある表示切替からカレンダーの表示形式を変更できます。
 
 <dl class="basic">
-<dt>月</dt>
+<dt><a href="/docs/manual/calendar/monthly/">月</a></dt>
 <dd>１ヶ月単位で表示します。ページ送りも月単位で行われます。</dd>
-<dt>日</dt>
+<dt><a href="/docs/manual/calendar/dayly/">日</a></dt>
 <dd>このモードは範囲選択できず、１日だけを選びます。縦軸に時刻、横軸に人を表示します。人別に予定の空き時間を見る場合に適しています</dd>
-<dt>週</dt>
+<dt><a href="/docs/manual/calendar/weekly/">週</a></dt>
 <dd>縦軸に時刻、横軸に日を表示します。週と言いますが10日や15日など、範囲は自由に決められます。直近の全体の予定を俯瞰したいときに便利です</dd>
-<dt>表</dt>
+<dt><a href="/docs/manual/calendar/table/">表</a></dt>
 <dd>縦軸にスタッフ、横軸に日付の形をしたカレンダーです。横軸の日付の範囲は自由に変更できます。スタッフごとに提出状況を見たいときに便利</dd>
 </dl>
 

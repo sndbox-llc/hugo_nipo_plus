@@ -84,14 +84,20 @@ images = ["switch_tablet.png"]
 使用する予定の無い機能はOFFにしておくことで画面上の見た目をシンプルに維持できます。
 
 <dl class="basic">
-  <dt>案件</dt>
-  <dd>案件機能を有効にします。メニューに「案件」が追加されます。レポート作成時に対象となる案件を入力する欄が追加されます。集計時に「案件集計」機能が追加されます</dd>
-  <dt>予定</dt>
+  <dt><a href="/docs/manual/anken/_about/">案件</a></dt>
+  <dd>メニューに「案件」が追加されます。レポート作成時に対象となる案件を入力する欄が追加されます。集計時に「案件集計」機能が追加されます。</dd>
+  <dt><a href="/docs/manual/event/add/">予定</a></dt>
   <dd>メニューに「予定管理」が追加されます。カレンダーの表示設定に「予定」が追加されます</dd>
-  <dt>メニューにカレンダーを表示</dt>
+  <dt><a href="/docs/manual/timecard/input/">タイムカード</a></dt>
+  <dd>メニューに「タイムカード」が追加されます。レポート作成画面にもタイムカード打刻ボタンが追加されます</dd>
+  <dt><a href="/docs/manual/calendar/_about/">カレンダー</a></dt>
   <dd>ONにすると左のメニューに「カレンダー」が表示されます。</dd>
-  <dt>メニューに集計を表示</dt>
+  <dt><a href="/docs/manual/analytics/_about/">集計/CSV出力</a></dt>
   <dd>ONにすると左のメニューに「レポートの集計」が表示されます</dd>
+  <dt><a href="/docs/manual/utils/shift/">シフト管理</a></dt>
+  <dd>メニューにシフト管理が追加されます。スタッフの休日情報を登録できます</dd>
+  <dt><a href="/docs/manual/utils/log/">ログ</a></dt>
+  <dd>メニューにログが追加されます。ログは閲覧専用です</dd>
 
 </dl>
 

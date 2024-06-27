@@ -8,7 +8,9 @@ aliases = ["/docs/manual/remove/group/", "/docs/manual/remove/group/"]
 images = []
 +++
 
-グループ分けが不要な場合は本ページをスキップできます。
+{{<info>}}
+グループ分けが不要な場合、この手順はスキップできます
+{{</info>}}
 
 {{<nextBlog>}}
 

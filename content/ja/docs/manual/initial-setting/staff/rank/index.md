@@ -46,11 +46,14 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 
 ## 少し特殊な権限{#others}
 
-管理者・編集者・スタッフの他にも少し特殊な権限があります。通常は使用しません。少し特殊な用途でのみ利用されます。
+以下の権限はかなり限定的な用途でのみ使用されます（通常は使用しません）
 
 <dl class="basic">
 <dt>書き込みのみ</dt>
 <dd><a href="/docs/manual/write-report/write/">レポートの作成</a>・自分の書いたレポートの閲覧とその修正のみ可能</dd>
 <dt>ゲスト</dt>
-<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>のみ可能<br>※外部の利用者にレポートを書いてもらうことを想定しており用途としては限定的です</dd>
+<dd>
+<a href="/docs/manual/write-report/write/">レポートの作成</a>のみ可能<br>
+※外部の利用者にレポートを書いてもらうことを想定しており用途としては限定的です
+</dd>
 </dl>

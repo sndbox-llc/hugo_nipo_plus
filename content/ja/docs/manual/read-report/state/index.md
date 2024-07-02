@@ -134,7 +134,7 @@ images = []
 ### コメントの通知とログ{#log}
 
 コメントが作成されるとレポートのオーナーに対して[通知が発行](/docs/manual/notice/app/)されます。[ログ](/docs/manual/utils/log/)上にもコメントが残ります。
-スタッフの[活動実績](/docs/manual/initial-setting/staff-local/activity/)としてもカウントされます。
+スタッフの[活動実績](/docs/manual/initial-setting/staff-local/_about/#activity)としてもカウントされます。
 
 ---
 

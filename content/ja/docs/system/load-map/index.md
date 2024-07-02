@@ -107,7 +107,7 @@ NipoPlusで現在実装されていませんがこれから実装を予定して
 日付不明|バグ|テンプレートコピー時に提出先情報なども含めてコピーを行う|[済(V1.29.0)](/docs/system/release-note#vp1_29_0)
 日付不明|改善|テンプレートを横断した[交差集計機能](/docs/manual/analytics/cross/)の実装|[済(V1.28.0)](/docs/system/release-note#vp1_28_0)
 2023/02/01|改善|予定管理があまりにも貧弱なので使い勝手を良くしたい|済
-日付不明|改善|[メール通知機能](/docs/manual/notice/email/)の実装|[済(V1.31.0)](/docs/system/release-note#vp1_31_0)
+日付不明|改善|[メール通知機能](/docs/manual/notice/app/#email)の実装|[済(V1.31.0)](/docs/system/release-note#vp1_31_0)
 2023/02/01|改善|英語版のNipoPlusを作成|済(V1.36.0)
 
 </div>

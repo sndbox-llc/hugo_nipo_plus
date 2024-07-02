@@ -32,15 +32,15 @@ images = ["tag-manage_tablet.png"]
 <dd>タグの色を選びます</dd>
 <dt>タグのアイコン</dt>
 <dd>タグに表示されるアイコンを選びます</dd>
-<dt>レポート用</dt>
-<dd>レポート自体にタグを付けることができます</dd>
-<dt>テンプレート用</dt>
+<dt><a href="/docs/manual/write-report/write/">レポート用</a></dt>
+<dd>レポート自体にタグを付けることができます。レポート作成時でも、提出後でもタグの付け外しが可能です</dd>
+<dt><a href="/docs/manual/initial-setting/template/make/">テンプレート用</a></dt>
 <dd>テンプレートにタグを付けることができます</dd>
-<dt>予定用</dt>
+<dt><a href="/docs/manual/event/add/">予定用</a></dt>
 <dd>予定にタグを付けることができます</dd>
-<dt>商品用</dt>
+<dt><a href="/docs/manual/initial-setting/advanced-setting/point/">商品用</a></dt>
 <dd>商品２タグを付けることができます</dd>
-<dt>語録用</dt>
+<dt><a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録用</a></dt>
 <dd>語録にタグを付けることができます</dd>
 <dt>メモ</dt>
 <dd>タグ自身のメモです。管理画面以外では表示されません</dd>

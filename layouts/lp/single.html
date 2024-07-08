@@ -17,9 +17,10 @@
 	{{ end }}
 </div>
 	{{ if .Params.heroTitle }}
-	<section class="section section-sm" style=" background: linear-gradient(to bottom, white, #e6e0ff);">
+	<section class="section section-sm px-2" style=" background: linear-gradient(to bottom, white, #e6e0ff);">
 		<div id="myhero">
-		<h1 class="headLine">{{ .Params.heroTitle }}<br>NipoPlus</h1>
+		<h1 class="headLine">{{ .Params.heroTitle }}</h1>
+		<div style="font-size: 1.3em;max-width: 1200px">{{ .Params.heroText | safeHTML}}</div>
 		<ul class="heroList">
 			{{ range .Params.heroLinks }}
 			<li>

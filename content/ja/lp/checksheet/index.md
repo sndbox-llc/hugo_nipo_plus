@@ -33,12 +33,12 @@ heroLinks = [
 <div class="row my-5">
 <div class="col-lg-8 rootMainText">
 
-### 紙のチェックシートの問題点
+### 紙のチェックシートの問題点❌
 - **乱筆のリスク**: 読みにくい手書きによるミス。
 - **紛失のリスク**: 紙の紛失によるデータの損失。
 - **データのまとめが大変**: 手作業でデータを集計する手間。
 
-### Word/Excelの問題点
+### Word/Excelの問題点❌
 - **入力の不便さ**: スマートフォンやタブレットでの入力が難しい。
 - **テンプレートの使い回しが不便**: シートをコピーする手間。
 
@@ -47,7 +47,7 @@ heroLinks = [
 
 
 
-### NipoPlusのメリット
+### NipoPlusのメリット⭕
 - **簡単なテンプレート作成**: 点検チェックシートを繰り返し何度でも使用できるテンプレートを簡単に作成可能。
 - **データの一元管理**: クラウドベースでデータを一元管理し、紛失のリスクを軽減。
 - **効率的なデータ入力**: スマートフォンやタブレットでの直感的な入力が可能。
@@ -65,7 +65,7 @@ heroLinks = [
 <p>設備点検、品質チェック、5Sチェックシートなど、様々な点検業務に対応可能</p>
 <div class="mt-auto">
 
-{{<btnFull "/tips/userfriendly/#template_samples_collection" "テンプレートサンプル集">}}
+{{<btnFull "/tips/userfriendly/#template_samples_collection" "テンプレート一例">}}
 </div>
 </div>
 <div class="col-lg-4 rootMainText d-flex flex-column">

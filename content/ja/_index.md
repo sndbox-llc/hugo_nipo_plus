@@ -13,6 +13,30 @@ showPrice = true
 ## NipoPlusで得られるメリット
 
 
+### ノーコードでオリジナルの日報・点検表などを作成可能
+
+
+<div class="row my-5">
+<div class="col-lg-6 rootMainText">
+<!-- 本文エリア -->
+
+誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/math/)、[画像入力](/docs/manual/initial-setting/template/picture/)など）を組み合わせるだけで、**自社に最適なテンプレートを作成**できます。  
+
+特別な技術知識がなくても、自社の業務に合った入力フォームを迅速に構築できます。  
+テンプレートは複数保存可能
+
+{{<btnFull "/docs/manual/initial-setting/template/make/" "テンプレート作成ガイド">}}
+
+</div>
+<div class="col-lg-10">
+<!-- 画像エリア -->
+{{<icatch filename="make-template" msg="入力フォームを並べて テンプレートを作る" title="レポートのテンプレートを作成" fontsize="30px" alice="pc">}}
+
+</div>
+</div>
+
+
+
 ### 手間を省き、効率を上げる
 
 
@@ -31,27 +55,8 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 </div>
 
 
-### 簡単なカスタマイズ
-
-
-<div class="row my-5">
-<div class="col-lg-6 rootMainText">
-<!-- 本文エリア -->
-
-誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/math/)、[画像入力](/docs/manual/initial-setting/template/picture/)など）を組み合わせるだけで、**自社に最適なテンプレートを作成**できます。  
-
-特別な技術知識がなくても、自社の業務に合った入力フォームを迅速に構築できます。
-{{<btnFull "/docs/manual/initial-setting/template/make/" "テンプレート作成ガイド">}}
-
-</div>
-<div class="col-lg-10">
-<!-- 画像エリア -->
-{{<icatch filename="make-template" msg="入力フォームを並べて テンプレートを作る" title="レポートのテンプレートを作成" fontsize="30px" alice="pc">}}
-
-</div>
-</div>
-
 ---
+
 
 ## NipoPlusを選ぶ理由
 
@@ -62,7 +67,7 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 <p>製造業、サービス業、教育機関など、あらゆる業種に対応可能</p>
 <div class="mt-auto">
 
-{{<btnFull "/tips/userfriendly/#template_samples_collection" "テンプレートサンプル集">}}
+{{<btnFull "/tips/userfriendly/#template_samples_collection" "テンプレート一例">}}
 </div>
 </div>
 <div class="col-lg-4 rootMainText d-flex flex-column">
@@ -79,7 +84,7 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 <p>クラウドでスマホ・タブレットに対応</p>
 <div class="mt-auto">
 
-{{<btnFull "/tips/mobile-device/" "モバイル機器で日報を書く">}}
+{{<btnFull "/tips/mobile-device/" "スマホで日報を書く">}}
 </div>
 </div>
 <div class="col-lg-4 rootMainText d-flex flex-column">
@@ -108,6 +113,8 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 
 ---
 
+{{<nextArrow>}}
+
 
 
 
@@ -116,7 +123,7 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 
 
 
-### テンプレートに沿って日報を書くだけ。保存先？ファイル名？一切出てきません
+### テンプレートに沿って書くだけ。簡単入力でらくらく日報作成
 
 
 
@@ -167,6 +174,29 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 
 
 
+### 提出状況一覧表で未提出者を早期特定
+
+<div class="row my-5">
+<div class="col-lg-6 rootMainText">
+<!-- 本文エリア -->
+
+一覧表で誰が何件の日報を提出したのか俯瞰できるので、未提出者を早期に、しかも簡単に発見できます。  
+シフト登録をしておけば休みなのか、提出忘れなのかもすぐに分かります。
+
+{{<btnFull "/docs/manual/utils/shift/" "マニュアル:シフト管理">}}
+
+</div>
+<div class="col-lg-10">
+<!-- 画像エリア -->
+{{<icatch filename="report-list" msg="提出状況を見れば 提出漏れも一目瞭然" title="提出状況を一覧で確認可能。欠勤か提出漏れかを判別するにはシフトを登録することで解決できます。" fontsize="30px" alice="here">}}
+
+</div>
+</div>
+
+
+
+
+
 ### CSVに出力してエクセルで開けばすぐ集計・分析
 
 
@@ -184,11 +214,8 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 
 日報を1枚のシートにまとめるにはCSV出力が便利です。NipoPlusのCSV出力を使うと先程のテンプレートで書かれた日報は次のような格子状の一覧表になって出力されます。
 複数の日報を１枚のエクセルにまとめる作業をまるっと省略し、本来の集計分析にすぐ着手できます。  
+（※見やすくするため◯を⭕に脚色しています）
 
-
-{{<alice pos="right" icon="pc">}}
-見やすくするため◯を⭕に脚色しています
-{{</alice>}}
 
 
 
@@ -211,24 +238,4 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 </div>
 </div>
 
-
-
-
-### 提出状況一覧表で未提出者を早期特定
-
-<div class="row my-5">
-<div class="col-lg-6 rootMainText">
-<!-- 本文エリア -->
-
-一覧表で誰が何件の日報を提出したのか俯瞰できるので、未提出者を早期に、しかも簡単に発見できます。  
-シフト登録をしておけば休みなのか、提出忘れなのかもすぐに分かります。
-
-
-</div>
-<div class="col-lg-10">
-<!-- 画像エリア -->
-{{<icatch filename="report-list" msg="提出状況を見れば 提出漏れも一目瞭然" title="提出状況を一覧で確認可能。欠勤か提出漏れかを判別するにはシフトを登録することで解決できます。" fontsize="30px" alice="here">}}
-
-</div>
-</div>
 

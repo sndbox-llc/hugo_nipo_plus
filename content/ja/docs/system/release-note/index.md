@@ -9,9 +9,18 @@ aliases = ["/system/release-note/", "/old/system/releasenote/"]
 images = []
 +++
 
-現在ご利用中のNipoPlusのバージョンは、サイドメニュー下部に記載されております。ここからバージョンを確認してください
+NipoPlusはAndroid版・iOS版・Web版の3種類があります。ご利用中のNipoPlusバージョンは左サイドメニュー下部に記載されています。  
+更新はWeb版が先行し、ついでAndroid版・iOS版の順に更新が行われます。Web版とiOS版の更新タイミングのズレは最長でも3日程度です。  
 
+※更新の遅れはAppStoreの審査によるものです
+
+
+<details>
+  <summary>バージョン記載箇所</summary>
 {{<icatch filename="version" msg="画面左下にバージョン が記載されています" title="NipoPlusアプリバージョンの確認" fontsize="30px" alice="ok">}}
+
+</details>
+
 
 今後のアップデートで実装される機能予定については以下参照
 

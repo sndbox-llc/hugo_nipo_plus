@@ -12,7 +12,7 @@ aliases = ["/old/system/price/", "/docs/old/system/price/"]
 +++
 
 
-{{<imgproc price.webp "料金アイキャッチ" />}}
+{{<imgproc price2.webp "料金アイキャッチ" />}}
 
 ## 無料プランは廃止されます
 

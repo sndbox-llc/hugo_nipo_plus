@@ -1,6 +1,6 @@
 +++
 description = "Nipoを利用する上での利用規約になります。同じ内容のものがクラウド日報Nipoのアカウント作成後に表示されます"
-title = "無料プランと有料プランについて"
+title = "Nipo 料金"
 toc = true
 weight = 109003001
 isNipo = true
@@ -12,20 +12,16 @@ aliases = ["/old/system/price/", "/docs/old/system/price/"]
 +++
 
 
-{{<imgproc price.png "料金アイキャッチ" />}}
+{{<imgproc price.webp "料金アイキャッチ" />}}
 
-## 無料で使える日報アプリです。利用期間の制限もありません{#about}
+## 無料プランは廃止されます
 
-まず一言。**Nipoは無料プランがあります**っ！有料プランもあります。両者の違いを詳しくご紹介します
+重要なお知らせです。Nipoの無料プランは2024年12月末をもって廃止となります。  
+この日付以降、Nipoは無料で利用することはできません。(旧バージョンのみ廃止！NipoPlusは無料プラン継続します)  
 
-### 無料プラン:0円です。お支払い不要でずっと使えます{#free}
+詳しくは[無料プラン廃止](/legacy/about/warning/)を御覧ください
 
-名前の通り、無料で利用可能です。いくつかの機能制限があります。  
-基本的な機能はすべて利用可能ですが、応用的機能や付加価値のある機能は利用不可能です。詳しくは後述する料金プランごとの比較表をご覧ください。  
-すべてのグループは作成と同時に無料プランが適用されます。  
-また、GOLDPLANの期限が失効したり、GOLDPLANを解約されると無料プランに降格します。
-
-### GOLD PLAN:1名1か月200円～500円で最低1名から利用可です{#fee}
+## GOLD PLAN:1名1か月200円～500円で最低1名から利用可です{#fee}
 
 GOLD PLANをご利用の方のおかげで、Nipoが成り立っています。本当にありがとう。  
 Nipoの全ての機能が利用できます。利用人数も申し込み内容によって最大80名まで増加します。  
@@ -33,47 +29,6 @@ Nipoの全ての機能が利用できます。利用人数も申し込み内容�
 
 大人数でNipoを利用する場合はNipoではなくNipoPlusを検討してください
 
-### Gold Planと無料プランの具体的な違い一覧表{#list}
-
-料金発生の有無によりGold Planの方が当然優遇されます。具体的には次のような違いがあります
-<div class="max-w-full overflow-scroll whitespace-nowrap mx-auto container">
-
-  比較早見表|無料プラン|有料プラン  
-  ---- | --- | ---
-  [テンプレート](/legacy/manual/template/)の件数 | 3 | 100
-  日報の保管件数 | 無制限 | 無制限
-  グループ保存期間 | 最終利用から6ヶ月 | 無制限
-  [PDF出力](/legacy/manual/pdf/) | 使用可能な字種に制限あり | 制限なし
-  [PDF一括出力](/legacy/manual/pdf/) | 不可 | 可
-  [日報の集計](/legacy/manual/analytics/) | 当日分のみ | 可
-  [カレンダーの利用](/legacy/manual/calendar/) | 一部制限あり | 可
-  ログデータの記録 | 無し | 有り
-  日報にコメントを書く | 不可 | 可
-  日報の検索 | 不可 | 可
-  日報のCSV出力 | 可 | 可
-  入力必須の指定 | 不可 | 可
-  メール通知 | 不可 | 可
-  スタッフ数 | 4名 | プランに応じて変動
-  [1行テキスト](/legacy/parts/text/) | 可 | 可
-  [本文](/legacy/parts/textarea/) | 可 | 可
-  [日付](/legacy/parts/date/) | 可 | 可
-  [時刻](/legacy/parts/time/) | 可 | 可
-  [チェックボックス](/legacy/parts/checkbox/) | 可 | 可
-  [レート](/legacy/parts/rating/) | 可 | 可
-  [数値](/legacy/parts/math/) | 可 | 可
-  [選択肢（単回答）](/legacy/parts/select/) | 解答択５つまで | 可
-  [選択肢（複回答）](/legacy/parts/selects/) | 解答択５つまで | 可
-  [スライダー](/legacy/parts/slide/) | 可 | 可
-  [範囲](/legacy/parts/range/) | 可 | 可
-  [表](/legacy/parts/slide/) | 不可 | 可
-  [署名（サイン）](/legacy/parts/sign/) | 不可 | 可
-  [写真画像](/legacy/parts/picture/) | 不可 | 可
-  [手書きメモ](/legacy/parts/canvas/) | 不可 | 可
-  [タイムカード](/legacy/parts/timecard/) | 可 | 可
-  [住所](/legacy/parts/zip/) | 郵便番号による入力補完は不可 | 可
-  [語録](/legacy/parts/dictionaly/) | 可 | 可
-
-</div>
 
 ## GOLD PLANへの申し込み手順{#tetuduki}
 
@@ -244,9 +199,8 @@ NipoのGOLDPLANには有効期限があるため、更新が必要です。ク�
 
 ### GOLD PLAN解約後のデータはどうなるの？{#cancel_then}
 
-GOLD PLANを解約（または失効）すると無料プランへ自動で降格します。無料プランの範囲でそのままNipoを継続して利用可能です。  
-特に注意してほしいのが、人数の超過です。無料プランは4名までという制限があり、４名を超えている場合は日報の新規提出ができなくなるなど一定の制限が発生します。  
-この場合は、スタッフの人数を減らすか、新たにGOLDPLANへのお申込みをお願いします。
+GOLD PLANを解約（または失効）すると無料プランへ自動で降格します。
+無料プランは廃止されるため、日報の新規作成ができません。過去のデータについては閲覧が可能です。
 
 ## GOLD PLANボリュームライセンス{#volume}
 

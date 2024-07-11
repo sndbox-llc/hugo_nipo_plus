@@ -4,7 +4,7 @@ tags = []
 title = "NipoとNipoPlusの違い"
 isNipo = true
 toc = true
-weight = 109000000
+weight = 109000001
 aliases = ["/docs/system/diff/", "/docs/old/diff/", "/news/20240425/", "/old/"]
 +++
 

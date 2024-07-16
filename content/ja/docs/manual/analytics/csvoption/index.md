@@ -27,7 +27,7 @@ CSV出力設定には「展開」に関する設定が多くあります。具�
 
 列の展開はデータの列をどのように表現するかの違いです。
 展開がOFFの場合は1列で表現し、ONの場合は項目の数だけ列を増やし（展開し）ます。
-以下は[選択式入力フォーム](/docs/manual/initial-setting/template/select/)をCSV出力したときのイメージです。選択肢は「Windows,Mac,Android,iOS」があるとします。
+以下は[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)をCSV出力したときのイメージです。選択肢は「Windows,Mac,Android,iOS」があるとします。
 
 **列展開をOFF**にして出力
 
@@ -97,7 +97,7 @@ CSV出力設定では一括で展開のON/OFFが適用されてしまいます�
 <ul>
 <li><a href="/docs/manual/initial-setting/template/picture/">写真入力フォーム</a></li>
 <li><a href="/docs/manual/initial-setting/template/sign/">署名入力フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/file/">ファイル入力フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/binarys/#file">ファイル入力フォーム</a></li>
 </ul>
 ONにすると上記データを別フォルダに出力します。またダウンロード形式がZipに変化します。
 </dd>
@@ -174,7 +174,7 @@ ONにすると上記データを別フォルダに出力します。またダウ
 
 - [写真入力フォーム](/docs/manual/initial-setting/template/picture/)
 - [署名入力フォーム](/docs/manual/initial-setting/template/sign/)
-- [ファイル入力フォーム](/docs/manual/initial-setting/template/file/)
+- [ファイル入力フォーム](/docs/manual/initial-setting/template/binarys/#file)
 
 これらのデータはCSV上では「CSV出力不可」と書かれて出力されます。
 写真などのバイナリファイルをダウンロードするには、CSV出力設定から「写真・ファイル等を出力」の項目をONにしてください。

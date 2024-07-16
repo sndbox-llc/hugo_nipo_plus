@@ -85,17 +85,17 @@ Nipoに比べて各入力フォームの幅をより柔軟に変更できるよ�
 Nipo時代は１行に最大で２列までしか追加できなかったため、上画像のようなテンプレートは物理的に作れませんでしたが、[NipoPlusでは1行に最大12列追加](/docs/manual/initial-setting/template/make/)できるようになりました。
 また、NipoPlusではいくつかの入力フォームも追加されました
 
-- [ファイル入力フォーム](/docs/manual/initial-setting/template/file/)
-- [算術入力フォーム](/docs/manual/initial-setting/template/calc/)
+- [ファイル入力フォーム](/docs/manual/initial-setting/template/binarys/#file)
+- [算術入力フォーム](/docs/manual/initial-setting/template/digital/#calc)
 - [期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)
 - [可変長入力フォーム](/docs/manual/initial-setting/template/array/)
   
 可変長入力フォームはNipo時代にも有りましたが大幅なレベルアップをしているので新規追加と言っても良いレベルです。そのためリストに掲載させていただきました。  
 他にも見出しの色変え機能や説明用画像の添付、入力順序の制御など、数多くの機能がNipoPlusにて実装されました。  
-選択肢１に応じて他の選択肢が変化する[動的変化機能](/docs/manual/initial-setting/template/dinamic_selection/)など、ユニークな機能も追加されています。
+選択肢１に応じて他の選択肢が変化する[動的変化機能](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)など、ユニークな機能も追加されています。
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/_about/" "テンプレート概要">}}
+{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレート概要">}}
 
 
 ### レポートの検索もこれまで以上に多機能に{#report_search}

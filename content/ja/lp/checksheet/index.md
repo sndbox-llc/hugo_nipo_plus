@@ -166,7 +166,7 @@ heroLinks = [
 大分類によって小分類が変化するため、小分類の数を最小限に抑えることができます。これにより少ないリストから選べるようになり、膨大なリストから探すよりずっと効率よく点検入力が可能になります。
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/dinamic_selection/" "マニュアル:動的設問の設定">}}
+{{<btnCenter "/docs/manual/initial-setting/template/selects/#dinamic_switch_select" "マニュアル:動的設問の設定">}}
 
 </div>
 <div class="col-lg-10">
@@ -227,7 +227,7 @@ heroLinks = [
 {{<imgproc lineCharts.webp "点検表の結果を折れ線グラフで描画。異常な値があればグラフで早期に発見が可能となる" />}}
 
 
-前述の「過去の点検結果と比較」に関連しますが、過去のデータ表を元に様々なグラフを生成することができます。グラフ化できるデータには[レート入力フォーム](/docs/manual/initial-setting/template/rate/)、[スライダ入力フォーム](/docs/manual/initial-setting/template/step/)、[数値入力フォーム](/docs/manual/initial-setting/template/math/)、[選択式入力](/docs/manual/initial-setting/template/select/)などがあります。
+前述の「過去の点検結果と比較」に関連しますが、過去のデータ表を元に様々なグラフを生成することができます。グラフ化できるデータには[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)、[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)、[数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)、[選択式入力](/docs/manual/initial-setting/template/selects/#plain)などがあります。
 
 またグラフの種類も折れ線や棒グラフ・積み上げ縦棒など代表的なグラフが作成可能です。  
 チェック表として使う場合は過去のデータ推移を基準としたグラフが適していますが、累積を表すグラフも作成可能です。

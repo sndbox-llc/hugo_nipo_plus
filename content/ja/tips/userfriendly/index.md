@@ -62,10 +62,10 @@ NipoPlusではテンプレートを独自にカスタマイズできます。
 <dt><a href="/docs/manual/initial-setting/template/text/">文字の入力</a></dt>
 <dd>報告の本文入力や備考欄、引き継ぎ事項など自由にテキストが入力できます</dd>
 
-<dt><a href="/docs/manual/initial-setting/template/math/">数値入力</a></dt>
+<dt><a href="/docs/manual/initial-setting/template/digital/#commonNumber">数値入力</a></dt>
 <dd>件数や距離、線形、回数など数値として表現できる項目です。数値のデータは集計やグラフに利用できます</dd>
 
-<dt><a href="/docs/manual/initial-setting/template/select/">選択入力</a></dt>
+<dt><a href="/docs/manual/initial-setting/template/selects/#plain">選択入力</a></dt>
 <dd>「新規・継続」や「上・中・下」のように決まった選択肢を用意できる場合に適しています。入力の手間を省ける他、選ばれた単語の回数を集計することもできます</dd>
 
 <dt><a href="/docs/manual/initial-setting/template/picture/">現場写真</a>など</dt>
@@ -109,23 +109,23 @@ graph TD;
     class B,C,D,E green
 
 click TEXT "/docs/manual/initial-setting/template/text/"
-click MATH "/docs/manual/initial-setting/template/math/"
-click STEP "/docs/manual/initial-setting/template/step/"
-click DATETIME "/docs/manual/initial-setting/template/datetime/"
+click MATH "/docs/manual/initial-setting/template/digital/#commonNumber"
+click STEP "/docs/manual/initial-setting/template/digital/#slider"
+click DATETIME "/docs/manual/initial-setting/template/date_time/#point"
 click DATETIMES "/docs/manual/initial-setting/template/datetimes/"
-click RANGE "/docs/manual/initial-setting/template/range/"
-click RATE "/docs/manual/initial-setting/template/rate/"
-click CALC "/docs/manual/initial-setting/template/calc/"
+click RANGE "/docs/manual/initial-setting/template/digital/#range"
+click RATE "/docs/manual/initial-setting/template/digital/#rate"
+click CALC "/docs/manual/initial-setting/template/digital/#calc"
 
-click SELECT "/docs/manual/initial-setting/template/select/"
-click SELECTS "/docs/manual/initial-setting/template/select2/"
+click SELECT "/docs/manual/initial-setting/template/selects/#plain"
+click SELECTS "/docs/manual/initial-setting/template/selects/#multiple"
 
-click CHECKBOX "/docs/manual/initial-setting/template/checkbox/"
+click CHECKBOX "/docs/manual/initial-setting/template/selects/#checkbox"
 click MOD "/docs/manual/initial-setting/template/mod/"
 
 click PICTURE "/docs/manual/initial-setting/template/picture/"
 click SIGN "/docs/manual/initial-setting/template/sign/"
-click FILE "/docs/manual/initial-setting/template/file/"
+click FILE "/docs/manual/initial-setting/template/binarys/#file"
 {{< /mermaid >}}
 
 
@@ -137,28 +137,28 @@ click FILE "/docs/manual/initial-setting/template/file/"
 
 数値入力には主要なものとして、次の方式が選べます。
 
-- [スライダ](/docs/manual/initial-setting/template/step/)を使った数値入力
-- [レート](/docs/manual/initial-setting/template/rate/)を使った数値入力
-- 通常の[数値入力]((/docs/manual/initial-setting/template/math/))
+- [スライダ](/docs/manual/initial-setting/template/digital/#slider)を使った数値入力
+- [レート](/docs/manual/initial-setting/template/digital/#rate)を使った数値入力
+- 通常の[数値入力]((/docs/manual/initial-setting/template/digital/#commonNumber))
 - 他の数値を自動で四則演算する自動入力
 
 ではどれを使うのが正解でしょうか？どの入力方式が最もミスが少なく、手軽で、スタッフの負担を減らせるのでしょうか？  
 残念ながら正解はケースバイケースのためここで言及することはできません。しかし一般的な方向性を示すことはできます。
 
-5段階評価や10段階評価など、最大でも1〜10程度の範囲で収まる場合は[レート入力フォーム](/docs/manual/initial-setting/template/rate/)が適しています。  
-気温や湿度、パーセンテージなど、0〜100程度の範囲で収まる場合、[スライダ入力フォーム](/docs/manual/initial-setting/template/step/)が楽です。
-大きな数値、小数点を扱いたいケースは[数値入力フォーム](/docs/manual/initial-setting/template/math/)がおすすめです。
+5段階評価や10段階評価など、最大でも1〜10程度の範囲で収まる場合は[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)が適しています。  
+気温や湿度、パーセンテージなど、0〜100程度の範囲で収まる場合、[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)が楽です。
+大きな数値、小数点を扱いたいケースは[数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)がおすすめです。
 
-また入力デバイスによっても向き不向きがあります。タッチパネルに対応しているスマートフォンやタブレットの場合、スライダーや[レート入力フォーム](/docs/manual/initial-setting/template/rate/)はより直感的で簡単に入力ができます。  
-一方でPCを使った入力の場合、通常の[数値入力フォーム](/docs/manual/initial-setting/template/math/)のほうがマウスを使わなくて済むため、楽に感じる人もいます。
+また入力デバイスによっても向き不向きがあります。タッチパネルに対応しているスマートフォンやタブレットの場合、スライダーや[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)はより直感的で簡単に入力ができます。  
+一方でPCを使った入力の場合、通常の[数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)のほうがマウスを使わなくて済むため、楽に感じる人もいます。
 
 ## テンプレートのレイアウトに気を配る{#layout}
 
 NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12の範囲で自由に調整可能です。合計12を超えると次の行に回り込みます。
-入力フォームの内容に応じて、テンプレート内に専有する幅を適切に調整するようにしましょう。例えば[スライダ入力フォーム](/docs/manual/initial-setting/template/step/)の場合、上限と下限の設定にもよりますが狭すぎると少しのスワイプで数値がたくさん動いてしまい、狙った数値に調整するのが困難になります。  
+入力フォームの内容に応じて、テンプレート内に専有する幅を適切に調整するようにしましょう。例えば[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)の場合、上限と下限の設定にもよりますが狭すぎると少しのスワイプで数値がたくさん動いてしまい、狙った数値に調整するのが困難になります。  
 これでは日報を作成するスタッフからも不平不満が出てしまうことでしょう。
 
-次の画像は幅2〜12の範囲で同じ[スライダ入力フォーム](/docs/manual/initial-setting/template/step/)を配置した例です。幅が狭いとスライダの目盛りが潰れてしまうのがわかりますね。
+次の画像は幅2〜12の範囲で同じ[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)を配置した例です。幅が狭いとスライダの目盛りが潰れてしまうのがわかりますね。
 
 {{<imgproc width.webp "テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" />}}
 
@@ -230,17 +230,17 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 実際にとある自動車部品製造工場のお客様からNipoPlusで使っているシーンを見せていただいたチェックシートを模してみました。  
 （内容は改変しています）  
 点検作業員は外国人が多いため、色で内容を伝えられるようにチェックシートのテンプレートを色分けして工夫しています。
-また、手早く入力できるように[選択式入力フォーム](/docs/manual/initial-setting/template/select/)を使って製品の誤差を選んで入力する形式を取っています。
+また、手早く入力できるように[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)を使って製品の誤差を選んで入力する形式を取っています。
 
 {{<appscreen filename="sample13" title="製品の品質チェックシート。軸ズレ幅の大きさを選択肢で入力するように工夫することでキー入力を極力減らし、作業員の手間を最小限に抑える工夫がされたチェックシート">}}
 
-開発者も思いつきませんでしたが、[選択式入力フォーム](/docs/manual/initial-setting/template/select/)はこんな使い方もできるので、非常に参考になるテンプレートといえます。
+開発者も思いつきませんでしたが、[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)はこんな使い方もできるので、非常に参考になるテンプレートといえます。
 
 
 
 ### 作業内容と受領サインを組み合わせた作業報告書テンプレート{#sign}
 
-清掃や機器メンテナンスなど、実際の現場で行った作業内容を選択式入力や[レート入力フォーム](/docs/manual/initial-setting/template/rate/)を駆使して迅速に書き上げることができるような工夫がされています。  
+清掃や機器メンテナンスなど、実際の現場で行った作業内容を選択式入力や[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)を駆使して迅速に書き上げることができるような工夫がされています。  
 顧客から確認の受取サインをいただく必要があれば、[署名入力フォーム](/docs/manual/initial-setting/template/sign/)をつかうことで直筆のサインを報告書内に書き込むことが可能です。  
 
 

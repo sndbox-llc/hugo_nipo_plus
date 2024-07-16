@@ -11,7 +11,7 @@ aliases = ["/old/parts/selects/", "/docs/old/parts/selects/"]
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/select2/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/selects/#multiple" "新バージョンでも使えます">}}
 
 ## 選択肢（複数回答）の入力画面{#display}
 

@@ -106,8 +106,8 @@ A:
 簡易的な四則演算をテンプレート内に組み込むことができます。また、特定の値に応じて別の値に変化させる機能があります。
 以下が参考になります
 
-- [四則演算の算術フォーム](/docs/manual/initial-setting/template/calc/)
-- [動的に回答を変化させる](/docs/manual/initial-setting/template/dinamic_selection/)
+- [四則演算の算術フォーム](/docs/manual/initial-setting/template/digital/#calc)
+- [動的に回答を変化させる](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)
 
 Q:
 SPALOで職人の方に作業日報を書いてもらっています。日報から作業時間を計算して報酬の計算に使用したい

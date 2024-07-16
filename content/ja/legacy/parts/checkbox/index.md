@@ -11,7 +11,7 @@ aliases = ["/old/parts/checkbox/", "/docs/old/parts/checkbox/"]
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/checkbox/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/selects/#checkbox" "新バージョンでも使えます">}}
 
 ## チェックボックスの入力画面{#display}
 

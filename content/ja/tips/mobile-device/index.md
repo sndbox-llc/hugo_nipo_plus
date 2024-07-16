@@ -157,9 +157,9 @@ NipoPlusは誰でも簡単に使えるように設計されています。初期
 
 
 <div class="row justify-content-center">
-<div class="col-sm-16 col-md-5">{{<button "/docs/manual/initial-setting/template/step/" "スライダ入力">}}</div>
-<div class="col-sm-16 col-md-6">{{<button "/docs/manual/initial-setting/template/rate/" "レート入力">}}</div>
-<div class="col-sm-16 col-md-5">{{<button "/docs/manual/initial-setting/template/select/" "選択入力">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "/docs/manual/initial-setting/template/digital/#slider" "スライダ入力">}}</div>
+<div class="col-sm-16 col-md-6">{{<button "/docs/manual/initial-setting/template/digital/#rate" "レート入力">}}</div>
+<div class="col-sm-16 col-md-5">{{<button "/docs/manual/initial-setting/template/selects/#plain" "選択入力">}}</div>
 </div>
 
 

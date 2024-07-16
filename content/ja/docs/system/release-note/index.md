@@ -95,7 +95,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 #### {{<nipoPlusLogo 30>}} 2024/6/19 v1.55.1{#vp1_55_1}
 
-- [数値入力フォーム](/docs/manual/initial-setting/template/math/)でNipoPlus独自のテンキーを使えるようになりました（GOLDPLAN限定機能）
+- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)でNipoPlus独自のテンキーを使えるようになりました（GOLDPLAN限定機能）
 
 今回のアップデートは特にスマートフォン・タブレットなどタッチパネルに対応した機器で利便性が向上します。特に負数の入力がOS標準の入力システムでは操作しにくかったですが、その点が改善されています。  
 
@@ -115,7 +115,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 #### {{<nipoPlusLogo 30>}} 2024/5/28 v1.53.1{#vp1_53_1}
 
-- [２層式選択入力フォーム](/docs/manual/initial-setting/template/selectcalc/)の警告文を一部削除しました
+- [２層式選択入力フォーム](//docs/manual/initial-setting/template/selects/#layerd)の警告文を一部削除しました
 - 文字サイズ変更時に正しく反映されなかった一部の文字及びボタンを変化するように調整しました
 - [目標実績表](/docs/manual/analytics/progress/)の作成画面をわかりやすく改善しました
 - わかりにくい箇所のヘルプガイドを追加しました
@@ -178,12 +178,12 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 #### {{<nipoPlusLogo 30>}} 2024/4/14 v1.50.1{#vp1_50_1}
 
-- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)に[動的変化機能](/docs/manual/initial-setting/template/dinamic_selection/)が実装されました。
+- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)に[動的変化機能](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)が実装されました。
 - ポップアップビューで日報を表示する際、各項目のタイトル文字が小さくなりすぎる問題を修正しました
 
 #### {{<nipoPlusLogo 30>}} 2024/4/6 v1.49.0{#vp1_49_0}
 
-- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)（単体・複数両方）に初期値の設定ができるようになりました
+- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)（単体・複数両方）に初期値の設定ができるようになりました
 - レポート作成に使用した端末のOS・端末タイプ（デスクトップ・モバイル）の判別情報が追加されるようになりました
 
 
@@ -481,7 +481,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 #### {{<nipoPlusLogo 30>}}  2023/04/07 v1.36.0{#vp1_36_0}
 
-- [スライダ入力フォーム](/docs/manual/initial-setting/template/step/)で入力必須の指定ができるようになりました
+- [スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)で入力必須の指定ができるようになりました
 - [テキスト入力フォーム](/docs/manual/initial-setting/template/text/)でURLを入力するとリンクを生成するオプションが追加されました
 - （試作）言語切替機能を追加しました。一部翻訳されていない箇所については順次対応します
 - [ログ機能](/docs/manual/utils/log/)でスタッフIDだとわかりにくいためスタッフ名を表示するように修正しました
@@ -542,7 +542,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 #### {{<nipoPlusLogo 30>}}  2023/02/21 v1.30.0{#vp1_30_0}
 
-- [日付と時刻の入力フォーム](/docs/manual/initial-setting/template/datetime/)で初期表示時の見た目を指定できるようになりました（リクエスト）
+- [日付と時刻の入力フォーム](/docs/manual/initial-setting/template/date_time/#point)で初期表示時の見た目を指定できるようになりました（リクエスト）
 - クレジットで[GOLD PLAN](/docs/price/fee/)お申込み時、会社名の記入が必須になりました
 - レポートの文書番号採番中に承認すると承認処理が取り消される問題を受けて、採番中に承認処理が行えないように修正しました（バグ修正）
 
@@ -566,7 +566,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 #### {{<nipoPlusLogo 30>}}  2023/01/28 v1.27.0{#vp1_27_0}
 
-- [数値入力フォーム](/docs/manual/initial-setting/template/math/)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
+- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
 - [スタッフ権限](/docs/manual/initial-setting/staff/rank/)に「ゲスト権限」が追加されました（リクエスト）
 
 #### {{<nipoPlusLogo 30>}}  2023/01/23 v1.26.0{#vp1_26_0}
@@ -576,7 +576,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 #### {{<nipoPlusLogo 30>}}  2023/01/16 v1.25.2{#vp1_25_2}
 
-- [チェックボックス入力フォーム](/docs/manual/initial-setting/template/checkbox/)をグラフ化した際に項目が３種類に分類されるバグを修正しました
+- [チェックボックス入力フォーム](/docs/manual/initial-setting/template/selects/#checkbox)をグラフ化した際に項目が３種類に分類されるバグを修正しました
 - [テンプレート](/docs/manual/initial-setting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
 - 長らく放置されていた全体設定の色に関するバグを修正しました
 
@@ -638,7 +638,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 
 - 軽微なバグを修正しました
-- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)の単語を削除しても過去のデータ推移やグラフで単語が消えないように修正しました
+- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の単語を削除しても過去のデータ推移やグラフで単語が消えないように修正しました
 - 期間入力フォームにおいて休憩時間の入力に「簡易モード」を追加しました
 
 
@@ -759,7 +759,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 #### {{<nipoPlusLogo 30>}}  2022/07/30 v1.8.0{#vp1_8_0}
 
 - レポートテンプレート選択時に本日の作成枚数が表示されるようになりました
-- [チェックボックス入力フォーム](/docs/manual/initial-setting/template/checkbox/)のデータが集計可能になりました
+- [チェックボックス入力フォーム](/docs/manual/initial-setting/template/selects/#checkbox)のデータが集計可能になりました
 
 #### {{<nipoPlusLogo 30>}}  2022/07/30 v1.7.5{#vp1_7_5}
 
@@ -779,12 +779,12 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 
 #### {{<nipoPlusLogo 30>}}  2022/07/23 v1.7.1{#vp1_7_1}
 
-- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)の色付けを目立つように修正しました
+- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の色付けを目立つように修正しました
 - テンプレートの編集でKeyの修正ができるようになりました
 
 #### {{<nipoPlusLogo 30>}}  2022/07/21 v1.7.0{#vp1_7_0}
 
-- [選択式入力フォーム](/docs/manual/initial-setting/template/select/)に色分け機能が実装されました
+- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)に色分け機能が実装されました
 
 #### {{<nipoPlusLogo 30>}}  2022/07/19 v1.6.0{#vp1_6_0}
 
@@ -805,7 +805,7 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 - [CSV出力設定が保存可能](/docs/manual/analytics/csv/)になりました
 - グループのテーマカラーがうまく反映されないバグを修正しました
 - グループ毎にメニュー項目の表示・非表示切替ができるようになりました
-- [選択肢（複）フォーム](/docs/manual/initial-setting/template/select2/)で特定の条件が整うと1つしか入力できないバグを修正しました
+- [選択肢（複）フォーム](/docs/manual/initial-setting/template/selects/#multiple)で特定の条件が整うと1つしか入力できないバグを修正しました
 
 
 #### {{<nipoPlusLogo 30>}}  2022/06/28 v1.5.0{#vp1_5_0}
@@ -832,12 +832,12 @@ Vue2のNipoは[こちら](https://deprecated-nipo-vue2.web.app/)から起動で�
 #### {{<nipoPlusLogo 30>}}  2022/06/13 v1.2.2{#vp1_2_2}
 
 - レポート作成後に他のテンプレートを選択できるように修正しました
-- [選択肢(複)](/docs/manual/initial-setting/template/select2/)の[集計](/docs/manual/analytics/transition/)が行われないバグを修正しました
+- [選択肢(複)](/docs/manual/initial-setting/template/selects/#multiple)の[集計](/docs/manual/analytics/transition/)が行われないバグを修正しました
 
 
 #### {{<nipoPlusLogo 30>}}  2022/06/10 v1.2.0{#vp1_2_0}
 
-- [レポートテンプレート](/docs/manual/initial-setting/template/_about/)のラベルを色分けできる機能が追加されました
+- [レポートテンプレート](/docs/manual/initial-setting/template/make/)のラベルを色分けできる機能が追加されました
 
 #### {{<nipoPlusLogo 30>}}  2022/06/08 v1.1.0{#vp1_1_0}
 

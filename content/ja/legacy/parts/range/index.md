@@ -11,7 +11,7 @@ aliases = ["/old/parts/range/", "/docs/old/parts/range/"]
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/range/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/digital/#range" "新バージョンでも使えます">}}
 
 ## 範囲の入力画面{#display}
 

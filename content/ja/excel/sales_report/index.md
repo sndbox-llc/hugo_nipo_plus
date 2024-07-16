@@ -106,7 +106,7 @@ CSV出力を使えばこのようにたくさんのバラバラなレポート�
 {{</info>}}
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/calc/" "算術フォーム">}}
+{{<btnCenter "/docs/manual/initial-setting/template/digital/#calc" "算術フォーム">}}
 
 ### 各列の合計を求める（Sum関数）{#calc_sum}
 

@@ -11,7 +11,7 @@ aliases = ["/old/parts/date/", "/docs/old/parts/date/", "/old/parts/time/", "/do
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/datetime/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/date_time/#point" "新バージョンでも使えます">}}
 
 ## 日付の入力画面{#display}
 
@@ -60,7 +60,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 ---
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/datetime/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/date_time/#point" "新バージョンでも使えます">}}
 
 ## 時刻の入力画面{#display}
 

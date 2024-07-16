@@ -11,7 +11,7 @@ aliases = ["/old/parts/rating/", "/docs/old/parts/rating/"]
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/rate/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/digital/#rate" "新バージョンでも使えます">}}
 
 ## レートの入力画面{#display}
 

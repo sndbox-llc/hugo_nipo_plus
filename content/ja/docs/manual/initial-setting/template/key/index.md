@@ -2,6 +2,7 @@
 description = "テンプレート内の入力フォームを削除する方法と、誤って削除した際の復旧方法について"
 tags = ["テンプレート"]
 title = "フォームの削除と復旧手順"
+menuTitle = "削除と復旧"
 toc = true
 weight = 101001120
 aliases = ["/manual/initial-setting/template/key/"]

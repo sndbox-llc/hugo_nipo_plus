@@ -174,10 +174,10 @@ images = ["pie-chart_tablet.png"]
 <dd>
 単語の選ばれた回数を集計できます。以下のフォームが該当します
 <ul>
-<li><a href="/docs/manual/initial-setting/template/select/">選択式（単）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/select2/">選択式（複）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/selectcalc/">選択式（階層）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/rate/">レート入力フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/selects/#plain">選択式（単）フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/selects/#multiple">選択式（複）フォーム</a></li>
+<li><a href="//docs/manual/initial-setting/template/selects/#layerd">選択式（階層）フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/digital/#rate">レート入力フォーム</a></li>
 </ul>
 </dd>
 <dt>合計の集計</dt>
@@ -185,8 +185,8 @@ images = ["pie-chart_tablet.png"]
 単純に合算した集計ができます。以下のフォームが該当します
 <ul>
 <li><a href="/docs/manual/initial-setting/template/datetimes/">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
-<li><a href="/docs/manual/initial-setting/template/math/">数値入力フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/step/">スライダ入力フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/digital/#commonNumber">数値入力フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/digital/#slider">スライダ入力フォーム</a></li>
 </ul>
 </dl>
 
@@ -195,7 +195,7 @@ images = ["pie-chart_tablet.png"]
 ### 選択式入力フォームに数値が含まれる場合のグラフ化{#text}
 
 選択肢の単語に数字が含まれている場合は数字として集計が可能です。
-[選択式入力フォーム](/docs/manual/initial-setting/template/select/)を含んだテンプレートを用意しました。項目は3つ（線形ズレ・重量誤差・状態）です。
+[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)を含んだテンプレートを用意しました。項目は3つ（線形ズレ・重量誤差・状態）です。
 
 {{<imgproc report-sample-select.png "このようなレポートをグラフ化する" />}}
 
@@ -264,7 +264,7 @@ images = ["pie-chart_tablet.png"]
 
 {{<imgproc field-select.png "独自に追加した数式をグラフとして使う" />}}
 
-追加した数式はシステム上、数値として扱われるので[数値入力フォーム](/docs/manual/initial-setting/template/math/)と同じような挙動をします。
+追加した数式はシステム上、数値として扱われるので[数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)と同じような挙動をします。
 
 {{<imgproc usage-guide.png "数式に指定した名前がそのままグラフの凡例として使用されます" />}}
 

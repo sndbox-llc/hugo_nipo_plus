@@ -38,8 +38,7 @@ aliases = ["/manual/initial-setting/template/array/"]
   <dd>レポート作成時に反復入力を生成する行数です。初期値は1です</dd>
 </dl>
 
-共通設定事項については以下を参照してください。
-{{<btnCenter "/docs/manual/initial-setting/template/make/#common_setting" "共通設定項目">}}
+補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
 ## 反復入力フォームを使ったレポートの作成{#write}
 

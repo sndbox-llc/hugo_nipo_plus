@@ -55,9 +55,9 @@ images = ["list_tablet.png"]
 
 まず目標・実績管理に利用可能なフォームは次のとおりです。
 
-- [スライダ入力フォーム](/docs/manual/initial-setting/template/step/)
-- [数値入力フォーム](/docs/manual/initial-setting/template/math/)
-- [算術フォーム](/docs/manual/initial-setting/template/calc/)
+- [スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)
+- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)
+- [算術フォーム](/docs/manual/initial-setting/template/digital/#calc)
 
 これらのフォームで入力されたデータは目標実績管理に活用可能です。また、異なるテンプレート同士でも一覧表にして出力可能です。  
 日報テンプレートに上記３種類のいづれかが含まれていることを確認してください。含まれていない場合、目標・実績管理は利用できません。

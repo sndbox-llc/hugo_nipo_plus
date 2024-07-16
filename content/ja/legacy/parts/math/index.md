@@ -11,7 +11,7 @@ aliases = ["/old/parts/math/", "/docs/old/parts/math/"]
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/math/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/digital/#commonNumber" "新バージョンでも使えます">}}
 
 ## 数値の入力画面{#display}
 

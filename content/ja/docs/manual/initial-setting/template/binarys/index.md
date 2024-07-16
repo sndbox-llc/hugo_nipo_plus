@@ -160,7 +160,7 @@ PDF出力を前提とする場合、写真入力フォームの幅は最低で�
 {{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" fontsize="30px" alice="ok">}}
 
 レポートにファイルを添付できるフォームを追加できます。**1つのファイルにつき1MB、最大で10ファイルまで**ファイルを添付できます。
-現場写真など画像データを添付したい場合は、[写真入力フォーム](/docs/manual/initial-setting/template/picture/)が別途用意されています。もちろん本フォームでも写真を添付できますが、いくつかの理由により[写真入力フォーム](/docs/manual/initial-setting/template/picture/)の利用を推奨します。
+現場写真など画像データを添付したい場合は、[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)が別途用意されています。もちろん本フォームでも写真を添付できますが、いくつかの理由により[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)の利用を推奨します。
 ファイルの追加はファイル入力フォームをクリックするか、ファイル入力フォーム上にファイルをドラッグ＆ドロップします。
 
 
@@ -175,8 +175,8 @@ PDF出力を前提とする場合、写真入力フォームの幅は最低で�
 
 {{<appscreen filename="file-post" title="添付されたファイルはクリックしてローカルにダウンロードして使用できます。">}}
 
-仮に添付されたファイルが**画像データであってもプレビューされません**。これが[写真入力フォーム](/docs/manual/initial-setting/template/picture/)との大きな違いです。
-汎用性は本フォームのほうが高いですが写真に限定するとプレビューされる[写真入力フォーム](/docs/manual/initial-setting/template/picture/)も利便性では優位です。
+仮に添付されたファイルが**画像データであってもプレビューされません**。これが[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)との大きな違いです。
+汎用性は本フォームのほうが高いですが写真に限定するとプレビューされる[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)も利便性では優位です。
 またファイルは添付時の名前とダウンロード時ではファイル名が少し変わります。
 重複防止とより高い安全性を保つためにアップロード時のファイル名に加えて日付とランダムな文字列が自動で付与されます。
 

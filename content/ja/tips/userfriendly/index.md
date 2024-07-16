@@ -68,7 +68,7 @@ NipoPlusではテンプレートを独自にカスタマイズできます。
 <dt><a href="/docs/manual/initial-setting/template/selects/#plain">選択入力</a></dt>
 <dd>「新規・継続」や「上・中・下」のように決まった選択肢を用意できる場合に適しています。入力の手間を省ける他、選ばれた単語の回数を集計することもできます</dd>
 
-<dt><a href="/docs/manual/initial-setting/template/picture/">現場写真</a>など</dt>
+<dt><a href="/docs/manual/initial-setting/template/binarys/#picture">現場写真</a>など</dt>
 <dd>写真や手描きの署名、PDFなどのファイル。</dd>
 
 </dl>
@@ -123,8 +123,8 @@ click SELECTS "/docs/manual/initial-setting/template/selects/#multiple"
 click CHECKBOX "/docs/manual/initial-setting/template/selects/#checkbox"
 click MOD "/docs/manual/initial-setting/template/mod/"
 
-click PICTURE "/docs/manual/initial-setting/template/picture/"
-click SIGN "/docs/manual/initial-setting/template/sign/"
+click PICTURE "/docs/manual/initial-setting/template/binarys/#picture"
+click SIGN "/docs/manual/initial-setting/template/binarys/#sign"
 click FILE "/docs/manual/initial-setting/template/binarys/#file"
 {{< /mermaid >}}
 
@@ -241,7 +241,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 ### 作業内容と受領サインを組み合わせた作業報告書テンプレート{#sign}
 
 清掃や機器メンテナンスなど、実際の現場で行った作業内容を選択式入力や[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)を駆使して迅速に書き上げることができるような工夫がされています。  
-顧客から確認の受取サインをいただく必要があれば、[署名入力フォーム](/docs/manual/initial-setting/template/sign/)をつかうことで直筆のサインを報告書内に書き込むことが可能です。  
+顧客から確認の受取サインをいただく必要があれば、[署名入力フォーム](/docs/manual/initial-setting/template/binarys/#sign)をつかうことで直筆のサインを報告書内に書き込むことが可能です。  
 
 
 {{<appscreen filename="work-report" title="清掃チェックシートのサンプル。顧客からの受領直筆サインを残すことができるエリアがある。清掃レベルもレート（☆マーク）で直感的に表している">}}
@@ -262,8 +262,8 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 {{<appscreen filename="sample20" title="作業前・作業後の現場写真を作業報告書テンプレートに追加することで現場写真つきの報告書が簡単にスマートフォンやタブレットだけで作れます">}}
 
 
-NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/picture/)は１つにつき10枚まで添付可能ですが、もしこの報告書をPDFに変換する場合、１枚目の写真しかPDFに掲載されません。  
-これはすべての写真を並べるとレイアウトが崩れてしまうためです。すべての写真をPDFに出力したい場合は、テンプレート内に[写真入力フォーム](/docs/manual/initial-setting/template/picture/)を複数個設置することで対応が可能です。  
+NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)は１つにつき10枚まで添付可能ですが、もしこの報告書をPDFに変換する場合、１枚目の写真しかPDFに掲載されません。  
+これはすべての写真を並べるとレイアウトが崩れてしまうためです。すべての写真をPDFに出力したい場合は、テンプレート内に[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)を複数個設置することで対応が可能です。  
 実際に上記の報告書をPDFに変換すると次のように出力されます。
 
 <div class="row">
@@ -293,7 +293,7 @@ WordやExcelで写真付きの日報を作るのは手間が掛かりますが�
 
 フィールドワークに持ち運びが容易なタブレット・スマートフォンは相性の良い組み合わせです。屋外の現地調査シートはタブレットやスマートフォンで入力することを想定してテンプレートを設計することで、現地での入力を少しでも楽に済ませるような工夫がされています。  
 具体的には「特徴」の項目はあらかじめ回答が用意されており、選ぶだけで簡単に入力可能です。  
-そしてモバイル機器には当たり前のように搭載されているカメラで現地の写真を撮影したらそのままレポートに添付できるように、[写真入力フォーム](/docs/manual/initial-setting/template/picture/)を使用しています。
+そしてモバイル機器には当たり前のように搭載されているカメラで現地の写真を撮影したらそのままレポートに添付できるように、[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)を使用しています。
 
 
 {{<appscreen filename="sample4" title="現地調査レポートのテンプレート">}}

@@ -11,7 +11,7 @@ aliases = ["/old/parts/picture/", "/docs/old/parts/picture/"]
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/picture/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/binarys/#picture" "新バージョンでも使えます">}}
 
 ## 写真画像の入力画面{#display}
 

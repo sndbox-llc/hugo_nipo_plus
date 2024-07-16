@@ -95,8 +95,8 @@ CSV出力設定では一括で展開のON/OFFが適用されてしまいます�
 <dt>写真・ファイル等を出力</dt>
 <dd>
 <ul>
-<li><a href="/docs/manual/initial-setting/template/picture/">写真入力フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/sign/">署名入力フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/binarys/#picture">写真入力フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/binarys/#sign">署名入力フォーム</a></li>
 <li><a href="/docs/manual/initial-setting/template/binarys/#file">ファイル入力フォーム</a></li>
 </ul>
 ONにすると上記データを別フォルダに出力します。またダウンロード形式がZipに変化します。
@@ -172,8 +172,8 @@ ONにすると上記データを別フォルダに出力します。またダウ
 
 以下の入力フォームはCSV上に出力不可能です。
 
-- [写真入力フォーム](/docs/manual/initial-setting/template/picture/)
-- [署名入力フォーム](/docs/manual/initial-setting/template/sign/)
+- [写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)
+- [署名入力フォーム](/docs/manual/initial-setting/template/binarys/#sign)
 - [ファイル入力フォーム](/docs/manual/initial-setting/template/binarys/#file)
 
 これらのデータはCSV上では「CSV出力不可」と書かれて出力されます。

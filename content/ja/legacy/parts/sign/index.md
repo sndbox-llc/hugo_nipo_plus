@@ -11,7 +11,7 @@ aliases = ["/old/parts/sign/", "/docs/old/parts/sign/", "/old/parts/canvas/", "/
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/sign/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "新バージョンでも使えます">}}
 
 ## 署名の入力画面{#display}
 
@@ -49,7 +49,7 @@ Nipoの受信・送信BOXからは次のように表示されます
 ---
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/sign/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "新バージョンでも使えます">}}
 
 ## 手書きメモの入力画面{#display}
 

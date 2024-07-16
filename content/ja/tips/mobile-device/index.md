@@ -59,8 +59,8 @@ SDカードも取り込み用のリーダも不要で、その場でパシャっ
 {{<icatch filename="sample20"  msg="現場の写真を レポートに添付可" title="作業前・作業後の現場写真を作業報告書テンプレートに追加することで現場写真つきの報告書が簡単にスマートフォンやタブレットだけで作れます" fontsize="30px" alice="phone">}}
 
 
-レポートに写真を添付するには[写真入力フォーム](/docs/manual/initial-setting/template/picture/)をテンプレートに追加するだけです。１つの[写真入力フォーム](/docs/manual/initial-setting/template/picture/)に複数枚の写真を添付できますが、もしPDFに出力したいときは添付した写真のうち、１枚目しかPDFに出力されないので少し注意が必要です。  
-PDFとして保存する必要がある場合は[写真入力フォーム](/docs/manual/initial-setting/template/picture/)を複数個設置すれば問題は解決。
+レポートに写真を添付するには[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)をテンプレートに追加するだけです。１つの[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)に複数枚の写真を添付できますが、もしPDFに出力したいときは添付した写真のうち、１枚目しかPDFに出力されないので少し注意が必要です。  
+PDFとして保存する必要がある場合は[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)を複数個設置すれば問題は解決。
 写真付き日報を試しにPDFに変換してみると次の画像のように出力されます。
 
 {{<nextArrow>}}
@@ -92,7 +92,7 @@ PDFとして保存する必要がある場合は[写真入力フォーム](/docs
 
 ### タッチパネルの特性を活かしスタイラスペンで直筆サインを埋め込む{#draw_sign}
 
-[署名入力フォーム](/docs/manual/initial-setting/template/sign/)をレポートのテンプレートに追加することで、簡単に手書きの署名をレポート内に埋め込むことが可能です。この[署名入力フォーム](/docs/manual/initial-setting/template/sign/)は手描きの地図やイラストを描くキャンバスモードもありますが、ここでは署名用途にフォーカスしています。
+[署名入力フォーム](/docs/manual/initial-setting/template/binarys/#sign)をレポートのテンプレートに追加することで、簡単に手書きの署名をレポート内に埋め込むことが可能です。この[署名入力フォーム](/docs/manual/initial-setting/template/binarys/#sign)は手描きの地図やイラストを描くキャンバスモードもありますが、ここでは署名用途にフォーカスしています。
 
 直筆サインが必要になるケースとしてはお客さまからの受領サインとして受け取る場合が最初に思い浮かびます。  
 この機能はスマートフォンやPCでも利用できますが、利便性の観点から**タブレット＆スタイラスペンの組み合わせ**がベストです。

@@ -69,9 +69,9 @@ NipoPlusでは様々な入力フォームがありますが、入力必須は一
   <dd>チェックボックスにチェックを入れる（同意や確認として利用を推奨します）</dd>
   <dt><a href="/docs/manual/initial-setting/template/digital/#range">範囲入力</a></dt>
   <dd>この項目は入力必須の指定ができません</dd>
-  <dt><a href="/docs/manual/initial-setting/template/sign/">署名入力</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/binarys/#sign">署名入力</a></dt>
   <dd>イラスト・署名を書く（空白のイラストでも入力必須は解除されます）</dd>
-  <dt><a href="/docs/manual/initial-setting/template/picture/">写真入力</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/binarys/#picture">写真入力</a></dt>
   <dd>少なくとも1枚以上のJpeg・またはPngの画像を添付する</dd>
   <dt><a href="/docs/manual/initial-setting/template/binarys/#file">ファイル入力</a></dt>
   <dd>少なくとも1つ以上のファイルを添付する</dd>

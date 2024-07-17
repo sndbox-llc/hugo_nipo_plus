@@ -2,7 +2,7 @@
 description = "テンプレートカスタムパーツの1つ。作業開始時間のように一定時点の日付時刻を入力できます。10:00 〜 13:00のように範囲を入力する場合は別途期間入力フォームをご利用ください"
 tags = ["テンプレートパーツ", "テンプレート"]
 title = "【日付・時刻入力】をレポートテンプレートに追加"
-menuTitle = "🧩日付＆時刻＆期間"
+menuTitle = "🧩日付時刻"
 toc = true
 weight = 101001107
 aliases = ["/docs/manual/initial-setting/template/datetime/", "/docs/manual/initial-setting/template/datetimes/"]

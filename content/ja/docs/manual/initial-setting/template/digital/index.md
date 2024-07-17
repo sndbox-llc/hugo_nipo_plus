@@ -1,8 +1,8 @@
 +++
 description = "テンプレートカスタムパーツの1つ。シンプルな数値の入力枠をレポートテンプレートに追加します。集計に対応しています。"
 tags = ["集計可能フォーム", "テンプレートパーツ", "テンプレート"]
-title = "数量・金額等の入力"
-menuTitle = "🧩数量・金額等の入力"
+title = "数値入力"
+menuTitle = "🧩数値入力"
 toc = true
 weight = 101001116
 aliases = ["/docs/manual/initial-setting/template/math/", "/docs/manual/initial-setting/template/calc/", "/docs/manual/initial-setting/template/range/", "/docs/manual/initial-setting/template/rate/", "/docs/manual/initial-setting/template/step/"]
@@ -10,15 +10,12 @@ images = ["math_tablet.png"]
 +++
 
 
-当日売上高や製品検査の線形ズレ幅、訪問件数などの数値入力をまとめています。
-最も汎用的な数値入力のほか、スライダを使った入力やネットショップでおなじみの★を使った入力などもあります
-
-
-
+数値は文字と違い、集計や計算に適しています。  
+NipoPlusで数値の入力をするフォームは何種類かあります。
 
 <dl class="basic">
 <dt><a href="#commonNumber">数値入力</a></dt>
-<dd>最も一般的な数値入力方式です。キーボードから入力できます</dd>
+<dd>最も一般的な数値入力方式です。キーボード、または専用のテンキー（液晶画面）から入力可能</dd>
 <dt><a href="#rate">レート入力</a></dt>
 <dd>ネットショップでおなじみの★★★☆☆ のような入力です。星の最大数は任意に増減可能です</dd>
 <dt><a href="#slider">スライダ入力</a></dt>
@@ -51,7 +48,7 @@ images = ["math_tablet.png"]
 
 最も普通な数値の入力をレポートに追加できます。小数点や負数もOK。「円・キロ」などの単位も任意に設定できます。
 
-{{<icatch filename="math" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="math-input" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok">}}
 
 
 
@@ -75,21 +72,32 @@ images = ["math_tablet.png"]
 </details>
 
 
-{{<nextArrow>}}
 
 
 
-### 数値入力フォームの集計{#subtotal_normal}
+### 数値入力フォームのデータ活用{#subtotal_normal}
 
-数値入力フォームは集計・グラフ化が可能です。
+数値データは集計やグラフ化に適しています。たくさんのレポートから簡単にグラフや一覧表を作成可能です
+
+
+
+<details>
+  <summary>グラフ化</summary>
+
+NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリアルタイムにグラフ化できます。
 
 {{<appscreen filename="math_charts" title="数値のデータをグラフ化する">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
-### データをCSVに出力{#csv_num}
+</details>
 
-数値のレポートはCSVに出力できます。オプションは有りません。
+
+
+<details>
+  <summary>CSV</summary>
+
+数値のレポートはCSVに出力できます。  
 設定で指定した数値の**単位**については、CSV上のラベル（1行目）に【】に囲まれて出力されます。
 
 
@@ -101,6 +109,9 @@ images = ["math_tablet.png"]
 2023/06/11, 12, 3, 6, 1, 9, 45
 2023/06/08, 11, 23, 33, 4, 16, 22
 {{< /excelTable >}}
+
+
+</details>
 
 
 ---
@@ -140,18 +151,22 @@ images = ["math_tablet.png"]
 </details>
 
 
-{{<nextArrow>}}
 
 
 
 ### レート入力フォームの集計{#subtotal_rate}
+
 
 集計・グラフ化が可能です。レート入力は２つの集計方式があります。
 
 - 単純に星の数を合計した集計方法
 - 各レート毎の回数をカウントする方法
 
-レビューなどでは後者がよく使われます。星5は何人、星4は何人・・・といった具合です。
+
+
+<details>
+  <summary>レートフォームデータをグラフ化</summary>
+
 
 レート入力の結果をグラフにした例
 
@@ -159,13 +174,17 @@ images = ["math_tablet.png"]
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
-### CSVに出力する{#csv_rate}
+</details>
 
-出力形式を変えることができます。
-{{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}
 
-**列展開がON**の場合のCSV出力例（長いためH列以降は省略しています）
-列展開がONだと**列数が多くなる**ことに注意してください。
+
+
+<details>
+  <summary>レートフォームデータをCSV出力</summary>
+
+レートのデータは[CSV出力オプション](/docs/manual/analytics/csvoption/)で列展開の形式を変更可能です。
+
+**列展開がON**の場合のCSV出力例（一部省略）
 
 
 {{< excelTable >}}
@@ -175,6 +194,8 @@ images = ["math_tablet.png"]
 2023/06/09 09:35, 栃木県真岡市XXX, -, -, ⭕, -, -, -
 2023/06/08 09:35, 栃木県宇都宮市XXXX, -, -, -, -, ⭕, -
 {{< /excelTable >}}
+
+
 
 
 **列展開がOFF**の場合のCSV出力例
@@ -188,6 +209,11 @@ images = ["math_tablet.png"]
 2023/06/08 09:35, 栃木県宇都宮市XXXX, 4, 2, 5
 {{< /excelTable >}}
 
+列展開がONだと列数が多くなることに注意してください。
+
+
+
+</details>
 
 
 ---
@@ -237,16 +263,23 @@ images = ["math_tablet.png"]
 </details>
 
 
-{{<nextArrow>}}
 
 
 ### スライダのデータを集計{#subtotal_slider}
 
 スライダは数値のためデータ集計に対応しています。
 
+
+<details>
+  <summary>グラフ化</summary>
+
 {{<appscreen filename="slider_charts" title="スライダのデータを用いて折れ線グラフを生成">}}
 
-### スライダのデータをCSVに出力{#csv_slider}
+</details>
+
+
+<details>
+  <summary>CSV出力</summary>
 
 スラライダで入力された値は数値データとしてCSVに出力できます。単位は【】内に記載されます
 
@@ -259,6 +292,7 @@ images = ["math_tablet.png"]
 {{< /excelTable >}}
 
 
+</details>
 
 
 ## 範囲{#range}
@@ -323,7 +357,6 @@ images = ["math_tablet.png"]
 
 
 
----
 
 
 ---

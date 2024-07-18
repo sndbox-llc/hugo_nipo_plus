@@ -9,6 +9,9 @@ aliases = ["/manual/analytics/"]
 images = ["chart_tablet.png"]
 +++
 
+{{<icatch filename="chart" msg="グラフはワンクリック でいつでも切替可" title="レポートをグラフ化する" fontsize="30px" alice="guide">}}
+
+
 レポートのテンプレートに数値や選択肢が含まれている場合はそれらのデータを集計、グラフ化できます。
 集計に対応している入力フォーム一覧は以下参照
 

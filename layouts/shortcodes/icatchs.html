@@ -1,7 +1,4 @@
 {{ $title := .Get "title" | default "SVGによるNipoPlus画面イメージ"}}
-{{ $aliceIcon := .Get "alice" | default "default"}}
-{{ $msg := .Get "msg" | default "zzz... zzz..."}}
-{{ $fontsize := .Get "fontsize" | default "22px" }}
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" (.Get "filename")) }}
 {{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" (.Get "filename")) }}
 {{ $id := partial "make-random-md5.hugo" }}
@@ -11,76 +8,21 @@
     display: block;
     border: 10px solid black; /* 太い黒い枠 */
     border-radius: 20px; /* 角丸 */
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
   }
-
-  /* デバイスの幅に応じて画像を変更する */
   .responsive-image {
     width: 100%;
     height: auto;
   }
-
-  /* スマートフォン用 */
-  @media (max-width: 768px) {
-    .responsive-image {
-      content: url('{{ $imgPhone.RelPermalink }}');
-    }
-  }
-
-  /* タブレット用 */
-  @media (min-width: 769px) {
-    .responsive-image {
-      content: url('{{ $imgTablet.RelPermalink }}');
-    }
-  }
-
-  .alice-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .alice-image {
-    width: 100px; /* キャラクターのサイズ調整 */
-    height: auto;
-    margin-right: 20px;
-  }
-
-  .alice-speech-bubble {
-    background: #fff;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: {{ $fontsize }};
-    position: relative;
-  }
-
-  .alice-speech-bubble::after {
-    content: '';
-    position: absolute;
-    bottom: -10px; /* 吹き出しの下部 */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-top-color: #fff;
-    border-bottom: 0;
-    margin-left: -10px;
-    margin-bottom: -10px;
-  }
 </style>
 
 <div class="tablet-frame">
-  <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $title }}" class="responsive-image">
-</div>
-<div class="alice-container">
-  <img src="/images/alice2/{{ $aliceIcon }}.png" alt="Alice" class="alice-image">
-  <div class="alice-speech-bubble">
-    {{ $msg }}
-  </div>
+  <picture>
+    <source srcset="{{ $imgPhone.RelPermalink }}" media="(max-width: 768px)">
+    <source srcset="{{ $imgTablet.RelPermalink }}" media="(min-width: 769px)">
+    <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $title }}" class="responsive-image">
+  </picture>
 </div>
 <figcaption class="small">{{ $title }}</figcaption>
 <div class="mt-1 mb-4">

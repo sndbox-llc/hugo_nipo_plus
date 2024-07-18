@@ -1,0 +1,38 @@
+{{ $title := .Get "title" | default "SVGによるNipoPlus画面イメージ"}}
+{{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" (.Get "filename")) }}
+{{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" (.Get "filename")) }}
+
+<style>
+  .tablet-frame {
+    display: block;
+    border: 10px solid black; /* 太い黒い枠 */
+    border-radius: 20px; /* 角丸 */
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* デバイスの幅に応じて画像を変更する */
+  .responsive-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* スマートフォン用 */
+  @media (max-width: 768px) {
+    .responsive-image {
+      content: url('{{ $imgPhone.RelPermalink }}');
+    }
+  }
+
+  /* タブレット用 */
+  @media (min-width: 769px) {
+    .responsive-image {
+      content: url('{{ $imgTablet.RelPermalink }}');
+    }
+  }
+</style>
+
+<div class="tablet-frame">
+  <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $title }}" class="responsive-image">
+</div>
+<figcaption class="small">{{ $title }}</figcaption>

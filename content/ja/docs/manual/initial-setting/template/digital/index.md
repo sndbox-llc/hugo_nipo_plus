@@ -42,7 +42,6 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 
 {{<appscreen filename="add-parts-num" title="数値入力フォームをテンプレートに追加する">}}
-{{<appscreenimg filename="add-parts-num" title="数値入力フォームをテンプレートに追加する">}}
 
 
 ## 通常の数値入力{#commonNumber}

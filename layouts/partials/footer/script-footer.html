@@ -13,10 +13,6 @@
 {{ end }}
 
 
-{{ $svg := resources.Get "js/svg.js" -}}
-{{ $svg := $svg | js.Build -}}
-
-<script src="{{ $svg.RelPermalink }}" defer></script>
 
 
 {{ $mermaid := resources.Get "js/mermaid.js" | js.Build -}}

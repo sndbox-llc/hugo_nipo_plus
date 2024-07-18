@@ -17,7 +17,7 @@ showPrice = true
 
 
 <div class="row my-5">
-<div class="col-lg-6 rootMainText">
+<div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
 誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/)、[画像入力](/docs/manual/initial-setting/template/binarys/)など）を組み合わせるだけで、**自社に最適なテンプレートを作成**できます。  
@@ -28,7 +28,7 @@ showPrice = true
 {{<btnFull "/docs/manual/initial-setting/template/make/" "テンプレート作成ガイド">}}
 
 </div>
-<div class="col-lg-10">
+<div class="col-lg-9">
 <!-- 画像エリア -->
 {{<icatch filename="make-template" msg="入力フォームを並べて テンプレートを作る" title="レポートのテンプレートを作成" fontsize="30px" alice="pc">}}
 
@@ -41,13 +41,13 @@ showPrice = true
 
 
 <div class="row my-5">
-<div class="col-lg-6 rootMainText">
+<div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
 NipoPlusを使うことで、紙の日報やチェックシートを電子化し、手作業の煩雑さから解放されます。スマホからも簡単に入力・閲覧ができるため、どこからでもアクセス可能です。これにより、作業効率が大幅に向上し、時間とコストの節約が可能です。
 
 </div>
-<div class="col-lg-10">
+<div class="col-lg-9">
 
 {{<icatch filename="read-report" msg="効率のよい日報管理 設備点検などにも" title="提出された日報を読む 承認やコメントも" fontsize="30px" alice="ok">}}
 
@@ -129,7 +129,7 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 
 
 <div class="row my-5">
-<div class="col-lg-6 rootMainText">
+<div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
 NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボタンを押して入力フォームの値を埋めるだけです。
@@ -142,7 +142,7 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 
 
 </div>
-<div class="col-lg-10">
+<div class="col-lg-9">
 <!-- 画像エリア -->
 {{<icatch filename="write-report" msg="テンプレートに沿って 日報を書きます" title="テンプレートに沿って日報を書き上げる" fontsize="30px" alice="ok">}}
 
@@ -178,7 +178,7 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 ### 提出状況一覧表で未提出者を早期特定
 
 <div class="row my-5">
-<div class="col-lg-6 rootMainText">
+<div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
 一覧表で誰が何件の日報を提出したのか俯瞰できるので、未提出者を早期に、しかも簡単に発見できます。  
@@ -187,7 +187,7 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 {{<btnFull "/docs/manual/utils/shift/" "マニュアル:シフト管理">}}
 
 </div>
-<div class="col-lg-10">
+<div class="col-lg-9">
 <!-- 画像エリア -->
 {{<icatch filename="report-list" msg="提出状況を見れば 提出漏れも一目瞭然" title="提出状況を一覧で確認可能。欠勤か提出漏れかを判別するにはシフトを登録することで解決できます。" fontsize="30px" alice="here">}}
 

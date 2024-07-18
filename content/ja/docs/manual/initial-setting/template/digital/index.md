@@ -50,6 +50,8 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#number)
 
 
+{{<icatchs filename="math-input" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok">}}
+
 {{<icatch filename="math-input" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok">}}
 
 

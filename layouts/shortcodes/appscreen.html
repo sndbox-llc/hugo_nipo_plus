@@ -1,4 +1,4 @@
-{{ $title := .Get "title" | default "SVGによるNipoPlus画面イメージ"}}
+{{ $title := .Get "msg" | default "SVGによるNipoPlus画面イメージ"}}
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" (.Get "filename")) }}
 {{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" (.Get "filename")) }}
 {{ $id := partial "make-random-md5.hugo" }}

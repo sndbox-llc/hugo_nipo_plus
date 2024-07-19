@@ -17,7 +17,7 @@ NipoPlusはAndroid版・iOS版・Web版の3種類があります。ご利用中�
 
 <details>
   <summary>バージョン記載箇所</summary>
-{{<icatch filename="version" msg="画面左下にアプリのバージョンが記載されています" fontsize="30px" alice="ok">}}
+{{<icatch filename="version" msg="画面左下にアプリのバージョンが記載されています" alice="ok">}}
 
 </details>
 

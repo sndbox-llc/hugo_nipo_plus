@@ -22,7 +22,7 @@ CSVSCは、複数のCSVファイルを1つに簡単に連結することがで�
 - オープンソースです。[Github](https://github.com/ueda19850603/csvsc)に載せています
 - MacでもWindowsでも使えます
 
-{{<icatch filename="csvsc" msg="複数のCSVファイルをドラッグ＆ドロップの簡単操作で1つに結合できます"  fontsize="30px" alice="here">}}
+{{<icatch filename="csvsc" msg="複数のCSVファイルをドラッグ＆ドロップの簡単操作で1つに結合できます" alice="here">}}
 
 {{<btnCenter "https://code.sndbox.jp/csvsc/#/" "CSVSCの起動" "_blank">}}
 
@@ -143,7 +143,7 @@ B.csvが
 
 非常にシンプルなので、使い方を書くほどのものではありませんが一応操作ガイドを載せておきます。
 
-{{<appscreen filename="guide" title="基本的にはドロップとダウンロードボタンしか使いません。簡単にCSVファイルを結合できます">}}
+{{<appscreen filename="guide" msg="基本的にはドロップとダウンロードボタンしか使いません。簡単にCSVファイルを結合できます">}}
 
 1. [CSVSCを起動](https://code.sndbox.jp/csvsc/#/)します
 1. CSVファイルを所定のエリアにドラッグ＆ドロップします

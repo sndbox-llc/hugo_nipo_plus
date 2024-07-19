@@ -22,12 +22,12 @@ draft=false
 3. 右パネルの「レポートを表示」がONであることを確認する
 4. カレンダー上の「◯件のレポート」という文字をクリックする
 
-{{<appscreen filename="read-report-calendar" title="カレンダーから日報を読む">}}
+{{<appscreen filename="read-report-calendar" msg="カレンダーから日報を読む">}}
 
 「◯件のレポート」をクリックするとポップアップでで日報が表示されます。「◯件」の数だけページ送りができます。
 
 
-{{<appscreen filename="report-pagination" title="カレンダーから日報を表示した画面。同日に複数のレポートがある場合はページ送りボタンを使って切り替えます">}}
+{{<appscreen filename="report-pagination" msg="カレンダーから日報を表示した画面。同日に複数のレポートがある場合はページ送りボタンを使って切り替えます">}}
 
 
 カレンダー機能についてより詳しいガイドは[カレンダー](/docs/manual/calendar/_about/)を御覧ください

@@ -34,7 +34,7 @@ classDef class1 fill:#7BCCAC
 1. 「右メニューから「組織全般」をクリック
 1. 「状態」に現在のプランが記載されます
 
-{{<appscreen filename="plan" title="現在の料金プランを確認">}}
+{{<appscreen filename="plan" msg="現在の料金プランを確認">}}
 
 ## トライアルプランについて{#trial}
 

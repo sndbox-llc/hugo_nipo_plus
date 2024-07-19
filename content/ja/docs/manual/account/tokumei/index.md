@@ -28,7 +28,7 @@ Emailやパスワードの設定も不要です。
 3. 確認メッセージを確認後にOKをクリック
 4. 利用規約に同意後、すべての機能が利用できます
 
-{{<appscreen filename="signup-anonymous" title="匿名アカウントはEmailやパスワードの設定をせずに利用できる仮のアカウントです">}}
+{{<appscreen filename="signup-anonymous" msg="匿名アカウントはEmailやパスワードの設定をせずに利用できる仮のアカウントです">}}
 
 ## 匿名アカウントのデメリット{#bad}
 
@@ -49,7 +49,7 @@ Emailやパスワードの設定も不要です。
 1. 「正規アカウントへ昇格」ボタンをクリック
 1. 画面左下に表示されていた「匿名アカウントです」のバナーが消えていれば成功です
 
-{{<appscreen filename="promotion-account" title="匿名アカウントを正規アカウントへ昇格させるにはEmailとパスワードを設定します">}}
+{{<appscreen filename="promotion-account" msg="匿名アカウントを正規アカウントへ昇格させるにはEmailとパスワードを設定します">}}
 
 ## 匿名アカウントを破棄する{#remove}
 

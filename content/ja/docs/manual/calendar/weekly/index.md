@@ -26,7 +26,7 @@ images = []
 週カレンダーとは言いますが、週以外にも任意の期間を設定できます。
 
 
-{{<appscreen filename="weekly-calendar" title="表示切替で「週カレンダー」に表示を切り替えた画面イメージ。">}}
+{{<appscreen filename="weekly-calendar" msg="表示切替で「週カレンダー」に表示を切り替えた画面イメージ。">}}
 
 
 ## 週カレンダーの各種設定{#calendar_settings}
@@ -52,7 +52,7 @@ images = []
 時間軸に描画されている予定や日報をクリックすることで該当データがポップアップで表示されます。
 同日の予定やレポートは１セットとなり、ポップアップ後の画面でページ送りができ混ます。例えば1/23日の予定が6件ある場合、その日のいづれかの予定をクリックして表示すると x / 6と表示され、ポップアップ画面からページ送りができます。
 
-{{<appscreen filename="show-event" title="予定のポップアップ表示。同日の予定も同時にセットされる">}}
+{{<appscreen filename="show-event" msg="予定のポップアップ表示。同日の予定も同時にセットされる">}}
 
 
 
@@ -67,7 +67,7 @@ images = []
 イメージとしては「ホールド」して「スワイプ」します。
 {{</alice>}}
 
-{{<appscreen filename="drag-event-add" title="予定をドラッグ操作で簡単に追加できます">}}
+{{<appscreen filename="drag-event-add" msg="予定をドラッグ操作で簡単に追加できます">}}
 
 
 

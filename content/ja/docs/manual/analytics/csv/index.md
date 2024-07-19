@@ -16,7 +16,7 @@ CSV出力はWeb版のみ対応しています。Android / iOSアプリ版では�
 1. CSV出力ボタンをクリックします
 1. ダウンロードが開始されます
 
-{{<appscreen filename="report-csv-export1" title="指定した期間のレポートを一括でCSVに出力">}}
+{{<appscreen filename="report-csv-export1" msg="指定した期間のレポートを一括でCSVに出力">}}
 
 - CSVはテンプレートごとに分けて出力されます。テンプレートが多いとCSVファイルも比例して多くなります。
 - 指定期間内に1度も使用されなかったテンプレートは自動で除外されます。
@@ -31,7 +31,7 @@ CSV出力はWeb版のみ対応しています。Android / iOSアプリ版では�
 
 日別に分けてCSV出力したり、スタッフ別に分けてCSV出力できます。この機能を使うには対象となるテンプレートを1種類選ぶ必要があります。
 
-{{<appscreen filename="selectable-csv-download" title="日別やスタッフ別に分けてレポートのダウンロードが可能です">}}
+{{<appscreen filename="selectable-csv-download" msg="日別やスタッフ別に分けてレポートのダウンロードが可能です">}}
 
 
 

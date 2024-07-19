@@ -42,7 +42,7 @@ NipoPlusでは以下の種類があります。
 |チェックボックス|⭕|⭕|⭕|✗|
 
 
-{{<appscreen filename="add-select-parts" title="選択式入力フォームのみで構成されたチェックシートのサンプル。このテンプレートを使って実際の入力画面や表示画面を確認していきましょう">}}
+{{<appscreen filename="add-select-parts" msg="選択式入力フォームのみで構成されたチェックシートのサンプル。このテンプレートを使って実際の入力画面や表示画面を確認していきましょう">}}
 
 
 
@@ -191,7 +191,7 @@ NipoPlusでは以下の種類があります。
 
 こちらは回答から複数個選択することができるタイプです。見た目はチェックボックスが並んだような表示形式になります。
 
-{{<icatch filename="select2" msg="選択式入力フォームは選ぶだけの簡単入力！色分けも可能"  fontsize="30px" alice="here">}}
+{{<icatch filename="select2" msg="選択式入力フォームは選ぶだけの簡単入力！色分けも可能"  alice="here">}}
 
 使い方についてはほとんど選択肢単回答と同じです。CSV出力時の形式のみ異なります。
 
@@ -260,7 +260,7 @@ graph LR;
 ### 選択肢（2層式）の初期設定{#setting}
 
 問１のリストと問２のリストを作成する必要があるため初期設定は少し手間がかかります。
-{{<appscreen filename="template" title="テンプレート編集。選択肢二槽式の初期設定">}}
+{{<appscreen filename="template" msg="テンプレート編集。選択肢二槽式の初期設定">}}
 
 質問1の選択肢を追加するごとに、質問2の選択肢欄も自動で追加されていきます。
 以下は本入力フォームにのみ存在する設定項目です
@@ -305,7 +305,7 @@ graph LR;
 
 ## チェックボックス入力{#checkbox}
 
-{{<icatch filename="input-method-checkbox" msg="チェックボックス入力フォームはYES・NO 2択で答えるのに便利です" fontsize="30px" alice="ok">}}
+{{<icatch filename="input-method-checkbox" msg="チェックボックス入力フォームはYES・NO 2択で答えるのに便利です" alice="ok">}}
 
 チェックボックスフォームの設定は以下の通り。
 
@@ -342,7 +342,7 @@ graph LR;
   <summary>グラフ化</summary>
 
 
-{{<appscreen filename="pie-charts" title="チェックボックスのデータを円グラフにしたイメージ">}}
+{{<appscreen filename="pie-charts" msg="チェックボックスのデータを円グラフにしたイメージ">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
@@ -394,7 +394,7 @@ graph LR;
 下の画像がイメージしやすいでしょう▼
 
 
-{{<appscreen filename="dinamic-selection" title="他の入力結果に応じて選択肢のリストを動的に変化させる">}}
+{{<appscreen filename="dinamic-selection" msg="他の入力結果に応じて選択肢のリストを動的に変化させる">}}
 
 このように回答に応じて次の回答を変えることで、より柔軟で独創的なレポートフォームを作ることがプログラマ不在でも作れます。
 
@@ -438,7 +438,7 @@ graph LR;
 [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)を動的変化させるには、トリガーとなるための参照先フォームが必要です。極端な話、テンプレート内にフォームが１個しかない場合、そもそも参照する対象が無いため利用できません。  
 条件を満たしていないとき、動的変化の画面には「このテンプレートでは動的変化をつかう条件を満たしていません」と表示され、追加ボタンが表示されなくなります。
 
-{{<appscreen filename="disable-dinamic" title="動的変化が利用できないケース">}}
+{{<appscreen filename="disable-dinamic" msg="動的変化が利用できないケース">}}
 
 
 動的変化を使用する具体的な条件は以下のとおりです。

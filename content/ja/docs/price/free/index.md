@@ -27,7 +27,7 @@ classDef class1 fill:#7BCCAC
 スマートフォン・タブレットの専用アプリももちろん利用可能です。
 複数台でログインして利用することももちろんOK.
 
-{{<icatch filename="write-report" msg="無料でも必要最小限の機能は利用が可能です"  fontsize="30px" alice="ok">}}
+{{<icatch filename="write-report" msg="無料でも必要最小限の機能は利用が可能です" alice="ok">}}
 
 人数も４名まで無料プランの範囲内です。
 

@@ -33,7 +33,7 @@ images = []
 <div class="col-sm-16 col-md-6">{{<button "/docs/manual/notice/app/" "アプリ内通知">}}</div>
 </div>
 
-{{<appscreen filename="edit" title="修正したいレポートを選択します。ここでは送信BOXから探す手順ですが直接URLを開いてもいいですし、通知エリアからジャンプしても良いです">}}
+{{<appscreen filename="edit" msg="修正したいレポートを選択します。ここでは送信BOXから探す手順ですが直接URLを開いてもいいですし、通知エリアからジャンプしても良いです">}}
 
 
 修正ボタンをクリックするとレポートの編集画面に切り替わります。一見すると[レポートの作成](/docs/manual/write-report/write/)画面と同じですが細かな違いがあります。
@@ -58,7 +58,7 @@ images = []
 
 レポートを修正すると状態が「修正」に切り替わります。
 
-{{<appscreen filename="report-status-change" title="修正されたレポートは状態が「修正」になります">}}
+{{<appscreen filename="report-status-change" msg="修正されたレポートは状態が「修正」になります">}}
 
 もし承認リレーが組まれていたレポート出会った場合は、承認リレーがどこまで進んでいても1から振り出しに戻ります。
 

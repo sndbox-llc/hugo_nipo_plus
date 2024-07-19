@@ -19,11 +19,11 @@ images = []
 1. 「利用可能なテンプレートを制限する」をONにする
 1. 利用可能なテンプレートをリストから選ぶ
 
-{{<appscreen filename="show-template-setting" title="スタッフが使用できるレポートのテンプレートを制限する">}}
+{{<appscreen filename="show-template-setting" msg="スタッフが使用できるレポートのテンプレートを制限する">}}
 
 {{<nextArrow>}}
 ポップアップで設定が開きます。
-{{<appscreen filename="template-control-setting" title="使用可能なテンプレートを選ぶことでそれ以外のレポートテンプレートが使えなくなる">}}
+{{<appscreen filename="template-control-setting" msg="使用可能なテンプレートを選ぶことでそれ以外のレポートテンプレートが使えなくなる">}}
 
 利用可能なテンプレートを制限するのチェックを入れ、テンプレートを選んでください。
 レポート作成時に選ばれたテンプレートだけが一覧に表示されるようになります。

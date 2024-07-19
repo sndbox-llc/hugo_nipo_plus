@@ -28,7 +28,7 @@ images = []
 1. PDF生成完了を待つ
 1. 完了後にポップで通知
 
-{{<appscreen filename="calendar-pdf" title="カレンダー上に表示されているレポートをワンクリックでまとめてPDFに変換する">}}
+{{<appscreen filename="calendar-pdf" msg="カレンダー上に表示されているレポートをワンクリックでまとめてPDFに変換する">}}
 
 カレンダー上部にあるPDF出力ボタンからまとめてPDF出力できます。
 
@@ -39,7 +39,7 @@ images = []
 カレンダーと違い受信BOXではレポートの絞り込み検索が可能です。
 例えばレポートの状態が修正のステータスになっているものだけをPDF出力するといったことができます。
 
-{{<appscreen filename="filter-pdf" title="レポートを個別に選び、一括でPDFに変換する">}}
+{{<appscreen filename="filter-pdf" msg="レポートを個別に選び、一括でPDFに変換する">}}
 
 ## 個別にPDF出力リストへ追加して一括出力する{#pin}
 
@@ -50,7 +50,7 @@ images = []
 1. 「登録分をまとめてダウンロード」をクリックする
 1. ZIPファイルとしてダウンロードされる
 
-{{<appscreen filename="add-pdf" title="PDFに変換したいレポートをリストに追加する">}}
+{{<appscreen filename="add-pdf" msg="PDFに変換したいレポートをリストに追加する">}}
 
 ## ダウンロードしたZipファイルが文字化けする？{#text_shaking}
 

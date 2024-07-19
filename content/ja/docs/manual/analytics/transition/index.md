@@ -17,7 +17,7 @@ images = ["make-charts_tablet.png"]
 {{</info>}}
 データ推移表はレポートを表示すると自動で画面下部に作成されます。
 
-{{<appscreen filename="data-history" title="横軸に日付、縦軸に各種項目（売上や仕入高などのレポート内容）をもつ推移表です。前回、前々回との比較が可能です。">}}
+{{<appscreen filename="data-history" msg="横軸に日付、縦軸に各種項目（売上や仕入高などのレポート内容）をもつ推移表です。前回、前々回との比較が可能です。">}}
 
 レポート表示時のデータ推移表は最大で直近30件まで生成します。いちいち集計機能を開かなくてもその場で確認できるため手軽な表です。
 主な特徴は以下のとおりです。
@@ -42,7 +42,7 @@ images = ["make-charts_tablet.png"]
 1. 集計対象のテンプレートを選択
 1. 推移表が表示される
 
-{{<appscreen filename="range-transition" title="推移表を期間指定して表示します。「先月」のように月単位の他、週単位や15日単位など細かく範囲を変更できます">}}
+{{<appscreen filename="range-transition" msg="推移表を期間指定して表示します。「先月」のように月単位の他、週単位や15日単位など細かく範囲を変更できます">}}
 
 ## 推移表をCSV形式でダウンロードする{#csv}
 
@@ -86,7 +86,7 @@ images = ["make-charts_tablet.png"]
 
 推移表のデータをもとにしてを折れ線や棒グラフ、円グラフを作成できます。
 
-{{<appscreen filename="make-charts" title="データ推移表をもとに積み上げ縦棒&折れ線の複合フラフを作成した">}}
+{{<appscreen filename="make-charts" msg="データ推移表をもとに積み上げ縦棒&折れ線の複合フラフを作成した">}}
 
 詳しい手順については「グラフの作成」を御覧ください。
 

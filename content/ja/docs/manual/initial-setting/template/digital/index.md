@@ -41,7 +41,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 数値系の入力フォームはテンプレート編集画面の左パネルから追加できます
 
 
-{{<appscreen filename="add-parts-num" title="数値入力フォームをテンプレートに追加する">}}
+{{<appscreen filename="add-parts-num" msg="数値入力フォームをテンプレートに追加する">}}
 
 
 ## 通常の数値入力{#commonNumber}
@@ -51,7 +51,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 
 
-{{<icatch filename="math-input" msg="金額や距離・個数など、数値の入力に最適"  fontsize="30px" alice="ok">}}
+{{<icatch filename="math-input" msg="金額や距離・個数など、数値の入力に最適" alice="ok">}}
 
 
 
@@ -89,7 +89,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリアルタイムにグラフ化できます。
 
-{{<appscreen filename="math_charts" title="数値のデータをグラフ化する">}}
+{{<appscreen filename="math_charts" msg="数値のデータをグラフ化する">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
@@ -128,7 +128,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 ネットショップやレビューでおなじみの★を使った入力フォームです。星の上限は変更可能です。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#rate)
 
-{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力方式です"  fontsize="30px" alice="ok">}}
+{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力方式です"  alice="ok">}}
 
 レートはPDFに出力可能ですが、使用可能フォントの関係上★などのアイコンの代わりに●と◯で代用されます。
 
@@ -171,7 +171,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 レート入力の結果をグラフにした例
 
-{{<appscreen filename="rate-charts" title="レポートに含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
+{{<appscreen filename="rate-charts" msg="レポートに含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
@@ -225,7 +225,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 上限、下限があるため、一定の範囲内に収まる数値入力に限定されます。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#slider)
 
-{{<icatch filename="slider-input" msg="つまみをスライドさせて数値の入力ができます。キーボード不要のお手軽数値入力"  fontsize="30px" alice="ok">}}
+{{<icatch filename="slider-input" msg="つまみをスライドさせて数値の入力ができます。キーボード不要のお手軽数値入力" alice="ok">}}
 
 
 用途としては次のようなものがあります
@@ -278,7 +278,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 <details>
   <summary>グラフ化</summary>
 
-{{<appscreen filename="slider_charts" title="スライダのデータを用いて折れ線グラフを生成">}}
+{{<appscreen filename="slider_charts" msg="スライダのデータを用いて折れ線グラフを生成">}}
 
 </details>
 
@@ -308,7 +308,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#range)
 
 
-{{<icatch filename="range-input" msg="最低〜最大など 範囲の数値入力に"  fontsize="30px" alice="ok">}}
+{{<icatch filename="range-input" msg="最低〜最大など 範囲の数値入力に" alice="ok">}}
 
 
 <details>
@@ -362,7 +362,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 ## 算術フォーム{#calc}
 
-{{<appscreen filename="calc-icatch" msg="自動で計算 四則演算OK" title="算術入力フォーム" fontsize="30px" alice="here">}}
+{{<appscreen filename="calc-icatch" msg="自動で計算 四則演算OK" title="算術入力フォーム" alice="here">}}
 
 
 算術フォームは他のフォームと大きく異なります。
@@ -376,7 +376,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 最も重要なのは計算式を正しく作成することです。
 
-{{<appscreen filename="make-fomula" title="数式を入力してレポート内のデータから自動計算して結果をレポートに書き込みます">}}
+{{<appscreen filename="make-fomula" msg="数式を入力してレポート内のデータから自動計算して結果をレポートに書き込みます">}}
 
 計算式に使えるエレメントは以下の通り
 

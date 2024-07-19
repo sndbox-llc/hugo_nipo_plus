@@ -19,7 +19,7 @@ aliases = ["/manual/calendar/", "/manual/calendar/setting/", "/docs/manual/calen
 
 
 
-{{<icatch filename="calendar" msg="カレンダーモードではレポートの提出日や枚数が月単位で俯瞰できます"  fontsize="30px" alice="here">}}
+{{<icatch filename="calendar" msg="カレンダーモードではレポートの提出日や枚数が月単位で俯瞰できます"  alice="here">}}
 
 
 カレンダは[レポート保存箱](/docs/manual/read-report/list/)にあるレポートを決まったルールで各セルに描画します。  

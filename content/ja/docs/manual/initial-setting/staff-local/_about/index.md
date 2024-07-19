@@ -23,7 +23,7 @@ images = []
 1. メニュー「グループ設定」をクリック
 2. 上部メニュー「スタッフ管理」をクリック
 
-{{<appscreen filename="staff-local" title="スタッフアカウントの管理">}}
+{{<appscreen filename="staff-local" msg="スタッフアカウントの管理">}}
 
 スタッフリストの各部名称について。
 <dl class="basic">
@@ -58,7 +58,7 @@ images = []
 1. グループ設定をクリック
 1. スタッフ管理をクリック
 
-{{<appscreen filename="staff-activity" title="スタッフの活動実績を月ごとに表示">}}
+{{<appscreen filename="staff-activity" msg="スタッフの活動実績を月ごとに表示">}}
 
 |名称|説明|
 |---|---|
@@ -74,4 +74,4 @@ images = []
 
 集計する期間は1ヶ月単位で切替ができます。期間を変更するには日付の書かれたボタンをクリックします。
 
-{{<appscreen filename="change-span" title="スタッフの活動実績集計期間を変更する">}}
+{{<appscreen filename="change-span" msg="スタッフの活動実績集計期間を変更する">}}

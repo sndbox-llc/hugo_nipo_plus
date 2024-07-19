@@ -1,8 +1,6 @@
 {{ $moji := .Get "filename" }}
 {{ $aliceIcon := .Get "alice" | default "default"}}
-{{ $desc := .Get "desc" | default "未設定" }}
 {{ $msg := .Get "msg" | default "zzz... zzz..."}}
-{{ $fontsize := .Get "fontsize" | default "22px" }}
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" ($moji)) }}
 {{ $imgPhone := .Page.Resources.GetMatch (printf "%s_phone*" ($moji)) }}
 {{ $id := partial "make-random-md5.hugo" }}

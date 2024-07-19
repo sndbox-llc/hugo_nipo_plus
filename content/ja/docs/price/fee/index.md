@@ -27,11 +27,11 @@ GOLD PLANへのお申し込みはWeb版のNipoPlusを起動して行います。
 1. 「自動更新有りで申し込み」をクリック
 1. 各種必要事項の入力
 
-{{<appscreen filename="entry" title="組織設定からGOLD PLANへ申込みができます">}}
+{{<appscreen filename="entry" msg="組織設定からGOLD PLANへ申込みができます">}}
 
 {{<nextArrow>}}
 
-{{<appscreen filename="input-card" title="クレジットカード番号や申込み人数などの必要事項を記入してください">}}
+{{<appscreen filename="input-card" msg="クレジットカード番号や申込み人数などの必要事項を記入してください">}}
 
 必要事項を記入します。個々で記入した情報は領収証にも記載されます。
 内容を確認の上、最後に「申込み開始」ボタンをクリックします。
@@ -67,7 +67,7 @@ GOLD PLANへのお申し込みはWeb版のNipoPlusを起動して行います。
 
 
 
-{{<appscreen filename="receipt" title="これまでの決済履歴を確認。領収証のダウンロードもここからできます">}}
+{{<appscreen filename="receipt" msg="これまでの決済履歴を確認。領収証のダウンロードもここからできます">}}
 
 {{<btnCenter "/docs/price/receipt/" "領収証のダウンロード">}}
 
@@ -147,7 +147,7 @@ NipoPlusのサブスクリプションを解除するには、以下のとおり
 
 NipoPlusの退会をすることでも有料プランは自動で解約されます。
 
-{{<appscreen filename="withdrawal" title="組織設定を開き、退会の項目までスクロールしてください。退会ボタンをクリックするとパスワード入力画面が表示されます">}}
+{{<appscreen filename="withdrawal" msg="組織設定を開き、退会の項目までスクロールしてください。退会ボタンをクリックするとパスワード入力画面が表示されます">}}
 
 ## 支払いの失敗による解約{#fail}
 

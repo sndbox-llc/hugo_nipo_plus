@@ -9,7 +9,7 @@ aliases = ["/manual/analytics/"]
 images = ["chart_tablet.png"]
 +++
 
-{{<icatch filename="chart" msg="レポートのグラフ化も簡単！複数作成できて切り替えもラクラク"  fontsize="30px" alice="ok">}}
+{{<icatch filename="chart" msg="レポートのグラフ化も簡単！複数作成できて切り替えもラクラク"  alice="ok">}}
 
 
 レポートのテンプレートに数値や選択肢が含まれている場合はそれらのデータを集計、グラフ化できます。
@@ -27,7 +27,7 @@ images = ["chart_tablet.png"]
 
 機械のメンテナンスシートなど、定期的な検査の結果を俯瞰するのに適しています。
 
-{{<appscreen filename="history" title="集計機能:レポート内のデータを時系列に見ることが可能。前回、前々回との比較に便利">}}
+{{<appscreen filename="history" msg="集計機能:レポート内のデータを時系列に見ることが可能。前回、前々回との比較に便利">}}
 
 {{<alice pos="right" icon="here">}}
 品質検査で前回と比べ異常か判断したり、営業件数が昨日と比べ増えたかすぐわかるっ
@@ -42,7 +42,7 @@ images = ["chart_tablet.png"]
 
 レポート自体の提出件数を知ることもできますので提出漏れのチェックにも有用です。
 
-{{<appscreen filename="acc-table" title="レポートのデータを集計してグラフ化する">}}
+{{<appscreen filename="acc-table" msg="レポートのデータを集計してグラフ化する">}}
 
 {{<btnCenter "/docs/manual/analytics/accumn/" "操作ガイドを見る">}}
 
@@ -52,7 +52,7 @@ images = ["chart_tablet.png"]
 - 折れ線・円・棒・積み上げ縦棒・レーダー・複合のグラフを作成可能
 - 複数のグラフを作成し、ワンクリックで切替可能
 
-{{<icatch filename="chart" msg="グラフはワンクリックでいつでも切替可"  fontsize="30px" alice="guide">}}
+{{<icatch filename="chart" msg="グラフはワンクリックでいつでも切替可" alice="guide">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "グラフ化のマニュアル">}}
 
@@ -66,7 +66,7 @@ images = ["chart_tablet.png"]
 - 前月在庫を指定すると実績累積が加算され必要数の調整ができる
 - 目標の累積、実績の累積を表示するので遅れの度合いを一目で把握できる
 
-{{<icatch filename="list" msg="予定と実績・進捗の管理"  fontsize="30px" alice="guide">}}
+{{<icatch filename="list" msg="予定と実績・進捗の管理" alice="guide">}}
 
 もとは生産管理としてのリクエスト機能ですが、売上に対する目標・実績など他業種でも利用できるように汎用的に作っています。
 
@@ -111,4 +111,4 @@ NipoPlusの集計でカバーできない範囲はCSV出力してエクセルか
 
 単純な数値だけでなく単語も集計できるのが面白いですね。
 
-{{<appscreen filename="calc" title="集計が可能な入力フォームで構成されたレポート">}}
+{{<appscreen filename="calc" msg="集計が可能な入力フォームで構成されたレポート">}}

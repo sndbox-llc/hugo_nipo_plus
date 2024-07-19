@@ -42,7 +42,7 @@ NipoPlusは、自分たちで**点検項目を自由に作成できる**汎用�
 <div class="col-lg-9">
 <!-- 画像エリア -->
 
-{{<icatch filename="checksheet" msg="設備点検や品質チェックにも" title="レポートをグラフ化する" fontsize="30px" alice="guide">}}
+{{<icatch filename="checksheet" msg="自由に設計できるからこそ、設備点検や品質チェック表など様々な用途に利用可能です"  fontsize="30px" alice="guide">}}
 
 
 </div>
@@ -157,7 +157,7 @@ NipoPlusは、自分たちで**点検項目を自由に作成できる**汎用�
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="template-select" msg="例えば点検曜日ごとにタグを付けたり、点検者名でタグを付けるのもありだね" title="動的な設問の変更" fontsize="30px" alice="here">}}
+{{<icatch filename="template-select" msg="例えば点検曜日ごとにタグを付けたり、点検者名でタグを付けるのも有効な手段です"  fontsize="30px" alice="here">}}
 
 
 </div>

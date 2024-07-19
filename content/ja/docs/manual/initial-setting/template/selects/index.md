@@ -191,7 +191,7 @@ NipoPlusでは以下の種類があります。
 
 こちらは回答から複数個選択することができるタイプです。見た目はチェックボックスが並んだような表示形式になります。
 
-{{<icatch filename="select2" msg="選ぶだけの簡単入力 色分けも可能" title="選択式入力フォームのテンプレート例" fontsize="30px" alice="here">}}
+{{<icatch filename="select2" msg="選択式入力フォームは選ぶだけの簡単入力！色分けも可能"  fontsize="30px" alice="here">}}
 
 使い方についてはほとんど選択肢単回答と同じです。CSV出力時の形式のみ異なります。
 
@@ -305,7 +305,7 @@ graph LR;
 
 ## チェックボックス入力{#checkbox}
 
-{{<icatch filename="input-method-checkbox" msg="YES・NO 2択で答えるならこれ" title="チェックボックス入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="input-method-checkbox" msg="チェックボックス入力フォームはYES・NO 2択で答えるのに便利です" fontsize="30px" alice="ok">}}
 
 チェックボックスフォームの設定は以下の通り。
 

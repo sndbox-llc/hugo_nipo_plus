@@ -133,7 +133,7 @@ click FILE "/docs/manual/initial-setting/template/binarys/#file"
 
 例として、日報になにかの数値を入力するフォームを追加したいとしましょう。次の画像はどれも数値の入力フォームになります。
 
-{{<icatch filename="input-number" msg="結果が同じなら楽な 入力の方が絶対良い" title="同じ数値の入力でも様々な入力方式があります。適材適所で使い分けます" fontsize="30px" alice="shield">}}
+{{<icatch filename="input-number" msg="同じ数値の入力でも様々な入力方式があります。適材適所で使い分けます"  fontsize="30px" alice="shield">}}
 
 数値入力には主要なものとして、次の方式が選べます。
 
@@ -197,7 +197,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 入力順序を指定することで、他の項目がグレースケールになるため「次に何を記入するか」が視覚的にわかりやすくなります。
 
-{{<icatch filename="input-order" msg="入力順を指定すれば 次の入力項目が明確" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here">}}
+{{<icatch filename="input-order" msg="入力順を指定すれば次の入力項目が明確になります。手順飛ばしも防げます"  fontsize="30px" alice="here">}}
 
 入力がされると次の項目が解除されるため、よりスムーズな入力が可能になります。
 似た機能に入力必須という指定もできます。入力必須を指定すると未入力の際警告するのでうっかり記入漏れを防ぐことができます。

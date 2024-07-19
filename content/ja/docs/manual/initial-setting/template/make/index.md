@@ -56,7 +56,7 @@ graph LR;
 例えば製造部では品質管理に関するテンプレートだけが表示されますので、見通しの良い管理が可能になります。
 特に日常業務でテンプレートを選ぶ回数は多いため、すぐに見つけられるように適切にグループ分けを行うと良いです。
 
-{{<icatch filename="group" msg="製造部や営業部 グループ毎見やすく" title="レポートのテンプレートはグループ単位で利用可能です" fontsize="30px" alice="here">}}
+{{<icatch filename="group" msg="レポートのテンプレートはグループ単位で利用可能です" fontsize="30px" alice="here">}}
 
 </details>
 

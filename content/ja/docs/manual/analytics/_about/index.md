@@ -9,7 +9,7 @@ aliases = ["/manual/analytics/"]
 images = ["chart_tablet.png"]
 +++
 
-{{<icatch filename="chart" msg="グラフはワンクリック でいつでも切替可" title="レポートをグラフ化する" fontsize="30px" alice="guide">}}
+{{<icatch filename="chart" msg="レポートのグラフ化も簡単！複数作成できて切り替えもラクラク"  fontsize="30px" alice="ok">}}
 
 
 レポートのテンプレートに数値や選択肢が含まれている場合はそれらのデータを集計、グラフ化できます。
@@ -52,7 +52,7 @@ images = ["chart_tablet.png"]
 - 折れ線・円・棒・積み上げ縦棒・レーダー・複合のグラフを作成可能
 - 複数のグラフを作成し、ワンクリックで切替可能
 
-{{<icatch filename="chart" msg="グラフはワンクリック でいつでも切替可" title="レポートをグラフ化する" fontsize="30px" alice="guide">}}
+{{<icatch filename="chart" msg="グラフはワンクリックでいつでも切替可"  fontsize="30px" alice="guide">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "グラフ化のマニュアル">}}
 
@@ -66,7 +66,7 @@ images = ["chart_tablet.png"]
 - 前月在庫を指定すると実績累積が加算され必要数の調整ができる
 - 目標の累積、実績の累積を表示するので遅れの度合いを一目で把握できる
 
-{{<icatch filename="list" msg="予定と実績 進捗の管理" title="予定と実績の進捗表" fontsize="30px" alice="guide">}}
+{{<icatch filename="list" msg="予定と実績・進捗の管理"  fontsize="30px" alice="guide">}}
 
 もとは生産管理としてのリクエスト機能ですが、売上に対する目標・実績など他業種でも利用できるように汎用的に作っています。
 

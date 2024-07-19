@@ -22,7 +22,7 @@ CSVSCは、複数のCSVファイルを1つに簡単に連結することがで�
 - オープンソースです。[Github](https://github.com/ueda19850603/csvsc)に載せています
 - MacでもWindowsでも使えます
 
-{{<icatch filename="csvsc" msg="CSVファイルを ドラッグで連結" title="複数のCSVファイルを1つに結合" fontsize="30px" alice="here">}}
+{{<icatch filename="csvsc" msg="複数のCSVファイルをドラッグ＆ドロップの簡単操作で1つに結合できます"  fontsize="30px" alice="here">}}
 
 {{<btnCenter "https://code.sndbox.jp/csvsc/#/" "CSVSCの起動" "_blank">}}
 

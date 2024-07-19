@@ -9,7 +9,7 @@ aliases = ["/docs/manual/initial-setting/template/datetime/", "/docs/manual/init
 images = []
 +++
 
-{{<icatch filename="date-time" msg="日付・時刻・期間" title="日付と時刻入力フォームを含んだテンプレートの例" fontsize="30px" alice="here">}}
+{{<icatch filename="date-time" msg="日付や時刻、期間等を入力するフォームをテンプレートに追加できます"  fontsize="30px" alice="here">}}
 
 
 ## 概要{#about}
@@ -103,7 +103,7 @@ images = []
 作業にかかった時間や日数を入力するのに最適のフォームです。
 
 
-{{<icatch filename="datetimes-icatch" msg="作業時間や期間 日付の計算も可能" title="期間入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="datetimes-icatch" msg="作業時間や期間、日付の計算も可能"  fontsize="30px" alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|

@@ -14,7 +14,7 @@ images = ["pie-chart_tablet.png"]
 
 {{<btnCenter "/tags/集計可能フォーム/" "集計可能フォーム一覧">}}
 
-{{<icatch filename="chart" msg="レポートをグラフ化して 視覚的に分析が可能" title="レポートをグラフ化する" fontsize="30px" alice="guide">}}
+{{<icatch filename="chart" msg="レポートをグラフ化して視覚的に分析が可能です" fontsize="30px" alice="guide">}}
 
 ## グラフの種類{#charts_type}
 

@@ -43,7 +43,7 @@ NipoPlusでは、これらの問題を解決しました。ユーザーは必ず
 [組織下でグループを自由に分割](/docs/manual/initial-setting/make-group/)し、運用できるようになりました。料金体系も変更され、[Nipoではグループ単位での課金](/legacy/system/price/)でしたが、[NipoPlusでは組織内のアカウント総数に基づいて課金](/docs/price/fee/)されるため、複数のグループを持つ場合でもコストを抑えることができます。
 
 
-{{<icatch filename="group" msg="グループの追加所属 管理者が一元管理可" title="入力の必須が空欄の場合は日報が提出できません" fontsize="30px" alice="here">}}
+{{<icatch filename="group" msg="グループの追加所属管理者が一元管理可"  fontsize="30px" alice="here">}}
 
 
 {{<btnCenter "/docs/manual/initial-setting/_about/" "初期設定・組織について">}}
@@ -119,7 +119,7 @@ Nipoではスクロールし続けて次のレポートを読み込む仕組み�
 多くのケースではこれでも十分ですが、NipoPlusでは**日報の提出先を複数名指定できる**ようになりました。  
 複数名指定することで承認リレーが実現できるようになりました。
 
-{{<icatch filename="report-detail" msg="複数人による承認 のリレーが可能です" title="日報の承認リレー。承認印も完備" fontsize="30px" alice="ok">}}
+{{<icatch filename="report-detail" msg="複数人による承認のリレーが可能です"  fontsize="30px" alice="ok">}}
 
 ※提出先が1名の場合はこれまでのNipoと変わりません。
 
@@ -128,7 +128,7 @@ Nipoではスクロールし続けて次のレポートを読み込む仕組み�
 Nipo時代のCSV出力は設定で変更することが一切できませんでした。決まったCSV形式しか出来ません。NipoPlusでは[CSVの出力形式を事前に細かく指定](/docs/manual/analytics/csvoption/)できるように強化されました。
 CSVファイルの利用目的に応じて設定を適切にすることで、CSVファイルの加工の手間を大幅に軽減できます。
 
-{{<icatch filename="csv-export" msg="CSV出力形式 細かく設定が可能" title="レポートのCSV出力形式を細かく指定可能になりました" fontsize="30px" alice="here">}}
+{{<icatch filename="csv-export" msg="レポートのCSV出力形式を細かく指定可能になりました"  fontsize="30px" alice="here">}}
 
 またCSV出力設定から「ファイルの出力」をONにすることで、日報に添付された写真やイラスト、ファイルなどをZipで一括ダウンロードできるようになりました。
 Nipo時代は画像データを出力するにはPDF出力するしかなく、NipoPlusで大幅に強化された機能の1つといえます。
@@ -138,7 +138,7 @@ Nipo時代は画像データを出力するにはPDF出力するしかなく、N
 集計に関してはNipo時代の集計と比べて雲泥の差があります。まず[グラフ](/docs/manual/analytics/chart/)(円グラフ・折れ線グラフ・棒グラフ・レーダーチャート・複合グラフ・積上縦棒グラフなど)を自由に作れるようになりました。
 
 
-{{<icatch filename="check-sheet-charts" msg="グラフの作成 細かく設定が可能" title="レポートをもとに自由にグラフを作成できるようになりました" fontsize="30px" alice="here">}}
+{{<icatch filename="check-sheet-charts" msg="レポートをもとに自由にグラフを作成できるようになりました"  fontsize="30px" alice="here">}}
 
 複数のグラフを作り、ワンクリックで切り替えも可能です。  
 他にも多くの機能がありますがここに書くには内容が多すぎるのでよしておきましょう。詳しくはグラフ作成のページを御覧ください。
@@ -153,7 +153,7 @@ Nipo時代は画像データを出力するにはPDF出力するしかなく、N
 
 Nipoでは新規の日報やコメントの検知をメールで発行していました。NipoPlusでは[アプリ内の通知](/docs/manual/notice/app/)領域から最新の通知を確認できるようになりました。
 
-{{<icatch filename="notice" msg="通知機能で 情報を見落とさない" title="通知機能の実装" fontsize="30px" alice="ok">}}
+{{<icatch filename="notice" msg="通知機能が実装されました"  fontsize="30px" alice="ok">}}
 
 またNipo時代にもサポートされていた[メール通知機能](/docs/manual/notice/app/#email)も実装されています。
 Nipo時代のメールはあまり使いやすいものではなかったでしょう。通知のメールのみで、そこにはリンクの1つもなかったからです。

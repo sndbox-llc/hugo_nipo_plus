@@ -155,7 +155,7 @@ PDF出力を前提とする場合、写真入力フォームの幅は最低で�
 
 ## ファイル{#file}
 
-{{<icatch filename="file" msg="ZipやPDFなど 各種ファイルを添付" title="ファイル入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="file" msg="ZipやPDFなど各種ファイルを添付可能なファイル入力フォーム"  fontsize="30px" alice="ok">}}
 
 レポートにファイルを添付できるフォームを追加できます。**1つのファイルにつき1MB、最大で10ファイルまで**ファイルを添付できます。
 現場写真など画像データを添付したい場合は、[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)が別途用意されています。  

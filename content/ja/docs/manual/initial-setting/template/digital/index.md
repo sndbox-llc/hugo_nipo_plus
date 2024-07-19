@@ -51,7 +51,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 
 
-{{<icatch filename="math-input" msg="金額や距離・個数等 数値の入力に最適" title="数値入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="math-input" msg="金額や距離・個数など、数値の入力に最適"  fontsize="30px" alice="ok">}}
 
 
 
@@ -128,7 +128,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 ネットショップやレビューでおなじみの★を使った入力フォームです。星の上限は変更可能です。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#rate)
 
-{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力" title="レート入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力方式です"  fontsize="30px" alice="ok">}}
 
 レートはPDFに出力可能ですが、使用可能フォントの関係上★などのアイコンの代わりに●と◯で代用されます。
 
@@ -225,7 +225,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 上限、下限があるため、一定の範囲内に収まる数値入力に限定されます。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#slider)
 
-{{<icatch filename="slider-input" msg="つまみをスライドさせて 数値の入力ができます" title="スライダ入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="slider-input" msg="つまみをスライドさせて数値の入力ができます。キーボード不要のお手軽数値入力"  fontsize="30px" alice="ok">}}
 
 
 用途としては次のようなものがあります
@@ -308,7 +308,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#range)
 
 
-{{<icatch filename="range-input" msg="最低〜最大など 範囲の数値入力に" title="範囲入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="range-input" msg="最低〜最大など 範囲の数値入力に"  fontsize="30px" alice="ok">}}
 
 
 <details>

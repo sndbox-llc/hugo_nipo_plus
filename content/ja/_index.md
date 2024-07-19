@@ -30,7 +30,7 @@ showPrice = true
 </div>
 <div class="col-lg-9">
 <!-- 画像エリア -->
-{{<icatch filename="make-template" msg="入力フォームを並べて テンプレートを作る" title="レポートのテンプレートを作成" fontsize="30px" alice="pc">}}
+{{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れます" fontsize="30px" alice="pc">}}
 
 </div>
 </div>
@@ -49,7 +49,7 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="read-report" msg="効率のよい日報管理 設備点検などにも" title="提出された日報を読む 承認やコメントも" fontsize="30px" alice="ok">}}
+{{<icatch filename="read-report" msg="スマホもタブレットもPCも全部対応"  fontsize="30px" alice="tablet">}}
 
 </div>
 </div>
@@ -144,7 +144,7 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 </div>
 <div class="col-lg-9">
 <!-- 画像エリア -->
-{{<icatch filename="write-report" msg="テンプレートに沿って 日報を書きます" title="テンプレートに沿って日報を書き上げる" fontsize="30px" alice="ok">}}
+{{<icatch filename="write-report" msg="テンプレートに沿って入力をしていきます"  fontsize="30px" alice="ok">}}
 
 </div>
 </div>
@@ -189,7 +189,7 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 </div>
 <div class="col-lg-9">
 <!-- 画像エリア -->
-{{<icatch filename="report-list" msg="提出状況を見れば 提出漏れも一目瞭然" title="提出状況を一覧で確認可能。欠勤か提出漏れかを判別するにはシフトを登録することで解決できます。" fontsize="30px" alice="here">}}
+{{<icatch filename="report-list" msg="提出状況を見れば提出漏れも一目でわかります。欠勤フラグも使えば更に便利に"  fontsize="30px" alice="here">}}
 
 </div>
 </div>

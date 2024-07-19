@@ -179,40 +179,38 @@ NipoPlusは、自分たちで**点検項目を自由に作成できる**汎用�
 {{<nextArrow>}}
 
 
-## チェック表の蓄積データを活用する{#utilize_checklist_data}
+## これまでの点検データを活用する{#utilize_checklist_data}
 
-紙による点検チェックシートはどのように活用していましたか？  
-データをExcelに入力？PDFにスキャン？それとも段ボール箱に詰めて規定年数保管？  
-ではチェック表を電子化することでこれがどのように変化するのでしょう？いくつかピックアップでご紹介します
+電子化された点検データは活用方法も多様です。一例をご紹介します。
+
+### 過去の点検内容と比較して異常を早期発見{#history_logging}
 
 
+<div class="row my-5">
+<div class="col-lg-7 rootMainText">
+<!-- 本文エリア -->
 
-### 過去の点検結果と比較して異常を早期に発見{#history_logging}
+
+今回の点検結果が過去と比較してどの程度の乖離があるかを一目で確認できます。これにより異常状態を早期に発見できます。詳しくは[データ推移のガイド](/docs/manual/analytics/transition/)を御覧ください。
+
+  
+また、データ推移をもとにグラフを作成することも可能です。視覚的にも状態を簡単に把握できます。
+詳しくは[グラフ作成ガイド](/docs/manual/analytics/chart/)を御覧ください。
+
+
+</div>
+<div class="col-lg-9">
 
 {{<imgproc report-log.webp "点検表の過去のデータを一覧表にして表示することで、どの時点で異常が発生したかが早期にわかる" />}}
 
-点検業務は過去との比較が重要な判断材料になります。今回の点検結果が過去と比較して大きく乖離していればそれは異常がおきたサインだと判断できます。  
-今見ている点検表を起点として、最大直近30回分の点検結果が自動で表になって表示されます。  
-異常があれば当時の点検表をタップすることですぐに該当のチェック表を見ることも可能です。
+
+</div>
+</div>
 
 
 
-{{<btnCenter "/docs/manual/analytics/transition/" "マニュアル:データ推移について">}}
 
-### チェック表のデータを可視化する{#make_charts}
-{{<imgproc lineCharts.webp "点検表の結果を折れ線グラフで描画。異常な値があればグラフで早期に発見が可能となる" />}}
-
-
-前述の「過去の点検結果と比較」に関連しますが、過去のデータ表を元に様々なグラフを生成することができます。グラフ化できるデータには[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)、[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)、[数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)、[選択式入力](/docs/manual/initial-setting/template/selects/#plain)などがあります。
-
-またグラフの種類も折れ線や棒グラフ・積み上げ縦棒など代表的なグラフが作成可能です。  
-チェック表として使う場合は過去のデータ推移を基準としたグラフが適していますが、累積を表すグラフも作成可能です。
-
-
-{{<btnCenter "/docs/manual/analytics/chart/" "マニュアル:グラフ作成">}}
-
-
-### チェック表のデータをCSV出力{#export_csv}
+### 点検のデータをCSV出力{#export_csv}
 
 {{< excelTable >}}
 提出日, 【-2mm】線形ズレ, 【-1mm】線形ズレ, 【0】線形ズレ, 【+1mm】線形ズレ, 【+2mm】線形ズレ, 【-2mm】X軸ズレ, 【-1mm】X軸ズレ, 【0】X軸ズレ, 【+1mm】X軸ズレ, 【+2mm】X軸ズレ, 【-2mm】Y軸ズレ, 【-1mm】Y軸ズレ, 【0】Y軸ズレ, 【+1mm】Y軸ズレ, 【+2mm】Y軸ズレ, 【-2mm】Z軸ズレ, 【-1mm】Z軸ズレ, 【0】Z軸ズレ, 【+1mm】Z軸ズレ, 【+2mm】Z軸ズレ, 【合格】合否, 【不合格】合否, 備考
@@ -234,44 +232,22 @@ NipoPlusは、自分たちで**点検項目を自由に作成できる**汎用�
 - 基幹システムや他のサービスにインポートして利用できます。CSVインポートは多くのソフトが対応している一般的な形式です。
 
 
-
-
-
-
 エクセルを使った[集計テクニック集](/excel/)についても記事を書いていますので、もしよろしければ御覧ください。
 
 
 
-また、CSVを提供することは、「**私達はあなた方をロックインしない**」という意思表示でもあります。
+また、CSVを提供することは、「**データを盾に継続利用を矯正しない**」という意思表示でもあります。
 
-
-
-{{<alice pos="right" icon="ok">}}
-データを盾に継続利用を強制することは一切しません
-{{</alice>}}
 
 
 {{<btnCenter "/tips/sales_report/" "Tips：エクセルの集計">}}
 
 
 
-
-
-
 {{<nextArrow>}}
 
 
-
-
-
 ## お客様の声{#user_voice}
-
-
-
-<div class="row my-5">
-<div class="col-lg-6 rootMainText">
-<!-- 本文エリア -->
-
 
 
 <blockquote>
@@ -305,16 +281,7 @@ NipoPlusならそれらをカバーしているので中小企業に幅広く売
 <cite>兵庫県：機器（小ロット多品種）の製造・販売者さま</cite>
 </blockquote>
 
+<div style="max-width:800px">
+
+{{<imgproc factory-usage.webp "実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" />}}
 </div>
-<div class="col-lg-10">
-
-{{<imgproc factory-usage.webp "タブレット内の画像は一部ぼかしを入れています。製造現場で実際にNipoPlusを使っている現場写真" />}}
-実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。（掲載許諾済）
-
-
-
-
-</div>
-</div>
-
-

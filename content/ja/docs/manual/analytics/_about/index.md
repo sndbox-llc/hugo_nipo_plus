@@ -42,7 +42,7 @@ images = ["chart_tablet.png"]
 
 レポート自体の提出件数を知ることもできますので提出漏れのチェックにも有用です。
 
-{{<appscreen filename="acc-table" msg="レポートのデータを集計してグラフ化する">}}
+{{<icatch filename="acc-table" msg="レポートをスタッフ別に累積して手軽に比較が可能です">}}
 
 {{<btnCenter "/docs/manual/analytics/accumn/" "操作ガイドを見る">}}
 

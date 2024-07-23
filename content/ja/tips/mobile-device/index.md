@@ -56,7 +56,7 @@ SDカードも取り込み用のリーダも不要で、その場でパシャっ
 
 
 
-{{<icatch filename="sample20"  msg="作業前・作業後の現場写真を作業報告書テンプレートに追加することで現場写真つきの報告書が簡単にスマートフォンやタブレットだけで作れます"  alice="phone">}}
+{{<icatch filename="sample20"  msg="写真入力フォームを使えばスマホだけで簡単に写真付き報告書が作れちゃいます"  alice="phone">}}
 
 
 レポートに写真を添付するには[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)をテンプレートに追加するだけです。１つの[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)に複数枚の写真を添付できますが、もしPDFに出力したいときは添付した写真のうち、１枚目しかPDFに出力されないので少し注意が必要です。  

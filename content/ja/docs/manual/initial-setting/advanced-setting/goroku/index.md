@@ -24,7 +24,7 @@ images = []
 1. 語録のタイトル及び単語リストを入力（単語リストは１行に１単語）
 1. 保存をクリック
 
-{{<appscreen filename="make-word-list" msg="語録の作成">}}
+{{<icatch filename="make-word-list" msg="語録を作り、その中に単語を追加していきます。語録は選択式入力フォームで使うことができます">}}
 
 <dl class="basic">
   <dt>語録タイトル</dt>

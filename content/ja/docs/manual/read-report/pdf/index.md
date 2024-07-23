@@ -24,7 +24,7 @@ PDFに変換する手順は次のとおりです。
 1. PDF作成完了まで待つ
 1. 作成処理が完了後にダウンロード通知が発行される
 
-{{<appscreen filename="report-to-pdf" msg="1件のレポートをPDFに変換してダウンロード">}}
+{{<icatch filename="report-to-pdf" msg="PDF❗PDF❗">}}
 
 PDFの作成には少し時間がかかります。完了後、画面右下に通知が届くのでその通知からPDFをダウンロードできます。
 なおPDF作成中に他の作業へ切り替えても問題有りません。
@@ -34,7 +34,7 @@ PDFの作成には少し時間がかかります。完了後、画面右下に�
 
 ダウンロードしたPDFは普通のPDFファイルとして扱えます。
 
-{{<appscreen filename="pdf-download" msg="PDFのレポートをダウンロードしてブラウザで表示">}}
+{{<icatch filename="pdf-download" msg="環境によって直接PCに保存されたり、ブラウザで表示されたり？これはブラウザ表示の例です">}}
 
 
 ## PDFの出力設定{#setting}
@@ -58,13 +58,13 @@ PDF出力設定では以下の設定が可能です。
 1. PDF設定画面がポップアップで表示される
 1. 設定を行い、「現在の設定でPDF出力」をクリック
 
-{{<appscreen filename="pdf-option" msg="PDF出力前に誤字脱字の修正やレイアウトの変更ができます。ただしこれらの設定は保存できません">}}
+{{<icatch filename="pdf-option" msg="元データを書き換えてPDF出力できます。見せられない内容はここでサクッと修正しましょう" alice="here">}}
 
 {{<nextArrow>}}
 
 ポップアップでPDFに出力する前の設定が表示されます。
 
-{{<appscreen filename="pdf-setting" msg="PDF出力前の編集画面はポップアップで表示されます。修正後に「現在の設定でPDF出力」をクリックしてPDFを作成します">}}
+{{<icatch filename="pdf-setting" msg="PDF出力の設定が可能です。この設定は１回きりの使い捨て。永続保存はできません">}}
 
 本文の編集、レイアウトの編集が行なえます。内容を修正の上で「現在の設定でPDF出力」をクリックすると指定した内容とデータでPDFの作成が行われます。
 

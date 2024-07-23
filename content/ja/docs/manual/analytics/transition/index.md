@@ -86,7 +86,7 @@ images = ["make-charts_tablet.png"]
 
 推移表のデータをもとにしてを折れ線や棒グラフ、円グラフを作成できます。
 
-{{<appscreen filename="make-charts" msg="データ推移表をもとに積み上げ縦棒&折れ線の複合フラフを作成した">}}
+{{<icatch filename="make-charts" msg="エクセルが無くても！積み上げ縦棒&折れ線の複合グラフくらいは作成できるよ" alice="pc">}}
 
 詳しい手順については「グラフの作成」を御覧ください。
 

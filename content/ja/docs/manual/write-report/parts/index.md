@@ -18,17 +18,17 @@ images = []
 
 署名は「書き足す」ボタンを押すことで描画キャンバスが表示されます。
 
-{{<appscreen filename="sign-input" msg="レポート作成画面。署名ボタンをタップして署名入力ウインドウがポップ表示されます">}}
+{{<icatch filename="sign-input" msg="署名ボタンをタップすると署名入力ウインドウがポップ表示されます" alice="tablet">}}
 
 描画キャンバスは署名用とイラスト用の２種類があります。
 署名用キャンパス▼
 
-{{<appscreen filename="write-signature" msg="署名をスタイラスペンで書く">}}
+{{<icatch filename="write-signature" msg="スタイラスペンとタブレットがあると便利です" alice="tablet">}}
 
 
 イラスト用キャンバス▼
 
-{{<appscreen filename="draw-stylus-pen" msg="イラスト用キャンバスの画面。カラーパレットや線の太さを調整するボタンなどが表示されている">}}
+{{<icatch filename="draw-stylus-pen" msg="署名と違い大きなキャンパスとなり、色変えなどの機能も使えます" alice="tablet">}}
 
 
 
@@ -38,7 +38,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 ※[無料プラン](/docs/price/free/)では低画質でUPされます
 
 
-{{<appscreen filename="picinput" msg="写真入力フォームの含まれたレポート作成画面のイメージ。写真を添付できる枠がありそこから写真を追加できる。PCの場合はドラッグ操作で追加も可能">}}
+{{<icatch filename="picinput" msg="PCはドラッグ＆ドロップで追加、スマホやタブレットの場合はボタンをタップして写真追加します" alice="pc">}}
 
 レポート作成時は高さ制限があるため縦長の画像は上下がカットされたように見えますが、単にクロップされているだけです。データ自体は残っているのでご安心ください。
 全体の写真はレポート受信時に表示できるようになります。
@@ -46,7 +46,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 ## ファイル{#file}
 
-{{<appscreen filename="file-input" msg="ファイル入力フォームを使ったレポートの作成画面イメージ。添付したファイルは即座にアップロードされます。">}}
+{{<icatch filename="file-input" msg="おもにPCで利用を想定しています。ドラッグでファイルを追加できます" alice="pc">}}
 
 レポートにファイルを添付するにはドラッグ＆ドロップ、またはフォームをタップしてファイルを追加します。
 1つの入力フォームに対して10ファイルまで添付可能です。
@@ -56,7 +56,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 クリックでONになり、もう一度クリックするとOFFになります。
 
-{{<appscreen filename="checkbox-preview"  title="チェックボックスが含まれたレポートのプレビュー">}}
+{{<icatch filename="checkbox-preview"  msg="タップでON.もう一度タップでOFF。それだけです" alice="phone">}}
 
 
 ## 数値入力{#number}
@@ -66,7 +66,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 半角のみ扱えます。
 マイナス、小数点も入力可能です。
 
-{{<appscreen filename="math-input" msg="数値入力フォームの入力画面イメージ。">}}
+{{<icatch filename="math-input" msg="キーボードから数値を入力します。タッチパネル対応なら専用入力も使いやすいのでおすすめ" alice="tablet">}}
 
 
 
@@ -74,33 +74,33 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 クリックで任意の星の数を入力できます。同じ数をもう一度クリックすると未入力状態に戻ります。
 
-{{<appscreen filename="rate-preview" msg="レートはタップ操作で簡単に入力が可能です。見た目も視覚的にわかりやすく便利です">}}
+{{<icatch filename="rate-preview" msg="タップで星の数を選びます。同じ数をもう一度タップすると★0の状態になります">}}
 
 ## スライダ入力{#slider}
 
 ドラッグやスワイプでレール上のつまみを操作し、数値を入力します。レールの上限、下限を超えて入力することはできません。
 
-{{<appscreen filename="slider-preview" msg="スライダーを使ったレポート入力画面">}}
+{{<icatch filename="slider-preview" msg="ドラッグやスワイプでつまみを動かします" alice="here">}}
 
 ## 範囲入力{#range}
 
 ドラッグやスワイプでレール上のつまみを操作し、数値を入力します。２つあるつまみは１つづつ操作してください。
 
-{{<appscreen filename="range-preview"  title="範囲選択入力イメージ">}}
+{{<icatch filename="range-preview"  msg="ドラッグやスワイプでつまみを動かします。つまみは2つあるので1つづつ操作します" alice="tablet">}}
 
 
 ## 算術入力{#calc}
 
 算術フォームは自動計算されるため、手動で入力はできません。
 
-{{<appscreen filename="calc-preview" msg="算術の含まれたレポートのプレビュー">}}
+{{<icatch filename="calc-preview" msg="自動で入力されるので手動で入力はできません。" alice="guide">}}
 
 
 ## 日付と時刻（範囲）入力{#datetimes}
 
 正しい日付や時刻を入力してください。正しい入力がされると経過時間が自動で表示されます。
 
-{{<appscreen filename="datetimes-preview" msg="期間入力の入力イメージ。時刻の場合はスライダーを使った入力方式も可能">}}
+{{<icatch filename="datetimes-preview" msg="開始日時と終了日時を入力します。正しい日時が入力されると経過時間が自動で表示されます">}}
 
 
 
@@ -108,7 +108,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 レポート作成直後の画面では問1しか表示されませんが、問1を選択すると自動で問2が出現します。**問2の内容は問1によって変化**します。
 
-{{<appscreen filename="select2-preview" msg="問1の選択によって問2の解凍リストが変化します">}}
+{{<icatch filename="select2-preview" msg="問1の選択によって問2の解凍リストが変化します。問２を忘れずに入力しましょう" alice="ok">}}
 
 入力方式はラジオ式とプルダウン式の2種類があります。プルダウンでは文字入力による絞り込みが利用できるため**選択肢が多い場合はプルダウンを推奨**します。
 入力必須が設定されている場合は、**問2まで回答して初めて提出が可能**になります。
@@ -117,4 +117,4 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 実際に[レポートを書く](/docs/manual/write-report/write/)際は次のように表示されます。
 
-{{<appscreen filename="text-preview" msg="作成したテンプレートのプレビュー">}}
+{{<icatch filename="text-preview" msg="シンプルな文字入力です。改行も使えるし、URLを貼ればリンクもできるよ" alice="pc">}}

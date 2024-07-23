@@ -20,7 +20,7 @@ images = []
 
 下書き保存の場合は**入力必須項目が空欄であっても保存が可能**です。
 
-{{<appscreen filename="report-draft-save" msg="レポートを作成する際に、「下書き」にチェックを入れて保存すると下書きBOXに保存されます">}}
+{{<icatch filename="report-draft-save" msg="「下書き」にチェックを入れて保存すると下書きBOXに保存されます">}}
 
 ## 下書きのレポートを清書する{#rewrite}
 
@@ -43,4 +43,4 @@ images = []
 清書する必要が無くなった下書きデータは下書きBOXから直接削除できます。
 削除したい下書きデータの左下にある「この下書きを削除」ボタンをクリックしてください。
 
-{{<appscreen filename="draft-delete" msg="下書きレポートを削除">}}
+{{<icatch filename="draft-delete" msg="下書きレポートを削除するにはゴミ箱ボタンを押します" alice="here">}}

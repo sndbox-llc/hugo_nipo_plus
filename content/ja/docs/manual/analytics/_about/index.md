@@ -111,4 +111,4 @@ NipoPlusの集計でカバーできない範囲はCSV出力してエクセルか
 
 単純な数値だけでなく単語も集計できるのが面白いですね。
 
-{{<appscreen filename="calc" msg="集計が可能な入力フォームで構成されたレポート">}}
+{{<icatch filename="calc" msg="これらは全部！集計ができちゃうんです" alice="guide">}}

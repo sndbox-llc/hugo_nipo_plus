@@ -30,7 +30,7 @@ images = []
 
 <div class="row justify-content-center">
 <div class="col-sm-16 col-md-5">{{<button "/docs/manual/read-report/list/" "保存箱について">}}</div>
-<div class="col-sm-16 col-md-6">{{<button "/docs/manual/notice/app/" "アプリ内通知">}}</div>
+<div class="col-sm-16 col-md-6">{{<button "/docs/manual/utils/notice/" "アプリ内通知">}}</div>
 </div>
 
 {{<icatch filename="edit" msg="レポートを開いて修正ボタンをクリック！承認済みのレポートは修正できません" alice="here">}}

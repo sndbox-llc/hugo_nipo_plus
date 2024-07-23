@@ -7,12 +7,8 @@ toc = true
 weight = 101001106
 mermaid = true
 aliases = ["/docs/manual/initial-setting/template/select/", "/docs/manual/initial-setting/template/select2/", "/docs/manual/initial-setting/template/selectCalc/", "/docs/manual/initial-setting/template/dinamic_selection/", "/docs/manual/initial-setting/template/checkbox/"]
-
 images = []
 +++
-
-
-
 
 回答のリストを用意しておき、入力時には一覧から選ぶだけで入力ができる形式のフォームです。  
 キーボード不要で、スピーディな入力が可能です。  

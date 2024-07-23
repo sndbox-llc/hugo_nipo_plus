@@ -97,7 +97,7 @@ images = []
 <dt>提出したレポート表示</dt>
 <dd>先程提出したレポートを表示します(<a href="/docs/manual/read-report/list/">保存箱へ移動</a>)</dd>
 <dt>提出者にメールを送信する</dt>
-<dd>お使いのメールソフトが起動します。<a href="/docs/manual/notice/app/#email">メール通知</a>とは別にメールを送りたいときにご利用ください</dd>
+<dd>お使いのメールソフトが起動します。<a href="/docs/manual/utils/notice/#email">メール通知</a>とは別にメールを送りたいときにご利用ください</dd>
 </dl>
 
 

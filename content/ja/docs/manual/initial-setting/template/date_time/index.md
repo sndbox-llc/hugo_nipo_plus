@@ -9,7 +9,7 @@ aliases = ["/docs/manual/initial-setting/template/datetime/", "/docs/manual/init
 images = []
 +++
 
-{{<icatch filename="date-time" msg="日付や時刻、期間等を入力するフォームをテンプレートに追加できます" alice="here">}}
+{{<icatch filename="date-time" msg="日付や時刻、期間等を入力するにはこれが一番！" alice="here">}}
 
 
 ## 概要{#about}
@@ -40,7 +40,7 @@ images = []
 
 ### 日付と時刻（時点）フォームの初期設定{#setting}
 
-{{<appscreen filename="datetime-template-edit" msg="レポートに「日付と時刻」を追加したプレビュー">}}
+{{<icatch filename="datetime-template-edit" msg="左のパーツリストから日付と時刻を追加します">}}
 
 追加するにはサイドメニューから「日付と時刻」をクリックします。
 日付のみ・時間のみ、などの設定は初期設定で設定できます。入力方法はキーボードから直接打つ方法のほか、カレンダーや時計マークから入力する方法がありますので、好みに応じて使い分けができます。
@@ -103,7 +103,7 @@ images = []
 作業にかかった時間や日数を入力するのに最適のフォームです。
 
 
-{{<icatch filename="datetimes-icatch" msg="作業時間や期間、日付の計算も可能"  alice="ok">}}
+{{<icatch filename="datetimes-icatch" msg="作業時間や期間、日付の計算も可能です"  alice="ok">}}
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
@@ -163,7 +163,7 @@ images = []
 期間は時間のため集計が可能です。集計は単位が分に統一されることに注意してください。
 例えば10:00 - 11:30は1時間半ですが集計上は 90(分)となります。
 
-{{<appscreen filename="charts" msg="期間のデータ（単位：分）を使って積み上げたて棒グラフを作成した例。他にも折れ線や円グラフなど自由に作成できます">}}
+{{<icatch filename="charts" msg="期間のデータ（単位：分）を使って棒グラフを作成してみました。色々できるよ。試してみてね" alice="ok">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 

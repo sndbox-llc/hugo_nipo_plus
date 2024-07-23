@@ -20,13 +20,13 @@ images = ["switch_tablet.png"]
 1. 作業するグループ名をクリック
 1. グループが切り替わる
 
-{{<appscreen filename="switch" msg="グループ名をクリックして他のグループに切り替えます">}}
+{{<icatch filename="switch" msg="グループ名をクリックして他のグループに切り替えます" alice="here">}}
 
 ## グループ設定画面構成{#edit}
 
 メニューから「グループ設定」をクリックします。
 
-{{<appscreen filename="group-manage" msg="グループの全般設定では使用する機能やテーマカラーの変更が可能です">}}
+{{<icatch filename="group-manage" msg="グループの全般設定では使用する機能やテーマカラーの変更が可能です" alice="ok">}}
 
 グループに関する様々な設定がまとまっています。
 

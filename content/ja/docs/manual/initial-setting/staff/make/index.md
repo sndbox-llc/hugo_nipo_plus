@@ -20,14 +20,14 @@ images = []
 
 まずはメニューから「組織設定」をクリックします。このボタンは管理者権限以外表示されません。
 
-{{<appscreen filename="gotoAdmin" msg="管理者はメニューに「組織設定」が表示されます。このボタンをクリックしてください。編集者以下はこのボタンが表示されません">}}
+{{<icatch filename="gotoAdmin" msg="管理者だけメニューに「組織設定」が表示されます" alice="here">}}
 
 
 {{<nextArrow>}}
 
 組織設定画面に切り替わります。「新規作成」をクリックします。
 
-{{<appscreen filename="create-new-staff" msg="組織内にスタッフのアカウントを追加します">}}
+{{<icatch filename="create-new-staff" msg="組織内にスタッフのアカウントを追加します" alice="guide">}}
 
 E-mailのみ必須です。それ以外に名前や[権限の設定](/docs/manual/initial-setting/staff/manage/)もできます。パスワードは初期設定時にデフォルトのものが設定されますが、任意に変更可能です。
 指定したパスワードは実際にアカウントを利用するスタッフが[ログイン後に変更](/docs/manual/account/email/#password)できます。
@@ -44,7 +44,7 @@ E-mailのみ必須です。それ以外に名前や[権限の設定](/docs/manua
 作成するユーザアカウントが多い場合は一括登録機能をご利用ください。
 ログインに使用するE-mailのリストを用意し、入力エリアにE-mailのリストを貼り付けます。E-mailは１行につき１件入力します。
 
-{{<appscreen filename="webp" msg="一括で最大50アカウントまでまとめて作成できます">}}
+{{<icatch filename="webp" msg="一括で最大50アカウントまでまとめて作成できます。これはPCで操作しましょうね" alice="pc">}}
 
 一括作成の場合、権限や所属先グループ、ログインパスワードについては全部同じ設定となります。
 必要に応じてアカウント作成後に編集してください。

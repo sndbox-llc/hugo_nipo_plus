@@ -24,13 +24,13 @@ images = []
 1. 操作したいスタッフの行にある「所属グループ」をクリック
 1. グループ一覧が表示されるので所属させるグループをクリック
 
-{{<appscreen filename="assign-group" msg="組織のスタッフをグループにアサイン（所属）します。">}}
+{{<icatch filename="assign-group" msg="組織のスタッフをそれぞれのグループに所属させましょう" alice="here">}}
 
 
 {{<info>}}
 グループに所属するとグループの管理画面にそのスタッフ名が追加されます。次の画像は[グループ内のスタッフ](/docs/manual/initial-setting/staff-local/_about/)一覧画面の例です。  
 
-{{<appscreen filename="group-member" msg="グループ内から見た所属スタッフの一覧">}}
+{{<icatch filename="group-member" msg="グループ内から見た所属スタッフの一覧画面です">}}
 
 組織のスタッフ管理（現在ご覧のページです）と[グループ内のスタッフ管理](/docs/manual/initial-setting/staff-local/_about/)とは似ていますが別物です。  
 
@@ -51,7 +51,7 @@ images = []
 1. 編集ウインドウが表示される
 1. データを書き変える
 
-{{<appscreen filename="staff-edit" msg="スタッフの名前や権限・メモを変更するにはそれぞれの対象データをクリックしてください">}}
+{{<icatch filename="staff-edit" msg="スタッフの名前や権限・メモを変更するにはそれぞれの対象データをクリックしてください" alice="book">}}
 
 同様の手順でスタッフのメールアドレスやパスワードの変更もできますが、これらログインに関する情報を変更する際は、変更されたスタッフは**次回NipoPlusを起動時に再ログインが必要**になりますので注意してください。
 パスワードとメールアドレスの変更についてはこちらの記事も参照してください。

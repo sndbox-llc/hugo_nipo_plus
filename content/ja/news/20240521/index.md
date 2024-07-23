@@ -36,7 +36,7 @@ NipoPlusはチャット形式ではありませんが、あらかじめテンプ
 
 NipoPlusがどんな画面か少し見てみましょう。▼
 
-{{<appscreen filename="write-report" msg="テンプレートに沿って 日報を書きます" title="テンプレートに沿って日報を書き上げる" fontsize="30px" alice="ok">}}
+{{<appscreen filename="write-report" msg="テンプレートに沿って日報を書き上げる"  alice="ok">}}
 
 このように、「レポート風」に入力をしていきます。グレー地の「特徴」とか「風呂トイレ別」といった設問が、SPALOでいうところのチャット質問になります。
 

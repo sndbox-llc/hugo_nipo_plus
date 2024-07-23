@@ -26,7 +26,7 @@ images = []
 2. フォームリストから文字入力をクリックして追加
 3. 必要に応じて設定を行う
 
-{{<appscreen filename="template-edit-text" msg="テキスト入力をテンプレートに追加した画面イメージ">}}
+{{<icatch filename="template-edit-text" msg="テキスト入力をテンプレートに追加した画面イメージです" alice="here">}}
 
 
 

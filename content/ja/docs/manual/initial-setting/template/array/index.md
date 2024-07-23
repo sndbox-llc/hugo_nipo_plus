@@ -44,7 +44,7 @@ aliases = ["/manual/initial-setting/template/array/"]
 
 反復入力フォームを含んだテンプレートを使って[レポートを書く](/docs/manual/write-report/write/)ときの画面は次のように見えます。
 
-{{<appscreen filename="input" msg="反復の含まれたレポートの入力画面イメージ。スマートフォンではカード風のレイアウトになります">}}
+{{<icatch filename="input" msg="反復の含まれたレポートの入力画面イメージ。スマートフォンではカード風のレイアウトになります">}}
 
 表示形式が**表・カードの2種類から切替が可能**です。スマートフォンではカード表示が初期状態になります。
 
@@ -59,7 +59,7 @@ aliases = ["/manual/initial-setting/template/array/"]
 
 反復入力では偶数行と奇数行で色が互い違いに表示されます。
 
-{{<appscreen filename="post" msg="反復入力の偶数行は水色の背景で表示されます">}}
+{{<icatch filename="post" msg="反復入力の偶数行は水色の背景で表示されます。視認性UP" alice="ok">}}
 
 受信画面でも表示形式を**表・カードの2種類から切替が可能**です。
 

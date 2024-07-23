@@ -111,7 +111,7 @@ SUMIF関数は使いこなせると非常に強力な武器となります。た
 ここでよくある製品紹介。はいすみません。広告です。  
 クラウド日報NipoPlusでは今回紹介したSUMIFを使ったスタッフごとの集計を全部自動で行います。
 
-{{<appscreen filename="sumif-app" msg="SUMIFを自動で" title="SUMIFと同様、スタッフごとに売上高や訪問件数を自動で振り分けて集計します" fontsize="30px" alice="guide">}}
+{{<appscreen filename="sumif-app" msg="SUMIFを自動で" title="SUMIFと同様、スタッフごとに売上高や訪問件数を自動で振り分けて集計します" alice="guide">}}
 
 今回のテストデータもNipoPlusのCSV出力機能から用意しました。
 日報をアプリで管理でき、必要に応じて今回のようにエクセルで加工することもできます。

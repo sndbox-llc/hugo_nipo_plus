@@ -23,7 +23,7 @@ images = []
 1. メニュー「グループ設定」をクリック
 2. 上部メニュー「スタッフ管理」をクリック
 
-{{<appscreen filename="staff-local" msg="スタッフアカウントの管理">}}
+{{<icatch filename="staff-local" msg="グループに参加しているスタッフの一覧を見てみましょう" alice="pc">}}
 
 スタッフリストの各部名称について。
 <dl class="basic">
@@ -58,7 +58,7 @@ images = []
 1. グループ設定をクリック
 1. スタッフ管理をクリック
 
-{{<appscreen filename="staff-activity" msg="スタッフの活動実績を月ごとに表示">}}
+{{<icatch filename="staff-activity" msg="スタッフの活動実績を月ごとに表示できます" alice="ok">}}
 
 |名称|説明|
 |---|---|

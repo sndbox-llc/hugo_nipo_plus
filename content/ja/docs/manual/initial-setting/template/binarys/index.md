@@ -35,10 +35,7 @@ images = []
 
 左パネルからクリックしてバイナリファイルをレポートのテンプレートに追加できます。
 
-{{<appscreen filename="add-binary" msg="バイナリ関係の入力フォームをテンプレートに追加する">}}
-
-
-
+{{<icatch filename="add-binary" msg="左のパーツリストからバイナリ関係のパーツを追加します。緑色がバイナリ系です">}}
 
 
 
@@ -76,7 +73,7 @@ images = []
 
 描かれたデータはレポート内に埋め込まれます。大きさはレポートのテンプレートによって変化します。
 
-{{<appscreen filename="sign-post" msg="署名入力フォームを含んだレポートを受信したときの見え方">}}
+{{<icatch filename="sign-post" msg="テンプレートの幅によって大きさが変わって見えます" alice="here">}}
 
 {{< info >}}
 あくまで縮小されるだけでもとの署名データは同一です
@@ -93,7 +90,7 @@ images = []
 
 ## 写真{#picture}
 
-{{<appscreen filename="picture" msg="スマホで「パシャッ」 そのままレポートに添付" title="写真入力フォーム" fontsize="30px" alice="ok">}}
+{{<icatch filename="picture" msg="カメラで「パシャッ」そのままレポートに添付可能です"   alice="tablet">}}
 
 
 レポートに画像ファイルを添付できます。  
@@ -173,7 +170,7 @@ PDF出力を前提とする場合、写真入力フォームの幅は最低で�
 
 添付時のファイル名がリスト上に表示されます。クリックでそのファイルをダウンロードできます。
 
-{{<appscreen filename="file-post" msg="添付されたファイルはクリックしてローカルにダウンロードして使用できます。">}}
+{{<icatch filename="file-post" msg="添付されたファイルはクリックしてローカルにダウンロードして使用できます" alice="ok">}}
 
 仮に添付されたファイルが**画像データであってもプレビューされません**。これが[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)との大きな違いです。
 汎用性は本フォームのほうが高いですが写真に限定するとプレビューされる[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)も利便性では優位です。
@@ -198,4 +195,4 @@ PDF出力を前提とする場合、写真入力フォームの幅は最低で�
 この設定がONだとフォルダ分けが自動で行われ、フォルダの中にCSVファイルとバイナリファイルが含まれた状態でダウンロードされます。
 この設定がOFFの場合、写真やイラストといったバイナリファイルはダウンロードされません。
 
-{{<appscreen filename="file-download" msg="バイナリファイルを一括ダウンロード">}}
+{{<icatch filename="file-download" msg="デフォルトではファイルDLがOFFなので手動でONにする必要があります" alice="book">}}

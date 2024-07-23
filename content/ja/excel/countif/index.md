@@ -92,7 +92,7 @@ A号車ではなく「A車」のように略して記述されると、正しい
 
 リスト作成の手間も不要で、入力ミスも防ぐことができるNipoPlusでは、今回紹介したような集計を全部自動で行なえます。
 
-{{<appscreen filename="countif" msg="SUMIFを自動で" title="日報アプリNipoPlusではCOUNTIFと同様の機能が使えます" fontsize="30px" alice="guide">}}
+{{<appscreen filename="countif" msg="SUMIFを自動で" title="日報アプリNipoPlusではCOUNTIFと同様の機能が使えます"  alice="guide">}}
 
 
 日報の作成はスマートフォンからも簡単に行え、提出された日報を一つのシートに集約してダウンロード可能です。今回使用したデータも、NipoPlusでダウンロードしたものです。

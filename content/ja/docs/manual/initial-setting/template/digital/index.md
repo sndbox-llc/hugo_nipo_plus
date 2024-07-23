@@ -41,7 +41,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 数値系の入力フォームはテンプレート編集画面の左パネルから追加できます
 
 
-{{<appscreen filename="add-parts-num" msg="数値入力フォームをテンプレートに追加する">}}
+{{<icatch filename="add-parts-num" msg="数値入力フォームをテンプレートに追加してみよう" alice="here">}}
 
 
 ## 通常の数値入力{#commonNumber}
@@ -362,7 +362,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 ## 算術フォーム{#calc}
 
-{{<appscreen filename="calc-icatch" msg="自動で計算 四則演算OK" title="算術入力フォーム" alice="here">}}
+{{<icatch filename="calc-icatch" msg="簡単な四則演算ができる特殊なフォームです。他の値を見て自動で入力されるので手動入力は不可" title="算術入力フォーム" alice="pc">}}
 
 
 算術フォームは他のフォームと大きく異なります。
@@ -376,7 +376,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 最も重要なのは計算式を正しく作成することです。
 
-{{<appscreen filename="make-fomula" msg="数式を入力してレポート内のデータから自動計算して結果をレポートに書き込みます">}}
+{{<icatch filename="make-fomula" msg="正しい計算式を作ってあげてね" alice="guide">}}
 
 計算式に使えるエレメントは以下の通り
 

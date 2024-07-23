@@ -80,7 +80,7 @@ NipoではFirebaseとTypesenseを使用していましたが、NipoPlusではFir
 Nipoに比べて各入力フォームの幅をより柔軟に変更できるようになっています。  
 例えば次の画像のようなテンプレートが作れます▼
 
-{{<appscreen filename="report-template" msg="テンプレートの 設計自由度がUP" title="テンプレートの自由度UP" fontsize="30px" alice="here">}}
+{{<appscreen filename="report-template" msg="テンプレートの 設計自由度がUP" alice="here">}}
 
 Nipo時代は１行に最大で２列までしか追加できなかったため、上画像のようなテンプレートは物理的に作れませんでしたが、[NipoPlusでは1行に最大12列追加](/docs/manual/initial-setting/template/make/)できるようになりました。
 また、NipoPlusではいくつかの入力フォームも追加されました
@@ -102,7 +102,7 @@ Nipo時代は１行に最大で２列までしか追加できなかったため�
 
 [Nipoのシンプルな受信BOX](/legacy/manual/postbox/)と比較してかなり機能が追加されたことが画像から読み取れます。
 
-{{<appscreen filename="search-report" msg="日報の検索 表示形式も変更OK" title="テンプレートの自由度UP" fontsize="30px" alice="here">}}
+{{<appscreen filename="search-report" msg="日報の検索表示形式も変更OK.テンプレートの自由度UP"  alice="here">}}
 
 右側のカレンダーで選択した範囲の日報しかロードしません。先述した容量節約の点です。  
 また、よく使う検索があれば[検索条件として保存](/docs/manual/read-report/list/#saveQuery)することもできます。毎回同じ検索を指定しなくても**ワンクリックで検索が可能**になりました。  

@@ -234,7 +234,9 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 
 <div class="col-lg-10 rootMainText">
 
-{{<imgproc charts.webp "日報のデータを自動で表にまとめ、表から各種グラフを生成できます。わらずらわしい集計を自動化することで日報データの活用に繋がります" />}}
+{{<icatch filename="make-charts" msg="エクセルが無くても！積み上げ縦棒&折れ線の複合グラフくらいは作成できるよ" alice="pc">}}
+
+
 
 </div>
 </div>

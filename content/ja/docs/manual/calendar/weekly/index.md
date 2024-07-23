@@ -64,7 +64,7 @@ images = []
 
 
 
-{{<icatch filename="drag-event-add" msg="予定をドラッグ操作で簡単に追加できます。イメージとしては「ホールド」して「スワイプ」します。" alice="phone">}}
+{{<icatch filename="drag-event-add" msg="予定をドラッグ操作で簡単に追加できます。スマホの場合は「ホールド」して「スワイプ」します。" alice="phone">}}
 
 
 

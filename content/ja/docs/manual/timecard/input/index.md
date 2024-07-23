@@ -38,11 +38,11 @@ aliases = ["/docs/manual/timecard/_about", "/manual/timecard/", "/manual/timecar
 2. 「タイムカード入力」をクリック
 3. ポップで表示されるタイムカード画面を埋める
 
-{{<appscreen filename="punch-time-card" msg="レポート作成と同時にタイムカードを入力する方法について">}}
+{{<icatch filename="punch-time-card" msg="レポート作成と同時にタイムカードを入力することができます" alice="ok">}}
 
 {{< nextArrow>}}
 
-{{<appscreen filename="timecard-submit" msg="タイムカードの入力画面">}}
+{{<icatch filename="timecard-submit" msg="タイムカードの入力画面では出退勤時間や休憩時間を入力します" alice="here">}}
 
 保存ボタンをクリックするとタイムカードのみ保存が完了します。この時点でまだレポートは保存されていないので注意してください。レポートも保存する際は「提出」ボタンをクリックします。詳しくは[レポートを書く](/docs/manual/write-report/write/)を御覧ください。  
 
@@ -70,7 +70,7 @@ aliases = ["/docs/manual/timecard/_about", "/manual/timecard/", "/manual/timecar
 1. メニュー「タイムカード一覧」を開く
 1. タイムカード入力をクリック
 
-{{<appscreen filename="timecard-list" msg="タイムカード一覧からタイムカードを入力する">}}
+{{<icatch filename="timecard-list" msg="タイムカード一覧からタイムカードを入力することもできます" alice="book">}}
 
 
 編集者権限以上のスタッフは他のスタッフのタイムカードを閲覧、入力できます。編集者権限以上の方は他のスタッフのタイムカードを誤って入力しないように注意してください。

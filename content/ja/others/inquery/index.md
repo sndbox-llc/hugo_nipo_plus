@@ -18,20 +18,23 @@ images = []
 皆様からのご意見・ご要望を心よりお待ちしております。
 
 
-- お問い合わせ内容につきましては、24時間以内に担当者より返信させていただきます。  
+- お問い合わせ内容につきましては、１営業日以内に担当者より返信させていただきます（土日祝日は返信が遅れます）
 - 自動返信メールもお送りいたしますので、もし返信が届かない場合は、お手数ですが迷惑メールフォルダをご確認いただくか、再度ご連絡ください。  
 - システムのトラブルの場合は問い合わせの前にトラブルシューティングをお試しください（案外すんなり解決することもあります）
 
 
 [▶Nipoの解約手順がわからない方はお問い合わせ前にこちらを御覧ください](/legacy/system/leave/)。  
 [▶NipoからNipoPlusへ乗り換えを検討の方はお問い合わせ前にこちらを御覧ください](/legacy/about/diff/#disabled)  
+[▶トラブルシューティング](/docs/system/fix/)
 
 
-{{<btnCenter "/docs/system/fix/" "トラブルシューティング">}}
+{{<warning>}}
+2024年8月10日〜8月15日までお盆休みのためこの期間は返信が遅れる可能性があります。あらかじめご了承ください
+{{</warning>}}
 
 <div id="contactForm">
   <div>
-    <label for="mail" class="form-label">Email address</label>
+    <label for="mail" class="form-label">メールアドレス（返信先）</label>
     <input type="email" class="form-control" id="mail" />
   </div>
   <div>

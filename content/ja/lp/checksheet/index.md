@@ -6,7 +6,6 @@ toc = true
 mermaid = true
 images = ["factory-usage.webp"]
 tags = ["製造業向け", "設備点検", "チェックシートアプリ"]
-date = "2023-06-15"
 aliases = ["/checksheet/", "/blog/checksheet/", "/blog/checklistapp/", "/tips/maintenance/", "/tips/tablet/", "/tips/checksheet/"]
 showPrice = true
 heroTitle = "製造現場の点検業務を簡単にアプリ化 - NipoPlus"

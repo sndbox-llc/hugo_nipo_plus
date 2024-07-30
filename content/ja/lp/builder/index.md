@@ -7,10 +7,10 @@ mermaid = false
 draft=false
 tags = ["建設業向け", "日報アプリ"]
 showPrice = true
-heroTitle = "日報業務を効率化するカスタマイズ可能なアプリ - NipoPlus"
+heroTitle = "🚧日報業務を効率化するカスタマイズ可能なアプリ - NipoPlus"
 heroText = "NipoPlusは、建設業をはじめとする様々な業種での日報作成を効率化するために設計された、カスタマイズ可能なアプリです。<br>画像の添付、承認・棄却フロー、提出漏れの検知、閲覧権限の設定など、多機能でスマートフォンからも簡単に利用可能。日報作成をスマートに、効率的にサポートします。"
 heroLinks = [
-  { label = "日報の承認・棄却フロー", url = "/tips/approval/" },
+  { label = "データ集計分析も簡単", url = "/tips/analytics/" },
   { label = "Android / iPadに完全対応", url = "/tips/mobile-device/" },
   { label = "点検表としても使えます", url = "/tips/maintenance/" }
 ]
@@ -21,7 +21,6 @@ heroLinks = [
  ## ワードやエクセルの日報からレベルアップしませんか？
 
 オフィスソフトでの日報管理に限界や不便を感じていませんか？オフィスソフトには無い日報管理に特化した様々な機能が盛り沢山です。  
-
 
 
 

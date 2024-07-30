@@ -8,12 +8,12 @@ images = ["factory-usage.webp"]
 tags = ["製造業向け", "設備点検", "チェックシートアプリ"]
 aliases = ["/checksheet/", "/blog/checksheet/", "/blog/checklistapp/", "/tips/maintenance/", "/tips/tablet/", "/tips/checksheet/"]
 showPrice = true
-heroTitle = "製造現場の点検業務を簡単にアプリ化 - NipoPlus"
+heroTitle = "🏭製造現場の点検業務を簡単にアプリ化 - NipoPlus"
 heroText = "NipoPlusは、設備点検や製品検品などの点検業務を効率化するために設計された、カスタマイズ可能なチェックシートアプリです。現場のニーズに合わせた入力フォームを簡単に作成し、スマホやタブレットからも利用可能。<br>点検漏れを防ぎ、データの集計や分析も簡単に行えます。"
 heroLinks = [
   { label = "入力漏れや点検手順スキップを防ぐ制御機能", url = "/tips/required/" },
   { label = "Android / iPadに完全対応", url = "/tips/mobile-device/" },
-  { label = "設備点検・製品検品チェックに最適", url = "/tips/maintenance/" }
+  { label = "建設業の日報としても", url = "/lp/builder/" }
 ]
 [sitemap]
   priority = 0.9

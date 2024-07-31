@@ -25,7 +25,7 @@ aliases = ["/manual/initial-setting/template/array/"]
 
 前述の通り、反復入力は単体では機能しないため反復入力を追加後に、反復入力の中に入力フォームを追加していきます。
 
-{{<appscreen filename="template" msg="反復入力の設定は反復の中に使用する項目（列）を追加して行きます">}}
+{{<icatch filename="template" msg="反復入力の設定は反復の中に使用する項目（列）を追加して行きます">}}
 
 以下は本入力フォームにのみ存在する設定項目です
 

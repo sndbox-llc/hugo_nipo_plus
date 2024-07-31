@@ -59,7 +59,7 @@ images = []
 - 提出先は一度選べば次回以降は自動でセットされます。
 - [提出先は管理者が固定する](/docs/manual/initial-setting/staff-local/dist/)こともできます。
 
-{{<appscreen filename="report-header" msg="レポートの提出日・提出先といったヘッダ情報を入力する">}}
+{{<icatch filename="report-header" msg="レポートの提出日・提出先といったヘッダ情報を入力する">}}
 
 ヘッダーの各項目については以下の対応表を御覧ください。
 <dl class="basic">

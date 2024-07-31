@@ -129,7 +129,7 @@ NipoPlusは、自分たちでカスタマイズするため、業界最安値水
 </div>
 <div class="col-lg-9">
 
-{{<appscreen filename="uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる" >}}
+{{<icatch filename="uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる" >}}
 
 </div>
 </div>
@@ -192,7 +192,7 @@ CSVはエクセルでそのまま開くことができ、エクセルを使っ�
 </div>
 <div class="col-lg-9">
 
-{{<appscreen filename="stack-bar-chart" msg="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
+{{<icatch filename="stack-bar-chart" msg="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
 
 
 

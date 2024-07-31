@@ -74,4 +74,4 @@ images = []
 
 集計する期間は1ヶ月単位で切替ができます。期間を変更するには日付の書かれたボタンをクリックします。
 
-{{<appscreen filename="change-span" msg="スタッフの活動実績集計期間を変更する">}}
+{{<icatch filename="change-span" msg="スタッフの活動実績集計期間を変更する">}}

@@ -89,7 +89,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリアルタイムにグラフ化できます。
 
-{{<appscreen filename="math_charts" msg="数値のデータをグラフ化する">}}
+{{<icatch filename="math_charts" msg="数値のデータをグラフ化する">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
@@ -171,7 +171,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 レート入力の結果をグラフにした例
 
-{{<appscreen filename="rate-charts" msg="レポートに含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
+{{<icatch filename="rate-charts" msg="レポートに含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
@@ -278,7 +278,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 <details>
   <summary>グラフ化</summary>
 
-{{<appscreen filename="slider_charts" msg="スライダのデータを用いて折れ線グラフを生成">}}
+{{<icatch filename="slider_charts" msg="スライダのデータを用いて折れ線グラフを生成">}}
 
 </details>
 

@@ -43,13 +43,13 @@ images = ["pie-chart_tablet.png"]
 
 グラフ作成をクリックします。
 
-{{<appscreen filename="source-data" msg="5つの数値入力フォームがあるレポート。これをグラフ化する">}}
+{{<icatch filename="source-data" msg="5つの数値入力フォームがあるレポート。これをグラフ化する">}}
 
 {{<nextArrow>}}
 
 グラフの種類を選択します。この例では「折れ線グラフ」を選択しました。
 
-{{<appscreen filename="select-chart-type" msg="手順1:グラフの種類を選びます">}}
+{{<icatch filename="select-chart-type" msg="手順1:グラフの種類を選びます">}}
 
 選んだら次へボタンをクリックします
 {{<nextArrow>}}
@@ -57,13 +57,13 @@ images = ["pie-chart_tablet.png"]
 グラフに使用する入力フォームを選びます。利用可能なものだけリストアップされています。
 この例では3つチェックしています。
 
-{{<appscreen filename="select-use-field" msg="手順2:グラフに使用するフィールドを選びます">}}
+{{<icatch filename="select-use-field" msg="手順2:グラフに使用するフィールドを選びます">}}
 
 {{<nextArrow>}}
 
 グラフのプレビューが表示されますのでイメージどおりか確認します。
 
-{{<appscreen filename="chart-preview" msg="手順3:詳細設定とグラフのプレビューを確認">}}
+{{<icatch filename="chart-preview" msg="手順3:詳細設定とグラフのプレビューを確認">}}
 
 グラフに名前をつけてください。後で切り替える際にわかりやすい名称を設定します。
 グラフのタイプは「推移」「累積」から選びます。両者の違いは言葉では伝えにくいので画像付きで紹介します。
@@ -73,14 +73,14 @@ images = ["pie-chart_tablet.png"]
 - スタッフごとに集計が行われます
 - スタッフ同士の比較に適したグラフになります
 
-{{<appscreen filename="each-staff-chart" msg="グラフの基準（X軸）をスタッフにする。これによりスタッフ同士の成績比較が可能">}}
+{{<icatch filename="each-staff-chart" msg="グラフの基準（X軸）をスタッフにする。これによりスタッフ同士の成績比較が可能">}}
 
 **推移グラフ**の特徴
 
 - 時系列を基準に集計が行われます
 - 日毎の変化を見るのに適しています
 
-{{<appscreen filename="time" msg="グラフの基準（X軸）を日付にする。これによりデータの推移を見ることが可能">}}
+{{<icatch filename="time" msg="グラフの基準（X軸）を日付にする。これによりデータの推移を見ることが可能">}}
 
 詳しくは次のセクションで紹介します。
 最後に設定完了ボタンをクリックしてください。これでグラフが作成できました。
@@ -93,14 +93,14 @@ images = ["pie-chart_tablet.png"]
 
 作成したグラフがボタンとして追加されます。ボタンをクリックしてグラフを表示します。
 
-{{<appscreen filename="chart-created" msg="作成したグラフの表示:複数のグラフはクリックで切替が可能">}}
+{{<icatch filename="chart-created" msg="作成したグラフの表示:複数のグラフはクリックで切替が可能">}}
 
 ### データのグループ化{#grouping}
 
 グラフタイプが「推移」のものはグループ化集計が可能です。グループ化とは「同日」など基準を設けてその範囲のレポートを合算してグラフ化する仕組みです。
 初期状態ではグループ化は無効になっています。次の画像は「同日」を基準にグループ化した例です。
 
-{{<appscreen filename="grouping" msg="時系列グラフは「日」「時間」など基準を変更してグループ化できる">}}
+{{<icatch filename="grouping" msg="時系列グラフは「日」「時間」など基準を変更してグループ化できる">}}
 
 「同日」を基準にすると同じ日に提出されたレポートを1つのレポートに見立てて合算処理を行います。何件のデータが合算されたのかはオレンジ色のバーで表示します。上の画像では、12/2日に3件のデータが合算されたことがわかります。
 合算されたデータはグラフにもそのまま反映されます。
@@ -119,7 +119,7 @@ images = ["pie-chart_tablet.png"]
 - 棒グラフを選ぶと第2軸が折れ線グラフになります
 
 
-{{<appscreen filename="seccond-axis-chart" msg="グラフに第2軸を追加する">}}
+{{<icatch filename="seccond-axis-chart" msg="グラフに第2軸を追加する">}}
 
 {{<alice pos="right" icon="ok">}}
 入場者数と売上高を1つのグラフにすると桁が違うので小さい方がみえなくなるよね。これを回避するよ
@@ -130,7 +130,7 @@ images = ["pie-chart_tablet.png"]
 グラフの種類選択時に「積み上げ棒グラフ」を選ぶことで積み上げ棒グラフが作成できます。
 前述した第二軸と組み合わせることも可能です。
 
-{{<appscreen filename="stack-bar-chart" msg="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
+{{<icatch filename="stack-bar-chart" msg="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
 
 ## 円グラフを作る{#circle}
 
@@ -141,14 +141,14 @@ images = ["pie-chart_tablet.png"]
 
 - 期間内のデータを合計してグラフ化
 
-{{<appscreen filename="pie-chart" msg="レポートのデータを元に円グラフを作成（日付を基準）">}}
+{{<icatch filename="pie-chart" msg="レポートのデータを元に円グラフを作成（日付を基準）">}}
 
 **累積**の例です。
 
 - 期間内のスタッフごとに分けて合計しグラフ化
 - スタッフ数×項目のため円が細分化しやすい
 
-{{<appscreen filename="pie-chart-accumulation" msg="スタッフを基準として円グラフを作成">}}
+{{<icatch filename="pie-chart-accumulation" msg="スタッフを基準として円グラフを作成">}}
 
 {{<alice pos="right" icon="ok">}}
 難しく考えずにプレビューをみながら調整すればいいよ

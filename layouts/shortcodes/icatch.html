@@ -11,7 +11,7 @@
     <picture style="display: block; width: 100%; height: auto;">
       <source srcset="{{ $imgPhone.RelPermalink }}" media="(max-width: 768px)">
       <source srcset="{{ $imgTablet.RelPermalink }}" media="(min-width: 769px)">
-      <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="ueda_responsive-image"  width="2000" height="1390" style="display: block; width: 100%; height: auto;">
+      <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="ueda_responsive-image" loading="lazy"  width="2000" height="1390" style="display: block; width: 100%; height: auto;">
     </picture>
   </div>
   <div class="ueda_character-container" id="{{ $uniqueID }}">

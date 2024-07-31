@@ -161,7 +161,7 @@ NipoPlusは、自分たちでカスタマイズするため、業界最安値水
 {{<nextArrow>}}
 
 
-## 入力された点検データの活用{#utilize_checklist_data}
+## 点検データを活用してDX化を促進{#utilize_checklist_data}
 
 電子化された点検データは活用方法が多様です。一例をご紹介します。
 
@@ -224,6 +224,8 @@ NipoPlusで出力したCSVは次のような一般的な形をしています。
 
 ## お客様の声{#user_voice}
 
+※お客様の声を書いてくださる方随時募集！[お問い合わせフォーム](/others/inquery/)からご連絡ください
+
 
 <blockquote>
 
@@ -255,6 +257,7 @@ NipoPlusならそれらをカバーしているので中小企業に幅広く売
 
 <cite>兵庫県：機器（小ロット多品種）の製造・販売者さま</cite>
 </blockquote>
+
 
 <div style="max-width:800px">
 

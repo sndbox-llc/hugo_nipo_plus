@@ -102,9 +102,8 @@ graph TD;
 
 {{<icatch filename="make-group" msg="グループを作ってみるのも一興。不要なら1グループで運用もOKです" alice="ok">}}
 
-より詳しいガイドは「マニュアル:グループの作成」を御覧ください。
+より詳しいガイドは[グループの作成](/docs/manual/initial-setting/make-group/)を御覧ください。
 
-{{<btnCenter "/docs/manual/initial-setting/make-group/" "マニュアル:グループの作成">}}
 
 {{<nextArrow>}}
 

@@ -42,7 +42,6 @@ NipoPlusでは手軽に体験できる[匿名アカウント](/docs/manual/accou
 
 {{<icatch filename="temp-id" msg="匿名アカウントをつかうことで煩雑なアカウント作成をスキップし、手軽に体験することが可能です" alice="book">}}
 
-{{<btnCenter "/docs/manual/account/tokumei/" "匿名アカウントについて詳しく見る">}}
 
  
 {{<nextArrow>}}
@@ -153,24 +152,22 @@ NipoPlusはテンプレートを作り、その**テンプレートに沿って�
 
 ### レポートの提出先を固定する{#locked}
 
-スタッフが誤って別の人にレポートを提出してしまわないように、管理者が予めレポートの提出先を指定（固定）することができます。
+スタッフが誤って別の人にレポートを提出してしまわないように、管理者が予め[レポートの提出先を固定](/docs/manual/initial-setting/staff-local/dist/)することができます。
 固定するとスタッフはレポート作成時に提出先の指定をする必要が無いため、余分な手間を減らすことができるようになります。  
 また、「**誰に提出すればいいかわからない？**」という問題も未然に防げます
 
 {{<icatch filename="locked" msg="提出先を固定することでスタッフが誤って別のスタッフに提出してしまうミスを防止できます" alice="ok">}}
 
 
-{{<btnCenter "/docs/manual/initial-setting/staff-local/dist/" "マニュアル:提出先の固定">}}
 
 
 
 ### タグでレポートや予定を効率よく管理する{#tags}
 
-タグって便利ですよね。受信したレポートや予定、テンプレートなど色々なものにタグを付けることができます。
+タグって便利ですよね。受信したレポートや予定、テンプレートなど色々なものに[タグを付ける](/docs/manual/initial-setting/advanced-setting/tag/)ことができます。
 
 {{<icatch filename="tag" msg="レポートにタグを付けることで一覧表示時に目印とすることが可能です。またタグによる絞り込み検索も可能です" alice="here">}}
 
-{{<btnCenter "/docs/manual/initial-setting/advanced-setting/tag/" "マニュアル:タグの作成">}}
 
 ### グループをわけて目的別のレポート管理をする{#group}
 

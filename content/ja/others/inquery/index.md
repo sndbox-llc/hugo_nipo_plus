@@ -11,11 +11,13 @@ images = []
   priority = 0.3
 +++
 
+
+
+<div id="contactForm">
+
+
 利用者の皆様に高い満足度を得ていただくことを目指しています！フィードバックは私達にとって非常に重要です。
 使いにくい点・わかりにくい点・改善してほしい点があれば遠慮なく次のフォームからメッセージを送ってください。  
-
-あなたの心に留まっているだけでは問題に対処することができません。メッセージを送ることがすべての始まりです。
-皆様からのご意見・ご要望を心よりお待ちしております。
 
 
 - お問い合わせ内容につきましては、１営業日以内に担当者より返信させていただきます（土日祝日は返信が遅れます）
@@ -28,70 +30,116 @@ images = []
 [▶トラブルシューティング](/docs/system/fix/)
 
 
+
 {{<warning>}}
 2024年8月10日〜8月15日までお盆休みのためこの期間は返信が遅れる可能性があります。あらかじめご了承ください
 {{</warning>}}
 
-<div id="contactForm">
-  <div>
-    <label for="mail" class="form-label">メールアドレス（返信先）</label>
-    <input type="email" class="form-control" id="mail" />
-  </div>
-  <div>
-    <label for="content" class="form-label">お問い合わせ内容</label>
-    <textarea id="content" class="form-control" rows="10"></textarea>
-  </div>
-  <div>
-  対象製品を選択してください<br>
-  <label><input type="radio" name="targetRadio" value="Nipo">Nipo</label>
-  <label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
-  <div id="iconField"></div>
-  </div>
+{{<info>}}
+お客様のお問い合わせ用です。営業メールは絶対に送らないでください🚫  
+SEO対策・IT人材派遣・BAAS比較サイト掲載。全部間に合っております✋
+{{</info>}}
 
-  <div style="margin-top: 15px;margin-bottom:15px;border:1px solid #ccc">
-  お客様のお問い合わせ用です。<span  style="color:red">営業メールは絶対に送らないで</span>ください🚫<br>
-  SEO対策・IT人材派遣・BAAS比較サイト掲載。全部間に合っております✋
-  </div>
 
-  <button onclick="submit()" class="btn btn-primary btn-lg mt-5" id="sendButton">送信</button>
-  <div id="errormessage" style="color:red"></div>
+<div>
+  <label for="mail" class="form-label">メールアドレス（返信先）</label>
+  <input type="email" class="form-control" id="mail" />
 </div>
+<div>
+  <label for="content" class="form-label">お問い合わせ内容</label>
+  <textarea id="content" class="form-control" rows="10"></textarea>
+</div>
+<div>
+対象製品を選択してください<br>
+<label><input type="radio" name="targetRadio" value="Nipo">Nipo</label>
+<label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
+<div id="iconField"></div>
+</div>
+
+
+<button onclick="submit()" class="btn btn-primary btn-lg mt-5" id="sendButton">送信</button>
+<div id="errormessage" style="color:red"></div>
+
+
+<details>
+  <summary>使用できない単語について</summary>
+  迷惑メールの徹底排除に力を入れています。ご不便をおかけしますが以下の単語がメッセージ内に含まれている場合、送信に失敗します。あらかじめご了承ください  
+  
+  <hr />
+
+  "CareTEX",
+  "SaaS",
+  "SEO",
+  "zoom",
+  "ウェビナー",
+  "オンライン商談",
+  "お得な情報",
+  "コスト削減",
+  "ご案内です",
+  "ご検討",
+  "ご提案",
+  "ソリューション",
+  "パートナーシップ",
+  "メール広告",
+  "リスク0",
+  "求職",
+  "求人",
+  "経営・営業責任者様",
+  "広告費用",
+  "最新技術",
+  "資料ダウンロード",
+  "実績",
+  "受注率",
+  "掲載",
+  "人材派遣",
+  "成果保証型",
+  "成功事例",
+  "特別オファー",
+  "特別なキャンペーン",
+
+</details>
+
+
+</div>
+
 <div id="thanks"></div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 <script>
   // キーワードベースのフィルタリング処理を追加
 const filterKeywords = [
-  "ソリューション",
+  "CareTEX",
   "SaaS",
-  "ご検討",
-  "経営・営業責任者様",
-  "成果保証型",
   "SEO",
-  "リスク0",
-  "受注率",
-  "広告費用",
+  "zoom",
+  "ウェビナー",
   "オンライン商談",
-  "ご提案させていただきます",
-  "特別オファー",
   "お得な情報",
   "コスト削減",
-  "パートナーシップ",
-  "最新技術",
-  "成功事例",
   "ご案内です",
-  "お得な情報",
-  "実績",
-  "CareTEX",
-  "会場",
-  "※大変恐縮",
-  "特別なキャンペーン",
+  "ご検討",
+  "ご提案",
+  "ソリューション",
+  "パートナーシップ",
   "メール広告",
-  "成果報酬型",
+  "リスク0",
+  "求職",
+  "求人",
+  "経営・営業責任者様",
+  "広告費用",
+  "最新技術",
   "資料ダウンロード",
-  "ウェビナー",
-  "zoom",
+  "実績",
+  "受注率",
+  "掲載",
+  "人材派遣",
+  "成果保証型",
+  "成功事例",
+  "特別オファー",
+  "特別なキャンペーン",
 ];
 
 // メッセージにキーワードが含まれているかチェックする関数
@@ -134,7 +182,7 @@ async function submit() {
     if (target === null) throw "問い合わせの製品をNipo/NipoPlusから選択してください";
     if (EMAIL_REG_EXP.test(email.value) === false) throw "メールアドレスが不正です";
     if (content.value.length === 0) throw "本文が空欄です";
-    if (containsKeyword(content.value.toLowerCase())) throw "営業関連のメッセージはご遠慮ください。あなたのメッセージは営業に関するキーワードが含まれています。本当のお問い合わせの方へ。誤検知でご不便をおかけして申し訳ありません。メッセージから営業風のワードを除外して再度送信してください。営業の方へ。さっさと消えてください。おまえら害虫のせいでこんなフィルタを作る必要がでてくるんだから本当に害悪です"; // 小文字に変換してからチェック
+    if (containsKeyword(content.value.toLowerCase())) throw "営業関連のメッセージはご遠慮ください。あなたのメッセージは営業に関するキーワードが含まれています。本当のお問い合わせの方へ。誤検知でご不便をおかけして申し訳ありません。ページ下部にある「使用できない単語」のうえ、該当ワードを削除して再送してください。営業の方へ。今すぐブラウザバックしてどうぞ"; // 小文字に変換してからチェック
   } catch (e) {
     errorMessage.innerHTML = e;
     sendButton.disabled = false;
@@ -157,7 +205,7 @@ async function submit() {
   thanks.appendChild(textNode);
 
   // クラスを追加
-  textNode.classList.add('completedMessage');
+  // textNode.classList.add('completedMessage');
 
   return;
 }

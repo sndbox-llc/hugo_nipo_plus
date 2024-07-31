@@ -6,7 +6,7 @@
 {{ $id := partial "make-random-md5.hugo" }}
 {{ $uniqueID := (printf "character-container-%s" $id) }}
 
-<div style="position: relative; display: inline-block;">
+<div style="position: relative; display: inline-block;width:100%">
   <div class="ueda_tablet-frame" style="position: relative; z-index: 1; width: 100%; max-width: 100%; height: auto;">
     <picture style="display: block; width: 100%; height: auto;">
       <source srcset="{{ $imgPhone.RelPermalink }}" media="(max-width: 768px)">

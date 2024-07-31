@@ -7,11 +7,11 @@
 {{ $uniqueID := (printf "character-container-%s" $id) }}
 
 <div style="position: relative; display: inline-block;">
-  <div class="ueda_tablet-frame" style="position: relative; z-index: 1;">
-    <picture>
+  <div class="ueda_tablet-frame" style="position: relative; z-index: 1; width: 100%; max-width: 100%; height: auto;">
+    <picture style="display: block; width: 100%; height: auto;">
       <source srcset="{{ $imgPhone.RelPermalink }}" media="(max-width: 768px)">
       <source srcset="{{ $imgTablet.RelPermalink }}" media="(min-width: 769px)">
-      <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="ueda_responsive-image" loading="lazy" width="2000" height="1390">
+      <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="ueda_responsive-image" loading="lazy" width="2000" height="1390" style="display: block; width: 100%; height: auto;">
     </picture>
   </div>
   <div class="ueda_character-container" id="{{ $uniqueID }}">
@@ -20,8 +20,7 @@
     </div>
     <div class="ueda_speech-bubble">
       {{$msg}}
-    <button class="btn btn-primary close-btn"  onclick="closeBubble('{{ $uniqueID }}')">✗</button>
-
+      <button class="btn btn-primary close-btn" onclick="closeBubble('{{ $uniqueID }}')">✗</button>
     </div>
   </div>
 </div>

@@ -11,7 +11,7 @@
     <picture>
       <source srcset="{{ $imgPhone.RelPermalink }}" media="(max-width: 768px)">
       <source srcset="{{ $imgTablet.RelPermalink }}" media="(min-width: 769px)">
-      <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="ueda_responsive-image" loading="lazy" width="2360" height="1636">
+      <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="ueda_responsive-image" loading="lazy" width="2000" height="1390">
     </picture>
   </div>
   <div class="ueda_character-container" id="{{ $uniqueID }}">
@@ -37,7 +37,7 @@
   </a>
 </div>
 <a href="javascript:history.back();" class="lightbox" id="{{ $uniqueID }}_pc">
-  <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="lightbox-image" loading="lazy" width="2360" height="1636">
+  <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="lightbox-image" loading="lazy" width="2000" height="1390">
 </a>
 <a href="javascript:history.back();" class="lightbox" id="{{ $uniqueID }}_phone">
   <img src="{{ $imgPhone.RelPermalink }}" alt="{{ $msg }}" class="lightbox-image" loading="lazy" width="752" height="1330">

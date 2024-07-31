@@ -8,6 +8,12 @@ aliases = ["/manual/read-report/state/", "/manual/read-report/other/", "/docs/ma
 images = []
 +++
 
+
+{{<warning>}}
+権限が「ゲスト」のアカウントは自分の書いたレポートも含めて読むことができません。
+{{</warning>}}
+
+
 [保存箱](/docs/manual/read-report/list/)やカレンダーからレポートをクリックするとレポートの詳細が表示されます。
 先にレポートの状態について解説します。レポートの状態はレポート内の左上に表示されています。
 

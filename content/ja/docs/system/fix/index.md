@@ -139,6 +139,5 @@ https://nipoplus.sndbox.jp/
 
 ## 問い合わせする{#inquery}
 
-これまでの手順を行っても改善しない場合はお問い合わせください
+これまでの手順を行っても改善しない場合は[お問い合わせ](/others/inquery/)ください
 
-{{<btnCenter "/others/inquery/" "問い合わせフォーム">}}

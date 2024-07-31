@@ -9,9 +9,9 @@ aliases = ["/manual/read-report/pdf/"]
 images = ["pdf-download_tablet.png"]
 +++
 
-この記事はレポート1件をPDF出力するものです。まとめて出力するには一括PDF出力を御覧ください。
-
-{{<btnCenter "/docs/manual/analytics/pdf/" "一括PDF出力">}}
+{{<info>}}
+この記事はレポート1件をPDF出力するものです。まとめて出力するには[一括PDF出力](/docs/manual/analytics/pdf/)を御覧ください。
+{{</info>}}
 
 ---
 
@@ -47,9 +47,8 @@ PDF出力設定では以下の設定が可能です。
 - レポート本文内の文字やタイトルなどデータに関するもの
 
 ここで説明する設定は**PDF出力時に1回限り有効な仮のデータ**です。変更内容は保存されず、PDF出力後に破棄されます。
-レイアウトに関する設定を永続して記憶したい場合はレポートテンプレート作成画面の設定から変更してください。
+レイアウトに関する設定を永続して記憶したい場合は[テンプレート編集画面](/docs/manual/initial-setting/template/make/#pdf)の設定から変更してください。
 
-{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレートの編集">}}
 
 ### 1度限り有効な設定を行う{#once}
 

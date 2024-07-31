@@ -71,9 +71,8 @@ NipoPlusはテンプレートを作り、その**テンプレートに沿って�
 {{<icatch filename="make-template" msg="テンプレートの編集。ほしい部品を並べていくだけです">}}
 
 お疲れさまでした。これで初めてのテンプレート作成は完了です。次章でこのテンプレートを使って実際に[レポートを書いて](/docs/manual/write-report/write/)みましょう。
-より詳しいガイドについては以下のボタンをクリックしてください。
+より詳しいガイドについては[テンプレート作成ガイド](/docs/manual/initial-setting/template/make/)の記事をご覧ください
 
-{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレート作成ガイド">}}
 
 {{<nextArrow>}}
 
@@ -98,10 +97,6 @@ NipoPlusはテンプレートを作り、その**テンプレートに沿って�
 
 {{<icatch filename="next" msg="レポート提出したあとどうするか選ぶよ。続けて書くことももちろんOK" alice="ok">}}
 
-より詳細なガイドについては以下のボタンをクリックしてください。
-
-{{<btnCenter "/docs/manual/write-report/write/" "レポートの提出マニュアル">}}
-
 
 {{<nextArrow>}}
 
@@ -120,7 +115,6 @@ NipoPlusはテンプレートを作り、その**テンプレートに沿って�
 承認はレポートのロックも兼ねています。一度承認するとそのレポートは管理者でないと削除出来なくなるため、不正防止に役立ちます。
 もちろん内容に不備があれば棄却したり、コメントで指摘したり、あるいは[上司が直接修正](/docs/manual/write-report/rewrite/#agent)することも出来ます。
 
-{{<btnCenter "/docs/manual/read-report/state/" "承認・棄却の操作ガイド">}}
 
 ## 手順6:上司や部下など他のスタッフのアカウントを作成しよう{#add_member}
 
@@ -138,7 +132,6 @@ NipoPlusはテンプレートを作り、その**テンプレートに沿って�
 スタッフのアカウントを作ると「スタッフ」という[権限](/docs/manual/initial-setting/staff/rank/)になります。  
 スタッフ権限は[テンプレートの編集](/docs/manual/initial-setting/template/make/)やアカウント作成はできないので安心です。
 
-{{<btnCenter "/docs/manual/initial-setting/staff/" "スタッフの権限について">}}
 
 ## 手順7： スタッフにNipoPlusのログイン情報を伝えて相互にやり取りしてみよう{#join_staff}
 
@@ -151,7 +144,6 @@ NipoPlusはテンプレートを作り、その**テンプレートに沿って�
 
 これでスタッフアカウントとしてログインができました。これでスタッフがレポートを書いてあなた宛に提出できるようになります。
 
-{{<btnCenter "/docs/manual/write-report/dist/" "レポートの提出先について">}}
 
 ---
 
@@ -210,8 +202,7 @@ NipoPlusはテンプレートを作り、その**テンプレートに沿って�
 
 ここまで御覧いただきありがとうございました。
 他にも便利な機能がありますので詳しくは[マニュアル](/docs/manual/)を御覧ください。  
-「こんなことはできる？」など、ご不明な点がございましたらいつでも遠慮なくお問い合わせください。
+「こんなことはできる？」など、ご不明な点がございましたらいつでも遠慮なく[お問い合わせ](/others/inquery/)ください。
 
 
-{{<btnCenter "/others/inquery/" "お問い合わせ">}}
 

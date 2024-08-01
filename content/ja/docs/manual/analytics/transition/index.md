@@ -5,7 +5,7 @@ title = "📉レポートデータの変化を見る【推移表】"
 menuTitle = "📉データの推移"
 toc = true
 weight = 101004002
-aliases = ["/manual/analytics/transition/"]
+aliases = []
 images = ["make-charts_tablet.png"]
 +++
 

@@ -5,7 +5,7 @@ title = "🔍保存箱からレポートを探す"
 menuTitle = "🔍保存箱から探して読む"
 toc = true
 weight = 101003001
-aliases = ["/manual/read-report/list/"]
+aliases = []
 images = []
 +++
 

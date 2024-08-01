@@ -4,7 +4,7 @@ title = "📅カレンダーから探して読む"
 toc = true
 tags = ["有料プラン限定"]
 weight = 101003000
-aliases = ["/manual/read-report/"]
+aliases = []
 images = []
 draft=false
 +++

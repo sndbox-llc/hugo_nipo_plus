@@ -5,7 +5,7 @@ title = "4名以下で利用可能です。無料でもずっと使えます"
 menuTitle = "🆓無料プラン"
 toc = true
 weight = 102000002
-aliases = ["/price/free/", "/tips/free/"]
+aliases = []
 images = []
 mermaid = true
 +++

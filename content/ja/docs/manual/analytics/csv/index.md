@@ -5,18 +5,18 @@ title = "🗂️レポートのCSV一括ダウンロード"
 menuTitle = "🗂️CSV一括出力"
 toc = true
 weight = 101004021
-aliases = ["/manual/analytics/csv/"]
+aliases = []
 images = ["report-csv-export_tablet.png"]
 +++
 
 CSV出力はWeb版のみ対応しています。Android / iOSアプリ版では利用できません。
 
-1. 集計/CSV出力をクリック（無い場合は[グループの基本設定](/docs/manual/initial-setting/make-group/)を確認）
+1. 集計/CSV出力をクリック（無い場合は[グループの基本設定](/docs/manual/initial-setting/setting-group/#optionalFunction)を確認）
 1. 出力したい期間を選びます（初期値は今月）
 1. CSV出力ボタンをクリックします
 1. ダウンロードが開始されます
 
-{{<icatch filename="report-csv-export1" msg="指定した期間のレポートを一括でCSVに出力">}}
+{{<icatch filename="report-csv-export1" msg="たくさんのレポートを１枚のCSVにまとめて出力できるよ。電子化の強みだね" alice="pc">}}
 
 - CSVはテンプレートごとに分けて出力されます。テンプレートが多いとCSVファイルも比例して多くなります。
 - 指定期間内に1度も使用されなかったテンプレートは自動で除外されます。

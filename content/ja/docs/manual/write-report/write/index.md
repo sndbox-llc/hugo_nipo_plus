@@ -5,17 +5,17 @@ menuTitle = "✍️レポートを書く"
 title = "✍️レポートを書くまでの流れ"
 toc = true
 weight = 101002001
-aliases = ["/manual/write-report/write/", "/manual/write-report/", "/docs/manual/write-report/_about/"]
+aliases = ["/docs/manual/write-report/_about/"]
 images = []
 +++
 
 レポートを書く大まかな流れは以下のとおりです。
 
 1. レポート作成をクリック
-1. 使用するテンプレートの選択（複数ある場合）
-1. テンプレートに沿って内容を記入
-1. 提出先や提出日などの情報をセット
-1. 提出ボタンをクリック
+2. 使用するテンプレートの選択（複数ある場合）
+3. テンプレートに沿って内容を記入
+4. 提出先や提出日などの情報をセット
+5. 提出ボタンをクリック
 
 
 ## 使用するテンプレートを選ぶ{#select_template}

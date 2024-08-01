@@ -5,7 +5,7 @@ toc = true
 weight = 109002016
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/parts/dictionaly/", "/docs/old/parts/dictionaly/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

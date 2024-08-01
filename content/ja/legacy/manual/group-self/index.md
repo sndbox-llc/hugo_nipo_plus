@@ -5,7 +5,7 @@ toc = true
 weight = 109001013
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/manual/group-self/", "/docs/old/manual/group-self/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

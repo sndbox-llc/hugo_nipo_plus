@@ -1,10 +1,10 @@
 +++
-description = "NipoPlusに関するご質問、ご要望、お問い合わせはこちらからお送りください。24時間以内に返信いたします。自動返信メールにて受け付け完了のお知らせを送信しています"
+description = "NipoPlusに関するご質問、ご要望、お問い合わせはこちらからお送りください。1営業日以内に返信いたします。自動返信メールにて受け付け完了のお知らせを送信しています"
 tags = []
 title = "📩お問い合わせ"
 toc = true
 weight = 103000016
-aliases = ["/docs/system/inquery/", "/system/inquery/"]
+aliases = ["/docs/system/inquery/"]
 images = []
 [sitemap]
   changefreq = "yearly"

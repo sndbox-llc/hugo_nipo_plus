@@ -5,7 +5,7 @@ toc = true
 weight = 109001012
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/manual/calendar/", "/docs/old/manual/calendar/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

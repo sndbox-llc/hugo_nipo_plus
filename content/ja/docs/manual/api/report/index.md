@@ -5,7 +5,7 @@ title = "📄API取得のデータ構造"
 toc = true
 weight = 101010003
 code = true
-aliases = ["/manual/api/report/"]
+aliases = []
 +++
 
 普段見慣れたレポートの形ではなくJSON形式で取得されます。

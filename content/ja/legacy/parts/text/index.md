@@ -5,7 +5,7 @@ toc = true
 weight = 109002003
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/parts/text/", "/docs/old/parts/text/", "/old/parts/textarea/", "/docs/old/parts/textarea/", "/legacy/parts/textarea"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

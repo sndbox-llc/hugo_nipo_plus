@@ -6,7 +6,7 @@ menuTitle = "🚫利用可能テンプレートの制限"
 toc = false
 draft = false
 weight = 101001035
-aliases = ["/manual/initial-setting/advanced-setting/template/", "/docs/manual/initial-setting/advanced-setting/template/"]
+aliases = ["/docs/manual/initial-setting/advanced-setting/template/"]
 images = []
 +++
 
@@ -14,10 +14,10 @@ images = []
 テンプレートの数が多い場合は制限することで操作性を向上できます。
 
 1. グループ設定をクリック
-1. スタッフ管理をクリック
-1. テンプレートを制限をクリック
-1. 「利用可能なテンプレートを制限する」をONにする
-1. 利用可能なテンプレートをリストから選ぶ
+2. スタッフ管理をクリック
+3. テンプレートを制限をクリック
+4. 「利用可能なテンプレートを制限する」をONにする
+5. 利用可能なテンプレートをリストから選ぶ
 
 {{<icatch filename="show-template-setting" msg="スタッフが使用できるレポートのテンプレートを制限できます" alice="shield">}}
 

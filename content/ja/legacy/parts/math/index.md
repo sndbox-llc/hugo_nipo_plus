@@ -5,7 +5,7 @@ toc = true
 weight = 109002017
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/parts/math/", "/docs/old/parts/math/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

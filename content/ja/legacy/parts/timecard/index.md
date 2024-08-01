@@ -5,7 +5,7 @@ toc = true
 weight = 109002006
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/parts/timecard/", "/docs/old/parts/timecard/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

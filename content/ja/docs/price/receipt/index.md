@@ -5,7 +5,7 @@ title = "領収証をダウンロードする"
 menuTitle = "🧾領収証の発行"
 toc = true
 weight = 102000006
-aliases = ["/price/invoice/"]
+aliases = []
 images = []
 +++
 

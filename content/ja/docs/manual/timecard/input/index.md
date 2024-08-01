@@ -4,7 +4,7 @@ tags = []
 title = "✍️タイムカードを入力する"
 toc = true
 weight = 101007001
-aliases = ["/docs/manual/timecard/_about", "/manual/timecard/", "/manual/timecard/input/"]
+aliases = ["/docs/manual/timecard/_about"]
 +++
 
 {{<info>}}

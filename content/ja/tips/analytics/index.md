@@ -5,7 +5,7 @@ toc = true
 images = ['make-receipt_tablet.webp']
 tags = ["集計"]
 date = "2023-06-15"
-aliases = ["/old/manual/analytics/", "/docs/old/manual/analytics/", "/legacy/manual/analytics/", "/tips/factory/"]
+aliases = ["/legacy/manual/analytics/"]
 [sitemap]
   priority = 0.9
 +++

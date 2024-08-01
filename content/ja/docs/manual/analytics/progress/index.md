@@ -5,7 +5,7 @@ title = "日報データから当月販売目標に対する当月販売実績�
 menuTitle = "目標と実績の管理"
 toc = true
 weight = 101004007
-aliases = ["/manual/analytics/progress/"]
+aliases = []
 images = ["list_tablet.png"]
 +++
 

@@ -5,7 +5,7 @@ title = "【商品入力】をレポートテンプレートに追加"
 menuTitle = "🧩商品入力"
 toc = true
 weight = 101001118
-aliases = ["/manual/initial-setting/template/mod/", "/manual/org/groupsetting/template/mod/"]
+aliases = []
 images = []
 +++
 

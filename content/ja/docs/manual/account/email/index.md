@@ -4,7 +4,7 @@ tags = []
 title = "📨Email/🔑Passwordの変更"
 toc = true
 weight = 101009002
-aliases = ["/manual/account/email/", "/manual/account/password/", "/docs/manual/account/password/"]
+aliases = ["/docs/manual/account/password/"]
 images = ["email-edit_tablet.png"]
 +++
 

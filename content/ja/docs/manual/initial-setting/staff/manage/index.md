@@ -6,7 +6,7 @@ menuTitle = "🛠️アカウントの管理"
 title = "🛠️スタッフアカウントの管理"
 toc = true
 weight = 101001005
-aliases = ["/manual/initial-setting/staff/manage/"]
+aliases = []
 images = []
 +++
 

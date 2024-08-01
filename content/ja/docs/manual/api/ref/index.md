@@ -6,7 +6,7 @@ menuTitle = "🤖APIを使う"
 toc = true
 weight = 101010002
 code = true
-aliases = ["/manual/api/ref/"]
+aliases = []
 +++
 
 APIの利用には少し技術者の知識が必要です。

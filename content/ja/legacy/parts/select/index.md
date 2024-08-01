@@ -5,7 +5,7 @@ toc = true
 weight = 109002011
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/parts/select/", "/docs/old/parts/select/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

@@ -7,7 +7,7 @@ toc = true
 weight = 101000000
 tags = []
 mermaid = true
-aliases = ["/manual/initial-setting/"]
+aliases = []
 +++
 
 ## 組織とグループとスタッフの相関性{#about}

@@ -4,7 +4,7 @@ tags = ["要編集者権限"]
 title = "🏷タグの管理"
 toc = true
 weight = 101001202
-aliases = ["/manual/initial-setting/advanced-setting/tag/"]
+aliases = []
 images = ["tag-manage_tablet.png"]
 +++
 

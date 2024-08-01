@@ -4,7 +4,7 @@ tags = []
 title = "🔓ログインとログアウト"
 toc = true
 weight = 101009001
-aliases = ["/manual/account/signin/", "/docs/manual/account/_about/"]
+aliases = ["/docs/manual/account/_about/"]
 images = ["signin_tablet.png"]
 +++
 

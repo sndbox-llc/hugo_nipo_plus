@@ -5,7 +5,7 @@ title = "フォームの削除と復旧手順"
 menuTitle = "削除と復旧"
 toc = true
 weight = 101001120
-aliases = ["/manual/initial-setting/template/key/"]
+aliases = []
 images = []
 code = true
 +++

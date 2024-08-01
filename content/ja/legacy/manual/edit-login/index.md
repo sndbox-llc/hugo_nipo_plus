@@ -5,7 +5,7 @@ toc = true
 weight = 109001014
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/manual/edit-login/", "/docs/old/manual/edit-login/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

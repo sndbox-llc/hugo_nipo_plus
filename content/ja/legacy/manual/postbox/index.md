@@ -5,7 +5,7 @@ toc = true
 weight = 109001009
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/manual/postbox/", "/docs/old/manual/postbox/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

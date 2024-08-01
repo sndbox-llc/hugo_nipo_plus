@@ -5,7 +5,7 @@ title = "毎月自動で決済される有料プランに加入する手順"
 menuTitle = "💳有料プラン（自動更新有）"
 toc = true
 weight = 102000003
-aliases = ["/price/fee/", "/docs/price/cancel/"]
+aliases = []
 images = []
 mermaid = true
 +++

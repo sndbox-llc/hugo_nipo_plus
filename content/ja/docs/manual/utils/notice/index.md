@@ -4,7 +4,7 @@ tags = []
 title = "🔔アプリ内の通知と📩メール通知"
 toc = true
 weight = 101001200
-aliases = ["/manual/notice/show/", "/docs/manual/notice/show/", "/docs/manual/notice/email/" , "/docs/manual/notice/app/"]
+aliases = [ "/docs/manual/notice/show/", "/docs/manual/notice/email/" , "/docs/manual/notice/app/"]
 images = []
 +++
 

@@ -5,7 +5,7 @@ title = "📤レポートの提出先と共有先について"
 menuTitle = "📤提出先と共有先"
 toc = true
 weight = 101002002
-aliases = ["/manual/write-report/dist/"]
+aliases = []
 images = []
 +++
 

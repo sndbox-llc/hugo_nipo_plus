@@ -5,7 +5,7 @@ title = "📝レポートを下書きとして保存する"
 menuTitle = "📝下書き機能"
 toc = true
 weight = 101002003
-aliases = ["/manual/write-report/draft/"]
+aliases = []
 images = []
 +++
 

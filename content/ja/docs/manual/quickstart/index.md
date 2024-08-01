@@ -8,7 +8,7 @@ toc = true
 tocdefaultopen = true
 tags = []
 weight = 1000000
-aliases = ["/quickstart/"]
+aliases = []
 images = []
 +++
 

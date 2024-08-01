@@ -5,5 +5,5 @@ toc = true
 weight = 101009000
 tags = []
 draft = true
-aliases = ["/manual/account/"]
+aliases = []
 +++

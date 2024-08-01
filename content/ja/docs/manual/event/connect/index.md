@@ -6,7 +6,7 @@ toc = true
 weight = 101008003
 draft = true
 mermaid = true
-aliases = ["/manual/task/connect/"]
+aliases = []
 images = []
 +++
 

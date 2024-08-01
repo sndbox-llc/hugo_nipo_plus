@@ -5,7 +5,7 @@ toc = true
 weight = 109002002
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/parts/checkbox/", "/docs/old/parts/checkbox/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

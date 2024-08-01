@@ -5,7 +5,7 @@ title = "📋タイムカード一覧表示・CSV出力"
 menuTitle = "📋一覧表示・CSV出力"
 toc = true
 weight = 101007002
-aliases = ["/manual/timecard/list/", "/manual/timecard/export/", "/docs/manual/timecard/export/", "/docs/manual/remove/timecard/"]
+aliases = ["/docs/manual/timecard/export/", "/docs/manual/remove/timecard/"]
 images = []
 +++
 

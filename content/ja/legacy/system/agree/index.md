@@ -5,7 +5,7 @@ toc = false
 weight = 109003005
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/system/agree/", "/docs/old/system/agree/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

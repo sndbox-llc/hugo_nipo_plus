@@ -5,7 +5,7 @@ menuTitle = "ℹ️概要"
 toc = true
 tags = ["有料プラン限定"]
 weight = 101004000
-aliases = ["/manual/analytics/"]
+aliases = []
 images = ["chart_tablet.png"]
 +++
 

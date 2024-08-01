@@ -5,7 +5,7 @@ toc = true
 weight = 109003009
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/system/price/", "/docs/old/system/price/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

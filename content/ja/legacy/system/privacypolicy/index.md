@@ -5,7 +5,7 @@ toc = false
 weight = 109003006
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/system/privacypolicy/", "/docs/old/system/privacypolicy/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

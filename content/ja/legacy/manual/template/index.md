@@ -5,7 +5,7 @@ toc = true
 weight = 109001006
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/manual/template/", "/docs/old/manual/template/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

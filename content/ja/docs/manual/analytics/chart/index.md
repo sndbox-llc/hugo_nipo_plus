@@ -5,7 +5,7 @@ title = "レポートデータを自動集計しグラフを作成する"
 menuTitle = "📈グラフの作成"
 toc = true
 weight = 101004003
-aliases = ["/manual/analytics/chart/"]
+aliases = []
 images = ["pie-chart_tablet.png"]
 +++
 

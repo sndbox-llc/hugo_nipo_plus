@@ -5,7 +5,7 @@ toc = true
 weight = 109001005
 tags = ["旧バージョン"]
 isNipo = true
-aliases = ["/old/manual/staff-manage/", "/docs/old/manual/staff-manage/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

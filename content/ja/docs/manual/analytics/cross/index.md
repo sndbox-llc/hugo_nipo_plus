@@ -5,7 +5,7 @@ title = "異なるテンプレートをまとめて集計【クロス集計】"
 menuTitle = "クロス集計"
 toc = true
 weight = 101004008
-aliases = ["/manual/analytics/cross/"]
+aliases = []
 images = ["previews_tablet.png"]
 +++
 

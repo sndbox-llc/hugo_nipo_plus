@@ -5,7 +5,7 @@ title = "📄複数のレポートをまとめてPDFに変換する"
 menuTitle = "📄PDF一括出力"
 toc = true
 weight = 101004022
-aliases = ["/manual/analytics/pdf/"]
+aliases = []
 images = []
 +++
 

@@ -5,7 +5,7 @@ title = "レポートのテンプレートを作成する"
 menuTitle = "⚙テンプレートの作成"
 toc = true
 weight = 101001101
-aliases = ["/manual/initial-setting/template/make/", "/docs/manual/remove/template/", "/docs/manual/initial-setting/template/_about/"]
+aliases = ["/docs/manual/remove/template/", "/docs/manual/initial-setting/template/_about/"]
 images = []
 mermaid = true
 

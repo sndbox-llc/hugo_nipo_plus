@@ -5,7 +5,7 @@ title = "【文字入力】レポートテンプレートに追加"
 menuTitle = "🧩文字入力"
 toc = true
 weight = 101001103
-aliases = ["/manual/initial-setting/template/text/", "/manual/org/groupsetting/template/text/"]
+aliases = []
 images = []
 +++
 

@@ -6,7 +6,7 @@ menuTitle = "🧩反復可変長入力"
 toc = true
 weight = 101001119
 images = ["sample.png"]
-aliases = ["/manual/initial-setting/template/array/"]
+aliases = []
 +++
 
 そもそも反復とはどのようなものでしょうか？例えば次のようなレポートをイメージしてください。

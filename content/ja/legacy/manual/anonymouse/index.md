@@ -5,7 +5,7 @@ toc = true
 weight = 109001018
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/manual/anonymouse/", "/docs/old/manual/anonymouse/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

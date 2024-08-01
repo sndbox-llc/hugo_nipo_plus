@@ -5,7 +5,7 @@ toc = true
 weight = 109001017
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/old/manual/leave-account/", "/docs/old/manual/leave-account/"]
+aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

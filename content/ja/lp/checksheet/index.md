@@ -50,7 +50,7 @@ NipoPlusは、自分たちでカスタマイズするため、業界最安値水
 
 <div class="row my-5">
 <div class="col-lg-4 rootMainText d-flex flex-column">
-<h3>多目的対応</h3>
+<h3>自作できる点検項目</h3>
 <p>設備点検、品質チェック、5Sチェックシートなど、様々な点検業務に対応可能な多目的チェックシートアプリです。</p>
 <div class="mt-auto">
 {{<btnFull "/tips/userfriendly/#template_samples_collection" "テンプレート一例">}}

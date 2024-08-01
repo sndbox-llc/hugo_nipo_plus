@@ -10,8 +10,6 @@ aliases = ["/old/parts/text/", "/docs/old/parts/text/"]
 aliases = ["/old/parts/select/", "/docs/old/parts/select/"]
 aliases = ["/old/parts/range/", "/docs/old/parts/range/"]
 aliases = ["/old/parts/sign/", "/docs/old/parts/sign/"]
-
-
 aliases = ["", "/docs/price/trial/"]
 aliases = ["/price/fee/", ""]
 aliases = ["/price/free/", ""]

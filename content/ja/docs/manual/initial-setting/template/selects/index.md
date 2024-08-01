@@ -431,7 +431,7 @@ graph LR;
 
 - 自身の[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の他に別の[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)が存在すること（単・複どちらでも可）
 - 上記のフォームが「語録機能」を無効にしていること
-- 無料プランでは無いこと
+- [無料プラン](/docs/price/free/)では無いこと
 
 上記条件を満たすことで動的変化設定が可能になります。
 

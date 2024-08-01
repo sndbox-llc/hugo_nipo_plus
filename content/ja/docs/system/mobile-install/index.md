@@ -164,7 +164,7 @@ AppStore・GooglePlay版のNipoPlusはストア規約や技術的な理由によ
 
 
 - CSV出力などの「ダウンロード」を伴う処理ができません
-- 有料プランのお申し込みや解約ができません
+- [有料プラン](/docs/price/_about/#fee)のお申し込みや解約ができません
 - 操作ガイドへのリンクボタンが表示されません
 - [更新頻度](/docs/system/release-note/)がPWA版に比べて遅れます
 

@@ -46,7 +46,7 @@ images = []
 
 {{<icatch filename="search-report"  msg="タグや提出者など様々な方法でレポートを検索できます" alice="here">}}
 
-一部の検索条件は無料プランではご利用できません。ご了承ください。
+一部の検索条件は[無料プラン](/docs/price/free/)ではご利用できません。ご了承ください。
 
 
 ### 検索の条件を保存する{#saveQuery}

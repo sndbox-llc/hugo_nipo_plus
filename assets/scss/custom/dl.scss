@@ -41,15 +41,9 @@ dl.basic {
   }
 }
 
-dl.faq {
-  a {
 
-    background-color: paleturquoise;
-  }
-}
 dl.faq {
   padding: 1em;
-
 
   dt {
     padding-bottom: 5px;
@@ -74,14 +68,10 @@ dl.faq {
       flex-shrink: 0;
     }
   }
+
   dd {
-    ul {
-      display: inline-block; /* UL要素をインライン要素として扱い、回り込みを回避する */
-    }
     margin-bottom: 2em;
-    display: flex;
-    align-items: flex-start;
-  
+
     &:before {
       content: "A";
       font-weight: normal;
@@ -96,13 +86,28 @@ dl.faq {
       margin-right: .5em;
       flex-shrink: 0;
     }
-  
+
     span {
-      flex-grow: 1;
+      display: inline-block;
+      vertical-align: top;
     }
-  
+
+    ul {
+      display: inline-block; /* UL要素をインライン要素として扱い、回り込みを回避する */
+    }
+
     &:last-child {
       margin-bottom: 0;
+    }
+  }
+
+  a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 }

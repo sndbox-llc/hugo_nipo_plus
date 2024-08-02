@@ -3,11 +3,16 @@ description = "NipoPlusでお支払い頂いた領収証は管理画面からダ
 tags = ["Web版限定", "要管理者権限"]
 title = "領収証をダウンロードする"
 menuTitle = "🧾領収証の発行"
-toc = true
+toc = false
 weight = 102000006
 aliases = []
 images = []
 +++
+
+
+{{<warning>}}
+このガイドはNipoPlus用です。旧Nipoで領収証発行はアプリ上ではサポートされていません
+{{</warning>}}
 
 領収証は過去の決済履歴からダウンロードできます。
 

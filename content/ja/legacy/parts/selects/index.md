@@ -36,7 +36,7 @@ aliases = []
 {{<imgproc parts_selectm4.png "手書きメモを含む日報をCSVに出力し、Excelで開いた画面ー展開あり" />}}
 
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
-選択肢の入力はNipoの[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
+選択肢の入力はNipo【旧版】の[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
 
 {{<imgproc parts_selectm5.png "集計機能を使って選択された回数を集計した画面" />}}
 
@@ -44,11 +44,11 @@ aliases = []
 詳しくは集計のページを御覧ください
 {{</alice>}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_selectm6.png "クラウド日報Nipoのアプリ上から選択肢を含むレポートを表示した画面" />}}
+{{<imgproc parts_selectm6.png "クラウド日報Nipo【旧版】のアプリ上から選択肢を含むレポートを表示した画面" />}}
 
-Nipoの受信Boxなどから表示される見た目は、1行テキストとほとんど変わりありません。
+Nipo【旧版】の受信Boxなどから表示される見た目は、1行テキストとほとんど変わりありません。
 
 ## 設定画面{#setting}
 

@@ -9,4 +9,4 @@ images = []
 robots = "noindex, follow"
 +++
 
-旧バージョンのNipoに関するガイドです。
+Nipo【旧版】に関するガイドです。2018年から現在まで稼働しています。

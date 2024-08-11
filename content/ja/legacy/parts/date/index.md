@@ -31,9 +31,9 @@ aliases = []
 
 {{<imgproc parts_date3.png "日付を含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_date4.png "クラウド日報Nipoのアプリ上から日付を表示した画面" />}}
+{{<imgproc parts_date4.png "クラウド日報Nipo【旧版】のアプリ上から日付を表示した画面" />}}
 
 ### 設定画面{#setting}
 
@@ -79,9 +79,9 @@ Nipoの受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_time3.png "時刻を含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_time4.png "クラウド日報Nipoのアプリ上から時刻を含むレポートを表示した画面" />}}
+{{<imgproc parts_time4.png "クラウド日報Nipo【旧版】のアプリ上から時刻を含むレポートを表示した画面" />}}
 
 ### 設定画面{#setting}
 

@@ -25,8 +25,8 @@ images = []
 - システムのトラブルの場合は問い合わせの前にトラブルシューティングをお試しください（案外すんなり解決することもあります）
 
 
-[▶Nipoの解約手順がわからない方はお問い合わせ前にこちらを御覧ください](/legacy/system/leave/)。  
-[▶NipoからNipoPlusへ乗り換えを検討の方はお問い合わせ前にこちらを御覧ください](/legacy/about/diff/#disabled)  
+[▶Nipo【旧版】の解約手順がわからない方はお問い合わせ前にこちらを御覧ください](/legacy/system/leave/)。  
+[▶Nipo【旧版】からNipoPlusへ乗り換えを検討の方はお問い合わせ前にこちらを御覧ください](/legacy/about/diff/#disabled)  
 [▶トラブルシューティング](/docs/system/fix/)
 
 
@@ -51,7 +51,7 @@ SEO対策・IT人材派遣・BAAS比較サイト掲載。全部間に合って�
 </div>
 <div>
 対象製品を選択してください<br>
-<label><input type="radio" name="targetRadio" value="Nipo">Nipo</label>
+<label><input type="radio" name="targetRadio" value="Nipo">Nipo【旧版】</label>
 <label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
 <div id="iconField"></div>
 </div>

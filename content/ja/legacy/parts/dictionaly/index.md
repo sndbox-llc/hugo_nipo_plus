@@ -39,9 +39,9 @@ aliases = []
 
 {{<imgproc parts_dic3.png "語録を含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_dic5.png "クラウド日報Nipoのアプリ上から語録を表示した画面" />}}
+{{<imgproc parts_dic5.png "クラウド日報Nipo【旧版】のアプリ上から語録を表示した画面" />}}
 {#setting}
 
 テンプレートの編集画面では次のような設定画面となっております。

@@ -1,5 +1,5 @@
 +++
-description = "旧バージョンNipoについて【アーカイブスページ】"
+description = "Nipo【旧版】について（アーカイブス）"
 title = "2.各種入力フォーム"
 toc = true
 weight = 109002000

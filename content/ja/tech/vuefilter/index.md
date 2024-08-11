@@ -11,7 +11,7 @@ code = true
   priority = 0.5
 +++
 
-NipoはVue2で作成されたWebシステムですが、今回Vueが3にバージョンアップしたことに追従し、NipoのソースコードもVue3へ書き換え中です。
+Nipo【旧版】はVue2で作成されたWebシステムですが、今回Vueが3にバージョンアップしたことに追従し、NipoのソースコードもVue3へ書き換え中です。
 
 ## Filter機能の廃止{#discontinuation_of_filter_feature}
 

@@ -11,7 +11,7 @@ images = []
 
 
 {{<warning>}}
-このガイドはNipoPlus用です。旧Nipoで領収証発行はアプリ上ではサポートされていません
+このガイドはNipoPlus用です。Nipo【旧版】で領収証発行が必要な方は[Nipo【旧版】の料金ページ](/legacy/system/price/)を御覧ください
 {{</warning>}}
 
 領収証は過去の決済履歴からダウンロードできます。

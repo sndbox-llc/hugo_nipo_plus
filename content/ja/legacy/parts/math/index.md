@@ -34,9 +34,9 @@ aliases = []
 
 {{<imgproc parts_math4.png "数値を含む日報を集計し、折れ線グラフ付きで表示した例" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_math5.png "クラウド日報Nipoのアプリ上から数値を含むレポートを表示した画面" />}}
+{{<imgproc parts_math5.png "クラウド日報Nipo【旧版】のアプリ上から数値を含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

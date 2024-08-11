@@ -32,16 +32,16 @@ aliases = []
 
 {{<imgproc parts_slide3.png "スライダーを含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-[スライダ入力](/docs/manual/initial-setting/template/digital/#slider)の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo上からもかんたんに行えます。
+[スライダ入力](/docs/manual/initial-setting/template/digital/#slider)の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo【旧版】上からもかんたんに行えます。
 {{<imgproc parts_slide4.png "スライダーのデータを集計する" />}}
 
 {{<alice pos="left" icon="default">}}
-CSVに出力したほうが色々細かい分析もできますが、かんたん手軽な集計で済ませたい場合はNipoに搭載された集計機能が便利です
+CSVに出力したほうが色々細かい分析もできますが、かんたん手軽な集計で済ませたい場合はNipo【旧版】に搭載された集計機能が便利です
 {{</alice>}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_slide5.png "クラウド日報Nipoのアプリ上からスライダーを含むレポートを表示した画面" />}}
+{{<imgproc parts_slide5.png "クラウド日報Nipo【旧版】のアプリ上からスライダーを含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

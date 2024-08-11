@@ -13,16 +13,16 @@ images = []
 
 ## 本サイトに使用されている画像の利用について
 
-Nipo/NipoPlusに関する画像については転載いただいても大丈夫ですが、出典元の名称（Nipo/NipoPlusの名前）を明記してください。可能であればリンクもお願いします。
+Nipo【旧版】/NipoPlusに関する画像については転載いただいても大丈夫ですが、出典元の名称（Nipo/NipoPlus）を明記してください。可能であればリンクもお願いします。
 印刷物に使用する際は「NipoPlus」の名称を画像付近に記載をしてください。  
 
 NipoPlusの画面内にはアイコンやボタン、バナーなど多くの方々のリソースをお借りして作り上げられています。
-Nipo/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fonts.google.com/icons)を利用しています。
+Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fonts.google.com/icons)を利用しています。
 
 頻繁に登場するマスコットキャラクター（名称：アリス）についてはご利用前にご相談ください。
 
 {{<alice pos="right" icon="ok">}}
-アリスはイラストレータ[ふにぐみ](https://www.ac-illust.com/main/profile.php?id=0DbjwSb1)様に書いていただいたNipoオリジナルキャラクターです
+アリスはイラストレータ[ふにぐみ](https://www.ac-illust.com/main/profile.php?id=0DbjwSb1)様に書いていただいたNipo【旧版】およびNipoPlusオリジナルキャラクターです
 {{</alice>}}
 
 本サイトで使用されている画像のすべてが当社のものと言うわけでは有りません。例えばGoogle Play StoreやAppStoreのロゴは各アプリストア元が画像を管理しています。  
@@ -48,7 +48,7 @@ Nipo/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fon
 <dt><a href="https://mcshelby.github.io/hugo-theme-relearn/">Hugo ReLearn</a></dt>
 <dd>以前に使用していたNipoPlusのホームページテーマです</dd>
 <dt><a href="https://quasar.dev/">Quasar Framework</a></dt>
-<dd>Nipo/Nipo Plusの土台となるフレームワークです</dd>
+<dd>Nipo【旧版】/Nipo Plusの土台となるフレームワークです</dd>
 <dt><a href="https://jp.vuejs.org/index.html">Vue</a></dt>
 <dd>QuasarFrameworkの礎となるものです。本ページの検索処理にも使われています</dd>
 <dt><a href="https://github.com/axios/axios">Axios</a></dt>
@@ -64,7 +64,7 @@ Nipo/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fon
 <dt><a href="https://dexie.org/">dexie</a></dt>
 <dd>indexedDBの複雑な操作をかんたんにしてくれます</dd>
 <dt><a href="https://firebase.google.com/">firebase</a></dt>
-<dd>Nipoのインフラとしてデータの保存やアクセス制御などバックエンドを行ってくれています</dd>
+<dd>NipoPlusのインフラとしてデータの保存やアクセス制御などバックエンドを行ってくれています</dd>
 <dt><a href="https://www.papaparse.com/">papaparse</a></dt>
 <dd>JSON->CSVまたはその逆のように、データの変形をサポートしてくれます。<a href="/tips/csvsc/">CSVSC</a>にも使用しています</dd>
 <dt><a href="https://eslint.org/">Eslint</a></dt>
@@ -82,7 +82,7 @@ Nipo/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fon
 ※これらのソフトウェアの中でも別のソフトウェアが使用されている可能性があります
 
 
-## Nipo およびNipoPlusを取り上げてくれた方々{#medias}
+## Nipo【旧版】およびNipoPlusを取り上げてくれた方々{#medias}
 
 - Senses Lab　様[おすすめ日報アプリ・ツールの7選を比較 | 価格（無料あり）・特徴](https://product-senses.mazrica.com/senseslab/tool-reviews/nippou-software)
 - BOXIL 様[日報をアプリで！クラウド日報ツールまとめ](https://boxil.jp/mag/a1499/)
@@ -93,7 +93,7 @@ Nipo/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fon
 - 情シス　様 日報業務を効率化する日報管理ツール7選まとめ （サイト閉鎖？リンクぎれ）
 - B2B　ハッカー 様[無料から使える！営業日報管理ツール5選](https://b2bhacker.baseconnect.in/articles/2611)
 
-### Nipoご利用のお客様からのご紹介{#special_thanks}
+### Nipo【旧版】ご利用のお客様からのご紹介{#special_thanks}
 
 - 曽我冷熱株式会社　様[クラウド版の業務日報Nipo](https://www.sogareinetsu.com/worklog/nipo/)
 - 有限会社デューク　様[デュークの日報](https://ameblo.jp/dukeblog-life/entry-12452375114.html)

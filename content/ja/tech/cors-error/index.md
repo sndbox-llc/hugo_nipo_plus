@@ -14,7 +14,7 @@ code = true
 
 ## 静的サイトの問い合わせフォームをCloud Functionsで作ろうとしてハマる{#struggling_to_create_contact_form_with_cloud_functions_for_static_website}
 
-みなさん静的サイトは作っていますか？脱Wordpressを掲げて第一弾としてNipoの姉妹アプリであるMaroudのホームページを静的サイトに作り変えました。
+みなさん静的サイトは作っていますか？脱Wordpressを掲げて第一弾としてNipoPlusの姉妹アプリであるMaroudのホームページを静的サイトに作り変えました。
 静的サイトとはHTMLが生成された状態でサーバに置いておくだけのWebサイトです。WordpressなどはPHPでアクセスの度ページを作成するので「動的サイト」と呼ばれます。
 
 静的サイトのメリットとして

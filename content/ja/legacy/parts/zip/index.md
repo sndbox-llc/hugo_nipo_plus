@@ -32,9 +32,9 @@ aliases = []
 
 {{<imgproc parts_zip3.png "住所を含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_zip4.png "クラウド日報Nipoのアプリ上から住所を含むレポートを表示した画面" />}}
+{{<imgproc parts_zip4.png "クラウド日報Nipo【旧版】のアプリ上から住所を含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

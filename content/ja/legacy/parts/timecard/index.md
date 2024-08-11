@@ -53,9 +53,9 @@ aliases = []
 
 {{<imgproc parts_tc5.png "タイムカードのデータをCSVに出力し、エクセルで開いた様子" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_tc6.png "クラウド日報Nipoのアプリ上からタイムカードを含むレポートを表示した画面" />}}
+{{<imgproc parts_tc6.png "クラウド日報Nipo【旧版】のアプリ上からタイムカードを含むレポートを表示した画面" />}}
 
 ## 設定画面{#setting}
 

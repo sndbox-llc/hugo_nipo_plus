@@ -56,7 +56,7 @@ firebase.auth().currentUser.sendEmailVerification();
 実際にプログラムするとこんな感じです
 
 ```javascript
-// Nipoのソースからコピペしたので、独自の命令とかもあります。
+// Nipo【旧版】のソースからコピペしたので、独自の命令とかもあります。
 async emailAuthMixin_sendVerifyMail () {
   try {
     await this.$firebase.auth().currentUser.sendEmailVerification();

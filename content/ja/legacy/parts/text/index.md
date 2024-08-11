@@ -37,9 +37,9 @@ OKと表示されているのは入力必須が有効になっている項目で
 
 {{<imgproc parts_text3.png "１行テキストを含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_text4.png "クラウド日報Nipoのアプリ上から1行テキストを含むレポートを表示した画面" />}}
+{{<imgproc parts_text4.png "クラウド日報Nipo【旧版】のアプリ上から1行テキストを含むレポートを表示した画面" />}}
 
 ### 1行テキストの設定画面{#setting}
 
@@ -82,9 +82,9 @@ Nipoの受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_textarea3.png "本文を含む日報をCSVに出力し、Excelで開いた画面" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_textarea4.png "クラウド日報Nipoのアプリ上から本文を含むレポートを表示した画面" />}}
+{{<imgproc parts_textarea4.png "クラウド日報Nipo【旧版】のアプリ上から本文を含むレポートを表示した画面" />}}
 
 ### 本文の設定画面{#setting}
 

@@ -1,6 +1,6 @@
 +++
-description = "旧バージョンNipoについて【アーカイブスページ】"
-title = "⚠️旧バージョンのNipo"
+description = "Nipo【旧版】について【アーカイブスページ】"
+title = "Nipo【旧版】"
 toc = true
 tags = ["旧バージョン"]
 weight = 109000000

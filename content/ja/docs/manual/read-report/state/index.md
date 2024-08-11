@@ -140,7 +140,7 @@ images = []
 ## 表示中のレポート1件をCSVに出力する{#csv_export}
 
 
-CSV出力機能はWeb版（PWA版)のNipo限定の機能です。[Android](/docs/system/mobile-install#googlePlay/)・[iOS](/docs/system/mobile-install#appStore/)  アプリではご利用になれませんので注意してください。
+CSV出力機能はWeb版（PWA版）のNipoPlus限定の機能です。[Android](/docs/system/mobile-install#googlePlay/)・[iOS](/docs/system/mobile-install#appStore/)  アプリではご利用になれませんので注意してください。
 スマホからCSVを出力したいときはPWA版としてインストールしてください。
 この記事はレポート1件をCSV出力するものです。まとめて出力するには一括CSV出力を御覧ください。
 

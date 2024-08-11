@@ -25,8 +25,8 @@ images = []
 - システムのトラブルの場合は問い合わせの前にトラブルシューティングをお試しください（案外すんなり解決することもあります）
 
 
-[▶Nipoの解約手順がわからない方はお問い合わせ前にこちらを御覧ください](/legacy/system/leave/)。  
-[▶NipoからNipoPlusへ乗り換えを検討の方はお問い合わせ前にこちらを御覧ください](/legacy/about/diff/#disabled)  
+[▶Nipo【旧版】の解約手順がわからない方はお問い合わせ前にこちらを御覧ください](/legacy/system/leave/)。  
+[▶Nipo【旧版】からNipoPlusへ乗り換えを検討の方はお問い合わせ前にこちらを御覧ください](/legacy/about/diff/#disabled)  
 [▶トラブルシューティング](/docs/system/fix/)
 
 
@@ -51,7 +51,7 @@ SEO対策・IT人材派遣・BAAS比較サイト掲載。全部間に合って�
 </div>
 <div>
 対象製品を選択してください<br>
-<label><input type="radio" name="targetRadio" value="Nipo">Nipo</label>
+<label><input type="radio" name="targetRadio" value="Nipo">Nipo【旧版】</label>
 <label><input type="radio" name="targetRadio" value="NipoPlus">NipoPlus</label>
 <div id="iconField"></div>
 </div>
@@ -155,7 +155,7 @@ function containsKeyword(message) {
   const checkOption = document.getElementsByName("targetRadio");
   const iconField = document.getElementById("iconField")
   const EMAIL_REG_EXP = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/;
-  // ラジオボタン（Nipo/NipoPLus)のクリックイベントを監視。選ばれた方のバナーをセットする
+  // ラジオボタン（NipoまたはNipoPLus)のクリックイベントを監視。選ばれた方のバナーをセットする
   checkOption.forEach(function(e) {
     e.addEventListener("click", function() {
       const selectNode = document.querySelector("input:checked[name=targetRadio]")

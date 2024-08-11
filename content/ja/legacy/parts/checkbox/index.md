@@ -37,9 +37,9 @@ aliases = []
 
 {{<imgproc parts_chkbox4.png "チェックボックスを含む日報のCSV出力し、エクセルで開いた例ー列の展開を有効" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_chkbox5.png "クラウド日報Nipoのアプリ上からチェックボックスを表示した画面" />}}
+{{<imgproc parts_chkbox5.png "クラウド日報Nipo【旧版】のアプリ上からチェックボックスを表示した画面" />}}
 
 ## 設定画面{#setting}
 

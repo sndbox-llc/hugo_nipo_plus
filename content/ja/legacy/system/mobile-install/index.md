@@ -1,5 +1,5 @@
 +++
-description = "NipoをスマートフォンにインストールするにはApp storeからダウンロードするか、PWAとしてインストールする方法があります"
+description = "Nipo【旧版】をスマートフォンにインストールするにはApp storeからダウンロードするか、PWAとしてインストールする方法があります"
 title = "スマートフォン・タブレットにインストール"
 menuTitle ="📱スマホ・タブレットにインストール"
 toc = true
@@ -18,7 +18,7 @@ aliases = ["/legacy/system/android-install/", "/legacy/system/ios-install/", "/l
 
 PWAとはかんたんに言うと**Webアプリを本当のアプリのように見せる技術**です。
 本物のアプリのように見えるので**ホーム画面にアイコンが表示**されますし、アイコンをタップすることでアプリ起動が可能です。  
-PWAとしてインストールすることで、Web版のNipoを使えます。Web版のNipoは
+PWAとしてインストールすることで、Web版のNipo【旧版】を使えます。Web版のNipo【旧版】は
 
 - 更新が最も早く常に最新バージョンが利用できる
 - App Storeなどで禁止されているサイトリンクなどの規制が無い
@@ -46,16 +46,16 @@ iPhone・iPadをご利用の方は、<a href="#web_app">Webアプリ版</a>の�
 Webアプリ版と比較して、一部の機能が利用できなくなっております
 
 
-**Safari（方位磁石のアイコンで、インターネットを開くソフトのことです）を開き、Nipoのアプリページを開いてください**。
+**Safari（方位磁石のアイコンで、インターネットを開くソフトのことです）を開き、Nipo【旧版】のアプリページを開いてください**。
 
 {{<imgproc pwa1.png "safariのメニューを開く" />}}
 {{<imgproc pwa2.png "ホーム画面に追加をタップする" />}}
 {{<imgproc pwa3.png "画面右上の追加ボタンをタップする" />}}
-{{<imgproc pwa4.png "ホーム画面にNipoが追加された" />}}
+{{<imgproc pwa4.png "ホーム画面にNipo【旧版】が追加された" />}}
 
 ## App Storeからインストールする【従来型】{#app_store}
 
-いわゆる「いつものやつ」です。App Store上にNipoのアプリが公開されていますので、以下のアイコンをタップしてアプリをインストールできます
+いわゆる「いつものやつ」です。App Store上にNipo【旧版】のアプリが公開されていますので、以下のアイコンをタップしてアプリをインストールできます
 
 [https://apps.apple.com/jp/app/nipo/id1385965600](https://apps.apple.com/jp/app/nipo/id1385965600)
 
@@ -63,13 +63,13 @@ Webアプリ版と比較して、一部の機能が利用できなくなって�
 ---
 
 
-AndroidやiOSでNipoを利用するには、2種類の方法が用意されています。このページは**Android向けのガイド**になります。[iPhone/iPadの方はこちら](/legacy/system/ios-install/)をどうぞ
+AndroidやiOSでNipo【旧版】を利用するには、2種類の方法が用意されています。このページは**Android向けのガイド**になります。[iPhone/iPadの方はこちら](/legacy/system/ios-install/)をどうぞ
 
 ## PWA版としてインストールする【推奨】{#pwa}
 
 PWAとはかんたんに言うと**Webアプリを本当のアプリのように見せる技術**です。
 本物のアプリのように見えるので**ホーム画面にアイコンが表示**されますし、アイコンをタップすることでアプリ起動が可能です。  
-PWAとしてインストールすることで、Web版のNipoを使えます。Web版のNipoは
+PWAとしてインストールすることで、Web版のNipo【旧版】を使えます。Web版のNipo【旧版】は
 
 - 更新が最も早く常に最新バージョンが利用できる
 - App Storeなどで禁止されているサイトリンクなどの規制が無い
@@ -107,17 +107,17 @@ Androidに標準でインストールされているGoogle Chromeを起動して
 {{<imgproc pwa_android3.png "アプリをインストールをタップします" />}}
 
 アプリをインストールをタップするとインストールが始まります。このとき自動でメニューは閉じられます。  
-インストールが完了したら、ここでもう一度メニューをタップしてください。すると「アプリをインストール」と書かれていた位置に、今度は「**Nipoを起動**」という項目が表示されます。nipoを起動をタップしてください
-{{<imgproc pwa_android4.png "メニューをタップし、Nipoを起動をタップします" />}}
+インストールが完了したら、ここでもう一度メニューをタップしてください。すると「アプリをインストール」と書かれていた位置に、今度は「**Nipo【旧版】を起動**」という項目が表示されます。nipo【旧版】を起動をタップしてください
+{{<imgproc pwa_android4.png "メニューをタップし、Nipo【旧版】を起動をタップします" />}}
 
-画面いっぱいにNipoの画面が表示されます。これでインストールが完了しました。  
-一度ホーム画面に戻ってみてください。デスクトップにNipoのボタンが追加されていることが確認できます。
+画面いっぱいにNipo【旧版】の画面が表示されます。これでインストールが完了しました。  
+一度ホーム画面に戻ってみてください。デスクトップにNipo【旧版】のボタンが追加されていることが確認できます。
 
-{{<imgproc pwa_android5.png "ホーム画面にNipoのボタンが追加されました。" />}}
+{{<imgproc pwa_android5.png "ホーム画面にNipo【旧版】のボタンが追加されました。" />}}
 
 ## Google Playでインストールする【従来型】{#app_store}
 
-いわゆる「いつものやつ」です。App Store上にNipoのアプリが公開されていますので、以下のアイコンをタップしてアプリをインストールできます
+いわゆる「いつものやつ」です。App Store上にNipo【旧版】のアプリが公開されていますので、以下のアイコンをタップしてアプリをインストールできます
 
 <div className="grid grid-cols-2 my-5 container mx-auto">
 
@@ -151,6 +151,6 @@ Androidに標準でインストールされているGoogle Chromeを起動して
 </dl>
 
 Webアプリ版は最も早く最新版が[リリース](/docs/system/release-note/)されます。
-Nipoのすべての機能が最も使いやすい形で提供されています。Nipoは各種バージョンがありますが、最も推奨されるものがこの「Web版Nipo」になります。Web版Nipoは以下のボタンから開始できます
+Nipo【旧版】のすべての機能が最も使いやすい形で提供されています。Nipo【旧版】は各種バージョンがありますが、最も推奨されるものがこの「Web版Nipo【旧版】」になります。Web版Nipo【旧版】は以下のボタンから開始できます
 
-<a class="btn btn-pink btn-m" href="https://nipoapp.sndbox.jp/" target="_blank" rel="noopener">Nipoを起動する</a>
+<a class="btn btn-pink btn-m" href="https://nipoapp.sndbox.jp/" target="_blank" rel="noopener">Nipo【旧版】を起動する</a>

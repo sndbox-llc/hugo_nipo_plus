@@ -62,4 +62,4 @@ Windows標準の解凍ソフトであれば文字化けは発生しません。�
 
 {{<btnCenter "/tips/csvsc/" "CSVSC">}}
 
-CSVSCはNipoのために作られたおまけアプリです。
+CSVSCはNipoPlusのために作られたおまけアプリです。

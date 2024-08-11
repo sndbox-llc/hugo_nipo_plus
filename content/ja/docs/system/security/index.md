@@ -39,9 +39,9 @@ NipoPlusでは、データベースやファイルなど、重要なデータを
 
 NipoPLUSでは、SSL通信によりデータの暗号化を実施しています。
 ユーザがサイトにアクセスした際、HTTPSプロトコルによって暗号化通信が行われ、外部からの盗聴や改ざんなどの攻撃から情報を保護します。
-[Web版Nipo](https://nipoplus.sndbox.jp/)をご利用の際はURLバーからSSL通信を確認することもできます。
+[Web版NipoPlus](https://nipoplus.sndbox.jp/)をご利用の際はURLバーからSSL通信を確認することもできます。
 
-※[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus) / [iOS版](https://apps.apple.com/jp/app/id1625797169)のNipoではURLバーは出ませんが、Web版同様安全な通信です
+※[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus) / [iOS版](https://apps.apple.com/jp/app/id1625797169)のNipoPlusではURLバーは出ませんが、Web版同様安全な通信です
 
 
 
@@ -82,7 +82,7 @@ NipoPlusが使用しているFirestoreとElasticはいづれもNo-SQL型であ�
   <dt>データは暗号化されて保存されていますか？</dt>
   <dd>すべてのデータは暗号化されて保存されます。通信回線も暗号化（Https)されて送受信されています。</dd>
   <dt>従業員のITリテラシーの教育などは行っておりますか？</dt>
-  <dd>いいえ。Nipoの開発は役員（1名）のみであり、従業員はいません。教育ではなく自己練磨を行っております。日々セキュリティに関する情報を自ら仕入れ、安全性を確保するよう努めております。</dd>
+  <dd>いいえ。NipoPlusの開発は役員（1名）のみであり、従業員はいません。教育ではなく自己練磨を行っております。日々セキュリティに関する情報を自ら仕入れ、安全性を確保するよう努めております。</dd>
   <dt>従業員による情報の流出などについての罰則や、就業規則はありますか？</dt>
   <dd>いいえ。ありません。前述の通り、開発は1名であり会社として明確なルールは定めておりません。</dd>
   <dt>開発者のマスターパスワードは定期的に変更されていますか？</dt>

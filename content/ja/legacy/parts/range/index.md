@@ -36,9 +36,9 @@ aliases = []
 
 {{<imgproc parts_range4.png "範囲を含む日報をCSVに出力し、Excelで開いた画面ー列展開あり" />}}
 
-Nipoの受信・送信BOXからは次のように表示されます
+Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_range6.png "範囲を含む日報をNipoの受信BOXから表示した画面例" />}}
+{{<imgproc parts_range6.png "範囲を含む日報をNipo【旧版】の受信BOXから表示した画面例" />}}
 
 ## 設定画面{#setting}
 

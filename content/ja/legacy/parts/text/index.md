@@ -35,7 +35,13 @@ OKと表示されているのは入力必須が有効になっている項目で
 
 [CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
-{{<imgproc parts_text3.png "１行テキストを含む日報をCSVに出力し、Excelで開いた画面" />}}
+
+{{< excelTable >}}
+a, e, o, コメント
+1行のみ, 改行はできません, 例えば作業担当者名の入力などに適しています, _
+{{< /excelTable >}}
+
+
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 

@@ -13,7 +13,7 @@ aliases = ["/legacy/parts/zip/","/legacy/parts/timecard/"]
 
 ## 語録入力{#dictionaly}
 
-{{<btnCenter "/docs/manual/initial-setting/advanced-setting/goroku/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/advanced-setting/goroku/" "NipoPlusでも使えます">}}
 
 ### 語録の入力画面{#display}
 
@@ -39,7 +39,12 @@ aliases = ["/legacy/parts/zip/","/legacy/parts/timecard/"]
 
 [CSVに出力](/tips/analytics/)すると次のように表示されます。
 
-{{<imgproc parts_dic3.png "語録を含む日報をCSVに出力し、Excelで開いた画面" />}}
+{{< excelTable >}}
+sample, test, dummy, mock, コメント
+カレー, カツ丼（これはサンプルです）, , うつのみやぎょうざ, _
+{{< /excelTable >}}
+
+
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
@@ -179,7 +184,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## タイムカード入力{#timecard}
 
-{{<btnCenter "/docs/manual/timecard/_about/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/timecard/_about/" "NipoPlusでも使えます">}}
 
 ### タイムカードの入力画面{#display}
 

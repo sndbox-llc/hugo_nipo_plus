@@ -11,7 +11,7 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/timecard/_about/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/timecard/_about/" "NipoPlusでも使えます">}}
 
 
 ## タイムカード機能とは{#about}

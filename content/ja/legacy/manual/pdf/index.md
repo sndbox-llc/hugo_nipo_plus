@@ -11,7 +11,7 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/read-report/pdf/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/read-report/pdf/" "NipoPlusでも使えます">}}
 
 ## 日報をかんたんにPDFへ変換できます。スマホからも操作可能{#pdf}
 

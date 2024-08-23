@@ -11,7 +11,7 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/write-report/rewrite/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/write-report/rewrite/" "NipoPlusでも使えます">}}
 
 ## 自分が書いた日報を削除する{#remove}
 

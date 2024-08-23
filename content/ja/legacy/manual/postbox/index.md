@@ -11,7 +11,7 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/read-report/list/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/read-report/list/" "NipoPlusでも使えます">}}
 
 
 ## 日報受信ボックスにレポートが届きます{#read_report}

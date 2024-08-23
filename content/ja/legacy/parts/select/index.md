@@ -15,7 +15,7 @@ aliases = ["/legacy/parts/selects/", "/legacy/parts/checkbox/"]
 ## １つだけ選択可能{#single}
 
 複数の回答から１つだけ選ぶ場合は選択肢（単回答）をご利用ください
-{{<btnCenter "/docs/manual/initial-setting/template/selects/#plain" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/selects/#plain" "NipoPlusでも使えます">}}
 
 
 ### 選択肢（単回答）の入力画面{#display}
@@ -34,9 +34,23 @@ aliases = ["/legacy/parts/selects/", "/legacy/parts/checkbox/"]
 
 選択肢（単回答）ではCSV出力時に「**列の展開**」を指定できます。文字では伝えにくいので実際のデータをみて比較してください  
 
-{{<imgproc parts_selecto3.png "CSV出力したデータをエクセルで開いた様子（列を展開しない）" />}}
+{{< excelTable >}}
+問1, 問2, 問3, 問4, 問5, コメント
+banana, banana, banana, banana, banana, -
+apple, banana, apple, banana, banana, -
+apple, banana, apple, banana, banana, -
 
-{{<imgproc parts_selecto4.png "CSV出力したデータをエクセルで開いた様子（列を展開する）" />}}
+{{< /excelTable >}}
+
+{{< excelTable >}}
+問1【apple】, 問1【banana】, 問2【apple】, 問2【banana】, 問3【apple】, 問3【banana】, 問4【banana】, 問4【apple】, 問5【ぺんぱいなっぽ】
+, ⭕, , ⭕, , , ⭕, , , , 
+⭕, , , ⭕, ⭕, , ⭕, , , ⭕
+⭕, , , ⭕, ⭕, , ⭕, , , , 
+{{< /excelTable >}}
+
+
+
 
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
 
@@ -87,7 +101,7 @@ Nipo【旧版】の受信Boxなどから表示される見た目は、1行テキ
 
 ## 複数個の回答が可能{#multiselect}
 
-{{<btnCenter "/docs/manual/initial-setting/template/selects/#multiple" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/selects/#multiple" "NipoPlusでも使えます">}}
 
 ### 選択肢（複数回答）の入力画面{#display}
 
@@ -158,7 +172,7 @@ Nipo【旧版】の受信Boxなどから表示される見た目は、1行テキ
 
 ## シンプルなチェックボックス{#checkbox}
 
-{{<btnCenter "/docs/manual/initial-setting/template/selects/#checkbox" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/selects/#checkbox" "NipoPlusでも使えます">}}
 
 ### チェックボックスの入力画面{#display}
 

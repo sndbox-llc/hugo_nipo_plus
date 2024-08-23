@@ -16,7 +16,7 @@ aliases = ["/legacy/parts/slide/", "/legacy/parts/rating/", "/legacy/parts/range
 
 ## シンプルな数値入力{#plain}
 
-{{<btnCenter "/docs/manual/initial-setting/template/digital/#commonNumber" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/digital/#commonNumber" "NipoPlusでも使えます">}}
 
 ### 数値の入力画面{#display}
 
@@ -33,7 +33,13 @@ aliases = ["/legacy/parts/slide/", "/legacy/parts/rating/", "/legacy/parts/range
 
 [CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
-{{<imgproc parts_math3.png "数値を含む日報をCSVに出力し、Excelで開いた画面" />}}
+
+{{< excelTable >}}
+sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
+12300, 2330, 330, 98990, _
+{{< /excelTable >}}
+
+
 
 数値パーツは[集計](/legacy/manual/analytics/)ができます。例えばスタッフごとの期間推移を表示した例は次のとおりです
 
@@ -73,7 +79,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## スワイプ操作で数値入力{#slider}
 
-{{<btnCenter "/docs/manual/initial-setting/template/digital/#slider" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/digital/#slider" "NipoPlusでも使えます">}}
 
 ### スライダーの入力画面{#display}
 
@@ -92,7 +98,14 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 [CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
-{{<imgproc parts_slide3.png "スライダーを含む日報をCSVに出力し、Excelで開いた画面" />}}
+{{< excelTable >}}
+sample, test, ダミー, モック, コメント
+4, 14, 4, 71, _
+12, 8, 8, 38, _
+
+{{< /excelTable >}}
+
+
 
 [スライダ入力](/docs/manual/initial-setting/template/digital/#slider)の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo【旧版】上からもかんたんに行えます。
 {{<imgproc parts_slide4.png "スライダーのデータを集計する" />}}
@@ -142,7 +155,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/digital/#rate" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/digital/#rate" "NipoPlusでも使えます">}}
 
 ### レートの入力画面{#display}
 
@@ -160,7 +173,16 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 レートではCSV出力時に「**列の展開**」を指定できます。
 
-{{<imgproc parts_rating3.png "CSV出力したデータをエクセルで開いた様子（列を展開しない）" />}}
+{{< excelTable >}}
+サンプル, テスト, ダミー, モック
+3, 3, 0, 3
+6, 5, 3, 3
+3, 3, 6, 3
+6, 3, 3, 3
+3, 3, 2, 3
+{{< /excelTable >}}
+
+
 {{<imgproc parts_rating4.png "CSV出力したデータをエクセルで開いた様子（列を展開する）" />}}
 
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
@@ -191,7 +213,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## 範囲入力{#range}
 
-{{<btnCenter "/docs/manual/initial-setting/template/digital/#range" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/digital/#range" "NipoPlusでも使えます">}}
 
 ### 範囲の入力画面{#display}
 
@@ -210,7 +232,13 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 範囲入力をCSVに出力する際は列を展開するか展開しないかを選択できます。
 列を展開しないで[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
-{{<imgproc parts_range3.png "範囲を含む日報をCSVに出力し、Excelで開いた画面ー列展開なし" />}}
+{{< excelTable >}}
+sample, test, mock, dummy, コメント
+5〜10, 5〜10, 5〜10, 15〜144, 
+14〜20, 0〜5, 1〜200, 125〜144, _
+{{< /excelTable >}}
+
+
 
 列を展開してCSVに出力すると次のように表示されます
 

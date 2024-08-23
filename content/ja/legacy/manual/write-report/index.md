@@ -11,7 +11,7 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/write-report/write/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/write-report/write/" "NipoPlusでも使えます">}}
 
 
 ## たったの3ステップで日報が書けます{#howto}

@@ -11,7 +11,7 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/date_time/#point" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/date_time/#point" "NipoPlusでも使えます">}}
 
 ## 日付の入力画面{#display}
 
@@ -29,7 +29,12 @@ aliases = []
 
 [CSVに出力](/tips/analytics/)すると次のように表示されます。
 
-{{<imgproc parts_date3.png "日付を含む日報をCSVに出力し、Excelで開いた画面" />}}
+{{< excelTable >}}
+ダミー, サンプル, テスト, モック, コメント
+2021/12/8, 2021/12/1, 2021/12/8, 2021/12/30, _
+{{< /excelTable >}}
+
+
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
@@ -60,7 +65,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 ---
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/date_time/#point" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/date_time/#point" "NipoPlusでも使えます">}}
 
 ## 時刻の入力画面{#display}
 
@@ -77,7 +82,12 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 [CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
-{{<imgproc parts_time3.png "時刻を含む日報をCSVに出力し、Excelで開いた画面" />}}
+{{< excelTable >}}
+sample, test, mock, dummy, コメント
+12:23, 11:14, 16:24, 22:06, _
+{{< /excelTable >}}
+
+
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 

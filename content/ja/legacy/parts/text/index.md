@@ -12,7 +12,7 @@ aliases = []
 +++
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/text/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/text/" "NipoPlusでも使えます">}}
 
 ## 1行テキストの入力画面{#display}
 
@@ -63,7 +63,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 ---
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/text/" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/text/" "NipoPlusでも使えます">}}
 
 ## 本文の入力画面{#display}
 

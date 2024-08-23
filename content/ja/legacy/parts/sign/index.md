@@ -13,7 +13,7 @@ aliases = ["/legacy/parts/picture/"]
 
 ## 署名・イラスト{#signetureCanvas}
 
-{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "NipoPlusでも使えます">}}
 
 
 
@@ -53,7 +53,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 ---
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "NipoPlusでも使えます">}}
 
 ### 手書きメモの入力画面{#display}
 
@@ -91,7 +91,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## 写真{#pictures}
 
-{{<btnCenter "/docs/manual/initial-setting/template/binarys/#picture" "新バージョンでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/binarys/#picture" "NipoPlusでも使えます">}}
 
 ### 写真画像の入力画面{#display}
 
@@ -109,7 +109,12 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 CSVに出力すると対応外とのエラーが表示されます
 
-{{<imgproc parts_pic3.png "写真画像を含む日報をCSVに出力し、Excelで開いた画面" />}}
+{{< excelTable >}}
+sample, test, dummy, mock, コメント
+画像は出力不可, 画像は出力不可, 画像は出力不可, 画像は出力不可, _
+{{< /excelTable >}}
+
+
 
 {{<alice pos="left" icon="default">}}
 写真やイラストなどのデータは残念ですがCSVに出力できません

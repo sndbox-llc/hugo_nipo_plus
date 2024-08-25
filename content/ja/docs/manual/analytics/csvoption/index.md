@@ -23,7 +23,7 @@ CSV出力設定には「展開」に関する設定があります。
 展開がOFFの場合は1列で表現し、ONの場合は項目の数だけ列を増やし（展開し）ます。
 以下は[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)をCSV出力したときのイメージです。選択肢は「Windows,Mac,Android,iOS」があるとします。
 
-### 列展開をOFFにして出力した例
+### 列展開をOFFにして出力した例{#off_output_example}
 
 {{< excelTable >}}
 日付, OS, , , 
@@ -40,7 +40,7 @@ CSV出力設定には「展開」に関する設定があります。
 
 
 
-### 列展開をONにして出力した例
+### 列展開をONにして出力した例{#on_output_example}
 
 {{< excelTable >}}
 日付, 【OS】Windows, 【OS】Mac, 【OS】Android, 【OS】iOS

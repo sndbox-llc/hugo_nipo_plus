@@ -12,6 +12,11 @@ images = []
 文字入力フォームはレポートにシンプルな文字の入力フォームを追加します。  
 改行を入れることで入力エリアが自動で広がります。
 
+{{<info>}}
+[文字入力フォームの入力画面](/docs/manual/write-report/parts/#text)はこちらから確認できます
+{{</info>}}
+
+
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
 |✗|⭕|⭕|⭕|
@@ -29,7 +34,6 @@ images = []
 {{<icatch filename="template-edit-text" msg="テキスト入力をテンプレートに追加した画面イメージです" alice="here">}}
 
 
-実際に[日報を書く際の入力イメージ](/docs/manual/write-report/parts/#text)はこちらから確認できます。
 
 <details>
   <summary>詳細設定</summary>

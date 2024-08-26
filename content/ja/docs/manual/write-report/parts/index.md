@@ -13,12 +13,100 @@ images = []
 基本的にはテンプレートに沿って報告内容を記述するだけです。  
 多くは直感的に操作が可能です。
 
+## 文字入力系
 
-## 署名の書き方{#sign}
+キーボードを使って自由に入力できます。現在は「テキスト入力」の1種類です。
+
+### テキスト入力{#text}
+
+
+{{<icatch filename="text-preview" msg="シンプルな文字入力です。改行も使えるし、URLを貼ればリンクもできるよ" alice="pc">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/text/)
+
+
+
+## 選択入力系
+
+あらかじめ回答リストを用意し、選ぶことで入力できるフォームです。手打ちの手間が無く、タブレットやスマートフォンとの相性もバグツンです。
+入力方式はラジオ式とプルダウン式の2種類があります。プルダウンでは文字入力による絞り込みが利用できるため**選択肢が多い場合はプルダウンを推奨**します。
+
+
+### 選択肢入力（単体）{#select}
+
+
+{{<icatch filename="select" msg="あらかじめ用意したリストから選ぶだけ" alice="ok">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#plain)
+
+### 選択肢入力（複数回答）{#select2}
+
+
+{{<icatch filename="select2" msg="あらかじめ用意したリストから選ぶだけ。見た目はチェックボックス" alice="ok">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#multiple)
+
+
+
+
+### 選択肢(2層式)入力{#selectLayer}
+
+レポート作成直後の画面では問1しか表示されませんが、問1を選択すると自動で問2が出現します。**問2の内容は問1によって変化**します。
+入力必須が設定されている場合は、**問2まで回答して初めて提出が可能**になります。
+
+
+{{<icatch filename="select2-preview" msg="問1の選択によって問2の解凍リストが変化します。問２を忘れずに入力しましょう" alice="ok">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#layerd)
+
+
+
+
+
+### チェックボックス{#checkbox}
+
+クリックでONになり、もう一度クリックするとOFFになります。
+
+{{<icatch filename="checkbox-preview"  msg="タップでON.もう一度タップでOFF。それだけです" alice="phone">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#checkbox)
+
+
+## 日付時刻入力系
+
+
+### 日付と時刻（時点）{#datetime}
+
+{{<icatch filename="date-time" msg="日付や時刻、期間等を入力するにはこれが一番！" alice="here">}}
+
+
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/date_time/#point)
+
+
+### 日付と時刻（範囲）{#datetimes}
+
+正しい日付や時刻を入力してください。正しい入力がされると経過時間が自動で表示されます。
+
+{{<icatch filename="datetimes-preview" msg="開始日時と終了日時を入力します。正しい日時が入力されると経過時間が自動で表示されます">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/date_time/#range)
+
+
+
+
+
+## バイナリデータ入力系 
+
+
+### 署名の書き方{#sign}
 
 署名は「書き足す」ボタンを押すことで描画キャンバスが表示されます。
 
 {{<icatch filename="sign-input" msg="署名ボタンをタップすると署名入力ウインドウがポップ表示されます" alice="tablet">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#sign)
+
 
 描画キャンバスは署名用とイラスト用の２種類があります。
 署名用キャンパス▼
@@ -32,7 +120,7 @@ images = []
 
 
 
-## 写真{#picture}
+### 写真{#picture}
 
 PCからはドラッグ操作で写真をレポートに添付できます。スマートフォン・タブレットの場合はボックスをタップして追加してください。  
 ※[無料プラン](/docs/price/free/)では低画質でUPされます
@@ -40,26 +128,30 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="picinput" msg="PCはドラッグ＆ドロップで追加、スマホやタブレットの場合はボタンをタップして写真追加します" alice="pc">}}
 
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#picture)
+
+
 レポート作成時は高さ制限があるため縦長の画像は上下がカットされたように見えますが、単にクロップされているだけです。データ自体は残っているのでご安心ください。
 全体の写真はレポート受信時に表示できるようになります。
 
 
-## ファイル{#file}
+### ファイル{#file}
 
 {{<icatch filename="file-input" msg="おもにPCで利用を想定しています。ドラッグでファイルを追加できます" alice="pc">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#file)
+
 
 レポートにファイルを添付するにはドラッグ＆ドロップ、またはフォームをタップしてファイルを追加します。
 1つの入力フォームに対して10ファイルまで添付可能です。
 1ファイルに付き1MBを超えることはできません。
 
-## チェックボックス{#checkbox}
-
-クリックでONになり、もう一度クリックするとOFFになります。
-
-{{<icatch filename="checkbox-preview"  msg="タップでON.もう一度タップでOFF。それだけです" alice="phone">}}
+## 数値入力系
 
 
-## 数値入力{#number}
+
+
+### 数値入力{#number}
 
 キーボードを使って入力します。電卓キーボタンを押すことで専用テンキーを表示して入力することも可能です。  
 テンキーはかなり大きなサイズで、年配の方でもスムーズに入力が可能です。
@@ -68,65 +160,68 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="math-input" msg="キーボードから数値を入力します。タッチパネル対応なら専用入力も使いやすいのでおすすめ" alice="tablet">}}
 
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#commonNumber)
 
 
-## レート入力{#rate}
+
+### レート入力{#rate}
 
 クリックで任意の星の数を入力できます。同じ数をもう一度クリックすると未入力状態に戻ります。
 
 {{<icatch filename="rate-preview" msg="タップで星の数を選びます。同じ数をもう一度タップすると★0の状態になります">}}
 
-## スライダ入力{#slider}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#rate)
+
+
+
+
+
+### スライダ入力{#slider}
 
 ドラッグやスワイプでレール上のつまみを操作し、数値を入力します。レールの上限、下限を超えて入力することはできません。
 
 {{<icatch filename="slider-preview" msg="ドラッグやスワイプでつまみを動かします" alice="here">}}
 
-## 範囲入力{#range}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#slider)
+
+
+### 範囲入力{#range}
 
 ドラッグやスワイプでレール上のつまみを操作し、数値を入力します。２つあるつまみは１つづつ操作してください。
 
 {{<icatch filename="range-preview"  msg="ドラッグやスワイプでつまみを動かします。つまみは2つあるので1つづつ操作します" alice="tablet">}}
 
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#range)
 
-## 算術入力{#calc}
+
+
+### 算術入力{#calc}
 
 算術フォームは自動計算されるため、手動で入力はできません。
 
 {{<icatch filename="calc-preview" msg="自動で入力されるので手動で入力はできません。" alice="guide">}}
 
-
-## 日付と時刻（範囲）入力{#datetimes}
-
-正しい日付や時刻を入力してください。正しい入力がされると経過時間が自動で表示されます。
-
-{{<icatch filename="datetimes-preview" msg="開始日時と終了日時を入力します。正しい日時が入力されると経過時間が自動で表示されます">}}
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#calc)
 
 
 
-## 選択肢(2層式)入力{#selectLayer}
-
-レポート作成直後の画面では問1しか表示されませんが、問1を選択すると自動で問2が出現します。**問2の内容は問1によって変化**します。
-
-{{<icatch filename="select2-preview" msg="問1の選択によって問2の解凍リストが変化します。問２を忘れずに入力しましょう" alice="ok">}}
-
-入力方式はラジオ式とプルダウン式の2種類があります。プルダウンでは文字入力による絞り込みが利用できるため**選択肢が多い場合はプルダウンを推奨**します。
-入力必須が設定されている場合は、**問2まで回答して初めて提出が可能**になります。
-
-## テキスト入力{#text}
-
-実際に[レポートを書く](/docs/manual/write-report/write/)際は次のように表示されます。
-
-{{<icatch filename="text-preview" msg="シンプルな文字入力です。改行も使えるし、URLを貼ればリンクもできるよ" alice="pc">}}
+## その他
 
 
-## 反復入力{#array}
 
-[反復入力](/docs/manual/initial-setting/template/array/)の設計によって列は異なります。
+### 反復入力{#array}
+
+
+設計によって見た目が異なります。この画像は一例です。
+
+{{<icatch filename="array-input" msg="反復入力の偶数行は水色の背景で表示されます。視認性UP" alice="ok">}}
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/array/)
 
 
 表示形式が**表・カードの2種類から切替が可能**です。スマートフォンではカード表示が初期状態になります。
 画像では見えていませんが、1行追加ボタンをクリックすると新規の行が一番下に挿入されます。
 行を削除したいときは各行の右端にあるゴミ箱アイコンをクリックします。
 
-{{<icatch filename="array-input" msg="反復入力の偶数行は水色の背景で表示されます。視認性UP" alice="ok">}}

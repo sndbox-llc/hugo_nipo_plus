@@ -39,7 +39,7 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 <li>グループからスタッフを追放する</li>
 </dd>
 <dt>スタッフ</dt>
-<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>や集計など一般的なことが行なえますが、グループ全体に関する設定は一切不可</dd>
+<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>や集計など一般的なことが行なえますが、<a href="/docs/manual/initial-setting/setting-group/">グループ全体に関する設定</a>は一切不可</dd>
 </dl>
 
 

@@ -10,14 +10,11 @@ images = []
 
 レポートはロックが掛かると修正できません。ロックは以下のケースで発生します
 
-- レポートが承認されたとき
-- レポートが承認リレーに入ったとき
+- レポートが[承認](/docs/manual/read-report/state/#agree)されたとき
+- レポートが[承認リレー](/docs/manual/read-report/state/#relay)に入ったとき
 
-ロックを解除するにはそのレポートを一度棄却する必要があります。
-
-{{<btnCenter "/docs/manual/read-report/state/" "承認・棄却・既読について">}}
-
-レポートを修正できるのはレポートを書いた本人、または提出先に指定されたスタッフのみです。
+ロックを解除するにはその[レポートを棄却](/docs/manual/read-report/state/#reject)する必要があります。  
+レポートを修正できるのはレポートを書いた本人、または[提出先に指定されたスタッフ](/docs/manual/write-report/dist/)のみです。
 
 ## レポートを書いた本人が修正する{#owner}
 
@@ -26,12 +23,8 @@ images = []
 1. レポート編集画面に遷移
 1. 内容を修正して修正ボタンをクリック
 
-修正するレポートは送信BOXから見つけることができます。あるいは通知エリアから直接、修正するレポートへ飛ぶこともできます。
+修正するレポートは[送信BOX](/docs/manual/read-report/list/)や[カレンダー](/docs/manual/read-report/calendar/)から探してください。
 
-<div class="row justify-content-center">
-<div class="col-sm-16 col-md-5">{{<button "/docs/manual/read-report/list/" "保存箱について">}}</div>
-<div class="col-sm-16 col-md-6">{{<button "/docs/manual/utils/notice/" "アプリ内通知">}}</div>
-</div>
 
 {{<icatch filename="edit" msg="レポートを開いて修正ボタンをクリック！承認済みのレポートは修正できません" alice="here">}}
 
@@ -41,17 +34,16 @@ images = []
 - 「提出」ボタンが「修正」ボタンに変化
 - 下書きの利用不可
 
-それ以外は通常のレポート作成と同様の手順で修正できます。
+それ以外は[通常のレポート作成](/docs/manual/write-report/write/)と同様の手順で修正できます。
 
-{{<btnCenter "/docs/manual/write-report/write/" "レポートを書く">}}
 
 ## 他のスタッフのレポートを代理修正する{#agent}
 
 レポートの提出先に指定されたスタッフが承認前に代理で修正することも可能です。
 軽微な誤字脱字の修正の際にご利用ください。
-他人のレポートを修正するという行為になりますので**修正は慎重**に行ってください。
+他人のレポートを修正するという行為になりますので**修正は慎重**に行ってください。  
+代理修正は改ざん防止の観点から[ログ](/docs/manual/utils/log/)に残ります
 
-{{<alice pos="right" icon="shield">}}代理修正は改ざん防止の観点からログに残ります{{</alice>}}
 
 
 ## 修正後の状態について{#state}
@@ -60,5 +52,5 @@ images = []
 
 {{<icatch filename="report-status-change" msg="修正されたレポートは状態が「修正」になります" alice="guide">}}
 
-もし承認リレーが組まれていたレポート出会った場合は、承認リレーがどこまで進んでいても1から振り出しに戻ります。
+もし承認リレーが組まれていたレポートであった場合は、承認リレーがどこまで進んでいても1から振り出しに戻ります。
 

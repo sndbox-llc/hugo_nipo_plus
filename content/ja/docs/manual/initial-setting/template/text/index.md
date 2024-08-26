@@ -1,7 +1,7 @@
 +++
 description = "テンプレートカスタムパーツの1つ。本文や備考・引き継ぎといった文字入力エリアをレポートに追加できます"
 tags = ["テンプレートパーツ", "テンプレート"]
-title = "【文字入力】レポートテンプレートに追加"
+title = "文字入力フォーム"
 menuTitle = "🧩文字入力"
 toc = true
 weight = 101001103
@@ -9,12 +9,12 @@ aliases = []
 images = []
 +++
 
-文字入力フォームはレポートにシンプルな文字の入力フォームを追加します。
+文字入力フォームはレポートにシンプルな文字の入力フォームを追加します。  
 改行を入れることで入力エリアが自動で広がります。
 
 |[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|
-|✗|○|○|○|
+|✗|⭕|⭕|⭕|
 
 {{<icatch filename="input-method-keyboard" msg="文字入力フォームはレポートの本文や引き継ぎの入力に最適" alice="ok">}}
 
@@ -29,6 +29,7 @@ images = []
 {{<icatch filename="template-edit-text" msg="テキスト入力をテンプレートに追加した画面イメージです" alice="here">}}
 
 
+実際に[日報を書く際の入力イメージ](/docs/manual/write-report/parts/#text)はこちらから確認できます。
 
 <details>
   <summary>詳細設定</summary>

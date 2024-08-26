@@ -14,7 +14,8 @@ images = []
 タイムカードの一覧を見るには「タイムカード一覧」をクリックします。
 
 
-{{<imgproc timecard-list.webp "タイムカード一覧表示画面" />}}
+{{<iTablet filename="timecard-list" msg="タイムカード一覧表示画面" alice="ok">}}
+
 
 自分自身のタイムカード一覧が表示されました。
 

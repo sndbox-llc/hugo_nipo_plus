@@ -30,7 +30,9 @@ images = []
 ダウンロードをクリックするとStripeの領収証（請求書）発行画面が新しいウインドウで起動します。
 ここで「領収証のダウンロード」をクリックします。
 
-{{<imgproc stripe-receipt.webp "Stripeの領収証発行画面。領収証のダウンロードをクリックして領収証を取得できます" />}}
+{{<iTablet filename="stripe-receipt" msg="Stripeの領収証発行画面。領収証のダウンロードをクリックして領収証を取得できます" alice="ok">}}
+
+
 
 
 

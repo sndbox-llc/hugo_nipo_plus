@@ -155,7 +155,9 @@ Excelを使った集計では、CSV出力オプションで「案件を出力」
 
 NipoPlusの集計機能でも案件ごとに分けた集計が可能です。結構簡単です。
 
-{{<imgproc anken-calc.webp "NipoPlusの集計では専門の知識が無くても簡単に案件ごとに分けて集計が可能です" />}}
+{{<iTablet filename="anken-calc" msg="NipoPlusの集計では専門の知識が無くても簡単に案件ごとに分けて集計が可能です" alice="book">}}
+
+
 
 
 ## 日報のデータからKPIを設定して目標までの到達状況を知る{#kpi}

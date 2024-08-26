@@ -404,7 +404,10 @@ graph LR;
 
 例えば[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)（単）を参照先として指定するには次の画像のようになります。
 
-{{<imgproc dinamic-selection-setting.webp "動的変化の設定画面" />}}
+
+{{<iTablet filename="dinamic-selection-setting" msg="動的変化の設定画面" alice="ok">}}
+
+
 
 [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#multiple)（複）を参照先として指定する場合、参照先の値は複数選択することになりますが、**すべてにマッチしたとき条件が成立**となります。一部一致ではありません。
 

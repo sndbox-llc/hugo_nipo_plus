@@ -9,9 +9,10 @@ aliases = []
 images = []
 +++
 
+NipoPlusは設計されたテンプレートに沿って入力します。10種類以上の入力フォームを自由に組み合わせて作られるため、フォームによっては入力方式がわかりにくいものもあるかもしれません。  
+このページではNipoPlusで利用できる全ての入力方式について画像を交えて解説しています。  
+なお、多くは直感的に操作可能です。
 
-基本的にはテンプレートに沿って報告内容を記述するだけです。  
-多くは直感的に操作が可能です。
 
 ## 文字入力系
 
@@ -24,7 +25,7 @@ images = []
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/text/)
 
-
+シンプルな文字入力です。特にそれ以上の説明は有りません。
 
 ## 選択入力系
 
@@ -39,6 +40,8 @@ images = []
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#plain)
 
+該当する選択肢をタップやクリックで選択します。1つだけ選択可能です。「入力モード切替」を押すとプルダウン・ラジオボタンを交互に切り替えます。
+
 ### 選択肢入力（複数回答）{#select2}
 
 
@@ -46,30 +49,33 @@ images = []
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#multiple)
 
+該当する選択肢をタップやクリックで選択します。任意の数を選択可能です。「入力モード切替」を押すとプルダウン・チェックボタンを交互に切り替えます。
 
 
 
 ### 選択肢(2層式)入力{#selectLayer}
 
-レポート作成直後の画面では問1しか表示されませんが、問1を選択すると自動で問2が出現します。**問2の内容は問1によって変化**します。
-入力必須が設定されている場合は、**問2まで回答して初めて提出が可能**になります。
 
 
 {{<icatch filename="select2-preview" msg="問1の選択によって問2の解凍リストが変化します。問２を忘れずに入力しましょう" alice="ok">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#layerd)
 
+レポート作成直後の画面では問1しか表示されませんが、問1を選択すると自動で問2が出現します。**問2の内容は問1によって変化**します。
+入力必須が設定されている場合は、**問2まで回答して初めて提出が可能**になります。
 
 
 
 
 ### チェックボックス{#checkbox}
 
-クリックでONになり、もう一度クリックするとOFFになります。
 
 {{<icatch filename="checkbox-preview"  msg="タップでON.もう一度タップでOFF。それだけです" alice="phone">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#checkbox)
+
+クリックでONになり、もう一度クリックするとOFFになります。
+
 
 
 ## 日付時刻入力系
@@ -77,21 +83,20 @@ images = []
 
 ### 日付と時刻（時点）{#datetime}
 
-{{<icatch filename="date-time" msg="日付や時刻、期間等を入力するにはこれが一番！" alice="here">}}
-
-
+{{<icatch filename="date-time" msg="日付や時刻が入力できます" alice="here">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/date_time/#point)
 
+正しい形式で日付や時刻を入力します。カレンダーなどのデイトピッカーを使うことで正しい値を間違えずに入力可能です。直接キーボードから打ち込む際は入力ミスに注意！
 
 ### 日付と時刻（範囲）{#datetimes}
 
-正しい日付や時刻を入力してください。正しい入力がされると経過時間が自動で表示されます。
 
 {{<icatch filename="datetimes-preview" msg="開始日時と終了日時を入力します。正しい日時が入力されると経過時間が自動で表示されます">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/date_time/#range)
 
+正しい日付や時刻入力がされると経過時間が自動で表示されます。
 
 
 

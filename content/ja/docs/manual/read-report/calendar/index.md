@@ -11,8 +11,13 @@ draft=false
 
 
 {{<info>}}
-細かい絞り込みが必要な場合や[無料プラン](/docs/price/free/)の方は[受信BOX](/docs/manual/read-report/list/)を参照してください
+細かい絞り込みが必要な場合は[受信BOX](/docs/manual/read-report/list/)をご利用ください
 {{</info>}}
+
+{{<info>}}
+カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+{{</info>}}
+
 
 
 提出された日報はカレンダー上に掲載されます。日別で日報を読みたい場合はカレンダーが便利です。
@@ -21,6 +26,7 @@ draft=false
 2. 右パネル上の方にある「受・送」が「受」になっていることを確認する
 3. 右パネルの「レポートを表示」がONであることを確認する
 4. カレンダー上の「◯件のレポート」という文字をクリックする
+
 
 {{<icatch filename="read-report-calendar" msg="カレンダー画面です。レポートや予定が１枚のカレンダー上にまとめて表示されます">}}
 

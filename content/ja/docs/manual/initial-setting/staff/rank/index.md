@@ -54,6 +54,6 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 <dt>ゲスト</dt>
 <dd>
 <a href="/docs/manual/write-report/write/">レポートの作成</a>のみ可能<br>
-※外部の利用者にレポートを書いてもらうことを想定しており用途としては限定的です
+※外部の利用者にレポートを書いてもらうことを想定しており用途としては限定的です（例えばアンケートなどに）
 </dd>
 </dl>

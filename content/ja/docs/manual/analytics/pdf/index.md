@@ -23,7 +23,7 @@ images = []
 <dl class="basic">
 <dt><a href="/docs/manual/read-report/list/#calendar">カレンダーを使う</a></dt>
 <dd>カレンダーに表示されているレポートをまとめてPDF出力します</dd>
-<dt><a href="/docs/manual/read-report/list/#listbox">受信BOXからPDF出力</a></dt>
+<dt><a href="/docs/manual/read-report/list">受信BOXからPDF出力</a></dt>
 <dd>現在の受信BOX一覧に表示されているレポートをまとめてPDF出力します</dd>
 <dt>集計画面からPDF出力</dt>
 <dd>集計期間で指定した期間に該当するレポートをまとめてPDF出力します</dd>
@@ -68,43 +68,4 @@ images = []
 
 
 ---
-
-
-
-## PDFの出力設定{#setting}
-
-※この機能は[有料プラン限定](/docs/price/_about/#fee)です  
-
-PDF出力設定では以下の設定が可能です。
-
-- 余白や向き、透かし文字などレイアウトに関するもの
-- レポート本文内の文字やタイトルなどデータに関するもの
-
-ここで説明する設定は**PDF出力時に1回限り有効な仮のデータ**です。変更内容は保存されず、PDF出力後に破棄されます。
-レイアウトに関する設定を永続して記憶したい場合は[テンプレート編集画面](/docs/manual/initial-setting/template/make/#pdf)の設定から変更してください。
-
-
-## 1度限り有効な設定を行う{#once}
-
-1. PDF出力（一括）の下向き三角ボタンをクリック
-1. PDF出力設定をクリック
-1. PDF設定画面がポップアップで表示される
-1. 設定を行い、「現在の設定でPDF出力」をクリック
-
-{{<icatch filename="pdf-option" msg="元データを書き換えてPDF出力できます。見せられない内容はここでサクッと修正しましょう" alice="here">}}
-
-{{<nextArrow>}}
-
-ポップアップでPDFに出力する前の設定が表示されます。
-
-{{<icatch filename="pdf-setting" msg="PDF出力の設定が可能です。この設定は１回きりの使い捨て。永続保存はできません">}}
-
-本文の編集、レイアウトの編集が行なえます。内容を修正の上で「現在の設定でPDF出力」をクリックすると指定した内容とデータでPDFの作成が行われます。
-
-{{<alice pos="right" icon="here">}}
-閉じるボタンを押してポップアップウインドウが閉じられた時点で変更内容は全てクリアされるので注意してください
-{{</alice>}}
-
-「PDF一括出力に追加」をクリックすると修正した内容のまま一括出力に追加されます。
-
 

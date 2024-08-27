@@ -9,6 +9,9 @@ aliases = []
 images = []
 +++
 
+{{<info>}}
+１件だけPDF出力するには[レポートを読む](/docs/manual/read-report/state/#pdf_export)の記事を御覧ください
+{{</info>}}
 
 {{<warning>}}
 一括PDF出力は50件を超えない範囲で操作してください
@@ -18,9 +21,9 @@ images = []
 一括PDF出力はいくつかのやり方があります。
 
 <dl class="basic">
-<dt><a href="/docs/manual/read-report/calendar/">カレンダーを使う</a></dt>
+<dt><a href="/docs/manual/read-report/list/#calendar">カレンダーを使う</a></dt>
 <dd>カレンダーに表示されているレポートをまとめてPDF出力します</dd>
-<dt><a href="/docs/manual/read-report/list/">受信BOXからPDF出力</a></dt>
+<dt><a href="/docs/manual/read-report/list/#listbox">受信BOXからPDF出力</a></dt>
 <dd>現在の受信BOX一覧に表示されているレポートをまとめてPDF出力します</dd>
 <dt>集計画面からPDF出力</dt>
 <dd>集計期間で指定した期間に該当するレポートをまとめてPDF出力します</dd>
@@ -28,10 +31,10 @@ images = []
 
 ## カレンダー上に表示されている日報を一括でPDF出力
 
-1. [カレンダー](/docs/manual/read-report/calendar/)を開く
-3. 「◯件PDF」と表示されたボタンをクリック
-5. PDF生成完了を待つ
-6. 完了後にポップで通知
+1. [カレンダー](/docs/manual/read-report/list/#calendar)を開く
+2. 「◯件PDF」と表示されたボタンをクリック
+3. PDF生成完了を待つ
+4. 完了後にポップで通知
 
 {{<icatch filename="calendar-pdf" msg="カレンダー上に表示されているレポートをワンクリックでまとめてPDFに変換する">}}
 
@@ -68,7 +71,7 @@ images = []
 
 
 
-#### PDFの出力設定{#setting}
+## PDFの出力設定{#setting}
 
 ※この機能は[有料プラン限定](/docs/price/_about/#fee)です  
 
@@ -81,7 +84,7 @@ PDF出力設定では以下の設定が可能です。
 レイアウトに関する設定を永続して記憶したい場合は[テンプレート編集画面](/docs/manual/initial-setting/template/make/#pdf)の設定から変更してください。
 
 
-#### 1度限り有効な設定を行う{#once}
+## 1度限り有効な設定を行う{#once}
 
 1. PDF出力（一括）の下向き三角ボタンをクリック
 1. PDF出力設定をクリック

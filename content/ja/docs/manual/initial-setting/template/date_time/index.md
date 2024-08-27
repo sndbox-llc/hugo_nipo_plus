@@ -32,7 +32,7 @@ images = []
 ## 日付と時刻（時点）{#point}
 
 
-|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/)|
+|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/#searchFunction)|
 |:---:|:---:|:---:|:---:|
 |✗|○|○|○|
 
@@ -105,7 +105,7 @@ images = []
 
 {{<icatch filename="datetimes-icatch" msg="作業時間や期間、日付の計算も可能です"  alice="ok">}}
 
-|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/)|
+|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/#searchFunction)|
 |:---:|:---:|:---:|:---:|
 |○|○|○|○|
 

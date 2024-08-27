@@ -23,7 +23,7 @@ images = []
 1. レポート編集画面に遷移
 1. 内容を修正して修正ボタンをクリック
 
-修正するレポートは[送信BOX](/docs/manual/read-report/list/)や[カレンダー](/docs/manual/read-report/calendar/)から探してください。
+修正するレポートは[送信BOX](/docs/manual/read-report/list/#listbox)や[カレンダー](/docs/manual/read-report/list/#calendar)から探してください。
 
 
 {{<icatch filename="edit" msg="レポートを開いて修正ボタンをクリック！承認済みのレポートは修正できません" alice="here">}}

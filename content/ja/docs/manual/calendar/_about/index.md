@@ -15,7 +15,7 @@ aliases = ["/docs/manual/calendar/setting/", "/docs/manual/calendar/use/"]
 {{</info>}}
 
 
-[レポート保存箱](/docs/manual/read-report/list/)と[予定管理](/docs/manual/event/list/)、２つの機能を一箇所で管理できます。  
+[レポート保存箱](/docs/manual/read-report/list/#listbox)と[予定管理](/docs/manual/event/list/)、２つの機能を一箇所で管理できます。  
 カレンダを表示するには左メニューから「カレンダー」を選択します。
 
 
@@ -23,7 +23,7 @@ aliases = ["/docs/manual/calendar/setting/", "/docs/manual/calendar/use/"]
 {{<icatch filename="calendar" msg="カレンダーモードではレポートの提出日や枚数が月単位で俯瞰できます"  alice="here">}}
 
 
-カレンダは[レポート保存箱](/docs/manual/read-report/list/)にあるレポートを決まったルールで各セルに描画します。  
+カレンダは[レポート保存箱](/docs/manual/read-report/list/#listbox)にあるレポートを決まったルールで各セルに描画します。  
 予定についても同様で、決まったルールで各セルに描画します。各セルにあるボタンをクリックすることで、該当のレポートや予定をポップアップで表示します。
 
 
@@ -57,7 +57,7 @@ aliases = ["/docs/manual/calendar/setting/", "/docs/manual/calendar/use/"]
 ## 保存箱との違い{#diff}
 
 カレンダーは月や週など決まった期間を俯瞰したいときに便利ですが、細かい絞り込み検索などはできません。  
-一方で[保存箱](/docs/manual/read-report/list/)は高度な検索や並べ替え機能が備わっています。
+一方で[保存箱](/docs/manual/read-report/list/#listbox)は高度な検索や並べ替え機能が備わっています。
 用途に応じて適切な方法をご利用ください。
 
 

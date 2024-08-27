@@ -14,7 +14,7 @@ images = []
 {{</warning>}}
 
 
-[保存箱](/docs/manual/read-report/list/)や[カレンダー](/docs/manual/read-report/calendar/)からレポートをクリックするとレポートの詳細が表示されます。  
+[保存箱](/docs/manual/read-report/list/#listbox)や[カレンダー](/docs/manual/read-report/list/#calendar)からレポートをクリックするとレポートの詳細が表示されます。  
 ポップアップで表示されるケースとページ遷移して表示されるケースがありますが内容としては同一です。
 
 ## 提出先か共有先に名前がセットされているスタッフがレポートを読めます

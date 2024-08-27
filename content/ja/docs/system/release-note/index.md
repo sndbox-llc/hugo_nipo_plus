@@ -48,7 +48,7 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 - [反復入力フォーム](/docs/manual/initial-setting/template/array/)で算術入力フォームが利用できるようになりました。同一反復フォーム内のデータを計算に利用できます
 - [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)で「ソフトウェアテンキーボタン」の表示・非表示を設定から変更できるようになりました
 - [テンプレート編集画面](/docs/manual/initial-setting/template/make/#make_template)でドラッグによる追加の際、ガイドがわかりにくかったため改善しました
-- [レポート受信BOX画面](/docs/manual/read-report/list/)に「再読み込み」ボタンを追加しました
+- [レポート受信BOX画面](/docs/manual/read-report/list/#listbox)に「再読み込み」ボタンを追加しました
 
 
 
@@ -267,7 +267,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 #### {{<nipoPlusLogo 30>}} 2024/3/31 v1.48.0{#vp1_48_0}
 
-- レポート保存BOXのUIを変更しました。詳しいガイドは[保存BOX](/docs/manual/read-report/list/)を御覧ください。
+- レポート保存BOXのUIを変更しました。詳しいガイドは[保存BOX](/docs/manual/read-report/list/#listbox)を御覧ください。
 - 案件管理機能を試験的に実装しました。（試作段階のためマニュアルはまだありません）
 
 
@@ -599,7 +599,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}}  2023/02/27 v1.31.1{#vp1_31_1}
 
-- [受信BOX](/docs/manual/read-report/list/)で初期の表示期間を3日・1週間・2週間から選べるようになりました
+- [受信BOX](/docs/manual/read-report/list/#listbox)で初期の表示期間を3日・1週間・2週間から選べるようになりました
 - 組織設定の画面周りを微調整しました
 
 #### {{<nipoPlusLogo 30>}}  2023/02/24 v1.31.0{#vp1_31_0}

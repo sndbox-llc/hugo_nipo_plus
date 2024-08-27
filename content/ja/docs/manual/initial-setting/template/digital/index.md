@@ -27,7 +27,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 </dl>
 
 
-名称|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/)|
+名称|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/#searchFunction)|
 |:---:|:---:|:---:|:---:|:---:|
 |数値入力|⭕|⭕|⭕|⭕|
 |レート|⭕|⭕|⭕|⭕|

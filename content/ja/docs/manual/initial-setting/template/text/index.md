@@ -17,7 +17,7 @@ images = []
 {{</info>}}
 
 
-|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/)|
+|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/#searchFunction)|
 |:---:|:---:|:---:|:---:|
 |✗|⭕|⭕|⭕|
 

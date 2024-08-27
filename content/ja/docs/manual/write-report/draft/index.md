@@ -26,7 +26,7 @@ images = []
 
 下書きのレポートは下書きBOXに保管されてるため、清書したい下書きのレポートを下書きBOXから選んで書き上げます。
 
-1. [保存箱](/docs/manual/read-report/list/)をクリック
+1. [保存箱](/docs/manual/read-report/list/#listbox)をクリック
 2. 下書きBOXをクリック
 3. 清書したい下書きデータをクリック
 4. レポート入力画面へ切り替わる

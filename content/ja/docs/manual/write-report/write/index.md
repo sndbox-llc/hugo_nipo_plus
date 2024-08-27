@@ -83,7 +83,7 @@ images = []
 ### 提出ボタンをクリック{#post}
 
 最後に提出ボタンをクリックして完了です。これでレポートが作成され提出先に送られます。
-提出したレポートは[カレンダー](/docs/manual/read-report/calendar/)や[保存BOX](/docs/manual/read-report/list/)からアクセス可能です。
+提出したレポートは[カレンダー](/docs/manual/read-report/list/#calendar)や[保存BOX](/docs/manual/read-report/list/#listbox)からアクセス可能です。
 
 {{<warning>}}
 [権限がゲスト](/docs/manual/initial-setting/staff/rank/#others)の場合、自分で書いたレポートを読むこともできません

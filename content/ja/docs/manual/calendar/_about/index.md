@@ -56,6 +56,8 @@ aliases = ["/docs/manual/calendar/setting/", "/docs/manual/calendar/use/"]
 
 ## 保存箱との違い{#diff}
 
-[レポートを読む](/docs/manual/read-report/state/)際は[保存箱](/docs/manual/read-report/list/)からも読むことができます。カレンダーでも同じことができますがカレンダーは検索機能が有りません。
-検索が必要な場合はレポート[保存箱](/docs/manual/read-report/list/)を活用してください。
+カレンダーは月や週など決まった期間を俯瞰したいときに便利ですが、細かい絞り込み検索などはできません。  
+一方で[保存箱](/docs/manual/read-report/list/)は高度な検索や並べ替え機能が備わっています。
+用途に応じて適切な方法をご利用ください。
+
 

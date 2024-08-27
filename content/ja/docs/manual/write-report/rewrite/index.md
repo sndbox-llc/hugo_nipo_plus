@@ -48,7 +48,7 @@ images = []
 
 ## 修正後の状態について{#state}
 
-レポートを修正すると状態が「修正」に切り替わります。
+修正すると[レポートの状態](/docs/manual/read-report/state/#status)が「修正」に切り替わります。
 
 {{<icatch filename="report-status-change" msg="修正されたレポートは状態が「修正」になります" alice="guide">}}
 

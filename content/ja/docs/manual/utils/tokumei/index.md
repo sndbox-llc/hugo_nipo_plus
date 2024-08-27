@@ -5,7 +5,7 @@ title = "👤1クリックで手軽に体験可能な匿名アカウントにつ
 menuTitle = "👤匿名アカウント"
 toc = true
 weight = 101009004
-aliases = []
+aliases = ["/docs/manual/utils/tokumei/"]
 images = []
 +++
 

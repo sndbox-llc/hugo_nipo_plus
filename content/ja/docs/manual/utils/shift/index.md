@@ -8,8 +8,14 @@ weight = 101001204
 images = []
 +++
 
+
 {{<info>}}
-シフト表は[提出状況表](/docs/manual/read-report/list/)と連動します
+カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+{{</info>}}
+
+
+{{<info>}}
+シフト表は[提出状況表](/docs/manual/read-report/list/#teishutuMap)と連動します
 {{</info>}}
 
 シフト表を使ってスタッフの出勤：退勤予定時間や、休日といった設定ができます。単純にメモだけを残すことも可能です。  

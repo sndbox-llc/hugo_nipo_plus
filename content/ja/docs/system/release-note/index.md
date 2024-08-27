@@ -811,7 +811,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}}  2022/08/16 v1.10.0{#vp1_10_0}
 
-- [匿名アカウント](/docs/manual/account/tokumei/)によるログインがサポートされました（Web版限定）
+- [匿名アカウント](/docs/manual/utils/tokumei/)によるログインがサポートされました（Web版限定）
 - [ログアウト](/docs/manual/account/signin/)時にエラーメッセージが表示されるバグの修正を行いました
 
 #### {{<nipoPlusLogo 30>}}  2022/08/13 v1.9.0{#vp1_9_0}

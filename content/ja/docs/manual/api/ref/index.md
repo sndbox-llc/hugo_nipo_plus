@@ -217,7 +217,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 
 ### 組織全体のエンドポイント{#org}
 
-組織全体に関する情報のためアクセスには管理者権限が必要です。
+組織全体に関する情報のためアクセスには[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です。
 <dl class="basic">
   <dt>/staffs/admin</dt>
   <dd>組織に所属している全スタッフのデータを取得します</dd>

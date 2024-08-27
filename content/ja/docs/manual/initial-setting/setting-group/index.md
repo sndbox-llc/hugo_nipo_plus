@@ -8,7 +8,7 @@ aliases = []
 images = ["switch_tablet.png"]
 +++
 {{<warning>}}
-グループの設定は編集者権限以上が必要です。
+グループの設定は[編集者権限以上](/docs/manual/initial-setting/staff/rank/)が必要です。
 {{</warning>}}
 ## 作業グループの確認と切替{#swich_group}
 

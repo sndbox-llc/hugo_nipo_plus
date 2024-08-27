@@ -10,7 +10,7 @@ images = []
 +++
 
 タイムカード機能に関する各種設定が行なえます。  
-設定変更には[**編集者権限**](/docs/manual/initial-setting/staff/rank/)が必要です。
+設定変更には[編集者権限](/docs/manual/initial-setting/staff/rank/)が必要です。
 
 1. タイムカード一覧をクリック
 2. 設定をクリック（折りたたまれている項目が展開される）

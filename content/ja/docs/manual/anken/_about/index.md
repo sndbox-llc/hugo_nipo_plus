@@ -80,7 +80,7 @@ weight = 101004501
 <dd>案件名や状態などを書き換えた場合その日付が記録されます</dd>
 <dt>状態</dt>
 <dd>「仕掛」「完了」の２種類があります。「完了」の案件はレポート作成時に検索から除外されます</dd>
-<dt>タグ</dt>
+<dt><a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ</a></dt>
 <dd>案件にタグをセットできます。詳しくはタグ管理を御覧ください</dd>
 <dt>メモ</dt>
 <dd>案件のメモです</dd>

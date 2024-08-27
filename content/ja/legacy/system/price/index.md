@@ -20,7 +20,6 @@ aliases = ["/legacy/system/leave/"]
 {{</warning>}}
 
 
-{{<imgproc price2.webp "料金アイキャッチ" />}}
 
 ## 無料プランは廃止されます{#free_plan_end}
 
@@ -35,7 +34,9 @@ aliases = ["/legacy/system/leave/"]
 2. グループ管理をクリック
 3. クレジットカード（自動更新有り）をクリック
 
-{{<imgproc subscription.webp "GOLD PLANの申し込み（クレジットカード）" />}}
+
+{{<iTablet filename="subscription" msg="PLANの申し込み（クレジットカード）" alice="ok" >}}
+
 
 
 1名から申込み可能です。
@@ -47,7 +48,7 @@ aliases = ["/legacy/system/leave/"]
 人数の変更やサブスクリプションの解約は、全て管理画面上から行えます。
 領収証のダウンロードもVersion10から可能になりました。 
 
-{{<imgproc subscription-edit.webp "サブスクリプションの解約や変更はここから操作します" />}}
+{{<iTablet filename="subscription-edit" msg="サブスクリプションの解約や変更はここから操作します" alice="ok" >}}
 
 <dl class="basic">
 <dt>カードの変更</dt>
@@ -81,7 +82,8 @@ aliases = ["/legacy/system/leave/"]
 3. 請求書でお支払いをクリック
 
 
-{{<imgproc invoice.webp "請求書払いは完全先払いです" />}}
+{{<iTablet filename="invoice" msg="請求書払いは完全先払いです" alice="ok" >}}
+
 
 {{<warning>}}
 現契約が残っている状態で人数の変更と期間延長を行う際は、現契約の期間分も含めて人数を増やすことになります。請求額は変わりませんが、代わりに残存期間で帳尻合わせが起きるため、申し込まれた期間より短い期間が加算されることが有ります。（１ヶ月で申込したのに実際は15日しか伸びなかったなど）
@@ -120,6 +122,22 @@ aliases = ["/legacy/system/leave/"]
 {{<iTablet filename="edit-member-limit" msg="人数変更は月3回まで。今まで不可能だった人数減少もできるようになったよ" alice="ok">}}
 
 
+
+## 領収証のダウンロード{#receipt}
+
+新方式から領収証のダウンロードがアプリ上から手軽に行えるようになりました。
+直近３０回分の領収証がダウンロード可能です。
+
+1. 管理画面からダウンロードボタンをクリック
+2. オンライン領収証画面が表示される
+3. オンライン領収証画面から「領収証のダウンロード」をクリックする
+
+
+{{<iTablet filename="receipt1" msg="管理画面から領収証のダウンロード" alice="ok">}}
+
+{{<nextArrow>}}
+
+{{<iTablet filename="receipt2" msg="オンライン領収証からダウンロードできます" alice="ok">}}
 
 ---
 

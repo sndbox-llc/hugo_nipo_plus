@@ -816,7 +816,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}}  2022/08/13 v1.9.0{#vp1_9_0}
 
-- [PDF出力機能](/docs/manual/read-report/pdf/)が強化されました
+- [PDF出力機能](/docs/manual/read-report/state/#pdf_export)が強化されました
 - [一括PDF](/docs/manual/analytics/pdf/)・QRコード埋め込み・本文の編集などが可能になりました
 
 #### {{<nipoPlusLogo 30>}}  2022/08/03 v1.8.1{#vp1_8_1}

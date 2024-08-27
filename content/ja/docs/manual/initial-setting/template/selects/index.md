@@ -30,7 +30,7 @@ NipoPlusでは以下の種類があります。
 
 
 
-|名前|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/pdf/)|[文字検索](/docs/manual/read-report/list/)|
+|名前|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/)|
 |:---:|:---:|:---:|:---:|:---:|
 |選択入力（単）|⭕|⭕|⭕|✗|
 |選択入力（複）|⭕|⭕|⭕|✗|
@@ -56,7 +56,7 @@ NipoPlusでは以下の種類があります。
 {{</info>}}
 
 
-
+### 単体回答の設定{#plainSettings}
 
 <details >
   <summary>選択式フォームの設定</summary>
@@ -76,50 +76,12 @@ NipoPlusでは以下の種類があります。
   <dd>以下から選択します。<ul><li>ラジオ式</li><li>プルダウン式</li></ul><br>プルダウンは検索が使えるため単語が多い場合に推奨</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)  
 
 </details>
 
-<details>
-  <summary>単語の色分けについて</summary>
+[単語の色分け](#color)をするにはこちらをご覧ください
 
-単語を色分けする場合は単語の後ろに###色名をつけてください。  
-例:
-
-- りんご###red
-- ぶどう###blue
-
-正しく設定されているかはプレビューを見て確認してください。
-使用可能な色は以下のとおりです。
-
-<dl class="basic">
-<dt>red</dt>
-<dd style="color:red">■これはサンプルです</dd>
-<dt>pink</dt>
-<dd style="color:pink">■これはサンプルです</dd>
-<dt>purple</dt>
-<dd style="color:purple">■これはサンプルです</dd>
-<dt>indigo</dt>
-<dd style="color:indigo">■これはサンプルです</dd>
-<dt>blue</dt>
-<dd style="color:blue">■これはサンプルです</dd>
-<dt>cyan</dt>
-<dd style="color:cyan">■これはサンプルです</dd>
-<dt>teal</dt>
-<dd style="color:teal">■これはサンプルです</dd>
-<dt>green</dt>
-<dd style="color:green">■これはサンプルです</dd>
-<dt>lime</dt>
-<dd style="color:lime">■これはサンプルです</dd>
-<dt>orange</dt>
-<dd style="color:orange">■これはサンプルです</dd>
-<dt>brown</dt>
-<dd style="color:brown">■これはサンプルです</dd>
-<dt>gray</dt>
-<dd style="color:gray">■これはサンプルです</dd>
-</dl>
-
-</details>
 
 
 ### データの活用（CSV出力・グラフ化）{#subtotal_select}
@@ -127,7 +89,7 @@ NipoPlusでは以下の種類があります。
 
 
 <details>
-  <summary>グラフ化</summary>
+  <summary>集計とグラフ化</summary>
 
 選択式フォームは集計・グラフ化が可能です。単語が選ばれた回数を自動集計し、円グラフや棒グラフとして表示できます。
 選択式の単語に数字が含まれていれば**数値として集計**やグラフ化できます。
@@ -183,6 +145,9 @@ NipoPlusでは以下の種類があります。
 {{<icatch filename="select2" msg="選ぶだけの簡単入力（複数選択可）♫タブレットやスマホと相性バツグンです"  alice="tablet">}}
 
 使い方についてはほとんど選択肢単回答と同じです。CSV出力時の形式のみ異なります。
+
+[単語の色分け](#color)をするにはこちらをご覧ください
+
 
 
 
@@ -255,6 +220,7 @@ graph LR;
 以下は本入力フォームにのみ存在する設定項目です
 
 
+
 <details>
   <summary>詳細設定</summary>
 
@@ -272,9 +238,12 @@ graph LR;
 </dl>
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+[単語の色分け](#color)も可能です
 
 
 </details>
+
+[単語の色分け](#color)をするにはこちらをご覧ください
 
 
 
@@ -287,6 +256,52 @@ graph LR;
 状態, 文書ID, 承認者1, 【答1】野菜, 【答2】野菜, 【答1】パソコン, 【答2】パソコン, 【答1】お酒, 【答2】お酒
 進行, u4PIRvw, 管理者A, くだもの, バナナ, デスクトップ, Mac Mini, ウィスキー, ラフロイグ
 {{< /excelTable >}}
+
+
+## 選択肢の色分けについて{#color}
+
+[選択肢単体](#plain)、[選択肢複数](#multiple)、[選択肢２層式](#layerd)の３種類は、各選択肢に色分けをする機能が有ります。
+<details>
+  <summary>単語の色分けについて</summary>
+
+単語を色分けする場合は単語の後ろに###色名をつけてください。  
+例:
+
+- りんご###red
+- ぶどう###blue
+
+正しく設定されているかはプレビューを見て確認してください。
+使用可能な色は以下のとおりです。
+
+<dl class="basic">
+<dt>red</dt>
+<dd style="color:red">■これはサンプルです</dd>
+<dt>pink</dt>
+<dd style="color:pink">■これはサンプルです</dd>
+<dt>purple</dt>
+<dd style="color:purple">■これはサンプルです</dd>
+<dt>indigo</dt>
+<dd style="color:indigo">■これはサンプルです</dd>
+<dt>blue</dt>
+<dd style="color:blue">■これはサンプルです</dd>
+<dt>cyan</dt>
+<dd style="color:cyan">■これはサンプルです</dd>
+<dt>teal</dt>
+<dd style="color:teal">■これはサンプルです</dd>
+<dt>green</dt>
+<dd style="color:green">■これはサンプルです</dd>
+<dt>lime</dt>
+<dd style="color:lime">■これはサンプルです</dd>
+<dt>orange</dt>
+<dd style="color:orange">■これはサンプルです</dd>
+<dt>brown</dt>
+<dd style="color:brown">■これはサンプルです</dd>
+<dt>gray</dt>
+<dd style="color:gray">■これはサンプルです</dd>
+</dl>
+
+</details>
+
 
 
 ---

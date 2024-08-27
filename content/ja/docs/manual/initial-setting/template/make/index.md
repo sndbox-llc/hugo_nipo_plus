@@ -181,7 +181,7 @@ NipoPlusでは様々な入力フォームがあります。すべての入力フ
   <summary>共通設定詳細</summary>
 
 
-{{<btnCenter "/docs/manual/read-report/pdf/" "PDF出力について">}}
+{{<btnCenter "/docs/manual/read-report/state/#pdf_export" "PDF出力について">}}
 
 PDF設定はテンプレート本体の画面を下にスクロールしていただくと設定項目が見えてきます。
 

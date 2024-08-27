@@ -153,7 +153,7 @@ NipoPlusは、日報の記入漏れを防ぐための強力な機能を備えて
 
 ### 日報をPDFに変換できます{#pdf_conversion}
 
-作成した[日報はPDFに変換](/docs/manual/read-report/pdf/)でき、印刷やメールでの送信も簡単。これにより、紙ベースの報告書作成が不要になり、時間とコストを節約できます。
+作成した[日報はPDFに変換](/docs/manual/read-report/state/#pdf_export)でき、印刷やメールでの送信も簡単。これにより、紙ベースの報告書作成が不要になり、時間とコストを節約できます。
 
 
 ### [日報をグラフ化する](/docs/manual/analytics/chart/){#chart_reports}

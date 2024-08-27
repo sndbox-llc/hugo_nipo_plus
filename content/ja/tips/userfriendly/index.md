@@ -190,7 +190,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 <dd>重要な項目などは色分けすることで視覚的にも見落としリクスを軽減できます</dd>
 </dl>
 
-なお説明用画像と補足説明は[レポートを読む](/docs/manual/read-report/state/)際は表示されません。[PDF出力時](/docs/manual/read-report/pdf/)も同様です。これらの**ガイドはあくまでもレポート作成時の補助**でしかありません。
+なお説明用画像と補足説明は[レポートを読む](/docs/manual/read-report/state/)際は表示されません。[PDF出力時](/docs/manual/read-report/state/#pdf_export)も同様です。これらの**ガイドはあくまでもレポート作成時の補助**でしかありません。
 
 
 ## 入力順序の指定を適切に使用する{#use_input_control}

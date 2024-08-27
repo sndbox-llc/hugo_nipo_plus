@@ -158,7 +158,7 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 見たままに入力できるなら**見たままに出力できる**ことにもこだわって作りました。  
 最初に作った日報テンプレートをそのままのレイアウトでPDFに変換出力できます。PDFはA4サイズで、縦・または横レイアウトを選べます。  
 
-{{<btnFull "/docs/manual/read-report/pdf/" "マニュアル:PDF出力">}}
+{{<btnFull "/docs/manual/read-report/state/#pdf_export" "マニュアル:PDF出力">}}
 
 </div>
 <div class="col-lg-8">

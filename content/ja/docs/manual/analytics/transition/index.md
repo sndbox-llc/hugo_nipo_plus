@@ -9,6 +9,11 @@ aliases = []
 images = ["make-charts_tablet.png"]
 +++
 
+{{<info>}}
+集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+{{</info>}}
+
+
 今回の報告と比較して前回、前々回はどのような値だったのかを一覧表にして確認できます。
 これをデータ推移表と言います。
 

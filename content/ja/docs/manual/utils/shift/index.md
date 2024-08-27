@@ -10,7 +10,7 @@ images = []
 
 
 {{<info>}}
-カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+シフト管理がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
 {{</info>}}
 
 

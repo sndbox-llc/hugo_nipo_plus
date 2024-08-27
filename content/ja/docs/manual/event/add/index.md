@@ -9,6 +9,11 @@ images = []
 draft = false
 +++
 
+{{<info>}}
+予定がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+{{</info>}}
+
+
 予定は[カレンダー](/docs/manual/calendar/_about/)または予定管理画面から追加することができます。
 予定の追加方法は何種類かあります。
 

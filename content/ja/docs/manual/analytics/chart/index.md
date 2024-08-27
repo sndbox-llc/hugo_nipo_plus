@@ -9,6 +9,11 @@ aliases = []
 images = ["pie-chart_tablet.png"]
 +++
 
+{{<info>}}
+集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+{{</info>}}
+
+
 集計が可能なフォームが含まれたテンプレートはグラフ化できます。
 グラフは複数種類作成でき、必要に応じてワンクリックで切替が可能です。
 

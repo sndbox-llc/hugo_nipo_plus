@@ -9,6 +9,13 @@ aliases = []
 images = ["chart_tablet.png"]
 +++
 
+
+
+{{<info>}}
+集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+{{</info>}}
+
+
 スタッフが[作成したレポート](//docs/manual/write-report/write/)によっては集計が可能なものも有ります。集計が可能なものとしては[数値入力フォーム](/docs/manual/initial-setting/template/selects/)や[選択式入力フォーム](/docs/manual/initial-setting/template/selects/)があります。詳しくは本ページ末尾の[集計可能な入力フォームとその特性](#hint)を御覧ください。
 
 

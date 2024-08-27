@@ -9,6 +9,11 @@ aliases = ["/docs/manual/analytics/list/"]
 images = ["charts_tablet.png"]
 +++
 
+{{<info>}}
+集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+{{</info>}}
+
+
 レポートデータの内計算が可能なデータをスタッフごとに分けて集計した表を「累積表」と言います。
 
 {{<icatch filename="acc-table" msg="レポートを提出したスタッフごとに分けて集計可能。スタッフ同士の比較に最適">}}

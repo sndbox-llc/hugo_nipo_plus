@@ -9,6 +9,11 @@ aliases = []
 images = ["list_tablet.png"]
 +++
 
+{{<info>}}
+集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
+{{</info>}}
+
+
 販売目標に対する累積実績をエクセルに手動で入力して管理していませんか？  
 報告を受けて数値を入力する手間と無駄な時間、そして転記ミスなどのリスクを減らすことが簡単にできます。  
 

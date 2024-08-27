@@ -22,6 +22,18 @@ dl.basic {
     box-sizing: border-box;
     padding: 15px 30px;
   }
+
+  /* リンクを強調 */
+  dt a, dd a {
+    color: #007bff; /* リンク色を変更 */
+    text-decoration: underline;
+    font-weight: bold; /* 太字にして強調 */
+  }
+
+  dt a:hover, dd a:hover {
+    color: #0056b3; /* ホバー時の色を変更 */
+    text-decoration: none; /* ホバー時に下線を消す */
+  }
   
   @media screen and (max-width: 750px) {
     width: 100%;
@@ -38,8 +50,14 @@ dl.basic {
       width: 100%;
       padding: 10px 15px;
     }
+
+    /* モバイル用のリンク強調 */
+    dt a, dd a {
+      font-size: 18px; /* モバイルでは少し大きく */
+    }
   }
 }
+
 
 
 dl.faq {

@@ -27,11 +27,11 @@ images = []
 ログは以下のアクションに対して記録を残します
 
 1. [タイムカードが削除](/docs/manual/remove/timecard/)されたとき
-1. レポートや予定に[コメントが書かれた](/docs/manual/read-report/comment/)とき
+1. レポートや予定に[コメントが書かれた](/docs/manual/read-report/state/#comment)とき
 1. レポートや予定からコメントが削除されたとき
 1. [レポートが削除](/docs/manual/remove/report/)されたとき
 1. レポートが作成されたとき
-1. レポートが既読・[承認・棄却](/docs/manual/read-report/state/)されたとき
+1. レポートが既読・[承認](/docs/manual/read-report/state/#agree)・[棄却](/docs/manual/read-report/state/#reject)されたとき
 1. レポートにタグがセット・解除されたとき
 1. 予定が作成されたとき
 1. 予定の状態が変化したとき

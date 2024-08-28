@@ -24,7 +24,9 @@ images = []
 1. 操作したいスタッフの行にある「所属グループ」をクリック
 1. グループ一覧が表示されるので所属させるグループをクリック
 
-{{<icatch filename="assign-group" msg="組織のスタッフをそれぞれのグループに所属させましょう" alice="here">}}
+
+{{<icatch filename="join" msg="組織のスタッフをそれぞれのグループに所属させましょう" alice="book">}}
+
 
 
 {{<info>}}

@@ -325,7 +325,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 {{<imgproc cashclear.png "キャッシュのクリア" />}}
 
-本記事執筆時点でAndroid / iOS各アプリストアには更新の申請を行っている段階で、まだリリースされていません。
+本記事執筆時点で[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)各アプリストアには更新の申請を行っている段階で、まだリリースされていません。
 リリース後に本ページにてご案内いたします。 ー＞ リリースされました（２月１日）
 
 今回のバグについてはスマートフォンとPCで使えるリソースが異なるのに、PCと同じような処理をスマートフォンで行わせていたことが主たる原因でした。  

@@ -187,7 +187,7 @@ NipoPlusは誰でも簡単に使えるように設計されています。初期
 ## 専用アプリも用意しています{#usage_app}
 
 NipoPlusはウェブアプリなので、GoogleChromeやsafariといったブラウザがあればどの端末からでも利用可能です。  
-Android /iOSそれぞれのアプリストアにもNipoPlus専用アプリを用意していますので、お好みでWeb版・アプリ版を選んでご利用可能です。  
+[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)それぞれのアプリストアにもNipoPlus専用アプリを用意していますので、お好みでWeb版・アプリ版を選んでご利用可能です。  
 
 
 

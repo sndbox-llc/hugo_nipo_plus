@@ -13,6 +13,11 @@ images = []
 １件だけPDF出力するには[レポートを読む](/docs/manual/read-report/state/#pdf_export)の記事を御覧ください
 {{</info>}}
 
+{{<info>}}
+[PDF出力の設定](/docs/manual/analytics/pdfoption/)についてはこちらをご覧ください
+{{</info>}}
+
+
 {{<warning>}}
 一括PDF出力は50件を超えない範囲で操作してください
 {{</warning>}}
@@ -31,6 +36,10 @@ images = []
 
 ## カレンダー上に表示されている日報を一括でPDF出力
 
+カレンダー上に表示されているレポートをまとめてPDF出力することができます。  
+フィルターで「承認のみ」のように絞り込むことで、必要なPDFのみを効率よく出力可能です。
+
+
 1. [カレンダー](/docs/manual/read-report/list/#calendar)を開く
 2. 「◯件PDF」と表示されたボタンをクリック
 3. PDF生成完了を待つ
@@ -38,9 +47,7 @@ images = []
 
 {{<icatch filename="calendar-pdf" msg="カレンダー上に表示されているレポートをワンクリックでまとめてPDFに変換する">}}
 
-カレンダー上部にあるPDF出力ボタンからまとめてPDF出力できます。
 
-{{<btnCenter "/docs/manual/calendar/" "カレンダーについて">}}
 
 ## 受信BOXからレポートを一括でPDF出力する{#box}
 

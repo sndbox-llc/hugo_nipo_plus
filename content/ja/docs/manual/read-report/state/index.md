@@ -196,7 +196,7 @@ NipoPlusでは「CSV出力」と「PDF出力」をサポートしています。
 
 
 {{<info>}}
-まとめて出力するには[一括PDF出力](/docs/manual/analytics/pdf/)を御覧ください。
+まとめて出力するには[一括PDF出力](/docs/manual/analytics/pdf/)を御覧ください。[PDF出力設定](/docs/manual/analytics/pdfoption/)についてはこちらをご覧ください。
 {{</info>}}
 
 

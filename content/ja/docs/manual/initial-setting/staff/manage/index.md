@@ -11,13 +11,17 @@ images = []
 +++
 
 
-{{<warning>}}
+{{<info>}}
 このページは「組織」のスタッフ管理です。「グループ」のスタッフ管理については[こちらを参照](/docs/manual/initial-setting/staff-local/_about/)してください
-{{</warning>}}
+{{</info>}}
 
 ## グループへ所属させる{#join_staff}
 
-最初はグループが１つしかありません。グループを増やすには「[グループの作成](/docs/manual/initial-setting/make-group/)」を御覧ください。  
+{{<warning>}}
+グループ分けが不要な場合はこのセクションは不要です
+{{</warning>}}
+
+グループを増やすには「[グループの作成](/docs/manual/initial-setting/make-group/)」を御覧ください。  
 グループに所属することで初めてグループ内でレポートの読み書きができるようになります。そのため、**グループへの所属はとても重要**です。
 
 1. メニューから「組織設定」をクリック

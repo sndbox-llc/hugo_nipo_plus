@@ -12,7 +12,7 @@ images = []
  スタッフは組織から作成されて各グループに所属します。
  このセクションは**グループに所属しているスタッフの設定**をまとめています。
 {{<info>}}
- 組織上のスタッフについては[組織のスタッフ](/docs/manual/initial-setting/staff/rank/)を参照してください
+ 組織上のスタッフについては[組織のスタッフ](/docs/manual/initial-setting/staff/manage/)を参照してください
 {{</info>}}
 
 

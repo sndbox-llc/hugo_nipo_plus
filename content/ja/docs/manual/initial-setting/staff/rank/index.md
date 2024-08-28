@@ -16,7 +16,11 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 {{</info>}}
 
 スタッフアカウントには全員いづれかの権限が設定されます。  
-権限によって操作が可能な範囲が変わります。主たる権限は次の3つです。
+
+## 一般的な権限{#common}
+
+主たる権限は次の3つです。
+
 <dl class="basic">
 <dt>管理者</dt>
 <dd>
@@ -31,29 +35,32 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 </dd>
 <dt>編集者</dt>
 <dd>
-グループ内におけるすべての設定が可能な権限です。
-例：
+<a href="/docs/manual/initial-setting/setting-group/">グループ内の設定</a>を全て操作可能な権限です。グループ内の代表という立ち位置になります。
 <ul>
 <li><a href="/docs/manual/initial-setting/template/make/">テンプレートの作成</a></li>
 <li><a href="/docs/manual/initial-setting/staff-local/dist/">レポート提出先の指定</a></li>
 <li>グループからスタッフを追放する</li>
 </dd>
 <dt>スタッフ</dt>
-<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>や集計など一般的なことが行なえますが、<a href="/docs/manual/initial-setting/setting-group/">グループ全体に関する設定</a>は一切不可</dd>
+<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>や集計など一般的なことが行なえますが、<a href="/docs/manual/initial-setting/setting-group/">グループ全体に関する設定</a>は一切できません。一般的な従業員はこの権限を利用して下さい</dd>
 </dl>
+
+
+
 
 
 
 ## 少し特殊な権限{#others}
 
-以下の権限はかなり限定的な用途でのみ使用されます（通常は使用しません）
+以下の権限は限定的な用途でのみ使用される特殊な権限です。
 
 <dl class="basic">
 <dt>書き込みのみ</dt>
-<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>・自分の書いたレポートの閲覧とその修正のみ可能</dd>
+<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>・自分の書いたレポートの閲覧とその修正のみ可能。とにかくレポートを書くだけで情報共有とか要らない！というケースでは画面がスッキリしているし活用できるかもしれません。</dd>
 <dt>ゲスト</dt>
 <dd>
 <a href="/docs/manual/write-report/write/">レポートの作成</a>のみ可能<br>
-※外部の利用者にレポートを書いてもらうことを想定しており用途としては限定的です（例えばアンケートなどに）
+外部の利用者にレポートを書いてもらうことを想定しており用途としては限定的です。例えば社外の方にIDとパスワードを伝えてログインしてもらい、アンケートなどを回答してもらうといった限定的な用途として利用可能です。<br>
+自分の書いたレポートも見れないため、他人のアンケートを見られないという点もポイントです。
 </dd>
 </dl>

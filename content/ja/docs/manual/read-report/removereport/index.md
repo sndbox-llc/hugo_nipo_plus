@@ -5,7 +5,7 @@ title = "レポートを削除する"
 menuTitle = "レポートの削除"
 toc = true
 weight = 101011003
-aliases = ["/docs/manual/remove/report/", "/docs/manual/remove/_about/", "/docs/manual/remove/reportbatch/"]
+aliases = []
 images = []
 +++
 

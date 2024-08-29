@@ -6,7 +6,7 @@ menuTitle = "🚫利用可能テンプレートの制限"
 toc = false
 draft = false
 weight = 101001035
-aliases = ["/docs/manual/initial-setting/advanced-setting/template/"]
+aliases = []
 images = []
 +++
 

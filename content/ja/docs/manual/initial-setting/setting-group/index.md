@@ -10,15 +10,18 @@ images = ["switch_tablet.png"]
 {{<warning>}}
 グループの設定は[編集者権限以上](/docs/manual/initial-setting/staff/rank/)が必要です。
 {{</warning>}}
+
 ## 作業グループの確認と切替{#swich_group}
 
-今作業しているグループは画面上部のバーに表示されています。必要に応じて編集するグループに切り替えの上作業してください。
-グループの切替手順は以下の通り
+{{<info>}}
+所属しているグループが1つしか無い場合はこの設定は不要です
+{{</info>}}
+
+今作業しているグループは画面上部のバーに表示されています。必要に応じてグループを切り替えて作業してください。
 
 1. 画面左上の「切替」ボタンをクリック
 1. 所属しているグループ一覧が表示される
 1. 作業するグループ名をクリック
-1. グループが切り替わる
 
 {{<icatch filename="switch" msg="グループ名をクリックして他のグループに切り替えます" alice="here">}}
 
@@ -40,9 +43,9 @@ images = ["switch_tablet.png"]
 <dt><a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ管理</a></dt>
 <dd>タグの追加や削除を行います</dd>
 <dt><a href="/docs/manual/initial-setting/advanced-setting/point/">商品管理</a></dt>
-<dd>応用編にて解説します</dd>
+<dd>商品などの在庫状況を簡易的ですが管理可能です。<a href="/docs/manual/initial-setting/template/mod/">商品入力フォーム</a>と組み合わせて使用します</dd>
 <dt><a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録管理</a></dt>
-<dd>選択式入力フォームで使える語録を管理します</dd>
+<dd><a href="/docs/manual/initial-setting/template/selects/">選択式入力フォーム</a>で使える語録を管理します</dd>
 <dt><a href="/docs/manual/read-report/removereport/#batch_remove">一括削除</a></dt>
 <dd>レポートをまとめて削除します</dd>
 </dl>
@@ -57,7 +60,7 @@ images = ["switch_tablet.png"]
   <dt>グループ名</dt>
   <dd>グループの名称です。左上のグループ切替などで使用されます。</dd>
   <dt>テーマカラー</dt>
-  <dd>グループのテーマカラーを変更できます。アイコンの色やタイトルバーの色などが一括で指定したテーマカラーになります。複数グループを使い分ける際に混同してしまわないように、グループごとにテーマカラーを変えることを推奨しています。</dd>
+  <dd>グループのテーマカラーを変更できます。アイコンの色やタイトルバーの色などが一括で指定したテーマカラーになります。複数グループを使い分ける際に混同してしまわないように、色分けしましょう。</dd>
 
 </dl>
 
@@ -67,13 +70,13 @@ images = ["switch_tablet.png"]
 
 <dl class="basic">
 <dt>通常モード</dt>
-<dd>レポートの提出先や共有先を細かく指定できるようになります</dd>
+<dd>レポートの<a href="/docs/manual/write-report/dist/">提出先や共有先</a>を細かく指定できるようになります</dd>
 <dt>共有モード</dt>
-<dd>レポートの提出先は指定できますが共有先に全スタッフが自動で含まれるため設定ができなくなります</dd>
+<dd>レポートの提出先は指定できますが共有先が指定できません（全員が自動で共有先に含まれます）</dd>
 </dl>
 
 全員が全員のレポートを読みたい場合は「共有する」がおすすめです。一方で上司だけが読めれば良い場合など、公開範囲を制限する場合は「通常」がおすすめです。
-レポートの閲覧権限は[提出先と共有先](/docs/manual/write-report/dist/)でコントロールされます。
+なお共有モードであっても[書き込みのみ権限とゲスト権限](/docs/manual/initial-setting/staff/rank/#others)は他人のレポートを読むことはできません。
 
 {{<info>}}
 [提出先と共有先の固定](/docs/manual/initial-setting/staff-local/dist/)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
@@ -94,23 +97,23 @@ images = ["switch_tablet.png"]
 ### 機能の有効無効{#optionalFunction}
 
 タイムカード機能や集計機能など、NipoPlusには様々な機能が用意されています。これらのオプション機能はチェックボックスのON/OFFで有効（または無効）に切り替えができます。
-使用する予定の無い機能はOFFにしておくことで画面上の見た目をシンプルに維持できます。
+使用する予定の無い機能はOFFにしておくことで画面上の見た目をシンプルにできます。
 
 <dl class="basic">
   <dt><a href="/docs/manual/anken/_about/">案件</a></dt>
-  <dd>メニューに「案件」が追加されます。レポート作成時に対象となる案件を入力する欄が追加されます。集計時に「案件集計」機能が追加されます。</dd>
+  <dd>左のメニューに「案件」が追加されます。レポート作成時に対象となる案件を入力する欄が追加されます。集計時に「案件集計」機能が追加されます。</dd>
   <dt><a href="/docs/manual/event/add/">予定</a></dt>
-  <dd>メニューに「予定管理」が追加されます。カレンダーの表示設定に「予定」が追加されます</dd>
+  <dd>左のメニューに「予定管理」が追加されます。カレンダーの表示設定に「予定」が追加されます</dd>
   <dt><a href="/docs/manual/timecard/input/">タイムカード</a></dt>
-  <dd>メニューに「タイムカード」が追加されます。レポート作成画面にもタイムカード打刻ボタンが追加されます</dd>
+  <dd>左のメニューに「タイムカード」が追加されます。レポート作成画面にもタイムカード打刻ボタンが追加されます</dd>
   <dt><a href="/docs/manual/calendar/_about/">カレンダー</a></dt>
-  <dd>ONにすると左のメニューに「カレンダー」が表示されます。</dd>
+  <dd>左のメニューに「カレンダー」が表示されます。</dd>
   <dt><a href="/docs/manual/analytics/_about/">集計/CSV出力</a></dt>
-  <dd>ONにすると左のメニューに「レポートの集計」が表示されます</dd>
+  <dd>左のメニューに「レポートの集計」が表示されます</dd>
   <dt><a href="/docs/manual/utils/shift/">シフト管理</a></dt>
-  <dd>メニューにシフト管理が追加されます。スタッフの休日情報を登録できます</dd>
+  <dd>左のメニューにシフト管理が追加されます。スタッフの休日情報を登録できます</dd>
   <dt><a href="/docs/manual/utils/log/">ログ</a></dt>
-  <dd>メニューにログが追加されます。ログは閲覧専用です</dd>
+  <dd>左のメニューにログが追加されます。ログは閲覧専用です</dd>
 
 </dl>
 

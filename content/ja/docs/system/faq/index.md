@@ -4,7 +4,7 @@ tags = []
 title = "❓FAQ💡"
 toc = true
 weight = 103000010
-aliases = ["/system/faq/"]
+aliases = []
 images = []
 [sitemap]
   changefreq = "monthly"

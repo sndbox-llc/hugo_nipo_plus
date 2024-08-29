@@ -4,7 +4,7 @@ tags = []
 title = "🔓ログインと自身アカウントの確認"
 toc = true
 weight = 101009001
-aliases = ["/docs/manual/account/_about/"]
+aliases = []
 images = ["signin_tablet.png"]
 +++
 

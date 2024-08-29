@@ -5,7 +5,7 @@ title = "🔐レポートの提出先を固定する"
 menuTitle = "🔐提出先の固定"
 toc = true
 weight = 101001034
-aliases = ["/docs/manual/initial-setting/advanced-setting/dist/"]
+aliases = []
 images = []
 +++
 

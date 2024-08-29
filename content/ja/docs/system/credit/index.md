@@ -4,7 +4,7 @@ tags = []
 title = "権利・クレジット"
 weight = 103000015
 toc = false
-aliases = ["/system/credit/", "/system/thanks/", "/docs/system/thanks/"]
+aliases = []
 images = []
 [sitemap]
   changefreq = "yearly"

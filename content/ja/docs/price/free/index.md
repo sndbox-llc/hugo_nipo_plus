@@ -46,7 +46,7 @@ click 有料プランへ加入 "/docs/price/fee/" "有料プラン詳細"
 <dd>集計に関するすべての機能がロックされます</dd>
 <dt><a href="/docs/manual/calendar/_about/">カレンダー機能</a></dt>
 <dd>レポートをカレンダー上に表示する機能がロックされます</dd>
-<dt><a href="/docs/manual/read-report/comment/">レポートのコメント機能</a></dt>
+<dt><a href="/docs/manual/read-report/state/#comment">レポートのコメント機能</a></dt>
 <dd>レポートに対してコメントを書く機能がロックされます</dd>
 <dt><a href="/docs/manual/utils/notice/#email">メール通知</a></dt>
 <dd>レポートの提出時にメールで通知する機能が利用できません。アプリ内通知は利用可能です</dd>

@@ -6,7 +6,7 @@ menuTitle = "🧩選択入力系"
 toc = true
 weight = 101001106
 mermaid = true
-aliases = ["/docs/manual/initial-setting/template/select/", "/docs/manual/initial-setting/template/select2/", "/docs/manual/initial-setting/template/selectCalc/", "/docs/manual/initial-setting/template/dinamic_selection/", "/docs/manual/initial-setting/template/checkbox/"]
+aliases = []
 images = []
 +++
 

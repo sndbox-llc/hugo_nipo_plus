@@ -5,7 +5,7 @@ title = "数値入力"
 menuTitle = "🧩数値入力"
 toc = true
 weight = 101001116
-aliases = ["/docs/manual/initial-setting/template/math/", "/docs/manual/initial-setting/template/calc/", "/docs/manual/initial-setting/template/range/", "/docs/manual/initial-setting/template/rate/", "/docs/manual/initial-setting/template/step/"]
+aliases = []
 images = ["math_tablet.png"]
 +++
 

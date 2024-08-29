@@ -5,7 +5,7 @@ title = "システム更新履歴(リリースノート)"
 menuTitle = "📜システム更新履歴"
 toc = false
 weight = 103000004
-aliases = ["/system/release-note/", "/old/system/releasenote/"]
+aliases = ["/old/system/releasenote/"]
 images = []
 +++
 

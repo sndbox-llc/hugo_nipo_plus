@@ -5,7 +5,7 @@ title = "⚙️タイムカードの設定"
 menuTitle = "⚙️設定・制限解除"
 toc = true
 weight = 101007004
-aliases = ["/docs/manual/timecard/unlock/"]
+aliases = []
 images = []
 +++
 

@@ -4,7 +4,7 @@ tags = []
 title = "👀予定を確認する"
 toc = true
 weight = 101008002
-aliases = ["/docs/manual/task/list/"]
+aliases = []
 images = []
 +++
 

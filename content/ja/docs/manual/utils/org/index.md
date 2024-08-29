@@ -5,7 +5,7 @@ title = "組織を削除する(退会)"
 menuTitle ="☔退会する"
 toc = true
 weight = 101011007
-aliases = ["/docs/manual/remove/org/"]
+aliases = []
 images = []
 +++
 

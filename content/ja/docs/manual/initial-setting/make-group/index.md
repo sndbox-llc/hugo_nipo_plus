@@ -4,7 +4,7 @@ tags = ["要管理者権限"]
 title = "グループの作成"
 toc = true
 weight = 101001010
-aliases = ["/docs/manual/remove/group/", "/docs/manual/remove/group/"]
+aliases = []
 images = []
 +++
 

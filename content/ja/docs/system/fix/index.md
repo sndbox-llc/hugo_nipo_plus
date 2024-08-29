@@ -4,7 +4,7 @@ tags = []
 title = "🚧トラブルシューティング"
 toc = true
 weight = 103000009
-aliases = ["/system/fix/"]
+aliases = []
 images = []
 +++
 

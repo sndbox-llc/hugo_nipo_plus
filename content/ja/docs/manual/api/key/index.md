@@ -5,7 +5,7 @@ tags = ["有料プラン限定", "スタッフアカウント管理"]
 title = "🔑APIキーの取得"
 toc = true
 weight = 101010001
-aliases = ["/docs/manual/api/"]
+aliases = []
 images = ["invoke-api-key_tablet.png"]
 +++
 

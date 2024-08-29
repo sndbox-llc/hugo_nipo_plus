@@ -5,7 +5,7 @@ menuTitle = "✍️レポートを書く"
 title = "✍️レポートを書くまでの流れ"
 toc = true
 weight = 101002001
-aliases = ["/docs/manual/write-report/_about/"]
+aliases = []
 images = []
 +++
 

@@ -5,7 +5,7 @@ tags = ["要管理者権限", "スタッフアカウント管理"]
 title = "🆕スタッフのアカウント作成"
 toc = true
 weight = 101001004
-aliases = ["/docs/manual/remove/staff/"]
+aliases = []
 images = []
 +++
 

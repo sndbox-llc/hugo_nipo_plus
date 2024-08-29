@@ -100,7 +100,7 @@ NipoPlusのクイックスタートガイドへようこそ。
 
 レポート作成後に「作成したレポート表示」を選ぶとその[レポートを読む画面](/docs/manual/read-report/state/)へ移動します。
 ここからはレポートを受け取る上司の立場になってみましょう。  
-レポートに対して[コメントを書く](/docs/manual/read-report/comment/)ことや、レポートを承認・[PDF出力](/docs/manual/read-report/state/#pdf_export)などもできます。
+レポートに対して[コメントを書く](/docs/manual/read-report/state/#comment)ことや、レポートを承認・[PDF出力](/docs/manual/read-report/state/#pdf_export)などもできます。
 
 
 右側メニューから「承認」をクリックしてレポートを承認してみましょう。

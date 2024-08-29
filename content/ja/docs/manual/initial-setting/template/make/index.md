@@ -5,7 +5,7 @@ title = "日報などのテンプレートを自作する"
 menuTitle = "⚙テンプレートの作成"
 toc = true
 weight = 101001101
-aliases = ["/docs/manual/remove/template/", "/docs/manual/initial-setting/template/_about/"]
+aliases = []
 images = []
 mermaid = true
 

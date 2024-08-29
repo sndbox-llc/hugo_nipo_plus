@@ -4,7 +4,7 @@ tags = []
 title = "📖レポートを読む"
 toc = true
 weight = 101003002
-aliases = ["/docs/manual/read-report/other/",  "/docs/manual/read-report/comment/",  "/docs/manual/read-report/csv/", "/docs/manual/read-report/pdf/"]
+aliases = []
 images = []
 +++
 
@@ -17,7 +17,7 @@ images = []
 [保存箱](/docs/manual/read-report/list/#listbox)や[カレンダー](/docs/manual/read-report/list/#calendar)からレポートをクリックするとレポートの詳細が表示されます。  
 ポップアップで表示されるケースとページ遷移して表示されるケースがありますが内容としては同一です。
 
-## 提出先か共有先に名前がセットされているスタッフがレポートを読めます
+## 提出先か共有先に名前がセットされているスタッフがレポートを読めます{#canReadRport}
 
 閲覧権限について先に確認しておきましょう。レポートは会社の情報なので誰でも見れるとまずい場合があります。  
 レポートを読むには「提出先か共有先」に名前が含まれている必要があります。

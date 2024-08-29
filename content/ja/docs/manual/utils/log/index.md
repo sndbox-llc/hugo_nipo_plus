@@ -4,7 +4,7 @@ tags = []
 title = "📚ログデータ"
 toc = true
 weight = 101001204
-aliases = [ "/docs/manual/initial-setting/advanced-setting/log/"]
+aliases = []
 images = []
 +++
 

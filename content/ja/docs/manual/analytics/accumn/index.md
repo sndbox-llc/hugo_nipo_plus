@@ -5,7 +5,7 @@ title = "📊レポートデータをスタッフごとに集計する累積表"
 menuTitle = "📊データの累積"
 toc = true
 weight = 101004001
-aliases = ["/docs/manual/analytics/list/"]
+aliases = []
 images = ["charts_tablet.png"]
 +++
 

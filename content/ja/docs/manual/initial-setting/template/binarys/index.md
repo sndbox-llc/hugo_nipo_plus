@@ -5,7 +5,7 @@ title = "直筆サイン・写真・ファイルのフォームをテンプレ�
 menuTitle = "🧩署名や写真等"
 toc = true
 weight = 101001111
-aliases = ["/docs/manual/initial-setting/template/picture/", "/docs/manual/initial-setting/template/binarys/#file", "/docs/manual/initial-setting/template/sign/"]
+aliases = []
 images = []
 +++
 

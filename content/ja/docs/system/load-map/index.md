@@ -5,7 +5,7 @@ title = "今後の更新予定・バグ情報"
 menuTitle = "🐞バグ及び今後の更新予定"
 toc = false
 weight = 103000005
-aliases = ["/system/load-map/"]
+aliases = []
 images = []
 +++
 

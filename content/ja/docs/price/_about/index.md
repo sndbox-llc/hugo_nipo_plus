@@ -5,7 +5,7 @@ menuTitle = "ℹ️プラン概要"
 toc = true
 weight = 102000000
 tags = []
-aliases = ["/docs/price/trial/"]
+aliases = []
 images = []
 mermaid = true
 +++

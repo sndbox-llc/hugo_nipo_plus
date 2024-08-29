@@ -5,7 +5,7 @@ title = "【日付・時刻入力】をレポートテンプレートに追加"
 menuTitle = "🧩日付時刻"
 toc = true
 weight = 101001107
-aliases = ["/docs/manual/initial-setting/template/datetime/", "/docs/manual/initial-setting/template/datetimes/"]
+aliases = []
 images = []
 +++
 

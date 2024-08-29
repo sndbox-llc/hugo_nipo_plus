@@ -5,7 +5,7 @@ title = "⛔アカウントの共用"
 toc = true
 weight = 101001038
 mermaid = true
-aliases = ["/docs/manual/initial-setting/advanced-setting/share/"]
+aliases = []
 images = []
 +++
 

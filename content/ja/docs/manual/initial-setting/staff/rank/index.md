@@ -7,7 +7,7 @@ menuTitle = "🔑権限について"
 toc = true
 weight = 101001003
 images = []
-aliases = ["/docs/manual/initial-setting/staff/_about/"]
+aliases = []
 +++
 
 

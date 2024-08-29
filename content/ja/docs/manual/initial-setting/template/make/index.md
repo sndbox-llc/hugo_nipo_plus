@@ -307,7 +307,9 @@ Nipo【旧版】（緑色のロゴマークのやつです）からNipoPlusへ�
 
 まずNipo【旧版】を開き、設定画面からテンプレートをエクスポートします。
 
-{{<imgproc template_export.png "テンプレートをJsonファイルにエクスポートする" />}}
+{{<iTablet filename="legacyTemplate-export" msg="旧バージョンのNipoから操作します" alice="here">}}
+
+
 
 {{<alice pos="right" icon="shield">}}
 ダウンロードしたファイルは編集しないように！壊れてしまいます
@@ -315,11 +317,12 @@ Nipo【旧版】（緑色のロゴマークのやつです）からNipoPlusへ�
 
 続いてNipoPlusを起動し、テンプレート設定画面を開きます。
 
-{{<imgproc template_import.png "NipoPlusから先程のJSONファイルを取り込みます" />}}
+{{<iTablet filename="legacyTemplate-import" msg="旧NipoのテンプレートをNipoPlusへインポートします" alice="here">}}
+
+
 
 数秒ほどで解析が完了し、テンプレート一覧が表示されます。
 
-{{<imgproc template_list.png "テンプレート一覧が表示されます" />}}
 
 プレビューボタンを押すと実際にレポート作成画面をポップアップで確認できます。
 取り込みボタンを押すとNipoPlusへ取り込みが実行されます。（取り込まれたテンプレートは一覧から削除されます。）

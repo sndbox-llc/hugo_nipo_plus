@@ -152,7 +152,7 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 ### 日報をPDF出力して印刷する{#pdf_output}
 
 <div class="row my-5">
-<div class="col-lg-8 rootMainText">
+<div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
 見たままに入力できるなら**見たままに出力できる**ことにもこだわって作りました。  
@@ -161,9 +161,11 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 {{<btnFull "/docs/manual/read-report/state/#pdf_export" "マニュアル:PDF出力">}}
 
 </div>
-<div class="col-lg-8">
+<div class="col-lg-9">
 <!-- 画像エリア -->
-{{<imgproc pdf_tate.webp "日報やチェックシートなどのデータを簡単にPDFに変換してダウンロードできます" />}}
+
+{{<iTablet filename="pdf-yoko" msg="日報やチェックシートなどのデータを簡単にPDFに変換してダウンロードできます"  alice="ok">}}
+
 
 </div>
 </div>

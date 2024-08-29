@@ -24,7 +24,9 @@ Nipo【旧版】では通常、「日報は蓄積していくもの」という�
 
 初期設定では、日報の一括削除は無効化されております。利用する際は一括削除機能を有効にしてください。
 
-{{<imgproc delete_enable.png "一括削除機能の有効化" />}}
+{{<iTablet filename="deleteFunction" msg="一括削除機能の有効化" alice="ok">}}
+
+
 
 {{<alice pos="left" icon="default">}}
 使うときにだけOnにし、使わないときはOFFにしておくとメニューバーがスッキリしますよ。特に削除なんて頻繁には使わないでしょう？

@@ -21,15 +21,12 @@ images = []
 部署や支店はもちろん、「新人研修会」のようなスポット目的でもグループを作成できます。  
 新たに他のグループを作るには次の手順で操作します。
 
-1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 2. 右メニューから「グループ設定」をクリック
 3. 新規作成をクリック
 4. グループ名やカラーテーマを設定
 5. グループに所属するスタッフを選択
 
-{{<icatch filename="sosiki" msg="メニュー左から「組織設定」を選んで組織管理画面を開きます">}}
-
-{{<nextArrow>}}
 
 {{<icatch filename="add_group" msg="「グループ設定」のセクションに移動し、新規追加をクリックしてグループを作成します" alice="ok">}}
 
@@ -93,12 +90,13 @@ images = []
 
 ### グループの無効化と削除の方法{#disable}
 
-1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 1. グループ管理のセクションまでスクロールします
 1. 削除したいグループの行にあるゴミ箱ボタンをクリックします
 1. 無効化されたグループから削除したいグループを完全に削除します
 
-{{<imgproc remove-group.webp "不要になったグループは無効化することでデータアクセス権限を全て喪失できます。完全に不要な場合は無効化のあと削除ができます。" />}}
+{{<iTablet filename="remove-group" msg="不要なグループは無効化してアクセス権限を全て喪失させよう" alice="ok">}}
+
 
 
 

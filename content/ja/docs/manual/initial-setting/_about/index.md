@@ -46,7 +46,7 @@ graph TD;
 
 なお、アプリで見ると次のようになります。
 
-1. NipoPlusにログイン後、[メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. NipoPlusにログイン後、[左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 
 {{<iTablet filename="company" msg="組織設定画面。組織内のスタッフとグループを管理する" alice="ok">}}
 

@@ -15,18 +15,12 @@ images = []
 スタッフのアカウントを作成することができるのは[管理者](/docs/manual/initial-setting/staff/rank/)に限られます。  
 アカウントを作ると自動で組織内にアカウントが追加されます。
 
-1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 1. 「スタッフ管理」の中の「新規作成」をクリック
 1. 必要事項を入力して「作成」をクリック（E-mailのみ必須）
 
-まずはメニューから「組織設定」をクリックします。このボタンは管理者権限以外表示されません。
-
-{{<icatch filename="gotoAdmin" msg="管理者だけメニューに「組織設定」が表示されます" alice="here">}}
-
-
-{{<nextArrow>}}
-
-組織設定画面に切り替わります。「新規作成」をクリックします。
+まずはメニューから[左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)します。（このボタンは管理者権限以外表示されません）  
+組織設定画面に切り替わったら「スタッフ管理」セクションの「新規作成」をクリックします。
 
 {{<icatch filename="create-new-staff" msg="組織内にスタッフのアカウントを追加します" alice="guide">}}
 
@@ -113,7 +107,7 @@ E-mailのみ必須で、それ以外の項目は任意です。
 
 ## スタッフのアカウントを無効化する{#disable}
 
-1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 1. スタッフ管理の項までスクロール
 1. 無効化するスタッフの「状態」列にあるボタンをクリック
 1. ボタンが赤色になれば無効化完了

@@ -29,7 +29,7 @@ mermaid = true
 
 GOLD PLANへのお申し込みはWeb版のNipoPlusを起動して行います。
 
-1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 2. 組織全般までスクロール
 3. 「自動更新有りで申し込み」をクリック
 4. 各種必要事項の入力
@@ -137,7 +137,7 @@ GOLD PLANへのお申し込みはWeb版のNipoPlusを起動して行います。
 
 NipoPlusのサブスクリプションを解除するには、以下のとおりです。
 
-1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 2. ページ末尾までスクロール
 3. サブスクリプション情報の中の「課金を停止」をクリック
 4. 確認メッセージに「OK」を選択

@@ -33,7 +33,7 @@ images = []
 
 ### 請求書の発行とダウンロード{#createInvoice}
 
-メニュー「組織設定」をクリックし、「組織全般」までスクロールし、「自動更新無しで申し込み」ボタンをクリックします
+[メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)し、「組織全般」までスクロールし、「自動更新無しで申し込み」ボタンをクリックします
 
 {{<icatch filename="invoice1" msg="請求書を発行して決済をするには「自動更新無しで申込」を選びます" alice="guide">}}
 

@@ -30,7 +30,7 @@ classDef class1 fill:#7BCCAC
 
 あなたの組織がどのプランかを確認してみましょう。
 
-1. メニューから「組織設定」をクリック
+1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 1. 「右メニューから「組織全般」をクリック
 1. 「状態」に現在のプランが記載されます
 

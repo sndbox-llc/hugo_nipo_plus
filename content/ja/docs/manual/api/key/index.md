@@ -17,7 +17,7 @@ APIキーでレポートを読むことができるのでAPIキーは厳重に�
 
 APIの有効無効設定は[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です。
 
-1. メニューから組織設定をクリック
+1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 1. APIを有効にするスタッフを見つける
 1. APIの項目をクリックして緑色のボタンにする
 

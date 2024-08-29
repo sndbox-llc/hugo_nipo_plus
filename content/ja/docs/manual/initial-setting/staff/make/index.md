@@ -12,9 +12,10 @@ images = []
 
 ## 1件のアカウントを作成する{#create_account_one}
 
-スタッフのアカウントを作成することができるのは[管理者](/docs/manual/initial-setting/staff/rank/)に限られます。アカウントを作ると自動で組織内にアカウントが追加されます。
+スタッフのアカウントを作成することができるのは[管理者](/docs/manual/initial-setting/staff/rank/)に限られます。  
+アカウントを作ると自動で組織内にアカウントが追加されます。
 
-1. メニューから「組織設定」をクリック
+1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 1. 「スタッフ管理」の中の「新規作成」をクリック
 1. 必要事項を入力して「作成」をクリック（E-mailのみ必須）
 
@@ -29,7 +30,26 @@ images = []
 
 {{<icatch filename="create-new-staff" msg="組織内にスタッフのアカウントを追加します" alice="guide">}}
 
-E-mailのみ必須です。それ以外に名前や[権限の設定](/docs/manual/initial-setting/staff/manage/)もできます。パスワードは初期設定時にデフォルトのものが設定されますが、任意に変更可能です。
+E-mailのみ必須で、それ以外の項目は任意です。
+各項目については以下の表を参照してください
+
+<dl class="basic">
+<dt>ログインE-mail※</dt>
+<dd>スタッフのメールアドレスです。ログインIDとしても使用されます。【入力必須】</dd>
+<dt>名前</dt>
+<dd>スタッフの名前です</dd>
+<dt><a href="/docs/manual/initial-setting/staff/rank/">権限</a></dt>
+<dd>スタッフの権限を指定します。「管理者・編集者・スタッフ・書き込みのみ・ゲスト」から選択します</dd>
+<dt>初期パスワード</dt>
+<dd>ログイン時に使用する初期のログインパスワードです。自動でセットされますが「パスワードを変える」にチェックをいれることで変更することも可能です</dd>
+<dt>所属先</dt>
+<dd>このスタッフが所属するグループです。初期状態ではすべてのグループに所属します。必要に応じて調整してください</dd>
+<dt>メモ</dt>
+<dd>スタッフに関するメモです。</dd>
+</dl>
+
+
+それ以外に名前や[権限の設定](/docs/manual/initial-setting/staff/manage/)もできます。パスワードは初期設定時にデフォルトのものが設定されますが、任意に変更可能です。
 指定したパスワードは実際にアカウントを利用するスタッフが[ログイン後に変更](/docs/manual/account/email/#password)できます。
 
 
@@ -93,7 +113,7 @@ E-mailのみ必須です。それ以外に名前や[権限の設定](/docs/manua
 
 ## スタッフのアカウントを無効化する{#disable}
 
-1. 組織設定をクリック
+1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 1. スタッフ管理の項までスクロール
 1. 無効化するスタッフの「状態」列にあるボタンをクリック
 1. ボタンが赤色になれば無効化完了

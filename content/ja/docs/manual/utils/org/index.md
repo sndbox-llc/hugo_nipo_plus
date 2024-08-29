@@ -16,7 +16,7 @@ images = []
 
 退会処理には[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です。
 
-1. 組織設定をクリック
+1. [メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 2. 組織全般までスクロール
 3. 退会をクリック
 4. 管理者のパスワードを入力

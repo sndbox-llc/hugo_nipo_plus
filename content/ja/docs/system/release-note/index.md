@@ -323,7 +323,6 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 - 読み込みが完了しない場合、再起動してください
 
 
-{{<imgproc cashclear.png "キャッシュのクリア" />}}
 
 本記事執筆時点で[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)各アプリストアには更新の申請を行っている段階で、まだリリースされていません。
 リリース後に本ページにてご案内いたします。 ー＞ リリースされました（２月１日）

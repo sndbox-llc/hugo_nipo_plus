@@ -143,7 +143,9 @@ NipoPlusのサブスクリプションを解除するには、以下のとおり
 4. 確認メッセージに「OK」を選択
 5. 解約の旨のメールが届く
 
-{{<imgproc cancel-subscription.png "支払いを停止する" />}}
+{{<iTablet filename="cancel-subscription" msg="支払いを止めるよ">}}
+
+
 
 以上で解約は完了です。
 解約時に残存日数がある場合はその期間が無料お試し期間として設定されます。

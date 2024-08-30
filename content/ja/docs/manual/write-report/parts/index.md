@@ -224,6 +224,14 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 ## その他
 
 
+### 在庫入力{#item}
+
+商品管理で登録された商品の状態、及び数量をレポートを通して変更できます。
+
+{{<icatch filename="itemReport" msg="在庫の入力" alice="guide">}}
+
+
+[▶このフォームを追加する方法](/docs/manual/initial-setting/template/mod/)
 
 ### 反復入力{#array}
 

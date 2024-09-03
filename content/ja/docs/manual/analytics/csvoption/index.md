@@ -101,10 +101,10 @@ CSV出力設定では一括で展開のON/OFFが適用されてしまいます�
 <dt>【可変-提出日】<br>同レポートの2行目以降も出力</dt>
 <dd>
 <ul>
-<li>ON:可変長の2行目以降も日付を出力します</li>
-<li>OFF:可変長の2行目以降は日付を省略します</li>
+<li>ON:<a href="/docs/manual/initial-setting/template/array/">反復入力</a>の2行目以降も日付を出力します</li>
+<li>OFF:反復入力の2行目以降は日付を省略します</li>
 </ul>
-<a href="/docs/manual/initial-setting/template/array/">可変長</a>がない場合、設定の意味は有りません。
+<a href="/docs/manual/initial-setting/template/array/">反復入力</a>がない場合、設定の意味は有りません。
 </dd>
 
 <dt>提出者IDを出力</dt>

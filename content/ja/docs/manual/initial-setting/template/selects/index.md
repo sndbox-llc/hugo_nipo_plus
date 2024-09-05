@@ -391,6 +391,10 @@ graph LR;
 
 ## 選択肢のリストを動的に変化させる{#dinamic_switch_select}
 
+{{<info>}}
+動的変化は現在反復入力の中では使用できませんが、2024年9月中に使用可能になります
+{{</info>}}
+
 [選択式入力フォーム（単）](/docs/manual/initial-setting/template/selects/#plain)・及び[選択式入力フォーム（複）](/docs/manual/initial-setting/template/selects/#multiple)は他の選択式入力フォームの回答結果により自身の選択肢のリストを動的に変更する機能があります。
 これを動的変化機能といいます。
 

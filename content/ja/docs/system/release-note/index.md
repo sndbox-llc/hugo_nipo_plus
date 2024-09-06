@@ -36,6 +36,12 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoLogo 30>}}  2024/9/6 サイレントアップデート{#20240906}
+
+- PDF出力時にレイアウト２を選択すると、PDF出力に失敗するエラーを修正しました
+
+
+
 
 #### {{<nipoPlusLogo 30>}} 2024/9/6 v1.62.0{#vp1_62_0}
 

@@ -37,6 +37,11 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 ### リリース詳細▼{#more}
 
 
+#### {{<nipoPlusLogo 30>}} 2024/9/6 v1.62.0{#vp1_62_0}
+
+- [反復入力フォーム](/docs/manual/initial-setting/template/array/)内で[動的変化機能](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)が利用できるようになりました
+
+
 #### {{<nipoPlusLogo 30>}} 2024/9/3 v1.61.0{#vp1_61_0}
 
 PDF出力に関する機能を追加しました

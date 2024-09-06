@@ -8,7 +8,7 @@
   translation: "検索..."
 
 - id: 404-title
-  translation: "見つかりませんでした"
+  translation: "すみません。ページが見つかりません"
 
 - id: 404-text
   translation: "URLが変わったか記事が削除された可能性があります"

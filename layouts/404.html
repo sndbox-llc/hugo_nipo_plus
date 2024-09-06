@@ -7,11 +7,35 @@
     <article>
       <h1 class="text-center">{{ i18n "404-title" }}</h1>
       <p class="text-center">{{ i18n "404-text" }}</p>
-      <img src="/images/404.webp" />
+      <img src="/images/404.webp" alt="ページが見つかりません。404" />
       <a href="/" class="btn btn-primary btn-lg d-block m-5">戻る</a>
     </article>
   </div>
 </div>
 </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+
+const log404Error =  () => {
+console.log('ページが見つかりません')
+const config = {
+  method: "POST",
+  url: "https://us-central1-nipo-plus.cloudfunctions.net/page404Web",
+  params: {
+    url: window.location.href,
+    referrer: document.referrer,
+  }
+};
+
+// 完了を待つ必要はない
+axios(config);
+
+}
+
+log404Error();
+
+</script>
 {{ end }}

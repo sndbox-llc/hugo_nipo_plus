@@ -5,7 +5,7 @@ toc = true
 weight = 109000002
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/legacy/quick/"]
+aliases = ["/legacy/quick/", "/old/"]
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

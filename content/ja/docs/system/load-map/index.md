@@ -30,7 +30,7 @@ NipoPlusで現在実装されていませんがこれから実装を予定して
 
 登録日|カテゴリ|内容|顛末
 ---|---|---|---
-2024/9/3|要望|[反復入力](/docs/manual/initial-setting/template/array/)内で[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)をサポートする（優先）|
+2024/9/3|要望|[反復入力](/docs/manual/initial-setting/template/array/)内で[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)をサポートする（優先）|[1.62.0](/docs/system/release-note/#vp1_62_0)
 2024/8/19|要望|PDF出力・高さも調整できるようにしたい|
 2024/7/17|課題|数値入力時、「空欄」以外で稼働していない状態を示すような何かしらのシグナルを追加する？（要検討）|
 2024/7/17|要望|テンプレートの項目見出しを右揃え、中央揃えできるようにする|

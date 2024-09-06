@@ -15,8 +15,8 @@ weight = 109000000
 
 ## 今後の対応について{#future_plans}
 
-- GOLDプランへ移行していただく
-- NipoPlusへ移行する
+- [GOLDプランへ移行](/legacy/system/price/#newInvoice)していただく
+- [NipoPlus](/)へ移行する
 - Nipo【旧版】の利用を辞める
 
 

@@ -5,7 +5,7 @@ title = "システム更新履歴(リリースノート)"
 menuTitle = "📜システム更新履歴"
 toc = false
 weight = 103000004
-aliases = ["/old/system/releasenote/"]
+aliases = ["/old/system/releasenote/", "/system/load-map/"]
 images = []
 +++
 
@@ -193,7 +193,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 #### {{<nipoPlusLogo 30>}} 2024/6/11 v1.54.0{#vp1_54_0}
 
 - [CSV出力オプション](/docs/manual/analytics/csvoption/)に 非可変を可変に合わせて同値で埋める を追加しました
-- [反復入力](/docs/manual/initial-setting/template/array/)で[期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)を使用する際、同じ時刻がセットされたときに警告が表示される様になりました
+- [反復入力](/docs/manual/initial-setting/template/array/)で[期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)を使用する際、同じ時刻がセットされたときに警告が表示される様になりました
 - [反復入力](/docs/manual/initial-setting/template/array/)で横にスクロールが必要なケースで、これまで「行単位」で行われたスクロールを「表全体」でスクロールするように修正しました
 - [レポート作成](/docs/manual/write-report/write/)の途中でページを移動しようとすると、警告が表示されるように修正しました
 - [レポート作成](/docs/manual/write-report/write/)の途中でページを離脱した時、一部のデータの復元ができないバグを修正しました
@@ -204,7 +204,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 #### {{<nipoPlusLogo 30>}} 2024/5/28 v1.53.1{#vp1_53_1}
 
-- [２層式選択入力フォーム](//docs/manual/initial-setting/template/selects/#layerd)の警告文を一部削除しました
+- [２層式選択入力フォーム](/docs/manual/initial-setting/template/selects/#layerd)の警告文を一部削除しました
 - 文字サイズ変更時に正しく反映されなかった一部の文字及びボタンを変化するように調整しました
 - [目標実績表](/docs/manual/analytics/progress/)の作成画面をわかりやすく改善しました
 - わかりにくい箇所のヘルプガイドを追加しました
@@ -495,7 +495,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 - レポート作成画面にタイムカード入力ボタンを追加しました。[【詳細はこちら】](/docs/manual/timecard/input/#withReport)
 - CSVダウンロード時にスタッフごとやテンプレートごとに個別に分けてダウンロードできるようになりました。[【詳細はこちら】](/docs/manual/analytics/csv/#splid_download)
-- タグの管理画面で分類による絞り込みをサポートしました[【詳細はこちら】](/i18n/docs/manual/initial-setting/advanced-setting/tag/#filterd) 
+- [タグの管理画面](/docs/manual/initial-setting/advanced-setting/tag/)で分類による絞り込みをサポートしました
 - テンプレートの管理にフォルダ分けが使えるようになりました。[【詳細はこちら】](/docs/manual/initial-setting/template/directory/)
 - 起動時に所属グループの権限が無い場合に他のグループ一覧を表示するように修正しました。関連してグループに一切所属していない場合適切なエラーメッセージを表示するように修正しました
 - 集計時にレポート一覧を表示する機能が正式に実装されました
@@ -800,12 +800,12 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 - [CSV出力](/docs/manual/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました
 - [ログ表示](/docs/manual/utils/log/)の日付入力を使いやすく改良しました
-- [期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました
+- [期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました
 
 #### {{<nipoPlusLogo 30>}}  2022/08/31 v1.12.1{#vp1_12_1}
 
 - [反復入力](/docs/manual/initial-setting/template/array/)時に見出し項目を1行目以外非表示にしました
-- [期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)の表示を一部変更しました
+- [期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)の表示を一部変更しました
 
 #### {{<nipoPlusLogo 30>}}  2022/08/29 v1.12.0{#vp1_12_0}
 

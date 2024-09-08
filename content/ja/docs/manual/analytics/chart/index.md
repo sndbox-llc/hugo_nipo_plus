@@ -181,7 +181,7 @@ images = ["pie-chart_tablet.png"]
 <ul>
 <li><a href="/docs/manual/initial-setting/template/selects/#plain">選択式（単）フォーム</a></li>
 <li><a href="/docs/manual/initial-setting/template/selects/#multiple">選択式（複）フォーム</a></li>
-<li><a href="//docs/manual/initial-setting/template/selects/#layerd">選択式（階層）フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/selects/#layerd">選択式（階層）フォーム</a></li>
 <li><a href="/docs/manual/initial-setting/template/digital/#rate">レート入力フォーム</a></li>
 </ul>
 </dd>
@@ -189,7 +189,7 @@ images = ["pie-chart_tablet.png"]
 <dd>
 単純に合算した集計ができます。以下のフォームが該当します
 <ul>
-<li><a href="/docs/manual/initial-setting/template/datetimes/">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
+<li><a href="/docs/manual/initial-setting/template/date_time/#range">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
 <li><a href="/docs/manual/initial-setting/template/digital/#commonNumber">数値入力フォーム</a></li>
 <li><a href="/docs/manual/initial-setting/template/digital/#slider">スライダ入力フォーム</a></li>
 </ul>

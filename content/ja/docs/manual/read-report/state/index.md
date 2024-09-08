@@ -4,7 +4,7 @@ tags = []
 title = "📖レポートを読む"
 toc = true
 weight = 101003002
-aliases = []
+aliases = ["/docs/manual/read-report/other/", "/docs/manual/read-report/comment/"]
 images = []
 +++
 

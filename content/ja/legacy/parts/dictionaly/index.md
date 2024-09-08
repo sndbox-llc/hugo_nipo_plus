@@ -190,7 +190,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## タイムカード入力{#timecard}
 
-{{<btnCenter "/docs/manual/timecard/_about/" "NipoPlusでも使えます">}}
+{{<btnCenter "/docs/manual/timecard/input/" "NipoPlusでも使えます">}}
 
 ### タイムカードの入力画面{#display}
 

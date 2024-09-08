@@ -5,7 +5,7 @@ toc = true
 weight = 109002010
 isNipo = true
 tags = ["旧バージョン"]
-aliases = ["/legacy/parts/picture/"]
+aliases = ["/legacy/parts/picture/", '/old/parts/picture/']
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

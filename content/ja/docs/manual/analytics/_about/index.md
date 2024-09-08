@@ -16,7 +16,7 @@ images = ["chart_tablet.png"]
 {{</info>}}
 
 
-スタッフが[作成したレポート](//docs/manual/write-report/write/)によっては集計が可能なものも有ります。集計が可能なものとしては[数値入力フォーム](/docs/manual/initial-setting/template/selects/)や[選択式入力フォーム](/docs/manual/initial-setting/template/selects/)があります。詳しくは本ページ末尾の[集計可能な入力フォームとその特性](#hint)を御覧ください。
+スタッフが[作成したレポート](/docs/manual/write-report/write/)によっては集計が可能なものも有ります。集計が可能なものとしては[数値入力フォーム](/docs/manual/initial-setting/template/selects/)や[選択式入力フォーム](/docs/manual/initial-setting/template/selects/)があります。詳しくは本ページ末尾の[集計可能な入力フォームとその特性](#hint)を御覧ください。
 
 
 {{<info>}}
@@ -105,7 +105,7 @@ NipoPlusの集計でカバーできない範囲はCSV出力してエクセルか
 <ul>
 <li><a href="/docs/manual/initial-setting/template/selects/#plain">選択式（単）フォーム</a></li>
 <li><a href="/docs/manual/initial-setting/template/selects/#multiple">選択式（複）フォーム</a></li>
-<li><a href="//docs/manual/initial-setting/template/selects/#layerd">選択式（階層）フォーム</a></li>
+<li><a href="/docs/manual/initial-setting/template/selects/#layerd">選択式（階層）フォーム</a></li>
 <li><a href="/docs/manual/initial-setting/template/digital/#rate">レート入力フォーム</a></li>
 </ul>
 </dd>
@@ -113,7 +113,7 @@ NipoPlusの集計でカバーできない範囲はCSV出力してエクセルか
 <dd>
 単純に合算した集計ができます。以下のフォームが該当します
 <ul>
-<li><a href="/docs/manual/initial-setting/template/datetimes/">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
+<li><a href="/docs/manual/initial-setting/template/date_time/#range">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
 <li><a href="/docs/manual/initial-setting/template/digital/#commonNumber">数値入力フォーム</a></li>
 <li><a href="/docs/manual/initial-setting/template/digital/#slider">スライダ入力フォーム</a></li>
 </ul>

@@ -11,7 +11,7 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/" "NipoPlusでも使えます">}}
+{{<btnCenter "/docs/manual/initial-setting/template/make/" "NipoPlusでも使えます">}}
 
 ## テンプレートの役割{#about}
 

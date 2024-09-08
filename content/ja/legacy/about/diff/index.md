@@ -87,7 +87,7 @@ Nipo【旧版】は１行に最大で２列までしか追加できなかった�
 
 - [ファイル入力フォーム](/docs/manual/initial-setting/template/binarys/#file)
 - [算術入力フォーム](/docs/manual/initial-setting/template/digital/#calc)
-- [期間入力フォーム](/docs/manual/initial-setting/template/datetimes/)
+- [期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)
 - [反復入力フォーム](/docs/manual/initial-setting/template/array/)
   
 [反復入力](/docs/manual/initial-setting/template/array/)フォームはNipo【旧版】にも有りましたが大幅なレベルアップをしているので新規追加と言っても良いレベルです。そのためリストに掲載させていただきました。  

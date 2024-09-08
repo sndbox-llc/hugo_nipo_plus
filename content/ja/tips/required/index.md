@@ -59,11 +59,11 @@ NipoPlusでは様々な入力フォームがありますが、入力必須は一
   <dd>選択肢から1つ選ぶ</dd>
   <dt><a href="/docs/manual/initial-setting/template/selects/#multiple">選択式入力（複）</a></dt>
   <dd>選択肢から少なくとも1つ選ぶ</dd>
-  <dt><a href="//docs/manual/initial-setting/template/selects/#layerd">選択式入力（2層）</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/selects/#layerd">選択式入力（2層）</a></dt>
   <dd>問2の選択肢から1つ選ぶ</dd>
   <dt><a href="/docs/manual/initial-setting/template/date_time/#point">日付・時刻入力</a></dt>
   <dd>日付または時刻を入力する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/datetimes/">期間入力</a></dt>
+  <dt><a href="/docs/manual/initial-setting/template/date_time/#range">期間入力</a></dt>
   <dd>期間（開始・終了両方とも）を入力する</dd>
   <dt><a href="/docs/manual/initial-setting/template/selects/#checkbox">チェックボックス入力</a></dt>
   <dd>チェックボックスにチェックを入れる（同意や確認として利用を推奨します）</dd>

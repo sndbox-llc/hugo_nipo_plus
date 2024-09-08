@@ -20,7 +20,7 @@ showPrice = true
 <div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
-誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/)、[画像入力](/docs/manual/initial-setting/template/binarys/)など）を組み合わせるだけで、**自社に最適なテンプレートを作成**できます。  
+誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/#commonNumber)、[画像入力](/docs/manual/initial-setting/template/binarys/#picture)など）を組み合わせるだけで、**自社に最適なテンプレートを作成**できます。  
 
 特別な技術知識がなくても、自社の業務に合った入力フォームを迅速に構築できます。  
 テンプレートは複数保存可能

@@ -6,7 +6,7 @@ menuTitle = "🧩選択入力系"
 toc = true
 weight = 101001106
 mermaid = true
-aliases = []
+aliases = ["/docs/manual/initial-setting/template/selectcalc/"]
 images = []
 +++
 

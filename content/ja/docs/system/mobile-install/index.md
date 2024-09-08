@@ -5,7 +5,7 @@ title = "Android/iOS/PCでNipoPlusを使用する方法"
 menuTitle = "🍏iOS・🤖Android・PCで使う"
 toc = true
 weight = 103000003
-aliases = []
+aliases = ["/docs/system/android/"]
 images = ["android-install-pwa.png"]
 [sitemap]
   changefreq = "monthly"

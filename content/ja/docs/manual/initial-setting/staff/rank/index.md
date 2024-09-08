@@ -7,7 +7,7 @@ menuTitle = "🔑権限について"
 toc = true
 weight = 101001003
 images = []
-aliases = []
+aliases = ["/docs/manual/initial-setting/staff/_about/"]
 +++
 
 
@@ -29,7 +29,7 @@ aliases = []
 <li><a href="/docs/manual/initial-setting/make-group/">グループの作成</a></li>
 <li><a href="/docs/manual/remove/group/">グループの削除</a></li>
 <li><a href="/docs/manual/initial-setting/staff/make/">スタッフの作成</a></li>
-<li><a href="/docs/manual/remove/staff/">スタッフの削除</a></li>
+<li><a href="/docs/manual/initial-setting/staff/make/#remove">スタッフの削除</a></li>
 <li>スタッフの権限変更</li>
 </ul>
 </dd>

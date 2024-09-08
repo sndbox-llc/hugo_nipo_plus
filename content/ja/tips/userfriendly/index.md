@@ -112,7 +112,7 @@ click TEXT "/docs/manual/initial-setting/template/text/"
 click MATH "/docs/manual/initial-setting/template/digital/#commonNumber"
 click STEP "/docs/manual/initial-setting/template/digital/#slider"
 click DATETIME "/docs/manual/initial-setting/template/date_time/#point"
-click DATETIMES "/docs/manual/initial-setting/template/datetimes/"
+click DATETIMES "/docs/manual/initial-setting/template/date_time/#range"
 click RANGE "/docs/manual/initial-setting/template/digital/#range"
 click RATE "/docs/manual/initial-setting/template/digital/#rate"
 click CALC "/docs/manual/initial-setting/template/digital/#calc"
@@ -362,7 +362,7 @@ Yesなら✔するだけのシンプルなテンプレートです。補足事�
 
 具体的なテンプレートの作成手順については以下のリンクを参照してください。
 
-{{<btnCenter "/docs/manual/initial-setting/template/" "テンプレートの作り方">}}
+{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレートの作り方">}}
 
 
 

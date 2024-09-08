@@ -5,7 +5,7 @@ title = "テンプレートの管理（コピー・削除など）"
 menuTitle = "テンプレートの複製、削除等"
 toc = true
 weight = 101001121
-aliases = []
+aliases = ["/docs/manual/remove/template/"]
 images = []
 mermaid = true
 +++

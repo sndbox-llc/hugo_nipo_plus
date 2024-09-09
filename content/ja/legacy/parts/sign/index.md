@@ -26,61 +26,45 @@ aliases = ["/legacy/parts/picture/", '/old/parts/picture/']
 - 日報のコピー機能を使っても署名はコピーされない（手描きメモは上書きしない限り同じ画像がセットされます）
 - PDF出力の際、手書きメモは画面サイズ最大に表示するが署名は適切なサイズで表示されます
 
-{{<imgproc parts_sign1.png "署名を日報に添付した様子" />}}
+
+{{<iTablet filename="sign1" msg="署名を日報に添付した様子"  alice="ok">}}
+
 
 #### 署名を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
-
-{{<imgproc parts_sign2.png "署名を含む日報をPDFに変換した出力結果" />}}
-
-実際のPDFファイルはこちらからダウンロードして確認できます
-
-残念ですがCSV出力には対応していません。CSV上には「対象外」との文字だけが出力されます
+[PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
 
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-{{<imgproc parts_text4.png "クラウド日報Nipo【旧版】のアプリ上から署名を含むレポートを表示した画面" />}}
 
 #### 設定画面{#setting}
 
 テンプレートの編集画面では次のような設定画面となっております。署名に関しては設定項目はタイトルしかありません。
-{{<imgproc parts_sign5.png "署名の初期設定画面" />}}
 
 
 
 ---
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "NipoPlusでも使えます">}}
 
 ### 手書きメモの入力画面{#display}
+
+{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "NipoPlusでも使えます">}}
+
 
 iPadやSurfaceのような**タッチパネルが使える**場合に便利な入力項目です。指でスラスラとイラストや文字が描けます。また、Apple PencilやSurface Penも利用できます。図・イラストを日報に付与したい場合におすすめです。
 また、いちいちキーボードを使っていられない煩雑な状況でササッとペンで描いて提出するという使い方もできます。描いたイラストは、ご利用のデバイスによってサイズが自動で変わります。
 
-{{<imgproc parts_canvas.png "手書きメモを日報に添付した様子" />}}
+{{<iTablet filename="canvas" msg="手書きメモを日報に添付した様子"  alice="ok">}}
+
+
 
 #### 手書きメモを含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
-{{<imgproc parts_canvas2.png "手書きメモを含む日報をPDFに変換した出力結果" />}}
+[PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
-新レイアウトのほうが幅をいっぱいに使えるので一回り大きな画像として出力されていることがわかります。  
-
-残念ですがCSV出力には対応していません。CSV上には「対象外」との文字だけが出力されます
-
-
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-{{<imgproc parts_canvas3.png "クラウド日報Nipo【旧版】のアプリ上から手書きメモを含むレポートを表示した画面" />}}
 
 #### 設定画面{#setting}
 
-テンプレートの編集画面では次のような設定画面となっております。
-
-{{<imgproc parts_canvas4.png "手書きメモの初期設定画面" />}}
 
 設定項目はタイトルのみです。事実上初期設定は不要です。
 
@@ -99,15 +83,14 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 画像をNipo【旧版】のサーバにアップする前に、画像の圧縮処理が行われ通信量を削減しています。圧縮されると、画像の容量はおおよそ１００KB程度になります。  
 写真データはCSV出力されません。（PDF出力時は写真が出力可能です）  
 
-{{<imgproc parts_pic1.png "日報に画像を添付する画面イメージ" />}}
+{{<iTablet filename="picture" msg="日報に画像を添付する画面イメージ"  alice="ok">}}
+
+
 
 ### 写真画像を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
+[PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
-{{<imgproc parts_pic2.webp "写真画像を含む日報をPDFに変換した出力結果" />}}
-
-CSVに出力すると対応外とのエラーが表示されます
 
 {{< excelTable >}}
 sample, test, dummy, mock, コメント
@@ -116,19 +99,14 @@ sample, test, dummy, mock, コメント
 
 
 
-{{<alice pos="left" icon="default">}}
-写真やイラストなどのデータは残念ですがCSVに出力できません
-{{</alice>}}
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_pic4.png "クラウド日報Nipo【旧版】のアプリ上から写真画像を含むレポートを表示した画面" />}}
 
 ### 設定画面{#setting}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
-{{<imgproc parts_pic5.png "写真画像の初期設定画面" />}}
 
 
 <dl class="basic">

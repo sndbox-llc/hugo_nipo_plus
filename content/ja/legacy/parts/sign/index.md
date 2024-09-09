@@ -30,13 +30,13 @@ aliases = ["/legacy/parts/picture/", '/old/parts/picture/']
 {{<iTablet filename="sign1" msg="署名を日報に添付した様子"  alice="ok">}}
 
 
-#### 署名を含んだ日報の各種出力画面{#output}
+#### 署名を含んだ日報の各種出力画面{#outputSign}
 
 [PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
 
 
-#### 設定画面{#setting}
+#### 設定画面{#settingSign}
 
 テンプレートの編集画面では次のような設定画面となっております。署名に関しては設定項目はタイトルしかありません。
 
@@ -58,12 +58,12 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 
 
 
-#### 手書きメモを含んだ日報の各種出力画面{#output}
+#### 手書きメモを含んだ日報の各種出力画面{#outputCanvas}
 
 [PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
 
-#### 設定画面{#setting}
+#### 設定画面{#settingCanvas}
 
 
 設定項目はタイトルのみです。事実上初期設定は不要です。
@@ -87,7 +87,7 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 
 
 
-### 写真画像を含んだ日報の各種出力画面{#output}
+### 写真画像を含んだ日報の各種出力画面{#outputPicture}
 
 [PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
@@ -103,7 +103,7 @@ sample, test, dummy, mock, コメント
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 
-### 設定画面{#setting}
+### 設定画面{#settingPicture}
 
 テンプレートの編集画面では次のような設定画面となっております。
 

@@ -25,12 +25,12 @@ aliases = ["/legacy/parts/selects/", "/legacy/parts/checkbox/"]
 選択式はスタッフの日報作成の手間を減らせます。また、イレギュラーな文字を入力されることがないため、日報の読み手にとっても安心できます。
 例えば「天気」を書く場合にこの項目は便利です。「晴れ・曇・雨」を用意しておけば、入力するスタッフも簡単です。
 
-{{<imgproc parts_selecto1.png "選択肢を日報に添付した様子" />}}
+{{<iTablet filename="select" msg="選択肢を日報に添付した様子"  alice="ok">}}
 
-### 選択肢（単回答）を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
-{{<imgproc parts_selecto2.png "選択肢を含む日報をPDFに変換した出力結果" />}}
+### 選択肢（単回答）を含んだ日報の各種出力画面{#outputSingle}
+
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
 
 選択肢（単回答）ではCSV出力時に「**列の展開**」を指定できます。文字では伝えにくいので実際のデータをみて比較してください  
 
@@ -56,7 +56,6 @@ apple, banana, apple, banana, banana, -
 
 選択肢の入力はNipo【旧版】の[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
 
-{{<imgproc parts_selecto5.png "選択肢を集計した画面" />}}
 
 {{<alice pos="left" icon="default">}}
 詳しくは集計のページを御覧ください
@@ -64,15 +63,13 @@ apple, banana, apple, banana, banana, -
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_selecto6.png "クラウド日報Nipo【旧版】のアプリ上から選択肢を含むレポートを表示した画面" />}}
 
 Nipo【旧版】の受信Boxなどから表示される見た目は、1行テキストとほとんど変わりありません。
 
-### 設定画面{#setting}
+### 設定画面{#settingSingle}
 
-テンプレートの編集画面では次のような設定画面となっております。
+テンプレートの編集画面では次のような設定が可能です。
 
-{{<imgproc parts_selecto7.png "選択肢の初期設定画面" />}}
 
 
 <dl class="basic">
@@ -108,42 +105,27 @@ Nipo【旧版】の受信Boxなどから表示される見た目は、1行テキ
 回答をいくつか用意しておき、その中から複数選択することで回答できます。入力時の表示方式は、選択肢をすべて画面に表示する「チェックボックス式」と、選択肢をプルダウンから選ぶ「セレクト式」が選べます。上図のケースでは、左列が「チェックボックス式」で右列が「セレクト式」になります。
 選択肢は無料プランで5こまで、有料プランでは50こまで作成できます。足りない場合は2つに分けるなどして対応してください。
 
-{{<imgproc parts_selectm1.png "選択肢を日報に添付した様子" />}}
+{{<iTablet filename="selects" msg="複数個選べるのが特徴です"  alice="ok">}}
 
-### 選択肢（単回答）を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
-{{<imgproc parts_selectm2.png "選択肢を含む日報をPDFに変換した出力結果" />}}
+### 選択肢（単回答）を含んだ日報の各種出力画面{#outputMulti}
 
-選択肢（単回答）ではCSV出力時に「**列の展開**」を指定できます。
-**【列を展開しない場合】**
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
 
-{{<imgproc parts_selectm3.png "選択肢を含む日報をCSVに出力し、Excelで開いた画面ー展開なし" />}}
-
-**【列を展開する場合】**
-
-{{<imgproc parts_selectm4.png "手書きメモを含む日報をCSVに出力し、Excelで開いた画面ー展開あり" />}}
-
+選択肢（単回答）ではCSV出力時に「**列の展開**」を指定できます。詳しくは[選択肢と同じなのでそちらを参照](#outputSingle)してください。
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
 選択肢の入力はNipo【旧版】の[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
 
-{{<imgproc parts_selectm5.png "集計機能を使って選択された回数を集計した画面" />}}
 
 {{<alice pos="left" icon="default">}}
 詳しくは集計のページを御覧ください
 {{</alice>}}
 
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_selectm6.png "クラウド日報Nipo【旧版】のアプリ上から選択肢を含むレポートを表示した画面" />}}
-
-Nipo【旧版】の受信Boxなどから表示される見た目は、1行テキストとほとんど変わりありません。
-
-### 設定画面{#setting}
+### 設定画面{#settingMulti}
 
 テンプレートの編集画面では次のような設定画面となっております。
-{{<imgproc parts_selectm7.png "選択肢の初期設定画面" />}}
 
 
 <dl class="basic">
@@ -179,33 +161,19 @@ Nipo【旧版】の受信Boxなどから表示される見た目は、1行テキ
 チェックボックスは **「はい・いいえ」の回答が簡単**にできるシンプルな項目です。見た目もわかりやすく、誰でも簡単に操作できます。
 入力必須の指定がされた場合、チェックがONになっていないと、提出ができません。（入力必須の設定については後述）
 
-{{<imgproc parts_chkbox1.png "チェックボックスの日報を入力する画面" />}}
+{{<iTablet filename="checkbox" msg="チェックボックスの日報を入力する画面"  alice="ok">}}
 
 
-### チェックボックスを含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
-{{<imgproc parts_chkbox2.png "チェックボックスを含む日報をPDFに変換した出力結果" />}}
+### チェックボックスを含んだ日報の各種出力画面{#outputCheckbox}
 
-チェックボックスはCSV出力時に列を展開して出力することもできます。
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+チェックボックスはCSV出力時に列を展開して出力することもできます。詳しくは[選択肢と同じなのでそちらを参照](#outputSingle)してください。
 
-列を展開せずに[CSVに出力](/tips/analytics/)すると次のように表示されます。
-
-{{<imgproc parts_chkbox3.png "チェックボックスを含む日報をCSV出力し、エクセルで開いた例ー列の展開を無効" />}}
-
-列を展開してCSV出力すると次のように表示されます
-
-{{<imgproc parts_chkbox4.png "チェックボックスを含む日報のCSV出力し、エクセルで開いた例ー列の展開を有効" />}}
-
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-{{<imgproc parts_chkbox5.png "クラウド日報Nipo【旧版】のアプリ上からチェックボックスを表示した画面" />}}
-
-### 設定画面{#setting}
+### 設定画面{#settingCheckbox}
 
 テンプレートの編集画面では次のような設定画面となっております。
-{{<imgproc parts_chkbox6.png "チェックボックスの初期設定画面" />}}
 
 
 <dl class="basic">

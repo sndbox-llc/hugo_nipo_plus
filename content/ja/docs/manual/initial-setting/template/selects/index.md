@@ -211,7 +211,7 @@ graph LR;
 {{< /mermaid >}}
 
 
-### 選択肢（2層式）の初期設定{#setting}
+### 選択肢（2層式）の初期設定{#settingSelectCalc}
 
 問１のリストと問２のリストを作成する必要があるため初期設定は少し手間がかかります。
 {{<icatch filename="template" msg="テンプレート編集。選択肢二槽式の初期設定">}}

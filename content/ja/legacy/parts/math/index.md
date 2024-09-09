@@ -25,7 +25,7 @@ aliases = ["/legacy/parts/slide/", "/legacy/parts/rating/", "/legacy/parts/range
 
 {{<imgproc parts_math1.png "数値を日報に添付した様子" />}}
 
-### 数値を含んだ日報の各種出力画面{#output}
+### 数値を含んだ日報の各種出力画面{#outputDigit}
 
 [PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
@@ -49,7 +49,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_math5.png "クラウド日報Nipo【旧版】のアプリ上から数値を含むレポートを表示した画面" />}}
 
-### 設定画面{#setting}
+### 設定画面{#settingDigit}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
@@ -90,7 +90,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_slide1.png "スライダーを日報に添付した様子" />}}
 
-### スライダーを含んだ日報の各種出力画面{#output}
+### スライダーを含んだ日報の各種出力画面{#outputSlider}
 
 [PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
@@ -118,7 +118,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_slide5.png "クラウド日報Nipo【旧版】のアプリ上からスライダーを含むレポートを表示した画面" />}}
 
-### 設定画面{#setting}
+### 設定画面{#settingSlider}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
@@ -165,7 +165,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_rating1.png "レートを日報に添付した様子" />}}
 
-### レートを含んだ日報の各種出力画面{#output}
+### レートを含んだ日報の各種出力画面{#outputRate}
 
 [PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
@@ -191,7 +191,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_rating5.png "クラウド日報Nipo【旧版】のアプリ上からレートを含むレポートを表示した画面" />}}
 
-### 設定画面{#setting}
+### 設定画面{#settingRate}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
@@ -223,7 +223,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_range1.png "範囲入力を日報に添付した様子" />}}
 
-### 範囲を含んだ日報の各種出力画面{#output}
+### 範囲を含んだ日報の各種出力画面{#outputRange}
 
 [PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
@@ -248,7 +248,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<imgproc parts_range6.png "範囲を含む日報をNipo【旧版】の受信BOXから表示した画面例" />}}
 
-### 設定画面{#setting}
+### 設定画面{#settingRange}
 
 テンプレートの編集画面では次のような設定画面となっております。
 

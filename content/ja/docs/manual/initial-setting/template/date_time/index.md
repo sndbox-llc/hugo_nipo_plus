@@ -38,7 +38,7 @@ images = []
 
 日付と時刻(時点)は単体の時間のため、集計処理には対応していません。
 
-### 日付と時刻（時点）フォームの初期設定{#setting}
+### 日付と時刻（時点）フォームの初期設定{#settingDatetime}
 
 {{<icatch filename="datetime-template-edit" msg="左のパーツリストから日付と時刻を追加します">}}
 

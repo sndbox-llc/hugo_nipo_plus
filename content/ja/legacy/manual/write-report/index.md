@@ -43,6 +43,7 @@ aliases = []
 
 使用するテンプレートをクリックすると、入力画面が表示されます。
 
+
 {{<iTablet filename="writeReport" msg="日報記入画面。選んだテンプレートによって項目が変わります"  alice="ok">}}
 
 

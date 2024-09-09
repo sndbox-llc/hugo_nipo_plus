@@ -19,7 +19,9 @@ aliases = ["/old/parts/text/"]
 その名の通り、１行しか入力できません。例えば**担当者名**や**地名**、**管理番号**などの入力に最適です。  
 実際に日報を作成する画面では次のように表示されます。  
 
-{{<imgproc parts_text.png "テキストを日報に添付した様子" />}}
+{{<iTablet filename="oneline" msg="１行入力なので名前や電話番号、住所などに"  alice="ok">}}
+
+
 
 {{<alice pos="left" icon="default">}}
 OKと表示されているのは入力必須が有効になっている項目です。空欄だと赤文字でエラーを表示します
@@ -29,12 +31,8 @@ OKと表示されているのは入力必須が有効になっている項目で
 
 ### 1行テキストを含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
-
-{{<imgproc parts_text2.png "１行テキストを含む日報をPDFに変換した出力結果" />}}
-
-[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
-
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
 a, e, o, コメント
@@ -45,13 +43,11 @@ a, e, o, コメント
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_text4.png "クラウド日報Nipo【旧版】のアプリ上から1行テキストを含むレポートを表示した画面" />}}
 
 ### 1行テキストの設定画面{#setting}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
-{{<imgproc parts_text1.png "１行テキストの初期設定画面" />}}
 
 
 <dl class="basic">
@@ -76,27 +72,32 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 通常よく使われる、普通の[テキスト入力フォーム](/docs/manual/initial-setting/template/text/)エリアです。
 文字の入力や色変え・マスクがけなどができます。**業務内容**や**ひきつぎ**など、さまざまな項目として使える最も一般的な項目と言えます
 
-{{<imgproc parts_textarea1.png "本文を日報に添付した様子" />}}
+
+{{<iTablet filename="multiline" msg="本文や引き継ぎ、明日の予定などに"  alice="ok">}}
+
+
 
 ### 本文を含んだ日報の各種出力画面{#output}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
 
-{{<imgproc parts_textarea2.png "本文を含む日報をPDFに変換した出力結果" />}}
 
-[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+{{< excelTable >}}
+サンプル, sample, サンプル2, 備考, コメント
+サンプルです。削除・修正して下さい。改行も利用できます, サンプル本文などに, テスト, 拡張機能で文字に色を付けることも可能です, _
+{{< /excelTable >}}
 
-{{<imgproc parts_textarea3.png "本文を含む日報をCSVに出力し、Excelで開いた画面" />}}
+
+
+
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_textarea4.png "クラウド日報Nipo【旧版】のアプリ上から本文を含むレポートを表示した画面" />}}
 
 ### 本文の設定画面{#setting}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
-{{<imgproc parts_textarea5.png "本文の初期設定画面" />}}
 
 
 <dl class="basic">

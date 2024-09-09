@@ -4,7 +4,7 @@ tags = ["有料プラン限定"]
 title = "📉レポートデータの変化を見る【推移表】"
 menuTitle = "📉データの推移"
 toc = true
-weight = 101004002
+weight = 101004001
 aliases = []
 images = ["make-charts_tablet.png"]
 +++

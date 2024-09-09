@@ -4,8 +4,8 @@ tags = ["有料プラン限定", "PDF出力"]
 title = "📄複数のレポートをまとめてPDFに変換する"
 menuTitle = "📄PDF一括出力"
 toc = true
-weight = 101004022
-aliases = []
+weight = 101004101
+aliases = ["/docs/manual/analytics/pdf/"]
 images = []
 +++
 
@@ -14,7 +14,7 @@ images = []
 {{</info>}}
 
 {{<info>}}
-[PDF出力の設定](/docs/manual/analytics/pdfoption/)についてはこちらをご覧ください
+[PDF出力の設定](/docs/manual/pdf/pdfoption/)についてはこちらをご覧ください
 {{</info>}}
 
 

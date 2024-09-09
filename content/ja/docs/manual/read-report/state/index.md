@@ -196,7 +196,7 @@ NipoPlusでは「CSV出力」と「PDF出力」をサポートしています。
 
 
 {{<info>}}
-まとめて出力するには[一括PDF出力](/docs/manual/analytics/pdf/)を御覧ください。[PDF出力設定](/docs/manual/analytics/pdfoption/)についてはこちらをご覧ください。
+まとめて出力するには[一括PDF出力](/docs/manual/pdf/pdfbatch/)を御覧ください。[PDF出力設定](/docs/manual/pdf/pdfoption/)についてはこちらをご覧ください。
 {{</info>}}
 
 
@@ -204,9 +204,9 @@ NipoPlusでは「CSV出力」と「PDF出力」をサポートしています。
 PDFに変換する手順は次のとおりです。
 
 1. PDFに変換したいレポートを表示する
-1. PDF出力ボタンをクリック
-1. PDF作成完了まで待つ
-1. 作成処理が完了後にダウンロード通知が発行される
+2. PDF出力ボタンをクリック
+3. PDF作成完了まで待つ
+4. 作成処理が完了後にダウンロード通知が発行される
 
 {{<icatch filename="report-to-pdf" msg="PDF❗PDF❗">}}
 

@@ -40,7 +40,7 @@ click 有料プランへ加入 "/docs/price/fee/" "有料プラン詳細"
 <dl class="basic">
 <dt><a href="/docs/manual/analytics/csv/">CSVの一括出力</a></dt>
 <dd>１件単位のCSV出力は可能ですが複数のレポートをまとめて出力する機能はロックされます</dd>
-<dt><a href="/docs/manual/analytics/pdf/">PDFの一括作成</a></dt>
+<dt><a href="/docs/manual/pdf/pdfbatch/">PDFの一括作成</a></dt>
 <dd>最大5件までしか一括出力できません。またNipoPlusの透かしとロゴが自動で挿入されます</dd>
 <dt><a href="/docs/manual/analytics/_about/">集計・グラフ作成</a></dt>
 <dd>集計に関するすべての機能がロックされます</dd>

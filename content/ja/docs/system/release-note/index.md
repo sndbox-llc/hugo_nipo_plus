@@ -52,9 +52,9 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 PDF出力に関する機能を追加しました
 
-- [PDF出力オプション](/docs/manual/analytics/pdfoption/)に「エラーや警告を出力する」の設定が追加されました（初期状態：OFF。従来はこれが常にONの状態でした）
+- [PDF出力オプション](/docs/manual/pdf/pdfoption/)に「エラーや警告を出力する」の設定が追加されました（初期状態：OFF。従来はこれが常にONの状態でした）
 - PDF出力時に押印される名前ハンコの最大文字数が5文字から10文字に拡張されました
-- [PDF出力にレイアウト2](/docs/manual/analytics/pdfoption/#layout)が追加されました
+- [PDF出力にレイアウト2](/docs/manual/pdf/pdfoption/#layout)が追加されました
 - アプリ内からホームページへのリンクに一部誤りがあった箇所を修正しました
 
 #### {{<nipoPlusLogo 30>}} 2024/8/21 サーバサイド更新{#sv20240821}
@@ -142,7 +142,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 #### {{<nipoPlusLogo 30>}} 2024/7/11 v1.57.4{#vp1_57_4}
 
-- [PDF出力時](/docs/manual/analytics/pdf/)、オプション設定をすると特定のデータが消えて出力されるバグを修正しました
+- [PDF出力時](/docs/manual/pdf/pdfbatch/)、オプション設定をすると特定のデータが消えて出力されるバグを修正しました
 - [数値入力フォーム](/docs/manual/initial-setting/template/digital/)付属の電卓表示文字サイズを大きくしました
 
 
@@ -213,7 +213,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 #### {{<nipoPlusLogo 30>}} 2024/5/28 v1.53.0{#vp1_53_0}
 
 - スタッフ毎の提出先設定画面のUIを使いやすく大幅に改善しました
-- [PDF出力時の設定オプション](/docs/manual/analytics/pdfoption/)を目立つ位置に移動しました
+- [PDF出力時の設定オプション](/docs/manual/pdf/pdfoption/)を目立つ位置に移動しました
 
 
 #### {{<nipoPlusLogo 30>}} 2024/5/26 v1.52.0{#vp1_52_0}
@@ -249,7 +249,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 - PDF出力オプションでフォントサイズの指定が反映されないバグを修正しました（サーバサイド）
 - PDF出力時に「商品」データがPDFに反映されるようになりました（サーバサイド）
 - [無料プラン](/docs/price/free/)でPDF出力時、NipoPlusの透かしとフッターロゴが強制的に挿入されます（サーバサイド）
-- [PDF出力オプション](/docs/manual/analytics/pdf/)に「文字サイズ：XS」が追加されました
+- [PDF出力オプション](/docs/manual/pdf/pdfoption/)に「文字サイズ：XS」が追加されました
 - PDF出力オプションに「ページ番号」が追加されました
 - PDF出力オプションに「余白：最小」が追加されました
 - 一括PDF出力が[無料プラン](/docs/price/free/)でも利用可能になります（無料プラン：５件まで・有料プラン：８０件まで）
@@ -829,7 +829,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 #### {{<nipoPlusLogo 30>}}  2022/08/13 v1.9.0{#vp1_9_0}
 
 - [PDF出力機能](/docs/manual/read-report/state/#pdf_export)が強化されました
-- [一括PDF](/docs/manual/analytics/pdf/)・QRコード埋め込み・本文の編集などが可能になりました
+- [一括PDF](/docs/manual/pdf/pdfbatch/)・QRコード埋め込み・本文の編集などが可能になりました
 
 #### {{<nipoPlusLogo 30>}}  2022/08/03 v1.8.1{#vp1_8_1}
 

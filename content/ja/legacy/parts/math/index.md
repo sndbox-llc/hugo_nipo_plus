@@ -23,15 +23,15 @@ aliases = ["/legacy/parts/slide/", "/legacy/parts/rating/", "/legacy/parts/range
 数値項目はその名の通り**数値のみ入力が可能**です。（整数・負数・小数点が指定可能です）この項目の特徴は、集計され、グラフ化の対象となることです。
 数値の範囲が限定的であれば、数値ではなく[スライダー](/legacy/parts/slide/)の利用を検討してください。
 
-{{<imgproc parts_math1.png "数値を日報に添付した様子" />}}
+
+{{<iTablet filename="digit" msg="数値を日報に添付した様子"  alice="ok">}}
+
 
 ### 数値を含んだ日報の各種出力画面{#outputDigit}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
-{{<imgproc parts_math2.png "数値を含む日報をPDFに変換した出力結果" />}}
-
-[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+CSV出力時は次のように表示されます。
 
 
 {{< excelTable >}}
@@ -43,17 +43,11 @@ sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
 
 数値パーツは[集計](/legacy/manual/analytics/)ができます。例えばスタッフごとの期間推移を表示した例は次のとおりです
 
-{{<imgproc parts_math4.png "数値を含む日報を集計し、折れ線グラフ付きで表示した例" />}}
-
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-{{<imgproc parts_math5.png "クラウド日報Nipo【旧版】のアプリ上から数値を含むレポートを表示した画面" />}}
 
 ### 設定画面{#settingDigit}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
-{{<imgproc parts_math6.png "数値の初期設定画面" />}}
 
 <dl class="basic">
   <dt>タイトル</dt>
@@ -88,15 +82,15 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 スライダーで入力された値は、集計され、グラフ化の対象となります。予め入力される範囲がおおよそ予測できる場合は、数値パーツよりも使い勝手の良い入力方式です。特にスマートフォンやタブレットとの相性が良いです。  
 類似パーツに「数値」があります。
 
-{{<imgproc parts_slide1.png "スライダーを日報に添付した様子" />}}
+
+{{<iTablet filename="slider" msg="スライダーを日報に添付した様子"  alice="ok">}}
+
+
 
 ### スライダーを含んだ日報の各種出力画面{#outputSlider}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
-
-{{<imgproc parts_slide2.png "スライダーを含む日報をPDFに変換した出力結果" />}}
-
-[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
 sample, test, ダミー, モック, コメント
@@ -108,7 +102,6 @@ sample, test, ダミー, モック, コメント
 
 
 [スライダ入力](/docs/manual/initial-setting/template/digital/#slider)の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo【旧版】上からもかんたんに行えます。
-{{<imgproc parts_slide4.png "スライダーのデータを集計する" />}}
 
 {{<alice pos="left" icon="default">}}
 CSVに出力したほうが色々細かい分析もできますが、かんたん手軽な集計で済ませたい場合はNipo【旧版】に搭載された集計機能が便利です
@@ -116,13 +109,11 @@ CSVに出力したほうが色々細かい分析もできますが、かんた�
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-{{<imgproc parts_slide5.png "クラウド日報Nipo【旧版】のアプリ上からスライダーを含むレポートを表示した画面" />}}
 
 ### 設定画面{#settingSlider}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
-{{<imgproc parts_slide6.png "スライダーの初期設定画面" />}}
 
 
 <dl class="basic">
@@ -163,13 +154,14 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 クリック１つで入力でき、見た目もグラフィカルでわかりやすいパーツです。  
 見た目の違いでしかありませんが、星の他、ハートも利用できます。
 
-{{<imgproc parts_rating1.png "レートを日報に添付した様子" />}}
+{{<iTablet filename="rate" msg="レートを日報に添付した様子"  alice="ok">}}
+
 
 ### レートを含んだ日報の各種出力画面{#outputRate}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
 
-{{<imgproc parts_rating2.png "レートを含む日報をPDFに変換した出力結果" />}}
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+CSV出力時は次のように表示されます。
 
 レートではCSV出力時に「**列の展開**」を指定できます。
 
@@ -183,19 +175,14 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 {{< /excelTable >}}
 
 
-{{<imgproc parts_rating4.png "CSV出力したデータをエクセルで開いた様子（列を展開する）" />}}
 
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
 
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-{{<imgproc parts_rating5.png "クラウド日報Nipo【旧版】のアプリ上からレートを含むレポートを表示した画面" />}}
 
 ### 設定画面{#settingRate}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
-{{<imgproc parts_rating6.png "レートの初期設定画面" />}}
 
 <dl class="basic">
   <dt>アイコンの種類</dt>
@@ -221,13 +208,13 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 スライダー（刻み）と異なり、本パーツで入力されたデータは[集計](/legacy/manual/analytics/)されません。CSV出力でエクセルに書き出した場合、「1〜5」のように文字として入力されます。
 最小値・最大値を計算式などで利用したい場合、LEFT関数、FIND関数あたりを利用して分割すれば数値データとして加工できます
 
-{{<imgproc parts_range1.png "範囲入力を日報に添付した様子" />}}
+{{<iTablet filename="range" msg="範囲入力を日報に添付した様子"  alice="ok">}}
+
 
 ### 範囲を含んだ日報の各種出力画面{#outputRange}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
-
-{{<imgproc parts_range2.png "範囲を含む日報をPDFに変換した出力結果" />}}
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+CSV出力時は次のように表示されます。
 
 範囲入力をCSVに出力する際は列を展開するか展開しないかを選択できます。
 列を展開しないで[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
@@ -240,19 +227,11 @@ sample, test, mock, dummy, コメント
 
 
 
-列を展開してCSVに出力すると次のように表示されます
-
-{{<imgproc parts_range4.png "範囲を含む日報をCSVに出力し、Excelで開いた画面ー列展開あり" />}}
-
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-{{<imgproc parts_range6.png "範囲を含む日報をNipo【旧版】の受信BOXから表示した画面例" />}}
 
 ### 設定画面{#settingRange}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
-{{<imgproc parts_range5.png "範囲の初期設定画面" />}}
 
 <dl class="basic">
   <dt>タイトル</dt>

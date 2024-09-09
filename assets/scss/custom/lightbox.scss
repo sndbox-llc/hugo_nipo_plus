@@ -22,3 +22,11 @@
   align-items: center;
   overflow-y: auto;
 }
+
+
+
+.lightbox img {
+  width: 100%; /* 画像の横幅を親要素に合わせる */
+  height: auto; /* 自動的に縦横比を保つ */
+  object-fit: contain; /* 画像全体が収まるようにする */
+}

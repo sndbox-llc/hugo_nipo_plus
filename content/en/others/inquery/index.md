@@ -193,8 +193,6 @@ async function submit() {
   const textNode = document.createTextNode(`お問い合わせありがとうございます。${email.value}宛に確認メールを送ります。5分経過してもメールが届かない場合は再度お問い合わせください`);
   thanks.appendChild(textNode);
 
-  // クラスを追加
-  // textNode.classList.add('completedMessage');
 
   return;
 }

@@ -15,42 +15,31 @@ aliases = ["/legacy/parts/slide/", "/legacy/parts/rating/", "/legacy/parts/range
 
 ## シンプルな数値入力{#plain}
 
-
-
 {{<note>}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#commonNumber)。
 {{</note>}}
 
 
-
 数値項目はその名の通り**数値のみ入力が可能**です。（整数・負数・小数点が指定可能です）この項目の特徴は、集計され、グラフ化の対象となることです。
 数値の範囲が限定的であれば、数値ではなく[スライダー](/legacy/parts/slide/)の利用を検討してください。
 
-
 {{<iTablet filename="digit" msg="数値を日報に添付した様子"  alice="ok">}}
-
 
 ### 数値を含んだ日報の各種出力画面{#outputDigit}
 
-
 [PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
 CSV出力時は次のように表示されます。
-
 
 {{< excelTable >}}
 sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
 12300, 2330, 330, 98990, _
 {{< /excelTable >}}
 
-
-
 数値パーツは[集計](/legacy/manual/analytics/)ができます。例えばスタッフごとの期間推移を表示した例は次のとおりです
-
 
 ### 設定画面{#settingDigit}
 
-テンプレートの編集画面では次のような設定画面となっております。
-
+テンプレートの編集画面では次のような設定項目があります。
 
 <dl class="basic">
   <dt>タイトル</dt>
@@ -69,10 +58,7 @@ sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
   <dd>補助科目の設定がONの場合に表示されます。補助科目名を入力することで補助科目として登録されます</dd>
 </dl>
 
-
 ---
-
-
 
 ## スライダ入力フォーム{#slider}
 
@@ -80,16 +66,12 @@ sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#slider)。
 {{</note>}}
 
-
-
 スライダーを左右にスワイプして数値の入力ができます。スライダーの最小値と最大値、そして刻みを指定します。  
 スライダーの左端が最小値、右端が最大値です。スライダー上に表示された・（中黒）が、刻みを表しています。刻みの単位でスライダーが止まります。例えば刻みが5であれば、0, 5, 10, 15 , 20のように、5刻みで入力ができます。6や7など、刻みの倍数以外の数値は入力できません。  
 スライダーで入力された値は、集計され、グラフ化の対象となります。予め入力される範囲がおおよそ予測できる場合は、数値パーツよりも使い勝手の良い入力方式です。特にスマートフォンやタブレットとの相性が良いです。  
 類似パーツに「数値」があります。
 
-
 {{<iTablet filename="slider" msg="スライダーを日報に添付した様子"  alice="ok">}}
-
 
 
 ### スライダーを含んだ日報の各種出力画面{#outputSlider}
@@ -104,8 +86,6 @@ sample, test, ダミー, モック, コメント
 
 {{< /excelTable >}}
 
-
-
 [スライダ入力](/docs/manual/initial-setting/template/digital/#slider)の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo【旧版】上からもかんたんに行えます。
 
 {{<alice pos="left" icon="default">}}
@@ -114,10 +94,9 @@ CSVに出力したほうが色々細かい分析もできますが、かんた�
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
-
 ### 設定画面{#settingSlider}
 
-テンプレートの編集画面では次のような設定画面となっております。
+テンプレートの編集画面では次のような設定項目があります。
 
 <dl class="basic">
   <dt>タイトル</dt>
@@ -140,15 +119,11 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ---
 
-
 ## ★★☆☆レート入力{#rating}
-
 
 {{<note>}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#rate)。
 {{</note>}}
-
-
 
 オンラインショップなどでよく見かける、商品レビュー風の入力形式です。一般的には５段階評価ですが、Nipo【旧版】は**2〜10**の間で設定可能です。  
 クリック１つで入力でき、見た目もグラフィカルでわかりやすいパーツです。  
@@ -156,13 +131,10 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<iTablet filename="rate" msg="レートを日報に添付した様子"  alice="ok">}}
 
-
 ### レートを含んだ日報の各種出力画面{#outputRate}
-
 
 [PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
 CSV出力時は次のように表示されます。
-
 レートではCSV出力時に「**列の展開**」を指定できます。
 
 {{< excelTable >}}
@@ -176,10 +148,9 @@ CSV出力時は次のように表示されます。
 
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
 
-
 ### 設定画面{#settingRate}
 
-テンプレートの編集画面では次のような設定画面となっております。
+テンプレートの編集画面では次のような設定項目があります。
 
 
 <dl class="basic">
@@ -193,21 +164,17 @@ CSV出力時は次のように表示されます。
 
 ---
 
-
 ## 範囲入力{#range}
-
 
 {{<note>}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#range)。
 {{</note>}}
-
 
 数値の範囲入力パーツです。最小値と最大値を設定します。スライダーの左端が最小値、スライダーの右端が最大値になります。1つのスライダーには2つのハンドルが用意され、特定の範囲をスライダーで入力することが可能です。
 スライダー（刻み）と異なり、本パーツで入力されたデータは[集計](/legacy/manual/analytics/)されません。CSV出力でエクセルに書き出した場合、「1〜5」のように文字として入力されます。
 最小値・最大値を計算式などで利用したい場合、LEFT関数、FIND関数あたりを利用して分割すれば数値データとして加工できます
 
 {{<iTablet filename="range" msg="範囲入力を日報に添付した様子"  alice="ok">}}
-
 
 ### 範囲を含んだ日報の各種出力画面{#outputRange}
 
@@ -223,13 +190,9 @@ sample, test, mock, dummy, コメント
 14〜20, 0〜5, 1〜200, 125〜144, _
 {{< /excelTable >}}
 
-
-
-
 ### 設定画面{#settingRange}
 
-テンプレートの編集画面では次のような設定画面となっております。
-
+テンプレートの編集画面では次のような設定項目があります。
 
 <dl class="basic">
   <dt>タイトル</dt>

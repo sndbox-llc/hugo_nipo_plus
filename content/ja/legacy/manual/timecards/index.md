@@ -12,7 +12,15 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/timecard/input/" "NipoPlusでも使えます">}}
+
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/timecard/input/)。
+{{</note>}}
+
+
+
+
 
 
 ## タイムカード機能とは{#about}

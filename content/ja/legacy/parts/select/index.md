@@ -116,8 +116,7 @@ apple, banana, apple, banana, banana, -
 
 ### 設定画面{#settingMulti}
 
-テンプレートの編集画面では次のような設定画面となっております。
-
+テンプレートの編集画面では次のような設定項目があります。
 
 <dl class="basic">
   <dt>タイトル</dt>
@@ -166,8 +165,7 @@ apple, banana, apple, banana, banana, -
 
 ### 設定画面{#settingCheckbox}
 
-テンプレートの編集画面では次のような設定画面となっております。
-
+テンプレートの編集画面では次のような設定項目があります。
 
 <dl class="basic">
   <dt>タイトル</dt>

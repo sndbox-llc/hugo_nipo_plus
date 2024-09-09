@@ -12,7 +12,10 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/calendar/_about/" "NipoPlusでも使えます">}}
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/calendar/_about/)。
+{{</note>}}
 
 グループ内のメンバー全員が同じカレンダーを共有できます。非常にシンプルな見た目で、操作も簡単です。スタッフの予定管理などに役立ててください。
 

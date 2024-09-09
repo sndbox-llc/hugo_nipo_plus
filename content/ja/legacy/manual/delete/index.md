@@ -11,7 +11,11 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/remove/reportbatch/" "NipoPlusでも使えます">}}
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/remove/reportbatch/)。
+{{</note>}}
+
 
 ## 不要な日報を一括で削除する機能{#about}
 

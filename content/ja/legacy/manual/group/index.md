@@ -12,7 +12,13 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/make-group/" "NipoPlusでも使えます">}}
+
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/make-group/)。
+{{</note>}}
+
+
 
 ## グループの役割{#about}
 

@@ -11,7 +11,13 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/account/email/#password" "NipoPlusでも使えます">}}
+
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/account/email/#password)。
+{{</note>}}
+
+
 
 ## アカウントの設定画面からログインのメールアドレスやパスワードの変更ができます{#account}
 

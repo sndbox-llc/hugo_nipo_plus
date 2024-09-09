@@ -11,7 +11,12 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/read-report/state/#pdf_export" "NipoPlusでも使えます">}}
+
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/read-report/state/#pdf_export)。
+{{</note>}}
+
 
 ## 日報をかんたんにPDFへ変換できます。スマホからも操作可能{#pdf}
 

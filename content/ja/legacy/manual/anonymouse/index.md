@@ -12,7 +12,11 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/utils/tokumei/" "NipoPlusでも使えます">}}
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/utils/tokumei/)。
+{{</note>}}
+
 
 匿名アカウントはE-mail・パスワードの設定をしないアカウントです。ワンクリックでアカウントが作成され、すぐに利用ができます。
 

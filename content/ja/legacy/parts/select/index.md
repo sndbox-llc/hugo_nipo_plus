@@ -61,10 +61,6 @@ apple, banana, apple, banana, banana, -
 詳しくは集計のページを御覧ください
 {{</alice>}}
 
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-
-Nipo【旧版】の受信Boxなどから表示される見た目は、1行テキストとほとんど変わりありません。
 
 ### 設定画面{#settingSingle}
 

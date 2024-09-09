@@ -100,7 +100,6 @@ sample, test, dummy, mock, コメント
 
 
 
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 
 ### 設定画面{#settingPicture}

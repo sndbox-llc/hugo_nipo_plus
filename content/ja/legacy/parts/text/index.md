@@ -41,7 +41,6 @@ a, e, o, コメント
 
 
 
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 
 ### 1行テキストの設定画面{#settingOneline}
@@ -80,6 +79,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 ### 本文を含んだ日報の各種出力画面{#outputText}
 
 [PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+CSV出力時は次のように表示されます。
 
 
 {{< excelTable >}}
@@ -91,7 +91,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 
 
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
+
 
 
 ### 本文の設定画面{#settingText}

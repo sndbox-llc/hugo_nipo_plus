@@ -19,15 +19,13 @@ aliases = []
 初期値が「本日」になるため、初期値を固定することができません。  
 なお、日報の提出日についてはテンプレートとは別に用意されているので、提出日のためにこの項目を用意する必要はありません。なお、和暦には非対応です
 
-{{<imgproc parts_date1.png "日付を含む日報の入力画面例" />}}
+{{<iTablet filename="date" msg="日付はカレンダーから入力可能"  alice="ok">}}
+
 
 ### 日付を含んだ日報の各種出力画面{#outputDate}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
-
-{{<imgproc parts_date2.png "日付を含む日報をPDFに変換した出力結果" />}}
-
-[CSVに出力](/tips/analytics/)すると次のように表示されます。
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
 ダミー, サンプル, テスト, モック, コメント
@@ -35,17 +33,9 @@ aliases = []
 {{< /excelTable >}}
 
 
-
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-{{<imgproc parts_date4.png "クラウド日報Nipo【旧版】のアプリ上から日付を表示した画面" />}}
-
 ### 設定画面{#settingDate}
 
 テンプレートの編集画面では次のような設定画面となっております。
-
-{{<imgproc parts_date5.png "日付の初期設定画面" />}}
-
 
 <dl class="basic">
   <dt>タイトル</dt>
@@ -72,15 +62,15 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 時刻入力は2種類あります。上図をご覧ください。アナログ時計から選択するやり方と、ブラウザ依存から選ぶことができます。ブラウザ依存の場合は使用するブラウザによって入力方式が変わります。
 （例えばiPhoneのSafariならドラム式の入力になる）日報作成時の時刻が初期値として設定されるため、初期値の設定はできません。また、時刻パーツを連結して2つ並べると、双方の時間差を自動で計算します
 
-{{<imgproc parts_time.png "時刻を日報に添付した様子" />}}
+{{<iTablet filename="time" msg="時刻を日報に添付した様子"  alice="ok">}}
+
+
 
 ### 時刻を含んだ日報の各種出力画面{#outputTime}
 
-[PDFに出力](/legacy/manual/pdf/)すると次のように表示されます。
+[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+CSV出力時は次のように表示されます。
 
-{{<imgproc parts_time2.png "時刻を含む日報をPDFに変換した出力結果" />}}
-
-[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
 
 {{< excelTable >}}
 sample, test, mock, dummy, コメント
@@ -89,15 +79,11 @@ sample, test, mock, dummy, コメント
 
 
 
-Nipo【旧版】の受信・送信BOXからは次のように表示されます
-
-{{<imgproc parts_time4.png "クラウド日報Nipo【旧版】のアプリ上から時刻を含むレポートを表示した画面" />}}
 
 ### 設定画面{#settingTime}
 
 テンプレートの編集画面では次のような設定画面となっております。
 
-{{<imgproc parts_time5.png "時刻の初期設定画面" />}}
 
 
 <dl class="basic">

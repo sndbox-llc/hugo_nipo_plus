@@ -1,6 +1,6 @@
 +++
 description = "予め回答を用意しておき、日報作成時には選ぶだけで入力ができるようになる日報構成部品です。回答は1つまでです。"
-title = "選択肢(複数・単体)"
+title = "選択式の入力"
 toc = true
 weight = 109002011
 isNipo = true
@@ -12,13 +12,12 @@ aliases = ["/legacy/parts/selects/", "/legacy/parts/checkbox/"]
 +++
 
 
-## １つだけ選択可能{#single}
+## 選択肢入力フォーム（単体）{#single}
 
-複数の回答から１つだけ選ぶ場合は選択肢（単回答）をご利用ください
-{{<btnCenter "/docs/manual/initial-setting/template/selects/#plain" "NipoPlusでも使えます">}}
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#plain)。
+{{</note>}}
 
-
-### 選択肢（単回答）の入力画面{#display}
 
 あらかじめ回答を用意しておき、日報作成時に該当するものを１つだけ選ぶことで入力できます。回答を画面にすべて表示する「ラジオ式」と、回答を１つのボックスにまとめて、プルダウンで入力する「セレクト式」があります。上図のケースでは、左の列が「ラジオ式」で右の列が「セレクト式」になります。
 選択肢は無料プランで5こまで、有料プランでは50こまで作成できます。足りない場合は2つに分けるなどして対応してください。
@@ -49,11 +48,7 @@ apple, banana, apple, banana, banana, -
 ⭕, , , ⭕, ⭕, , ⭕, , , , 
 {{< /excelTable >}}
 
-
-
-
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。  
-
 選択肢の入力はNipo【旧版】の[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
 
 
@@ -65,8 +60,6 @@ apple, banana, apple, banana, banana, -
 ### 設定画面{#settingSingle}
 
 テンプレートの編集画面では次のような設定が可能です。
-
-
 
 <dl class="basic">
   <dt>タイトル</dt>
@@ -92,11 +85,13 @@ apple, banana, apple, banana, banana, -
 
 
 
-## 複数個の回答が可能{#multiselect}
+## 選択肢入力フォーム（複数回答）{#multiselect}
 
-{{<btnCenter "/docs/manual/initial-setting/template/selects/#multiple" "NipoPlusでも使えます">}}
 
-### 選択肢（複数回答）の入力画面{#display}
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#multiple)。
+{{</note>}}
 
 回答をいくつか用意しておき、その中から複数選択することで回答できます。入力時の表示方式は、選択肢をすべて画面に表示する「チェックボックス式」と、選択肢をプルダウンから選ぶ「セレクト式」が選べます。上図のケースでは、左列が「チェックボックス式」で右列が「セレクト式」になります。
 選択肢は無料プランで5こまで、有料プランでは50こまで作成できます。足りない場合は2つに分けるなどして対応してください。
@@ -148,18 +143,20 @@ apple, banana, apple, banana, banana, -
 ---
 
 
-## シンプルなチェックボックス{#checkbox}
+## チェックボックス入力フォーム{#checkbox}
 
-{{<btnCenter "/docs/manual/initial-setting/template/selects/#checkbox" "NipoPlusでも使えます">}}
 
-### チェックボックスの入力画面{#display}
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#checkbox)。
+{{</note>}}
+
+
 
 チェックボックスは **「はい・いいえ」の回答が簡単**にできるシンプルな項目です。見た目もわかりやすく、誰でも簡単に操作できます。
 入力必須の指定がされた場合、チェックがONになっていないと、提出ができません。（入力必須の設定については後述）
 
 {{<iTablet filename="checkbox" msg="チェックボックスの日報を入力する画面"  alice="ok">}}
-
-
 
 
 ### チェックボックスを含んだ日報の各種出力画面{#outputCheckbox}

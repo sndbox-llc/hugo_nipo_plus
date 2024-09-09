@@ -1,6 +1,6 @@
 +++
 description = "タッチペン対応端末であればスタイラスペンを使って日報にサイン（署名）を入力できます。電子署名ではなく、直筆という意味での署名です。お客様から署名を貰う必要がある場合などに活用できます"
-title = "署名・写真"
+title = "署名・イラスト・写真"
 toc = true
 weight = 109002010
 isNipo = true
@@ -11,13 +11,15 @@ aliases = ["/legacy/parts/picture/", '/old/parts/picture/']
   priority = 0.2
 +++
 
-## 署名・イラスト{#signetureCanvas}
-
-{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "NipoPlusでも使えます">}}
+## 署名入力フォーム{#signetureCanvas}
 
 
 
-### 署名の入力画面{#display}
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#sign)。NipoPlusでは署名とイラストは同じフォームに合併しました
+{{</note>}}
+
+
 
 署名（サイン）に特化したパーツです。手描きメモを署名代わりに使うのであればこちらのパーツを使う方が良いでしょう。  
 手描きメモと非常に似ていますが以下の点により手描きメモとは分けて考えられます。  
@@ -30,13 +32,13 @@ aliases = ["/legacy/parts/picture/", '/old/parts/picture/']
 {{<iTablet filename="sign1" msg="署名を日報に添付した様子"  alice="ok">}}
 
 
-#### 署名を含んだ日報の各種出力画面{#outputSign}
+### 署名を含んだ日報の各種出力画面{#outputSign}
 
 [PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
 
 
-#### 設定画面{#settingSign}
+### 設定画面{#settingSign}
 
 テンプレートの編集画面では次のような設定画面となっております。署名に関しては設定項目はタイトルしかありません。
 
@@ -46,9 +48,15 @@ aliases = ["/legacy/parts/picture/", '/old/parts/picture/']
 
 
 
-### 手書きメモの入力画面{#display}
+## イラスト入力フォーム{#display}
 
-{{<btnCenter "/docs/manual/initial-setting/template/binarys/#sign" "NipoPlusでも使えます">}}
+
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#sign)。NipoPlusでは署名とイラストは同じフォームに合併しました
+{{</note>}}
+
+
 
 
 iPadやSurfaceのような**タッチパネルが使える**場合に便利な入力項目です。指でスラスラとイラストや文字が描けます。また、Apple PencilやSurface Penも利用できます。図・イラストを日報に付与したい場合におすすめです。
@@ -58,12 +66,12 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 
 
 
-#### 手書きメモを含んだ日報の各種出力画面{#outputCanvas}
+### 手書きメモを含んだ日報の各種出力画面{#outputCanvas}
 
 [PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
 
-#### 設定画面{#settingCanvas}
+### 設定画面{#settingCanvas}
 
 
 設定項目はタイトルのみです。事実上初期設定は不要です。
@@ -75,9 +83,12 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 
 ## 写真{#pictures}
 
-{{<btnCenter "/docs/manual/initial-setting/template/binarys/#picture" "NipoPlusでも使えます">}}
 
-### 写真画像の入力画面{#display}
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#picture)。
+{{</note>}}
+
 
 タブレットやスマートフォンで撮影した画像を添付したり、PCに保存されている画像データを添付したりできます。対応ファイルはJpeg・Pngになります。  
 画像をNipo【旧版】のサーバにアップする前に、画像の圧縮処理が行われ通信量を削減しています。圧縮されると、画像の容量はおおよそ１００KB程度になります。  

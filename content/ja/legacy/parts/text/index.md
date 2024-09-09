@@ -12,9 +12,13 @@ aliases = ["/old/parts/text/"]
 +++
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/text/" "NipoPlusでも使えます">}}
 
-## 1行テキストの入力画面{#display}
+## 1行テキスト入力フォーム{#display}
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/text/)。NipoPlusでは１行と複数行は同じフォームに合併しました
+{{</note>}}
+
 
 その名の通り、１行しか入力できません。例えば**担当者名**や**地名**、**管理番号**などの入力に最適です。  
 実際に日報を作成する画面では次のように表示されます。  
@@ -64,9 +68,15 @@ a, e, o, コメント
 ---
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/text/" "NipoPlusでも使えます">}}
 
-## 本文の入力画面{#display}
+## 複数行入力フォーム{#display}
+
+
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/text/)。NipoPlusでは１行と複数行は同じフォームに合併しました
+{{</note>}}
+
 
 通常よく使われる、普通の[テキスト入力フォーム](/docs/manual/initial-setting/template/text/)エリアです。
 文字の入力や色変え・マスクがけなどができます。**業務内容**や**ひきつぎ**など、さまざまな項目として使える最も一般的な項目と言えます

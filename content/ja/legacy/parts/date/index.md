@@ -11,9 +11,16 @@ aliases = []
   priority = 0.2
 +++
 
-{{<btnCenter "/docs/manual/initial-setting/template/date_time/#point" "NipoPlusでも使えます">}}
 
-## 日付の入力画面{#display}
+## 日付入力フォーム{#dateForm}
+
+
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/date_time/#point)。NipoPlusでは日付・時刻が１つのフォームに統合されました
+{{</note>}}
+
+
 
 カレンダーから日付を選んで入力したり、キーボードを使って直接日付を入力できます。
 初期値が「本日」になるため、初期値を固定することができません。  
@@ -22,7 +29,7 @@ aliases = []
 {{<iTablet filename="date" msg="日付はカレンダーから入力可能"  alice="ok">}}
 
 
-### 日付を含んだ日報の各種出力画面{#outputDate}
+### 各種出力画面{#outputDate}
 
 [PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
 CSV出力時は次のように表示されます。
@@ -55,9 +62,13 @@ CSV出力時は次のように表示されます。
 ---
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/date_time/#point" "NipoPlusでも使えます">}}
 
-## 時刻の入力画面{#display}
+## 時刻入力フォーム{#timeform}
+
+{{<note>}}
+[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/date_time/#point)。NipoPlusでは日付・時刻が１つのフォームに統合されました
+{{</note>}}
+
 
 時刻入力は2種類あります。上図をご覧ください。アナログ時計から選択するやり方と、ブラウザ依存から選ぶことができます。ブラウザ依存の場合は使用するブラウザによって入力方式が変わります。
 （例えばiPhoneのSafariならドラム式の入力になる）日報作成時の時刻が初期値として設定されるため、初期値の設定はできません。また、時刻パーツを連結して2つ並べると、双方の時間差を自動で計算します
@@ -72,13 +83,11 @@ CSV出力時は次のように表示されます。
 CSV出力時は次のように表示されます。
 
 
+
 {{< excelTable >}}
 sample, test, mock, dummy, コメント
 12:23, 11:14, 16:24, 22:06, _
 {{< /excelTable >}}
-
-
-
 
 ### 設定画面{#settingTime}
 

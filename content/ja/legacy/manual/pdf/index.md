@@ -62,7 +62,10 @@ PDF出力の設定をするには、日報表示画面上で「PDF設定」を�
 
 PDF出力設定画面に切り替わります。
 
-{{<imgproc pdf_setting2.png "左側がプレビューとデータの書き換え、右側がPDFの余白や向きなどの設定項目" />}}
+
+{{<iTablet filename="pdfSetting" msg="左側がプレビューとデータの書き換え、右側がPDFの余白や向きなどの設定項目"  alice="ok">}}
+
+
 
 用語解説
 

@@ -26,7 +26,7 @@ NipoPlusで現在実装されていませんがこれから実装を予定して
 
 登録日|カテゴリ|内容|顛末
 ---|---|---|---
-2024/9/6|要望|メール通知時、レポートの作成者を件名に表示する（実際の作成者があればそちらを記載）|済
+2024/9/6|要望|メール通知時、レポートの作成者を件名に表示する（実際の作成者があればそちらを記載）|[済](/docs/system/release-note/#20240910)
 2024/9/6|要望|PDF出力時に時刻が未指定の場合は「--:--」を出力しない|
 2024/9/6|要望|PDF出力時に「文書番号」を出力しない|
 2024/9/3|要望|[反復入力](/docs/manual/initial-setting/template/array/)内で[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)をサポートする（優先）|[1.62.0](/docs/system/release-note/#vp1_62_0)

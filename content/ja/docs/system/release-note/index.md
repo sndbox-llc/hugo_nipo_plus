@@ -37,7 +37,7 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 ### リリース詳細▼{#more}
 
 
-#### {{<nipoPlusLogo 30>}}  2024/9/10 サーバサイド更新{#20240906}
+#### {{<nipoPlusLogo 30>}}  2024/9/10 サーバサイド更新{#20240910}
 
 - レポート提出のメール通知で提出者名を件名に表示するように修正しました
 

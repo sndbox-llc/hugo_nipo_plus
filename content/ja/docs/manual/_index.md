@@ -1,6 +1,6 @@
 +++
 title = "📖マニュアル"
-description = "操作ガイド【アーカイブスページ】"
+description = "NipoPlus 操作ガイド【アーカイブスページ】"
 lead = "NipoPlus 操作ガイド全リストです"
 draft = false
 images = []

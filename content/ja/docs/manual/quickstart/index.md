@@ -29,7 +29,11 @@ NipoPlusのクイックスタートガイドへようこそ。
 手軽に体験できる[匿名アカウント](/docs/manual/utils/tokumei/)が用意されています。E-mailやパスワードの設定を後回しにできるためお試しに最適です。  
 匿名アカウントで始めてみましょう。「匿名アカウントを発行」ボタンをクリックします
 
-※iOS版・Android版では匿名アカウントは利用できません。
+{{<warning>}}
+[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)版では匿名アカウントは利用できません。[Web版](/docs/system/mobile-install/#web)をご利用ください
+{{</warning>}}
+
+
 
 1. 「匿名アカウントを発行」をクリック
 2. 確認メッセージが表示されるので「はじめる」をクリック

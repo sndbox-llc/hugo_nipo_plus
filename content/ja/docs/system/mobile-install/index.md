@@ -130,8 +130,6 @@ NipoPlusは下のボタンから起動できます
 {{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動する" "_blank">}}
 
 {{<imgproc ios-pwa-install1.png "PWAをiOSにインストールするにはSafariを起動してインストールしたいページを開きます。その後メニューから「ホーム画面に追加」をタップします" />}}
-{{<nextArrow>}}
-{{<imgproc ios-pwa-install2.png "名前はNipoPlusが初期値ですが任意に決めることもできます。画面右上の「追加」をタップするだけでインストールは完了です。あとは一般のアプリと同じように利用できます" />}}
 
 以上でインストールは完了です。
 

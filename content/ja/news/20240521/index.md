@@ -14,7 +14,7 @@ images = []
 
 <div style="color:red;font-weight:bold">※注意!NipoPlusとSPALOは全く無関係です</div>
   
-先日お客様から[SPALOのサービス終了](https://www.mjs.co.jp/news/news_2024/2024032900/)に伴い、NipoPlusで代用できないか？ とのお問い合わせを頂きました。
+先日お客様から[SPALOのサービス終了](https://www.mjs.co.jp/news/news_2024/2024032900/)に伴い、NipoPlusで代用できないか？ との<a href="/others/inquery/">お問い合わせ</a>を頂きました。
 [SPALO](https://spalo.jp/)はMJSが展開するサービスの１つで、**チャット形式で回答することでレポートを書き上げる**ことができるシステムです。  
 SPALOのサービス終了時期は各社の契約内容によりますが、現在の契約満期をもって更新ができなくなるため、それまでに代替製品へ移行する必要があります。  
 

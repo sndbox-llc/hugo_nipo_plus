@@ -214,7 +214,7 @@ graph LR;
 ### 選択肢（2層式）の初期設定{#settingSelectCalc}
 
 問１のリストと問２のリストを作成する必要があるため初期設定は少し手間がかかります。
-{{<icatch filename="template" msg="テンプレート編集。選択肢二槽式の初期設定">}}
+{{<icatch filename="template" msg="2層式はあまりおすすめできないかな？動的変化を使ったほうがいいかも？" alice="question">}}
 
 質問1の選択肢を追加するごとに、質問2の選択肢欄も自動で追加されていきます。
 以下は本入力フォームにのみ存在する設定項目です
@@ -427,7 +427,7 @@ graph LR;
 例えば[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)（単）を参照先として指定するには次の画像のようになります。
 
 
-{{<iTablet filename="dinamic-selection-setting" msg="動的変化の設定画面" alice="ok">}}
+{{<iTablet filename="dinamic-selection-setting" msg="他のデータによって自分のデータを変化させることができるよ。まるでプログラマみたい" alice="pc">}}
 
 
 
@@ -444,7 +444,7 @@ graph LR;
 [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)を動的変化させるには、トリガーとなるための参照先フォームが必要です。極端な話、テンプレート内にフォームが１個しかない場合、そもそも参照する対象が無いため利用できません。  
 条件を満たしていないとき、動的変化の画面には「このテンプレートでは動的変化をつかう条件を満たしていません」と表示され、追加ボタンが表示されなくなります。
 
-{{<icatch filename="disable-dinamic" msg="動的変化が利用できないケースもあります" >}}
+{{<icatch filename="disable-dinamic" msg="なんで利用できないのかな？条件をよく見直してみよう"  alice="question">}}
 
 
 動的変化を使用する具体的な条件は以下のとおりです。

@@ -30,7 +30,7 @@ showPrice = true
 </div>
 <div class="col-lg-9">
 <!-- 画像エリア -->
-{{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れます"  alice="pc">}}
+{{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc">}}
 
 </div>
 </div>
@@ -49,7 +49,7 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="read-report" msg="スマホもタブレットもPCも全部対応"  alice="tablet">}}
+{{<icatch filename="read-report" msg="スマホもタブレットもPCも全部OK"  alice="tablet">}}
 
 </div>
 </div>

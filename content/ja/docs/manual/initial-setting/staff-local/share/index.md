@@ -52,7 +52,7 @@ graph RL;
 
 レポートを作成する際、社員アカウントで[レポートを書く](/docs/manual/write-report/write/)と**提出者**という項目が追加されています。
 
-{{<iTablet filename="writeReport" msg="アカウントは社員だがアルバイトA〜Dをオーナーとしたレポートを書くことができる"  alice="ok">}}
+{{<iTablet filename="writeReport" msg="社員アカウントでアルバイトA〜Dのレポートを書くことができるよ。これが共用の効果です"  alice="ok">}}
 
 
 

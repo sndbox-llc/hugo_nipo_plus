@@ -89,7 +89,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリアルタイムにグラフ化できます。
 
-{{<icatch filename="math_charts" msg="数値のデータをグラフ化する">}}
+{{<icatch filename="math_charts" msg="数値のデータをグラフ化してみたよ">}}
 
 {{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
 
@@ -128,7 +128,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 ネットショップやレビューでおなじみの★を使った入力フォームです。星の上限は変更可能です。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#rate)
 
-{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力方式です"  alice="ok">}}
+{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力方式です。NipoPlusも高評価よろしくね"  alice="please">}}
 
 レートはPDFに出力可能ですが、使用可能フォントの関係上★などのアイコンの代わりに●と◯で代用されます。
 
@@ -278,7 +278,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 <details>
   <summary>グラフ化</summary>
 
-{{<icatch filename="slider_charts" msg="スライダのデータを用いて折れ線グラフを生成">}}
+{{<icatch filename="slider_charts" msg="スライダフォームのデータをグラフ化してみたよ">}}
 
 </details>
 
@@ -362,7 +362,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 ## 算術フォーム{#calc}
 
-{{<icatch filename="calc-icatch" msg="簡単な四則演算ができる特殊なフォームです。他の値を見て自動で入力されるので手動入力は不可"  alice="pc">}}
+{{<icatch filename="calc-icatch" msg="簡単な四則演算ができる特殊なフォームです。自動で入力されるから手動入力はできないよ"  alice="pc">}}
 
 
 算術フォームは他のフォームと大きく異なります。

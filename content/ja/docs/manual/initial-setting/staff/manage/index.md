@@ -36,7 +36,7 @@ images = []
 {{<info>}}
 グループに所属するとグループの管理画面にそのスタッフ名が追加されます。次の画像は[グループ内のスタッフ](/docs/manual/initial-setting/staff-local/_about/)一覧画面の例です。  
 
-{{<icatch filename="group-member" msg="グループ内から見た所属スタッフの一覧画面です">}}
+{{<icatch filename="group-member" msg="グループ内から見た所属スタッフの一覧画面です" alice="here">}}
 
 組織のスタッフ管理（現在ご覧のページです）と[グループ内のスタッフ管理](/docs/manual/initial-setting/staff-local/_about/)とは似ていますが別物です。  
 
@@ -57,7 +57,7 @@ images = []
 1. 編集ウインドウが表示される
 1. データを書き変える
 
-{{<icatch filename="staff-edit" msg="スタッフの名前や権限・メモを変更するにはそれぞれの対象データをクリックしてください" alice="book">}}
+{{<icatch filename="staff-edit" msg="スタッフの名前や権限・メモを変更するにはそれぞれのデータをクリックしてください" alice="here">}}
 
 <dl class="basic">
 <dt>名前・ふりがな</dt>

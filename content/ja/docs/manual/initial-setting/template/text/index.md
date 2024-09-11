@@ -21,7 +21,7 @@ images = []
 |:---:|:---:|:---:|:---:|
 |✗|⭕|⭕|⭕|
 
-{{<icatch filename="input-method-keyboard" msg="文字入力フォームはレポートの本文や引き継ぎの入力に最適" alice="ok">}}
+{{<icatch filename="input-method-keyboard" msg="文字入力フォームはレポートの本文や引き継ぎの入力に最適だよ" alice="ok">}}
 
 
 

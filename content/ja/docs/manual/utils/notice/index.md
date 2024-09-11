@@ -3,7 +3,7 @@ description = "レポートを受け取った時やレポートが承認・棄�
 tags = []
 title = "🔔アプリ内の通知と📩メール通知"
 toc = true
-weight = 101001200
+weight = 101011200
 aliases = ["/docs/manual/notice/app/"]
 images = []
 +++

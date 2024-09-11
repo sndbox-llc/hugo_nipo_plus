@@ -4,7 +4,7 @@ tags = []
 title = "👤1クリックで手軽に体験可能な匿名アカウントについて"
 menuTitle = "👤匿名アカウント"
 toc = true
-weight = 101009004
+weight = 101019004
 aliases = ["/docs/manual/utils/tokumei/", "/docs/manual/account/tokumei/"]
 images = []
 +++

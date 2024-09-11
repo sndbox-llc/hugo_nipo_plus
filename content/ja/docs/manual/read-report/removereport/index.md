@@ -4,7 +4,7 @@ tags = ["データ削除"]
 title = "レポートを削除する"
 menuTitle = "レポートの削除"
 toc = true
-weight = 101011003
+weight = 101003003
 aliases = []
 images = []
 +++

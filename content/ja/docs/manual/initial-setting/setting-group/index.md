@@ -96,8 +96,13 @@ images = ["switch_tablet.png"]
 
 ### 機能の有効無効{#optionalFunction}
 
+
 タイムカード機能や集計機能など、NipoPlusには様々な機能が用意されています。これらのオプション機能はチェックボックスのON/OFFで有効（または無効）に切り替えができます。
 使用する予定の無い機能はOFFにしておくことで画面上の見た目をシンプルにできます。
+
+{{<iTablet filename="functions" msg="使わない機能はOFFにしたほうがメニューがスッキリするよ" alice="ok">}}
+
+
 
 <dl class="basic">
   <dt><a href="/docs/manual/anken/_about/">案件</a></dt>

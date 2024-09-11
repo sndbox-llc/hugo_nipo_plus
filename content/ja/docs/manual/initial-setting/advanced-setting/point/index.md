@@ -36,13 +36,13 @@ images = []
 1. 商品追加をクリック
 
 
-{{<iTablet filename="addItem" msg="商品登録画面へ移動" alice="ok">}}
+{{<iTablet filename="addItem" msg="商品管理を開いてみよう" alice="ok">}}
 
 
 
 商品追加をクリックすると商品登録ウインドウが表示されます。必要事項を記入してください。
 
-{{<iTablet filename="itemResist" msg="商品の新規登録画面" alice="ok">}}
+{{<iTablet filename="itemResist" msg="商品を登録してみよう" alice="ok">}}
 
 
 各項目についての詳細は次のとおりです

@@ -29,7 +29,7 @@ images = []
 スタッフごとに[使用可能なテンプレートを制御](/docs/manual/initial-setting/staff-local/template/)することもできます
 {{</info>}}
 
-{{<icatch filename="report-template-select" msg="「レポート作成」をクリックして使うテンプレートを選びましょう。テンプレートは名前順に並びます" alice="guide">}}
+{{<icatch filename="report-template-select" msg="まずは使うテンプレートを選ぼう。テンプレートは名前順に並ぶよ" alice="guide">}}
 
 テンプレート選択画面では、その日何件提出したかがテンプレートごとに表示されます。[提出枚数目安](/docs/manual/initial-setting/template/make/#memo)が設定されている場合は進捗バーで表示されます。
 

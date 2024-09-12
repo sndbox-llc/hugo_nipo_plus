@@ -43,7 +43,7 @@ images = []
 1. 「正規アカウントへ昇格」ボタンをクリック
 1. 画面左下に表示されていた「匿名アカウントです」のバナーが消えていれば成功です
 
-{{<icatch filename="promotion-account" msg="匿名アカウントを正規アカウントへ昇格させるにはEmailとパスワードの設定が必要です">}}
+{{<icatch filename="promotion-account" msg="正規アカウントへ昇格させるにはEmailとパスワードの設定が必要です" alice="shield">}}
 
 ## 匿名アカウントを破棄する{#remove}
 

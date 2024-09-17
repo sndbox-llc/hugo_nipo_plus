@@ -36,6 +36,11 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}}  2024/9/18 v1.63.0{#vp1_63_0}
+
+- PDF出力設定に「文書番号を出力しない」のオプションが追加されました
+- PDF出力時、時刻入力が空欄（--:--）だった場合、その値を表示しないように修正しました。
+
 
 #### {{<nipoPlusLogo 30>}}  2024/9/10 サーバサイド更新{#20240910}
 

@@ -1,5 +1,5 @@
 +++
-description = "WebAPIを使いレポートデータを取得します。APIコマンドの使い方に関する操作ガイドです"
+description = "WebAPIを使用してレポートやテンプレートのデータを取得する方法について解説します。APIコマンドの使用方法や、エンドポイント、パラメータの設定方法を詳しく説明しています。外部システムとの連携やデータの自動取得に最適です。"
 tags = ["有料プラン限定"]
 title = "APIを使いレポートやテンプレートを取得する"
 menuTitle = "🤖APIを使う"
@@ -29,7 +29,8 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポ
 Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/021/4021036/)は若干形式が変わる可能性があるので注意
 {{</warning>}}
 
-上記基本形のうち、【】で囲われたエリアは独自に値を指定します。
+【】で囲まれた部分には、独自の値を指定してください。
+
 
 ### 【エンドポイント】{#endpoint}
 

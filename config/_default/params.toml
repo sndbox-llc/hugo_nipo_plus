@@ -11,7 +11,7 @@ BookDateFormat = "2006年01月02日"
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["/images/nipoplus.png"]
+images = ["/images/ogp.png"]
 ogLocale = "ja_JP"
 domainTLD = "nipo-plus-doc.sndbox.jp"
 titleHome = "NipoPlus"

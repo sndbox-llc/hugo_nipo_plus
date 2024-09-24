@@ -34,27 +34,30 @@
 {{ else -}}
   {{ .Scratch.Set "title" .Title -}}
 {{ end -}}
-
-{{ with $.Params.images -}}
-  {{ range first 6 . -}}
-  <meta property="og:image" content="{{ $.Permalink }}{{ . }}">
-  {{ end -}}
+{{ if $.Params.isNipo -}}
+  <!-- isNipo = true の場合、old.pngを使用 -->
+  <meta property="og:image" content="{{ "/images/ogp_old.png" | absURL }}">
 {{ else -}}
-  {{ $images := $.Resources.ByType "image" -}}
-  {{ $featured := $images.GetMatch "*feature*" -}}
-  {{ if not $featured -}}
-    {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}
-  {{ end -}}
-  {{ with $featured -}}
-    <meta property="og:image" content="{{ $featured.Permalink }}">
+  {{ with $.Params.images -}}
+    {{ range first 6 . -}}
+      <meta property="og:image" content="{{ $.Permalink }}{{ . }}">
+    {{ end -}}
   {{ else -}}
-    {{ with $.Site.Params.images -}}
-      <meta property="og:image" content="{{ index . 0 | absURL }}">
-      <meta property="og:image:alt" content="{{ $.Site.Params.title }}">
+    {{ $images := $.Resources.ByType "image" -}}
+    {{ $featured := $images.GetMatch "*feature*" -}}
+    {{ if not $featured -}}
+      {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}
+    {{ end -}}
+    {{ with $featured -}}
+      <meta property="og:image" content="{{ $featured.Permalink }}">
+    {{ else -}}
+      {{ with $.Site.Params.images -}}
+        <meta property="og:image" content="{{ index . 0 | absURL }}">
+        <meta property="og:image:alt" content="{{ $.Site.Params.title }}">
+      {{ end -}}
     {{ end -}}
   {{ end -}}
 {{ end -}}
-
 {{ with $.Site.Params.images -}}
   {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
 {{ end -}}

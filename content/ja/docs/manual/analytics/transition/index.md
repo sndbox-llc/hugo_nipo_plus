@@ -6,7 +6,7 @@ menuTitle = "📉データの推移"
 toc = true
 weight = 101004001
 aliases = []
-images = ["make-charts_tablet.png"]
+images = []
 +++
 
 {{<info>}}

@@ -6,7 +6,7 @@ menuTitle = "⚙️PDF出力の設定"
 toc = true
 weight = 101004102
 aliases = ["/docs/manual/analytics/pdfoption/"]
-images = ["csv-setting1_tablet.png"]
+images = []
 +++
 
 

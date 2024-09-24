@@ -6,7 +6,7 @@ menuTitle = "📈グラフの作成"
 toc = true
 weight = 101004003
 aliases = []
-images = ["pie-chart_tablet.png"]
+images = []
 +++
 
 {{<info>}}

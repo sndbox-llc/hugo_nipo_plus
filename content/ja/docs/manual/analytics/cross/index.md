@@ -6,7 +6,7 @@ menuTitle = "クロス集計"
 toc = true
 weight = 101004008
 aliases = []
-images = ["previews_tablet.png"]
+images = []
 +++
 
 {{<info>}}

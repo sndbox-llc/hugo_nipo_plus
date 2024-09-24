@@ -6,7 +6,7 @@ toc = true
 tags = ["有料プラン限定"]
 weight = 101004000
 aliases = []
-images = ["chart_tablet.png"]
+images = []
 +++
 
 [テンプレート](/docs/manual/initial-setting/template/make/)内に集計が可能な入力フォームが含まれている場合は、そのデータを抜き出して累積表や推移表、グラフなどを表示できます。

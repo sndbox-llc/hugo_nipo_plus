@@ -6,7 +6,7 @@ menuTitle = "🍏iOS・🤖Android・PCで使う"
 toc = true
 weight = 103000003
 aliases = ["/docs/system/android/"]
-images = ["android-install-pwa.png"]
+images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6

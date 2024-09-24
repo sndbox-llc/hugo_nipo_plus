@@ -6,7 +6,7 @@ menuTitle = "🗂️CSV一括出力"
 toc = true
 weight = 101004021
 aliases = []
-images = ["report-csv-export_tablet.png"]
+images = []
 +++
 
 {{<info>}}

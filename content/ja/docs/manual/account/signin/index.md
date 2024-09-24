@@ -6,7 +6,7 @@ title = "ログインとアカウント確認方法"
 toc = true
 weight = 101009001
 aliases = []
-images = ["signin_tablet.png"]
+images = []
 +++
 
 ## NipoPlusにログインする{#signin}

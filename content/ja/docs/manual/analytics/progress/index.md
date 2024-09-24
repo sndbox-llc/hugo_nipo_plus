@@ -6,7 +6,7 @@ menuTitle = "目標と実績の管理"
 toc = true
 weight = 101004007
 aliases = []
-images = ["list_tablet.png"]
+images = []
 +++
 
 {{<info>}}

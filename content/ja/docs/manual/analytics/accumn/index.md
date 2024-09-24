@@ -6,7 +6,7 @@ menuTitle = "📊データの累積"
 toc = true
 weight = 101004002
 aliases = []
-images = ["charts_tablet.png"]
+images = []
 +++
 
 {{<info>}}

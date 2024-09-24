@@ -5,7 +5,7 @@ title = "グループの基本設定"
 toc = true
 weight = 101001011
 aliases = []
-images = ["switch_tablet.png"]
+images = []
 +++
 {{<warning>}}
 グループの設定は[編集者権限以上](/docs/manual/initial-setting/staff/rank/)が必要です。

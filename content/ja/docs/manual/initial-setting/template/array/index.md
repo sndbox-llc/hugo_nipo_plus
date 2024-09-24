@@ -5,7 +5,7 @@ title = "【反復入力】行数を自由に増減できる表です"
 menuTitle = "🧩反復入力"
 toc = true
 weight = 101001119
-images = ["sample.png"]
+images = []
 aliases = []
 +++
 

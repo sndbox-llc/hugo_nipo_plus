@@ -6,7 +6,7 @@ menuTitle = "⚙️CSV出力の設定"
 toc = true
 weight = 101004020
 aliases = []
-images = ["csv-setting1_tablet.png"]
+images = []
 +++
 
 レポートのデータをCSVに出力する際に出力の形式をカスタマイズできます。

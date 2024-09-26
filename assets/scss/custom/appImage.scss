@@ -1,11 +1,33 @@
+
+
 // icatchとitabletで使用
+
+// 画像コンテナの一番外側
+.uTabletContainer {
+  position: relative; display: inline-block;width:100%;
+}
+
+// 画像コンテナ 黒枠
 .uedaTabletFrame {
   display: block;
   border: 10px solid black;
   border-radius: 20px;
   margin: 0 auto;
 }
-
+// 画像コンテナ 位置調整
+.uTabletFramePos {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+// 画像コンテナ内の画像
+.uedaTabletPicture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 // icatchとitabletで使用
 .uedaCharactorContainer {
   position: absolute;

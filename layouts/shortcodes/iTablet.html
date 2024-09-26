@@ -5,11 +5,11 @@
 {{ $id := partial "make-random-md5.hugo" }}
 {{ $uniqueID := (printf "character-container-%s" $id) }}
 
-<div style="position: relative; display: inline-block;width:100%" class="mb-5 mt-5">
-  <div class="uedaTabletFrame" style="position: relative; z-index: 1; width: 100%; max-width: 100%; height: auto;">
-    <picture style="display: block; width: 100%; height: auto;">
+<div class="uTabletContainer mb-5 mt-5">
+  <div class="uedaTabletFrame uTabletFramePos" >
+    <picture class="uedaTabletPicture">
       <source srcset="{{ $imgTablet.RelPermalink }}" media="(min-width: 769px)">
-      <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="uredaResponsiveImage" loading="lazy"  width="2000" height="1390" style="display: block; width: 100%; height: auto;">
+      <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="uedaTabletPicture" loading="lazy"  width="2000" height="1390" >
     </picture>
   </div>
   <div class="uedaCharactorContainer" id="{{ $uniqueID }}">

@@ -7,14 +7,22 @@
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $alt := .Get 1 }}
 
-<div style="position: relative; display: inline-block;width:100%" class="mb-5 mt-5">
-  <div class="" style="position: relative; z-index: 1; width: 100%; max-width: 100%; height: auto;">
-    <picture style="display: block; width: 100%; height: auto;">
+<div class="uTabletContainer mb-5 mt-5">
+  <div class="uTabletFramePos">
+    <picture class="uedaTabletPicture">
       <source srcset="{{ $img.RelPermalink }}" media="(min-width: 769px)">
-      <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="uredaResponsiveImage" loading="lazy"  width="{{ $img.Width }}" height="{{ $img.Height }}" style="display: block; width: 100%; height: auto;">
+      <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="uedaTabletPicture" loading="lazy"  width="{{ $img.Width }}" height="{{ $img.Height }}">
     </picture>
   </div>
 </div>
+
+<i>
+  {{ with .Inner }}
+    {{ . }}
+  {{ else }}
+    {{ $alt }}
+  {{ end }}
+</i>
 
 
 <!--

@@ -7,11 +7,8 @@
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $alt := .Get 1 }}
 
-{{ $id := partial "make-random-md5.hugo" }}
 <figure style="padding: 0; margin: 0; background-color: #ffff; ">
-  <a >
-    <img loading="lazy" style="max-width: 1360px; width: 100%; height: auto; display: block;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
-  </a>
+  <img loading="lazy" style="max-width: 1360px; width: 100%; height: auto; display: block;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
   <figcaption class="small">
     <i>
       {{ with .Inner }}

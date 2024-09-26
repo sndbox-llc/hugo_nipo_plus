@@ -7,6 +7,17 @@
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $alt := .Get 1 }}
 
+<div style="position: relative; display: inline-block;width:100%" class="mb-5 mt-5">
+  <div class="" style="position: relative; z-index: 1; width: 100%; max-width: 100%; height: auto;">
+    <picture style="display: block; width: 100%; height: auto;">
+      <source srcset="{{ $img.RelPermalink }}" media="(min-width: 769px)">
+      <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="uredaResponsiveImage" loading="lazy"  width="{{ $img.Width }}" height="{{ $img.Height }}" style="display: block; width: 100%; height: auto;">
+    </picture>
+  </div>
+</div>
+
+
+<!--
 <figure style="padding: 0; margin: 0; background-color: #ffff; ">
   <img loading="lazy" style="max-width: 1360px; width: 100%; height: auto; display: block;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
   <figcaption class="small">
@@ -19,7 +30,7 @@
     </i>
   </figcaption>
 </figure>
-
+-->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -9,8 +9,8 @@
 
 {{ $id := partial "make-random-md5.hugo" }}
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
-  <a href="#{{ $id }}" class="lightbox-link">
-    <img loading="lazy" style="max-width: 100%; width: auto; height: auto;aspect-ratio: {{ $img.Width }} / {{ $img.Height }};" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
+  <a >
+    <img loading="lazy" style="max-width: 1360px; width: 100%; height: auto; display: block;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
   </a>
   <figcaption class="small">
     <i>
@@ -22,10 +22,6 @@
     </i>
   </figcaption>
 </figure>
-
-<a href="javascript:history.back();" class="lightbox" id="{{ $id }}">
-  <img src="{{ $img.RelPermalink }}" alt="{{$alt}}" class="lightbox-image" loading="lazy" width="{{ $img.Width }}" height="{{ $img.Height }}">
-</a>
 
 <script type="application/ld+json">
 {

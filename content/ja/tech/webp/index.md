@@ -23,7 +23,7 @@ date = "2022-11-14"
 
 次の画像は幅1500pxに圧縮したJpegファイルをhugoのWebp変換機能でWebpに変換した画像です。
 
-{{<imgproc sample.jpg "jpegをWebPに変換したサンプル" />}}
+{{<imgproc sample.jpg "jpegをWebPに変換したサンプル" >}}
 
 はい、こちらダウンロードしてもらえばわかるんですが、**ファイルサイズは22KB**です。
 一方でWebpに変換する前のJpegはというと、こちらです。
@@ -35,13 +35,13 @@ date = "2022-11-14"
 WebPへの変換はこのサイトのジェネレータであるHugoのWebp変換機能を使っています。
 念の為Google謹製の[squoosh](https://squoosh.app/)でも試してみましたが結果は同じでした。
 
-{{<imgproc squoosh.jpg "Squoosh画面" />}}
+{{<imgproc squoosh.jpg "Squoosh画面" >}}
 
 もう1つサンプルを。
 Nipoのバナー画像をPng形式とWebP形式で比較してみます。幅1500px、色数が128色のPng8です。
 
 まずはPngファイルをWebPに変換したバナー画像です。
-{{<imgproc png-sample.png "pngをWebPに変換したサンプル" />}}
+{{<imgproc png-sample.png "pngをWebPに変換したサンプル" >}}
 
 
 ファイルサイズは28KBでした。一方で変換前のPngはこちらです。
@@ -68,7 +68,7 @@ Pngを小さくするには色情報を減らすことでかなり大きな削�
 実は私も意外だったのですが、高確率でWebPのほうがファイルサイズが大きくなるという結果になりました。
 まずは16色のPngファイルをWebPに変換した画像です。
 
-{{<imgproc color16.png "色情報16色のPngファイルをWebPに変換" />}}
+{{<imgproc color16.png "色情報16色のPngファイルをWebPに変換" >}}
 
 こちらの**ファイルサイズは48KB**あります。
 一方でWebPに変換しない、Pngそのものはこちら
@@ -80,7 +80,7 @@ WebPとPngの逆転現象は色情報が32色以下だと高確率で見かけ�
 
 もう1つログイン画面の画像をPngとWebPで比較してみます。今度はSquooshの画面で紹介します。（このSquoosh画面の画像自体を60色に減らしているので本当の意味での比較にはなりません。）
 
-{{<imgproc squoosh2.png "色情報16色のPngファイルをWebPに変換" />}}
+{{<imgproc squoosh2.png "色情報16色のPngファイルをWebPに変換" >}}
 
 左側が元画像（Png）で、右がWebPです。ファイルサイズは19%重くなるという結果でした。
 つまりわざわざWebPに変換することで重くなってしまうわけです。

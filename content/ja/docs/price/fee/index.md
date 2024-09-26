@@ -130,7 +130,7 @@ GOLD PLANへのお申し込みはWeb版のNipoPlusを起動して行います。
 
 ## 決済にはStripeを使用しています{#stripe}
 
-{{<imgproc stripe.png "stripeのロゴ" />}}
+{{<imgproc stripe.png "stripeのロゴ" >}}
 
 カード決済は[Stripe社](https://stripe.com/jp)の決済システムを利用しています。  
 入力されたカード番号はトークン化されてサーバへ送信されるため安全性が高く信用できるサービスです。

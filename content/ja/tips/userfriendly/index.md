@@ -160,7 +160,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 次の画像は幅2〜12の範囲で同じ[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)を配置した例です。幅が狭いとスライダの目盛りが潰れてしまうのがわかりますね。
 
-{{<imgproc width.webp "テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" />}}
+{{<imgproc width.webp "テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" >}}
 
 他にも本文入力には幅を広くとってゆとりのある入力ができるようにするなど、実際に使用する人が使いやすいかどうかを常に意識して設計します。
 
@@ -214,7 +214,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 それぞれの得意不得意を意識したうえでテンプレートを作ってみてください。例えばタブレットで入力するのであればほぼタップだけで完結できるレポートのほうが適しています。
 
-{{<imgproc pen2.webp "署名はタッチパネルでの利用が大前提となります" />}}
+{{<imgproc pen2.webp "署名はタッチパネルでの利用が大前提となります" >}}
 
 {{<btnCenter "/tips/mobile-device/" "スマートフォン・タブレットの最適な利用">}}
 
@@ -250,7 +250,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 実際のPDFイメージも掲載しています。画像クリックで拡大します。
 
 <div style="max-width:400px">
-{{<imgproc work-report-pdf.webp "手書きの署名はPDF内に埋め込まれて表示されます" />}}
+{{<imgproc work-report-pdf.webp "手書きの署名はPDF内に埋め込まれて表示されます" >}}
 </div>
 
 ### 作業現場の作業前後写真を報告書に掲載できる作業レポートテンプレート{#picture}
@@ -270,7 +270,7 @@ NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/bina
 <div class="col-6">
 
 <div >
-{{<imgproc shuzen.webp "作業前・作業後の写真が１枚の報告書にきれいに収まっています" />}}
+{{<imgproc shuzen.webp "作業前・作業後の写真が１枚の報告書にきれいに収まっています" >}}
 </div>
 
 </div>
@@ -279,7 +279,7 @@ NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/bina
 
 
 <div>
-{{<imgproc shuzen_landscape.webp "作業現場写真日報を横向きでPDF出力すると写真がより大きく出力されます。" />}}
+{{<imgproc shuzen_landscape.webp "作業現場写真日報を横向きでPDF出力すると写真がより大きく出力されます。" >}}
 </div>
 
 </div>

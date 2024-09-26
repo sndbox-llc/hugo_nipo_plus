@@ -24,8 +24,9 @@
 </figure>
 
 <a href="javascript:history.back();" class="lightbox" id="{{ $id }}">
-  <img src="{{ $img.RelPermalink }}" alt="{{$alt}}" class="lightbox-image" loading="lazy">
+  <img src="{{ $img.RelPermalink }}" alt="{{$alt}}" class="lightbox-image" loading="lazy" width="{{ $img.Width }}" height="{{ $img.Height }}">
 </a>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

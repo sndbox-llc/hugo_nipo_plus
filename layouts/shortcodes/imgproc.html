@@ -10,7 +10,7 @@
 {{ $id := partial "make-random-md5.hugo" }}
 <figure style="padding: 0rem; margin: 0rem 0; background-color: #ffff; ">
   <a href="#{{ $id }}" class="lightbox-link">
-    <img loading="lazy" style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
+    <img loading="lazy" style="max-width: 100%; width: auto; height: auto;aspect-ratio: {{ $img.Width }} / {{ $img.Height }};" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}">
   </a>
   <figcaption class="small">
     <i>

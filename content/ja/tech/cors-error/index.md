@@ -12,7 +12,7 @@ code = true
 +++
 
 
-## 静的サイトの問い合わせフォームをCloud Functionsで作ろうとしてハマる{#struggling_to_create_contact_form_with_cloud_functions_for_static_website}
+## 静的サイトの問い合わせフォームをCloud Functionsで作ろうとしてハマる{#staticWebsiteContactForm}
 
 みなさん静的サイトは作っていますか？脱Wordpressを掲げて第一弾としてNipoPlusの姉妹アプリであるMaroudのホームページを静的サイトに作り変えました。
 静的サイトとはHTMLが生成された状態でサーバに置いておくだけのWebサイトです。WordpressなどはPHPでアクセスの度ページを作成するので「動的サイト」と呼ばれます。
@@ -27,7 +27,7 @@ code = true
 サーバ側でメールを処理するプログラムが置けないので、問い合わせフォームに関しては別途用意しなければなりません。
 今回はMaroudのWebサイトを静的サイトに切り替えたとき、問い合わせフォームの設置に思いの外苦労したことをお話します
 
-## ホスティング先がFirebaseなので問い合わせフォームはCloud Functionsで実装したい{#implement_contact_form_with_cloud_functions_on_firebase_hosting}
+## ホスティング先がFirebaseなので問い合わせフォームはCloud Functionsで実装したい{#contactFormHostedCloudFunction}
 
 MaroudはアプリもWebページもFirebase上にホスティングされています。なので問い合わせフォームの処理自体もFirebase上に実装するのが一番しっくりきます。  
 Firebaseのホスティングではサーバ側のプログラムを設置できないため、FirebaseのCloud Functionsを使うことになります。

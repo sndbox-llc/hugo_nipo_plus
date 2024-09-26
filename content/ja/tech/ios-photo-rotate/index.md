@@ -27,7 +27,7 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
 しかしブラウザ上にUpするとその回転方向の処理が無いため、横向きになったりひっくり返ったりしていました。
 この問題を解決するため、やり方は様々ですがNipoでは[Blueimp load image](https://github.com/blueimp/JavaScript-Load-Image)を利用して回転処理を加え、正しい向きにするようなコードを記述していました。
 
-### iOS13.4.1のWKWebViewでは正しい回転方向を自動で解釈する{#correct_rotation_auto_interpretation_with_ios13_4_1_wkwebview}
+### iOS13.4.1のWKWebViewでは正しい回転方向を自動で解釈する{#correct_rotation}
 
 前述のように、回転をプログラマ側で処理しなければなりませんでしたが、iOS13.4.1ではまたしても画像が回転して表示されるというバグが発生しました。  
 アプリストアに公開されている最新版のNipoを、iOS13.4.1のiPhoneと１つ前のiOSのiPhoneで試したところ、最新iOSの方でのみ画像が回転したことからも、OSのアップデートがバグにつながったと見て間違いないです。
@@ -81,7 +81,7 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
   }
 ```
 
-### Orientationの値をスルーすることで旧iOSではまた回転してしまう{#rotation_again_on_old_ios_by_ignoring_orientation}
+### Orientationの値をスルーすることで旧iOSではまた回転してしまう{#rotation_again}
 
 写真が勝手に回転する問題をわざわざ記述したのに、この度のアップデートで不要となりました。  
 しかし回転処理を削除することは、「旧バージョンのiOSユーザ」はまたしても回転してしまう問題が発生すると思います。  

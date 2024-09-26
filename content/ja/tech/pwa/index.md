@@ -149,7 +149,7 @@ quasar.conf.jsはQuasar独自の設定ファイルです。他のフレームワ
 PWAの効率良いデバッグ方法が知りたい・・・・なんでこんなにデバッグしにくいのかしら
 {{</alice>}}
 
-## iPadやAndroidで更新時にアプリがフリーズするトラブルが発覚{#trouble_with_app_freezing_on_update_on_ipad_and_android}
+## iPadやAndroidで更新時にアプリがフリーズするトラブルが発覚{#trouble_with_app_freezing}
 
 PCのブラウザであれば問題なく更新ができていたPWAですが、AndroidやiPadでPWAの更新がうまくできないことがわかりました。
 [こちらの手順](/docs/system/mobile-install/)でPWAをタブレットにインストールし、更新をテストしたところ、更新のメッセージが表示され、「後で更新」を選ぶとvue Routerが機能しなくなり、ページ遷移ができなくなります。
@@ -158,7 +158,7 @@ PCのブラウザであれば問題なく更新ができていたPWAですが、
 色々調べてみたところ、Service Worker内ではwindowにアクセスできないようです。ただregister-service-workerを使うと色々アクセス出来るようですし、実際にPCやiPhoneでは正常に更新ができていたため、iPadOSなど特定のOSで対応していないのかもしれません。
 正直原因はよくわかりませんが、問題を解決するほうが重要です。
 
-## Service worker上ではなくVue上で更新処理を行うように修正{#update_process_moved_to_vue_instead_of_service_worker}
+## Service worker上ではなくVue上で更新処理を行うように修正{#update_process}
 
 service workerについて調べると、とにかくよく出てくるコード。
 

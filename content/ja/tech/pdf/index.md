@@ -179,7 +179,7 @@ const storage = getStorage();
 archive.pipe(storage.bucket().file('path/to/出力するファイル名.zip').createWriteStream());
 ```
 
-## 非同期処理とCloud Functionsのライフサイクルに注意する{#note_async_processing_and_cloud_functions_lifecycle}
+## 非同期処理とCloud Functionsのライフサイクルに注意する{#functions_lifecycle}
 
 returnのが実行されると、streamの処理が途中でも関数を終えてしまうことを正しく理解していなかったため、原因究明に思った以上の時間を浪費してしまいました。
 

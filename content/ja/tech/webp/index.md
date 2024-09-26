@@ -16,7 +16,7 @@ date = "2022-11-14"
 容量を小さくする上でよく言われる最適化の1つに「次世代型フォーマットWebPを使う」というものがあります。
 ただこのWebP、特定の条件ではPngのほうが軽いということに気づいてしまいました。
 
-## 色情報の多い画像や一般的な写真においてはWebPのほうが軽い{#webp_is_lighter_for_images_with_many_colors_or_typical_photographs}
+## 色情報の多い画像や一般的な写真においてはWebPのほうが軽い{#webpIslight}
 
 一般的な写真や、色情報の多いPngファイルをWebPに変換するとたしかに軽量化されます。
 しかしそうならないケースも割とたくさんありました。
@@ -53,7 +53,7 @@ Nipoのバナー画像をPng形式とWebP形式で比較してみます。幅150
 JpegもPngもWebPには勝てない結果になりました。さすがは次世代フォーマットです。
 積極的に採用したくなりますね。
 
-## Photoshopでカリカリに絞ったPNGとWebPではPNGのほうが軽量になることが多い{#often_png_is_lighter_than_webp_when_sharply_optimized_in_photoshop}
+## Photoshopでカリカリに絞ったPNGとWebPではPNGのほうが軽量になることが多い{#pngVSWebp}
 
 さて、ここからが本記事のメインテーマになります。うちのWebサイトはアプリ画面の説明に大量のPng画像を掲載しています。
 アプリ画面の説明はそこまできれいな色合いは不要ですが、ぼやけた画像は見にくいのでシャープさだけは重要です。

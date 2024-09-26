@@ -69,7 +69,7 @@ aliases = ["/docs/manual/initial-setting/staff/_about/"]
 ---
 
 
-## 権限ごとの詳細な説明とメニューの見え方
+## 権限ごとの詳細な説明とメニューの見え方{#detailScreen}
 
 ### 管理者権限{#admin}
 

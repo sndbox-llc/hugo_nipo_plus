@@ -11,7 +11,7 @@ code = true
   priority = 0.5
 +++
 
-## Modalを使うとwindow.scrollでは動かない原因と解決策{#reasons_and_solution_for_window_scroll_not_working_with_modal}
+## Modalを使うとwindow.scrollでは動かない原因と解決策{#window_scroll_not_working}
 
 私はVue利用者ですがどうしても素のJavascriptを使わないと行けない処理というものが時々でてきます。
 例えば特定の位置へ画面をスクロールさせる処理もその１つ。移動先をIDなどで取得し、スクロールさせる処理を書くことでスクロールできます。

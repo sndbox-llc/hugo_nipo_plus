@@ -14,7 +14,7 @@ code = true
   
 この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/fulltext/)を書きました。
 
-## AlgoliaからTypeSenseへ切り替えは可能か？{#switching_from_algolia_to_typesense_feasible}
+## AlgoliaからTypeSenseへ切り替えは可能か？{#switching_from_algolia_to_typesense}
 
 FireStoreを使ってシステムを構築すると、検索機能の貧弱さに頭を抱えることになります。mySQLなどにある「Like検索」は前方一致で行うことは可能ですが、部分一致による検索はできません。  
 FireStoreの公式サイトでは、[全文検索を実装するには外部のデータベースを使用](https://firebase.google.com/docs/firestore/solutions/search?provider=algolia)するように案内しています。2021年7月時点では、外部のデータベースとして
@@ -33,7 +33,7 @@ FireStoreの公式サイトでは、[全文検索を実装するには外部の�
 使い方もかんたんで、速度も申し分ないのですが料金がネックです。
 この度、Nipoではない他のプロダクトで試験的にTypeSenseを導入してみました。このページはTypesense導入におけるお話をしていきます。実際に使ってみて感じたことをつらつらと書いていきます。
 
-## TypeSenseは低価格で全文検索が可能な新しいデータベースです{#typesense_a_new_database_that_enables_full_text_search_at_low_cost}
+## TypeSenseは低価格で全文検索が可能な新しいデータベースです{#typesenseCanFulltextSearch}
 
 Typesenseの情報自体はまだまだ少ないです。日本語によるTypesense導入を解説しているページはほとんど有りません。Typesenseがどのようなものかというと、メモリ上だけで保存される全文検索が可能なデータベースです。
 制限付きAPIキーなどを使えばマルチテナント型のサービスでも安全にデータを隔離可能で、検索はもちろん、並べ替えなども可能です。
@@ -44,7 +44,7 @@ Typesenseの情報自体はまだまだ少ないです。日本語によるTypes
 
 メモリが0.5GBは実運用では足りないと思いますが、ちょっと使ってみるにはお手軽です。多少遅くても、Algoliaよりずっと安価で導入できるのは魅力的ですね。（データ0件ならAlgoliaのほうが安いですが・・・）
 
-### リレーショナルデータベースのようにテーブル構造を作成する必要があります{#tables_need_to_be_created_like_in_relational_databases}
+### リレーショナルデータベースのようにテーブル構造を作成する必要があります{#needsSchemaSetting}
 
 Algoliaでは、Indexというまとまりを作ってそこにデータを入れて保存していきます。これはリレーショナルデータベースで言うところの「テーブル」に該当します。Typesenseではこれを「Collection」と呼びます。
 ちょっと面白いなと思ったのが、[テーブルスキーマ](https://typesense.org/docs/0.21.0/api/collections.html#create-a-collection)という概念があることです。Collectionを作る際にスキーマを定義するため、Algoliaに比べるとちょっと面倒くさいですが、そのおかげで任意のキーでソートが可能になります。（Algoliaはソートが1種類に制限されるのでここが大きな違い）
@@ -79,7 +79,7 @@ Algoliaでは、Indexというまとまりを作ってそこにデータを入�
 }
 ```
 
-## 半角スペースで単語を区切らない日本語は全文検索に工夫が必要です{#full_text_search_for_japanese_without_space_delimiters_requires_clever_approach}
+## 半角スペースで単語を区切らない日本語は全文検索に工夫が必要です{#full_text_search_for_cjk}
 
 もともと英語圏で作られたデータベースのためか、半角スペースで単語を区切らない日本語はTypesenseで検索することができません。そのため、日本語でも検索できるように小細工をする必要があります。
 この辺も、Algoliaに比べると不便な点です。Algoliaは標準で日本語の全文検索に対応していました。高いけど。
@@ -126,7 +126,7 @@ Typesenseへの書き込みなんかは、公式サイトの[データ書き込�
 つまり書き込み時と検索時の2回、文字列をBi-gram化する必要があります
 {{</alice>}}
 
-## 他の会社のデータを見れないように制限付きAPIキーをうまく使おう{#utilize_restricted_api_keys_to_prevent_access_to_other_companies_data}
+## 他の会社のデータを見れないように制限付きAPIキーをうまく使おう{#securityManagement}
 
 Algliaにもありましたが、制限付きAPIキーを作成することで、複数企業のデータがまとまったデータベースでも、他の企業から盗み見られないように安全に守ることができます。
 
@@ -169,7 +169,7 @@ Algoliaのソートは1種類しか保存できないため、文字によるソ
 TypeSenseの勝ちです
 {{</alice>}}
 
-### 日本語など半角スペースで区切らない言語に厳しい{#language_unfriendly_to_non_space_delimited_languages_like_japanese}
+### 日本語など半角スペースで区切らない言語に厳しい{#fulltext_CJK}
 
 すでに上でも書いていますが、日本語ではn-gramを使って文字をぶつ切りにしないと全文検索として利用できません。
 n-gramはシンプルですが検索にノイズが入りやすく、精度がイマイチというデメリットがあります。このあたりはAlgoliaのほうが優秀ですね。  
@@ -181,7 +181,7 @@ n-gramはシンプルですが検索にノイズが入りやすく、精度が�
 現時点ではAlgoliaの勝ちです
 {{</alice>}}
 
-### インメモリで動くためサーバ構成を変えることができない{#unable_to_change_server_configuration_due_to_running_in_memory}
+### インメモリで動くためサーバ構成を変えることができない{#staticServerSpec}
 
 Typesense_cloudでは起動前にサーバの性能を選択できることは前述しましたが、一度起動すると、構成を変更することができません。
 
@@ -195,7 +195,7 @@ Typesense_cloudでは起動前にサーバの性能を選択できることは�
 Typesenseが動的に変えられるとのことでTypesenseの勝ちになりました
 {{</alice>}}
 
-### ライセンスがGPL3である（用途によっては問題になるかも？）{#licensed_under_gpl3_may_pose_issues_depending_on_usage}
+### ライセンスがGPL3である（用途によっては問題になるかも？）{#licensed_under_gpl3}
 
 ライセンスの問題で、GPL3を採用しています。開発者側は[「なぜGPL3？」](https://github.com/typesense/typesense#user-content-why-the-gpl-license)と詳しく解説しているので気になる方は目を通してみてください。
 
@@ -219,7 +219,7 @@ TypeScriptに対応したV1.0.0で初期化の引数型似バグがあり、[Iss
 英語が話せなくてもGoogle翻訳を使えばなんとかなる！
 {{</alice>}}
 
-## 検索ノイズが多いのでもう少し改良した話{#further_improvements_to_reduce_search_noise}
+## 検索ノイズが多いのでもう少し改良した話{#furtherNoise}
 
 予想はしていましたが、Bi-gramだと検索ノイズが多く出てしまう傾向があります。特に数字などはノイズが酷いため、用途によっては数字はN-gram化しないなどの対策が必要になりそうです。
 辞書を使った単語の分割も試してみました。日本語を分かち書きする際に有名なものでは[mecab](https://www.mlab.im.dendai.ac.jp/~yamada/ir/MorphologicalAnalyzer/MeCab.html)があります。  

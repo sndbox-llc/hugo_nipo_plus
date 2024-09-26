@@ -52,7 +52,7 @@ export default defineComponent({
 
 ```
 
-### $options.filters.フィルター名の修正も忘れずに{#dont_forget_to_update_option_filters_filter_name}
+### $options.filters.フィルター名の修正も忘れずに{#filterNameFixed}
 
 Filterは主にTemplateの中で利用してきましたが、稀にコード内で利用することもありました。例えばNipoはCSV出力時に日付形式を変換する際に使っていました。コード内でFilterを呼び出すには
 

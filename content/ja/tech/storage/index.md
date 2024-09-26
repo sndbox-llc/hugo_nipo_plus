@@ -69,7 +69,7 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
 上記コードは未検証です。確かこんな感じだったという記憶を頼りに記述してます
 {{</alice>}}
 
-## Storageの書き込みが完了するまで処理を待つように処理を止める方法がわからず混乱{#confusion_about_waiting_for_storage_write_to_complete_before_proceeding}
+## Storageの書き込みが完了するまで処理を待つように処理を止める方法がわからず混乱{#confusion_about_waiting}
 
 上記コードの問題は色々あるけど何よりも問題となるのが
 
@@ -96,7 +96,7 @@ await pdfDoc.pipe(myPDFFile.createWriteStream());
 筆者の環境ではStreamをほぼ使わないため馴染みがなかったのも要因です
 {{</alice>}}
 
-## Streamの書き込みが完了するまで待ってからダウンロードURLをフロントに返却するようにプログラムを修正する{#modify_program_to_wait_for_stream_writing_to_complete_before_returning_download_url_to_frontend}
+## Streamの書き込みが完了するまで待ってからダウンロードURLをフロントに返却するようにプログラムを修正する{#fixedPendingMethod}
 
 pdfDoc.pipeは結局の所Internal.WriteStreamなのでこのStreamが完了するまで処理を止めればよいわけです。cloud Functionsはreturnで関数自体が終了してしまうので、Streamの書き込みが終わるまではreturnを実行してはいけません。
 処理を止めるにはPromiseを使えば簡単です。やり方はいくつかあると思います。

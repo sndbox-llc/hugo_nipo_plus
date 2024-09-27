@@ -1,6 +1,6 @@
 +++
-title = "カスタマイズ可能なクラウド型入力アプリ。1名180円の低価格設定"
-description = "多目的に使えるクラウド型入力アプリ。日報・点検シート・報告書などのテンプレートを「自分たちで」簡単に作成可能。を簡単に作成。入力もPC・スマートフォン・タブレットに完全対応。時間や場所を気にせず業務報告が可能です。無料プランも有ります。有料プランは1名180円から。ワンクリックで今すぐ始められます。"
+title = "カスタマイズ可能なクラウド型入力アプリ。1名180円の低価格。日報や点検表に"
+description = "多目的に使えるクラウド型入力アプリ。日報・点検シート・報告書などのテンプレートを「自分たちで」簡単に自作できます。PC・スマートフォン・タブレットで利用可能。時間や場所を気にせず業務報告が可能です。無料プランも有ります。有料プランは1名180円。ワンクリックで今すぐ始められます。"
 date = "2023-04-01"
 draft = false
 images = []
@@ -13,19 +13,17 @@ showPrice = true
 ## NipoPlusで得られるメリット{#benefits}
 
 
-### ノーコードでオリジナルの日報・点検表などを自作できる{#nocode-custom-daily-report}
-
-
 <div class="row my-5">
 <div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
-誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/#commonNumber)、[画像入力](/docs/manual/initial-setting/template/binarys/#picture)など）を組み合わせるだけで、**自社に最適なテンプレートを作成**できます。  
+### ノーコードでオリジナルの日報・点検表などを自作できる{#nocode-custom-daily-report}
 
-特別な技術知識がなくても、自社の業務に合った入力フォームを迅速に構築できます。  
-テンプレートは複数保存可能
 
-{{<btnFull "/docs/manual/initial-setting/template/make/" "テンプレート作成ガイド">}}
+誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/#commonNumber)、[画像入力](/docs/manual/initial-setting/template/binarys/#picture)など）を組み合わせるだけ。特別な技術知識がなくても、自社の業務に合った入力フォームを迅速に構築できます。  
+テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
+
+{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレート作成ガイド">}}
 
 </div>
 <div class="col-lg-9">
@@ -36,15 +34,17 @@ showPrice = true
 </div>
 
 
-
-### ブラウザでも専用アプリでも使える。いつでもどこでもアクセス可能{#browser_app}
-
-
 <div class="row my-5">
 <div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
+### ブラウザでも専用アプリでも使える。いつでもどこでもアクセス可能{#browser_app}
+
+
 NipoPlusを使うことで、紙の日報やチェックシートを電子化し、手作業の煩雑さから解放されます。スマホからも簡単に入力・閲覧ができるため、どこからでもアクセス可能です。これにより、作業効率が大幅に向上し、時間とコストの節約が可能です。
+
+{{<btnCenter "/tips/mobile-device/" "モバイルデバイスで日報を書く">}}
+
 
 </div>
 <div class="col-lg-9">
@@ -121,13 +121,13 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 
 ## 年配の方でも簡単に使えます{#easy_for_seniors}
 
-### テンプレートに沿って書くだけ。簡単入力でらくらく日報作成{#easy_daily_report_creation}
-
-
 
 <div class="row my-5">
 <div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
+
+### テンプレートに沿って書くだけ。簡単入力でらくらく日報作成{#easy_daily_report_creation}
+
 
 NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボタンを押して入力フォームの値を埋めるだけです。
 [入力漏れの検知](/tips/required/)や入力順序を指示することも可能。  
@@ -151,11 +151,13 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 
 ## その他の様々な便利機能を一部紹介{#other_features}
 
-### 日報をPDF出力して印刷する{#pdf_output}
 
 <div class="row my-5">
 <div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
+
+### 日報をPDF出力して印刷する{#pdf_output}
+
 
 見たままに入力できるなら**見たままに出力できる**ことにもこだわって作りました。  
 最初に作った日報テンプレートをそのままのレイアウトでPDFに変換出力できます。PDFはA4サイズで、縦・または横レイアウトを[PDF出力設定](/docs/manual/pdf/pdfoption/)で選べます。  
@@ -173,12 +175,11 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 </div>
 
 
-
-### 提出状況一覧表で未提出者を早期特定{#submission_status}
-
 <div class="row my-5">
 <div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
+
+### 提出状況一覧表で未提出者を早期特定{#submission_status}
 
 一覧表で誰が何件の日報を提出したのか俯瞰できるので、未提出者を早期に、しかも簡単に発見できます。  
 シフト登録をしておけば休みなのか、提出忘れなのかもすぐに分かります。
@@ -197,8 +198,30 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 
 
 
+<div class="row my-5">
+<div class="col-lg-7 rootMainText">
+
 ### CSVに出力してエクセルで開けばすぐ集計・分析{#csv_output}
 
+DX化のメリットはなんといってもデータの集計や分析が容易な点です。日報内の「売上高」や「訪問件数」といった数値データがあれば、それを簡単にグラフ化することが可能です。  
+エクセルに日報を転記するよりずっと手軽で効率的です。  
+
+{{<btnFull "/tips/analytics/" "エクセル集計とアプリ集計について">}}
+
+</div>
+
+<div class="col-lg-9 rootMainText">
+
+{{<icatch filename="make-charts" msg="エクセルが無くても！積み上げ縦棒&折れ線の複合グラフくらいは作成できるよ" alice="pc">}}
+
+</div>
+</div>
+
+
+残念ながらピポッドテーブルなど、エクセルほど高度なことはできません。しかしデータをCSV出力すれば、そのままエクセルで開くことが可能です。ケースバイケースで使い分けることで手軽さと高度さを両立できます。
+
+たくさんの日報を1枚のシートにまとめるにはCSV出力が便利です。NipoPlusのCSV出力を使うとエクセルでそのまま開ける日報データ一覧を簡単に出力可能。  
+例えば次のようにエクセルで開くことができます。（※見やすくするため◯を⭕に脚色しています）
 
 {{< excelTable >}}
 
@@ -212,32 +235,4 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 {{< /excelTable >}}
 
 
-日報を1枚のシートにまとめるにはCSV出力が便利です。NipoPlusのCSV出力を使うと先程のテンプレートで書かれた日報は次のような格子状の一覧表になって出力されます。
-複数の日報を１枚のエクセルにまとめる作業をまるっと省略し、本来の集計分析にすぐ着手できます。  
-（※見やすくするため◯を⭕に脚色しています）
-
-
-
-
-
-<div class="row my-5">
-<div class="col-lg-6 rootMainText">
-
-エクセルでも同じグラフを作れますが、NipoPlusの集計機能でもこのくらいのグラフなら手軽に作成できます。  
-いちいちCSVに変換しなくても**その場でグラフや表が見れる点でエクセルよりずっと手軽**です。
-アプリの集計はエクセルほど高度なことはできませんので、ケースバイケースで使い分けることで手軽さと高度さを両立できます。
-
-{{<btnFull "/tips/analytics/" "エクセル集計とアプリ集計について">}}
-
-</div>
-
-<div class="col-lg-10 rootMainText">
-
-{{<icatch filename="make-charts" msg="エクセルが無くても！積み上げ縦棒&折れ線の複合グラフくらいは作成できるよ" alice="pc">}}
-
-
-
-</div>
-</div>
-
-
+{{<nextArrow>}}

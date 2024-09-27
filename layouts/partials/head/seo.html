@@ -11,19 +11,19 @@
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   {{ end -}}
 {{ end -}}
-
-{{  if .Params.isNipo -}}
+{{ if .IsHome -}}
+  <title>{{ .Title }}</title>
+{{ else if .Params.isNipo -}}
   <title>{{ .Title }}{{ .Site.Params.titleSeparator }}Nipo(旧Version)</title>
 {{ else if in .Permalink "/docs/manual/" -}}
   <title>{{ .Title }} (操作ガイド){{ .Site.Params.titleSeparator }}NipoPlus</title>
 {{ else if in .Permalink "/docs/price/" -}}
-<title>{{ .Title }} (料金プラン){{ .Site.Params.titleSeparator }}NipoPlus</title>
+  <title>{{ .Title }} (料金プラン){{ .Site.Params.titleSeparator }}NipoPlus</title>
 {{ else if in .Permalink "/tags/" -}}
-<title>🏷{{ .Title }} のタグ{{ .Site.Params.titleSeparator }}NipoPlus</title>
-{{ else  -}}
+  <title>🏷{{ .Title }} のタグ{{ .Site.Params.titleSeparator }}NipoPlus</title>
+{{ else -}}
   <title>{{ .Title }}{{ .Site.Params.titleSeparator }}NipoPlus</title>
 {{ end -}}
-
 {{ with .Description -}}
   <meta name="description" content="{{ . }}">
 {{ else -}}

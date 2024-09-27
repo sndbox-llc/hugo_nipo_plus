@@ -15,6 +15,11 @@
   url = "/others/inquery/"
   weight = 40
 
+[[main]]
+  name = "🔍検索"
+  url = "/others/search/"
+  weight = 41
+
 
 
 [[main]]

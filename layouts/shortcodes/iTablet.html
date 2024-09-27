@@ -3,7 +3,7 @@
 {{ $msg := .Get "msg" | default "zzz... zzz..."}}
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" ($moji)) }}
 {{ $id := partial "make-random-md5.hugo" }}
-{{ $uniqueID := (printf "character-container-%s" $id) }}
+{{ $uniqueID := (printf "character-container-%s" $moji) }}
 
 <div class="uTabletContainer mb-5 mt-5">
   <div class="uedaTabletFrame uTabletFramePos" >

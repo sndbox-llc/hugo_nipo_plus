@@ -1530,6 +1530,7 @@
       "draft",
       "draw_sign",
       "dummy_account",
+      "duplicateEmail",
       "dx_equip_inspection",
       "dynamic_responses",
       "early_submission_check",
@@ -2318,7 +2319,8 @@
       "yes_no",
       "zettai",
       "zip",
-      "zip_decode_issue_with_lhaplus_lhaca"
+      "zip_decode_issue_with_lhaplus_lhaca",
+      "すでに使用済みのメールアドレスです-と表示されてアカウント作成ができない場合"
     ]
   }
 }

@@ -197,6 +197,33 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 
 
 
+<div class="row my-5">
+<div class="col-lg-7 rootMainText">
+
+### 回答内容に応じて動的に設問を変化させる動的変化機能{#dynamic}
+
+例えば「地域」に「北関東」を選ぶと、支店に「宇都宮支店・鹿沼支店」をセットすることができます。  
+選択肢がカテゴリ分けされている場合に便利な機能です。もちろん連鎖をつなげることもできます。（例えば国・地域・支店 のように）  
+
+動き自体はまさにプログラミングちっくですが、もちろんプログラマが居なくてもご自身で手軽にこの機能を作成することができます。
+
+{{<btnFull "/docs/manual/initial-setting/template/selects/#dinamic_switch_select" "動的変化について">}}
+
+（※地味に「こんなことできますか？」というお問い合わせが多いのでトップページに追記しました）
+
+
+</div>
+
+<div class="col-lg-9 rootMainText">
+
+{{<icatch filename="dinamic-selection" msg="プログラマが居なくても自分で作れちゃうよ" alice="pc">}}
+
+</div>
+</div>
+
+
+
+
 
 <div class="row my-5">
 <div class="col-lg-7 rootMainText">

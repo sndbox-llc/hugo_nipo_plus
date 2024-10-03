@@ -36,6 +36,11 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}}  2024/9/18 v1.63.1{#vp1_63_1}
+
+- グラフ作成時、反復入力内の数値データを対象にできないバグを修正しました
+
+
 #### {{<nipoPlusLogo 30>}}  2024/9/18 v1.63.0{#vp1_63_0}
 
 - PDF出力設定に「文書番号を出力しない」のオプションが追加されました

@@ -29,11 +29,6 @@
 
 
 [[main]]
-  name = "⚡️機能別ガイド"
-  url = "/function/"
-  weight = 46
-
-[[main]]
   name = "ブログ"
   weight = 50
   identifier = "blogroot"
@@ -58,3 +53,9 @@
   identifier = "excel"
   url = "/excel/"
   parent = "blogroot"
+[[main]]
+  name = "⚡️機能別ガイド"
+  identifier = "function"
+  url = "/function/"
+  parent = "blogroot"
+  weight = 55

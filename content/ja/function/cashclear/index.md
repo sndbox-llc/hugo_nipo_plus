@@ -7,8 +7,8 @@ images = []
 date = "2024-10-03"
 code = true
 [sitemap]
-  changefreq = "yearly"
-  priority = 0.5
+  changefreq = "weekly"
+  priority = 0.3
 +++
 
 ## テンプレートが反映されない場合など、不具合があったときはキャッシュをクリアしてください

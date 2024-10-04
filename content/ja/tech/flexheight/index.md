@@ -8,7 +8,7 @@ date = "2023-01-01"
 code = true
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.3
 +++
 
 

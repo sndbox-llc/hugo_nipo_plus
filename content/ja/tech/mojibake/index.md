@@ -7,7 +7,7 @@ images = ["zip-open.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.9
 +++
 
 NipoPlusの[一括CSVダウンロード](/docs/manual/analytics/csv/)を使ってレポートのデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。

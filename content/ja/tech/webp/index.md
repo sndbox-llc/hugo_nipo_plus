@@ -7,7 +7,7 @@ images = []
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.7
 +++
 
 4G通信から5G通信へ通信技術が進んでも絶対に変わらないことは「重いより軽いほうが良い」という点です。

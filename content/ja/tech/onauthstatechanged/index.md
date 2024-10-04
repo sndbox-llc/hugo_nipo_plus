@@ -8,7 +8,7 @@ date = "2022-11-14"
 code = true
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.2
 +++
 
 NipoPlusのバックエンドはFirebaseを使用しています。Firebaseではアカウントのログイン状態が変化するとonAuthStateChangedというオブザーバが変化を検知し、所定の動作を行います。

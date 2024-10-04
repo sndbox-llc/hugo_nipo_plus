@@ -8,7 +8,7 @@ date = "2022-11-14"
 code = true
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.3
 +++
 
 Cloud FunctionsからPDFやZipなどのファイルを作成し、ダウンロードURLをフロントに返却するといった処理を実装したときに、次のようなエラーを受けました。

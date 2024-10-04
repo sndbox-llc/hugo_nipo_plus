@@ -8,7 +8,7 @@ date = "2022-11-14"
 code = true
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.7
 +++
 
 [pdfMake](https://github.com/bpampuch/pdfmake)はフロント側でPDFが簡単に作れるJavaScriptです。

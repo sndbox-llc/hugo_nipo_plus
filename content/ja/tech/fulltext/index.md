@@ -7,7 +7,7 @@ images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.4
 +++
 
 ## FireStoreで全文検索をする方法3種類を比較してみた{#hikaku}

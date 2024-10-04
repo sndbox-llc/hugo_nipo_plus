@@ -8,7 +8,7 @@ date = "2022-11-14"
 code = true
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.2
 +++
 
 ## iPhoneで写真を日報に添付すると画像が回転してしまいます{#iphone_photo_rotation_issue}

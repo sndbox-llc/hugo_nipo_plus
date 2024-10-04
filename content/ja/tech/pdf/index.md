@@ -8,7 +8,7 @@ date = "2022-11-14"
 code = true
 [sitemap]
   changefreq = "yearly"
-  priority = 0.5
+  priority = 0.7
 +++
 
 NipoPlusには日報をPDFに変換する機能があります。PDFファイルを生成するにはいくつかのライブラリがありますが、今回は[pdfmake](http://pdfmake.org/)を使用しました。

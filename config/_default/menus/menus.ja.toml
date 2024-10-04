@@ -29,6 +29,11 @@
 
 
 [[main]]
+  name = "⚡️機能別ガイド"
+  url = "/function/"
+  weight = 46
+
+[[main]]
   name = "ブログ"
   weight = 50
   identifier = "blogroot"

@@ -1,7 +1,7 @@
 +++
 description = "ログアウトの手順について"
 tags = ["アカウント設定"]
-title = "ログアウト・サインアウト"
+title = "NipoPlusからログアウトしたい"
 toc = false
 images = []
 date = "2024-10-03"

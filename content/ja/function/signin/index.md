@@ -1,7 +1,7 @@
 +++
 description = "NipoPlusのアカウントをお持ちの方はこちらの手順に沿ってログインできます"
 tags = []
-title = "ログインの手順"
+title = "NipoPlusにログインしたい"
 toc = false
 images = []
 date = "2024-10-03"

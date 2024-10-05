@@ -1,7 +1,7 @@
 +++
 description = "NipoPlusの動きがおかしい？と思ったらまず試してください。キャッシュを消すことで最新データがロードされ正常な動作に戻ります"
 tags = ["アカウント設定"]
-title = "キャッシュクリア"
+title = "NipoPlusの動作がおかしいとき"
 toc = false
 images = []
 date = "2024-10-03"

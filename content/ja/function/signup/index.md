@@ -1,7 +1,7 @@
 +++
 description = "NipoPlusの利用が始めたの方はこちらの手順に沿ってアカウントの作成ができます"
 tags = []
-title = "アカウントの新規作成"
+title = "NipoPlusのアカウントを始めて作りたい"
 toc = false
 images = []
 date = "2024-10-03"

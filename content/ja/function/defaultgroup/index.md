@@ -5,7 +5,7 @@ title = "起動時に特定のグループを初期値に指定したい"
 toc = false
 images = []
 date = "2024-10-03"
-code = true
+code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3

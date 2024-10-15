@@ -5,7 +5,7 @@ title = "日報が縦に長過ぎてスクロールが大変なときに使え�
 toc = false
 images = []
 date = "2024-10-03"
-code = true
+code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3

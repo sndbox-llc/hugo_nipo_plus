@@ -36,6 +36,13 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}}  2024/10/22 v1.63.2{#vp1_63_2}
+
+- 保存した検索の実行が不安定で、正しく検索されないバグを修正しました
+
+
+
+
 #### {{<nipoPlusLogo 30>}}  2024/9/18 v1.63.1{#vp1_63_1}
 
 - グラフ作成時、反復入力内の数値データを対象にできないバグを修正しました

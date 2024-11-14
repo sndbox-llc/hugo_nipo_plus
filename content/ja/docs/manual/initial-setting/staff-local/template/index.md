@@ -8,6 +8,7 @@ draft = false
 weight = 101001035
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/staff-local/template/"
 +++
 
 ## レポート作成時に使えるテンプレートを制限する{#limitUsageTemplate}

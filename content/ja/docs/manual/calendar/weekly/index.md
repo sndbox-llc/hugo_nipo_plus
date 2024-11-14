@@ -6,6 +6,7 @@ toc = true
 tags = ["有料プラン限定"]
 weight = 101005002
 images = []
+url = "/docs/manual/calendar/weekly/"
 +++
 
 

@@ -7,6 +7,7 @@ toc = true
 weight = 101002002
 aliases = []
 images = []
+url = "/docs/manual/write-report/dist/"
 +++
 
 ## 提出先と共有先の意味{#whatisDist}

@@ -7,6 +7,7 @@ toc = true
 weight = 101003003
 aliases = []
 images = []
+url = "/docs/manual/read-report/removereport/"
 +++
 
 ## 削除できるレポートについて{#types}

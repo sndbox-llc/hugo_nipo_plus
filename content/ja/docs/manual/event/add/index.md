@@ -7,6 +7,7 @@ weight = 101008001
 aliases = []
 images = []
 draft = false
+url = "/docs/manual/event/add/"
 +++
 
 {{<info>}}

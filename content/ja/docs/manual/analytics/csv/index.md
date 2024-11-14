@@ -7,6 +7,7 @@ toc = true
 weight = 101004021
 aliases = []
 images = []
+url = "/docs/manual/analytics/csv/"
 +++
 
 {{<info>}}

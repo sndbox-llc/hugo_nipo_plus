@@ -6,6 +6,7 @@ toc = true
 weight = 101008002
 aliases = []
 images = []
+url = "/docs/manual/event/list/"
 +++
 
 ## スタッフを軸に予定を表示する{#add_event_staff}

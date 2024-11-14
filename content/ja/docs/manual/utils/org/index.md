@@ -7,6 +7,7 @@ toc = true
 weight = 101011007
 aliases = ["/manual/remove/org/"]
 images = []
+url = "/docs/manual/utils/org/"
 +++
 
 組織は最も上位に位置する構造体の単位です。組織の削除と退会処理は同じ意味です。

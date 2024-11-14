@@ -7,6 +7,7 @@ toc = true
 weight = 101004101
 aliases = ["/docs/manual/analytics/pdf/"]
 images = []
+url = "/docs/manual/pdf/pdfbatch/"
 +++
 
 {{<info>}}

@@ -6,6 +6,7 @@ toc = true
 weight = 101001203
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/advanced-setting/goroku/"
 +++
 
 {{<warning>}}

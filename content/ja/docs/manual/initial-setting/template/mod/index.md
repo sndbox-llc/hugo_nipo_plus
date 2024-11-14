@@ -7,6 +7,7 @@ toc = true
 weight = 101001118
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/template/mod/"
 +++
 
 

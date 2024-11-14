@@ -10,6 +10,7 @@ images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6
+url = "/docs/system/mobile-install/"
 +++
 
 NipoPlusはWebアプリケーションのため、ブラウザが利用できる端末であれば利用可能です。一般的な端末はブラウザが利用できるため、多くの端末でご利用可能です。  

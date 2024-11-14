@@ -6,6 +6,7 @@ menuTitle = "📂フォルダによる管理"
 toc = true
 weight = 101001119
 images = []
+url = "/docs/manual/initial-setting/template/directory/"
 +++
 
 {{<warning>}}

@@ -6,6 +6,7 @@ title = "🗓️シフト管理"
 toc = true
 weight = 101011204
 images = []
+url = "/docs/manual/utils/shift/"
 +++
 
 

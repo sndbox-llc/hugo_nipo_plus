@@ -7,6 +7,7 @@ toc = true
 weight = 101001034
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/staff-local/dist/"
 +++
 
 ## 誰がレポートを読めるのか？{#who_can_read}

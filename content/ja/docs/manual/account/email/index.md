@@ -6,6 +6,7 @@ toc = true
 weight = 101009002
 aliases = []
 images = []
+url = "/docs/manual/account/email/"
 +++
 
 ## 📨ログインEmailの変更{#change}

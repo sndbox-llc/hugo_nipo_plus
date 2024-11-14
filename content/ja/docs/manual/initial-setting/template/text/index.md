@@ -7,6 +7,7 @@ toc = true
 weight = 101001103
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/template/text/"
 +++
 
 文字入力フォームはレポートにシンプルな文字の入力フォームを追加します。  

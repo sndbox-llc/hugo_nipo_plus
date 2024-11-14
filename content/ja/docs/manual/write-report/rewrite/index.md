@@ -6,6 +6,7 @@ toc = true
 weight = 101002004
 aliases = []
 images = []
+url = "/docs/manual/write-report/rewrite/"
 +++
 
 レポートはロックが掛かると修正できません。ロックは以下のケースで発生します

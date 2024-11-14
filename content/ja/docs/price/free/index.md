@@ -8,6 +8,7 @@ weight = 102000002
 aliases = []
 images = []
 mermaid = true
+url = "/docs/price/free/"
 +++
 
 {{<mermaid align="center">}}

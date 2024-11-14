@@ -7,6 +7,7 @@ toc = true
 weight = 101019004
 aliases = ["/docs/manual/utils/tokumei/", "/docs/manual/account/tokumei/"]
 images = []
+url = "/docs/manual/utils/tokumei/"
 +++
 
 ワンクリックで仮のアカウントを発行することができ、手軽にアプリを体験することができます。  

@@ -7,6 +7,7 @@ toc = false
 weight = 103000004
 aliases = ["/old/system/releasenote/", "/system/load-map/"]
 images = []
+url = "/docs/system/release-note/"
 +++
 
 NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/docs/system/mobile-install/#appStore)・[Web版](/docs/system/mobile-install/#web)の3種類があります。ご利用中のNipoPlusバージョンは左サイドメニュー下部に記載されています。  

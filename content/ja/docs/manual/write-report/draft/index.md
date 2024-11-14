@@ -7,6 +7,7 @@ toc = true
 weight = 101002003
 aliases = []
 images = []
+url = "/docs/manual/write-report/draft/"
 +++
 
 書きかけのレポートを下書きとして保存することで自分以外読めない状態で残すことができます。

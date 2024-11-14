@@ -6,6 +6,7 @@ toc = true
 weight = 101001011
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/setting-group/"
 +++
 {{<warning>}}
 グループの設定は[編集者権限以上](/docs/manual/initial-setting/staff/rank/)が必要です。

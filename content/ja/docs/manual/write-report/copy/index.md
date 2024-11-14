@@ -6,6 +6,7 @@ menuTitle = "📄コピー&新規作成"
 toc = true
 weight = 101002005
 images = []
+url = "/docs/manual/write-report/copy/"
 +++
 
 過去に書いたレポートをコピーして新たにレポートを作成できます。

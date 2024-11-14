@@ -8,6 +8,7 @@ weight = 102000003
 aliases = []
 images = []
 mermaid = true
+url = "/docs/price/fee/"
 +++
 
 

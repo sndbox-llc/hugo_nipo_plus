@@ -7,6 +7,7 @@ weight = 101001038
 mermaid = true
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/staff-local/share/"
 +++
 
 この機能はかなり特殊で通常使う必要は有りません。

@@ -7,6 +7,7 @@ toc = true
 weight = 101004007
 aliases = []
 images = []
+url = "/docs/manual/analytics/progress/"
 +++
 
 {{<info>}}

@@ -6,6 +6,7 @@ toc = true
 weight = 103000009
 aliases = ["/system/fix/"]
 images = []
+url = "/docs/system/fix/"
 +++
 
 起動に失敗したときや、挙動がおかしいときは本章の手順に従ってトラブルを解決してください。

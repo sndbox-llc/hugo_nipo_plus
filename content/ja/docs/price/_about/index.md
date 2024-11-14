@@ -8,6 +8,7 @@ tags = []
 aliases = []
 images = []
 mermaid = true
+url = "/docs/price/_about/"
 +++
 
 {{<info>}}

@@ -8,6 +8,7 @@ aliases = ["/system/business-deal/"]
 [sitemap]
   changefreq = "yearly"
   priority = 0.1
+url = "/docs/system/business-deal/"
 +++
 
 Nipo【旧版】およびNipoPlusはネットを媒介した販売([GOLD PLAN](/docs/price/_about/)）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。

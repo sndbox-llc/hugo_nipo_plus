@@ -8,6 +8,7 @@ weight = 101001122
 aliases = []
 images = []
 code = true
+url = "/docs/manual/initial-setting/template/key/"
 +++
 
 {{<warning>}}

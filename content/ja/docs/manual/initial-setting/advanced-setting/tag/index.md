@@ -6,6 +6,7 @@ toc = true
 weight = 101001202
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/advanced-setting/tag/"
 +++
 
 タグは目印や検索に使える付箋です。NipoPlusではタグを自由に作成、管理できます。

@@ -6,6 +6,7 @@ toc = true
 weight = 101003002
 aliases = ["/docs/manual/read-report/other/", "/docs/manual/read-report/comment/"]
 images = []
+url = "/docs/manual/read-report/state/"
 +++
 
 

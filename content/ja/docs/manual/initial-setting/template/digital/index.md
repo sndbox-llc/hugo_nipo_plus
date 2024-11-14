@@ -7,6 +7,7 @@ toc = true
 weight = 101001116
 aliases = ["/manual/initial-setting/template/range/","/docs/manual/initial-setting/template/math/"]
 images = []
+url = "/docs/manual/initial-setting/template/digital/"
 +++
 
 

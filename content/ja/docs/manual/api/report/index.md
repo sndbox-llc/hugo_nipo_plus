@@ -6,6 +6,7 @@ toc = true
 weight = 101010003
 code = true
 aliases = []
+url = "/docs/manual/api/report/"
 +++
 
 普段見慣れたレポートの形ではなくJSON形式で取得されます。

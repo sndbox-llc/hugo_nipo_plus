@@ -6,6 +6,7 @@ toc = true
 weight = 101011200
 aliases = ["/docs/manual/notice/app/"]
 images = []
+url = "/docs/manual/utils/notice/"
 +++
 
 

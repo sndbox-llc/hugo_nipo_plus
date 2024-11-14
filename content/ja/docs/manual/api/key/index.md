@@ -7,6 +7,7 @@ toc = true
 weight = 101010001
 aliases = []
 images = []
+url = "/docs/manual/api/key/"
 +++
 
 APIを使うとアプリを使わず直接レポートのデータを取得することができます。

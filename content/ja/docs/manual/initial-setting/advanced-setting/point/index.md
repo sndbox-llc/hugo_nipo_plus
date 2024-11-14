@@ -6,6 +6,7 @@ toc = true
 weight = 101001207
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/advanced-setting/point/"
 +++
 
 

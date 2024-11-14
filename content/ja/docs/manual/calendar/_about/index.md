@@ -6,6 +6,7 @@ toc = true
 tags = ["有料プラン限定"]
 weight = 101005000
 aliases = []
+url = "/docs/manual/calendar/_about/"
 +++
 
 {{<info>}}

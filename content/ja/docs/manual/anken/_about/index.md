@@ -4,6 +4,7 @@ title = "案件概要"
 menuTitle = "ℹ️概要"
 toc = true
 weight = 101004501
+url = "/docs/manual/anken/_about/"
 +++
 
 

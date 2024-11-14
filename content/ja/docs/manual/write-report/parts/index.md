@@ -7,6 +7,7 @@ weight = 101002009
 mermaid = true
 aliases = []
 images = []
+url = "/docs/manual/write-report/parts/"
 +++
 
 NipoPlusは設計されたテンプレートに沿って入力します。10種類以上の入力フォームを自由に組み合わせて作られるため、フォームによっては入力方式がわかりにくいものもあるかもしれません。  

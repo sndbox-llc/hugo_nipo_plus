@@ -7,6 +7,7 @@ toc = true
 weight = 101004008
 aliases = []
 images = []
+url = "/docs/manual/analytics/cross/"
 +++
 
 {{<info>}}

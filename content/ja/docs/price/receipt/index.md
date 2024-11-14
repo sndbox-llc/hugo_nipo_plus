@@ -7,6 +7,7 @@ toc = false
 weight = 102000006
 aliases = []
 images = []
+url = "/docs/price/receipt/"
 +++
 
 

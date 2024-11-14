@@ -7,6 +7,7 @@ toc = true
 weight = 101001111
 aliases = ["/docs/manual/initial-setting/template/file/", "/docs/manual/initial-setting/template/picture/", "/manual/initial-setting/group-setting/template/picture/","/docs/manual/initial-setting/template/sign/"]
 images = []
+url = "/docs/manual/initial-setting/template/binarys/"
 +++
 
 写真などのメディアをレポートに添付して提出することができます。

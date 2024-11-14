@@ -7,6 +7,7 @@ toc = true
 weight = 101010002
 code = true
 aliases = []
+url = "/docs/manual/api/ref/"
 +++
 
 APIの利用には少し技術者の知識が必要です。

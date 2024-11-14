@@ -10,6 +10,7 @@ images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6
+url = "/docs/system/faq/"
 +++
 
 

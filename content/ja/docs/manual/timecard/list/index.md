@@ -7,6 +7,7 @@ toc = true
 weight = 101007002
 aliases = []
 images = []
+url = "/docs/manual/timecard/list/"
 +++
 
 ## タイムカードの一覧表示{#timecard_list}

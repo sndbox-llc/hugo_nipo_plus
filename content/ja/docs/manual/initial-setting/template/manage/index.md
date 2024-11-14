@@ -8,6 +8,7 @@ weight = 101001121
 aliases = ["/docs/manual/remove/template/"]
 images = []
 mermaid = true
+url = "/docs/manual/initial-setting/template/manage/"
 +++
 
 

@@ -7,6 +7,7 @@ toc = true
 weight = 101001107
 aliases = ["/docs/manual/initial-setting/template/datetime/"]
 images = []
+url = "/docs/manual/initial-setting/template/date_time/"
 +++
 
 {{<icatch filename="date-time" msg="日付や時刻、期間等を入力するにはこれが一番！" alice="here">}}

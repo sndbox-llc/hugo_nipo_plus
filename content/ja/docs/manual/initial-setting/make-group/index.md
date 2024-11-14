@@ -6,6 +6,7 @@ toc = true
 weight = 101001010
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/make-group/"
 +++
 
 {{<info>}}

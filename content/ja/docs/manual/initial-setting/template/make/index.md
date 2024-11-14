@@ -8,7 +8,7 @@ weight = 101001101
 aliases = ["/docs/manual/initial-setting/template/_about/"]
 images = []
 mermaid = true
-
+url = "/docs/manual/initial-setting/template/make/"
 +++
 
 

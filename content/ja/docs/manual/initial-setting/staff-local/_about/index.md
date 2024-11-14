@@ -7,6 +7,7 @@ toc = true
 weight = 101001032
 aliases = []
 images = []
+url="/docs/manual/initial-setting/staff-local/_about/"
 +++
  
  スタッフは[組織から作成](/docs/manual/initial-setting/staff/make/)されて各グループに所属します。

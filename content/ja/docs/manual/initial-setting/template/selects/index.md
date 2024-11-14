@@ -8,6 +8,7 @@ weight = 101001106
 mermaid = true
 aliases = ["/docs/manual/initial-setting/template/selectcalc/"]
 images = []
+url = "/docs/manual/initial-setting/template/selects/"
 +++
 
 回答のリストを用意しておき、入力時には一覧から選ぶだけで入力ができる形式のフォームです。  

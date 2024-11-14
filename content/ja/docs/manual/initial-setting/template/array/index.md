@@ -7,6 +7,7 @@ toc = true
 weight = 101001119
 images = []
 aliases = []
+url = "/docs/manual/initial-setting/template/array/"
 +++
 
 そもそも反復とはどのようなものでしょうか？例えば次のようなレポートをイメージしてください。

@@ -5,6 +5,7 @@ title = "✍️タイムカードを入力する"
 toc = true
 weight = 101007001
 aliases = []
+url = "/docs/manual/timecard/input/"
 +++
 
 {{<info>}}

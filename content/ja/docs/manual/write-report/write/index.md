@@ -7,6 +7,7 @@ toc = true
 weight = 101002001
 aliases = ["/docs/manual/write-report/_about/"]
 images = []
+url = "/docs/manual/write-report/write/"
 +++
 
 レポートを書く大まかな流れは以下のとおりです。

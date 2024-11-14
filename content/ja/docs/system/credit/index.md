@@ -9,6 +9,7 @@ images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.1
+url = "/docs/system/credit/"
 +++
 
 ## 本サイトに使用されている画像の利用について{#image_use}

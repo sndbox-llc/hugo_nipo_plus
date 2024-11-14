@@ -7,6 +7,7 @@ toc = true
 weight = 101001004
 aliases = []
 images = []
+url = "/docs/manual/initial-setting/staff/make/"
 +++
 
 

@@ -8,6 +8,7 @@ weight = 101000000
 tags = []
 mermaid = true
 aliases = []
+url = "/docs/manual/initial-setting/_about/"
 +++
 
 

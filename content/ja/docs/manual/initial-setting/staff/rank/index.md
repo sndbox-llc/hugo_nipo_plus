@@ -8,6 +8,7 @@ toc = true
 weight = 101001003
 images = []
 aliases = ["/docs/manual/initial-setting/staff/_about/"]
+url = "/docs/manual/initial-setting/staff/rank/"
 +++
 
 

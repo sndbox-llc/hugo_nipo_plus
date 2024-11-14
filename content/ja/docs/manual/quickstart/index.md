@@ -10,6 +10,7 @@ tags = []
 weight = 1000000
 aliases = []
 images = []
+url = "/docs/manual/quickstart/"
 +++
 
 

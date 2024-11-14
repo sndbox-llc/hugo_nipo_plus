@@ -9,6 +9,7 @@ aliases = ["/legacy/parts/selects/", "/legacy/parts/checkbox/"]
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/legacy/parts/select/"
 +++
 
 

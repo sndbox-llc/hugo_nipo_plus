@@ -9,6 +9,7 @@ aliases = ["/legacy/parts/slide/", "/legacy/parts/rating/", "/legacy/parts/range
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/legacy/parts/math/"
 +++
 
 

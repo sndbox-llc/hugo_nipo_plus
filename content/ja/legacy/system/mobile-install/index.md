@@ -10,6 +10,7 @@ aliases = ["/legacy/system/android-install/", "/legacy/system/ios-install/", "/l
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/legacy/system/mobile-install/"
 +++
 
 

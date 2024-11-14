@@ -9,6 +9,7 @@ aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.1
+url = "/legacy/system/agree/"
 +++
 
 

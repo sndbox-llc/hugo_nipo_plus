@@ -9,6 +9,7 @@ aliases = ["/legacy/parts/picture/", '/old/parts/picture/']
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/legacy/parts/sign/"
 +++
 
 ## 署名入力フォーム{#signetureCanvas}

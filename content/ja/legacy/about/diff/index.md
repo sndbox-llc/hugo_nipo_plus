@@ -6,6 +6,7 @@ isNipo = true
 toc = true
 weight = 109000001
 aliases = ["/docs/system/diff/", "/docs/old/diff/"]
+url = "/legacy/about/diff/"
 +++
 
 {{<imgproc eye-catch.png "Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" >}}

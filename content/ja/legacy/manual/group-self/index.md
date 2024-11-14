@@ -9,6 +9,7 @@ aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/legacy/manual/group-self/"
 +++
 
 ## グループの中で自分にのみ影響する設定をする{#self}

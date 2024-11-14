@@ -9,6 +9,7 @@ aliases = ["/legacy/parts/zip/","/legacy/parts/timecard/"]
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/legacy/parts/dictionaly/"
 +++
 
 ## 語録入力{#dictionaly}

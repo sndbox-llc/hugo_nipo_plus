@@ -6,6 +6,7 @@ menuTitle = "無料プラン廃止のおしらせ"
 isNipo = true
 toc = true
 weight = 109000000
+url = "/legacy/about/warning/"
 +++
 
 

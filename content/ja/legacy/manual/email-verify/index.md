@@ -9,6 +9,7 @@ aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/legacy/manual/email-verify/"
 +++
 
 ## E-mailの役割はログインの他にもある非常に重要な情報です{#email}

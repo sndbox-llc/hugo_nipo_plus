@@ -9,6 +9,7 @@ aliases = ["/legacy/system/leave/"]
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/legacy/system/price/"
 +++
 
 {{<warning>}}

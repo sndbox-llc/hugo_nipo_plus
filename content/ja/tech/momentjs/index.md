@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.3
+url = "/tech/momentjs/"
 +++
 
 

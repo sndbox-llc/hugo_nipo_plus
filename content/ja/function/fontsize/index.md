@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/fontsize/"
 +++
 
 ## 文字の大きさを調整する

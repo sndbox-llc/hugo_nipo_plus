@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
+url = "/tech/asyncawaiterror/"
 +++
 
 ## async/awaitの見落としがちな落とし穴。try/catchしても呼び出し元でcatch出来ません{#tryAndCatch}

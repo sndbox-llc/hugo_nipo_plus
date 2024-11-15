@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/tech/ios-photo-rotate/"
 +++
 
 ## iPhoneで写真を日報に添付すると画像が回転してしまいます{#iphone_photo_rotation_issue}

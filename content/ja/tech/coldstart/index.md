@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
+url = "/tech/coldstart/"
 +++
 
 FirebaseのCloud Functionsは関数をクラウド上に配置できる便利な機能ですが、関数にアクセスが一定時間無いとコールドスリープに入ってしまいます。

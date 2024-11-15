@@ -9,6 +9,7 @@ images = ["icatch.png"]
 draft = false
 [sitemap]
   priority = 0.9
+url = "/excel/countif/"
 +++
 
 例えば次のようなエクセルシートがあったとします。特にE列に注目してください。

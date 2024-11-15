@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.4
+url = "/tech/elasticsearch/"
 +++
 
 NipoPlusのバックエンドはFirebaseを使用しています。アカウント管理やストレージ、Cloud Function、データベースなどアプリ開発に必要な機能の多くが予め用意されており、Firebaseだけである程度のサービスを割と簡単に作成することができます。

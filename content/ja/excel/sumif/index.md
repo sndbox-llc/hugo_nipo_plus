@@ -9,6 +9,7 @@ aliases = ["/tips/excel_sum/"]
 images = ["icatch.png"]
 [sitemap]
   priority = 0.9
+url = "/excel/sumif/"
 +++
 
 概要：

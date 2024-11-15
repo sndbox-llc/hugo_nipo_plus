@@ -8,6 +8,7 @@ date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"
   priority = 0.4
+url = "/tech/fulltext/"
 +++
 
 ## FireStoreで全文検索をする方法3種類を比較してみた{#hikaku}

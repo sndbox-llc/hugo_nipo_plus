@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/reportsearch/"
 +++
 
 ## 様々な条件の検索を使いこなそう

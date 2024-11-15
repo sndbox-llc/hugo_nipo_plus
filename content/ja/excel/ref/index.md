@@ -8,6 +8,7 @@ date = "2023-10-23"
 images = ["icatch.png"]
 [sitemap]
   priority = 0.9
+url = "/excel/ref/"
 +++
 
 エクセルを使う上で避けて通れない概念が「参照」です。

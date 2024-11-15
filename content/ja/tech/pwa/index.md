@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
+url = "/tech/pwa/"
 +++
 
 

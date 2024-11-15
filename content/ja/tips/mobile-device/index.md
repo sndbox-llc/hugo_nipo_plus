@@ -9,6 +9,7 @@ date = "2023-04-01"
 aliases = ["/blog/smartphone/", "/tips/smartphone/"]
 [sitemap]
   priority = 0.9
+url = "/tips/mobile-device/"
 +++
 
 

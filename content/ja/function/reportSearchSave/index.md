@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/reportsearchsave/"
 +++
 
 ## 煩雑な検索条件指定をバイパスしよう

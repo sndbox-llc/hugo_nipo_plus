@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/share/"
 +++
 
 ## グループ内の全員がレポートを読めるようにするには共有モードをONにします

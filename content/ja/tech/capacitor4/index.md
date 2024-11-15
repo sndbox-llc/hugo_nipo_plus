@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
+url = "/tech/capacitor4/"
 +++
 
 少し前からGoogle PlayStoreはAPI Level 31以上を必須としました。

@@ -9,6 +9,7 @@ tags = []
 date = "2023-05-14"
 [sitemap]
   priority = 0.9
+url = "/tips/required/"
 +++
 
 

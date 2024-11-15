@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.4
+url = "/tech/separate-files/"
 +++
 
 ## FirebaseにおけるCloud Functions{#about_cloud_functions}

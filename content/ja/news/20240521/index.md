@@ -8,6 +8,7 @@ images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6
+url = "/news/20240521/"
 +++
 
 ## SPALOのサービス終了・移行先にNipoPlusが利用可能{#spalo_migration}

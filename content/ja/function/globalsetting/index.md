@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/globalsetting/"
 +++
 
 ## 組織設定が表示可能なのは管理者のみ

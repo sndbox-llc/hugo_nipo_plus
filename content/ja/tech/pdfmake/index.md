@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.7
+url = "/tech/pdfmake/"
 +++
 
 [pdfMake](https://github.com/bpampuch/pdfmake)はフロント側でPDFが簡単に作れるJavaScriptです。

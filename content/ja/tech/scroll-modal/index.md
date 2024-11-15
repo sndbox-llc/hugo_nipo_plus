@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
+url = "/tech/scroll-modal/"
 +++
 
 ## Modalを使うとwindow.scrollでは動かない原因と解決策{#window_scroll_not_working}

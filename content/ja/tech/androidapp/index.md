@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
+url = "/tech/androidapp/"
 +++
 
 NipoPlusは[Quasar Framework](https://quasar.dev/)を使用してWebアプリ、Androidアプリ、iOSアプリの3つに変換してそれぞれにリリースを行っています。

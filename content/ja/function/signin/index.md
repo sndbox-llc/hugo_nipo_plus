@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/signin/"
 +++
 
 ## NipoPlusを始めて利用する場合はアカウントを作成します

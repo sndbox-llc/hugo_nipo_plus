@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/language/"
 +++
 
 ## 日本語・英語から選択します

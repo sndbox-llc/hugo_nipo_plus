@@ -8,6 +8,7 @@ date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
+url ="/tech/hhkb/"
 +++
 
 {{<imgproc hhkb.webp "HHKB外観" >}}

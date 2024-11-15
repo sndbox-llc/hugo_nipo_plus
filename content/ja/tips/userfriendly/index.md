@@ -10,6 +10,7 @@ aliases = ["/tips/template/", "/tips/maker/"]
 date = "2023-04-01"
 [sitemap]
   priority = 0.9
+url = "/tips/userfriendly/"
 +++
 
 

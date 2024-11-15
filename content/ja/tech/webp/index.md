@@ -8,6 +8,7 @@ date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"
   priority = 0.7
+url = "/tech/webp/"
 +++
 
 4G通信から5G通信へ通信技術が進んでも絶対に変わらないことは「重いより軽いほうが良い」という点です。
@@ -85,7 +86,7 @@ WebPとPngの逆転現象は色情報が32色以下だと高確率で見かけ�
 左側が元画像（Png）で、右がWebPです。ファイルサイズは19%重くなるという結果でした。
 つまりわざわざWebPに変換することで重くなってしまうわけです。
 
-## ## それでもWebPは強いので適材適所で使っていきたい{#webp_is_powerful_and_should_be_used_appropriately}
+## それでもWebPは強いので適材適所で使っていきたい{#webp_is_powerful_and_should_be_used_appropriately}
 
 
 本Webサイトはアプリケーションの操作マニュアルの画像がかなり多くを占めているので、いっそのことWebPを廃止した方が全体的に軽量化できる可能性もあります。

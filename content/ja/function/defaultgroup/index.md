@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/defaultgroup/"
 +++
 
 ## 起動時に最初にロードされるグループの指定

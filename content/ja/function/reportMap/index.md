@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/reportmap/"
 +++
 
 ## 提出状況を一覧表にすれば提出漏れも瞬時にわかります

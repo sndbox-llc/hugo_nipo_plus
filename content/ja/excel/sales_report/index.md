@@ -9,6 +9,7 @@ date = "2023-04-01"
 aliases = ["/blog/sales_report/", "/tips/sales_report/"]
 [sitemap]
   priority = 0.9
+url = "/excel/sales_report/"
 +++
 
 <dl class='faq'>

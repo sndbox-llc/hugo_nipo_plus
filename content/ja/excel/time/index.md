@@ -6,9 +6,9 @@ toc = true
 tags = ["エクセル",  "集計"]
 date = "2023-10-26"
 images = ["icatch.png"]
-
 [sitemap]
   priority = 0.9
+url = "/excel/time/"
 +++
 
 作業ごとにかかった時間を日報に書くとき、その作業日報を１枚のエクセルにまとめると以下のような表になります。

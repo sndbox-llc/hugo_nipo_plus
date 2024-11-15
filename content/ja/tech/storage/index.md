@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.3
+url = "/tech/storage/"
 +++
 
 Cloud FunctionsからPDFやZipなどのファイルを作成し、ダウンロードURLをフロントに返却するといった処理を実装したときに、次のようなエラーを受けました。

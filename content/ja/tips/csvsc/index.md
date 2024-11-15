@@ -9,6 +9,7 @@ aliases = ["/blog/csvsc/"]
 code = true
 [sitemap]
   priority = 0.9
+url = "/tips/csvsc/"
 +++
 
 

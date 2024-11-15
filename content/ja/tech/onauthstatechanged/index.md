@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/tech/onauthstatechanged/"
 +++
 
 NipoPlusのバックエンドはFirebaseを使用しています。Firebaseではアカウントのログイン状態が変化するとonAuthStateChangedというオブザーバが変化を検知し、所定の動作を行います。

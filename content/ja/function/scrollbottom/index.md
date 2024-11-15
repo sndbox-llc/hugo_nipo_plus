@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/scrollbottom/"
 +++
 
 ## レポートが長い場合は一気に提出ボタンまでスクロールするボタンを配置できます

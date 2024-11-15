@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.2
+url = "/tech/vuefilter/"
 +++
 
 Nipo【旧版】はVue2で作成されたWebシステムですが、今回Vueが3にバージョンアップしたことに追従し、NipoのソースコードもVue3へ書き換え中です。

@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/reportrange/"
 +++
 
 ## カレンダーを操作して任意の期間の日報を検索する

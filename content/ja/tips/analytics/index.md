@@ -8,6 +8,7 @@ date = "2023-06-15"
 aliases = ["/legacy/manual/analytics/"]
 [sitemap]
   priority = 0.9
+url = "/tips/analytics/"
 +++
 
 

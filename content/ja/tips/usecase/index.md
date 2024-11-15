@@ -10,6 +10,7 @@ date = "2024-09-30"
 aliases = ["/tips/taxi/"]
 [sitemap]
   priority = 0.9
+url = "/tips/usecase/"
 +++
 
 

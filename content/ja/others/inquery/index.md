@@ -9,6 +9,7 @@ images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.3
+url = "/others/inquery/"
 +++
 
 

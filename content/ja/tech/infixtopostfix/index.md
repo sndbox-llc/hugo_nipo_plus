@@ -9,6 +9,7 @@ code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5
+url = "/tech/infixtopostfix/"
 +++
 
 NipoPlusに演算機能を実装する必要があり、色々調べたところ「逆ポーランド記法」という方法が電卓の実装として最も良さそうだったので作ってみました。

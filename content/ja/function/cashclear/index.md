@@ -9,6 +9,7 @@ code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3
+url = "/function/cashclear/"
 +++
 
 ## テンプレートが反映されない場合など、不具合があったときはキャッシュをクリアしてください

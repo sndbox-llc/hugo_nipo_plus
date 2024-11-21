@@ -120,12 +120,14 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 
 例えばPDF出力の向きを縦にした場合と横にした場合の比較です
 
-{{<imgproc pdf_sample3.png "PDF設定で縦と横にした場合の比較" >}}
+{{<figure src="pdf_sample3.png"  alt="PDF設定で縦と横にした場合の比較" caption="PDF設定で縦と横にした場合の比較" >}}
+
 
 新レイアウトは従来に比べてスッキリとした見た目になります。
 また、表示されるデータ自体も情報量が増えました（例えば[スライダー](/legacy/parts/slide/)入力における大まかな位置などが #と-で表現）
 
-{{<imgproc pdf_sample4.png "新レイアウトのPDF出力例" >}}
+{{<figure src="pdf_sample4.png"  alt="新レイアウトのPDF出力例" caption="新レイアウトのPDF出力例" >}}
+
 
 ## 無料プランにおけるPDF出力の制約{#limited}
 

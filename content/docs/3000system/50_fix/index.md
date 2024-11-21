@@ -37,12 +37,15 @@ F5キーや更新ボタンではなく**必ずタブを閉じて**ください�
 1. 登録解除をクリック（SkipWaitingがあればそちらでも可）
 1. 再起動する（リロードでOK）
 
-{{<imgproc sv-rm.png "通称ホワイトスクリーンデス。画面が真っ白になる" >}}
+
+{{<figure src="sv-rm.png"  alt="通称ホワイトスクリーンデス。画面が真っ白になる" caption="通称ホワイトスクリーンデス。画面が真っ白になる" >}}
+
 
 
 Skip waitingが表示されるときは次のように見えます。Skipwaitingがある場合は登録解除のかわりにこのボタンでも復旧可能です。
 
-{{<imgproc skip_waiting.png "Skip waiting" >}}
+{{<figure src="skip_waiting.png"  alt="Skip waiting" caption="Skip waiting" >}}
+
 
 スマホ版で同様の事象が発生したときはアプリを一度強制終了して再起動してください。
 
@@ -105,7 +108,8 @@ NipoPlusのキャッシュをクリアすることで動作が回復すること
 
 画面下部に検証パネルが表示されました。アプリケーション＞ストレージ＞サイトデータを消去の順にクリックします。
 
-{{<imgproc console.png "検証パネル画面" >}}
+{{<figure src="console.png"  alt="検証パネル画面" caption="検証パネル画面" >}}
+
 
 このパネルで消去されるのはNipoPlusの一時データだけで、日報やコメントなど重要なデータは削除されませんのでご安心ください。
 

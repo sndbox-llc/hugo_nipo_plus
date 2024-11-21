@@ -59,7 +59,8 @@ Firebaseを使い始めて5年ほどが経過します。これまでの間に�
 復元したい時点のFirestoreスナップショットをBucketにコピーします。
 GCPにログインし、適当なBucketを作っておきましょう。
 
-{{<imgproc createBuket.png "GCPにログインして一時保管用のバケットを作っておきます。バケット名はあとから使うので名前を控えておきます" >}}
+{{<figure src="createBuket.png"  alt="GCPにログインして一時保管用のバケットを作っておきます。バケット名はあとから使うので名前を控えておきます" caption="GCPにログインして一時保管用のバケットを作っておきます。バケット名はあとから使うので名前を控えておきます" >}}
+
 
 ここではバケット名を nipoplus_tmp とします。バケット名はあとから使うので忘れずにメモして下さい。
 
@@ -81,12 +82,14 @@ gcloud alpha firestore export gs://[バケット名] --snapshot-time=[復元し�
 gcloud alpha firestore export gs://nipoplus_tmp --snapshot-time=2023-10-31T10:20:00.00Z
 ```
 
-{{<imgproc input_terminal.png "GCPからターミナルを起動させて復元させたい時点のSnapshotを取得しバケットに書き込みます" >}}
+{{<figure src="input_terminal.png"  alt="GCPからターミナルを起動させて復元させたい時点のSnapshotを取得しバケットに書き込みます" caption="GCPからターミナルを起動させて復元させたい時点のSnapshotを取得しバケットに書き込みます" >}}
+
 
 
 バックアップが作成されるとバケット上に追加されます。確認しておきましょう。
 
-{{<imgproc check_file.png "バケットを確認すると先ほど取得したファイルが存在しています。" >}}
+{{<figure src="check_file.png"  alt="バケットを確認すると先ほど取得したファイルが存在しています。" caption="バケットを確認すると先ほど取得したファイルが存在しています。" >}}
+
 
 バケット内に作成されたファイル名は後に使用するので、パスを含めてファイル名を控えておきます。
 
@@ -114,7 +117,8 @@ DB名は一度使うと数週間使用できなくなるとのことですので
 
 作成してから画面をリロードし、Firestoreをひらくと追加したDBがリストに増えていることが確認できます。
 
-{{<imgproc firestore_list.png "Firestoreに切り替えて一覧に先程作ったFirestoreが追加されていることを確認してください。反映されない場合はリロードします" >}}
+{{<figure src="firestore_list.png"  alt="Firestoreに切り替えて一覧に先程作ったFirestoreが追加されていることを確認してください。反映されない場合はリロードします" caption="Firestoreに切り替えて一覧に先程作ったFirestoreが追加されていることを確認してください。反映されない場合はリロードします" >}}
+
 
 
 これまで控えてきた名前を使います。今一度確認してみましょう。

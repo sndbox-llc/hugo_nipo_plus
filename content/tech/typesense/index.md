@@ -41,7 +41,8 @@ Typesenseの情報自体はまだまだ少ないです。日本語によるTypes
 気になる料金ですが、自前でサーバを用意できる場合はそのサーバ費用のみです。サーバを用意するのが大変な場合は、Typesense Cloudを使うこともできます。
 [Typesense Cloud](https://cloud.typesense.org/)の料金は使用するメモリ量やCPU、リージョンによって変わりますが、最小構成で、リージョンを「ムンバイ」にすると月額費用はたったの7.2ドルです。
 
-{{<imgproc typesense_price.png "TypesenseCloudの料金はリージョンによっても金額が変わります。ムンバイは特にリーズナブルな価格で提供されています" >}}
+{{<figure src="typesense_price.png"  alt="TypesenseCloudの料金はリージョンによっても金額が変わります。ムンバイは特にリーズナブルな価格で提供されています" caption="TypesenseCloudの料金はリージョンによっても金額が変わります。ムンバイは特にリーズナブルな価格で提供されています" >}}
+
 
 メモリが0.5GBは実運用では足りないと思いますが、ちょっと使ってみるにはお手軽です。多少遅くても、Algoliaよりずっと安価で導入できるのは魅力的ですね。（データ0件ならAlgoliaのほうが安いですが・・・）
 
@@ -118,7 +119,8 @@ export function makeBigram (dutyVal: string): string {
 こんな関数を用意してあげて、FireStoreのデータ変更を検知したらBigram化させ、Typesenseに書き込みします。
 Typesenseへの書き込みなんかは、公式サイトの[データ書き込み](https://typesense.org/docs/0.21.0/api/documents.html#index-a-document)を御覧ください。
 
-{{<imgproc typesense_price.png "Typesenseのコンソールから保存されたデータをGUIで確認できます。" >}}
+{{<figure src="typesense_price.png"  alt="Typesenseのコンソールから保存されたデータをGUIで確認できます。" caption="Typesenseのコンソールから保存されたデータをGUIで確認できます。" >}}
+
 
 実際に書き込まれた内容はTypesenseの管理コンソールからも確認できます。GUIで見れるのは嬉しいですね。
 そして検索するときも、検索キーワードをバイグラムに変換して検索することで、目的のデータを引っ張ってくることが可能です。
@@ -244,11 +246,14 @@ TypeScriptに対応したV1.0.0で初期化の引数型似バグがあり、[Iss
 実際に使ってみて、非常に良い製品だと思います。スキーマを定義することで様々なキーでソートが可能になるため、NoSQLの弱点を少し払拭してきた印象です。SQLを書かずともそれっぽい検索が可能なデータベースであり、用途によってはAlgliaより有益な製品になるでしょう。これ以上、より細かい並べ替えが必要なら素直にRMDBを使いなさいってことだと思います。
 現在、Nipoの日報検索はTypeSenseが使われています。
 
-{{<imgproc typesense_search.png "Nipoで日報を検索する画面" >}}
+{{<figure src="typesense_search.png"  alt="Nipoで日報を検索する画面" caption="Nipoで日報を検索する画面" >}}
+
 
 実際にTypesenseのサーバから帰ってくる値はこんな感じです
 
-{{<imgproc typesense_result.png "Nipoで日報を検索する画面" >}}
+
+{{<figure src="typesense_result.png"  alt="検索結果の画面" caption="検索結果の画面" >}}
+
 
 NipoではBi-gramではなくUni-gramで分解しています。つまり1文字づつ分解します。
 数字なんかは分解するとノイズが酷いため、数字は1つのブロックとして分解しないようにしています。

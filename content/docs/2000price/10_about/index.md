@@ -32,15 +32,7 @@ classDef class1 fill:#7BCCAC
   無料プランへ--> 有料プランへ加入:::class1
 
 ```
-<!--
-{{<mermaid align="center">}}
-graph LR;
-classDef class1 fill:#7BCCAC
-  利用開始 --> トライアル期間 --> 満了 -->  無料プランへ
-  無料プランへ--> 無料で継続利用:::class1
-  無料プランへ--> 有料プランへ加入:::class1
-{{< /mermaid >}}
- -->
+
 
 ## 現在のプランを確認する{#current_plan}
 

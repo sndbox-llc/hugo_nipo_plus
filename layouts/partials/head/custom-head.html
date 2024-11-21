@@ -1,1 +1,14 @@
 <!-- Custom head -->
+
+<!-- GTAG -->
+{{ partial "custom/gtagHead" . }}
+<!-- アプリロゴ -->
+{{ partial "custom/logo-json" . }}
+
+{{ if $.Params.isNipo -}}
+  <!-- isNipo = true の場合、old.pngを使用 -->
+  <meta property="og:image" content="{{ "/images/ogp_old.png" | absURL }}">
+{{ else -}}
+<meta property="og:image" content="{{ "/images/ogp.png" | absURL }}">
+{{ end -}}
+

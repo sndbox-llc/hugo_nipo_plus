@@ -1,34 +1,18 @@
 <footer class="footer text-muted">
-  <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
+  <div class="container-{{ site.Params.doks.containerBreakpoint | default "lg" }}">
     <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
+      <div class="col-lg-8 text-center text-lg-start">
         <ul class="list-inline">
-          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
+          {{ range .Site.Menus.footer -}}
+            <li class="list-inline-item"><a class="text-muted" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{- end }}
         </ul>
       </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
-          開発運営:<a class="text-muted" href="https://sndbox.jp/">合同会社サンドボックス</a> / 協力: <a class="text-muted" href="https://pandafirm.jp/">パンダ商会</a>
+      <div class="col-lg-8 text-center text-lg-end">
+        <ul class="list-inline">
+          <li class="list-inline-item">{{ site.Params.footer | safeHTML }}</li>
+        </ul>
       </div>
     </div>
   </div>
-
 </footer>
-
-
-{{ partial "custom/software-json.html" . }}
-
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "NipoPlus Official Manual",
-    "url": "https://nipo-plus-doc.sndbox.jp/",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://nipo-plus-doc.sndbox.jp/"
-    },
-    "sameAs": "https://nipoplus.sndbox.jp/",
-    "relatedLink": "https://nipoplus.sndbox.jp/"
-  }
-</script>
-  

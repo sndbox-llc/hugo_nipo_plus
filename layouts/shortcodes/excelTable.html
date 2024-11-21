@@ -1,25 +1,32 @@
 <div class="excelTable">
   <table>
-      <thead>
-          <tr>
-              <th>-</th>
-              {{ $firstRow := index (split (strings.Trim .Inner "\n ") "\n") 0 }}
-              {{ $numColumns := len (split $firstRow ", ") }}
-              {{ range seq 65 (add 64 $numColumns) }}
-              <th>{{ . | printf "%c" }}</th>
-              {{ end }}
-          </tr>
-      </thead>
+    <thead>
+      <tr>
+        <th>-</th>
+        {{ $firstRow := index (split (strings.Trim .Inner "\n") "\n") 0 }}
+        {{ $numColumns := len (split $firstRow ",") }}
+        {{ range seq 65 (add 64 $numColumns) }}
+        <th>{{ . | printf "%c" }}</th>
+        {{ end }}
+      </tr>
+    </thead>
       <tbody>
-          {{ $rows := split (strings.Trim .Inner "\n ") "\n" }}
-          {{ range $index, $row := $rows }}
-          <tr>
-              <td>{{ add $index 1 }}</td>
-              {{ range $cell := split $row ", " }}
-              <td>{{ $cell }}</td>
-              {{ end }}
-          </tr>
+        {{ $rows := split (strings.Trim .Inner "\n") "\n" }}
+        {{ range $index, $row := $rows }}
+        <tr>
+          <td>{{ add $index 1 }}</td> <!-- 行番号を表示 -->
+          {{ $cells := split $row "," }}
+          {{ range seq 0 (sub $numColumns 1) }}
+          <td>
+            {{ if lt . (len $cells) }}
+              {{ index $cells . | default "" }}
+            {{ else }}
+              <!-- 空欄セルを補完 -->
+            {{ end }}
+          </td>
           {{ end }}
+        </tr>
+        {{ end }}
       </tbody>
   </table>
 </div>

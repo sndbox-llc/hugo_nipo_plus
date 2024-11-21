@@ -4,17 +4,17 @@ dl.basic {
   border: none;
   display: flex;
   flex-wrap: wrap;
-  
+
   dt {
-    background-color: aliceblue;
+    // background-color: aliceblue;
     font-size: 16px;
     width: 200px;
   }
-  
+
   dd, p {
     width: calc(100% - 200px);
   }
-  
+
   dt, dd, p {
     margin: 0;
     padding: 0;
@@ -25,26 +25,24 @@ dl.basic {
 
   /* リンクを強調 */
   dt a, dd a {
-    color: #007bff; /* リンク色を変更 */
     text-decoration: underline;
     font-weight: bold; /* 太字にして強調 */
   }
 
   dt a:hover, dd a:hover {
-    color: #0056b3; /* ホバー時の色を変更 */
     text-decoration: none; /* ホバー時に下線を消す */
   }
-  
+
   @media screen and (max-width: 750px) {
     width: 100%;
     border-left: none;
     display: block;
-    
+
     dt, p {
       border-bottom: none;
       padding-bottom: 0;
     }
-    
+
     dt, dd, p {
       border-right: none;
       width: 100%;
@@ -121,7 +119,6 @@ dl.faq {
 
   a {
     font-weight: bold;
-    color: blue;
     text-decoration: none;
 
     &:hover {

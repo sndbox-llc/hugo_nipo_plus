@@ -1,15 +1,17 @@
-body{
-  overflow-x: hidden;
-}
-.container-xxl {
-  max-width: 2000px;
-}
+
 h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 3rem;
   color: $baseColor;
 }
+h2 {
+  color: $accentColor;
+}
+h3 {
+  color: $subColor;
+}
+h4 {
+  color: $h4Color;
+}
+
 /* h2-h6のページ内リンクズレ修正用スタイル */
 @mixin heading-style {
   font-weight: bold;
@@ -31,193 +33,56 @@ h1 {
     @include heading-style;
   }
 }
-
-h2 {
-  color: $accentColor;
-  font-size: 2rem;
-  margin-top: 50px
-}
-
-h3 {
-  color: $subColor;
-  font-size: 1.8rem;
-  margin: 3rem 0 1rem;
-}
-
-h4 {
-  color: $h4Color;
-  font-size: 1.6rem;
-  margin: 2rem 0 1rem;
-}
-
-h5 {
-  font-size: 1.4rem;
-  margin: 1.5rem 0 1rem;
-}
-
-h6 {
-  font-size: 1.2rem;
-  margin: 1rem 0 1rem;
-  padding-top: 40px;
-}
-.accentColor {
-  color: $accentColor;
-}
-
+/** 強調表示 アンダーバーを引く */
 strong {
-  color: black;
+  // color: black;
   font-weight: 900;
   background:linear-gradient(transparent 60%, orange 60%);
 }
-
-@media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 2rem;
+/** 段落内のリンクを強調 */
+p {
+  font-size: 1.1em;
+  a {
+    font-weight: bold;
   }
-  h2 {
-    font-size: 1.5rem;
-  }
-  h3 {
-    font-size: 1.3rem;
-  }
-
 }
-
-p  {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  margin-bottom: 2rem;
+/** 引用クラス */
+blockquote {
+  position: relative;
+  padding: 1em 2em;
+  margin: 1.5em 0;
+  border-left: 4px solid #6c757d;
+  &::before {
+    content: "\201C";
+    font-size: 3em;
+    position: absolute;
+    top: 0.2em;
+    left: 0.2em;
+    // color: #6c757d;
+    opacity: 0.6;
+  }
+  p {
+    margin: 0;
+    padding-top: 0.5em;
+  }
 }
+/** 料金テーブル */
 .priceBoard {
   font-size: 3rem;
   font-weight: bold;
-  color: $baseColor;
-  margin-top: 1em;
 }
-#TableOfContents .active {
-  background-color: powderblue;
-}
+
 /*パンくずリスト下の下線 */
 .breadcrumb {
   border-bottom: 1px dashed purple;
 }
-/* Top Navi 背景*/
-.navBarBackgroundColor {
-  background-color: $lightColor;
-}
-.svgLineColor {
-  fill: $baseColor;
-}
-/* Algolia検索結果のハイライト */
-#app em {
-  color: red;
-  background-color: yellow;
-}
 
-/*番号付きリスト */
-.mainContent ol {
-  counter-reset: list;
-  list-style-type: none;
-  padding: 0;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  li {
-    position: relative;
-    line-height: 30px;
-    margin: 7px 0 7px 40px;
-    padding-left: 10px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    &::before {
-      counter-increment: list;
-      content: counter(list);
-      position: absolute;
-      left: -35px;
-      width: 30px;
-      height: 30px;
-      background: $subColor;
-      text-align: center;
-      color: #fff;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
-}
-
-/* 番号なしリスト */
-/* 番号なしリスト */
-.mainContent ul {
-  list-style-type: none;
-  padding: 0;
-
-  li {
-    position: relative;
-    line-height: 30px;
-    margin: 7px 0 7px 40px;
-    padding-left: 10px;
-    font-weight: bold;
-    font-size: 1.1rem;
-
-    &::before {
-      counter-increment: list;
-      content: "▶"; /* 独自のマーカーを追加 */
-      position: absolute;
-      left: -35px;
-      width: 25px;
-      height: 30px;
-      background: $subColor;
-      text-align: center;
-      color: #fff;
-      top: 0; /* リスト項目の先頭に配置 */
-      transform: translateY(0); /* トランスフォームをリセット */
-    }
-  }
-}
-
-/* Excel風の見た目をしたTable */
-.excelTable {
-  max-width: 100%;
-  overflow-x: auto; /* 横スクロールを有効化 */
-  table {
-    border-collapse: collapse;
-    width: auto; /* テーブルの幅を内容に合わせる */
-  }
-  th, td {
-    border: 1px solid #ccc;
-    padding: 8px 12px; /* セルの内部余白を設定 */
-    white-space: nowrap; /* セルの内容を改行しない */
-  }
-  tr:first-child th {
-    background-color: #000;
-    color: white;
-  }
-  td:first-child, th:first-child {
-    background-color: #000; /* 1列目の背景色を黒に設定 */
-    color: white;
-    width: 50px; /* 1列目の幅を固定 */
-  }
-}
-
-
-.docs-link.active {
-  background-color: powderblue;
-}
-.docs-link.active:hover {
-  background-color: powderblue;
-}
-.pageCards:hover {
-  background-color: $lightColor;
-}
-.docs-content {
-  max-width: 2200px;
-}
 
 /* リード */
 .myLead {
   position: relative;
   border: solid 1px $baseColor;
   border-radius: 5px;
-  background-color: $veryLightColor;
   margin-bottom: 40px;
 
   &__label {
@@ -227,7 +92,6 @@ p  {
     font-weight: 600;
     padding: 0 10px;  // paddingを左右にいれて消す線の長さを延ばす
     transform: translateY(-50%);
-
     &::before {
       position: absolute;
       z-index: -1;  // 何もしないと線が上に来ていたので-1して後ろに回り込ませる
@@ -235,11 +99,9 @@ p  {
       bottom: 50%;  // top: 50%だと1pxずれていたのでbottomから計算する
       width: 100%;  // 親要素の幅を参照するため必ず文字分は消せる
       height: 1px;
-      background-color: #fff;
       content: '';
     }
   }
-
   &__content {
     padding: 20px;
   }
@@ -297,112 +159,11 @@ p  {
       font-size: 1.2em;
 
     }
-  
-  }
-}
 
-.noUnderline:hover {
-  text-decoration: none;
-
-}
-
-blockquote {
-  position: relative;
-  padding: 1em 2em; 
-  margin: 1.5em 0;
-  border-left: 4px solid #6c757d; 
-  background-color: #f7f8fa; 
-
-  &::before {
-    content: "\201C"; 
-    font-size: 3em;
-    position: absolute;
-    top: 0.2em; 
-    left: 0.2em;
-    color: #6c757d; 
-    opacity: 0.6;
-  }
-
-  p {
-    margin: 0;
-    padding-top: 0.5em; 
-  }
-}
-
-.offcanvas {
-  transition: none !important;
-}
-
-.offcanvas.show {
-  transform: none !important;
-}
-
-.tableWrapper {
-  overflow-x: auto;
-
-}
-
-.tableWrapper table {
-  min-width: 768px; /* 例として、768pxを設定 */
-}
-p {
-  a {
-    font-weight: bold;
-    color: #4843b0;
-  }
-}
-
-.playBtn {
-  background-color: transparent;
-  color: red; 
-  border: 2px solid red; /* 枠線を赤色に設定 */
-  border-radius: 10px; /* 角の丸みを指定 */
-  font-size: 14px; /* 文字のサイズを指定 */
-  padding: 10px 20px; /* 上下のパディングを10px、左右のパディングを20pxに設定 */
-  cursor: pointer; /* マウスカーソルをポインターに設定 */
-  outline: none; /* フォーカス時のアウトラインを無くす */
-}
-
-figcaption.small {
-  color: cadetblue;font-size:12px;text-align:right;margin-right:50px;
-}
-
-details {
-  border: 1px solid #aaa;
-  border-radius: 4px;
-  padding: 0.5em 0.5em 0;
-}
-
-summary {
-  font-weight: bold;
-  margin: -0.5em -0.5em 0;
-  padding: 0.5em;
-}
-
-details[open] {
-  padding: 0.5em;
-}
-
-details[open] summary {
-  border-bottom: 1px solid #aaa;
-  margin-bottom: 0.5em;
-}
-
-
-
-.tableWrapFper {
-  overflow-x: auto;
-  width: 100%; /* 必要に応じて調整 */
-  td {
-    white-space: nowrap; /* テキストの折り返しを防ぐ */
   }
 }
 
 .rootMainText p {
   font-size: 1.3em;
-}
-.custom-container {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 

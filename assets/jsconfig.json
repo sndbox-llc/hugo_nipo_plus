@@ -1,10 +1,8 @@
 {
- "compilerOptions": {
-  "baseUrl": ".",
-  "paths": {
-   "*": [
-    "../node_modules/mermaid/*"
-   ]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "..\\node_modules\\@thulite\\doks-core\\assets\\*"]
+    }
   }
- }
 }

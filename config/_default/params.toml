@@ -1,117 +1,138 @@
-# Meta Data for SEO
-
-## Homepage
+# Hugo
 title = "NipoPlus"
-titleSeparator = "|"
-titleAddition = "ノーコードで日報をアプリ化"
 description = "NipoPlus(ニポプラス)はスマホやタブレットで日報の読み書きが可能です。無料プランもあり。PDF出力や集計機能も完備しています"
+images = ["cover.png"]
 
-BookDateFormat = "2006年01月02日"
-## Documentation
-# docsVersion = "0.3"
+# mainSections
+mainSections = ["docs"]
 
-## Open Graph
-images = ["/images/ogp.png"]
-ogLocale = "ja_JP"
-domainTLD = "nipo-plus-doc.sndbox.jp"
-titleHome = "NipoPlus"
+[social]
+  twitter = "getdoks"
 
-## Twitter Cards
-twitterSite = "@nipo_plus"
-twitterCreator = "@nipo_plus"
+# Doks (@thulite/doks-core)
+[doks]
+  # Color mode
+  colorMode = "auto" # auto (default), light or dark
+  colorModeToggler = true # true (default) or false (this setting is only relevant when colorMode = auto)
 
-## JSON-LD
-schemaType = "Organization"
-schemaName = "NipoPlus"
-schemaAuthor = "NipoPlus"
-schemaAuthorTwitter = "https://twitter.com/nipo_plus"
-schemaAuthorGitHub = "https://github.com/sandbox-co-ltd"
-schemaLocale = "ja-JP"
-schemaLogo = "/images/nipoplus.png"
-schemaLogoWidth = 512
-schemaLogoHeight = 512
-schemaImage = "/images/banner.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/nipo_plus"
-schemaLinkedIn = ""
-schemaGitHub = "https://github.com/sandbox-co-ltd"
-schemaSection = "blog"
+  # Navbar
+  navbarSticky = true # true (default) or false
+  containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
 
-## Sitelinks Search Box
-siteLinksSearchBox = false
+  ## Button
+  navBarButton = false # false (default) or true
+  navBarButtonUrl = "/docs/prologue/introduction/"
+  navBarButtonText = "詳細を見る"
 
-## Chrome Browser
-themeColor = "#fff"
+  # FlexSearch
+  flexSearch = false # true (default) or false
+  searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
+  searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
+  showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
+  indexSummary = false # true or false (default); whether to index only the `.Summary` instead of the full `.Content`; limits the respective JSON field size and thus increases loading time
 
-# Images - Temporarily left in place for backward compatibility
-quality = 85
-bgColor = "#fff"
-landscapePhotoWidths = [900, 800, 700, 600, 500]
-portraitPhotoWidths = [800, 700, 600, 500]
-lqipWidth = "20x"
-smallLimit = "300"
+  ## Search results
+  showDate = false # false (default) or true
+  showSummary = true # true (default) or false
+  searchLimit = 99 # 0 (no limit, default) or natural number
 
-# Images
-imageResponsive = true
-imageConvertTo = "webp"
-imageImageSizes = ["480","720","1080","1280","1600","2048"]
-singleSize = false
-imageAddClass = "img-fluid lazyload blur-up"
+  # Global alert
+  alert = false # false (default) or true
+  alertDismissable = true # true (default) or false
 
-### Image template
-defaultImage = "default-image.png" # put in `./assets/images/`
-fillImage = "1270x740 Center" # normalize image size
+  # Bootstrap
+  bootstrapJavascript = true # false (default) or true
 
-[iCatch]
-  excel = 'assets/images/excel.png'
-  tips = 'assets/images/excel.png'
-  factory = 'assets/images/factory.png'
+  # Nav
+  sectionNav = ["docs", "legacy"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
+  toTopButton = true # false (default) or true
+  breadcrumbTrail = true # false (default) or true
+  headlineHash = true # true (default) or false
+  scrollSpy = true # true (default) or false
 
-# Footer
-footer = "合同会社サンドボックス"
+  # Multilingual
+  multilingualMode = false # false (default) or true
+  showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
-# Feed
-copyRight = "Copyright (c) Sndbox LLC"
+  # Versioning
+  docsVersioning = false # false (default) or true
+  docsVersion = "1.0"
 
-# Alert
-alert = true
-alertDismissable = true
-alertText = "w"
+  # UX
+  headerBar = false # true (default) or false
+  backgroundDots = true # true (default) or false
 
-# Edit Page
-# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
-repoHost = "GitHub"
-docsRepo = "https://github.com/sandbox-co-ltd/hugo_nipo_plus"
-docsRepoBranch = "master"
-docsRepoSubPath = ""
-editPage = false
-lastMod = true
-editBaseURL = "https://github.com/sandbox-co-ltd/hugo_nipo_plus/edit/main/content/ja/"
+  # Homepage
+  sectionFooter = false # false (default) or true
 
-[sections]
-  sectionNav = ["docs"]
+  # Blog
+  relatedPosts = false # false (default) or true
+  imageList = true # true (default) or false
+  imageSingle = true # true (default) or false
 
-[options]
-  lazySizes = true
-  clipBoard = true
-  instantPage = true
-  flexSearch = false
-  searchSectionsShow = []
-  searchSectionsIndex = []
-  darkMode = false
-  bootStrapJs = true
-  breadCrumb = true
-  # highLight = false
-  kaTex = false
-  multilingualMode = false
-  docsVersioning = false
-  fullWidth = true
-  navbarSticky = true
-  toTopButton = false
-  scrollSpy = false
+  # Repository
+  editPage = false # false (default) or true
+  lastMod = false # false (default) or true
+  repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
+  docsRepo = "https://github.com/sandbox-co-ltd/hugo_nipo_plus"
+  docsRepoBranch = "master" # main (default), master, or <branch name>
+  docsRepoSubPath = "" # "" (none, default) or <sub path>
 
-[menu]
-  [menu.section]
-    auto = true
-    collapsibleSidebar = true
+  # SCSS colors
+  # backGround = "yellowgreen"
+  ## Dark theme
+  # textDark = "#dee2e6" # "#dee2e6" (default), "#dee2e6" (orignal), or custom color
+  # accentDark = "#5d2f86" # "#5d2f86" (default), "#5d2f86" (original), or custom color
+  ## Light theme
+  # textLight = "#1d2d35" # "#1d2d35" (default), "#1d2d35" (orignal), or custom color
+  # accentLight = "#8ed6fb" # "#8ed6fb" (default), "#8ed6fb" (orignal), or custom color
+
+  # [doks.menu]
+  #   [doks.menu.section]
+  #     auto = true # true (default) or false
+  #     collapsibleSidebar = true # true (default) or false
+
+# Debug
+[render_hooks.image]
+  errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
+
+[render_hooks.link]
+  errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
+  highlightBroken = false # true or false (default)
+
+# Images (@thulite/images)
+[thulite_images]
+  [thulite_images.defaults]
+    decoding = "async" # sync, async, or auto (default)
+    fetchpriority = "auto" # high, low, or auto (default)
+    loading = "lazy" # eager or lazy (default)
+    widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
+    sizes = "auto" # 100vw (default), 75vw, or auto for example
+    process = "" # "fill 1600x900" or "fill 2100x900" for example
+    lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
+
+# Inline SVG (@thulite/inline-svg)
+[inline_svg]
+  iconSetDir = "tabler-icons" # "tabler-icons" (default)
+
+# SEO (@thulite/seo)
+[seo]
+  [seo.title]
+    separator = " | "
+    suffix = ""
+  [seo.favicons]
+    sizes = []
+    icon = "favicon.png" # favicon.png (default)
+    svgIcon = "favicon.svg" # favicon.svg (default)
+    maskIcon = "mask-icon.svg" # mask-icon.svg (default)
+    maskIconColor = "white" # white (default)
+  [seo.schemas]
+    type = "Organization" # Organization (default) or Person
+    logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
+    name = "Thulite" # Name of Organization or Person
+    sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
+    images = ["cover.png"] # ["cover.png"] (default)
+    article = [] # Article sections
+    newsArticle = [] # NewsArticle sections
+    blogPosting = ["blog"] # BlogPosting sections
+    product = [] # Product sections

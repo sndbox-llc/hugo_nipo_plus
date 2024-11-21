@@ -1,44 +1,22 @@
 {{ define "main" }}
-<div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
-	<div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
-
-	<article>
-		<h1 class="text-center">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{ .Title }}{{ end }}</h1>
-		{{ if .Params.lead -}}
-		<div class="row justify-content-center">
-			<div class="col-md-14">
-				<div class="myLead" style="max-width: 90%;">
-					<div class="myLead__label">概要</div>
-					<div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
-				</div>
-		
-			</div>
-		</div>
-		{{ end }}
-
-		<div class="text-center">{{ .Content }}</div>
-		<div class="card-list">
-			{{ $currentSection := .CurrentSection }}
-			<div class="row justify-content-center" style="align-items: stretch;">
-			{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
-				{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
-					<div class="col-md-15 col-lg-8 col-xl-5">
-						<a href="{{ .RelPermalink}}" style="text-decoration: none;margin-bottom:20px;display:block">
-							<div class="card my-3 pageCards" style="border:1px dotted purple;">
-								<div class="card-body">
-									<div style="font-weight: bold;" class="accentColor">{{ .Params.title | title }}</div>
-								</div>
-								<div class="card-body" style="font-size: 16px;">
-									{{ .Params.description }}
-								</div>
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-10 col-xl-8">
+    <article>
+      <h1 class="text-center">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{ .Title }}{{ end }}</h1>
+      {{ with .Content }}<div class="text-center">{{ . }}</div>{{ end }}
+			<div class="card-list">
+				{{ $currentSection := .CurrentSection }}
+				{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+					{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+						<div class="card my-3">
+							<div class="card-body">
+								<a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
 							</div>
-						</a>
-					</div>
+						</div>
+					{{ end }}
 				{{ end }}
-			{{ end }}
 			</div>
-		</div>
-	</article>
-	</div>
-	</div>
+    </article>
+  </div>
+</div>
 {{ end }}

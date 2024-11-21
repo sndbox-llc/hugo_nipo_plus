@@ -10,7 +10,7 @@
 // 画像コンテナ 黒枠
 .uedaTabletFrame {
   display: block;
-  border: 10px solid black;
+  border: 10px solid #666;
   border-radius: 20px;
   margin: 0 auto;
 }
@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: center;
   height: 120px;
-
+  min-width: 120px;
   img {
     border-radius: 50%;
     width: 100px;

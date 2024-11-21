@@ -1,0 +1,99 @@
+title = "NipoPlus"
+baseurl = "http://localhost/"
+# baseurl = "https://nipo-plus-doc.sndbox.jp/"
+canonifyURLs = false
+disableAliases = true
+disableHugoGeneratorInject = true
+# disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+enableGitInfo = false
+enableRobotsTXT = true
+languageCode = "ja-JP"
+pagerSize = 30
+rssLimit = 30
+summarylength = 20 # 70 (default)
+
+# Multilingual
+defaultContentLanguage = "ja"
+disableLanguages = ["en"]
+defaultContentLanguageInSubdir = false
+
+copyRight = "Copyright (c) 2020-2024 Sndbox,LLC"
+
+[build.buildStats]
+  enable = true
+
+[outputs]
+  home = ["HTML", "RSS", "Algolia"]
+  section = ["HTML", "RSS", "SITEMAP"]
+
+# [outputFormats.searchIndex]
+#   mediaType = "application/json"
+#   baseName = "search-index"
+#   isPlainText = true
+#   notAlternative = true
+
+# Add output format for section sitemap.xml
+[outputFormats.SITEMAP]
+  mediaType = "application/xml"
+  baseName = "sitemap"
+  isHTML = false
+  isPlainText = true
+  noUgly = true
+  rel  = "sitemap"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.6
+
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = -1 # "30m"
+
+[taxonomies]
+  # contributor = "contributors"
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+  blog = "/blog/:slug/"
+  docs = "/docs/:sections[1:]/:slug/"
+# docs = "/docs/1.0/:sections[1:]/:slug/"
+
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod", ":default"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+
+[minify.tdewolff.html]
+  keepWhitespace = false
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+    [[related.indices]]
+      name = "categories"
+      weight = 100
+    [[related.indices]]
+      name = "tags"
+      weight = 80
+    [[related.indices]]
+      name = "date"
+      weight = 10
+
+[imaging]
+  anchor = "Center"
+  bgColor = "#ffffff"
+  hint = "photo"
+  quality = 85
+  resampleFilter = "Lanczos"

@@ -26,7 +26,8 @@ NipoPlusに演算機能を実装する必要があり、色々調べたところ
 
 起動させたときの画面イメージは次のようになります。
 
-{{<imgproc reverce-polish-input.png "逆ポーランド記法に変換する電卓風入力フォーム" >}}
+{{<figure src="reverce-polish-input.png"  alt="逆ポーランド記法に変換する電卓風入力フォーム" caption="逆ポーランド記法に変換する電卓風入力フォーム" >}}
+
 
 {{<alice pos="right" icon="default">}}
 デザインは手抜きです
@@ -153,7 +154,8 @@ function infixToPostfix (s: string) {
 
 これらのシンプルな四則演算に加えて、NipoPlusでは「テンプレートの入力フォーム」を式に埋め込めるように少し改良もしています。
 
-{{<imgproc reverce-polish-sample.png "NipoPlusで使った実際の例" >}}
+{{<figure src="reverce-polish-sample.png"  alt="NipoPlusで使った実際の例" caption="NipoPlusで使った実際の例" >}}
+
 
 {{<alice pos="right" icon="default">}}
 実際の用途としてはテンプレートの中のある値同士を計算するための式入力用として逆ポーランドを使いました

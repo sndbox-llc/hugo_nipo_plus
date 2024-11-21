@@ -249,5 +249,6 @@ NipoPlusならそれらをカバーしているので中小企業に幅広く売
 
 <div style="max-width:800px">
 
-{{<imgproc factory-usage.webp "実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" >}}
+{{<figure src="factory-usage.webp"  alt="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" caption="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" >}}
+
 </div>

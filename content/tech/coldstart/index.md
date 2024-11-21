@@ -101,7 +101,8 @@ Cloud Functionsは最初の200万回アクセスは無料なので、正直誤�
 functions.pubsub.scheduleの記述があるCloud functionをデプロイすると自動でCloud SchedulerとPub/subにこの関数の情報が登録されるようです。
 [GCPの管理画面](https://console.cloud.google.com/cloudscheduler)から登録されていることを確認できます。
 
-{{<imgproc scheduler.png "GCPの管理画面からScherulerを表示した" >}}
+{{<figure src="scheduler.png"  alt="GCPの管理画面からScherulerを表示した" caption="GCPの管理画面からScherulerを表示した" >}}
+
 
 同様にPub/subにも登録がされているはずです。
 

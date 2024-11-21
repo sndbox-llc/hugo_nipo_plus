@@ -21,7 +21,8 @@ NipoPlusのバックエンドはFirebaseを使用しています。アカウン�
 弱点を補って余る程の魅力があるFireStoreですが、実際にアプリを作ると様々な検索が必要になってきますのでFireStore単体だとどうしても行き詰まってしまうことでしょう。
 例えば次の画面はNipoPlusでレポートを検索する画面です。
 
-{{<imgproc report-search.png "NipoPlusの検索画面の例。このように複雑な検索はFireStore単体では実装することができません。" >}}
+{{<figure src="report-search.png"  alt="NipoPlusの検索画面の例。このように複雑な検索はFireStore単体では実装することができません。" caption="NipoPlusの検索画面の例。このように複雑な検索はFireStore単体では実装することができません。" >}}
+
 
 状態や期間、単語を使った検索をFireStore単体で実装しようとすると茨の道となります。フロントにデータを大量にロードしてJavascript側でフィルターを掛ける手もありますが、無駄な通信も多く処理負担も大きくなるため、あまり現実的な回避策とは言えません。
 NipoPlusではこの問題に対して、FireStoreの他にElasitc Searchという全文検索対応のデータベースを併用することでこのような機能を実現しています。
@@ -109,7 +110,8 @@ async function makeElastic () {
 これでElasticSearch側の準備が完了です。
 なお私はこのあたりの処理をCUIでいつでも作成・破壊が出来るようにしておきました。何かとテストで作成破壊を繰り返すことになるので、面倒臭がらず先に作っておくと開発がスムーズになります。
 
-{{<imgproc terminal.png "ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました。シンプルだけど自分しか使わないならこのくらいでも必要十分ですね" >}}
+{{<figure src="terminal.png"  alt="ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました。シンプルだけど自分しか使わないならこのくらいでも必要十分ですね" caption="ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました。シンプルだけど自分しか使わないならこのくらいでも必要十分ですね" >}}
+
 
 ### Cloud FunctionsでFirestoreのデータをElastic Searchへプッシュする{#documentMerge}
 

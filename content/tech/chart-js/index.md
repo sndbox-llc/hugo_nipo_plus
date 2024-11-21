@@ -89,7 +89,8 @@ export default defineComponent({
 canvasRefはonMountedで初期化処理が終わってからじゃないと使えませんので、onMountedの中でグラフ生成の関数を呼び出しています。
 getRand関数はランダムな数値の配列を作って返すだけの処理で、グラフ更新の動きを確認するために用意しました。実際に実行した画面は次の画像のようになります。
 
-{{<imgproc bar_chart.png "chart.jsを使って棒グラフを作成" >}}
+{{<figure src="bar_chart.png"  alt="chart.jsを使って棒グラフを作成" caption="chart.jsを使って棒グラフを作成" >}}
+
 
 シャッフルボタンを押すとグラフが再描画されます。
 なおChart.js Version3では再描画時、すでにグラフが生成されているとエラーが発生しますので、先に生成済みのグラフを破壊する必要があります。
@@ -101,7 +102,8 @@ getRand関数はランダムな数値の配列を作って返すだけの処理�
 型があることでプログラマの間違いを教えてくれるので、開発の効率も上がり、つまらないバグの混入リスクも軽減できます。
 Chart.jsでも型による恩恵を受けることができます。
 
-{{<imgproc chart_ts.png "chart.jsを使って棒グラフを作成" >}}
+{{<figure src="chart_ts.png"  alt="chart.jsを使って棒グラフを作成" caption="chart.jsを使って棒グラフを作成" >}}
+
 
 ## Vue-Chart.jsは不要です。意外と簡単に実装できたChart.js{#chartjs_instead_of_vuechartjs}
 

@@ -16,7 +16,8 @@ robots = "" # custom robot tags (optional)
 # aliases = []
 +++
 
-{{<imgproc eye-catch.png "Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" >}}
+{{<figure src="eye-catch.png"  alt="Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" caption="Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" >}}
+
 
 
 ## NipoPlusを開発した経緯{#about}

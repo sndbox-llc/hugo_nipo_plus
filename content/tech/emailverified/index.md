@@ -73,4 +73,5 @@ async emailAuthMixin_sendVerifyMail () {
 
 認証メールの件名は、FireBaseの設定画面から変更できますが、文面は変更できません。（言語を日本語にすることはできます）
 
-{{<imgproc firebase-email.png "Firebaseの管理コンソール画面。確認メールの件名や言語は変更できますが本文の変更は制限されています" >}}
+{{<figure src="firebase-email.png"  alt="Firebaseの管理コンソール画面。確認メールの件名や言語は変更できますが本文の変更は制限されています" caption="Firebaseの管理コンソール画面。確認メールの件名や言語は変更できますが本文の変更は制限されています" >}}
+

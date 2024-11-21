@@ -19,7 +19,9 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
 サンプルの画像は、縦向きの外側カメラを使って撮影しましたが、勝手に横向きになっている様子がわかります。
 これはiOSのバージョンを最新の13.4.1に更新すると発生するようです。このバグはNipo Version5.11.2にて修正されました。
 
-{{<imgproc rotateimage.png "画像が回転してしまう問題" >}}
+
+{{<figure src="rotateimage.png"  alt="画像が回転してしまう問題" caption="画像が回転してしまう問題" >}}
+
 
 ## Blueimp load imageを使った画像回転の制御{#control_image_rotation_with_blueimp_load_image}
 

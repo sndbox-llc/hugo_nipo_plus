@@ -51,8 +51,8 @@ weight = 155
 
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#sign)
 
+{{<figure src="use-stylus-pen.webp"  alt="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" caption="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" >}}
 
-{{<imgproc use-stylus-pen.webp "iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" >}}
 
 スタイラスペンや指でキャンバスに自由に描くことができます。顧客からの受領サインが必要な場合や、手書きのイラストが必要な場合に便利です。
 [特設記事](/tips/mobile-device/#draw_sign)も御覧ください

@@ -131,7 +131,8 @@ NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に�
 
 ## タクシーの営業報告にNipoPlusを使用{#taxi}
 
-{{<imgproc taxi.png "タクシー日報のテンプレート一例" >}}
+{{<figure src="taxi.png"  alt="タクシー日報のテンプレート一例" caption="タクシー日報のテンプレート一例" >}}
+
 
 
 過去にタクシー業界でNipoPlusを営業報告書として利用していたお客様もいました。

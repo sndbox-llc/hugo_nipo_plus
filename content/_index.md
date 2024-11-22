@@ -4,7 +4,7 @@ description = "多目的に使えるクラウド型入力アプリ。日報・�
 date = "2023-04-01"
 draft = false
 images = []
-aliases = ["/docs/old/_about/"]
+# aliases = []
 mermaid = false
 showPrice = true
 +++
@@ -12,6 +12,7 @@ showPrice = true
 
 
 ## NipoPlusで得られるメリット{#benefits}
+
 
 
 <div class="row my-5">
@@ -23,6 +24,9 @@ showPrice = true
 
 誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/#commonNumber)、[画像入力](/docs/manual/initial-setting/template/binarys/#picture)など）を組み合わせるだけ。特別な技術知識がなくても、自社の業務に合った入力フォームを迅速に構築できます。
 テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
+
+
+
 
 {{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレート作成ガイド">}}
 
@@ -75,6 +79,7 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 <h3>コストパフォーマンス</h3>
 <p>中小零細企業にも手の届く圧倒的低価格。業界最安値を目指します</p>
 <div class="mt-auto">
+
 
 {{<btnFull "/docs/price/_about/" "ご利用料金">}}
 

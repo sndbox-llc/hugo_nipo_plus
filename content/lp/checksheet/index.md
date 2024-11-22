@@ -57,28 +57,37 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 <h3>自作できる点検項目</h3>
 <p>NipoPlusは、点検表の項目を自由にカスタマイズできるため、設備点検や品質チェック、5Sチェックシートなど多様な業務に対応できます。現場のニーズに合わせた柔軟な設計が可能です。</p>
 <div class="mt-auto">
-{{<btnFull "/tips/userfriendly/#template_samples_collection" "テンプレート一例">}}
+
+
+{{< link-card title="テンプレート一例" href="/tips/userfriendly/#template_samples_collection/" >}}
+
 </div>
 </div>
 <div class="col-lg-4 rootMainText d-flex flex-column">
 <h3>業界最安値の点検アプリ</h3>
 <p>同業他社の高額なシステムに比べ、圧倒的な低価格で提供されており、コスト削減が可能です。NipoPlusは、初期導入コストや運用コストを抑えながら、効率的な点検業務の電子化を実現します。</p>
 <div class="mt-auto">
-{{<btnFull "/docs/price/_about/" "料金プランを見る">}}
+
+{{< link-card title="料金プランを見る" href="/docs/price/_about/" >}}
+
 </div>
 </div>
 <div class="col-lg-4 rootMainText d-flex flex-column">
 <h3>スマホ・タブレット対応でペーパーレス化</h3>
 <p>スマートフォンやタブレットを活用し、点検業務をペーパーレス化。AndroidやiOS端末でも使えるため、すぐに導入でき、現場での業務効率化をサポートします。</p>
 <div class="mt-auto">
-{{<btnFull "/tips/mobile-device/" "モバイルデバイス対応">}}
+
+{{< link-card title="モバイルデバイス対応" href="/tips/mobile-device/" >}}
+
 </div>
 </div>
 <div class="col-lg-4 rootMainText d-flex flex-column">
 <h3>データ集計と高い信頼性</h3>
 <p>点検結果の集計や分析機能を提供し、CSV出力にも対応。さらにクラウドベースでデータの安全性を確保しており、信頼性の高い運用を実現します。</p>
 <div class="mt-auto">
-{{<btnFull "/docs/manual/analytics/_about/" "集計・グラフ化">}}
+
+{{< link-card title="集計・グラフ化" href="/docs/manual/analytics/_about/" >}}
+
 </div>
 </div>
 </div>

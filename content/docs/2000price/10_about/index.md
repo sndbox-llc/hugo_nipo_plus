@@ -11,6 +11,7 @@ mermaid = true
 # images = []
 +++
 
+
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 こちらはNipoPlusの料金ページです。[旧Nipoの料金ページ](/legacy/system/price/)と混同されないように注意してください
 {{< /callout >}}
@@ -32,6 +33,24 @@ classDef class1 fill:#7BCCAC
   無料プランへ--> 有料プランへ加入:::class1
 
 ```
+
+<!--
+
+{{< link-card
+  title="Showcase"
+  description="Explore the infinite possibilities of Doks"
+  href="/showcase/"
+>}}
+
+{{< link-card title="Showcase" href="/showcase/" >}}
+
+
+{{< card-grid >}}
+{{< link-card title="Showcase" href="/showcase/" >}}
+{{< link-card title="Showcase" href="/showcase/" >}}
+{{< /card-grid >}}
+
+-->
 
 
 ## 現在のプランを確認する{#current_plan}

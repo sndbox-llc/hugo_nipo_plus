@@ -28,14 +28,14 @@ h4 {
     right: 0;
   }
 }
+
 .docs-content {
-  h2, h3, h4, h5, h6 {
+  h2, h3, h4 {
     @include heading-style;
   }
 }
 /** 強調表示 アンダーバーを引く */
 strong {
-  // color: black;
   font-weight: 900;
   background:linear-gradient(transparent 60%, orange 60%);
 }
@@ -58,7 +58,6 @@ blockquote {
     position: absolute;
     top: 0.2em;
     left: 0.2em;
-    // color: #6c757d;
     opacity: 0.6;
   }
   p {

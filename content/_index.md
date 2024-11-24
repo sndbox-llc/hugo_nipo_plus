@@ -9,7 +9,6 @@ date = "2023-04-01"
 showPrice = true
 +++
 
-{{< link-card title="モバイルデバイス対応" description="read more" href="xxxxxx" >}}
 
 
 ## NipoPlusで得られるメリット{#benefits}

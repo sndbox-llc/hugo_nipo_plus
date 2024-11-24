@@ -4,7 +4,7 @@ description = "サイト内のコンテンツを簡単に検索して見つけ�
 # tags = []
 title = "検索"
 toc = true
-weight = 103000018
+weight = 12001
 aliases = []
 images = []
 [sitemap]

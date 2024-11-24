@@ -27,4 +27,6 @@ weight = 250
 
 以降は通常のレポート作成画面と同じですので、詳しくは[レポートを書く](/docs/manual/write-report/write/)の記事を参照してください
 
-{{<btnCenter "/docs/manual/write-report/write/" "レポートを書く">}}
+
+{{< link-card title="レポートを書く" description="操作ガイド" href="/docs/manual/write-report/write/" >}}
+

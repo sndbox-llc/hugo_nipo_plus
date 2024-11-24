@@ -12,9 +12,6 @@ date = "2023-04-01"
   priority = 0.9
 +++
 
-
-
-
 <dl class='faq'>
 <dt>1ヶ月間の日報をまとめて集計できますか？</dt>
 <dd>アプリ内で集計も可能ですし、CSV出力してエクセル上で集計することも可能です</dd>
@@ -22,9 +19,12 @@ date = "2023-04-01"
 
 NipoPlus上で集計やグラフを作ることが可能です。こちらの記事でできることを紹介しています。
 
-{{<btnCenter "/tips/analytics/" "日報をワンクリックで集計する">}}
 
-{{<btnCenter "/docs/manual/analytics/_about/" "集計の操作ガイド">}}
+{{< card-grid >}}
+{{< link-card title="日報をワンクリックで集計する" href="/tips/analytics/" >}}
+{{< link-card title="集計の操作ガイド" href="/docs/manual/analytics/_about/" >}}
+{{< /card-grid >}}
+
 
 アプリからの集計は手軽で便利ですが、できることにどうしても限りがあります。より細かな集計や分析がしたい場合は日報のデータをCSVに出力してエクセル上から集計や分析を行うことが可能です。
 
@@ -36,7 +36,6 @@ NipoPlus上で集計やグラフを作ることが可能です。こちらの記
 日報は日別に提出されるためそのままでは集計に不向きです。上の図でも1件のレポートであり、集約されていません。
 毎日、日報からエクセルに必要なデータを書き写すような作業をしていませんか？
 これはあまりにも非効率です。NipoPlusでは期間を指定してワンクリックで1ヶ月分の日報をCSVでダウンロードできます。
-
 
 {{<icatch filename="csv-export" msg="1ヶ月分のレポートをまとめてCSVに出力する">}}
 
@@ -77,7 +76,8 @@ CSVファイルがエクセルで次のように表示されます。
 なおCSVの項目は出力オプションで変更可能です。文書IDや提出者IDなど不要な項目は出力OFFにすることで見た目をスッキリさせることができます。
 詳しくはCSV出力オプション設定を御覧ください
 
-{{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力設定">}}
+{{< link-card title="CSV出力設定" href="/docs/manual/analytics/csvoption/" >}}
+
 
 CSV出力を使えばこのようにたくさんのバラバラなレポートを1枚のエクセルにまとめ、その後の様々な集計や分析が簡単に行えるようになります。
 テンプレートに沿ってフィールド分け（列が分かれる）されるので、集計や並べかえにも簡単にできます。
@@ -112,7 +112,8 @@ CSV出力を使えばこのようにたくさんのバラバラなレポート�
 {{< /callout >}}
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/digital/#calc" "算術フォーム">}}
+{{< link-card title="算術フォーム" href="/docs/manual/initial-setting/template/digital/#calc" >}}
+
 
 ### 各列の合計を求める（Sum関数）{#calc_sum}
 

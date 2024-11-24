@@ -1,4 +1,0 @@
-{{ $to := .Get 0 }}
-{{ $label := default "クリック" (.Get 1) }}
-{{ $target := default "_self" (.Get 2) }}
-  <a href={{ $to }} target={{ $target }}  class="btn btn-primary btn-lg d-block my-3 btn-block" role="button">{{ $label }}</a>

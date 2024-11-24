@@ -151,4 +151,6 @@ Androidに標準でインストールされているGoogle Chromeを起動して
 Webアプリ版は最も早く最新版が[リリース](/docs/system/release-note/)されます。
 Nipo【旧版】のすべての機能が最も使いやすい形で提供されています。Nipo【旧版】は各種バージョンがありますが、最も推奨されるものがこの「Web版Nipo【旧版】」になります。Web版Nipo【旧版】は以下のボタンから開始できます
 
-<a class="btn btn-pink btn-m" href="https://nipoapp.sndbox.jp/" target="_blank" rel="noopener">Nipo【旧版】を起動する</a>
+{{< link-card title="Nipo【旧版】を起動" description="このカードをクリックするとNipoが別タブで起動します" href="https://nipoapp.sndbox.jp/" target="_blank" >}}
+
+

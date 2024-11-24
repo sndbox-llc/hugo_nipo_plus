@@ -25,7 +25,9 @@ CSVSCは、複数のCSVファイルを1つに簡単に連結することがで�
 
 {{<icatch filename="csvsc" msg="複数のCSVファイルをドラッグ＆ドロップの簡単操作で1つに結合できます" alice="here">}}
 
-{{<btnCenter "https://code.sndbox.jp/csvsc/#/" "CSVSCの起動" "_blank">}}
+
+{{< link-card title="CSVSCの起動" description="クリックすると別タブでCSVSCが起動します" href="https://code.sndbox.jp/csvsc/#/" target="_blank" >}}
+
 
 ---
 

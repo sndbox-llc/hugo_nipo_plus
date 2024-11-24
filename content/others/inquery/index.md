@@ -13,6 +13,7 @@ images = []
 +++
 
 
+{{< link-card title="モバイルデバイス対応" description="read more" href="xxxxxx" >}}
 
 <div id="contactForm">
 

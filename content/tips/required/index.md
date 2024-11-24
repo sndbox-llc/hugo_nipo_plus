@@ -113,7 +113,9 @@ NipoPlusの**入力順序の強制機能**を使うことで入力の順序を�
 入力順序の指定は手順遵守の他にも、次に入力すべき項目がわかりやすいので特に操作に不慣れなスタッフには有益な機能として活用できます。
 ※入力必須と組み合わせることも可能です。
 
-{{<btnCenter "/docs/manual/initial-setting/template/make/#input_control" "テンプレート作成:入力順序の指定">}}
+{{< link-card title="テンプレート作成" description="入力順序の指定はテンプレート作成時に指定することができます" href="/docs/manual/initial-setting/template/make/#input_control" >}}
+
+
 
 ---
 
@@ -135,8 +137,11 @@ NipoPlusの**入力順序の強制機能**を使うことで入力の順序を�
 
 各セルには「提出した枚数」が表示されます。誤って2枚以上提出している場合も簡単に判定できますね。未提出者を見つけたらそっと本人に教えて上げてください。
 
-{{<btnCenter "/docs/manual/read-report/list/#teishutuMap" "提出状況表について">}}
-{{<btnCenter "/docs/manual/utils/shift/" "シフト管理について">}}
+{{< card-grid >}}
+{{< link-card title="提出状況表について" href="/docs/manual/read-report/list/#teishutuMap" >}}
+{{< link-card title="シフト管理について" href="/docs/manual/utils/shift/" >}}
+{{< /card-grid >}}
+
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 <a href="/docs/manual/calendar/_about/">カレンダーから未提出者を見つけることもできます</a>

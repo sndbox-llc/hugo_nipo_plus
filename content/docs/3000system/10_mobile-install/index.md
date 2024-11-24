@@ -21,7 +21,8 @@ NipoPlusはWebアプリケーションのため、ブラウザが利用できる
 
 今このページをPCでご覧頂いている方は、そのまま下の「NipoPlusを起動する」ボタンをクリックして使用できます。
 
-{{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動" "_blank">}}
+{{< link-card title="NipoPlusを起動" description="このカードをクリックするとNipoPlusが別タブで起動します" href="https://nipoplus.sndbox.jp/" target="_blank" >}}
+
 
 
 <dl class="basic">
@@ -75,9 +76,11 @@ WebのNipoPlusはPWAという技術が使われているため**Webでありな�
 1. アプリをインストールをタップ
 1. ホーム画面にアイコンが追加される
 
-NipoPlusは下のボタンから起動できます
+NipoPlusは下のリンクから起動できます
 
-{{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動する" "_blank">}}
+
+{{< link-card title="NipoPlusを起動" description="このカードをクリックするとNipoPlusが別タブで起動します" href="https://nipoplus.sndbox.jp/" target="_blank" >}}
+
 
 {{<figure src="android-install-pwa.png"  alt="ChoromeからPWA対応サイトを開くとインストールの通知が表示されます。ホーム画面に追加をタップするだけでインストールが完了し、ホーム画面にアイコンが追加されます。" caption="ChoromeからPWA対応サイトを開くとインストールの通知が表示されます。ホーム画面に追加をタップするだけでインストールが完了し、ホーム画面にアイコンが追加されます。" >}}
 
@@ -129,7 +132,9 @@ WebのNipoPlusはPWAという技術が使われているため**Webでありな�
 
 NipoPlusは下のボタンから起動できます
 
-{{<btnCenter "https://nipoplus.sndbox.jp/" "NipoPlusを起動する" "_blank">}}
+
+{{< link-card title="NipoPlusを起動" description="このカードをクリックするとNipoPlusが別タブで起動します" href="https://nipoplus.sndbox.jp/" target="_blank" >}}
+
 
 
 {{<figure src="ios-pwa-install1.png"  alt="PWAをiOSにインストールするにはSafariを起動してインストールしたいページを開きます。その後メニューから「ホーム画面に追加」をタップします" caption="PWAをiOSにインストールするにはSafariを起動してインストールしたいページを開きます。その後メニューから「ホーム画面に追加」をタップします" >}}

@@ -27,7 +27,8 @@ isNipo = true
 
 まずはNipo【旧版】を起動するところからです。下のボタンをクリックしてNipo【旧版】を起動しましょう
 
-{{<btnCenter "https://nipoapp.sndbox.jp/" "Nipo【旧版】を起動" "_blank">}}
+{{< link-card title="Nipo【旧版】を起動" description="このカードをクリックするとNipoが別タブで起動します" href="https://nipoapp.sndbox.jp/" target="_blank" >}}
+
 
 新しいタブが追加され、Nipo【旧版】が起動します。
 
@@ -38,9 +39,9 @@ isNipo = true
 この画面でやることは以下の通り
 
 1. **アカウントを作る**をクリック
-1. E-mailを入力（ログイン時に使用します)
-1. Passwordを入力（ログイン時に使用します）
-1. **登録**ボタンをクリック
+2. E-mailを入力（ログイン時に使用します)
+3. Passwordを入力（ログイン時に使用します）
+4. **登録**ボタンをクリック
 
 {{<alice pos="right" icon="default">}}
 E-mailは受信できるアドレスを指定して下さい。パスワードを忘れたときに必要になります

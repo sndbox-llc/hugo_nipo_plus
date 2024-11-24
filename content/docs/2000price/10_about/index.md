@@ -91,12 +91,11 @@ classDef class1 fill:#7BCCAC
 
 自動更新有りのほうが若干お安く設定されています。
 
-<div class="row justify-content-center">
-<div class="col-sm-16 col-md-8">{{<button "/docs/price/fee/" "自動更新有りで加入">}}</div>
-<div class="col-sm-16 col-md-8">{{<button "/docs/price/invoice/" "請求書払いで加入">}}</div>
-</div>
 
-
+{{< card-grid >}}
+{{< link-card title="自動更新有りで加入" href="/docs/price/fee/" >}}
+{{< link-card title="請求書払いで加入" href="/docs/price/invoice/" >}}
+{{< /card-grid >}}
 
 
 ## 同業他社との価格比較{#diff}

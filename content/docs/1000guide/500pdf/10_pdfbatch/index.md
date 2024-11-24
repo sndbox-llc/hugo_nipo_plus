@@ -75,7 +75,8 @@ weight = 510
 
 複数のファイルをダウンロードするとZipで圧縮されます。解凍時に文字化けする場合はこちらの記事を参照してください。
 
-{{<btnCenter "/tech/mojibake/" "ダウンロードしたZIPファイルが文字化けする原因と解決策">}}
+{{< link-card title="ZIPの文字化け対策" description="ダウンロードしたZIPファイルが文字化けする原因と解決策について" href="/tech/mojibake/" >}}
+
 
 
 ---

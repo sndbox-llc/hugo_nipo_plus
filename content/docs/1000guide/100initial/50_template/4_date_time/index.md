@@ -167,7 +167,8 @@ weight = 154
 
 {{<icatch filename="charts" msg="期間のデータ（単位：分）を使って棒グラフを作成してみました。色々できるよ。試してみてね" alice="ok">}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
+{{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+
 
 #### CSVs出力{#csv_2}
 

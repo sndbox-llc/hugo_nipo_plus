@@ -72,7 +72,9 @@ Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/
 取得したAPIキーをCurlに含めてください。長いので必ずコピーペーストして使用してください。
 APIキーの取得が済んでいないかたは先にAPIキーの取得を行ってください。
 
-{{<btnCenter "/docs/manual/api/key/" "APIキーの取得">}}
+
+{{< link-card title="APIキーの取得" description="操作ガイド" href="/docs/manual/api/key/" >}}
+
 
 本ガイドではこれ以降も実際のAPIキーは使用せず解説します。
 

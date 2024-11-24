@@ -114,7 +114,8 @@ weight = 155
 {{< /callout >}}
 
 
-{{<btnCenter "/tips/mobile-device/#pick_picture" "特設記事:写真付きレポート">}}
+{{< link-card title="写真付きレポート" description="特設記事" href="/tips/mobile-device/" >}}
+
 
 
 <details>

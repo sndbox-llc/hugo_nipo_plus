@@ -203,7 +203,9 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 入力がされると次の項目が解除されるため、よりスムーズな入力が可能になります。
 似た機能に入力必須という指定もできます。入力必須を指定すると未入力の際警告するのでうっかり記入漏れを防ぐことができます。
 
-{{<btnCenter "/tips/required/" "入力必須・入力順の制御について詳しく">}}
+
+{{< link-card title="入力必須・入力順の制御" description="特設記事" href="/tips/required/" >}}
+
 
 ### スマホ・タブレット・PCそれぞれの得意・不得意を意識する{#mobile}
 
@@ -218,7 +220,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 {{<figure src="pen2.webp"  alt="署名はタッチパネルでの利用が大前提となります" caption="署名はタッチパネルでの利用が大前提となります" >}}
 
 
-{{<btnCenter "/tips/mobile-device/" "スマートフォン・タブレットの最適な利用">}}
+{{< link-card title="スマートフォン・タブレットの最適な利用" description="特設記事" href="/tips/mobile-device/" >}}
 
 
 ## テンプレートサンプル集{#template_samples_collection}
@@ -281,8 +283,6 @@ NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/bina
 
 </div>
 <div class="col-10">
-
-
 
 <div>
 
@@ -358,10 +358,6 @@ Yesなら✔するだけのシンプルなテンプレートです。補足事�
 {{<icatch filename="sample12" msg="YES/NOで回答且つ備考欄をつけた例です。ただチェック漏れのリスクがあるので選択肢を使ったほうがいいかも？" alice="question">}}
 
 
-
-
-
-
 ## 他にも色々。業務内容に併せて自由に業務テンプレートを作れます{#any}
 
 入力フォームをブロックのように並べるだけで様々なテンプレートを作成できます。
@@ -370,8 +366,5 @@ Yesなら✔するだけのシンプルなテンプレートです。補足事�
 
 具体的なテンプレートの作成手順については以下のリンクを参照してください。
 
-{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレートの作り方">}}
-
-
-
+{{< link-card title="テンプレートの作り方" description="操作ガイド" href="/docs/manual/initial-setting/template/make/" >}}
 

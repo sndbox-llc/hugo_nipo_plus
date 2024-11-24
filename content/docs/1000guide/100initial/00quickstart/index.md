@@ -1,5 +1,5 @@
 +++
-chapter = false
+url = "/docs/manual/quickstart/"
 description = "NipoPlusの初めての利用者向けに、アカウント作成から初期設定、テンプレート作成、レポートの提出までの基本操作をステップごとに画像付きで解説します。初心者でも安心して使えるガイドです。"
 lead = "アカウント作成から初期設定・レポートを提出するまでの手順について説明しています。このページの内容で基本的な操作が全て分かります"
 menuTitle = "🔰クイックスタートガイド"
@@ -10,7 +10,6 @@ tags = []
 weight = 1
 aliases = []
 images = []
-url = "/docs/manual/quickstart/"
 +++
 
 
@@ -187,8 +186,9 @@ NipoPlusのクイックスタートガイドへようこそ。
 チュートリアルでは意図的に触れませんでしたが、「デフォルトグループ」が自動で作成されております。これまでの作業も全てグループ内での作業です
 {{< /callout >}}
 
+{{< link-card title="マニュアル:グループの作成" href="/docs/manual/initial-setting/make-group/" >}}
 
-{{<btnCenter "/docs/manual/initial-setting/make-group/" "マニュアル:グループの作成">}}
+
 
 ---
 
@@ -201,7 +201,9 @@ NipoPlusのクイックスタートガイドへようこそ。
 匿名アカウントは**パスワードが未登録**のため何らかのはずみで接続が途絶えてしまうとこれまでのデータにアクセスできなくなります
 {{< /callout >}}
 
-{{<btnCenter "/docs/manual/utils/tokumei/" "匿名アカウントを正規アカウントへ昇格">}}
+{{< link-card title="匿名アカウントを正規アカウントへ昇格" href="/docs/manual/utils/tokumei/" >}}
+
+
 
 
 ここまで御覧いただきありがとうございました。

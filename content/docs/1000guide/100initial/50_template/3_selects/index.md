@@ -351,7 +351,9 @@ graph LR;
 
 {{<icatch filename="pie-charts" msg="チェックボックスのデータを円グラフにしたイメージ">}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
+
+{{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+
 
 </details>
 
@@ -360,7 +362,9 @@ graph LR;
   <summary>CSV</summary>
 出力形式を変えることができます。
 
-{{<btnCenter "/docs/manual/analytics/csvoption/" "CSV出力オプション">}}
+
+{{< link-card title="CSV出力オプション" description="操作ガイド" href="/docs/manual/analytics/csvoption/" >}}
+
 
 列展開がONの場合のCSV出力例
 

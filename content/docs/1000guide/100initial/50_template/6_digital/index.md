@@ -92,7 +92,8 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{<icatch filename="math_charts" msg="数値のデータをグラフ化してみたよ">}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
+{{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+
 
 </details>
 
@@ -174,7 +175,8 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{<icatch filename="rate-charts" msg="レポートに含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
 
-{{<btnCenter "/docs/manual/analytics/chart/" "レポートをグラフ化する">}}
+{{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+
 
 </details>
 

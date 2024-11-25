@@ -6,8 +6,8 @@ menuTitle = "🔰クイックスタートガイド"
 title = "🔰初心者ガイド：基本操作の全て"
 toc = true
 tocdefaultopen = true
-# tags = []
 weight = 1
+# tags = []
 # aliases = []
 # images = []
 +++

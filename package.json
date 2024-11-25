@@ -2,7 +2,7 @@
   "name": "nipoplus-hugo",
   "description": "NipoPlus Document Web Site",
   "version": "0.0.0",
-  "author": "Thulite",
+  "author": "sndbox LLC",
   "license": "MIT",
   "repository": "https://github.com/sndbox-llc/hugo_nipo_plus",
   "publishConfig": {
@@ -12,6 +12,7 @@
   "scripts": {
     "exe": "rm -rf public && hugo server",
     "reindex": "hugo && npm run algolia",
+    "algolia": "atomic-algolia",
     "create": "hugo new",
     "dev": "hugo server --disableFastRender --noHTTPCache",
     "format": "prettier **/** -w -c",
@@ -27,6 +28,7 @@
     "thulite": "2.5.0"
   },
   "devDependencies": {
+    "atomic-algolia": "^0.3.19",
     "prettier": "3.3.2",
     "vite": "5.4.2"
   },

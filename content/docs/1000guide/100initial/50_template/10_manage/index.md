@@ -55,24 +55,16 @@ mermaid = true
 
 Nipo【旧版】（緑色のロゴマークのやつです）からNipoPlusへ移行される方向けの手順です。旧バージョンを使っていない方は読み飛ばしてください。
 
-<details>
-  <summary>インポート手順</summary>
-
+{{< details "インポート手順" >}}
 まずNipo【旧版】を開き、設定画面からテンプレートをエクスポートします。
-
 {{<iTablet filename="legacyTemplate-export" msg="旧バージョンのNipoから操作します" alice="here">}}
-
 続いてNipoPlusを起動し、テンプレート設定画面を開きます。
-
 {{<iTablet filename="legacyTemplate-import" msg="旧NipoのテンプレートをNipoPlusへインポートします" alice="here">}}
-
 数秒ほどで解析が完了し、テンプレート一覧が表示されます。
-
 プレビューボタンを押すと実際にレポート作成画面をポップアップで確認できます。
 取り込みボタンを押すとNipoPlusへ取り込みが実行されます。（取り込まれたテンプレートは一覧から削除されます。）
 削除ボタン（ゴミ箱アイコン）をクリックすると取り込みをせずに削除します。
-
-</details>
+{{< /details >}}
 
 ---
 

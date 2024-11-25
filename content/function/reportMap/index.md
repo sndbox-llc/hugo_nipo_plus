@@ -6,7 +6,6 @@ title = "スタッフの提出状況を一覧で確認したい"
 toc = false
 # images = []
 date = "2024-10-04"
-code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3

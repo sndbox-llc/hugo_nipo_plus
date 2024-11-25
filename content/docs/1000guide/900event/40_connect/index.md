@@ -1,12 +1,11 @@
 +++
 url = "/docs/manual/event/connect/"
 description = "この記事では、予定とレポートを紐付けて管理する方法について説明します。予定が完了した後、その結果をレポートとして報告し、これらを紐付けることで、「予定（計画）」と「レポート（実績）」を対比しながら確認できます。"
-# tags = []
 title = "予定とレポートを紐付けする"
 toc = true
 weight = 940
 draft = true
-mermaid = true
+# tags = []
 # aliases = []
 # images = []
 +++

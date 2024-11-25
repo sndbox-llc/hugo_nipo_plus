@@ -6,7 +6,6 @@ title = "文字サイズの調整"
 toc = false
 # images = []
 date = "2024-10-03"
-code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3

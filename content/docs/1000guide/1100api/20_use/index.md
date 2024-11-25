@@ -6,7 +6,6 @@ title = "APIを使いレポートやテンプレートを取得する"
 menuTitle = "🤖APIを使う"
 toc = true
 weight = 1120
-code = true
 # aliases = []
 +++
 

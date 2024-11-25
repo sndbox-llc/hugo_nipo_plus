@@ -5,7 +5,6 @@ title = "料金プランは無料版と有料版があります"
 menuTitle = "ℹ️プラン概要"
 toc = true
 weight = 2010
-mermaid = true
 # tags = []
 # aliases = []
 # images = []

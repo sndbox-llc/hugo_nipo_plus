@@ -1,13 +1,12 @@
 +++
 url = "/docs/manual/event/add/"
 description = "この記事では、予定を効率的に追加し、日々のスケジュールを管理するための方法を解説します。時間軸からのドラッグ操作や＋ボタンのクリック、カレンダー上での直接追加といった複数の方法を紹介し、予定のタイトル、担当者、色分けなどの設定方法を詳しく説明します。また、月、週、表、日ごとの異なるカレンダー表示モードから予定を追加する手順も併せて紹介しています。"
-# tags = []
 title = "➕予定を追加する"
 toc = true
 weight = 910
+# tags = []
 # aliases = []
 # images = []
-draft = false
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

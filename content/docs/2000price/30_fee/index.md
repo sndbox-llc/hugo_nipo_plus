@@ -8,7 +8,6 @@ weight = 2030
 # tags = ["Web版限定", "要管理者権限"]
 # aliases = []
 # images = []
-mermaid = true
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

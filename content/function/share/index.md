@@ -6,7 +6,6 @@ title = "レポートを全員が読めるように運用したいとき"
 toc = false
 # images = []
 date = "2024-10-15"
-code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3

@@ -6,7 +6,6 @@ title = "pdfMakeとarchiverを使い複数のPDFを1つのZipにまとめてStor
 toc = true
 # images = []
 date = "2022-11-14"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.7

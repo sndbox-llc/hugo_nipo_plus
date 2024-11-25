@@ -6,7 +6,6 @@ title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
 toc = true
 # images = []
 date = "2022-11-14"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.7

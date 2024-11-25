@@ -7,7 +7,6 @@ toc = true
 draft=true
 # images = []
 date = "2024-11-10"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.3

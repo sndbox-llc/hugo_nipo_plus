@@ -1,13 +1,11 @@
 +++
 url = "/function/noticebar/"
 description = "グループ内の全スタッフに告知したい場合はバナー機能が便利です。画面上部に目立つ形で表示され、見落としません"
-# tags = []
 title = "スタッフ全員に通達したいとき"
 toc = false
+# tags = []
 # images = []
 date = "2024-10-15"
-code = false
-draft = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3

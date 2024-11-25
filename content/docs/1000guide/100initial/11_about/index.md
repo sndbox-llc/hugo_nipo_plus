@@ -7,7 +7,6 @@ lead = "【組織】と【グループ】と【スタッフ】の関係性につ
 toc = true
 weight = 10
 # tags = []
-# mermaid = true
 # aliases = []
 +++
 

@@ -6,7 +6,6 @@ title = "Vue3 Propsの型推論"
 toc = true
 # images = []
 date = "2020-10-18"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5

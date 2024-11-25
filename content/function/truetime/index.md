@@ -6,7 +6,6 @@ title = "レポートが提出された本当の時間を知りたいとき"
 toc = false
 # images = []
 date = "2024-10-04"
-code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3

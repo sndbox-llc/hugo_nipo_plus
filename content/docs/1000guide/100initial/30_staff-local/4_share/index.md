@@ -1,11 +1,10 @@
 +++
 url = "/docs/manual/initial-setting/staff-local/share/"
 description = "用途として限定的な機能です。人数分の端末が用意できない際にご利用ください"
-# tags = ["要編集者権限"]
 title = "⛔アカウントの共用"
 toc = true
 weight = 134
-mermaid = true
+# tags = ["要編集者権限"]
 # aliases = []
 # images = []
 +++

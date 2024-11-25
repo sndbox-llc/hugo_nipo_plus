@@ -1,11 +1,10 @@
 +++
 url = "/tips/management/"
 description = "増え続ける日報の管理に悩んでいませんか？NipoPlusは、手間のかかるフォルダ分けやファイル名管理から解放し、効率的に日報を整理・検索できるシステムです。スマートな日報管理で業務をスムーズに進めましょう。"
-# tags = []
 title = "日報をシステム化し増え続ける日報を効率的に管理する"
 menuTitle = "日報をシステム化し増え続ける日報を効率的に管理する"
 toc = true
-draft = false
+# tags = []
 # images = []
 date = "2023-06-30"
 [sitemap]

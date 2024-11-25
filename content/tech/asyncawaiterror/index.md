@@ -6,7 +6,6 @@ title = "async関数を呼び出したときに呼び出し先でエラーが発
 toc = true
 # images = []
 date = "2022-11-14"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5

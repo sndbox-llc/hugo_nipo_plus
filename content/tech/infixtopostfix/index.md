@@ -6,7 +6,6 @@ title = "電卓風の見た目で逆ポーランド記法の式を作成する�
 toc = true
 images = ["reverce-polish-sample.png"]
 date = "2022-11-14"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5

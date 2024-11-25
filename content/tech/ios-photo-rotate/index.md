@@ -6,7 +6,6 @@ title = "iOS13.4.1で写真をアップロードすると画像が横向きに�
 toc = true
 # images = []
 date = "2022-11-14"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

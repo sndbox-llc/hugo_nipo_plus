@@ -1,12 +1,11 @@
 +++
 url = "/tech/androidapp/"
 description = "QuasarでAndroidアプリを作成"
-# tags = []
 title = "Quasar FrameworkでAndroidアプリをビルドしてストア提出する(AABファイル)"
 toc = true
+# tags = []
 # images = []
 date = "2022-11-14"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.5

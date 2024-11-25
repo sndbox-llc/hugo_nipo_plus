@@ -5,7 +5,6 @@ title = "入力フォームごとの入力方法"
 menuTitle = "🖊入力方法について"
 toc = true
 weight = 260
-mermaid = true
 # aliases = []
 # images = []
 +++

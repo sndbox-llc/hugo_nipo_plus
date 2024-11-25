@@ -6,7 +6,6 @@ title = "Vue2からVue3への移行-Filterの廃止を修正"
 toc = true
 # images = []
 date = "2022-11-14"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

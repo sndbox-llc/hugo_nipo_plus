@@ -1,14 +1,13 @@
 +++
 url = "/docs/manual/initial-setting/template/manage/"
 description = "一度作ったテンプレートは可能な限り再利用させることで効率よく作業できます。ここではテンプレートのコピーや削除、インポートについてまとめています"
-# tags = ["テンプレート", "要編集者権限"]
 title = "テンプレートの管理（コピー・削除など）"
 menuTitle = "テンプレートの複製、削除等"
 toc = true
 weight = 160
+# tags = ["テンプレート", "要編集者権限"]
 # aliases = []
 # images = []
-mermaid = true
 +++
 
 ## テンプレートのコピーとインポート{#copyImport}

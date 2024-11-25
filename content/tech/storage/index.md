@@ -6,7 +6,6 @@ title = "Firebase StorageでNoSuchKeyのエラーが発生する原因と対策"
 toc = true
 images = ["firebase-icatch.png"]
 date = "2022-11-14"
-code = true
 [sitemap]
   changefreq = "yearly"
   priority = 0.3

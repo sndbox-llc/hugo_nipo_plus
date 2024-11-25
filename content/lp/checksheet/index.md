@@ -3,7 +3,6 @@ description = "設備点検や品質チェック業務をペーパーレスで�
 title = "製造業向け設備点検・品質チェックを効率化。DX対応のペーパーレス点検アプリ"
 menuTitle = "点検チェックシートアプリ"
 toc = false
-mermaid = true
 # images = []
 # tags = ["製造業向け", "設備点検", "チェックシートアプリ"]
 # aliases = []

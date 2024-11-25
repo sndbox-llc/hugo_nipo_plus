@@ -5,7 +5,6 @@ description = "スタッフごとに利用が可能なレポートのテンプ�
 title = "🚫スタッフが利用できるテンプレートを制限する"
 menuTitle = "🚫利用可能テンプレートの制限"
 toc = false
-draft = false
 weight = 133
 # aliases = []
 # images = []

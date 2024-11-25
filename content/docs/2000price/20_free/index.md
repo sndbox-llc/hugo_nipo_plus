@@ -1,14 +1,13 @@
 +++
 url = "/docs/price/free/"
 description = "検索や集計など一部の機能は制限されますが無料でレポートアプリを利用し続けることができます。コストを掛けたくない方はNipoPlusをご検討ください。ずっと無料です"
-# tags = []
 title = "無料プランは4名以下で利用可能です"
 menuTitle = "🆓無料プラン"
 toc = true
 weight = 2020
+# tags = []
 # aliases = []
 # images = []
-mermaid = true
 +++
 
 ```kroki {type=mermaid}

@@ -6,7 +6,6 @@ title = "使わない機能を無効化してシンプルな見た目にした�
 toc = false
 # images = []
 date = "2024-10-15"
-code = false
 [sitemap]
   changefreq = "weekly"
   priority = 0.3

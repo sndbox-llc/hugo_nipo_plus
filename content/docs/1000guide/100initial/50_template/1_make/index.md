@@ -1,14 +1,13 @@
 +++
 url = "/docs/manual/initial-setting/template/make/"
 description = "パーツをブロックのように組み合わせるだけで専門知識がなくてもオリジナルのテンプレートを簡単に作成できます。作成したテンプレートはスマホやタブレット・PCからレポート作成時に使用されます"
-# tags = ["テンプレート", "PDF出力", "要編集者権限"]
 title = "レポート用のテンプレートを自作する"
 menuTitle = "⚙テンプレートの作成"
 toc = true
 weight = 151
+# tags = ["テンプレート", "PDF出力", "要編集者権限"]
 # aliases = []
 # images = []
-mermaid = true
 +++
 
 ## テンプレートとはデータ入力の枠組みのことです{#template_definition}

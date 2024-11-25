@@ -166,3 +166,7 @@ blockquote {
   font-size: 1.3em;
 }
 
+/** バグフィックス: TOPページで link-cardを使うと微妙にずれるバグを回避させる */
+.home .content .card-body {
+  padding-top: 1rem !important;
+}

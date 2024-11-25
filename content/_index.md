@@ -9,10 +9,7 @@ date = "2023-04-01"
 showPrice = true
 +++
 
-<!--
-{{< link-card title="マニュアル:グループの作成" href="/docs/manual/initial-setting/make-group/" >}}
 
--->
 
 
 
@@ -31,9 +28,9 @@ showPrice = true
 テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
 
 
+{{< link-card title="テンプレート作成ガイド" href="/docs/manual/initial-setting/template/make/" >}}
 
 
-{{<btnCenter "/docs/manual/initial-setting/template/make/" "テンプレート作成ガイド">}}
 
 </div>
 <div class="col-lg-9">
@@ -53,7 +50,9 @@ showPrice = true
 
 NipoPlusを使うことで、紙の日報やチェックシートを電子化し、手作業の煩雑さから解放されます。スマホからも簡単に入力・閲覧ができるため、どこからでもアクセス可能です。これにより、作業効率が大幅に向上し、時間とコストの節約が可能です。
 
-{{<btnCenter "/tips/mobile-device/" "モバイルデバイスで日報を書く">}}
+
+{{< link-card title="モバイルデバイスで日報を書く" href="/tips/mobile-device/" >}}
+
 
 
 </div>
@@ -77,8 +76,9 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 <p>製造業、サービス業、教育機関など、あらゆる業種に対応可能</p>
 <div class="mt-auto">
 
+{{< link-card title="テンプレート例" href="/tips/userfriendly/#template_samples_collection" >}}
 
-{{<btnCenter "/tips/userfriendly/#template_samples_collection" "テンプレート一例">}}
+
 </div>
 </div>
 <div class="col-lg-4 rootMainText d-flex flex-column">
@@ -87,7 +87,8 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 <div class="mt-auto">
 
 
-{{<btnCenter "/docs/price/_about/" "ご利用料金">}}
+{{< link-card title="ご利用料金" href="/docs/price/_about/" >}}
+
 
 </div>
 </div>
@@ -96,7 +97,8 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 <p>クラウドでスマホ・タブレットに対応</p>
 <div class="mt-auto">
 
-{{<btnCenter "/tips/mobile-device/" "スマホで日報を書く">}}
+{{< link-card title="スマホで日報を書く" href="/tips/mobile-device/" >}}
+
 </div>
 </div>
 <div class="col-lg-4 rootMainText d-flex flex-column">
@@ -104,7 +106,8 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 <p>データを手軽に集計分析、CSV出力もサポート</p>
 <div class="mt-auto">
 
-{{<btnCenter "/docs/manual/analytics/_about/" "集計・グラフ化">}}
+{{< link-card title="集計・グラフ化" href="/docs/manual/analytics/_about/" >}}
+
 </div>
 </div>
 </div>
@@ -146,8 +149,8 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 [提出先をあらかじめ固定](/docs/manual/initial-setting/staff-local/dist/)しておけば更に楽に使えます
 
 
+{{< link-card title="レポートを書く流れ" href="/docs/manual/write-report/write/" >}}
 
-{{<btnCenter "/docs/manual/write-report/write/" "レポートを書く流れ">}}
 
 
 </div>
@@ -174,7 +177,8 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 見たままに入力できるなら**見たままに出力できる**ことにもこだわって作りました。
 最初に作った日報テンプレートをそのままのレイアウトでPDFに変換出力できます。PDFはA4サイズで、縦・または横レイアウトを[PDF出力設定](/docs/manual/pdf/pdfoption/)で選べます。
 
-{{<btnCenter "/docs/manual/read-report/state/#pdf_export" "マニュアル:PDF出力">}}
+{{< link-card title="PDF出力" href="/docs/manual/read-report/state/#pdf_export" >}}
+
 
 </div>
 <div class="col-lg-9">
@@ -196,7 +200,8 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 一覧表で誰が何件の日報を提出したのか俯瞰できるので、未提出者を早期に、しかも簡単に発見できます。
 シフト登録をしておけば休みなのか、提出忘れなのかもすぐに分かります。
 
-{{<btnCenter "/docs/manual/utils/shift/" "マニュアル:シフト管理">}}
+{{< link-card title="シフト管理" href="/docs/manual/utils/shift/" >}}
+
 
 </div>
 <div class="col-lg-9">
@@ -219,7 +224,9 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 
 動き自体はまさにプログラミングちっくですが、もちろんプログラマが居なくてもご自身で手軽にこの機能を作成することができます。
 
-{{<btnCenter "/docs/manual/initial-setting/template/selects/#dinamic_switch_select" "動的変化について">}}
+
+{{< link-card title="動的変化について" href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select" >}}
+
 
 （※地味に「こんなことできますか？」というお問い合わせが多いのでトップページに追記しました）
 
@@ -245,7 +252,8 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 DX化のメリットはなんといってもデータの集計や分析が容易な点です。日報内の「売上高」や「訪問件数」といった数値データがあれば、それを簡単にグラフ化することが可能です。
 エクセルに日報を転記するよりずっと手軽で効率的です。
 
-{{<btnCenter "/tips/analytics/" "エクセル集計とアプリ集計について">}}
+{{< link-card title="エクセル集計とアプリ集計について" href="/tips/analytics/" >}}
+
 
 </div>
 

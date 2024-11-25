@@ -61,13 +61,14 @@ func1:「止まるんじゃねぇぞ。俺は止まらねぇからよ」と。
 
 {{<figure src="console-log-screen.png"  alt="async・awaitでエラー時に処理が止まらない" caption="async・awaitでエラー時に処理が止まらない" >}}
 
-
 ## なぜfunc1はエラー発生時に止まらないのか？ try・catchを利用しても止まらない理由{#asyncAwaitTrap}
 
 async・awaitは便利ですが特に**エラー発生時の対応に注意が必要**です。async・awaitでエラーが発生しても止まらない原因としてネットで検索すると
 
 ```javascript
-const res = hidouki().catch(e => { console.log(e); } )
+const res = hidouki().catch((e) => {
+  console.log(e)
+})
 ```
 
 のような書き方をすると止まらない記事が結構沢山見受けられました。この書き方を私はしないのでよくわかりませんが、これだと呼び出し先(ここではhidouki関数)でエラーが発生してもキャッチされないとかなんとか。
@@ -75,23 +76,23 @@ const res = hidouki().catch(e => { console.log(e); } )
 理由は単純で、sub関数がエラーを返していないからです。func1でもエラーをキャッチしたい場合や、func1で処理を止めたい場合は次のような1行を付け足すことで解決します
 
 ```javascript
-async function func1 () {
-  console.log('これはfunc1だよ');
+async function func1() {
+  console.log('これはfunc1だよ')
   try {
-    const result = await sub(); // ＜ーこの非同期関数がエラーを起こすシナリオ
-    console.log('subから非同期でデータをとって、resultに格納したよ', result); // ＜ー実行されたらまずいやつ
+    const result = await sub() // ＜ーこの非同期関数がエラーを起こすシナリオ
+    console.log('subから非同期でデータをとって、resultに格納したよ', result) // ＜ー実行されたらまずいやつ
   } catch (e) {
-    console.error('func1でエラーだよ', e);
+    console.error('func1でエラーだよ', e)
   }
 }
-async function sub () {
-  console.log('subです');
+async function sub() {
+  console.log('subです')
   try {
-    const res = await dosome(); // ここで必ずエラーが発生します。dosome関数は存在しないため
-    return res;
+    const res = await dosome() // ここで必ずエラーが発生します。dosome関数は存在しないため
+    return res
   } catch (e) {
-    console.error('subでエラーだよ', e);
-    throw e; // &#x25c0;この1行を付け足すだけですっ
+    console.error('subでエラーだよ', e)
+    throw e // &#x25c0;この1行を付け足すだけですっ
   }
 }
 ```
@@ -99,7 +100,6 @@ async function sub () {
 この処理の結果コンソールはこのようになります
 
 {{<figure src="error-chatch.png"  alt="async関数の呼び出し元で正しくエラーをキャッチできた" caption="async関数の呼び出し元で正しくエラーをキャッチできた" >}}
-
 
 ## そもそもawaitの結果はresolveかrejectと考えれば止まらないのも道理{#asyncAwaitResolveReject}
 
@@ -114,44 +114,42 @@ awaitで呼び出した関数はresolveかrejectを返すのですが、sub関�
 throwをするときは Newするべき！という記事もありますがこれは
 
 ```javascript
-throw 'なんかやばいことが起きた';
+throw 'なんかやばいことが起きた'
 ```
 
 のように文字だけの場合はだめってことです。throw new Error(e)として更に包んでしまうとErrorオブジェクトのなかにErrorオブジェクトという、過剰包装状態になるので注意です。
 
 {{<figure src="over-lap-error.png"  alt="errorオブジェクトをnewErrorで包むと扱いにくくなる" caption="errorオブジェクトをnewErrorで包むと扱いにくくなる" >}}
 
-
 ## throw したあとでもfinallyは実行されます{#finally_executes_even_after_throw}
 
 throwを文中に使うとそこで処理が終わり呼び出し元へ処理が戻ります。そこで疑問になるのがfinally句がどうなるのかですが、心配ご無用。ちゃんとfinallyは実行されます
 
 ```javascript
-async function func1 () {
-  console.log('これはfunc1だよ');
+async function func1() {
+  console.log('これはfunc1だよ')
   try {
-    const result = await sub(); // ＜ーこの非同期関数がエラーを起こすシナリオ
-    console.log('subから非同期でデータをとって、resultに格納したよ', result); // ＜ー実行されたらまずいやつ
+    const result = await sub() // ＜ーこの非同期関数がエラーを起こすシナリオ
+    console.log('subから非同期でデータをとって、resultに格納したよ', result) // ＜ー実行されたらまずいやつ
   } catch (e) {
-    console.error('func1でエラーだよ', e);
+    console.error('func1でエラーだよ', e)
   }
 }
-async function sub () {
-  console.log('subです');
+async function sub() {
+  console.log('subです')
   try {
-    const res = await dosome(); // ここで必ずエラーが発生します。dosome関数は存在しないため
-    return res;
+    const res = await dosome() // ここで必ずエラーが発生します。dosome関数は存在しないため
+    return res
   } catch (e) {
-    console.error('subでエラーだよ', e);
-    throw e; // throwされる
+    console.error('subでエラーだよ', e)
+    throw e // throwされる
   } finally {
-    console.log('このファイナリーは実行されるかな？？？'); // ちゃんと実行される
+    console.log('このファイナリーは実行されるかな？？？') // ちゃんと実行される
   }
 }
 ```
 
 {{<figure src="console-log-finally.png"  alt="finally句が正常に実行されていることが確認できる" caption="finally句が正常に実行されていることが確認できる" >}}
-
 
 いかがでしたか？私は最初、async関数の中でエラーが発生した時にエラーメッセージをユーザに通知するだけの処理を書いただけで、throwしなかったため、呼び出し先では「正常終了」の通知がユーザに表示されるというプログラムを書いたことがあります。
 ユーザから見れば「エラー!失敗です」の直後に「正常終了しました」と相反するメッセージが表示されるため、混乱させてしまったと反省しています。

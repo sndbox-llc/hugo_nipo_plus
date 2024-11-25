@@ -30,9 +30,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポ
 Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/021/4021036/)は若干形式が変わる可能性があるので注意
 {{< /callout >}}
 
-
 【】で囲まれた部分には、独自の値を指定してください。
-
 
 ### 【エンドポイント】{#endpoint}
 
@@ -56,25 +54,23 @@ Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/
 レポート取得に感るうパラメータを紹介します。
 パラメータをセットします。**グループIDは必須**です。必要に応じて複数パラメータを指定できます。
 
-|属性名|型|説明|
-|---|---|---|
-|groupId|String(必須)|取得するグループのID|
-|size|Number|取得するレポートの件数。1〜1000の間で指定します。未指定の場合は10が自動で適用されます|
-|from|String|期間（開始) 2022/08/01 00:00:00のような形で指定。必ずtoとセットで使用|
-|to|String|期間（終了) 2022/09/31 23:59:59のような形で指定。必ずfromとセットで使用|
-|tags|String配列|タグのIDを配列で指定|
-|states|String配列|レポートの状態で絞り込み。["承認", "棄却", "修正", "新規", "進行"]のように指定|
-|templates|String配列|使用したテンプレートのIDで絞り込み。テンプレートIDの配列で指定|
-|owners|String配列|レポート作成者IDで絞り込み。スタッフのIDを配列で指定|
+| 属性名    | 型           | 説明                                                                                  |
+| --------- | ------------ | ------------------------------------------------------------------------------------- |
+| groupId   | String(必須) | 取得するグループのID                                                                  |
+| size      | Number       | 取得するレポートの件数。1〜1000の間で指定します。未指定の場合は10が自動で適用されます |
+| from      | String       | 期間（開始) 2022/08/01 00:00:00のような形で指定。必ずtoとセットで使用                 |
+| to        | String       | 期間（終了) 2022/09/31 23:59:59のような形で指定。必ずfromとセットで使用               |
+| tags      | String配列   | タグのIDを配列で指定                                                                  |
+| states    | String配列   | レポートの状態で絞り込み。["承認", "棄却", "修正", "新規", "進行"]のように指定        |
+| templates | String配列   | 使用したテンプレートのIDで絞り込み。テンプレートIDの配列で指定                        |
+| owners    | String配列   | レポート作成者IDで絞り込み。スタッフのIDを配列で指定                                  |
 
 ### 【取得したAPIキー】{#auth}
 
 取得したAPIキーをCurlに含めてください。長いので必ずコピーペーストして使用してください。
 APIキーの取得が済んでいないかたは先にAPIキーの取得を行ってください。
 
-
 {{< link-card title="APIキーの取得" description="操作ガイド" href="/docs/manual/api/key/" >}}
-
 
 本ガイドではこれ以降も実際のAPIキーは使用せず解説します。
 
@@ -88,7 +84,6 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/reports/admin \
 ```
 
 このコマンドはレポートを取得する命令を送っています。パラメータに期間の指定が無いため、直近10件のレポートがAPI経由で取得できます。
-
 
 ### パラメータを色々指定した実用性のあるCurl{#long_sample}
 
@@ -116,8 +111,6 @@ EOS
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 見やすさを重視してヒアドキュメント（EOSの箇所）を使っています。
 {{< /callout >}}
-
-
 
 この例を少し詳しく見てみます
 
@@ -167,9 +160,9 @@ https://nipoplus.sndbox.jp/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal
 
 パラメータ:
 
-|名称|型|説明|必須|
-|---|---|---|---|
-|groupId|String|取得するグループのID|○|
+| 名称    | 型     | 説明                 | 必須 |
+| ------- | ------ | -------------------- | ---- |
+| groupId | String | 取得するグループのID | ○    |
 
 ```bash {frame="none"}
 # 記述例
@@ -188,12 +181,12 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/templates \
 
 パラメータ:
 
-|名称|型|説明|必須|
-|---|---|---|---|
-|groupId|String|取得するグループのID|○|
-|size|Number|取得するレポートの件数。1〜1000の間で指定|○|
-|from|String|取得するレポートの期間（開始点) 2022/08/01 00:00:00のような形で指定|○|
-|to|string|取得するレポートの期間（終了点) 2022/09/31 23:59:59のような形で指定|○|
+| 名称    | 型     | 説明                                                                | 必須 |
+| ------- | ------ | ------------------------------------------------------------------- | ---- |
+| groupId | String | 取得するグループのID                                                | ○    |
+| size    | Number | 取得するレポートの件数。1〜1000の間で指定                           | ○    |
+| from    | String | 取得するレポートの期間（開始点) 2022/08/01 00:00:00のような形で指定 | ○    |
+| to      | string | 取得するレポートの期間（終了点) 2022/09/31 23:59:59のような形で指定 | ○    |
 
 ```bash {frame="none"}
 # 記述例
@@ -210,9 +203,9 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/logs \
 <dd>スタッフ情報を取得する</dd>
 </dl>
 
-|名称|型|説明|必須|
-|---|---|---|---|
-|groupId|String|取得するグループのID|○|
+| 名称    | 型     | 説明                 | 必須 |
+| ------- | ------ | -------------------- | ---- |
+| groupId | String | 取得するグループのID | ○    |
 
 ```bash {frame="none"}
 # 記述例
@@ -225,6 +218,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 ### 組織全体のエンドポイント{#org}
 
 組織全体に関する情報のためアクセスには[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です。
+
 <dl class="basic">
   <dt>/staffs/admin</dt>
   <dd>組織に所属している全スタッフのデータを取得します</dd>

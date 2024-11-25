@@ -12,7 +12,6 @@ code = true
   priority = 0.5
 +++
 
-
 ## Vue-chart.jsを使わずにグラフを作ってみる{#create_graph_without_using_vue_chart_js}
 
 Vueでグラフを作るには、Vue-chart.jsを使うのが結構簡単ですが、できるだけ依存度を減らしたいので、直接chart.jsを使ってVue.jsでグラフを作成できるようにしてみました。
@@ -91,7 +90,6 @@ getRand関数はランダムな数値の配列を作って返すだけの処理�
 
 {{<figure src="bar_chart.png"  alt="chart.jsを使って棒グラフを作成" caption="chart.jsを使って棒グラフを作成" >}}
 
-
 シャッフルボタンを押すとグラフが再描画されます。
 なおChart.js Version3では再描画時、すでにグラフが生成されているとエラーが発生しますので、先に生成済みのグラフを破壊する必要があります。
 参考：[公式ガイド](https://www.chartjs.org/docs/latest/developers/api.html#destroy)
@@ -103,7 +101,6 @@ getRand関数はランダムな数値の配列を作って返すだけの処理�
 Chart.jsでも型による恩恵を受けることができます。
 
 {{<figure src="chart_ts.png"  alt="chart.jsを使って棒グラフを作成" caption="chart.jsを使って棒グラフを作成" >}}
-
 
 ## Vue-Chart.jsは不要です。意外と簡単に実装できたChart.js{#chartjs_instead_of_vuechartjs}
 

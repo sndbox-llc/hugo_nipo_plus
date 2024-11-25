@@ -11,9 +11,7 @@ aliases = ["/legacy/manual/analytics/"]
   priority = 0.9
 +++
 
-
 日報を電子化することによる恩恵は様々ありますが、**集計・分析はその最たる利点**といっても過言では有りません。
-
 
 左手親指にゆびサックをはめて伝票をめくっていますか？
 報告書を見てExcelに手動で入力していますか？
@@ -26,13 +24,11 @@ aliases = ["/legacy/manual/analytics/"]
 
 {{<icatch filename="kouji" msg="集計対象となる日報の例。文字は集計できないが数値や単語は集計できます"  alice="here">}}
 
-
 日報を集計するということはこれら伝票の束をゆびサックを使ってめくり、電卓やそろばんを叩くことです。そろばんを学んでいた方は伝票計算という種目をイメージするかもしれません。
 
 今の時代はそろばんではなく、計算にはエクセルを使うことが多いでしょう。では１枚１枚の伝票をどのようにエクセルにまとめるのか？これが大きな課題の１つです。
 エクセルに日報のデータを書き写す（転記する）作業は**手間がかかる上に入力ミス、入力漏れといったリスク**が常に付きまといます。
 他にも多くの機能がありますが、まず書き写す作業の削減についてご紹介します
-
 
 ### 数百枚の日報を1枚のエクセルシートに一瞬でまとめることが可能です。集計の準備に最適{#bulk_excel}
 
@@ -57,24 +53,22 @@ Excelを使った様々な集計テクニックについてはExcel活用術と�
 
 {{< link-card title="エクセルを使った日報集計テクニック" href="/excel/" >}}
 
-
 ### 集計の元データをより使いやすい形で出力可能です。用途に応じてCSV出力オプションを設定{#csv_options}
 
 気づいていましたか？先ほどのエクセルでは、日報の提出日が有りませんでした。
 また、日報に対するコメントも出力していますが集計時にコメントは不要です。
 集計時に元の日報を見る必要があるかもしれませんので、元データへ直接アクセスできるURLも出力したほうが確認時に便利です。
 
-
 このように、一口にCSV出力と言っても用途や目的に応じて必要な形式が変わってきます。
 元データを必要な形に近づけることで、その後の集計作業をぐっと楽にできます。次の表は形式を変えて出力した例です。
 
 {{< excelTable >}}
-提出日,  承認者1, 承認者1詳細, 進捗報告, 【人】稼働人員, 【時間】稼働時間, 【kg】投入資材, 現場写真１, 現場写真２, URL
-2024/05/01 09:28,  ueda 管理者, 未処理, これはサンプルです。, 4, 6, 10, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/BSDHA1WMz8xzzDDfMHeb
-2024/05/02 09:28, ueda 管理者, 未処理, サンプルです, 7, 2, 7, CSV出力不可, CSV出力不可,  https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/LdjSfN5Jg3HaRKlTFZzc
-2024/05/03 09:28,  ueda 管理者, 未処理, , 10, 8, 32, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/GElWZRIpTZTxXjuhNuw4
-2024/05/06 09:28,  ueda 管理者, 未処理, , 1, 3, 0, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/Fw0wEYTatjNK1C7T0fRK
-2024/05/07 09:28,  ueda 管理者, 未処理, , 6, 7, 30, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/KAuV5MZ5WLC5WOnSVogD
+提出日, 承認者1, 承認者1詳細, 進捗報告, 【人】稼働人員, 【時間】稼働時間, 【kg】投入資材, 現場写真１, 現場写真２, URL
+2024/05/01 09:28, ueda 管理者, 未処理, これはサンプルです。, 4, 6, 10, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/BSDHA1WMz8xzzDDfMHeb
+2024/05/02 09:28, ueda 管理者, 未処理, サンプルです, 7, 2, 7, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/LdjSfN5Jg3HaRKlTFZzc
+2024/05/03 09:28, ueda 管理者, 未処理, , 10, 8, 32, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/GElWZRIpTZTxXjuhNuw4
+2024/05/06 09:28, ueda 管理者, 未処理, , 1, 3, 0, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/Fw0wEYTatjNK1C7T0fRK
+2024/05/07 09:28, ueda 管理者, 未処理, , 6, 7, 30, CSV出力不可, CSV出力不可, https://nipo-plus.web.app/#/room/BLyx3SG72rId24BnKcGC/JMl7CljRG0xwjqG4RjF5/indigo/reportBox/inbox/detail/KAuV5MZ5WLC5WOnSVogD
 {{< /excelTable >}}
 
 提出日をCSV煮含めたことで並べ替えをしても戻せるようになりました。また、URLも併せて出力したことで、データに不審な点があったときでもURLをクリックして直ぐに元の日報を確認できるため、検証がしやすくなります。
@@ -83,10 +77,7 @@ Excelを使った様々な集計テクニックについてはExcel活用術と�
 
 {{< link-card title="CSV出力オプション" href="/docs/manual/analytics/csvoption/" >}}
 
-
-
 ### 複数のCSVファイルを1つに統合する「CSVSC」のご紹介{#csvsc}
-
 
 CSVはそのままエクセルで開くことができ、集計や並べ替えなど便利に利用できますが、複数のCSVを1つのエクセルシートにまとめる機能はありません。
 ということでNipo公式のCSV結合システムを無償で公開しております。詳しくはCSVSCの紹介に譲りますが、一言で言うと
@@ -94,18 +85,11 @@ CSVはそのままエクセルで開くことができ、集計や並べ替え�
 
 {{< link-card title="CSVSCについて詳しく" href="/tips/csvsc/" >}}
 
-
-
-
-
 ### CSVファイルが文字化けする場合の対策{#text_shaking}
 
 もしダウンロードしたCSVが文字化けする場合は文字コードが正しく解釈されていないためです。古いExcelでよく発生します。解決法については「文字化けについて」の記事をご覧ください
 
-
 {{< link-card title="文字化けについて詳しく" href="/tech/mojibake/" >}}
-
-
 
 ## エクセルを使わない簡単手軽な日報集計も可能{#easy_summary}
 
@@ -114,12 +98,9 @@ NipoPlus自体にも集計やグラフ作成📊機能が備わっています�
 
 {{<figure src="charts.webp"  alt="工事日報を１件表示すると過去の工事日報に遡って一覧表を自動で生成し、グラフもリアルタイムで反映されます" caption="工事日報を１件表示すると過去の工事日報に遡って一覧表を自動で生成し、グラフもリアルタイムで反映されます" >}}
 
-
 このデータは過去データ推移を表しています。集計とは少し意味が異なりますね。単純に合計を表示したい際は推移ではなく「累積」に切り替えることで合計を表示できます。
 
 {{< link-card title="推移について" href="/docs/manual/analytics/transition/" >}}
-
-
 
 またこの集計は「直近30件」という範囲で集計を行います。実務上は直近X件ではなく、「今月」や「先月」といった月単位で集計することが多いことでしょう。
 個々では詳しくは触れませんが、集計期間を指定することで月単位や週単位による集計ももちろん可能です。
@@ -142,8 +123,6 @@ NipoPlusでは案件管理機能があるので今回はこの方法を紹介し
 道路工事A〜Dまでの現場があったとして、各現場毎に投下した資材量や投下した人員などを現場単位で集計しましょう。
 Excelを使った集計では、CSV出力オプションで「案件を出力」をONにすることで案件情報を含んだCSVがダウンロードできます。
 
-
-
 {{< excelTable >}}
 提出日, 案件, 承認者1, 承認者1詳細, 進捗報告, 【人】稼働人員, 【時間】稼働時間, 【kg】投入資材, 現場写真１, 現場写真２
 2024/05/01 09:28, 不明, ueda 管理者, 未処理, これはサンプルです。, 4, 6, 10, CSV出力不可, CSV出力不可
@@ -164,33 +143,26 @@ NipoPlusの集計機能でも案件ごとに分けた集計が可能です。結
 
 {{<iTablet filename="anken-calc" msg="NipoPlusの集計では専門の知識が無くても簡単に案件ごとに分けて集計が可能です" alice="book">}}
 
-
-
-
 ## 日報のデータからKPIを設定して目標までの到達状況を知る{#kpi}
 
 KPIとは組織やプロジェクトの目標達成度を測定するために使われる指標です。
 例えば今月の納品目標個数が800個と設定し、今月の累積納品数を見ることで目標に対して今どの程度進捗しているかを知ることが可能です。
 NipoPlusはKPI専用のソフトでは有りませんが似たような機能を有しています。簡易的なKPI測定であれば日報のデータからそのままリアルタイムに進捗を知ることが可能です。
 
-
 {{<alice pos="right" icon="default">}}
 超簡単に言えば進捗度管理です
 {{</alice>}}
-
 
 この機能は自動車部品製造メーカ様の要望で実装されました。
 さて、KPIによる進捗の確認をするために１つのシンプルな日報を用意しました。
 
 {{<icatch filename="make-receipt" msg="部品の生産個数を入力するだけの伝票のような日報。もはや伝票と表現したほうが適切？" alice="question">}}
 
-
 さてこの日報（伝票）には生産個数を入力する欄がありますが、この生産個数を累積すればKPIの測定ができるわけです。話は実に単純明快です。
 累積を追尾したい項目をKPIツールに設定することで、現在の進捗状況を一覧表で見ることが可能です。
 製造業に特化して作られているため、全体の進捗度、日別の進捗状況、前月の在庫などを反映させることも可能です。
 
 そして次のような条件があるとします。
-
 
 - 今月800個納品する必要がある
 - 月稼働20日＝1日40個作る必要がある
@@ -200,7 +172,6 @@ NipoPlusはKPI専用のソフトでは有りませんが似たような機能を
 日報から生産数をキーとして進捗管理表を作成することで次のような表が生成できます
 
 {{<figure src="kpi-1.webp"  alt="製造数は日報から自動で吸い上げてKPI表に反映されます。日々の進捗を確認し遅れがあれば早期に対応するなどの判断が可能です" caption="製造数は日報から自動で吸い上げてKPI表に反映されます。日々の進捗を確認し遅れがあれば早期に対応するなどの判断が可能です" >}}
-
 
 １日単位の進捗のほか、累積による進捗も確認が可能です。これにより遅れを早期に発見して事前に増産する等の判断材料として活用できます。
 このKPI進捗の表は複数種類作成が可能です。ボタンクリックでKPIの対象を瞬時に切り替えが可能です。
@@ -221,12 +192,7 @@ label, d20240501, d20240502, d20240503, d20240504, d20240505, d20240506, d202405
 このように現場のチェックシートや製造レポートを電子化することで、進捗の管理といった使い方も可能になり、データ活用がより効率よく行えることでしょう。
 進捗管理表の詳しいガイドは以下のリンクをクリックしてください。
 
-
 {{< link-card title="予定実績表の操作ガイド" href="/docs/manual/analytics/progress/" >}}
-
-
-
-
 
 ### 異なる種類のチェックシートを同時に集計するクロス集計{#cross}
 
@@ -244,13 +210,10 @@ label, d20240501, d20240502, d20240503, d20240504, d20240505, d20240506, d202405
 
 {{< link-card title="クロス集計のマニュアル" href="/docs/manual/analytics/cross/" >}}
 
-
 上図はクロス集計の結果をもとに不良率の高い順に並べ替えをしている図です。
 A部品のチェックシートとB部品のチェックシート、お互いに異なるチェックシートを1つの表にまとめて比較や並べ替えができます。
 
-
 ## 総括{#summary}
-
 
 このページでは**日報の集計**にフォーカスを当てていくつかの機能を駆け足で紹介させていただきました。
 単純なデータの集計や転記は人よりも機械のほうがはるかに得意な領域です。

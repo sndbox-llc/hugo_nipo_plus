@@ -18,13 +18,9 @@ weight = 510
 [PDF出力の設定](/docs/manual/pdf/pdfoption/)についてはこちらをご覧ください
 {{< /callout >}}
 
-
-
-
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 一括PDF出力は50件を超えない範囲で操作してください
 {{< /callout >}}
-
 
 レポートをまとめてPDFに変換してダウンロードできます。
 一括PDF出力はいくつかのやり方があります。
@@ -43,15 +39,12 @@ weight = 510
 カレンダー上に表示されているレポートをまとめてPDF出力することができます。
 フィルターで「承認のみ」のように絞り込むことで、必要なPDFのみを効率よく出力可能です。
 
-
 1. [カレンダー](/docs/manual/read-report/list/#calendar)を開く
 2. 「◯件PDF」と表示されたボタンをクリック
 3. PDF生成完了を待つ
 4. 完了後にポップで通知
 
 {{<icatch filename="calendar-pdf" msg="カレンダー上に表示されているレポートをワンクリックでまとめてPDFに変換する">}}
-
-
 
 ## 受信BOXからレポートを一括でPDF出力する{#box}
 
@@ -77,7 +70,4 @@ weight = 510
 
 {{< link-card title="ZIPの文字化け対策" description="ダウンロードしたZIPファイルが文字化けする原因と解決策について" href="/tech/mojibake/" >}}
 
-
-
 ---
-

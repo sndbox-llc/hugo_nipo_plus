@@ -174,10 +174,10 @@ main();
 
 ```javascript
 // インポートの追加
-import { getStorage } from 'firebase-admin/storage';
+import { getStorage } from 'firebase-admin/storage'
 
-const storage = getStorage();
-archive.pipe(storage.bucket().file('path/to/出力するファイル名.zip').createWriteStream());
+const storage = getStorage()
+archive.pipe(storage.bucket().file('path/to/出力するファイル名.zip').createWriteStream())
 ```
 
 ## 非同期処理とCloud Functionsのライフサイクルに注意する{#functions_lifecycle}

@@ -12,7 +12,6 @@ code = true
   priority = 0.2
 +++
 
-
 この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/fulltext/)を書きました。
 
 ## AlgoliaからTypeSenseへ切り替えは可能か？{#switching_from_algolia_to_typesense}
@@ -42,7 +41,6 @@ Typesenseの情報自体はまだまだ少ないです。日本語によるTypes
 [Typesense Cloud](https://cloud.typesense.org/)の料金は使用するメモリ量やCPU、リージョンによって変わりますが、最小構成で、リージョンを「ムンバイ」にすると月額費用はたったの7.2ドルです。
 
 {{<figure src="typesense_price.png"  alt="TypesenseCloudの料金はリージョンによっても金額が変わります。ムンバイは特にリーズナブルな価格で提供されています" caption="TypesenseCloudの料金はリージョンによっても金額が変わります。ムンバイは特にリーズナブルな価格で提供されています" >}}
-
 
 メモリが0.5GBは実運用では足りないと思いますが、ちょっと使ってみるにはお手軽です。多少遅くても、Algoliaよりずっと安価で導入できるのは魅力的ですね。（データ0件ならAlgoliaのほうが安いですが・・・）
 
@@ -121,7 +119,6 @@ Typesenseへの書き込みなんかは、公式サイトの[データ書き込�
 
 {{<figure src="typesense_price.png"  alt="Typesenseのコンソールから保存されたデータをGUIで確認できます。" caption="Typesenseのコンソールから保存されたデータをGUIで確認できます。" >}}
 
-
 実際に書き込まれた内容はTypesenseの管理コンソールからも確認できます。GUIで見れるのは嬉しいですね。
 そして検索するときも、検索キーワードをバイグラムに変換して検索することで、目的のデータを引っ張ってくることが可能です。
 
@@ -142,9 +139,9 @@ Cloud Functionから本人確認のプロセスを経て、制限付きのAPIキ
 const limitedKey = client.keys().generateScopedSearchKey(
   dangerKey.value, // Typesenseで作成した鍵を渡します。これはそのまま使ったらあかんやつです
   {
-    'filter_by': `groupId:${groupId}`, // groupIdでフィルターします。これでこの鍵は他のgroupIdデータにアクセスできません
-    'expires_at': expiresAt // 有効期限なども必要に応じて設定できます
-  }
+    filter_by: `groupId:${groupId}`, // groupIdでフィルターします。これでこの鍵は他のgroupIdデータにアクセスできません
+    expires_at: expiresAt, // 有効期限なども必要に応じて設定できます
+  },
 )
 ```
 
@@ -248,12 +245,9 @@ TypeScriptに対応したV1.0.0で初期化の引数型似バグがあり、[Iss
 
 {{<figure src="typesense_search.png"  alt="Nipoで日報を検索する画面" caption="Nipoで日報を検索する画面" >}}
 
-
 実際にTypesenseのサーバから帰ってくる値はこんな感じです
 
-
 {{<figure src="typesense_result.png"  alt="検索結果の画面" caption="検索結果の画面" >}}
-
 
 NipoではBi-gramではなくUni-gramで分解しています。つまり1文字づつ分解します。
 数字なんかは分解するとノイズが酷いため、数字は1つのブロックとして分解しないようにしています。

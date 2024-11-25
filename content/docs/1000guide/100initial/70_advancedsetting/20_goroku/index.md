@@ -13,9 +13,7 @@ weight = 172
 語録は[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)と組み合わせて使用する必要が有ります。単体では機能しません。
 {{< /callout >}}
 
-
 ## 語録機能とは？{#about}
-
 
 語録とはシンプルな単語の集まり（単語帳）です。
 語録単体では機能せず、[選択式入力フォーム（単体）](/docs/manual/initial-setting/template/selects/#plain)または[選択式入力フォーム（複数）](/docs/manual/initial-setting/template/selects/#multiple)と組み合わせて使用します。
@@ -59,12 +57,10 @@ weight = 172
 常に動的に単語を増やしたい場合は語録を使ってください。
 増えた単語は同じリストを使用したフォームでリアルタイムに反映されます。
 
-
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 単語追加は編集者権限が必要では？
 語録内単語の新規追加だけは例外で、スタッフ権限でも追加することが可能です。（単語の削除や上書きは編集者権限が必要です）
 {{< /callout >}}
-
 
 ## 語録の整理{#edit}
 

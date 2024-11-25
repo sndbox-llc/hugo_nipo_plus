@@ -13,9 +13,7 @@ aliases = ["/tips/taxi/"]
   priority = 0.9
 +++
 
-
 ## NipoPlusってどんな使われ方をしているの？{#howtousage}
-
 
 NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-setting/template/make/)することで、様々な業種、業界で使用することが可能です。
 しかしこれだと漠然としすぎてしまい、結局のところ何ができるのかわかりにくいですね。
@@ -26,9 +24,6 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 では、実際にNipoPlusを使っているお客様はどんな使い方をしているのでしょうか？
 今からご紹介するいくつかの事例は、実在するお客様のユースケースを特定できない形でご紹介するものです。
 
-
-
-
 ## 鉄鋼業で製造設備の保守点検としてNipoPlusを使用{#steelFactory}
 
 もともと[カミナシ（現在はカミナシレポートに改名）](https://kaminashi.jp/)を利用していた鉄鋼業のお客様は、コスト削減のためNipoPlusに移行しました。
@@ -37,21 +32,16 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 
 お話を伺ったかぎりでは、次の画像のように点検機材ごとにテンプレートを作成して管理されているとのことでした。
 
-
 {{<icatch filename="s1" msg="製造業は点検機器ごとにテンプレートを作るとGoodです。タグで管理すれば効率UP" alice="ok">}}
 
 ただ、製造業は点検項目や点検シートの種類が膨大で、最初の設定が大変だったとのご意見もいただきました。
 
-
 現在では、設備点検だけでなく、日報管理にもNipoPlusを使用しており、100名以上の従業員が日々活用しています。
 より簡単にテンプレートの作成ができるよう、改良を進めたいと思います。貴重なご意見、ありがとうございました。
-
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 100名オーバーの規模でも使用できる例でした。
 {{< /callout >}}
-
-
 
 ## 警備会社で警備報告をNipoPlusに入力、顧客にはPDFで報告{#securityService}
 
@@ -70,9 +60,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 点検者の多くは年配の方とのことで、画面の大きなタブレットを使って点検されています。
 画面自体の大きさも重要ですが、NipoPlusには画面の文字サイズを調整する機能も備わっているため、小さな文字が見えにくい方にも安心してご利用いただいております。
 
-
 {{<iTablet filename="tenken" msg="文字サイズが簡単に調整できるので年輩の方にもGood" alice="ok">}}
-
 
 特に数値の入力が多いとのことで、より効率よく入力できる「テンキー機能」をNipoPlusに追加させていただくきっかけとなりました。
 お客様からの様々なフィードバックはNipoPlusの品質向上に大変役立っております。
@@ -93,10 +81,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 繁忙期や必要な時期だけ区切って使えるのもNipoPlusのメリットです
 {{< /callout >}}
 
-
 ## 自動車部品製造メーカーで品質チェックにNipoPlusを利用{#carFactory}
-
-
 
 自動車のエンジンに使われる部品を製造しているメーカ様です。品質チェックは人の生死に関わるとても重要な工程とのことです。
 自動車業界では点検した結果を10年以上保管する必要があり、検査結果の保管場所に困っていたとのことです。（一部屋丸ごと保管スペースになっていたとか）
@@ -106,7 +91,6 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 
 {{<iTablet filename="factory" msg="効率よく入力するために数値入力を敢えて選択式とする工夫がなされていました" alice="ok">}}
 
-
 点検台の上にタブレットを固定し、点検をしながらタブレットを操作して効率よく点検を行っています。
 製品のズレ幅を記録する必要がありますが、キー入力ではなくあえて[選択式入力](/docs/manual/initial-setting/template/selects/#plain)を採用することで、点検の入力効率を高めています。
 NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に「続けて書く」という機能がありますが、この機能はこちらのお客様の希望によって実装されたものです。工場では効率が最も重要とのことでした。
@@ -114,7 +98,6 @@ NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に�
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 部屋ひとつ分の紙を減らす一助となれて幸いです
 {{< /callout >}}
-
 
 ## 製造業で外注の職人作業報告にNipoPlusを活用{#builder}
 
@@ -128,12 +111,9 @@ NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に�
 社内だけではなく、外部との業務報告としてもNipoPlusを使うことができる例でした。
 {{< /callout >}}
 
-
 ## タクシーの営業報告にNipoPlusを使用{#taxi}
 
 {{<figure src="taxi.png"  alt="タクシー日報のテンプレート一例" caption="タクシー日報のテンプレート一例" >}}
-
-
 
 過去にタクシー業界でNipoPlusを営業報告書として利用していたお客様もいました。
 残念ながら現在は専用システムに移行されていますが、一定期間NipoPlusによる報告書作成を利用されており、顧客報告に役立ちました。
@@ -141,4 +121,3 @@ NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に�
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 少し特殊ですがこのような用途にも使えるという一例でした
 {{< /callout >}}
-

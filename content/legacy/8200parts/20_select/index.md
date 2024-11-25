@@ -12,13 +12,11 @@ isNipo = true
   priority = 0.2
 +++
 
-
 ## 選択肢入力フォーム（単体）{#single}
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#plain)。
 {{< /callout >}}
-
 
 あらかじめ回答を用意しておき、日報作成時に該当するものを１つだけ選ぶことで入力できます。回答を画面にすべて表示する「ラジオ式」と、回答を１つのボックスにまとめて、プルダウンで入力する「セレクト式」があります。上図のケースでは、左の列が「ラジオ式」で右の列が「セレクト式」になります。
 選択肢は無料プランで5こまで、有料プランでは50こまで作成できます。足りない場合は2つに分けるなどして対応してください。
@@ -26,7 +24,6 @@ isNipo = true
 例えば「天気」を書く場合にこの項目は便利です。「晴れ・曇・雨」を用意しておけば、入力するスタッフも簡単です。
 
 {{<iTablet filename="select" msg="選択肢を日報に添付した様子"  alice="ok">}}
-
 
 ### 選択肢（単回答）を含んだ日報の各種出力画面{#outputSingle}
 
@@ -52,11 +49,9 @@ apple, banana, apple, banana, banana, -
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。
 選択肢の入力はNipo【旧版】の[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
 
-
 {{<alice pos="left" icon="default">}}
 詳しくは集計のページを御覧ください
 {{</alice>}}
-
 
 ### 設定画面{#settingSingle}
 
@@ -81,10 +76,7 @@ apple, banana, apple, banana, banana, -
   <dd>すでに追加した選択肢が一覧で表示されます。ペンアイコンで選択肢の編集、ゴミ箱アイコンをクリックするとその選択肢が削除されます。</dd>
 </dl>
 
-
 ---
-
-
 
 ## 選択肢入力フォーム（複数回答）{#multiselect}
 
@@ -92,13 +84,10 @@ apple, banana, apple, banana, banana, -
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#multiple)。
 {{< /callout >}}
 
-
 回答をいくつか用意しておき、その中から複数選択することで回答できます。入力時の表示方式は、選択肢をすべて画面に表示する「チェックボックス式」と、選択肢をプルダウンから選ぶ「セレクト式」が選べます。上図のケースでは、左列が「チェックボックス式」で右列が「セレクト式」になります。
 選択肢は無料プランで5こまで、有料プランでは50こまで作成できます。足りない場合は2つに分けるなどして対応してください。
 
 {{<iTablet filename="selects" msg="複数個選べるのが特徴です"  alice="ok">}}
-
-
 
 ### 選択肢（単回答）を含んだ日報の各種出力画面{#outputMulti}
 
@@ -108,11 +97,9 @@ apple, banana, apple, banana, banana, -
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。
 選択肢の入力はNipo【旧版】の[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
 
-
 {{<alice pos="left" icon="default">}}
 詳しくは集計のページを御覧ください
 {{</alice>}}
-
 
 ### 設定画面{#settingMulti}
 
@@ -137,10 +124,7 @@ apple, banana, apple, banana, banana, -
   <dd>すでに追加した選択肢が一覧で表示されます。ペンアイコンで選択肢の編集、ゴミ箱アイコンをクリックするとその選択肢が削除されます。</dd>
 </dl>
 
-
-
 ---
-
 
 ## チェックボックス入力フォーム{#checkbox}
 
@@ -152,7 +136,6 @@ apple, banana, apple, banana, banana, -
 入力必須の指定がされた場合、チェックがONになっていないと、提出ができません。（入力必須の設定については後述）
 
 {{<iTablet filename="checkbox" msg="チェックボックスの日報を入力する画面"  alice="ok">}}
-
 
 ### チェックボックスを含んだ日報の各種出力画面{#outputCheckbox}
 

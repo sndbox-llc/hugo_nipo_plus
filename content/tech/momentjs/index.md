@@ -12,7 +12,6 @@ code = true
   priority = 0.3
 +++
 
-
 Javascriptで日付を扱う際は、「Moment一択」という方もいるのではないでしょうか？私自身、日付の処理はMoment.jsで行っていましたが、久しぶりに[Moment.js公式サイト](https://momentjs.com/docs/)を訪問したところ、なんとMomentが非推奨になっていました。
 
 ## Javascriptで日付といったらMomentの時代は終わったようです{#momentjsIsEnd}
@@ -32,7 +31,6 @@ Maroudはそんなさなかの開発だったので、最初からDayjsを選択
 老朽化に伴いMomentの更新はメンテナンスモードとなりますが、未だにMoment.jsの人気はすごいです。
 
 {{<figure src="moment.png"  alt="moment.jsのダウンロード数" caption="moment.jsのダウンロード数" >}}
-
 
 moment.jsのダウンロード数。むしろ増えているのでは？
 

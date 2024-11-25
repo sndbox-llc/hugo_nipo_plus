@@ -10,7 +10,6 @@ weight = 156
 # images = []
 +++
 
-
 数値は文字と違い、集計や計算に適しています。
 NipoPlusで数値の入力をするフォームは何種類かあります。
 
@@ -27,38 +26,29 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 <dd>他の数値入力フォームの値を参照し、自動で計算後の結果を表示します。例えば税別で入力した値を税込みにして出力するようなことが可能です</dd>
 </dl>
 
-
-名称|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/#searchFunction)|
-|:---:|:---:|:---:|:---:|:---:|
-|数値入力|⭕|⭕|⭕|⭕|
-|レート|⭕|⭕|⭕|⭕|
-|スライダ|⭕|⭕|⭕|⭕|
-|範囲|✗|⭕|⭕|⭕|
-|算術|⭕|⭕|⭕|✗|
-
+|   名称   | [集計可否](/docs/manual/analytics/) | [CSV出力](/docs/manual/analytics/csv/) | [PDF出力](/docs/manual/read-report/state/#pdf_export) | [文字検索](/docs/manual/read-report/list/#searchFunction) |
+| :------: | :---------------------------------: | :------------------------------------: | :---------------------------------------------------: | :-------------------------------------------------------: |
+| 数値入力 |                 ⭕                  |                   ⭕                   |                          ⭕                           |                            ⭕                             |
+|  レート  |                 ⭕                  |                   ⭕                   |                          ⭕                           |                            ⭕                             |
+| スライダ |                 ⭕                  |                   ⭕                   |                          ⭕                           |                            ⭕                             |
+|   範囲   |                  ✗                  |                   ⭕                   |                          ⭕                           |                            ⭕                             |
+|   算術   |                 ⭕                  |                   ⭕                   |                          ⭕                           |                             ✗                             |
 
 ## 数値系の入力フォームをテンプレートに追加する{#addForm}
 
 数値系の入力フォームはテンプレート編集画面の左パネルから追加できます
 
-
 {{<icatch filename="add-parts-num" msg="数値入力フォームをテンプレートに追加してみよう" alice="here">}}
-
 
 ## 通常の数値入力{#commonNumber}
 
 最も普通な数値の入力フォームをレポートに追加できます。小数点や負数もOK。「円・キロ」などの単位も任意に設定できます。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#number)
 
-
-
 {{<icatch filename="math-input" msg="金額や距離・個数など、数値の入力に最適" alice="ok">}}
-
-
 
 <details>
   <summary>数値入力フォーム詳細設定</summary>
-
 
 <dl class="basic">
   <dt>入力必須</dt>
@@ -75,15 +65,9 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 </details>
 
-
-
-
-
 ### 数値入力フォームのデータ活用{#subtotal_normal}
 
 数値データは集計やグラフ化に適しています。たくさんのレポートから簡単にグラフや一覧表を作成可能です
-
-
 
 <details>
   <summary>グラフ化</summary>
@@ -94,17 +78,13 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
-
 </details>
-
-
 
 <details>
   <summary>CSV</summary>
 
 数値のレポートはCSVに出力できます。
 設定で指定した数値の**単位**については、CSV上のラベル（1行目）に【】に囲まれて出力されます。
-
 
 {{< excelTable >}}
 提出日, 【Km】走行距離, 【リットル】消費ガソリン, 【件】訪問件数, 【件】内見込み, 【件】契約件数, 【千円】契約総額
@@ -115,15 +95,9 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 2023/06/08, 11, 23, 33, 4, 16, 22
 {{< /excelTable >}}
 
-
 </details>
 
-
 ---
-
-
-
-
 
 ## レート入力{#rate}
 
@@ -133,7 +107,6 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 {{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力方式です。NipoPlusも高評価よろしくね"  alice="please">}}
 
 レートはPDFに出力可能ですが、使用可能フォントの関係上★などのアイコンの代わりに●と◯で代用されます。
-
 
 <details>
   <summary>レートフォーム詳細設定</summary>
@@ -156,12 +129,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 </details>
 
-
-
-
-
 ### レート入力フォームの集計{#subtotal_rate}
-
 
 集計・グラフ化が可能です。レート入力は２つの集計方式があります。
 
@@ -177,11 +145,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
-
 </details>
-
-
-
 
 <details>
   <summary>レートフォームデータをCSV出力</summary>
@@ -189,7 +153,6 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 レートのデータは[CSV出力オプション](/docs/manual/analytics/csvoption/)で列展開の形式を変更可能です。
 
 **列展開がON**の場合のCSV出力例（一部省略）
-
 
 {{< excelTable >}}
 提出日, 調査地住所, 【0】日当たり, 【1】日当たり, 【2】日当たり, 【3】日当たり, 【4】日当たり, 【5】日当たり
@@ -199,11 +162,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 2023/06/08 09:35, 栃木県宇都宮市XXXX, -, -, -, -, ⭕, -
 {{< /excelTable >}}
 
-
-
-
 **列展開がOFF**の場合のCSV出力例
-
 
 {{< excelTable >}}
 提出日, 調査地住所, 日当たり, 利便性, 周囲の静音性
@@ -215,10 +174,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 列展開がONだと列数が多くなることに注意してください。
 
-
-
 </details>
-
 
 ---
 
@@ -230,7 +186,6 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{<icatch filename="slider-input" msg="つまみをスライドさせて数値の入力ができます。キーボード不要のお手軽数値入力" alice="ok">}}
 
-
 用途としては次のようなものがあります
 
 - 室温など上限下限がある程度決まっているもの
@@ -239,7 +194,6 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 「本日の来客者」のように上限が予測できない項目には不向きです
 {{< /callout >}}
-
 
 <details>
   <summary>数値入力フォーム詳細設定</summary>
@@ -265,19 +219,13 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。
 {{< /callout >}}
 
-
-
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
 </details>
 
-
-
-
 ### スライダのデータを集計{#subtotal_slider}
 
 スライダは数値のためデータ集計に対応しています。
-
 
 <details>
   <summary>グラフ化</summary>
@@ -285,7 +233,6 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 {{<icatch filename="slider_charts" msg="スライダフォームのデータをグラフ化してみたよ">}}
 
 </details>
-
 
 <details>
   <summary>CSV出力</summary>
@@ -300,20 +247,15 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 2023/06/08 11:04, -7, 0, 9, 重量誤差過大
 {{< /excelTable >}}
 
-
 </details>
 
-
 ## 範囲{#range}
-
 
 スライダにつまみが2つあります。これらを操作して範囲を入力できます。
 用途としては最低水温〜最高水温など、用途がやや限定的なフォームです。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#range)
 
-
 {{<icatch filename="range-input" msg="最低〜最大など 範囲の数値入力に" alice="ok">}}
-
 
 <details>
   <summary>範囲入力フォーム詳細設定</summary>
@@ -341,13 +283,9 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。
 {{< /callout >}}
 
-
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
 </details>
-
-
-
 
 ### CSV出力{#csv_range}
 
@@ -361,14 +299,11 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 2023/06/08 01:28, 22, 28, 14, 19, 水温異常なし
 {{< /excelTable >}}
 
-
-
 ---
 
 ## 算術フォーム{#calc}
 
 {{<icatch filename="calc-icatch" msg="簡単な四則演算ができる特殊なフォームです。自動で入力されるから手動入力はできないよ"  alice="pc">}}
-
 
 算術フォームは他のフォームと大きく異なります。
 
@@ -376,11 +311,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 - 他の入力フォームを見て所定の計算式を実行する
 - 計算結果がフォームの結果として表示される
 
-
-
-
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#calc)
-
 
 最も重要なのは計算式を正しく作成することです。
 
@@ -397,7 +328,6 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 式が正しく機能するかはプレビューで確認してください。
 
 {{<nextArrow>}}
-
 
 ### 算術で利用可能な入力フォーム{#required}
 

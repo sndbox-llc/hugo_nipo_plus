@@ -22,26 +22,21 @@ weight = 155
 <dd>ZipやExcelなど、いわゆる通常のファイルを添付可能です</dd>
 </dl>
 
-
-
-名前|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/#searchFunction)|
-|:---:|:---:|:---:|:---:|:---:|
-|署名|✗|✗|⭕|✗|
-|写真|✗|✗|⭕|✗|
-|ファイル|✗|✗|✗|✗|
+|   名前   | [集計可否](/docs/manual/analytics/) | [CSV出力](/docs/manual/analytics/csv/) | [PDF出力](/docs/manual/read-report/state/#pdf_export) | [文字検索](/docs/manual/read-report/list/#searchFunction) |
+| :------: | :---------------------------------: | :------------------------------------: | :---------------------------------------------------: | :-------------------------------------------------------: |
+|   署名   |                  ✗                  |                   ✗                    |                          ⭕                           |                             ✗                             |
+|   写真   |                  ✗                  |                   ✗                    |                          ⭕                           |                             ✗                             |
+| ファイル |                  ✗                  |                   ✗                    |                           ✗                           |                             ✗                             |
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 ※写真は複数添付可能ですが、PDF出力時は先頭の１枚目のみ出力可能です。全てPDFに出力する際は複数の写真入力フォームを設置してください
 {{< /callout >}}
-
 
 ## ファイル系の入力フォームをテンプレートに追加する{#addForm}
 
 左パネルからクリックしてバイナリファイルをレポートのテンプレートに追加できます。
 
 {{<icatch filename="add-binary" msg="左のパーツリストからバイナリ関係のパーツを追加します。緑色がバイナリ系です">}}
-
-
 
 ## 署名・イラストフォーム{#sign}
 
@@ -53,11 +48,8 @@ weight = 155
 
 {{<figure src="use-stylus-pen.webp"  alt="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" caption="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" >}}
 
-
 スタイラスペンや指でキャンバスに自由に描くことができます。顧客からの受領サインが必要な場合や、手書きのイラストが必要な場合に便利です。
 [特設記事](/tips/mobile-device/#draw_sign)も御覧ください
-
-
 
 <details class="mb-5">
   <summary>詳細設定</summary>
@@ -71,52 +63,38 @@ weight = 155
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
-
 </details>
 
 描かれたデータはレポート内に埋め込まれます。大きさはレポートのテンプレートによって変化します。
 
 {{<icatch filename="sign-post" msg="テンプレートの幅によって大きさが変わって見えます" alice="here">}}
 
-
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 あくまで縮小されるだけでもとの署名データは同一です
 {{< /callout >}}
-
-
-
 
 ### 署名のレポートをPDFに出力{#pdf_sign}
 
 署名・イラストはPDF出力にも対応しています。署名の大きさはテンプレートの設定により変化します。幅4〜6程度を推奨します。
 
-
 ---
 
 ## 写真入力フォーム{#picture}
 
-
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#picture)
 
-
 {{<icatch filename="posted1" msg="スマホならカメラでパシャ。そのまま添付のお手軽さ"  alice="phone">}}
-
-
 
 レポートに画像ファイルを添付できます。
 画像ファイルは1枚あたり5MBまで、合計10枚までアップロードできます。
 後述する[ファイル入力フォーム](#file)でも写真を添付できますが、ファイル入力フォームはレポートを表示しても写真は見えず、手動でダウンロードして開く必要があります。
 ファイル入力はより汎用的ですが、利便性では写真入力フォームのほうが優れています。
 
-
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 写真UP時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/_about/#fee)は中画質、[無料プラン](/docs/price/_about/#free)は低画質）
 {{< /callout >}}
 
-
 {{< link-card title="写真付きレポート" description="特設記事" href="/tips/mobile-device/" >}}
-
-
 
 <details>
   <summary>詳細設定</summary>
@@ -129,13 +107,6 @@ weight = 155
 
 </details>
 
-
-
-
-
-
-
-
 ### PDFに出力{#pdf_picture}
 
 PDFに出力する際、添付した画像が複数枚ある場合は先頭の1枚目のみ出力されます。2枚目以降は出力されない点に注意してください
@@ -144,24 +115,17 @@ PDFに出力する際、添付した画像が複数枚ある場合は先頭の1�
 また、極端に小さい幅だと枠線からはみ出すことがあります。
 PDF出力を前提とする場合、写真入力フォームの幅は最低でも5以上を取るようにしてください。
 
-
-
-
-
 ---
 
 ## ファイル{#file}
-
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 写真データを添付したい場合は[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)をご利用ください。PDF出力時などに差がでます。
 {{< /callout >}}
 
-
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#file)
 
 {{<icatch filename="file-post" msg="添付されたファイルはクリックしてローカルにダウンロードして使用できます" alice="ok">}}
-
 
 レポートにファイルを添付できるフォームを追加できます。1つのファイルにつき1MB、最大で10ファイルまでファイルを添付できます。
 ファイルの追加はファイル入力フォームをクリックまたはフォーム上にドロップします。
@@ -172,11 +136,9 @@ PDF出力を前提とする場合、写真入力フォームの幅は最低で�
 レポートを受け取った際はそのレポートに添付されたファイルが一覧で表示されます。クリックで添付されたファイルをダウンロード可能です。
 仮に添付されたファイルが画像データであってもプレビューされません。[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)との大きな違いの１つです。
 
-
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 もとのファイル名に加えて無作為なランダム文字列が追加されます。完全に同じ名前ではないことに注意
 {{< /callout >}}
-
 
 ファイル入力フォームはPDF出力に対応していません
 

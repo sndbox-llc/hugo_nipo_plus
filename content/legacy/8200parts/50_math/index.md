@@ -12,14 +12,11 @@ isNipo = true
   priority = 0.2
 +++
 
-
-
 ## シンプルな数値入力{#plain}
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#commonNumber)。
 {{< /callout >}}
-
 
 数値項目はその名の通り**数値のみ入力が可能**です。（整数・負数・小数点が指定可能です）この項目の特徴は、集計され、グラフ化の対象となることです。
 数値の範囲が限定的であれば、数値ではなく[スライダー](/legacy/parts/slide/)の利用を検討してください。
@@ -33,7 +30,7 @@ CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
 sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
-12300, 2330, 330, 98990, _
+12300, 2330, 330, 98990, \_
 {{< /excelTable >}}
 
 数値パーツは[集計](/legacy/manual/analytics/)ができます。例えばスタッフごとの期間推移を表示した例は次のとおりです
@@ -73,7 +70,6 @@ sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
 類似パーツに「数値」があります。
 
 {{<iTablet filename="slider" msg="スライダーを日報に添付した様子"  alice="ok">}}
-
 
 ### スライダーを含んだ日報の各種出力画面{#outputSlider}
 
@@ -153,7 +149,6 @@ CSV出力時は次のように表示されます。
 
 テンプレートの編集画面では次のような設定項目があります。
 
-
 <dl class="basic">
   <dt>アイコンの種類</dt>
   <dd>星かハートから選んでください。初期値は「星」です</dd>
@@ -170,7 +165,6 @@ CSV出力時は次のように表示されます。
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#range)。
 {{< /callout >}}
-
 
 数値の範囲入力パーツです。最小値と最大値を設定します。スライダーの左端が最小値、スライダーの右端が最大値になります。1つのスライダーには2つのハンドルが用意され、特定の範囲をスライダーで入力することが可能です。
 スライダー（刻み）と異なり、本パーツで入力されたデータは[集計](/legacy/manual/analytics/)されません。CSV出力でエクセルに書き出した場合、「1〜5」のように文字として入力されます。
@@ -189,7 +183,7 @@ CSV出力時は次のように表示されます。
 {{< excelTable >}}
 sample, test, mock, dummy, コメント
 5〜10, 5〜10, 5〜10, 15〜144,
-14〜20, 0〜5, 1〜200, 125〜144, _
+14〜20, 0〜5, 1〜200, 125〜144, \_
 {{< /excelTable >}}
 
 ### 設定画面{#settingRange}

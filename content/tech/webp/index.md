@@ -26,7 +26,6 @@ date = "2022-11-14"
 
 {{<figure src="sample.jpg"  alt="jpegをWebPに変換したサンプル" caption="jpegをWebPに変換したサンプル" >}}
 
-
 はい、こちらダウンロードしてもらえばわかるんですが、**ファイルサイズは22KB**です。
 一方でWebpに変換する前のJpegはというと、こちらです。
 
@@ -39,15 +38,12 @@ WebPへの変換はこのサイトのジェネレータであるHugoのWebp変�
 
 {{<figure src="squoosh.jpg"  alt="Squoosh画面" caption="Squoosh画面" >}}
 
-
 もう1つサンプルを。
 Nipoのバナー画像をPng形式とWebP形式で比較してみます。幅1500px、色数が128色のPng8です。
 
 まずはPngファイルをWebPに変換したバナー画像です。
 
 {{<figure src="png-sample.png"  alt="pngをWebPに変換したサンプル" caption="pngをWebPに変換したサンプル" >}}
-
-
 
 ファイルサイズは28KBでした。一方で変換前のPngはこちらです。
 
@@ -75,7 +71,6 @@ Pngを小さくするには色情報を減らすことでかなり大きな削�
 
 {{<figure src="color16.png"  alt="色情報16色のPngファイルをWebPに変換" caption="色情報16色のPngファイルをWebPに変換" >}}
 
-
 こちらの**ファイルサイズは48KB**あります。
 一方でWebPに変換しない、Pngそのものはこちら
 
@@ -88,12 +83,10 @@ WebPとPngの逆転現象は色情報が32色以下だと高確率で見かけ�
 
 {{<figure src="squoosh2.png"  alt="色情報16色のPngファイルをWebPに変換" caption="色情報16色のPngファイルをWebPに変換" >}}
 
-
 左側が元画像（Png）で、右がWebPです。ファイルサイズは19%重くなるという結果でした。
 つまりわざわざWebPに変換することで重くなってしまうわけです。
 
 ## それでもWebPは強いので適材適所で使っていきたい{#webp_is_powerful_and_should_be_used_appropriately}
-
 
 本Webサイトはアプリケーションの操作マニュアルの画像がかなり多くを占めているので、いっそのことWebPを廃止した方が全体的に軽量化できる可能性もあります。
 ただこれは**マニュアルのような無機質な画像に対して有効なのであって、写真や色鮮やかなPngファイルにおいてはWebPの圧勝**でした。

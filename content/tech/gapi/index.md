@@ -12,7 +12,6 @@ code = true
   priority = 0.4
 +++
 
-
 Vue js上でGoogleカレンダーのデータを取得して表示しようと思いましたが思いの外苦労しました。
 環境はVue.js(Composition API）＋TypeScriptです。フレームワークは Quasarを使用しています。
 
@@ -21,7 +20,7 @@ Vue js上でGoogleカレンダーのデータを取得して表示しようと�
 今どきのフロントエンジニアっ子はyarn addとか、npm installって叩くだけでその機能が追加できるnode moduleに慣れきっています。逆に、
 
 ```html
-<script src=””></script>
+<script src="””"></script>
 ```
 
 なんて書き方は駄目なのです。Google APIは[GitHub](https://github.com/google/google-api-javascript-client)に公開さているので、yarn　の一文を探すも見当たりません。マニュアルには
@@ -97,9 +96,9 @@ export default defineComponent({
 こんな感じで書くらしい。そして読み込みが終わると、いつのまにかgapiというオブジェクトが使えるようになるのです。
 
 ```javascript
-function test () {
-  console.log('すたーと');
-  gapi.load('client:auth2', initClient);
+function test() {
+  console.log('すたーと')
+  gapi.load('client:auth2', initClient)
 }
 ```
 
@@ -145,13 +144,12 @@ import { defineComponent, onMounted } from '@vue/composition-api';
 
 {{<figure src="gapi_type.png"  alt="GAPIの型定義がVSCode上で認識された" caption="GAPIの型定義がVSCode上で認識された" >}}
 
-
 ## gapi is not definedを回避するためのdeclare{#fixed_declare}
 
 さて、gapiに型が当たりましたがgapi自体はVue上に定義されていません。それもそのはずで、
 
 ```html
-<script src=””></script>
+<script src="””"></script>
 ```
 
 から直接やってくるのですから、未定義として怒られるのは当然です。
@@ -165,7 +163,6 @@ declare const gapi: gapi
 せっかく型が決まったのにdeclareを書くとまたany型になってしまいました。
 
 {{<figure src="gapi_any.png"  alt="declareで宣言するとgapiのタイプがanyになってしまう" caption="declareで宣言するとgapiのタイプがanyになってしまう" >}}
-
 
 色々試行錯誤しましたが、とりあえず次のように書くことでTypeScriptさんを説得します。
 

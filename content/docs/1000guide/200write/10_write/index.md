@@ -18,19 +18,14 @@ weight = 210
 4. [提出先や提出日などの情報をセット](#dist)
 5. [提出ボタンをクリック](#post)
 
-
 ## 使用するテンプレートを選ぶ{#select_template}
-
-
 
 レポート作成をクリックすると使用可能なテンプレート一覧が表示されますので、使用するテンプレートを選びます。
 （※テンプレートが1種類の場合はこの画面は省略されます）
 
-
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 スタッフごとに[使用可能なテンプレートを制御](/docs/manual/initial-setting/staff-local/template/)することもできます
 {{< /callout >}}
-
 
 {{<icatch filename="report-template-select" msg="まずは使うテンプレートを選ぼう。テンプレートは名前順に並ぶよ" alice="guide">}}
 
@@ -58,9 +53,6 @@ weight = 210
 
 まずはテンプレートに沿って報告内容を書き終えましょう。文字入力や選択式入力など様々な入力方式があります。それぞれの入力方法については[入力フォームごとの入力方法](/docs/manual/write-report/parts/)御覧ください。
 
-
-
-
 ### 提出先を選択する{#dist}
 
 本文が終わったらヘッダー周りの指定です。特に重要なのは<a href="/docs/manual/write-report/dist/">提出先の指定</a>です。誰宛にレポートを提出するのかを選んでください。 提出先は一度選べば次回以降は自動でセットされます。
@@ -69,11 +61,10 @@ weight = 210
 [提出先は管理者が固定する](/docs/manual/initial-setting/staff-local/dist/)こともできます。
 {{< /callout >}}
 
-
-
 {{<icatch filename="report-header" msg="レポートの提出日・提出先といったヘッダ情報を入力します">}}
 
 ヘッダーの各項目については以下の対応表を御覧ください。
+
 <dl class="basic">
 <dt>提出日時</dt>
 <dd>自動で本日の現在時刻が入ります。必要に応じて修正可能（実際の提出時間も別途記録されます）</dd>
@@ -82,7 +73,6 @@ weight = 210
 <dt>他に読める人（共有先）</dt>
 <dd>承認はできませんがこの<a href="/docs/manual/read-report/state/#readed">レポートを読める人</a>を指定します。複数名指定可能です。提出先に指定しているスタッフを共有先に指定する必要はありません</dd>
 </dl>
-
 
 ### 提出ボタンをクリック{#post}
 
@@ -93,11 +83,9 @@ weight = 210
 [権限がゲスト](/docs/manual/initial-setting/staff/rank/#others)の場合、自分で書いたレポートを読むこともできません
 {{< /callout >}}
 
-
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 提出ボタンが押せないときは入力必須が残っていないか確認してみましょう
 {{< /callout >}}
-
 
 ## 提出後のアクション{#then}
 
@@ -114,7 +102,6 @@ weight = 210
 <dt>提出者にメールを送信する</dt>
 <dd>お使いのメールソフトが起動します。<a href="/docs/manual/utils/notice/#email">メール通知</a>とは別にメールを送りたいときにご利用ください</dd>
 </dl>
-
 
 ## 【補足】リカバリーについて{#hint}
 

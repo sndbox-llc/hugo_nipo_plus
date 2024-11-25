@@ -22,37 +22,35 @@ NipoPlusではこのonAuthStateChangedをログイン画面のコンポーネン
 VueRouterで起動時は必ずこのログインコンポーネントへリダイレクトされるため、ここでオブザーバが必ず登録される仕組みです。
 
 ```javascript
-
-import { defineComponent, ref, inject, defineAsyncComponent, computed, onBeforeUnmount } from 'vue';
-import { initializeApp, getApps, getApp, FirebaseApp } from 'firebase/app';
-import { useRoute, useRouter } from 'vue-router';
-import { onAuthStateChanged } from 'firebase/auth';
-const app = getApps().length === 0 ? initializeApp() : getApp();
+import { defineComponent, ref, inject, defineAsyncComponent, computed, onBeforeUnmount } from 'vue'
+import { initializeApp, getApps, getApp, FirebaseApp } from 'firebase/app'
+import { useRoute, useRouter } from 'vue-router'
+import { onAuthStateChanged } from 'firebase/auth'
+const app = getApps().length === 0 ? initializeApp() : getApp()
 
 /**
  * ログインコンポーネント
  */
 export default defineComponent({
   name: 'PageNameLogin',
-  setup () {
+  setup() {
     /**
      * ログイン検知するオブザーバをここで登録する
      */
     onAuthStateChanged(auth, (user) => {
       if (user) {
         // ログイン時に行いたい処理などをここに書く
-        loginStart();
+        loginStart()
       }
     })
-    function loginStart () {
-      console.log('ログインしました！');
+    function loginStart() {
+      console.log('ログインしました！')
     }
     return {
       //
     }
-  }
+  },
 })
-
 ```
 
 通常であればログイン画面は1度しか表示されないため、これでも問題なく動作します。
@@ -60,7 +58,7 @@ export default defineComponent({
 これで何が困るかというとログイン時にonAuthStateChangedが2回実行されてしまうわけです。上のコードの例であれば、
 
 ```javascript
-loginStart();
+loginStart()
 ```
 
 このloginStart関数が2度呼び出されてしまいます。何度呼ばれても大丈夫なように冪等性を考慮して開発していれば大きな問題にはなりませんが、それでもあまり気持ちのいいものでは有りません。

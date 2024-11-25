@@ -12,9 +12,7 @@ isNipo = true
   priority = 0.2
 +++
 
-
 ## 日付入力フォーム{#dateForm}
-
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/date_time/#point)。NipoPlusでは日付・時刻が１つのフォームに統合されました
@@ -26,7 +24,6 @@ isNipo = true
 
 {{<iTablet filename="date" msg="日付はカレンダーから入力可能"  alice="ok">}}
 
-
 ### 各種出力画面{#outputDate}
 
 [PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
@@ -34,9 +31,8 @@ CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
 ダミー, サンプル, テスト, モック, コメント
-2021/12/8, 2021/12/1, 2021/12/8, 2021/12/30, _
+2021/12/8, 2021/12/1, 2021/12/8, 2021/12/30, \_
 {{< /excelTable >}}
-
 
 ### 設定画面{#settingDate}
 
@@ -55,11 +51,7 @@ CSV出力時は次のように表示されます。
   <dd>日報作成者が何を書くべきか迷わないようにするために説明を付すことができます。</dd>
 </dl>
 
-
-
 ---
-
-
 
 ## 時刻入力フォーム{#timeform}
 
@@ -67,24 +59,19 @@ CSV出力時は次のように表示されます。
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/date_time/#point)。NipoPlusでは日付・時刻が１つのフォームに統合されました
 {{< /callout >}}
 
-
 時刻入力は2種類あります。上図をご覧ください。アナログ時計から選択するやり方と、ブラウザ依存から選ぶことができます。ブラウザ依存の場合は使用するブラウザによって入力方式が変わります。
 （例えばiPhoneのSafariならドラム式の入力になる）日報作成時の時刻が初期値として設定されるため、初期値の設定はできません。また、時刻パーツを連結して2つ並べると、双方の時間差を自動で計算します
 
 {{<iTablet filename="time" msg="時刻を日報に添付した様子"  alice="ok">}}
-
-
 
 ### 時刻を含んだ日報の各種出力画面{#outputTime}
 
 [PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
 CSV出力時は次のように表示されます。
 
-
-
 {{< excelTable >}}
 sample, test, mock, dummy, コメント
-12:23, 11:14, 16:24, 22:06, _
+12:23, 11:14, 16:24, 22:06, \_
 {{< /excelTable >}}
 
 ### 設定画面{#settingTime}

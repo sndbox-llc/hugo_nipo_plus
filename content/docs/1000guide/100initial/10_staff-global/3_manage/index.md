@@ -17,11 +17,9 @@ weight = 113
 
 ## グループへ所属させる{#join_staff}
 
-
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 グループ分けが不要な場合はこのセクションは不要です
 {{< /callout >}}
-
 
 グループを増やすには「[グループの作成](/docs/manual/initial-setting/make-group/)」を御覧ください。
 グループに所属することで初めてグループ内でレポートの読み書きができるようになります。そのため、**グループへの所属はとても重要**です。
@@ -30,9 +28,7 @@ weight = 113
 1. 操作したいスタッフの行にある「所属グループ」をクリック
 1. グループ一覧が表示されるので所属させるグループをクリック
 
-
 {{<icatch filename="join" msg="組織のスタッフをそれぞれのグループに所属させましょう" alice="book">}}
-
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 グループに所属するとグループの管理画面にそのスタッフ名が追加されます。次の画像は[グループ内のスタッフ](/docs/manual/initial-setting/staff-local/_about/)一覧画面の例です。
@@ -41,10 +37,8 @@ weight = 113
 
 組織のスタッフ管理（現在ご覧のページです）と[グループ内のスタッフ管理](/docs/manual/initial-setting/staff-local/_about/)とは似ていますが別物です。
 
-
 組織内のスタッフ管理では名前や権限など基本的な情報の管理が可能です。一方でグループのスタッフ管理では使用可能なテンプレートの設定やレポートの提出先といった、グループの中でのみ適用される設定を行います。
 {{< /callout >}}
-
 
 ## スタッフの名前や権限・メモなどを変更する{#change_staff_data}
 
@@ -80,10 +74,6 @@ weight = 113
 - [ログインE-mailの変更](/docs/manual/account/email/)
 - [ログインパスワードを忘れた方](/docs/manual/account/email/#password)
 
-
-
-
-
 ## 退職したスタッフのアカウントを引き継ぐ{#hikitugi}
 
 一般のスタッフが退職した場合はそのアカウントを無効化するだけで済みます。
@@ -94,4 +84,3 @@ weight = 113
 - 引き継ぐ際はログインパスワードを安全のため変更してください
 - アカウントを引き継いだら名前を変更してください（承認印で使用される）
 - 前任者が承認した承認印は前任者の名前で表示されるため混同の心配はありません
-

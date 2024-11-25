@@ -9,11 +9,9 @@ aliases = []
 images = []
 +++
 
-
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 [権限が「ゲスト」](/docs/manual/initial-setting/staff/rank/#others)のアカウントは自分の書いたレポートも含めて読むことができません。
 {{< /callout >}}
-
 
 [保存箱](/docs/manual/read-report/list/#listbox)や[カレンダー](/docs/manual/read-report/list/#calendar)からレポートをクリックするとレポートの詳細が表示されます。
 ポップアップで表示されるケースとページ遷移して表示されるケースがありますが内容としては同一です。
@@ -23,7 +21,6 @@ images = []
 閲覧権限について先に確認しておきましょう。レポートは会社の情報なので誰でも見れるとまずい場合があります。
 レポートを読むには「提出先か共有先」に名前が含まれている必要があります。
 読めないレポートは受信BOX一覧に表示されません。また集計の対象にもなりません。
-
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 グループ設定で [日報共有モード](/docs/manual/initial-setting/setting-group/#reportShare)が有効の場合は権限に関係なく、グループに所属しているスタッフがレポートを閲覧可能です
@@ -78,8 +75,6 @@ images = []
 
 ### レポートの承認リレー{#relay}
 
-
-
 あなたの検印欄の右側に更に検印欄があれば次の人へ承認権限が回ります。この時点であなたは承認権限がなくなることに注意してください。
 あなたが右端の場合はこれでレポートが承認済みとなります。
 
@@ -90,8 +85,6 @@ images = []
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 ※検印欄が1つしか無い場合は承認リレーにならず直接承認になります
 {{< /callout >}}
-
-
 
 ### レポートを棄却する{#reject}
 
@@ -112,10 +105,8 @@ images = []
 
 ## レポートの詳細状況を確認する{#detail}
 
-
 レポート本文の下にある「詳細」をクリックするとその文書データの詳細な情報を確認できます。
 これを見れば例えば本当にサーバに保存された時間等を知ることができます。
-
 
 <dl class="basic">
 <dt>作者ID</dt>
@@ -138,7 +129,6 @@ images = []
 
 ---
 
-
 ## レポートにコメントを書く{#comment}
 
 【この機能はGOLDPLAN限定です】
@@ -156,7 +146,6 @@ images = []
 - 1つのレポートに対してコメントは**最大で500件**まで書込みが可能です。
 - 自分の書いたコメントのみ、削除することができます。
 
-
 コミュニケーション図るツールとしてぜひご活用ください
 
 ### コメントの通知とログ{#log}
@@ -166,20 +155,17 @@ images = []
 
 ---
 
-
 ## レポートをエクスポートする{#exportReport}
 
 表示中のレポートをNipoPlus以外の場所で使いたいケースもあります。
 NipoPlusでは「CSV出力」と「PDF出力」をサポートしています。
 これらの機能はWeb版のNipoPlusでご利用ください。（[Android](/docs/system/mobile-install#googlePlay/)・[iOS](/docs/system/mobile-install#appStore/) 非対応）
 
-
 ### 表示中のレポートをCSV出力する📊{#csv_export}
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 まとめてCSV出力するには[一括CSV出力](/docs/manual/analytics/csv/)をご覧ください
 {{< /callout >}}
-
 
 出力する手順は次の通りです。
 
@@ -189,16 +175,11 @@ NipoPlusでは「CSV出力」と「PDF出力」をサポートしています。
 クリック後の挙動はお使いのブラウザの設定により異なります。downloadフォルダに自動で保存されるケース、保存先を自分で設定するケースなどがあるので各自環境をご確認ください。
 [CSV出力形式の設定](/docs/manual/analytics/csvoption/)もある程度設定可能です。
 
-
-
-
 ### 表示中のレポートをPDF出力する📄{#pdf_export}
-
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 まとめて出力するには[一括PDF出力](/docs/manual/pdf/pdfbatch/)を御覧ください。[PDF出力設定](/docs/manual/pdf/pdfoption/)についてはこちらをご覧ください。
 {{< /callout >}}
-
 
 PDFに変換する手順は次のとおりです。
 
@@ -218,4 +199,3 @@ PDFの作成には少し時間がかかります。完了後、画面右下に�
 ダウンロードしたPDFは普通のPDFファイルとして扱えます。
 
 {{<icatch filename="pdf-download" msg="環境によって直接PCに保存されたり、ブラウザで表示されたり？これはブラウザ表示の例です">}}
-

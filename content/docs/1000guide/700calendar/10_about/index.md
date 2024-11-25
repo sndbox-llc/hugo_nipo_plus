@@ -13,7 +13,6 @@ weight = 710
 カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
 {{< /callout >}}
 
-
 [レポート保存箱](/docs/manual/read-report/list/#listbox)と[予定管理](/docs/manual/event/list/)、２つの機能を一箇所で管理できます。
 カレンダを表示するには左メニューから「カレンダー」を選択します。
 
@@ -22,11 +21,9 @@ weight = 710
 カレンダは[レポート保存箱](/docs/manual/read-report/list/#listbox)にあるレポートを決まったルールで各セルに描画します。
 予定についても同様で、決まったルールで各セルに描画します。各セルにあるボタンをクリックすることで、該当のレポートや予定をポップアップで表示します。
 
-
 ## カレンダーの表示対象切替{#switch_dist}
 
 カレンダーの右パネルにあるボタンで表示対象を切り替えられます。
-
 
 <dl class="basic">
 <dt>受</dt>
@@ -34,7 +31,6 @@ weight = 710
 <dt>送</dt>
 <dd>自分が書いたレポートをカレンダーに表示します。保存箱の「送信BOX」と同じです</dd>
 </dl>
-
 
 ## カレンダーの表示モード切替{#switch_view}
 

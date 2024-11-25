@@ -16,14 +16,11 @@ images = []
 NipoPlusはWebアプリケーションのため、ブラウザが利用できる端末であれば利用可能です。一般的な端末はブラウザが利用できるため、多くの端末でご利用可能です。
 また、Android/iOSについては各アプリストアにて専用アプリも用意しています。ブラウザ・専用アプリどちらを使っても問題有りません。
 
-
 ## PCで使用する{#web}
 
 今このページをPCでご覧頂いている方は、そのまま下の「NipoPlusを起動する」ボタンをクリックして使用できます。
 
 {{< link-card title="NipoPlusを起動" description="このカードをクリックするとNipoPlusが別タブで起動します" href="https://nipoplus.sndbox.jp/" target="_blank" >}}
-
-
 
 <dl class="basic">
 <dt>OS</dt>
@@ -52,7 +49,6 @@ NipoPlusはWebアプリケーションのため、ブラウザが利用できる
 
 注意点はいくつかありますが、Windows7以降のPCであれば問題なく動作します
 
-
 ---
 
 ## AndroidにNipoPlusをインストールする{#android}
@@ -61,10 +57,6 @@ AndroidでNipoPlusを使うには2つの方法があります
 
 - WebのNipoPlusをインストール（推奨）
 - Google Play Storeからインストール
-
-
-
-
 
 ### WebのNipoPlusをインストール（推奨）{#pwa}
 
@@ -78,12 +70,9 @@ WebのNipoPlusはPWAという技術が使われているため**Webでありな�
 
 NipoPlusは下のリンクから起動できます
 
-
 {{< link-card title="NipoPlusを起動" description="このカードをクリックするとNipoPlusが別タブで起動します" href="https://nipoplus.sndbox.jp/" target="_blank" >}}
 
-
 {{<figure src="android-install-pwa.png"  alt="ChoromeからPWA対応サイトを開くとインストールの通知が表示されます。ホーム画面に追加をタップするだけでインストールが完了し、ホーム画面にアイコンが追加されます。" caption="ChoromeからPWA対応サイトを開くとインストールの通知が表示されます。ホーム画面に追加をタップするだけでインストールが完了し、ホーム画面にアイコンが追加されます。" >}}
-
 
 起動後にメニューから「アプリをインストール」をタップすることでインストールが完了します。
 インストール後は普通のアプリと同様に利用可能です。
@@ -98,7 +87,6 @@ NipoPlusは下のリンクから起動できます
 
 </div>
 
-
 <dl class="basic">
   <dt>AndroidVersion</dt>
   <dd>Pie(API Lv28)以上</dd>
@@ -108,12 +96,9 @@ NipoPlusは下のリンクから起動できます
   <dd>4インチ以上を推奨します。極端に小さなスマートフォンは操作性が低下します  タブレットの場合は、9.7インチ以上を推奨</dd>
 </dl>
 
-
-
 ---
 
 ## iOSにNipoPlusをインストールする {#ios}
-
 
 iPhone・iPadでNipoPlusを使うには2つの方法があります。
 
@@ -132,13 +117,9 @@ WebのNipoPlusはPWAという技術が使われているため**Webでありな�
 
 NipoPlusは下のボタンから起動できます
 
-
 {{< link-card title="NipoPlusを起動" description="このカードをクリックするとNipoPlusが別タブで起動します" href="https://nipoplus.sndbox.jp/" target="_blank" >}}
 
-
-
 {{<figure src="ios-pwa-install1.png"  alt="PWAをiOSにインストールするにはSafariを起動してインストールしたいページを開きます。その後メニューから「ホーム画面に追加」をタップします" caption="PWAをiOSにインストールするにはSafariを起動してインストールしたいページを開きます。その後メニューから「ホーム画面に追加」をタップします" >}}
-
 
 以上でインストールは完了です。
 
@@ -155,7 +136,6 @@ NipoPlusは下のボタンから起動できます
 
 <a href="https://apps.apple.com/jp/app/id1625797169" target="_blank"><img src="/images/apple.svg" width="300px" alt="app store logo"></a>
 
-
 <dl class="basic">
   <dt>iOSバージョン</dt>
   <dd>iOS14.0以上のiPhone / iPad</dd>
@@ -169,7 +149,6 @@ NipoPlusは下のボタンから起動できます
 
 AppStore・GooglePlay版のNipoPlusはストア規約や技術的な理由により、いくつかの機能が制限されます。
 
-
 - CSV出力などの「ダウンロード」を伴う処理ができません
 - [有料プラン](/docs/price/_about/#fee)のお申し込みや解約ができません
 - 操作ガイドへのリンクボタンが表示されません
@@ -177,10 +156,4 @@ AppStore・GooglePlay版のNipoPlusはストア規約や技術的な理由によ
 
 以上の理由からフル機能が利用できるWeb版のインストールを推奨しています。
 
-
-
-
-
-
 ---
-

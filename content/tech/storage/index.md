@@ -75,7 +75,7 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
 上記コードの問題は色々あるけど何よりも問題となるのが
 
 ```javascript
-pdfDoc.pipe(myPDFFile.createWriteStream());
+pdfDoc.pipe(myPDFFile.createWriteStream())
 ```
 
 上記の処理が完了する前に次の行へ処理が流れていってしまうことです。いわゆる非同期処理というやつですね。Nodejsにとって非同期処理はイデオムといえます。
@@ -84,13 +84,12 @@ pdfDoc.pipe(myPDFFile.createWriteStream());
 
 ```javascript
 // 処理の完了を待つためにawaitを使いたいが、ここでawaitは機能しません
-await pdfDoc.pipe(myPDFFile.createWriteStream());
+await pdfDoc.pipe(myPDFFile.createWriteStream())
 ```
 
 ただ当然ながらこの記述はうまく機能しません。VSCode上でも警告が発せられるので割と早い段階で気づくことができますが、つまりawaitを使わずにpdfDoc.pipeの完了まで待つ処理を記述する必要があります。
 
 {{<figure src="await.png"  alt="awaitはこの式に対しては効果が有りません。Tsのエラーメッセージは開発における重要なヒントです" caption="awaitはこの式に対しては効果が有りません。Tsのエラーメッセージは開発における重要なヒントです" >}}
-
 
 結局のところはPromiseとStreamを混同していたことが原因です。PromiseもStreamも非同期処理で似たようなものだと思いがちですが、当然ながら全くの別ものです。
 
@@ -142,20 +141,20 @@ pdfDoc.pipeの処理周りをごっそりpromiseでくくってしまい、strea
 
 ```javascript
 // （止まれ）の中の一部抜粋
-  pdfDoc.pipe(myPDFfile.createWriteStream())
+pdfDoc
+  .pipe(myPDFfile.createWriteStream())
 
-  .on('finish', function (){
+  .on('finish', function () {
     resolve('やっとおわったよ')
   })
-  .on('error', function(err){
+  .on('error', function (err) {
     reject('なにかエラーがおきたかも？')
-  });
-  pdfDoc.end();
-
+  })
+pdfDoc.end()
 ```
 
 ```javascript
-await 止まれ();
+await 止まれ()
 ```
 
 のおかげでStreamの書き込みが完了後に、ダウンロードURLの取得処理が走るようになりました。よって本ページトップで書いたようなnoSuchKeyエラーは発生しなくなります。
@@ -183,7 +182,6 @@ The caller does not have permission
 最終的には次のような形になればOKです
 
 {{<figure src="iam.png"  alt="IAMからロールを2つ追加して最終的なかたちはこの画面のようになっているはずです。" caption="IAMからロールを2つ追加して最終的なかたちはこの画面のようになっているはずです。" >}}
-
 
 IAMの設定が完了したら再び生成を試みてください。筆者の環境ではこれで問題なく動作することが確認できました。
 この情報は[StackOverFlow](https://stackoverflow.com/questions/53305784/signingerror-with-firebase-getsignedurl)に記載されていました。大変助かりました。

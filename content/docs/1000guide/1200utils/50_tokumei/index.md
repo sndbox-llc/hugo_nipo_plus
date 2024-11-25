@@ -17,7 +17,6 @@ images = []
 
 ## 匿名アカウントを使ってログイン{#signin}
 
-
 1. [NipoPlusを起動](https://nipoplus.sndbox.jp/)する
 2. 匿名アカウントでログインをクリック
 3. 確認メッセージを確認後にOKをクリック

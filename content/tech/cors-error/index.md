@@ -12,7 +12,6 @@ code = true
   priority = 0.2
 +++
 
-
 ## 静的サイトの問い合わせフォームをCloud Functionsで作ろうとしてハマる{#staticWebsiteContactForm}
 
 みなさん静的サイトは作っていますか？脱Wordpressを掲げて第一弾としてNipoPlusの姉妹アプリであるMaroudのホームページを静的サイトに作り変えました。
@@ -36,7 +35,9 @@ Firebaseのホスティングではサーバ側のプログラムを設置でき
 少し調べたところ、
 
 ```javascript
-functions.https.onRequest((req, res) => { 処理 });
+functions.https.onRequest((req, res) => {
+  処理
+})
 ```
 
 という書き方が可能なことを突き止めました。[詳しくはこちら](https://firebase.google.com/docs/functions/http-events?hl=ja)。
@@ -89,17 +90,17 @@ Access to XMLHttpRequest at 'https://us-central1-maroud1.cloudfunctions.net/test
 Cloud Functionsはできるだけシンプルに保ちたいと思い、なにか方法が無いか調べたところ、Cloud Functionsの関数の頭に
 
 ```javascript
-res.set('Access-Control-Allow-Origin', '*');
+res.set('Access-Control-Allow-Origin', '*')
 ```
 
 と書くことでいけるらしいではありませんか。
 
-<Alice>*は全てのサイトからのアクセスを許可するので、テスト時はこれでいいけど本番では個別に指定したほうがいいかもです</Alice>
+<Alice>\*は全てのサイトからのアクセスを許可するので、テスト時はこれでいいけど本番では個別に指定したほうがいいかもです</Alice>
 
 早速Cloud Functionsに追記してみました。
 
 ```javascript
-export default functions.https.onRequest(async(req, res) => {
+export default functions.https.onRequest(async (req, res) => {
   res.set('Access-Control-Allow-Origin', '*') // 追加した１行。これでどのサイトからもリクエストできるようになる？
   // メール送信するプログラムなどをこの下にかくよ
 })
@@ -114,12 +115,12 @@ export default functions.https.onRequest(async(req, res) => {
 とりあえず次のように書くと、CORSの問題を回避できました
 
 ```javascript
-export default functions.https.onRequest(async(req, res) => {
-  res.set('Access-Control-Allow-Headers', '*');
-  res.set('Access-Control-Allow-Origin', '*');
-  res.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS, POST');
+export default functions.https.onRequest(async (req, res) => {
+  res.set('Access-Control-Allow-Headers', '*')
+  res.set('Access-Control-Allow-Origin', '*')
+  res.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS, POST')
   // 何かしらの処理
-  res.end();
+  res.end()
 })
 ```
 

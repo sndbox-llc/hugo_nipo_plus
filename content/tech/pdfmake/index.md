@@ -24,20 +24,20 @@ A4のように、メジャーなサイズはあらかじめ用意されている
 ```javascript
 let pageSize = 'a4'
 let docDefinition = {
-  pageSize:pageSize,
-  pageMargins:[0,0,0,0],
-  content:content
+  pageSize: pageSize,
+  pageMargins: [0, 0, 0, 0],
+  content: content,
 }
 ```
 
 のように簡単に指定できます。
 しかしちょっと変わったサイズ、特に日本独自のサイズを指定するとおかしなサイズになります。
-例えばハガキは100*148mm なので、
+例えばハガキは100\*148mm なので、
 
 ```javascript
 let pageSize = {
-  width:100,
-  height:148
+  width: 100,
+  height: 148,
 }
 ```
 
@@ -53,20 +53,20 @@ pdfMakeで使われている単位はなんと「us pt」というもので、�
 ```javascript
 // ハガキサイズの指定 100 * 148mm
 let hagakiSize = {
-  width:283.46,
-  height:419.52
-};
+  width: 283.46,
+  height: 419.52,
+}
 //　おまけ　長３封筒 120*235mm
 let naga3Size = {
-  width:340.16,
-  height:666.14
-};
+  width: 340.16,
+  height: 666.14,
+}
 
 // さらにおまけ　長４封筒　90*205mm
 let naga4Size = {
-  width:255.12,
-  height:581.10
-};
+  width: 255.12,
+  height: 581.1,
+}
 ```
 
 となります。
@@ -89,7 +89,7 @@ Nipo【旧版】ではこの問題を回避するためにフォントはIndexed
 
 サーバサイド(Cloud Functions)で[PdfMakeを動かす記事についてはこちら](/tech/pdf/)を参照してください。
 
-そうそう、フォントについては[g_えんぴつ楷書](https://zarasu.booth.pm/items/389721)とかおすすめです。
+そうそう、フォントについては[g\_えんぴつ楷書](https://zarasu.booth.pm/items/389721)とかおすすめです。
 とてもかっこいいフォントで、お値段も2,000円とリーズナブルです。さらに商用利用可能です。
 
 {{<alice pos="right" icon="here">}}

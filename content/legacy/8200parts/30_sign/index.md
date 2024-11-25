@@ -14,11 +14,9 @@ isNipo = true
 
 ## 署名入力フォーム{#signetureCanvas}
 
-
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#sign)。NipoPlusでは署名とイラストは同じフォームに合併しました
 {{< /callout >}}
-
 
 署名（サイン）に特化したパーツです。手描きメモを署名代わりに使うのであればこちらのパーツを使う方が良いでしょう。
 手描きメモと非常に似ていますが以下の点により手描きメモとは分けて考えられます。
@@ -27,29 +25,19 @@ isNipo = true
 - 日報のコピー機能を使っても署名はコピーされない（手描きメモは上書きしない限り同じ画像がセットされます）
 - PDF出力の際、手書きメモは画面サイズ最大に表示するが署名は適切なサイズで表示されます
 
-
 {{<iTablet filename="sign1" msg="署名を日報に添付した様子"  alice="ok">}}
-
 
 ### 署名を含んだ日報の各種出力画面{#outputSign}
 
 [PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
-
-
 ### 設定画面{#settingSign}
-
 
 署名に関しては設定項目はタイトルしかありません。
 
-
-
 ---
 
-
-
 ## イラスト入力フォーム{#display}
-
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#sign)。NipoPlusでは署名とイラストは同じフォームに合併しました
@@ -60,30 +48,21 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 
 {{<iTablet filename="canvas" msg="手書きメモを日報に添付した様子"  alice="ok">}}
 
-
-
 ### 手書きメモを含んだ日報の各種出力画面{#outputCanvas}
 
 [PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
-
 ### 設定画面{#settingCanvas}
-
 
 設定項目はタイトルのみです。事実上初期設定は不要です。
 
-
-
 ---
 
-
 ## 写真{#pictures}
-
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#picture)。
 {{< /callout >}}
-
 
 タブレットやスマートフォンで撮影した画像を添付したり、PCに保存されている画像データを添付したりできます。対応ファイルはJpeg・Pngになります。
 画像をNipo【旧版】のサーバにアップする前に、画像の圧縮処理が行われ通信量を削減しています。圧縮されると、画像の容量はおおよそ１００KB程度になります。
@@ -91,16 +70,13 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 
 {{<iTablet filename="picture" msg="日報に画像を添付する画面イメージ"  alice="ok">}}
 
-
-
 ### 写真画像を含んだ日報の各種出力画面{#outputPicture}
 
 [PDF出力](/legacy/manual/pdf/)が可能です。CSV出力は対応していません。CSV上には「対象外」との文字だけが出力されます
 
-
 {{< excelTable >}}
 sample, test, dummy, mock, コメント
-画像は出力不可, 画像は出力不可, 画像は出力不可, 画像は出力不可, _
+画像は出力不可, 画像は出力不可, 画像は出力不可, 画像は出力不可, \_
 {{< /excelTable >}}
 
 ### 設定画面{#settingPicture}

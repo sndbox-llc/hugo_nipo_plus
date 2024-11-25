@@ -13,13 +13,11 @@ weight = 121
 グループの設定は[編集者権限以上](/docs/manual/initial-setting/staff/rank/)が必要です。
 {{< /callout >}}
 
-
 ## 作業グループの確認と切替{#swich_group}
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 所属しているグループが1つしか無い場合はこの設定は不要です
 {{< /callout >}}
-
 
 今作業しているグループは画面上部のバーに表示されています。必要に応じてグループを切り替えて作業してください。
 
@@ -90,19 +88,12 @@ weight = 121
 
 グループの画面上部に任意のアナウンスを表示できます。グループ内のスタッフに通達したいことがあればご利用ください
 
-
-
-
-
 ### 機能の有効無効{#optionalFunction}
-
 
 タイムカード機能や集計機能など、NipoPlusには様々な機能が用意されています。これらのオプション機能はチェックボックスのON/OFFで有効（または無効）に切り替えができます。
 使用する予定の無い機能はOFFにしておくことで画面上の見た目をシンプルにできます。
 
 {{<iTablet filename="functions" msg="使わない機能はOFFにしたほうがメニューがスッキリするよ" alice="ok">}}
-
-
 
 <dl class="basic">
   <dt><a href="/docs/manual/anken/_about/">案件</a></dt>

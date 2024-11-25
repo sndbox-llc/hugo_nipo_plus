@@ -29,8 +29,6 @@ Nipo【旧版】では通常、「日報は蓄積していくもの」という�
 
 {{<iTablet filename="deleteFunction" msg="一括削除機能の有効化" alice="ok">}}
 
-
-
 {{<alice pos="left" icon="default">}}
 使うときにだけOnにし、使わないときはOFFにしておくとメニューバーがスッキリしますよ。特に削除なんて頻繁には使わないでしょう？
 {{</alice>}}
@@ -38,7 +36,6 @@ Nipo【旧版】では通常、「日報は蓄積していくもの」という�
 ## 日報の一括削除操作画面{#show}
 
 {{<iTablet filename="batchRemove" msg="一括削除画面です" alice="ok">}}
-
 
 最初に、日報を一覧表示で取得する条件を決めます。設定項目は３つしかありません
 

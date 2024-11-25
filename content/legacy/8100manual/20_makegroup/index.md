@@ -13,7 +13,6 @@ aliases = []
   priority = 0.2
 +++
 
-
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/make-group/)。
 {{< /callout >}}
@@ -44,9 +43,7 @@ Nipo【旧版】はグループを作り、その中にスタッフのアカウ�
 
 グループ一覧画面の末尾にある「グループの作成」ボタンをクリックします
 
-
 {{<iTablet filename="createGroup" msg="グループを新規に作ります" alice="ok">}}
-
 
 グループ名を聞かれるので、任意の名前を入力してください。これでグループの作成が完了です。
 
@@ -70,14 +67,11 @@ https://nipoapp.sndbox.jp/#/room/2Oq0yOZgKWsogVstjdUg/res
 
 このような表記となりますが、上記でいうと「2Oq0yOZgKWsogVstjdUg」がグループIDになります。
 
-
 ## グループを切り替える{#switch}
 
 今作業しているグループから他のグループへ切り替える場合は、グループ内の画面左上にある切替ボタンをクリックしてください。
 
 {{<iTablet filename="switchGroup" msg="グループの切り替え" alice="ok">}}
-
-
 
 所属しているグループ一覧が表示されるので、切り替えたいグループをクリックします。
 
@@ -90,9 +84,7 @@ https://nipoapp.sndbox.jp/#/room/2Oq0yOZgKWsogVstjdUg/res
 グループが不要になったときはグループを解散することができます。解散するには管理者以外のスタッフは**全員グループから前もって追放**しておく必要があります。
 削除したいグループから**全体設定**＞**グループ管理**の順にクリックします。その後、**グループ解散**をクリックします。
 
-
 {{<iTablet filename="group-delete" msg="グループの解散"  alice="ok">}}
-
 
 削除前に確認のメッセージが表示されます。誤操作による解散を防ぐため、確認BOXに「drop」と入力してください。これで解散ボタンが押せるようになります。
 

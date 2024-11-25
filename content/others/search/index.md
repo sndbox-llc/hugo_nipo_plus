@@ -12,7 +12,6 @@ images = []
   priority = 0.3
 +++
 
-
 <div id="searchBoxModal" tabindex="-1" aria-labelledby="searchBoxModalLabel">
 <h5 class="modal-title" id="searchBoxModalLabel">検索</h5>
 
@@ -42,7 +41,6 @@ images = []
 </div>
 
 </div>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.global.prod.min.js" integrity="sha512-39BSQXI5q1XlvVhLfFRidKG8KM6Tr6VS/XSnNo6N/A0ZXexHCeoUI/s+ulujQy3UREjoLNrMnFat8VI0mMugWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/4.17.1/algoliasearch-lite.umd.min.js" integrity="sha512-dYj47Cv0or11Y6jtjdZ/Il4fCZYQPVaGmQNgZmRsStgPZfASZ8lWgbOD9GpkV+2Mu8LvspZW+AhlL8BmQnEOyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

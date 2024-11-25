@@ -10,12 +10,11 @@ weight = 131
 # images = []
 +++
 
- スタッフは[組織から作成](/docs/manual/initial-setting/staff/make/)されて各グループに所属します。
+スタッフは[組織から作成](/docs/manual/initial-setting/staff/make/)されて各グループに所属します。
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
- 組織上のスタッフについては[組織のスタッフ](/docs/manual/initial-setting/staff/manage/)を参照してください
+組織上のスタッフについては[組織のスタッフ](/docs/manual/initial-setting/staff/manage/)を参照してください
 {{< /callout >}}
-
 
 ---
 
@@ -29,6 +28,7 @@ weight = 131
 {{<icatch filename="staff-local" msg="グループに参加しているスタッフの一覧を見てみましょう" alice="pc">}}
 
 スタッフリストの各部名称について。
+
 <dl class="basic">
 <dt>名前</dt>
 <dd>スタッフの名前です。<a href="/docs/manual/initial-setting/staff/manage/#change_staff_data">名前の変更は組織のスタッフ管理</a>から行います</dd>
@@ -49,8 +49,6 @@ weight = 131
 <dt><a href="/docs/manual/initial-setting/staff-local/share/">共用</a></dt>
 <dd>１つのアカウントを複数人で使い回す際に使用します。応用的な設定のため基本的に非推奨です</dd>
 </dl>
-
-
 
 ---
 
@@ -86,10 +84,7 @@ weight = 131
   <dd>1ヶ月の間にレポートや予定にコメントを書き込んだ回数を表示します</dd>
 </dl>
 
-
 集計する期間は1ヶ月単位で切替ができます。期間を変更するには日付の書かれたボタンをクリックします。
-
-
 
 ## グループの管理画面からスタッフを作成する{#createStaff}
 

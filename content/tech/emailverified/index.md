@@ -12,7 +12,6 @@ code = true
   priority = 0.4
 +++
 
-
 Firebaseの認証機能を使えば、面倒なログイン回りの処理がほとんど省略できて幸せになれます。
 ほとんどの処理がかなり簡単に使えるのですが、1つ、E-mailが正しいことを確認する処理が若干マニュアルではわかりにくいので備忘録として残します
 
@@ -26,13 +25,13 @@ Firebaseでは、E-mailでアカウントを作成した場合、すぐにアカ
 ユーザがログインした際、
 
 ```javascript
-firebase.auth().currentUser;
+firebase.auth().currentUser
 ```
 
 でログインユーザの情報を取得できます。同様に、
 
 ```javascript
-firebase.auth().currentUser.emailVerified;
+firebase.auth().currentUser.emailVerified
 ```
 
 でログイン中のユーザが入力したメールアドレスが認証済みか否かを取得できます。これはBoolで帰ってきます。
@@ -43,14 +42,14 @@ firebase.auth().currentUser.emailVerified;
 ユーザがアカウントを作成したときに入力したメールアドレスは、
 
 ```javascript
-firebase.auth().currentUser.email;
+firebase.auth().currentUser.email
 ```
 
 で取得できます。
 firebase.auth().currentUser.emailVerifiedがFalseだったときに、firebase.auth().currentUser.emailのメールアドレス宛に確認メールを投げます。確認メールは
 
 ```javascript
-firebase.auth().currentUser.sendEmailVerification();
+firebase.auth().currentUser.sendEmailVerification()
 ```
 
 で送信できます。メールアドレスは特に指定しなくても、勝手にログインユーザ宛に送ってくれます。
@@ -74,4 +73,3 @@ async emailAuthMixin_sendVerifyMail () {
 認証メールの件名は、FireBaseの設定画面から変更できますが、文面は変更できません。（言語を日本語にすることはできます）
 
 {{<figure src="firebase-email.png"  alt="Firebaseの管理コンソール画面。確認メールの件名や言語は変更できますが本文の変更は制限されています" caption="Firebaseの管理コンソール画面。確認メールの件名や言語は変更できますが本文の変更は制限されています" >}}
-

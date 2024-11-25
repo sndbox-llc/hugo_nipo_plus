@@ -12,7 +12,6 @@ code = true
   priority = 0.5
 +++
 
-
 PWAは便利ですがその一方で正直分かりにくいというデメリットもあります。
 Vueや、私の利用している[Quasar](https://quasar.dev/)などはPWAモードが予め用意されているので、プロジェクト作成時にPWAの指定をするだけで難しい処理もなく、簡単にPWAとしてアプリをビルドすることができます。
 非常にありがたい一方で細かい制御のやり方が本当に分かりにくい。そしてデバッグもしにくいという罠もあります。
@@ -80,13 +79,12 @@ Quasarの公式サイト自体がGithubに公開されているため、まず�
 リンク先と同じコードをここにも書いておきます。ファイル名は register-service-worker.js です。（.tsではありませんでした）
 
 ```javascript
-
-import { register } from 'register-service-worker';
-import { Notify } from 'quasar';
-import { mdiCached } from '@quasar/extras/mdi-v6';
+import { register } from 'register-service-worker'
+import { Notify } from 'quasar'
+import { mdiCached } from '@quasar/extras/mdi-v6'
 
 register(process.env.SERVICE_WORKER_FILE, {
-  updated () {
+  updated() {
     Notify.create({
       color: 'negative',
       icon: mdiCached,
@@ -100,16 +98,16 @@ register(process.env.SERVICE_WORKER_FILE, {
           color: 'yellow',
           handler: () => {
             window.location.reload()
-          }
+          },
         },
         {
           label: 'Dismiss',
           color: 'white',
-          handler: () => {}
-        }
-      ]
+          handler: () => {},
+        },
+      ],
     })
-  }
+  },
 })
 ```
 
@@ -165,7 +163,7 @@ service workerについて調べると、とにかくよく出てくるコード
 
 ```javascript
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('/service_worker.js').then(registration => {
+  navigator.serviceWorker.register('/service_worker.js').then((registration) => {
     // 謎の処理
   })
 }

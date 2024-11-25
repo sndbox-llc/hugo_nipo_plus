@@ -26,9 +26,7 @@ weight = 240
 
 修正するレポートは[送信BOX](/docs/manual/read-report/list/#listbox)や[カレンダー](/docs/manual/read-report/list/#calendar)から探してください。
 
-
 {{<icatch filename="edit" msg="レポートを開いて修正ボタンをクリック！承認済みのレポートは修正できません" alice="here">}}
-
 
 修正ボタンをクリックするとレポートの編集画面に切り替わります。一見すると[レポートの作成](/docs/manual/write-report/write/)画面と同じですが細かな違いがあります。
 
@@ -37,15 +35,12 @@ weight = 240
 
 それ以外は[通常のレポート作成](/docs/manual/write-report/write/)と同様の手順で修正できます。
 
-
 ## 他のスタッフのレポートを代理修正する{#agent}
 
 レポートの提出先に指定されたスタッフが承認前に代理で修正することも可能です。
 軽微な誤字脱字の修正の際にご利用ください。
 他人のレポートを修正するという行為になりますので**修正は慎重**に行ってください。
 代理修正は改ざん防止の観点から[ログ](/docs/manual/utils/log/)に残ります
-
-
 
 ## 修正後の状態について{#state}
 
@@ -54,4 +49,3 @@ weight = 240
 {{<icatch filename="report-status-change" msg="修正されたレポートは状態が「修正」になります" alice="guide">}}
 
 もし承認リレーが組まれていたレポートであった場合は、承認リレーがどこまで進んでいても1から振り出しに戻ります。
-

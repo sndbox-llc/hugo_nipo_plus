@@ -10,7 +10,6 @@ weight = 520
 # images = []
 +++
 
-
 PDFの出力オプションは大きく分けて２種類有ります。
 
 <dl class="basic">
@@ -20,19 +19,12 @@ PDFの出力オプションは大きく分けて２種類有ります。
 <dd>１回限り有効な設定です。文章が長くてレイアウトがはみ出してしまう場合など、一時的に使用します。PDF出力画面から設定します</dd>
 </dl>
 
-
 ## PDF出力設定の初期値を変更する{#setDefault}
 
 [テンプレート編集](/docs/manual/initial-setting/template/make/#pdf)からPDF出力設定を行うと、初期値として記録されます。
 PDF設定はテンプレート編集画面の中程までスクロールしていただくと設定項目が見えてきます。
 
 {{<icatch filename="pdf-setting-ini" msg="レポートのPDF出力時の設定画面は折りたたまれているためクリックで展開します">}}
-
-
-
-
-
-
 
 ## 1度限り有効な設定を行う{#once}
 
@@ -58,7 +50,6 @@ PDF出力前に設定することで、１回限りの設定を記録できま�
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 閉じるボタンを押してポップアップウインドウが閉じられた時点で変更内容は全てクリアされます
 {{< /callout >}}
-
 
 ## PDF出力設定の詳細{#options}
 
@@ -92,8 +83,6 @@ PDF出力前に設定することで、１回限りの設定を記録できま�
 <dt>透かし文字</dt>
 <dd>ウォーターマークを設定できます。不要な場合は空欄にします。<a href="/docs/price/_about/#free">無料プラン</a>では強制的にNipoPlusの文字が挿入されます</dd>
 </dl>
-
-
 
 ## PDFのレイアウトについて{#layout}
 

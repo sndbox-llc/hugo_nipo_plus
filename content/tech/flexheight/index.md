@@ -12,7 +12,6 @@ code = true
   priority = 0.3
 +++
 
-
 Quasar Frameworkでは行、列を制御するために row・columnといったクラスが予め用意されています。
 
 ```bash
@@ -23,21 +22,18 @@ display: flex
 次のように書くと縦３列に分かれたFlexboxが作成できます。レスポンシブに対応しており、スマートフォンのように狭い幅であれば１列３行に変わります。
 
 ```html
-<div class='row'>
-  <div class='col-xs-12 col-md-4'>some data</div>
-  <div class='col-xs-12 col-md-4'>some data</div>
-  <div class='col-xs-12 col-md-4'>some data</div>
+<div class="row">
+  <div class="col-xs-12 col-md-4">some data</div>
+  <div class="col-xs-12 col-md-4">some data</div>
+  <div class="col-xs-12 col-md-4">some data</div>
 </div>
-
 ```
-
 
 ## 高さを揃えるには items-stretchではなくheight:100%{#height_flex}
 
 とまあ、ここまでは前置きです。rowやcolといった便利なクラスですが、要素の高さが違うと見た目が不格好になるというデメリットがあります。
 
 {{<figure src="card.png"  alt="カードの高さが揃わずに不格好である" caption="カードの高さが揃わずに不格好である" >}}
-
 
 よく見る光景です。高さを揃えるには items-stretchクラスを使うとのことが書かれていますが、うまくいきませんでした。
 （機能しないわけではないが別の問題が起こる）
@@ -47,7 +43,6 @@ columnsクラスとrowクラスをネストさせたり色々考えましたが�
 height: 100%　これをつけるだけで解決です。
 
 {{<figure src="card2.png"  alt="カードの高さを最も高いカードに併せて揃える" caption="カードの高さを最も高いカードに併せて揃える" >}}
-
 
 こちらは紆余曲折して色々試行錯誤していたときのコードです。失敗例なので真似しないほうが良いです。
 
@@ -59,9 +54,7 @@ height: 100%　これをつけるだけで解決です。
         <q-card-section class="text-bold bg-teal-4 dense">{{ template.name }}</q-card-section>
         <q-card-section>
           計測可能なフォーム:{{ template.useNodeCnt }}件
-          <div v-for="node in template.nodes" :key="node.key">
-            {{ node.label }}
-          </div>
+          <div v-for="node in template.nodes" :key="node.key">{{ node.label }}</div>
         </q-card-section>
       </q-card>
     </div>
@@ -78,9 +71,7 @@ height: 100%　これをつけるだけで解決です。
       <q-card-section class="text-bold bg-teal-4 dense">{{ template.name }}</q-card-section>
       <q-card-section>
         計測可能なフォーム:{{ template.useNodeCnt }}件
-        <div v-for="node in template.nodes" :key="node.key">
-          {{ node.label }}
-        </div>
+        <div v-for="node in template.nodes" :key="node.key">{{ node.label }}</div>
       </q-card-section>
     </q-card>
   </div>

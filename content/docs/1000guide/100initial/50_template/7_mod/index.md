@@ -10,7 +10,6 @@ weight = 157
 # images = []
 +++
 
-
 商品入力フォームは予め[登録しておいた商品](/docs/manual/initial-setting/advanced-setting/point/#add)を対象に、レポート内で入出庫の入力をすることで数量の増減管理ができるフォームです。
 また、「状態」の管理も可能です。
 
@@ -20,11 +19,8 @@ weight = 157
 
 {{<icatch filename="modFormAdd" msg="テンプレートの編集画面から在庫フォームをクリックして追加します">}}
 
-
 商品入力フォームを使うには予め商品データを登録しておく必要があります。詳しくは[商品登録](/docs/manual/initial-setting/advanced-setting/point/)についてを参照してください。
 [実際の入力イメージ](/docs/manual/write-report/parts/#item)はこちらからご確認ください。
-
-
 
 ## レポートを受け取る{#receive}
 
@@ -37,4 +33,3 @@ weight = 157
 [在庫推移についてはこちら](/docs/manual/initial-setting/advanced-setting/point/#stackLog)も参照して下さい
 
 NipoPlusはレポート管理が主となるため、在庫管理については必要最低限の機能しかありません。例えば締めといった機能や概念はありません。大まかに数量を把握したい場合はおすすめできますが、厳密な管理には不向きです。
-

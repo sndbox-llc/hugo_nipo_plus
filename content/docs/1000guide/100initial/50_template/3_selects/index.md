@@ -29,18 +29,14 @@ NipoPlusでは以下の種類があります。
   <dd>YESかNOの２択で回答できるとてもシンプルな入力です。選択肢（複）の１こバージョンと解釈することもできます</dd>
 </dl>
 
-
-
-|名前|[集計可否](/docs/manual/analytics/)|[CSV出力](/docs/manual/analytics/csv/)|[PDF出力](/docs/manual/read-report/state/#pdf_export)|[文字検索](/docs/manual/read-report/list/#searchFunction)|
-|:---:|:---:|:---:|:---:|:---:|
-|選択入力（単）|⭕|⭕|⭕|✗|
-|選択入力（複）|⭕|⭕|⭕|✗|
-|選択入力（２層）|⭕|⭕|⭕|✗|
-|チェックボックス|⭕|⭕|⭕|✗|
-
+|       名前       | [集計可否](/docs/manual/analytics/) | [CSV出力](/docs/manual/analytics/csv/) | [PDF出力](/docs/manual/read-report/state/#pdf_export) | [文字検索](/docs/manual/read-report/list/#searchFunction) |
+| :--------------: | :---------------------------------: | :------------------------------------: | :---------------------------------------------------: | :-------------------------------------------------------: |
+|  選択入力（単）  |                 ⭕                  |                   ⭕                   |                          ⭕                           |                             ✗                             |
+|  選択入力（複）  |                 ⭕                  |                   ⭕                   |                          ⭕                           |                             ✗                             |
+| 選択入力（２層） |                 ⭕                  |                   ⭕                   |                          ⭕                           |                             ✗                             |
+| チェックボックス |                 ⭕                  |                   ⭕                   |                          ⭕                           |                             ✗                             |
 
 {{<icatch filename="add-select-parts" msg="左のパーツリストから選択入力をクリックで追加します。茶色系のボタンが選択系です">}}
-
 
 ---
 
@@ -48,16 +44,12 @@ NipoPlusでは以下の種類があります。
 
 {{<icatch filename="eye-catch" msg="選ぶだけの簡単入力♫タブレットやスマホと相性抜群です" alice="phone">}}
 
-
 複数の回答から1つだけ選ばせたいときに利用してください。機器点検における機器の大まかな状態表示などに適しています
 （正常・異常・休止など）
-
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 [選択入力フォームの入力画面](/docs/manual/write-report/parts/#select)はこちらから確認できます
 {{< /callout >}}
-
-
 
 ### 単体回答の設定{#plainSettings}
 
@@ -85,11 +77,7 @@ NipoPlusでは以下の種類があります。
 
 [単語の色分け](#color)をするにはこちらをご覧ください
 
-
-
 ### データの活用（CSV出力・グラフ化）{#subtotal_select}
-
-
 
 <details>
   <summary>集計とグラフ化</summary>
@@ -101,10 +89,8 @@ NipoPlusでは以下の種類があります。
 
 </details>
 
-
 <details>
   <summary>CSV出力</summary>
-
 
 [CSV出力オプションを変更](/docs/manual/analytics/csvoption/)することで列展開の出力形式を変更できます。
 
@@ -119,12 +105,9 @@ NipoPlusでは以下の種類があります。
 2023/06/07, -, ⭕, -, -, -, ⭕, -, -
 {{< /excelTable >}}
 
-
 例えば使用車両という１つの項目に対して４列（B〜E列）展開していることがわかります。
 
-
 **列展開がOFF**の場合のCSV出力例
-
 
 {{< excelTable >}}
 提出日, 使用車両, ガソリン残量, 業務報告
@@ -151,19 +134,12 @@ NipoPlusでは以下の種類があります。
 
 [単語の色分け](#color)をするにはこちらをご覧ください
 
-
-
-
-
-
 <details>
   <summary>CSV出力</summary>
-
 
 [CSV出力オプションを変更](/docs/manual/analytics/csvoption/)することで列展開の出力形式を変更できます。
 
 **列展開がON**の場合のCSV出力例
-
 
 {{< excelTable >}}
 提出日, 【のこぎり】使用機材, 【金槌】使用機材, 【かんな】使用機材, 【タッカー】使用機材, 【墨つぼ】使用機材, 略, 略, 略, 略, 略, 略, 略, 略
@@ -173,12 +149,9 @@ NipoPlusでは以下の種類があります。
 2023/06/08 11:37, ⭕, ⭕, ⭕, -, ⭕, -, -, -, ⭕, ⭕, ⭕, ⭕, 作業報告内容を書く
 {{< /excelTable >}}
 
-
-
 （長くなるためF列以降省略しています）
 
 **列展開がOFF**の場合のCSV出力例
-
 
 {{< excelTable >}}
 提出日, 使用機材, 使用車両, 不具合状況, 業務報告
@@ -187,7 +160,6 @@ NipoPlusでは以下の種類があります。
 2023/06/09 11:37, のこぎり, 軽トラックA, "機材不足 工具不足",
 2023/06/08 11:37, "かんな 金槌 のこぎり 墨つぼ", トラックB, "遅延あり 機材不足 工具不足", 作業報告内容を書く
 {{< /excelTable >}}
-
 
 １つのセルに、複数の回答が詰め込まれるため若干無理のある形に出力されることに注意してください。選ばれた単語ごとにスペースで区切って出力されます。
 CSV出力に限っては選択肢（単体）の方が加工がしやすい形です
@@ -201,8 +173,6 @@ CSV出力に限っては選択肢（単体）の方が加工がしやすい形�
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 この機能は[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)を使うことで同様の機能をもたせることができるため現在では非推奨です
 {{< /callout >}}
-
-
 
 問１の設問によって問２の解凍リストが変化する入力フォームです。
 例えば問1の回答が「野菜」だった場合と、「果物」だった場合でそれぞれ問2の選択肢が変わります。
@@ -222,12 +192,8 @@ graph LR;
 質問1の選択肢を追加するごとに、質問2の選択肢欄も自動で追加されていきます。
 以下は本入力フォームにのみ存在する設定項目です
 
-
-
 <details>
   <summary>詳細設定</summary>
-
-
 
 <dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
@@ -243,27 +209,23 @@ graph LR;
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 [単語の色分け](#color)も可能です
 
-
 </details>
 
 [単語の色分け](#color)をするにはこちらをご覧ください
 
-
-
 ### CSV出力{#csv_3}
 
 選択肢(2層式)をCSVに出力すると、答1・答2の2列に展開されてCSVに出力されます。
-
 
 {{< excelTable >}}
 状態, 文書ID, 承認者1, 【答1】野菜, 【答2】野菜, 【答1】パソコン, 【答2】パソコン, 【答1】お酒, 【答2】お酒
 進行, u4PIRvw, 管理者A, くだもの, バナナ, デスクトップ, Mac Mini, ウィスキー, ラフロイグ
 {{< /excelTable >}}
 
-
 ## 選択肢の色分けについて{#color}
 
 [選択肢単体](#plain)、[選択肢複数](#multiple)、[選択肢２層式](#layerd)の３種類は、各選択肢に色分けをする機能が有ります。
+
 <details>
   <summary>単語の色分けについて</summary>
 
@@ -305,10 +267,7 @@ graph LR;
 
 </details>
 
-
-
 ---
-
 
 ## チェックボックス入力{#checkbox}
 
@@ -335,7 +294,6 @@ graph LR;
 </dl>
 メモの使われ方がチェックボックスだけ他の項目と異なり、ボックスの横に配置されるという点にだけ注意してください。
 
-
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
 </details>
@@ -344,27 +302,20 @@ graph LR;
 
 チェックボックスのデータは集計対象です。過去データ推移や累積、そこからグラフの作成も可能です。
 
-
 <details>
   <summary>グラフ化</summary>
 
-
 {{<icatch filename="pie-charts" msg="チェックボックスのデータを円グラフにしたイメージ">}}
-
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
-
 </details>
-
 
 <details>
   <summary>CSV</summary>
 出力形式を変えることができます。
 
-
 {{< link-card title="CSV出力オプション" description="操作ガイド" href="/docs/manual/analytics/csvoption/" >}}
-
 
 列展開がONの場合のCSV出力例
 
@@ -376,8 +327,6 @@ graph LR;
 2023/06/06, ◯, -, -, ◯,
 2023/06/06, ◯, -, ◯, -, これはサンプルです
 {{< /excelTable >}}
-
-
 
 列展開がOFFの場合のCSV出力例
 
@@ -394,10 +343,7 @@ graph LR;
 
 ---
 
-
-
 ## 選択肢のリストを動的に変化させる{#dinamic_switch_select}
-
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 この機能は有料プラン限定です
@@ -408,7 +354,6 @@ graph LR;
 
 例として、地域に「北関東」を選ぶと支店の選択肢が「栃木県宇都宮支店・栃木県栃木市支店・栃木県日光支店」に変化するような小細工ができます。
 下の画像がイメージしやすいでしょう▼
-
 
 {{<icatch filename="dinamic-selection" msg="他の入力結果に応じて選択肢のリストを動的に変化できます" alice="ok">}}
 
@@ -434,13 +379,9 @@ graph LR;
 
 例えば[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)（単）を参照先として指定するには次の画像のようになります。
 
-
 {{<iTablet filename="dinamic-selection-setting" msg="他のデータによって自分のデータを変化させることができるよ。まるでプログラマみたい" alice="pc">}}
 
-
-
 [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#multiple)（複）を参照先として指定する場合、参照先の値は複数選択することになりますが、**すべてにマッチしたとき条件が成立**となります。一部一致ではありません。
-
 
 #### 複数条件がある場合の優先度{#priolity}
 
@@ -454,7 +395,6 @@ graph LR;
 
 {{<icatch filename="disable-dinamic" msg="なんで利用できないのかな？条件をよく見直してみよう"  alice="question">}}
 
-
 動的変化を使用する具体的な条件は以下のとおりです。
 
 - 自身の[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の他に別の[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)が存在すること（単・複どちらでも可）
@@ -462,7 +402,6 @@ graph LR;
 - [無料プラン](/docs/price/free/)では無いこと
 
 上記条件を満たすことで動的変化設定が可能になります。
-
 
 ### 動的変化を反復入力と組み合わせて使う{#join}
 
@@ -472,6 +411,3 @@ Version 1.62.0から動的変化を反復入力と組み合わせて使用でき
 
 １行目の訪問先エリア「北関東」が選ばれたとすると、１行目の動的変化は「北関東」を基準として処理が行われます。2行目の訪問先エリアに違う値を選んだとしても、１行目には影響しません。それぞれの行が独立して動的変化を起こします。
 反復入力内の選択肢しか監視対象に指定できません。
-
-
-

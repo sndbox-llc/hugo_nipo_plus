@@ -11,11 +11,9 @@ weight = 111
 # aliases = []
 +++
 
-
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 各グループ内のスタッフ管理については[グループ内のスタッフ管理](/docs/manual/initial-setting/staff-local/_about/)を参照してください
 {{< /callout >}}
-
 
 スタッフアカウントには全員いづれかの権限が設定されます。
 
@@ -47,11 +45,6 @@ weight = 111
 <dd><a href="/docs/manual/write-report/write/">レポートの作成</a>や集計など一般的なことが行なえますが、<a href="/docs/manual/initial-setting/setting-group/">グループ全体に関する設定</a>は一切できません。一般的な従業員はこの権限を利用して下さい</dd>
 </dl>
 
-
-
-
-
-
 ## 少し特殊な権限{#others}
 
 以下の権限は限定的な用途でのみ使用される特殊な権限です。
@@ -67,9 +60,7 @@ weight = 111
 </dd>
 </dl>
 
-
 ---
-
 
 ## 権限ごとの詳細な説明とメニューの見え方{#detailScreen}
 
@@ -97,7 +88,6 @@ weight = 111
 {{<icatch filename="manager" msg="編集者の画面では「組織設定」が表示されません" alice="ok">}}
 
 </details>
-
 
 ### スタッフ権限{#staff}
 

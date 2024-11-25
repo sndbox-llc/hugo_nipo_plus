@@ -20,8 +20,6 @@ code = true
 
 {{<figure src="scrollbtn.png"  alt="スクロールを使う例" caption="スクロールを使う例" >}}
 
-
-
 ```javascript
 /**
  * スクロール太郎
@@ -39,9 +37,7 @@ export function smoothScroll (refId?: string, offsetY = 100) {
 Modalは浮かんでいるので、window.で処理をしても動かないようですね。
 解決策をいくつか探していたとき、Quasarの公式でスクロールに関するページが有りました。
 
-
 {{< link-card title="Scrolling Utils" href="https://quasar.dev/quasar-utils/scrolling-utils" target="_blank" >}}
-
 
 QuasarにはScrollについても色々便利なユーティリティを提供してくれているおかげで、非常に簡単に書くことができます。まずサンプル。
 縦に長いモーダルがあり、上部のナビボタンをクリックすると対象のIDの行へスムースにスクロールします。
@@ -65,9 +61,7 @@ QuasarにはScrollについても色々便利なユーティリティを提供�
         <q-page-container>
           <q-page>
             <q-card>
-              <div v-for="node in dummy" :key="node.id" :id="node.id">
-                {{ node.text }}
-              </div>
+              <div v-for="node in dummy" :key="node.id" :id="node.id">{{ node.text }}</div>
             </q-card>
           </q-page>
         </q-page-container>

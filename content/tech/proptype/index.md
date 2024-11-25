@@ -12,7 +12,6 @@ code = true
   priority = 0.5
 +++
 
-
 今までJavascriptばかりで、TypeScriptは使っていませんでしたが、実際にTypeScriptを使い始めると、もうTypeScript抜きでの開発は怖くてできなくなります。
 
 TypeScriptの強力な機能の１つが「型」を持つことです。
@@ -35,16 +34,15 @@ interface Props {
 export default defineComponent({
   props: {
     templateId: { required: true, type: String },
-    propsReports: { required: false, default: undefined } // &#x25c0;これの型指定を interfaceで定義
+    propsReports: { required: false, default: undefined }, // &#x25c0;これの型指定を interfaceで定義
   },
-  setup (props: Props) { // &#x25c0; Props型にすればpropsの型推論が効く
-  }
+  setup(props: Props) {
+    // &#x25c0; Props型にすればpropsの型推論が効く
+  },
 })
-
 ```
 
 これでも動きますが、似たような記述を２回書かなければならず、ちょっと面倒です。あとリンターがWarningを飛ばしてきます。
-
 
 ```bash {frame="none"}
 vue/require-prop-types: Prop "propsReports" should define at least its type.
@@ -55,7 +53,6 @@ vue/require-prop-types: Prop "propsReports" should define at least its type.
 ## type: Object as PropType &lt;型&gt;を使う{#use_object_as_proptype}
 
 よくよく調べてみると、propのTypeに自分が作った型を指定できるようです。それがこの **PropType** です。
-
 
 ```typescript
 import { defineComponent, inject, ref, reactive, PropType } from '@vue/composition-api'

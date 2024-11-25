@@ -33,39 +33,39 @@ Cloud Functionsはアクセスが有ったときだけ動くサーバのよう�
 そんな便利なクラウドファンクションは、index.tsに処理を記述していきます。記述するとこんな感じ
 
 ```javascript
-import * as functions from 'firebase-functions';
-const admin = require('firebase-admin');
+import * as functions from 'firebase-functions'
+const admin = require('firebase-admin')
 
 const firebaseKey = {
-  'type': 'service_account',
-  'project_id': 'さんぷる',
-  'private_key_id': '長い桁の鍵',
-  'private_key': '長い桁の鍵',
-  'client_email': 'さんぷる',
-  'client_id': 'さんぷる',
-  'auth_uri': 'さんぷる',
-  'token_uri': 'さんぷる',
-  'auth_provider_x509_cert_url': 'さんぷる',
-  'client_x509_cert_url': 'さんぷる'
+  type: 'service_account',
+  project_id: 'さんぷる',
+  private_key_id: '長い桁の鍵',
+  private_key: '長い桁の鍵',
+  client_email: 'さんぷる',
+  client_id: 'さんぷる',
+  auth_uri: 'さんぷる',
+  token_uri: 'さんぷる',
+  auth_provider_x509_cert_url: 'さんぷる',
+  client_x509_cert_url: 'さんぷる',
 }
 
 admin.initializeApp({
   credential: admin.credential.cert(firebaseKey),
-  databaseURL: 'https://salonkarte-87b6a.firebaseio.com'
+  databaseURL: 'https://salonkarte-87b6a.firebaseio.com',
 })
 // ↑ここまではほぼ定型文
 
 // 例えばデータが追加されたらカウントアップするサンプルクラウドファンクション
 // カウンターみたいな処理もクラウドファンクションに任せたほうがいいかも
 exports.addDataCounter = functions.firestore.document('user/{userId}/data/{dataId}').onCreate(async (snap, context) => {
-  const userId = context.params.userId;
-  const ref = await admin.firestore().collection('user').doc(userId).collection('lock').doc('state').get();
+  const userId = context.params.userId
+  const ref = await admin.firestore().collection('user').doc(userId).collection('lock').doc('state').get()
   if (ref.exists) {
-    let currentCnt = ref.data().dataCnt;
-    currentCnt = currentCnt + 1;
-    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').update({ dataCnt: currentCnt});
+    let currentCnt = ref.data().dataCnt
+    currentCnt = currentCnt + 1
+    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').update({ dataCnt: currentCnt })
   } else {
-    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').set({ dataCnt: 1});
+    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').set({ dataCnt: 1 })
   }
 })
 ```
@@ -89,7 +89,7 @@ exports.関数名 = functions.firestore.document(‘監視対象Path’) .onCrea
 さて、クラウドファンクションの関数を１つのファイルに切り出してみましょう。注意点としては、
 
 ```javascript
-admin.initializeApp;
+admin.initializeApp
 ```
 
 この処理は１回しか呼び出せません。複数回呼び出すとエラーで落ちます。
@@ -98,31 +98,31 @@ admin.initializeApp;
 
 ```javascript
 // 【index.ts】
-import * as functions from 'firebase-functions';
-import * as myCounter from './myCounter'; // 追記
-const admin = require('firebase-admin');
+import * as functions from 'firebase-functions'
+import * as myCounter from './myCounter' // 追記
+const admin = require('firebase-admin')
 
 const firebaseKey = {
-  'type': 'service_account',
-  'project_id': 'さんぷる',
-  'private_key_id': '長い桁の鍵',
-  'private_key': '長い桁の鍵',
-  'client_email': 'さんぷる',
-  'client_id': 'さんぷる',
-  'auth_uri': 'さんぷる',
-  'token_uri': 'さんぷる',
-  'auth_provider_x509_cert_url': 'さんぷる',
-  'client_x509_cert_url': 'さんぷる'
+  type: 'service_account',
+  project_id: 'さんぷる',
+  private_key_id: '長い桁の鍵',
+  private_key: '長い桁の鍵',
+  client_email: 'さんぷる',
+  client_id: 'さんぷる',
+  auth_uri: 'さんぷる',
+  token_uri: 'さんぷる',
+  auth_provider_x509_cert_url: 'さんぷる',
+  client_x509_cert_url: 'さんぷる',
 }
 
 admin.initializeApp({
   credential: admin.credential.cert(firebaseKey),
-  databaseURL: 'https://salonkarte-87b6a.firebaseio.com'
+  databaseURL: 'https://salonkarte-87b6a.firebaseio.com',
 })
 // ↑ここまではほぼ定型文
 // ↓ここが追記されます
 module.exports = {
-  myCounter
+  myCounter,
 }
 ```
 
@@ -130,20 +130,20 @@ module.exports = {
 
 ```javascript
 // 【myCounter.ts】
-import * as functions from 'firebase-functions';
-import * as admin from 'firebase-admin';
+import * as functions from 'firebase-functions'
+import * as admin from 'firebase-admin'
 
 // 例えばデータが追加されたらカウントアップするサンプルクラウドファンクション
 // カウンターみたいな処理もクラウドファンクションに任せたほうがいいかも
 export default functions.firestore.document('user/{userId}/data/{dataId}').onCreate(async (snap, context) => {
-  const userId = context.params.userId;
-  const ref = await admin.firestore().collection('user').doc(userId).collection('lock').doc('state').get();
+  const userId = context.params.userId
+  const ref = await admin.firestore().collection('user').doc(userId).collection('lock').doc('state').get()
   if (ref.exists) {
-    let currentCnt = ref.data().dataCnt;
-    currentCnt = currentCnt + 1;
-    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').update({ dataCnt: currentCnt});
+    let currentCnt = ref.data().dataCnt
+    currentCnt = currentCnt + 1
+    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').update({ dataCnt: currentCnt })
   } else {
-    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').set({ dataCnt: 1});
+    admin.firestore().collection('user').doc(userId).collection('lock').doc('state').set({ dataCnt: 1 })
   }
 })
 ```

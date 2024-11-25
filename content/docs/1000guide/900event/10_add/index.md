@@ -14,14 +14,11 @@ draft = false
 予定がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
 {{< /callout >}}
 
-
 予定は[カレンダー](/docs/manual/calendar/_about/)や予定管理画面から追加可能です。予定を追加する方法として、以下の3種類が用意されています。
-
 
 1. 時間軸からドラッグして追加する
 2. 画面右下の＋ボタンをクリックして追加する
 3. 時間軸一番上の＋ボタンをクリックして追加する
-
 
 {{<icatch filename="add-event" msg="予定の追加方法はドラッグや＋ボタンなど何種類か用意されています" alice="ok">}}
 
@@ -32,7 +29,6 @@ draft = false
 {{<icatch filename="input-event" msg="予定登録画面ではタイトルや担当者、時刻などを設定します">}}
 
 予定を登録する際には、次の情報を入力します。
-
 
 <dl class="basic">
 <dt>タイトル</dt>
@@ -49,9 +45,7 @@ draft = false
 
 ## カレンダー上から予定を追加する{#add_event}
 
-
 カレンダー画面からも簡単に予定を追加できます。カレンダーの表示モード（月、週、表、日）に応じて追加の手順が少し異なるため、以下の各ページで詳細をご確認ください。
-
 
 - [月カレンダから予定を追加する](/docs/manual/calendar/monthly/#add_event)
 - [週カレンダから予定を追加する](/docs/manual/calendar/weekly/#add_event)

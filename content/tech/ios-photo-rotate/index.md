@@ -19,9 +19,7 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
 サンプルの画像は、縦向きの外側カメラを使って撮影しましたが、勝手に横向きになっている様子がわかります。
 これはiOSのバージョンを最新の13.4.1に更新すると発生するようです。このバグはNipo Version5.11.2にて修正されました。
 
-
 {{<figure src="rotateimage.png"  alt="画像が回転してしまう問題" caption="画像が回転してしまう問題" >}}
-
 
 ## Blueimp load imageを使った画像回転の制御{#control_image_rotation_with_blueimp_load_image}
 
@@ -38,10 +36,10 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
 修正は至ってシンプル。回転処理を書かなければそれで治りました。
 
 ```javascript
- if (data.exif) {
-    // blueimp load imageのOrientationをセットするとバグるので、したの行をコメントアウトする
-    // options.orientation = data.exif.get('Orientation')
-  }
+if (data.exif) {
+  // blueimp load imageのOrientationをセットするとバグるので、したの行をコメントアウトする
+  // options.orientation = data.exif.get('Orientation')
+}
 ```
 
 挙動からの推測であり、確かなことは言えませんが、iOS13.4.1では画像が横向きになるバグを修正してくれたのだと思います。WKWebviewではこの挙動が確認できました。
@@ -89,7 +87,6 @@ iOSのバージョンがiOS13.4.1でご利用の方は、Nipoに画像を添付�
 写真が勝手に回転する問題をわざわざ記述したのに、この度のアップデートで不要となりました。
 しかし回転処理を削除することは、「旧バージョンのiOSユーザ」はまたしても回転してしまう問題が発生すると思います。
 基本的には最新版に合わせて開発しますので、画像が勝手に回転して困る場合は、iOSのアップデートをお願いします。
-
 
 今回のバグについてはネットで探しても情報が見つかりませんでした。
 Blueimp load imageのissueにも上がっておりません。Nipoではアップした画像をBase64に変換し、表示しているのですが、この処理がもしかしたら原因の可能性もありますね。

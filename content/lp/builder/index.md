@@ -18,15 +18,11 @@ heroLinks = [
   priority = 0.9
 +++
 
-
-
-
 <div class="row my-5">
 <div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
 ## まるで自作の日報アプリ？テンプレートを自由にカスタム可能{#custom_template}
-
 
 NipoPlusは豊富な入力パーツをブロックのように並べるだけで簡単にオリジナルの日報テンプレートを自作できます。
 写真や署名といったユニークなパーツもあるので、建設業の現場写真やカンバンだってスマホ１台で簡単に日報へ添付して報告が可能です。
@@ -45,7 +41,6 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 </div>
 
 {{<nextArrow>}}
-
 
 ---
 
@@ -87,12 +82,12 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 <div class="mt-auto">
 
 {{< link-card title="モバイル対応" href="/tips/mobile-device/" >}}
+
 </div>
 </div>
 </div>
 
 {{<nextArrow>}}
-
 
 ## 簡単操作で外国人や年配の方も現場からスマホから日報の作成ができます{#imgs}
 
@@ -106,11 +101,9 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 
 スマートフォンやタブレットで工事標識板や工事現場の風景を撮影し、その[画像](/docs/manual/initial-setting/template/binarys/#picture)を日報に直接添付。作業の進捗や注意点を視覚的に伝えることができます。
 
-
 ### スマホ・タブレットのみで日報作成が可能{#mobile_report}
 
 日報を書くのにPCを起動させる必要はありません。スマートフォン一つで日報の作成が可能です。もちろんタブレットでもOK。初期設定はPCを推奨しますが、その後はどのデバイスからでも利用可能です。
-
 
 ### 承認フローのオンライン化{#online_approval}
 
@@ -119,7 +112,6 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 ### 大きな文字サイズで年輩の方も安心{#large_text_seniors}
 
 文字サイズを自由に調整できる機能が備わっています。年輩の方にも見やすく、使いやすいUIを提供します。
-
 
 ### 提出漏れの早期発見{#early_submission_check}
 
@@ -132,8 +124,6 @@ NipoPlusは、日報の記入漏れを防ぐための強力な機能を備えて
 <h3>日報と案件を紐づけ</h3>
 <p>日報は１つ１つが独立しますが、関連する日報を「案件」としてまとめることで現場ごとに日報をまとめることができます</p>
 
-
-
 </div>
 <div class="col-lg-9">
 
@@ -144,23 +134,17 @@ NipoPlusは、日報の記入漏れを防ぐための強力な機能を備えて
 
 {{<nextArrow>}}
 
-
-
-
 ## 日報データの集計や活用{#report_data_usage}
 
 日報のデータは最初から電子化されているため、様々な使い道があります。
-
 
 <div class="row my-5">
 <div class="col-lg-7 rootMainText">
 <!-- 本文エリア -->
 
-
 ### 日報をPDFに変換できます{#pdf_conversion}
 
 作成した[日報はPDFに変換](/docs/manual/read-report/state/#pdf_export)でき、印刷やメールでの送信も簡単。これにより、紙ベースの報告書作成が不要になり、時間とコストを節約できます。
-
 
 ### [日報をグラフ化する](/docs/manual/analytics/chart/){#chart_reports}
 
@@ -173,7 +157,6 @@ NipoPlusの集計グラフ化機能を使えば日報をリアルタイムでグ
 ### 他の基幹システムへインポート{#system_import}
 
 CSVデータを使って基幹システムへデータインポートすることができます。
-
 
 </div>
 <div class="col-lg-9">

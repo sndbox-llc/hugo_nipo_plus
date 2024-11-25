@@ -12,22 +12,16 @@ isNipo = true
   priority = 0.2
 +++
 
-
-
 ## 1行テキスト入力フォーム{#display}
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/text/)。NipoPlusでは１行と複数行は同じフォームに合併しました
 {{< /callout >}}
 
-
-
 その名の通り、１行しか入力できません。例えば**担当者名**や**地名**、**管理番号**などの入力に最適です。
 実際に日報を作成する画面では次のように表示されます。
 
 {{<iTablet filename="oneline" msg="１行入力なので名前や電話番号、住所などに"  alice="ok">}}
-
-
 
 {{<alice pos="left" icon="default">}}
 OKと表示されているのは入力必須が有効になっている項目です。空欄だと赤文字でエラーを表示します
@@ -42,12 +36,8 @@ CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
 a, e, o, コメント
-1行のみ, 改行はできません, 例えば作業担当者名の入力などに適しています, _
+1行のみ, 改行はできません, 例えば作業担当者名の入力などに適しています, \_
 {{< /excelTable >}}
-
-
-
-
 
 ### 1行テキストの設定画面{#settingOneline}
 
@@ -64,44 +54,28 @@ a, e, o, コメント
   <dd>日報作成者が何を書くべきか迷わないようにするために説明を付すことができます。</dd>
 </dl>
 
-
 ---
 
-
-
 ## 複数行入力フォーム{#display}
-
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 [後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/text/)。NipoPlusでは１行と複数行は同じフォームに合併しました
 {{< /callout >}}
 
-
 通常よく使われる、普通の[テキスト入力フォーム](/docs/manual/initial-setting/template/text/)エリアです。
 文字の入力や色変え・マスクがけなどができます。**業務内容**や**ひきつぎ**など、さまざまな項目として使える最も一般的な項目と言えます
 
-
 {{<iTablet filename="multiline" msg="本文や引き継ぎ、明日の予定などに"  alice="ok">}}
-
-
 
 ### 本文を含んだ日報の各種出力画面{#outputText}
 
 [PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
 CSV出力時は次のように表示されます。
 
-
 {{< excelTable >}}
 サンプル, sample, サンプル2, 備考, コメント
-サンプルです。削除・修正して下さい。改行も利用できます, サンプル本文などに, テスト, 拡張機能で文字に色を付けることも可能です, _
+サンプルです。削除・修正して下さい。改行も利用できます, サンプル本文などに, テスト, 拡張機能で文字に色を付けることも可能です, \_
 {{< /excelTable >}}
-
-
-
-
-
-
-
 
 ### 本文の設定画面{#settingText}
 

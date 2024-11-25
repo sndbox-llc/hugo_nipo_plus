@@ -13,7 +13,6 @@ weight = 3060
   priority = 0.6
 +++
 
-
 NipoPlusのユーザから頂戴した様々な<a href="/others/inquery/">お問い合わせ</a>の内容を個人が特定できない形で掲載しております。
 
 ## ログインに関する質問{#login}
@@ -36,7 +35,6 @@ NipoPlusのユーザから頂戴した様々な<a href="/others/inquery/">お問
 </dd>
 </dl>
 
-
 ## 導入に関する質問{#start}
 
 <dl class="faq">
@@ -55,6 +53,7 @@ NipoPlusのユーザから頂戴した様々な<a href="/others/inquery/">お問
 Nipo【旧版】/NipoPlusを合わせて500社ほど有料プランをご利用頂いています（無料プランはカウント対象外）
 お客様個別に関する情報は公開できませんが、NipoPlusでは特に製造業の方が多いです。
 サイト上に公開してくださっているお客様に関してはここでご紹介させていただいても問題ないのでリンクをさせていただきます
+
 <hr>
 <ul>
 <li><a href="https://www.sogareinetsu.com/worklog/nipo/">曽我冷熱株式会社様</a></li>

@@ -10,7 +10,6 @@ weight = 480
 # images = []
 +++
 
-
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 [CSVの出力設定](/docs/manual/analytics/csvoption/)も併せてご覧ください
 
@@ -20,19 +19,15 @@ weight = 480
 集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
 {{< /callout >}}
 
-
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 [Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)版では利用できません。[Web版](/docs/system/mobile-install/#web)をご利用ください
 {{< /callout >}}
-
-
 
 ## １ヶ月分のレポートをCSV出力する{#monthly}
 
 1. 「集計/CSV出力」をクリック
 2. 期間を選択（初期値: 今月）
 3. 「CSV出力」ボタンをクリック
-
 
 {{<icatch filename="report-csv-export1" msg="たくさんのレポートを１枚のCSVにまとめて出力できるよ。電子化の強みだね" alice="pc">}}
 
@@ -42,7 +37,6 @@ weight = 480
 - 出力対象のファイルが1つの場合はCSVファイル、2つ以上ある場合はCSVをZIPでまとめた形で出力されます
 
 出力されたCSVファイルはエクセルで開くことができます。NipoPlusのデータを[エクセル加工テクニック集](/excel/)も併せてご覧ください。
-
 
 ## スタッフ別や日別に分けてCSV出力する{#splid_download}
 
@@ -56,7 +50,6 @@ weight = 480
 {{<icatch filename="selectable-csv-download" msg="日別やスタッフ別に分けてレポートのダウンロードが可能です">}}
 
 ## CSVを解凍すると文字化けする？{#text_shaking}
-
 
 WindowsでZipファイルを解凍する際、一部の解凍ソフトで文字化けが発生することがあります。Windows標準の解凍ソフトを使用すれば問題は発生しません。文字化けが起きた場合は、解凍ソフトを変更してください。
 

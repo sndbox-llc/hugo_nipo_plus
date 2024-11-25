@@ -26,31 +26,32 @@ computedで置き換えるか、関数で置き換える必要があります。
 今回はFilterの処理を関数に置き換えることで対応します。例えばMomentで日付の表示形式を書き換えるフィルター「longformat」はこれまでFilterで書かれていました。
 
 ```javascript
-Vue.filter('longformat', function (t) { return (!!t) ? '-' : moment(t).format('YYYY年MM月DD日(dddd)') });
-
+Vue.filter('longformat', function (t) {
+  return !!t ? '-' : moment(t).format('YYYY年MM月DD日(dddd)')
+})
 ```
 
 様々な箇所で使っているので、関数化してFilterのときと同じように酷使できるようにします
 
 ```javascript
-export function longformat (t) { return (!!t) ? '-' : moment(t).format('YYYY年MM月DD日(dddd)') };
-
+export function longformat(t) {
+  return !!t ? '-' : moment(t).format('YYYY年MM月DD日(dddd)')
+}
 ```
 
 利用する箇所で importして、リターンしてあげれば使えるようになります。このあたりはVue3だとsetup()構文の中で全部書けるようなので、今後Vue3になるとこんな感じかな？
 
 ```javascript
-import { defineComponent } from '@vue/composition-api'; // vue2でvue3っぽいことをするにはこれを使う
-import { longformat } from 'components/myfilters.ts';
+import { defineComponent } from '@vue/composition-api' // vue2でvue3っぽいことをするにはこれを使う
+import { longformat } from 'components/myfilters.ts'
 
 export default defineComponent({
-  setup () {
+  setup() {
     return {
-      longformat // リターンするとtemplate内で利用できるようになる
+      longformat, // リターンするとtemplate内で利用できるようになる
     }
-  }
+  },
 })
-
 ```
 
 ### $options.filters.フィルター名の修正も忘れずに{#filterNameFixed}

@@ -23,7 +23,6 @@ NipoPlusのバックエンドはFirebaseを使用しています。アカウン�
 
 {{<figure src="report-search.png"  alt="NipoPlusの検索画面の例。このように複雑な検索はFireStore単体では実装することができません。" caption="NipoPlusの検索画面の例。このように複雑な検索はFireStore単体では実装することができません。" >}}
 
-
 状態や期間、単語を使った検索をFireStore単体で実装しようとすると茨の道となります。フロントにデータを大量にロードしてJavascript側でフィルターを掛ける手もありますが、無駄な通信も多く処理負担も大きくなるため、あまり現実的な回避策とは言えません。
 NipoPlusではこの問題に対して、FireStoreの他にElasitc Searchという全文検索対応のデータベースを併用することでこのような機能を実現しています。
 
@@ -87,22 +86,22 @@ export const reportBody:IndicesCreateRequest = {
 スキーマができたらこれをElasticSearchに送ってインデックスを作成します。nodejsを使って書き込む例
 
 ```javascript
-async function makeElastic () {
+async function makeElastic() {
   const esClient = new Client({
     cloud: {
-      id: 'Elastic CloudだとCloudIDが割り当てられます。管理画面からクラウドIDを控えてここに書きます'
+      id: 'Elastic CloudだとCloudIDが割り当てられます。管理画面からクラウドIDを控えてここに書きます',
     },
     auth: {
       username: 'username。Elastic Cloudから確認できます',
-      password: '同上'
-    }
+      password: '同上',
+    },
   })
 
   try {
-    await esClient.indices.create(先程作ったスキーマJSON);
-    console.info('○○○○ 成功 ○○○○');
+    await esClient.indices.create(先程作ったスキーマJSON)
+    console.info('○○○○ 成功 ○○○○')
   } catch (e) {
-    console.error('XXXXXX 失敗 XXXXXX');
+    console.error('XXXXXX 失敗 XXXXXX')
   }
 }
 ```
@@ -111,7 +110,6 @@ async function makeElastic () {
 なお私はこのあたりの処理をCUIでいつでも作成・破壊が出来るようにしておきました。何かとテストで作成破壊を繰り返すことになるので、面倒臭がらず先に作っておくと開発がスムーズになります。
 
 {{<figure src="terminal.png"  alt="ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました。シンプルだけど自分しか使わないならこのくらいでも必要十分ですね" caption="ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました。シンプルだけど自分しか使わないならこのくらいでも必要十分ですね" >}}
-
 
 ### Cloud FunctionsでFirestoreのデータをElastic Searchへプッシュする{#documentMerge}
 

@@ -1,52 +1,48 @@
+{{ define "main" }}
+<div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
+  <div class="content" style="max-width: 2000px; margin-left: auto; margin-right: auto">
+    <section>
+      <div class="row justify-content-center">
+        <div class="col-xs-16 col-md-16">
+          <article>
+            {{ if .Params.lead -}}
+            <div class="myLead">
+              <div class="myLead__label">概要</div>
+              <div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
+            </div>
+            {{ end }}
+            <div class="mainContent">{{- .Content -}}</div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+{{ end }}
 
 
 {{ define "rootHero" }}
   {{ if .Params.heroTitle }}
-  <section class="section section-sm" style="border-bottom:2px solid orange;">
-    <div id="myhero">
-    <h1 class="headLine">{{ .Params.heroTitle }}</h1>
-    <div style="font-size: 1.3em;max-width: 1200px">{{ .Params.heroText | safeHTML}}</div>
-    <ul class="heroList">
-      {{ range .Params.heroLinks }}
-      <li>
-        {{ if .url }}
-        <a href="{{ .url }}">{{ .label }}</a>
-        {{ else }}
-        {{ .label }}
-        {{ end }}
-      </li>
-      {{ end }}
-    </ul>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-3">
-      <a href="https://nipoplus.sndbox.jp/" style="width: 100%" class="btn btn-primary btn-lg my-5" >今すぐはじめる</a>
+    <section class="section section-sm" style="border-bottom: 2px solid orange">
+      <div id="myhero">
+        <h1 class="headLine">{{ .Params.heroTitle }}</h1>
+        <div style="font-size: 1.3em; max-width: 1200px">{{ .Params.heroText | safeHTML}}</div>
+        <ul class="heroList">
+          {{ range .Params.heroLinks }}
+          <li>
+            {{ if .url }}
+            <a href="{{ .url }}">{{ .label }}</a>
+            {{ else }} {{ .label }} {{ end }}
+          </li>
+          {{ end }}
+        </ul>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <a href="https://nipoplus.sndbox.jp/" style="width: 100%" class="btn btn-primary btn-lg my-5">今すぐはじめる</a>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-  </section>
+    </section>
   {{ end }}
 {{ end }}
 
-{{ define "main" }}
-<div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
-	<div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
-<!-- TOPページのメインコンテンツ -->
-<section>
-  <div class="row justify-content-center ">
-    <div class="col-xs-16 col-md-16">
-    <article>
-      {{ if .Params.lead -}}
-        <div class="myLead">
-          <div class="myLead__label">概要</div>
-          <div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
-        </div>
-			{{ end }}
-      <div class="mainContent">
-        {{- .Content -}}
-      </div>
-    </article>
-  </div>
-</section>
-</div>
-</div>
-{{ end }}

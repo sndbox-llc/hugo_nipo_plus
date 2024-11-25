@@ -1,25 +1,25 @@
 
 {{ define "main" }}
 <div class="wrap container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}" role="document">
-	<div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
-<!-- TOPページのメインコンテンツ -->
-<section>
-  <div class="row justify-content-center ">
-    <div class="col-xs-16 col-md-16">
-    <article>
-      {{ if .Params.lead -}}
-        <div class="myLead">
-          <div class="myLead__label">概要</div>
-          <div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
+  <div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
+    <section>
+      <div class="row justify-content-center ">
+        <div class="col-xs-16 col-md-16">
+          <article>
+            {{ if .Params.lead -}}
+              <div class="myLead">
+                <div class="myLead__label">概要</div>
+                <div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
+              </div>
+            {{ end }}
+            <div class="mainContent">
+              {{- .Content -}}
+            </div>
+          </article>
         </div>
-			{{ end }}
-      <div class="mainContent">
-        {{- .Content -}}
       </div>
-    </article>
+    </section>
   </div>
-</section>
-</div>
 </div>
 {{ end }}
 
@@ -33,7 +33,6 @@
       日報・日誌・月報・報告書・点検シート・チェック表・設備点検表など、多目的に利用できる<strong>クラウドベースの入力アプリ</strong>です。<br>
       簡単にオリジナルの入力フォームを作成可能
     </div>
-    <h2></h2>
     <ul class="heroList">
       <li><a href="/lp/checksheet/">🏭 設備点検に</a></li>
       <li><a href="/lp/builder/">🚧 建築業の日報に</a></li>

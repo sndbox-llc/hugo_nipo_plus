@@ -7,7 +7,7 @@ menuTitle = "スマホ・タブレットで日報を書く"
 toc = true
 images = ["tablet-phone.png"]
 date = "2023-04-01"
-aliases = ["/blog/smartphone/", "/tips/smartphone/"]
+# aliases = []
 [sitemap]
   priority = 0.9
 +++

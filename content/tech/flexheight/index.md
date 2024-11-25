@@ -4,7 +4,7 @@ description = "Quasar FrameworkのGridを使ってQcardの高さを揃える"
 # tags = []
 title = "Quasar Framework QCardの高さを揃えて見た目を良くする"
 toc = true
-images = []
+# images = []
 date = "2023-01-01"
 code = true
 [sitemap]

@@ -5,8 +5,8 @@ description = "レポートの提出やコメント・承認など様々な変�
 title = "📚ログデータ"
 toc = true
 weight = 1230
-aliases = []
-images = []
+# aliases = []
+# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

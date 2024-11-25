@@ -4,7 +4,7 @@ description = "マニュアル用の画像など無機質な画像において�
 # tags = []
 title = "webPよりPngのほうが軽いケースも多い"
 toc = true
-images = []
+# images = []
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

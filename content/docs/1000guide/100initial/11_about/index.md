@@ -8,7 +8,7 @@ toc = true
 weight = 10
 # tags = []
 # mermaid = true
-aliases = []
+# aliases = []
 +++
 
 ## 用語解説{#words}

@@ -4,7 +4,7 @@ title = "クレジットカード決済失敗について"
 # tags = []
 toc = true
 date = "2023-03-21"
-images = []
+# images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.3

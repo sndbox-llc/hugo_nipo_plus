@@ -5,7 +5,7 @@ description = "クラウド日報NipoPlusでお客様からお預かりする個
 title = "🔒プライバシーポリシー"
 toc = false
 weight = 3090
-aliases = ["/system/privacy-policy/"]
+# aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

@@ -6,7 +6,7 @@ menuTitle = "エクセルのSUMIF関数でスタッフ別の売上を簡単集�
 toc = true
 # tags = ["エクセル",  "集計"]
 date = "2023-10-22"
-aliases = ["/tips/excel_sum/"]
+# aliases = []
 images = ["icatch.png"]
 [sitemap]
   priority = 0.9

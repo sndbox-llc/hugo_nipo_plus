@@ -2,9 +2,9 @@
 description = "最新のお知らせ【アーカイブスページ】"
 title = "News"
 toc = true
-tags = []
+# tags = []
 weight = 11000
-images = []
+# images = []
 robots = "noindex, follow"
 +++
 

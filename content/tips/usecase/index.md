@@ -6,9 +6,9 @@ title = "幅広い業種で使えるカスタマイズ可能な帳票入力ア�
 menuTitle = "ユースケース"
 toc = true
 draft = false
-images = []
+# images = []
 date = "2024-09-30"
-aliases = ["/tips/taxi/"]
+# aliases = []
 [sitemap]
   priority = 0.9
 +++

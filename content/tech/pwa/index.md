@@ -4,7 +4,7 @@ description = "PWAの更新処理"
 title = "VueとRegister Service Workerを使いアプリの更新を制御する"
 toc = true
 # tags = []
-images = []
+# images = []
 date = "2022-11-14"
 code = true
 [sitemap]

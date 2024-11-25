@@ -4,7 +4,7 @@ description = "PDFを生成するPDFMake、結構便利ですが単位のが少�
 # tags = []
 title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
 toc = true
-images = []
+# images = []
 date = "2022-11-14"
 code = true
 [sitemap]

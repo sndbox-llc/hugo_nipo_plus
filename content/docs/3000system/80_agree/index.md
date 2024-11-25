@@ -2,7 +2,7 @@
 url = "/docs/system/agree/"
 description = "NipoPlusを利用する上での利用規約になります。"
 # tags = []
-aliases = []
+# aliases = []
 title = "📖システム利用規約"
 toc = false
 weight = 3080

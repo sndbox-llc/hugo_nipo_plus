@@ -6,8 +6,8 @@ title = "今後の更新予定・バグ情報"
 menuTitle = "🐞バグ及び今後の更新予定"
 toc = false
 weight = 3030
-aliases = []
-images = []
+# aliases = []
+# images = []
 +++
 
 NipoPlusで現在実装されていませんがこれから実装を予定している機能についてまとめています。

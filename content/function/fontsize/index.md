@@ -4,7 +4,7 @@ description = "必要に応じて12〜24の間で文字サイズを調整でき�
 # tags = []
 title = "文字サイズの調整"
 toc = false
-images = []
+# images = []
 date = "2024-10-03"
 code = false
 [sitemap]

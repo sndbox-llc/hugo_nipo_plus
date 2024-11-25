@@ -6,8 +6,8 @@ title = "Android/iOS/PCでNipoPlusを使用する方法"
 menuTitle = "🍏iOS・🤖Android・PCで使う"
 toc = true
 weight = 3010
-aliases = ["/docs/system/android/"]
-images = []
+# aliases = []
+# images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6

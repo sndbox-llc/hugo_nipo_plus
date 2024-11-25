@@ -6,7 +6,7 @@ toc = true
 weight = 8310
 isNipo = true
 # tags = ["旧バージョン"]
-# aliases = ["/legacy/system/leave/"]
+# aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

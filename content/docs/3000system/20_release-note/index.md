@@ -7,7 +7,7 @@ menuTitle = "📜システム更新履歴"
 toc = false
 weight = 3020
 # aliases = []
-images = []
+# images = []
 +++
 
 NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/docs/system/mobile-install/#appStore)・[Web版](/docs/system/mobile-install/#web)の3種類があります。ご利用中のNipoPlusバージョンは左サイドメニュー下部に記載されています。

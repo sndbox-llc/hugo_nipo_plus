@@ -5,8 +5,8 @@ description = "サイト内のコンテンツを簡単に検索して見つけ�
 title = "検索"
 toc = true
 weight = 12001
-aliases = []
-images = []
+# aliases = []
+# images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.3

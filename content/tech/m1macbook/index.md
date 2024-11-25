@@ -4,7 +4,7 @@ description = "速いと噂のM1マックブックを買ってみました。プ
 # tags = ["開発環境"]
 title = "M1/M2 Macをプログラマが購入して実際に使った感想"
 toc = true
-images = []
+# images = []
 date = "2022-11-14"
 code = true
 [sitemap]

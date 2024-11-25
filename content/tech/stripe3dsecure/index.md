@@ -1,11 +1,11 @@
 +++
 url = "/tech/3ds/"
 description = "2025年3月末までに原則として3DSの導入が義務化されることを受けて、NipoPlusでも3DS対応に当たりました。Subscriptionで3DSに対応するにあたり躓いた点などを記事にしてみました"
-tags = ["stripe"]
+# tags = ["stripe"]
 title = "StripeのSubscriptionに3DS対応を行ったお話"
 toc = true
 draft=true
-images = []
+# images = []
 date = "2024-11-10"
 code = true
 [sitemap]

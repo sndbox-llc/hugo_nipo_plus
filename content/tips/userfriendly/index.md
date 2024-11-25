@@ -7,7 +7,7 @@ menuTitle = "使いやすいテンプレートを作る"
 toc = true
 mermaid = true
 images = ['pen2.webp']
-aliases = ["/tips/template/", "/tips/maker/"]
+# aliases = []
 date = "2023-04-01"
 [sitemap]
   priority = 0.9

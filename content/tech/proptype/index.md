@@ -4,7 +4,7 @@ description = "JavaScriptからTypeScriptへの移行は初めは挑戦的かも
 # tags = []
 title = "Vue3 Propsの型推論"
 toc = true
-images = []
+# images = []
 date = "2020-10-18"
 code = true
 [sitemap]

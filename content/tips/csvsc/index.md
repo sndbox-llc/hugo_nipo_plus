@@ -6,7 +6,7 @@ toc = true
 images = ["linking-multi-csv.png"]
 # tags = []
 date = "2023-04-01"
-aliases = ["/blog/csvsc/"]
+# aliases = []
 code = true
 [sitemap]
   priority = 0.9

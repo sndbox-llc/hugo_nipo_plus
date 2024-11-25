@@ -4,7 +4,7 @@ description = "javascriptの世界で日付処理の金字塔を築きあげた�
 # tags = []
 title = "moment.jsが非推奨になっていたようです"
 toc = true
-images = []
+# images = []
 date = "2022-11-14"
 code = true
 [sitemap]

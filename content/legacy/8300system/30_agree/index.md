@@ -5,7 +5,7 @@ title = "システム利用規約"
 toc = false
 weight = 8330
 isNipo = true
-aliases = []
+# aliases = []
 # tags = ["旧バージョン"]
 [sitemap]
   changefreq = "yearly"

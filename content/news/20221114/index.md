@@ -3,7 +3,7 @@ title = "Nipo【旧版】とNipoPlusのホームページを統合しました"
 description = "Nipo【旧版】とNipoPlusのホームページを1つのサイトに統合しました"
 # tags = []
 toc = true
-images = []
+# images = []
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

@@ -4,7 +4,7 @@ description = "インボイス制度登録番号が交付されました"
 title = "インボイス制度登録番号"
 toc = true
 date = "2023-05-26"
-images = []
+# images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.3

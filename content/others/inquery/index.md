@@ -5,8 +5,8 @@ description = "NipoPlusに関するご質問、ご要望、お問い合わせは
 title = "📩お問い合わせ"
 toc = true
 weight = 12000
-aliases = ["/docs/system/inquery/"]
-images = []
+# aliases = []
+# images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.3

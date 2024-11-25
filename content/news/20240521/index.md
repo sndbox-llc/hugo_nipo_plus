@@ -5,7 +5,7 @@ description = "SPALOのサービス終了に伴い、移行先としてNipoPlus�
 title = "SPALOのサービス終了に伴う移行先・類似点の多いNipoPlusをご検討ください"
 toc = true
 date = "2024-05-21"
-images = []
+# images = []
 [sitemap]
   changefreq = "monthly"
   priority = 0.6

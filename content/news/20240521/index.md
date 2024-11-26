@@ -45,7 +45,7 @@ SPALOではBOTという名称で書かれています。これはNipoPlusでい�
 SPALOがBOTを切り替えて入力するのに対し、NipoPlusではテンプレートを切り替えて入力が可能です。
 テンプレートもBOTも高いカスタマイズ性を有しており、各企業の業務に沿ったフォームを自分たちで作ることが可能な点は非常に大きな共通点でした。
 
-{{< link-card title="テンプレート作成のコツ" href="/tips/userfriendly/" >}}
+{{< link-card title="テンプレート作成のコツ" description="コラム記事"  href="/tips/userfriendly/" >}}
 
 ### 類似点3: CSV出力でデータの分析に使える{#similarity_csv}
 
@@ -69,7 +69,7 @@ NipoPlusで書いたレポートをCSVに出力し、エクセルで開くと次
 
 ※あくまで一例であり、細かいカスタマイズが可能です
 
-{{< link-card title="レポート集計に使えるCSV出力と自動集計" href="/tips/analytics/" >}}
+{{< link-card title="レポート集計に使えるCSV出力と自動集計" description="コラム記事"  href="/tips/analytics/" >}}
 
 ### 類似点4: 安価な料金設定{#similarity_pricing}
 

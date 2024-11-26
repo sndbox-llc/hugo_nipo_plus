@@ -116,8 +116,8 @@ NipoPlusの**入力順序の強制機能**を使うことで入力の順序を�
 各セルには「提出した枚数」が表示されます。誤って2枚以上提出している場合も簡単に判定できますね。未提出者を見つけたらそっと本人に教えて上げてください。
 
 {{< card-grid >}}
-{{< link-card title="提出状況表について" href="/docs/manual/read-report/list/#teishutuMap" >}}
-{{< link-card title="シフト管理について" href="/docs/manual/utils/shift/" >}}
+{{< link-card title="提出状況表"  description="操作ガイド" href="/docs/manual/read-report/list/#teishutuMap" >}}
+{{< link-card title="シフト管理" description="操作ガイド"  href="/docs/manual/utils/shift/" >}}
 {{< /card-grid >}}
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

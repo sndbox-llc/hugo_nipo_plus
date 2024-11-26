@@ -2,11 +2,13 @@
 url = "/docs/manual/initial-setting/staff/rank/"
 description = "スタッフアカウントには権限があります。権限のランクによって操作できる範囲が変わります。本ページは権限に関する操作ガイドです"
 lead = "権限は「管理者」と「編集者」と「スタッフ」の3種類が主たる権限です。それ以外にもありますがまずはこの3つを理解してください"
-# tags = ["スタッフアカウント管理", "要管理者権限"]
+categorys = ['any']
 title = "🔑スタッフの権限"
 menuTitle = "🔑権限について"
 toc = true
 weight = 111
+contributors = []
+# tags = ["スタッフアカウント管理", "要管理者権限"]
 # images = []
 # aliases = []
 +++

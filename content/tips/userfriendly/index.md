@@ -179,7 +179,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 入力がされると次の項目が解除されるため、よりスムーズな入力が可能になります。
 似た機能に入力必須という指定もできます。入力必須を指定すると未入力の際警告するのでうっかり記入漏れを防ぐことができます。
 
-{{< link-card title="入力必須・入力順の制御" description="特設記事" href="/tips/required/" >}}
+{{< link-card title="入力必須・入力順の制御" description="コラム記事" href="/tips/required/" >}}
 
 ### スマホ・タブレット・PCそれぞれの得意・不得意を意識する{#mobile}
 
@@ -193,7 +193,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 {{<figure src="pen2.webp"  alt="署名はタッチパネルでの利用が大前提となります" caption="署名はタッチパネルでの利用が大前提となります" >}}
 
-{{< link-card title="スマートフォン・タブレットの最適な利用" description="特設記事" href="/tips/mobile-device/" >}}
+{{< link-card title="スマートフォン・タブレットの最適な利用" description="コラム記事" href="/tips/mobile-device/" >}}
 
 ## テンプレートサンプル集{#template_samples_collection}
 

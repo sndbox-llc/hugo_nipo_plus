@@ -1,11 +1,11 @@
 +++
 url = "/docs/system/fix/"
 description = "NipoPlusの不具合が発生した場合の一般的なトラブルシューティング方法を紹介しています。画面が真っ白になる、更新通知が繰り返されるなどの問題を、再起動やキャッシュのクリア、Service Workerの解除などの手順で解決します"
-# tags = []
 title = "🚧トラブルシューティング"
 toc = true
 weight = 3050
-# aliases = ["/system/fix/"]
+# tags = []
+# aliases = []
 # images = []
 +++
 

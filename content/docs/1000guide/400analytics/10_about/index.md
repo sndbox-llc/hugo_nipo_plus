@@ -78,7 +78,7 @@ NipoPlusでは、集計データをもとに自動で推移表や累積表を作
 
 {{<iTablet filename="stack" msg="スタッフ同士の比較に便利だね">}}
 
-{{< link-card title="累積表について詳しく見る" href="/docs/manual/analytics/accumn/" >}}
+{{< link-card title="累積表について" description="操作ガイド"  href="/docs/manual/analytics/accumn/" >}}
 
 ## 推移表（データの流れを見る）{#line}
 
@@ -87,7 +87,7 @@ NipoPlusでは、集計データをもとに自動で推移表や累積表を作
 
 {{<iTablet filename="flow" msg="過去との比較が見たいときに便利だね" alice="ok">}}
 
-{{< link-card title="推移表について詳しく見る" href="/docs/manual/analytics/transition/" >}}
+{{< link-card title="推移表について" description="操作ガイド"  href="/docs/manual/analytics/transition/" >}}
 
 ### グラフ作成{#charts}
 
@@ -96,7 +96,7 @@ NipoPlusでは、集計データをもとに自動で推移表や累積表を作
 
 {{<icatch filename="chart" msg="グラフはワンクリックでいつでも切替可" alice="guide">}}
 
-{{< link-card title="グラフ化について詳しく見る" href="/docs/manual/analytics/chart/" >}}
+{{< link-card title="グラフ化について" description="操作ガイド"  href="/docs/manual/analytics/chart/" >}}
 
 ## 予定と実績の対比表{#schedule}
 
@@ -107,7 +107,7 @@ NipoPlusでは、集計データをもとに自動で推移表や累積表を作
 
 {{<icatch filename="list" msg="予定と実績・進捗の管理" alice="guide">}}
 
-{{< link-card title="予定実績機能を見る" href="/docs/manual/analytics/progress/" >}}
+{{< link-card title="予定実績機能" description="操作ガイド"  href="/docs/manual/analytics/progress/" >}}
 
 ## エクセルを用いた集計・分析{#excel}
 
@@ -121,4 +121,4 @@ NipoPlusの集計機能でカバーできない場合、CSV出力してエクセ
 2023/06/08 09:35, 栃木県宇都宮市XXXX, -, -, -, -, ⭕, -
 {{< /excelTable >}}
 
-{{< link-card title="エクセルにて集計する" href="/tips/sales_report/" >}}
+{{< link-card title="エクセルにて集計する" description="コラム記事"  href="/tips/sales_report/" >}}

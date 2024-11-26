@@ -36,7 +36,7 @@ export function smoothScroll (refId?: string, offsetY = 100) {
 Modalは浮かんでいるので、window.で処理をしても動かないようですね。
 解決策をいくつか探していたとき、Quasarの公式でスクロールに関するページが有りました。
 
-{{< link-card title="Scrolling Utils" href="https://quasar.dev/quasar-utils/scrolling-utils" target="_blank" >}}
+{{< link-card title="Scrolling Utils"  description="Quasar公式ガイド"  href="https://quasar.dev/quasar-utils/scrolling-utils" target="_blank" >}}
 
 QuasarにはScrollについても色々便利なユーティリティを提供してくれているおかげで、非常に簡単に書くことができます。まずサンプル。
 縦に長いモーダルがあり、上部のナビボタンをクリックすると対象のIDの行へスムースにスクロールします。

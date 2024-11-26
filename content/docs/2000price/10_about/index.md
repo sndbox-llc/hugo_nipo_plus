@@ -31,24 +31,6 @@ classDef class1 fill:#7BCCAC
 
 ```
 
-<!--
-
-{{< link-card
-  title="Showcase"
-  description="Explore the infinite possibilities of Doks"
-  href="/showcase/"
->}}
-
-{{< link-card title="Showcase" href="/showcase/" >}}
-
-
-{{< card-grid >}}
-{{< link-card title="Showcase" href="/showcase/" >}}
-{{< link-card title="Showcase" href="/showcase/" >}}
-{{< /card-grid >}}
-
--->
-
 ## 現在のプランを確認する{#current_plan}
 
 あなたの組織がどのプランかを確認してみましょう。

@@ -51,7 +51,7 @@ Excelで日報を管理する場合はシートをコピーして管理したり
 マウス操作だけで日付の検索が簡単にできました。
 もちろん1日だけのような検索もできますし、逆に「今月」といった長い期間の指定も可能です。
 
-{{< link-card title="レポート保存箱" href="/docs/manual/read-report/list/" >}}
+{{< link-card title="レポート保存箱" description="操作ガイド"  href="/docs/manual/read-report/list/" >}}
 
 ### タグや日報提出者など条件を指定して目的の日報を見つける {#tagSearch}
 
@@ -93,7 +93,7 @@ Excelで日報を管理する場合はシートをコピーして管理したり
 
 横1行が1スタッフに対応しているカレンダーです。スタッフごとの提出状況がすぐわかりますね。この機能を使えばもう、スタッフごとにフォルダ分けして日報を管理しなくてもOKですね。
 
-{{< link-card title="カレンダーの操作ガイド" href="/docs/manual/calendar/_about/" >}}
+{{< link-card title="カレンダー" description="操作ガイド"  href="/docs/manual/calendar/_about/" >}}
 
 ## 結論：日報に特化した専用システムを使えば日報管理は楽になるよ {#likely}
 

@@ -94,7 +94,7 @@ weight = 155
 写真UP時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/_about/#fee)は中画質、[無料プラン](/docs/price/_about/#free)は低画質）
 {{< /callout >}}
 
-{{< link-card title="写真付きレポート" description="特設記事" href="/tips/mobile-device/" >}}
+{{< link-card title="写真付きレポート" description="コラム記事" href="/tips/mobile-device/" >}}
 
 <details>
   <summary>詳細設定</summary>

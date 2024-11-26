@@ -51,7 +51,7 @@ C列の「進捗報告」は文字なので集計には使えませんが、D列
 このように日報の集計に必要な元データを提供するのもNipoPlusの大きなポイントの１つです。
 Excelを使った様々な集計テクニックについてはExcel活用術としていくつか記事を書いていますのでよろしければ参照してください。
 
-{{< link-card title="エクセルを使った日報集計テクニック" href="/excel/" >}}
+{{< link-card title="エクセルを使った日報集計テクニック" description="エクセル活用術"  href="/excel/" >}}
 
 ### 集計の元データをより使いやすい形で出力可能です。用途に応じてCSV出力オプションを設定{#csv_options}
 
@@ -75,7 +75,7 @@ Excelを使った様々な集計テクニックについてはExcel活用術と�
 
 この他にも様々なCSV出力オプションを用意しています
 
-{{< link-card title="CSV出力オプション" href="/docs/manual/analytics/csvoption/" >}}
+{{< link-card title="CSV出力オプション" description="操作ガイド"  href="/docs/manual/analytics/csvoption/" >}}
 
 ### 複数のCSVファイルを1つに統合する「CSVSC」のご紹介{#csvsc}
 
@@ -83,13 +83,13 @@ CSVはそのままエクセルで開くことができ、集計や並べ替え�
 ということでNipo公式のCSV結合システムを無償で公開しております。詳しくはCSVSCの紹介に譲りますが、一言で言うと
 **複数のCSVファイルをドラッグ操作で1個のCSVに変換するWebシステム**です。
 
-{{< link-card title="CSVSCについて詳しく" href="/tips/csvsc/" >}}
+{{< link-card title="CSVSCについて" description="コラム記事"  href="/tips/csvsc/" >}}
 
 ### CSVファイルが文字化けする場合の対策{#text_shaking}
 
 もしダウンロードしたCSVが文字化けする場合は文字コードが正しく解釈されていないためです。古いExcelでよく発生します。解決法については「文字化けについて」の記事をご覧ください
 
-{{< link-card title="文字化けについて詳しく" href="/tech/mojibake/" >}}
+{{< link-card title="文字化けについて詳しく"  description="技術コラム"  href="/tech/mojibake/" >}}
 
 ## エクセルを使わない簡単手軽な日報集計も可能{#easy_summary}
 
@@ -100,7 +100,7 @@ NipoPlus自体にも集計やグラフ作成📊機能が備わっています�
 
 このデータは過去データ推移を表しています。集計とは少し意味が異なりますね。単純に合計を表示したい際は推移ではなく「累積」に切り替えることで合計を表示できます。
 
-{{< link-card title="推移について" href="/docs/manual/analytics/transition/" >}}
+{{< link-card title="推移について" description="操作ガイド"  href="/docs/manual/analytics/transition/" >}}
 
 またこの集計は「直近30件」という範囲で集計を行います。実務上は直近X件ではなく、「今月」や「先月」といった月単位で集計することが多いことでしょう。
 個々では詳しくは触れませんが、集計期間を指定することで月単位や週単位による集計ももちろん可能です。
@@ -188,7 +188,7 @@ label, d20240501, d20240502, d20240503, d20240504, d20240505, d20240506, d202405
 このように現場のチェックシートや製造レポートを電子化することで、進捗の管理といった使い方も可能になり、データ活用がより効率よく行えることでしょう。
 進捗管理表の詳しいガイドは以下のリンクをクリックしてください。
 
-{{< link-card title="予定実績表の操作ガイド" href="/docs/manual/analytics/progress/" >}}
+{{< link-card title="予定実績表" description="操作ガイド"  href="/docs/manual/analytics/progress/" >}}
 
 ### 異なる種類のチェックシートを同時に集計するクロス集計{#cross}
 
@@ -204,7 +204,7 @@ label, d20240501, d20240502, d20240503, d20240504, d20240505, d20240506, d202405
 
 {{<icatch filename="cross" msg="クロス集計を使うことで複数のチェックシートテンプレートを1つの表にまとめて集計できます" alice="ok">}}
 
-{{< link-card title="クロス集計のマニュアル" href="/docs/manual/analytics/cross/" >}}
+{{< link-card title="クロス集計" description="操作ガイド"  href="/docs/manual/analytics/cross/" >}}
 
 上図はクロス集計の結果をもとに不良率の高い順に並べ替えをしている図です。
 A部品のチェックシートとB部品のチェックシート、お互いに異なるチェックシートを1つの表にまとめて比較や並べ替えができます。

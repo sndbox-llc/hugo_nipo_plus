@@ -157,7 +157,7 @@ NipoPlusのクイックスタートガイドへようこそ。
 チュートリアルでは意図的に触れませんでしたが、「デフォルトグループ」が自動で作成されております。これまでの作業も全てグループ内での作業です
 {{< /callout >}}
 
-{{< link-card title="マニュアル:グループの作成" href="/docs/manual/initial-setting/make-group/" >}}
+{{< link-card title="マニュアル:グループの作成"  description="操作ガイド"  href="/docs/manual/initial-setting/make-group/" >}}
 
 ---
 
@@ -170,7 +170,7 @@ NipoPlusのクイックスタートガイドへようこそ。
 匿名アカウントは**パスワードが未登録**のため何らかのはずみで接続が途絶えてしまうとこれまでのデータにアクセスできなくなります
 {{< /callout >}}
 
-{{< link-card title="匿名アカウントを正規アカウントへ昇格" href="/docs/manual/utils/tokumei/" >}}
+{{< link-card title="匿名アカウントを正規アカウントへ昇格" description="操作ガイド"  href="/docs/manual/utils/tokumei/" >}}
 
 ここまで御覧いただきありがとうございました。
 他にも便利な機能がありますので詳しくは[マニュアル](/docs/manual/)を御覧ください。

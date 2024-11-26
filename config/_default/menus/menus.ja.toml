@@ -4,6 +4,13 @@
   url = "/docs/manual/quickstart/"
   weight = 10
 [[main]]
+  name = "逆引き辞典"
+  identifier = "function"
+  url = "/function/share/"
+  # parent = "blogroot"
+  weight = 15
+
+[[main]]
   name = "💰料金"
   url = "/docs/price/_about/"
   weight = 20
@@ -42,12 +49,7 @@
   identifier = "excel"
   url = "/excel/"
   parent = "blogroot"
-[[main]]
-  name = "⚡️機能別ガイド"
-  identifier = "function"
-  url = "/function/share/"
-  parent = "blogroot"
-  weight = 55
+
 
 # [[docs]]
 #   name = "Prologue"

@@ -2,7 +2,8 @@
 url = "/function/defaultgroup/"
 description = "起動時に最初にセットされるグループを指定できます"
 # tags = ["アカウント設定"]
-title = "起動時に特定のグループを初期値に指定したい"
+title = "起動時のグループを固定したい"
+menuTitle = "起動時のグループを固定したい"
 toc = false
 # images = []
 isDictionaly = true

@@ -49,10 +49,6 @@ apple, banana, apple, banana, banana, -
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。
 選択肢の入力はNipo【旧版】の[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
 
-{{<alice pos="left" icon="default">}}
-詳しくは集計のページを御覧ください
-{{</alice>}}
-
 ### 設定画面{#settingSingle}
 
 テンプレートの編集画面では次のような設定が可能です。
@@ -96,10 +92,6 @@ apple, banana, apple, banana, banana, -
 選択肢（単回答）ではCSV出力時に「**列の展開**」を指定できます。詳しくは[選択肢と同じなのでそちらを参照](#outputSingle)してください。
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。
 選択肢の入力はNipo【旧版】の[集計機能](/legacy/manual/analytics/)を使って集計することもできます。
-
-{{<alice pos="left" icon="default">}}
-詳しくは集計のページを御覧ください
-{{</alice>}}
 
 ### 設定画面{#settingMulti}
 

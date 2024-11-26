@@ -18,11 +18,8 @@ iOSについてはこれまでそこまで大きなトラブルは比較的少�
 
 ## Android Appとしてビルドする前に{#build_android}
 
-初回ビルド時は必要ありませんが、2回目、3回目の更新の際はApp Versionを更新しないとGoogle Play Storeに提出できません。そのためビルド前にApp Versionの値を現在より大きな値に更新する必要があります。
-
-{{<alice pos="right" icon="here">}}
-初回ビルド時はこの手順は不要です
-{{</alice>}}
+初回ビルド時は必要ありませんが、2回目、3回目の更新の際はApp Versionを更新しないとGoogle Play Storeに提出できません。そのためビルド前にApp Versionの値を現在より大きな値に更新する必要があります。  
+※初回ビルド時はこの手順は不要です
 
 src-capacitor/android/app/build.gradleを開く
 
@@ -81,7 +78,3 @@ Quasarを使えば1つのHTMLコードをCapacitorやCordovaといった変換�
 
 NipoPlusはQuasarを使用して開発されていますが、テーブルやボタン・ヘッダーフッターなどのレイアウト、すべてがQuasar Frameworkの力を借りて作られています。
 もし今後Webアプリを開発したいとお考えの方は是非一度Quasarをお試しください。
-
-{{<alice pos="right" icon="ok">}}
-国内だと[Vuetify](https://vuetifyjs.com/ja/)などが人気ですが個人的にはQuasarのほうが好きです
-{{</alice>}}

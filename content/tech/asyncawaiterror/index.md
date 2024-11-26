@@ -16,9 +16,7 @@ date = "2022-11-14"
 async/awaitはJavascriptにおける非同期処理のthenという構文をよりわかりやすく記述できる素晴らしい書き方です。
 とても便利なので多くのジャバスクリプターの方々は利用されていることと思います。
 
-{{<alice pos="right" icon="guide">}}
 [Qiitaの記事](https://qiita.com/_takeshi_24/items/1403727efb3fd86f0bcd)はAsync/Awaitについてよくまとまっています
-{{</alice>}}
 
 さて、そんな便利なasync / awaitですが、正しい使い方を知っていないと思わぬトラブルが起きることもあります。
 実際に私がNipoやMaroudを開発している際に、正しい知識を持たずに使ってしまい、意図しない動きをしてしまったケースをご紹介します。
@@ -52,9 +50,7 @@ async function sub () {
 1. sub関数の処理が終わり、func1へ戻ります
 1. func1関数はsub関数のエラーを知覚せずに処理を実行します
 
-{{<alice pos="right" icon="guide">}}
 func1:「止まるんじゃねぇぞ。俺は止まらねぇからよ」と。
-{{</alice>}}
 
 実際に実行したコンソールログはこんな感じになります
 
@@ -105,10 +101,6 @@ async function sub() {
 非同期関数の呼び出し元が止まらないのは、sub関数の中でrejectされていないことが原因です。
 awaitで呼び出した関数はresolveかrejectを返すのですが、sub関数のcatch文の中で何もreturnせず、その後の処理でも結局何も返していないため、resolveと認識されてfunc1は止まらなかったのです。
 
-{{<alice pos="right" icon="guide">}}
-もともとpromise知ってる人は良いけど、今からJSを勉強する人はこの辺混乱しそうだねー
-{{</alice>}}
-
 だから明確に、sub関数の中でエラーが発生したことを呼び出し元に伝えるために、エラーを再送する必要があります。エラーの再送が　「 throw e 」なわけです。
 throwをするときは Newするべき！という記事もありますがこれは
 
@@ -154,6 +146,4 @@ async function sub() {
 ユーザから見れば「エラー!失敗です」の直後に「正常終了しました」と相反するメッセージが表示されるため、混乱させてしまったと反省しています。
 async・awaitは便利ですが、async関数の中でasync関数を呼び出すといったときは、こういう問題にも気をつけなければなりません。
 
-{{<alice pos="right" icon="guide">}}
 Javascriptと非同期は切っても切れない関係なので試行錯誤の連続です
-{{</alice>}}

@@ -6,7 +6,7 @@
 {{ $uniqueID := (printf "character-container-%s" $moji) }}
 
 <div class="uTabletContainer mb-5 mt-5">
-  <div class="uedaTabletFrame uTabletFramePos" >
+  <div class="uedaTabletFrame" >
     <picture class="uedaTabletPicture">
       <source srcset="{{ $imgTablet.RelPermalink }}" media="(min-width: 769px)">
       <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="uedaTabletPicture" loading="lazy"  width="2000" height="1390" >

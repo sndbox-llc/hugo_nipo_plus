@@ -80,9 +80,9 @@ Nipo【旧版】（緑色のロゴマークのやつです）からNipoPlusへ�
 
 無効化したテンプレートを完全に削除することもできます。削除すると過去にそのテンプレートを使用して作成されたレポートの**レイアウトが維持できなくなる**点に注意してください
 
-{{<alice pos="right" icon="here">}}
-集計やPDF出力もできなくなるよ
-{{</alice>}}
+{{< callout context="danger" title="削除は慎重に" icon="outline/alert-octagon" >}}
+集計やPDF出力もできなくなります
+{{< /callout >}}
 
 以下の手順でテンプレートを削除します
 
@@ -103,6 +103,6 @@ Nipo【旧版】（緑色のロゴマークのやつです）からNipoPlusへ�
 
 提出日やタグといった情報が確認できます。レポート本文のデータは生データの形で出力されますが、非常に読みにくくなることがわかります。
 
-{{<alice pos="right" icon="here">}}
+{{< callout context="danger" title="削除は慎重に" icon="outline/alert-octagon" >}}
 本当に不要なテンプレート以外は消さないほうが吉です。無効化にとどめておきましょう
-{{</alice>}}
+{{< /callout >}}

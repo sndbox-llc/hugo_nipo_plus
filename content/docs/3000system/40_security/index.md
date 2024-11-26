@@ -110,7 +110,3 @@ NipoPlusが使用しているFirestoreとElasticはいづれもNo-SQL型であ�
 | 7    | 111111         |
 | 8    | sakura         |
 | 9    | dropbox        |
-
-{{<alice pos="right" icon="shield">}}
-心当たりある人はもっとバレにくいパスワードにしないとだめだよ！
-{{</alice>}}

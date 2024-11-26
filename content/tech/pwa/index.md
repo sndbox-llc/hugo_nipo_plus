@@ -111,10 +111,7 @@ register(process.env.SERVICE_WORKER_FILE, {
 ```
 
 これとは別に、quasar.conf.jsのファイルも一部書き換えが必要です。更新が発生したときに処理を待たずに更新するような設定にします。
-
-{{<alice pos="right" icon="default">}}
 quasar.conf.jsはQuasar独自の設定ファイルです。他のフレームワークだと別のファイルになると思います
-{{</alice>}}
 
 ```javascript
 // quasar.conf.jsです
@@ -143,10 +140,6 @@ quasar.conf.jsはQuasar独自の設定ファイルです。他のフレームワ
 
 これで準備は完了。何度かのテストを行い、問題なくメッセージが表示され更新もうまくいきました。
 
-{{<alice pos="right" icon="default">}}
-PWAの効率良いデバッグ方法が知りたい・・・・なんでこんなにデバッグしにくいのかしら
-{{</alice>}}
-
 ## iPadやAndroidで更新時にアプリがフリーズするトラブルが発覚{#trouble_with_app_freezing}
 
 PCのブラウザであれば問題なく更新ができていたPWAですが、AndroidやiPadでPWAの更新がうまくできないことがわかりました。
@@ -171,9 +164,7 @@ if (navigator.serviceWorker) {
 どうやらserviceWorkerを使うにはこのような処理を書く必要があるのだと思います。しかしregister-service-workerがこの辺を良しなに自動でやってくれているはずです。
 だからこそPC版では正常に更新ができているのです。自分でこの処理を書いたら2回登録されることになってしまうのではないか？といろいろ調べて回った結果、ついに答えとなるWebサイトを発見しました。
 
-{{<alice pos="right" icon="ok">}}
 [このWebサイトこそ救世主でした](https://dev.to/drbragg/handling-service-worker-updates-in-your-vue-pwa-1pip)
-{{</alice>}}
 
 正解を先に書くと、この記事の章タイトルの通りで、「Register Servie worker上ではなくVue上で更新処理を行う」ことで、iPadなどの機器でも正常に更新が行えるようになりました。
 以下、修正の具体的な例です。参考にさせていただいたサイトはVuetifyですが、私はQuasarを使っているのでQuasar基準の解答です。
@@ -235,9 +226,9 @@ register(process.env.SERVICE_WORKER_FILE, {
 Quasarのプロジェクトでは、プロジェクトフォルダ/srcの中にApp.vueというファイルがあります。
 今回はこのApp.vue上でイベントを拾ってみます。
 
-{{<alice pos="right" icon="ok">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 App.vueは最もルートのコンポーネントなので初期化や今回のようなイベントリッスンには最適です
-{{</alice>}}
+{{< /callout >}}
 
 App.vueは次のようになりました。短いので全文掲載します。
 

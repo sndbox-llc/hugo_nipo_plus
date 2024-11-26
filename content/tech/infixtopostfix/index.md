@@ -27,10 +27,6 @@ NipoPlusに演算機能を実装する必要があり、色々調べたところ
 
 {{<figure src="reverce-polish-input.png"  alt="逆ポーランド記法に変換する電卓風入力フォーム" caption="逆ポーランド記法に変換する電卓風入力フォーム" >}}
 
-{{<alice pos="right" icon="default">}}
-デザインは手抜きです
-{{</alice>}}
-
 電卓をポチポチ押して式を作り、最後に「変換」ボタンを押すと逆ポーランド記法の式（厳密には配列）にした結果を下に表示するだけのプログラムです。
 通常の数式を逆ポーランドに変換するアルゴリズムは探すと結構たくさんでてきますが、実際にコードとしてのサンプルは思ったより少なかった印象です。
 年季の入ったアルゴリズムなのにサンプルが少ないのはちょっと意外でした。
@@ -155,9 +151,9 @@ function infixToPostfix (s: string) {
 
 {{<figure src="reverce-polish-sample.png"  alt="NipoPlusで使った実際の例" caption="NipoPlusで使った実際の例" >}}
 
-{{<alice pos="right" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 実際の用途としてはテンプレートの中のある値同士を計算するための式入力用として逆ポーランドを使いました
-{{</alice>}}
+{{< /callout >}}
 
 ## 逆ポーランドの式を計算する{#calc_r_polish}
 

@@ -40,9 +40,9 @@ isNipo = true
 
 {{<figure src="calendar2.png"  alt="日報はポップアップで表示されます" caption="日報はポップアップで表示されます" >}}
 
-{{<alice pos="left" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 カレンダーをクリックすると日付の選択になり、日報は開きません。ダブルクリックが必要です
-{{</alice>}}
+{{< /callout >}}
 
 送信日報は無料で表示可能ですが、受信日報に関しては[GOLD PLAN](/legacy/system/price/)限定です。
 

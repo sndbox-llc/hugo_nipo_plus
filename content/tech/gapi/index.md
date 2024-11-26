@@ -36,10 +36,6 @@ yarn add // または npm install
 
 に慣れきってしまった私はどうしていいかわかりませんでした。この衝撃、例えるなら今どきの若い子にフィルムカメラを渡すようなものです。
 
-{{<alice pos="right" icon="default">}}
-色々調べてみると技術的にかなり複雑なサービスらしく、それでmodule化ができないのかもしれないね？
-{{</alice>}}
-
 node_moduleとしてインストールできない以上、マニュアルに従いScriptタグで取り込むしかありません。
 
 一応[Vue向けのGapi](https://github.com/vue-gapi/vue-gapi)もありましたがあまり活発な開発とは言えず、
@@ -56,9 +52,7 @@ index.htmlのヘッダーで
 と書いてもいいのですが、カレンダーのページでしか使わないので今回はCalendar.vueファイル内で呼び出すことにしました。
 色々調べたところによると、**onMountedの中でscriptタグを生成してDOMに追加する**ことで使えるようです。
 
-{{<alice pos="right" icon="default">}}
-DOMの操作がやりたくないからVueを使うのですが今回は仕方ないですね
-{{</alice>}}
+DOMの操作がやりたくないからVueを使うのですが今回は仕方ないですね。
 
 ということでコード
 
@@ -103,10 +97,6 @@ function test() {
 
 宣言してないのにいきなり使えるわけで、当然TypeScriptの姉御からはどえらいクレームが入ります。
 当然ですよね・・・わたしも文句言いたいです。どこから生えてきたのそのgapiは？誰が使っていいっていったの？はい、おっしゃるとおり
-
-{{<alice pos="right" icon="default">}}
-ちなみに<a href="https://www.youtube.com/watch?v=Bj15-6rBHQw" target="_blank">この動画</a>で「gapi」を「ギャッピー」と呼んでいました。だからgapiは「じーえーぴーあい」ではなく「ギャッピー」と呼びましょう
-{{</alice>}}
 
 ## TypeScriptにGapiを認識させるまでの流れ{#how_to_use_gapi}
 

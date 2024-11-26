@@ -15,9 +15,9 @@ NipoPlusには日報をPDFに変換する機能があります。PDFファイル
 pdfmakeはフロント（ブラウザ側）でもバックエンド（サーバ）でも利用できますが、それぞれで使い方が微妙に異なる点に注意が必要です。
 NipoPlusではPDFの生成をサーバサイドで行うように設計しました。これはひとえにファイルサイズの問題があるためです。
 
-{{<alice pos="right" icon="here">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 pdfmake単体で2MB！加えて日本語フォント情報も別に持つ必要があり、subset化しても総重量は5MBを超えます
-{{</alice>}}
+{{< /callout >}}
 
 ## 1つのPDFファイルをNode.jsで作成する{#create_single_pdf_with_nodejs}
 

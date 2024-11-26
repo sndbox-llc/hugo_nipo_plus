@@ -73,7 +73,4 @@ longformat(day)
 ## 結論: VueのFilterは要らない{#conclusion_filters_are_not_needed_in_vue}
 
 Filterは開発当時非常に便利で多用していましたが、改めてコードを見返すと結構見にくいものでした。特にコード内で利用するときとTemplate内で利用するときの記述方法が大きく異なるので、わかりにくいこと山のごとし。Vue3へ移行するにはどのみちFilterと永遠の別れをしなければなりませんので、これから新規に立ち上げるプロジェクトなんかではFilterを使わないほうが良さそうです。
-
-{{<alice pos="right" icon="ok">}}
 シンプルに関数にしてしまったほうが良いですね。
-{{</alice>}}

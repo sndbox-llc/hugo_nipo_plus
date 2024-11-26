@@ -74,10 +74,6 @@ Nipo【旧版】では10種類を超えるパーツを自由に組み合わせ�
 
 {{<figure src="template_title.png"  alt="日報を書くときにテンプレートを選ぶ必要がある" caption="日報を書くときにテンプレートを選ぶ必要がある" >}}
 
-{{<alice pos="left" icon="default">}}
-もちろん名前による検索や分類による絞り込みもできるけど、それよりもよく使うものが最初から上に来ている方が楽だよね
-{{</alice>}}
-
 なお、テンプレートの分類は次の箇所から設定できます。
 
 {{<figure src="template_category.png"  alt="テンプレートに分類をセットする" caption="テンプレートに分類をセットする" >}}
@@ -102,9 +98,9 @@ Nipo【旧版】では10種類を超えるパーツを自由に組み合わせ�
 
 連結は２列までです。また、連結を解除するには右側に配置された項目にある「クリップのスラッシュ」ボタンをクリックしてください。
 
-{{<alice pos="left" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 連結すると削除や並べ替えも一緒に行われます。一蓮托生ってかんじですね
-{{</alice>}}
+{{< /callout >}}
 
 ### テンプレート構成部品のコピー{#copy_parts}
 
@@ -182,9 +178,9 @@ Nipo【旧版】では10種類を超えるパーツを自由に組み合わせ�
 「削除済みのテンプレート」をクリックし、復元したいテンプレート名をクリックします。
 これで削除したテンプレートが復元されます
 
-{{<alice pos="left" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 毎年テンプレートの内容が変わるような用途では、過去のテンプレートを削除することでスタッフが誤って古いテンプレートを使ってしまうトラブルを未然に防ぐことが可能です
-{{</alice>}}
+{{< /callout >}}
 
 ## 運用開始後にレポートテンプレートを修正する{#edit_template}
 
@@ -198,9 +194,9 @@ Nipo【旧版】では10種類を超えるパーツを自由に組み合わせ�
 
 {{<figure src="template_add3.png"  alt="テンプレートに項目を後から追加する" caption="テンプレートに項目を後から追加する" >}}
 
-{{<alice pos="left" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 「この項目は後から追加されました」は日報修正を行うと消えます。
-{{</alice>}}
+{{< /callout >}}
 
 ### 日報のテンプレートに項目を後から削除する{#remove_parts_then}
 

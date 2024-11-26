@@ -65,9 +65,9 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
 
 ```
 
-{{<alice pos="right" icon="here">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 上記コードは未検証です。確かこんな感じだったという記憶を頼りに記述してます
-{{</alice>}}
+{{< /callout >}}
 
 ## Storageの書き込みが完了するまで処理を待つように処理を止める方法がわからず混乱{#confusion_about_waiting}
 
@@ -92,9 +92,9 @@ await pdfDoc.pipe(myPDFFile.createWriteStream())
 
 結局のところはPromiseとStreamを混同していたことが原因です。PromiseもStreamも非同期処理で似たようなものだと思いがちですが、当然ながら全くの別ものです。
 
-{{<alice pos="right" icon="here">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 筆者の環境ではStreamをほぼ使わないため馴染みがなかったのも要因です
-{{</alice>}}
+{{< /callout >}}
 
 ## Streamの書き込みが完了するまで待ってからダウンロードURLをフロントに返却するようにプログラムを修正する{#fixedPendingMethod}
 
@@ -169,10 +169,6 @@ The caller does not have permission
 と出力されることがあります。これはgetSignedUrl()関数の実行権限が足りていないために起こります。権限を追加するにはFirebaseの外側にあるGCPからIAMを編集する必要があります。
 まずはGCPを開き、IAMのページを開きます。IAMページではたくさんのアカウントが並んでいます。ここから**プロジェクト名@appspot.gserviceaccount.comのアカウント**を見つけ出してください。
 
-{{<alice pos="right" icon="ok">}}
-名前にApp Engine default service accountと書かれているからすぐ見つかると思うよ
-{{</alice>}}
-
 見つけたらそのアカウントの鉛筆ボタンをクリックし、ロールを2つ追加します
 
 - Cloud Datastore インポート / エクスポート管理者
@@ -184,7 +180,3 @@ The caller does not have permission
 
 IAMの設定が完了したら再び生成を試みてください。筆者の環境ではこれで問題なく動作することが確認できました。
 この情報は[StackOverFlow](https://stackoverflow.com/questions/53305784/signingerror-with-firebase-getsignedurl)に記載されていました。大変助かりました。
-
-{{<alice pos="right" icon="ok">}}
-筆者もだんだんStreamにも慣れてきたよ
-{{</alice>}}

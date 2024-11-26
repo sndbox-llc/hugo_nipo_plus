@@ -76,9 +76,9 @@ https://nipoplus.sndbox.jp/#/room/BLyx3SG72rId24BnKcGC/Lpi7TCw4WV3xLVrrHOCs/blue
 https://nipoplus.sndbox.jp/
 ```
 
-{{<alice pos="right" icon="here">}}
-シャープマーク（#）より後ろはブックマークに入れないこと！
-{{</alice>}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+シャープマーク（#）より後ろはブックマークに入れないようにします
+{{< /callout >}}
 
 ## サイトキャッシュをクリアする{#clear}
 
@@ -105,9 +105,9 @@ NipoPlusのキャッシュをクリアすることで動作が回復すること
 
 このパネルで消去されるのはNipoPlusの一時データだけで、日報やコメントなど重要なデータは削除されませんのでご安心ください。
 
-{{<alice pos="right" icon="here">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 そもそもレポートはサーバ上に保管されているのでここからは削除できません
-{{</alice>}}
+{{< /callout >}}
 
 1点注意してほしいこととしてはログイン情報は消えてしまいます。そのため、サイトのアプリキャッシュをクリアすると再度ログインが必要になりますのでご了承ください。
 

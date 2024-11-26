@@ -17,9 +17,9 @@ FirebaseのCloud Functionsは関数をクラウド上に配置できる便利な
 
 Cloud Functionsがコールドスタートにならないようにするためには定期的に関数を実行すれば良いだけです。
 
-{{<alice pos="right" icon="here">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 Firebaseで[Cloud Functions(第二世代)](https://firebase.google.com/docs/functions/beta)が開始されましたがまだベータ版であり、色々注意点も多くあります。
-{{</alice>}}
+{{< /callout >}}
 
 ## Cloud SchedulerとPub/subを使って定期的にCloud Functionsを実行する{#usePubSub}
 
@@ -106,9 +106,7 @@ functions.pubsub.scheduleの記述があるCloud functionをデプロイする�
 
 同様にPub/subにも登録がされているはずです。
 
-{{<alice pos="right" icon="here">}}
-関数をGCPの管理画面から削除してもSchedulerは自動で消えなかったので注意してください
-{{</alice>}}
+※関数をGCPの管理画面から削除してもSchedulerは自動で消えなかったので注意してください
 
 ## 定期実行される関数は特定のパラメータがきたらすぐ抜けるように修正{#modify_periodic_function_to_exit_immediately}
 

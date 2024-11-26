@@ -85,9 +85,7 @@ sample, test, ダミー, モック, コメント
 
 [スライダ入力](/docs/manual/initial-setting/template/digital/#slider)の値は数値として記憶されるため、[集計](/legacy/manual/analytics/)がNipo【旧版】上からもかんたんに行えます。
 
-{{<alice pos="left" icon="default">}}
-CSVに出力したほうが色々細かい分析もできますが、かんたん手軽な集計で済ませたい場合はNipo【旧版】に搭載された集計機能が便利です
-{{</alice>}}
+CSVに出力したほうが色々細かい分析もできますが、かんたん手軽な集計で済ませたい場合はNipo【旧版】に搭載された集計機能が便利です。
 
 Nipo【旧版】の受信・送信BOXからは次のように表示されます
 

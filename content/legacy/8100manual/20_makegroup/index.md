@@ -35,9 +35,9 @@ Nipo【旧版】はグループを作り、その中にスタッフのアカウ�
 
 など、グループは目的に応じて簡単に作成でき、役割を終えたら簡単に解散できます。
 
-{{<alice pos="left" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 グループの解散をすると日報のデータが消えてしまうので、解散できるのは管理者だけです
-{{</alice>}}
+{{< /callout >}}
 
 ## グループの新規作成{#make}
 
@@ -74,10 +74,6 @@ https://nipoapp.sndbox.jp/#/room/2Oq0yOZgKWsogVstjdUg/res
 {{<iTablet filename="switchGroup" msg="グループの切り替え" alice="ok">}}
 
 所属しているグループ一覧が表示されるので、切り替えたいグループをクリックします。
-
-{{<alice pos="left" icon="default">}}
-単純にホームボタンをクリックしてグループ一覧に戻り、そこからグループを選んでも結果は同じだよ
-{{</alice>}}
 
 ## グループを解散する{#remove}
 

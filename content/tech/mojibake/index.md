@@ -31,9 +31,9 @@ NipoPlusの[一括CSVダウンロード](/docs/manual/analytics/csv/)を使っ�
 Windowsが一強の時代であればSHIFT-JISが利用できれば問題が有りませんでした。しかし今の時代はスマートフォンやタブレット、MacOSなどの勢力拡大が顕著です。Windows以外の多くはUTF8を利用しているため、SHIFT-JISしか使えない解凍ソフトは時代の流れとともに、その役目を終えようとしています。
 しかし役割を終えつつも知名度が高いため、PCを購入したらまずインストールしてしまったりしていませんか？
 
-{{<alice pos="right" icon="pc">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 昔からWindowsを使ってる人は条件反射的にLhacaやLhaplusを入れてしまうので注意です。当時は何でも解凍できて便利でした。
-{{</alice>}}
+{{< /callout >}}
 
 ## WindowsでZipファイルを文字化けせずに解凍する方法(Windows10の場合){#unzip_without_encoding_issue_windows10}
 
@@ -78,6 +78,4 @@ Excel2007以前のように古いエクセルを使用している場合、CSV�
 {{<figure src="excel2007_2.png"  alt="テキストファイルウィザードが起動。元のファイルの文字コードを「Unicode(UTF-8)」にします" caption="テキストファイルウィザードが起動。元のファイルの文字コードを「Unicode(UTF-8)」にします" >}}
 {{<figure src="excel2007_3.png"  alt="区切り文字の区分で「カンマ」にチェックを入れます。" caption="区切り文字の区分で「カンマ」にチェックを入れます。" >}}
 
-{{<alice pos="right" icon="ok">}}
-2007はもう15年も前なので、可能であれば新しいExcelに買い替えを推奨します
-{{</alice>}}
+※2007はもう15年も前なので、可能であれば新しいExcelに買い替えを推奨します

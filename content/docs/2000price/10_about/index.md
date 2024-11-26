@@ -87,8 +87,8 @@ classDef class1 fill:#7BCCAC
 自動更新有りのほうが若干お安く設定されています。
 
 {{< card-grid >}}
-{{< link-card title="自動更新有りで加入" href="/docs/price/fee/" >}}
-{{< link-card title="請求書払いで加入" href="/docs/price/invoice/" >}}
+{{< link-card title="自動更新有りで加入" description="1名180円の低価格" href="/docs/price/fee/" >}}
+{{< link-card title="請求書払いで加入" description="必要な期間を購入可能" href="/docs/price/invoice/" >}}
 {{< /card-grid >}}
 
 ## 同業他社との価格比較{#diff}

@@ -37,9 +37,9 @@ Windows/Macでご利用の際、ファイル名は
 AndroidやiOSからもWeb版のNipo【旧版】を利用できます。この場合はWindows/Macと同様に「ファイル」として保存されます。
 詳しくは[モバイル機器にインストールする](/legacy/system/ios-install/)を御覧ください
 
-{{<alice pos="left" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 AndroidやiPhoneでもWeb版Nipo【旧版】を使えば、共有機能は立ち上がらずタブとして表示されます。
-{{</alice>}}
+{{< /callout >}}
 
 ## Web版のNipo【旧版】であれば複数の日報を一括でPDFデータに変換可能{#convert}
 
@@ -102,9 +102,9 @@ PDF出力設定画面に切り替わります。
   <dd>日報画面へ戻ります</dd>
 </dl>
 
-{{<alice pos="left" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 PDF設定画面では出力される日報の本文自体も変更可能です。本文自体の変更は保存されずPDF出力後にもとの日報の文章に戻ります
-{{</alice>}}
+{{< /callout >}}
 
 ### PDF出力の設定を変えた例{#sample1}
 
@@ -136,6 +136,6 @@ PDFファイルは日報と相性が良いです。なぜならPDFの持つ特�
 なぜなら上記のメリットにより、「請求書」などはPDFが適しているためです。内容の書き換えもWordに比べて行いにくいのも特徴です。
 PDFは読み取り専用。永久保存としての側面が強いため、ビジネス文書（日報も含めて）ととても相性が良いのです。
 
-{{<alice pos="left" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 ただし専用ソフトを使って編集は可能のため、改ざんを100%防ぐわけではありません。
-{{</alice>}}
+{{< /callout >}}

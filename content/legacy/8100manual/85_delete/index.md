@@ -29,9 +29,7 @@ Nipo【旧版】では通常、「日報は蓄積していくもの」という�
 
 {{<iTablet filename="deleteFunction" msg="一括削除機能の有効化" alice="ok">}}
 
-{{<alice pos="left" icon="default">}}
-使うときにだけOnにし、使わないときはOFFにしておくとメニューバーがスッキリしますよ。特に削除なんて頻繁には使わないでしょう？
-{{</alice>}}
+使うときにだけOnにし、使わないときはOFFにしておくとメニューバーがスッキリします。
 
 ## 日報の一括削除操作画面{#show}
 
@@ -55,9 +53,9 @@ Nipo【旧版】では通常、「日報は蓄積していくもの」という�
 Nipo【旧版】から日報を削除すると、当然そのデータは消えてなくなります。削除前にローカル上にレポートを残したい場合は、「選択した日報を一括PDFしてDL」ボタンをクリックしてください。
 チェックの入った[日報をPDF化](/legacy/manual/pdf/)し、ダウンロードが開始されます。
 
-{{<alice pos="right" icon="default">}}
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
 PDFダウンロードと削除は独立した機能です。PDF化したあと自動で削除されるわけではないため、PDF化の後に手動で削除ボタンを押す必要があります。（一括PDFだけという利用法も可能です）
-{{</alice>}}
+{{< /callout >}}
 
 ※一括PDFは[GOLD PLAN](/legacy/system/price/)限定の機能です
 

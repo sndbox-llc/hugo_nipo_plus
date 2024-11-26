@@ -14,17 +14,21 @@ toc = false
 
 ## 本サイトに使用されている画像の利用について{#image_use}
 
+### NipoおよびNipoPlusの画像利用
+
 Nipo【旧版】/NipoPlusに関する画像については転載いただいても大丈夫ですが、出典元の名称（Nipo/NipoPlus）を明記してください。可能であればリンクもお願いします。
 印刷物に使用する際は「NipoPlus」の名称を画像付近に記載をしてください。
 
 NipoPlusの画面内にはアイコンやボタン、バナーなど多くの方々のリソースをお借りして作り上げられています。
 Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fonts.google.com/icons)を利用しています。
 
+### マスコットキャラクター「アリス」の画像利用
+
 頻繁に登場するマスコットキャラクター（名称：アリス）についてはご利用前にご相談ください。
 
-{{<alice pos="right" icon="ok">}}
+{{< figure src="default.png" alt="Nipo/NipoPlusマスコットキャラクター" caption="マスコットキャラクターの「アリス」" >}}
+
 アリスはイラストレータ[ふにぐみ](https://www.ac-illust.com/main/profile.php?id=0DbjwSb1)様に書いていただいたNipo【旧版】およびNipoPlusオリジナルキャラクターです
-{{</alice>}}
 
 本サイトで使用されている画像のすべてが当社のものと言うわけでは有りません。例えばGoogle Play StoreやAppStoreのロゴは各アプリストア元が画像を管理しています。
 

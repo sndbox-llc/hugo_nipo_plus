@@ -6,8 +6,8 @@
 {{ $id := partial "make-random-md5.hugo" }}
 {{ $uniqueID := (printf "character-container-%s" $moji) }}
 
-<div class="uTabletContainer mb-5 mt-5">
-  <div class="uedaTabletFrame uTabletFramePos" >
+<div class="uTabletContainer mb-2 mt-5">
+  <div class="uedaTabletFrame" >
     <picture class="uedaTabletPicture">
       <source srcset="{{ $imgPhone.RelPermalink }}" media="(max-width: 768px)">
       <source srcset="{{ $imgTablet.RelPermalink }}" media="(min-width: 769px)">
@@ -25,7 +25,7 @@
   </div>
 </div>
 
-<div class="mt-3 mb-4">
+<div class="mb-5">
   <a href="#{{ $uniqueID }}_phone" class="lightbox-link btn btn-outline-primary d-md-inline d-none" title="スマートフォン用の画面を表示">
     スマホの画面
   </a>

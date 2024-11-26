@@ -45,7 +45,7 @@
 [[main]]
   name = "⚡️機能別ガイド"
   identifier = "function"
-  url = "/function/"
+  url = "/function/share/"
   parent = "blogroot"
   weight = 55
 

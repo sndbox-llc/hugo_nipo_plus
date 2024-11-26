@@ -1,6 +1,6 @@
 title = "NipoPlus"
-baseurl = "http://localhost/"
-# baseurl = "https://nipo-plus-doc.sndbox.jp/"
+# baseurl = "http://localhost/"
+baseurl = "https://nipo-plus-doc.sndbox.jp/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

@@ -1,4 +1,3 @@
-
 h1 {
   color: $baseColor;
 }
@@ -30,14 +29,16 @@ h4 {
 }
 
 .docs-content {
-  h2, h3, h4 {
+  h2,
+  h3,
+  h4 {
     @include heading-style;
   }
 }
 /** 強調表示 アンダーバーを引く */
 strong {
   font-weight: 900;
-  background:linear-gradient(transparent 60%, orange 60%);
+  background: linear-gradient(transparent 60%, orange 60%);
 }
 /** 段落内のリンクを強調 */
 p {
@@ -53,7 +54,7 @@ blockquote {
   margin: 1.5em 0;
   border-left: 4px solid #6c757d;
   &::before {
-    content: "\201C";
+    content: '\201C';
     font-size: 3em;
     position: absolute;
     top: 0.2em;
@@ -76,7 +77,6 @@ blockquote {
   border-bottom: 1px dashed purple;
 }
 
-
 /* リード */
 .myLead {
   position: relative;
@@ -89,14 +89,14 @@ blockquote {
     top: 0;
     left: 20px;
     font-weight: 600;
-    padding: 0 10px;  // paddingを左右にいれて消す線の長さを延ばす
+    padding: 0 10px; // paddingを左右にいれて消す線の長さを延ばす
     transform: translateY(-50%);
     &::before {
       position: absolute;
-      z-index: -1;  // 何もしないと線が上に来ていたので-1して後ろに回り込ませる
+      z-index: -1; // 何もしないと線が上に来ていたので-1して後ろに回り込ませる
       left: 0;
-      bottom: 50%;  // top: 50%だと1pxずれていたのでbottomから計算する
-      width: 100%;  // 親要素の幅を参照するため必ず文字分は消せる
+      bottom: 50%; // top: 50%だと1pxずれていたのでbottomから計算する
+      width: 100%; // 親要素の幅を参照するため必ず文字分は消せる
       height: 1px;
       content: '';
     }
@@ -114,8 +114,8 @@ blockquote {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  .headLine{
-    animation: SlideIn 1.0s forwards;
+  .headLine {
+    animation: SlideIn 1s forwards;
     font-size: calc(1.875rem + 1.5vw);
   }
   .mainLead {
@@ -126,13 +126,13 @@ blockquote {
     font-size: 2rem;
     list-style: none;
     li::before {
-      content: "✅ ";
+      content: '✅ ';
     }
   }
   /* CSSアニメーションの設定 */
   @keyframes SlideIn {
     0% {
-      opacity: 0;/*初期状態では透明に*/
+      opacity: 0; /*初期状態では透明に*/
       transform: translateY(30px);
     }
     100% {
@@ -156,9 +156,7 @@ blockquote {
     }
     .heroList {
       font-size: 1.2em;
-
     }
-
   }
 }
 

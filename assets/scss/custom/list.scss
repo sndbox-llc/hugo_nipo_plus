@@ -1,4 +1,3 @@
-
 /*番号付きリスト */
 .mainContent ol {
   counter-reset: list;
@@ -44,7 +43,7 @@
 
     &::before {
       counter-increment: list;
-      content: "▶"; /* 独自のマーカーを追加 */
+      content: '▶'; /* 独自のマーカーを追加 */
       position: absolute;
       left: -35px;
       width: 25px;

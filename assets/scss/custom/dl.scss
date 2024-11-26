@@ -11,11 +11,14 @@ dl.basic {
     width: 200px;
   }
 
-  dd, p {
+  dd,
+  p {
     width: calc(100% - 200px);
   }
 
-  dt, dd, p {
+  dt,
+  dd,
+  p {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #ddd;
@@ -24,12 +27,14 @@ dl.basic {
   }
 
   /* リンクを強調 */
-  dt a, dd a {
+  dt a,
+  dd a {
     text-decoration: underline;
     font-weight: bold; /* 太字にして強調 */
   }
 
-  dt a:hover, dd a:hover {
+  dt a:hover,
+  dd a:hover {
     text-decoration: none; /* ホバー時に下線を消す */
   }
 
@@ -38,25 +43,27 @@ dl.basic {
     border-left: none;
     display: block;
 
-    dt, p {
+    dt,
+    p {
       border-bottom: none;
       padding-bottom: 0;
     }
 
-    dt, dd, p {
+    dt,
+    dd,
+    p {
       border-right: none;
       width: 100%;
       padding: 10px 15px;
     }
 
     /* モバイル用のリンク強調 */
-    dt a, dd a {
+    dt a,
+    dd a {
       font-size: 18px; /* モバイルでは少し大きく */
     }
   }
 }
-
-
 
 dl.faq {
   padding: 1em;
@@ -70,7 +77,7 @@ dl.faq {
     align-items: flex-start;
 
     &:before {
-      content: "Q";
+      content: 'Q';
       font-weight: normal;
       background: red;
       color: #fff;
@@ -80,7 +87,7 @@ dl.faq {
       text-align: center;
       display: inline-block;
       border-radius: 1em;
-      margin-right: .5em;
+      margin-right: 0.5em;
       flex-shrink: 0;
     }
   }
@@ -89,7 +96,7 @@ dl.faq {
     margin-bottom: 2em;
 
     &:before {
-      content: "A";
+      content: 'A';
       font-weight: normal;
       background: blueviolet;
       color: #fff;
@@ -99,7 +106,7 @@ dl.faq {
       text-align: center;
       display: inline-block;
       border-radius: 1em;
-      margin-right: .5em;
+      margin-right: 0.5em;
       flex-shrink: 0;
     }
 

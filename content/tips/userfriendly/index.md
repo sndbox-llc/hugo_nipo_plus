@@ -90,27 +90,7 @@ graph TD;
 
     class B,C,D,E green
 
-click TEXT "/docs/manual/initial-setting/template/text/"
-click MATH "/docs/manual/initial-setting/template/digital/#commonNumber"
-click STEP "/docs/manual/initial-setting/template/digital/#slider"
-click DATETIME "/docs/manual/initial-setting/template/date_time/#point"
-click DATETIMES "/docs/manual/initial-setting/template/date_time/#range"
-click RANGE "/docs/manual/initial-setting/template/digital/#range"
-click RATE "/docs/manual/initial-setting/template/digital/#rate"
-click CALC "/docs/manual/initial-setting/template/digital/#calc"
-
-click SELECT "/docs/manual/initial-setting/template/selects/#plain"
-click SELECTS "/docs/manual/initial-setting/template/selects/#multiple"
-
-click CHECKBOX "/docs/manual/initial-setting/template/selects/#checkbox"
-click MOD "/docs/manual/initial-setting/template/mod/"
-
-click PICTURE "/docs/manual/initial-setting/template/binarys/#picture"
-click SIGN "/docs/manual/initial-setting/template/binarys/#sign"
-click FILE "/docs/manual/initial-setting/template/binarys/#file"
 ```
-
-※末尾ノードはクリックで詳細ページへリンクします。
 
 例として、日報になにかの数値を入力するフォームを追加したいとしましょう。次の画像はどれも数値の入力フォームになります。
 

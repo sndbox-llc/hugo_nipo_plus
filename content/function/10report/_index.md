@@ -1,8 +1,10 @@
 +++
+url ="/reverse-lookup/report/"
 title = "レポート関連【逆引き】"
 description = "公式ガイドにまとめきれていない様々な詳細機能について機能別にまとめています"
 date = "2024-10-03"
 weight = 21000
+
 # images = []
 +++
 

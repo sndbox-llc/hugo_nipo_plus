@@ -1134,10 +1134,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
-"@tabler/icons@3.12.0":
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-3.12.0.tgz#6de75d6aa7568dc0a9d48f79837f8d4f266af540"
-  integrity sha512-Im37ar/mQkqLb6XUXsU7nOc4/66VB9/3KLuZ+6tUsJKHHNLaDUkYfCTNG3pnGDI03laByxVf5+umSNK2yPTx8A==
+"@tabler/icons@3.22.0":
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-3.22.0.tgz#f937ec65d98710b891da6368559ea15cbcd87f91"
+  integrity sha512-IfgGzhFph5OBr2wTieWL/hyAs0FThnq9O155a6kfGYxqx7h5LQw91wnRswhEaGhXCcfmR7ZVDUr9H+x4b9Pb8g==
 
 "@thulite/bootstrap@^1.2.0":
   version "1.2.0"
@@ -1256,7 +1256,7 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-atomic-algolia@^0.3.19:
+atomic-algolia@0.3.19:
   version "0.3.19"
   resolved "https://registry.yarnpkg.com/atomic-algolia/-/atomic-algolia-0.3.19.tgz#7846fa2444814fdc1d819699e9a9125fc4ad652b"
   integrity sha512-TiJt5BeYszS9ARk6beZKQCOLtqrEVp4CgReDlL9e3NLpIuOPGcTFMs2iMTyotfl8zBFLLPF84MlXA+C5TnlrAw==

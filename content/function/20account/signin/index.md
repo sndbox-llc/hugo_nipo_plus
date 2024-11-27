@@ -1,5 +1,5 @@
 +++
-url = "/function/signin/"
+url = "/reverse-lookup/account/signin/"
 description = "NipoPlusのアカウントをお持ちの方はこちらの手順に沿ってログインできます"
 # tags = []
 title = "NipoPlusにログインしたい"

@@ -1,4 +1,5 @@
 +++
+url = "/reverse-lookup/report/readed/"
 description = "既読にする"
 # tags = []
 title = "既読にする"

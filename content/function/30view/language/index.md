@@ -1,10 +1,10 @@
 +++
-url = "/function/language/"
+url = "/reverse-lookup/view/language/"
 description = "日本語・英語に対応しています。"
-# tags = ["アカウント設定"]
-title = "言語切替"
+title = "日本語以外の言語に切り替えたい"
 toc = false
 isDictionaly = true
+# tags = ["アカウント設定"]
 # images = []
 date = "2024-10-03"
 [sitemap]

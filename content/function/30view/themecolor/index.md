@@ -1,5 +1,5 @@
 +++
-url = "/function/themecolor/"
+url = "/reverse-lookup/view/themecolor/"
 description = "ラベルやタイトルの色をワンクリックで簡単に切り替えが可能です。複数のグループを運用する際は色分けすることで視認性を向上し、作業ミスを軽減できます。"
 # tags = ["アカウント設定"]
 title = "テーマカラーを変更したい"

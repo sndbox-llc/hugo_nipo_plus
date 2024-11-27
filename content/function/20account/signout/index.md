@@ -1,5 +1,5 @@
 +++
-url = "/function/signout/"
+url = "/reverse-lookup/account/signout/"
 description = "ログアウトの手順について"
 # tags = ["アカウント設定"]
 title = "NipoPlusからログアウトしたい"

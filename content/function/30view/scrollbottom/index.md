@@ -1,9 +1,9 @@
 +++
-url = "/function/scrollbottom/"
+url = "/reverse-lookup/view/scrollbottom/"
 description = "日報作成時にページ下部へスクロールするボタンを配置します"
 # tags = ["アカウント設定"]
 isDictionaly = true
-title = "日報が縦に長過ぎてスクロールが大変なときに使える機能"
+title = "レポート作成画面の一番下にスクロールしたい"
 toc = false
 # images = []
 date = "2024-10-03"

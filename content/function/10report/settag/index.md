@@ -1,5 +1,5 @@
 +++
-url = "/function/settag/"
+url = "/reverse-lookup/report/settag/"
 description = "日報を書くときに、目印としてタグを付けた状態で提出が可能です。タグは提出後につけることも、あとから外すことも簡単です"
 # tags = []
 title = "日報作成時にタグをセットしたい"

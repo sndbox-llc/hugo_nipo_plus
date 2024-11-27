@@ -1,9 +1,9 @@
 +++
-url = "/function/reportsearch/"
+url = "/reverse-lookup/report/reportsearch/"
 description = "棄却された日報やタグの付いた日報など、様々な条件を組み合わせて目的の日報を検索できます"
 # tags = []
 isDictionaly = true
-title = "細かい条件を指定して日報を検索したい"
+title = "細かい条件指定し日報を検索したい"
 toc = false
 # images = []
 date = "2024-10-04"

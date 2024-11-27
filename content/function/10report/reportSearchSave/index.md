@@ -1,5 +1,5 @@
 +++
-url = "/function/reportsearchsave/"
+url = "/reverse-lookup/report/reportsearchsave/"
 description = "細かい条件を毎回指定するのが大変だと感じませんか？検索条件は保存すれば次からはワンクリックで検索できます"
 # tags = []
 isDictionaly = true

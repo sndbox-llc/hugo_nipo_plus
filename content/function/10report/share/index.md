@@ -1,8 +1,8 @@
 +++
-url = "/function/share/"
+url = "/reverse-lookup/report/share/"
 description = "みんなの書いた日報などの報告書を全員が読めるようにすることも、逆に管理者しか読めないようにすることもできます。"
 # tags = []
-title = "レポートを全員が読めるように運用したいとき"
+title = "レポートを全員が読めるように運用したい"
 isDictionaly = true
 toc = false
 # images = []

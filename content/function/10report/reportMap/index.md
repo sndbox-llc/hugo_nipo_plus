@@ -1,5 +1,5 @@
 +++
-url = "/function/reportmap/"
+url = "/reverse-lookup/report/reportmap/"
 description = "提出忘れなどを見つけるときは提出簿を使うと簡単です"
 # tags = []
 title = "スタッフの提出状況を一覧で確認したい"

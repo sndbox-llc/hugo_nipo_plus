@@ -1,5 +1,5 @@
 +++
-url = "/function/defaultgroup/"
+url = "/reverse-lookup/other/defaultgroup/"
 description = "起動時に最初にセットされるグループを指定できます"
 # tags = ["アカウント設定"]
 title = "起動時のグループを固定したい"

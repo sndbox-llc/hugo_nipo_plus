@@ -1,5 +1,5 @@
 +++
-url ="/function/signup/"
+url ="/reverse-lookup/account/signup/"
 description = "NipoPlusの利用が始めたの方はこちらの手順に沿ってアカウントの作成ができます"
 # tags = []
 title = "NipoPlusのアカウントを始めて作りたい"

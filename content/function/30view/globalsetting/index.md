@@ -1,5 +1,5 @@
 +++
-url = "/function/globalsetting/"
+url = "/reverse-lookup/view/globalsetting/"
 description = "組織設定画面を表示する方法"
 # tags = ["要管理者権限"]
 title = "組織設定画面の表示方法"

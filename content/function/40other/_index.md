@@ -1,4 +1,5 @@
 +++
+url = "/reverse-lookup/other/"
 title = "その他【逆引き】"
 description = "公式ガイドにまとめきれていない様々な詳細機能について機能別にまとめています"
 date = "2024-10-03"

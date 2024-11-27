@@ -1,4 +1,5 @@
 +++
+url = "/reverse-lookup/view/"
 title = "見た目の変更【逆引き】"
 description = "公式ガイドにまとめきれていない様々な詳細機能について機能別にまとめています"
 date = "2024-10-03"

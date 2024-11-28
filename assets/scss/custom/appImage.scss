@@ -52,13 +52,13 @@
   }
 }
 
-// icatchとitabletで使用
+// 吹き出しのスタイル
 .ueda_speech-bubble {
-  background: #fff;
-  border: 4px solid orange;
+  color: black;
+  background: #FFD9B3;
+  border: 3px solid orange;
   border-radius: 10px;
   padding: 10px;
-  font-size: 22px;
   position: relative;
 
   &::before {
@@ -70,18 +70,18 @@
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-right-color: #fff;
+    border-right-color: orange;
   }
 
   &::after {
     content: '';
     position: absolute;
     top: 50%;
-    left: -22px;
+    left: -20px;
     transform: translateY(-50%);
     width: 0;
     height: 0;
-    border: 11px solid transparent;
+    border: 10px solid transparent;
     border-right-color: orange;
   }
 }

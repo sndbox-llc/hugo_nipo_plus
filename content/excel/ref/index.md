@@ -4,9 +4,9 @@ description = "参照を使いこなせばエクセルをかなり効率よく�
 title = "エクセルにおける参照「相対参照・絶対参照・複合参照」の使い方と具体的な活用例"
 menuTitle = "エクセルにおける参照「相対参照・絶対参照・複合参照」の使い方と便利な活用テクニック"
 toc = true
-# tags = ["エクセル",  "集計"]
 date = "2023-10-23"
-images = ["icatch.png"]
+# tags = ["エクセル",  "集計"]
+# images = ["icatch.png"]
 [sitemap]
   priority = 0.9
 +++

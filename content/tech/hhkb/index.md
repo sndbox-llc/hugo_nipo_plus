@@ -4,7 +4,7 @@ description = "高級キーボードとして有名なHHKBから最新モデル 
 title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
 toc = true
 # tags = ["開発環境"]
-images = ["hhkb.jpg"]
+# images = ["hhkb.jpg"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

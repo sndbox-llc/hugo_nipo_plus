@@ -4,10 +4,10 @@ description = "SUMとIFを組み合わせたSUMIF関数は例えばスタッフ�
 title = "エクセルのSUMIF関数で営業日報の中からスタッフごとの売上を集計する"
 menuTitle = "エクセルのSUMIF関数でスタッフ別の売上を簡単集計！"
 toc = true
-# tags = ["エクセル",  "集計"]
 date = "2023-10-22"
+# tags = ["エクセル",  "集計"]
 # aliases = []
-images = ["icatch.png"]
+# images = ["icatch.png"]
 [sitemap]
   priority = 0.9
 +++

@@ -4,9 +4,9 @@ description = "エクセルでの時刻計算が難しいと感じる方必見�
 title = "開始〜終了２つの時刻データを元にエクセルで稼働時間を算出する方法"
 menuTitle = "開始〜終了２つの時刻データを元にエクセルで稼働時間を算出する方法"
 toc = true
-# tags = ["エクセル",  "集計"]
 date = "2023-10-26"
-images = ["icatch.png"]
+# tags = ["エクセル",  "集計"]
+# images = ["icatch.png"]
 [sitemap]
   priority = 0.9
 +++

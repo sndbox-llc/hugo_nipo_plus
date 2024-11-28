@@ -1,10 +1,10 @@
 +++
 url = "/tech/elasticsearch/"
 description = "Elastic Searchの全文検索とFireStoreのデータベースを連携して相乗効果UP"
-# tags = ["firebase"]
 title = "FirestoreとElasticSearchを組み合わせて\n検索に強いFirebaseアプリを作る"
 toc = true
-images = ["firebase-icatch.png"]
+# tags = ["firebase"]
+# images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

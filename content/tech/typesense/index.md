@@ -1,10 +1,10 @@
 +++
 url = "/tech/typesense/"
 description = "FireStoreは非常に強力なデータベースですが唯一の欠点に「全文検索ができない」という弱点があります。この記事はFireStoreとTypesenseを組み合わせることで全文検索もできるというお話です。"
-# tags = ["firebase"]
 title = "TypesenseとFireStoreを併用してアプリ内検索を実装【Algoliaから移住】"
 toc = true
-images = ["firebase-icatch.png"]
+# tags = ["firebase"]
+# images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

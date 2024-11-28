@@ -4,9 +4,9 @@ description = "スタッフの名前や使用した機材の回数をエクセ�
 title = "エクセルのCOUNTIF・COUNTIFSを駆使してスタッフの日報提出回数や機材使用回数を効率的に集計"
 menuTitle = "エクセルのCOUNTIF・COUNTIFSを駆使してスタッフの日報提出回数や機材使用回数を効率的に集計"
 toc = true
-# tags = ["エクセル",  "集計"]
 date = "2023-10-23"
-images = ["icatch.png"]
+# tags = ["エクセル",  "集計"]
+# images = ["icatch.png"]
 [sitemap]
   priority = 0.9
 +++

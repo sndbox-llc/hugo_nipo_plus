@@ -4,10 +4,10 @@ description = "日報や点検表で発生しやすい記入漏れや手順飛�
 title = "日報/点検表の「記入漏れ」・「手順飛ばし」を100%減にする"
 menuTitle = "日報/点検表の「記入漏れ」・「手順飛ばし」を100%減にする"
 toc = true
-# aliases = []
-images = ["input-order_tablet.png"]
-# tags = []
 date = "2023-05-14"
+# aliases = []
+# images = ["input-order_tablet.png"]
+# tags = []
 [sitemap]
   priority = 0.9
 +++

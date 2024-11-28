@@ -1,10 +1,10 @@
 +++
 url = "/tech/separate-files/"
 description = "Cloud Functionはサーバで実行できる関数で、フロントに出しては行けない情報を処理するときに使います。コードの量が増えると可読性が悪くなるため関数ごとにファイルに分割する方法について紹介します"
-# tags = ["firebase"]
 title = "肥大化するCloud Functionsのファイルを複数のTsファイルに分ければメンテナンスもしやすい"
 toc = true
-images = ["firebase-icatch.png"]
+# tags = ["firebase"]
+# images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

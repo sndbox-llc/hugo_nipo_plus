@@ -1,12 +1,12 @@
 +++
 url = "/excel/sales_report/"
 description = "NipoPlusの集計機能で効率的なデータ集計が可能ですが、より高度な分析やグラフ作成を行いたい場合は、エクセルを使った集計がおすすめです。本記事では、NipoPlusの集計機能とエクセルを使った集計方法について解説します。"
-# tags = ["集計", "CSV出力"]
 title = "1ヶ月分の日報を1枚のエクセルにして集計する"
 menuTitle = "1ヶ月分の日報を1枚のエクセルにして集計する"
 toc = true
-images = ["work3.png"]
 date = "2023-04-01"
+# tags = ["集計", "CSV出力"]
+# images = ["work3.png"]
 # aliases = []
 [sitemap]
   priority = 0.9

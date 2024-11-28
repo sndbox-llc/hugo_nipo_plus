@@ -1,10 +1,10 @@
 +++
 url = "/tech/firestore-backup/"
 description = "長いことFirestoreはバックアップ機能を提供してきませんでした。この度Firebase公式のバックアップ手順が紹介されたため実際に導入してみたときの記事です"
-# tags = ["firebase"]
 title = "Firestoreのポイントインタイムリカバリでバックアップ。実際に一部の復元もやってみた"
 toc = true
-images = ["firebase-icatch.png"]
+# tags = ["firebase"]
+# images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

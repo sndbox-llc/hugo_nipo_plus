@@ -3,9 +3,9 @@ url = "/tips/analytics/"
 description = "現場の日報を簡単に集計。エクセルでの手動集計を減らし、アプリから直接グラフ作成やKPI目標設定が可能。転記ミスの心配なく、効率的にデータを活用できます。"
 title = "日報集計の2つのやり方・Excel集計とアプリ集計について"
 toc = true
-images = ['make-receipt_tablet.webp']
-# tags = ["集計"]
 date = "2023-06-15"
+# images = ['make-receipt_tablet.webp']
+# tags = ["集計"]
 # aliases = []
 [sitemap]
   priority = 0.9

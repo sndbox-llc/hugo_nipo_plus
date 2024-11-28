@@ -1,10 +1,10 @@
 +++
 url = "/tech/storage/"
 description = "Cloud Storageからファイルのダウンロードを行うときに発生したエラーの原因と対策。意外と調べても出てこないお粗末なエラーでした"
-# tags = ["firebase"]
 title = "Firebase StorageでNoSuchKeyのエラーが発生する原因と対策"
 toc = true
-images = ["firebase-icatch.png"]
+# tags = ["firebase"]
+# images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

@@ -1,12 +1,12 @@
 +++
 url = "/tips/mobile-device/"
 description = "スマホやタブレットで日報作成を効率化！現場から写真添付や署名も簡単にでき、ペーパーレスで点検報告をその場で完結。NipoPlusでモバイル入力を活用する方法を詳しく解説。"
-# tags = ["モバイル"]
 title = "スマホ対応の点検＆日報アプリ。現場の帳票をスマホ１つで"
 menuTitle = "スマホ・タブレットで日報を書く"
-toc = true
-images = ["tablet-phone.png"]
 date = "2023-04-01"
+toc = false
+# images = ["tablet-phone.png"]
+# tags = ["モバイル"]
 # aliases = []
 [sitemap]
   priority = 0.9

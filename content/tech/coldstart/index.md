@@ -1,10 +1,10 @@
 +++
 url = "/tech/coldstart/"
 description = "Firebase Cloud Functionsのコールドスタートに関する問題をcronで定期的に実行して回避する"
-# tags = ["firebase"]
 title = "Cloud Functionsのコールドスタートを回避する"
 toc = true
-images = ["firebase-icatch.png"]
+# tags = ["firebase"]
+# images = ["firebase-icatch.png"]
 date = "2022-11-14"
 [sitemap]
   changefreq = "yearly"

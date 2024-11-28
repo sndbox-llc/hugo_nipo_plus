@@ -5,8 +5,8 @@
   weight = 10
 [[main]]
   name = "逆引き辞典"
-  identifier = "reverse-lookup/report"
-  url = "/reverse-lookup/report/share/"
+  identifier = "reverse-lookup/about/about"
+  url = "/reverse-lookup/about/about/"
   # parent = "blogroot"
   weight = 15
 

@@ -1,10 +1,10 @@
 +++
 url = "/docs/manual/utils/log/"
-description = "レポートの提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
-# tags = []
 title = "📚ログデータ"
+description = "レポートの提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
 toc = true
 weight = 1230
+# tags = []
 # aliases = []
 # images = []
 +++

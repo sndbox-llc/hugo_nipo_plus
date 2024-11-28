@@ -1,7 +1,7 @@
 +++
 url = "/legacy/manual/edit-login/"
-description = "Nipo【旧版】のログインパスワードを忘れてしまった場合やメールアドレスの変更をしたい場合はこちらをご覧ください"
 title = "パスワードリセット"
+description = "Nipo【旧版】のログインパスワードを忘れてしまった場合やメールアドレスの変更をしたい場合はこちらをご覧ください"
 toc = true
 weight = 8175
 isNipo = true

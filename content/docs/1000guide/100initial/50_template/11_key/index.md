@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/initial-setting/template/key/"
-description = "テンプレート内の入力フォームを削除する方法と、誤って削除した際の復旧方法について"
-# tags = ["テンプレート"]
 title = "誤って削除したフォームの復旧とキーについて"
 menuTitle = "【応用】キーについて"
+description = "テンプレート内の入力フォームを削除する方法と、誤って削除した際の復旧方法について"
 toc = true
 weight = 161
+# tags = ["テンプレート"]
 # aliases = []
 # images = []
 +++

@@ -1,17 +1,13 @@
 +++
 url = "/reverse-lookup/view/disablefunction/"
-description = "使用していない機能は無効化することでメニューから消すことができます。見た目をシンプルに保ち、スタッフの混乱を軽減しましょう。"
 title = "使わない機能を消して見た目をシンプルにしたい"
+description = "使用していない機能は無効化することでメニューから消すことができます。見た目をシンプルに保ち、スタッフの混乱を軽減しましょう。"
 toc = false
 isDictionaly = true
 aliases = ['/function/disablefunction/']
 weight = 23140
-# tags = []
-# images = []
 date = "2024-10-15"
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = []
 +++
 
 ## 使わない機能を無効化する

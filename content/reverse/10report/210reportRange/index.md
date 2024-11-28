@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/report/reportrange/"
-description = "過去の日報を探す時、探す期間が決まっていれば期間を指定して簡単に検索ができます"
 title = "特定の時期の日報を探したい"
+description = "過去の日報を探す時、探す期間が決まっていれば期間を指定して簡単に検索ができます"
 toc = false
-# images = []
-# tags = []
 aliases = ['/function/reportrange/']
 weight = 21210
 isDictionaly = true
 date = "2024-10-04"
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# images = []
+# tags = []
 +++
 
 ## カレンダーを操作して任意の期間の日報を検索する

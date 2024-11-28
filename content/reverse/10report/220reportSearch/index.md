@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/report/reportsearch/"
+title = "細かい条件指定し日報を検索したい"
 description = "棄却された日報やタグの付いた日報など、様々な条件を組み合わせて目的の日報を検索できます"
 isDictionaly = true
-title = "細かい条件指定し日報を検索したい"
 toc = false
 aliases = ['/function/reportsearch/']
-# images = []
-# tags = []
 date = "2024-10-04"
 weight = 21220
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# images = []
+# tags = []
 +++
 
 ## 様々な条件の検索を使いこなそう

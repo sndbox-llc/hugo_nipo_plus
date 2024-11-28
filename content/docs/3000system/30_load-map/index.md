@@ -1,11 +1,11 @@
 +++
 url = "/docs/system/load-map/"
-description = "今後のアップデート予定について"
-# tags = []
 title = "今後の更新予定・バグ情報"
 menuTitle = "🐞バグ及び今後の更新予定"
+description = "今後のアップデート予定について"
 toc = false
 weight = 3030
+# tags = []
 # aliases = []
 # images = []
 +++

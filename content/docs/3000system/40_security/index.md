@@ -1,15 +1,12 @@
 +++
 url = "/docs/system/security/"
-description = "クラウドサービスにおいてセキュリティは最も優先しなければならない課題です。NipoPlusを安心して利用いただくためにNipoPlusで行っているセキュリティ対策についてご紹介します"
-# tags = []
 title = "🔐セキュリティ対策"
+description = "クラウドサービスにおいてセキュリティは最も優先しなければならない課題です。NipoPlusを安心して利用いただくためにNipoPlusで行っているセキュリティ対策についてご紹介します"
 toc = true
 weight = 3040
+# tags = []
 # aliases = []
 # images = []
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.6
 +++
 
 クラウドサービスを利用するにあたりセキュリティを気にすることはとても重要です。NipoPlusではセキュリティ対策を最も重要な課題として常に安全に気を配り、お客様のデータを安全に保護できるよう努めております。

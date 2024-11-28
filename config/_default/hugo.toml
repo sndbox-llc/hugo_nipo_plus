@@ -11,7 +11,7 @@ enableRobotsTXT = true
 languageCode = "ja-JP"
 pagerSize = 30
 rssLimit = 30
-summarylength = 20 # 70 (default)
+summarylength = 70 # 70 (default)
 
 # Multilingual
 defaultContentLanguage = "ja"
@@ -50,9 +50,9 @@ notAlternative = true
 
 
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "monthly"
   filename = "sitemap.xml"
-  priority = 0.6
+  priority = 0.5
 
 [caches]
   [caches.getjson]

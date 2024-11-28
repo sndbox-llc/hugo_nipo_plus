@@ -1,16 +1,13 @@
 +++
 url = "/docs/system/faq/"
-description = "過去にお客様からいただいた質問をFAQとしてまとめました。あなたの疑問はもしかしたらすでに掲載されているかも？お問い合わせ前にぜひ一度チェックしてみてください。もちろん、重複でご質問いただいても大丈夫です。"
 title = "お客様から実際にいただいた質問とその回答"
 menuTitle = "❓FAQ"
+description = "過去にお客様からいただいた質問をFAQとしてまとめました。あなたの疑問はもしかしたらすでに掲載されているかも？お問い合わせ前にぜひ一度チェックしてみてください。もちろん、重複でご質問いただいても大丈夫です。"
 toc = true
 weight = 3060
 # tags = []
 # aliases = []
 # images = []
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.6
 +++
 
 NipoPlusのユーザから頂戴した様々な<a href="/others/inquery/">お問い合わせ</a>の内容を個人が特定できない形で掲載しております。

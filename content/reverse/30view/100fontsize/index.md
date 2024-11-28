@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/view/fontsize/"
-description = "必要に応じて12〜24の間で文字サイズを調整できます"
 title = "表示される文字サイズを変更したい"
+description = "必要に応じて12〜24の間で文字サイズを調整できます"
 isDictionaly = true
 toc = false
-# tags = []
-# images = []
 weight = 23100
 aliases = ['/function/fontsize/']
 date = "2024-10-03"
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = []
+# images = []
 +++
 
 ## 文字の大きさを調整する

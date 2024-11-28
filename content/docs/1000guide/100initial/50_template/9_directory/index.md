@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/initial-setting/template/directory/"
-description = "テンプレートを効率よく管理するためにフォルダ分けをすることができます"
-# tags = ["テンプレート", "有料プラン限定", "要編集者権限"]
 title = "📂レポートテンプレートをフォルダ分けして効率よく管理"
 menuTitle = "📂フォルダによる管理"
+description = "テンプレートを効率よく管理するためにフォルダ分けをすることができます"
 toc = true
 weight = 159
+# tags = ["テンプレート", "有料プラン限定", "要編集者権限"]
 # images = []
 +++
 

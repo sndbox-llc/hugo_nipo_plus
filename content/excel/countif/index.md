@@ -1,14 +1,12 @@
 +++
 url = "/excel/countif/"
-description = "スタッフの名前や使用した機材の回数をエクセルで簡単に集計するためのCOUNTIF関数を紹介。さらに複数条件での集計に役立つCOUNTIFS関数も解説します"
 title = "エクセルのCOUNTIF・COUNTIFSを駆使してスタッフの日報提出回数や機材使用回数を効率的に集計"
 menuTitle = "エクセルのCOUNTIF・COUNTIFSを駆使してスタッフの日報提出回数や機材使用回数を効率的に集計"
+description = "スタッフの名前や使用した機材の回数をエクセルで簡単に集計するためのCOUNTIF関数を紹介。さらに複数条件での集計に役立つCOUNTIFS関数も解説します"
 toc = true
 date = "2023-10-23"
 # tags = ["エクセル",  "集計"]
 # images = ["icatch.png"]
-[sitemap]
-  priority = 0.9
 +++
 
 例えば次のようなエクセルシートがあったとします。特にE列に注目してください。

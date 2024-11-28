@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/account/signin/"
-description = "NipoPlusのログイン、アカウント情報の確認、ログアウト手順を解説。E-mailとパスワードの管理や複数デバイスでのログイン方法、セキュリティ対策もカバーします。"
-# tags = []
-menuTitle = "🔓ログインとアカウント確認方法"
 title = "ログインとアカウント確認方法"
+menuTitle = "🔓ログインとアカウント確認方法"
+description = "NipoPlusのログイン、アカウント情報の確認、ログアウト手順を解説。E-mailとパスワードの管理や複数デバイスでのログイン方法、セキュリティ対策もカバーします。"
 toc = true
 weight = 1010
+# tags = []
 # aliases = []
 # images = []
 +++

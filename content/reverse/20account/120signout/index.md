@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/account/signout/"
-description = "ログアウトの手順について"
 title = "NipoPlusからログアウトしたい"
+description = "ログアウトの手順について"
 isDictionaly = true
 toc = false
 aliases = ['/function/signout/']
-# images = []
-# tags = ["アカウント設定"]
 weight = 22120
 date = "2024-10-03"
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# images = []
+# tags = ["アカウント設定"]
 +++
 
 ## NipoPlusからログアウトする

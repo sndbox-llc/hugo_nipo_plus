@@ -1,8 +1,8 @@
 +++
 url = "/legacy/system/mobile-install/"
-description = "Nipo【旧版】をスマートフォンにインストールするにはApp storeからダウンロードするか、PWAとしてインストールする方法があります"
 title = "スマートフォン・タブレットにインストール"
 menuTitle ="📱スマホ・タブレットにインストール"
+description = "Nipo【旧版】をスマートフォンにインストールするにはApp storeからダウンロードするか、PWAとしてインストールする方法があります"
 toc = true
 weight = 8320
 isNipo = true

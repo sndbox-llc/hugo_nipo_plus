@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/view/language/"
-description = "日本語・英語に対応しています。"
 title = "日本語以外の言語に切り替えたい"
+description = "日本語・英語に対応しています。"
 toc = false
 isDictionaly = true
-# tags = ["アカウント設定"]
-# images = []
 aliases = ['/function/language/']
 weight = 23110
 date = "2024-10-03"
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = ["アカウント設定"]
+# images = []
 +++
 
 ## 日本語・英語から選択します

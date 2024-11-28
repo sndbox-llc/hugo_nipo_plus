@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/pdf/pdfoption/"
-description = "PDF出力のオプション設定について"
-# tags = ["有料プラン限定", "CSV出力"]
 title = "⚙️PDF出力の設定"
 menuTitle = "⚙️PDF出力の設定"
+description = "PDF出力のオプション設定について"
 toc = true
 weight = 520
+# tags = ["有料プラン限定", "CSV出力"]
 # aliases = []
 # images = []
 +++

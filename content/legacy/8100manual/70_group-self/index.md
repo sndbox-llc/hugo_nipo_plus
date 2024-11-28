@@ -1,7 +1,7 @@
 +++
 url = "/legacy/manual/group-self/"
-description = "グループは複数名で利用します。個人単位で設定可能な項目とグループ全体に影響する設定があります。"
 title = "グループ内の個人設定"
+description = "グループは複数名で利用します。個人単位で設定可能な項目とグループ全体に影響する設定があります。"
 toc = true
 weight = 8170
 isNipo = true

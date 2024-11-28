@@ -1,10 +1,10 @@
 +++
 url = "/docs/manual/initial-setting/advanced-setting/tag/"
-description = "検索や目印としてレポートにタグをセットできます。タグは編集者権限のスタッフが作成管理できます"
-# tags = ["要編集者権限"]
 title = "🏷タグの管理"
+description = "検索や目印としてレポートにタグをセットできます。タグは編集者権限のスタッフが作成管理できます"
 toc = true
 weight = 171
+# tags = ["要編集者権限"]
 # aliases = []
 # images = []
 +++

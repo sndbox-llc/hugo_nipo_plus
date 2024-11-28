@@ -1,11 +1,11 @@
 +++
 url = "/legacy/manual/staff-manage/"
-description = "グループにスタッフを追加したり、各スタッフの権限や提出先の設定を行う手順について解説しています"
 title = "スタッフアカウントの管理"
+description = "グループにスタッフを追加したり、各スタッフの権限や提出先の設定を行う手順について解説しています"
 toc = true
 weight = 8135
-# tags = ["旧バージョン"]
 isNipo = true
+# tags = ["旧バージョン"]
 # aliases = []
 [sitemap]
   changefreq = "yearly"

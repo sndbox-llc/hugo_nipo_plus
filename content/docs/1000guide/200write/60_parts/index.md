@@ -1,8 +1,8 @@
 +++
 url = "/docs/manual/write-report/parts/"
-description = "各種入力フォームごとに入力方式が異なります。それぞれの入力方式についてこのページでまとめています"
 title = "入力フォームごとの入力方法"
 menuTitle = "🖊入力方法について"
+description = "各種入力フォームごとに入力方式が異なります。それぞれの入力方式についてこのページでまとめています"
 toc = true
 weight = 260
 # aliases = []

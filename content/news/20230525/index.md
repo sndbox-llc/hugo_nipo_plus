@@ -1,13 +1,10 @@
 +++
-description = "インボイス制度登録番号が交付されました"
-# tags = []
 title = "インボイス制度登録番号"
+description = "インボイス制度登録番号が交付されました"
 toc = true
 date = "2023-05-26"
+# tags = []
 # images = []
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.3
 +++
 
 いつもNipo【旧版】/NipoPlusをご利用いただきありがとうございます。

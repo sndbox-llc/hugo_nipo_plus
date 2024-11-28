@@ -1,17 +1,14 @@
 +++
 url ="/reverse-lookup/account/signup/"
-description = "NipoPlusの利用が始めたの方はこちらの手順に沿ってアカウントの作成ができます"
 title = "NipoPlusのアカウントを始めて作りたい"
+description = "NipoPlusの利用が始めたの方はこちらの手順に沿ってアカウントの作成ができます"
 toc = false
 isDictionaly = true
 aliases = ['/function/signup/']
-# tags = []
-# images = []
 weight = 22100
 date = "2024-10-03"
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = []
+# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

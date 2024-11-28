@@ -1,11 +1,11 @@
 +++
 url = "/docs/system/agree/"
-description = "NipoPlusを利用する上での利用規約になります。"
-# tags = []
-# aliases = []
 title = "📖システム利用規約"
+description = "NipoPlusを利用する上での利用規約になります。"
 toc = false
 weight = 3080
+# tags = []
+# aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

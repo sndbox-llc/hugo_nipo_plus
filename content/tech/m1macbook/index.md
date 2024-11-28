@@ -1,14 +1,11 @@
 +++
 url = "/tech/m1macbook/"
 description = "速いと噂のM1マックブックを買ってみました。プログラマ視点でM1マックは業務にそのまま使えるのかを書いてみました。"
-# tags = ["開発環境"]
 title = "M1/M2 Macをプログラマが購入して実際に使った感想"
 toc = true
-# images = []
 date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.5
+# images = []
+# tags = ["開発環境"]
 +++
 
 ## 新型MacBook Airを購入しました{#macbookair}

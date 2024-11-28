@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/write-report/copy/"
-description = "過去のレポートを複写して新規に作成したいときはコピー＆新規を使うことで簡単にレポートを複製できます"
-# tags = []
 title = "📄レポートをコピーして新規作成する"
 menuTitle = "📄コピー&新規作成"
+description = "過去のレポートを複写して新規に作成したいときはコピー＆新規を使うことで簡単にレポートを複製できます"
 toc = true
 weight = 250
+# tags = []
 # images = []
 +++
 

@@ -1,11 +1,11 @@
 +++
 url = "/docs/system/release-note/"
-description = "Nipo【旧版】及びNipoPlusの新しいバージョンが公開されるたびにこのページでご案内します。Android/iOS/Web版それぞれで最新のバージョンが異なる場合があります。"
-# tags = []
 title = "システム更新履歴(リリースノート)"
 menuTitle = "📜システム更新履歴"
+description = "Nipo【旧版】及びNipoPlusの新しいバージョンが公開されるたびにこのページでご案内します。Android/iOS/Web版それぞれで最新のバージョンが異なる場合があります。"
 toc = false
 weight = 3020
+# tags = []
 # aliases = []
 # images = []
 +++

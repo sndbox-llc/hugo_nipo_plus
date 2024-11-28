@@ -9,9 +9,6 @@ toc = false
 # images = []
 date = "2024-10-04"
 weight = 21230
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
 +++
 
 ## 煩雑な検索条件指定をバイパスしよう
@@ -19,7 +16,7 @@ weight = 21230
 NipoPlusでは様々な検索機能がありますが、通常業務では検索条件って、毎回同じものを入力することが多くありますよね。
 検索条件を保存することで、毎回ポチポチと条件を指定する煩雑さから開放できます。
 
-1. 予め検索をする（[検索の仕方を参照](/function/reportsearch/)してください）
+1. 予め検索をする（[検索の仕方を参照](/reverse-lookup/report/reportsearch/)してください）
 2. 検索条件保存をクリック
 3. わかりやすい名前を付けて保存
 

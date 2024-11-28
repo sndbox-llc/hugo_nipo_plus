@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/write-report/write/"
-description = "テンプレートを選ぶ▶レポートを書く▶提出先を選ぶ（初回のみ）▶提出ボタンクリック。これでレポートが提出できます。"
-# tags = []
-menuTitle = "✍️レポートを書く"
 title = "✍️レポートを書くまでの流れ"
+menuTitle = "✍️レポートを書く"
+description = "テンプレートを選ぶ▶レポートを書く▶提出先を選ぶ（初回のみ）▶提出ボタンクリック。これでレポートが提出できます。"
 toc = true
 weight = 210
+# tags = []
 # aliases = []
 # images = []
 +++

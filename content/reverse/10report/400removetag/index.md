@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/report/removetag/"
-description = "レポートにセットされたタグが不要になったときはワンクリックで簡単に外せます。異なるタグを付けたいときも同じ手順で簡単につけ外しができます"
 title = "レポートにつけられたタグを外したい"
+description = "レポートにセットされたタグが不要になったときはワンクリックで簡単に外せます。異なるタグを付けたいときも同じ手順で簡単につけ外しができます"
 isDictionaly = true
 toc = false
-# tags = []
-# images = []
 aliases = ['/function/removetag/']
 date = "2024-10-04"
 weight = 21400
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = []
+# images = []
 +++
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}

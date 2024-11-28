@@ -1,11 +1,10 @@
 +++
 url = "/docs/manual/quickstart/"
+title = "🔰初心者ガイド：基本操作の全て"
+menuTitle = "🔰クイックスタートガイド"
 description = "NipoPlusの初めての利用者向けに、アカウント作成から初期設定、テンプレート作成、レポートの提出までの基本操作をステップごとに画像付きで解説します。初心者でも安心して使えるガイドです。"
 lead = "アカウント作成から初期設定・レポートを提出するまでの手順について説明しています。このページの内容で基本的な操作が全て分かります"
-menuTitle = "🔰クイックスタートガイド"
-title = "🔰初心者ガイド：基本操作の全て"
 toc = true
-tocdefaultopen = true
 weight = 1
 # tags = []
 # aliases = []

@@ -1,14 +1,11 @@
 +++
 url = "/tech/webp/"
-description = "マニュアル用の画像など無機質な画像においてはPngのほうが10%以上軽くなるケースも多々ありました。色の量が大きなポイントです"
-# tags = []
 title = "webPよりPngのほうが軽いケースも多い"
+description = "マニュアル用の画像など無機質な画像においてはPngのほうが10%以上軽くなるケースも多々ありました。色の量が大きなポイントです"
 toc = true
-# images = []
 date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.7
+# tags = []
+# images = []
 +++
 
 4G通信から5G通信へ通信技術が進んでも絶対に変わらないことは「重いより軽いほうが良い」という点です。

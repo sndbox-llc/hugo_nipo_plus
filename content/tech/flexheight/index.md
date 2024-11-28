@@ -1,14 +1,11 @@
 +++
 url = "/tech/flexheight/"
-description = "Quasar FrameworkのGridを使ってQcardの高さを揃える"
-# tags = []
 title = "Quasar Framework QCardの高さを揃えて見た目を良くする"
+description = "Quasar FrameworkのGridを使ってQcardの高さを揃える"
 toc = true
+# tags = []
 # images = []
 date = "2023-01-01"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.3
 +++
 
 Quasar Frameworkでは行、列を制御するために row・columnといったクラスが予め用意されています。

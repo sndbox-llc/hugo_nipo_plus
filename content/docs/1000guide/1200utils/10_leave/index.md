@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/utils/org/"
-description = "退会に伴いすべてのデータを安全に削除します"
-# tags = ["データ削除", "要管理者権限"]
 title = "組織を削除する(退会)"
 menuTitle ="☔退会する"
+description = "退会に伴いすべてのデータを安全に削除します"
 toc = true
 weight = 1210
+# tags = ["データ削除", "要管理者権限"]
 # aliases = []
 # images = []
 +++

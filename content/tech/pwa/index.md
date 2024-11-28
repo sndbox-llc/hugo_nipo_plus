@@ -1,14 +1,11 @@
 +++
 url = "/tech/pwa/"
-description = "PWAの更新処理"
 title = "VueとRegister Service Workerを使いアプリの更新を制御する"
+description = "PWAの更新処理"
 toc = true
+date = "2022-11-14"
 # tags = []
 # images = []
-date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.5
 +++
 
 PWAは便利ですがその一方で正直分かりにくいというデメリットもあります。

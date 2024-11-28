@@ -1,7 +1,7 @@
 +++
 url = "/legacy/manual/email-verify/"
-description = "Nipo【旧版】に登録されたE-mailに誤りが無いかを確認することを「メールの確認」といいます。このページではE-mailの確認について解説しています"
 title = "メールアドレスを確認する"
+description = "Nipo【旧版】に登録されたE-mailに誤りが無いかを確認することを「メールの確認」といいます。このページではE-mailの確認について解説しています"
 toc = true
 weight = 8110
 isNipo = true

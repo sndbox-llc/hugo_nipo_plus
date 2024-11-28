@@ -1,14 +1,11 @@
 +++
 url = "/tech/infixtopostfix/"
-description = "通常の数式を逆ポーランドに変換するサンプル（Typescript）と、逆ポーランドを計算するサンプルプログラムです。入力は電卓風のUIで実装"
 title = "電卓風の見た目で逆ポーランド記法の式を作成する（vue & Typescript)"
+description = "通常の数式を逆ポーランドに変換するサンプル（Typescript）と、逆ポーランドを計算するサンプルプログラムです。入力は電卓風のUIで実装"
 toc = true
+date = "2022-11-14"
 # tags = []
 # images = ["reverce-polish-sample.png"]
-date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.5
 +++
 
 NipoPlusに演算機能を実装する必要があり、色々調べたところ「逆ポーランド記法」という方法が電卓の実装として最も良さそうだったので作ってみました。

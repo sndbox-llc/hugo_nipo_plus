@@ -1,10 +1,10 @@
 +++
 url = "/docs/manual/api/report/"
-description = "WebAPIで取得したレポートデータの構造に関する操作ガイドです"
-# tags = ["有料プラン限定"]
 title = "📄API取得のデータ構造"
+description = "WebAPIで取得したレポートデータの構造に関する操作ガイドです"
 toc = true
 weight = 1130
+# tags = ["有料プラン限定"]
 # aliases = []
 +++
 

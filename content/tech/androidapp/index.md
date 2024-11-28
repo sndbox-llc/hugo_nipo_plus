@@ -1,14 +1,11 @@
 +++
 url = "/tech/androidapp/"
-description = "QuasarでAndroidアプリを作成"
 title = "Quasar FrameworkでAndroidアプリをビルドしてストア提出する(AABファイル)"
+description = "QuasarでAndroidアプリを作成"
 toc = true
+date = "2022-11-14"
 # tags = []
 # images = []
-date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.5
 +++
 
 NipoPlusは[Quasar Framework](https://quasar.dev/)を使用してWebアプリ、Androidアプリ、iOSアプリの3つに変換してそれぞれにリリースを行っています。

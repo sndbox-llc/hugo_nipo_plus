@@ -1,7 +1,7 @@
 +++
 url = "/legacy/parts/math/"
-description = "数値のデータレポートテンプレートに追加できます。数値は集計にも対応しております。"
 title = "数値に関するフォーム"
+description = "数値のデータレポートテンプレートに追加できます。数値は集計にも対応しております。"
 toc = true
 weight = 8250
 isNipo = true

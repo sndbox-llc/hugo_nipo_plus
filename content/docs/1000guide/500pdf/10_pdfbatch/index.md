@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/pdf/pdfbatch/"
-description = "レポートのデータをPDFに一括で変換します。"
-# tags = ["有料プラン限定", "PDF出力"]
 title = "📄複数のレポートをまとめてPDFに変換する"
 menuTitle = "📄PDF一括出力"
+description = "レポートのデータをPDFに一括で変換します。"
 toc = true
 weight = 510
+# tags = ["有料プラン限定", "PDF出力"]
 # aliases = []
 # images = []
 +++

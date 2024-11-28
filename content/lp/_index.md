@@ -1,10 +1,9 @@
 +++
-description = "LP"
-title = "LP"
+description = ""
+title = "ランディングページ"
 toc = true
-# tags = []
 weight = 7000
-# images = []
+[seo]
 robots = "noindex, follow"
 +++
 

@@ -1,14 +1,11 @@
 +++
 url = "/tech/firestore-backup/"
-description = "長いことFirestoreはバックアップ機能を提供してきませんでした。この度Firebase公式のバックアップ手順が紹介されたため実際に導入してみたときの記事です"
 title = "Firestoreのポイントインタイムリカバリでバックアップ。実際に一部の復元もやってみた"
+description = "長いことFirestoreはバックアップ機能を提供してきませんでした。この度Firebase公式のバックアップ手順が紹介されたため実際に導入してみたときの記事です"
 toc = true
+date = "2022-11-14"
 # tags = ["firebase"]
 # images = ["firebase-icatch.png"]
-date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.2
 +++
 
 ## ポイントインタイム リカバリによりFirebaseのデータをバックアップできるようになります{#firestore_backup}

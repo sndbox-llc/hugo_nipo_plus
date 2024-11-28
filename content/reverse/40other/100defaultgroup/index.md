@@ -1,18 +1,15 @@
 +++
 url = "/reverse-lookup/other/defaultgroup/"
-description = "起動時に最初にセットされるグループを指定できます"
 title = "起動時のグループを固定したい"
 menuTitle = "起動時のグループを固定したい"
+description = "起動時に最初にセットされるグループを指定できます"
 toc = false
-# tags = ["アカウント設定"]
-# images = []
 isDictionaly = true
 weight = 24100
 date = "2024-10-03"
 aliases = ['/function/defaultgroup/']
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = ["アカウント設定"]
+# images = []
 +++
 
 ## 起動時に最初にロードされるグループの指定

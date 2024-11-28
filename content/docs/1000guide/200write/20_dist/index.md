@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/write-report/dist/"
-description = "レポートを承認できる人が「提出先」レポートを読むことができるのが「共有先」です。"
-# tags = []
 title = "📤レポートの提出先と共有先について"
 menuTitle = "📤提出先と共有先"
+description = "レポートを承認できる人が「提出先」レポートを読むことができるのが「共有先」です。"
 toc = true
 weight = 220
+# tags = []
 # aliases = []
 # images = []
 +++

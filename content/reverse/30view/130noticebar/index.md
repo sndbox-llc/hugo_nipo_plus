@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/view/noticebar/"
-description = "グループ内の全スタッフに告知したい場合はバナー機能が便利です。画面上部に目立つ形で表示され、見落としません"
 title = "スタッフ全員に通達したいとき"
+description = "グループ内の全スタッフに告知したい場合はバナー機能が便利です。画面上部に目立つ形で表示され、見落としません"
 isDictionaly = true
 toc = false
-# tags = []
-# images = []
 aliases = ['/function/noticebar/']
 date = "2024-10-15"
 weight = 23130
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = []
+# images = []
 +++
 
 ## バナーを使えばグループ内の全スタッフに目立つ形で必要事項を通達できます

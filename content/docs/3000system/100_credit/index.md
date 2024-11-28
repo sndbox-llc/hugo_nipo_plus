@@ -1,10 +1,10 @@
 +++
 url = "/docs/system/credit/"
-description = "本Webサイトに使用されている画像の取り扱いについて記載しています。NipoPlusの画像は転載可能です"
-# tags = []
 title = "権利・クレジット"
+description = "本Webサイトに使用されている画像の取り扱いについて記載しています。NipoPlusの画像は転載可能です"
 weight = 3100
 toc = false
+# tags = []
 # aliases = []
 # images = []
 [sitemap]

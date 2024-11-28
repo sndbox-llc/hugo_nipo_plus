@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/initial-setting/staff-local/template/"
-description = "スタッフごとに利用が可能なレポートのテンプレートを指定できます"
-# tags = ["スタッフアカウント管理", "要編集者権限"]
 title = "🚫スタッフが利用できるテンプレートを制限する"
 menuTitle = "🚫利用可能テンプレートの制限"
+description = "スタッフごとに利用が可能なレポートのテンプレートを指定できます"
 toc = false
 weight = 133
+# tags = ["スタッフアカウント管理", "要編集者権限"]
 # aliases = []
 # images = []
 +++

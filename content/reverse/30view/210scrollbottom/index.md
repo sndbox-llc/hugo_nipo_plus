@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/view/scrollbottom/"
+title = "レポート作成画面の一番下にスクロールしたい"
 description = "日報作成時にページ下部へスクロールするボタンを配置します"
 isDictionaly = true
-title = "レポート作成画面の一番下にスクロールしたい"
 toc = false
-# tags = ["アカウント設定"]
-# images = []
 weight = 23210
 date = "2024-10-03"
 aliases = ['/function/scrollbottom/']
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = ["アカウント設定"]
+# images = []
 +++
 
 ## レポートが長い場合は一気に提出ボタンまでスクロールするボタンを配置できます

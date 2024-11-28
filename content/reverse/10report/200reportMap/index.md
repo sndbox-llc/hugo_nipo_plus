@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/report/reportmap/"
-description = "提出忘れなどを見つけるときは提出簿を使うと簡単です"
 title = "スタッフの提出状況を一覧で確認したい"
+description = "提出忘れなどを見つけるときは提出簿を使うと簡単です"
 toc = false
 isDictionaly = true
 aliases = ['/function/reportmap/']
-# tags = []
-# images = []
 weight = 21200
 date = "2024-10-04"
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
+# tags = []
+# images = []
 +++
 
 ## 提出状況を一覧表にすれば提出漏れも瞬時にわかります

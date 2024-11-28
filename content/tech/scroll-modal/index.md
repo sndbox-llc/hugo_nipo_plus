@@ -1,14 +1,11 @@
 +++
 url = "/tech/scroll-modal/"
-description = "Javascriptで特定のDOM要素までスクロールさせる処理（Modal内）について"
 title = "QuasarのQ-Dialog内で目的の場所へスクロールさせる処理を書く"
+description = "Javascriptで特定のDOM要素までスクロールさせる処理（Modal内）について"
 toc = true
+date = "2022-11-14"
 # tags = []
 # images = []
-date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.5
 +++
 
 ## Modalを使うとwindow.scrollでは動かない原因と解決策{#window_scroll_not_working}

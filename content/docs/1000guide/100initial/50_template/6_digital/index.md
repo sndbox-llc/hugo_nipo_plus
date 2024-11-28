@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/initial-setting/template/digital/"
-description = "テンプレートカスタムパーツの1つ。シンプルな数値の入力枠をレポートテンプレートに追加します。集計に対応しています。"
-# tags = ["集計可能フォーム", "テンプレートパーツ", "テンプレート"]
 title = "数値入力"
 menuTitle = "🧩数値入力"
+description = "テンプレートカスタムパーツの1つ。シンプルな数値の入力枠をレポートテンプレートに追加します。集計に対応しています。"
 toc = true
 weight = 156
+# tags = ["集計可能フォーム", "テンプレートパーツ", "テンプレート"]
 # aliases = []
 # images = []
 +++

@@ -1,7 +1,7 @@
 +++
 url = "/legacy/parts/dictionaly/"
-description = "単語集を用意して一覧から入力できる方式です。類似パーツに「選択肢」がありますがこちらは単語の数が多い場合に最適です"
 title = "その他の入力"
+description = "単語集を用意して一覧から入力できる方式です。類似パーツに「選択肢」がありますがこちらは単語の数が多い場合に最適です"
 toc = true
 weight = 8260
 isNipo = true

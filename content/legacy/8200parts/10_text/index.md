@@ -1,7 +1,7 @@
 +++
 url = "/legacy/parts/text/"
-description = "日報に１行だけ入力ができるパーツを追加できます"
 title = "1行入力・本文入力"
+description = "日報に１行だけ入力ができるパーツを追加できます"
 toc = true
 weight = 8210
 isNipo = true

@@ -1,11 +1,11 @@
 +++
 url = "/legacy/manual/postbox/"
-# tags = [tag]
-description = "スタッフが作成した日報は受信BOXから読むことができます。絞り込み検索や表示した日報の印刷など様々なことが行なえます"
 title = "日報受信ボックスについて"
+description = "スタッフが作成した日報は受信BOXから読むことができます。絞り込み検索や表示した日報の印刷など様々なことが行なえます"
 toc = true
 weight = 8155
 isNipo = true
+# tags = [tag]
 # aliases = []
 [sitemap]
   changefreq = "yearly"

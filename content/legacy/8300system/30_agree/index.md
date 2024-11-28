@@ -1,7 +1,7 @@
 +++
 url = "/legacy/system/agree/"
-description = "Nipo【旧版】を利用する上での利用規約になります。同じ内容のものがクラウド日報Nipo【旧版】のアカウント作成後に表示されます"
 title = "システム利用規約"
+description = "Nipo【旧版】を利用する上での利用規約になります。同じ内容のものがクラウド日報Nipo【旧版】のアカウント作成後に表示されます"
 toc = false
 weight = 8330
 isNipo = true

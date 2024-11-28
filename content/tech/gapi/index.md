@@ -1,14 +1,11 @@
 +++
 url = "/tech/gapi/"
-description = "GAPIを使うまでの流れ"
-# tags = []
 title = "Vue.js（ts）でGoogle API(gapi)を使いカレンダーを取得するまで"
+description = "GAPIを使うまでの流れ"
 toc = true
-# images = []
 date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.4
+# tags = []
+# images = []
 +++
 
 Vue js上でGoogleカレンダーのデータを取得して表示しようと思いましたが思いの外苦労しました。

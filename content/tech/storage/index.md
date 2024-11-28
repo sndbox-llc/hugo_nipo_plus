@@ -1,14 +1,11 @@
 +++
 url = "/tech/storage/"
-description = "Cloud Storageからファイルのダウンロードを行うときに発生したエラーの原因と対策。意外と調べても出てこないお粗末なエラーでした"
 title = "Firebase StorageでNoSuchKeyのエラーが発生する原因と対策"
+description = "Cloud Storageからファイルのダウンロードを行うときに発生したエラーの原因と対策。意外と調べても出てこないお粗末なエラーでした"
 toc = true
+date = "2022-11-14"
 # tags = ["firebase"]
 # images = ["firebase-icatch.png"]
-date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.3
 +++
 
 Cloud FunctionsからPDFやZipなどのファイルを作成し、ダウンロードURLをフロントに返却するといった処理を実装したときに、次のようなエラーを受けました。

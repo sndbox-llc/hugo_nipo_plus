@@ -1,14 +1,11 @@
 +++
 url = "/tech/pdfmake/"
-description = "PDFを生成するPDFMake、結構便利ですが単位のが少しわかりにくいので注意です。US_PTが使われています"
-# tags = []
 title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
+description = "PDFを生成するPDFMake、結構便利ですが単位のが少しわかりにくいので注意です。US_PTが使われています"
 toc = true
-# images = []
 date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.7
+# tags = []
+# images = []
 +++
 
 [pdfMake](https://github.com/bpampuch/pdfmake)はフロント側でPDFが簡単に作れるJavaScriptです。

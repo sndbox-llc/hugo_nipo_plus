@@ -1,12 +1,12 @@
 +++
 url = "/excel/"
-description = "エクセル活用術アーカイブス"
 title = "エクセルを使った日報の集計テクニック"
+description = "エクセル活用術アーカイブス"
 toc = true
-# tags = []
 weight = 10000
-# images = []
+[seo]
 robots = "noindex, follow"
+
 +++
 
 NipoPlus単体でも集計ができますが、使い慣れたExcelを使って集計したい。

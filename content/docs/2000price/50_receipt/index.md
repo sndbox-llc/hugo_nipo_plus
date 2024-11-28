@@ -1,11 +1,11 @@
 +++
 url = "/docs/price/receipt/"
-description = "NipoPlusでお支払い頂いた領収証は管理画面からダウンロードできます"
-# tags = ["Web版限定", "要管理者権限"]
 title = "領収証をダウンロードする"
 menuTitle = "🧾領収証の発行"
+description = "NipoPlusでお支払い頂いた領収証は管理画面からダウンロードできます"
 toc = false
 weight = 2050
+# tags = ["Web版限定", "要管理者権限"]
 # aliases = []
 # images = []
 +++

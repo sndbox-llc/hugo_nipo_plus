@@ -1,7 +1,7 @@
 +++
 url = "/legacy/system/price/"
-description = "Nipo【旧版】を利用する上での利用規約になります。同じ内容のものがクラウド日報Nipo【旧版】のアカウント作成後に表示されます"
 title = "Nipo【旧版】料金"
+description = "Nipo【旧版】を利用する上での利用規約になります。同じ内容のものがクラウド日報Nipo【旧版】のアカウント作成後に表示されます"
 toc = true
 weight = 8310
 isNipo = true

@@ -1,16 +1,13 @@
 +++
 url = "/docs/system/mobile-install/"
-description = "Android/IOSを搭載したモバイル機器でもNipoPlusを利用できます。ブラウザで動作する日報アプリのため専用の知識やアプリは不要です。もっと手軽にインストールしたい場合はGoogle Play / App Store上に専用アプリも用意しております。"
-# tags = ["モバイル"]
 title = "Android/iOS/PCでNipoPlusを使用する方法"
 menuTitle = "🍏iOS・🤖Android・PCで使う"
+description = "Android/IOSを搭載したモバイル機器でもNipoPlusを利用できます。ブラウザで動作する日報アプリのため専用の知識やアプリは不要です。もっと手軽にインストールしたい場合はGoogle Play / App Store上に専用アプリも用意しております。"
 toc = true
 weight = 3010
+# tags = ["モバイル"]
 # aliases = []
 # images = []
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.6
 +++
 
 NipoPlusはWebアプリケーションのため、ブラウザが利用できる端末であれば利用可能です。一般的な端末はブラウザが利用できるため、多くの端末でご利用可能です。

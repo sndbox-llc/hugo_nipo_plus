@@ -1,8 +1,8 @@
 +++
 url = "/docs/price/fee/"
-description = "1名180円のサブスクリプションです。5名から申込可能ですべての機能が利用可能になります"
 title = "GOLDPLAN（有料プラン）加入の手順 | 自動更新有り"
 menuTitle = "💳有料プラン（自動更新有）"
+description = "1名180円のサブスクリプションです。5名から申込可能ですべての機能が利用可能になります"
 toc = true
 weight = 2030
 # tags = ["Web版限定", "要管理者権限"]

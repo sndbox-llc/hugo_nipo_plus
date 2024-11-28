@@ -1,17 +1,14 @@
 +++
 url = "/reverse-lookup/about/about/"
+title = "逆引きガイドの使い方"
 description = "逆引き概要"
 isDictionaly = true
-title = "逆引きガイドの使い方"
 toc = false
+date = "2024-11-28"
+weight = 21220
 # aliases = []
 # images = []
 # tags = []
-date = "2024-11-28"
-weight = 21220
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.3
 +++
 
 ## 「こんなことがしたい」を見つけよう

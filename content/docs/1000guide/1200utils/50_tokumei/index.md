@@ -1,11 +1,11 @@
 +++
 url = "/docs/manual/utils/tokumei/"
-description = "メールアドレスもパスワードも無しで手軽にNipoPlusを使ってみてください。言葉通りワンクリックでお試しができます。"
-# tags = []
 title = "👤1クリックで手軽に体験可能な匿名アカウントについて"
 menuTitle = "👤匿名アカウント"
+description = "メールアドレスもパスワードも無しで手軽にNipoPlusを使ってみてください。言葉通りワンクリックでお試しができます。"
 toc = true
 weight = 1250
+# tags = []
 # aliases = []
 # images = []
 +++

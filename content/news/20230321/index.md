@@ -1,13 +1,10 @@
 +++
-description = "Nipo【旧版】クレジットカード失敗について"
 title = "クレジットカード決済失敗について"
-# tags = []
+description = "Nipo【旧版】クレジットカード失敗について"
 toc = true
 date = "2023-03-21"
+# tags = []
 # images = []
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.3
 +++
 
 いつもNipo【旧版】/NipoPlusをご利用いただきありがとうございます。

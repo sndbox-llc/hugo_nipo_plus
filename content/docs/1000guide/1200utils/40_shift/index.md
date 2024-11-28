@@ -1,10 +1,10 @@
 +++
 url = "/docs/manual/utils/shift/"
-description = "シフト管理機能"
-# tags = ["要編集者権限"]
 title = "🗓️シフト管理"
+description = "シフト管理機能"
 toc = true
 weight = 1240
+# tags = ["要編集者権限"]
 # images = []
 +++
 

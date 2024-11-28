@@ -1,14 +1,11 @@
 +++
 url ="/tech/hhkb/"
-description = "高級キーボードとして有名なHHKBから最新モデル HYBLID Type-Sが発売されました。かねてよりHHKBのファンである私は早速購入。プログラマからみたHHKBの魅力について語らせてください"
 title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
+description = "高級キーボードとして有名なHHKBから最新モデル HYBLID Type-Sが発売されました。かねてよりHHKBのファンである私は早速購入。プログラマからみたHHKBの魅力について語らせてください"
 toc = true
+date = "2022-11-14"
 # tags = ["開発環境"]
 # images = ["hhkb.jpg"]
-date = "2022-11-14"
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.5
 +++
 
 {{<figure src="hhkb.webp"  alt="HHKB外観" caption="HHKB外観" >}}

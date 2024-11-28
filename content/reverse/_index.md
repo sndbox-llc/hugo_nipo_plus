@@ -2,6 +2,7 @@
 title = "逆引き辞典機能紹介"
 description = "逆引きアーカイブ"
 date = "2024-10-03"
+weight = 20000
 # images = []
 +++
 

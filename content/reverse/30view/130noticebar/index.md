@@ -1,0 +1,28 @@
++++
+url = "/reverse-lookup/view/noticebar/"
+description = "グループ内の全スタッフに告知したい場合はバナー機能が便利です。画面上部に目立つ形で表示され、見落としません"
+title = "スタッフ全員に通達したいとき"
+isDictionaly = true
+toc = false
+# tags = []
+# images = []
+aliases = ['/function/noticebar/']
+date = "2024-10-15"
+weight = 23130
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.3
++++
+
+## バナーを使えばグループ内の全スタッフに目立つ形で必要事項を通達できます
+
+バナーは画面上部に表示される通知で、グループ内の全員に表示されます。
+キャンペーンや変更事項など、全員に通達したいときに便利です。表示期間の指定はできないため、ONとOFFは手動で切り替えてください。
+
+1. 左メニュー「グループ設定」をクリック
+2. 「バナーを表示」のチェックをONにする
+3. バナーに表示する文字を入力
+4. 必要に応じて色を変更
+5. 保存ボタンを押下
+
+{{<iTablet filename="banner" msg="バナーで全員に周知しよう" alice="pc">}}

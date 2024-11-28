@@ -1,7 +1,7 @@
 # Hugo
 title = "NipoPlus"
 description = "NipoPlus(ニポプラス)はスマホやタブレットで日報の読み書きが可能です。無料プランもあり。PDF出力や集計機能も完備しています"
-images = ["cover.png"]
+images = ["favicon.png"]
 
 # mainSections
 mainSections = ["docs"]
@@ -131,7 +131,7 @@ mainSections = ["docs"]
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
     name = "Thulite" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
-    images = ["cover.png"] # ["cover.png"] (default)
+    images = ["favicon.png"] # ["favicon.png"]
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections

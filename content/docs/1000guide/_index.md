@@ -1,6 +1,6 @@
 ---
 url: '/docs/manual/'
-title: 'NipoPlus操作ガイド'
+title: '操作ガイド'
 description: ''
 summary: ''
 date: 2023-09-07T16:12:03+02:00

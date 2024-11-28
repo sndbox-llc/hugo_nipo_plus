@@ -13,3 +13,5 @@ seo:
   canonical: '' # custom canonical URL (optional)
   robots: '' # custom robot tags (optional)
 ---
+
+NipoPlusのご利用料金やお支払い方法、解約の手順、領収証発行手順など、主に金銭的な事柄についてまとめたセクションになります。

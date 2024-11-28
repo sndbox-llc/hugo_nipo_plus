@@ -16,9 +16,6 @@ classDef class1 fill:#7BCCAC
   利用開始 --> トライアル期間 --> 満了 -->  無料プランへ:::class1
   無料プランへ--> 無料で継続利用:::class1
   無料プランへ--> 有料プランへ加入
-
-click トライアル期間 "/docs/price/_about/#trial" "トライアル期間の詳細"
-click 有料プランへ加入 "/docs/price/fee/" "有料プラン詳細"
 ```
 
 [トライアル期間](/docs/price/_about/#trial)が終了すると自動で無料プランへ切り替わります。

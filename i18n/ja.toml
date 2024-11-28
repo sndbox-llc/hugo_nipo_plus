@@ -1,0 +1,60 @@
+[404_text]
+other = "お探しのページは存在しないか、移動された可能性があります。"
+
+[404_title]
+other = "ページが見つかりません :("
+
+[browse]
+other = "閲覧"
+
+[chapter_next]
+other = "次へ"
+
+[chapter_previous]
+other = "前へ"
+
+[edit_page]
+other = "このページを編集する"
+
+[get_started]
+other = "はじめに"
+
+[home]
+other = "ホーム"
+
+[in]
+other = "内"
+
+[by]
+other = "作成者"
+
+[last_updated]
+other = "最終更新日:"
+
+[minute]
+one = "分"
+other = "分"
+
+[on_this_page]
+other = "目次"
+
+[reading_time]
+other = "推定読書時間"
+
+[search_loading]
+other = "検索インデックスを読み込み中…"
+
+[search_no_recent]
+other = "最近の検索履歴はありません"
+
+[search_no_results]
+other = "結果が見つかりません"
+
+[search_placeholder]
+other = "検索"
+
+[search_title]
+other = "検索"
+
+[video_unsupported]
+other = "お使いのブラウザは埋め込み動画をサポートしていませんが、<a href=\"{{ .RelPermalink }}\">こちらからダウンロード</a>してお好きなプレーヤーで視聴できます！"

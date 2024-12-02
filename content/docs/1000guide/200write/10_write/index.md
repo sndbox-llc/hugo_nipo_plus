@@ -25,7 +25,7 @@ weight = 210
 スタッフごとに[使用可能なテンプレートを制御](/docs/manual/initial-setting/staff-local/template/)することもできます
 {{< /callout >}}
 
-{{<icatch filename="report-template-select" msg="まずは使うテンプレートを選ぼう。テンプレートは名前順に並ぶよ" alice="guide">}}
+{{<icatch filename="img/report-template-select" msg="まずは使うテンプレートを選ぼう。テンプレートは名前順に並ぶよ" alice="guide">}}
 
 テンプレート選択画面では、その日何件提出したかがテンプレートごとに表示されます。[提出枚数目安](/docs/manual/initial-setting/template/make/#memo)が設定されている場合は進捗バーで表示されます。
 
@@ -34,7 +34,7 @@ weight = 210
 テンプレートを選ぶと入力画面に切り替わります。所定の項目を適切に記入してください。
 入力画面はPCとスマートフォンでは大きく異なりますが、内容は同一です。
 
-{{<icatch filename="write-report" msg="レポートの作成画面です。設問に沿って内容を入力して行きます" alice="pc">}}
+{{<icatch filename="img/write-report" msg="レポートの作成画面です。設問に沿って内容を入力して行きます" alice="pc">}}
 
 レポート入力画面は大きく分けて3つのセクションに分離できます。
 
@@ -59,7 +59,7 @@ weight = 210
 [提出先は管理者が固定する](/docs/manual/initial-setting/staff-local/dist/)こともできます。
 {{< /callout >}}
 
-{{<icatch filename="report-header" msg="レポートの提出日・提出先といったヘッダ情報を入力します">}}
+{{<icatch filename="img/report-header" msg="レポートの提出日・提出先といったヘッダ情報を入力します">}}
 
 ヘッダーの各項目については以下の対応表を御覧ください。
 

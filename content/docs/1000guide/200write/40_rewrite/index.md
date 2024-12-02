@@ -24,7 +24,7 @@ weight = 240
 
 修正するレポートは[送信BOX](/docs/manual/read-report/list/#listbox)や[カレンダー](/docs/manual/read-report/list/#calendar)から探してください。
 
-{{<icatch filename="edit" msg="レポートを開いて修正ボタンをクリック！承認済みのレポートは修正できません" alice="here">}}
+{{<icatch filename="img/edit" msg="レポートを開いて修正ボタンをクリック！承認済みのレポートは修正できません" alice="here">}}
 
 修正ボタンをクリックするとレポートの編集画面に切り替わります。一見すると[レポートの作成](/docs/manual/write-report/write/)画面と同じですが細かな違いがあります。
 
@@ -44,6 +44,6 @@ weight = 240
 
 修正すると[レポートの状態](/docs/manual/read-report/state/#status)が「修正」に切り替わります。
 
-{{<icatch filename="report-status-change" msg="修正されたレポートは状態が「修正」になります" alice="guide">}}
+{{<icatch filename="img/report-status-change" msg="修正されたレポートは状態が「修正」になります" alice="guide">}}
 
 もし承認リレーが組まれていたレポートであった場合は、承認リレーがどこまで進んでいても1から振り出しに戻ります。

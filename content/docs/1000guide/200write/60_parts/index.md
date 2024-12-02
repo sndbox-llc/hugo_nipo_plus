@@ -17,7 +17,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 ### テキスト入力{#text}
 
-{{<icatch filename="text-preview" msg="シンプルな文字入力です。改行も使えるし、URLを貼ればリンクもできるよ" alice="pc">}}
+{{<icatch filename="img/text-preview" msg="シンプルな文字入力です。改行も使えるし、URLを貼ればリンクもできるよ" alice="pc">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/text/)
 
@@ -31,7 +31,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 ### 選択肢入力（単体）{#select}
 
-{{<icatch filename="select" msg="あらかじめ用意したリストから選ぶだけ" alice="ok">}}
+{{<icatch filename="img/select" msg="あらかじめ用意したリストから選ぶだけ" alice="ok">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#plain)
 
@@ -40,7 +40,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 ### 選択肢入力（複数回答）{#select2}
 
-{{<icatch filename="select2" msg="あらかじめ用意したリストから選ぶだけ。見た目はチェックボックス" alice="ok">}}
+{{<icatch filename="img/select2" msg="あらかじめ用意したリストから選ぶだけ。見た目はチェックボックス" alice="ok">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#multiple)
 
@@ -48,7 +48,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 ### 選択肢(2層式)入力{#selectLayer}
 
-{{<icatch filename="select2-preview" msg="問1の選択によって問2の解凍リストが変化します。問２を忘れずに入力しましょう" alice="ok">}}
+{{<icatch filename="img/select2-preview" msg="問1の選択によって問2の解凍リストが変化します。問２を忘れずに入力しましょう" alice="ok">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#layerd)
 
@@ -57,7 +57,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 ### チェックボックス{#checkbox}
 
-{{<icatch filename="checkbox-preview"  msg="タップでON.もう一度タップでOFF。それだけです" alice="phone">}}
+{{<icatch filename="img/checkbox-preview"  msg="タップでON.もう一度タップでOFF。それだけです" alice="phone">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#checkbox)
 
@@ -67,7 +67,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 ### 日付と時刻（時点）{#datetime}
 
-{{<icatch filename="date-time" msg="日付や時刻が入力できます" alice="here">}}
+{{<icatch filename="img/date-time" msg="日付や時刻が入力できます" alice="here">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/date_time/#point)
 
@@ -75,7 +75,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 ### 日付と時刻（範囲）{#datetimes}
 
-{{<icatch filename="datetimes-preview" msg="開始日時と終了日時を入力します。正しい日時が入力されると経過時間が自動で表示されます">}}
+{{<icatch filename="img/datetimes-preview" msg="開始日時と終了日時を入力します。正しい日時が入力されると経過時間が自動で表示されます">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/date_time/#range)
 
@@ -87,25 +87,25 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 署名は「書き足す」ボタンを押すことで描画キャンバスが表示されます。
 
-{{<icatch filename="sign-input" msg="署名ボタンをタップすると署名入力ウインドウがポップ表示されます" alice="tablet">}}
+{{<icatch filename="img/sign-input" msg="署名ボタンをタップすると署名入力ウインドウがポップ表示されます" alice="tablet">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#sign)
 
 描画キャンバスは署名用とイラスト用の２種類があります。
 署名用キャンパス▼
 
-{{<icatch filename="write-signature" msg="スタイラスペンとタブレットがあると便利です" alice="tablet">}}
+{{<icatch filename="img/write-signature" msg="スタイラスペンとタブレットがあると便利です" alice="tablet">}}
 
 イラスト用キャンバス▼
 
-{{<icatch filename="draw-stylus-pen" msg="署名と違い大きなキャンパスとなり、色変えなどの機能も使えます" alice="tablet">}}
+{{<icatch filename="img/draw-stylus-pen" msg="署名と違い大きなキャンパスとなり、色変えなどの機能も使えます" alice="tablet">}}
 
 ### 写真{#picture}
 
 PCからはドラッグ操作で写真をレポートに添付できます。スマートフォン・タブレットの場合はボックスをタップして追加してください。
 ※[無料プラン](/docs/price/free/)では低画質でUPされます
 
-{{<icatch filename="picinput" msg="PCはドラッグ＆ドロップで追加、スマホやタブレットの場合はボタンをタップして写真追加します" alice="pc">}}
+{{<icatch filename="img/picinput" msg="PCはドラッグ＆ドロップで追加、スマホやタブレットの場合はボタンをタップして写真追加します" alice="pc">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#picture)
 
@@ -119,7 +119,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 ### ファイル{#file}
 
-{{<icatch filename="file-input" msg="おもにPCで利用を想定しています。ドラッグでファイルを追加できます" alice="pc">}}
+{{<icatch filename="img/file-input" msg="おもにPCで利用を想定しています。ドラッグでファイルを追加できます" alice="pc">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#file)
 
@@ -136,7 +136,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 半角のみ扱えます。
 マイナス、小数点も入力可能です。
 
-{{<icatch filename="math-input" msg="キーボードから数値を入力します。タッチパネル対応なら専用入力も使いやすいのでおすすめ" alice="tablet">}}
+{{<icatch filename="img/math-input" msg="キーボードから数値を入力します。タッチパネル対応なら専用入力も使いやすいのでおすすめ" alice="tablet">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#commonNumber)
 
@@ -144,7 +144,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 クリックで任意の星の数を入力できます。同じ数をもう一度クリックすると未入力状態に戻ります。
 
-{{<icatch filename="rate-preview" msg="タップで星の数を選びます。同じ数をもう一度タップすると★0の状態になります">}}
+{{<icatch filename="img/rate-preview" msg="タップで星の数を選びます。同じ数をもう一度タップすると★0の状態になります">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#rate)
 
@@ -152,7 +152,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 ドラッグやスワイプでレール上のつまみを操作し、数値を入力します。レールの上限、下限を超えて入力することはできません。
 
-{{<icatch filename="slider-preview" msg="ドラッグやスワイプでつまみを動かします" alice="here">}}
+{{<icatch filename="img/slider-preview" msg="ドラッグやスワイプでつまみを動かします" alice="here">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#slider)
 
@@ -160,7 +160,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 ドラッグやスワイプでレール上のつまみを操作し、数値を入力します。２つあるつまみは１つづつ操作してください。
 
-{{<icatch filename="range-preview"  msg="ドラッグやスワイプでつまみを動かします。つまみは2つあるので1つづつ操作します" alice="tablet">}}
+{{<icatch filename="img/range-preview"  msg="ドラッグやスワイプでつまみを動かします。つまみは2つあるので1つづつ操作します" alice="tablet">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#range)
 
@@ -168,7 +168,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 算術フォームは自動計算されるため、手動で入力はできません。
 
-{{<icatch filename="calc-preview" msg="自動で入力されるので手動で入力はできません。" alice="guide">}}
+{{<icatch filename="img/calc-preview" msg="自動で入力されるので手動で入力はできません。" alice="guide">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#calc)
 
@@ -178,7 +178,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 商品管理で登録された商品の状態、及び数量をレポートを通して変更できます。
 
-{{<icatch filename="itemReport" msg="在庫の入力" alice="guide">}}
+{{<icatch filename="img/itemReport" msg="在庫の入力" alice="guide">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/mod/)
 
@@ -194,7 +194,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 設計によって見た目が異なります。この画像は一例です。
 
-{{<icatch filename="array-input" msg="反復入力の偶数行は水色の背景で表示されます。視認性UP" alice="ok">}}
+{{<icatch filename="img/array-input" msg="反復入力の偶数行は水色の背景で表示されます。視認性UP" alice="ok">}}
 
 [▶このフォームを追加する方法](/docs/manual/initial-setting/template/array/)
 

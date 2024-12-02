@@ -33,11 +33,11 @@ weight = 173
 1. 商品管理をクリック
 1. 商品追加をクリック
 
-{{<iTablet filename="addItem" msg="商品管理を開いてみよう" alice="ok">}}
+{{<iTablet filename="img/addItem" msg="商品管理を開いてみよう" alice="ok">}}
 
 商品追加をクリックすると商品登録ウインドウが表示されます。必要事項を記入してください。
 
-{{<iTablet filename="itemResist" msg="商品を登録してみよう" alice="ok">}}
+{{<iTablet filename="img/itemResist" msg="商品を登録してみよう" alice="ok">}}
 
 各項目についての詳細は次のとおりです
 
@@ -65,7 +65,7 @@ weight = 173
 登録した商品の状態を変化させたり、在庫数の増減をさせるには伝票を発行します。この「伝票」はテンプレートから「[商品入力フォーム](/docs/manual/initial-setting/template/mod/)」を追加することで、
 レポート作成時に伝票が発行されるようになります。
 
-{{<icatch filename="itemReport" msg="レポート作成画面から在庫の増減や状態変更が可能です" alice="ok">}}
+{{<icatch filename="img/itemReport" msg="レポート作成画面から在庫の増減や状態変更が可能です" alice="ok">}}
 
 ## 在庫の推移を見る{#stackLog}
 
@@ -74,4 +74,4 @@ weight = 173
 状態を管理する場合は同様にいつ時点でどの状態に変化したかを把握できます。
 レポートを通じて変化した場合は、当該レポートへのリンクも配置されます。
 
-{{<iTablet filename="itemHistory" msg="商品の状態変遷ログ画面。現在の数量から逆算で計算されます" alice="ok">}}
+{{<iTablet filename="img/itemHistory" msg="商品の状態変遷ログ画面。現在の数量から逆算で計算されます" alice="ok">}}

@@ -6,6 +6,8 @@ description = "Android/IOSを搭載したモバイル機器でもNipoPlusを利�
 toc = true
 weight = 3010
 # tags = ["モバイル"]
+# aliases = []
+# images = []
 +++
 
 NipoPlusはWebアプリケーションのため、ブラウザが利用できる端末であれば利用可能です。一般的な端末はブラウザが利用できるため、多くの端末でご利用可能です。

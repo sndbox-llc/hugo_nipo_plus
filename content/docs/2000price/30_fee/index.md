@@ -29,11 +29,11 @@ GOLD PLANへのお申し込みはWeb版のNipoPlusを起動して行います。
 3. 「自動更新有りで申し込み」をクリック
 4. 各種必要事項の入力
 
-{{<icatch filename="entry" msg="組織設定からGOLD PLANへ申込みができます。自動更新有りはクレジットカードが必要です">}}
+{{<icatch filename="img/entry" msg="組織設定からGOLD PLANへ申込みができます。自動更新有りはクレジットカードが必要です">}}
 
 {{<nextArrow>}}
 
-{{<icatch filename="input-card" msg="クレジットカード番号や申込み人数などの必要事項を記入してください" alice="pc">}}
+{{<icatch filename="img/input-card" msg="クレジットカード番号や申込み人数などの必要事項を記入してください" alice="pc">}}
 
 必要事項を記入します。記入した情報は[領収証](/docs/price/receipt/)にも記載されます。
 内容を確認の上、最後に「申込み開始」ボタンをクリックします。
@@ -64,7 +64,7 @@ GOLD PLANへのお申し込みはWeb版のNipoPlusを起動して行います。
 過去に1度でもGOLD PLANをご利用頂いた組織では決済履歴をいつでも確認できます。
 また、登録されたクレジットカードの変更や[領収証のダウンロード](/docs/price/receipt/)もここから行えます。
 
-{{<icatch filename="receipt" msg="これまでの決済履歴を確認したり領収証のダウンロードもできます">}}
+{{<icatch filename="img/receipt" msg="これまでの決済履歴を確認したり領収証のダウンロードもできます">}}
 
 ## 料金の支払いサイクル{#payd}
 
@@ -114,7 +114,7 @@ GOLD PLANへのお申し込みはWeb版のNipoPlusを起動して行います。
 
 ## 決済にはStripeを使用しています{#stripe}
 
-{{<figure src="stripe.png"  alt="stripeのロゴ" caption="stripeのロゴ" >}}
+{{<figure src="img/stripe.png"  alt="stripeのロゴ" caption="stripeのロゴ" >}}
 
 カード決済は[Stripe社](https://stripe.com/jp)の決済システムを利用しています。
 入力されたカード番号はトークン化されてサーバへ送信されるため安全性が高く信用できるサービスです。
@@ -133,7 +133,7 @@ NipoPlusのサブスクリプションを解除するには、以下のとおり
 4. 確認メッセージに「OK」を選択
 5. 解約の旨のメールが届く
 
-{{<iTablet filename="cancel-subscription" msg="支払いを止めるよ">}}
+{{<iTablet filename="img/cancel-subscription" msg="支払いを止めるよ">}}
 
 以上で解約は完了です。
 解約時に残存日数がある場合はその期間が無料お試し期間として設定されます。

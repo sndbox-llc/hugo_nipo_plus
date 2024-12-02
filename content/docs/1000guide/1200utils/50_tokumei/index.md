@@ -20,7 +20,7 @@ weight = 1250
 3. 確認メッセージを確認後にOKをクリック
 4. 利用規約に同意後、すべての機能が利用できます
 
-{{<icatch filename="signup-anonymous" msg="匿名アカウントはEmailやパスワードの設定をせずに利用できる仮のアカウントです">}}
+{{<icatch filename="img/signup-anonymous" msg="匿名アカウントはEmailやパスワードの設定をせずに利用できる仮のアカウントです">}}
 
 ## 匿名アカウントのデメリット{#bad}
 
@@ -41,7 +41,7 @@ weight = 1250
 1. 「正規アカウントへ昇格」ボタンをクリック
 1. 画面左下に表示されていた「匿名アカウントです」のバナーが消えていれば成功です
 
-{{<icatch filename="promotion-account" msg="正規アカウントへ昇格させるにはEmailとパスワードの設定が必要です" alice="shield">}}
+{{<icatch filename="img/promotion-account" msg="正規アカウントへ昇格させるにはEmailとパスワードの設定が必要です" alice="shield">}}
 
 ## 匿名アカウントを破棄する{#remove}
 

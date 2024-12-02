@@ -37,7 +37,7 @@ classDef class1 fill:#7BCCAC
 1. 「右メニューから「組織全般」をクリック
 1. 「状態」に現在のプランが記載されます
 
-{{<icatch filename="plan" msg="現在の料金プランは組織設定の画面から確認ができます" alice="here">}}
+{{<icatch filename="img/plan" msg="現在の料金プランは組織設定の画面から確認ができます" alice="here">}}
 
 ## トライアルプランについて{#trial}
 

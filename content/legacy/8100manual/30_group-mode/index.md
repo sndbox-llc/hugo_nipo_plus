@@ -21,7 +21,7 @@ isNipo = true
 
 グループに入室後、**全体設定**＞**グループ管理**の順にクリックします。
 
-{{<iTablet filename="groupMode" msg="グループのモードを変更する" alice="ok">}}
+{{<iTablet filename="img/groupMode" msg="グループのモードを変更する" alice="ok">}}
 
 グループのモードは
 
@@ -69,7 +69,7 @@ isNipo = true
 グループモードでは３つのモードしか無いため、より細かく制御したい場合は提出先や共有先を個別に指定する方法を用意しています。
 この設定はスタッフ単位で指定できます。詳しくは[スタッフ管理](/legacy/manual/staff-manage/)を御覧ください
 
-{{<iTablet filename="fixDist" msg="スタッフごとに提出先を強制指定できます" alice="ok">}}
+{{<iTablet filename="img/fixDist" msg="スタッフごとに提出先を強制指定できます" alice="ok">}}
 
 ## 途中でモードを切り替えるとどうなるの？{#hint}
 

@@ -23,7 +23,7 @@ Nipo【旧版】の大きな特徴の1つにPDF変換があります。日報ア
 
 やり方はかんたんです。PDFに変換したいレポートを表示して、**PDF出力**ボタンをクリックするだけ。
 
-{{<iTablet filename="pdfGen" msg="PDFに変換する"  alice="ok">}}
+{{<iTablet filename="img/pdfGen" msg="PDFに変換する"  alice="ok">}}
 
 ### PDF化された日報の保存について{#document}
 
@@ -61,7 +61,7 @@ PDF出力の設定をするには、日報表示画面上で「PDF設定」を�
 
 PDF出力設定画面に切り替わります。
 
-{{<iTablet filename="pdfSetting" msg="左側がプレビューとデータの書き換え、右側がPDFの余白や向きなどの設定項目"  alice="ok">}}
+{{<iTablet filename="img/pdfSetting" msg="左側がプレビューとデータの書き換え、右側がPDFの余白や向きなどの設定項目"  alice="ok">}}
 
 用語解説
 
@@ -71,7 +71,6 @@ PDF出力設定画面に切り替わります。
   <dt>チェックシート式</dt>
   <dd>出力するPDFが「チェックシート風」のレイアウトに変わります(設問幅が長くなる)</dd>
   <dt>見出し項目に色付け</dt>
-
   <dd>デフォルトでONです。OFFにすると設問全ての背景が「白」になります</dd>
   <dt>コメント</dt>
   <dd>コメントが付いていた場合にそのコメントもPDFに含めて出力します</dd>
@@ -110,12 +109,12 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 
 例えばPDF出力の向きを縦にした場合と横にした場合の比較です
 
-{{<figure src="pdf_sample3.png"  alt="PDF設定で縦と横にした場合の比較" caption="PDF設定で縦と横にした場合の比較" >}}
+{{<figure src="img/pdf_sample3.png"  alt="PDF設定で縦と横にした場合の比較" caption="PDF設定で縦と横にした場合の比較" >}}
 
 新レイアウトは従来に比べてスッキリとした見た目になります。
 また、表示されるデータ自体も情報量が増えました（例えば[スライダー](/legacy/parts/slide/)入力における大まかな位置などが #と-で表現）
 
-{{<figure src="pdf_sample4.png"  alt="新レイアウトのPDF出力例" caption="新レイアウトのPDF出力例" >}}
+{{<figure src="img/pdf_sample4.png"  alt="新レイアウトのPDF出力例" caption="新レイアウトのPDF出力例" >}}
 
 ## 無料プランにおけるPDF出力の制約{#limited}
 

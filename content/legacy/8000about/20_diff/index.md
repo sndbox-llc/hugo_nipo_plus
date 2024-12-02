@@ -8,7 +8,7 @@ toc = true
 weight = 8020
 +++
 
-{{<figure src="eye-catch.png"  alt="Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" caption="Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" >}}
+{{<figure src="img/eye-catch.png"  alt="Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" caption="Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" >}}
 
 ## NipoPlusを開発した経緯{#about}
 
@@ -34,7 +34,7 @@ Nipo【旧版】からNipoPlusへの移行で大きく変わった点の一つ�
 NipoPlusでは、これらの問題を解決しました。ユーザーは必ずある組織に所属し、組織内の[管理者が全ユーザーのアカウントを管理](/docs/manual/initial-setting/staff/manage/)できるようになりました。Nipo【旧版】に存在した「グループ」の概念は残りつつも、それらはすべて組織内で設定されます。
 [組織下でグループを自由に分割](/docs/manual/initial-setting/make-group/)し、運用できるようになりました。料金体系も変更され、[Nipo【旧版】ではグループ単位での課金](/legacy/system/price/)でしたが、[NipoPlusでは組織内のアカウント総数に基づいて課金](/docs/price/fee/)されるため、複数のグループを持つ場合でもコストを抑えることができます。
 
-{{<icatch filename="group" msg="グループの追加所属管理者が一元管理可"  alice="here">}}
+{{<icatch filename="img/group" msg="グループの追加所属管理者が一元管理可"  alice="here">}}
 
 [参照:初期設定・組織について](/docs/manual/initial-setting/_about/)
 
@@ -62,7 +62,7 @@ Nipo【旧版】ではFirebaseとTypesenseを使用していましたが、NipoP
 Nipo【旧版】に比べて各入力フォームの幅をより柔軟に変更できるようになっています。
 例えば次の画像のようなテンプレートが作れます▼
 
-{{<icatch filename="report-template" msg="テンプレートの 設計自由度がUP" alice="here">}}
+{{<icatch filename="img/report-template" msg="テンプレートの 設計自由度がUP" alice="here">}}
 
 Nipo【旧版】は１行に最大で２列までしか追加できなかったため、上画像のようなテンプレートは物理的に作れませんでしたが、[NipoPlusでは1行に最大12列追加](/docs/manual/initial-setting/template/make/)できるようになりました。
 また、NipoPlusではいくつかの入力フォームも追加されました
@@ -82,7 +82,7 @@ Nipo【旧版】は１行に最大で２列までしか追加できなかった�
 
 [Nipo【旧版】のシンプルな受信BOX](/legacy/manual/postbox/)と比較してかなり機能が追加されたことが画像から読み取れます。
 
-{{<icatch filename="search-report" msg="日報の検索表示形式も変更OK.テンプレートの自由度UP"  alice="here">}}
+{{<icatch filename="img/search-report" msg="日報の検索表示形式も変更OK.テンプレートの自由度UP"  alice="here">}}
 
 右側のカレンダーで選択した範囲の日報しかロードしません。先述した容量節約の点です。
 また、よく使う検索があれば[検索条件として保存](/docs/manual/read-report/list/#saveQuery)することもできます。毎回同じ検索を指定しなくても**ワンクリックで検索が可能**になりました。
@@ -97,7 +97,7 @@ Nipo【旧版】ではスクロールし続けて次のレポートを読み込�
 多くのケースではこれでも十分ですが、NipoPlusでは**日報の提出先を複数名指定できる**ようになりました。
 複数名指定することで承認リレーが実現できるようになりました。
 
-{{<icatch filename="report-detail" msg="複数人による承認のリレーが可能です"  alice="ok">}}
+{{<icatch filename="img/report-detail" msg="複数人による承認のリレーが可能です"  alice="ok">}}
 
 ※提出先が1名の場合はNipo【旧版】と変わりません。
 
@@ -106,7 +106,7 @@ Nipo【旧版】ではスクロールし続けて次のレポートを読み込�
 Nipo【旧版】のCSV出力は設定で変更することが一切できませんでした。決まったCSV形式しか出来ません。NipoPlusでは[CSVの出力形式を事前に細かく指定](/docs/manual/analytics/csvoption/)できるように強化されました。
 CSVファイルの利用目的に応じて設定を適切にすることで、CSVファイルの加工の手間を大幅に軽減できます。
 
-{{<icatch filename="csv-export" msg="レポートのCSV出力形式を細かく指定可能になりました" alice="here">}}
+{{<icatch filename="img/csv-export" msg="レポートのCSV出力形式を細かく指定可能になりました" alice="here">}}
 
 またCSV出力設定から「ファイルの出力」をONにすることで、日報に添付された写真やイラスト、ファイルなどをZipで一括ダウンロードできるようになりました。
 Nipo【旧版】は画像データを出力するにはPDF出力するしかなく、NipoPlusで大幅に強化された機能の1つといえます。
@@ -115,7 +115,7 @@ Nipo【旧版】は画像データを出力するにはPDF出力するしかな�
 
 集計に関してはNipo【旧版】の集計と比べて雲泥の差があります。まず[グラフ](/docs/manual/analytics/chart/)(円グラフ・折れ線グラフ・棒グラフ・レーダーチャート・複合グラフ・積上縦棒グラフなど)を自由に作れるようになりました。
 
-{{<icatch filename="check-sheet-charts" msg="レポートをもとに自由にグラフを作成できるようになりました"  alice="here">}}
+{{<icatch filename="img/check-sheet-charts" msg="レポートをもとに自由にグラフを作成できるようになりました"  alice="here">}}
 
 複数のグラフを作り、ワンクリックで切り替えも可能です。
 他にも多くの機能がありますがここに書くには内容が多すぎるのでよしておきましょう。詳しくはグラフ作成のページを御覧ください。
@@ -126,7 +126,7 @@ Nipo【旧版】は画像データを出力するにはPDF出力するしかな�
 
 Nipo【旧版】では新規の日報やコメントの検知をメールで発行していました。NipoPlusでは[アプリ内の通知](/docs/manual/utils/notice/)領域から最新の通知を確認できるようになりました。
 
-{{<icatch filename="notice" msg="通知機能が実装されました" alice="ok">}}
+{{<icatch filename="img/notice" msg="通知機能が実装されました" alice="ok">}}
 
 またNipo【旧版】にもサポートされていた[メール通知機能](/docs/manual/utils/notice/#email)も実装されています。
 Nipo【旧版】のメールはあまり使いやすいものではなかったでしょう。通知のメールのみで、そこにはリンクの1つもなかったからです。

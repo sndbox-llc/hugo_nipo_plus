@@ -19,7 +19,7 @@ NipoPlusではレポートの公開範囲を細かく指定できる「通常モ
 2. レポートの共有セクションから「共有する」にチェック
 3. 保存をクリック
 
-{{<iTablet filename="share" msg="みんなで情報共有する際に便利だけど人数が多いと読むのが大変かも？" alice="question">}}
+{{<iTablet filename="img/share" msg="みんなで情報共有する際に便利だけど人数が多いと読むのが大変かも？" alice="question">}}
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 共有するモードでも[書き込みのみ権限とゲスト権限](/docs/manual/initial-setting/staff/rank/#others)は他人のレポートを読むことはできません。

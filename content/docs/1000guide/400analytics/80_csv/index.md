@@ -27,7 +27,7 @@ weight = 480
 2. 期間を選択（初期値: 今月）
 3. 「CSV出力」ボタンをクリック
 
-{{<icatch filename="report-csv-export1" msg="たくさんのレポートを１枚のCSVにまとめて出力できるよ。電子化の強みだね" alice="pc">}}
+{{<icatch filename="img/report-csv-export1" msg="たくさんのレポートを１枚のCSVにまとめて出力できるよ。電子化の強みだね" alice="pc">}}
 
 - CSVはテンプレートごとに分けて出力されます。テンプレートが多いとCSVファイルも比例して多くなります。
 - 指定期間内に1度も使用されなかったテンプレートは自動で除外されます。
@@ -45,7 +45,7 @@ weight = 480
 3. テンプレートを1種類選択
 4. 「スタッフ別」または「日別」ダウンロードボタンをクリック
 
-{{<icatch filename="selectable-csv-download" msg="日別やスタッフ別に分けてレポートのダウンロードが可能です">}}
+{{<icatch filename="img/selectable-csv-download" msg="日別やスタッフ別に分けてレポートのダウンロードが可能です">}}
 
 ## CSVを解凍すると文字化けする？{#text_shaking}
 

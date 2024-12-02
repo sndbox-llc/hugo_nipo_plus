@@ -21,7 +21,7 @@ weight = 430
 3. 「推移・累積・グラフ」を選択（初期状態）
 4. テンプレートを選択し、累積を選択
 
-{{<iTablet filename="sumstack" msg="スタッフ同士の成績比較に便利です" alice="pc">}}
+{{<iTablet filename="img/sumstack" msg="スタッフ同士の成績比較に便利です" alice="pc">}}
 
 <dl class="basic">
 <dt>期間</dt>
@@ -54,7 +54,7 @@ weight = 430
 
 計算式には各種フォームの他、簡単な四則演算や（）が使えます。
 
-{{<iTablet filename="make" msg="数式を選びます" alice="pc">}}
+{{<iTablet filename="img/make" msg="数式を選びます" alice="pc">}}
 
 追加された独自の数式は「クリーム色」で表示されます。
 数式はユーザアカウントごとに保存されます。つまり数式を何個作っても他のスタッフには影響しないので心置きなく作ってください。
@@ -71,6 +71,6 @@ weight = 430
 
 一度作成したグラフは何度でも利用でき、常に最新データが反映されます。また、独自の数式をグラフに活用することも可能です。
 
-{{<iTablet filename="stackCharts" msg="累積表のデータを元に棒グラフを作成" alice="pc">}}
+{{<iTablet filename="img/stackCharts" msg="累積表のデータを元に棒グラフを作成" alice="pc">}}
 
 グラフの作り方については[グラフ作成](/docs/manual/analytics/chart/)のページを御覧ください。

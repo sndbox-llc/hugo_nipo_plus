@@ -45,7 +45,7 @@ NipoPlusでは次のようなグラフを作成可能です
 
 累積表または推移表の下部に「グラフ作成」ボタンが配置されていますのでこのボタンをクリックします。
 
-{{<iTablet filename="createCharts" msg="隠れちゃったね。✗ボタンを押せば私を消せます▶">}}
+{{<iTablet filename="img/createCharts" msg="隠れちゃったね。✗ボタンを押せば私を消せます▶">}}
 
 ウィザードが立ち上がります。3ステップで作成できます
 
@@ -53,13 +53,13 @@ NipoPlusでは次のようなグラフを作成可能です
 
 折れ線、棒グラフなど作りたいグラフの種類を選択します。スタッフ同士の比較には「棒グラフ」が適しているため、今回は棒グラフを選択し、「次へ」ボタンをクリックします。
 
-{{<iTablet filename="selectCharts" msg="スタッフ同士の比較は棒グラフが一番向いていますね" alice="pc">}}
+{{<iTablet filename="img/selectCharts" msg="スタッフ同士の比較は棒グラフが一番向いていますね" alice="pc">}}
 
 ### グラフ化したいフィールドを選択{#step3}
 
 グラフに使用する入力フォームを選び、不要なものはチェックを外しておきましょう。今回、車両移動距離はグラフにしないためチェックを外しています。
 
-{{<iTablet filename="selectField" msg="グラフに使用するフィールドを選びます" alice="pc">}}
+{{<iTablet filename="img/selectField" msg="グラフに使用するフィールドを選びます" alice="pc">}}
 
 選択が完了したら「次へ」ボタンをクリックします。あと一息で完成です。頑張ろう
 
@@ -68,13 +68,13 @@ NipoPlusでは次のようなグラフを作成可能です
 最後はプレビューを見ながら、タイトルや第二軸の設定を行います。設定を変更すると自動でプレビューが変更されるので、プレビューでイメージ通りのグラフか確認してください。
 なお、プレビューとはいえ実データが使用されています。実データがない場合はプレビューを見れませんので注意してください。
 
-{{<iTablet filename="preview" msg="最終調整です" alice="pc">}}
+{{<iTablet filename="img/preview" msg="最終調整です" alice="pc">}}
 
 <details>
   <summary>軸の種類を変えるとどうなる？</summary>
 
 軸は「推移」と「累積」の2種類から選択します。推移を選ぶとX軸が「日付」となり、グラフの見た目が大きく変わります
-{{<iTablet filename="preview2" msg="推移データをグラフ化したいときはこっちをつかいましょう" alice="pc">}}
+{{<iTablet filename="img/preview2" msg="推移データをグラフ化したいときはこっちをつかいましょう" alice="pc">}}
 
 </details>
 
@@ -84,7 +84,7 @@ NipoPlusでは次のようなグラフを作成可能です
 
 作ったグラフは推移表・累積表の画面下部に配置されます。複数個作った場合はクリックでグラフの切り替えが可能です。
 
-{{<iTablet filename="switchCharts" msg="グラフの切替表示もワンクリックでラクラクだね" alice="pc">}}
+{{<iTablet filename="img/switchCharts" msg="グラフの切替表示もワンクリックでラクラクだね" alice="pc">}}
 
 ---
 
@@ -124,7 +124,7 @@ NipoPlusでは次のようなグラフを作成可能です
 [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の単語は選ばれた回数を集計でき、それをグラフ化することが可能です。
 選択肢入力フォームをグラフ化するには円グラフが適しています。
 
-{{<iTablet filename="circle" msg="選択肢のデータは円グラフと相性が良いよ" alice="pc">}}
+{{<iTablet filename="img/circle" msg="選択肢のデータは円グラフと相性が良いよ" alice="pc">}}
 
 しかし選択肢を「数値」として集計することもできます。数値として集計するには選択肢の単語の前に数値を記入してください。そしてグラフ化の際、プレビュー画面で「選択肢を数値化してグラフ化」を選ぶと、データの基準が「回数」から「数値」に変化します。
 例えば次のような変換が行われます。
@@ -145,7 +145,7 @@ NipoPlusでは次のようなグラフを作成可能です
 <dd>5に変換される</dd>
 </dl>
 
-{{<iTablet filename="selectWordCharts" msg="ちょっと事前準備が面倒だから応用欄に書いたよ" alice="pc">}}
+{{<iTablet filename="img/selectWordCharts" msg="ちょっと事前準備が面倒だから応用欄に書いたよ" alice="pc">}}
 
 ### レート入力フォームのグラフ化{#rating}
 
@@ -158,7 +158,7 @@ NipoPlusでは次のようなグラフを作成可能です
 <dd>星1、星2、星3のように選んだ評価を単語のように集計します。数値としての側面が希釈化されます（回数としてカウント）</dd>
 </dl>
 
-{{<iTablet filename="rateCharts" msg="★の数を数えよう♫" alice="ok">}}
+{{<iTablet filename="img/rateCharts" msg="★の数を数えよう♫" alice="ok">}}
 
 ## 作成したグラフはあなただけのものです{#own}
 

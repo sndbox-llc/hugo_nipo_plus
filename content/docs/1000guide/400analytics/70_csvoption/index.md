@@ -13,7 +13,7 @@ CSVファイルの用途に応じて設定を変更してください。
 出力設定は「CSV出力」ボタンの隣りにある▼ボタンから設定できます。
 設定の内容は自動で保存されます。
 
-{{<icatch filename="csv-setting1" msg="CSV出力のオプション設定はONかOFFだけで設定できるよ" alice="ok">}}
+{{<icatch filename="img/csv-setting1" msg="CSV出力のオプション設定はONかOFFだけで設定できるよ" alice="ok">}}
 
 ## 列の展開について{#split_rows}
 
@@ -53,7 +53,7 @@ CSV出力設定には「展開」に関する設定があります。
 
 CSV出力設定では一括で展開のON/OFFが適用されてしまいますが、一部だけ展開を変えたい場合はテンプレートの編集から設定可能です。
 
-{{<icatch filename="template-setting" msg="テンプレート上の設定が最も優先されます" alice="pc">}}
+{{<icatch filename="img/template-setting" msg="テンプレート上の設定が最も優先されます" alice="pc">}}
 
 テンプレートでの設定が優先して適用され、その後にCSV出力が適用されます。
 

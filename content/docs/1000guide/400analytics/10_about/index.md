@@ -40,7 +40,7 @@ weight = 410
 
 NipoPlusでは、集計データをもとに自動で推移表や累積表を作成できます。期間と集計方式を選ぶだけで、自動集計が可能です。また、集計結果から折れ線グラフや棒グラフも簡単に生成できます。
 
-{{<iTablet filename="sumtotal" msg="左メニューに集計ボタンが出てない場合はグループ設定から機能を有効にしてね" alice="pc">}}
+{{<iTablet filename="img/sumtotal" msg="左メニューに集計ボタンが出てない場合はグループ設定から機能を有効にしてね" alice="pc">}}
 
 まず大きな括りとして、次の3種類があります
 
@@ -74,7 +74,7 @@ NipoPlusでは、集計データをもとに自動で推移表や累積表を作
 
 営業日報の「訪問件数」など、活動に直結する入力フォームを追加するだけで、スタッフごとの成績を簡単に比較できます。また、レポートの提出件数も確認できるため、提出漏れのチェックにも役立ちます。
 
-{{<iTablet filename="stack" msg="スタッフ同士の比較に便利だね">}}
+{{<iTablet filename="img/stack" msg="スタッフ同士の比較に便利だね">}}
 
 {{< link-card title="累積表について" description="操作ガイド"  href="/docs/manual/analytics/accumn/" >}}
 
@@ -83,7 +83,7 @@ NipoPlusでは、集計データをもとに自動で推移表や累積表を作
 過去の検査結果を一覧で表示します。過去と比べて今回の検査結果がどの程度乖離しているかを手軽に知ることができます。
 スタッフごとの分別はされず、全員のレポートが推移表に掲載されます。
 
-{{<iTablet filename="flow" msg="過去との比較が見たいときに便利だね" alice="ok">}}
+{{<iTablet filename="img/flow" msg="過去との比較が見たいときに便利だね" alice="ok">}}
 
 {{< link-card title="推移表について" description="操作ガイド"  href="/docs/manual/analytics/transition/" >}}
 
@@ -92,7 +92,7 @@ NipoPlusでは、集計データをもとに自動で推移表や累積表を作
 前述の[推移表](#line)・[累積表](#stack)のデータをもとにして折れ線や円グラフ、積み上げ縦棒グラフなどを作成可能です。
 グラフは複数種類作成でき、ワンクリックで瞬時に切り替えが可能です。
 
-{{<icatch filename="chart" msg="グラフはワンクリックでいつでも切替可" alice="guide">}}
+{{<icatch filename="img/chart" msg="グラフはワンクリックでいつでも切替可" alice="guide">}}
 
 {{< link-card title="グラフ化について" description="操作ガイド"  href="/docs/manual/analytics/chart/" >}}
 
@@ -103,7 +103,7 @@ NipoPlusでは、集計データをもとに自動で推移表や累積表を作
 目標を予め定めておくことで日別の達成・未達を簡単に確認できます。
 前月の繰越を使うことで実績の調整も可能です。
 
-{{<icatch filename="list" msg="予定と実績・進捗の管理" alice="guide">}}
+{{<icatch filename="img/list" msg="予定と実績・進捗の管理" alice="guide">}}
 
 {{< link-card title="予定実績機能" description="操作ガイド"  href="/docs/manual/analytics/progress/" >}}
 

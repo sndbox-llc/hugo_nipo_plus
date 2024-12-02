@@ -22,7 +22,7 @@ weight = 420
 4. 集計するテンプレートを選択
 5. 「累積」を選択
 
-{{<iTablet filename="flow" msg="推移表はデータの流れや異常な値を見つけるのに適しています" alice="pc">}}
+{{<iTablet filename="img/flow" msg="推移表はデータの流れや異常な値を見つけるのに適しています" alice="pc">}}
 
 <dl class="basic">
 <dt>期間</dt>
@@ -72,6 +72,6 @@ weight = 420
 
 推移表のデータをもとに、折れ線グラフや棒グラフ、円グラフを作成して、契約件数や走行距離の変動を視覚的に把握できます。
 
-{{<iTablet filename="linecharts" msg="グラフ化すれば契約率が上昇傾向だとすぐわかるね" alice="ok">}}
+{{<iTablet filename="img/linecharts" msg="グラフ化すれば契約率が上昇傾向だとすぐわかるね" alice="ok">}}
 
 グラフの作り方については[グラフ作成](/docs/manual/analytics/chart/)のページを御覧ください。

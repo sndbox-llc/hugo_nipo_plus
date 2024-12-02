@@ -24,7 +24,7 @@ Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts]
 
 頻繁に登場するマスコットキャラクター（名称：アリス）についてはご利用前にご相談ください。
 
-{{< figure src="default.png" alt="Nipo/NipoPlusマスコットキャラクター" caption="マスコットキャラクターの「アリス」" >}}
+{{< figure src="img/default.png" alt="Nipo/NipoPlusマスコットキャラクター" caption="マスコットキャラクターの「アリス」" >}}
 
 アリスはイラストレータ[ふにぐみ](https://www.ac-illust.com/main/profile.php?id=0DbjwSb1)様に書いていただいたNipo【旧版】およびNipoPlusオリジナルキャラクターです
 

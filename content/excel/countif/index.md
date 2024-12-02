@@ -30,7 +30,7 @@ A号車が何回使用されたのかをCountif関数で簡単に求めること
 
 空欄ではないセルを数えるためには「COUNT関数」を使いますが、特定の単語を数える場合には「COUNTIF関数」が適しています。
 
-{{<figure src="countif.png"  alt="単語の出現した回数を数えるにはcountif関数を使う" caption="単語の出現した回数を数えるにはcountif関数を使う" >}}
+{{<figure src="img/countif.png"  alt="単語の出現した回数を数えるにはcountif関数を使う" caption="単語の出現した回数を数えるにはcountif関数を使う" >}}
 
 <dl class="basic">
 <dt>範囲</dt>
@@ -48,7 +48,7 @@ A号車が何回使用されたのかをCountif関数で簡単に求めること
 さて、このCOUNTIF関数を使えば、スタッフ名に基づいて日報の提出回数を簡単にカウントできます。
 日報の提出者をカウントし、どのスタッフが何枚の日報を書いたのかをCOUNTIFで求めてみましょう。
 
-{{<figure src="staffcount.png"  alt="スタッフの提出回数を数えるのにもCOUNTIF関数が役に立ちます" caption="スタッフの提出回数を数えるのにもCOUNTIF関数が役に立ちます" >}}
+{{<figure src="img/staffcount.png"  alt="スタッフの提出回数を数えるのにもCOUNTIF関数が役に立ちます" caption="スタッフの提出回数を数えるのにもCOUNTIF関数が役に立ちます" >}}
 
 「使用社用車」のときと使い方は同じです。スタッフを数えるので数える範囲はBの列になります。
 スタッフの名簿も別途用意しておくと良いでしょう。
@@ -64,7 +64,7 @@ A号車が何回使用されたのかをCountif関数で簡単に求めること
 使用車両の総使用回数はCOUNTIF関数で算出できますが、アリスとボブ、それぞれに分けて集計してみましょう。やり方はいくつかありますが、先ほど使ったCOUNTIF関数に複数条件を指定できる**COUNTIFS関数**を使ってみます。
 COUNTIFS関数は範囲と条件を複数個指定できる関数です。使い方はCOUNTIFと似ています。
 
-{{<figure src="countifs.png"  alt="より細かい条件を指定するにはCOUNTIFS関数を使用します。" caption="より細かい条件を指定するにはCOUNTIFS関数を使用します。" >}}
+{{<figure src="img/countifs.png"  alt="より細かい条件を指定するにはCOUNTIFS関数を使用します。" caption="より細かい条件を指定するにはCOUNTIFS関数を使用します。" >}}
 
 アリスがA号車を使った回数、ボブがA号車を使った回数のようにスタッフごとに分けてカウントできていることがわかりますね。
 ただこの欠点はスタッフのリストと社用車のリストの交差表を作る必要がある点です。
@@ -81,7 +81,7 @@ A号車ではなく「A車」のように略して記述されると、正しい
 
 リスト作成の手間も不要で、入力ミスも防ぐことができるNipoPlusでは、今回紹介したような集計を全部自動で行なえます。
 
-{{<icatch filename="countif" msg="SUMIFを自動で" title="日報アプリNipoPlusではCOUNTIFと同様の機能が使えます"  alice="guide">}}
+{{<icatch filename="img/countif" msg="SUMIFを自動で" title="日報アプリNipoPlusではCOUNTIFと同様の機能が使えます"  alice="guide">}}
 
 日報の作成はスマートフォンからも簡単に行え、提出された日報を一つのシートに集約してダウンロード可能です。今回使用したデータも、NipoPlusでダウンロードしたものです。
 

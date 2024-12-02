@@ -13,7 +13,7 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 <details>
   <summary>バージョン記載箇所</summary>
-{{<icatch filename="version" msg="画面左下にアプリのバージョンが記載されています" alice="ok">}}
+{{<icatch filename="img/version" msg="画面左下にアプリのバージョンが記載されています" alice="ok">}}
 
 </details>
 

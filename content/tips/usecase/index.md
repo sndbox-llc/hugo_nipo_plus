@@ -29,7 +29,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 
 お話を伺ったかぎりでは、次の画像のように点検機材ごとにテンプレートを作成して管理されているとのことでした。
 
-{{<icatch filename="s1" msg="製造業は点検機器ごとにテンプレートを作るとGoodです。タグで管理すれば効率UP" alice="ok">}}
+{{<icatch filename="img/s1" msg="製造業は点検機器ごとにテンプレートを作るとGoodです。タグで管理すれば効率UP" alice="ok">}}
 
 ただ、製造業は点検項目や点検シートの種類が膨大で、最初の設定が大変だったとのご意見もいただきました。
 
@@ -57,7 +57,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 点検者の多くは年配の方とのことで、画面の大きなタブレットを使って点検されています。
 画面自体の大きさも重要ですが、NipoPlusには画面の文字サイズを調整する機能も備わっているため、小さな文字が見えにくい方にも安心してご利用いただいております。
 
-{{<iTablet filename="tenken" msg="文字サイズが簡単に調整できるので年輩の方にもGood" alice="ok">}}
+{{<iTablet filename="img/tenken" msg="文字サイズが簡単に調整できるので年輩の方にもGood" alice="ok">}}
 
 特に数値の入力が多いとのことで、より効率よく入力できる「テンキー機能」をNipoPlusに追加させていただくきっかけとなりました。
 お客様からの様々なフィードバックはNipoPlusの品質向上に大変役立っております。
@@ -86,7 +86,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 [XCGate](https://product.technotree.com/xc-gate/)などいくつか類似商品を比較して、最終的に当社のNipoPlusを選んでいただけました。
 決め手はカスタマイズの高さと運用コストの低さ、そしてわかりやすいUIとのことです。
 
-{{<iTablet filename="factory" msg="効率よく入力するために数値入力を敢えて選択式とする工夫がなされていました" alice="ok">}}
+{{<iTablet filename="img/factory" msg="効率よく入力するために数値入力を敢えて選択式とする工夫がなされていました" alice="ok">}}
 
 点検台の上にタブレットを固定し、点検をしながらタブレットを操作して効率よく点検を行っています。
 製品のズレ幅を記録する必要がありますが、キー入力ではなくあえて[選択式入力](/docs/manual/initial-setting/template/selects/#plain)を採用することで、点検の入力効率を高めています。
@@ -110,7 +110,7 @@ NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に�
 
 ## タクシーの営業報告にNipoPlusを使用{#taxi}
 
-{{<figure src="taxi.png"  alt="タクシー日報のテンプレート一例" caption="タクシー日報のテンプレート一例" >}}
+{{<figure src="img/taxi.png"  alt="タクシー日報のテンプレート一例" caption="タクシー日報のテンプレート一例" >}}
 
 過去にタクシー業界でNipoPlusを営業報告書として利用していたお客様もいました。
 残念ながら現在は専用システムに移行されていますが、一定期間NipoPlusによる報告書作成を利用されており、顧客報告に役立ちました。

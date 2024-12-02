@@ -92,7 +92,7 @@ graph TD;
 
 例として、日報になにかの数値を入力するフォームを追加したいとしましょう。次の画像はどれも数値の入力フォームになります。
 
-{{<icatch filename="input-number" msg="同じ数値の入力でも様々な入力方式があります。適材適所で使い分けます" alice="shield">}}
+{{<icatch filename="img/input-number" msg="同じ数値の入力でも様々な入力方式があります。適材適所で使い分けます" alice="shield">}}
 
 数値入力には主要なものとして、次の方式が選べます。
 
@@ -119,7 +119,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 次の画像は幅2〜12の範囲で同じ[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)を配置した例です。幅が狭いとスライダの目盛りが潰れてしまうのがわかりますね。
 
-{{<figure src="width.webp"  alt="テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" caption="テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" >}}
+{{<figure src="img/width.webp"  alt="テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" caption="テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" >}}
 
 他にも本文入力には幅を広くとってゆとりのある入力ができるようにするなど、実際に使用する人が使いやすいかどうかを常に意識して設計します。
 
@@ -135,7 +135,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 他にも入力フォームごとに補足説明を付したり、入力フォームのタイトルを色分けすることで強調することも可能です。
 
-{{<icatch filename="report-guide-memo" msg="メモや画像があれば同じ質問に何度も答える必要もなくなるね" alice="ok">}}
+{{<icatch filename="img/report-guide-memo" msg="メモや画像があれば同じ質問に何度も答える必要もなくなるね" alice="ok">}}
 
 <dl class="basic">
 <dt>説明用画像</dt>
@@ -152,7 +152,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 入力順序を指定することで、他の項目がグレースケールになるため「次に何を記入するか」が視覚的にわかりやすくなります。
 
-{{<icatch filename="input-order" msg="入力順を指定すれば次の入力項目が明確になります。手順飛ばしも防げます"  alice="here">}}
+{{<icatch filename="img/input-order" msg="入力順を指定すれば次の入力項目が明確になります。手順飛ばしも防げます"  alice="here">}}
 
 入力がされると次の項目が解除されるため、よりスムーズな入力が可能になります。
 似た機能に入力必須という指定もできます。入力必須を指定すると未入力の際警告するのでうっかり記入漏れを防ぐことができます。
@@ -169,7 +169,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 それぞれの得意不得意を意識したうえでテンプレートを作ってみてください。例えばタブレットで入力するのであればほぼタップだけで完結できるレポートのほうが適しています。
 
-{{<figure src="pen2.webp"  alt="署名はタッチパネルでの利用が大前提となります" caption="署名はタッチパネルでの利用が大前提となります" >}}
+{{<figure src="img/pen2.webp"  alt="署名はタッチパネルでの利用が大前提となります" caption="署名はタッチパネルでの利用が大前提となります" >}}
 
 {{< link-card title="スマートフォン・タブレットの最適な利用" description="コラム記事" href="/tips/mobile-device/" >}}
 
@@ -185,7 +185,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 点検作業員は外国人が多いため、色で内容を伝えられるようにチェックシートのテンプレートを色分けして工夫しています。
 また、手早く入力できるように[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)を使って製品の誤差を選んで入力する形式を取っています。
 
-{{<icatch filename="sample13" msg="選択入力を多用することでテンポよく入力できるよ。特にタブレットと相性抜群" alice="tablet">}}
+{{<icatch filename="img/sample13" msg="選択入力を多用することでテンポよく入力できるよ。特にタブレットと相性抜群" alice="tablet">}}
 
 開発者も思いつきませんでしたが、[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)はこんな使い方もできるので、非常に参考になるテンプレートといえます。
 
@@ -194,14 +194,14 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 清掃や機器メンテナンスなど、実際の現場で行った作業内容を選択式入力や[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)を駆使して迅速に書き上げることができるような工夫がされています。
 顧客から確認の受取サインをいただく必要があれば、[署名入力フォーム](/docs/manual/initial-setting/template/binarys/#sign)をつかうことで直筆のサインを報告書内に書き込むことが可能です。
 
-{{<icatch filename="work-report" msg="清掃チェックシートのサンプル。顧客からの受領直筆サインを書くこともできます" alice="tablet">}}
+{{<icatch filename="img/work-report" msg="清掃チェックシートのサンプル。顧客からの受領直筆サインを書くこともできます" alice="tablet">}}
 
 もしも控えをお客様に渡す場合、この作業報告書をそのままPDFに変換すれば署名も含めてPDFファイルが生成できます。
 実際のPDFイメージも掲載しています。画像クリックで拡大します。
 
 <div style="max-width:400px">
 
-{{<figure src="work-report-pdf.webp"  alt="手書きの署名はPDF内に埋め込まれて表示されます" caption="手書きの署名はPDF内に埋め込まれて表示されます" >}}
+{{<figure src="img/work-report-pdf.webp"  alt="手書きの署名はPDF内に埋め込まれて表示されます" caption="手書きの署名はPDF内に埋め込まれて表示されます" >}}
 
 </div>
 
@@ -211,7 +211,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 写真をレポートに添付できるテンプレートを作っておけば、これらの現場写真をそのままレポートに添付できます。
 ミスを減らすために、作業前のタイトルはグレー、作業後のタイトルはオレンジに変更しています。このようにすることで視覚的な注意喚起を促します。
 
-{{<icatch filename="sample20" msg="現場の写真をスマホで撮ってそのままレポートにできるのは便利ですよ" alice="phone">}}
+{{<icatch filename="img/sample20" msg="現場の写真をスマホで撮ってそのままレポートにできるのは便利ですよ" alice="phone">}}
 
 NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)は１つにつき10枚まで添付可能ですが、もしこの報告書をPDFに変換する場合、１枚目の写真しかPDFに掲載されません。
 これはすべての写真を並べるとレイアウトが崩れてしまうためです。すべての写真をPDFに出力したい場合は、テンプレート内に[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)を複数個設置することで対応が可能です。
@@ -222,7 +222,7 @@ NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/bina
 
 <div >
 
-{{<figure src="shuzen.webp"  alt="作業前・作業後の写真が１枚の報告書にきれいに収まっています" caption="作業前・作業後の写真が１枚の報告書にきれいに収まっています" >}}
+{{<figure src="img/shuzen.webp"  alt="作業前・作業後の写真が１枚の報告書にきれいに収まっています" caption="作業前・作業後の写真が１枚の報告書にきれいに収まっています" >}}
 
 </div>
 
@@ -231,7 +231,7 @@ NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/bina
 
 <div>
 
-{{<figure src="shuzen_landscape.webp"  alt="作業現場写真日報を横向きでPDF出力すると写真がより大きく出力されます。" caption="作業現場写真日報を横向きでPDF出力すると写真がより大きく出力されます。" >}}
+{{<figure src="img/shuzen_landscape.webp"  alt="作業現場写真日報を横向きでPDF出力すると写真がより大きく出力されます。" caption="作業現場写真日報を横向きでPDF出力すると写真がより大きく出力されます。" >}}
 
 </div>
 
@@ -247,7 +247,7 @@ WordやExcelで写真付きの日報を作るのは手間が掛かりますが�
 具体的には「特徴」の項目はあらかじめ回答が用意されており、選ぶだけで簡単に入力可能です。
 そしてモバイル機器には当たり前のように搭載されているカメラで現地の写真を撮影したらそのままレポートに添付できるように、[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)を使用しています。
 
-{{<icatch filename="sample4" msg="現地調査レポート・・・作ってみたけど需要あるかな？" alice="question">}}
+{{<icatch filename="img/sample4" msg="現地調査レポート・・・作ってみたけど需要あるかな？" alice="question">}}
 
 ### 伝票のように都度都度書くマイクロ日報テンプレート{#receipt}
 
@@ -259,7 +259,7 @@ WordやExcelで写真付きの日報を作るのは手間が掛かりますが�
 日報テンプレートは必要最小に抑えて、できる限り最小の入力で済むような工夫が必須になります。
 分類も設ければ作業分類ごとにかかった時間を測定できます。
 
-{{<icatch filename="sample3" msg="日報？いえいえ、もはや伝票です。NipoPlusなら伝票も自由に作れるってこと">}}
+{{<icatch filename="img/sample3" msg="日報？いえいえ、もはや伝票です。NipoPlusなら伝票も自由に作れるってこと">}}
 
 また、１日に何枚もの日報が蓄積することになるため、[案件管理](/docs/manual/anken/_about/)などと組み合わせて情報を整理することが必須になるため、やや上級者向けの運用です。
 
@@ -267,20 +267,20 @@ WordやExcelで写真付きの日報を作るのは手間が掛かりますが�
 
 時間ごとに作業区分と報告内容を記述できるテンプレートです。[反復入力](/docs/manual/initial-setting/template/array/)フォームを使って作成できます。
 
-{{<icatch filename="sample11" msg="10時〜何をした。11時〜何をした・・・時間別の入力なんかに向いてるかも" alice="pc">}}
+{{<icatch filename="img/sample11" msg="10時〜何をした。11時〜何をした・・・時間別の入力なんかに向いてるかも" alice="pc">}}
 
 ### 設備点検チェックシート{#maintenance_sheet}
 
 機器の状態を定期的にチェックするための点検表です。
 紙と違い記入をリアルタイムに管理者が把握できる利点があります。
 
-{{<icatch filename="sample6" msg="設備点検シートの簡易版。実際はもっとたくさんの項目があることでしょう" alice="guide">}}
+{{<icatch filename="img/sample6" msg="設備点検シートの簡易版。実際はもっとたくさんの項目があることでしょう" alice="guide">}}
 
 ### タクシー日報{#taxi}
 
 タクシーや運転代行などで日報を書く場合は、例えば次のようなタクシー日報のテンプレートになります。
 
-{{<icatch filename="sample9" msg="タクシー日報のテンプレート。需要は無いでしょうが「こんなものも作れるよ」という紹介です" alice="ok">}}
+{{<icatch filename="img/sample9" msg="タクシー日報のテンプレート。需要は無いでしょうが「こんなものも作れるよ」という紹介です" alice="ok">}}
 
 料金メータと連動するシステムが有りそうですね。まぁ１つの例であり実用性は有りません。
 
@@ -288,13 +288,13 @@ WordやExcelで写真付きの日報を作るのは手間が掛かりますが�
 
 生産数、不良数を入力すれば自動で不良率が計算されます。こんなチェックシートも作れます。
 
-{{<icatch filename="auto-calc" msg="不良率みたいなものを日報作成中に自動で算出できるよ" alice="pc">}}
+{{<icatch filename="img/auto-calc" msg="不良率みたいなものを日報作成中に自動で算出できるよ" alice="pc">}}
 
 ### Yes/NOで回答するチェックシート{#yes_no}
 
 Yesなら✔するだけのシンプルなテンプレートです。補足事項があれば備考欄に記入できます。
 
-{{<icatch filename="sample12" msg="YES/NOで回答且つ備考欄をつけた例です。ただチェック漏れのリスクがあるので選択肢を使ったほうがいいかも？" alice="question">}}
+{{<icatch filename="img/sample12" msg="YES/NOで回答且つ備考欄をつけた例です。ただチェック漏れのリスクがあるので選択肢を使ったほうがいいかも？" alice="question">}}
 
 ## 他にも色々。業務内容に併せて自由に業務テンプレートを作れます{#any}
 

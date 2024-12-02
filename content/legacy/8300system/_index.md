@@ -1,16 +1,14 @@
 +++
 url = "/legacy/system/"
 title = "Nipo（旧）システム概要"
-description = ""
-summary = ""
-date = "2023-09-07T16:12:03+02:00"
-lastmod = "2023-09-07T16:12:03+02:00"
-weight = 8_300
-toc = true
+menuTitle = "Nipoシステム概要"
+description = "旧バージョンNipoのシステム概要についてまとめたセクションページです。利用規約やプライバシーポリシーなどの情報をまとめています。"
+weight = 8300
 
 [seo]
-title = ""
-description = ""
-canonical = ""
+title = "Nipo(旧)システム概要[セクション]"
+# canonical = ""
 robots = ""
 +++
+
+旧バージョンNipoのシステム概要についてまとめたセクションページです。利用規約やプライバシーポリシーなどの情報をまとめています。

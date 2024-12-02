@@ -12,7 +12,7 @@ toc = true
 collapsed = true
 
 [seo]
-title = ""
+title = "組織のスタッフ管理[セクション]"
 description = ""
 canonical = ""
 robots = ""

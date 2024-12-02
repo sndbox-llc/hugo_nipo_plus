@@ -13,7 +13,7 @@ toc = true
 collapsed = true
 
 [seo]
-title = ""
+title = "初期設定[セクション]"
 description = ""
 canonical = ""
 robots = ""

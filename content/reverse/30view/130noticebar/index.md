@@ -4,7 +4,6 @@ title = "スタッフ全員に通達したいとき"
 description = "グループ内の全スタッフに告知したい場合はバナー機能が便利です。画面上部に目立つ形で表示され、見落としません"
 isDictionaly = true
 toc = false
-aliases = ['/function/noticebar/']
 date = "2024-10-15"
 weight = 23130
 # tags = []

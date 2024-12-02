@@ -4,14 +4,13 @@ title = "レポートにつけられたタグを外したい"
 description = "レポートにセットされたタグが不要になったときはワンクリックで簡単に外せます。異なるタグを付けたいときも同じ手順で簡単につけ外しができます"
 isDictionaly = true
 toc = false
-aliases = ['/function/removetag/']
 date = "2024-10-04"
 weight = 21400
 # tags = []
 +++
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[レポート作成と同時にタグをセット](function/settag/)する方法も御覧ください。
+[レポート作成と同時にタグをセット](/reverse-lookup/report/settag/)する方法も御覧ください。
 {{< /callout >}}
 
 ## セットされたタグを外したり、異なるタグに付け替える方法を紹介

@@ -24,7 +24,7 @@ isNipo = true
 
 ### 数値を含んだ日報の各種出力画面{#outputDigit}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
@@ -72,7 +72,7 @@ sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
 
 ### スライダーを含んだ日報の各種出力画面{#outputSlider}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
@@ -127,7 +127,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ### レートを含んだ日報の各種出力画面{#outputRate}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 CSV出力時は次のように表示されます。
 レートではCSV出力時に「**列の展開**」を指定できます。
 
@@ -171,11 +171,11 @@ CSV出力時は次のように表示されます。
 
 ### 範囲を含んだ日報の各種出力画面{#outputRange}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 CSV出力時は次のように表示されます。
 
 範囲入力をCSVに出力する際は列を展開するか展開しないかを選択できます。
-列を展開しないで[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+列を展開しないでCSVに出力すると次のように表示されます。
 
 {{< excelTable >}}
 sample, test, mock, dummy, コメント

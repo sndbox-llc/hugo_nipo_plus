@@ -5,7 +5,6 @@ description = "必要に応じて12〜24の間で文字サイズを調整でき�
 isDictionaly = true
 toc = false
 weight = 23100
-aliases = ['/function/fontsize/']
 date = "2024-10-03"
 +++
 

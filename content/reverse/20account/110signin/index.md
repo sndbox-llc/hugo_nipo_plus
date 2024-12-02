@@ -2,7 +2,6 @@
 url = "/reverse-lookup/account/signin/"
 title = "NipoPlusにログインしたい"
 description = "NipoPlusのアカウントをお持ちの方はこちらの手順に沿ってログインできます"
-aliases = ['/function/signin/']
 toc = false
 isDictionaly = true
 weight = 22110

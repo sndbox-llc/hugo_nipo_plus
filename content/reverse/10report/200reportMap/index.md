@@ -4,7 +4,6 @@ title = "スタッフの提出状況を一覧で確認したい"
 description = "提出忘れなどを見つけるときは提出簿を使うと簡単です"
 toc = false
 isDictionaly = true
-aliases = ['/function/reportmap/']
 weight = 21200
 date = "2024-10-04"
 +++

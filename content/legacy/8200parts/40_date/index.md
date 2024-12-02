@@ -24,7 +24,7 @@ isNipo = true
 
 ### 各種出力画面{#outputDate}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
@@ -64,7 +64,7 @@ CSV出力時は次のように表示されます。
 
 ### 時刻を含んだ日報の各種出力画面{#outputTime}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 CSV出力時は次のように表示されます。
 
 {{< excelTable >}}

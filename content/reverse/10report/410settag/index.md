@@ -3,7 +3,6 @@ url = "/reverse-lookup/report/settag/"
 title = "日報作成時にタグをセットしたい"
 description = "日報を書くときに、目印としてタグを付けた状態で提出が可能です。タグは提出後につけることも、あとから外すことも簡単です"
 isDictionaly = true
-aliases = ['/function/settag/']
 toc = false
 date = "2024-10-03"
 weight = 21410

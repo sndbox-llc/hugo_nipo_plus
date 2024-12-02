@@ -23,7 +23,7 @@ weight = 111
 組織内に1名以上必須。最も高い権限。以下の操作は管理者のみ可能です
 <ul>
 <li><a href="/docs/manual/initial-setting/make-group/">グループの作成</a></li>
-<li><a href="/docs/manual/remove/group/">グループの削除</a></li>
+<li><a href="/docs/manual/initial-setting/make-group/#disable">グループの削除</a></li>
 <li><a href="/docs/manual/initial-setting/staff/make/">スタッフの作成</a></li>
 <li><a href="/docs/manual/initial-setting/staff/make/#remove">スタッフの削除</a></li>
 <li>スタッフの権限変更</li>

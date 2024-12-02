@@ -27,7 +27,7 @@ OKと表示されているのは入力必須が有効になっている項目で
 
 ### 1行テキストを含んだ日報の各種出力画面{#outputOneline}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 CSV出力時は次のように表示されます。
 
 {{< excelTable >}}
@@ -65,7 +65,7 @@ a, e, o, コメント
 
 ### 本文を含んだ日報の各種出力画面{#outputText}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 CSV出力時は次のように表示されます。
 
 {{< excelTable >}}

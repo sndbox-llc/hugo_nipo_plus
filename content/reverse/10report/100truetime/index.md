@@ -5,7 +5,6 @@ description = "スタッフが書いた日報の日付は任意に操作でき�
 isDictionaly = true
 toc = false
 weight = 21100
-aliases = ['/function/truetime/']
 date = "2024-10-04"
 # tags = []
 +++

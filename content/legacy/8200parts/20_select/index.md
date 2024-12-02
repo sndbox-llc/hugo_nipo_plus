@@ -26,7 +26,7 @@ isNipo = true
 
 ### 選択肢（単回答）を含んだ日報の各種出力画面{#outputSingle}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 
 選択肢（単回答）ではCSV出力時に「**列の展開**」を指定できます。文字では伝えにくいので実際のデータをみて比較してください
 
@@ -86,7 +86,7 @@ apple, banana, apple, banana, banana, -
 
 ### 選択肢（単回答）を含んだ日報の各種出力画面{#outputMulti}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 
 選択肢（単回答）ではCSV出力時に「**列の展開**」を指定できます。詳しくは[選択肢と同じなのでそちらを参照](#outputSingle)してください。
 列を展開すると各回答ごとに1列使用されます。これにより[集計](/legacy/manual/analytics/)などの作業がかんたんに行えるメリットがありますが、一方で列数た増えるため視認性が悪くなるデメリットも併せ持ちます。
@@ -130,7 +130,7 @@ apple, banana, apple, banana, banana, -
 
 ### チェックボックスを含んだ日報の各種出力画面{#outputCheckbox}
 
-[PDF出力](/legacy/manual/pdf/)と[CSVに出力](/legacy/manual/analytics/)が可能です。
+[PDF出力](/legacy/manual/pdf/)とCSVに出力が可能です。
 チェックボックスはCSV出力時に列を展開して出力することもできます。詳しくは[選択肢と同じなのでそちらを参照](#outputSingle)してください。
 
 ### 設定画面{#settingCheckbox}

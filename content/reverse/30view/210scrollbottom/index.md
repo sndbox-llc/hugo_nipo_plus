@@ -6,7 +6,6 @@ isDictionaly = true
 toc = false
 weight = 23210
 date = "2024-10-03"
-aliases = ['/function/scrollbottom/']
 # tags = ["アカウント設定"]
 +++
 

@@ -136,7 +136,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<figure src="img/parts_zip2.png"  alt="住所を含む日報をPDFに変換した出力結果" caption="住所を含む日報をPDFに変換した出力結果" >}}
 
-[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+CSVに出力すると次のように表示されます。
 
 {{< excelTable >}}
 sample, test, dummy, mock, コメント
@@ -191,7 +191,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<figure src="img/parts_tc2.webp"  alt="タイムカードを含む日報をPDFに変換した出力結果" caption="タイムカードを含む日報をPDFに変換した出力結果" >}}
 
-[CSVに出力](/legacy/manual/analytics/)すると次のように表示されます。
+CSVに出力すると次のように表示されます。
 
 {{< excelTable >}}
 タイムカード, サンプル, 写真

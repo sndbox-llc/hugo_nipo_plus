@@ -18,7 +18,7 @@ weight = 810
 
 入力されたデータをもとにNipoPlusが「日勤」や「超過時間」「夜勤」などに分解してそれぞれの時間を表にまとめます。
 
-まとめられたタイムカードのデータは[CSVに出力](/docs/manual/timecard/export/)できます。エクセルなどの表計算ソフトで給与計算に使用したり、バックアップ目的として手元に保存しておくことが可能です。
+まとめられたタイムカードのデータは[CSVに出力](/docs/manual/timecard/list/#csv)できます。エクセルなどの表計算ソフトで給与計算に使用したり、バックアップ目的として手元に保存しておくことが可能です。
 1度に表示可能なタイムカードは5件までですが、1度きりの[制限解除オプション](/docs/manual/timecard/setting/#how_to_unlimited)を購入いただくことでこの制限は解除されます。
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

@@ -126,14 +126,14 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 </div>
 <div class="col-lg-8">
 
-### ✅[大きな文字サイズ](/function/fontsize/)で年輩の方も安心{#large_text}
+### ✅[大きな文字サイズ](/reverse-lookup/view/fontsize/)で年輩の方も安心{#large_text}
 
 文字サイズを調整できる機能があるため、年配の方でも安心です。画面の大きなタブレットであれば更に視認性がUP
 
 </div>
 <div class="col-lg-8">
 
-### ✅ [英語対応](/function/language/)でグローバルに活躍 {#english_mode}
+### ✅ [英語対応](/reverse-lookup/view/language/)でグローバルに活躍 {#english_mode}
 
 海外の方でも使いやすいように英語表示モードもサポートしています。将来的にはベトナム語などにも対応予定です。
 

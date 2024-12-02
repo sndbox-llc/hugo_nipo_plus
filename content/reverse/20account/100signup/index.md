@@ -4,7 +4,6 @@ title = "NipoPlusのアカウントを始めて作りたい"
 description = "NipoPlusの利用が始めたの方はこちらの手順に沿ってアカウントの作成ができます"
 toc = false
 isDictionaly = true
-aliases = ['/function/signup/']
 weight = 22100
 date = "2024-10-03"
 # tags = []

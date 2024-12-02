@@ -5,7 +5,6 @@ description = "NipoPlusの動きがおかしい？と思ったらまず試して
 isDictionaly = true
 toc = false
 weight = 24900
-aliases = ['/function/cashclear/']
 date = "2024-10-03"
 # tags = ["アカウント設定"]
 +++

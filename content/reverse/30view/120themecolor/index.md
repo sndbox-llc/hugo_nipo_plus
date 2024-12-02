@@ -4,7 +4,6 @@ title = "テーマカラーを変更したい"
 description = "ラベルやタイトルの色をワンクリックで簡単に切り替えが可能です。複数のグループを運用する際は色分けすることで視認性を向上し、作業ミスを軽減できます。"
 isDictionaly = true
 toc = false
-aliases = ['/function/themecolor/']
 weight = 23120
 date = "2024-10-15"
 # tags = ["アカウント設定"]

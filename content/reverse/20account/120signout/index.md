@@ -4,7 +4,6 @@ title = "NipoPlusからログアウトしたい"
 description = "ログアウトの手順について"
 isDictionaly = true
 toc = false
-aliases = ['/function/signout/']
 weight = 22120
 date = "2024-10-03"
 # tags = ["アカウント設定"]

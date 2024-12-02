@@ -7,7 +7,6 @@ toc = false
 isDictionaly = true
 weight = 24100
 date = "2024-10-03"
-aliases = ['/function/defaultgroup/']
 # tags = ["アカウント設定"]
 +++
 

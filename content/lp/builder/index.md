@@ -9,7 +9,7 @@ heroText = "NipoPlusは、建設業をはじめとする様々な業種での日
 heroLinks = [
   { label = "データ集計分析も簡単", url = "/tips/analytics/" },
   { label = "スマートフォン・タブレット対応", url = "/tips/mobile-device/" },
-  { label = "点検表としても使えます", url = "/tips/maintenance/" }
+  { label = "点検表としても使えます", url = "/lp/checksheet/" }
 ]
 [sitemap]
   priority = 1.0

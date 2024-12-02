@@ -12,7 +12,7 @@ isNipo = true
 +++
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/remove/reportbatch/)。
+[後続のNipoPlusでも利用可能](/docs/manual/read-report/removereport/#batch_remove)。
 {{< /callout >}}
 
 ## 不要な日報を一括で削除する機能{#about}

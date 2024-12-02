@@ -23,7 +23,7 @@ weight = 131
 1. メニュー「グループ設定」をクリック
 2. 上部メニュー「スタッフ管理」をクリック
 
-{{<icatch filename="staff-local" msg="グループに参加しているスタッフの一覧を見てみましょう" alice="pc">}}
+{{<icatch filename="img/staff-local" msg="グループに参加しているスタッフの一覧を見てみましょう" alice="pc">}}
 
 スタッフリストの各部名称について。
 
@@ -57,7 +57,7 @@ weight = 131
 1. グループ設定をクリック
 1. スタッフ管理をクリック
 
-{{<icatch filename="staff-activity" msg="スタッフの活動実績を月ごとに表示できます" alice="ok">}}
+{{<icatch filename="img/staff-activity" msg="スタッフの活動実績を月ごとに表示できます" alice="ok">}}
 
 <dl class="basic">
   <dt><a href="/docs/manual/read-report/state/#agree">承認</a></dt>
@@ -89,6 +89,6 @@ weight = 131
 通常は組織管理画面からスタッフを作成しますが、[管理者権限](/docs/manual/initial-setting/staff/rank/)がある場合に限り、グループ管理画面からスタッフの作成が可能です。
 グループ管理画面からスタッフのアカウントを作成しても、自動で組織上にも登録されます。
 
-{{<iTablet filename="makeStaff" msg="グループ画面からもスタッフ作成が可能です" alice="pc">}}
+{{<iTablet filename="img/makeStaff" msg="グループ画面からもスタッフ作成が可能です" alice="pc">}}
 
 詳細な項目説明については[組織設定のスタッフ作成ガイド](/docs/manual/initial-setting/staff/make/#create_account_one)を御覧ください。

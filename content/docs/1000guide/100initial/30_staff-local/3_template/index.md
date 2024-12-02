@@ -19,11 +19,11 @@ weight = 133
 4. 「利用可能なテンプレートを制限する」をONにする
 5. 利用可能なテンプレートをリストから選ぶ
 
-{{<icatch filename="show-template-setting" msg="スタッフが使用できるレポートのテンプレートを制限できます" alice="shield">}}
+{{<icatch filename="img/show-template-setting" msg="スタッフが使用できるレポートのテンプレートを制限できます" alice="shield">}}
 
 {{<nextArrow>}}
 ポップアップで設定が開きます。
-{{<icatch filename="template-control-setting" msg="使用可能なテンプレートを選ぶと、それ以外のテンプレートが使えなくなるよ" alice="here">}}
+{{<icatch filename="img/template-control-setting" msg="使用可能なテンプレートを選ぶと、それ以外のテンプレートが使えなくなるよ" alice="here">}}
 
 利用可能なテンプレートを制限するのチェックを入れ、テンプレートを選んでください。
 [レポート作成時](/docs/manual/write-report/write/#select_template)に選ばれたテンプレートだけが一覧に表示されるようになります。

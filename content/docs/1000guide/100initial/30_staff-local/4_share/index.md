@@ -37,15 +37,15 @@ graph RL;
 上の図を例に見ます。アルバイトA〜Dのスタッフがレポートを1台のPCから書き込む場合、PCには「**社員アカウント**」でログインしておきます。
 社員アカウントにはアルバイトA〜Dを共用先として指定しておきます。
 
-{{<iTablet filename="shared" msg="共用の列は非表示のため表示項目から追加する必要があります"  alice="ok">}}
+{{<iTablet filename="img/shared" msg="共用の列は非表示のため表示項目から追加する必要があります"  alice="ok">}}
 
 ポップアップで編集画面が表示されるため、共用先として指定したいスタッフを追加します。ここではアルバイトA〜Dを指定しました。
 
-{{<iTablet filename="sharedSetting" msg="共用先に追加したいスタッフを一覧から追加します"  alice="ok">}}
+{{<iTablet filename="img/sharedSetting" msg="共用先に追加したいスタッフを一覧から追加します"  alice="ok">}}
 
 レポートを作成する際、社員アカウントで[レポートを書く](/docs/manual/write-report/write/)と**提出者**という項目が追加されています。
 
-{{<iTablet filename="writeReport" msg="社員アカウントでアルバイトA〜Dのレポートを書くことができるよ。これが共用の効果です"  alice="ok">}}
+{{<iTablet filename="img/writeReport" msg="社員アカウントでアルバイトA〜Dのレポートを書くことができるよ。これが共用の効果です"  alice="ok">}}
 
 提出者の値を書き換えることで、社員アカウントでありながらアルバイトA〜Dが書いたレポートとして保存することができます。換言すれば、社員アカウントがアルバイトに**成り代わる**ことができます。
 

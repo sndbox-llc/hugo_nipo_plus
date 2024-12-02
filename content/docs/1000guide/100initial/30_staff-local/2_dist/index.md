@@ -58,7 +58,7 @@ weight = 132
 1. 提出先を指定したいテンプレートの行にある「提出先の指定」をクリック
 1. 提出先や共有先を指定する
 
-{{<iTablet filename="template-dist-lock" msg="テンプレート単位で提出先の固定をするよっ" alice="shield">}}
+{{<iTablet filename="img/template-dist-lock" msg="テンプレート単位で提出先の固定をするよっ" alice="shield">}}
 
 上画像の設定を詳しく説明すると「Aライン製造点検表」というテンプレートで書かれたレポートは必ず「赤羽さん」宛に書かれ、その他に「田原さん、日光さん」がレポートを読める という意味です。
 
@@ -74,12 +74,12 @@ weight = 132
 1. 提出先を指定するスタッフ行で「提出先の固定」をクリック
 1. ポップアップで設定画面が表示される
 
-{{<icatch filename="dist-setting2" msg="レポート提出先を固定すれば間違えて他の人に提出するミスも０！" alice="shield">}}
+{{<icatch filename="img/dist-setting2" msg="レポート提出先を固定すれば間違えて他の人に提出するミスも０！" alice="shield">}}
 
 {{<nextArrow>}}
 ポップアップで提出先の指定ウインドウが表示されます。
 
-{{<icatch filename="dist-detail2" msg="【誰が】【どのテンプレートを使ったとき】【誰に出すのか】を決めよう" alice="shield">}}
+{{<icatch filename="img/dist-detail2" msg="【誰が】【どのテンプレートを使ったとき】【誰に出すのか】を決めよう" alice="shield">}}
 
 スタッフごとに、テンプレートと提出先の設定をします。シンプルに考えましょう。
 
@@ -102,7 +102,7 @@ weight = 132
 
 提出先を指定ときはレポート作成時に提出先が自動でセットされます。変更のロックが有効だと提出先の変更も不可能になります。
 
-{{<icatch filename="dist-locked" msg="ちゃんと固定化されているのがわかるね" alice="ok">}}
+{{<icatch filename="img/dist-locked" msg="ちゃんと固定化されているのがわかるね" alice="ok">}}
 
 これで現場のスタッフはレポートの作成のみに専念することができ、提出先や共有先といった煩わしい項目を無視できるようになります。
 現場スタッフのためにも提出先ロックは済ませておきましょう。

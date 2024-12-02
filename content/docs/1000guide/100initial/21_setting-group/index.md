@@ -23,13 +23,13 @@ weight = 21
 1. 所属しているグループ一覧が表示される
 1. 作業するグループ名をクリック
 
-{{<icatch filename="switch" msg="グループ名をクリックして他のグループに切り替えます" alice="here">}}
+{{<icatch filename="img/switch" msg="グループ名をクリックして他のグループに切り替えます" alice="here">}}
 
 ## グループ設定画面構成{#edit}
 
 メニューから「グループ設定」をクリックします。
 
-{{<icatch filename="group-manage" msg="グループの全般設定では使用する機能やテーマカラーの変更が可能です" alice="ok">}}
+{{<icatch filename="img/group-manage" msg="グループの全般設定では使用する機能やテーマカラーの変更が可能です" alice="ok">}}
 
 グループに関する様々な設定がまとまっています。
 
@@ -91,7 +91,7 @@ weight = 21
 タイムカード機能や集計機能など、NipoPlusには様々な機能が用意されています。これらのオプション機能はチェックボックスのON/OFFで有効（または無効）に切り替えができます。
 使用する予定の無い機能はOFFにしておくことで画面上の見た目をシンプルにできます。
 
-{{<iTablet filename="functions" msg="使わない機能はOFFにしたほうがメニューがスッキリするよ" alice="ok">}}
+{{<iTablet filename="img/functions" msg="使わない機能はOFFにしたほうがメニューがスッキリするよ" alice="ok">}}
 
 <dl class="basic">
   <dt><a href="/docs/manual/anken/_about/">案件</a></dt>

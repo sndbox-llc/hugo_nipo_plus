@@ -19,4 +19,4 @@ date = "2024-10-03"
 2. 言語設定をクリック
 3. 使用する言語を一覧から選択
 
-{{<iTablet filename="language" msg="言語は現在、日本語・英語に対応しています" alice="pc">}}
+{{<iTablet filename="img/language" msg="言語は現在、日本語・英語に対応しています" alice="pc">}}

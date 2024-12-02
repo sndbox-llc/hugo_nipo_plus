@@ -32,7 +32,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 <div class="col-lg-9">
 <!-- 画像エリア -->
 
-{{<icatch filename="checksheet" msg="自由に設計できるからこそ、設備点検や品質チェック表など様々な用途に利用可能です"  alice="guide">}}
+{{<icatch filename="img/checksheet" msg="自由に設計できるからこそ、設備点検や品質チェック表など様々な用途に利用可能です"  alice="guide">}}
 
 </div>
 </div>
@@ -86,7 +86,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 
 現場点検アプリだからこそ、スマート点検をサポートする豊富な機能が盛り沢山。便利な機能の一部をご紹介します。
 
-{{<icatch filename="uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる" >}}
+{{<icatch filename="img/uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる" >}}
 
 <div class="row my-5">
 <div class="col-lg-8">
@@ -153,7 +153,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 
 デジタル化された点検データは、単に紙を置き換えるだけではありません。データの蓄積と分析が可能になることで、業務の効率化、品質の向上、異常の早期発見が実現できます。
 
-{{<icatch filename="stack-bar-chart" msg="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
+{{<icatch filename="img/stack-bar-chart" msg="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
 
 <div class="row my-5">
 <div class="col-lg-8">
@@ -246,6 +246,6 @@ NipoPlusならそれらをカバーしているので中小企業に幅広く売
 
 <div style="max-width:800px">
 
-{{<figure src="factory-usage.webp"  alt="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" caption="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" >}}
+{{<figure src="img/factory-usage.webp"  alt="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" caption="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" >}}
 
 </div>

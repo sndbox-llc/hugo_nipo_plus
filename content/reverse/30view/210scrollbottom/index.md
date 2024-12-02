@@ -22,8 +22,8 @@ NipoPlusではレポート作成時、提出ボタンはレポートの一番下
 2. レポート作成画面でページ下部へスクロールするボタンを配置する にチェックを入れる
 3. レポート作成画面でボタンが表示されていることを確認する
 
-{{<iTablet filename="scrollBottom" msg="スクロールボタンを表示する設定です" alice="ok">}}
+{{<iTablet filename="img/scrollBottom" msg="スクロールボタンを表示する設定です" alice="ok">}}
 
 実際に表示されるか確認するには、レポート作成画面を開く必要があります。レポート作成画面の右下に、▼ボタンが配置されていることを確認してください。
 
-{{<iTablet filename="scrollButton" msg="右下にボタンが出現します" alice="ok">}}
+{{<iTablet filename="img/scrollButton" msg="右下にボタンが出現します" alice="ok">}}

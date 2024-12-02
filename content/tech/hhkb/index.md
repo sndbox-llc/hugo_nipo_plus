@@ -6,7 +6,7 @@ toc = true
 date = "2022-11-14"
 +++
 
-{{<figure src="hhkb.webp"  alt="HHKB外観" caption="HHKB外観" >}}
+{{<figure src="img/hhkb.webp"  alt="HHKB外観" caption="HHKB外観" >}}
 
 ## HHKBそれは打つのが楽しくなるキーボードです{#about_hhkb}
 
@@ -48,7 +48,7 @@ Viエディタの j k l ; によるカーソル移動は私結局なじめませ
 
 ### ControlキーがAキーの左隣にあります。もう小指を無理やり曲げる必要はありません{#control_key_best_position}
 
-{{<figure src="hhkb_ctrl.webp"  alt="HHKBのCtrlキーはAのすぐ左隣に配置されています" caption="HHKBのCtrlキーはAのすぐ左隣に配置されています" >}}
+{{<figure src="img/hhkb_ctrl.webp"  alt="HHKBのCtrlキーはAのすぐ左隣に配置されています" caption="HHKBのCtrlキーはAのすぐ左隣に配置されています" >}}
 
 コントロールキーって非常によく使います。ショートカット操作に必ずついて回りますね。
 
@@ -75,7 +75,7 @@ HHKBはFnキーと組み合わせることでフルキーボードと同様の�
 
 ### Delete / Backspaseキーの位置がEnter Keyの上にあります{#delete_backspace_key}
 
-{{<figure src="hhkb_del.webp"  alt="HHKBのDeleteキーとBackspaseキー" caption="HHKBのDeleteキーとBackspaseキー" >}}
+{{<figure src="img/hhkb_del.webp"  alt="HHKBのDeleteキーとBackspaseキー" caption="HHKBのDeleteキーとBackspaseキー" >}}
 
 HHKB バックスペースキーの位置。非常によく利用するキーがホームポジションから近いのは理にかなっている。なお画像はHHKB BT
 
@@ -97,7 +97,7 @@ JIS配列ならカーソルキーがあるので、まだ救われますがそ�
 一度HHKBになれると、通常の 109キーボードのカーソルキーですら遠く感じます。
 そのくらいインパクトが強いキーボードです。インパクトと言えば、画像でちらほら出ていますが「無刻印」というモデルがあるのもなかなかインパクトがあります。
 
-{{<figure src="hhkb_list.webp"  alt="所有しているHHKB一覧" caption="所有しているHHKB一覧" >}}
+{{<figure src="img/hhkb_list.webp"  alt="所有しているHHKB一覧" caption="所有しているHHKB一覧" >}}
 
 無刻印は画面左下のキーボードですが、文字通りキートップに刻印がありません。（上の写真はいくつかキーキャップを差し替えています）
 刻印が無いことで非常に洗練されたデザインになります

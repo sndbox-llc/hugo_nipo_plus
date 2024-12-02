@@ -20,4 +20,4 @@ NipoPlusでは通信コストを減らすために変化しにくいデータを
 2. 中ほどまでスクロールし「キャッシュクリア」をクリック
 3. 必要に応じてアプリを再起動
 
-{{<iTablet filename="cashclear" msg="キャッシュを消すことで問題が解決します" alice="pc">}}
+{{<iTablet filename="img/cashclear" msg="キャッシュを消すことで問題が解決します" alice="pc">}}

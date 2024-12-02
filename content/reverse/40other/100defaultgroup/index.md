@@ -22,4 +22,4 @@ aliases = ['/function/defaultgroup/']
 2. 起動時にセットするグループのボックスをクリック
 3. デフォルトでセットするグループを選択
 
-{{<iTablet filename="defaultGroup" msg="起動時にセットしたいグループを選んでね" alice="ok">}}
+{{<iTablet filename="img/defaultGroup" msg="起動時にセットしたいグループを選んでね" alice="ok">}}

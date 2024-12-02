@@ -18,11 +18,11 @@ NipoPlusでは様々な検索機能がありますが、通常業務では検索
 2. 検索条件保存をクリック
 3. わかりやすい名前を付けて保存
 
-{{<iTablet filename="searchSave" msg="検索名称はわかりやすいものをつけよう" alice="pc">}}
+{{<iTablet filename="img/searchSave" msg="検索名称はわかりやすいものをつけよう" alice="pc">}}
 
 保存した検索条件は「保存した検索」の欄にボタンとして追加されます。呼び出したいときはボタンをクリックすれば保存した条件で即時検索が行えます。
 
-{{<iTablet filename="useSearch" msg="ワンクリックで簡単検索" alice="pc">}}
+{{<iTablet filename="img/useSearch" msg="ワンクリックで簡単検索" alice="pc">}}
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 日報上に記載された日付を基準に表示されます

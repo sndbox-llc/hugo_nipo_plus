@@ -34,7 +34,7 @@ isNipo = true
 2. グループ管理をクリック
 3. クレジットカード（自動更新有り）をクリック
 
-{{<iTablet filename="subscription" msg="PLANの申し込み（クレジットカード）" alice="ok" >}}
+{{<iTablet filename="img/subscription" msg="PLANの申し込み（クレジットカード）" alice="ok" >}}
 
 1名から申込み可能です。
 画面が切り替わりますので、クレジットカード番号、利用人数、連絡先メールアドレス等を入力してお申し込みください。
@@ -45,7 +45,7 @@ isNipo = true
 人数の変更やサブスクリプションの解約は、全て管理画面上から行えます。
 領収証のダウンロードもVersion10から可能になりました。
 
-{{<iTablet filename="subscription-edit" msg="サブスクリプションの解約や変更はここから操作します" alice="ok" >}}
+{{<iTablet filename="img/subscription-edit" msg="サブスクリプションの解約や変更はここから操作します" alice="ok" >}}
 
 <dl class="basic">
 <dt>カードの変更</dt>
@@ -77,7 +77,7 @@ isNipo = true
 2. グループ管理をクリック
 3. 請求書でお支払いをクリック
 
-{{<iTablet filename="invoice" msg="請求書払いは完全先払いです" alice="ok" >}}
+{{<iTablet filename="img/invoice" msg="請求書払いは完全先払いです" alice="ok" >}}
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 現契約が残っている状態で人数の変更と期間延長を行う際は、現契約の期間分も含めて人数を増やすことになります。請求額は変わりませんが、代わりに残存期間で帳尻合わせが起きるため、申し込まれた期間より短い期間が加算されることが有ります。（１ヶ月で申込したのに実際は15日しか伸びなかったなど）
@@ -87,7 +87,7 @@ isNipo = true
 メールアドレスは正しいアドレスを入力してください。請求書は、入力されたメールアドレス宛に送付されます。
 届いたメールのリンクを開くとオンライン請求書の画面が開きます。
 
-{{<iTablet filename="payment_method" msg="オンライン請求書です" alice="ok">}}
+{{<iTablet filename="img/payment_method" msg="オンライン請求書です" alice="ok">}}
 
 請求書の支払いはクレジットカードか、口座振込が可能です。クレジットカードで支払う場合は即座に決済が完了します。
 口座振込の場合は最長で２営業日ほど時間が掛かります。決済が完了するまで有料プランの延長手続きはされないため、ダウンタイムが発生しないように前もって余裕を持って決済するようにしてください。
@@ -107,7 +107,7 @@ isNipo = true
 3. 「期間の延長・人数の変更」ボタンをクリック
 4. 新しい人数を入力する（変更後の人数を入力します。例えば今10名で5名増やす場合、増減後の 15を入力してください）
 
-{{<iTablet filename="edit-member-limit" msg="人数変更は月3回まで。今まで不可能だった人数減少もできるようになったよ" alice="ok">}}
+{{<iTablet filename="img/edit-member-limit" msg="人数変更は月3回まで。今まで不可能だった人数減少もできるようになったよ" alice="ok">}}
 
 ## 領収証のダウンロード{#receipt}
 
@@ -118,11 +118,11 @@ isNipo = true
 2. オンライン領収証画面が表示される
 3. オンライン領収証画面から「領収証のダウンロード」をクリックする
 
-{{<iTablet filename="receipt1" msg="管理画面から領収証のダウンロード" alice="ok">}}
+{{<iTablet filename="img/receipt1" msg="管理画面から領収証のダウンロード" alice="ok">}}
 
 {{<nextArrow>}}
 
-{{<iTablet filename="receipt2" msg="オンライン領収証からダウンロードできます" alice="ok">}}
+{{<iTablet filename="img/receipt2" msg="オンライン領収証からダウンロードできます" alice="ok">}}
 
 ---
 
@@ -158,7 +158,7 @@ Nipo【旧版】のGOLDPLAN（サブスクリプション）を解約する方�
 3. サブスクリプション情報の中にある「課金を停止」ボタンをクリック
 4. 確認メッセージを確認し、解約を実行する
 
-{{<icatch filename="stop-subscription" msg="「課金を停止」ボタンを押します">}}
+{{<icatch filename="img/stop-subscription" msg="「課金を停止」ボタンを押します">}}
 
 ---
 

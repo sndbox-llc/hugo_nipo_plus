@@ -19,6 +19,6 @@ NipoPlusにはテーマカラーがあります。テーマカラーは「グル
 2. 「テーマカラー」から任意の色のボタンをクリック
 3. 保存ボタンをクリック
 
-{{<iTablet filename="themeColor" msg="テーマカラーを変更してみよう" alice="ok">}}
+{{<iTablet filename="img/themeColor" msg="テーマカラーを変更してみよう" alice="ok">}}
 
 ※色が変わるだけで、機能は同一です

@@ -19,9 +19,9 @@ weight = 21410
 2. セットしたいタグを一覧からクリックする
 3. レポートを提出する
 
-{{<iTablet filename="setTag" msg="クリックするだけでタグを簡単につけられます" alice="pc">}}
+{{<iTablet filename="img/setTag" msg="クリックするだけでタグを簡単につけられます" alice="pc">}}
 
 白抜きになっている状態はセットされたタグです。もう一度クリックするとタグを外せます。
 セットしたタグはレポート一覧に目立つ形で配置されます。
 
-{{<iTablet filename="reportList" msg="タグの付いたレポートは一覧表からもわかるので目立ちます" alice="pc">}}
+{{<iTablet filename="img/reportList" msg="タグの付いたレポートは一覧表からもわかるので目立ちます" alice="pc">}}

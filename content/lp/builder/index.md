@@ -32,7 +32,7 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="template-edit" msg="建設業や建築業、その他様々な業種の日報テンプレートを簡単に自分たちで作成できます"  alice="guide">}}
+{{<icatch filename="img/template-edit" msg="建設業や建築業、その他様々な業種の日報テンプレートを簡単に自分たちで作成できます"  alice="guide">}}
 
 </div>
 </div>
@@ -124,7 +124,7 @@ NipoPlusは、日報の記入漏れを防ぐための強力な機能を備えて
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="work-report" msg="現場の風景や工事案内板を手軽に添付！その後PDF出力も可能"  alice="tablet">}}
+{{<icatch filename="img/work-report" msg="現場の風景や工事案内板を手軽に添付！その後PDF出力も可能"  alice="tablet">}}
 
 </div>
 </div>
@@ -158,7 +158,7 @@ CSVデータを使って基幹システムへデータインポートするこ�
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="chart-created" msg="日報データをもとにリアルタイムでグラフが見れます" alice="ok">}}
+{{<icatch filename="img/chart-created" msg="日報データをもとにリアルタイムでグラフが見れます" alice="ok">}}
 
 </div>
 </div>

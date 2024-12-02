@@ -24,7 +24,7 @@ Maroudはそんなさなかの開発だったので、最初からDayjsを選択
 
 老朽化に伴いMomentの更新はメンテナンスモードとなりますが、未だにMoment.jsの人気はすごいです。
 
-{{<figure src="moment.png"  alt="moment.jsのダウンロード数" caption="moment.jsのダウンロード数" >}}
+{{<figure src="img/moment.png"  alt="moment.jsのダウンロード数" caption="moment.jsのダウンロード数" >}}
 
 moment.jsのダウンロード数。むしろ増えているのでは？
 

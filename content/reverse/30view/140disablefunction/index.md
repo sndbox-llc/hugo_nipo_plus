@@ -20,7 +20,7 @@ NipoPlusはレポート作成が土台ですが、付随してテイムカード
 2. 機能の有効無効セクションまでスクロール
 3. 使用しない機能のチェックをOFFにする
 
-{{<iTablet filename="disableFunction" msg="使わない機能はOFFにするとスッキリ！" alice="ok">}}
+{{<iTablet filename="img/disableFunction" msg="使わない機能はOFFにするとスッキリ！" alice="ok">}}
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
 機能の有効無効はグループ内の全員に同じ内容が反映されます

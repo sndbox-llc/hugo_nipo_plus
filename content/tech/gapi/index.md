@@ -126,7 +126,7 @@ import { defineComponent, onMounted } from '@vue/composition-api';
 
 なかなか見慣れない書き方ですが、TypeScriptの公式にもかいてありました。さて、これでgapiに型が付くようになります。
 
-{{<figure src="gapi_type.png"  alt="GAPIの型定義がVSCode上で認識された" caption="GAPIの型定義がVSCode上で認識された" >}}
+{{<figure src="img/gapi_type.png"  alt="GAPIの型定義がVSCode上で認識された" caption="GAPIの型定義がVSCode上で認識された" >}}
 
 ## gapi is not definedを回避するためのdeclare{#fixed_declare}
 
@@ -146,7 +146,7 @@ declare const gapi: gapi
 これで良さそうに思いますが、どうもうまくいきません。そもそもgapiはnamespaceとして定義されているらしく、この書き方はできないようです。
 せっかく型が決まったのにdeclareを書くとまたany型になってしまいました。
 
-{{<figure src="gapi_any.png"  alt="declareで宣言するとgapiのタイプがanyになってしまう" caption="declareで宣言するとgapiのタイプがanyになってしまう" >}}
+{{<figure src="img/gapi_any.png"  alt="declareで宣言するとgapiのタイプがanyになってしまう" caption="declareで宣言するとgapiのタイプがanyになってしまう" >}}
 
 色々試行錯誤しましたが、とりあえず次のように書くことでTypeScriptさんを説得します。
 

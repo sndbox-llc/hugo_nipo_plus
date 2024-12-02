@@ -32,4 +32,4 @@ date = "2024-10-03"
 1. 左メニュー下部のスライダをドラッグ
 2. 任意のサイズに調整する
 
-{{<iTablet filename="fontsize" msg="文字サイズは12〜24の間で調整できます" alice="pc">}}
+{{<iTablet filename="img/fontsize" msg="文字サイズは12〜24の間で調整できます" alice="pc">}}

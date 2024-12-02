@@ -19,4 +19,4 @@ NipoPlusは一度ログインすると次回からは自動で再ログインさ
 2. ログアウトボタンをクリック
 3. 自動でログイン画面に移動します
 
-{{<iTablet filename="signout" msg="図書館など公共PCでログインしたときはログアウトを忘れずにね" alice="shield">}}
+{{<iTablet filename="img/signout" msg="図書館など公共PCでログインしたときはログアウトを忘れずにね" alice="shield">}}

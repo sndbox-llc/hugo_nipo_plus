@@ -20,7 +20,7 @@ weight = 21220
 3. 「状態：棄却」を選択
 4. 「期間：今月」を選択
 
-{{<iTablet filename="search" msg="提出状況は右上のカレンダーと同じ期間を表示するよ" alice="pc">}}
+{{<iTablet filename="img/search" msg="提出状況は右上のカレンダーと同じ期間を表示するよ" alice="pc">}}
 
 条件にマッチしたレポートが一覧に表示されます。
 

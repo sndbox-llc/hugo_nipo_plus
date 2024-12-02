@@ -21,4 +21,4 @@ weight = 23130
 4. 必要に応じて色を変更
 5. 保存ボタンを押下
 
-{{<iTablet filename="banner" msg="バナーで全員に周知しよう" alice="pc">}}
+{{<iTablet filename="img/banner" msg="バナーで全員に周知しよう" alice="pc">}}

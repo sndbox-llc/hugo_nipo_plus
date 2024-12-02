@@ -18,4 +18,4 @@ date = "2024-10-03"
 2. ログインボタンをクリック
 3. デフォルトで指定されたグループ画面がロードされる
 
-{{<iTablet filename="signin" msg="E-mailとパスワードを入力してログインボタンポチッ" alice="shield">}}
+{{<iTablet filename="img/signin" msg="E-mailとパスワードを入力してログインボタンポチッ" alice="shield">}}

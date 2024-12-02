@@ -43,17 +43,17 @@ npx cap open android
 Android Studioの上部メニューから以下を選択
 Build -> Build Bundle(s) / APK (s)-> Build Bundle(s)
 
-{{<figure src="android-studio-build.png"  alt="AndroidStudioのメニューからBuildBundlesを選びます" caption="AndroidStudioのメニューからBuildBundlesを選びます" >}}
+{{<figure src="img/android-studio-build.png"  alt="AndroidStudioのメニューからBuildBundlesを選びます" caption="AndroidStudioのメニューからBuildBundlesを選びます" >}}
 
 少し待つとビルドが完了します。完了後にビルド後に上部メニューから以下を選択します。
 Build -> Generate Signed Bundle / Apk...
 
-{{<figure src="android-studio-generate-sign-app.png"  alt="署名付きファイルとしてビルドします" caption="署名付きファイルとしてビルドします" >}}
+{{<figure src="img/android-studio-generate-sign-app.png"  alt="署名付きファイルとしてビルドします" caption="署名付きファイルとしてビルドします" >}}
 
 ダイアログボックスが表示されるので「Android App bundle」を選択します。
 署名用鍵などの情報を入力し、Nextボタンをクリックします（※鍵がない場合は同じ画面上から作成できる模様）
 
-{{<figure src="signed-app-bundle.png"  alt="署名用の鍵やエイリアスなどの情報を入力する。一度入力すると次回以降は記録されるので設定自体は最初の1回だけ行えば良い" caption="署名用の鍵やエイリアスなどの情報を入力する。一度入力すると次回以降は記録されるので設定自体は最初の1回だけ行えば良い" >}}
+{{<figure src="img/signed-app-bundle.png"  alt="署名用の鍵やエイリアスなどの情報を入力する。一度入力すると次回以降は記録されるので設定自体は最初の1回だけ行えば良い" caption="署名用の鍵やエイリアスなどの情報を入力する。一度入力すると次回以降は記録されるので設定自体は最初の1回だけ行えば良い" >}}
 
 最後にreleaseを選択して、Finishボタンをクリックします。署名が完了するとsrc-capacitor/android/app/release　の中に app-release.aabが出力されています。
 このAABファイルをAndroid StudioにアップロードすることでAndroid Studioにアプリのリリースが行なえます。

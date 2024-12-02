@@ -22,6 +22,6 @@ date = "2024-10-03"
 2. アカウントに使用するE-mailとパスワードを指定します
 3. 新規作成ボタンをクリック
 
-{{<iTablet filename="signup" msg="初めて利用する際はアカウントを作ってね" alice="shield">}}
+{{<iTablet filename="img/signup" msg="初めて利用する際はアカウントを作ってね" alice="shield">}}
 
 必要な情報はE-mailとパスワードのみです。

@@ -50,7 +50,7 @@ func1:「止まるんじゃねぇぞ。俺は止まらねぇからよ」と。
 
 実際に実行したコンソールログはこんな感じになります
 
-{{<figure src="console-log-screen.png"  alt="async・awaitでエラー時に処理が止まらない" caption="async・awaitでエラー時に処理が止まらない" >}}
+{{<figure src="img/console-log-screen.png"  alt="async・awaitでエラー時に処理が止まらない" caption="async・awaitでエラー時に処理が止まらない" >}}
 
 ## なぜfunc1はエラー発生時に止まらないのか？ try・catchを利用しても止まらない理由{#asyncAwaitTrap}
 
@@ -90,7 +90,7 @@ async function sub() {
 
 この処理の結果コンソールはこのようになります
 
-{{<figure src="error-chatch.png"  alt="async関数の呼び出し元で正しくエラーをキャッチできた" caption="async関数の呼び出し元で正しくエラーをキャッチできた" >}}
+{{<figure src="img/error-chatch.png"  alt="async関数の呼び出し元で正しくエラーをキャッチできた" caption="async関数の呼び出し元で正しくエラーをキャッチできた" >}}
 
 ## そもそもawaitの結果はresolveかrejectと考えれば止まらないのも道理{#asyncAwaitResolveReject}
 
@@ -106,7 +106,7 @@ throw 'なんかやばいことが起きた'
 
 のように文字だけの場合はだめってことです。throw new Error(e)として更に包んでしまうとErrorオブジェクトのなかにErrorオブジェクトという、過剰包装状態になるので注意です。
 
-{{<figure src="over-lap-error.png"  alt="errorオブジェクトをnewErrorで包むと扱いにくくなる" caption="errorオブジェクトをnewErrorで包むと扱いにくくなる" >}}
+{{<figure src="img/over-lap-error.png"  alt="errorオブジェクトをnewErrorで包むと扱いにくくなる" caption="errorオブジェクトをnewErrorで包むと扱いにくくなる" >}}
 
 ## throw したあとでもfinallyは実行されます{#finally_executes_even_after_throw}
 
@@ -136,7 +136,7 @@ async function sub() {
 }
 ```
 
-{{<figure src="console-log-finally.png"  alt="finally句が正常に実行されていることが確認できる" caption="finally句が正常に実行されていることが確認できる" >}}
+{{<figure src="img/console-log-finally.png"  alt="finally句が正常に実行されていることが確認できる" caption="finally句が正常に実行されていることが確認できる" >}}
 
 いかがでしたか？私は最初、async関数の中でエラーが発生した時にエラーメッセージをユーザに通知するだけの処理を書いただけで、throwしなかったため、呼び出し先では「正常終了」の通知がユーザに表示されるというプログラムを書いたことがあります。
 ユーザから見れば「エラー!失敗です」の直後に「正常終了しました」と相反するメッセージが表示されるため、混乱させてしまったと反省しています。

@@ -21,7 +21,7 @@ NipoPlusではレポート作成時に、スタッフがその日報の提出日
 2. ページ末尾までスクロールし、「詳細」をクリック
 3. 作成日（サーバ基準）の日付を見る
 
-{{<iTablet filename="postTime" msg="サーバ基準の日付を見れば本当の時間がわかるよ" alice="pc">}}
+{{<iTablet filename="img/postTime" msg="サーバ基準の日付を見れば本当の時間がわかるよ" alice="pc">}}
 
 ```bash {frame="none"}
 12:50:40(631)

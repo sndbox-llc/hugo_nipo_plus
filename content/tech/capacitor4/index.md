@@ -69,7 +69,7 @@ migrate中にエラーが発生する場合は、エラー内容を確認して�
 java 11を使えということですね。
 Android Studio -> Preferenceを開きます。 Build, Execution, Deploymentを開き、Build tools -> Gradleの順にアクセスします。
 
-{{<figure src="android-studio.png"  alt="AndroidStudioのメニューからBuildBundlesを選びます" caption="AndroidStudioのメニューからBuildBundlesを選びます" >}}
+{{<figure src="img/android-studio.png"  alt="AndroidStudioのメニューからBuildBundlesを選びます" caption="AndroidStudioのメニューからBuildBundlesを選びます" >}}
 
 Gradle JDKを11に修正します。
 修正後に再び同じコマンドを入力します。
@@ -98,7 +98,7 @@ sudo kill -9 <Owner PID>
 
 詳しい原因は不明ですが、ビルドを終えてPlay StoreにUPすると「APIレベル22を対象としています」と表示されます。
 
-{{<figure src="min-sdk-22.png"  alt="アップロード時に警告が表示される" caption="アップロード時に警告が表示される" >}}
+{{<figure src="img/min-sdk-22.png"  alt="アップロード時に警告が表示される" caption="アップロード時に警告が表示される" >}}
 
 以前は「APIレベル30を対象としています」だったのでむしろ悪化したような感じですね。
 valiables.gradleでは以下のようになっています
@@ -140,7 +140,7 @@ android {
 
 これで再度ビルドし、アップロードしたところ無事にAPI Lv31を対象とすることができました。
 
-{{<figure src="android-api-lv-31.png"  alt="API Lv31になりました" caption="API Lv31になりました" >}}
+{{<figure src="img/android-api-lv-31.png"  alt="API Lv31になりました" caption="API Lv31になりました" >}}
 
 ## 最後に{#end}
 

@@ -42,14 +42,14 @@ weight = 510
 3. PDF生成完了を待つ
 4. 完了後にポップで通知
 
-{{<icatch filename="calendar-pdf" msg="カレンダー上に表示されているレポートをワンクリックでまとめてPDFに変換する">}}
+{{<icatch filename="img/calendar-pdf" msg="カレンダー上に表示されているレポートをワンクリックでまとめてPDFに変換する">}}
 
 ## 受信BOXからレポートを一括でPDF出力する{#box}
 
 カレンダーと違い受信BOXではレポートの絞り込み検索が可能です。
 例えばレポートの状態が修正のステータスになっているものだけをPDF出力するといったことができます。
 
-{{<icatch filename="filter-pdf" msg="レポートを個別に選び、一括でPDFに変換する">}}
+{{<icatch filename="img/filter-pdf" msg="レポートを個別に選び、一括でPDFに変換する">}}
 
 ## 個別にPDF出力リストへ追加して一括出力する{#pin}
 
@@ -60,7 +60,7 @@ weight = 510
 1. 「登録分をまとめてダウンロード」をクリックする
 1. ZIPファイルとしてダウンロードされる
 
-{{<icatch filename="add-pdf" msg="PDFに変換したいレポートをリストに追加する">}}
+{{<icatch filename="img/add-pdf" msg="PDFに変換したいレポートをリストに追加する">}}
 
 ## ダウンロードしたZipファイルが文字化けする？{#text_shaking}
 

@@ -15,7 +15,7 @@ weight = 710
 [レポート保存箱](/docs/manual/read-report/list/#listbox)と[予定管理](/docs/manual/event/list/)、２つの機能を一箇所で管理できます。
 カレンダを表示するには左メニューから「カレンダー」を選択します。
 
-{{<icatch filename="calendar" msg="カレンダーモードではレポートの提出日や枚数が月単位で俯瞰できます"  alice="here">}}
+{{<icatch filename="img/calendar" msg="カレンダーモードではレポートの提出日や枚数が月単位で俯瞰できます"  alice="here">}}
 
 カレンダは[レポート保存箱](/docs/manual/read-report/list/#listbox)にあるレポートを決まったルールで各セルに描画します。
 予定についても同様で、決まったルールで各セルに描画します。各セルにあるボタンをクリックすることで、該当のレポートや予定をポップアップで表示します。

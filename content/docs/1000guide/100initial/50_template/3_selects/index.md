@@ -33,13 +33,13 @@ NipoPlusでは以下の種類があります。
 | 選択入力（２層） |                 ⭕                  |                   ⭕                   |                          ⭕                           |                             ✗                             |
 | チェックボックス |                 ⭕                  |                   ⭕                   |                          ⭕                           |                             ✗                             |
 
-{{<icatch filename="add-select-parts" msg="左のパーツリストから選択入力をクリックで追加します。茶色系のボタンが選択系です">}}
+{{<icatch filename="img/add-select-parts" msg="左のパーツリストから選択入力をクリックで追加します。茶色系のボタンが選択系です">}}
 
 ---
 
 ## 選択式入力 単体回答{#plain}
 
-{{<icatch filename="eye-catch" msg="選ぶだけの簡単入力♫タブレットやスマホと相性抜群です" alice="phone">}}
+{{<icatch filename="img/eye-catch" msg="選ぶだけの簡単入力♫タブレットやスマホと相性抜群です" alice="phone">}}
 
 複数の回答から1つだけ選ばせたいときに利用してください。機器点検における機器の大まかな状態表示などに適しています
 （正常・異常・休止など）
@@ -82,7 +82,7 @@ NipoPlusでは以下の種類があります。
 選択式フォームは集計・グラフ化が可能です。単語が選ばれた回数を自動集計し、円グラフや棒グラフとして表示できます。
 選択式の単語に数字が含まれていれば**数値として集計**やグラフ化できます。
 たとえば次のような選択肢は集計もグラフ化もできます。
-{{<icatch filename="num-select"  msg="選択肢は単語ですが数値に置き換えてグラフ化することも可能です" alice="ok"  >}}
+{{<icatch filename="img/num-select"  msg="選択肢は単語ですが数値に置き換えてグラフ化することも可能です" alice="ok"  >}}
 
 </details>
 
@@ -125,7 +125,7 @@ NipoPlusでは以下の種類があります。
 
 こちらは回答から複数個選択することができるタイプです。見た目はチェックボックスが並んだような表示形式になります。
 
-{{<icatch filename="select2" msg="選ぶだけの簡単入力（複数選択可）♫タブレットやスマホと相性バツグンです"  alice="tablet">}}
+{{<icatch filename="img/select2" msg="選ぶだけの簡単入力（複数選択可）♫タブレットやスマホと相性バツグンです"  alice="tablet">}}
 
 使い方についてはほとんど選択肢単回答と同じです。CSV出力時の形式のみ異なります。
 
@@ -184,7 +184,7 @@ graph LR;
 ### 選択肢（2層式）の初期設定{#settingSelectCalc}
 
 問１のリストと問２のリストを作成する必要があるため初期設定は少し手間がかかります。
-{{<icatch filename="template" msg="2層式はあまりおすすめできないかな？動的変化を使ったほうがいいかも？" alice="question">}}
+{{<icatch filename="img/template" msg="2層式はあまりおすすめできないかな？動的変化を使ったほうがいいかも？" alice="question">}}
 
 質問1の選択肢を追加するごとに、質問2の選択肢欄も自動で追加されていきます。
 以下は本入力フォームにのみ存在する設定項目です
@@ -268,7 +268,7 @@ graph LR;
 
 ## チェックボックス入力{#checkbox}
 
-{{<icatch filename="input-method-checkbox" msg="チェックボックス入力フォームはYES・NO 2択で答えるのに便利です" alice="ok">}}
+{{<icatch filename="img/input-method-checkbox" msg="チェックボックス入力フォームはYES・NO 2択で答えるのに便利です" alice="ok">}}
 
 チェックボックスフォームの設定は以下の通り。
 
@@ -302,7 +302,7 @@ graph LR;
 <details>
   <summary>グラフ化</summary>
 
-{{<icatch filename="pie-charts" msg="チェックボックスのデータを円グラフにしたイメージ">}}
+{{<icatch filename="img/pie-charts" msg="チェックボックスのデータを円グラフにしたイメージ">}}
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
@@ -352,7 +352,7 @@ graph LR;
 例として、地域に「北関東」を選ぶと支店の選択肢が「栃木県宇都宮支店・栃木県栃木市支店・栃木県日光支店」に変化するような小細工ができます。
 下の画像がイメージしやすいでしょう▼
 
-{{<icatch filename="dinamic-selection" msg="他の入力結果に応じて選択肢のリストを動的に変化できます" alice="ok">}}
+{{<icatch filename="img/dinamic-selection" msg="他の入力結果に応じて選択肢のリストを動的に変化できます" alice="ok">}}
 
 このように回答に応じて次の回答を変えることで、より柔軟で独創的なレポートフォームを作ることがプログラマ不在でも作れます。
 
@@ -376,7 +376,7 @@ graph LR;
 
 例えば[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)（単）を参照先として指定するには次の画像のようになります。
 
-{{<iTablet filename="dinamic-selection-setting" msg="他のデータによって自分のデータを変化させることができるよ。まるでプログラマみたい" alice="pc">}}
+{{<iTablet filename="img/dinamic-selection-setting" msg="他のデータによって自分のデータを変化させることができるよ。まるでプログラマみたい" alice="pc">}}
 
 [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#multiple)（複）を参照先として指定する場合、参照先の値は複数選択することになりますが、**すべてにマッチしたとき条件が成立**となります。一部一致ではありません。
 
@@ -390,7 +390,7 @@ graph LR;
 [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)を動的変化させるには、トリガーとなるための参照先フォームが必要です。極端な話、テンプレート内にフォームが１個しかない場合、そもそも参照する対象が無いため利用できません。
 条件を満たしていないとき、動的変化の画面には「このテンプレートでは動的変化をつかう条件を満たしていません」と表示され、追加ボタンが表示されなくなります。
 
-{{<icatch filename="disable-dinamic" msg="なんで利用できないのかな？条件をよく見直してみよう"  alice="question">}}
+{{<icatch filename="img/disable-dinamic" msg="なんで利用できないのかな？条件をよく見直してみよう"  alice="question">}}
 
 動的変化を使用する具体的な条件は以下のとおりです。
 
@@ -404,7 +404,7 @@ graph LR;
 
 Version 1.62.0から動的変化を反復入力と組み合わせて使用できるようになりました。反復入力内で動的変化を使う際は通常の変化と異なり、変化の監視対象が同じ反復入力フォーム内の同じ行のデータに依存します。
 
-{{<iTablet filename="dinamicValiable" msg="訪問先エリアを監視対象にしたらその行ごとに動的変化するよ" alice="ok">}}
+{{<iTablet filename="img/dinamicValiable" msg="訪問先エリアを監視対象にしたらその行ごとに動的変化するよ" alice="ok">}}
 
 １行目の訪問先エリア「北関東」が選ばれたとすると、１行目の動的変化は「北関東」を基準として処理が行われます。2行目の訪問先エリアに違う値を選んだとしても、１行目には影響しません。それぞれの行が独立して動的変化を起こします。
 反復入力内の選択肢しか監視対象に指定できません。

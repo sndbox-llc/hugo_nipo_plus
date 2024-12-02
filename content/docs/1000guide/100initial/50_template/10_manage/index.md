@@ -26,7 +26,7 @@ weight = 160
 1. 元のテンプレート名＋【コピー】という名称でコピーが作られる
 1. コピーされたテンプレートを編集する
 
-{{<icatch filename="copy" msg="コピーしたいテンプレートの行で「コピー」ボタンをクリックします" alice="here">}}
+{{<icatch filename="img/copy" msg="コピーしたいテンプレートの行で「コピー」ボタンをクリックします" alice="here">}}
 
 コピーしてもテンプレートのIDは異なるためシステム上は別のテンプレートとして振る舞います。
 
@@ -39,7 +39,7 @@ weight = 160
 1. 取り込み先グループに存在するテンプレートが一覧で表示される
 1. 取り込みたいテンプレートをクリック
 
-{{<icatch filename="import" msg="他グループのテンプレートを取り込めばいちいち同じのを2個作る手間が省けるね" alice="book">}}
+{{<icatch filename="img/import" msg="他グループのテンプレートを取り込めばいちいち同じのを2個作る手間が省けるね" alice="book">}}
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 取り込み先グループ一覧には**自分が所属しているグループしか表示されない**ことに注意してください
@@ -53,9 +53,9 @@ Nipo【旧版】（緑色のロゴマークのやつです）からNipoPlusへ�
 
 {{< details "インポート手順" >}}
 まずNipo【旧版】を開き、設定画面からテンプレートをエクスポートします。
-{{<iTablet filename="legacyTemplate-export" msg="旧バージョンのNipoから操作します" alice="here">}}
+{{<iTablet filename="img/legacyTemplate-export" msg="旧バージョンのNipoから操作します" alice="here">}}
 続いてNipoPlusを起動し、テンプレート設定画面を開きます。
-{{<iTablet filename="legacyTemplate-import" msg="旧NipoのテンプレートをNipoPlusへインポートします" alice="here">}}
+{{<iTablet filename="img/legacyTemplate-import" msg="旧NipoのテンプレートをNipoPlusへインポートします" alice="here">}}
 数秒ほどで解析が完了し、テンプレート一覧が表示されます。
 プレビューボタンを押すと実際にレポート作成画面をポップアップで確認できます。
 取り込みボタンを押すとNipoPlusへ取り込みが実行されます。（取り込まれたテンプレートは一覧から削除されます。）
@@ -87,7 +87,7 @@ Nipo【旧版】（緑色のロゴマークのやつです）からNipoPlusへ�
 1. 無効化されたテンプレート一覧から削除をクリックする
 1. 確認メッセージを確認の上「OK」ボタンをクリック
 
-{{<icatch filename="disable-template" msg="テンプレートを削除するにはテンプレートを無効化後に削除という２段階の処理を行います">}}
+{{<icatch filename="img/disable-template" msg="テンプレートを削除するにはテンプレートを無効化後に削除という２段階の処理を行います">}}
 
 「無効化されたテンプレート」一覧に移動します。ここから完全に削除したいテンプレートを選び「完全に削除」ボタンをクリックします。
 
@@ -96,7 +96,7 @@ Nipo【旧版】（緑色のロゴマークのやつです）からNipoPlusへ�
 前述の通り、削除したテンプレートを使用して作成された過去のレポートはそのレイアウト情報が消失してしまうため、体裁を保つことができなくなります。
 レイアウト情報がなくなることでレポートは次のような表示に切り替わります。
 
-{{<icatch filename="report-raw-data" msg="テンプレートが無いと暗号みたいになっちゃうね？✗ボタンで消してね▶" alice="question">}}
+{{<icatch filename="img/report-raw-data" msg="テンプレートが無いと暗号みたいになっちゃうね？✗ボタンで消してね▶" alice="question">}}
 
 提出日やタグといった情報が確認できます。レポート本文のデータは生データの形で出力されますが、非常に読みにくくなることがわかります。
 

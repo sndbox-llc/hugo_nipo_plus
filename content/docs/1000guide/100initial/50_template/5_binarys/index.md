@@ -34,7 +34,7 @@ weight = 155
 
 左パネルからクリックしてバイナリファイルをレポートのテンプレートに追加できます。
 
-{{<icatch filename="add-binary" msg="左のパーツリストからバイナリ関係のパーツを追加します。緑色がバイナリ系です">}}
+{{<icatch filename="img/add-binary" msg="左のパーツリストからバイナリ関係のパーツを追加します。緑色がバイナリ系です">}}
 
 ## 署名・イラストフォーム{#sign}
 
@@ -44,7 +44,7 @@ weight = 155
 
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#sign)
 
-{{<figure src="use-stylus-pen.webp"  alt="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" caption="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" >}}
+{{<figure src="img/use-stylus-pen.webp"  alt="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" caption="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" >}}
 
 スタイラスペンや指でキャンバスに自由に描くことができます。顧客からの受領サインが必要な場合や、手書きのイラストが必要な場合に便利です。
 [特設記事](/tips/mobile-device/#draw_sign)も御覧ください
@@ -65,7 +65,7 @@ weight = 155
 
 描かれたデータはレポート内に埋め込まれます。大きさはレポートのテンプレートによって変化します。
 
-{{<icatch filename="sign-post" msg="テンプレートの幅によって大きさが変わって見えます" alice="here">}}
+{{<icatch filename="img/sign-post" msg="テンプレートの幅によって大きさが変わって見えます" alice="here">}}
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 あくまで縮小されるだけでもとの署名データは同一です
@@ -81,7 +81,7 @@ weight = 155
 
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#picture)
 
-{{<icatch filename="posted1" msg="スマホならカメラでパシャ。そのまま添付のお手軽さ"  alice="phone">}}
+{{<icatch filename="img/posted1" msg="スマホならカメラでパシャ。そのまま添付のお手軽さ"  alice="phone">}}
 
 レポートに画像ファイルを添付できます。
 画像ファイルは1枚あたり5MBまで、合計10枚までアップロードできます。
@@ -123,7 +123,7 @@ PDF出力を前提とする場合、写真入力フォームの幅は最低で�
 
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#file)
 
-{{<icatch filename="file-post" msg="添付されたファイルはクリックしてローカルにダウンロードして使用できます" alice="ok">}}
+{{<icatch filename="img/file-post" msg="添付されたファイルはクリックしてローカルにダウンロードして使用できます" alice="ok">}}
 
 レポートにファイルを添付できるフォームを追加できます。1つのファイルにつき1MB、最大で10ファイルまでファイルを添付できます。
 ファイルの追加はファイル入力フォームをクリックまたはフォーム上にドロップします。
@@ -147,7 +147,7 @@ PDF出力を前提とする場合、写真入力フォームの幅は最低で�
 レポートをCSV出力する際に、写真や署名、ファイルのデータをセットでダウンロードすることができます。
 ダウンロードするには[CSV出力のオプション設定](/docs/manual/analytics/csvoption/)から「写真・ファイル等を出力する」をONにします。
 
-{{<icatch filename="file-download" msg="デフォルトではファイルDLがOFFなので手動でONにする必要があります" alice="book">}}
+{{<icatch filename="img/file-download" msg="デフォルトではファイルDLがOFFなので手動でONにする必要があります" alice="book">}}
 
 写真、ファイルの出力がONの場合、CSVファイルとは別のフォルダにファイルとして格納されます。
 ダウンロード時のファイル形式はZIPになるため、別途解凍ソフトをご用意ください。（とはいえ、昨今のOSはデフォルトで備えているので別途用意する必要性は減りました）

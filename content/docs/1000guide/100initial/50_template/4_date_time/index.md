@@ -8,7 +8,7 @@ weight = 154
 # tags = ["テンプレートパーツ", "テンプレート"]
 +++
 
-{{<icatch filename="date-time" msg="日付や時刻、期間等を入力するにはこれが一番！" alice="here">}}
+{{<icatch filename="img/date-time" msg="日付や時刻、期間等を入力するにはこれが一番！" alice="here">}}
 
 ## 概要{#about}
 
@@ -34,7 +34,7 @@ weight = 154
 
 ### 日付と時刻（時点）フォームの初期設定{#settingDatetime}
 
-{{<icatch filename="datetime-template-edit" msg="左のパーツリストから日付と時刻を追加します">}}
+{{<icatch filename="img/datetime-template-edit" msg="左のパーツリストから日付と時刻を追加します">}}
 
 追加するにはサイドメニューから「日付と時刻」をクリックします。
 日付のみ・時間のみ、などの設定は初期設定で設定できます。入力方法はキーボードから直接打つ方法のほか、カレンダーや時計マークから入力する方法がありますので、好みに応じて使い分けができます。
@@ -86,7 +86,7 @@ weight = 154
 
 作業にかかった時間や日数を入力するのに最適のフォームです。
 
-{{<icatch filename="datetimes-icatch" msg="作業時間や期間、日付の計算も可能です"  alice="ok">}}
+{{<icatch filename="img/datetimes-icatch" msg="作業時間や期間、日付の計算も可能です"  alice="ok">}}
 
 | [集計可否](/docs/manual/analytics/) | [CSV出力](/docs/manual/analytics/csv/) | [PDF出力](/docs/manual/read-report/state/#pdf_export) | [文字検索](/docs/manual/read-report/list/#searchFunction) |
 | :---------------------------------: | :------------------------------------: | :---------------------------------------------------: | :-------------------------------------------------------: |
@@ -140,7 +140,7 @@ weight = 154
 期間は時間のため集計が可能です。集計は単位が分に統一されることに注意してください。
 例えば10:00 - 11:30は1時間半ですが集計上は 90(分)となります。
 
-{{<icatch filename="charts" msg="期間のデータ（単位：分）を使って棒グラフを作成してみました。色々できるよ。試してみてね" alice="ok">}}
+{{<icatch filename="img/charts" msg="期間のデータ（単位：分）を使って棒グラフを作成してみました。色々できるよ。試してみてね" alice="ok">}}
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 

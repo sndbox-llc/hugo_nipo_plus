@@ -43,7 +43,7 @@ graph LR;
 例えば製造部では品質管理に関するテンプレートだけが表示されますので、見通しの良い管理が可能になります。
 特に日常業務でテンプレートを選ぶ回数は多いため、すぐに見つけられるように適切にグループ分けを行うと良いです。
 
-{{<icatch filename="group" msg="レポートのテンプレートはグループ単位で利用可能です" alice="here">}}
+{{<icatch filename="img/group" msg="レポートのテンプレートはグループ単位で利用可能です" alice="here">}}
 
 </details>
 
@@ -68,7 +68,7 @@ graph LR;
 - 幅12で1行になります。12を超えた入力フォームは自動で次の行に回り込みます。
 - スマートフォンの場合、幅は無視されすべて直列で表示されます。
 
-{{<icatch filename="template" msg="入力フォームを自由に組み合わせるだけでオリジナルのレポートテンプレートを簡単に作成できます">}}
+{{<icatch filename="img/template" msg="入力フォームを自由に組み合わせるだけでオリジナルのレポートテンプレートを簡単に作成できます">}}
 
 ### 空っぽのテンプレートを作る{#make_template}
 
@@ -81,14 +81,14 @@ graph LR;
 
 名前入力を終えるとテンプレート作成画面へ切り替わります。
 
-{{<icatch filename="make-template" msg="まずは空っぽのテンプレートを作りましょう" alice="book">}}
+{{<icatch filename="img/make-template" msg="まずは空っぽのテンプレートを作りましょう" alice="book">}}
 
 ### テンプレートの編集画面{#template_edit}
 
 テンプレート作成画面は下画像のような構成です。
 左パネルに入力フォームリストがあり、右パネルには実際の編集画面が表示されます。
 
-{{<iTablet filename="edittemplate" msg="左側のパーツリストからクリックしてテンプレートに追加していく作業を繰り返します" alice="book">}}
+{{<iTablet filename="img/edittemplate" msg="左側のパーツリストからクリックしてテンプレートに追加していく作業を繰り返します" alice="book">}}
 
 具体的な作業は以下の繰り返しです。
 
@@ -122,7 +122,7 @@ graph LR;
 
 NipoPlusでは様々な入力フォームがあります。すべての入力フォームで共通で利用できる設定を共通設定項目と言います。例えばタイトルなどが該当します。
 
-{{<icatch filename="common-settings" msg="色分けとか説明画像はほとんどのパーツで使える共通項目です" alice="here">}}
+{{<icatch filename="img/common-settings" msg="色分けとか説明画像はほとんどのパーツで使える共通項目です" alice="here">}}
 
 共通設定は次のとおりです
 
@@ -148,20 +148,20 @@ NipoPlusでは様々な入力フォームがあります。すべての入力フ
 
 例えば色や説明用画像をセットすると次のように華やかなテンプレートになります。
 
-{{<icatch filename="common-preview" msg="色分けや説明画像があると見やすいテンプレートになりますね" alice="ok">}}
+{{<icatch filename="img/common-preview" msg="色分けや説明画像があると見やすいテンプレートになりますね" alice="ok">}}
 
 ### プレビューでテンプレートの構成を確認する{#preview}
 
 ヘッダーエリアにある「プレビュー」ボタンを押すとポップアップでプレビューを表示できます。
 実際に入力することも可能です。操作イメージを確認しながらテンプレートを作り上げてください。
 
-{{<icatch filename="preview" msg="プレビューを見れば作成中のテンプレートの具体的なイメージが掴めます">}}
+{{<icatch filename="img/preview" msg="プレビューを見れば作成中のテンプレートの具体的なイメージが掴めます">}}
 
 ### 入力フォームを削除する{#removeForm}
 
 テンプレート編集から削除したいフォームの右下にあるゴミ箱アイコンをクリックして削除できます。
 
-{{<icatch filename="removeForm" msg="レポートテンプレートから不要な入力フォームを削除してみましょう" alice="guide">}}
+{{<icatch filename="img/removeForm" msg="レポートテンプレートから不要な入力フォームを削除してみましょう" alice="guide">}}
 
 これで削除が完了しました。
 
@@ -178,7 +178,7 @@ NipoPlusでは様々な入力フォームがあります。すべての入力フ
 <details>
   <summary>補足情報詳細</summary>
 
-{{<icatch filename="header" msg="文書番号プレフィックや、メモなど補足的な事項を設定できます">}}
+{{<icatch filename="img/header" msg="文書番号プレフィックや、メモなど補足的な事項を設定できます">}}
 
 <dl class="basic">
   <dt>メモ</dt>
@@ -207,18 +207,18 @@ NipoPlusでは様々な入力フォームがあります。すべての入力フ
 1. 右列に追加される（右列は順序指定されたフォームです）
 1. プレビューを使い動きを確認する
 
-{{<icatch filename="order1" msg="入力の並び順を指定することで手順スキップを物理的に防ぐことが可能です" alice="shield">}}
+{{<icatch filename="img/order1" msg="入力の並び順を指定することで手順スキップを物理的に防ぐことが可能です" alice="shield">}}
 
 設定画面がポップアップで表示されます。
 {{<nextArrow>}}
 
 左の一覧から順序指定する項目の＋ボタンをクリックして右列へ追加します。
-{{<icatch filename="order2" msg="水色のカードが並び順制御する項目です">}}
+{{<icatch filename="img/order2" msg="水色のカードが並び順制御する項目です">}}
 
 右側のリストの上から順に入力の制御が行われます。ただしく動作するかをプレビューを使い確認してください
 {{<nextArrow>}}
 
-{{<icatch filename="order-preview" msg="入力の並び順を指定した入力イメージをプレビューで確認してみましょう">}}
+{{<icatch filename="img/order-preview" msg="入力の並び順を指定した入力イメージをプレビューで確認してみましょう">}}
 
 </details>
 

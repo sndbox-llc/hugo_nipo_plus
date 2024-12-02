@@ -19,7 +19,7 @@ weight = 152
 | :---------------------------------: | :------------------------------------: | :---------------------------------------------------: | :-------------------------------------------------------: |
 |                  ✗                  |                   ⭕                   |                          ⭕                           |                            ⭕                             |
 
-{{<icatch filename="input-method-keyboard" msg="文字入力フォームはレポートの本文や引き継ぎの入力に最適だよ" alice="ok">}}
+{{<icatch filename="img/input-method-keyboard" msg="文字入力フォームはレポートの本文や引き継ぎの入力に最適だよ" alice="ok">}}
 
 ## 追加の手順{#addForm}
 
@@ -27,7 +27,7 @@ weight = 152
 2. フォームリストから文字入力をクリックして追加
 3. 必要に応じて設定を行う
 
-{{<icatch filename="template-edit-text" msg="テキスト入力をテンプレートに追加した画面イメージです" alice="here">}}
+{{<icatch filename="img/template-edit-text" msg="テキスト入力をテンプレートに追加した画面イメージです" alice="here">}}
 
 ## 設定{#settings}
 

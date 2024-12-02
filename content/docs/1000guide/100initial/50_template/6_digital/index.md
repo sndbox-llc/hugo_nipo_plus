@@ -36,14 +36,14 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 数値系の入力フォームはテンプレート編集画面の左パネルから追加できます
 
-{{<icatch filename="add-parts-num" msg="数値入力フォームをテンプレートに追加してみよう" alice="here">}}
+{{<icatch filename="img/add-parts-num" msg="数値入力フォームをテンプレートに追加してみよう" alice="here">}}
 
 ## 通常の数値入力{#commonNumber}
 
 最も普通な数値の入力フォームをレポートに追加できます。小数点や負数もOK。「円・キロ」などの単位も任意に設定できます。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#number)
 
-{{<icatch filename="math-input" msg="金額や距離・個数など、数値の入力に最適" alice="ok">}}
+{{<icatch filename="img/math-input" msg="金額や距離・個数など、数値の入力に最適" alice="ok">}}
 
 <details>
   <summary>数値入力フォーム詳細設定</summary>
@@ -72,7 +72,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリアルタイムにグラフ化できます。
 
-{{<icatch filename="math_charts" msg="数値のデータをグラフ化してみたよ">}}
+{{<icatch filename="img/math_charts" msg="数値のデータをグラフ化してみたよ">}}
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
@@ -102,7 +102,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 ネットショップやレビューでおなじみの★を使った入力フォームです。星の上限は変更可能です。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#rate)
 
-{{<icatch filename="input-rating" msg="レビューでおなじみ ☆☆★★★風な入力方式です。NipoPlusも高評価よろしくね"  alice="please">}}
+{{<icatch filename="img/input-rating" msg="レビューでおなじみ ☆☆★★★風な入力方式です。NipoPlusも高評価よろしくね"  alice="please">}}
 
 レートはPDFに出力可能ですが、使用可能フォントの関係上★などのアイコンの代わりに●と◯で代用されます。
 
@@ -139,7 +139,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 レート入力の結果をグラフにした例
 
-{{<icatch filename="rate-charts" msg="レポートに含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
+{{<icatch filename="img/rate-charts" msg="レポートに含まれるレートのデータを使って円グラフや折れ線グラフを作成できます">}}
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
@@ -182,7 +182,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 上限、下限があるため、一定の範囲内に収まる数値入力に限定されます
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#slider)
 
-{{<icatch filename="slider-input" msg="つまみをスライドさせて数値の入力ができます。キーボード不要のお手軽数値入力" alice="ok">}}
+{{<icatch filename="img/slider-input" msg="つまみをスライドさせて数値の入力ができます。キーボード不要のお手軽数値入力" alice="ok">}}
 
 用途としては次のようなものがあります
 
@@ -228,7 +228,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 <details>
   <summary>グラフ化</summary>
 
-{{<icatch filename="slider_charts" msg="スライダフォームのデータをグラフ化してみたよ">}}
+{{<icatch filename="img/slider_charts" msg="スライダフォームのデータをグラフ化してみたよ">}}
 
 </details>
 
@@ -253,7 +253,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 用途としては最低水温〜最高水温など、用途がやや限定的なフォームです。
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#range)
 
-{{<icatch filename="range-input" msg="最低〜最大など 範囲の数値入力に" alice="ok">}}
+{{<icatch filename="img/range-input" msg="最低〜最大など 範囲の数値入力に" alice="ok">}}
 
 <details>
   <summary>範囲入力フォーム詳細設定</summary>
@@ -301,7 +301,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 ## 算術フォーム{#calc}
 
-{{<icatch filename="calc-icatch" msg="簡単な四則演算ができる特殊なフォームです。自動で入力されるから手動入力はできないよ"  alice="pc">}}
+{{<icatch filename="img/calc-icatch" msg="簡単な四則演算ができる特殊なフォームです。自動で入力されるから手動入力はできないよ"  alice="pc">}}
 
 算術フォームは他のフォームと大きく異なります。
 
@@ -313,7 +313,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 最も重要なのは計算式を正しく作成することです。
 
-{{<icatch filename="make-fomula" msg="正しい計算式を作ってあげてね" alice="guide">}}
+{{<icatch filename="img/make-fomula" msg="正しい計算式を作ってあげてね" alice="guide">}}
 
 計算式に使えるエレメントは以下の通り
 

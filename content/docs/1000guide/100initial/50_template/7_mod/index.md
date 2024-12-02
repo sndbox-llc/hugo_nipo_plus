@@ -15,7 +15,7 @@ weight = 157
 
 テンプレートの入力フォーム一覧から「在庫」を追加してください。
 
-{{<icatch filename="modFormAdd" msg="テンプレートの編集画面から在庫フォームをクリックして追加します">}}
+{{<icatch filename="img/modFormAdd" msg="テンプレートの編集画面から在庫フォームをクリックして追加します">}}
 
 商品入力フォームを使うには予め商品データを登録しておく必要があります。詳しくは[商品登録](/docs/manual/initial-setting/advanced-setting/point/)についてを参照してください。
 [実際の入力イメージ](/docs/manual/write-report/parts/#item)はこちらからご確認ください。
@@ -24,7 +24,7 @@ weight = 157
 
 商品入力フォームを含んだレポートは次のように表示されます。
 
-{{<icatch filename="itemReport" msg="レポートを受け取ったときの画面イメージ">}}
+{{<icatch filename="img/itemReport" msg="レポートを受け取ったときの画面イメージ">}}
 
 在庫が増えた場合は＋、減った場合はーで表示されます。
 今現在の在庫総数はレポート上には表示されませんが、「詳細を見る」ボタンをクリックすることで確認が可能です。

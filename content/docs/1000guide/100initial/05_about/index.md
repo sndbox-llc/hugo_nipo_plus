@@ -43,7 +43,7 @@ graph TD;
 
 1. NipoPlusにログイン後、[左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 
-{{<iTablet filename="company" msg="組織設定画面では組織内のスタッフとグループを管理できるよ" alice="ok">}}
+{{<iTablet filename="img/company" msg="組織設定画面では組織内のスタッフとグループを管理できるよ" alice="ok">}}
 
 アプリ画面からも、組織に1名のアカウントと1つのグループが登録されていることが確認できます。
 
@@ -59,7 +59,7 @@ graph TD;
 
 グループを分けることで下画像のように、簡単にグループを切り替えて作業ができます。
 
-{{<icatch filename="switch-group" msg="作業グループを複数作成作って使い分けると色々便利ですよ" alice="guide">}}
+{{<icatch filename="img/switch-group" msg="作業グループを複数作成作って使い分けると色々便利ですよ" alice="guide">}}
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 最低でも１つのグループは運用上必須となります

@@ -68,7 +68,7 @@ weight = 111
 
 組織設定ボタンは画面左上に配置されます。
 
-{{<icatch filename="admin" msg="管理者だけメニューに「組織設定」が表示されます" alice="here">}}
+{{<icatch filename="img/admin" msg="管理者だけメニューに「組織設定」が表示されます" alice="here">}}
 
 </div>
 
@@ -78,7 +78,7 @@ weight = 111
 テンプレートの作成やグループ内で使用されるタグの作成など、グループ全般の設定を行うリーダー的なポジションです。
 
 {{< details "画面を表示する" >}}
-{{<icatch filename="manager" msg="編集者の画面では「組織設定」が表示されません" alice="ok">}}
+{{<icatch filename="img/manager" msg="編集者の画面では「組織設定」が表示されません" alice="ok">}}
 {{< /details >}}
 
 ### スタッフ権限{#staff}
@@ -86,7 +86,7 @@ weight = 111
 一般的なアカウントです。基本設定を操作することはできません。日常業務でレポートの作成や、他のスタッフが書いたレポートを閲覧、集計するといった操作が可能です。
 
 {{< details "画面を表示する" >}}
-{{<icatch filename="staff" msg="スタッフと書き込みのみ権限は設定に関するメニューが見えないよ" alice="book">}}
+{{<icatch filename="img/staff" msg="スタッフと書き込みのみ権限は設定に関するメニューが見えないよ" alice="book">}}
 {{< /details >}}
 
 ### 書き込みのみ{#writer}
@@ -98,5 +98,5 @@ weight = 111
 本当に書き込みだけで良い場合に使用します。自分の書いたレポートを見返すこともできないため、用途としては限定的ですが、極限までシンプルに切り詰めたメニューになるためITに苦手な意識をもっている従業員の方にとっては有益かもしれません。
 
 {{< details "画面を表示する" >}}
-{{<icatch filename="guest" msg="ゲストはできることが少ない＝ボタンが少なくて見やすいね" alice="ok">}}
+{{<icatch filename="img/guest" msg="ゲストはできることが少ない＝ボタンが少なくて見やすいね" alice="ok">}}
 {{< /details >}}

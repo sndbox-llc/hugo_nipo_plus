@@ -26,12 +26,12 @@ weight = 113
 1. 操作したいスタッフの行にある「所属グループ」をクリック
 1. グループ一覧が表示されるので所属させるグループをクリック
 
-{{<icatch filename="join" msg="組織のスタッフをそれぞれのグループに所属させましょう" alice="book">}}
+{{<icatch filename="img/join" msg="組織のスタッフをそれぞれのグループに所属させましょう" alice="book">}}
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 グループに所属するとグループの管理画面にそのスタッフ名が追加されます。次の画像は[グループ内のスタッフ](/docs/manual/initial-setting/staff-local/_about/)一覧画面の例です。
 
-{{<icatch filename="group-member" msg="グループ内から見た所属スタッフの一覧画面です" alice="here">}}
+{{<icatch filename="img/group-member" msg="グループ内から見た所属スタッフの一覧画面です" alice="here">}}
 
 組織のスタッフ管理（現在ご覧のページです）と[グループ内のスタッフ管理](/docs/manual/initial-setting/staff-local/_about/)とは似ていますが別物です。
 
@@ -46,7 +46,7 @@ weight = 113
 1. 編集ウインドウが表示される
 1. データを書き変える
 
-{{<icatch filename="staff-edit" msg="スタッフの名前や権限・メモを変更するにはそれぞれのデータをクリックしてください" alice="here">}}
+{{<icatch filename="img/staff-edit" msg="スタッフの名前や権限・メモを変更するにはそれぞれのデータをクリックしてください" alice="here">}}
 
 <dl class="basic">
 <dt>名前・ふりがな</dt>

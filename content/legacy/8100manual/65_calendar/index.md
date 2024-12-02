@@ -6,8 +6,7 @@ description = "カレンダーは予定を管理するだけではありませ�
 toc = true
 weight = 8165
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

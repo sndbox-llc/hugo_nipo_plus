@@ -6,8 +6,6 @@ lead = "スタッフアカウントを作りグループに所属させればす
 toc = true
 weight = 112
 # tags = ["要管理者権限", "スタッフアカウント管理"]
-# aliases = []
-# images = []
 +++
 
 ## 1件のアカウントを作成する{#create_account_one}

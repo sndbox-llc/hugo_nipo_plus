@@ -6,8 +6,6 @@ description = "スタッフがレポートを書く際にレポートの提出�
 toc = true
 weight = 132
 # tags = ["要編集者権限", "スタッフアカウント管理"]
-# aliases = []
-# images = []
 +++
 
 ## 誰がレポートを読めるのか？{#who_can_read}

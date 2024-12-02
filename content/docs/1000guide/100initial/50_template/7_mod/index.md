@@ -6,8 +6,6 @@ description = "商品在庫入力フォームを使うことで日報アプリ�
 toc = true
 weight = 157
 # tags = ["テンプレートパーツ", "テンプレート"]
-# aliases = []
-# images = []
 +++
 
 商品入力フォームは予め[登録しておいた商品](/docs/manual/initial-setting/advanced-setting/point/#add)を対象に、レポート内で入出庫の入力をすることで数量の増減管理ができるフォームです。

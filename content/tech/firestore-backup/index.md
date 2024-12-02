@@ -5,7 +5,6 @@ description = "長いことFirestoreはバックアップ機能を提供して�
 toc = true
 date = "2022-11-14"
 # tags = ["firebase"]
-# images = ["firebase-icatch.png"]
 +++
 
 ## ポイントインタイム リカバリによりFirebaseのデータをバックアップできるようになります{#firestore_backup}

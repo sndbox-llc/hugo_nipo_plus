@@ -8,7 +8,6 @@ aliases = ['/function/signup/']
 weight = 22100
 date = "2024-10-03"
 # tags = []
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

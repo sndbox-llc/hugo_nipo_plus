@@ -6,8 +6,6 @@ description = "テンプレート内の入力フォームを削除する方法�
 toc = true
 weight = 161
 # tags = ["テンプレート"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

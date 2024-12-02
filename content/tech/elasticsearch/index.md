@@ -5,7 +5,6 @@ description = "Elastic Searchの全文検索とFireStoreのデータベースを
 toc = true
 date = "2022-11-14"
 # tags = ["firebase"]
-# images = ["firebase-icatch.png"]
 +++
 
 NipoPlusのバックエンドはFirebaseを使用しています。アカウント管理やストレージ、Cloud Function、データベースなどアプリ開発に必要な機能の多くが予め用意されており、Firebaseだけである程度のサービスを割と簡単に作成することができます。

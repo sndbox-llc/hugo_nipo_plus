@@ -5,8 +5,6 @@ description = "グループを作りその中でレポートのやり取りを�
 toc = true
 weight = 20
 # tags = ["要管理者権限"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

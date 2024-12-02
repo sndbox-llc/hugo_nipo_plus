@@ -5,7 +5,6 @@ description = "QuasarでAndroidアプリを作成"
 toc = true
 date = "2022-11-14"
 # tags = []
-# images = []
 +++
 
 NipoPlusは[Quasar Framework](https://quasar.dev/)を使用してWebアプリ、Androidアプリ、iOSアプリの3つに変換してそれぞれにリリースを行っています。

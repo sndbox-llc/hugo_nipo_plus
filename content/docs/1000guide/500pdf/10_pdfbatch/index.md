@@ -6,8 +6,6 @@ description = "レポートのデータをPDFに一括で変換します。"
 toc = true
 weight = 510
 # tags = ["有料プラン限定", "PDF出力"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

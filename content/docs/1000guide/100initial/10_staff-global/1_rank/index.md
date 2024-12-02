@@ -6,11 +6,6 @@ description = "スタッフアカウントには権限があります。権限�
 lead = "権限は「管理者」と「編集者」と「スタッフ」の3種類が主たる権限です。それ以外にもありますがまずはこの3つを理解してください"
 toc = true
 weight = 111
-# contributors = []
-# categorys = []
-# tags = ["スタッフアカウント管理", "要管理者権限"]
-# images = []
-# aliases = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

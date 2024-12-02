@@ -5,8 +5,6 @@ description = "ログインに使用するE-mailおよびパスワードの変�
 toc = true
 weight = 1020
 # tags = []
-# aliases = []
-# images = []
 +++
 
 ## 📨ログインEmailの変更{#change}

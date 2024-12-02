@@ -5,7 +5,6 @@ description = "CapacitorでAndroid API Lv31に対応する（Quasar Frameworkを
 toc = true
 date = "2022-11-14"
 # tags = []
-# images = []
 +++
 
 少し前からGoogle PlayStoreはAPI Level 31以上を必須としました。

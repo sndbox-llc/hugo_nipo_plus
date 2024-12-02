@@ -5,8 +5,6 @@ description = "商品状態管理機能を活用して、予め登録した商�
 toc = true
 weight = 173
 # tags = ["要編集者権限"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}

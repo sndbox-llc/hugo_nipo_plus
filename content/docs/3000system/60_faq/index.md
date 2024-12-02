@@ -6,8 +6,6 @@ description = "過去にお客様からいただいた質問をFAQとしてま�
 toc = true
 weight = 3060
 # tags = []
-# aliases = []
-# images = []
 +++
 
 NipoPlusのユーザから頂戴した様々な<a href="/others/inquery/">お問い合わせ</a>の内容を個人が特定できない形で掲載しております。

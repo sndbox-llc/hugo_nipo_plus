@@ -5,7 +5,6 @@ description = "Cloud Functionはサーバで実行できる関数で、フロン
 toc = true
 date = "2022-11-14"
 # tags = ["firebase"]
-# images = ["firebase-icatch.png"]
 +++
 
 ## FirebaseにおけるCloud Functions{#about_cloud_functions}

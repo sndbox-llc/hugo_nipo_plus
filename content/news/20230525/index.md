@@ -4,7 +4,6 @@ description = "インボイス制度登録番号が交付されました"
 toc = true
 date = "2023-05-26"
 # tags = []
-# images = []
 +++
 
 いつもNipo【旧版】/NipoPlusをご利用いただきありがとうございます。

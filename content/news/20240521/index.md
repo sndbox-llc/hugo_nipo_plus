@@ -5,7 +5,6 @@ description = "SPALOのサービス終了に伴い、移行先としてNipoPlus�
 toc = true
 date = "2024-05-21"
 # tags = []
-# images = []
 +++
 
 ## SPALOのサービス終了・移行先にNipoPlusが利用可能{#spalo_migration}

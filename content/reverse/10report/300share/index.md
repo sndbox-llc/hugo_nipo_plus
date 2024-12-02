@@ -8,7 +8,6 @@ aliases = ['/function/share/']
 date = "2024-10-15"
 weight = 21300
 # tags = []
-# images = []
 +++
 
 ## グループ内の全員がレポートを読めるようにするには共有モードをONにします

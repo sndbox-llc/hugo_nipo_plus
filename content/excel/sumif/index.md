@@ -6,8 +6,6 @@ description = "SUMとIFを組み合わせたSUMIF関数は例えばスタッフ�
 toc = true
 date = "2023-10-22"
 # tags = ["エクセル",  "集計"]
-# aliases = []
-# images = ["icatch.png"]
 +++
 
 概要：

@@ -6,7 +6,6 @@ description = "レポートや予定を週単位で管理できる「週カレ�
 toc = true
 weight = 730
 # tags = ["有料プラン限定"]
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

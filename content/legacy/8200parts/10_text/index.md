@@ -5,8 +5,7 @@ description = "日報に１行だけ入力ができるパーツを追加でき�
 toc = true
 weight = 8210
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

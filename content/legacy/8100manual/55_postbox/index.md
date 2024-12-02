@@ -6,7 +6,7 @@ toc = true
 weight = 8155
 isNipo = true
 # tags = [tag]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

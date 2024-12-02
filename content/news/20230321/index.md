@@ -4,7 +4,6 @@ description = "Nipo【旧版】クレジットカード失敗について"
 toc = true
 date = "2023-03-21"
 # tags = []
-# images = []
 +++
 
 いつもNipo【旧版】/NipoPlusをご利用いただきありがとうございます。

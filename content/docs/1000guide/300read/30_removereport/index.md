@@ -6,8 +6,6 @@ description = "不要なレポートを削除する手順について説明し�
 toc = true
 weight = 330
 # tags = ["データ削除"]
-# aliases = []
-# images = []
 +++
 
 ## 削除できるレポートについて{#types}

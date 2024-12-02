@@ -8,7 +8,6 @@ weight = 21100
 aliases = ['/function/truetime/']
 date = "2024-10-04"
 # tags = []
-# images = []
 +++
 
 ## サーバに保存された時間を見れば本当の提出日時がわかります

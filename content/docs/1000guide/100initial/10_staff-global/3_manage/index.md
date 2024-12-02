@@ -7,8 +7,6 @@ lead = "組織のスタッフ管理では所属先グループの指定や、各
 toc = true
 weight = 113
 # tags = ["要管理者権限", "スタッフアカウント管理"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

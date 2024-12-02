@@ -6,8 +6,6 @@ description = "1名180円のサブスクリプションです。5名から申込
 toc = true
 weight = 2030
 # tags = ["Web版限定", "要管理者権限"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

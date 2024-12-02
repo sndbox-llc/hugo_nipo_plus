@@ -5,7 +5,6 @@ description = "WebAPIで取得したレポートデータの構造に関する�
 toc = true
 weight = 1130
 # tags = ["有料プラン限定"]
-# aliases = []
 +++
 
 普段見慣れたレポートの形ではなくJSON形式で取得されます。

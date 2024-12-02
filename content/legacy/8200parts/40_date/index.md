@@ -5,8 +5,6 @@ description = "日報に日付が入力ができるパーツを追加できま�
 toc = true
 weight = 8240
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

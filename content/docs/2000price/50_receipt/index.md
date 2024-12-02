@@ -6,8 +6,6 @@ description = "NipoPlusでお支払い頂いた領収証は管理画面からダ
 toc = false
 weight = 2050
 # tags = ["Web版限定", "要管理者権限"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

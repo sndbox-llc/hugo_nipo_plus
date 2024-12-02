@@ -6,8 +6,6 @@ description = "PDF出力のオプション設定について"
 toc = true
 weight = 520
 # tags = ["有料プラン限定", "CSV出力"]
-# aliases = []
-# images = []
 +++
 
 PDFの出力オプションは大きく分けて２種類有ります。

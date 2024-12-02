@@ -6,7 +6,6 @@ description = "テンプレートを効率よく管理するためにフォル�
 toc = true
 weight = 159
 # tags = ["テンプレート", "有料プラン限定", "要編集者権限"]
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

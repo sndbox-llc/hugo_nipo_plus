@@ -6,8 +6,6 @@ description = "NipoPlusでのレポート作成から、データの集計・グ
 toc = true
 weight = 410
 # tags = ["有料プラン限定"]
-# aliases = []
-# images = []
 +++
 
 [テンプレート](/docs/manual/initial-setting/template/make/)内に集計が可能な入力フォームが含まれている場合は、そのデータを抜き出して累積表や推移表、グラフなどを表示できます。

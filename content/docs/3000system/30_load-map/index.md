@@ -6,8 +6,6 @@ description = "今後のアップデート予定について"
 toc = false
 weight = 3030
 # tags = []
-# aliases = []
-# images = []
 +++
 
 NipoPlusで現在実装されていませんがこれから実装を予定している機能についてまとめています。

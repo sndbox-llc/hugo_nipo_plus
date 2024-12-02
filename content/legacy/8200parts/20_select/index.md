@@ -5,8 +5,7 @@ description = "予め回答を用意しておき、日報作成時には選ぶ�
 toc = true
 weight = 8220
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

@@ -7,8 +7,6 @@ isDictionaly = true
 aliases = ['/function/reportmap/']
 weight = 21200
 date = "2024-10-04"
-# tags = []
-# images = []
 +++
 
 ## 提出状況を一覧表にすれば提出漏れも瞬時にわかります

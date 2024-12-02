@@ -6,8 +6,6 @@ description = "NipoPlusは無料プランを永続的に利用可能。有料版
 toc = true
 weight = 2010
 # tags = []
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

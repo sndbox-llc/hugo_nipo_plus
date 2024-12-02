@@ -5,8 +5,7 @@ description = "タッチペン対応端末であればスタイラスペンを�
 toc = true
 weight = 8230
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

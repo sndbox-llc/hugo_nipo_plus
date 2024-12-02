@@ -5,8 +5,6 @@ description = "グループの設定はグループ内でのみ適用される�
 toc = true
 weight = 21
 # tags = ["要編集者権限"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

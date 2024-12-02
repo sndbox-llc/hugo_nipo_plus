@@ -6,7 +6,6 @@ description = "カレンダー上にレポートや予定が表示され、日�
 toc = true
 weight = 710
 # tags = ["有料プラン限定"]
-# aliases = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

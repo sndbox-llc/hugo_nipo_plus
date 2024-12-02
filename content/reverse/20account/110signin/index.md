@@ -7,7 +7,6 @@ toc = false
 isDictionaly = true
 weight = 22110
 date = "2024-10-03"
-# images = []
 # tags = []
 +++
 

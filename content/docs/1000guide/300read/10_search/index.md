@@ -5,9 +5,6 @@ menuTitle = "🔍レポートを探す"
 description = "スタッフが作成したレポートは保存箱に蓄積されます。提出簿を見れば未提出者を素早く特定可能。検索機能で素早く目的のレポートを探し出せます"
 toc = true
 weight = 310
-# tags = []
-# aliases = []
-# images = []
 +++
 
 ## レポートを探すいくつかのやり方{#findReportMethod}

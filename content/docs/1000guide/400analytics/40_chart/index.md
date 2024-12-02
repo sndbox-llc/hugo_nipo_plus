@@ -6,8 +6,6 @@ description = "NipoPlusでは、レポートデータから折れ線グラフや
 toc = true
 weight = 440
 # tags = ["有料プラン限定"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

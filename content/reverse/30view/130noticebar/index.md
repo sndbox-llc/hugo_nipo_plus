@@ -8,7 +8,6 @@ aliases = ['/function/noticebar/']
 date = "2024-10-15"
 weight = 23130
 # tags = []
-# images = []
 +++
 
 ## バナーを使えばグループ内の全スタッフに目立つ形で必要事項を通達できます

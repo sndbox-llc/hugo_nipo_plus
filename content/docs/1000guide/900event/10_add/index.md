@@ -5,8 +5,6 @@ description = "この記事では、予定を効率的に追加し、日々の�
 toc = true
 weight = 910
 # tags = []
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

@@ -4,11 +4,9 @@ title = "組織設定画面の表示方法"
 description = "組織設定画面を表示する方法"
 toc = false
 isDictionaly = true
-aliases = ['/function/globalsetting/']
 weight = 23200
 date = "2024-10-03"
 # tags = ["要管理者権限"]
-# images = []
 +++
 
 ## 組織設定が表示可能なのは管理者のみ

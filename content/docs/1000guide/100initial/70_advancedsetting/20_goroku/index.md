@@ -5,8 +5,6 @@ description = "語録管理機能を活用して、選択肢の効率的な作�
 toc = true
 weight = 172
 # tags = ["語録機能", "有料プラン限定", "要編集者権限"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

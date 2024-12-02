@@ -4,8 +4,6 @@ title = "moment.jsが非推奨になっていたようです"
 description = "javascriptの世界で日付処理の金字塔を築きあげた有名なライブラリですが、惜しまれながらも開発を終了する運びになったようです。長いことありがとうございました。"
 toc = true
 date = "2022-11-14"
-# images = []
-# tags = []
 +++
 
 Javascriptで日付を扱う際は、「Moment一択」という方もいるのではないでしょうか？私自身、日付の処理はMoment.jsで行っていましたが、久しぶりに[Moment.js公式サイト](https://momentjs.com/docs/)を訪問したところ、なんとMomentが非推奨になっていました。

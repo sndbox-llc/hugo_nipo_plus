@@ -6,8 +6,7 @@ description = "Nipo【旧版】をスマートフォンにインストールす�
 toc = true
 weight = 8320
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

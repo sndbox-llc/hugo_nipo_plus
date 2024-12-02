@@ -5,8 +5,6 @@ description = "レポートを読み、承認や棄却する手順について�
 toc = true
 weight = 320
 # tags = []
-# aliases = []
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

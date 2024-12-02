@@ -6,8 +6,6 @@ description = "テンプレートカスタムパーツの1つ。作業開始時�
 toc = true
 weight = 154
 # tags = ["テンプレートパーツ", "テンプレート"]
-# aliases = []
-# images = []
 +++
 
 {{<icatch filename="date-time" msg="日付や時刻、期間等を入力するにはこれが一番！" alice="here">}}

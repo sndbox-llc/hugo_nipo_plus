@@ -5,8 +5,6 @@ description = "NipoPlusでは、レポートの受信や承認・棄却時に通
 toc = true
 weight = 1220
 # tags = []
-# aliases = []
-# images = []
 +++
 
 ## 🔔アプリ内の通知について{#app_notify}

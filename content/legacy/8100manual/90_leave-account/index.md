@@ -5,8 +5,7 @@ description = "Nipo【旧版】の利用を完全にやめる場合はアカウ�
 toc = true
 weight = 8190
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

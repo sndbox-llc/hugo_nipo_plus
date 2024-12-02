@@ -7,8 +7,6 @@ toc = false
 weight = 23100
 aliases = ['/function/fontsize/']
 date = "2024-10-03"
-# tags = []
-# images = []
 +++
 
 ## 文字の大きさを調整する

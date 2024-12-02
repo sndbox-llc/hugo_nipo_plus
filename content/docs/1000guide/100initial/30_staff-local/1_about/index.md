@@ -6,8 +6,6 @@ description = "グループ内のスタッフはレポートの提出先や利�
 toc = true
 weight = 131
 # tags = ["スタッフアカウント管理", "要編集者権限"]
-# aliases = []
-# images = []
 +++
 
 スタッフは[組織から作成](/docs/manual/initial-setting/staff/make/)されて各グループに所属します。

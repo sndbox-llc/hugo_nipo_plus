@@ -6,8 +6,6 @@ description = "スタッフごとに利用が可能なレポートのテンプ�
 toc = false
 weight = 133
 # tags = ["スタッフアカウント管理", "要編集者権限"]
-# aliases = []
-# images = []
 +++
 
 ## レポート作成時に使えるテンプレートを制限する{#limitUsageTemplate}

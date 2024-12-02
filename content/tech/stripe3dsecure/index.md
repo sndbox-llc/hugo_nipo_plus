@@ -6,7 +6,6 @@ toc = true
 draft=true
 date = "2024-11-10"
 # tags = ["stripe"]
-# images = []
 +++
 
 2024年11月7日に、Stripeから１通のメールが届きました。

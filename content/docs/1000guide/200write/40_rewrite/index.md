@@ -5,8 +5,6 @@ description = "提出したレポートに誤りがあったり棄却された�
 toc = true
 weight = 240
 # tags = []
-# aliases = []
-# images = []
 +++
 
 レポートはロックが掛かると修正できません。ロックは以下のケースで発生します

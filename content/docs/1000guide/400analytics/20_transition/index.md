@@ -6,8 +6,6 @@ description = "日報や点検表のデータを日ごとに比較して、過�
 toc = true
 weight = 420
 # tags = ["有料プラン限定"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

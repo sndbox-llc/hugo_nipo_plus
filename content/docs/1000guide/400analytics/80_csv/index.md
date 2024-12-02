@@ -6,8 +6,6 @@ description = "指定した期間内のレポートデータを一括でCSV形�
 toc = true
 weight = 480
 # tags = ["有料プラン限定", "Web版限定", "CSV出力"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

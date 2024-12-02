@@ -5,7 +5,7 @@ description = "クラウド日報NipoPlusでお客様からお預かりする個
 toc = false
 weight = 3090
 # tags = []
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

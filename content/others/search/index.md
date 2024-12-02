@@ -5,8 +5,6 @@ description = "サイト内のコンテンツを簡単に検索して見つけ�
 toc = false
 weight = 12001
 # tags = []
-# aliases = []
-# images = []
 +++
 
 <div id="searchBoxModal" tabindex="-1" aria-labelledby="searchBoxModalLabel">

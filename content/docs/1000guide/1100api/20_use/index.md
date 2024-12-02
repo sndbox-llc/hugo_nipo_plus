@@ -6,7 +6,6 @@ description = "WebAPIを使用してレポートやテンプレートのデー�
 toc = true
 weight = 1120
 # tags = ["有料プラン限定"]
-# aliases = []
 +++
 
 APIの利用には少し技術者の知識が必要です。

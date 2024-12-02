@@ -6,7 +6,6 @@ description = "日カレンダーにレポートや予定を表示し、スタ�
 toc = true
 weight = 750
 # tags = ["有料プラン限定"]
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

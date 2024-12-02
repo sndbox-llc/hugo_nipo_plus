@@ -5,8 +5,6 @@ description = "NipoPlusの不具合が発生した場合の一般的なトラブ
 toc = true
 weight = 3050
 # tags = []
-# aliases = []
-# images = []
 +++
 
 起動に失敗したときや、挙動がおかしいときは本章の手順に従ってトラブルを解決してください。

@@ -5,7 +5,6 @@ description = "タイムカードを効率的に管理する方法を学びま�
 toc = true
 weight = 810
 # tags = []
-# aliases = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

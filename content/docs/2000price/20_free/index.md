@@ -6,8 +6,6 @@ description = "検索や集計など一部の機能は制限されますが無�
 toc = true
 weight = 2020
 # tags = []
-# aliases = []
-# images = []
 +++
 
 ```kroki {type=mermaid}

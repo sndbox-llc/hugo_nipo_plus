@@ -6,8 +6,6 @@ description = "クロス集計機能を活用して、製造部品ごとの不�
 toc = true
 weight = 460
 # tags = ["有料プラン限定"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

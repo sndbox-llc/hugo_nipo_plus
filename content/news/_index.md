@@ -4,7 +4,6 @@ title = "News"
 toc = true
 weight = 11000
 # tags = []
-# images = []
 [seo]
 robots = "noindex, follow"
 +++

@@ -6,8 +6,7 @@ description = "【旧版です】匿名アカウントとはE-mailやパスワ�
 toc = true
 weight = 8195
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

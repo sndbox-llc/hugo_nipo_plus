@@ -5,7 +5,6 @@ description = "CORSエラーによってCloud Functionがうまく動かなか�
 toc = true
 date = "2022-11-14"
 # tags = ["firebase"]
-# images = ["firebase-icatch.png"]
 +++
 
 ## 静的サイトの問い合わせフォームをCloud Functionsで作ろうとしてハマる{#staticWebsiteContactForm}

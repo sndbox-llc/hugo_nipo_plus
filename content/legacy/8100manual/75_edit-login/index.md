@@ -5,8 +5,7 @@ description = "Nipo【旧版】のログインパスワードを忘れてしま�
 toc = true
 weight = 8175
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

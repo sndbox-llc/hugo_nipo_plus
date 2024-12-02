@@ -6,7 +6,7 @@ toc = true
 weight = 8130
 isNipo = true
 # tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

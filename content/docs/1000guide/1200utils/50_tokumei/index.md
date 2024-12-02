@@ -6,8 +6,6 @@ description = "メールアドレスもパスワードも無しで手軽にNipoP
 toc = true
 weight = 1250
 # tags = []
-# aliases = []
-# images = []
 +++
 
 ワンクリックで仮のアカウントを発行することができ、手軽にアプリを体験することができます。

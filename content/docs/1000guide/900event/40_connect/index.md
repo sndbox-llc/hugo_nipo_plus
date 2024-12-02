@@ -6,8 +6,6 @@ toc = true
 weight = 940
 draft = true
 # tags = []
-# aliases = []
-# images = []
 +++
 
 予定が作成された時点では、その予定はまだ着工されていないため予定です。

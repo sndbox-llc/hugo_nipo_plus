@@ -5,7 +5,6 @@ description = "Cloud Storageからファイルのダウンロードを行うと�
 toc = true
 date = "2022-11-14"
 # tags = ["firebase"]
-# images = ["firebase-icatch.png"]
 +++
 
 Cloud FunctionsからPDFやZipなどのファイルを作成し、ダウンロードURLをフロントに返却するといった処理を実装したときに、次のようなエラーを受けました。

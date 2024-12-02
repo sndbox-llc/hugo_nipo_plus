@@ -6,8 +6,6 @@ description = "有料プランの申込はクレジットカードのほか請�
 toc = true
 weight = 2040
 # tags = ["Web版限定", "要管理者権限"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

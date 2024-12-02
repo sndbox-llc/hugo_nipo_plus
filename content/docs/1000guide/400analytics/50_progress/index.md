@@ -6,8 +6,6 @@ description = "日ごとの目標を設定し、レポートデータから目�
 toc = true
 weight = 450
 # tags = ["有料プラン限定"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

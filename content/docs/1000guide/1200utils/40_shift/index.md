@@ -5,7 +5,6 @@ description = "シフト管理機能"
 toc = true
 weight = 1240
 # tags = ["要編集者権限"]
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

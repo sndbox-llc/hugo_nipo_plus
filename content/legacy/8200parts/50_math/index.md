@@ -5,8 +5,7 @@ description = "数値のデータレポートテンプレートに追加でき�
 toc = true
 weight = 8250
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

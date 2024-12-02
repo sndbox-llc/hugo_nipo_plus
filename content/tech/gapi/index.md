@@ -4,8 +4,6 @@ title = "Vue.js（ts）でGoogle API(gapi)を使いカレンダーを取得す�
 description = "GAPIを使うまでの流れ"
 toc = true
 date = "2022-11-14"
-# tags = []
-# images = []
 +++
 
 Vue js上でGoogleカレンダーのデータを取得して表示しようと思いましたが思いの外苦労しました。

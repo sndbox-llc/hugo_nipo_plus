@@ -5,7 +5,6 @@ description = "FireStoreは非常に強力なデータベースですが唯一�
 toc = true
 date = "2022-11-14"
 # tags = ["firebase"]
-# images = ["firebase-icatch.png"]
 +++
 
 この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/fulltext/)を書きました。

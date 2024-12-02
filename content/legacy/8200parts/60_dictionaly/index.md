@@ -5,8 +5,7 @@ description = "単語集を用意して一覧から入力できる方式です�
 toc = true
 weight = 8260
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

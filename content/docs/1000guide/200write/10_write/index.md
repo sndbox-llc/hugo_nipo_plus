@@ -6,8 +6,6 @@ description = "テンプレートを選ぶ▶レポートを書く▶提出先�
 toc = true
 weight = 210
 # tags = []
-# aliases = []
-# images = []
 +++
 
 レポートを書く大まかな流れは以下のとおりです。

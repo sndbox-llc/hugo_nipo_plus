@@ -8,5 +8,4 @@ date = "2024-10-03"
 draft = true
 weight = 21500
 # tags = []
-# images = []
 +++

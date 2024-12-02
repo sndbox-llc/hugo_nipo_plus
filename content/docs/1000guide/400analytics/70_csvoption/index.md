@@ -6,8 +6,6 @@ description = "レポートデータのCSV出力形式を目的に応じてカ�
 toc = true
 weight = 470
 # tags = ["有料プラン限定", "CSV出力"]
-# aliases = []
-# images = []
 +++
 
 レポートのデータをCSVに出力する際に出力の形式をカスタマイズできます。

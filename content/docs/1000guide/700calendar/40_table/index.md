@@ -6,7 +6,6 @@ description = "スタッフごとにレポートや予定を管理できる「�
 toc = true
 weight = 740
 # tags = ["有料プラン限定"]
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

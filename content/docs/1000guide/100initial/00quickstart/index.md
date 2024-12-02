@@ -7,8 +7,6 @@ lead = "アカウント作成から初期設定・レポートを提出するま
 toc = true
 weight = 1
 # tags = []
-# aliases = []
-# images = []
 +++
 
 NipoPlusのクイックスタートガイドへようこそ。

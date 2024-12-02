@@ -5,8 +5,7 @@ description = "クラウド日報Nipo【旧版】でお客様からお預かり�
 toc = false
 weight = 8340
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

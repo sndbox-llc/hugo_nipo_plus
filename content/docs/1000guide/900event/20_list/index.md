@@ -5,8 +5,6 @@ description = "この記事では、NipoPlusで予定を効率的に管理し、
 toc = true
 weight = 920
 # tags = []
-# aliases = []
-# images = []
 +++
 
 ## スタッフを軸に予定を表示する{#add_event_staff}

@@ -5,8 +5,6 @@ description = "検索や目印としてレポートにタグをセットでき�
 toc = true
 weight = 171
 # tags = ["要編集者権限"]
-# aliases = []
-# images = []
 +++
 
 タグは目印や検索に使える付箋です。NipoPlusではタグを自由に作成、管理できます。

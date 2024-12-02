@@ -8,7 +8,6 @@ aliases = ['/function/themecolor/']
 weight = 23120
 date = "2024-10-15"
 # tags = ["アカウント設定"]
-# images = []
 +++
 
 ## グループのテーマカラーを変えて視認性をUP

@@ -5,8 +5,6 @@ description = "本Webサイトに使用されている画像の取り扱いに�
 weight = 3100
 toc = false
 # tags = []
-# aliases = []
-# images = []
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

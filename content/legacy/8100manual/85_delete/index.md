@@ -5,8 +5,7 @@ description = "この機能は管理者限定です。蓄積したレポート�
 toc = true
 weight = 8185
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

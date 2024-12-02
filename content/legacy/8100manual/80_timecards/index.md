@@ -6,8 +6,7 @@ description = "日報のテンプレートにタイムカードを埋め込ん�
 toc = true
 weight = 8180
 isNipo = true
-# tags = ["旧バージョン"]
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.2

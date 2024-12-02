@@ -5,8 +5,6 @@ description = "用途として限定的な機能です。人数分の端末が�
 toc = true
 weight = 134
 # tags = ["要編集者権限"]
-# aliases = []
-# images = []
 +++
 
 この機能はかなり特殊で通常使う必要は有りません。

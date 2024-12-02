@@ -6,8 +6,6 @@ description = "スタッフごとのレポートデータを累積表で集計�
 toc = true
 weight = 430
 # tags = ["有料プラン限定"]
-# aliases = []
-# images = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

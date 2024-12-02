@@ -5,8 +5,7 @@ description = "NipoPlusに関するご質問、ご要望、お問い合わせは
 toc = false
 weight = 12000
 # tags = []
-# aliases = []
-# images = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.9

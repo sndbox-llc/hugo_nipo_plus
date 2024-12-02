@@ -5,8 +5,7 @@ description = "Nipo【旧版】を利用する上での利用規約になりま�
 toc = false
 weight = 8330
 isNipo = true
-# aliases = []
-# tags = ["旧バージョン"]
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

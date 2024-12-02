@@ -8,7 +8,6 @@ aliases = ['/function/language/']
 weight = 23110
 date = "2024-10-03"
 # tags = ["アカウント設定"]
-# images = []
 +++
 
 ## 日本語・英語から選択します

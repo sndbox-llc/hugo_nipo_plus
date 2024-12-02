@@ -5,7 +5,7 @@ description = "NipoPlusはオンラインによるお支払いが発生するた
 toc = false
 weight = 3070
 # tags = []
-# aliases = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

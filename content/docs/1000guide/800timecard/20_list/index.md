@@ -12,7 +12,7 @@ weight = 820
 
 タイムカードの一覧を見るには「タイムカード一覧」をクリックします。
 
-{{<iTablet filename="timecard-list" msg="タイムカード一覧表示画面" alice="ok">}}
+{{<iTablet filename="img/timecard-list" msg="タイムカード一覧表示画面" alice="ok">}}
 
 自分自身のタイムカード一覧が表示されました。
 
@@ -118,7 +118,7 @@ weight = 820
 1. ゴミ箱アイコンをクリックします
 1. 確認メッセージから「削除」をクリックします
 
-{{<iTablet filename="removeTimecard" msg="タイムカード一覧から削除したいタイムカードのゴミ箱アイコンをクリックして削除します" alice="ok">}}
+{{<iTablet filename="img/removeTimecard" msg="タイムカード一覧から削除したいタイムカードのゴミ箱アイコンをクリックして削除します" alice="ok">}}
 
 ### タイムカード削除の痕跡が残る{#log}
 

@@ -18,7 +18,7 @@ weight = 1020
 1. 変更したいE-mailアドレスを入力
 1. 変更ボタンをクリック
 
-{{<icatch filename="email-edit" msg="メールアドレスの変更にはパスワードの入力が必要だよ" alice="shield">}}
+{{<icatch filename="img/email-edit" msg="メールアドレスの変更にはパスワードの入力が必要だよ" alice="shield">}}
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 アカウント保護のため受信可能なメアドを使用してください
@@ -48,7 +48,7 @@ weight = 1020
 1. ログインメールアドレスを入力（自動で入力済みです）
 1. OKボタンをクリック
 
-{{<icatch filename="password-reset" msg="パスワードの変更にはアカウント管理画面からログインパスワードリセットボタンをクリックします">}}
+{{<icatch filename="img/password-reset" msg="パスワードの変更にはアカウント管理画面からログインパスワードリセットボタンをクリックします">}}
 
 ログインE-mail宛にパスワードの再設定用URLをお送りしますので、そこからパスワードの変更ができます。もしメールが届かない場合は**迷惑メールフォルダに部類されていないか確認**してください。
 再設定のメールは「<noreply@nipo-plus.firebaseapp.com>」というアドレスから届きます。
@@ -80,6 +80,6 @@ weight = 1020
 
 こちらの手順では再設定用のメールは届かず直接書き換えを行います。変更されると当該スタッフのアカウントは自動ですべての端末から一度ログアウトされます。
 
-{{<icatch filename="force-update-pw" msg="管理者権限でスタッフのパスワードを変更することも可能です">}}
+{{<icatch filename="img/force-update-pw" msg="管理者権限でスタッフのパスワードを変更することも可能です">}}
 
 詳しくは[組織のスタッフ管理](/docs/manual/initial-setting/staff/manage/)を御覧ください。

@@ -38,11 +38,11 @@ weight = 810
 2. 「タイムカード入力」をクリック
 3. ポップで表示されるタイムカード画面を埋める
 
-{{<icatch filename="punch-time-card" msg="レポート作成と同時にタイムカードを入力することができます" alice="ok">}}
+{{<icatch filename="img/punch-time-card" msg="レポート作成と同時にタイムカードを入力することができます" alice="ok">}}
 
 {{< nextArrow>}}
 
-{{<icatch filename="timecard-submit" msg="タイムカードの入力画面では出退勤時間や休憩時間を入力します" alice="here">}}
+{{<icatch filename="img/timecard-submit" msg="タイムカードの入力画面では出退勤時間や休憩時間を入力します" alice="here">}}
 
 保存ボタンをクリックするとタイムカードのみ保存が完了します。この時点でまだレポートは保存されていないので注意してください。レポートも保存する際は「提出」ボタンをクリックします。詳しくは[レポートを書く](/docs/manual/write-report/write/)を御覧ください。
 
@@ -69,6 +69,6 @@ weight = 810
 1. メニュー「タイムカード一覧」を開く
 1. タイムカード入力をクリック
 
-{{<icatch filename="timecard-list" msg="タイムカード一覧からタイムカードを入力することもできます" alice="book">}}
+{{<icatch filename="img/timecard-list" msg="タイムカード一覧からタイムカードを入力することもできます" alice="book">}}
 
 [編集者権限](/docs/manual/initial-setting/staff/rank/)以上のスタッフは他のスタッフのタイムカードを閲覧、入力できます。編集者権限以上の方は他のスタッフのタイムカードを誤って入力しないように注意してください。

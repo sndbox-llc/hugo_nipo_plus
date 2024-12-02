@@ -17,7 +17,7 @@ weight = 830
 2. 設定をクリック（折りたたまれている項目が展開される）
 3. 必要に応じて値を書き換える（書き換え内容は自動で保存されます）
 
-{{<icatch filename="timecard-setting" msg="タイムカード機能の設定項目は折りたたまれているためクリックして展開します" alice="here">}}
+{{<icatch filename="img/timecard-setting" msg="タイムカード機能の設定項目は折りたたまれているためクリックして展開します" alice="here">}}
 
 <dl class="basic">
   <dt>各日で端折りする</dt>
@@ -48,7 +48,7 @@ Version1.56.0から、設定の保存が手動になりました。設定を変�
 
 締日は月単位であり、週単位での締めはできません。もし週単位で締めたい場合は、画面右側のカレンダーから任意の期間を手動でセットしてください。
 
-{{<icatch filename="date-picker" msg="カレンダで期間を選べばどんな期間でも絞り込み集計ができます" alice="ok">}}
+{{<icatch filename="img/date-picker" msg="カレンダで期間を選べばどんな期間でも絞り込み集計ができます" alice="ok">}}
 
 ## タイムカード機能の制限解除{#how_to_unlimited}
 
@@ -77,7 +77,7 @@ Version1.56.0から、設定の保存が手動になりました。設定を変�
 [有料プランのお支払いにクレジットカードをご利用](/docs/price/fee/)の方はすでにカード情報が登録済みのため再入力は不要です。
 [請求書払いの方](/docs/price/invoice/)はここでクレジットカード番号を登録する必要が有ります。
 
-{{<iTablet filename="fee-timecard" msg="お支払いのカード番号を入力します" alice="ok">}}
+{{<iTablet filename="img/fee-timecard" msg="お支払いのカード番号を入力します" alice="ok">}}
 
 お支払いが成功すると組織設定画面に移動します。制限の解除は即時適用されます。
 お支払状況を確認したいときは以下の手順で確認ができます。

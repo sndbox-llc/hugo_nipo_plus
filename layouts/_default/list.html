@@ -6,7 +6,9 @@
             {{ with .Content }}
                 <div>{{ . }}</div>
             {{ end }}
-            <div class="text-center" style="font-size: 5em; color: orange">▼</div>
+            <hr />
+            <div class="text-center" style="font-size: 2em; color: orange">▼記事一覧▼</div>
+            <div class="text-center">このセクション配下の記事を一覧で表示しています。</div>
 			<div class="card-list">
                 <div class="row">
                     {{ $currentSection := .CurrentSection }}

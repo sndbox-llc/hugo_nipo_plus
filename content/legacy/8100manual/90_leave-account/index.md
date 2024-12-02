@@ -23,7 +23,7 @@ isNipo = true
 
 個人設定を開き、画面右下にある「脱退」ボタンをクリックします。確認メッセージが表示されるので、OKボタンをクリックしてください。
 
-{{<iTablet filename="leaveroom" msg="グループから脱退します" alice="ok">}}
+{{<iTablet filename="img/leaveroom" msg="グループから脱退します" alice="ok">}}
 
 これで脱退することができました。複数のグループに所属している場合は、同様の手順を繰り返して全てのグループから脱退を行ってください。
 
@@ -32,7 +32,7 @@ isNipo = true
 あなたがグループの管理者である場合、**グループから脱退することはできません**。なぜならグループには必ず管理者が１名必要だからです。
 グループに管理者であるあなたしか籍がない場合は、そのまま**グループを解散**できます。解散と同時にグループの脱退も行われます。
 
-{{<iTablet filename="groupdelete" msg="グループを解散します" alice="ok">}}
+{{<iTablet filename="img/groupdelete" msg="グループを解散します" alice="ok">}}
 
 グループの解散について詳しくは[グループについて](/legacy/manual/group/)を御覧ください。
 
@@ -44,17 +44,17 @@ isNipo = true
 他のスタッフに管理者権限を譲渡するとあなた自身の権限は管理者ではなくなるため、**管理者以外のケース**のセクションで書いてあるとおり、グループからスムーズに脱退できます。
 他のスタッフを全員追放すると、グループにあなただけが残ることになるため、そのまま**グループを解散することで同時にグループから脱退**が行われます。
 
-{{<iTablet filename="accountRank" msg="管理者の権限を他のスタッフに譲渡するか追放します" alice="ok">}}
+{{<iTablet filename="img/accountRank" msg="管理者の権限を他のスタッフに譲渡するか追放します" alice="ok">}}
 
 ## Nipo【旧版】のアカウントを削除する（退会処理）{#cancel}
 
 全てのグループから脱退すると、グループ一覧は空っぽの状態になります。画面右上のアカウントアイコンをクリックします。
 
-{{<iTablet filename="blank" msg="アカウント画面を表示する" alice="ok">}}
+{{<iTablet filename="img/blank" msg="アカウント画面を表示する" alice="ok">}}
 
 アカウント情報の画面に切り替わります。**退会する**ボタンをクリックしてください。
 退会には本人確認のため、**ログインパスワード**の入力が求められます。
 
-{{<iTablet filename="deleteAccount" msg="退会する" alice="ok">}}
+{{<iTablet filename="img/deleteAccount" msg="退会する" alice="ok">}}
 
 以上で退会は完了です。

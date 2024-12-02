@@ -22,7 +22,7 @@ isNipo = true
 グループ全体に影響を与える設定の多くは管理者やマネージャの権限が必要になりますが、個別設定は誰でも自由に設定できます。なぜなら影響範囲が限定的だからです。
 個人設定画面を開くには、メニューから**個人設定**をクリックします。
 
-{{<iTablet filename="mySetting" msg="グループ内で自分にしか影響のない設定を開く"  alice="ok">}}
+{{<iTablet filename="img/mySetting" msg="グループ内で自分にしか影響のない設定を開く"  alice="ok">}}
 
 <dl class="basic">
   <dt>コンタクト</dt>

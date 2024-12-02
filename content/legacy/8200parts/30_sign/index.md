@@ -24,7 +24,7 @@ isNipo = true
 - 日報のコピー機能を使っても署名はコピーされない（手描きメモは上書きしない限り同じ画像がセットされます）
 - PDF出力の際、手書きメモは画面サイズ最大に表示するが署名は適切なサイズで表示されます
 
-{{<iTablet filename="sign1" msg="署名を日報に添付した様子"  alice="ok">}}
+{{<iTablet filename="img/sign1" msg="署名を日報に添付した様子"  alice="ok">}}
 
 ### 署名を含んだ日報の各種出力画面{#outputSign}
 
@@ -45,7 +45,7 @@ isNipo = true
 iPadやSurfaceのような**タッチパネルが使える**場合に便利な入力項目です。指でスラスラとイラストや文字が描けます。また、Apple PencilやSurface Penも利用できます。図・イラストを日報に付与したい場合におすすめです。
 また、いちいちキーボードを使っていられない煩雑な状況でササッとペンで描いて提出するという使い方もできます。描いたイラストは、ご利用のデバイスによってサイズが自動で変わります。
 
-{{<iTablet filename="canvas" msg="手書きメモを日報に添付した様子"  alice="ok">}}
+{{<iTablet filename="img/canvas" msg="手書きメモを日報に添付した様子"  alice="ok">}}
 
 ### 手書きメモを含んだ日報の各種出力画面{#outputCanvas}
 
@@ -67,7 +67,7 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 画像をNipo【旧版】のサーバにアップする前に、画像の圧縮処理が行われ通信量を削減しています。圧縮されると、画像の容量はおおよそ１００KB程度になります。
 写真データはCSV出力されません。（PDF出力時は写真が出力可能です）
 
-{{<iTablet filename="picture" msg="日報に画像を添付する画面イメージ"  alice="ok">}}
+{{<iTablet filename="img/picture" msg="日報に画像を添付する画面イメージ"  alice="ok">}}
 
 ### 写真画像を含んだ日報の各種出力画面{#outputPicture}
 

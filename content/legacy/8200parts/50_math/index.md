@@ -20,7 +20,7 @@ isNipo = true
 数値項目はその名の通り**数値のみ入力が可能**です。（整数・負数・小数点が指定可能です）この項目の特徴は、集計され、グラフ化の対象となることです。
 数値の範囲が限定的であれば、数値ではなく[スライダー](/legacy/parts/slide/)の利用を検討してください。
 
-{{<iTablet filename="digit" msg="数値を日報に添付した様子"  alice="ok">}}
+{{<iTablet filename="img/digit" msg="数値を日報に添付した様子"  alice="ok">}}
 
 ### 数値を含んだ日報の各種出力画面{#outputDigit}
 
@@ -68,7 +68,7 @@ sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
 スライダーで入力された値は、集計され、グラフ化の対象となります。予め入力される範囲がおおよそ予測できる場合は、数値パーツよりも使い勝手の良い入力方式です。特にスマートフォンやタブレットとの相性が良いです。
 類似パーツに「数値」があります。
 
-{{<iTablet filename="slider" msg="スライダーを日報に添付した様子"  alice="ok">}}
+{{<iTablet filename="img/slider" msg="スライダーを日報に添付した様子"  alice="ok">}}
 
 ### スライダーを含んだ日報の各種出力画面{#outputSlider}
 
@@ -123,7 +123,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 クリック１つで入力でき、見た目もグラフィカルでわかりやすいパーツです。
 見た目の違いでしかありませんが、星の他、ハートも利用できます。
 
-{{<iTablet filename="rate" msg="レートを日報に添付した様子"  alice="ok">}}
+{{<iTablet filename="img/rate" msg="レートを日報に添付した様子"  alice="ok">}}
 
 ### レートを含んだ日報の各種出力画面{#outputRate}
 
@@ -167,7 +167,7 @@ CSV出力時は次のように表示されます。
 スライダー（刻み）と異なり、本パーツで入力されたデータは[集計](/legacy/manual/analytics/)されません。CSV出力でエクセルに書き出した場合、「1〜5」のように文字として入力されます。
 最小値・最大値を計算式などで利用したい場合、LEFT関数、FIND関数あたりを利用して分割すれば数値データとして加工できます
 
-{{<iTablet filename="range" msg="範囲入力を日報に添付した様子"  alice="ok">}}
+{{<iTablet filename="img/range" msg="範囲入力を日報に添付した様子"  alice="ok">}}
 
 ### 範囲を含んだ日報の各種出力画面{#outputRange}
 

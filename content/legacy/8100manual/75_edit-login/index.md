@@ -19,11 +19,11 @@ isNipo = true
 
 画面右上のアカウントアイコンをクリックしてアカウント設定画面を開きます
 
-{{<iTablet filename="accountSetting" msg="右上のボタンをクリック"  alice="ok">}}
+{{<iTablet filename="img/accountSetting" msg="右上のボタンをクリック"  alice="ok">}}
 
 アカウント設定画面に切り替わります。この画面からログイン用E-mailの変更やパスワードのリセットが行なえます
 
-{{<iTablet filename="changePw" msg="パスワードやメアドの変更ができます"  alice="ok">}}
+{{<iTablet filename="img/changePw" msg="パスワードやメアドの変更ができます"  alice="ok">}}
 
 ### ログインパスワードを変更する（パスワードを忘れたときもこちら）{#reset_pw}
 
@@ -38,7 +38,7 @@ isNipo = true
 前述の例ではログインしている状態でパスワードをリセットしますが、そもそもログインパスワードが分からずにログインできない場合は、
 ログイン画面に同様のパスワードリセットボタンが配置されているのでこちらをクリックします。
 
-{{<iTablet filename="forgotPassWord" msg="パスワードが分からずにログインできない場合はパスワードをリセットします"  alice="ok">}}
+{{<iTablet filename="img/forgotPassWord" msg="パスワードが分からずにログインできない場合はパスワードをリセットします"  alice="ok">}}
 
 クリックすると登録したE-mailを入力するウインドウが表示されます。Nipo【旧版】に登録しているE-mailを入力するとパスワードリセットのメールが届きますので、
 メールの指示に従ってパスワードをリセットしてください。

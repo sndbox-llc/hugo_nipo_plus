@@ -33,7 +33,7 @@ Nipo【旧版】は日報アプリですので、タイムカードも日報を�
 ### 日報作成時に労働時間を入力する{#input_time}
 
 日報テンプレートにタイムカードを追加することで、日報作成と同時にタイムカード入力ができます。
-[タイムカードパーツ](/legacy/parts/timecard/)を[テンプレートに追加](/legacy/manual/template/)することで実現できます。
+[タイムカードパーツ](/legacy/parts/dictionaly/#timecard)を[テンプレートに追加](/legacy/manual/template/)することで実現できます。
 
 ## 提出されたタイムカードの一覧を表示する{#list}
 

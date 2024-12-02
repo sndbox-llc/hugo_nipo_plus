@@ -35,7 +35,7 @@ Windows/Macでご利用の際、ファイル名は
 [Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp) /[iOS](https://apps.apple.com/jp/app/nipo/id1385965600)版では挙動が少し変わり、自動で共有機能が立ち上がります。
 
 AndroidやiOSからもWeb版のNipo【旧版】を利用できます。この場合はWindows/Macと同様に「ファイル」として保存されます。
-詳しくは[モバイル機器にインストールする](/legacy/system/ios-install/)を御覧ください
+詳しくは[モバイル機器にインストールする](/legacy/system/mobile-install/)を御覧ください
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 AndroidやiPhoneでもWeb版Nipo【旧版】を使えば、共有機能は立ち上がらずタブとして表示されます。
@@ -51,7 +51,7 @@ AndroidやiPhoneでもWeb版Nipo【旧版】を使えば、共有機能は立ち
 なお**一括PDFダウンロードはWebアプリ版でのみ利用可能**です。
 [Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp) /[iOS](https://apps.apple.com/jp/app/nipo/id1385965600)版では利用できませんので注意してください。
 もしAndroidやiOSでこの機能が必要な場合は、PWA版としてインストールしてください。
-詳しくは[モバイル機器にインストールする](/legacy/system/ios-install/)を御覧ください。
+詳しくは[モバイル機器にインストールする](/legacy/system/mobile-install/)を御覧ください。
 この機能は[GOLD PLAN](/legacy/system/price/)限定の機能です
 
 ## PDFに出力前の設定で余白やレイアウトを調整する{#edit}
@@ -112,7 +112,7 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 {{<figure src="img/pdf_sample3.png"  alt="PDF設定で縦と横にした場合の比較" caption="PDF設定で縦と横にした場合の比較" >}}
 
 新レイアウトは従来に比べてスッキリとした見た目になります。
-また、表示されるデータ自体も情報量が増えました（例えば[スライダー](/legacy/parts/slide/)入力における大まかな位置などが #と-で表現）
+また、表示されるデータ自体も情報量が増えました（例えば[スライダー](/legacy/parts/math/#slider)入力における大まかな位置などが #と-で表現）
 
 {{<figure src="img/pdf_sample4.png"  alt="新レイアウトのPDF出力例" caption="新レイアウトのPDF出力例" >}}
 

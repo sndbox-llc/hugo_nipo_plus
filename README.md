@@ -90,33 +90,3 @@ hugo --minify
 ```sh
 hugo --cleanDestinationDir
 ```
-
-## 記事Weightリスト
-
-manual 600
-account 101009000
-about 101009000
-email 101009002
-passw 101009003
-signin 101009001
-tokumei 101009004
-analytics 101004000
-anken 101004500
-api 101010000
-calendar 101005000
-event 101008000
-inisetting 101000000
-staff 101001000
-staff(lo) 101001033
-template 101001100
-notice 101006000
-timecard 101007000
-その他 101012000
-writeReport 101002000
-READREPORT 101003000
-system 103000000
-excel 108000000
-OLD 109000000
-parts 109002000
-news 108000000
-tips 104000000

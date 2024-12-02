@@ -47,7 +47,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 <p>NipoPlusは、点検表の項目を自由にカスタマイズできるため、設備点検や品質チェック、5Sチェックシートなど多様な業務に対応できます。現場のニーズに合わせた柔軟な設計が可能です。</p>
 <div class="mt-auto">
 
-{{< link-card title="テンプレート一例"  description="コラム記事" href="/tips/userfriendly/#template_samples_collection/" >}}
+{{< link-card title="テンプレート一例"  description="コラム記事" href="/tips/userfriendly/#template_samples_collection" >}}
 
 </div>
 </div>
@@ -203,7 +203,7 @@ NipoPlusで出力したCSVは次のような一般的な形をしています。
 
 {{< /excelTable >}}
 
-これは一例であり、出力オプションを変更することで加工しやすい様々な形式で出力が可能です。NipoPlusでレポートをエクセルで[集計するテクニック](/tips/sales_report/)についても紹介しています。
+これは一例であり、出力オプションを変更することで加工しやすい様々な形式で出力が可能です。NipoPlusでレポートをエクセルで[集計するテクニック](/excel/sales_report/)についても紹介しています。
 
 {{<nextArrow>}}
 

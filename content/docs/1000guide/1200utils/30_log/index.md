@@ -21,15 +21,15 @@ url = "/docs/manual/utils/log/"
 
 ログは以下のアクションに対して記録を残します
 
-1. [タイムカードが削除](/docs/manual/remove/timecard/)されたとき
-1. レポートや予定に[コメントが書かれた](/docs/manual/read-report/state/#comment)とき
-1. レポートや予定からコメントが削除されたとき
-1. [レポートが削除](/docs/manual/remove/report/)されたとき
-1. [レポートが作成されたとき](/docs/manual/write-report/write/)
-1. レポートが既読・[承認](/docs/manual/read-report/state/#agree)・[棄却](/docs/manual/read-report/state/#reject)されたとき
-1. レポートにタグがセット・解除されたとき
-1. 予定が作成されたとき
-1. 予定の状態が変化したとき
-1. 予定にタグがセット・解除されたとき
+1. [タイムカードが削除](/docs/manual/timecard/list/#remove)されたとき
+2. レポートや予定に[コメントが書かれた](/docs/manual/read-report/state/#comment)とき
+3. レポートや予定からコメントが削除されたとき
+4. [レポートが削除](/docs/manual/read-report/removereport/)されたとき
+5. [レポートが作成されたとき](/docs/manual/write-report/write/)
+6. レポートが既読・[承認](/docs/manual/read-report/state/#agree)・[棄却](/docs/manual/read-report/state/#reject)されたとき
+7. レポートにタグがセット・解除されたとき
+8. 予定が作成されたとき
+9. 予定の状態が変化したとき
+10. 予定にタグがセット・解除されたとき
 
 特に削除に対するログは改ざん防止の意味でも抑止力となります。

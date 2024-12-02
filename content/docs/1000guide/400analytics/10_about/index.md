@@ -119,4 +119,4 @@ NipoPlusの集計機能でカバーできない場合、CSV出力してエクセ
 2023/06/08 09:35, 栃木県宇都宮市XXXX, -, -, -, -, ⭕, -
 {{< /excelTable >}}
 
-{{< link-card title="エクセルにて集計する" description="コラム記事"  href="/tips/sales_report/" >}}
+{{< link-card title="エクセルにて集計する" description="コラム記事"  href="/excel/sales_report/" >}}

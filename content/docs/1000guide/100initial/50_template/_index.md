@@ -10,6 +10,11 @@ collapsed = true
 
 [seo]
 title = "テンプレートの管理[セクション]"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.2
+
 +++
 
 作成したテンプレートに沿って、スタッフはレポートを作成することができます。そのためテンプレートは最初に作る必要がある重要です。  

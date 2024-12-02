@@ -10,6 +10,11 @@ collapsed = true
 
 [seo]
 title = "初期設定[セクション]"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.2
+
 +++
 
 {{< link-card title="組織管理" description="スタッフアカウントの追加や削除、スタッフをグループに所属させる方法などについてまとめています" href="/docs/manual/initial-setting/staff/" >}}

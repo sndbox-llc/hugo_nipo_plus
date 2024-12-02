@@ -6,6 +6,11 @@ weight = 1
 
 [seo]
 title = "NipoPlusの操作マニュアル[セクション]"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.2
+
 +++
 
 NipoPlusの操作マニュアルをセクションごとに分けて掲載しています。

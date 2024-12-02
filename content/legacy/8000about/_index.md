@@ -2,15 +2,13 @@
 url = "/legacy/about/"
 title = "Nipo（旧）概要"
 description = ""
-summary = ""
-date = "2023-09-07T16:12:03+02:00"
-lastmod = "2023-09-07T16:12:03+02:00"
 weight = 8000
 toc = true
 
 [seo]
 title = "Nipo（旧）概要[セクション]"
-# description = ""
-canonical = ""
-robots = ""
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.2
 +++

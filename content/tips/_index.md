@@ -1,11 +1,16 @@
 +++
 title = "NipoPlusの活用Tips集"
 description = "NipoPlusは、テンプレートに沿って入力する入力管理アプリであるが、テンプレートの工夫によりチェックシートアプリや日報アプリとしても利用できる。具体的なユースケースについてのTips集【アーカイブスページ】"
-lead = "活用例"
 toc = true
 weight = 13000
+
 [seo]
-robots = "noindex, follow"
+title = "NipoPlusの活用Tips集[セクション]"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.1
+
 +++
 
 シンプルに言えば **「テンプレートに沿ってレポートのデータを入力する」** これこそがNipoPlusの本質です。そこからどのような使い方をするかは皆様次第。どんな使い方ができるかをいくつかPickUpしてみました。

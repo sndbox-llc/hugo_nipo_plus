@@ -7,8 +7,10 @@ weight = 8300
 
 [seo]
 title = "Nipo(旧)システム概要[セクション]"
-# canonical = ""
-robots = ""
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.1
 +++
 
 旧バージョンNipoのシステム概要についてまとめたセクションページです。利用規約やプライバシーポリシーなどの情報をまとめています。

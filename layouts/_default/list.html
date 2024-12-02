@@ -8,23 +8,25 @@
             {{ end }}
             <div class="text-center" style="font-size: 5em; color: orange">▼</div>
 			<div class="card-list">
-
-            <div class="row">
-                {{ $currentSection := .CurrentSection }}
-                {{ range where .Site.RegularPages.ByTitle "Section" .Section }}
-                    {{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
-                    <div class="col-16 col-md-8 my-3">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <a class="stretched-link" href="{{ .RelPermalink }}">
-                                    {{ .Params.title | title }} &rarr;
-                                </a>
+                <div class="row">
+                    {{ $currentSection := .CurrentSection }}
+                    {{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+                        {{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+                        <div class="col-16 col-md-8 my-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <a class="stretched-link card-title" style="font-weight: bold;" href="{{ .RelPermalink }}">
+                                        {{ .Params.title | title }} &rarr;
+                                    </a>
+                                    {{ with .Params.description }}
+                                        <p class="card-text mt-2" style="color: #888;font-size:16px">{{ . | truncate 50 }}</p>
+                                    {{ end }}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        {{ end }}
                     {{ end }}
-                {{ end }}
-            </div>
+                </div>
             </div>
         </article>
     </div>

@@ -38,6 +38,11 @@
 			{{ if eq .Params.isDictionaly true }}
 				{{ partial "custom/dictionaly.html" . }}
 			{{ end }}
+			 <!-- タグ表示部分 -->
+			{{ if .Params.tags -}}
+			{{ partial "custom/tags.html" . }}
+			{{ end -}}
+
 
 			<h1>{{ .Title }}</h1>
 			<!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->

@@ -5,7 +5,6 @@ menuTitle = "📜システム更新履歴"
 description = "Nipo【旧版】及びNipoPlusの新しいバージョンが公開されるたびにこのページでご案内します。Android/iOS/Web版それぞれで最新のバージョンが異なる場合があります。"
 toc = false
 weight = 3020
-# tags = []
 +++
 
 NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/docs/system/mobile-install/#appStore)・[Web版](/docs/system/mobile-install/#web)の3種類があります。ご利用中のNipoPlusバージョンは左サイドメニュー下部に記載されています。
@@ -32,6 +31,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 </dl>
 
 ### リリース詳細▼{#more}
+
+#### {{<nipoPlusLogo 30>}} 2024/12/3 v1.64.1{#vp1_64_1}
+
+- スタッフアカウントが50名以上登録されている条件下でのみ発生する、設定が正しく反映されない表示上のバグを修正しました。
 
 #### {{<nipoPlusLogo 30>}} 2024/11/13 v1.64.0{#vp1_64_0}
 

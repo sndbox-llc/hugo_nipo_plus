@@ -1,6 +1,11 @@
 {{/* Generates a valid Algolia search index */}}
 {{- $.Scratch.Add "index" slice -}}
 {{- range .Site.RegularPages -}}
-     {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title "tags" .Params.tags "categories" .Params.categories "permalink" .Permalink "relpermalink" .RelPermalink "summary" .Summary ) -}}
+     {{- $.Scratch.Add "index" (dict 
+         "objectID" (.Permalink | md5) 
+         "title" .Title 
+         "permalink" .Permalink 
+         "summary" (.Summary | truncate 200) 
+     ) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

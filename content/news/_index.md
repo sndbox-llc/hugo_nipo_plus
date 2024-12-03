@@ -3,7 +3,7 @@ description = "最新のお知らせ"
 title = "News"
 toc = true
 weight = 11000
-# tags = []
+
 [seo]
 title = "News[セクション]"
 

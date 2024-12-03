@@ -4,7 +4,6 @@ title = "Vue2からVue3への移行-Filterの廃止を修正"
 description = "Vue3で廃止されたfilter機能は関数として定義して呼ぶように修正することで移行できます"
 toc = true
 date = "2022-11-14"
-# tags = []
 +++
 
 Nipo【旧版】はVue2で作成されたWebシステムですが、今回Vueが3にバージョンアップしたことに追従し、NipoのソースコードもVue3へ書き換え中です。

@@ -4,7 +4,6 @@ title = "Android API Level31以上に対応する（QuasarとCapacitor4を利用
 description = "CapacitorでAndroid API Lv31に対応する（Quasar Frameworkを使用)"
 toc = true
 date = "2022-11-14"
-# tags = []
 +++
 
 少し前からGoogle PlayStoreはAPI Level 31以上を必須としました。

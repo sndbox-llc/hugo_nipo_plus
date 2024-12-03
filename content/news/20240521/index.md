@@ -4,7 +4,6 @@ title = "SPALOのサービス終了に伴う移行先・類似点の多いNipoPl
 description = "SPALOのサービス終了に伴い、移行先としてNipoPlusをご検討中の方へ。この記事では、SPALOとNipoPlusの類似点と違いを詳しく解説します。チャット形式の入力やテンプレートのカスタマイズ機能など、共通点が多く、スムーズに移行できるポイントを紹介します。SPALOの代替としてNipoPlusを活用し、業務を効率化し続けるための情報をお届けします。"
 toc = true
 date = "2024-05-21"
-# tags = []
 +++
 
 ## SPALOのサービス終了・移行先にNipoPlusが利用可能{#spalo_migration}

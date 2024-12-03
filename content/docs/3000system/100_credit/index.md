@@ -4,7 +4,7 @@ title = "権利・クレジット"
 description = "本Webサイトに使用されている画像の取り扱いについて記載しています。NipoPlusの画像は転載可能です"
 weight = 3100
 toc = false
-# tags = []
+
 [sitemap]
   changefreq = "yearly"
   priority = 0.1

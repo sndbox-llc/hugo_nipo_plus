@@ -3,7 +3,6 @@ title = "インボイス制度登録番号"
 description = "インボイス制度登録番号が交付されました"
 toc = true
 date = "2023-05-26"
-# tags = []
 +++
 
 いつもNipo【旧版】/NipoPlusをご利用いただきありがとうございます。

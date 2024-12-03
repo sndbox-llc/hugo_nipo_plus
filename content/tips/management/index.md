@@ -4,7 +4,6 @@ description = "増え続ける日報の管理に悩んでいませんか？NipoP
 title = "日報をシステム化し増え続ける日報を効率的に管理する"
 menuTitle = "日報をシステム化し増え続ける日報を効率的に管理する"
 toc = true
-# tags = []
 date = "2023-06-30"
 [sitemap]
   priority = 0.9

@@ -5,7 +5,6 @@ menuTitle = "ℹ️プラン概要"
 description = "NipoPlusは無料プランを永続的に利用可能。有料版は業界最安値クラスで1名180円、5名から申し込み可能。クレジットカードや請求書払いに対応し、簡単にプランを切り替えられます。"
 toc = true
 weight = 2010
-# tags = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

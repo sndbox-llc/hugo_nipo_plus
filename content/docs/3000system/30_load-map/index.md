@@ -5,7 +5,6 @@ menuTitle = "🐞バグ及び今後の更新予定"
 description = "今後のアップデート予定について"
 toc = false
 weight = 3030
-# tags = []
 +++
 
 NipoPlusで現在実装されていませんがこれから実装を予定している機能についてまとめています。

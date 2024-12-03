@@ -5,7 +5,6 @@ menuTitle = "🆓無料プラン"
 description = "検索や集計など一部の機能は制限されますが無料でレポートアプリを利用し続けることができます。コストを掛けたくない方はNipoPlusをご検討ください。ずっと無料です"
 toc = true
 weight = 2020
-# tags = []
 +++
 
 ```kroki {type=mermaid}

@@ -1,11 +1,11 @@
 {
   "diffEditor.wordWrap": "off",
-  "editor.wordWrapColumn": 80,
   "editor.wordWrap": "off",
   "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Markdown (.md) ファイル専用設定
   "[markdown]": {
+    "editor.wordWrap": "off",
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettierを使用
   }

@@ -1,4 +1,49 @@
 {{/* Put your custom <script></script> tags here */}}
+<script>
+  function closeBubble(uniqueID) {
+    document.getElementById(uniqueID).style.display = 'none';
+  }
+</script>
+
+{{/* Logo JSON */}}
+
+<script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "Organization", "url": "https://nipo-plus-doc.sndbox.jp/", "logo": "https://nipo-plus-doc.sndbox.jp/images/favicon.svg" }
+</script>
+
+
+{{/* App JSON */}}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "NipoPlus Official Manual",
+    "url": "https://nipo-plus-doc.sndbox.jp/",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nipo-plus-doc.sndbox.jp/"
+    },
+    "sameAs": "https://nipoplus.sndbox.jp/",
+    "relatedLink": "https://nipoplus.sndbox.jp/"
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Nipo Plus",
+    "operatingSystem": "Windows, ANDROID, iOS, macOS",
+    "applicationCategory": "BrowserApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "JPY"
+    }
+  }
+</script>
+
+
 
 {{/* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}

@@ -11,7 +11,7 @@
 
   "scripts": {
     "exe": "rm -rf public && hugo server",
-    "reindex": "hugo && npm run algolia",
+    "reindex": "rm -rf public && hugo && atomic-algolia",
     "algolia": "atomic-algolia",
     "create": "hugo new",
     "dev": "hugo server --disableFastRender --noHTTPCache",

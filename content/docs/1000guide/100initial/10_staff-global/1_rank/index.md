@@ -5,6 +5,8 @@ menuTitle = "🔑権限について"
 description = "スタッフアカウントには権限があります。権限のランクによって操作できる範囲が変わります。本ページは権限に関する操作ガイドです。権限は「管理者」と「編集者」と「スタッフ」の3種類が主たる権限です。それ以外にもありますがまずはこの3つを理解してください"
 toc = true
 weight = 111
+tags = []
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

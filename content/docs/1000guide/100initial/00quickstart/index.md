@@ -5,6 +5,9 @@ menuTitle = "🔰クイックスタートガイド"
 description = "NipoPlusの初めての利用者向けに、アカウント作成から初期設定、テンプレート作成、レポートの提出までの基本操作をステップごとに画像付きで解説します。初心者でも安心して使えるガイドです。"
 toc = true
 weight = 1
+tags = []
+contributors = []
+
 [seo]
 title = "クイックスタートガイド | NipoPlus"
 +++

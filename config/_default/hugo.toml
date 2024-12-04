@@ -2,15 +2,15 @@ title = "NipoPlus"
 # baseurl = "http://localhost/"
 baseurl = "https://nipo-plus-doc.sndbox.jp/"
 canonifyURLs = false
-disableAliases = true
+disableAliases = false
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "ja-JP"
-pagerSize = 30
-rssLimit = 30
+pagerSize = 50
+rssLimit = 50
 summarylength = 70 # 70 (default)
 
 # Multilingual
@@ -60,7 +60,7 @@ notAlternative = true
     maxAge = -1 # "30m"
 
 [taxonomies]
-  # contributor = "contributors"
+  contributor = "contributors"
   category = "categories"
   tag = "tags"
 

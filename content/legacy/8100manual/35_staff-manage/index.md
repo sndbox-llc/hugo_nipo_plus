@@ -5,7 +5,6 @@ description = "グループにスタッフを追加したり、各スタッフ�
 toc = true
 weight = 8135
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

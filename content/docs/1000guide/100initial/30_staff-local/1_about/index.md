@@ -5,7 +5,8 @@ menuTitle = "ℹ️概要"
 description = "グループ内のスタッフはレポートの提出先や利用可能なテンプレートの制限など様々な設定が可能です。本ページはグループ内スタッフの設定に関する操作ガイドです"
 toc = true
 weight = 131
-# tags = ["スタッフアカウント管理", "要編集者権限"]
+tags = ["スタッフアカウント管理", "編集者権限"]
+contributors = []
 +++
 
 スタッフは[組織から作成](/docs/manual/initial-setting/staff/make/)されて各グループに所属します。

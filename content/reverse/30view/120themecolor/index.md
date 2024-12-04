@@ -6,7 +6,8 @@ isDictionaly = true
 toc = false
 weight = 23120
 date = "2024-10-15"
-# tags = ["アカウント設定"]
+tags = ["アカウント設定"]
+contributors = []
 +++
 
 ## グループのテーマカラーを変えて視認性をUP

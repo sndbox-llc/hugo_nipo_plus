@@ -5,7 +5,6 @@ description = "日報のテンプレートを作ることでスタッフは決�
 toc = true
 weight = 8140
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

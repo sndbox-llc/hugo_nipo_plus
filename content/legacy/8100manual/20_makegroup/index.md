@@ -6,7 +6,6 @@ description = "グループはスタッフと日報をやり取りするため�
 toc = true
 weight = 8120
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

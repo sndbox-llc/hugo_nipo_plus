@@ -5,7 +5,8 @@ menuTitle = "エクセルのCOUNTIF・COUNTIFSを駆使してスタッフの日�
 description = "スタッフの名前や使用した機材の回数をエクセルで簡単に集計するためのCOUNTIF関数を紹介。さらに複数条件での集計に役立つCOUNTIFS関数も解説します"
 toc = true
 date = "2023-10-23"
-# tags = ["エクセル",  "集計"]
+tags = ["エクセル",  "集計"]
+contributors = []
 +++
 
 例えば次のようなエクセルシートがあったとします。特にE列に注目してください。

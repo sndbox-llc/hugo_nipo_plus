@@ -4,7 +4,8 @@ title = "🗓️シフト管理"
 description = "シフト管理機能"
 toc = true
 weight = 1240
-# tags = ["要編集者権限"]
+tags = ["編集者権限"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

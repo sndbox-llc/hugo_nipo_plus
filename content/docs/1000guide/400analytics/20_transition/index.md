@@ -5,7 +5,8 @@ menuTitle = "📉データの推移"
 description = "日報や点検表のデータを日ごとに比較して、過去のデータ推移を確認できる推移表機能です。グラフ化を活用することで、異常値や傾向を視覚的に捉え、早期に対応できます。日々の業務や品質管理に最適なツールです。"
 toc = true
 weight = 420
-# tags = ["有料プラン限定"]
+tags = ["有料プラン限定"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

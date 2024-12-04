@@ -5,7 +5,8 @@ menuTitle = "表カレンダー"
 description = "スタッフごとにレポートや予定を管理できる「表カレンダー」機能について解説します。スタッフごとの進捗状況を一目で把握し、効率的に作業を管理できます。"
 toc = true
 weight = 740
-# tags = ["有料プラン限定"]
+tags = ["有料プラン限定"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

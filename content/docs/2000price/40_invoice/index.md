@@ -5,7 +5,8 @@ menuTitle = "💰有料プラン（自動更新無）"
 description = "有料プランの申込はクレジットカードのほか請求書によるお支払いも可能です。請求書の場合はクレジットに比べていくつかの制限がありますのでご注意ください"
 toc = true
 weight = 2040
-# tags = ["Web版限定", "要管理者権限"]
+tags = ["Web版限定", "管理者権限"]
+contributors = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

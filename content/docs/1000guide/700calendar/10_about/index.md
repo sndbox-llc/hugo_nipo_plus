@@ -5,7 +5,8 @@ menuTitle = "カレンダー概要"
 description = "カレンダー上にレポートや予定が表示され、日別や月別にレポートを管理できる便利なツールです。週ごとの確認やスタッフ別の予定管理にも対応しており、業務の効率化に役立ちます。"
 toc = true
 weight = 710
-# tags = ["有料プラン限定"]
+tags = ["有料プラン限定"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

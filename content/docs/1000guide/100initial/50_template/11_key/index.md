@@ -5,7 +5,8 @@ menuTitle = "【応用】キーについて"
 description = "テンプレート内の入力フォームを削除する方法と、誤って削除した際の復旧方法について"
 toc = true
 weight = 161
-# tags = ["テンプレート"]
+tags = ["テンプレート"]
+contributors = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

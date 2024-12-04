@@ -5,7 +5,6 @@ description = "Nipo【旧版】に登録されたE-mailに誤りが無いかを�
 toc = true
 weight = 8110
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

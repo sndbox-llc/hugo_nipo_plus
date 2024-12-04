@@ -5,7 +5,6 @@ description = "Nipo【旧版】の基本操作を順を追って解説。アカ�
 toc = true
 weight = 8030
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

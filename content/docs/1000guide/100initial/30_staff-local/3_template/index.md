@@ -5,7 +5,8 @@ menuTitle = "🚫利用可能テンプレートの制限"
 description = "スタッフごとに利用が可能なレポートのテンプレートを指定できます"
 toc = false
 weight = 133
-# tags = ["スタッフアカウント管理", "要編集者権限"]
+tags = ["スタッフアカウント管理", "編集者権限"]
+contributors = []
 +++
 
 ## レポート作成時に使えるテンプレートを制限する{#limitUsageTemplate}

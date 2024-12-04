@@ -4,7 +4,6 @@ title = "肥大化するCloud Functionsのファイルを複数のTsファイル
 description = "Cloud Functionはサーバで実行できる関数で、フロントに出しては行けない情報を処理するときに使います。コードの量が増えると可読性が悪くなるため関数ごとにファイルに分割する方法について紹介します"
 toc = true
 date = "2022-11-14"
-# tags = ["firebase"]
 +++
 
 ## FirebaseにおけるCloud Functions{#about_cloud_functions}

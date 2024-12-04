@@ -5,7 +5,6 @@ description = "Nipo【旧版】で日報や点検表を簡単に作成・提出�
 toc = true
 weight = 8145
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

@@ -5,7 +5,8 @@ menuTitle = "📂フォルダによる管理"
 description = "テンプレートを効率よく管理するためにフォルダ分けをすることができます"
 toc = true
 weight = 159
-# tags = ["テンプレート", "有料プラン限定", "要編集者権限"]
+tags = ["テンプレート", "有料プラン限定", "編集者権限"]
+contributors = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

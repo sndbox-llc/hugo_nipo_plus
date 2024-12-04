@@ -5,7 +5,6 @@ description = "自分の日報を修正するケースや他人の日報を修�
 toc = true
 weight = 8150
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

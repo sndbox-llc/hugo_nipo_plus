@@ -5,7 +5,6 @@ description = "スタッフ全員が日報を読めるようにしたり、逆�
 toc = true
 weight = 8130
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

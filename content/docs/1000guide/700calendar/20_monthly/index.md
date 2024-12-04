@@ -5,7 +5,8 @@ menuTitle = "月カレンダー"
 description = "月カレンダー上でレポートや予定を一目で確認し、効率的に管理できます。予定の追加やレポートの閲覧も簡単に操作可能です。"
 toc = true
 weight = 720
-# tags = ["有料プラン限定"]
+tags = ["有料プラン限定"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

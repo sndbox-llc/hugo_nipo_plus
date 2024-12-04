@@ -5,7 +5,8 @@ menuTitle = "💳有料プラン（自動更新有）"
 description = "1名180円のサブスクリプションです。5名から申込可能ですべての機能が利用可能になります"
 toc = true
 weight = 2030
-# tags = ["Web版限定", "要管理者権限"]
+tags = ["Web版限定", "管理者権限"]
+contributors = []
 +++
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}

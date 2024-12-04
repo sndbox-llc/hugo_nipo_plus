@@ -5,7 +5,8 @@ menuTitle = "日カレンダー"
 description = "日カレンダーにレポートや予定を表示し、スタッフ別に1日のスケジュールを管理できます。会議の設定や業務調整に役立つ機能です。"
 toc = true
 weight = 750
-# tags = ["有料プラン限定"]
+tags = ["有料プラン限定"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

@@ -5,7 +5,8 @@ menuTitle = "🗂️CSV一括出力"
 description = "指定した期間内のレポートデータを一括でCSV形式に出力し、エクセルでの集計・分析やバックアップ、印刷に活用できます。テンプレートごとの分割出力や、スタッフ別・日別の出力にも対応し、業務の効率化をサポートします。"
 toc = true
 weight = 480
-# tags = ["有料プラン限定", "Web版限定", "CSV出力"]
+tags = ["有料プラン限定", "Web版限定", "CSV出力"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

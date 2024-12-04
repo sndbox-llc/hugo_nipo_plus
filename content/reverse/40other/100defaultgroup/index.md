@@ -7,7 +7,8 @@ toc = false
 isDictionaly = true
 weight = 24100
 date = "2024-10-03"
-# tags = ["アカウント設定"]
+tags = ["アカウント設定"]
+contributors = []
 +++
 
 ## 起動時に最初にロードされるグループの指定

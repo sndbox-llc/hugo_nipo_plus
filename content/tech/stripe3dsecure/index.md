@@ -5,7 +5,6 @@ description = "2025年3月末までに原則として3DSの導入が義務化さ
 toc = true
 draft=true
 date = "2024-11-10"
-# tags = ["stripe"]
 +++
 
 2024年11月7日に、Stripeから１通のメールが届きました。

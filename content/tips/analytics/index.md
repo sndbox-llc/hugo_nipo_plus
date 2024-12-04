@@ -4,7 +4,8 @@ title = "日報集計の2つのやり方・Excel集計とアプリ集計につ�
 description = "現場の日報を簡単に集計。エクセルでの手動集計を減らし、アプリから直接グラフ作成やKPI目標設定が可能。転記ミスの心配なく、効率的にデータを活用できます。"
 toc = true
 date = "2023-06-15"
-# tags = ["集計"]
+tags = ["集計"]
+contributors = []
 
 [sitemap]
   priority = 0.9

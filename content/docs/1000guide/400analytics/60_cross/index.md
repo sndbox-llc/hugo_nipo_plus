@@ -5,7 +5,8 @@ menuTitle = "クロス集計"
 description = "クロス集計機能を活用して、製造部品ごとの不良率を求めたり、異なるテンプレート間のデータを比較して全体の傾向を分析できます。複数のチェックシートのデータをまとめ、業務効率化とデータの可視化をサポートします。"
 toc = true
 weight = 460
-# tags = ["有料プラン限定"]
+tags = ["有料プラン限定"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

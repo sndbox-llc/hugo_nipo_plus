@@ -5,7 +5,6 @@ description = "スタッフが作成した日報は受信BOXから読むこと�
 toc = true
 weight = 8155
 isNipo = true
-# tags = [tag]
 
 [sitemap]
   changefreq = "yearly"

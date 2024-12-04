@@ -5,7 +5,8 @@ menuTitle = "📈グラフの作成"
 description = "NipoPlusでは、レポートデータから折れ線グラフや棒グラフ、円グラフなどを簡単に作成できます。エクセル不要で、アプリ内でデータの視覚化が可能です。グラフを活用して、スタッフごとの成績比較や業務分析を効率化しましょう。"
 toc = true
 weight = 440
-# tags = ["有料プラン限定"]
+tags = ["有料プラン限定"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

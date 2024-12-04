@@ -5,7 +5,6 @@ description = "Nipo【旧版】で作成したレポートはワンクリック�
 toc = true
 weight = 8160
 isNipo = true
-# tags = ["旧バージョン"]
 
 [sitemap]
   changefreq = "yearly"

@@ -5,7 +5,8 @@ menuTitle = "📊データの累積"
 description = "スタッフごとのレポートデータを累積表で集計し、成績比較や推移を簡単に確認できます。前回や前々回のデータと比較したり、契約率などの独自の数式を追加してデータ分析が可能です。スマホ対応で、CSV出力やグラフ化も簡単に行えます。"
 toc = true
 weight = 430
-# tags = ["有料プラン限定"]
+tags = ["有料プラン限定"]
+contributors = []
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

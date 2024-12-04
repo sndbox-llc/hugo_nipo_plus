@@ -4,7 +4,6 @@ title = "TypesenseとFireStoreを併用してアプリ内検索を実装【Algol
 description = "FireStoreは非常に強力なデータベースですが唯一の欠点に「全文検索ができない」という弱点があります。この記事はFireStoreとTypesenseを組み合わせることで全文検索もできるというお話です。"
 toc = true
 date = "2022-11-14"
-# tags = ["firebase"]
 +++
 
 この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/fulltext/)を書きました。

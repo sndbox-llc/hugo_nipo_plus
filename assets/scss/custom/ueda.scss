@@ -10,6 +10,11 @@ h3 {
 h4 {
   color: $h4Color;
 }
+/* Algolia検索結果のハイライト */
+#app em {
+  color: red;
+  background-color: yellow;
+}
 
 /* h2-h6のページ内リンクズレ修正用スタイル */
 @mixin heading-style {

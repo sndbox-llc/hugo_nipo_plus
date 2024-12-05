@@ -2,10 +2,12 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range .Site.RegularPages -}}
      {{- $.Scratch.Add "index" (dict 
-         "objectID" (.Permalink | md5) 
+         "objectID" .File.UniqueID
          "title" .Title 
          "permalink" .Permalink 
-         "summary" (.Summary | truncate 200) 
+         "summary" (.Summary | truncate 1000) 
+         "tags" .Params.tags
+         "relpermalink" .RelPermalink
      ) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

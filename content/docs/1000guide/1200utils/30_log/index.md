@@ -1,11 +1,10 @@
 +++
+url = "/docs/manual/utils/log/"
 description = "レポートの提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
 title = "📚ログデータ"
 toc = true
-weight = 101011204
+weight = 1230
 aliases = []
-images = []
-url = "/docs/manual/utils/log/"
 +++
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}

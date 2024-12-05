@@ -8,5 +8,8 @@
     "editor.wordWrap": "off",
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettierを使用
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
   }
 }

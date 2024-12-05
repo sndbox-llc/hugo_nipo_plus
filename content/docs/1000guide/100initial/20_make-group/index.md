@@ -8,7 +8,7 @@ tags = ["管理者権限"]
 contributors = []
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="ご存知ですか？" icon="outline/info-circle" >}}
 グループ分けが不要な場合、この手順はスキップできます
 {{< /callout >}}
 

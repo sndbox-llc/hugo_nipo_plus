@@ -26,7 +26,7 @@ title = ""
 <dd>利用者アカウントのことです。<a href="/docs/manual/initial-setting/staff/make/">組織上にアカウントを作成</a>し、その後各<a href="/docs/manual/initial-setting/staff/manage/#join_staff">グループに所属</a>させます。</dd>
 </dl>
 
-## 組織とグループとスタッフの相関性{#about}
+## 組織とグループとスタッフの相関性{#about_group}
 
 [新規にアカウント作成時](/docs/manual/quickstart/#create_acount)に組織が作成されます。
 組織内に1つのグループ（サンプルグループ）と1つのアカウント（管理者）が登録された状態でスタートします。

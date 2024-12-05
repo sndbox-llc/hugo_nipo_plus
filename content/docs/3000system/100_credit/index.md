@@ -12,7 +12,7 @@ toc = false
 
 ## 本サイトに使用されている画像の利用について{#image_use}
 
-### NipoおよびNipoPlusの画像利用
+### NipoおよびNipoPlusの画像利用{#app_image_usage_guide}
 
 Nipo【旧版】/NipoPlusに関する画像については転載いただいても大丈夫ですが、出典元の名称（Nipo/NipoPlus）を明記してください。可能であればリンクもお願いします。
 印刷物に使用する際は「NipoPlus」の名称を画像付近に記載をしてください。
@@ -20,7 +20,7 @@ Nipo【旧版】/NipoPlusに関する画像については転載いただいて�
 NipoPlusの画面内にはアイコンやボタン、バナーなど多くの方々のリソースをお借りして作り上げられています。
 Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts](https://fonts.google.com/icons)を利用しています。
 
-### マスコットキャラクター「アリス」の画像利用
+### マスコットキャラクター「アリス」の画像利用{#image_charactor_usage_guide}
 
 頻繁に登場するマスコットキャラクター（名称：アリス）についてはご利用前にご相談ください。
 

@@ -78,7 +78,7 @@ Google Analyticsのプライバシーポリシーは[こちらをご参照](http
 
 ## 本Webサイト上のプライバシーポリシー{#privacyPolicy}
 
-### 私たちについて{#aboutus}
+### 私たちについて{#about_us}
 
 このWebサイトは合同会社サンドボックスが運営するWebサイトです。詳細な運営情報は[「特定商取引法に基づく表記」](/docs/system/business-deal/)ページに記載されているとおりです。
 

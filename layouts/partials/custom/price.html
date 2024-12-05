@@ -1,68 +1,68 @@
-<section class="section section-sm" style="border:solid  rgba(178, 205, 214, 0.875) 3px">
+<section class="border border-3 border-primary-subtle" aria-labelledby="price-section-title">
   <div class="container my-5">
-    <h2 class="text-center">ご利用料金<br>無料でも使える日報アプリ！有料版も安価です</h2>
     <div class="text-center">
-      無料プランは機能制限がありますがずっと無料です。<br>
-      有料プランは最低5名からお申し込み可。<br>
-      <strong>業界最安値水準</strong>です（把握している範囲で2番目に安い）<br>
-      安くても性能に妥協は有りません
+      <h2 id="price-section-title">ご利用料金<br>無料版有り〼！有料版もリーズナブル</h2>
+      <div>
+        無料プランは制限がありますが期間の制限もなくずっと使えます。<br>
+        有料プランは1名180円〜200円の低価格！これは日報アプリ業界、点検表アプリ業界でも最安値水準です<br>
+        <a href="/docs/price/_about/#diff">（把握している範囲で2番目に安価）</a><br>
+        安くても性能に妥協は有りません
+      </div>
     </div>
-    <div class="row justify-content-center align-items-stretch">
-      <div class="col-md-5 mb-5">
+
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-lg-5">
         <div class="card h-100">
-          <div class="card-header bg-primary text-white">
-            <h3 class="my-0 fw-normal" style="color: white;">無料プラン</h3>
+          <div class="card-header bg-primary">
+            <h3 class="text-white">無料プラン</h3>
           </div>
           <div class="card-body d-flex flex-column">
-            <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.free }}<small class="text-muted">/月</small></p>
-            <ul class="list-unstyled mt-3">
+            <p class="priceBoard">￥{{ .Site.Data.constants.prices.free }}<small class="text-muted">/月</small></p>
+            <ul class="list-unstyled">
               <li>4名まで</li>
-              <li>🟢日報作成など必要最低限の機能</li>
-              <li>❌集計やコメントなどの付加機能</li>
-              <li>⚠テンプレート数などに制限あり</li>
+              <li><span aria-label="利用可能" role="img">🟢</span>日報作成など必要最低限の機能</li>
+              <li><span aria-label="利用不可" role="img">❌</span>集計やコメントなどの付加機能</li>
+              <li><span aria-label="制限あり" role="img">⚠</span>テンプレート数などに制限あり</li>
             </ul>
-            <a href="/docs/price/free/" class="d-block btn btn-lg btn-outline-primary mt-auto">詳細</a>
+            <a href="/docs/price/free/" class="btn btn-lg btn-outline-primary mt-auto" role="button">詳細</a>
           </div>
         </div>
       </div>
-      <div class="col-md-5 mb-5">
+      <div class="col-sm-12 col-lg-5">
         <div class="card h-100">
-          <div class="card-header bg-primary text-white">
-            <h3 class="my-0 fw-normal" style="color: white;">GOLD(自動更新有)</h3>
+          <div class="card-header bg-primary">
+            <h3 class="text-white">GOLD(自動更新有)</h3>
           </div>
           <div class="card-body d-flex flex-column">
-            <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.goldCredit }}<small class="text-muted">/月</small></p>
-            <ul class="list-unstyled mt-3">
+            <p class="priceBoard">￥{{ .Site.Data.constants.prices.goldCredit }}<small class="text-muted">/月</small></p>
+            <ul class="list-unstyled">
               <li>5名〜999名</li>
-              <li>🟢すべての機能が利用可能です</li>
+              <li><span aria-label="利用可能" role="img">🟢</span>すべての機能が利用可能です</li>
               <li>自動更新有り（毎月）</li>
               <li>※1名あたりの単価です</li>
             </ul>
-            <a href="/docs/price/fee/" class="d-block btn btn-block btn-lg btn-outline-primary mt-auto">詳細</a>
+            <a href="/docs/price/fee/" class="btn btn-lg btn-outline-primary mt-auto" role="button">詳細</a>
           </div>
         </div>
       </div>
-      <div class="col-md-5 mb-5">
+      <div class="col-sm-12 col-lg-5">
         <div class="card h-100">
-          <div class="card-header bg-primary text-white">
-            <h3 class="my-0 fw-normal" style="color: white;">GOLD(請求書)</h3>
+          <div class="card-header bg-primary">
+            <h3 class="text-white">GOLD(請求書)</h3>
           </div>
           <div class="card-body d-flex flex-column">
-            <p class="card-title pricing-card-title priceBoard">￥{{ .Site.Data.constants.prices.goldInvoice }}<small class="text-muted">/月</small></p>
-            <ul class="list-unstyled mt-3 ">
+            <p class="priceBoard">￥{{ .Site.Data.constants.prices.goldInvoice }}<small class="text-muted">/月</small></p>
+            <ul class="list-unstyled">
               <li>5名〜999名</li>
-              <li>🟢すべての機能が利用可能です</li>
+              <li><span aria-label="利用可能" role="img">🟢</span>すべての機能が利用可能です</li>
               <li>自動更新無し（手動で更新）</li>
               <li>請求書を発行して決済します</li>
               <li>※1名あたりの単価です</li>
             </ul>
-            <a href="/docs/price/invoice/" class="d-block btn btn-lg btn-outline-primary mt-auto">詳細</a>
+            <a href="/docs/price/invoice/" class="btn btn-lg btn-outline-primary mt-auto" role="button">詳細</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="text-center">
-      <a href="/docs/price/_about/#diff">同業他社との料金比較</a>
     </div>
   </div>
 </section>

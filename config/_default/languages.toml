@@ -16,7 +16,7 @@
     languageISO = "JA"
     languageTag = "ja-JP"
     titleAddition = "NipoPlus Document"
-    description = "クラウド日報 NipoPlus（日本語）操作ガイド"
+    description = "クラウド日報 NipoPlus公式Webサイト。操作マニュアルやご利用料金、様々な利用方法について紹介しております。ご利用料金は1名180円の低価格。無料プランの用意もございます。"
     titleHome = "クラウド日報 NipoPlus"
     footer = '開発運営:<a href="https://sndbox.jp/">合同会社サンドボックス</a> / 協力: <a href="https://pandafirm.jp/">パンダ商会</a>'
     alertText = 'Welcome to NipoPlus'

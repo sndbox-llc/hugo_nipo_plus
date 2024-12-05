@@ -9,6 +9,14 @@ tags = ["Web版限定", "管理者権限"]
 contributors = []
 +++
 
+{{< callout context="note" title="ご確認ください" icon="outline/info-circle" >}}
+本ページは自動更新無しです。[自動更新有りのお申込みはこちら](/docs/price/fee/)
+{{< /callout >}}
+
+{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+[Android版](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus)/[iOS版](https://apps.apple.com/jp/app/nipoplus/id1625797169)からはお申し込みできません。Web版からお申し込みください（Web版でお申し込み後はAndroid/iOS版でも有料プランが適用されます）
+{{< /callout >}}
+
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 振込手数料はお客様のご負担です。手数料分を引いて振り込まれても決済はされず、追加入金が無い場合は75日後に自動返金されます
 {{< /callout >}}
@@ -72,7 +80,7 @@ contributors = []
 
 <dl class="basic">
 <dt>カード</dt>
-<dd>カード情報を入力し、確定ボタンで支払いが完了します。口座振込に比べて早く決済されます</dd>
+<dd>カード情報を入力し、確定ボタンで支払いが完了します。口座振込に比べて即座に決済され、すぐに有料プランに切り替わります</dd>
 <dt>銀行振込</dt>
 <dd>表示された口座番号を控え、通常の口座振込と同様の手順で振込をいただくと支払いが完了します。決済は2-3営業日掛かります</dd>
 </dl>
@@ -86,8 +94,12 @@ contributors = []
 
 {{<figure src="img/invoice.png"  alt="PDFの請求書画面" caption="PDFの請求書画面" >}}
 
-- 振込先口座はお客様IDごとに自動で異なる口座が用意されます。上記画面の口座番号と実際の請求書は振込先口座番号が異なるので注意してください。
-- 支払額が請求額に満たない場合、支払い済みとしてマークされないため結果として処理が未完了のままとなります。
+{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+振込先口座番号はお客様ごとに異なります
+{{< /callout >}}
+
+- 振込先口座はお客様IDごとに自動で異なる口座が用意されます
+- 支払額が請求額に満たない場合、預り金扱いとなり決済は行われません
 - 振込手数料が発生する場合はお客様負担となります
 - 入金から処理完了まで最長３営業日掛かることがあります
 

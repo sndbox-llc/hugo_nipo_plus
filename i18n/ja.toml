@@ -2,7 +2,7 @@
 other = "お探しのページは存在しないか、移動された可能性があります。"
 
 [404_title]
-other = "ページが見つかりません :("
+other = "Page Not Found"
 
 [browse]
 other = "閲覧"

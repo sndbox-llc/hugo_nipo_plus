@@ -32,6 +32,13 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2024/12/9 v1.65.0{#vp1_65_0}
+
+- [日付と時刻入力フォーム](/docs/manual/initial-setting/template/date_time/#range)【日付・西暦有り】の入力形式を「日付」と「時刻」に分けることで操作性をUPしました
+- [日付と時刻入力フォーム](/docs/manual/initial-setting/template/date_time/#range)に初期値を指定できるようになりました
+- 【有料プラン】レポート保存箱で一度にロードできる上限が変更になりました。従来1000件ー＞契約数に応じて最大3000件（1000件を選ぶには契約数10が必要になります）
+- NipoPlusで使用している各種フレームワークを最新版に更新しました（quasar,dexie, etc...）
+
 #### {{<nipoPlusLogo 30>}} 2024/12/3 v1.64.1{#vp1_64_1}
 
 - スタッフアカウントが50名以上登録されている条件下でのみ発生する、設定が正しく反映されない表示上のバグを修正しました。

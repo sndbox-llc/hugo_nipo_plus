@@ -19,6 +19,10 @@ isNipo = true
 2024年8月13日から料金と決済手順が変更になりました
 {{< /callout >}}
 
+{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+2025年3月以降、GOLDPLAN新規のクレジットカード決済のお申し込みを停止します（オンライン請求書は引き続き利用可能）
+{{< /callout >}}
+
 ## 無料プランは廃止されます{#free_plan_end}
 
 重要なお知らせです。Nipo【旧版】の無料プランは2024年12月末をもって廃止となります。

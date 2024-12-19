@@ -60,8 +60,6 @@ weight = 210
 
 {{<icatch filename="img/report-header" msg="レポートの提出日・提出先といったヘッダ情報を入力します">}}
 
-ヘッダーの各項目については以下の対応表を御覧ください。
-
 <dl class="basic">
 <dt>提出日時</dt>
 <dd>自動で本日の現在時刻が入ります。必要に応じて修正可能（実際の提出時間も別途記録されます）</dd>
@@ -70,6 +68,10 @@ weight = 210
 <dt>他に読める人（共有先）</dt>
 <dd>承認はできませんがこの<a href="/docs/manual/read-report/state/#readed">レポートを読める人</a>を指定します。複数名指定可能です。提出先に指定しているスタッフを共有先に指定する必要はありません</dd>
 </dl>
+
+{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+１番目の提出先を自分にすると「自動承認」オプションが選択できます。自動承認をONにすると提出と同時に承認が行われます
+{{< /callout >}}
 
 ### 提出ボタンをクリック{#post}
 

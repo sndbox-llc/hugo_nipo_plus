@@ -42,7 +42,7 @@ NipoPlusでは以下の種類があります。
 
 {{<icatch filename="img/eye-catch" msg="選ぶだけの簡単入力♫タブレットやスマホと相性抜群です" alice="phone">}}
 
-複数の回答から1つだけ選ばせたいときに利用してください。機器点検における機器の大まかな状態表示などに適しています
+複数の回答から1つだけ選ばせたいときに利用してください。機器点検における機器の大まかな状態表示などに適しています。
 （正常・異常・休止など）
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
@@ -67,6 +67,8 @@ NipoPlusでは以下の種類があります。
   <dd>語録を使って単語を指定。以下のケースで導入を検討してください。<ul><li>選択肢の単語リストを使いまわしたい場合</li><li>選択肢をレポート作成時に自由に追加したい場合</li></ul><br>詳しくは<a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録</a>を参照</dd>
   <dt>入力方式</dt>
   <dd>以下から選択します。<ul><li>ラジオ式</li><li>プルダウン式</li></ul><br>プルダウンは検索が使えるため単語が多い場合に推奨</dd>
+  <dt>その他の入力を許可する</dt>
+  <dd>選択肢に存在しない入力が必要なとき、キーボードで直接入力することを許可します。（単語が増えるわけではなく、１回きりの使い捨てです）</dd>
 </dl>
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)

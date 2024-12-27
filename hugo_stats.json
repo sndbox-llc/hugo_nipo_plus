@@ -486,6 +486,8 @@
       "character-container-img/agenda",
       "character-container-img/agenda_pc",
       "character-container-img/agenda_phone",
+      "character-container-img/alreadyexists",
+      "character-container-img/alreadyexists_pc",
       "character-container-img/anken",
       "character-container-img/anken-add",
       "character-container-img/anken-add_pc",
@@ -2401,6 +2403,7 @@
       "vp1_64_1",
       "vp1_65_0",
       "vp1_66_0",
+      "vp1_67_1",
       "vp1_6_0",
       "vp1_7_0",
       "vp1_7_1",
@@ -2435,7 +2438,12 @@
       "zettai",
       "zip",
       "zip_decode_issue_with_lhaplus_lhaca",
-      "こんなことがしたいを見つけよう"
+      "こんなことがしたいを見つけよう",
+      "すでに使用済みのメールアドレスですと表示されてアカウントが作れないとき",
+      "すでに使用済みのメールアドレスですと表示される",
+      "アカウントが作れないときの対処法",
+      "アカウント自体を削除することでも空席にできます",
+      "メールアドレスを変更して使いたいメールアドレスを空き状態にする"
     ]
   }
 }

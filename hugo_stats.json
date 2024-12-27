@@ -1086,6 +1086,8 @@
       "character-container-img/removeTag_pc",
       "character-container-img/removeTimecard",
       "character-container-img/removeTimecard_pc",
+      "character-container-img/rename",
+      "character-container-img/rename_pc",
       "character-container-img/report-agree",
       "character-container-img/report-agree_pc",
       "character-container-img/report-agree_phone",
@@ -2440,10 +2442,9 @@
       "zip_decode_issue_with_lhaplus_lhaca",
       "こんなことがしたいを見つけよう",
       "すでに使用済みのメールアドレスですと表示されてアカウントが作れないとき",
-      "すでに使用済みのメールアドレスですと表示される",
-      "アカウントが作れないときの対処法",
       "アカウント自体を削除することでも空席にできます",
-      "メールアドレスを変更して使いたいメールアドレスを空き状態にする"
+      "メールアドレスを変更して使いたいメールアドレスを空き状態にする",
+      "自分の名前は組織設定画面から変更できます"
     ]
   }
 }

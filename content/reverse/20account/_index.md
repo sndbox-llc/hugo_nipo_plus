@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/account/"
-title = "アカウント【逆引き】"
+title = "アカウント"
 description = "逆引きアーカイブ（アカウント関係）"
 date = "2024-10-03"
 weight = 22000

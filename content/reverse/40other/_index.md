@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/other/"
-title = "その他【逆引き】"
+title = "その他"
 description = "逆引きアーカイブ（その他の記事）"
 date = "2024-10-03"
 weight = 24000

@@ -1009,6 +1009,8 @@
       "character-container-img/posted1",
       "character-container-img/posted1_pc",
       "character-container-img/posted1_phone",
+      "character-container-img/postime",
+      "character-container-img/postime_pc",
       "character-container-img/preRemoveForm",
       "character-container-img/preRemoveForm_pc",
       "character-container-img/preview",
@@ -2444,6 +2446,7 @@
       "すでに使用済みのメールアドレスですと表示されてアカウントが作れないとき",
       "アカウント自体を削除することでも空席にできます",
       "メールアドレスを変更して使いたいメールアドレスを空き状態にする",
+      "昨日の日報を今日提出する",
       "自分の名前は組織設定画面から変更できます"
     ]
   }

@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/view/"
-title = "見た目の変更【逆引き】"
+title = "見た目の変更"
 description = "逆引きアーカイブ（見た目の変更）"
 date = "2024-10-03"
 weight = 23000

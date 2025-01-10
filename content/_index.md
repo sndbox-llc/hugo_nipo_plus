@@ -5,6 +5,28 @@ date = "2023-04-01"
 showPrice = true
 +++
 
+<!--
+<div class="container my-5" id="nocode-custom-daily-report">
+<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="col-lg-7">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1" >ノーコードでオリジナルの日報・点検表などを自作</h2>
+<p class="lead">
+
+誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/#commonNumber)、[画像入力](/docs/manual/initial-setting/template/binarys/#picture)など）を組み合わせるだけ。特別な技術知識がなくても、自社の業務に合った入力フォームを迅速に構築できます。
+テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
+
+</p>
+{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/" >}}
+</div>
+<div class="col-lg-9  overflow-hidden">
+{{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc">}}
+</div>
+</div>
+</div>
+</div>
+
+-->
+
 ## NipoPlusで得られるメリット{#benefits}
 
 <div class="row my-5">

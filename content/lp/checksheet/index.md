@@ -16,33 +16,34 @@ heroLinks = [
   priority = 1.0
 +++
 
-<div class="row my-5">
-<div class="col-lg-7 rootMainText">
-
-## 設備点検のDXを簡単に、コスト削減で実現{#dx_equip_inspection}
-
-<!-- 本文エリア -->
+<!-- ▼ DX -->
+<div class="container my-5" id="dx_equip_inspection">
+<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="col-lg-7">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1" >設備点検のDXを簡単に、コスト削減で実現</h2>
+<p class="lead">
 
 NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点検システムです。スマートフォンやタブレットを使い、すぐに点検業務のデジタル化が可能になります。
 ペーパーレス化で業務効率が大幅に向上し、現場での手間も削減できます。難しく感じる点検業務のDX化を、低コストで実現しましょう。
 現場のニーズに応じて自由にカスタマイズできるため、無駄のない運用が可能です。
 スマートフォンやタブレットを活用し、ペーパーレスの点検業務を始めましょう
 
+</p>
+{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/" >}}
 </div>
-<div class="col-lg-9">
-<!-- 画像エリア -->
-
+<div class="col-lg-9  overflow-hidden">
 {{<icatch filename="img/checksheet" msg="自由に設計できるからこそ、設備点検や品質チェック表など様々な用途に利用可能です"  alice="guide">}}
-
 </div>
 </div>
+</div>
+<!-- ▲ DX -->
 
 ---
 
 ## NipoPlusが選ばれる理由 – 点検業務の効率化とペーパーレス対応{#why_nipolus}
 
 <div class="row my-5">
-<div class="col-lg-4 rootMainText d-flex flex-column">
+<div class="col-lg-8 rootMainText d-flex flex-column">
 <h3>自作できる点検項目</h3>
 <p>NipoPlusは、点検表の項目を自由にカスタマイズできるため、設備点検や品質チェック、5Sチェックシートなど多様な業務に対応できます。現場のニーズに合わせた柔軟な設計が可能です。</p>
 <div class="mt-auto">
@@ -51,7 +52,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 
 </div>
 </div>
-<div class="col-lg-4 rootMainText d-flex flex-column">
+<div class="col-lg-8  rootMainText d-flex flex-column">
 <h3>業界最安値の点検アプリ</h3>
 <p>同業他社の高額なシステムに比べ、圧倒的な低価格で提供されており、コスト削減が可能です。NipoPlusは、初期導入コストや運用コストを抑えながら、効率的な点検業務の電子化を実現します。</p>
 <div class="mt-auto">
@@ -60,7 +61,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 
 </div>
 </div>
-<div class="col-lg-4 rootMainText d-flex flex-column">
+<div class="col-lg-8 rootMainText d-flex flex-column">
 <h3>スマホ・タブレット対応でペーパーレス化</h3>
 <p>スマートフォンやタブレットを活用し、点検業務をペーパーレス化。AndroidやiOS端末でも使えるため、すぐに導入でき、現場での業務効率化をサポートします。</p>
 <div class="mt-auto">
@@ -69,7 +70,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 
 </div>
 </div>
-<div class="col-lg-4 rootMainText d-flex flex-column">
+<div class="col-lg-8 rootMainText d-flex flex-column">
 <h3>データ集計と高い信頼性</h3>
 <p>点検結果の集計や分析機能を提供し、CSV出力にも対応。さらにクラウドベースでデータの安全性を確保しており、信頼性の高い運用を実現します。</p>
 <div class="mt-auto">
@@ -82,70 +83,30 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 
 {{<nextArrow>}}
 
-## 点検業務を効率化・ペーパーレス化するサポート機能 – 多様な現場に対応 {#support_functions}
+<!-- ▼ MainFunction -->
+<div class="container my-5" id="support_functions">
+<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="col-lg-7">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1" >点検表アプリとしての主たる機能</h2>
+<p class="lead">
 
-現場点検アプリだからこそ、スマート点検をサポートする豊富な機能が盛り沢山。便利な機能の一部をご紹介します。
+✅ [入力必須機能で漏れを防止](/tips/required/#setting)  
+✅ 点検箇所を画像でわかりやすく説明  
+✅ 色分けで視認性向上  
+✅ [入力順序をロックして手順遵守](/tips/required/#miss_care)  
+✅ 複数の点検シートを簡単に管理  
+✅ [大きな文字サイズ](/reverse-lookup/view/fontsize/)で年輩の方も安心  
+✅ [英語対応](/reverse-lookup/view/language/)でグローバルに活躍  
+✅ [動的な回答変化で無駄を省く](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)
 
+</p>
+</div>
+<div class="col-lg-9  overflow-hidden">
 {{<icatch filename="img/uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる" >}}
-
-<div class="row my-5">
-<div class="col-lg-8">
-
-### ✅ [入力必須機能でミスを防止](/tips/required/#setting) {#required_input}
-
-空欄状態での提出を防ぎ、**点検業務のペーパーレス化**と同時にミスを防止します。
-
-</div>
-<div class="col-lg-8">
-
-### ✅ 点検箇所を画像でわかりやすく説明 {#image_inspection}
-
-写真や図を活用し、点検箇所を視覚的に伝えます。**設備点検アプリ**として、多様な点検業務に対応。
-
-</div>
-<div class="col-lg-8">
-
-### ✅ 色分けで視認性向上 {#color_coding}
-
-赤や緑などのカラーバリエーションで、重要な点検箇所を一目で把握。**点検業務の効率化**に貢献。
-
-</div>
-<div class="col-lg-8">
-
-### ✅ [入力順序をロックして手順遵守](/tips/required/#miss_care) {#input_order}
-
-手順を飛ばせないロック機能で、重要な**点検業務の手順ミスを防止**。視覚的に見やすくなる効果もあります
-
-</div>
-<div class="col-lg-8">
-
-### ✅ 複数の点検シートを簡単に管理 {#repeat}
-
-業務ごとに最大999種類の点検シートをカスタマイズ可能。スマホやタブレットから、効率的に点検が行えます。
-
-</div>
-<div class="col-lg-8">
-
-### ✅[大きな文字サイズ](/reverse-lookup/view/fontsize/)で年輩の方も安心{#large_text}
-
-文字サイズを調整できる機能があるため、年配の方でも安心です。画面の大きなタブレットであれば更に視認性がUP
-
-</div>
-<div class="col-lg-8">
-
-### ✅ [英語対応](/reverse-lookup/view/language/)でグローバルに活躍 {#english_mode}
-
-海外の方でも使いやすいように英語表示モードもサポートしています。将来的にはベトナム語などにも対応予定です。
-
-</div>
-<div class="col-lg-8">
-
-### [✅動的な回答変化で無駄を省く](/docs/manual/initial-setting/template/selects/#dinamic_switch_select){#dynamic_responses}
-
-他の点検結果に基づき、回答リストを動的に変化させて、**点検業務の負担を軽減**。
-
 </div>
 </div>
+</div>
+<!-- ▲ MainFunction -->
 
 {{<nextArrow>}}
 

@@ -9,7 +9,7 @@ NipoPlusへようこそ。どんなことができるのかな？みなさんが
 興味が湧いたらいつでも無料でお試し可能です。ぜひ、実際に触れてみてください。
 
 <!-- ▼自作できる -->
-<div class="container my-1" id="nocode-custom-daily-report">
+<div class="container my-5" id="nocode-custom-daily-report">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1" >日報アプリを自作できる</h2>

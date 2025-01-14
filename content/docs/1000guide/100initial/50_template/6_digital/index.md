@@ -33,8 +33,6 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 |   範囲   |                  ✗                  |                   ⭕                   |                          ⭕                           |                            ⭕                             |
 |   算術   |                 ⭕                  |                   ⭕                   |                          ⭕                           |                             ✗                             |
 
-## 数値系の入力フォームをテンプレートに追加する{#addForm}
-
 数値系の入力フォームはテンプレート編集画面の左パネルから追加できます
 
 {{<icatch filename="img/add-parts-num" msg="数値入力フォームをテンプレートに追加してみよう" alice="here">}}
@@ -46,8 +44,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 {{<icatch filename="img/math-input" msg="金額や距離・個数など、数値の入力に最適" alice="ok">}}
 
-<details>
-  <summary>数値入力フォーム詳細設定</summary>
+数値入力フォーム詳細設定は以下の通り。
 
 <dl class="basic">
   <dt>入力必須</dt>
@@ -62,25 +59,11 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
-</details>
-
-### 数値入力フォームのデータ活用{#subtotal_normal}
-
 数値データは集計やグラフ化に適しています。たくさんのレポートから簡単にグラフや一覧表を作成可能です
 
-<details>
-  <summary>グラフ化</summary>
-
-NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリアルタイムにグラフ化できます。
+NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリアルタイムに[グラフ化](/docs/manual/analytics/chart/)できます。
 
 {{<icatch filename="img/math_charts" msg="数値のデータをグラフ化してみたよ">}}
-
-{{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
-
-</details>
-
-<details>
-  <summary>CSV</summary>
 
 数値のレポートはCSVに出力できます。
 設定で指定した数値の**単位**については、CSV上のラベル（1行目）に【】に囲まれて出力されます。
@@ -94,8 +77,6 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 2023/06/08, 11, 23, 33, 4, 16, 22
 {{< /excelTable >}}
 
-</details>
-
 ---
 
 ## レート入力{#rate}
@@ -107,8 +88,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 レートはPDFに出力可能ですが、使用可能フォントの関係上★などのアイコンの代わりに●と◯で代用されます。
 
-<details>
-  <summary>レートフォーム詳細設定</summary>
+レートフォーム詳細設定は以下の通り。
 
 <dl class="basic">
   <dt>入力必須</dt>
@@ -126,17 +106,12 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
-</details>
-
-### レート入力フォームの集計{#subtotal_rate}
-
-集計・グラフ化が可能です。レート入力は２つの集計方式があります。
+レートフォームのデータは集計・グラフ化が可能です。レート入力は２つの集計方式があります。
 
 - 単純に星の数を合計した集計方法
 - 各レート毎の回数をカウントする方法
 
-<details>
-  <summary>レートフォームデータをグラフ化</summary>
+【グラフ化】
 
 レート入力の結果をグラフにした例
 
@@ -144,10 +119,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
-</details>
-
-<details>
-  <summary>レートフォームデータをCSV出力</summary>
+【CSV出力】
 
 レートのデータは[CSV出力オプション](/docs/manual/analytics/csvoption/)で列展開の形式を変更可能です。
 
@@ -173,8 +145,6 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 列展開がONだと列数が多くなることに注意してください。
 
-</details>
-
 ---
 
 ## スライダ入力{#slider}
@@ -194,8 +164,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 「本日の来客者」のように上限が予測できない項目には不向きです
 {{< /callout >}}
 
-<details>
-  <summary>数値入力フォーム詳細設定</summary>
+【数値入力フォーム詳細設定】
 
 <dl class="basic">
   <dt>初期値</dt>
@@ -220,21 +189,13 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
-</details>
-
-### スライダのデータを集計{#subtotal_slider}
-
 スライダは数値のためデータ集計に対応しています。
 
-<details>
-  <summary>グラフ化</summary>
+【グラフ化】
 
 {{<icatch filename="img/slider_charts" msg="スライダフォームのデータをグラフ化してみたよ">}}
 
-</details>
-
-<details>
-  <summary>CSV出力</summary>
+【CSV出力】
 
 スラライダで入力された値は数値データとしてCSVに出力できます。単位は【】内に記載されます
 
@@ -246,9 +207,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 2023/06/08 11:04, -7, 0, 9, 重量誤差過大
 {{< /excelTable >}}
 
-</details>
-
-## 範囲{#range}
+## 範囲入力{#range}
 
 スライダにつまみが2つあります。これらを操作して範囲を入力できます。
 用途としては最低水温〜最高水温など、用途がやや限定的なフォームです。
@@ -256,8 +215,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{<icatch filename="img/range-input" msg="最低〜最大など 範囲の数値入力に" alice="ok">}}
 
-<details>
-  <summary>範囲入力フォーム詳細設定</summary>
+【範囲入力フォーム詳細設定】
 
 <dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
@@ -284,9 +242,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
-</details>
-
-### CSV出力{#csv_range}
+【CSV出力】
 
 最小と最大がそれぞれ独立した列に展開されます。
 

@@ -260,9 +260,6 @@ graph LR;
 
 動的変化を使うにはテンプレートの設定画面から行います。設定は３種類有ります。
 
-<details >
-  <summary>選択式フォームの設定</summary>
-
 <dl class="basic">
 <dt>参照先</dt>
 <dd>変化を引き起こす大元のフォームです。先の例でいうと「地域」がこれに該当します
@@ -271,8 +268,6 @@ graph LR;
 <dt>変化後のリスト</dt>
 <dd>変化させたいリストを記述します。北関東が選ばれたときは「宇都宮支店・栃木市支店」のように列挙します</dd>
 </dl>
-
-</details>
 
 例えば[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)（単）を参照先として指定するには次の画像のようになります。
 
@@ -317,9 +312,6 @@ Version 1.62.0から動的変化を反復入力と組み合わせて使用でき
 
 チェックボックスフォームの設定は以下の通り。
 
-<details>
-  <summary>選択式フォームの設定</summary>
-
 <dl class="basic">
   <dt>メモ</dt>
   <dd>チェックボックスの右隣に表示される文字</dd>
@@ -338,21 +330,12 @@ Version 1.62.0から動的変化を反復入力と組み合わせて使用でき
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
-</details>
-
 チェックボックスのデータは集計対象です。過去データ推移や累積、そこからグラフの作成も可能です。
-
-<details>
-  <summary>グラフ化</summary>
 
 {{<icatch filename="img/pie-charts" msg="チェックボックスのデータを円グラフにしたイメージ">}}
 
 {{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
-</details>
-
-<details>
-  <summary>CSV</summary>
 出力形式を変えることができます。
 
 {{< link-card title="CSV出力オプション" description="操作ガイド" href="/docs/manual/analytics/csvoption/" >}}
@@ -378,5 +361,3 @@ Version 1.62.0から動的変化を反復入力と組み合わせて使用でき
 2023/06/02 11:15, ON, OFF,
 2023/06/01 11:15, ON, ON, これはサンプルです
 {{< /excelTable >}}
-
-</details>

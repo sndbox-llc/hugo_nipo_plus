@@ -95,9 +95,6 @@ contributors = []
 
 ### 日付と時刻（期間）フォームの初期設定{#setting_2}
 
-<details>
-  <summary>詳細設定</summary>
-
 <dl class="basic">
   <dt>入力必須</dt>
   <dd>これがONの場合、数値が空欄だとレポートの提出ができなくなります</dd>
@@ -127,8 +124,6 @@ contributors = []
 | 日付と時刻       | YYYY/MM/DD HH:mm | 2022/12/01 13:21 | 不可     |
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
-
-</details>
 
 日付と時刻（範囲）では、入力した期間を下に自動で差分（経過した時間）を計算し画面に表示します。
 

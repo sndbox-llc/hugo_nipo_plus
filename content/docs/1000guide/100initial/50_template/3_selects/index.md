@@ -9,22 +9,23 @@ tags = ["テンプレートパーツ", "テンプレート", "集計可能フォ
 contributors = []
 +++
 
-回答のリストを用意しておき、入力時には一覧から選ぶだけで入力ができる形式のフォームです。
-キーボード不要で、スピーディな入力が可能です。
-コンピュータに不慣れな方や年配の方でも直感的な入力が可能です。
-スマートフォンやタブレットといったタップ操作に対応した端末とも相性の良いフォームです。
+回答のリストをあらかじめ作成し、レポート作成時は選ぶだけで簡単に入力できるフォームです。
+
+- キーボード不要で、スピーディな入力が可能です
+- コンピュータに不慣れな方や年配の方でも直感的な入力が可能です
+- スマートフォンやタブレットとも相性の良いフォームです
 
 NipoPlusでは以下の種類があります。
 
 <dl class="basic">
   <dt><a  href="#plain">選択入力（単回答）</a></dt>
-  <dd>一覧の中から1つだけ回答を選べるタイプのものです。見た目はラジオボタンになります</dd>
+  <dd>一覧の中から1つ回答を選べます。見た目はラジオボタンです</dd>
   <dt><a  href="#multiple">選択入力（複回答）</a></dt>
-  <dd>一覧の中から複数個選んで入力できます。見た目はチェックボックスになります</dd>
+  <dd>一覧の中から複数個選べます。見た目はチェックボックスです</dd>
   <dt><a  href="#layerd">選択入力（２層式）</a></dt>
-  <dd>問1の回答に応じて問2の回答リストが自動で変化する入力方式です。単体回答のみです</dd>
+  <dd>非推奨となりました。代わりに動的変化をご利用ください</dd>
   <dt><a  href="#checkbox">チェックボックス入力</a></dt>
-  <dd>YESかNOの２択で回答できるとてもシンプルな入力です。選択肢（複）の１こバージョンと解釈することもできます</dd>
+  <dd>YESかNOの２択で回答します。見た目はチェックボックス・スイッチから選べます</dd>
 </dl>
 
 |       名前       | [集計可否](/docs/manual/analytics/) | [CSV出力](/docs/manual/analytics/csv/) | [PDF出力](/docs/manual/read-report/state/#pdf_export) | [文字検索](/docs/manual/read-report/list/#searchFunction) |
@@ -43,16 +44,12 @@ NipoPlusでは以下の種類があります。
 {{<icatch filename="img/eye-catch" msg="選ぶだけの簡単入力♫タブレットやスマホと相性抜群です" alice="phone">}}
 
 複数の回答から1つだけ選ばせたいときに利用してください。機器点検における機器の大まかな状態表示などに適しています。
-（正常・異常・休止など）
 
 {{< callout context="note" title="Note" icon="outline/info-circle" >}}
 [選択入力フォームの入力画面](/docs/manual/write-report/parts/#select)はこちらから確認できます
 {{< /callout >}}
 
-### 単体回答の設定{#plainSettings}
-
-<details >
-  <summary>選択式フォームの設定</summary>
+選択式フォームの設定は以下の通りです。
 
 <dl class="basic">
   <dt>入力切替を無効にする</dt>
@@ -73,24 +70,12 @@ NipoPlusでは以下の種類があります。
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
-</details>
-
 [単語の色分け](#color)をするにはこちらをご覧ください
-
-### データの活用（CSV出力・グラフ化）{#subtotal_select}
-
-<details>
-  <summary>集計とグラフ化</summary>
 
 選択式フォームは集計・グラフ化が可能です。単語が選ばれた回数を自動集計し、円グラフや棒グラフとして表示できます。
 選択式の単語に数字が含まれていれば**数値として集計**やグラフ化できます。
 たとえば次のような選択肢は集計もグラフ化もできます。
 {{<icatch filename="img/num-select"  msg="選択肢は単語ですが数値に置き換えてグラフ化することも可能です" alice="ok"  >}}
-
-</details>
-
-<details>
-  <summary>CSV出力</summary>
 
 [CSV出力オプションを変更](/docs/manual/analytics/csvoption/)することで列展開の出力形式を変更できます。
 
@@ -120,8 +105,6 @@ NipoPlusでは以下の種類があります。
 
 選択肢の数に関係なく、1つの列にまとめて出力されます
 
-</details>
-
 ---
 
 ## 選択式入力 複数回答{#multiple}
@@ -133,9 +116,6 @@ NipoPlusでは以下の種類があります。
 使い方についてはほとんど選択肢単回答と同じです。CSV出力時の形式のみ異なります。
 
 [単語の色分け](#color)をするにはこちらをご覧ください
-
-<details>
-  <summary>CSV出力</summary>
 
 [CSV出力オプションを変更](/docs/manual/analytics/csvoption/)することで列展開の出力形式を変更できます。
 
@@ -164,15 +144,16 @@ NipoPlusでは以下の種類があります。
 １つのセルに、複数の回答が詰め込まれるため若干無理のある形に出力されることに注意してください。選ばれた単語ごとにスペースで区切って出力されます。
 CSV出力に限っては選択肢（単体）の方が加工がしやすい形です
 
-</details>
-
 ---
 
-## 選択式入力 ２層式{#layerd}
+## ２層式選択（非推奨）{#layerd}
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-この機能は[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)を使うことで同様の機能をもたせることができるため現在では非推奨です
+２層式は非推奨になりました。代わりに[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)をご利用ください
 {{< /callout >}}
+
+<details>
+  <summary>２層式の詳細を表示</summary>
 
 問１の設問によって問２の解凍リストが変化する入力フォームです。
 例えば問1の回答が「野菜」だった場合と、「果物」だった場合でそれぞれ問2の選択肢が変わります。
@@ -184,16 +165,13 @@ graph LR;
     C -->|果物を選択| E[いちご<br>ばなな<br>パイナップル<br>etc...]
 ```
 
-### 選択肢（2層式）の初期設定{#settingSelectCalc}
+【初期設定について】
 
 問１のリストと問２のリストを作成する必要があるため初期設定は少し手間がかかります。
 {{<icatch filename="img/template" msg="2層式はあまりおすすめできないかな？動的変化を使ったほうがいいかも？" alice="question">}}
 
 質問1の選択肢を追加するごとに、質問2の選択肢欄も自動で追加されていきます。
 以下は本入力フォームにのみ存在する設定項目です
-
-<details>
-  <summary>詳細設定</summary>
 
 <dl class="basic">
   <dt><a href="/tips/required/">入力必須</a></dt>
@@ -209,11 +187,7 @@ graph LR;
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 [単語の色分け](#color)も可能です
 
-</details>
-
 [単語の色分け](#color)をするにはこちらをご覧ください
-
-### CSV出力{#csv_3}
 
 選択肢(2層式)をCSVに出力すると、答1・答2の2列に展開されてCSVに出力されます。
 
@@ -222,12 +196,11 @@ graph LR;
 進行, u4PIRvw, 管理者A, くだもの, バナナ, デスクトップ, Mac Mini, ウィスキー, ラフロイグ
 {{< /excelTable >}}
 
+</details>
+
 ## 選択肢の色分けについて{#color}
 
 [選択肢単体](#plain)、[選択肢複数](#multiple)、[選択肢２層式](#layerd)の３種類は、各選択肢に色分けをする機能が有ります。
-
-<details>
-  <summary>単語の色分けについて</summary>
 
 単語を色分けする場合は単語の後ろに###色名をつけてください。
 例:
@@ -264,82 +237,6 @@ graph LR;
 <dt>gray</dt>
 <dd style="color:gray">■これはサンプルです</dd>
 </dl>
-
-</details>
-
----
-
-## チェックボックス入力{#checkbox}
-
-{{<icatch filename="img/input-method-checkbox" msg="チェックボックス入力フォームはYES・NO 2択で答えるのに便利です" alice="ok">}}
-
-チェックボックスフォームの設定は以下の通り。
-
-<details>
-  <summary>選択式フォームの設定</summary>
-
-<dl class="basic">
-  <dt>メモ</dt>
-  <dd>チェックボックスの右隣に表示される文字</dd>
-  <dt>入力必須</dt>
-  <dd>ON:提出時にこのチェックボックスがONでないと提出ができないようになります</dd>
-  <dt>初期状態でON</dt>
-  <dd>ON:レポート作成時にチェックボックスはONの状態でスタート</dd>
-  <dt>集計する</dt>
-  <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
-  <dt>CSV出力時列を展開</dt>
-  <dd><a href="/docs/manual/analytics/csvoption/">CSV出力オプションを参照</a></dd>
-  <dt>形状</dt>
-  <dd><ul><li>スイッチ</li><li>ボックス</li></ul>から選択します</dd>
-</dl>
-メモの使われ方がチェックボックスだけ他の項目と異なり、ボックスの横に配置されるという点にだけ注意してください。
-
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
-
-</details>
-
-### チェックボックスのデータを集計{#subtotal_checkbox}
-
-チェックボックスのデータは集計対象です。過去データ推移や累積、そこからグラフの作成も可能です。
-
-<details>
-  <summary>グラフ化</summary>
-
-{{<icatch filename="img/pie-charts" msg="チェックボックスのデータを円グラフにしたイメージ">}}
-
-{{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
-
-</details>
-
-<details>
-  <summary>CSV</summary>
-出力形式を変えることができます。
-
-{{< link-card title="CSV出力オプション" description="操作ガイド" href="/docs/manual/analytics/csvoption/" >}}
-
-列展開がONの場合のCSV出力例
-
-{{< excelTable >}}
-提出日, 【ON】質問A, 【OFF】質問A, 【ON】質問B, 【OFF】質問B, 業務内容
-2023/06/06, ◯, -, ◯, -,
-2023/06/06, -, ◯, -, ◯,
-2023/06/06, -, ◯, ◯, -,
-2023/06/06, ◯, -, -, ◯,
-2023/06/06, ◯, -, ◯, -, これはサンプルです
-{{< /excelTable >}}
-
-列展開がOFFの場合のCSV出力例
-
-{{< excelTable >}}
-提出日, 質問A, 質問B, 業務内容
-2023/06/06 11:15, ON, ON,
-2023/06/05 11:15, OFF, OFF,
-2023/06/04 11:15, OFF, ON,
-2023/06/02 11:15, ON, OFF,
-2023/06/01 11:15, ON, ON, これはサンプルです
-{{< /excelTable >}}
-
-</details>
 
 ---
 
@@ -411,3 +308,75 @@ Version 1.62.0から動的変化を反復入力と組み合わせて使用でき
 
 １行目の訪問先エリア「北関東」が選ばれたとすると、１行目の動的変化は「北関東」を基準として処理が行われます。2行目の訪問先エリアに違う値を選んだとしても、１行目には影響しません。それぞれの行が独立して動的変化を起こします。
 反復入力内の選択肢しか監視対象に指定できません。
+
+---
+
+## チェックボックス入力{#checkbox}
+
+{{<icatch filename="img/input-method-checkbox" msg="チェックボックス入力フォームはYES・NO 2択で答えるのに便利です" alice="ok">}}
+
+チェックボックスフォームの設定は以下の通り。
+
+<details>
+  <summary>選択式フォームの設定</summary>
+
+<dl class="basic">
+  <dt>メモ</dt>
+  <dd>チェックボックスの右隣に表示される文字</dd>
+  <dt>入力必須</dt>
+  <dd>ON:提出時にこのチェックボックスがONでないと提出ができないようになります</dd>
+  <dt>初期状態でON</dt>
+  <dd>ON:レポート作成時にチェックボックスはONの状態でスタート</dd>
+  <dt>集計する</dt>
+  <dd>ON:集計機能で利用できます。集計が不要の場合はOFFにします</dd>
+  <dt>CSV出力時列を展開</dt>
+  <dd><a href="/docs/manual/analytics/csvoption/">CSV出力オプションを参照</a></dd>
+  <dt>形状</dt>
+  <dd><ul><li>スイッチ</li><li>ボックス</li></ul>から選択します</dd>
+</dl>
+メモの使われ方がチェックボックスだけ他の項目と異なり、ボックスの横に配置されるという点にだけ注意してください。
+
+補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+
+</details>
+
+チェックボックスのデータは集計対象です。過去データ推移や累積、そこからグラフの作成も可能です。
+
+<details>
+  <summary>グラフ化</summary>
+
+{{<icatch filename="img/pie-charts" msg="チェックボックスのデータを円グラフにしたイメージ">}}
+
+{{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+
+</details>
+
+<details>
+  <summary>CSV</summary>
+出力形式を変えることができます。
+
+{{< link-card title="CSV出力オプション" description="操作ガイド" href="/docs/manual/analytics/csvoption/" >}}
+
+列展開がONの場合のCSV出力例
+
+{{< excelTable >}}
+提出日, 【ON】質問A, 【OFF】質問A, 【ON】質問B, 【OFF】質問B, 業務内容
+2023/06/06, ◯, -, ◯, -,
+2023/06/06, -, ◯, -, ◯,
+2023/06/06, -, ◯, ◯, -,
+2023/06/06, ◯, -, -, ◯,
+2023/06/06, ◯, -, ◯, -, これはサンプルです
+{{< /excelTable >}}
+
+列展開がOFFの場合のCSV出力例
+
+{{< excelTable >}}
+提出日, 質問A, 質問B, 業務内容
+2023/06/06 11:15, ON, ON,
+2023/06/05 11:15, OFF, OFF,
+2023/06/04 11:15, OFF, ON,
+2023/06/02 11:15, ON, OFF,
+2023/06/01 11:15, ON, ON, これはサンプルです
+{{< /excelTable >}}
+
+</details>

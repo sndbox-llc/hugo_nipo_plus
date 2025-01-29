@@ -9,7 +9,7 @@ tags = []
 contributors = []
 
 [seo]
-title = ""
+title = "組織とグループの意味"
 
 +++
 

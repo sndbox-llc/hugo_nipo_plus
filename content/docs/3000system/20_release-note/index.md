@@ -32,6 +32,14 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2025/1/29 v1.68.0{#vp1_68_0}
+
+- [日報の引継機能](/docs/manual/write-report/relation/)が実装されました
+- 通知に「引継」の項目が追加されました
+- 数値入力フォームで文字サイズを設定値により変化するように修正しました
+- スタッフの単体選択を解除できるようになりました
+-
+
 #### {{<nipoPlusLogo 30>}} 2024/12/26 v1.67.1{#vp1_67_1}
 
 - セキュリティアップデートを行いました

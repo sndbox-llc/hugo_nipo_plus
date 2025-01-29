@@ -109,6 +109,8 @@ contributors = []
   <dd>左のメニューにシフト管理が追加されます。スタッフの休日情報を登録できます</dd>
   <dt><a href="/docs/manual/utils/log/">ログ</a></dt>
   <dd>左のメニューにログが追加されます。ログは閲覧専用です</dd>
+  <dt><a href="/docs/manual/write-report/relation/">引継ぎ</a></dt>
+  <dd>左のメニューに引継日報が追加されます。複数人で日報を作成する機能が利用できるようになります</dd>
 
 </dl>
 

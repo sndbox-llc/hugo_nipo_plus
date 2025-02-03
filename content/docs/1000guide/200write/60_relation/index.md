@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/write-report/relation/"
-title = "👥複数人レポートを書く"
+title = "👥複数人でレポートを書く"
 menuTitle = "👥複数人でレポートを書く"
 description = "複数人でレポートを書くことができます"
 toc = true

@@ -211,6 +211,30 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 
 <!-- ▲ CSV -->
 
+<!-- ▼ CSV -->
+<div class="container my-5" id="csv_output">
+<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="col-lg-16">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">圧倒的低コスト- 180円</h2>
+<p class="lead">
+
+徹底したコストカットにより、1名180円の低価格でご提供しています。無料プランもあり。  
+業界最安値水準を目指しております。  
+解約時の違約金や、契約時の登録料など、様々な手数料を心配されるかもしれませんがそういった費用は一切かかりませんのでご安心ください。  
+(※ただし口座振込決済における振込手数料はご負担をお願いしています)
+
+解約して無料プランに切り替わっても過去のデータはそのまま残り続けますので、「特定のシーズンのみ使用する」といった柔軟な利用法も可能です。
+
+</p>
+
+{{< link-card title="ご利用料金"  description="無料版あり" href="/docs/price/_about/">}}
+
+</div>
+</div>
+</div>
+
+<!-- ▲ CSV -->
+
 <!--
 
 たくさんの日報を1枚のシートにまとめるにはCSV出力が便利です。NipoPlusのCSV出力を使うとエクセルでそのまま開ける日報データ一覧を簡単に出力可能。
@@ -225,49 +249,6 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 2024/02/03 09:25, ueda 管理者, ueda 管理者, 未処理,  , ⭕, ⭕, ⭕,  , ON, "栃木県宇都宮市XXX-XX ◯◯ハイツXX", GATXG0-12, 3, 2, 4, CSV出力不可
 {{< /excelTable>}}
 -->
-
-{{<nextArrow>}}
-
-## NipoPlusを選ぶ理由{#why_choose}
-
-<div class="row my-5">
-<div class="col-lg-8 rootMainText d-flex flex-column">
-<h3>多目的対応</h3>
-<p>製造業、サービス業、教育機関など、あらゆる業種に対応可能</p>
-<div class="mt-auto">
-
-{{< link-card title="テンプレート例"  description="コラム記事" href="/tips/userfriendly/#template_samples_collection">}}
-
-</div>
-</div>
-<div class="col-lg-8 rootMainText d-flex flex-column">
-<h3>コストパフォーマンス</h3>
-<p>中小零細企業にも手の届く圧倒的低価格。業界最安値を目指します</p>
-<div class="mt-auto">
-
-{{< link-card title="ご利用料金"  description="無料版あり" href="/docs/price/_about/">}}
-
-</div>
-</div>
-<div class="col-lg-8 rootMainText d-flex flex-column">
-<h3>モバイル完全対応</h3>
-<p>クラウドでスマホ・タブレットに対応</p>
-<div class="mt-auto">
-
-{{< link-card title="スマホで日報を書く"  description="コラム記事" href="/tips/mobile-device/">}}
-
-</div>
-</div>
-<div class="col-lg-8 rootMainText d-flex flex-column">
-<h3>データの集計と分析</h3>
-<p>データを手軽に集計分析、CSV出力もサポート</p>
-<div class="mt-auto">
-
-{{< link-card title="集計・グラフ化"  description="操作ガイド" href="/docs/manual/analytics/_about/">}}
-
-</div>
-</div>
-</div>
 
 {{<nextArrow>}}
 

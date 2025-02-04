@@ -5,9 +5,6 @@ date = "2023-04-01"
 showPrice = true
 +++
 
-NipoPlusへようこそ。どんなことができるのかな？みなさんが知りたいポイントをピックアップしました。  
-興味が湧いたらいつでも無料でお試し可能です。ぜひ、実際に触れてみてください。
-
 <!-- ▼自作できる -->
 <div class="container my-5" id="nocode-custom-daily-report">
 <div class="row align-items-center rounded-3 border shadow-lg">

@@ -12,14 +12,15 @@ NipoPlusへようこそ。どんなことができるのかな？みなさんが
 <div class="container my-5" id="nocode-custom-daily-report">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >日報アプリを自作できる</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">日報アプリを自作できる</h2>
 <p class="lead">
 
-誰でも簡単にオリジナルの入力フォームを作成できます。多目的対応の入力パーツ（[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/#commonNumber)、[画像入力](/docs/manual/initial-setting/template/binarys/#picture)など）を組み合わせるだけ。特別な技術知識がなくても、自社の業務に合った入力フォームを迅速に構築できます。
+[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/#commonNumber)、[画像入力](/docs/manual/initial-setting/template/binarys/#picture)などを自由に組み合わせるだけで、日報に使うフォームを簡単に自作できます。
+レイアウトだってドラッグ操作で簡単に調整可能です。
 テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
 
 </p>
-{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/" >}}
+{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/">}}
 </div>
 <div class="col-lg-9  overflow-hidden">
 {{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc">}}
@@ -32,14 +33,17 @@ NipoPlusへようこそ。どんなことができるのかな？みなさんが
 <div class="container my-5" id="browser_app">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >PC・スマホ・タブレットに対応</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">PC・スマホ・タブレットに対応</h2>
 <p class="lead">
 
-NipoPlusを使うことで、紙の日報やチェックシートを電子化し、手作業の煩雑さから解放されます。スマホからも簡単に入力・閲覧ができるため、どこからでもアクセス可能です。これにより、作業効率が大幅に向上し、時間とコストの節約が可能です。
+ブラウザが使える機器なら何でもOK。  
+スマホで書いた日報をPCで見たり、タブレットで点検表を入力したり。  
+全てのデータはクラウドに保存されているので時間、場所に囚われない快適な日報ライフを実現できます。  
+[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)は専用アプリもご用意しています。
 
 </p>
 
-{{< link-card title="モバイルデバイスで日報を書く" description="コラム記事" href="/tips/mobile-device/" >}}
+{{< link-card title="モバイルデバイスで日報を書く" description="コラム記事" href="/tips/mobile-device/">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -53,21 +57,22 @@ NipoPlusを使うことで、紙の日報やチェックシートを電子化し
 <div class="container my-5" id="easy_for_seniors">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >年配の方でも簡単に使えます</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">年配の方でも使える簡単操作</h2>
 <p class="lead">
 
-NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボタンを押して入力フォームの値を埋めるだけです。
-[入力漏れの検知](/tips/required/)や入力順序を指示することも可能。
-[提出先をあらかじめ固定](/docs/manual/initial-setting/staff-local/dist/)しておけば更に楽に使えます
+書いて提出するだけの簡単操作。  
+PC苦手な方の鬼門「名前をつけて保存」も有りません。
+[提出先をあらかじめ固定](/docs/manual/initial-setting/staff-local/dist/)しておけば更に楽に使えます。  
+また、文字サイズ調整機能が備わっているので年配の方でも視認性抜群です。
 
 </p>
 
-{{< link-card title="レポートを書く流れ"  description="操作ガイド" href="/docs/manual/write-report/write/" >}}
+{{< link-card title="レポートを書く流れ"  description="操作ガイド" href="/docs/manual/write-report/write/">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
 
-{{<icatch filename="write-report" msg="テンプレートに沿って入力するだけの簡単操作"  alice="tablet">}}
+{{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet">}}
 
 </div>
 </div>
@@ -78,15 +83,16 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 <div class="container my-5" id="pdf_output">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >日報をそのままPDFに出力可能</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">日報を1クリックでPDFに変換</h2>
 <p class="lead">
 
-見たままに入力できるなら**見たままに出力できる**ことにもこだわって作りました。
-最初に作った日報テンプレートをそのままのレイアウトでPDFに変換出力できます。PDFはA4サイズで、縦・または横レイアウトを[PDF出力設定](/docs/manual/pdf/pdfoption/)で選べます。
+簡単な操作で提出された日報や点検表をPDFに変換してダウンロードできます。
+A4サイズで向きは縦・横から選択可能。見た目のレイアウトも2種類あり、[PDF出力設定](/docs/manual/pdf/pdfoption/)から簡単に切替が可能です。  
+まとめて出力したいときに便利な一括PDF出力にも対応しています。
 
 </p>
 
-{{< link-card title="PDF出力"  description="操作ガイド" href="/docs/manual/read-report/state/#pdf_export" >}}
+{{< link-card title="PDF出力"  description="操作ガイド" href="/docs/manual/read-report/state/#pdf_export">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -103,15 +109,15 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 <div class="container my-5" id="submission_status">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >提出状況一覧表で未提出者を早期特定</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">日報の未提出者を簡単に特定</h2>
 <p class="lead">
 
-一覧表で誰が何件の日報を提出したのか俯瞰できるので、未提出者を早期に、しかも簡単に発見できます。
-シフト登録をしておけば休みなのか、提出忘れなのかもすぐに分かります。
+日報の提出状況一覧表を使えば、提出漏れの状況を簡単に把握できます。件数も把握できるので過剰に提出しているケースでも特定可能です。  
+シフト登録をしておけば、未提出か休みによる漏れかも簡単に区別可能です。
 
 </p>
 
-{{< link-card title="シフト管理"  description="操作ガイド"  href="/docs/manual/utils/shift/" >}}
+{{< link-card title="シフト管理"  description="操作ガイド"  href="/docs/manual/utils/shift/">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -128,16 +134,45 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 <div class="container my-5" id="dynamic">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >回答内容に応じて動的に設問を変化できる</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">回答に応じて動的に設問を変化</h2>
 <p class="lead">
 
-例えば「地域」に「北関東」を選ぶと、支店に「宇都宮支店・鹿沼支店」をセットすることができます。
-選択肢がカテゴリ分けされている場合に便利な機能です。もちろん連鎖をつなげることもできます。（例えば国・地域・支店 のように）
+プログラミングのような日報を誰でも簡単に組み立て可能です。  
+例えば「地域」の値に応じて「支店」の[選択肢](/docs/manual/initial-setting/template/selects/)を変化させることが可能です。下にサンプルを用意しました。
 
-動き自体はまさにプログラミングちっくですが、もちろんプログラマが居なくてもご自身で手軽にこの機能を作成することができます。
+<div class="container my-4" style="border:1px solid black">
+<div class="mb-3">
+<p class="fw-bold">地域：</p>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="region" id="regionTochigi" value="tochigi">
+<label class="form-check-label" for="regionTochigi">栃木</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="region" id="regionGunma" value="gunma">
+<label class="form-check-label" for="regionGunma">群馬</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="region" id="regionIbaraki" value="ibaraki">
+<label class="form-check-label" for="regionIbaraki">茨城</label>
+</div>
+</div>
+<div class="mb-3">
+<p class="fw-bold">支店：</p>
+<div id="cities">
+<div class="form-check">
+<input class="form-check-input" type="radio" name="city" id="defaultCity" value="">
+<label class="form-check-label" for="defaultCity">地域を選択して下さい</label>
+</div>
+</div>
+</div>
+</div>
+
+選択肢を動的に変化させることで関係のない選択を隠すことができ、入力者の負担軽減に繋がります。  
+専用アプリで作るにはお金がかかりますが、NipoPlusなら自分たちで簡単にこのような機能を実装可能です。  
+例では2層ですが、更につなげて行くことも可能です。（例えば地域・支店・担当者 のように）
 
 </p>
-{{< link-card title="動的変化について"  description="操作ガイド"  href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select" >}}
+{{< link-card title="動的変化について"  description="操作ガイド"  href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -154,16 +189,16 @@ NipoPlusで日報や点検表を作成するのはとっても簡単。作成ボ
 <div class="container my-5" id="csv_output">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >CSVに出力してエクセルで開けばすぐ集計・分析</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">分析・CSV出力</h2>
 <p class="lead">
 
-DX化のメリットはなんといってもデータの集計や分析が容易な点です。日報内の「売上高」や「訪問件数」といった数値データがあれば、それを簡単にグラフ化することが可能です。
-エクセルに日報を転記するよりずっと手軽で効率的です。  
-残念ながらピポッドテーブルなど、エクセルほど高度なことはできません。しかしデータをCSV出力すれば、そのままエクセルで開くことが可能です。ケースバイケースで使い分けることで手軽さと高度さを両立できます。
+DX化のメリットはなんといってもデータの集計や分析が容易な点です。日報内の「売上高」や「訪問件数」といった数値データを簡単にグラフ化できます。  
+グラフも折れ線グラフ📈・棒グラフ📊・円グラフなど複数種類を作成可能で、ワンクリックで切替が可能です。  
+またデータをCSV出力することで、そのままエクセルなどのスプレッドシートで開いて編集も可能です。
 
 </p>
 
-{{< link-card title="エクセル集計とアプリ集計" description="コラム記事"  href="/tips/analytics/" >}}
+{{< link-card title="エクセル集計とアプリ集計" description="コラム記事"  href="/tips/analytics/">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -181,14 +216,14 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 たくさんの日報を1枚のシートにまとめるにはCSV出力が便利です。NipoPlusのCSV出力を使うとエクセルでそのまま開ける日報データ一覧を簡単に出力可能。
 例えば次のようにエクセルで開くことができます。（※見やすくするため◯を⭕に脚色しています）
 
-{{< excelTable >}}
+{{< excelTable>}}
 提出日, 提出者名, 承認者1, 承認者1詳細, 【日当たり良好】特徴, 【駅近く】特徴, 【コンビニあり】特徴, 【スーパーあり】特徴, 【新築】特徴, 風呂トイレ別, 所在地住所, 管理番号, 外観上の評価, 利便性評価, 調査員総合評価, 建物外観
 2024/02/29 10:26, ueda 管理者, ueda 管理者, 未処理, ⭕, ⭕, , ⭕, , ON, 栃木県中岡本, BA-1, 5, 5, 4, CSV出力不可
 2024/02/25 10:26, ueda 管理者, ueda 管理者, 未処理,  ,  ,  , ⭕,  , ON, 栃木県宇都宮市益子XXX-1, MA-1, 3, 4, 1, CSV出力不可
 2024/02/19 10:26, ueda 管理者, ueda 管理者, 未処理,  ,  , ⭕, ⭕, ⭕, ON, 栃木県鹿沼市XX, ZZC-1, 4, 1, 4, CSV出力不可
 2024/02/17 10:26, ueda 管理者, ueda 管理者, 未処理, ⭕,  ,  , ⭕,  , ON, 栃木県日光市１１１, NI-24, 3, 1, 2, CSV出力不可
 2024/02/03 09:25, ueda 管理者, ueda 管理者, 未処理,  , ⭕, ⭕, ⭕,  , ON, "栃木県宇都宮市XXX-XX ◯◯ハイツXX", GATXG0-12, 3, 2, 4, CSV出力不可
-{{< /excelTable >}}
+{{< /excelTable>}}
 -->
 
 {{<nextArrow>}}
@@ -201,7 +236,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 <p>製造業、サービス業、教育機関など、あらゆる業種に対応可能</p>
 <div class="mt-auto">
 
-{{< link-card title="テンプレート例"  description="コラム記事" href="/tips/userfriendly/#template_samples_collection" >}}
+{{< link-card title="テンプレート例"  description="コラム記事" href="/tips/userfriendly/#template_samples_collection">}}
 
 </div>
 </div>
@@ -210,7 +245,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 <p>中小零細企業にも手の届く圧倒的低価格。業界最安値を目指します</p>
 <div class="mt-auto">
 
-{{< link-card title="ご利用料金"  description="無料版あり" href="/docs/price/_about/" >}}
+{{< link-card title="ご利用料金"  description="無料版あり" href="/docs/price/_about/">}}
 
 </div>
 </div>
@@ -219,7 +254,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 <p>クラウドでスマホ・タブレットに対応</p>
 <div class="mt-auto">
 
-{{< link-card title="スマホで日報を書く"  description="コラム記事" href="/tips/mobile-device/" >}}
+{{< link-card title="スマホで日報を書く"  description="コラム記事" href="/tips/mobile-device/">}}
 
 </div>
 </div>
@@ -228,7 +263,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 <p>データを手軽に集計分析、CSV出力もサポート</p>
 <div class="mt-auto">
 
-{{< link-card title="集計・グラフ化"  description="操作ガイド" href="/docs/manual/analytics/_about/" >}}
+{{< link-card title="集計・グラフ化"  description="操作ガイド" href="/docs/manual/analytics/_about/">}}
 
 </div>
 </div>
@@ -253,3 +288,49 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 ※お客様の声を書いてくれる方大募集！協力してくれる方はぜひ[お問い合わせ](/others/inquery/)からコンタクトしてください（謝礼はできませんがそれでも良い方）
 
 {{<nextArrow>}}
+
+<script>
+    // DOMの読み込み完了後に処理を実行
+    document.addEventListener('DOMContentLoaded', function() {
+      // 各地域に対応する主要な地名のマッピング
+      var regionCities = {
+        tochigi: ['宇都宮', '鹿沼', '足利'],
+        gunma: ['前橋', '高崎', '伊勢崎'],
+        ibaraki: ['水戸', '日立', '土浦']
+      };
+
+      // 地域ラジオボタンにイベントリスナーを追加
+      var regionRadios = document.getElementsByName('region');
+      for (var i = 0; i < regionRadios.length; i++) {
+        regionRadios[i].addEventListener('change', function() {
+          // 選択された地域の値を取得
+          var selectedRegion = this.value;
+          // 対応する主要な地名のリストを取得
+          var cities = regionCities[selectedRegion];
+
+          // radio2側のコンテナを取得し、初期表示をクリア
+          var citiesContainer = document.getElementById('cities');
+          citiesContainer.innerHTML = '';
+
+          // 対応する地名が存在する場合、ラジオボタンを生成
+          if (cities && cities.length > 0) {
+            for (var j = 0; j < cities.length; j++) {
+              // ラベル要素を生成
+              var label = document.createElement('label');
+              // ラジオボタンを生成
+              var radio = document.createElement('input');
+              radio.type = 'radio';
+              radio.name = 'city';
+              radio.value = cities[j];
+
+              // ラジオボタンとテキストをラベルに追加
+              label.appendChild(radio);
+              label.appendChild(document.createTextNode(' ' + cities[j]));
+              // コンテナに追加
+              citiesContainer.appendChild(label);
+            }
+          }
+        });
+      }
+    });
+  </script>

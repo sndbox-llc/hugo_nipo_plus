@@ -1,12 +1,12 @@
 +++
 url = "/lp/checksheet/"
-title = "製造業向け設備点検・品質チェックを効率化。DX対応のペーパーレス点検アプリ"
+title = "業界最安の設備点検チェックシートアプリ"
 menuTitle = "点検チェックシートアプリ"
-description = "設備点検や品質チェック業務をペーパーレスで効率化するNipoPlusは、製造業向けに最適なアプリです。タブレットやスマートフォンにも対応し、DXを推進。紙のチェックシートを電子化してコスト削減と業務効率を向上させます。現場の声を反映した使いやすさをぜひご体感ください。業界最安値で提供中"
+description = "タブレットやスマホで機器点検を楽々に。大きい文字で年配の方も安心。チェック項目は自由に設計OK。初めてのDXを始めよう"
 toc = false
 showPrice = true
-heroTitle = "工場の設備点検や品質チェックをスマホで楽に<br> NipoPlus"
-heroText = "NipoPlusは、製造業の現場で求められる設備点検や品質チェック業務を、タブレットやスマートフォンで簡単に電子化できるアプリです。現場の声を反映し、ペーパーレスとDX化を実現。ローコストで導入でき、点検項目も自由にカスタマイズ可能です。コスト削減と業務効率を最大限に引き上げましょう"
+heroTitle = "設備点検やチェックシート入力をクラウド化"
+heroText = "NipoPlusはもともと日報アプリとして開発されましたが、カスタマイズ性の高さから自動車部品メーカー等、いくつかの製造業の方々に目をつけていただきました。何度かの改良を経て製造業の設備・機材点検・製品の品質チェック用アプリとしても十分利用可能な水準にあります。<br>ベースが日報アプリのため料金も他の製造業向けアプリに比べてずっと安価でご提供可能です。"
 heroLinks = [
   { label = "入力漏れをブロック", url = "/tips/required/" },
   { label = "タブレット点検アプリ", url = "/tips/mobile-device/" },
@@ -20,19 +20,17 @@ heroLinks = [
 <div class="container my-5" id="dx_equip_inspection">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >設備点検のDXを簡単に、コスト削減で実現</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">点検項目を自由に自作できる</h2>
 <p class="lead">
 
-NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点検システムです。スマートフォンやタブレットを使い、すぐに点検業務のデジタル化が可能になります。
-ペーパーレス化で業務効率が大幅に向上し、現場での手間も削減できます。難しく感じる点検業務のDX化を、低コストで実現しましょう。
-現場のニーズに応じて自由にカスタマイズできるため、無駄のない運用が可能です。
-スマートフォンやタブレットを活用し、ペーパーレスの点検業務を始めましょう
+天井クレーンやアーク溶接機、プラズマ切断機、孔あけ機、フォークリフトなど、点検したい機器ごとにテンプレートを作成しましょう。テンプレートは自由に点検項目をカスタマイズ可能です。  
+テンプレートは複数保存でき、点検時は使用するテンプレートを選び点検項目に沿って入力するだけです。
 
 </p>
-{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/" >}}
+{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/">}}
 </div>
 <div class="col-lg-9  overflow-hidden">
-{{<icatch filename="img/checksheet" msg="自由に設計できるからこそ、設備点検や品質チェック表など様々な用途に利用可能です"  alice="guide">}}
+{{<icatch filename="img/checksheet" msg="これはバルブ設備点検シートの例です。簡単に作れるよ"  alice="tablet">}}
 </div>
 </div>
 </div>
@@ -48,7 +46,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 <p>NipoPlusは、点検表の項目を自由にカスタマイズできるため、設備点検や品質チェック、5Sチェックシートなど多様な業務に対応できます。現場のニーズに合わせた柔軟な設計が可能です。</p>
 <div class="mt-auto">
 
-{{< link-card title="テンプレート一例"  description="コラム記事" href="/tips/userfriendly/#template_samples_collection" >}}
+{{< link-card title="テンプレート一例"  description="コラム記事" href="/tips/userfriendly/#template_samples_collection">}}
 
 </div>
 </div>
@@ -57,7 +55,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 <p>同業他社の高額なシステムに比べ、圧倒的な低価格で提供されており、コスト削減が可能です。NipoPlusは、初期導入コストや運用コストを抑えながら、効率的な点検業務の電子化を実現します。</p>
 <div class="mt-auto">
 
-{{< link-card title="料金プランを見る"  description="無料版あり"  href="/docs/price/_about/" >}}
+{{< link-card title="料金プランを見る"  description="無料版あり"  href="/docs/price/_about/">}}
 
 </div>
 </div>
@@ -66,7 +64,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 <p>スマートフォンやタブレットを活用し、点検業務をペーパーレス化。AndroidやiOS端末でも使えるため、すぐに導入でき、現場での業務効率化をサポートします。</p>
 <div class="mt-auto">
 
-{{< link-card title="モバイルデバイス対応" description="コラム記事"  href="/tips/mobile-device/" >}}
+{{< link-card title="モバイルデバイス対応" description="コラム記事"  href="/tips/mobile-device/">}}
 
 </div>
 </div>
@@ -75,7 +73,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 <p>点検結果の集計や分析機能を提供し、CSV出力にも対応。さらにクラウドベースでデータの安全性を確保しており、信頼性の高い運用を実現します。</p>
 <div class="mt-auto">
 
-{{< link-card title="集計・グラフ化" description="操作ガイド"  href="/docs/manual/analytics/_about/" >}}
+{{< link-card title="集計・グラフ化" description="操作ガイド"  href="/docs/manual/analytics/_about/">}}
 
 </div>
 </div>
@@ -87,7 +85,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 <div class="container my-5" id="support_functions">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1" >点検表アプリとしての主たる機能</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">点検表アプリとしての主たる機能</h2>
 <p class="lead">
 
 ✅ [入力必須機能で漏れを防止](/tips/required/#setting)  
@@ -102,7 +100,7 @@ NipoPlusは、点検表のカスタマイズが可能な、製造業向けの点
 </p>
 </div>
 <div class="col-lg-9  overflow-hidden">
-{{<icatch filename="img/uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる" >}}
+{{<icatch filename="img/uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる">}}
 </div>
 </div>
 </div>
@@ -152,7 +150,7 @@ NipoPlusで蓄積された点検データは、基幹システムや他のソフ
 
 NipoPlusで出力したCSVは次のような一般的な形をしています。
 
-{{< excelTable >}}
+{{< excelTable>}}
 提出日, 【-2mm】線形ズレ, 【-1mm】線形ズレ, 【0】線形ズレ, 【+1mm】線形ズレ, 【+2mm】線形ズレ, 【-2mm】X軸ズレ, 【-1mm】X軸ズレ, 【0】X軸ズレ, 【+1mm】X軸ズレ, 【+2mm】X軸ズレ, 【-2mm】Y軸ズレ, 【-1mm】Y軸ズレ, 【0】Y軸ズレ, 【+1mm】Y軸ズレ, 【+2mm】Y軸ズレ, 【-2mm】Z軸ズレ, 【-1mm】Z軸ズレ, 【0】Z軸ズレ, 【+1mm】Z軸ズレ, 【+2mm】Z軸ズレ, 【合格】合否, 【不合格】合否, 備考
 2024/05/14 10:26, , , ⭕, , , , ⭕, , , , , , , , ⭕, , , ⭕, , , ⭕, ,
 2023/04/11 01:23, , , ⭕, , , , , ⭕, , , , , ⭕, , , , ⭕, , , , ⭕, ,
@@ -162,7 +160,7 @@ NipoPlusで出力したCSVは次のような一般的な形をしています。
 2023/02/11 11:35, , , ⭕, , , , , ⭕, , , , , ⭕, , , , , , ⭕, , ⭕, ,
 2023/02/09 11:51, , , ⭕, , , , , ⭕, , , , , , ⭕, , , ⭕, , , , ⭕, , "サンプルです実在する部品とは無関係です"
 
-{{< /excelTable >}}
+{{< /excelTable>}}
 
 これは一例であり、出力オプションを変更することで加工しやすい様々な形式で出力が可能です。NipoPlusでレポートをエクセルで[集計するテクニック](/excel/sales_report/)についても紹介しています。
 
@@ -205,4 +203,4 @@ NipoPlusならそれらをカバーしているので中小企業に幅広く売
 
 </blockquote>
 
-{{<figure src="img/factory-usage.webp"  alt="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" caption="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" >}}
+{{<figure src="img/factory-usage.webp"  alt="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" caption="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）">}}

@@ -18,7 +18,7 @@ defaultContentLanguage = "ja"
 disableLanguages = ["en"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Sndbox,LLC"
+copyRight = "Copyright (c) 2020-2025 Sndbox,LLC"
 
 [build.buildStats]
   enable = true
@@ -67,7 +67,6 @@ notAlternative = true
 [permalinks]
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
-# docs = "/docs/1.0/:sections[1:]/:slug/"
 
 
 [frontmatter]

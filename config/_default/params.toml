@@ -118,7 +118,7 @@ mainSections = ["docs"]
 # SEO (@thulite/seo)
 [seo]
   [seo.title]
-    separator = " | "
+    separator = "|"
     suffix = ""
   [seo.favicons]
     sizes = []

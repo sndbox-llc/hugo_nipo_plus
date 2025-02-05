@@ -8,9 +8,9 @@ showPrice = true
 heroTitle = "設備点検やチェックシート入力をクラウド化"
 heroText = "NipoPlusはもともと日報アプリとして開発されましたが、カスタマイズ性の高さから自動車部品メーカー等、いくつかの製造業の方々に目をつけていただきました。何度かの改良を経て製造業の設備・機材点検・製品の品質チェック用アプリとしても十分利用可能な水準にあります。<br>ベースが日報アプリのため料金も他の製造業向けアプリに比べてずっと安価でご提供可能です。"
 heroLinks = [
-  { label = "入力漏れをブロック", url = "/tips/required/" },
-  { label = "タブレット点検アプリ", url = "/tips/mobile-device/" },
-  { label = "建設業の日報としても", url = "/lp/builder/" }
+  { label = "入力漏れや手順飛ばしをブロック", url = "/tips/required/" },
+  { label = "スマホ・タブレットなら写真や手描きもOK", url = "/tips/mobile-device/" },
+  { label = "日報アプリとしてもOK", url = "/" }
 ]
 [sitemap]
   priority = 1.0
@@ -52,19 +52,19 @@ heroLinks = [
 </p>
 </div>
 <div class="col-lg-9 overflow-hidden">
-{{<icatch filename="img/uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる">}}
+{{<icatch filename="img/uservility" msg="様々な機能で点検者をサポートします" alice="ok">}}
 </div>
 <div class="col-lg-8">
 
 ✅ [入力必須機能で漏れを防止](/tips/required/#setting)  
-✅ 点検箇所を画像でわかりやすく説明  
-✅ 色分けで視認性向上  
+✅ [点検箇所を画像でわかりやすく説明](/docs/manual/initial-setting/template/make/#common_setting)  
+✅ [色分けで視認性向上](/docs/manual/initial-setting/template/selects/#color)  
 ✅ [入力順序をロックして手順遵守](/tips/required/#miss_care)
 
 </div>
 <div class="col-lg-8">
 
-✅ 複数の点検シートを簡単に管理  
+✅ [複数の点検シートを切り替えて利用可能](/docs/manual/write-report/write/#select_template)  
 ✅ [大きな文字サイズ](/reverse-lookup/view/fontsize/)で年輩の方も安心  
 ✅ [英語対応](/reverse-lookup/view/language/)でグローバルに活躍  
 ✅ [動的な回答変化で無駄を省く](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)
@@ -92,18 +92,19 @@ heroLinks = [
 </div>
 <div class="col-lg-9  overflow-hidden">
 
-{{<iTablet filename="img/chart" msg="積み上げ棒グラフと折れ線グラフを組み合わせた複合グラフ">}}
+{{<iTablet filename="img/chart" msg="点検結果の推移をグラフで表示した例だよ" alice="pc">}}
 
 </div>
 <div class="col-lg-8">
 
 ✅ 過去の点検データを[グラフ化](/docs/manual/analytics/chart/)し異常を早期に発見  
-✅ データを安全に保管し、ペーパーレス化。保管場所にも困らない
+✅ 紙と違い保管スペースも不要。10年分のデータも指先1つ
 
 </div>
 <div class="col-lg-8">
 
-✅ CSV出力で他システムやExcelなどのアプリとデータ連携も可能。[エクセルでの集計テクニック集](/excel/)も参照して下さい
+✅ CSV出力で他システムやExcelなどのアプリとデータ連携も可能  
+✅ エクセルと相性の良いCSV形式。[エクセル集計テクニック集](/excel/)もどうぞ
 
 </div>
 

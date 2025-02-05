@@ -19,7 +19,8 @@
   {{ if .Params.heroTitle }}
     <section class="section section-sm" style="border-bottom: 2px solid orange">
       <div id="myhero">
-        <h1 class="headLine">{{ .Params.heroTitle | safeHTML }}</h1> <!-- safeHTML を追加 -->
+        <h2 style="margin-bottom: 0;">{{ .Params.heroSubTitle | safeHTML }}</h2>
+        <h1 class="headLine" style="margin-top: 0;">{{ .Params.heroTitle | safeHTML }}</h1> <!-- safeHTML を追加 -->
         <div style="font-size: 1.3em; max-width: 1200px">{{ .Params.heroText | safeHTML}}</div>
         <ul class="heroList">
           {{ range .Params.heroLinks }}

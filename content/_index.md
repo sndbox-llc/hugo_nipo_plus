@@ -3,6 +3,15 @@ title = "格安日報アプリ・PCスマホ完全対応"
 description = "入力項目を自作可能なDIY型で自由自在にカスタム可能。設備点検などにも利用できます。"
 date = "2023-04-01"
 showPrice = true
+heroTitle = "格安！クラウド日報アプリ"
+heroSubTitle = "PC・スマホで手軽に日報を"
+heroText = "NipoPlusはカスタマイズ性の高い日報アプリです。<br>テンプレートを自由に設計し、作ったテンプレートに沿って入力するだけの簡単操作。<br>蓄積したデータは集計やグラフ化して分析にも役立ちます。<br>その他PDF出力や提出状況管理など便利機能が盛り沢山で１名180円の低価格です。"
+heroLinks = [
+  { label = "🏭 設備点検チェックシートにも使える", url = "/lp/checksheet/" },
+  { label = "📱 スマホ・タブレット完全対応", url = "/tips/mobile-device/" },
+  { label = "💰️ 圧倒的低価格！無料版もあります", url = "/docs/price/_about/" }
+]
+
 +++
 
 <!-- ▼自作できる -->

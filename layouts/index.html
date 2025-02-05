@@ -1,4 +1,3 @@
-
 {{ define "main" }}
 <div role="document">
   <div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
@@ -6,9 +5,7 @@
       <div class="row justify-content-center">
         <div class="col-xs-16 col-md-16">
           <article>
-            <div class="mainContent">
-              {{- .Content -}}
-            </div>
+            <div class="mainContent">{{- .Content -}}</div>
           </article>
         </div>
       </div>
@@ -19,29 +16,29 @@
 
 
 {{ define "rootHero" }}
-<section class="section section-sm" style="border-bottom:2px solid orange;">
-  <div id="myhero" style="padding-left: 1em; padding-right: 1em">
-    <h2>PC・スマホで手軽に日報を</h2>
-    <h1 class="headLine">格安！クラウド日報アプリ</h1>
-    <div style="font-size: 1.4em;">
-      NipoPlusはカスタマイズ性の高い日報アプリです。<br>
-      テンプレートを自由に設計し、作ったテンプレートに沿って入力するだけの簡単操作。<br>
-      蓄積したデータは集計やグラフ化して分析にも役立ちます。<br>
-      その他PDF出力や提出状況管理など便利機能が盛り沢山で１名180円の低価格です。
-    </div>
-    <ul class="heroList">
-      <li><a href="/lp/checksheet/">🏭 設備点検チェックシートにも使える</a></li>
-      <li><a href="/tips/mobile-device/">📱 スマホ・タブレット完全対応</a></li>
-      <li><a href="/docs/price/_about/">💰️ 圧倒的低価格！無料版もあります</a></li>
-    </ul>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <a href="https://nipoplus.sndbox.jp/" style="width: 100%" target="_blank" class="btn btn-primary btn-lg my-5">今すぐ試す</a>
+  {{ if .Params.heroTitle }}
+  <section class="section section-sm" style="border-bottom: 2px solid orange">
+    <div id="myhero">
+      <h2>{{ .Params.heroSubTitle | safeHTML }}</h2>
+      <h1 class="headLine">{{ .Params.heroTitle | safeHTML }}</h1> <!-- safeHTML を追加 -->
+      <div style="font-size: 1.3em; max-width: 1200px">{{ .Params.heroText | safeHTML}}</div>
+      <ul class="heroList">
+        {{ range .Params.heroLinks }}
+        <li>
+          {{ if .url }}
+          <a href="{{ .url }}">{{ .label }}</a>
+          {{ else }} {{ .label }} {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="https://nipoplus.sndbox.jp/" style="width: 100%" class="btn btn-primary btn-lg my-5">今すぐはじめる</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
+  {{ end }}
 {{ end }}
 
 

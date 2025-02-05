@@ -208,7 +208,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 
 <!-- ▲ CSV -->
 
-<!-- ▼ CSV -->
+<!-- ▼ コスト -->
 <div class="container my-5" id="csv_output">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-16">
@@ -230,7 +230,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 </div>
 </div>
 
-<!-- ▲ CSV -->
+<!-- ▲ コスト -->
 
 <!--
 

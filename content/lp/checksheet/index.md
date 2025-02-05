@@ -51,7 +51,7 @@ heroLinks = [
 
 </p>
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9 overflow-hidden">
 {{<icatch filename="img/uservility" msg="点検表に説明画像や色分けを使用しユーザビリティ向上させる。点検者が迷うことのないように作れる">}}
 </div>
 <div class="col-lg-8">
@@ -76,7 +76,7 @@ heroLinks = [
 <!-- ▲ MainFunction -->
 
 <!-- ▼ 集計グラフ -->
-<div class="container my-5" id="support_functions">
+<div class="container my-5" id="analyze">
 <div class="row rounded-3 border shadow-lg">
 <div class="col-lg-7">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">点検データを可視化し分析する</h2>
@@ -130,7 +130,7 @@ NipoPlusで出力したCSVは次のような一般的な形をしています。
 これは一例であり、出力オプションを変更することで加工しやすい様々な形式で出力が可能です。NipoPlusでレポートをエクセルで[集計するテクニック](/excel/sales_report/)についても紹介しています。
 
 <!-- ▼ マルチデバイス -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="multi_device">
 <div class="row rounded-3 border shadow-lg">
 <div class="col-lg-7">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">スマホ・PC・タブレットに対応</h2>
@@ -147,7 +147,7 @@ NipoPlusはマルチデバイス対応です。
 </p>
 
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9 overflow-hidden">
 
 {{<figure src="img/factory-usage.webp"  alt="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" caption="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）">}}
 

@@ -209,7 +209,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 <!-- ▲ CSV -->
 
 <!-- ▼ コスト -->
-<div class="container my-5" id="csv_output">
+<div class="container my-5" id="cost">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-16">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1">圧倒的低コスト- 180円</h2>

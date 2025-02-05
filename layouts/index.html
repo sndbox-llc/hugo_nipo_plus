@@ -1,17 +1,11 @@
 
 {{ define "main" }}
-<div  role="document">
+<div role="document">
   <div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
     <section>
       <div class="row justify-content-center">
         <div class="col-xs-16 col-md-16">
           <article>
-            {{ if .Params.lead -}}
-              <div class="myLead">
-                <div class="myLead__label">概要</div>
-                <div class="myLead__content">{{ .Params.lead | safeHTML }}</div>
-              </div>
-            {{ end }}
             <div class="mainContent">
               {{- .Content -}}
             </div>

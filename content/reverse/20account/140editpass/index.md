@@ -22,6 +22,6 @@ NipoPlusではログインパスワードの変更を自分自身で行う他に
 
 {{<iTablet filename="img/editpass" msg="パスワードを変更するとすでにログイン中のアカウントは自動でログアウトします" alice="shield">}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="スタッフがパスワードを変更" icon="outline/info-circle" >}}
 パスワードは[スタッフ自身が変更する](/docs/manual/account/email/#change_self)こともできます。この際はログイン時に使用するメールアドレスが必要です。
 {{< /callout >}}

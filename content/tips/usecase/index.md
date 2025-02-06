@@ -36,9 +36,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 現在では、設備点検だけでなく、日報管理にもNipoPlusを使用しており、100名以上の従業員が日々活用しています。
 より簡単にテンプレートの作成ができるよう、改良を進めたいと思います。貴重なご意見、ありがとうございました。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-100名オーバーの規模でも使用できる例でした。
-{{< /callout >}}
+{{< callout context="note" title="100名オーバーの規模でも使用できる例でした" icon="outline/info-circle" />}}
 
 ## 警備会社で警備報告をNipoPlusに入力、顧客にはPDFで報告{#securityService}
 
@@ -47,8 +45,8 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 クライアントにもNipoPlusのPDFは概ね好印象とのことで、開発者としてもとてもうれしく思います。
 [写真付きのレポート](/docs/manual/initial-setting/template/binarys/#picture)を簡単に作成できる点が好評で、情報共有や顧客への報告がスムーズになったと評価されています。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-このように従業員・経営者同士のやり取りではなく、更にその先の顧客への報告ツールとしてNipoPlusを活用いただけます。
+{{< callout context="note" title="警備会社のユースケース" icon="outline/info-circle" >}}
+従業員・経営者同士のやり取りではなく、更にその先の顧客への報告ツールとしてNipoPlusを活用いただけます。
 {{< /callout >}}
 
 ## 上下水道施設の保守点検にNipoPlusを使用{#infra}
@@ -62,9 +60,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 特に数値の入力が多いとのことで、より効率よく入力できる「テンキー機能」をNipoPlusに追加させていただくきっかけとなりました。
 お客様からの様々なフィードバックはNipoPlusの品質向上に大変役立っております。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-点検者が年輩の方でも安心して利用できます。
-{{< /callout >}}
+{{< callout context="note" title="点検者が年輩の方でも安心して利用できます" icon="outline/info-circle" />}}
 
 ## 新入社員の研修報告にNipoPlusを使用{#traning}
 
@@ -74,9 +70,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 このように、繁忙期や必要な時期だけ賢く使うといったフレキシブルな使い方ができるのもNipoPlusの特徴です。料金はとても柔軟に設計されているので、１ヶ月の短期間からご利用可能です。
 また、[無料プラン](/docs/price/free/)に切り替えても過去のレポートは残り続けるのでご安心ください。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-繁忙期や必要な時期だけ区切って使えるのもNipoPlusのメリットです
-{{< /callout >}}
+{{< callout context="note" title="繁忙期や必要な時期だけ区切って使える融通の利く設計です" icon="outline/info-circle" />}}
 
 ## 自動車部品製造メーカーで品質チェックにNipoPlusを利用{#carFactory}
 
@@ -92,9 +86,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 製品のズレ幅を記録する必要がありますが、キー入力ではなくあえて[選択式入力](/docs/manual/initial-setting/template/selects/#plain)を採用することで、点検の入力効率を高めています。
 NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に「続けて書く」という機能がありますが、この機能はこちらのお客様の希望によって実装されたものです。工場では効率が最も重要とのことでした。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-部屋ひとつ分の紙を減らす一助となれて幸いです
-{{< /callout >}}
+{{< callout context="note" title="部屋ひとつ分の紙を減らす一助となれて幸いです" icon="outline/info-circle" />}}
 
 ## 製造業で外注の職人作業報告にNipoPlusを活用{#builder}
 
@@ -104,9 +96,7 @@ NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に�
 
 また、SPALOは十分にリーズナブルでしたがNipoPlusのほうが更にお安く、その点も好評いただきました。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-社内だけではなく、外部との業務報告としてもNipoPlusを使うことができる例でした。
-{{< /callout >}}
+{{< callout context="note" title="社内だけではなく、外部との業務報告としてもNipoPlusを使うことができる例です" icon="outline/info-circle" />}}
 
 ## タクシーの営業報告にNipoPlusを使用{#taxi}
 
@@ -115,6 +105,4 @@ NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に�
 過去にタクシー業界でNipoPlusを営業報告書として利用していたお客様もいました。
 残念ながら現在は専用システムに移行されていますが、一定期間NipoPlusによる報告書作成を利用されており、顧客報告に役立ちました。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-少し特殊ですがこのような用途にも使えるという一例でした
-{{< /callout >}}
+{{< callout context="note" title="少し特殊ですがこのような用途にも使えるという一例でした" icon="outline/info-circle" />}}

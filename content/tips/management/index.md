@@ -72,7 +72,7 @@ Excelで日報を管理する場合はシートをコピーして管理したり
 
 もちろん、日報本文内の文章で検索することもできます。NipoPlusは全文検索に対応したデータベースを採用しているので、若干の表記ゆれや誤字脱字程度があっても大丈夫です。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="表記揺れの例" icon="outline/info-circle" >}}
 例えば全角カタカナと半角カタカナ「コンピューター」と「ｺﾝﾋﾟｭｰﾀｰ」はどちらで検索しても同じ結果を得ます
 {{< /callout >}}
 

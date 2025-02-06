@@ -6,15 +6,15 @@ toc = true
 date = "2022-11-14"
 +++
 
+{{< callout context="caution" title="Cloud Functions2を使おう" icon="outline/info-triangle" >}}
+現在はCloud Functions2が推奨されるため本記事の情報は古いものとなりました
+{{< /callout >}}
+
 FirebaseのCloud Functionsは関数をクラウド上に配置できる便利な機能ですが、関数にアクセスが一定時間無いとコールドスリープに入ってしまいます。
 次回実行時にコールドスタートとなるため関数の起動が体感でわかるほどに遅くなり、結構不便だったりもします。
 ある程度利用者のいるサービスであれば気にする問題ではありませんが、リリースして間もないサービスやあまり利用されない関数の場合はどうしてもコールドスタートになってしまいます。
 
 Cloud Functionsがコールドスタートにならないようにするためには定期的に関数を実行すれば良いだけです。
-
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-Firebaseで[Cloud Functions(第二世代)](https://firebase.google.com/docs/functions/beta)が開始されましたがまだベータ版であり、色々注意点も多くあります。
-{{< /callout >}}
 
 ## Cloud SchedulerとPub/subを使って定期的にCloud Functionsを実行する{#usePubSub}
 

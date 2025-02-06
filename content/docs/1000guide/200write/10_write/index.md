@@ -52,9 +52,7 @@ weight = 210
 
 本文が終わったらヘッダー周りの指定です。特に重要なのは<a href="/docs/manual/write-report/dist/">提出先の指定</a>です。誰宛にレポートを提出するのかを選んでください。 提出先は一度選べば次回以降は自動でセットされます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-[提出先は管理者が固定する](/docs/manual/initial-setting/staff-local/dist/)こともできます。
-{{< /callout >}}
+{{< callout context="note" title="[提出先は管理者が固定する](/docs/manual/initial-setting/staff-local/dist/)こともできます" icon="outline/info-circle" />}}
 
 {{<icatch filename="img/report-header" msg="レポートの提出日・提出先といったヘッダ情報を入力します">}}
 

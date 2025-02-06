@@ -21,7 +21,7 @@ weight = 12000
 - Nipo【旧版】の解約手順がわからない方はお問い合わせ前に[解約ガイド](/legacy/manual/leave-account/)を御覧ください
 - Nipo【旧版】からNipoPlusへ乗り換えを検討の方はお問い合わせ前に[NipoPlusへの移行ガイド](/legacy/about/diff/#disabled)を御覧ください
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="営業メールは送らないで💦" icon="outline/info-circle" >}}
 お客様のお問い合わせ用です。営業メールは絶対に送らないでください🚫
 SEO対策・IT人材派遣・BAAS比較サイト掲載。全部間に合っております✋
 {{< /callout >}}

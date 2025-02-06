@@ -221,9 +221,7 @@ register(process.env.SERVICE_WORKER_FILE, {
 Quasarのプロジェクトでは、プロジェクトフォルダ/srcの中にApp.vueというファイルがあります。
 今回はこのApp.vue上でイベントを拾ってみます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-App.vueは最もルートのコンポーネントなので初期化や今回のようなイベントリッスンには最適です
-{{< /callout >}}
+{{< callout context="note" title="App.vueは初期化や今回のようなイベントリッスンには最適です" icon="outline/info-circle" />}}
 
 App.vueは次のようになりました。短いので全文掲載します。
 

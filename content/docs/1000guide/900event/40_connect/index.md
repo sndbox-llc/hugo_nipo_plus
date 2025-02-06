@@ -24,9 +24,7 @@ draft = true
 
 これでレポートと予定は紐付いた状態になりました。あとは通常通りに[レポートを作成](/docs/manual/write-report/write/)してください。保存する際に自動で予定とレポートの紐づきが記録されます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-レポートの画面自体は通常のレポートと全くおなじです。違いは紺色の説明バナーだけです
-{{< /callout >}}
+{{< callout context="note" title="レポートの画面自体は通常のレポートと全くおなじ。違いは紺色の説明バナーだけです" icon="outline/info-circle" />}}
 
 ## 予定とレポートの紐づきを確認する{#relation}
 

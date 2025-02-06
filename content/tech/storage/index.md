@@ -60,9 +60,7 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
 
 ```
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-上記コードは未検証です。確かこんな感じだったという記憶を頼りに記述してます
-{{< /callout >}}
+{{< callout context="note" title="上記コードは未検証で記憶を頼りに記述してます" icon="outline/info-circle" />}}
 
 ## Storageの書き込みが完了するまで処理を待つように処理を止める方法がわからず混乱{#confusion_about_waiting}
 
@@ -87,9 +85,7 @@ await pdfDoc.pipe(myPDFFile.createWriteStream())
 
 結局のところはPromiseとStreamを混同していたことが原因です。PromiseもStreamも非同期処理で似たようなものだと思いがちですが、当然ながら全くの別ものです。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-筆者の環境ではStreamをほぼ使わないため馴染みがなかったのも要因です
-{{< /callout >}}
+{{< callout context="note" title="筆者の環境ではStreamをほぼ使わないため馴染みがなかったのも要因です" icon="outline/info-circle" />}}
 
 ## Streamの書き込みが完了するまで待ってからダウンロードURLをフロントに返却するようにプログラムを修正する{#fixedPendingMethod}
 

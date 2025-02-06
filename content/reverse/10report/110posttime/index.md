@@ -17,6 +17,4 @@ date = "2024-12-27"
 
 日報の集計や検索は、この「提出日」を基準として描画されます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-なお、[本当に提出された日時](/reverse-lookup/report/truetime/)は改ざんできない位置に記録されているので、隠してもバレますのでご注意を...
-{{< /callout >}}
+{{< callout context="note" title="[本当に提出された日時](/reverse-lookup/report/truetime/)は改ざんできない位置に記録されているので、隠してもバレますのでご注意を" icon="outline/info-circle" />}}

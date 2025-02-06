@@ -96,8 +96,8 @@ gcloud alpha firestore databases create --database=[作成する DB 名] --locat
 作成するDB名は今後の工程で使うので控えておきます。
 データベース名: nipoplus_recover
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-DB名は一度使うと数週間使用できなくなるとのことですので注意
+{{< callout context="note" title="名前の決定は慎重に" icon="outline/info-circle" >}}
+DB名は一度使うと数週間使用できなくなるとのことですので注意が必要です
 {{< /callout >}}
 
 作成してから画面をリロードし、Firestoreをひらくと追加したDBがリストに増えていることが確認できます。

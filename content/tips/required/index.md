@@ -117,9 +117,7 @@ NipoPlusの**入力順序の強制機能**を使うことで入力の順序を�
 {{< link-card title="シフト管理" description="操作ガイド"  href="/docs/manual/utils/shift/" >}}
 {{< /card-grid >}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-<a href="/docs/manual/calendar/_about/">カレンダーから未提出者を見つけることもできます</a>
-{{< /callout >}}
+{{< callout context="note" title="[カレンダー](/docs/manual/calendar/_about/)から未提出者を見つけることもできます" icon="outline/info-circle" />}}
 
 ---
 

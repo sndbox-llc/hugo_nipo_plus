@@ -24,6 +24,4 @@ contributors = []
 
 {{<iTablet filename="img/disable" msg="無効化することで人数にもカウントされず、アクセスも一切できないので安心です" alice="shield">}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-有効に戻すときはもう一度同じボタンを押します
-{{< /callout >}}
+{{< callout context="note" title="有効に戻すときはもう一度同じボタンを押します" icon="outline/info-circle" />}}

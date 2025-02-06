@@ -34,15 +34,13 @@ NipoPlus上で集計やグラフを作ることが可能です。こちらの記
 
 {{<icatch filename="img/csv-export" msg="1ヶ月分のレポートをまとめてCSVに出力する">}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-CSV = Excelでは有りませんがCSVはエクセルでそのまま開けます
-{{< /callout >}}
+{{< callout context="note" title="CSV = Excelでは有りませんがCSVはエクセルでそのまま開けます" icon="outline/alert-circle" />}}
 
 ## CSV出力されたレポートをエクセルで開く{#open_csv}
 
 ダウンロードしたCSVファイルをダブルクリックで開きます。PCにエクセルがインストールされていればエクセルで起動します。
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="エクセルが起動しない？" icon="outline/alert-triangle" >}}
 エクセルで起動しないときはファイルの関連付けが誤っている可能性があります。PCの設定をご確認ください
 {{< /callout >}}
 
@@ -89,11 +87,7 @@ CSV出力を使えばこのようにたくさんのバラバラなレポート�
 
 これで約定率を求めることができました。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-このくらいの計算はNipoPlusの算術フォームを使って計算することもできます。
-{{< /callout >}}
-
-{{< link-card title="算術フォーム" description="操作ガイド"  href="/docs/manual/initial-setting/template/digital/#calc" >}}
+{{< callout context="note" title="NipoPlusの[算術フォーム](/docs/manual/initial-setting/template/digital/#calc)を使って計算することもできます" icon="outline/info-circle" />}}
 
 ### 各列の合計を求める（Sum関数）{#calc_sum}
 
@@ -107,9 +101,7 @@ CSV出力を使えばこのようにたくさんのバラバラなレポート�
 
 これで1ヶ月分の日報の合計が求められました。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-1ヶ月の集計はNipoPlusのアプリ内でも集計可能です。（総合計ではなくスタッフごとの合計）
-{{< /callout >}}
+{{< callout context="note" title="1ヶ月の集計はNipoPlusのアプリ内でも集計可能です" icon="outline/info-circle" />}}
 
 ### 移動手段の回数をカウントする（Countif関数）{#calc_count}
 
@@ -124,9 +116,7 @@ CSV出力を使えばこのようにたくさんのバラバラなレポート�
 
 詳しい式は上の画像を参照してください。これでA車両が4回、B車両が2回使われたとわかります。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-単語の集計はNipoPlusのアプリ内でも可能です。
-{{< /callout >}}
+{{< callout context="note" title="単語の集計はNipoPlusのアプリ内でも可能です" icon="outline/info-circle" />}}
 
 ### 活動エリアが「その他」の行を塗りつぶす（条件付き書式）{#calc_fill}
 
@@ -154,9 +144,7 @@ CSV出力を使えばこのようにたくさんのバラバラなレポート�
 
 {{<figure src="img/work5.png"  alt="フィルタを使い特定のスタッフの書いたレポートのみ抽出する" caption="フィルタを使い特定のスタッフの書いたレポートのみ抽出する" >}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-subtotal関数を使えば浅生の訪問件数合計を取得するといった計算も可能です。
-{{< /callout >}}
+{{< callout context="note" title="subtotal関数を使えば浅生の訪問件数合計を取得するといった計算も可能です" icon="outline/info-circle" />}}
 
 ### 訪問件数の多い順に並べ替えをする{#sort}
 
@@ -168,9 +156,7 @@ subtotal関数を使えば浅生の訪問件数合計を取得するといった
 
 {{<figure src="img/work6.png"  alt="指定した列で並べ替え" caption="指定した列で並べ替え" >}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-合計行があると合計も並べ替えされるので注意してください。合計行がある場合はテーブル化を推奨します
-{{< /callout >}}
+{{< callout context="caution" title="合計行があると合計も並べ替えされるので注意してください" icon="outline/alert-triangle" />}}
 
 ---
 

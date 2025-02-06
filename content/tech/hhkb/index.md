@@ -62,7 +62,7 @@ Viエディタの j k l ; によるカーソル移動は私結局なじめませ
 HHKBに出会う前は、この左下のCtrlキーでも難なく使っていました。そういうものだと思っていたからです。しかしHHKBはCtrlキーがAキーの隣という（今にして思えばキーボードの一等地です）とても打ちやすい場所に配置されています。
 もう小指を強引に左下へ持ってくる必要が無いです。小指をすっっと動かすだけ。ホームポジションからほんの少し指を動かせばもうCtrlキーがあるのです。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="Macのケースでは？" icon="outline/info-circle" >}}
 なおMacではCtrlキーの代わりにCommandキーを使います。デフォルトでCommandキーは親指で押す位置にあるため、HHKBを抜きにしてもWindowsと比べてデフォルトで使いやすいです。
 {{< /callout >}}
 

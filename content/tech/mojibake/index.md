@@ -30,7 +30,7 @@ NipoPlusの[一括CSVダウンロード](/docs/manual/analytics/csv/)を使っ�
 Windowsが一強の時代であればSHIFT-JISが利用できれば問題が有りませんでした。しかし今の時代はスマートフォンやタブレット、MacOSなどの勢力拡大が顕著です。Windows以外の多くはUTF8を利用しているため、SHIFT-JISしか使えない解凍ソフトは時代の流れとともに、その役目を終えようとしています。
 しかし役割を終えつつも知名度が高いため、PCを購入したらまずインストールしてしまったりしていませんか？
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="条件反射で入れてませんか？" icon="outline/info-circle" >}}
 昔からWindowsを使ってる人は条件反射的にLhacaやLhaplusを入れてしまうので注意です。当時は何でも解凍できて便利でした。
 {{< /callout >}}
 

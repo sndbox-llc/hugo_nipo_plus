@@ -55,9 +55,7 @@ A号車が何回使用されたのかをCountif関数で簡単に求めること
 スタッフの名簿も別途用意しておくと良いでしょう。
 結果は「アリス」が７件、「ボブ」が２件の日報を提出していることがわかりました。出勤日数に照らせば提出漏れを発見できますね。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-同姓同名のスタッフが居るときは注意が必要です
-{{< /callout >}}
+{{< callout context="caution" title="同姓同名のスタッフが居るときは注意が必要です" icon="outline/info-triangle" />}}
 
 ## 【StepUP】COUNTIFSでスタッフごとの使用車両回数を簡単集計{#stepup_countifs}
 

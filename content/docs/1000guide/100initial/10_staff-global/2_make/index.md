@@ -100,8 +100,8 @@ NipoPlusでは[無料プラン](/docs/price/free/)の条件として4アカウ�
 <details>
   <summary>共用アカウントについて</summary>
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-応用機能です。通常は使用しません。スタッフの人数分端末を用意できないときにのみ使用します
+{{< callout context="caution" title="応用機能です" icon="outline/info-triangle" >}}
+通常は使用しません。スタッフの人数分端末を用意できないときにのみ使用します
 {{< /callout >}}
 
 ## ログイン不可能なスタッフアカウントを作成する{#dummy_account}
@@ -148,9 +148,7 @@ NipoPlusでは[無料プラン](/docs/price/free/)の条件として4アカウ�
 
 ## スタッフのアカウントを削除する{#remove}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-スタッフを削除すると過去のレポートの提出者が「不明」になるため注意してください
-{{< /callout >}}
+{{< callout context="caution" title="スタッフを削除すると過去のレポートのオーナーが不在となります" icon="outline/alert-triangle" />}}
 
 削除する際は退職から数ヶ月ほど経過し、集計などに影響しないようになってから行うことを推奨しています。
 

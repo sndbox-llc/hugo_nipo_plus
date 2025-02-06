@@ -39,9 +39,7 @@ contributors = []
 
 ## 署名・イラストフォーム{#sign}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-署名はスマートフォン・タブレットなどのタッチパネル対応機器でご利用ください
-{{< /callout >}}
+{{< callout context="note" title="署名はスマートフォン・タブレットなどのタッチパネル対応機器でご利用ください" icon="outline/info-circle" />}}
 
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#sign)
 

@@ -146,7 +146,7 @@ function infixToPostfix (s: string) {
 
 {{<figure src="img/reverce-polish-sample.png"  alt="NipoPlusで使った実際の例" caption="NipoPlusで使った実際の例" >}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="電卓アプリで活用" icon="outline/info-circle" >}}
 実際の用途としてはテンプレートの中のある値同士を計算するための式入力用として逆ポーランドを使いました
 {{< /callout >}}
 

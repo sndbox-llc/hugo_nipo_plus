@@ -123,9 +123,7 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 他にも本文入力には幅を広くとってゆとりのある入力ができるようにするなど、実際に使用する人が使いやすいかどうかを常に意識して設計します。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-スマホ入力の場合指定した幅は無視されます
-{{< /callout >}}
+{{< callout context="note" title="スマホ入力の場合指定した幅は無視されます" icon="outline/info-circle" />}}
 
 ## 説明画像や色分けを使いスタッフにわかりやすく指示する{#use_guide}
 

@@ -144,6 +144,4 @@ export default functions.firestore.document('user/{userId}/data/{dataId}').onCre
 
 このように無事ファイルを分けることができました。めでたしめでたし。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-ファイルの分け方はいくつかあるようです。私はこのやり方ですが必ずしもこれが正解とは限りません。自分流にアレンジしてください
-{{< /callout >}}
+{{< callout context="note" title="ファイルの分け方はいくつかあるようです。自分流にアレンジしてください" icon="outline/info-circle" />}}

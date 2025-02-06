@@ -28,6 +28,6 @@ NipoPlusではレポートの公開範囲を細かく指定できる「通常モ
 通常モードはレポートの<a href="/docs/manual/write-report/dist/">提出先や共有先</a>を細かく指定することができます。
 管理者だけが読めれば良いといったケースでは、通常モードがおすすめです。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="提出先の固定" icon="outline/info-circle" >}}
 [提出先と共有先の固定](/docs/manual/initial-setting/staff-local/dist/)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
 {{< /callout >}}

@@ -9,15 +9,13 @@ tags = ["Web版限定", "管理者権限"]
 contributors = []
 +++
 
-{{< callout context="note" title="ご確認ください" icon="outline/info-circle" >}}
-本ページは自動更新無しです。[自動更新有りのお申込みはこちら](/docs/price/fee/)
-{{< /callout >}}
+{{< callout context="note" title="本ページは自動更新無しです。[自動更新有りのお申込みはこちら](/docs/price/fee/)" icon="outline/info-circle" />}}
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 [Android版](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus)/[iOS版](https://apps.apple.com/jp/app/nipoplus/id1625797169)からはお申し込みできません。Web版からお申し込みください（Web版でお申し込み後はAndroid/iOS版でも有料プランが適用されます）
 {{< /callout >}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="振込手数料のご負担をお願いします" icon="outline/alert-triangle" >}}
 振込手数料はお客様のご負担です。手数料分を引いて振り込まれても決済はされず、追加入金が無い場合は75日後に自動返金されます
 {{< /callout >}}
 

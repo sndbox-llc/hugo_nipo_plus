@@ -8,16 +8,16 @@ tags = ["管理者権限"]
 contributors = []
 +++
 
-{{< callout context="note" title="ご存知ですか？" icon="outline/info-circle" >}}
+{{< callout context="note" title="スキップOK" icon="outline/info-circle" >}}
 グループ分けが不要な場合、この手順はスキップできます
+
 {{< /callout >}}
 
 {{<nextBlog>}}
 
 ---
 
-部署や支店はもちろん、「新人研修会」のようなスポット目的でもグループを作成できます。
-新たに他のグループを作るには次の手順で操作します。
+早速グループを作ってみましょう。
 
 1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
 2. 右メニューから「グループ設定」をクリック
@@ -28,7 +28,7 @@ contributors = []
 {{<icatch filename="img/add_group" msg="新しいグループを作ってみよう" alice="ok">}}
 
 グループの新規作成ポップが表示されます。グループ名を入力し、作成ボタンをクリックしてください。
-以上でグループが作成できました。作成したグループはグループ管理の一覧に表示されます。
+作成したグループはグループ管理の一覧に表示されます。
 作成可能なグループの数は[無料プラン](/docs/price/free/)と[有料プラン](/docs/price/_about/#fee)で異なります。
 
 <dl class="basic">
@@ -70,8 +70,8 @@ contributors = []
 無効化することで全スタッフがグループ内のすべてのデータ（レポートや予定、アクセスログなど）に対するアクセス権を喪失します。
 無効化されたグループをその後使用する予定がない場合はグループを削除することができます。グループを削除すると**グループ内のすべてのデータが即座に削除**されます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-アクセス権の喪失は管理者も例外ではありません。再び有効化することでアクセス権がもとに戻ります。
+{{< callout context="note" title="管理者であってもアクセス権の影響を受ける" icon="outline/info-circle" >}}
+アクセス権の喪失は管理者も例外ではありません。無効化したグループへのアクセスや、所属していないグループへのアクセスは出来ません。
 
 {{< /callout >}}
 

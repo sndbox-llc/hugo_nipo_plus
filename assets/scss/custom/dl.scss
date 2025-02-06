@@ -4,6 +4,9 @@ dl.basic {
   border: none;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
 
   dt {
     // background-color: aliceblue;
@@ -36,6 +39,12 @@ dl.basic {
   dt a:hover,
   dd a:hover {
     text-decoration: none; /* ホバー時に下線を消す */
+  }
+
+    /* dd 内の ul では margin を 0 にする */
+  dd ul {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   @media screen and (max-width: 750px) {

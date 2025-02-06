@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div role="document">
-  <div class="content" style="max-width: 2000px; margin-left: auto; margin-right: auto">
+  <div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
     <section>
       <div class="row justify-content-center">
         <div class="col-xs-16 col-md-16">
@@ -17,27 +17,60 @@
 
 {{ define "rootHero" }}
   {{ if .Params.heroTitle }}
-    <section class="section section-sm" style="border-bottom: 2px solid orange">
-      <div id="myhero">
-        <h2 style="margin-bottom: 0;">{{ .Params.heroSubTitle | safeHTML }}</h2>
-        <h1 class="headLine" style="margin-top: 0;">{{ .Params.heroTitle | safeHTML }}</h1> <!-- safeHTML を追加 -->
-        <div style="font-size: 1.3em; max-width: 1200px">{{ .Params.heroText | safeHTML}}</div>
-        <ul class="heroList">
-          {{ range .Params.heroLinks }}
-          <li>
-            {{ if .url }}
-            <a href="{{ .url }}">{{ .label }}</a>
-            {{ else }} {{ .label }} {{ end }}
-          </li>
-          {{ end }}
-        </ul>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <a href="https://nipoplus.sndbox.jp/" style="width: 100%" class="btn btn-primary btn-lg my-5">今すぐはじめる</a>
-          </div>
+  <section class="section section-sm" style="border-bottom: 2px solid orange">
+    <div id="myhero">
+      <h2 style="margin-bottom: 0;">{{ .Params.heroSubTitle | safeHTML }}</h2>
+      <h1 class="headLine" style="margin-top: 0;">{{ .Params.heroTitle | safeHTML }}</h1> <!-- safeHTML を追加 -->
+      <div style="font-size: 1.3em; max-width: 1200px">{{ .Params.heroText | safeHTML}}</div>
+      <ul class="heroList">
+        {{ range .Params.heroLinks }}
+        <li>
+          {{ if .url }}
+          <a href="{{ .url }}">{{ .label }}</a>
+          {{ else }} {{ .label }} {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="https://nipoplus.sndbox.jp/" style="width: 100%" class="btn btn-primary btn-lg my-5">今すぐはじめる</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   {{ end }}
 {{ end }}
 
+
+
+{{ define "sidebar-prefooter" }}
+  {{ if site.Params.doks.backgroundDots -}}
+  <div class="d-flex justify-content-start">
+    <div class="bg-dots"></div>
+  </div>
+  {{ end -}}
+  {{ if eq $.Site.Language.LanguageName "English" }}
+  <section class="section section-md section-features">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h2 class="h4">Update content</h2>
+          <p>Edit <code>content/_index.md</code> to see this page change.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Add new content</h2>
+          <p>Add Markdown files to <code>content</code> to create new pages.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Configure your site</h2>
+          <p>Edit your config in <code>config/_default/params.toml</code>.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Read the docs</h2>
+          <p>Learn more in the <a href="https://getdoks.org/">Docs</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

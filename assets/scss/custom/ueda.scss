@@ -1,5 +1,6 @@
 h1 {
   color: $baseColor;
+  font-size: 3.5rem;
 }
 h2 {
   color: $accentColor;
@@ -118,9 +119,6 @@ blockquote {
     animation: SlideIn 1s forwards;
     font-size: calc(1.875rem + 1.5vw);
   }
-  .mainLead {
-    font-size: 1.6rem;
-  }
   .heroList {
     margin-top: 30px;
     font-size: 2rem;
@@ -144,17 +142,9 @@ blockquote {
 
 @media screen and (max-width: 599px) {
   #myhero {
-    overflow-x: hidden;
     padding: 0;
-    .headLine {
-      font-size: 1.7em;
-      margin-bottom: 10px;
-      margin-top: 0;
-    }
-    .mainLead {
-      font-size: 1.2em;
-    }
     .heroList {
+      padding-left: 10px;
       font-size: 1.2em;
     }
   }

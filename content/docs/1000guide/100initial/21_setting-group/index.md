@@ -8,15 +8,13 @@ tags = ["編集者権限"]
 contributors = []
 +++
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="権限要求" icon="outline/alert-triangle" >}}
 グループの設定は[編集者権限以上](/docs/manual/initial-setting/staff/rank/)が必要です。
 {{< /callout >}}
 
 ## 作業グループの確認と切替{#swich_group}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-所属しているグループが1つしか無い場合はこの設定は不要です
-{{< /callout >}}
+{{< callout context="note" title="所属しているグループが1つしか無い場合はこの設定は不要です" icon="outline/info-circle" />}}
 
 今作業しているグループは画面上部のバーに表示されています。必要に応じてグループを切り替えて作業してください。
 

@@ -1,19 +1,20 @@
 +++
 url = "/docs/manual/quickstart/"
-title = "🔰クイックスタートガイド"
-menuTitle = "🔰クイックスタートガイド"
-description = "NipoPlusの初めての利用者向けに、アカウント作成から初期設定、テンプレート作成、レポートの提出までの基本操作をステップごとに画像付きで解説します。初心者でも安心して使えるガイドです。"
+title = "🔰初めての方向けスタートガイド"
+menuTitle = "🔰初めての方へ"
+description = "初めてNipoPlusを使う方向けのチュートリアルガイドです"
 toc = true
 weight = 1
 tags = []
 contributors = []
-
-[seo]
-title = "クイックスタートガイド | NipoPlus"
 +++
 
 必要最小限の手順で基本的な流れを一通りご紹介します。  
 このページに沿って操作していただくことで基本操作をマスターできます。
+
+{{< callout context="note" title="最初はPCを使おう" icon="outline/info-circle" >}}
+初期設定は細かい作業もあるため、PCで行うことをおすすめします。本ガイドもPC画面を前提にお伝えします。スマホやタブレットは初期設定後に使いましょう
+{{< /callout >}}
 
 ## 手順1:NipoPlusを起動する{#start}
 
@@ -27,7 +28,7 @@ title = "クイックスタートガイド | NipoPlus"
 手軽に体験できる[匿名アカウント](/docs/manual/utils/tokumei/)が用意されています。E-mailやパスワードの設定を後回しにできるためお試しに最適です。
 匿名アカウントで始めてみましょう。「匿名アカウントを発行」ボタンをクリックします
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="匿名はWeb版限定です" icon="outline/alert-triangle" >}}
 [Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)版では匿名アカウントは利用できません。[Web版](/docs/system/mobile-install/#web)をご利用ください
 {{< /callout >}}
 
@@ -55,9 +56,9 @@ title = "クイックスタートガイド | NipoPlus"
 テンプレートの編集画面へ切り替わります。
 「午前作業・午後作業・明日の予定・備考」計4つの入力フォームで構成されたシンプルなテンプレートを作ってみます。
 
-1. 画面左パネルから「文字入力」を4回クリックします。(スマホの場合は画面右下の＋ボタンから操作します)
-1. 追加されたフォームのそれぞれタイトルを変更します（午前作業・午後作業・明日の予定・備考）
-1. 画面下部にある「保存して終了」をクリックします
+1. 画面左パネルから「文字入力」を4回クリックします
+2. 追加されたフォームのそれぞれタイトルを変更します（午前作業・午後作業・明日の予定・備考）
+3. 画面下部にある「保存して終了」をクリックします
 
 {{<icatch filename="img/make-template" msg="入力フォームを並べるだけで簡単にテンプレートが作れるよ" alice="ok">}}
 
@@ -72,13 +73,13 @@ title = "クイックスタートガイド | NipoPlus"
 上司の追加はひとまずおいておいて、自分に向けて[レポートを書いて](/docs/manual/write-report/write/)、自分の[レポートを承認する](/docs/manual/read-report/state/)流れを見てみましょう。
 
 1. レポート作成をクリック
-2. テンプレート一覧から「初めてのレポート」をクリック（Step2を飛ばしたときは他のサンプルを使います）
+2. テンプレート一覧から「初めてのレポート」をクリック
 3. テンプレートに沿って報告内容を記入する
 4. 提出先を「管理者」（あなたのアカウントです）にして提出する
 
 {{<icatch filename="img/write-report2" msg="初めてのレポート作成です。自分宛てにレポートを書いてみよう">}}
 
-チュートリアルなのでレポートの内容は適当で大丈夫です。気軽にレポートを書き、提出先を「管理者」にして提出ボタンをクリックします。
+チュートリアルなのでレポートの内容は適当で大丈夫です。提出先を「管理者」にして提出ボタンをクリックします。
 
 お疲れ様でした。これでレポートが作成されて管理者宛に提出されました。提出後は引き続き[レポートを書く](/docs/manual/write-report/write/)か、書いたレポートを確認するか選びます。
 ここでは「作成したレポート表示」を選び、先程のレポートを見てみましょう。
@@ -87,29 +88,28 @@ title = "クイックスタートガイド | NipoPlus"
 
 {{<nextArrow>}}
 
-## 手順5:提出されたレポートを読んだり承認したりしてみよう{#read_report}
+## 手順5:提出されたレポートを承認してみよう{#read_report}
 
 レポート作成後に「作成したレポート表示」を選ぶとその[レポートを読む画面](/docs/manual/read-report/state/)へ移動します。
 ここからはレポートを受け取る上司の立場になってみましょう。
-レポートに対して[コメントを書く](/docs/manual/read-report/state/#comment)ことや、レポートを承認・[PDF出力](/docs/manual/read-report/state/#pdf_export)などもできます。
+レポートに対して[コメントを書く](/docs/manual/read-report/state/#comment)ことや、レポートを[承認](/docs/manual/read-report/state/#agree)したり、[PDF出力](/docs/manual/read-report/state/#pdf_export)したりできます。
 
 右側メニューから「承認」をクリックしてレポートを承認してみましょう。
 
 {{<icatch filename="img/report-agree" msg="自分の書いたレポートを承認してみましょう" alice="here">}}
 
 承認はレポートのロックも兼ねています。一度承認するとそのレポートは管理者でないと削除出来なくなるため、不正防止に役立ちます。
-もちろん内容に不備があれば棄却したり、コメントで指摘したり、あるいは[上司が直接修正](/docs/manual/write-report/rewrite/#agent)することも出来ます。
+内容に不備があれば棄却したり、コメントで指摘したり、[上司が直接修正](/docs/manual/write-report/rewrite/#agent)することも出来ます。
 
 ## 手順6:上司や部下など他のスタッフのアカウントを作成しよう{#add_member}
 
-ここまでは一人二役してきましたがレポートは読み手と書き手が異なるはずです。
 スタッフアカウントを追加して、[レポートを読む](/docs/manual/read-report/state/)人と[レポートを書く](/docs/manual/write-report/write/)人を明確に区別しましょう。
-そのためにまずは[スタッフのアカウントを作る](/docs/manual/initial-setting/staff/make/)必要があります。
+[スタッフのアカウントを作る](/docs/manual/initial-setting/staff/make/)必要があります。
 
-1. メニュー「グループ設定」＞「スタッフ管理」＞「アカウント作成」の順にクリックします。
-2. スタッフが使用するE-mailとパスワードを入力（パスワードは自動で用意しますが手動で変更も可能）
+1. メニュー「グループ設定」＞「スタッフ管理」＞「アカウント作成」の順にクリック
+2. スタッフが使用するE-mailを入力（パスワードは自動で用意しますが手動で変更も可）
 
-{{<icatch filename="img/create-account" msg="スタッフアカウントを作成すれば読み手と書き手で役割分担ができますね" alice="guide">}}
+{{<icatch filename="img/create-account" msg="スタッフアカウントを作ってみましょう。" alice="guide">}}
 
 スタッフのアカウントを作ると「スタッフ」という[権限](/docs/manual/initial-setting/staff/rank/)になります。
 スタッフ権限は[テンプレートの編集](/docs/manual/initial-setting/template/make/)やアカウント作成はできないので安心です。
@@ -153,7 +153,7 @@ title = "クイックスタートガイド | NipoPlus"
 
 {{<icatch filename="img/switch-group" msg="グループを分ければレポートの管理もしやすくなるね"  alice="ok">}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="グループについて" icon="outline/info-circle" >}}
 チュートリアルでは意図的に触れませんでしたが、「デフォルトグループ」が自動で作成されております。これまでの作業も全てグループ内での作業です
 {{< /callout >}}
 
@@ -161,12 +161,12 @@ title = "クイックスタートガイド | NipoPlus"
 
 ---
 
-## 最後に{#last}
+## 匿名アカウントは早期に昇格しましょう{#last}
 
 チュートリアルで作成した[匿名アカウント](/docs/manual/utils/tokumei/)はあくまでも仮のIDです。継続して利用を検討される際は**必ず正規アカウントへ昇格させて**ください。
 正規アカウントへ昇格することで複数の端末で[ログイン・ログアウト](/docs/manual/account/signin/)が可能になります。
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="匿名アカウントは不安定な状態？" icon="outline/alert-triangle" >}}
 匿名アカウントは**パスワードが未登録**のため何らかのはずみで接続が途絶えてしまうとこれまでのデータにアクセスできなくなります
 {{< /callout >}}
 

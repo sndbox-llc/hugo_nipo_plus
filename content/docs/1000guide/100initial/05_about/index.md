@@ -19,7 +19,7 @@ title = "組織とグループの意味"
 
 <dl class="basic">
 <dt>組織</dt>
-<dd>最も基底にあるものです。組織の中に「グループ」や「スタッフ」を登録していきます。<a href="/docs/price/_about/#fee">料金プラン</a>やオプションは組織単位で適用されます</dd>
+<dd>最も基底にあるものです。組織の中に「グループ」や「スタッフ」を登録していきます。<a href="/docs/price/_about/#fee">料金プラン</a>は組織単位で適用されます</dd>
 <dt><a href="/docs/manual/initial-setting/make-group/">グループ</a></dt>
 <dd>組織の中に作ります。レポートなどをやり取りする、日常業務で最も使用される場所です。部署や部門、支店で分けたり、「研修会」のように一時的な使い方も可能です。最低でも1グループは必須です</dd>
 <dt>スタッフ</dt>
@@ -44,9 +44,7 @@ graph TD;
 
 ```
 
-なお、アプリで見ると次のようになります。
-
-1. NipoPlusにログイン後、[左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+アプリ上から確認する場合は[左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)します。
 
 {{<iTablet filename="img/company" msg="組織設定画面では組織内のスタッフとグループを管理できるよ" alice="ok">}}
 
@@ -66,8 +64,8 @@ graph TD;
 
 {{<icatch filename="img/switch-group" msg="作業グループを複数作成作って使い分けると色々便利ですよ" alice="guide">}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-最低でも１つのグループは運用上必須となります
+{{< callout context="note" title="グループは最低1つ必須です" icon="outline/info-circle" >}}
+日報のやり取りがグループ単位で行われるため、グループが無いと何も出来ません。初期状態で１つのグループが自動で登録されます
 {{< /callout >}}
 
 ## グループへのアクセス権限について{#accessRank}

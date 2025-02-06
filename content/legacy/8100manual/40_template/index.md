@@ -95,9 +95,7 @@ Nipo【旧版】では10種類を超えるパーツを自由に組み合わせ�
 
 連結は２列までです。また、連結を解除するには右側に配置された項目にある「クリップのスラッシュ」ボタンをクリックしてください。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-連結すると削除や並べ替えも一緒に行われます。一蓮托生ってかんじですね
-{{< /callout >}}
+{{< callout context="note" title="連結すると削除や並べ替えも一緒に行われます。" icon="outline/info-circle" />}}
 
 ### テンプレート構成部品のコピー{#copy_parts}
 
@@ -191,9 +189,7 @@ Nipo【旧版】では10種類を超えるパーツを自由に組み合わせ�
 
 {{<figure src="img/template_add3.png"  alt="テンプレートに項目を後から追加する" caption="テンプレートに項目を後から追加する" >}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-「この項目は後から追加されました」は日報修正を行うと消えます。
-{{< /callout >}}
+{{< callout context="note" title="「この項目は後から追加されました」は日報修正を行うと消えます" icon="outline/info-circle" />}}
 
 ### 日報のテンプレートに項目を後から削除する{#remove_parts_then}
 

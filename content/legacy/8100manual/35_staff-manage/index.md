@@ -37,9 +37,7 @@ isNipo = true
 
 でログインできます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-初期パスワードは決して安全とは言えませんのでログイン後にパスワードの変更を行うようにしてください
-{{< /callout >}}
+{{< callout context="note" title="初期パスワードは安全とは言えませんのでログイン後にパスワードの変更を推奨します" icon="outline/info-circle" />}}
 
 ### スタッフの追加について捕捉{#hint_staff}
 
@@ -96,13 +94,9 @@ E-mailを使った追加が最もシンプルなのでそちらを使用して�
 Nipo【旧版】では日報を作成する際に、**誰あてに日報を提出するのか**を日報作成者自身で選ぶことができます。
 それとは別に管理者側が各スタッフに対して日報の提出先を強制的に指定することもできます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-例えば「Aさんの書く」「業務日報は」「Cさん宛てで固定する」という具合です。
-{{< /callout >}}
+{{< callout context="note" title="例えば「Aさんの書く」「業務日報は」「Cさん宛てで固定する」という具合です" icon="outline/info-circle" />}}
 
-また、提出先と共有先については次のような違いがあります
-
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="提出先と共有先の違いについて" icon="outline/info-circle" >}}
 
 - 宛先=提出先(ただしNipo【旧版】は１名まで)
 - CC = 共有先(人数制限はありません）

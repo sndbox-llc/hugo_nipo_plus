@@ -102,7 +102,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 未登録の語録が入力されると新規追加画面に切り替わり、このまま登録できます。
 でも、**スタッフが自由気ままに新しい語録をどんどん追加されると困る**・・・という場合もあります。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="ルールの統一を" icon="outline/info-circle" >}}
 例えばふりがなをひらがな？かたかな？ローマ字？どれを使うのかといった統一ルールをみんなに伝えてそれを守らせるのは結構たいへんです
 {{< /callout >}}
 
@@ -117,9 +117,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## 住所入力{#zip}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-この機能はNipoPlusでは廃止されました
-{{< /callout >}}
+{{< callout context="caution" title="この機能はNipoPlusでは廃止されました" icon="outline/alert-triangle" />}}
 
 7桁の郵便番号を入力するだけで、市や町まで入力を補完します。例えば
 郵便番号「3291105」と入力すると、「栃木県宇都宮市中岡本町」まで取得できます。入力は全角でも半角でもOKです。ハイフンは不要です。住所入力の手間を減らすのに便利なパーツですね。
@@ -162,7 +160,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## タイムカード入力{#timecard}
 
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/timecard/input/)。NipoPlusのタイムカードは日報から完全に独立して単独使用が可能になりました" icon="outline/note" />}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/timecard/input/)です" icon="outline/note" />}}
 
 タイムカードは出退勤時間の入力に特化したパーツです。時刻パーツを2つ並べるよりもシンプルで使いやすいパーツです。
 他のパーツと異なり、タイムカードは1つのテンプレートに付き1つまでしか設定できません。
@@ -177,7 +175,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 {{<figure src="img/parts_tc8.png"  alt="タイムカードの仕様有無の選択" caption="タイムカードの仕様有無の選択" >}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="タイムカード用の日報を作っておく" icon="outline/info-circle" >}}
 日報のテンプレートは複数作成できるので、１日に１回だけ書くテンプレートを別途用意しておき、そのテンプレートにタイムカードを埋め込むのが望ましいでしょう
 {{< /callout >}}
 

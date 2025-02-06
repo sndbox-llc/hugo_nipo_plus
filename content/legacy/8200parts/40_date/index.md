@@ -12,7 +12,7 @@ isNipo = true
 
 ## 日付入力フォーム{#dateForm}
 
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/date_time/#point)。NipoPlusでは日付・時刻が１つのフォームに統合されました" icon="outline/note" />}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/date_time/#point)です" icon="outline/note" />}}
 
 カレンダーから日付を選んで入力したり、キーボードを使って直接日付を入力できます。
 初期値が「本日」になるため、初期値を固定することができません。
@@ -51,7 +51,7 @@ CSV出力時は次のように表示されます。
 
 ## 時刻入力フォーム{#timeform}
 
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/date_time/#point)。NipoPlusでは日付・時刻が１つのフォームに統合されました" icon="outline/note" />}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/date_time/#point)です" icon="outline/note" />}}
 
 時刻入力は2種類あります。上図をご覧ください。アナログ時計から選択するやり方と、ブラウザ依存から選ぶことができます。ブラウザ依存の場合は使用するブラウザによって入力方式が変わります。
 （例えばiPhoneのSafariならドラム式の入力になる）日報作成時の時刻が初期値として設定されるため、初期値の設定はできません。また、時刻パーツを連結して2つ並べると、双方の時間差を自動で計算します

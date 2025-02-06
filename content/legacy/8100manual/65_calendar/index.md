@@ -37,7 +37,7 @@ isNipo = true
 
 {{<figure src="img/calendar2.png"  alt="日報はポップアップで表示されます" caption="日報はポップアップで表示されます" >}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="日報を開くにはダブルクリック" icon="outline/info-circle" >}}
 カレンダーをクリックすると日付の選択になり、日報は開きません。ダブルクリックが必要です
 {{< /callout >}}
 

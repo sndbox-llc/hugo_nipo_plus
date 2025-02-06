@@ -67,7 +67,7 @@ Nipo メールアドレスが変更されました
 Nipo のログイン用メールアドレスが 【変更後のメールアドレス】 に変更されました。
 メールの変更を依頼していない場合は、次のリンクをクリックして、ログイン用メールアドレスをリセットしてください。
 
-https://nipo-77c25.firebaseapp.com/__auth/action?mode=recoverEmail&oobCode=ZCtV2M-mch-Ys4XlrgEtdsddJCurffSHLEoyEbcG_QAAAFwVtpPCw&apiKey=AlzaSyCOpbwJGcoYkU7J279Fw8qCmLhgz2xy6x0&lang=ja
+https://nipo-77c25.firebaseapp.com/__auth/action【省略】
 
 よろしくお願いいたします。
 Nipo チーム

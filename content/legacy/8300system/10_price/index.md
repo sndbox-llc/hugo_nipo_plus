@@ -11,16 +11,12 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-無料プランは2024年12月31日で廃止されます
-{{< /callout >}}
+{{< callout context="caution" title="無料プランは2024年12月31日で廃止されました" icon="outline/alert-triangle" />}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-2024年8月13日から料金と決済手順が変更になりました
-{{< /callout >}}
+{{< callout context="caution" title="2024年8月13日から料金と決済手順が変更になりました" icon="outline/alert-triangle" />}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-2025年3月以降、GOLDPLAN新規のクレジットカード決済のお申し込みを停止します（オンライン請求書は引き続き利用可能）
+{{< callout context="caution" title="新規クレジット払いを停止します" icon="outline/alert-triangle" >}}
+3DSに対応することが困難なため、2025年3月以降、GOLDPLAN新規のクレジットカード決済のお申し込みを停止します（オンライン請求書は引き続き利用可能）  
 {{< /callout >}}
 
 ## 無料プランは廃止されます{#free_plan_end}
@@ -83,7 +79,7 @@ isNipo = true
 
 {{<iTablet filename="img/invoice" msg="請求書払いは完全先払いです" alice="ok" >}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="残存期間中の契約人数変更について" icon="outline/alert-triangle" >}}
 現契約が残っている状態で人数の変更と期間延長を行う際は、現契約の期間分も含めて人数を増やすことになります。請求額は変わりませんが、代わりに残存期間で帳尻合わせが起きるため、申し込まれた期間より短い期間が加算されることが有ります。（１ヶ月で申込したのに実際は15日しか伸びなかったなど）
 {{< /callout >}}
 

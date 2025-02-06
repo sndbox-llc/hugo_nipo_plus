@@ -23,7 +23,7 @@ isNipo = true
 「アカウント無しで使う」をクリックすると匿名アカウントが割り当てられ、自動でログインが開始されます。
 それ以外は通常のアカウントと同じように利用が可能ですが、ごく一部の機能は匿名アカウントで利用できません。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="匿名は再ログイン不可" icon="outline/info-circle" >}}
 例えばログアウトするとE-mailが無いから再ログインできません。そのため匿名アカウントではログアウトボタンの代わりに退会ボタンしかありません
 {{< /callout >}}
 
@@ -48,6 +48,6 @@ isNipo = true
 
 これで匿名アカウントが削除されました。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="削除の前にデータを救助" icon="outline/info-circle" >}}
 匿名アカウントを削除すると作成した日報にアクセスできなくなります。必要なデータはバックアップをしておくなどしてください。
 {{< /callout >}}

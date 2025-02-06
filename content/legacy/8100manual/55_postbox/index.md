@@ -24,9 +24,7 @@ isNipo = true
   <dd>1件の日報を全画面で表示するモードです。多くの機能は詳細表示で利用できます</dd>
 </dl>
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-あなたが読める日報とは、提出先か共有先にあなたの名前が含まれている日報のことです。
-{{< /callout >}}
+{{< callout context="note" title="あなたが読める日報とは、提出先か共有先にあなたの名前が含まれている日報のことです。" icon="outline/info-circle" />}}
 
 ## 日報の一覧表示モード{#listmode}
 

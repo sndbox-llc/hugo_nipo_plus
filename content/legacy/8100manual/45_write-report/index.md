@@ -32,9 +32,7 @@ isNipo = true
 用意されているテンプレート一覧が表示されます。テンプレートの種類が多い場合は分類をしておくことで分類による絞り込みが簡単に行なえます。
 また、**テンプレート一覧はテンプレート名の順に並ぶ**ため、頻繁に使用されるテンプレート名には\_（アンダーバー）などをテンプレート名の先頭につけることで上位に表示させることもできます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-テンプレートが1種類しか無い場合はこの画面は表示されずいきなり日報作成画面が表示されます
-{{< /callout >}}
+{{< callout context="note" title="テンプレートが1種類しか無い場合は日報作成画面が表示されます" icon="outline/info-circle" />}}
 
 ### テンプレートに沿って日報を書きましょう{#write_report}
 
@@ -46,7 +44,7 @@ isNipo = true
 日報入力欄のすぐ下にタグが並んでいることに気付きましたか？タグは日報に付ける目印のようなもので、誰でも簡単にタグを付けたり外したりできます。
 日報を書いている最中にタグを付けることもできます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="タグの活用方法" icon="outline/info-circle" >}}
 タグは受信BOXや送信BOXから簡単に視認できる他、タグによる絞り込みの検索にも使えるためうまく活用してみましょう
 {{< /callout >}}
 
@@ -69,9 +67,7 @@ isNipo = true
   <dd>提出ボタンをクリックすると日報が提出されます。入力必須の項目が残っていたり、提出先が指定されていない場合は提出ができません</dd>
 </dl>
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-提出先や共有先は１度セットすると次回以降は記録されます
-{{< /callout >}}
+{{< callout context="note" title="提出先や共有先は１度セットすると次回以降は記録されます" icon="outline/info-circle" />}}
 
 #### 提出先と共有先についての捕捉{#about}
 
@@ -92,8 +88,8 @@ isNipo = true
 自動保存されているデータがない場合は、復元ボタン自体が表示されません。
 自動保存データは日報の提出完了のタイミングで毎回リセットされます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-リセットされるのは提出したテンプレートの自動保存データのみになります。。例えば日報と月報はそれぞれ別のテンプレートなのでこれらの自動保存データが同時に消えることはありません。
+{{< callout context="note" title="リセットの影響はそのテンプレート内" icon="outline/info-circle" >}}
+リセットされるのは提出したテンプレートの自動保存データのみになります。例えば日報と月報はそれぞれ別のテンプレートなのでこれらの自動保存データが同時に消えることはありません。
 {{< /callout >}}
 
 ## 日報の下書き保存について{#draft}

@@ -30,7 +30,7 @@ isNipo = true
 日報の編集画面に切り替わりました。画面上の見た目は日報の新規作成とほとんど変わりません。
 新規作成との違いは、**編集前のデータが最初から日報に記入されている**ということです。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="手描きは追記不可" icon="outline/info-circle" >}}
 もし手書きメモなどを編集する場合、すでに画像データとして加工されているので追記などはできません。
 {{< /callout >}}
 

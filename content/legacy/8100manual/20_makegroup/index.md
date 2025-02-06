@@ -32,9 +32,7 @@ Nipo【旧版】はグループを作り、その中にスタッフのアカウ�
 
 など、グループは目的に応じて簡単に作成でき、役割を終えたら簡単に解散できます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-グループの解散をすると日報のデータが消えてしまうので、解散できるのは管理者だけです
-{{< /callout >}}
+{{< callout context="note" title="グループを解散できるのは管理者だけです" icon="outline/info-circle" />}}
 
 ## グループの新規作成{#make}
 
@@ -58,9 +56,9 @@ Nipo【旧版】はグループを作り、その中にスタッフのアカウ�
 すべてのグループには固有のIDが割り当てられます。グループのIDはURLバーやグループ一覧画面から確認ができます。
 URLの場合、
 
-<blockquote>
+```bash {frame="none"}
 https://nipoapp.sndbox.jp/#/room/2Oq0yOZgKWsogVstjdUg/res
-</blockquote>
+```
 
 このような表記となりますが、上記でいうと「2Oq0yOZgKWsogVstjdUg」がグループIDになります。
 

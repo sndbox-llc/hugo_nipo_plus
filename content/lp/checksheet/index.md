@@ -5,9 +5,9 @@ menuTitle = "点検チェックシートアプリ"
 description = "タブレットやスマホで機器点検を楽々に。大きい文字で年配の方も安心。チェック項目は自由に設計OK。初めてのDXを始めよう"
 toc = false
 showPrice = true
-heroTitle = "設備点検・チェックシート入力アプリ"
-heroSubTitle = "点検項目を自由に作れる点検アプリ！格安です"
-heroText = "NipoPlusはもともと日報アプリとして開発されましたが、カスタマイズ性の高さから自動車部品メーカー等、いくつかの製造業の方々に目をつけていただきました。何度かの改良を経て製造業の設備・機材点検・製品の品質チェック用アプリとしても十分利用可能な水準にあります。<br>ベースが日報アプリのため料金も他の製造業向けアプリに比べてずっと安価でご提供可能です。"
+heroTitle = "チェックシートアプリ"
+heroSubTitle = "製造業の設備点検や品質チェックに"
+heroText = "NipoPlusは日報アプリとして開発されましたが、カスタマイズ性の高さから自動車部品メーカー、鉄鋼業など、様々な製造業の方々にも目をつけていただきました。何度かの改良を経て製造業の設備点検・製品の品質チェックシートとしても十分利用可能と好評をいただきました。<br>ベースが日報アプリのため料金も他の製造業向けアプリに比べてずっと安価でご提供可能です。"
 heroLinks = [
   { label = "入力漏れや手順飛ばしをブロック", url = "/tips/required/" },
   { label = "スマホ・タブレットなら写真や手描きもOK", url = "/tips/mobile-device/" },
@@ -21,7 +21,7 @@ heroLinks = [
 <div class="container my-5" id="dx_equip_inspection">
 <div class="row rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">点検項目を自由に自作できる</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">各設備の点検項目を自由に自作できる</h2>
 <p class="lead">
 
 天井クレーンやアーク溶接機、プラズマ切断機、孔あけ機、フォークリフトなど、点検したい機器ごとにテンプレートを作成しましょう。テンプレートは自由に点検項目をカスタマイズ可能です。  
@@ -41,7 +41,7 @@ heroLinks = [
 <div class="container my-5" id="support_functions">
 <div class="row rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">点検をサポートする様々な便利機能</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">点検業務をサポートする様々な便利機能</h2>
 <p class="lead">
 
 点検のうっかりミスや手順飛ばしを防ぐ様々な機能が搭載されています。  
@@ -76,11 +76,32 @@ heroLinks = [
 </div><!-- コンテナ閉 -->
 <!-- ▲ MainFunction -->
 
+<!-- ▼ DX -->
+<div class="container my-5" id="dx_equip_inspection">
+<div class="row rounded-3 border shadow-lg">
+<div class="col-lg-7">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">製品検査シート・5Sチェックシートにも使える</h2>
+<p class="lead">
+
+カスタマイズ性が高いので、設備点検以外にも生産した製品の品質チェックや5Sチェックシート、更には業務日報としても利用可能です。  
+5Sチェックシート用のテンプレートや日報用のテンプレートを１度作ってしまえば繰り返し何度でも利用可能。  
+要は何と言ってもテンプレート。土台が変わればアプリの用途も大きく変えられます
+
+</p>
+{{< link-card title="日報アプリ" description="" href="/">}}
+</div>
+<div class="col-lg-9  overflow-hidden">
+{{<icatch filename="img/seihin" msg="生産品の品質チェックとしても使えます"  alice="ok">}}
+</div>
+</div>
+</div>
+<!-- ▲ DX -->
+
 <!-- ▼ 集計グラフ -->
 <div class="container my-5" id="analyze">
 <div class="row rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">点検データを可視化し分析する</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">設備の点検データを可視化し分析する</h2>
 <p class="lead">
 
 紙の点検データとデジタル点検データの大きな違いはそのデータの活用のしやすさにあります。  
@@ -113,9 +134,11 @@ heroLinks = [
 </div><!-- コンテナ閉 -->
 <!-- ▲ 集計グラフ -->
 
-### 点検データのCSV形式をご紹介{#export_csv}
+### チェックシートに入力されたデータをCSV出力して活用する{#export_csv}
 
-NipoPlusで出力したCSVは次のような一般的な形をしています。
+検査シートや5Sチェックシートとして入力された各データを一括でCSVに出力することが可能です。  
+CSVはエクセルでそのまま開くことが可能です。エクセル上でチェックシートのデータを集計、分析したり、会議資料として加工したり便利に利用可能です。  
+紙による点検業務と違い、なんといっても一番大変な「データ入力業務」が丸ごと省略できる点はとても大きなメリットです
 
 {{< excelTable>}}
 提出日, 【-2mm】線形ズレ, 【-1mm】線形ズレ, 【0】線形ズレ, 【+1mm】線形ズレ, 【+2mm】線形ズレ, 【-2mm】X軸ズレ, 【-1mm】X軸ズレ, 【0】X軸ズレ, 【+1mm】X軸ズレ, 【+2mm】X軸ズレ, 【-2mm】Y軸ズレ, 【-1mm】Y軸ズレ, 【0】Y軸ズレ, 【+1mm】Y軸ズレ, 【+2mm】Y軸ズレ, 【-2mm】Z軸ズレ, 【-1mm】Z軸ズレ, 【0】Z軸ズレ, 【+1mm】Z軸ズレ, 【+2mm】Z軸ズレ, 【合格】合否, 【不合格】合否, 備考
@@ -129,22 +152,23 @@ NipoPlusで出力したCSVは次のような一般的な形をしています。
 
 {{< /excelTable>}}
 
-これは一例であり、出力オプションを変更することで加工しやすい様々な形式で出力が可能です。NipoPlusでレポートをエクセルで[集計するテクニック](/excel/sales_report/)についても紹介しています。
+上記CSVは一例であり、出力オプションを変更することで加工しやすい様々な形式で出力が可能です。NipoPlusでレポートをエクセルで[集計するテクニック](/excel/sales_report/)についても紹介しています。
 
 <!-- ▼ マルチデバイス -->
 <div class="container my-5" id="multi_device">
 <div class="row rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">スマホ・PC・タブレットに対応</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">モバイル対応で巡回点検業務も楽々</h2>
 <p class="lead">
 
 NipoPlusはマルチデバイス対応です。  
-スマートフォンやタブレットで移動しながら点検を行うことはもちろん、掲載写真のように作業台に固定して点検結果を逐次入力するといった使い方も可能。
+巡回点検に使用するなら携帯性の高いスマートフォンやタブレットがとても便利。カメラも当然搭載されているので、設備の点検箇所の[写真を撮影してそのままチェックシートに添付](/docs/manual/initial-setting/template/binarys/)することも可能です。  
+また、掲載写真のように作業台に固定して点検結果を逐次入力するといった使い方も可能。
 
-機器によって得手不得手があります。初期設定やデータエクスポート時は多目的に使えるPCが適していますし、点検箇所の写真を添付したい場合はカメラ付きのスマートフォンやタブレットが最適です。
-適材適所に併せてご利用下さい。データは全てクラウドのため、どのデバイスからでも同じデータにアクセス可能です。
+初期設定やデータを他のアプリに使う場合はもちろんPCが便利です。  
+マルチデバイス対応なので、作業内容に応じて適切なデバイスをご利用いただけます。
 
-{{< link-card title="モバイルデバイス対応" description="コラム記事"  href="/tips/mobile-device/">}}
+{{< link-card title="モバイルデバイス対応" description=""  href="/tips/mobile-device/">}}
 
 </p>
 

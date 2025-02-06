@@ -14,16 +14,16 @@ contributors = []
 レポートを読めるのは[提出先か共有先](/docs/manual/write-report/dist/)に名前が含まれているアカウントです。
 これ以外のスタッフはそのレポートを読むことができません。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-ただしグループ設定で[レポートの共有モード](/docs/manual/initial-setting/setting-group/#reportShare)がONの場合はこの限りではありません。
-{{< /callout >}}
-
 <dl class="basic">
 <dt>提出先</dt>
 <dd>そのレポートを読み、<a href="/docs/manual/read-report/state/#agree">承認や棄却</a>ができる</dd>
 <dt>共有先</dt>
 <dd>そのレポートを読めるが、承認はできない。「他に日報を読める人」という名称で書かれていることも</dd>
 </dl>
+
+{{< callout context="note" title="共有モード時は注意" icon="outline/info-circle" >}}
+グループ設定で[レポートの共有モード](/docs/manual/initial-setting/setting-group/#reportShare)がONの場合は多くのスタッフが閲覧可能です。
+{{< /callout >}}
 
 では提出先などの情報はどこでセットするのでしょう？[レポート作成時](/docs/manual/write-report/write/#dist)に作成者が指定します。
 しかし現場スタッフが提出先を手動でセットするのはミスのリスクも有るため推奨しません。

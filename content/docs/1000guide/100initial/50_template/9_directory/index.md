@@ -9,9 +9,7 @@ tags = ["テンプレート", "有料プラン限定", "編集者権限"]
 contributors = []
 +++
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-この機能は[有料プラン](/docs/price/_about/#fee)限定です
-{{< /callout >}}
+{{< callout context="caution" title="この機能は[有料プラン](/docs/price/_about/#fee)限定です" icon="outline/alert-triangle" />}}
 
 NipoPlusではテンプレートの検索機能もありますが、より直感的に管理するためにフォルダ機能を使うこともできます。
 
@@ -41,9 +39,7 @@ NipoPlusではテンプレートの検索機能もありますが、より直感
 フォルダは**現在作業中のフォルダ内に作成**されます。一番上位のフォルダが「ホームフォルダ」です。初めてフォルダを作る際はこの「ホーム」フォルダ内に作成されます。
 つまりフォルダ内にフォルダを作る場合は先に親のフォルダを作り、その後親フォルダへ移動してからフォルダ作成を行います。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-フォルダの最大深度は10階層までです
-{{< /callout >}}
+{{< callout context="note" title="フォルダの最大深度は10階層までです" icon="outline/info-circle" />}}
 
 ## テンプレートをフォルダに移動する{#moveTemplateDirectory}
 

@@ -77,7 +77,7 @@ contributors = []
 全員が全員のレポートを読みたい場合は「共有する」がおすすめです。一方で上司だけが読めれば良い場合など、公開範囲を制限する場合は「通常」がおすすめです。
 なお共有モードであっても[書き込みのみ権限とゲスト権限](/docs/manual/initial-setting/staff/rank/#others)は他人のレポートを読むことはできません。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="現場の手間を減らすために" icon="outline/info-circle" >}}
 [提出先と共有先の固定](/docs/manual/initial-setting/staff-local/dist/)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
 {{< /callout >}}
 

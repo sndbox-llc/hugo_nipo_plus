@@ -27,8 +27,8 @@ contributors = []
 |   写真   |                  ✗                  |                   ✗                    |                          ⭕                           |                             ✗                             |
 | ファイル |                  ✗                  |                   ✗                    |                           ✗                           |                             ✗                             |
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-※写真は複数添付可能ですが、PDF出力時は先頭の１枚目のみ出力可能です。全てPDFに出力する際は複数の写真入力フォームを設置してください
+{{< callout context="caution" title="PDF出力時は1枚目のみ出力される" icon="outline/alert-triangle" >}}
+全ての写真を[PDF出力](/docs/manual/pdf/pdfbatch/)したい場合は写真入力フォームを必要な数配置してご利用下さい
 {{< /callout >}}
 
 ## ファイル系の入力フォームをテンプレートに追加する{#addForm}
@@ -68,9 +68,7 @@ contributors = []
 
 {{<icatch filename="img/sign-post" msg="テンプレートの幅によって大きさが変わって見えます" alice="here">}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-あくまで縮小されるだけでもとの署名データは同一です
-{{< /callout >}}
+{{< callout context="note" title="表示が縮小されるだけでもとの署名データは同一です" icon="outline/info-circle" />}}
 
 ### 署名のレポートをPDFに出力{#pdf_sign}
 
@@ -89,7 +87,7 @@ contributors = []
 後述する[ファイル入力フォーム](#file)でも写真を添付できますが、ファイル入力フォームはレポートを表示しても写真は見えず、手動でダウンロードして開く必要があります。
 ファイル入力はより汎用的ですが、利便性では写真入力フォームのほうが優れています。
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="画質低下に注意" icon="outline/alert-triangle" >}}
 写真UP時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/_about/#fee)は中画質、[無料プラン](/docs/price/_about/#free)は低画質）
 {{< /callout >}}
 
@@ -132,7 +130,7 @@ PDFに埋め込まれる画像の大きさは、テンプレートの設計に�
 
 ## ファイル{#file}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="印刷前提なら写真入力フォームを" icon="outline/info-circle" >}}
 写真データを添付したい場合は[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)をご利用ください。PDF出力時などに差がでます。
 {{< /callout >}}
 
@@ -149,11 +147,8 @@ PDFに埋め込まれる画像の大きさは、テンプレートの設計に�
 レポートを受け取った際はそのレポートに添付されたファイルが一覧で表示されます。クリックで添付されたファイルをダウンロード可能です。
 仮に添付されたファイルが画像データであってもプレビューされません。[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)との大きな違いの１つです。
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-もとのファイル名に加えて無作為なランダム文字列が追加されます。完全に同じ名前ではないことに注意
-{{< /callout >}}
-
-ファイル入力フォームはPDF出力に対応していません
+{{< callout context="caution" title="もとのファイル名に加えて無作為なランダム文字列が自動で追加されます" icon="outline/alert-triangle" />}}
+{{< callout context="caution" title="ファイル入力フォームはPDF出力に対応していません" icon="outline/alert-triangle" />}}
 
 ---
 

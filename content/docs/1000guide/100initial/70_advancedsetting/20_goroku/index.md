@@ -8,8 +8,8 @@ tags = ["語録機能", "有料プラン限定", "編集者権限"]
 contributors = []
 +++
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-語録は[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)と組み合わせて使用する必要が有ります。単体では機能しません。
+{{< callout context="caution" title="単体では機能しません" icon="outline/alert-triangle" >}}
+語録は[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)と組み合わせて使用する必要が有ります。
 {{< /callout >}}
 
 ## 語録機能とは？{#about}
@@ -56,9 +56,8 @@ contributors = []
 常に動的に単語を増やしたい場合は語録を使ってください。
 増えた単語は同じリストを使用したフォームでリアルタイムに反映されます。
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-単語追加は編集者権限が必要では？
-語録内単語の新規追加だけは例外で、スタッフ権限でも追加することが可能です。（単語の削除や上書きは編集者権限が必要です）
+{{< callout context="tip" title="単語の追加に限り権限が緩和されます" icon="outline/note" >}}
+単語の追加はテンプレートと別に管理されるため、テンプレートの編集権限が無いスタッフでも追加可能です。
 {{< /callout >}}
 
 ## 語録の整理{#edit}

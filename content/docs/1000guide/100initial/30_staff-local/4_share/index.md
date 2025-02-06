@@ -8,15 +8,17 @@ contributors = []
 tags = ["編集者権限"]
 +++
 
+{{< callout context="caution" title="応用設定です" icon="outline/alert-triangle" >}}
+
 この機能はかなり特殊で通常使う必要は有りません。
 以下のケース**すべてに該当する**場合にのみ読み進めてください。
 
 - 据え置きのタブレットやPCを複数人で共有で使用している
 - スタッフごとに集計や分析が必要
 
-該当しない方は次のページへGO！
-
 {{<nextBlog>}}
+
+{{< /callout >}}
 
 ---
 

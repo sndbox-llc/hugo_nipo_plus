@@ -23,9 +23,7 @@ title = ""
 
 {{<icatch filename="img/email-edit" msg="メールアドレスの変更にはパスワードの入力が必要だよ" alice="shield">}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-アカウント保護のため受信可能なメアドを使用してください
-{{< /callout >}}
+{{< callout context="note" title="アカウント保護のため受信可能なメアドを使用してください" icon="outline/info-circle" />}}
 
 ### メールアドレスの変更をキャンセルする{#cancel}
 

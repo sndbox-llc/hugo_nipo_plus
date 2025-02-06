@@ -45,7 +45,7 @@ NipoPlusでは以下の種類があります。
 
 複数の回答から1つだけ選ばせたいときに利用してください。機器点検における機器の大まかな状態表示などに適しています。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="入力画面" icon="outline/info-circle" >}}
 [選択入力フォームの入力画面](/docs/manual/write-report/parts/#select)はこちらから確認できます
 {{< /callout >}}
 
@@ -148,8 +148,8 @@ CSV出力に限っては選択肢（単体）の方が加工がしやすい形�
 
 ## ２層式選択（非推奨）{#layerd}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-２層式は非推奨になりました。代わりに[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)をご利用ください
+{{< callout context="caution" title="２層式は非推奨" icon="outline/alert-triangle" >}}
+代わりに[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)をご利用ください
 {{< /callout >}}
 
 <details>
@@ -242,9 +242,7 @@ graph LR;
 
 ## 選択肢のリストを動的に変化させる{#dinamic_switch_select}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-この機能は有料プラン限定です
-{{< /callout >}}
+{{< callout context="note" title="この機能は有料プラン限定です" icon="outline/info-circle" />}}
 
 [選択式入力フォーム（単）](/docs/manual/initial-setting/template/selects/#plain)・及び[選択式入力フォーム（複）](/docs/manual/initial-setting/template/selects/#multiple)は他の選択式入力フォームの回答結果により自身の選択肢のリストを動的に変更する機能があります。
 これを動的変化機能といいます。

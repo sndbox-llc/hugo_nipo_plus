@@ -12,7 +12,7 @@ contributors = []
 文字入力フォームはレポートにシンプルな文字の入力フォームを追加します。
 改行を入れることで入力エリアが自動で広がります。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="入力画面" icon="outline/info-circle" >}}
 [文字入力フォームの入力画面](/docs/manual/write-report/parts/#text)はこちらから確認できます
 {{< /callout >}}
 

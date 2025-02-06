@@ -20,9 +20,7 @@ weight = 210
 レポート作成をクリックすると使用可能なテンプレート一覧が表示されますので、使用するテンプレートを選びます。
 （※テンプレートが1種類の場合はこの画面は省略されます）
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-スタッフごとに[使用可能なテンプレートを制御](/docs/manual/initial-setting/staff-local/template/)することもできます
-{{< /callout >}}
+{{< callout context="note" title="スタッフごとに[使用可能なテンプレートを制御](/docs/manual/initial-setting/staff-local/template/)することもできます" icon="outline/info-circle" />}}
 
 {{<icatch filename="img/report-template-select" msg="まずは使うテンプレートを選ぼう。テンプレートは名前順に並ぶよ" alice="guide">}}
 

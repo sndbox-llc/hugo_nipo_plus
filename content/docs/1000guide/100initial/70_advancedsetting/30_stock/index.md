@@ -8,9 +8,7 @@ tags = ["編集者権限"]
 contributors = []
 +++
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-在庫管理は[商品在庫入力フォーム](/docs/manual/initial-setting/template/mod/)と組み合わせて使用できます
-{{< /callout >}}
+{{< callout context="tip" title="在庫管理は[商品在庫入力フォーム](/docs/manual/initial-setting/template/mod/)と組み合わせて使用できます" icon="outline/note" />}}
 
 ## 商品管理の目的{#about}
 

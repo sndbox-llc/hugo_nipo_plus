@@ -11,7 +11,7 @@ contributors = []
 
 スタッフは[組織から作成](/docs/manual/initial-setting/staff/make/)されて各グループに所属します。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="caution" title="類似ページ注意" icon="outline/info-circle" >}}
 組織上のスタッフについては[組織のスタッフ](/docs/manual/initial-setting/staff/manage/)を参照してください
 {{< /callout >}}
 

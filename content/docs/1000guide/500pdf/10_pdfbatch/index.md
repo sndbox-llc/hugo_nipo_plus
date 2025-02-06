@@ -9,17 +9,14 @@ tags = ["有料プラン限定", "PDF出力"]
 contributors = []
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-１件だけPDF出力するには[レポートを読む](/docs/manual/read-report/state/#pdf_export)の記事を御覧ください
+{{< callout context="note" title="関連ページ案内" icon="outline/info-circle" >}}
+
+- １件だけPDF出力するには[レポートを読む](/docs/manual/read-report/state/#pdf_export)の記事を御覧ください
+- [PDF出力の設定](/docs/manual/pdf/pdfoption/)についてはこちらをご覧ください
+
 {{< /callout >}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-[PDF出力の設定](/docs/manual/pdf/pdfoption/)についてはこちらをご覧ください
-{{< /callout >}}
-
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-一括PDF出力は50件を超えない範囲で操作してください
-{{< /callout >}}
+{{< callout context="caution" title="一括PDF出力は50件を超えない範囲で操作してください" icon="outline/alert-triangle" />}}
 
 レポートをまとめてPDFに変換してダウンロードできます。
 一括PDF出力はいくつかのやり方があります。

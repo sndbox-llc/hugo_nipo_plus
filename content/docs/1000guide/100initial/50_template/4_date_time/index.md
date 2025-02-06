@@ -127,7 +127,7 @@ contributors = []
 
 日付と時刻（範囲）では、入力した期間を下に自動で差分（経過した時間）を計算し画面に表示します。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="反復入力との合せ技" icon="outline/info-circle" >}}
 [反復入力](/docs/manual/initial-setting/template/array/)の中で日付と時刻（範囲）を使い、かつ入力形式が「時刻のみ」の場合、時刻の始点が自動セットされる入力補助が発動します
 {{< /callout >}}
 

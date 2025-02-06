@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/staff/manage/"
-title = "🛠️スタッフアカウントの管理"
+title = "スタッフアカウントの管理"
 menuTitle = "🛠️アカウントの管理"
 description = "スタッフアカウントの権限変更や修正といったアカウントの管理に関する操作ガイドです。管理者権限が必要です。組織のスタッフ管理では所属先グループの指定や、各スタッフの権限、アカウントの停止といった管理が可能です。"
 toc = true
@@ -9,15 +9,13 @@ tags = ["管理者権限", "スタッフ管理"]
 contributors = []
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="caution" title="類似ページ注意" icon="outline/info-triangle" >}}
 このページは「組織」のスタッフ管理です。「グループ」のスタッフ管理については[こちらを参照](/docs/manual/initial-setting/staff-local/_about/)してください
 {{< /callout >}}
 
 ## グループへ所属させる{#join_staff}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-グループ分けが不要な場合はこのセクションは不要です
-{{< /callout >}}
+{{< callout context="note" title="グループ分けが不要な場合はこのセクションは不要です" icon="outline/alert-circle" />}}
 
 グループを増やすには「[グループの作成](/docs/manual/initial-setting/make-group/)」を御覧ください。
 グループに所属することで初めてグループ内でレポートの読み書きができるようになります。そのため、**グループへの所属はとても重要**です。
@@ -28,7 +26,7 @@ contributors = []
 
 {{<icatch filename="img/join" msg="組織のスタッフをそれぞれのグループに所属させましょう" alice="book">}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="グループから見たスタッフ一覧" icon="outline/info-circle" >}}
 グループに所属するとグループの管理画面にそのスタッフ名が追加されます。次の画像は[グループ内のスタッフ](/docs/manual/initial-setting/staff-local/_about/)一覧画面の例です。
 
 {{<icatch filename="img/group-member" msg="グループ内から見た所属スタッフの一覧画面です" alice="here">}}

@@ -62,10 +62,10 @@ contributors = []
 キーは DQQの部分です。このキー名を控えてください。
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-実際の生データはもっと数が多く複雑である可能性があります。印刷して１つ１つ照らし合わせて目的のデータを見つける必要があります
+実際の生データはもっと数が多く複雑である可能性があります。１つ１つ照らし合わせて目的のデータを見つける必要があります
 {{< /callout >}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="反復はより複雑化します" icon="outline/alert-triangle" >}}
 反復入力フォームなどが含まれている場合、JSONのデータが入れ子構造となるためより複雑になります。
 {{< /callout >}}
 

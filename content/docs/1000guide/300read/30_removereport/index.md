@@ -40,9 +40,7 @@ NipoPlusではデータ保護の観点から、[承認されたレポート](/do
 
 ## グループ内のレポートをまとめて削除{#batch_remove}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-この機能は[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です。
-{{< /callout >}}
+{{< callout context="note" title="[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です" icon="outline/info-circle" />}}
 
 ロックのかかったレポートや他スタッフが作成したレポートでもお構いなしに管理者権限で削除できる機能です。
 

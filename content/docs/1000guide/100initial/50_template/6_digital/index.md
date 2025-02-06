@@ -160,9 +160,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 - 室温など上限下限がある程度決まっているもの
 - 湿度などパーセンテージで表現するもの
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-「本日の来客者」のように上限が予測できない項目には不向きです
-{{< /callout >}}
+{{< callout context="caution" title="「本日の来客者」のように上限が予測できない項目には不向きです" icon="outline/alert-triangle" />}}
 
 【数値入力フォーム詳細設定】
 
@@ -183,9 +181,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
   <dd>ON:提出時に未入力だと提出ができません</dd>
 </dl>
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。
-{{< /callout >}}
+{{< callout context="caution" title="レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。" icon="outline/alert-triangle" />}}
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 
@@ -236,9 +232,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
   <dd>数値の単位を指定します。例えば気温であれば「度」と入力します。単位は入力時の画面左上にヒントとして表示されます</dd>
 </dl>
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。
-{{< /callout >}}
+{{< callout context="caution" title="レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。" icon="outline/alert-triangle" />}}
 
 補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
 

@@ -9,7 +9,7 @@ tags = []
 contributors = []
 +++
 
-{{< callout context="note" title="類似ページ注意" icon="outline/info-circle" >}}
+{{< callout context="caution" title="類似ページ注意" icon="outline/info-triangle" >}}
 各グループ内のスタッフ管理については[グループ内のスタッフ管理](/docs/manual/initial-setting/staff-local/_about/)を参照してください
 {{< /callout >}}
 

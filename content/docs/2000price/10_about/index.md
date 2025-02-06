@@ -7,7 +7,7 @@ toc = true
 weight = 2010
 +++
 
-{{< callout context="note" title="類似ページ注意" icon="outline/info-circle" >}}
+{{< callout context="caution" title="類似ページ注意" icon="outline/info-triangle" >}}
 こちらはNipoPlusの料金ページです。[旧Nipoの料金](/legacy/system/price/)と混同されないように注意してください
 {{< /callout >}}
 

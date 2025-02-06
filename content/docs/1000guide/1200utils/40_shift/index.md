@@ -8,13 +8,9 @@ tags = ["編集者権限"]
 contributors = []
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-シフト管理がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="シフト管理がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-シフト表は[提出状況表](/docs/manual/read-report/list/#teishutuMap)と連動します
-{{< /callout >}}
+{{< callout context="note" title="シフト表は[提出状況表](/docs/manual/read-report/list/#teishutuMap)と連動します" icon="outline/info-circle" />}}
 
 シフト表を使ってスタッフの出勤：退勤予定時間や、休日といった設定ができます。単純にメモだけを残すことも可能です。
 シフト表の**最大の目的は提出状況表との連携**です。提出状況表に✗と書かれたセルが、「レポートの提出忘れ」なのか、単にスタッフが休暇のため提出されていないのかを把握しやすくするための判断に使うことができます。

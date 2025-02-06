@@ -9,13 +9,9 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="カレンダーは初期状態で無効" icon="outline/info-circle" >}}
-カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-スタッフ別に予定を見たいときは[日カレンダー](/docs/manual/calendar/dayly/)をご利用ください
-{{< /callout >}}
+{{< callout context="note" title="スタッフ別に予定を見たいときは[日カレンダー](/docs/manual/calendar/dayly/)をご利用ください" icon="outline/info-circle" />}}
 
 ## 週カレンダーに切り替える{#calendar_switch}
 

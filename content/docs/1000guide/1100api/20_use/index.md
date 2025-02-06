@@ -25,9 +25,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポ
 -d "{ "【パラメータ1】": "【値1】", "【パラメータ2】": "【値2】" }"
 ```
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/021/4021036/)は若干形式が変わる可能性があるので注意
-{{< /callout >}}
+{{< callout context="caution" title="Mac/Linux向けのCurl記法です。[Windows版](https://ascii.jp/elem/000/004/021/4021036/)は若干形式が変わる可能性があります" icon="outline/alert-triangle" />}}
 
 【】で囲まれた部分には、独自の値を指定してください。
 
@@ -107,9 +105,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/reports/admin \
 EOS
 ```
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-見やすさを重視してヒアドキュメント（EOSの箇所）を使っています。
-{{< /callout >}}
+{{< callout context="note" title="見やすさを重視してヒアドキュメント（EOSの箇所）を使っています。" icon="outline/alert-circle" />}}
 
 この例を少し詳しく見てみます
 

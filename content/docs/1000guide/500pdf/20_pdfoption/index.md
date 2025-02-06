@@ -46,9 +46,7 @@ PDF出力前に設定することで、１回限りの設定を記録できま�
 
 「PDF一括出力に追加」をクリックすると修正した内容のまま一括出力に追加されます。
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-閉じるボタンを押してポップアップウインドウが閉じられた時点で変更内容は全てクリアされます
-{{< /callout >}}
+{{< callout context="caution" title="閉じるを押してポップウインドウが閉じた時点で変更内容は全てクリアされます" icon="outline/alert-triangle" />}}
 
 ## PDF出力設定の詳細{#options}
 

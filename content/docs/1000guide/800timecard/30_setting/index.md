@@ -41,7 +41,7 @@ Version1.56.0から、設定の保存が手動になりました。設定を変�
 
 締日は5・10・15・20・25・月末から選択します。いづれの日を選択しても必ず起動時に「本日」が含まれるような期間がセットされます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="締日による表示期間の初期値" icon="outline/info-circle" >}}
 例えば締日が10日で、今日が5/11でなら自動で5/11〜6/10がセットされるし、今日が5/8なら4/11〜5/10がセットされます。
 {{< /callout >}}
 

@@ -22,9 +22,7 @@ weight = 310
 
 ## カレンダーを使ってレポートを探す{#calendar}
 
-{{< callout context="note" title="カレンダーは初期状態で無効" icon="outline/info-circle" >}}
-カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 提出された日報はカレンダー上に掲載されます。日別で日報を読みたい場合はカレンダーが便利です。
 

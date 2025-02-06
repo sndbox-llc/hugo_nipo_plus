@@ -18,9 +18,7 @@ weight = 820
 タイムカードの表示期間を変更するには画面右上のカレンダーから操作します。
 また、表示するスタッフを切り替えるには画面右下のスタッフ名を変更してください。
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-セキュリティの観点から自分以外のタイムカードを表示するには編集者・管理者権限のスタッフに限定されます。[権限についてはこちら](/docs/manual/initial-setting/staff/rank/)
-{{< /callout >}}
+{{< callout context="caution" title="自分以外のタイムカードを表示するには[編集者権限]((/docs/manual/initial-setting/staff/rank/))が必要です" icon="outline/alert-triangle" />}}
 
 ### タイムカードの内容について{#content}
 

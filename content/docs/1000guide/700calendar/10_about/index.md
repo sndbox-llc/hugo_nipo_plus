@@ -9,9 +9,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="カレンダーは初期状態で無効" icon="outline/info-circle" >}}
-カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 [レポート保存箱](/docs/manual/read-report/list/#listbox)と[予定管理](/docs/manual/event/list/)、２つの機能を一箇所で管理できます。
 カレンダを表示するには左メニューから「カレンダー」を選択します。

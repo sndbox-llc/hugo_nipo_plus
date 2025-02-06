@@ -6,7 +6,7 @@ toc = true
 weight = 810
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="タイムカードを有効にする" icon="outline/info-circle" >}}
 タイムカードは初期状態で「無効」になっています。利用するには[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から「タイムカード」を有効にしてください
 {{< /callout >}}
 
@@ -20,7 +20,7 @@ weight = 810
 まとめられたタイムカードのデータは[CSVに出力](/docs/manual/timecard/list/#csv)できます。エクセルなどの表計算ソフトで給与計算に使用したり、バックアップ目的として手元に保存しておくことが可能です。
 1度に表示可能なタイムカードは5件までですが、1度きりの[制限解除オプション](/docs/manual/timecard/setting/#how_to_unlimited)を購入いただくことでこの制限は解除されます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="タイムカードオプション販売について" icon="outline/info-circle" >}}
 
 - オプションのお値段は2024/7月現在、10,000円です。変化する可能性もあるため決済画面に記載される金額を必ずご確認ください
 - NipoPlusの[有料プラン](/docs/price/_about/#fee)加入者の方のみ購入可能なオプション扱いであることに注意してください。

@@ -27,16 +27,14 @@ contributors = []
 ポップアップで退会確認画面が表示されます。退会は強い影響力がある行為のため、実行にはログインパスワードの入力が必要です。ログインしているユーザのパスワードを入力してください。
 また退会自体は管理者権限がないと実行できません。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-[匿名アカウント](/docs/manual/utils/tokumei/)の状態で退会する場合、パスワードが無いため、代わりに誤操作防止のため特定の文字入力を要求します
-{{< /callout >}}
+{{< callout context="note" title="[匿名アカウント](/docs/manual/utils/tokumei/)の状態で退会する場合、パスワードが無いため他の文字を入力します" icon="outline/info-circle" />}}
 
 {{<icatch filename="img/re-auth" msg="アカウントのログインパスワードを入力して本人であることを再確認します">}}
 
 パスワードが正しいことが確認されると退会処理がサーバ側で実行されます。処理完了まで最長で30秒ほどかかります。
 退会が完了すると「退会が完了しました。ご利用ありがとうございました」のメッセージが表示されます。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="権限不足が表示される？" icon="outline/info-circle" >}}
 退会完了メッセージの前に「権限が足りません」のエラーが表示されますがこれは正常な動作です。退会に伴いデータのアクセス権が失効するためです
 {{< /callout >}}
 

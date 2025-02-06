@@ -9,9 +9,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-カレンダーがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 ## 日カレンダーに切り替える{#calendar_switch}
 
@@ -26,8 +24,8 @@ contributors = []
 
 {{<icatch filename="img/show-staff" msg="表示するスタッフを切替できます。現在は３名まで並べて表示可能です" alice="ok">}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-2024/2現在、表示できるスタッフの上限を3名に制限しています。無償開放かオプションによる販売を検討しています。ご意見があればフィードバックをお寄せください（現在この件でのフィードバック０）
+{{< callout context="caution" title="スタッフ表示数は3件まで" icon="outline/alert-triangle" >}}
+2024/2現在、表示できるスタッフの上限を3名に制限しています。無償開放かオプションによる販売を検討しています。ご意見があればフィードバックをお寄せください
 {{< /callout >}}
 
 ## 日カレンダーの表示ルール{#role}

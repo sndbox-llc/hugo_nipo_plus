@@ -119,9 +119,7 @@ NipoPlusは下のボタンから起動できます
 
 以上でインストールは完了です。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-消すときはアイコンを長押しです。これは普通のアプリと同じです。
-{{< /callout >}}
+{{< callout context="note" title="消すときはアイコンを長押しです。これは普通のアプリと同じです" icon="outline/info-circle" />}}
 
 インストールと紹介していますが厳密には**Webページへのショートカットリンク**に過ぎません。
 ですが全画面表示とホーム画面のアイコンが工夫されるだけでまるでアプリのように振る舞っているようにみえますね。

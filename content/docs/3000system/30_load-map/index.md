@@ -10,9 +10,7 @@ weight = 3030
 NipoPlusで現在実装されていませんがこれから実装を予定している機能についてまとめています。
 多くの機能は皆様からのリクエストです。「こんな機能がほしい！」というリクエストがあれば[問い合わせフォーム](/others/inquery/)よりどんどんお寄せください。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-ロードマップの解決は実装難易度の低い順に着手します
-{{< /callout >}}
+{{< callout context="note" title="ロードマップの解決は受付順とは限りません" icon="outline/info-circle" />}}
 
 **バグの修正が最も優先**されます。
 

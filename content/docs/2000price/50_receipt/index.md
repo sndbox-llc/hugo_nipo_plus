@@ -9,7 +9,7 @@ tags = ["Web版限定", "管理者権限"]
 contributors = []
 +++
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="類似ページ注意" icon="outline/alert-triangle" >}}
 このガイドはNipoPlus用です。Nipo【旧版】で領収証発行が必要な方は[Nipo【旧版】の料金ページ](/legacy/system/price/)を御覧ください
 {{< /callout >}}
 

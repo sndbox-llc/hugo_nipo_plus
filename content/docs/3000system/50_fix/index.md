@@ -73,24 +73,20 @@ https://nipoplus.sndbox.jp/#/room/BLyx3SG72rId24BnKcGC/Lpi7TCw4WV3xLVrrHOCs/blue
 https://nipoplus.sndbox.jp/
 ```
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-シャープマーク（#）より後ろはブックマークに入れないようにします
-{{< /callout >}}
+{{< callout context="note" title="シャープマーク（#）より後ろはブックマークに入れないこと" icon="outline/info-circle" />}}
 
 ## サイトキャッシュをクリアする{#clear}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-匿名アカウントをご利用の場合は再ログインができなくなるため注意してください
-{{< /callout >}}
+{{< callout context="danger" title="匿名アカウントでキャッシュクリアすると再ログインができなくなります" icon="outline/alert-triangle" />}}
 
 NipoPlusのキャッシュをクリアすることで動作が回復することがありますが、この手順は最終手段です。
 キャッシュのクリアは次の手順で行います
 
 1. 右クリックして検証をクリックする
-1. 画面下部に検証パネルが表示される
-1. 検証パネルから「アプリケーション」をクリック
-1. ストレージをクリック
-1. サイトデータを消去をクリック
+2. 画面下部に検証パネルが表示される
+3. 検証パネルから「アプリケーション」をクリック
+4. ストレージをクリック
+5. サイトデータを消去をクリック
 
 まずは検証パネルを表示させます。画面余白エリアで右クリック、検証の順にクリックします。
 
@@ -102,8 +98,8 @@ NipoPlusのキャッシュをクリアすることで動作が回復すること
 
 このパネルで消去されるのはNipoPlusの一時データだけで、日報やコメントなど重要なデータは削除されませんのでご安心ください。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-そもそもレポートはサーバ上に保管されているのでここからは削除できません
+{{< callout context="note" title="重要なデータはサーバにある" icon="outline/info-circle" >}}
+レポートはサーバ上に保管されているのでここからは削除できません
 {{< /callout >}}
 
 1点注意してほしいこととしてはログイン情報は消えてしまいます。そのため、サイトのアプリキャッシュをクリアすると再度ログインが必要になりますのでご了承ください。

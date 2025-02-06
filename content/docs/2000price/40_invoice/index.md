@@ -87,9 +87,7 @@ contributors = []
 
 {{<figure src="img/invoice.png"  alt="PDFの請求書画面" caption="PDFの請求書画面" >}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-振込先口座番号はお客様ごとに異なります
-{{< /callout >}}
+{{< callout context="caution" title="振込先口座番号はお客様ごとに異なります" icon="outline/alert-triangle" />}}
 
 - 振込先口座はお客様IDごとに自動で異なる口座が用意されます
 - 支払額が請求額に満たない場合、預り金扱いとなり決済は行われません

@@ -22,7 +22,7 @@ weight = 310
 
 ## カレンダーを使ってレポートを探す{#calendar}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="カレンダーは初期状態で無効" icon="outline/info-circle" >}}
 カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
 {{< /callout >}}
 
@@ -43,7 +43,7 @@ weight = 310
 
 ## 保存箱を使ってレポートを探す{#listbox}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="権限によって表示が変わる？" icon="outline/alert-triangle" >}}
 [権限](/docs/manual/initial-setting/staff/rank/)が「ゲスト」のアカウントは「保存箱」自体表示されません。「書き込みのみ」のアカウントは「受信BOX」が表示されません。
 
 {{< /callout >}}
@@ -115,8 +115,8 @@ weight = 310
 
 表示されるレポートのタイプが変わるだけで基本的な使い方はどのBOXも一緒です。
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-[書き込みのみの権限](/docs/manual/initial-setting/staff/rank/#others)アカウントは受信BOXが表示されません（読み込み権限が無いため）
+{{< callout context="caution" title="受信BOXが表示されないケース" icon="outline/alert-triangle" >}}
+他人の日報を読む権限が無いため、[書き込みのみの権限](/docs/manual/initial-setting/staff/rank/#others)アカウントは受信BOXが表示されません。
 {{< /callout >}}
 
 表示形式は次の3種類があります
@@ -145,6 +145,6 @@ weight = 310
 
 {{<icatch filename="img/report-map"  msg="未提出者は誰ですか？すぐ見つけられるね♫" alice="ok">}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="シフト管理と連動します" icon="outline/info-circle" >}}
 提出状況表に欠勤やメモを書きたい場合は[シフト表](/docs/manual/utils/shift/)をご利用ください。提出状況表とシフト表は連動します
 {{< /callout >}}

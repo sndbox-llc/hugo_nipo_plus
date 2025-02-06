@@ -9,9 +9,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 1ヶ月の目標が決まったらそれを稼働日で按分することで１日あたりの目標が求まります。
 1日あたりの目標達成未達、及び累積による目標達成未達を一覧表で表示できます。

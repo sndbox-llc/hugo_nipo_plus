@@ -14,9 +14,7 @@ contributors = []
 
 {{< /callout >}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 {{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
 [Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)版では利用できません。[Web版](/docs/system/mobile-install/#web)をご利用ください

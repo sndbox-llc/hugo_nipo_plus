@@ -33,7 +33,7 @@ contributors = []
 </ul>
 </dl>
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="見れないレポートは集計されません" icon="outline/info-circle" >}}
 あなたが閲覧可能なレポート（[提出先か共有先に含まれているもの](/docs/manual/write-report/dist/)）のみが集計の対象となります。
 {{< /callout >}}
 

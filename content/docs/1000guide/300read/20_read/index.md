@@ -6,7 +6,7 @@ toc = true
 weight = 320
 +++
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
+{{< callout context="caution" title="権限によって読めないことも" icon="outline/alert-triangle" >}}
 [権限が「ゲスト」](/docs/manual/initial-setting/staff/rank/#others)のアカウントは自分の書いたレポートも含めて読むことができません。
 {{< /callout >}}
 
@@ -19,7 +19,7 @@ weight = 320
 レポートを読むには「提出先か共有先」に名前が含まれている必要があります。
 読めないレポートは受信BOX一覧に表示されません。また集計の対象にもなりません。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="共有モードがONの場合" icon="outline/info-circle" >}}
 グループ設定で [日報共有モード](/docs/manual/initial-setting/setting-group/#reportShare)が有効の場合は権限に関係なく、グループに所属しているスタッフがレポートを閲覧可能です
 {{< /callout >}}
 
@@ -79,9 +79,7 @@ weight = 320
 
 {{<icatch filename="img/report-approval" msg="承認リレーがある場合は最後の人が承認した時点ではじめて「承認」になるんだ" alice="here">}}
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-※検印欄が1つしか無い場合は承認リレーにならず直接承認になります
-{{< /callout >}}
+{{< callout context="note" title="検印欄が1つしか無い場合はリレーにならず直接承認になります" icon="outline/alert-circle" />}}
 
 ### レポートを棄却する{#reject}
 
@@ -160,9 +158,7 @@ NipoPlusでは「CSV出力」と「PDF出力」をサポートしています。
 
 ### 表示中のレポートをCSV出力する📊{#csv_export}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-まとめてCSV出力するには[一括CSV出力](/docs/manual/analytics/csv/)をご覧ください
-{{< /callout >}}
+{{< callout context="note" title="まとめてCSV出力するには[一括CSV出力](/docs/manual/analytics/csv/)をご覧ください" icon="outline/info-circle" />}}
 
 出力する手順は次の通りです。
 
@@ -174,9 +170,9 @@ NipoPlusでは「CSV出力」と「PDF出力」をサポートしています。
 
 ### 表示中のレポートをPDF出力する📄{#pdf_export}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-まとめて出力するには[一括PDF出力](/docs/manual/pdf/pdfbatch/)を御覧ください。[PDF出力設定](/docs/manual/pdf/pdfoption/)についてはこちらをご覧ください。
-{{< /callout >}}
+{{< callout context="note" title="まとめて出力するには[一括PDF出力](/docs/manual/pdf/pdfbatch/)を御覧ください" icon="outline/info-circle" />}}
+
+{{< callout context="note" title="[PDF出力設定](/docs/manual/pdf/pdfoption/)についてはこちらをご覧ください" icon="outline/info-circle" />}}
 
 PDFに変換する手順は次のとおりです。
 

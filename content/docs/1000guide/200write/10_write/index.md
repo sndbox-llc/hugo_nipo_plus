@@ -67,7 +67,7 @@ weight = 210
 <dd>承認はできませんがこの<a href="/docs/manual/read-report/state/#readed">レポートを読める人</a>を指定します。複数名指定可能です。提出先に指定しているスタッフを共有先に指定する必要はありません</dd>
 </dl>
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
+{{< callout context="note" title="自動承認について" icon="outline/info-circle" >}}
 １番目の提出先を自分にすると「自動承認」オプションが選択できます。自動承認をONにすると提出と同時に承認が行われます
 {{< /callout >}}
 
@@ -76,13 +76,9 @@ weight = 210
 最後に提出ボタンをクリックして完了です。これでレポートが作成され提出先に送られます。
 提出したレポートは[カレンダー](/docs/manual/read-report/list/#calendar)や[保存BOX](/docs/manual/read-report/list/#listbox)からアクセス可能です。
 
-{{< callout context="caution" title="注意" icon="outline/alert-triangle" >}}
-[権限がゲスト](/docs/manual/initial-setting/staff/rank/#others)の場合、自分で書いたレポートを読むこともできません
-{{< /callout >}}
+{{< callout context="caution" title="[権限がゲスト](/docs/manual/initial-setting/staff/rank/#others)の場合、自分で書いたレポートを読むことができません" icon="outline/alert-triangle" />}}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-提出ボタンが押せないときは入力必須が残っていないか確認してみましょう
-{{< /callout >}}
+{{< callout context="note" title="提出ボタンが押せないときは入力必須が残っていないか確認してみましょう" icon="outline/info-circle" />}}
 
 ## 提出後のアクション{#then}
 

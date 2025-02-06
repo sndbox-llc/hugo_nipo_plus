@@ -9,9 +9,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 グラフは「推移表」「累積表」のデータを元に作成されます。推移表や累積表をグラフ化することで視覚的にデータを見ることができます。
 NipoPlusでは次のようなグラフを作成可能です

@@ -9,9 +9,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください
-{{< /callout >}}
+{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 クロス集計とは異なる複数のテンプレートを横断して比較・集計する機能です。
 例えば次のテンプレートがあるとします

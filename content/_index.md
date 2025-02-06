@@ -26,7 +26,7 @@ heroLinks = [
 テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
 
 </p>
-{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/">}}
+{{< link-card title="テンプレートの作り方" description="" href="/docs/manual/initial-setting/template/make/">}}
 </div>
 <div class="col-lg-9  overflow-hidden">
 {{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc">}}
@@ -49,7 +49,7 @@ heroLinks = [
 
 </p>
 
-{{< link-card title="モバイルデバイスで日報を書く" description="コラム記事" href="/tips/mobile-device/">}}
+{{< link-card title="モバイルデバイス活用" description="写真などスマホの特徴を使った活用術" href="/tips/mobile-device/">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -73,7 +73,7 @@ PC苦手な方の鬼門「名前をつけて保存」も有りません。
 
 </p>
 
-{{< link-card title="レポートを書く流れ"  description="操作ガイド" href="/docs/manual/write-report/write/">}}
+{{< link-card title="レポートを書く方法"  description="テンプレートを選んで書くだけの簡単操作" href="/docs/manual/write-report/write/">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -98,7 +98,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 
 </p>
 
-{{< link-card title="PDF出力"  description="操作ガイド" href="/docs/manual/read-report/state/#pdf_export">}}
+{{< link-card title="PDF出力"  description="レイアウトの設定や縦横の指定もOK" href="/docs/manual/read-report/state/#pdf_export">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -123,7 +123,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 
 </p>
 
-{{< link-card title="シフト管理"  description="操作ガイド"  href="/docs/manual/utils/shift/">}}
+{{< link-card title="シフト管理"  description="提出状況表と組み合わせて更に便利に"  href="/docs/manual/utils/shift/">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -178,7 +178,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 例では2層ですが、更につなげて行くことも可能です。（例えば地域・支店・担当者 のように）
 
 </p>
-{{< link-card title="動的変化について"  description="操作ガイド"  href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select">}}
+{{< link-card title="動的変化について"  description="ノーコードで動きのある日報を作れる"  href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -204,7 +204,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 
 </p>
 
-{{< link-card title="エクセル集計とアプリ集計" description="コラム記事"  href="/tips/analytics/">}}
+{{< link-card title="エクセル集計とアプリ集計" description="エクセルを使った集計テクニックをご紹介"  href="/tips/analytics/">}}
 
 </div>
 <div class="col-lg-9  overflow-hidden">
@@ -233,7 +233,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 
 </p>
 
-{{< link-card title="ご利用料金"  description="無料版あり" href="/docs/price/_about/">}}
+{{< link-card title="ご利用料金"  description="業界最安値を目指します！安価で多機能" href="/docs/price/_about/">}}
 
 </div>
 </div>

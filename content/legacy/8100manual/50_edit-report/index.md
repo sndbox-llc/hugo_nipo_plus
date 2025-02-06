@@ -11,9 +11,7 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/write-report/rewrite/)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/write-report/rewrite/)です" icon="outline/note" />}}
 
 ## 自分が書いた日報を削除する{#remove}
 

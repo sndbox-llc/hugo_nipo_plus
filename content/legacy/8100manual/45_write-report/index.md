@@ -11,9 +11,7 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/write-report/write/)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/write-report/write/)です" icon="outline/note" />}}
 
 ## たったの3ステップで日報が書けます{#howto}
 

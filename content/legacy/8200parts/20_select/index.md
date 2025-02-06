@@ -13,9 +13,7 @@ isNipo = true
 
 ## 選択肢入力フォーム（単体）{#single}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#plain)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#plain)です" icon="outline/note" />}}
 
 あらかじめ回答を用意しておき、日報作成時に該当するものを１つだけ選ぶことで入力できます。回答を画面にすべて表示する「ラジオ式」と、回答を１つのボックスにまとめて、プルダウンで入力する「セレクト式」があります。上図のケースでは、左の列が「ラジオ式」で右の列が「セレクト式」になります。
 選択肢は無料プランで5こまで、有料プランでは50こまで作成できます。足りない場合は2つに分けるなどして対応してください。
@@ -75,9 +73,7 @@ apple, banana, apple, banana, banana, -
 
 ## 選択肢入力フォーム（複数回答）{#multiselect}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#multiple)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#multiple)です" icon="outline/note" />}}
 
 回答をいくつか用意しておき、その中から複数選択することで回答できます。入力時の表示方式は、選択肢をすべて画面に表示する「チェックボックス式」と、選択肢をプルダウンから選ぶ「セレクト式」が選べます。上図のケースでは、左列が「チェックボックス式」で右列が「セレクト式」になります。
 選択肢は無料プランで5こまで、有料プランでは50こまで作成できます。足りない場合は2つに分けるなどして対応してください。
@@ -119,9 +115,7 @@ apple, banana, apple, banana, banana, -
 
 ## チェックボックス入力フォーム{#checkbox}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#checkbox)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/selects/#checkbox)です" icon="outline/note" />}}
 
 チェックボックスは **「はい・いいえ」の回答が簡単**にできるシンプルな項目です。見た目もわかりやすく、誰でも簡単に操作できます。
 入力必須の指定がされた場合、チェックがONになっていないと、提出ができません。（入力必須の設定については後述）

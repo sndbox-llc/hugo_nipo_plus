@@ -35,18 +35,14 @@ isNipo = true
 3. Passwordを入力（ログイン時に使用します）
 4. **登録**ボタンをクリック
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-E-mailは受信できるアドレスを指定して下さい。パスワードを忘れたときに必要になります
-{{< /callout >}}
+{{< callout context="note" title="mailは受信できるアドレスを指定して下さい。パスワードを忘れたときに必要になります" icon="outline/info-circle" />}}
 
 登録ボタンをクリックするとアカウントが作成され、自動でログインが開始されます。次回以降にNipo【旧版】を起動するときも自動ログインが有効になります。
 さて、自動ログイン後に**システム利用規約**が表示されます。規約に同意の上、**同意する**ボタンをクリックしてください。
 
 ### メールアドレスを確認する{#verify}
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-この手順は後回しでもOKです
-{{< /callout >}}
+{{< callout context="note" title="この手順は後回しでもOKです" icon="outline/info-circle" />}}
 
 アカウント作成時に入力したE-mailが正しく受信できるかを確認することを**メールアドレスの確認**といいます。メールアドレスの確認が完了すると
 画面上部に表示される確認のバナーが消えます。

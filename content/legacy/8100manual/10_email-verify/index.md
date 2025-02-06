@@ -38,7 +38,7 @@ Nipo メールアドレスの確認<br>
 
 メールアドレスを確認するには、次のリンクをクリックしてください。
 
-https://nipo-77c25.firebaseapp.com/__auth/action?mode=verifyEmail&oobCode=6BQFVJbWcug&apiKey=AlzaSyCOpbwJGcoYkU7J279Fw8qCmLhgz2xy6x0&lang=ja
+https://nipo-77c25.firebaseapp.com/__auth/【省略】
 
 このアドレスの確認を依頼していない場合は、このメールを無視してください。<br>
 よろしくお願いいたします。<br>
@@ -49,9 +49,7 @@ Nipo チーム
 受信したメールを開き、メール文面にある確認用リンクをクリックすることでメールアドレスの確認は完了です。
 もしも確認メールが届かない場合は、そもそもメールアドレスが間違えていないか？また、迷惑メールフォルダに割り振られていたり、フィルタリングで自動削除されていないことを確認してください。
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-特にフィルタリングは無言で削除される場合もあるので注意です！
-{{< /callout >}}
+{{< callout context="note" title="特にフィルタリングは無言で削除される場合もあるので注意です！" icon="outline/info-circle" />}}
 
 ## メールアドレスの確認が済んでいない場合{#pre}
 

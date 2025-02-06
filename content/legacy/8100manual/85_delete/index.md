@@ -11,9 +11,7 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/read-report/removereport/#batch_remove)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/read-report/removereport/#batch_remove)です" icon="outline/note" />}}
 
 ## 不要な日報を一括で削除する機能{#about}
 

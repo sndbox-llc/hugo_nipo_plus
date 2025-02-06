@@ -12,9 +12,7 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/timecard/input/)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/timecard/input/)です" icon="outline/note" />}}
 
 ## タイムカード機能とは{#about}
 

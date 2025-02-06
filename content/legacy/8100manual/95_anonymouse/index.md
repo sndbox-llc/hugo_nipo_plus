@@ -12,9 +12,7 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/utils/tokumei/)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/utils/tokumei/)です" icon="outline/note" />}}
 
 匿名アカウントはE-mail・パスワードの設定をしないアカウントです。ワンクリックでアカウントが作成され、すぐに利用ができます。
 

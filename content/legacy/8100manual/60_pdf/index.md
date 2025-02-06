@@ -11,9 +11,7 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/read-report/state/#pdf_export)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/read-report/state/#pdf_export)です" icon="outline/note" />}}
 
 ## 日報をかんたんにPDFへ変換できます。スマホからも操作可能{#pdf}
 

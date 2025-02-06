@@ -13,9 +13,7 @@ isNipo = true
 
 ## 署名入力フォーム{#signetureCanvas}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#sign)。NipoPlusでは署名とイラストは同じフォームに合併しました
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#sign)。NipoPlusでは署名とイラストは同じフォームに合併しました" icon="outline/note" />}}
 
 署名（サイン）に特化したパーツです。手描きメモを署名代わりに使うのであればこちらのパーツを使う方が良いでしょう。
 手描きメモと非常に似ていますが以下の点により手描きメモとは分けて考えられます。
@@ -38,9 +36,7 @@ isNipo = true
 
 ## イラスト入力フォーム{#display}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#sign)。NipoPlusでは署名とイラストは同じフォームに合併しました
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#sign)。NipoPlusでは署名とイラストは同じフォームに合併しました" icon="outline/note" />}}
 
 iPadやSurfaceのような**タッチパネルが使える**場合に便利な入力項目です。指でスラスラとイラストや文字が描けます。また、Apple PencilやSurface Penも利用できます。図・イラストを日報に付与したい場合におすすめです。
 また、いちいちキーボードを使っていられない煩雑な状況でササッとペンで描いて提出するという使い方もできます。描いたイラストは、ご利用のデバイスによってサイズが自動で変わります。
@@ -59,9 +55,7 @@ iPadやSurfaceのような**タッチパネルが使える**場合に便利な�
 
 ## 写真{#pictures}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#picture)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/binarys/#picture)です" icon="outline/note" />}}
 
 タブレットやスマートフォンで撮影した画像を添付したり、PCに保存されている画像データを添付したりできます。対応ファイルはJpeg・Pngになります。
 画像をNipo【旧版】のサーバにアップする前に、画像の圧縮処理が行われ通信量を削減しています。圧縮されると、画像の容量はおおよそ１００KB程度になります。

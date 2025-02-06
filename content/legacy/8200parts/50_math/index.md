@@ -13,9 +13,7 @@ isNipo = true
 
 ## シンプルな数値入力{#plain}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#commonNumber)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#commonNumber)です" icon="outline/note" />}}
 
 数値項目はその名の通り**数値のみ入力が可能**です。（整数・負数・小数点が指定可能です）この項目の特徴は、集計され、グラフ化の対象となることです。
 数値の範囲が限定的であれば、数値ではなく[スライダー](/legacy/parts/math/#slider)の利用を検討してください。
@@ -59,9 +57,7 @@ sample（円）, test（Km）, mock（個）, dummy（ドル）, コメント
 
 ## スライダ入力フォーム{#slider}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#slider)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#slider)です" icon="outline/note" />}}
 
 スライダーを左右にスワイプして数値の入力ができます。スライダーの最小値と最大値、そして刻みを指定します。
 スライダーの左端が最小値、右端が最大値です。スライダー上に表示された・（中黒）が、刻みを表しています。刻みの単位でスライダーが止まります。例えば刻みが5であれば、0, 5, 10, 15 , 20のように、5刻みで入力ができます。6や7など、刻みの倍数以外の数値は入力できません。
@@ -115,9 +111,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## ★★☆☆レート入力{#rating}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#rate)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#rate)です" icon="outline/note" />}}
 
 オンラインショップなどでよく見かける、商品レビュー風の入力形式です。一般的には５段階評価ですが、Nipo【旧版】は**2〜10**の間で設定可能です。
 クリック１つで入力でき、見た目もグラフィカルでわかりやすいパーツです。
@@ -159,9 +153,7 @@ CSV出力時は次のように表示されます。
 
 ## 範囲入力{#range}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#range)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/digital/#range)です" icon="outline/note" />}}
 
 数値の範囲入力パーツです。最小値と最大値を設定します。スライダーの左端が最小値、スライダーの右端が最大値になります。1つのスライダーには2つのハンドルが用意され、特定の範囲をスライダーで入力することが可能です。
 スライダー（刻み）と異なり、本パーツで入力されたデータは集計されません。CSV出力でエクセルに書き出した場合、「1〜5」のように文字として入力されます。

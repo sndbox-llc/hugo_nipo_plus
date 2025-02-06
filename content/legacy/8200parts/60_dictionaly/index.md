@@ -13,9 +13,7 @@ isNipo = true
 
 ## 語録入力{#dictionaly}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/advanced-setting/goroku/)。
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/advanced-setting/goroku/)です" icon="outline/note" />}}
 
 語録は**語録集**という大きな単位と、その語録集の中に登録される実際の値である**語録**から構成されます。例えば「顧客リスト」という語録集の中に、
 
@@ -164,9 +162,7 @@ Nipo【旧版】の受信・送信BOXからは次のように表示されます
 
 ## タイムカード入力{#timecard}
 
-{{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-[後続のNipoPlusでも利用可能](/docs/manual/timecard/input/)。NipoPlusのタイムカードは日報から完全に独立して単独使用が可能になりました
-{{< /callout >}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/timecard/input/)。NipoPlusのタイムカードは日報から完全に独立して単独使用が可能になりました" icon="outline/note" />}}
 
 タイムカードは出退勤時間の入力に特化したパーツです。時刻パーツを2つ並べるよりもシンプルで使いやすいパーツです。
 他のパーツと異なり、タイムカードは1つのテンプレートに付き1つまでしか設定できません。

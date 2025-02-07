@@ -5,7 +5,7 @@ menuTitle = "点検チェックシートアプリ"
 description = "タブレットやスマホで機器点検を楽々に。大きい文字で年配の方も安心。チェック項目は自由に設計OK。初めてのDXを始めよう"
 toc = false
 showPrice = true
-heroTitle = "チェックシートアプリ"
+heroTitle = "チェックシートを電子化しよう"
 heroSubTitle = "製造業の設備点検や品質チェックに"
 heroText = "NipoPlusは日報アプリとして開発されましたが、カスタマイズ性の高さから自動車部品メーカー、鉄鋼業など、様々な製造業の方々にも目をつけていただきました。何度かの改良を経て製造業の設備点検・製品の品質チェックシートとしても十分利用可能と好評をいただきました。<br>ベースが日報アプリのため料金も他の製造業向けアプリに比べてずっと安価でご提供可能です。"
 heroLinks = [
@@ -36,6 +36,43 @@ heroLinks = [
 </div>
 </div>
 <!-- ▲ DX -->
+
+<!-- ▼ チェックシート -->
+<div class="container my-5" id="dx_equip_inspection">
+<div class="row rounded-3 border shadow-lg">
+<div class="col-lg-7">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">様々なチェックシートを設計しよう</h2>
+<p class="lead">
+
+チェックシートは予めチェックするべき項目を一覧に並べたテンプレート（チェックシート）に沿って設備の点検や製品の点検を行う際に使用します。  
+テンプレートの作り方１つで、様々なチェックシートになります。
+
+- 製品チェックシート（製品の検品用）
+- 天井クレーン点検シート（設備点検用）
+- 施錠巡回チェックリスト（施設の点検）
+- 5Sチェックシート（人のチェック用）
+
+特に[選択式入力フォーム](/docs/manual/initial-setting/template/selects/)はチェックシートと相性抜群です。タップ操作だけで入力できるのでタブレットやスマホからも簡単にチェックシート入力が可能です。
+
+</p>
+{{< link-card title="動的変化について"  description=""  href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select">}}
+
+</div>
+<div class="col-lg-9  overflow-hidden">
+
+{{<icatch filename="img/select" msg="プログラマが居なくても自分で作れちゃうよ" alice="pc">}}
+
+</div>
+<div class="col-lg-16  overflow-hidden">
+
+ちょっと工夫をすれば他の設問に応じて選択肢の内容を変化させるような動的変化も可能。余分な選択肢を隠せるのでチェックシート入力者の負担軽減にも繋がります。
+
+</div>
+
+</div>
+</div>
+
+<!-- ▲ チェックシート -->
 
 <!-- ▼ MainFunction -->
 <div class="container my-5" id="support_functions">

@@ -28,7 +28,7 @@ heroLinks = [
 </p>
 {{< link-card title="テンプレートの作り方" description="" href="/docs/manual/initial-setting/template/make/">}}
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 {{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc">}}
 </div>
 </div>
@@ -52,7 +52,7 @@ heroLinks = [
 {{< link-card title="モバイルデバイス活用" description="写真などスマホの特徴を使った活用術" href="/tips/mobile-device/">}}
 
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 {{<icatch filename="read-report" msg="スマホもタブレットもPCも全部OK"  alice="tablet">}}
 </div>
 </div>
@@ -76,7 +76,7 @@ PC苦手な方の鬼門「名前をつけて保存」も有りません。
 {{< link-card title="レポートを書く方法"  description="テンプレートを選んで書くだけの簡単操作" href="/docs/manual/write-report/write/">}}
 
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 
 {{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet">}}
 
@@ -101,7 +101,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 {{< link-card title="PDF出力"  description="レイアウトの設定や縦横の指定もOK" href="/docs/manual/read-report/state/#pdf_export">}}
 
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 
 {{<iTablet filename="pdf-yoko" msg="日報やチェックシートなどのデータを簡単にPDFに変換してダウンロードできます"  alice="ok">}}
 
@@ -126,7 +126,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 {{< link-card title="シフト管理"  description="提出状況表と組み合わせて更に便利に"  href="/docs/manual/utils/shift/">}}
 
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 
 {{<icatch filename="report-list" msg="提出状況を見れば提出漏れも一目でわかります。欠勤フラグも使えば更に便利に"  alice="here">}}
 
@@ -181,7 +181,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 {{< link-card title="動的変化について"  description="ノーコードで動きのある日報を作れる"  href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select">}}
 
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 
 {{<icatch filename="dinamic-selection" msg="プログラマが居なくても自分で作れちゃうよ" alice="pc">}}
 
@@ -207,7 +207,7 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 {{< link-card title="エクセル集計とアプリ集計" description="エクセルを使った集計テクニックをご紹介"  href="/tips/analytics/">}}
 
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 
 {{<icatch filename="make-charts" msg="エクセルが無くても！積み上げ縦棒&折れ線の複合グラフくらいは作成できるよ" alice="pc">}}
 

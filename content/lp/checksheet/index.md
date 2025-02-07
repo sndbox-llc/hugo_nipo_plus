@@ -65,7 +65,7 @@ NipoPlusでチェックシートを作るには、テンプレートを編集し
 </p>
 {{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/">}}
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 {{<icatch filename="img/checksheet" msg="これはバルブ設備点検シートの例です。簡単に作れるよ"  alice="tablet">}}
 </div>
 </div>
@@ -87,7 +87,7 @@ NipoPlusでチェックシートを作るには、テンプレートを編集し
 
 </p>
 </div>
-<div class="col-lg-9 overflow-hidden">
+<div class="col-lg-9">
 {{<icatch filename="img/uservility" msg="様々な機能で点検者をサポートします" alice="ok">}}
 </div>
 <div class="col-lg-8">
@@ -125,7 +125,7 @@ NipoPlusでチェックシートを作るには、テンプレートを編集し
 </p>
 {{< link-card title="日報アプリ" description="" href="/">}}
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 {{<icatch filename="img/seihin" msg="生産品の品質チェックとしても使えます"  alice="ok">}}
 </div>
 </div>
@@ -147,7 +147,7 @@ NipoPlusでチェックシートを作るには、テンプレートを編集し
 
 </p>
 </div>
-<div class="col-lg-9  overflow-hidden">
+<div class="col-lg-9">
 
 {{<iTablet filename="img/chart" msg="点検結果の推移をグラフで表示した例だよ" alice="pc">}}
 
@@ -208,7 +208,7 @@ NipoPlusはマルチデバイス対応です。
 </p>
 
 </div>
-<div class="col-lg-9 overflow-hidden">
+<div class="col-lg-9">
 
 {{<figure src="img/factory-usage.webp"  alt="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）" caption="実際にNipoPlusを工場で使っていただいている写真をお客様から提供いただきました。画面は一部ぼかしています（掲載許諾済）">}}
 

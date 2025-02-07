@@ -17,6 +17,36 @@ heroLinks = [
   priority = 1.0
 +++
 
+<!-- ▼ チェックシート -->
+<div class="container my-5" id="dx_equip_inspection">
+<div class="row rounded-3 border shadow-lg">
+<div class="col-lg-16">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">そもそもチェックシートって何？</h2>
+<p class="lead">
+
+一言に「チェックシート」といいますが様々なチェックシートが存在しています。「持ち物チェックシート」や「買い物チェックリスト」など日常生活で使うものから、設備点検のチェックシートまで多岐にわたります。  
+このページは製造業向けの、仕事で使用するチェックシートを指しています。例えば次のようなチェックシートをイメージして下さい。
+
+- 製品チェックシート（製品の検品用）
+- 天井クレーン点検シート（設備点検用）
+- 施錠巡回チェックリスト（施設の点検）
+- 5Sチェックシート（人のチェック用）
+
+これらに共通していることは、「テンプレート」という土台があり、それに沿ってチェック（該当項目にレ点を入れる）していくという点です。紙のチェックシートであれば、バインダーにテンプレートを挟み、ペンでレ点を書き込んでいきます。  
+こういったチェックシートをタブレットやスマホで行うことができるようになります。  
+電子化すると結構たくさんのメリットがあります。紙の節約や保管場所の節約、他にも集計やグラフ化など、チェックシートの集計分析も簡単にできます。
+
+NipoPlusでチェックシートを作るには、テンプレートを編集して行います。テンプレートには様々な入力フォームを並べることで作成しますが、特に[選択式入力フォーム](/docs/manual/initial-setting/template/selects/)はチェックシートと相性抜群です。  
+紙のチェックシートと近い見た目を持っていますし、タップ操作だけで入力できるのでタブレットやスマホからも簡単にチェックシート入力が可能です。
+
+</p>
+
+</div>
+</div>
+</div>
+
+<!-- ▲ チェックシート -->
+
 <!-- ▼ DX -->
 <div class="container my-5" id="dx_equip_inspection">
 <div class="row rounded-3 border shadow-lg">
@@ -36,43 +66,6 @@ heroLinks = [
 </div>
 </div>
 <!-- ▲ DX -->
-
-<!-- ▼ チェックシート -->
-<div class="container my-5" id="dx_equip_inspection">
-<div class="row rounded-3 border shadow-lg">
-<div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">様々なチェックシートを設計しよう</h2>
-<p class="lead">
-
-チェックシートは予めチェックするべき項目を一覧に並べたテンプレート（チェックシート）に沿って設備の点検や製品の点検を行う際に使用します。  
-テンプレートの作り方１つで、様々なチェックシートになります。
-
-- 製品チェックシート（製品の検品用）
-- 天井クレーン点検シート（設備点検用）
-- 施錠巡回チェックリスト（施設の点検）
-- 5Sチェックシート（人のチェック用）
-
-特に[選択式入力フォーム](/docs/manual/initial-setting/template/selects/)はチェックシートと相性抜群です。タップ操作だけで入力できるのでタブレットやスマホからも簡単にチェックシート入力が可能です。
-
-</p>
-{{< link-card title="動的変化について"  description=""  href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select">}}
-
-</div>
-<div class="col-lg-9  overflow-hidden">
-
-{{<icatch filename="img/select" msg="プログラマが居なくても自分で作れちゃうよ" alice="pc">}}
-
-</div>
-<div class="col-lg-16  overflow-hidden">
-
-ちょっと工夫をすれば他の設問に応じて選択肢の内容を変化させるような動的変化も可能。余分な選択肢を隠せるのでチェックシート入力者の負担軽減にも繋がります。
-
-</div>
-
-</div>
-</div>
-
-<!-- ▲ チェックシート -->
 
 <!-- ▼ MainFunction -->
 <div class="container my-5" id="support_functions">

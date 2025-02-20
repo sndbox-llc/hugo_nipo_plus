@@ -18,7 +18,7 @@ contributors = []
 
 ## 手順1:NipoPlusを起動する{#start}
 
-最初はできればPCで起動してください。初期設定関係は画面の小さいスマートフォンだと操作性が低下します。
+初期設定関係は画面の小さいスマートフォンだと操作性が低下しますのでPCをご利用下さい。
 起動するには画面右上の「<a  href="https://nipoplus.sndbox.jp/" target="_blank">起動</a>」ボタンをクリックします
 
 {{<nextArrow>}}

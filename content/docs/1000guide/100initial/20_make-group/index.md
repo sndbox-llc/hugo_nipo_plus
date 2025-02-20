@@ -51,7 +51,13 @@ contributors = []
 {{<icatch filename="img/assign-staff2" msg="グループに所属するスタッフを選択しましょう。✅の入ったスタッフは所属済みです">}}
 
 グループの中で様々な設定を行う必要が出てきますが、グループの設定ができるのは[編集者権限](/docs/manual/initial-setting/staff/rank/)以上の権限が必要になります。
-そのためグループには少なくとも１名以上、編集者か管理者を所属させてください。編集者以上のスタッフは<span style="color:orange;font-weight:bold">オレンジ色で表示</span>されます。
+
+{{< callout context="caution" title="編集者権限以上のスタッフを追加しておく" icon="outline/info-triangle" >}}
+
+グループの初期設定には編集者権限以上が必要のため、編集者権限以上のスタッフを１名以上追加しておいて下さい。
+編集者以上のスタッフは<span style="color:orange;font-weight:bold">オレンジ色で表示</span>されます。
+
+{{</callout>}}
 
 ## グループの設定を行う{#group_setting}
 

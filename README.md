@@ -38,3 +38,11 @@ hugo server -D
 ```sh
 killall -9 hugo
 ```
+
+## callout
+
+お知らせ
+{{< callout context="note" title="データも引き継ぎ可能" icon="outline/info-circle" />}}
+
+注意
+{{< callout context="caution" title="予期せぬログアウトに注意" icon="outline/info-triangle" >}}

@@ -63,15 +63,19 @@ E-mailとパスワードの組み合わせが正しくない場合はログイ�
 
 ## ログアウトする{#signout}
 
-NipoPlusは手動でログアウトしない限りはログイン状態を維持します。
+{{< callout context="note" title="[関連ページ](/reverse-lookup/account/signout)" icon="outline/info-circle" />}}
 
-**公共のPC（ネットカフェや図書館など）からNipoPlusにアクセスした場合は、必ず手動でログアウトを行ってください。**
+{{< callout context="caution" title="公共PCからはログアウトを忘れずに" icon="outline/info-triangle" >}}
+公共のPC（ネットカフェや図書館など）からNipoPlusにアクセスした場合は、必ず手動でログアウトを行ってください
+{{< /callout >}}
+
+NipoPlusは手動でログアウトしない限りはログイン状態を維持します。
 他人にアクセスされるリスクを避けるため、セキュリティ対策を徹底しましょう。
 
 1. メニューから「アカウント」をクリック
-1. ログアウトボタンをクリック
+2. ログアウトボタンをクリック
 
-{{<icatch filename="img/signout" msg="ご利用中の端末からログアウトするにはアカウント＞ログアウトの順にクリックします">}}
+{{<icatch filename="img/signout" msg="ログアウトするにはアカウント＞ログアウトの順にクリック!" alice="here">}}
 
 複数の端末でログインしている場合、1つの端末でログアウトしても他の端末ではログイン状態が維持され続けます。
 すべての端末からログアウトする専用の機能は有りませんがもし全ての端末から強制的にログアウトさせたい場合は、[ログインメールアドレスの変更](/docs/manual/account/email/)か[ログインパスワードの変更](/docs/manual/account/email/#password)を行うことで強制的に全端末からログアウトできます。

@@ -10,7 +10,8 @@ contributors = []
 +++
 
 組織は最も上位に位置する構造体の単位です。組織の削除と退会処理は同じ意味です。
-退会を行うとNipoPlusで作成した**すべてのデータが安全に削除**されます。
+
+{{< callout context="caution" title="退会を行うとNipoPlusで作成したすべてのデータが削除されます" icon="outline/info-triangle" />}}
 
 ## 退会の手順{#leaveMethod}
 

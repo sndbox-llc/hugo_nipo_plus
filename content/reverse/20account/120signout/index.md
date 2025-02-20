@@ -10,6 +10,8 @@ tags = ["アカウント設定"]
 contributors = []
 +++
 
+{{< callout context="note" title="[関連ページ](/docs/manual/account/signin/#signout)" icon="outline/info-circle" />}}
+
 ## NipoPlusからログアウトする{#log_out}
 
 NipoPlusは一度ログインすると次回からは自動で再ログインされます。

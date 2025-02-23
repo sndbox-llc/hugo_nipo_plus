@@ -12,7 +12,7 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 <details>
   <summary>バージョン記載箇所</summary>
-{{<icatch filename="img/version" msg="画面左下にアプリのバージョンが記載されています" alice="ok">}}
+{{<icatch filename="img/update" msg="Web版は右上に更新ボタンがでてきます" alice="ok">}}
 
 </details>
 
@@ -32,13 +32,11 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
-#### {{<nipoPlusLogo 30>}} 2025/2/25 v1.69.0{#vp1_69_0}
+#### {{<nipoPlusLogo 30>}} 2025/2/24 v1.69.0{#vp1_69_0}
 
 - レポートを[アカウントが無くても作成できる外部共有機能](/docs/manual/write-report/outside/)が実装されました
 - レポートを[アカウントがなくても読める外部共有機能](/docs/manual/read-report/outside/)が実装されました
 - [日付と時刻入力フォーム](/docs/manual/initial-setting/template/date_time/)で西暦を含む日付の場合、曜日が表示されるようになりました
-
-このバージョンは2/25日リリース予定です。本執筆時点ではまだリリースされていません。
 
 #### {{<nipoPlusLogo 30>}} 2025/2/6 サーバサイドアップデート
 

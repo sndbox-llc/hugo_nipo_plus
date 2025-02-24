@@ -1,0 +1,38 @@
+
+
+/** リンクカードのショートコードをハック */
+.card-nav {
+    .card {
+        background-color: ivory; // ここで好きな色に変更
+        color: black;
+    }
+}
+/** ページ末尾ページネーション */
+.page-nav {
+    .card {
+      background-color: ivory;
+      color: black;
+    }
+}
+
+/** detailsタグの背景色を変更.mainの中のみ */
+main {
+    details {
+        background-color: #E8F5E9; // ライトモード（デフォルトの背景色）
+        transition: background-color 0.3s;
+    }
+
+    // ダークモード時のスタイル
+    html[data-bs-theme="dark"] & details {
+        background-color: #2E4B2C !important; // ダークモード時の背景色
+    }
+
+    details[open] summary {
+        background-color: rgba(0, 0, 0, 0.1); // 開いたときの背景色
+    }
+
+    // ダークモード時の開いた details のスタイル
+    html[data-bs-theme="dark"] & details[open] summary {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+}

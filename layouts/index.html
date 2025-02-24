@@ -17,7 +17,7 @@
 
 {{ define "rootHero" }}
   {{ if .Params.heroTitle }}
-  <section class="section section-sm  overflow-hidden">
+  <section class="wrap container-lg">
     <div id="myhero">
       <h2 style="margin-bottom: 0">{{ .Params.heroSubTitle | safeHTML }}</h2>
       <h1 class="headLine" style="margin-top: 0;">{{ .Params.heroTitle | safeHTML }}</h1> <!-- safeHTML を追加 -->

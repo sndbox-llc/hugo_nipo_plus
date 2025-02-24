@@ -113,8 +113,8 @@ blockquote {
 }
 
 #myhero {
-  margin: 5em 10px;
-  padding: 0 3em;
+  margin-top: 5em ;
+  margin-bottom: 5em;
   .headLine {
     animation: SlideIn 1s forwards;
     font-size: calc(1.875rem + 1.5vw);

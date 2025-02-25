@@ -40,7 +40,7 @@
   name = "技術系ブログ"
   weight = 52
   identifier = "tech"
-  url = "/tech/"
+  url = "/tech/about/about/"
   parent = "blogroot"
 [[main]]
   name = "Excel活用術"

@@ -4,6 +4,7 @@ title = "ダウンロードしたZipファイルが文字化けする原因と�
 description = "WebでダウンロードしたZipファイルの文字化けは、解凍ソフトの仕様によるものです。この記事では、特にSHIFT-JISに対応していないソフトが原因のケースについて解説し、推奨する解決策を紹介します。"
 date = "2022-11-14"
 toc = true
+weight = 10
 # images = ["zip-open.png"]
 [sitemap]
   changefreq = "yearly"

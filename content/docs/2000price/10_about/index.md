@@ -7,8 +7,8 @@ toc = true
 weight = 2010
 +++
 
-{{< callout context="caution" title="類似ページ注意" icon="outline/info-triangle" >}}
-こちらはNipoPlusの料金ページです。[旧Nipoの料金](/legacy/system/price/)と混同されないように注意してください
+{{< callout context="caution" title="こちらはNipoPlusの料金ページです" icon="outline/info-triangle" >}}
+[旧Nipoの料金](/legacy/system/price/)と混同されないように注意してください
 {{< /callout >}}
 
 NipoPlusは無料でも使い続けることが可能ですが、有料プランに加入いただくことでより快適に利用できます。
@@ -126,7 +126,7 @@ classDef class1 fill:#7BCCAC
 <dl class="faq">
 
 <dt>１年のうち半年だけ有料プランを使いたいのですが可能ですか？</dt>
-<dd>可能です。稼働のない期間は無料プランに切替えていただくことで、使用しない間のコストを抑制できます。解約忘れを防ぐため、請求書払いがおすすめです。</dd>
+<dd>可能です。稼働のない期間は無料プランに切替えていただくことで、使用しない間のコストを抑制できます。解約忘れを防ぐため、<a href="/docs/price/invoice/">請求書払い</a>がおすすめです。</dd>
 
 <dt>有料プランから無料プランへ降格してもデータは残りますか？</dt>
 <dd>はい。データは消えることなくそのまま引き続き利用が可能です</dd>

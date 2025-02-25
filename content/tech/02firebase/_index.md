@@ -1,8 +1,8 @@
 +++
 url ="/tech/about"
-title = "逆引き概要"
-description = "逆引きアーカイブ"
-date = "2024-11-28"
+title = "Firebase関連"
+description = "Firebase関連"
+date = "2025-02-25"
 weight = 2000
 toc=true
 +++

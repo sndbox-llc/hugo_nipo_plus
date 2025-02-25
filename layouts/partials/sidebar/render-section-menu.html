@@ -50,8 +50,14 @@ skipped. To override this behavior, set $skipHome to false below.
 {{- $currentPage := .currentPage }}
 {{- $nodes := .nodes }}
 
+{{- $pathParts := split $currentPage.File.Path "/" }}
+{{- $section := index $pathParts 0 }}
+
+
 {{- /* Render. */}}
 <nav class="section-nav docs-links">
+<p>セクション: {{ $section }}</p>
+
   <ul class="list-unstyled">
     {{- range $nodes }}
       {{- if and .Page.IsHome $skipHome }}

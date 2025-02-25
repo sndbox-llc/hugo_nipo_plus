@@ -37,11 +37,29 @@ main {
     }
 }
 
-
+/** 左サイドバーナビゲーションテーマカラー */
 .theme-docs {
-    background-color: skyblue;
+    background-color: #E6DFF0;
 }
 
-html[data-bs-theme="dark"]  .theme-docs {
-    background-color: darkblue;
+html[data-bs-theme="dark"] .theme-docs {
+    background-color: #3E2F4F;
+}
+
+
+.theme-legacy {
+    background-color: #DFF0E6;
+}
+
+html[data-bs-theme="dark"] .theme-legacy {
+    background-color: #2F4F3E;
+}
+
+
+.theme-tech {
+    background-color: #F0D6D6;
+}
+
+html[data-bs-theme="dark"] .theme-tech {
+    background-color: #4F2F2F;
 }

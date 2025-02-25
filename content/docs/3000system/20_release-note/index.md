@@ -40,13 +40,13 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 #### {{<nipoPlusLogo 30>}} 2025/2/6 サーバサイドアップデート
 
-- 書き込みのみ権限のスタッフも自分の書いたレポートのPDF出力ができるように修正しました
+- 書き込みのみ[権限](/docs/manual/initial-setting/staff/rank/)のスタッフも自分の書いたレポートのPDF出力ができるように修正しました
 
 #### {{<nipoPlusLogo 30>}} 2025/1/29 v1.68.0{#vp1_68_0}
 
 - [日報の引継機能](/docs/manual/write-report/relation/)が実装されました
-- 通知に「引継」の項目が追加されました
-- 数値入力フォームで文字サイズを設定値により変化するように修正しました
+- [通知](/docs/manual/utils/notice/)に「引継」の項目が追加されました
+- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)で文字サイズを設定値により変化するように修正しました
 - スタッフの単体選択を解除できるようになりました
 
 <details>

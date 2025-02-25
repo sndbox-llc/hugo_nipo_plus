@@ -3,7 +3,6 @@ url = "/docs/manual/write-report/outside/"
 title = "外部のユーザにレポートを書いてもらう"
 menuTitle = "外部のユーザに書いてもらう"
 description = "NipoPlusのアカウントを持っていない外部の利用者にもレポートを書いてもらうことが出来ます。アンケートなどの利用に最適"
-tags = ["有料プラン限定"]
 toc = true
 weight = 265
 +++

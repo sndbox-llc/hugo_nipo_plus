@@ -4,7 +4,6 @@ title = "👥複数人でレポートを書く"
 menuTitle = "👥複数人でレポートを書く"
 description = "複数人でレポートを書くことができます"
 toc = true
-tags = ["有料プラン限定"]
 weight = 260
 +++
 

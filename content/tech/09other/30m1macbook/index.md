@@ -4,7 +4,7 @@ description = "速いと噂のM1マックブックを買ってみました。プ
 title = "M1/M2 Macをプログラマが購入して実際に使った感想"
 toc = true
 date = "2022-11-14"
-weight = 30
+weight = 9030
 +++
 
 ## 新型MacBook Airを購入しました{#macbookair}

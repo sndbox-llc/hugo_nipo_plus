@@ -3,13 +3,14 @@ url = "/docs/manual/write-report/outside/"
 title = "外部のユーザにレポートを書いてもらう"
 menuTitle = "外部のユーザに書いてもらう"
 description = "NipoPlusのアカウントを持っていない外部の利用者にもレポートを書いてもらうことが出来ます。アンケートなどの利用に最適"
+tags = ["有料プラン限定"]
 toc = true
 weight = 265
 +++
 
 ## アカウントが無くてもレポートを書けます。アンケートや社外利用者に最適
 
-【この機能はGOLDPLAN限定です】
+{{< callout context="tip" title="[この機能はGOLDPLAN限定です](/docs/price/_about/#fee)" icon="outline/info-circle" />}}
 
 この機能は試作段階です。不具合があれば報告いただけると幸いです。
 

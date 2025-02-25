@@ -1,7 +1,11 @@
 {{ define "main" }}
 	<div class="row flex-xl-nowrap">
 		{{ if (in site.Params.doks.sectionNav .Section) -}}
-		<div class="col-lg-5 col-xl-4 docs-sidebar{{ if ne site.Params.doks.navbarSticky true }} docs-sidebar-top{{ end }}{{ if site.Params.doks.headerBar }} docs-sidebar-offset{{ end }} d-none d-lg-block">
+		{{- $pathParts := split .File.Path "/" }}
+		{{- $section := index $pathParts 0 }}
+
+		{{- /* 各ルートのパス先頭を取得 :docs / reverce / legacyなど。取得したパス名をクラスに当てて背景とかいじる */}}
+		<div class=" theme-{{ $section }} col-lg-5 col-xl-4 docs-sidebar{{ if ne site.Params.doks.navbarSticky true }} docs-sidebar-top{{ end }}{{ if site.Params.doks.headerBar }} docs-sidebar-offset{{ end }} d-none d-lg-block">
 			{{ partial "sidebar/section-menu.html" . }}
 		</div>
 		{{ end -}}

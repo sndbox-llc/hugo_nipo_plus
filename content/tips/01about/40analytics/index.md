@@ -6,6 +6,8 @@ toc = true
 date = "2023-06-15"
 tags = ["集計"]
 weight = 1040
+contributors = []
+
 [sitemap]
   priority = 0.9
 +++

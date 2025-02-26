@@ -4,7 +4,7 @@ title = "組織を削除する(退会)"
 menuTitle ="☔退会する"
 description = "退会に伴いすべてのデータを安全に削除します"
 toc = true
-weight = 1210
+weight = 2990
 tags = ["データ削除", "管理者権限"]
 contributors = []
 +++

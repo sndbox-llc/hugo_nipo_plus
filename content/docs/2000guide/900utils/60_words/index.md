@@ -4,7 +4,7 @@ title = "用語集"
 menuTitle = "用語集"
 description = "NipoPlusで使われる用語リスト"
 toc = false
-weight = 1250
+weight = 2960
 draft = true
 +++
 

@@ -3,7 +3,7 @@ url = "/docs/manual/utils/shift/"
 title = "🗓️シフト管理"
 description = "シフト管理機能"
 toc = true
-weight = 1240
+weight = 2940
 tags = ["編集者権限"]
 contributors = []
 +++

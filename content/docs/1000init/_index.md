@@ -6,6 +6,8 @@ weight = 1
 
 [seo]
 title = "NipoPlusの操作マニュアル[セクション]"
+[sidebar]
+collapsed = true
 
 [sitemap]
   changefreq = "monthly"

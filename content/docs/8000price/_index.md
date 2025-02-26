@@ -5,6 +5,9 @@ description = ""
 weight = 8000
 toc = true
 
+[sidebar]
+collapsed = true
+
 [seo]
 title = "NipoPlusのご利用料金[セクション]"
 

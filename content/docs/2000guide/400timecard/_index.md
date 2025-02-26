@@ -2,7 +2,7 @@
 url = "/docs/manual/timecard/"
 title = "タイムカード"
 description = ""
-weight = 800
+weight = 2400
 toc = true
 
 [sidebar]

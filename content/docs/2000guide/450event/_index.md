@@ -2,7 +2,7 @@
 url = "/docs/manual/event/"
 title = "予定管理"
 description = ""
-weight = 900
+weight = 2450
 toc = true
 
 [sidebar]

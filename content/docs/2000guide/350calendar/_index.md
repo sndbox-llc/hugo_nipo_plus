@@ -2,7 +2,7 @@
 url = "/docs/manual/calendar/"
 title = "カレンダー"
 description = ""
-weight = 700
+weight = 2350
 toc = true
 
 [sidebar]

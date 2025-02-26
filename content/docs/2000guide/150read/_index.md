@@ -2,7 +2,7 @@
 url = "/docs/manual/read-report/"
 title = "レポートを読む"
 description = ""
-weight = 300
+weight = 2150
 toc = true
 
 [sidebar]

@@ -2,7 +2,7 @@
 url = "/docs/manual/anken/"
 title = "案件"
 description = ""
-weight = 610
+weight = 2300
 toc = true
 
 [sidebar]

@@ -2,7 +2,7 @@
 url = "/docs/manual/pdf/"
 title = "PDF出力"
 description = ""
-weight = 500
+weight = 2250
 toc = true
 
 [sidebar]

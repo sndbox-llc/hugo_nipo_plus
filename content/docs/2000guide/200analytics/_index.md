@@ -2,7 +2,7 @@
 url = "/docs/manual/analytics/"
 title = "集計・グラフ作成"
 description = ""
-weight = 400
+weight = 2200
 toc = true
 
 [sidebar]

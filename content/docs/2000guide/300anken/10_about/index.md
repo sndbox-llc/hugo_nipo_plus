@@ -4,7 +4,7 @@ title = "案件概要"
 menuTitle = "ℹ️概要"
 description = "NipoPlusの案件管理機能について、建築業を例にして案件ごとのレポート管理や集計方法を解説。案件の登録手順、レポートとの紐づけ、案件の進捗確認、比較分析方法を学び、効果的に案件を管理するためのガイドです。案件ごとの集計や状態管理のポイントも紹介します。"
 toc = true
-weight = 600
+weight = 2310
 +++
 
 {{< callout context="note" title="案件がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

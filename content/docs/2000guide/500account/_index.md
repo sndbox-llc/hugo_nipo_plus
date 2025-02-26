@@ -2,7 +2,7 @@
 url = "/docs/manual/account/"
 title = "アカウント"
 description = ""
-weight = 1000
+weight = 2500
 toc = true
 
 [sidebar]

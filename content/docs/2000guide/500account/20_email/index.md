@@ -4,7 +4,7 @@ title = "Email・パスワードの変更"
 menuTitle = "📨Email・🔑パスワードの変更"
 description = "ログインに使用するE-mailおよびパスワードの変更手順を詳しく解説しています。アカウントのセキュリティを強化するための手続きや、パスワードを忘れた際の対処法も紹介しています"
 toc = true
-weight = 1020
+weight = 2520
 
 [seo]
 title = ""

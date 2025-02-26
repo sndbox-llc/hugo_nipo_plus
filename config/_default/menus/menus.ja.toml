@@ -23,7 +23,7 @@
   weight = 40
 [[main]]
   name = "💡活用例"
-  url = "/tips/"
+  url = "/tips/about/about/"
   weight = 45
 [[main]]
   name = "その他"

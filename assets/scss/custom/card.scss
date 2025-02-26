@@ -56,10 +56,37 @@ html[data-bs-theme="dark"] .theme-legacy {
 }
 
 
+.theme-excel {
+    background-color: #DFF0E6;
+}
+
+html[data-bs-theme="dark"] .theme-excel {
+    background-color: #2F4F3E;
+}
+
+
 .theme-tech {
     background-color: #F0D6D6;
 }
 
 html[data-bs-theme="dark"] .theme-tech {
     background-color: #4F2F2F;
+}
+
+
+.theme-tips {
+    background-color: #D6E6F0;
+}
+
+html[data-bs-theme="dark"] .theme-tips {
+    background-color: #2F3E4F;
+}
+
+
+.theme-reverse {
+    background-color: #F0E6D6;
+}
+
+html[data-bs-theme="dark"] .theme-reverse {
+    background-color: #4F3E2F;
 }

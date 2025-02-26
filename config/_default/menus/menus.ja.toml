@@ -46,7 +46,7 @@
   name = "Excel活用術"
   weight = 48
   identifier = "excel"
-  url = "/excel/"
+  url = "/excel/about/about/"
   parent = "blogroot"
 
 [[footer]]

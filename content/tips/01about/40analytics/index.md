@@ -5,8 +5,7 @@ description = "現場の日報を簡単に集計。エクセルでの手動集�
 toc = true
 date = "2023-06-15"
 tags = ["集計"]
-contributors = []
-
+weight = 1040
 [sitemap]
   priority = 0.9
 +++

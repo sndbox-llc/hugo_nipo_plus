@@ -1,11 +1,11 @@
 +++
 url = "/tips/usecase/"
 title = "幅広い業種で使えるカスタマイズ可能な帳票入力アプリ・実際の使用例を紹介"
-menuTitle = "ユースケース"
+menuTitle = "実際にNipoPlusを使っている方々"
 description = "NipoPlusは警備会社、製造業、自動車部品メーカーなど、さまざまな業種で活用されています。自分たちで作れるテンプレートで効率化を実現し、顧客との情報共有や保守点検にも対応。NipoPlusの具体的な導入事例をリアルにご紹介します。"
 toc = true
 date = "2024-09-30"
-
+weight = 1035
 [sitemap]
   priority = 0.9
 +++

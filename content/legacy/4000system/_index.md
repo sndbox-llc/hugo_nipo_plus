@@ -5,6 +5,9 @@ menuTitle = "Nipoシステム概要"
 description = "旧バージョンNipoのシステム概要についてまとめたセクションページです。利用規約やプライバシーポリシーなどの情報をまとめています。"
 weight = 4000
 
+[sidebar]
+collapsed = true
+
 [seo]
 title = "Nipo(旧)システム概要[セクション]"
 

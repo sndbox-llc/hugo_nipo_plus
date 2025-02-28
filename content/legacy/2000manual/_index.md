@@ -5,6 +5,9 @@ description = ""
 weight = 8100
 toc = true
 
+[sidebar]
+collapsed = true
+
 [seo]
 title = ""
 description = ""

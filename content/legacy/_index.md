@@ -1,7 +1,7 @@
 +++
 url = "/legacy/"
-title = "旧バージョンNipo操作ガイド"
-menuTitle = "旧バージョンNipo操作ガイド"
+title = "旧Nipo"
+menuTitle = "旧Nipo操作ガイド"
 description = ""
 weight = 1
 toc = true

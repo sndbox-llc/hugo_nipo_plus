@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/_about/"
+# aliases = []
 title = "組織とグループの意味"
 menuTitle = "組織とグループ"
 description = "NipoPlusにおける組織とグループの基本構造と役割を具体的に解説。組織内でどのようにグループを作成し、スタッフを管理するか、またレポートのやり取りがグループ単位で行われる仕組みについて学びます。小規模組織でのグループ分けのメリットや、管理者によるアクセス権限の設定方法も紹介します。"
@@ -7,10 +8,6 @@ toc = true
 weight = 10200
 tags = []
 contributors = []
-
-[seo]
-title = "組織とグループの意味"
-
 +++
 
 ## 用語解説{#words}

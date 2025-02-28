@@ -5,6 +5,9 @@ description = ""
 weight = 1000
 toc = true
 
+[sidebar]
+collapsed = true
+
 [seo]
 title = "Nipo（旧）概要[セクション]"
 

@@ -38,7 +38,7 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 - レポートを[アカウントがなくても読める外部共有機能](/docs/manual/read-report/outside/)が実装されました
 - [日付と時刻入力フォーム](/docs/manual/initial-setting/template/date_time/)で西暦を含む日付の場合、曜日が表示されるようになりました
 
-#### {{<nipoPlusLogo 30>}} 2025/2/6 サーバサイドアップデート
+#### {{<nipoPlusLogo 30>}} 2025/2/6 サーバサイドアップデート{#server20250206}
 
 - 書き込みのみ[権限](/docs/manual/initial-setting/staff/rank/)のスタッフも自分の書いたレポートのPDF出力ができるように修正しました
 

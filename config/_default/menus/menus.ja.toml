@@ -55,7 +55,19 @@
   weight = 20
 
 
-# [[sidebar_docs]]
-#   name = "Guides"
-#   pageRef = "/docs"
-#   weight = 10
+[[sidebar_tips]]
+  name = "活用術Tips"
+  pageRef = "/tips"
+  weight = 10
+
+
+[[sidebar_test]]
+  name = "あいうえお"
+  pageRef = "/test"
+  weight = 10
+
+
+[[sidebar_test]]
+  name = "かきくけこ"
+  pageRef = "/docs"
+  weight = 13

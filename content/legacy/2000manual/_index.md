@@ -2,7 +2,7 @@
 url = "/legacy/manual/"
 title = "Nipo（旧）操作ガイド"
 description = ""
-weight = 8100
+weight = 2000
 toc = true
 
 [sidebar]

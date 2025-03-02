@@ -26,6 +26,12 @@
   url = "/tips/"
   weight = 45
 [[main]]
+  name = "Excel活用"
+  weight = 48
+  identifier = "excel"
+  url = "/excel/"
+
+[[main]]
   name = "その他"
   weight = 50
   identifier = "blogroot"
@@ -42,12 +48,6 @@
   identifier = "tech"
   url = "/tech/about/about/"
   parent = "blogroot"
-[[main]]
-  name = "Excel活用術"
-  weight = 48
-  identifier = "excel"
-  url = "/excel/about/about/"
-  parent = "blogroot"
 
 [[footer]]
   name = "Tags"
@@ -59,6 +59,12 @@
   name = "活用術Tips"
   pageRef = "/tips"
   weight = 10
+
+
+[[sidebar_excel]]
+  name = "エクセル活用術"
+  pageRef = "/excel"
+  weight = 13
 
 
 [[sidebar_test]]

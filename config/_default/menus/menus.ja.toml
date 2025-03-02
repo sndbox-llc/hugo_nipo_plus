@@ -46,7 +46,7 @@
   name = "技術系ブログ"
   weight = 52
   identifier = "tech"
-  url = "/tech/about/about/"
+  url = "/tech/"
   parent = "blogroot"
 
 [[footer]]

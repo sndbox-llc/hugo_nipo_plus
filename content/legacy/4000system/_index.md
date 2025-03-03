@@ -8,9 +8,6 @@ weight = 4000
 [sidebar]
 collapsed = true
 
-[seo]
-title = "Nipo(旧)システム概要[セクション]"
-
 [sitemap]
   changefreq = "monthly"
   priority = 0.1

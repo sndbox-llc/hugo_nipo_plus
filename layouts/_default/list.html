@@ -70,9 +70,6 @@
 					{{ partial "main/edit-page.html" . }}
 				{{ end -}}
 			</div>
-			{{ if eq .Params.isNipo true }}
-			{{ partial "custom/oldapp-warning.html" . }}
-		{{ end }}
 
 			{{ partial "main/docs-navigation.html" . }}
 
@@ -106,6 +103,10 @@
 					{{end}}
 				</div>
 			</aside>
+			{{ if eq .Params.isNipo true }}
+				{{ partial "custom/oldapp-warning.html" . }}
+			{{ end }}
+
 			<!-- ブランチ　ここまで -->
 		</main>
 		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}

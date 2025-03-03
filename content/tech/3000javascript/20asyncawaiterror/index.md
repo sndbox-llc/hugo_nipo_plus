@@ -1,5 +1,6 @@
 +++
-url = "/tech/asyncawaiterror/"
+url = "/tech/js/asyncawaiterror/"
+aliases = ["/tech/asyncawaiterror/"]
 title = "async関数を呼び出したときに呼び出し先でエラーが発生しても処理が止まらない時"
 menuTitle = "async関数の落とし穴"
 description = "Javascriptの非同期処理（Async/Await)をよく理解していなかったために起きたとある開発者の奮闘について綴りました"

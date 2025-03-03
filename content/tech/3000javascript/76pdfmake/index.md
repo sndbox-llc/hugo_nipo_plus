@@ -1,5 +1,6 @@
 +++
-url = "/tech/pdfmake/"
+url = "/tech/js/pdfmake/"
+aliases = ["/tech/pdfmake/"]
 title = "pdfMakeのページサイズの指定はmm(ミリ)では無い"
 description = "PDFを生成するPDFMake、結構便利ですが単位のが少しわかりにくいので注意です。US_PTが使われています"
 toc = true

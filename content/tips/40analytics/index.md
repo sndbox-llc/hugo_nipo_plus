@@ -90,7 +90,7 @@ CSVはそのままエクセルで開くことができ、集計や並べ替え�
 
 もしダウンロードしたCSVが文字化けする場合は文字コードが正しく解釈されていないためです。古いExcelでよく発生します。解決法については「文字化けについて」の記事をご覧ください
 
-{{< link-card title="文字化けについて詳しく"  description="技術コラム"  href="/tech/mojibake/" >}}
+{{< link-card title="文字化けについて詳しく"  description="技術コラム"  href="/tech/other/mojibake/" >}}
 
 ## エクセルを使わない簡単手軽な日報集計も可能{#easy_summary}
 

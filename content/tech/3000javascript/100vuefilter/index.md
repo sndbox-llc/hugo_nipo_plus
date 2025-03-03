@@ -1,5 +1,6 @@
 +++
-url = "/tech/vuefilter/"
+url = "/tech/js/vuefilter/"
+aliases = ["/tech/vuefilter/"]
 title = "Vue2からVue3への移行-Filterの廃止を修正"
 menuTitle = "Vue2からVue3への移行"
 description = "Vue3で廃止されたfilter機能は関数として定義して呼ぶように修正することで移行できます"

@@ -1,5 +1,6 @@
 +++
-url = "/tech/pdf/"
+url = "/tech/js/pdf/"
+aliases = ["/tech/pdf/"]
 title = "pdfMakeとarchiverを使い複数のPDFを1つのZipにまとめてStorageへUpする"
 menuTitle = "archiverを使い複数ファイルをZIPに"
 description = "CloudFunctionsでPDFをZipへ変換"

@@ -1,5 +1,6 @@
 +++
-url = "/tech/pwa/"
+url = "/tech/js/pwa/"
+aliases = ["/tech/pwa/"]
 title = "VueとRegister Service Workerを使いアプリの更新を制御する"
 menuTitle = "PWAの更新処理"
 description = "PWAの更新処理"

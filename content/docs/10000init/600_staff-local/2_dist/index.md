@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/staff-local/dist/"
+# aliases = []
 title = "🔐レポートの提出先を固定する"
 menuTitle = "🔐提出先の固定"
 description = "スタッフがレポートを書く際にレポートの提出先や共有先といった指定を管理者側が予め固定できます。"

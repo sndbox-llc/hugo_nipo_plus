@@ -96,7 +96,7 @@ Android Studioで**Gradle sync failed: Timeout waiting to lock journal cache**�
 sudo kill -9 <Owner PID>
 ```
 
-とすることでも解消できます。AABファイルとしてビルドする手順については[Androidビルドの記事](/tech/androidapp/)を参照してください。
+とすることでも解消できます。AABファイルとしてビルドする手順については[Androidビルドの記事](/tech/js/androidapp/)を参照してください。
 
 詳しい原因は不明ですが、ビルドを終えてPlay StoreにUPすると「APIレベル22を対象としています」と表示されます。
 

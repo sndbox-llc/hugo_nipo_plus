@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/template/"
+# aliases = []
 title = "テンプレートの管理"
 description = "作成したテンプレートに沿って、スタッフはレポートを作成することができます。そのためテンプレートは最初に作る必要がある重要です。"
 weight = 10700

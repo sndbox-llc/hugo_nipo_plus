@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/staff-local/"
+# aliases = []
 title = "グループ内のスタッフ管理"
 description = ""
 weight = 10600

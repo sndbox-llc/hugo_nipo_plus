@@ -1,5 +1,6 @@
 +++
-url ="/tech/about"
+url = "/tech/firebase"
+aliases = ["/tech/about"]
 title = "Firebase関連"
 description = "Firebase関連"
 date = "2025-02-25"

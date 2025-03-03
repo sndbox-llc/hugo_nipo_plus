@@ -1,5 +1,6 @@
 +++
 url = "/tech/emailverified/"
+# aliases = []
 title = "FirebaseのE-mail認証でアドレスが正しいことを確認する"
 description = "Firebaseを使用して、ユーザーが登録したE-mailアドレスが正しいかを確認する方法を詳しく紹介します。メール認証機能を利用して、簡単にE-mail確認プロセスを実装可能です。メールが正しく受信され、確認リンクをクリックすることで、アドレスの有効性を確かめます。FirebaseのE-mail認証は、ログイン処理をシンプルにしながら、ユーザーの安全性を高めるための便利な機能です。"
 toc = true

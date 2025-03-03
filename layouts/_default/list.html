@@ -83,9 +83,34 @@
 				<div class="my-n3"></div>
 			{{ end -}}
 			-->
+			<!-- ブランチページのみ、一覧を出す -->
+			<aside>
+				<div class="text-centr" style="font-size: 1.5em;">-関連記事-</div>
+                <div class="row">
+                    {{ $currentSection := .CurrentSection }}
+                    {{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+                        {{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+                        <div class="col-16 col-md-8 my-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <a class="stretched-link card-title" style="font-weight: bold;" href="{{ .RelPermalink }}">
+                                        {{ .Params.title | title }} &rarr;
+                                    </a>
+                                    {{ with .Params.description }}
+                                        <p class="card-text mt-2" style="color: #888;font-size:16px">{{ . | truncate 50 }}</p>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+					{{end}}
+				</div>
+			</aside>
+			<!-- ブランチ　ここまで -->
 		</main>
 		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
 			</div>
 		{{ end }}
 	</div>
+	
 {{ end }}

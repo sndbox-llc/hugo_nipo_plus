@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/api/"
+# aliases = []
 title = "API"
 description = ""
 date = "2023-09-07T16:12:37+02:00"

@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/account/"
+# aliases = []
 title = "アカウント"
 description = ""
 weight = 20800

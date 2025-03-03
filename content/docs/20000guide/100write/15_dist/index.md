@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/write-report/dist/"
+# aliases = []
 title = "📤レポートの提出先と共有先について"
 menuTitle = "📤提出先と共有先"
 description = "レポートを承認できる人が「提出先」レポートを読むことができるのが「共有先」です。"

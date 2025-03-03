@@ -1,5 +1,6 @@
 +++
 url = "/docs/system/"
+# aliases = []
 title = "システム概要"
 description = ""
 weight = 90000

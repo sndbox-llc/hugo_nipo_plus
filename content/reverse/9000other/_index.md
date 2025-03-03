@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/other/"
+# aliases = []
 title = "その他"
 menuTitle = "その他"
 description = "逆引きアーカイブ（その他の記事）"

@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/account/editpass/"
+# aliases = []
 title = "スタッフのパスワードを管理者権限で変更したい"
 menuTitle = "スタッフのパスワードを管理者権限で変更したい"
 description = "スタッフのパスワードは管理者権限で強制的に変更することができます。"

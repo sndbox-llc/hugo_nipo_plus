@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/write-report/draft/"
+# aliases = []
 title = "📝レポートを下書きとして保存する"
 menuTitle = "📝下書き機能"
 description = "レポートを一度に書き上げることができない場合は下書き機能を利用してください"

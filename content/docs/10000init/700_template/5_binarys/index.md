@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/template/binarys/"
+# aliases = []
 title = "直筆サイン・写真・ファイルのフォームをテンプレートに追加する"
 menuTitle = "🧩署名や写真等"
 description = "テンプレートカスタムパーツの1つ。レポートに直筆サインを追加できます。タブレット＆スタイラスペン推奨。受領サインなどに"

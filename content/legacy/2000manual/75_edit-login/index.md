@@ -1,5 +1,6 @@
 +++
 url = "/legacy/manual/edit-login/"
+# aliases = []
 title = "パスワードリセット"
 description = "Nipo【旧版】のログインパスワードを忘れてしまった場合やメールアドレスの変更をしたい場合はこちらをご覧ください"
 toc = true

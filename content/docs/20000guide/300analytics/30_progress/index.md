@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/analytics/progress/"
+# aliases = []
 title = "目標と実績の累積を見る"
 menuTitle = "目標と実績の管理"
 description = "日ごとの目標を設定し、レポートデータから目標の到達率や1ヶ月間の累計達成率を表形式で管理できます。製造業や営業など、進捗管理や目標達成の可視化に役立ちます。"

@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/template/date_time/"
+# aliases = []
 title = "【日付・時刻入力】をレポートテンプレートに追加"
 menuTitle = "🧩日付時刻"
 description = "テンプレートカスタムパーツの1つ。作業開始時間のように一定時点の日付時刻を入力できます。10:00 〜 13:00のように範囲を入力する場合は別途期間入力フォームをご利用ください"

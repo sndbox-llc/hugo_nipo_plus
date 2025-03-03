@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/other/defaultgroup/"
+# aliases = []
 title = "起動時のグループを固定したい"
 menuTitle = "起動時のグループを固定したい"
 description = "起動時に最初にセットされるグループを指定できます"

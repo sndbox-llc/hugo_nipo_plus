@@ -1,5 +1,6 @@
 +++
 url = "/legacy/manual/"
+# aliases = []
 title = "Nipo（旧）操作ガイド"
 description = ""
 weight = 2000

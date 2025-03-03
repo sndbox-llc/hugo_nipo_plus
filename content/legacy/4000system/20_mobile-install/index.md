@@ -1,5 +1,6 @@
 +++
 url = "/legacy/system/mobile-install/"
+# aliases = []
 title = "スマートフォン・タブレットにインストール"
 menuTitle ="📱スマホ・タブレットにインストール"
 description = "Nipo【旧版】をスマートフォンにインストールするにはApp storeからダウンロードするか、PWAとしてインストールする方法があります"

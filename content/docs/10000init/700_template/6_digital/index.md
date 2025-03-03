@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/template/digital/"
+# aliases = []
 title = "数値入力"
 menuTitle = "🧩数値入力"
 description = "テンプレートカスタムパーツの1つ。シンプルな数値の入力枠をレポートテンプレートに追加します。集計に対応しています。"

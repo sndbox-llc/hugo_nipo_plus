@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/view/language/"
+# aliases = []
 title = "日本語以外の言語に切り替えたい"
 description = "日本語・英語に対応しています。"
 toc = false

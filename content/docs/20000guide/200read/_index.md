@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/read-report/"
+# aliases = []
 title = "レポートを読む"
 description = ""
 weight = 20200

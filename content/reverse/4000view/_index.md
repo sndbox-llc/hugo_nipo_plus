@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/view/"
+# aliases = []
 title = "見た目の変更"
 description = "逆引きアーカイブ（見た目の変更）"
 date = "2024-10-03"

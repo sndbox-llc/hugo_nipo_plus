@@ -1,5 +1,6 @@
 +++
 url = "/tech/cors-error/"
+# aliases = []
 title = "FirebaseのCloud FunctionsでHttps.onRequestのCORS問題を回避"
 menuTitle = "CORS問題を回避"
 description = "CORSエラーによってCloud Functionがうまく動かなかった。その原因と解決策に奔走してしまい、３時間を無駄にしました。原因と解決策についてまとめています"

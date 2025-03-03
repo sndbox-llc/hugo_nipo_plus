@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/write-report/write/"
+# aliases = []
 title = "✍️レポートを書くまでの流れ"
 menuTitle = "✍️レポートを書く"
 description = "テンプレートを選ぶ▶レポートを書く▶提出先を選ぶ（初回のみ）▶提出ボタンクリック。これでレポートが提出できます。"

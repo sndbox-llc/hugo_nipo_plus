@@ -1,5 +1,6 @@
 +++
 url = "/legacy/manual/group-mode/"
+# aliases = []
 title = "グループのモードを設定"
 description = "スタッフ全員が日報を読めるようにしたり、逆に管理者だけに日報を読めるように制御したりすることができます。大まかな設定を3つのモードから選択します"
 toc = true

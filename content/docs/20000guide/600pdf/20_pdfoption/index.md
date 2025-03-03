@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/pdf/pdfoption/"
+# aliases = []
 title = "⚙️PDF出力の設定"
 menuTitle = "⚙️PDF出力の設定"
 description = "PDF出力のオプション設定について"

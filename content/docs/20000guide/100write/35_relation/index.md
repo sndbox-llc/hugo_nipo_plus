@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/write-report/relation/"
+# aliases = []
 title = "👥複数人でレポートを書く"
 menuTitle = "👥複数人でレポートを書く"
 description = "複数人でレポートを書くことができます"

@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/analytics/csvoption/"
+# aliases = []
 title = "⚙️CSV出力の設定"
 menuTitle = "⚙️CSV出力の設定"
 description = "レポートデータのCSV出力形式を目的に応じてカスタマイズできます。バックアップ用、集計用、エクセルでの加工用など、用途に合わせた設定が可能です。出力列の展開や日付順、ファイル添付データの管理なども自由に調整できます。"

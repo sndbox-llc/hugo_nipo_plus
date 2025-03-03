@@ -1,5 +1,6 @@
 +++
 url = "/legacy/about/quick/"
+# aliases = []
 title = "🔰クイックスタートガイド"
 description = "Nipo【旧版】の基本操作を順を追って解説。アカウント作成から日報テンプレートのカスタマイズまで、旧バージョンの基本的な流れをサポートします。"
 toc = true

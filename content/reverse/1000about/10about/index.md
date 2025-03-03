@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/about/about/"
+# aliases = []
 title = "逆引きガイドの使い方"
 description = "逆引き概要"
 isDictionaly = true

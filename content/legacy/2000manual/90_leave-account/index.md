@@ -1,5 +1,6 @@
 +++
 url = "/legacy/manual/leave-account/"
+# aliases = []
 title = "Nipo【旧版】を削除する"
 description = "Nipo【旧版】の利用を完全にやめる場合はアカウントを削除することでセキュリティリスクを軽減できます"
 toc = true

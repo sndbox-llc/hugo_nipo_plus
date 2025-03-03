@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/write-report/"
+# aliases = []
 title = "レポートを書く"
 menuTitle = "レポートを書く"
 description = "使用するテンプレートを選択し、テンプレートに沿って入力するだけで簡単にレポート作成が可能。スマホやタブレットからも簡単に使えます"

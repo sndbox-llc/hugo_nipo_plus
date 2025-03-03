@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/account/email/"
+# aliases = []
 title = "Email・パスワードの変更"
 menuTitle = "📨Email・🔑パスワードの変更"
 description = "ログインに使用するE-mailおよびパスワードの変更手順を詳しく解説しています。アカウントのセキュリティを強化するための手続きや、パスワードを忘れた際の対処法も紹介しています"

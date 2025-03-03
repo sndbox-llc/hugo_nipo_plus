@@ -1,5 +1,6 @@
 +++
 url = "/docs/price/receipt/"
+# aliases = []
 title = "領収証をダウンロードする"
 menuTitle = "🧾領収証の発行"
 description = "NipoPlusでお支払い頂いた領収証は管理画面からダウンロードできます"

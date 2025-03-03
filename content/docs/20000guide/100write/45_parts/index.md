@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/write-report/parts/"
+# aliases = []
 title = "入力フォームごとの入力方法"
 menuTitle = "🖊入力方法について"
 description = "各種入力フォームごとに入力方式が異なります。それぞれの入力方式についてこのページでまとめています"

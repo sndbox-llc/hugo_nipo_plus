@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/calendar/monthly/"
+# aliases = []
 title = "月カレンダーについて"
 menuTitle = "月カレンダー"
 description = "月カレンダー上でレポートや予定を一目で確認し、効率的に管理できます。予定の追加やレポートの閲覧も簡単に操作可能です。"

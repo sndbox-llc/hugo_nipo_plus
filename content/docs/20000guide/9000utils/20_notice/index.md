@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/utils/notice/"
+# aliases = []
 title = "🔔アプリ内の通知と📩メール通知"
 description = "NipoPlusでは、レポートの受信や承認・棄却時に通知が発行されます。通知はアプリ内のベルアイコンやメールで確認可能です。さらに、有料プランでは毎月最大10,000通までのメール通知が可能になります。"
 toc = true

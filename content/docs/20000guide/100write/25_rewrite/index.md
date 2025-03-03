@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/write-report/rewrite/"
+# aliases = []
 title = "🛠️レポートの修正"
 description = "提出したレポートに誤りがあったり棄却された際は修正して再提出できます。または削除して新規に作ることもできます"
 toc = true

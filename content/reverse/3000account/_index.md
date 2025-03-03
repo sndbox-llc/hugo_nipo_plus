@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/account/"
+# aliases = []
 title = "アカウント"
 description = "逆引きアーカイブ（アカウント関係）"
 date = "2024-10-03"

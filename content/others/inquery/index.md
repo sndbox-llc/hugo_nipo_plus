@@ -1,5 +1,6 @@
 +++
 url = "/others/inquery/"
+# aliases = []
 title = "📩お問い合わせ"
 description = "NipoPlusに関するご質問、ご要望、お問い合わせはこちらからお送りください。1営業日以内に返信いたします。自動返信メールにて受け付け完了のお知らせを送信しています"
 toc = false

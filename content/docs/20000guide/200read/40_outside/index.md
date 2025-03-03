@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/read-report/outside/"
+# aliases = []
 title = "外部共有する"
 menuTitle = "外部共有する"
 description = "アカウントを持っていないユーザに対してNipoPlusのレポートを共有することができます。"

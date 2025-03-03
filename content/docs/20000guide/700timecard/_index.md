@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/timecard/"
+# aliases = []
 title = "タイムカード"
 description = ""
 weight = 20700

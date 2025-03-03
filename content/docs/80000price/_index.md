@@ -1,5 +1,6 @@
 +++
 url = "/docs/price/"
+# aliases = []
 title = "NipoPlusのご利用料金"
 description = ""
 weight = 80000

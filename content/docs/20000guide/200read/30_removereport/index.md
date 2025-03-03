@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/read-report/removereport/"
+# aliases = []
 title = "レポートを削除する"
 menuTitle = "レポートの削除"
 description = "不要なレポートを削除する手順について説明しています。改ざん防止のため承認されたレポートは通常削除できません。一旦解除してから削除を行う必要があります"

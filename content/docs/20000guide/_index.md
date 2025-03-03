@@ -1,5 +1,6 @@
 +++
 url = "/docs/essentialguide/"
+# aliases = []
 title = "操作ガイド（日常編）"
 description = ""
 weight = 20000

@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/report/reportrange/"
+# aliases = []
 title = "特定の時期の日報を探したい"
 description = "過去の日報を探す時、探す期間が決まっていれば期間を指定して簡単に検索ができます"
 toc = false

@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/utils/tokumei/"
+# aliases = []
 title = "👤1クリックで手軽に体験可能な匿名アカウント"
 menuTitle = "👤匿名アカウント"
 description = "メールアドレスもパスワードも無しで手軽にNipoPlusを使ってみてください。言葉通りワンクリックでお試しができます。"

@@ -1,5 +1,6 @@
 +++
 url = "/docs/system/mobile-install/"
+# aliases = []
 title = "Android/iOS/PCでNipoPlusを使用する方法"
 menuTitle = "🍏iOS・🤖Android・PCで使う"
 description = "Android/IOSを搭載したモバイル機器でもNipoPlusを利用できます。ブラウザで動作する日報アプリのため専用の知識やアプリは不要です。もっと手軽にインストールしたい場合はGoogle Play / App Store上に専用アプリも用意しております。"

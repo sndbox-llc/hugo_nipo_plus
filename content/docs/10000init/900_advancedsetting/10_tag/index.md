@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/advanced-setting/tag/"
+# aliases = []
 title = "🏷タグの管理"
 description = "検索や目印としてレポートにタグをセットできます。タグは編集者権限のスタッフが作成管理できます"
 toc = true

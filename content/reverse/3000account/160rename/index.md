@@ -1,5 +1,6 @@
 +++
 url = "/reverse-lookup/account/rename/"
+# aliases = []
 title = "自分の名前を「管理者」から変更したいとき"
 menuTitle = "自分の名前を「管理者」から変更したいとき"
 description = ""

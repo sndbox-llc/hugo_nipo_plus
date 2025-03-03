@@ -1,5 +1,6 @@
 +++
 url = "/docs/manual/api/key/"
+# aliases = []
 title = "🔑APIキーの取得"
 description = "APIキーを使用すると、外部システムやCurlなどのコマンドラインツールを通じて、レポートデータを直接取得できます。このガイドでは、APIキーの取得方法や無効化の手順について詳しく解説します。"
 toc = true

@@ -1,5 +1,6 @@
 +++
 url = "/tech/firebase"
+# aliases = []
 aliases = ["/tech/about"]
 title = "Firebase関連"
 description = "Firebase関連"

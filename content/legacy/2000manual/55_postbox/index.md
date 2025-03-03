@@ -1,5 +1,6 @@
 +++
 url = "/legacy/manual/postbox/"
+# aliases = []
 title = "日報受信ボックスについて"
 description = "スタッフが作成した日報は受信BOXから読むことができます。絞り込み検索や表示した日報の印刷など様々なことが行なえます"
 toc = true

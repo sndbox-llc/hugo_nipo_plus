@@ -4,8 +4,6 @@ title = "操作ガイド（初期設定編）"
 description = "NipoPlusの操作マニュアルをセクションごとに分けて掲載しています。初期設定からレポートの読み書き、集計方法、PDF出力やAPIガイドまで、様々な使い方ガイドをまとめたセクションページです。"
 weight = 10000
 
-[seo]
-title = "NipoPlusの操作マニュアル[セクション]"
 [sidebar]
 collapsed = true
 
@@ -15,31 +13,18 @@ collapsed = true
 
 +++
 
-NipoPlusの操作マニュアルをセクションごとに分けて掲載しています。
-主要なセクションは「初期設定・レポートの読み書き・レポートの集計」の３種類です。
+このセクションではNipoPlusの初期設定に関するガイドを紹介しています。  
+初期設定は使い始める前に行う最初の設定で、一度設定を終えれば基本的に変更する必要のない項目が多いです。
 
-{{< link-card title="初期設定" description="アカウントやテンプレートの作成など、導入直後に行う設定です" href="/docs/manual/initial-setting/" >}}
+## 初期設定の種類
 
-{{< link-card title="レポートを書く" description="テンプレートに沿って記述するだけで簡単にレポートを作成できます" href="/docs/manual/write-report/" >}}
+主たる初期設は次のような項目があります。
 
-{{< link-card title="レポートを読む" description="レポートの閲覧権限や承認棄却、検索方法についてまとめています" href="/docs/manual/read-report/" >}}
-
-{{< link-card title="レポートを集計する" description="レポートの集計やグラフ化、CSV出力等についてまとめています" href="/docs/manual/analytics/" >}}
-
----
-
-その他、細々としたセクションがありますが重要度は上記セクションに比べて低めです。
-
-{{< card-grid >}}
-
-{{< link-card title="PDF出力" description="" href="/docs/manual/pdf/" >}}
-{{< link-card title="タイムカード" description="" href="/docs/manual/timecard/" >}}
-{{< link-card title="カレンダーの使い方" description="" href="/docs/manual/calendar/" >}}
-{{< /card-grid >}}
-
-{{< card-grid >}}
-
-{{< link-card title="予定の使い方" description="" href="/docs/manual/event/" >}}
-{{< link-card title="APIの使い方" description="" href="/docs/manual/api/" >}}
-{{< link-card title="その他（通知や退会など）" description="" href="/docs/manual/utils/" >}}
-{{< /card-grid >}}
+<dl class="basic">
+<dt>スタッフアカウントの登録</dt>
+<dd>NipoPlusを利用するスタッフのアカウントを組織に追加していきます</dd>
+<dt>グループの設定</dt>
+<dd>必要に応じてグループを複数個作成することが可能です。小規模な用途の場合は1グループで十分です</dd>
+<dt>テンプレートの作成</dt>
+<dd>NipoPlusの肝である「テンプレート」を作成します。一度作れば何度でも再利用でき、必要に応じて複製も可能です</dd>
+</dl>

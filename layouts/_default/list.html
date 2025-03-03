@@ -85,7 +85,7 @@
 			-->
 			<!-- ブランチページのみ、一覧を出す -->
 			<aside>
-				<div class="text-centr" style="font-size: 1.5em;">-関連記事-</div>
+				<h2 style="border-bottom:2px solid purple">-関連記事-</h2>
                 <div class="row">
                     {{ $currentSection := .CurrentSection }}
                     {{ range where .Site.RegularPages.ByTitle "Section" .Section }}

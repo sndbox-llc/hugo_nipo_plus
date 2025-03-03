@@ -14,13 +14,9 @@
   url = "/docs/price/_about/"
   weight = 20
 [[main]]
-  name = "📩問合せ"
+  name = "📩問合せ・検索"
   url = "/others/inquery/"
   weight = 30
-[[main]]
-  name = "🔍検索"
-  url = "/others/search/"
-  weight = 40
 [[main]]
   name = "💡活用例"
   url = "/tips/"
@@ -64,6 +60,12 @@
 [[sidebar_excel]]
   name = "エクセル活用術"
   pageRef = "/excel"
+  weight = 13
+
+
+[[sidebar_others]]
+  name = "問い合わせ等"
+  pageRef = "/others"
   weight = 13
 
 

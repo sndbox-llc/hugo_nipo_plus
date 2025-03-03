@@ -1,6 +1,7 @@
 +++
 url = "/tech/elasticsearch/"
 title = "FirestoreとElasticSearchを組み合わせて\n検索に強いFirebaseアプリを作る"
+menuTitle = "ElasticSearch + Firestoreで全文検索"
 description = "Elastic Searchの全文検索とFireStoreのデータベースを連携して相乗効果UP"
 toc = true
 date = "2022-11-14"

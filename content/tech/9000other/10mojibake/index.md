@@ -1,6 +1,7 @@
 +++
 url = "/tech/mojibake/"
 title = "ダウンロードしたZipファイルが文字化けする原因と解決策-主にWindows"
+menuTitle = "Zipの文字化け問題と解決策"
 description = "WebでダウンロードしたZipファイルの文字化けは、解凍ソフトの仕様によるものです。この記事では、特にSHIFT-JISに対応していないソフトが原因のケースについて解説し、推奨する解決策を紹介します。"
 date = "2022-11-14"
 toc = true

@@ -1,6 +1,7 @@
 +++
 url = "/tech/separate-files/"
 title = "肥大化するCloud Functionsのファイルを複数のTsファイルに分ければメンテナンスもしやすい"
+menuTitle = "Cloud Functionsのファイル分割"
 description = "Cloud Functionはサーバで実行できる関数で、フロントに出しては行けない情報を処理するときに使います。コードの量が増えると可読性が悪くなるため関数ごとにファイルに分割する方法について紹介します"
 toc = true
 date = "2022-11-14"

@@ -1,6 +1,7 @@
 +++
 url = "/tech/gapi/"
 title = "Vue.js（ts）でGoogle API(gapi)を使いカレンダーを取得するまで"
+menuTitle = "gapiを使いカレンダーを取得"
 description = "GAPIを使うまでの流れ"
 toc = true
 date = "2022-11-14"

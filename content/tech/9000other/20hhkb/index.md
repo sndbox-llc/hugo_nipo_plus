@@ -1,6 +1,7 @@
 +++
 url ="/tech/hhkb/"
 title = "HHKB Professional HYBRID Type-Sは最高のHHKB"
+menuTitle = "キーボード沼 HHKB"
 description = "高級キーボードとして有名なHHKBから最新モデル HYBLID Type-Sが発売されました。かねてよりHHKBのファンである私は早速購入。プログラマからみたHHKBの魅力について語らせてください"
 toc = true
 date = "2022-11-14"

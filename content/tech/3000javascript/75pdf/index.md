@@ -1,6 +1,7 @@
 +++
 url = "/tech/pdf/"
 title = "pdfMakeとarchiverを使い複数のPDFを1つのZipにまとめてStorageへUpする"
+menuTitle = "archiverを使い複数ファイルをZIPに"
 description = "CloudFunctionsでPDFをZipへ変換"
 toc = true
 date = "2022-11-14"

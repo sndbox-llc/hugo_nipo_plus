@@ -1,6 +1,7 @@
 +++
 url = "/tech/chart-js/"
 title = "Vue composition APIでchart.jsを使いグラフを作成(vue-chart.js無し)"
+menuTitle = "chart.jsを使いグラフを作成"
 description = "charts.jsを使ってグラフを表示させます。vue-chart.jsは使いません。この記事はChart.jsのVersion2を利用していますが、今の最新はVersion3です。"
 toc = true
 date = "2022-11-14"

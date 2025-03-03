@@ -1,6 +1,7 @@
 +++
 url = "/tech/flexheight/"
 title = "Quasar Framework QCardの高さを揃えて見た目を良くする"
+menuTitle = "Quasar Qcardの見た目を整える"
 description = "Quasar FrameworkのGridを使ってQcardの高さを揃える"
 toc = true
 date = "2023-01-01"

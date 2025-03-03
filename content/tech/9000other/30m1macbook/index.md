@@ -2,6 +2,7 @@
 url = "/tech/m1macbook/"
 description = "速いと噂のM1マックブックを買ってみました。プログラマ視点でM1マックは業務にそのまま使えるのかを書いてみました。"
 title = "M1/M2 Macをプログラマが購入して実際に使った感想"
+menuTitle = "M1マックブック"
 toc = true
 date = "2022-11-14"
 weight = 9030

@@ -1,6 +1,7 @@
 +++
 url = "/tech/androidapp/"
 title = "Quasar FrameworkでAndroidアプリをビルドしてストア提出する(AABファイル)"
+menuTitle = "QuasarでAndroidアプリを作る"
 description = "QuasarでAndroidアプリを作成"
 toc = true
 date = "2022-11-14"

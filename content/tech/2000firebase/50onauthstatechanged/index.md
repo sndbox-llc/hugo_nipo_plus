@@ -1,6 +1,7 @@
 +++
 url = "/tech/onauthstatechanged/"
 title = "FirebaseのonAuthStateChangedが複数回呼ばれないように正しく使う（Vuejs3)"
+menuTitle = "onAuthStateChangedの注意点"
 description = "onAuthStateChangedの使い方"
 toc = true
 date = "2022-11-14"

@@ -1,6 +1,7 @@
 +++
 url = "/tech/infixtopostfix/"
 title = "電卓風の見た目で逆ポーランド記法の式を作成する（vue & Typescript)"
+menuTitle = "電卓作成：逆ポーランド記法"
 description = "通常の数式を逆ポーランドに変換するサンプル（Typescript）と、逆ポーランドを計算するサンプルプログラムです。入力は電卓風のUIで実装"
 toc = true
 date = "2022-11-14"

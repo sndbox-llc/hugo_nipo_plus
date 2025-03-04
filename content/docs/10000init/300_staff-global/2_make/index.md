@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/staff/make/"
-# aliases = []
+# aliases = ["/docs/manual/initial-setting/staff/make/"]
 title = "スタッフのアカウント作成"
 menuTitle = "🆕スタッフのアカウント作成"
 description = "スタッフアカウントを作りグループに所属させればすぐにレポートの作成が可能になります。本ページはアカウント作成に関する操作ガイドです"

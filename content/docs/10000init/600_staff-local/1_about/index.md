@@ -1,5 +1,6 @@
 +++
-url="/docs/manual/initial-setting/staff-local/_about/"
+url = "/docs/manual/initial-setting/staff-local/_about/"
+# aliases = ["/docs/manual/initial-setting/staff-local/_about/"]
 title = "グループ内のスタッフ管理"
 menuTitle = "ℹ️概要"
 description = "グループ内のスタッフはレポートの提出先や利用可能なテンプレートの制限など様々な設定が可能です。本ページはグループ内スタッフの設定に関する操作ガイドです"

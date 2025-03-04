@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/template/manage/"
-# aliases = []
+# aliases = ["/docs/manual/initial-setting/template/manage/"]
 title = "テンプレートの管理（コピー・削除など）"
 menuTitle = "テンプレートの複製、削除等"
 description = "一度作ったテンプレートは可能な限り再利用させることで効率よく作業できます。ここではテンプレートのコピーや削除、インポートについてまとめています"

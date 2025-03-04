@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/"
-# aliases = []
+url = "/docs/essentialguide/"
+aliases = ["/docs/essentialguide/"]
 title = "操作ガイド（日常編）"
 description = ""
 weight = 20000

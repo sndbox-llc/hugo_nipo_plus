@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/staff/"
-# aliases = []
+# aliases = ["/docs/manual/initial-setting/staff/"]
 title = "組織のスタッフ管理"
 description = ""
 weight = 10300

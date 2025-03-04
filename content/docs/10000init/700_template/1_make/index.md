@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/template/make/"
-# aliases = []
+# aliases = ["/docs/manual/initial-setting/template/make/"]
 title = "レポート用のテンプレートを自作する"
 menuTitle = "⚙テンプレートの作成"
 description = "パーツをブロックのように組み合わせるだけで専門知識がなくてもオリジナルのテンプレートを簡単に作成できます。作成したテンプレートはスマホやタブレット・PCからレポート作成時に使用されます"

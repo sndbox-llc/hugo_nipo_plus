@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/initial-setting/template/mod/"
-# aliases = []
+# aliases = ["/docs/manual/initial-setting/template/mod/"]
 title = "商品在庫入力フォーム"
 menuTitle = "🧩商品在庫入力"
 description = "商品在庫入力フォームを使うことで日報アプリでありながら簡易的な在庫管理が可能になります。"

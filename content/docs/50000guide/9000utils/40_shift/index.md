@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/utils/shift/"
-# aliases = []
+# aliases = ["/docs/manual/utils/shift/"]
 title = "🗓️シフト管理"
 description = "シフト管理機能"
 toc = true

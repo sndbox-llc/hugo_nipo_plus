@@ -1,5 +1,5 @@
 +++
-url = "/docs/essentialguide/"
+url = "/docs/manual/"
 aliases = ["/docs/essentialguide/"]
 title = "操作ガイド（日常編）"
 description = ""

@@ -6,7 +6,7 @@
 [[main]]
   name = "逆引き辞典"
   identifier = "reverse-lookup/about/about"
-  url = "/reverse-lookup/about/about/"
+  url = "/reverse-lookup/"
   weight = 15
 
 [[main]]

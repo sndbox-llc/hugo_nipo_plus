@@ -5,7 +5,7 @@ title = "📂レポートテンプレートをフォルダ分けして効率よ�
 menuTitle = "📂フォルダによる管理"
 description = "テンプレートを効率よく管理するためにフォルダ分けをすることができます"
 toc = true
-weight = 10709
+weight = 30709
 tags = ["テンプレート", "有料プラン限定", "編集者権限"]
 contributors = []
 +++

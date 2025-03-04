@@ -5,7 +5,7 @@ title = "文字入力フォーム"
 menuTitle = "🧩文字入力"
 description = "テンプレートカスタムパーツの1つ。本文や備考・引き継ぎといった文字入力エリアをレポートに追加できます"
 toc = true
-weight = 10702
+weight = 30702
 tags = ["テンプレートパーツ", "テンプレート"]
 contributors = []
 +++

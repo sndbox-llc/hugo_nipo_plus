@@ -13,6 +13,8 @@ isNipo = true
   priority = 0.2
 +++
 
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/system/mobile-install/)です" icon="outline/note" />}}
+
 ## PWA版としてインストールする【推奨】{#pwa}
 
 PWAとはかんたんに言うと**Webアプリを本当のアプリのように見せる技術**です。

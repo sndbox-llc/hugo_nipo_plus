@@ -12,6 +12,8 @@ isNipo = true
   priority = 0.1
 +++
 
+{{< callout context="caution" title="[NipoPlusのプライバシーポリシー](/docs/system/privacy-policy/)はこちらです" icon="outline/info-triangle" />}}
+
 ## サイトリニューアルに伴い、プライバシーポリシーの告知場所と内容が変更されます{#infomation}
 
 合同会社サンドボックス（以下「弊社」）は、日々の日報業務に掛かる負担や不便を軽減するためのシステム「クラウド日報 Nipo【旧版】」（以下「Nipo【旧版】」）を提供しており、

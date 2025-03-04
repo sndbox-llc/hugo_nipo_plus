@@ -12,9 +12,11 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="caution" title="無料プランは2024年12月31日で廃止されました" icon="outline/alert-triangle" />}}
+{{< callout context="caution" title="こちらはNipo(旧)の料金ページです" icon="outline/info-triangle" >}}
+[NipoPlusの料金](/docs/price/_about/)と混同されないように注意してください
+{{< /callout >}}
 
-{{< callout context="caution" title="2024年8月13日から料金と決済手順が変更になりました" icon="outline/alert-triangle" />}}
+{{< callout context="danger" title="2024年8月13日から料金と決済手順が変更になりました" icon="outline/alert-triangle" />}}
 
 {{< callout context="danger" title="自動更新有りの新規申込停止" icon="outline/alert-triangle" >}}
 3DSに対応することが困難なため、2025年3月以降、GOLDPLAN新規のクレジットカード決済のお申し込みを停止します。請求書払い（自動更新無し）をご利用ください

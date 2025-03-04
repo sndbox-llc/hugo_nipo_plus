@@ -44,7 +44,7 @@ mainSections = ["docs"]
   bootstrapJavascript = true # false (default) or true
 
   # Nav
-  sectionNav = ["docs", "legacy", "reverse", "tech", "excel", "tips", "others", "test"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
+  sectionNav = ["docs", "legacy", "reverse", "tech", "excel", "tips", "others", "1_test", "90000system"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = true # false (default) or true
   breadcrumbTrail = true # false (default) or true
   headlineHash = true # true (default) or false

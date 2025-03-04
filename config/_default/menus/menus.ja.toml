@@ -69,21 +69,9 @@
   weight = 13
 
 
-
-# [[sidebar_docs]]
-#   name = "init"
-#   pageRef = "/docs/10000init/700_template"
-#   weight = 13
-
-# [[sidebar_docs]]
-#   name = "かきくけこ"
-#   pageRef = "/docs/90000system"
-#   weight = 13
-
-
-[[sidebar_test]]
+[[sidebar_1_test]]
   name = "あいうえお"
-  pageRef = "/test"
+  pageRef = "/1_test"
   weight = 10
 
 

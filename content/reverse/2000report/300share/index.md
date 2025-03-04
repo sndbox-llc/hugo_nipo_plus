@@ -21,7 +21,7 @@ NipoPlusではレポートの公開範囲を細かく指定できる「通常モ
 {{<iTablet filename="img/share" msg="みんなで情報共有する際に便利だけど人数が多いと読むのが大変かも？" alice="question">}}
 
 {{< callout context="tip" title="ご存知ですか？" icon="outline/note" >}}
-共有するモードでも[書き込みのみ権限とゲスト権限](/docs/manual/initial-setting/staff/rank/#others)は他人のレポートを読むことはできません。
+共有するモードでも[書き込みのみ権限とゲスト権限](/docs/setup/staff-global/rank/#others)は他人のレポートを読むことはできません。
 {{< /callout >}}
 
 ### 補足：通常モードについて{#hint_common_mode}
@@ -30,5 +30,5 @@ NipoPlusではレポートの公開範囲を細かく指定できる「通常モ
 管理者だけが読めれば良いといったケースでは、通常モードがおすすめです。
 
 {{< callout context="note" title="提出先の固定" icon="outline/info-circle" >}}
-[提出先と共有先の固定](/docs/manual/initial-setting/staff-local/dist/)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
+[提出先と共有先の固定](/docs/setup/staff-local/dist/)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
 {{< /callout >}}

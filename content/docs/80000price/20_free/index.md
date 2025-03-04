@@ -28,7 +28,7 @@ classDef class1 fill:#7BCCAC
 ## 無料プランによる制約{#limit}
 
 申し訳ないのですが全て無料で使えるわけでは有りません。いくつかの付加価値機能は無料版では利用できません。
-[スタッフアカウントを5名以上登録](/docs/manual/initial-setting/staff/make/)すると制限が掛かり、レポートの提出ができない状態になります
+[スタッフアカウントを5名以上登録](/docs/setup/staff-global/make/)すると制限が掛かり、レポートの提出ができない状態になります
 
 <dl class="basic">
 <dt><a href="/docs/manual/analytics/csv/">CSVの一括出力</a></dt>

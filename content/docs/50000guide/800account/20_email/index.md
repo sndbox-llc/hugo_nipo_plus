@@ -83,7 +83,7 @@ title = ""
 
 組織の管理者権限を有するスタッフは他スタッフのログインパスワードを強制的に書き換えることができます。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 2. スタッフ管理のセクションまでスクロール
 3. パスワードを変更したいスタッフの行でパスワード変更ボタンをクリック
 4. 変更後のパスワードを入力する
@@ -92,4 +92,4 @@ title = ""
 
 {{<icatch filename="img/force-update-pw" msg="管理者権限でスタッフのパスワードを変更することも可能です">}}
 
-詳しくは[組織のスタッフ管理](/docs/manual/initial-setting/staff/manage/)を御覧ください。
+詳しくは[組織のスタッフ管理](/docs/setup/staff-global/manage/)を御覧ください。

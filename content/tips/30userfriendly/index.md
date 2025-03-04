@@ -45,16 +45,16 @@ NipoPlusではテンプレートを独自にカスタマイズできます。
 
 <dl class="basic">
 
-<dt><a href="/docs/manual/initial-setting/template/text/">文字の入力</a></dt>
+<dt><a href="/docs/template/text/">文字の入力</a></dt>
 <dd>報告の本文入力や備考欄、引き継ぎ事項など自由にテキストが入力できます</dd>
 
-<dt><a href="/docs/manual/initial-setting/template/digital/#commonNumber">数値入力</a></dt>
+<dt><a href="/docs/template/digital/#commonNumber">数値入力</a></dt>
 <dd>件数や距離、線形、回数など数値として表現できる項目です。数値のデータは集計やグラフに利用できます</dd>
 
-<dt><a href="/docs/manual/initial-setting/template/selects/#plain">選択入力</a></dt>
+<dt><a href="/docs/template/selects/#plain">選択入力</a></dt>
 <dd>「新規・継続」や「上・中・下」のように決まった選択肢を用意できる場合に適しています。入力の手間を省ける他、選ばれた単語の回数を集計することもできます</dd>
 
-<dt><a href="/docs/manual/initial-setting/template/binarys/#picture">現場写真</a>など</dt>
+<dt><a href="/docs/template/binarys/#picture">現場写真</a>など</dt>
 <dd>写真や手描きの署名、PDFなどのファイル。</dd>
 
 </dl>
@@ -98,28 +98,28 @@ graph TD;
 
 数値入力には主要なものとして、次の方式が選べます。
 
-- [スライダ](/docs/manual/initial-setting/template/digital/#slider)を使った数値入力
-- [レート](/docs/manual/initial-setting/template/digital/#rate)を使った数値入力
-- 通常の[数値入力](<(/docs/manual/initial-setting/template/digital/#commonNumber)>)
+- [スライダ](/docs/template/digital/#slider)を使った数値入力
+- [レート](/docs/template/digital/#rate)を使った数値入力
+- 通常の[数値入力](<(/docs/template/digital/#commonNumber)>)
 - 他の数値を自動で四則演算する自動入力
 
 ではどれを使うのが正解でしょうか？どの入力方式が最もミスが少なく、手軽で、スタッフの負担を減らせるのでしょうか？
 残念ながら正解はケースバイケースのためここで言及することはできません。しかし一般的な方向性を示すことはできます。
 
-5段階評価や10段階評価など、最大でも1〜10程度の範囲で収まる場合は[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)が適しています。
-気温や湿度、パーセンテージなど、0〜100程度の範囲で収まる場合、[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)が楽です。
-大きな数値、小数点を扱いたいケースは[数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)がおすすめです。
+5段階評価や10段階評価など、最大でも1〜10程度の範囲で収まる場合は[レート入力フォーム](/docs/template/digital/#rate)が適しています。
+気温や湿度、パーセンテージなど、0〜100程度の範囲で収まる場合、[スライダ入力フォーム](/docs/template/digital/#slider)が楽です。
+大きな数値、小数点を扱いたいケースは[数値入力フォーム](/docs/template/digital/#commonNumber)がおすすめです。
 
-また入力デバイスによっても向き不向きがあります。タッチパネルに対応しているスマートフォンやタブレットの場合、スライダーや[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)はより直感的で簡単に入力ができます。
-一方でPCを使った入力の場合、通常の[数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)のほうがマウスを使わなくて済むため、楽に感じる人もいます。
+また入力デバイスによっても向き不向きがあります。タッチパネルに対応しているスマートフォンやタブレットの場合、スライダーや[レート入力フォーム](/docs/template/digital/#rate)はより直感的で簡単に入力ができます。
+一方でPCを使った入力の場合、通常の[数値入力フォーム](/docs/template/digital/#commonNumber)のほうがマウスを使わなくて済むため、楽に感じる人もいます。
 
 ## テンプレートのレイアウトに気を配る{#layout}
 
 NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12の範囲で自由に調整可能です。合計12を超えると次の行に回り込みます。
-入力フォームの内容に応じて、テンプレート内に専有する幅を適切に調整するようにしましょう。例えば[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)の場合、上限と下限の設定にもよりますが狭すぎると少しのスワイプで数値がたくさん動いてしまい、狙った数値に調整するのが困難になります。
+入力フォームの内容に応じて、テンプレート内に専有する幅を適切に調整するようにしましょう。例えば[スライダ入力フォーム](/docs/template/digital/#slider)の場合、上限と下限の設定にもよりますが狭すぎると少しのスワイプで数値がたくさん動いてしまい、狙った数値に調整するのが困難になります。
 これでは日報を作成するスタッフからも不平不満が出てしまうことでしょう。
 
-次の画像は幅2〜12の範囲で同じ[スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)を配置した例です。幅が狭いとスライダの目盛りが潰れてしまうのがわかりますね。
+次の画像は幅2〜12の範囲で同じ[スライダ入力フォーム](/docs/template/digital/#slider)を配置した例です。幅が狭いとスライダの目盛りが潰れてしまうのがわかりますね。
 
 {{<figure src="img/width.webp"  alt="テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" caption="テンプレートの幅を適切に設定することで、日報作成者がストレス無く入力できるように気を配ることが重要です" >}}
 
@@ -183,16 +183,16 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 実際にとある自動車部品製造工場のお客様からNipoPlusで使っているシーンを見せていただいたチェックシートを模してみました。
 （内容は改変しています）
 点検作業員は外国人が多いため、色で内容を伝えられるようにチェックシートのテンプレートを色分けして工夫しています。
-また、手早く入力できるように[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)を使って製品の誤差を選んで入力する形式を取っています。
+また、手早く入力できるように[選択式入力フォーム](/docs/template/selects/#plain)を使って製品の誤差を選んで入力する形式を取っています。
 
 {{<icatch filename="img/sample13" msg="選択入力を多用することでテンポよく入力できるよ。特にタブレットと相性抜群" alice="tablet">}}
 
-開発者も思いつきませんでしたが、[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)はこんな使い方もできるので、非常に参考になるテンプレートといえます。
+開発者も思いつきませんでしたが、[選択式入力フォーム](/docs/template/selects/#plain)はこんな使い方もできるので、非常に参考になるテンプレートといえます。
 
 ### 作業内容と受領サインを組み合わせた作業報告書テンプレート{#sign}
 
-清掃や機器メンテナンスなど、実際の現場で行った作業内容を選択式入力や[レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)を駆使して迅速に書き上げることができるような工夫がされています。
-顧客から確認の受取サインをいただく必要があれば、[署名入力フォーム](/docs/manual/initial-setting/template/binarys/#sign)をつかうことで直筆のサインを報告書内に書き込むことが可能です。
+清掃や機器メンテナンスなど、実際の現場で行った作業内容を選択式入力や[レート入力フォーム](/docs/template/digital/#rate)を駆使して迅速に書き上げることができるような工夫がされています。
+顧客から確認の受取サインをいただく必要があれば、[署名入力フォーム](/docs/template/binarys/#sign)をつかうことで直筆のサインを報告書内に書き込むことが可能です。
 
 {{<icatch filename="img/work-report" msg="清掃チェックシートのサンプル。顧客からの受領直筆サインを書くこともできます" alice="tablet">}}
 
@@ -213,8 +213,8 @@ NipoPlusのテンプレート編集では、各入力フォームの幅を1〜12
 
 {{<icatch filename="img/sample20" msg="現場の写真をスマホで撮ってそのままレポートにできるのは便利ですよ" alice="phone">}}
 
-NipoPlusの[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)は１つにつき10枚まで添付可能ですが、もしこの報告書をPDFに変換する場合、１枚目の写真しかPDFに掲載されません。
-これはすべての写真を並べるとレイアウトが崩れてしまうためです。すべての写真をPDFに出力したい場合は、テンプレート内に[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)を複数個設置することで対応が可能です。
+NipoPlusの[写真入力フォーム](/docs/template/binarys/#picture)は１つにつき10枚まで添付可能ですが、もしこの報告書をPDFに変換する場合、１枚目の写真しかPDFに掲載されません。
+これはすべての写真を並べるとレイアウトが崩れてしまうためです。すべての写真をPDFに出力したい場合は、テンプレート内に[写真入力フォーム](/docs/template/binarys/#picture)を複数個設置することで対応が可能です。
 実際に上記の報告書をPDFに変換すると次のように出力されます。
 
 <div class="row">
@@ -245,7 +245,7 @@ WordやExcelで写真付きの日報を作るのは手間が掛かりますが�
 
 フィールドワークに持ち運びが容易なタブレット・スマートフォンは相性の良い組み合わせです。屋外の現地調査シートはタブレットやスマートフォンで入力することを想定してテンプレートを設計することで、現地での入力を少しでも楽に済ませるような工夫がされています。
 具体的には「特徴」の項目はあらかじめ回答が用意されており、選ぶだけで簡単に入力可能です。
-そしてモバイル機器には当たり前のように搭載されているカメラで現地の写真を撮影したらそのままレポートに添付できるように、[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)を使用しています。
+そしてモバイル機器には当たり前のように搭載されているカメラで現地の写真を撮影したらそのままレポートに添付できるように、[写真入力フォーム](/docs/template/binarys/#picture)を使用しています。
 
 {{<icatch filename="img/sample4" msg="現地調査レポート・・・作ってみたけど需要あるかな？" alice="question">}}
 
@@ -265,7 +265,7 @@ WordやExcelで写真付きの日報を作るのは手間が掛かりますが�
 
 ### 作業単位で行を分ける日報{#time_line}
 
-時間ごとに作業区分と報告内容を記述できるテンプレートです。[反復入力](/docs/manual/initial-setting/template/array/)フォームを使って作成できます。
+時間ごとに作業区分と報告内容を記述できるテンプレートです。[反復入力](/docs/template/array/)フォームを使って作成できます。
 
 {{<icatch filename="img/sample11" msg="10時〜何をした。11時〜何をした・・・時間別の入力なんかに向いてるかも" alice="pc">}}
 
@@ -304,4 +304,4 @@ Yesなら✔するだけのシンプルなテンプレートです。補足事�
 
 具体的なテンプレートの作成手順については以下のリンクを参照してください。
 
-{{< link-card title="テンプレートの作り方" description="操作ガイド" href="/docs/manual/initial-setting/template/make/" >}}
+{{< link-card title="テンプレートの作り方" description="操作ガイド" href="/docs/template/make/" >}}

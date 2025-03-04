@@ -41,9 +41,9 @@ heroLinks = [
 
 チェックシートを電子化すると結構たくさんのメリットがあります。紙の節約や保管場所の節約、他にも集計やグラフ化など、チェックシートの集計分析も簡単にできます。詳しくは次のセクションに譲りましょう。
 
-NipoPlusでチェックシートを作るには、テンプレートを編集して行います。テンプレートには様々な入力フォームを並べることで作成しますが、特に[選択式入力フォーム](/docs/manual/initial-setting/template/selects/)はチェックシートと相性抜群です。  
+NipoPlusでチェックシートを作るには、テンプレートを編集して行います。テンプレートには様々な入力フォームを並べることで作成しますが、特に[選択式入力フォーム](/docs/template/selects/)はチェックシートと相性抜群です。  
 紙のチェックシートと近い見た目を持っていますし、タップ操作だけで入力できるのでタブレットやスマホからも簡単にチェックシート入力が可能です。  
-テンプレートに[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)を追加すれば点検時の写真を添付することもできます。これは紙のチェックシートではなかなか難しいですが、電子化するとこういった副次的な恩恵もあります。
+テンプレートに[写真入力フォーム](/docs/template/binarys/#picture)を追加すれば点検時の写真を添付することもできます。これは紙のチェックシートではなかなか難しいですが、電子化するとこういった副次的な恩恵もあります。
 
 </p>
 
@@ -64,7 +64,7 @@ NipoPlusでチェックシートを作るには、テンプレートを編集し
 テンプレートは複数保存でき、点検時は使用するテンプレートを選び点検項目に沿って入力するだけです。
 
 </p>
-{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/manual/initial-setting/template/make/">}}
+{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/template/make/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/checksheet" msg="これはバルブ設備点検シートの例です。簡単に作れるよ"  alice="tablet">}}
@@ -95,8 +95,8 @@ NipoPlusでチェックシートを作るには、テンプレートを編集し
 <div class="col-lg-8">
 
 ✅ [入力必須機能で漏れを防止](/tips/required/#setting)  
-✅ [点検箇所を画像でわかりやすく説明](/docs/manual/initial-setting/template/make/#common_setting)  
-✅ [色分けで視認性向上](/docs/manual/initial-setting/template/selects/#color)  
+✅ [点検箇所を画像でわかりやすく説明](/docs/template/make/#common_setting)  
+✅ [色分けで視認性向上](/docs/template/selects/#color)  
 ✅ [入力順序をロックして手順遵守](/tips/required/#miss_care)
 
 </div>
@@ -105,7 +105,7 @@ NipoPlusでチェックシートを作るには、テンプレートを編集し
 ✅ [複数の点検シートを切り替えて利用可能](/docs/manual/write-report/write/#select_template)  
 ✅ [大きな文字サイズ](/reverse-lookup/view/fontsize/)で年輩の方も安心  
 ✅ [英語対応](/reverse-lookup/view/language/)でグローバルに活躍  
-✅ [動的な回答変化で無駄を省く](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)
+✅ [動的な回答変化で無駄を省く](/docs/template/selects/#dinamic_switch_select)
 
 </div>
 
@@ -202,7 +202,7 @@ CSVはエクセルでそのまま開くことが可能です。エクセル上�
 <p class="lead">
 
 NipoPlusはマルチデバイス対応です。  
-巡回点検に使用するなら携帯性の高いスマートフォンやタブレットがとても便利。カメラも当然搭載されているので、設備の点検箇所の[写真を撮影してそのままチェックシートに添付](/docs/manual/initial-setting/template/binarys/)することも可能です。  
+巡回点検に使用するなら携帯性の高いスマートフォンやタブレットがとても便利。カメラも当然搭載されているので、設備の点検箇所の[写真を撮影してそのままチェックシートに添付](/docs/template/binarys/)することも可能です。  
 また、掲載写真のように作業台に固定して点検結果を逐次入力するといった使い方も可能。
 
 初期設定やデータを他のアプリに使う場合はもちろんPCが便利です。  

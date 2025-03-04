@@ -8,7 +8,7 @@ weight = 50710
 +++
 
 {{< callout context="note" title="タイムカードを有効にする" icon="outline/info-circle" >}}
-タイムカードは初期状態で「無効」になっています。利用するには[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から「タイムカード」を有効にしてください
+タイムカードは初期状態で「無効」になっています。利用するには[グループ設定](/docs/setup/setting-group/#optionalFunction)から「タイムカード」を有効にしてください
 {{< /callout >}}
 
 ## タイムカード機能の概要{#about}
@@ -71,4 +71,4 @@ weight = 50710
 
 {{<icatch filename="img/timecard-list" msg="タイムカード一覧からタイムカードを入力することもできます" alice="book">}}
 
-[編集者権限](/docs/manual/initial-setting/staff/rank/)以上のスタッフは他のスタッフのタイムカードを閲覧、入力できます。編集者権限以上の方は他のスタッフのタイムカードを誤って入力しないように注意してください。
+[編集者権限](/docs/setup/staff-global/rank/)以上のスタッフは他のスタッフのタイムカードを閲覧、入力できます。編集者権限以上の方は他のスタッフのタイムカードを誤って入力しないように注意してください。

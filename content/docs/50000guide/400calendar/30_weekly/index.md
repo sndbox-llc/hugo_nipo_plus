@@ -10,7 +10,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 {{< callout context="note" title="スタッフ別に予定を見たいときは[日カレンダー](/docs/manual/calendar/dayly/)をご利用ください" icon="outline/info-circle" />}}
 

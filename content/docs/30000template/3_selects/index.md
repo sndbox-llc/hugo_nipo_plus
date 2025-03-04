@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/selects/"
-# aliases = ["/docs/manual/initial-setting/template/selects/"]
+url = "/docs/template/selects/"
+aliases = ["/docs/manual/initial-setting/template/selects/"]
 title = "選択入力系のパーツ"
 menuTitle = "🧩選択入力系"
 description = "日報や点検シート、機械点検、品質チェックに最適な入力フォームです。これらのパーツを自由に選んで自社オリジナルの点検フォームを簡単に作成できます"
@@ -62,14 +62,14 @@ NipoPlusでは以下の種類があります。
   <dt>選択肢を直接指定</dt>
   <dd>すぐ下の「選択肢」エリアに選択肢を入力できます。初期値はこの方式です</dd>
   <dt>選択肢を語録から取得</dt>
-  <dd>語録を使って単語を指定。以下のケースで導入を検討してください。<ul><li>選択肢の単語リストを使いまわしたい場合</li><li>選択肢をレポート作成時に自由に追加したい場合</li></ul><br>詳しくは<a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録</a>を参照</dd>
+  <dd>語録を使って単語を指定。以下のケースで導入を検討してください。<ul><li>選択肢の単語リストを使いまわしたい場合</li><li>選択肢をレポート作成時に自由に追加したい場合</li></ul><br>詳しくは<a href="/docs/setup/advanced-setting/goroku/">語録</a>を参照</dd>
   <dt>入力方式</dt>
   <dd>以下から選択します。<ul><li>ラジオ式</li><li>プルダウン式</li></ul><br>プルダウンは検索が使えるため単語が多い場合に推奨</dd>
   <dt>その他の入力を許可する</dt>
   <dd>選択肢に存在しない入力が必要なとき、キーボードで直接入力することを許可します。（単語が増えるわけではなく、１回きりの使い捨てです）</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 [単語の色分け](#color)をするにはこちらをご覧ください
 
@@ -150,7 +150,7 @@ CSV出力に限っては選択肢（単体）の方が加工がしやすい形�
 ## ２層式選択（非推奨）{#layerd}
 
 {{< callout context="caution" title="２層式は非推奨" icon="outline/alert-triangle" >}}
-代わりに[動的変化](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)をご利用ください
+代わりに[動的変化](/docs/template/selects/#dinamic_switch_select)をご利用ください
 {{< /callout >}}
 
 <details>
@@ -185,7 +185,7 @@ graph LR;
   <dd>〜〜には「選択肢」で追加した項目が入ります。選択肢の数だけこの項目が生成されます。</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 [単語の色分け](#color)も可能です
 
 [単語の色分け](#color)をするにはこちらをご覧ください
@@ -245,7 +245,7 @@ graph LR;
 
 {{< callout context="note" title="この機能は有料プラン限定です" icon="outline/info-circle" />}}
 
-[選択式入力フォーム（単）](/docs/manual/initial-setting/template/selects/#plain)・及び[選択式入力フォーム（複）](/docs/manual/initial-setting/template/selects/#multiple)は他の選択式入力フォームの回答結果により自身の選択肢のリストを動的に変更する機能があります。
+[選択式入力フォーム（単）](/docs/template/selects/#plain)・及び[選択式入力フォーム（複）](/docs/template/selects/#multiple)は他の選択式入力フォームの回答結果により自身の選択肢のリストを動的に変更する機能があります。
 これを動的変化機能といいます。
 
 例として、地域に「北関東」を選ぶと支店の選択肢が「栃木県宇都宮支店・栃木県栃木市支店・栃木県日光支店」に変化するような小細工ができます。
@@ -268,11 +268,11 @@ graph LR;
 <dd>変化させたいリストを記述します。北関東が選ばれたときは「宇都宮支店・栃木市支店」のように列挙します</dd>
 </dl>
 
-例えば[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)（単）を参照先として指定するには次の画像のようになります。
+例えば[選択式入力フォーム](/docs/template/selects/#plain)（単）を参照先として指定するには次の画像のようになります。
 
 {{<iTablet filename="img/dinamic-selection-setting" msg="他のデータによって自分のデータを変化させることができるよ。まるでプログラマみたい" alice="pc">}}
 
-[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#multiple)（複）を参照先として指定する場合、参照先の値は複数選択することになりますが、**すべてにマッチしたとき条件が成立**となります。一部一致ではありません。
+[選択式入力フォーム](/docs/template/selects/#multiple)（複）を参照先として指定する場合、参照先の値は複数選択することになりますが、**すべてにマッチしたとき条件が成立**となります。一部一致ではありません。
 
 #### 複数条件がある場合の優先度{#priolity}
 
@@ -281,14 +281,14 @@ graph LR;
 
 ### 条件を満たしていませんと表示されるとき{#error_case}
 
-[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)を動的変化させるには、トリガーとなるための参照先フォームが必要です。極端な話、テンプレート内にフォームが１個しかない場合、そもそも参照する対象が無いため利用できません。
+[選択式入力フォーム](/docs/template/selects/#plain)を動的変化させるには、トリガーとなるための参照先フォームが必要です。極端な話、テンプレート内にフォームが１個しかない場合、そもそも参照する対象が無いため利用できません。
 条件を満たしていないとき、動的変化の画面には「このテンプレートでは動的変化をつかう条件を満たしていません」と表示され、追加ボタンが表示されなくなります。
 
 {{<icatch filename="img/disable-dinamic" msg="なんで利用できないのかな？条件をよく見直してみよう"  alice="question">}}
 
 動的変化を使用する具体的な条件は以下のとおりです。
 
-- 自身の[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の他に別の[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)が存在すること（単・複どちらでも可）
+- 自身の[選択式入力フォーム](/docs/template/selects/#plain)の他に別の[選択式入力フォーム](/docs/template/selects/#plain)が存在すること（単・複どちらでも可）
 - 上記のフォームが「語録機能」を無効にしていること
 - [無料プラン](/docs/price/free/)では無いこと
 
@@ -327,7 +327,7 @@ Version 1.62.0から動的変化を反復入力と組み合わせて使用でき
 </dl>
 メモの使われ方がチェックボックスだけ他の項目と異なり、ボックスの横に配置されるという点にだけ注意してください。
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 チェックボックスのデータは集計対象です。過去データ推移や累積、そこからグラフの作成も可能です。
 

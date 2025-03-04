@@ -38,18 +38,18 @@ NipoPlusではNipoで抱えていた様々な拡張性の課題を抜本的に�
 
 ### 組織概念の導入による統括管理の強化{#manage_group}
 
-Nipo【旧版】からNipoPlusへの移行で大きく変わった点の一つが、[組織概念](/docs/manual/initial-setting/_about/)の導入です。Nipo【旧版】では、スタッフを[グループ](/legacy/manual/group/)に招待し、そのグループ内で日報をやり取りする仕組みでした。
+Nipo【旧版】からNipoPlusへの移行で大きく変わった点の一つが、[組織概念](/docs/setup/_about/)の導入です。Nipo【旧版】では、スタッフを[グループ](/legacy/manual/group/)に招待し、そのグループ内で日報をやり取りする仕組みでした。
 最も身近な例としては、チャットアプリのグループチャットが挙げられますが、個人が自由にグループを作成したり退出したりできるため、会社組織全体としての管理が事実上不可能でした。  
 個人アカウントを中心に設計されていたため、例えば管理者であっても従業員のアカウントを無効化することができませんでした。
 
-NipoPlusでは、これらの問題を解決しました。ユーザーは必ずある組織に所属し、組織内の[管理者が全ユーザーのアカウントを管理](/docs/manual/initial-setting/staff/manage/)できるようになりました。
+NipoPlusでは、これらの問題を解決しました。ユーザーは必ずある組織に所属し、組織内の[管理者が全ユーザーのアカウントを管理](/docs/setup/staff-global/manage/)できるようになりました。
 Nipo【旧版】に存在した「グループ」の概念は残りつつも、それらはすべて組織内で設定されます。
-[組織下でグループを自由に分割](/docs/manual/initial-setting/make-group/)し、運用できるようになりました。  
+[組織下でグループを自由に分割](/docs/setup/make-group/)し、運用できるようになりました。  
 料金体系も変更され、[Nipo【旧版】ではグループ単位での課金](/legacy/system/price/)でしたが、[NipoPlusでは組織内のアカウント総数に基づいて課金](/docs/price/fee/)されるため、複数のグループを持つ場合でもコストを抑えることができます。
 
 {{<icatch filename="img/group" msg="グループの追加所属管理者が一元管理可"  alice="here">}}
 
-[参照:初期設定・組織について](/docs/manual/initial-setting/_about/)
+[参照:初期設定・組織について](/docs/setup/_about/)
 
 ### 使用サーバの変更とそれに伴うコストダウン{#row_cost}
 
@@ -77,19 +77,19 @@ Nipo【旧版】に比べて各入力フォームの幅をより柔軟に変更�
 
 {{<icatch filename="img/report-template" msg="テンプレートの 設計自由度がUP" alice="here">}}
 
-Nipo【旧版】は１行に最大で２列までしか追加できなかったため、上画像のようなテンプレートは物理的に作れませんでしたが、[NipoPlusでは1行に最大12列追加](/docs/manual/initial-setting/template/make/)できるようになりました。
+Nipo【旧版】は１行に最大で２列までしか追加できなかったため、上画像のようなテンプレートは物理的に作れませんでしたが、[NipoPlusでは1行に最大12列追加](/docs/template/make/)できるようになりました。
 また、NipoPlusではいくつかの入力フォームも追加されました
 
-- [ファイル入力フォーム](/docs/manual/initial-setting/template/binarys/#file)
-- [算術入力フォーム](/docs/manual/initial-setting/template/digital/#calc)
-- [期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)
-- [反復入力フォーム](/docs/manual/initial-setting/template/array/)
+- [ファイル入力フォーム](/docs/template/binarys/#file)
+- [算術入力フォーム](/docs/template/digital/#calc)
+- [期間入力フォーム](/docs/template/date_time/#range)
+- [反復入力フォーム](/docs/template/array/)
 
-[反復入力](/docs/manual/initial-setting/template/array/)フォームはNipo【旧版】にも有りましたが大幅なレベルアップをしているので新規追加と言っても良いレベルです。そのためリストに掲載させていただきました。
+[反復入力](/docs/template/array/)フォームはNipo【旧版】にも有りましたが大幅なレベルアップをしているので新規追加と言っても良いレベルです。そのためリストに掲載させていただきました。
 他にも見出しの色変え機能や説明用画像の添付、入力順序の制御など、数多くの機能がNipoPlusにて実装されました。
-選択肢１に応じて他の選択肢が変化する[動的変化機能](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)など、ユニークな機能も追加されています。
+選択肢１に応じて他の選択肢が変化する[動的変化機能](/docs/template/selects/#dinamic_switch_select)など、ユニークな機能も追加されています。
 
-{{< link-card title="テンプレート概要" description="より自由度が高くなりました" href="/docs/manual/initial-setting/template/make/" >}}
+{{< link-card title="テンプレート概要" description="より自由度が高くなりました" href="/docs/template/make/" >}}
 
 ### レポートの検索もこれまで以上に多機能に{#report_search}
 
@@ -153,14 +153,14 @@ NipoPlusでは通知にすべてリンクが貼られ、クリックでその日
 ただ積極的な開発は行われることはありません。定期的なメンテナンスとセキュリティ・アップデートに留まります。
 
 乗り換えを検討するうえで重要な点として**使用しているサーバが異なるため、基本的にデータの引き継ぎはできない点**です。
-日報テンプレートはJSON形式でNipo【旧版】からエクスポートしたあと、[NipoPlusにインポートする](/docs/manual/initial-setting/template/make/#import_old)形で引き継ぎが可能ですが、アカウントや過去の日報、コメントのやり取りといった多くのデータは引き継ぎできません。
+日報テンプレートはJSON形式でNipo【旧版】からエクスポートしたあと、[NipoPlusにインポートする](/docs/template/make/#import_old)形で引き継ぎが可能ですが、アカウントや過去の日報、コメントのやり取りといった多くのデータは引き継ぎできません。
 
 ### 引き継ぎが不可能でもNipoPlusへの移行を希望する場合{#migration_no_transfer}
 
 データ引き継ぎが不可能でもNipoPlusへ乗り換えたいという方が思いの外多いため、筆を執っています。
 前述の通り引き継ぎはできないため、NipoPlusへは新規でアカウントを作成していただく必要があります。
 テンプレートは必要に応じてインポートしていただけますが、NipoPlusのほうがテンプレートについてもより細かい制御が可能になるため、余裕があれば１から作り直していただくのが理想です。
-例えば幅の制御が細かくできるようになったり、[入力順序の指定](/docs/manual/initial-setting/template/make/#input_control)もできるようになっています。
+例えば幅の制御が細かくできるようになったり、[入力順序の指定](/docs/template/make/#input_control)もできるようになっています。
 
 ### 具体的な流れ{#specific_steps}
 

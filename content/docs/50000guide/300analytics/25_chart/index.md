@@ -10,7 +10,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 グラフは「推移表」「累積表」のデータを元に作成されます。推移表や累積表をグラフ化することで視覚的にデータを見ることができます。
 NipoPlusでは次のようなグラフを作成可能です
@@ -101,19 +101,19 @@ NipoPlusでは次のようなグラフを作成可能です
 <dd>
 単語の選ばれた回数を集計できます。以下のフォームが該当します
 <ul>
-<li><a href="/docs/manual/initial-setting/template/selects/#plain">選択式（単）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/selects/#multiple">選択式（複）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/selects/#layerd">選択式（階層）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/digital/#rate">レート入力フォーム</a></li>
+<li><a href="/docs/template/selects/#plain">選択式（単）フォーム</a></li>
+<li><a href="/docs/template/selects/#multiple">選択式（複）フォーム</a></li>
+<li><a href="/docs/template/selects/#layerd">選択式（階層）フォーム</a></li>
+<li><a href="/docs/template/digital/#rate">レート入力フォーム</a></li>
 </ul>
 </dd>
 <dt>合計の集計</dt>
 <dd>
 単純に合算した集計ができます。以下のフォームが該当します
 <ul>
-<li><a href="/docs/manual/initial-setting/template/date_time/#range">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
-<li><a href="/docs/manual/initial-setting/template/digital/#commonNumber">数値入力フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/digital/#slider">スライダ入力フォーム</a></li>
+<li><a href="/docs/template/date_time/#range">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
+<li><a href="/docs/template/digital/#commonNumber">数値入力フォーム</a></li>
+<li><a href="/docs/template/digital/#slider">スライダ入力フォーム</a></li>
 </ul>
 </dl>
 
@@ -121,7 +121,7 @@ NipoPlusでは次のようなグラフを作成可能です
 
 ### 選択式入力フォームを数値として集計する{#text}
 
-[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の単語は選ばれた回数を集計でき、それをグラフ化することが可能です。
+[選択式入力フォーム](/docs/template/selects/#plain)の単語は選ばれた回数を集計でき、それをグラフ化することが可能です。
 選択肢入力フォームをグラフ化するには円グラフが適しています。
 
 {{<iTablet filename="img/circle" msg="選択肢のデータは円グラフと相性が良いよ" alice="pc">}}

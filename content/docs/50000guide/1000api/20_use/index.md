@@ -118,7 +118,7 @@ EOS
 <dt>from・to</dt>
 <dd>検索期間を2022年8月1日〜2022年9月30日に指定しています　</dd>
 <dt>tags</dt>
-<dd>タグによるフィルタを使う場合に指定します。タグ名ではなくタグのIDで指定します。タグのIDは<a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ管理</a>から確認できます</dd>
+<dd>タグによるフィルタを使う場合に指定します。タグ名ではなくタグのIDで指定します。タグのIDは<a href="/docs/setup/advanced-setting/tag/">タグ管理</a>から確認できます</dd>
 <dt>states</dt>
 <dd>レポートの状態によるフィルタを使う場合に指定します。この例では新規、進行、棄却のレポートのみを取得します（承認や修正のレポートは除外）</dd>
 <dt>templates</dt>
@@ -213,7 +213,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 
 ### 組織全体のエンドポイント{#org}
 
-組織全体に関する情報のためアクセスには[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です。
+組織全体に関する情報のためアクセスには[管理者権限](/docs/setup/staff-global/rank/)が必要です。
 
 <dl class="basic">
   <dt>/staffs/admin</dt>

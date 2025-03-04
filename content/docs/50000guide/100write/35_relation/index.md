@@ -14,7 +14,7 @@ weight = 50135
 
 複数人でレポートを引き継ぎながら作成し、１つのレポートとして作成する機能が実装されました。  
 この機能はデフォルトで「無効」になっているため、使用するには手動で機能を有効にする必要があります。  
-機能の設定変更は[グループの基本設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から行ってください。
+機能の設定変更は[グループの基本設定](/docs/setup/setting-group/#optionalFunction)から行ってください。
 
 {{< callout context="caution" title="レポートの秘匿は無効" icon="outline/info-circle" >}}
 引継途中のレポートはグループ内の「Writer権限」以上のスタッフは全員が閲覧可能な状態となります。  

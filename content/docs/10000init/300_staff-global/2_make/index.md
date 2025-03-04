@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/staff/make/"
-# aliases = ["/docs/manual/initial-setting/staff/make/"]
+url = "/docs/setup/staff-global/make/"
+aliases = ["/docs/manual/initial-setting/staff/make/"]
 title = "スタッフのアカウント作成"
 menuTitle = "🆕スタッフのアカウント作成"
 description = "スタッフアカウントを作りグループに所属させればすぐにレポートの作成が可能になります。本ページはアカウント作成に関する操作ガイドです"
@@ -12,14 +12,14 @@ contributors = []
 
 ## 1件のアカウントを作成する{#create_account_one}
 
-スタッフのアカウントを作成することができるのは[管理者](/docs/manual/initial-setting/staff/rank/)に限られます。
+スタッフのアカウントを作成することができるのは[管理者](/docs/setup/staff-global/rank/)に限られます。
 アカウントを作ると自動で組織内にアカウントが追加されます。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 1. 「スタッフ管理」の中の「新規作成」をクリック
 1. 必要事項を入力して「作成」をクリック（E-mailのみ必須）
 
-まずはメニューから[左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)します。（このボタンは管理者権限以外表示されません）
+まずはメニューから[左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)します。（このボタンは管理者権限以外表示されません）
 組織設定画面に切り替わったら「スタッフ管理」セクションの「新規作成」をクリックします。
 
 {{<icatch filename="img/create-new-staff" msg="組織内にスタッフのアカウントを追加します" alice="guide">}}
@@ -32,7 +32,7 @@ E-mailのみ必須で、それ以外の項目は任意です。
 <dd>スタッフのメールアドレスです。ログインIDとしても使用されます。【入力必須】</dd>
 <dt>名前</dt>
 <dd>スタッフの名前です</dd>
-<dt><a href="/docs/manual/initial-setting/staff/rank/">権限</a></dt>
+<dt><a href="/docs/setup/staff-global/rank/">権限</a></dt>
 <dd>スタッフの権限を指定します。「管理者・編集者・スタッフ・書き込みのみ・ゲスト」から選択します</dd>
 <dt>初期パスワード</dt>
 <dd>ログイン時に使用する初期のログインパスワードです。自動でセットされますが「パスワードを変える」にチェックをいれることで変更することも可能です</dd>
@@ -114,7 +114,7 @@ NipoPlusでは[無料プラン](/docs/price/free/)の条件として4アカウ�
 ログイン不可能なアカウントはその性質上、多くの制限があります
 
 - ログイン不可能なアカウントは権限の設定が**提出のみ**で固定されます。
-- ログイン不可能なアカウントは単体では利用できません。必ず他のスタッフの[共用](/docs/manual/initial-setting/staff-local/share/)として設定する必要があります。
+- ログイン不可能なアカウントは単体では利用できません。必ず他のスタッフの[共用](/docs/setup/staff-local/share/)として設定する必要があります。
 
 ログイン不可能なアカウントは、ログイン可能な通常のアカウントでログインされている**通常アカウントを間借りしてレポートの作成**を行います。
 [レポート作成](/docs/manual/write-report/write/)の際、提出者を選択する欄から利用者の名前を選択して[レポートを書く](/docs/manual/write-report/write/)ことができます。
@@ -130,7 +130,7 @@ NipoPlusでは[無料プラン](/docs/price/free/)の条件として4アカウ�
 
 ## スタッフのアカウントを無効化する{#disable}
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 1. スタッフ管理の項までスクロール
 1. 無効化するスタッフの「状態」列にあるボタンをクリック
 1. ボタンが赤色になれば無効化完了

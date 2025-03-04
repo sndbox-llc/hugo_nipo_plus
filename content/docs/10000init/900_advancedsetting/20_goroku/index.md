@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/advanced-setting/goroku/"
-# aliases = ["/docs/manual/initial-setting/advanced-setting/goroku/"]
+url = "/docs/setup/advanced-setting/goroku/"
+aliases = ["/docs/manual/initial-setting/advanced-setting/goroku/"]
 title = "📚語録管理"
 description = "語録管理機能を活用して、選択肢の効率的な作成と管理を実現する方法を解説。選択式入力フォームと組み合わせることで、大量の選択肢をスムーズに扱い、リストの再利用や動的な追加が可能になります。語録の作成、編集、整理、削除方法も詳しく説明"
 toc = true
@@ -10,18 +10,18 @@ contributors = []
 +++
 
 {{< callout context="caution" title="単体では機能しません" icon="outline/alert-triangle" >}}
-語録は[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)と組み合わせて使用する必要が有ります。
+語録は[選択式入力フォーム](/docs/template/selects/#plain)と組み合わせて使用する必要が有ります。
 {{< /callout >}}
 
 ## 語録機能とは？{#about}
 
 語録とはシンプルな単語の集まり（単語帳）です。
-語録単体では機能せず、[選択式入力フォーム（単体）](/docs/manual/initial-setting/template/selects/#plain)または[選択式入力フォーム（複数）](/docs/manual/initial-setting/template/selects/#multiple)と組み合わせて使用します。
+語録単体では機能せず、[選択式入力フォーム（単体）](/docs/template/selects/#plain)または[選択式入力フォーム（複数）](/docs/template/selects/#multiple)と組み合わせて使用します。
 語録を無理に使う必要は有りませんが、以下のケースでは語録を使うほうがスムーズです
 
 - 選択肢の数が非常に多い場合
 - 流動的に選択肢のリストを追加・削除したい場合
-- 選択肢のリストを使いまわしたい時（複数の[テンプレート](/docs/manual/initial-setting/template/make/)で同じ選択肢を使いたい場合や同一テンプレート内の複数箇所で再利用したい場合）
+- 選択肢のリストを使いまわしたい時（複数の[テンプレート](/docs/template/make/)で同じ選択肢を使いたい場合や同一テンプレート内の複数箇所で再利用したい場合）
 
 ## 語録を作成する{#make}
 
@@ -42,7 +42,7 @@ contributors = []
 
 ## 語録を使う{#usage}
 
-[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)と組み合わせて利用します。
+[選択式入力フォーム](/docs/template/selects/#plain)と組み合わせて利用します。
 選択式入力フォームの設定画面から「語録を使用する」にチェックを入れ、作成した語録を選ぶことで使用できます。
 
 {{<iTablet filename="img/goroku" msg="テンプレートの編集画面から語録を使用するにチェックを入れます" alice="here">}}

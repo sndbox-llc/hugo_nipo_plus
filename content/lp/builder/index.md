@@ -96,7 +96,7 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 
 ### 現場の状況を写真で報告{#photo_report}
 
-スマートフォンやタブレットで工事標識板や工事現場の風景を撮影し、その[画像](/docs/manual/initial-setting/template/binarys/#picture)を日報に直接添付。作業の進捗や注意点を視覚的に伝えることができます。
+スマートフォンやタブレットで工事標識板や工事現場の風景を撮影し、その[画像](/docs/template/binarys/#picture)を日報に直接添付。作業の進捗や注意点を視覚的に伝えることができます。
 
 ### スマホ・タブレットのみで日報作成が可能{#mobile_report}
 

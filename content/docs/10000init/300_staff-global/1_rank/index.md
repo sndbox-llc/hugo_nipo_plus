@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/staff/rank/"
-# aliases = ["/docs/manual/initial-setting/staff/rank/"]
+url = "/docs/setup/staff-global/rank/"
+aliases = ["/docs/manual/initial-setting/staff/rank/"]
 title = "🔑スタッフの権限"
 menuTitle = "🔑権限について"
 description = "スタッフアカウントには権限があります。権限のランクによって操作できる範囲が変わります。本ページは権限に関する操作ガイドです。権限は「管理者」と「編集者」と「スタッフ」の3種類が主たる権限です。それ以外にもありますがまずはこの3つを理解してください"
@@ -11,7 +11,7 @@ contributors = []
 +++
 
 {{< callout context="caution" title="類似ページ注意" icon="outline/info-triangle" >}}
-各グループ内のスタッフ管理については[グループ内のスタッフ管理](/docs/manual/initial-setting/staff-local/_about/)を参照してください
+各グループ内のスタッフ管理については[グループ内のスタッフ管理](/docs/setup/staff-local/_about/)を参照してください
 {{< /callout >}}
 
 スタッフアカウントには全員いづれかの権限が設定されます。
@@ -25,23 +25,23 @@ contributors = []
 <dd>
 組織内に1名以上必須。最も高い権限。以下の操作は管理者のみ可能です
 <ul>
-<li><a href="/docs/manual/initial-setting/make-group/">グループの作成</a></li>
-<li><a href="/docs/manual/initial-setting/make-group/#disable">グループの削除</a></li>
-<li><a href="/docs/manual/initial-setting/staff/make/">スタッフの作成</a></li>
-<li><a href="/docs/manual/initial-setting/staff/make/#remove">スタッフの削除</a></li>
+<li><a href="/docs/setup/make-group/">グループの作成</a></li>
+<li><a href="/docs/setup/make-group/#disable">グループの削除</a></li>
+<li><a href="/docs/setup/staff-global/make/">スタッフの作成</a></li>
+<li><a href="/docs/setup/staff-global/make/#remove">スタッフの削除</a></li>
 <li>スタッフの権限変更</li>
 </ul>
 </dd>
 <dt>編集者</dt>
 <dd>
-<a href="/docs/manual/initial-setting/setting-group/">グループ内の設定</a>を全て操作可能な権限です。グループ内の代表という立ち位置になります。
+<a href="/docs/setup/setting-group/">グループ内の設定</a>を全て操作可能な権限です。グループ内の代表という立ち位置になります。
 <ul>
-<li><a href="/docs/manual/initial-setting/template/make/">テンプレートの作成</a></li>
-<li><a href="/docs/manual/initial-setting/staff-local/dist/">レポート提出先の指定</a></li>
+<li><a href="/docs/template/make/">テンプレートの作成</a></li>
+<li><a href="/docs/setup/staff-local/dist/">レポート提出先の指定</a></li>
 <li>グループからスタッフを追放する</li>
 </dd>
 <dt>スタッフ</dt>
-<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>や集計など一般的なことが行なえますが、<a href="/docs/manual/initial-setting/setting-group/">グループ全体に関する設定</a>は一切できません。一般的な従業員はこの権限を利用して下さい</dd>
+<dd><a href="/docs/manual/write-report/write/">レポートの作成</a>や集計など一般的なことが行なえますが、<a href="/docs/setup/setting-group/">グループ全体に関する設定</a>は一切できません。一般的な従業員はこの権限を利用して下さい</dd>
 </dl>
 
 ## 少し特殊な権限{#others}

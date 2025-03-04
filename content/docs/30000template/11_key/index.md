@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/key/"
-# aliases = ["/docs/manual/initial-setting/template/key/"]
+url = "/docs/template/key/"
+aliases = ["/docs/manual/initial-setting/template/key/"]
 title = "誤って削除したフォームの復旧とキーについて"
 menuTitle = "【応用】キーについて"
 description = "テンプレート内の入力フォームを削除する方法と、誤って削除した際の復旧方法について"
@@ -16,7 +16,7 @@ contributors = []
 
 ## 入力フォームを誤って削除してしまった場合の救出 {#about}
 
-テンプレートをいつでも[自由にカスタマイズ](/docs/manual/initial-setting/template/make/)できるのは便利ですが、テンプレート内の[入力フォームを削除する際](/docs/manual/initial-setting/template/make/#removeForm)は注意が必要です。
+テンプレートをいつでも[自由にカスタマイズ](/docs/template/make/)できるのは便利ですが、テンプレート内の[入力フォームを削除する際](/docs/template/make/#removeForm)は注意が必要です。
 テンプレート内のフォームを削除して保存すると、再度同じ項目を追加しても削除前に作られたレポート上にはその項目のデータが表示されません。
 （※レポート作成時にこの項目は存在しませんでした。と表示されます）
 

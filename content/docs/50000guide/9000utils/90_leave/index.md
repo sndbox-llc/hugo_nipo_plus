@@ -16,9 +16,9 @@ contributors = []
 
 ## 退会の手順{#leaveMethod}
 
-退会処理には[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です。
+退会処理には[管理者権限](/docs/setup/staff-global/rank/)が必要です。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 2. 組織全般までスクロール
 3. 退会をクリック
 4. 管理者のパスワードを入力

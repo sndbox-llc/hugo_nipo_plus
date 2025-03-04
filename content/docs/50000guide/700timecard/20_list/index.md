@@ -19,7 +19,7 @@ weight = 50720
 タイムカードの表示期間を変更するには画面右上のカレンダーから操作します。
 また、表示するスタッフを切り替えるには画面右下のスタッフ名を変更してください。
 
-{{< callout context="caution" title="自分以外のタイムカードを表示するには[編集者権限]((/docs/manual/initial-setting/staff/rank/))が必要です" icon="outline/alert-triangle" />}}
+{{< callout context="caution" title="自分以外のタイムカードを表示するには[編集者権限]((/docs/setup/staff-global/rank/))が必要です" icon="outline/alert-triangle" />}}
 
 ### タイムカードの内容について{#content}
 
@@ -55,9 +55,9 @@ weight = 50720
   <dt>歴</dt>
   <dd>タイムカードの修正履歴がある場合ここにボタンが表示されます。ボタンをクリックすると編集履歴が確認できます</dd>
   <dt>ゴミ箱アイコン</dt>
-  <dd>タイムカードを削除します。削除には<a href="/docs/manual/initial-setting/staff/rank/">編集者権限</a>が必要です。改ざん防止の為削除した際はそのログデータが残ります。ログデータを削除することはできません。</dd>
+  <dd>タイムカードを削除します。削除には<a href="/docs/setup/staff-global/rank/">編集者権限</a>が必要です。改ざん防止の為削除した際はそのログデータが残ります。ログデータを削除することはできません。</dd>
   <dt>編集アイコン</dt>
-  <dd>タイムカードの内容を修正します。改ざん防止の為修正したタイムカードは修正履歴が残ります。前述した「歴」のセルから編集履歴が確認できます。編集履歴の確認には<a href="/docs/manual/initial-setting/staff/rank/">編集者権限</a>が必要になります</dd>
+  <dd>タイムカードの内容を修正します。改ざん防止の為修正したタイムカードは修正履歴が残ります。前述した「歴」のセルから編集履歴が確認できます。編集履歴の確認には<a href="/docs/setup/staff-global/rank/">編集者権限</a>が必要になります</dd>
   <dt>id</dt>
   <dd>タイムカードに自動で割り当てられたIDです</dd>
 </dl>
@@ -107,7 +107,7 @@ weight = 50720
   <summary>タイムカードの削除について</summary>
 
 タイムカードは労働時間の把握、ひいてはお給料の計算にも使われることが考えられるため、削除には厳格なルールと権限が設けられています。
-タイムカードの削除には[編集者権限](/docs/manual/initial-setting/staff/rank/)以上が必要で、なおかつ削除した[履歴](/docs/manual/utils/log/)が残り、[通知も発行](/docs/manual/utils/notice/#app_notify)されます。
+タイムカードの削除には[編集者権限](/docs/setup/staff-global/rank/)以上が必要で、なおかつ削除した[履歴](/docs/manual/utils/log/)が残り、[通知も発行](/docs/manual/utils/notice/#app_notify)されます。
 タイムカード削除が必ずしも悪い行為というわけでは有りません。誤操作による重複タイムカードなどは削除が必要です。
 
 ### タイムカードを削除する{#remove}

@@ -8,7 +8,7 @@ weight = 59030
 aliases = []
 +++
 
-{{< callout context="note" title="ログがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="ログがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 グループ内の様々な出来事はログデータとして自動保存されます。ログは改ざん防止のため**読み取り専用**であり、管理者であってもログの書き換えや削除はできません。
 ログデータは2年以上保存されます。それを超えた古いログは一定期間ごとに削除されます。

@@ -29,7 +29,7 @@ NipoPlusはログインしたうえで、自身にアクセス権のあるレポ
 
 {{<icatch filename="img/linkmake" msg="リンク作成ボタンを押すとURLが作られます" alice="ok">}}
 
-リンクの作成には[スタッフ権限](/docs/manual/initial-setting/staff/rank/#staff)以上が必要です。（書き込みのみ権限では生成出来ません）
+リンクの作成には[スタッフ権限](/docs/setup/staff-global/rank/#staff)以上が必要です。（書き込みのみ権限では生成出来ません）
 
 ## 共有リンクをクリックして表示されるレポート
 

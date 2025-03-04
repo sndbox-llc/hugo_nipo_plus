@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/make/"
-# aliases = ["/docs/manual/initial-setting/template/make/"]
+url = "/docs/template/make/"
+aliases = ["/docs/manual/initial-setting/template/make/"]
 title = "レポート用のテンプレートを自作する"
 menuTitle = "⚙テンプレートの作成"
 description = "パーツをブロックのように組み合わせるだけで専門知識がなくてもオリジナルのテンプレートを簡単に作成できます。作成したテンプレートはスマホやタブレット・PCからレポート作成時に使用されます"
@@ -19,7 +19,7 @@ contributors = []
 ### たくさんのテンプレートも効率よく管理{#template_limit}
 
 テンプレートは各グループごとに作成、管理されます。[有料プラン](/docs/price/_about/#fee)では1つのグループで最大999種類のテンプレートを作成、管理できます。
-数が多い場合は[フォルダ分け](/docs/manual/initial-setting/template/directory/)や[タグ付け](/docs/manual/initial-setting/advanced-setting/tag/)を使って効率よく管理できます。
+数が多い場合は[フォルダ分け](/docs/template/directory/)や[タグ付け](/docs/setup/advanced-setting/tag/)を使って効率よく管理できます。
 例えば月曜日や火曜日といった曜日ごとに使うテンプレートが変わる場合は曜日ごとのタグを作ることで効率よく管理できます。
 複数種類扱えるので日報だけでなく、設備点検、品質チェック、5Sチェックシートなど様々なテンプレートを作成して活用できます。
 どのようなテンプレートが作れるか[一例を紹介しているページ](/tips/userfriendly/)も御覧ください
@@ -103,18 +103,18 @@ graph LR;
 入力フォームは大きく分けて6種類あります。
 
 <dl class="basic">
-<dt><a href="/docs/manual/initial-setting/template/text/">文字入力系</a></dt>
+<dt><a href="/docs/template/text/">文字入力系</a></dt>
 <dd>本文の入力や住所といったシンプルな文字入力に最適です。</dd>
-<dt><a href="/docs/manual/initial-setting/template/selects/">選択入力系</a></dt>
+<dt><a href="/docs/template/selects/">選択入力系</a></dt>
 <dd>予め回答を用意しておき、選ぶだけで入力できるお手軽入力です</dd>
-<dt><a href="/docs/manual/initial-setting/template/date_time/">日付入力</a></dt>
+<dt><a href="/docs/template/date_time/">日付入力</a></dt>
 <dd>作業時間や予定の日時など、日付関係はこれで決まりです。期間指定をするとかかった合計時間も自動で算出します</dd>
-<dt><a href="/docs/manual/initial-setting/template/binarys/">署名・写真系</a></dt>
+<dt><a href="/docs/template/binarys/">署名・写真系</a></dt>
 <dd>作業現場の写真や顧客の受領サイン、ファイルなど、いわゆるバイナリ系のデータをレポートに添付できます</dd>
-<dt><a href="/docs/manual/initial-setting/template/digital/">数値系</a></dt>
+<dt><a href="/docs/template/digital/">数値系</a></dt>
 <dd>売上高や訪問件数、走行距離など数値として扱えるものはこれできまり。数値なので集計機能との相性も抜群です</dd>
 <dt>その他</dt>
-<dd><a href="/docs/manual/initial-setting/template/array/">反復入力</a>や<a href="/docs/manual/initial-setting/template/mod/">商品入力</a>など、ちょっとユニークなフォームもあります。詳しくはそれぞれのページでご確認ください</dd>
+<dd><a href="/docs/template/array/">反復入力</a>や<a href="/docs/template/mod/">商品入力</a>など、ちょっとユニークなフォームもあります。詳しくはそれぞれのページでご確認ください</dd>
 </dl>
 
 幅を狭くすると編集画面上でも狭くなります。
@@ -189,7 +189,7 @@ NipoPlusでは様々な入力フォームがあります。すべての入力フ
   <dd>文書番号の前に付される文字です。初期値は「No.」です</dd>
   <dt>1日1名あたりの提出枚数目安</dt>
   <dd>このレポートを1日に何枚提出するかの目安を指定できます。設定した場合、<a href="/docs/manual/write-report/write/#select_template">テンプレート選択画面</a>で進捗バーが表示されます</dd>
-  <dt><a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ</a></dt>
+  <dt><a href="/docs/setup/advanced-setting/tag/">タグ</a></dt>
   <dd>テンプレート選択時に探しやすくする目印です。タグによる検索もできます</dd>
 </dl>
 

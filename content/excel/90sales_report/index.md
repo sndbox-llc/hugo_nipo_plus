@@ -89,7 +89,7 @@ CSV出力を使えばこのようにたくさんのバラバラなレポート�
 
 これで約定率を求めることができました。
 
-{{< callout context="note" title="NipoPlusの[算術フォーム](/docs/manual/initial-setting/template/digital/#calc)を使って計算することもできます" icon="outline/info-circle" />}}
+{{< callout context="note" title="NipoPlusの[算術フォーム](/docs/template/digital/#calc)を使って計算することもできます" icon="outline/info-circle" />}}
 
 ### 各列の合計を求める（Sum関数）{#calc_sum}
 

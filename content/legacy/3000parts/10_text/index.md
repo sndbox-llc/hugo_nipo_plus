@@ -14,7 +14,7 @@ isNipo = true
 
 ## 1行テキスト入力フォーム{#display}
 
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/text/)です" icon="outline/note" />}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/template/text/)です" icon="outline/note" />}}
 
 その名の通り、１行しか入力できません。例えば**担当者名**や**地名**、**管理番号**などの入力に最適です。
 実際に日報を作成する画面では次のように表示されます。
@@ -53,9 +53,9 @@ a, e, o, コメント
 
 ## 複数行入力フォーム{#display}
 
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/text/)です" icon="outline/note" />}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/template/text/)です" icon="outline/note" />}}
 
-通常よく使われる、普通の[テキスト入力フォーム](/docs/manual/initial-setting/template/text/)エリアです。
+通常よく使われる、普通の[テキスト入力フォーム](/docs/template/text/)エリアです。
 文字の入力や色変え・マスクがけなどができます。**業務内容**や**ひきつぎ**など、さまざまな項目として使える最も一般的な項目と言えます
 
 {{<iTablet filename="img/multiline" msg="本文や引き継ぎ、明日の予定などに"  alice="ok">}}

@@ -37,17 +37,17 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 - レポートを[アカウントが無くても作成できる外部共有機能](/docs/manual/write-report/outside/)が実装されました
 - レポートを[アカウントがなくても読める外部共有機能](/docs/manual/read-report/outside/)が実装されました
-- [日付と時刻入力フォーム](/docs/manual/initial-setting/template/date_time/)で西暦を含む日付の場合、曜日が表示されるようになりました
+- [日付と時刻入力フォーム](/docs/template/date_time/)で西暦を含む日付の場合、曜日が表示されるようになりました
 
 #### {{<nipoPlusLogo 30>}} 2025/2/6 サーバサイドアップデート{#server20250206}
 
-- 書き込みのみ[権限](/docs/manual/initial-setting/staff/rank/)のスタッフも自分の書いたレポートのPDF出力ができるように修正しました
+- 書き込みのみ[権限](/docs/setup/staff-global/rank/)のスタッフも自分の書いたレポートのPDF出力ができるように修正しました
 
 #### {{<nipoPlusLogo 30>}} 2025/1/29 v1.68.0{#vp1_68_0}
 
 - [日報の引継機能](/docs/manual/write-report/relation/)が実装されました
 - [通知](/docs/manual/utils/notice/)に「引継」の項目が追加されました
-- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)で文字サイズを設定値により変化するように修正しました
+- [数値入力フォーム](/docs/template/digital/#commonNumber)で文字サイズを設定値により変化するように修正しました
 - スタッフの単体選択を解除できるようになりました
 
 <details>
@@ -86,8 +86,8 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 #### {{<nipoPlusLogo 30>}} 2024/12/9 v1.65.0{#vp1_65_0}
 
-- [日付と時刻入力フォーム](/docs/manual/initial-setting/template/date_time/#range)【日付・西暦有り】の入力形式を「日付」と「時刻」に分けることで操作性をUPしました
-- [日付と時刻入力フォーム](/docs/manual/initial-setting/template/date_time/#range)に初期値を指定できるようになりました
+- [日付と時刻入力フォーム](/docs/template/date_time/#range)【日付・西暦有り】の入力形式を「日付」と「時刻」に分けることで操作性をUPしました
+- [日付と時刻入力フォーム](/docs/template/date_time/#range)に初期値を指定できるようになりました
 - 【有料プラン】レポート保存箱で一度にロードできる上限が変更になりました。従来1000件ー＞契約数に応じて最大3000件（1000件を選ぶには契約数10が必要になります）
 - NipoPlusで使用している各種フレームワークを最新版に更新しました（quasar,dexie, etc...）
 
@@ -135,7 +135,7 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 #### {{<nipoPlusLogo 30>}} 2024/9/6 v1.62.0{#vp1_62_0}
 
-- [反復入力フォーム](/docs/manual/initial-setting/template/array/)内で[動的変化機能](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)が利用できるようになりました
+- [反復入力フォーム](/docs/template/array/)内で[動的変化機能](/docs/template/selects/#dinamic_switch_select)が利用できるようになりました
 
 #### {{<nipoPlusLogo 30>}} 2024/9/3 v1.61.0{#vp1_61_0}
 
@@ -153,9 +153,9 @@ PDF出力に関する機能を追加しました
 #### {{<nipoPlusLogo 30>}} 2024/8/20 v1.60.0{#vp1_60_0}
 
 - 承認判子の文字数最大を5文字から8文字に延長しました（６文字を超えると少し判子のレイアウトが変わります）
-- [反復入力フォーム](/docs/manual/initial-setting/template/array/)で算術入力フォームが利用できるようになりました。同一反復フォーム内のデータを計算に利用できます
-- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)で「ソフトウェアテンキーボタン」の表示・非表示を設定から変更できるようになりました
-- [テンプレート編集画面](/docs/manual/initial-setting/template/make/#make_template)でドラッグによる追加の際、ガイドがわかりにくかったため改善しました
+- [反復入力フォーム](/docs/template/array/)で算術入力フォームが利用できるようになりました。同一反復フォーム内のデータを計算に利用できます
+- [数値入力フォーム](/docs/template/digital/#commonNumber)で「ソフトウェアテンキーボタン」の表示・非表示を設定から変更できるようになりました
+- [テンプレート編集画面](/docs/template/make/#make_template)でドラッグによる追加の際、ガイドがわかりにくかったため改善しました
 - [レポート受信BOX画面](/docs/manual/read-report/list/#listbox)に「再読み込み」ボタンを追加しました
 
 #### {{<nipoLogo 30>}} 2024/8/12 v10.0.0{#legacy10_0_0}
@@ -174,7 +174,7 @@ Nipo【旧版】は今後料金改定が有ります。詳しくは[無料プラ
 
 #### {{<nipoPlusLogo 30>}} 2024/7/30 v1.59.2{#vp1_59_2}
 
-- [テンプレート編集](/docs/manual/initial-setting/template/make/#make_template)で幅が反映されないバグを修正しました
+- [テンプレート編集](/docs/template/make/#make_template)で幅が反映されないバグを修正しました
 
 #### {{<nipoPlusLogo 30>}} 2024/7/29 v1.59.1{#vp1_59_1}
 
@@ -199,7 +199,7 @@ Nipo【旧版】は今後料金改定が有ります。詳しくは[無料プラ
 
 - テンプレートの各入力フォームに設定するHintに改行が使えるようになりました
 - 写真入力フォームに添付する画像を[無料プラン](/docs/price/free/)では低画質化させました（容量節約のため[無料プラン](/docs/price/free/)の方には申し訳ございません）
-- [反復入力](/docs/manual/initial-setting/template/array/)内に日付と時刻フォームでカレンダーを表示するとレイアウトが崩れるバグを修正しました
+- [反復入力](/docs/template/array/)内に日付と時刻フォームでカレンダーを表示するとレイアウトが崩れるバグを修正しました
 - レポートのロード件数を[有料プラン](/docs/price/_about/#fee)限定で上限1000件に引き上げました
 - 自身の書いたレポートに自動で自身の既読フラグが立ちますが既読リストに名前が表示されないバグを修正しました
 
@@ -221,7 +221,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 #### {{<nipoPlusLogo 30>}} 2024/7/11 v1.57.4{#vp1_57_4}
 
 - [PDF出力時](/docs/manual/pdf/pdfbatch/)、オプション設定をすると特定のデータが消えて出力されるバグを修正しました
-- [数値入力フォーム](/docs/manual/initial-setting/template/digital/)付属の電卓表示文字サイズを大きくしました
+- [数値入力フォーム](/docs/template/digital/)付属の電卓表示文字サイズを大きくしました
 
 #### {{<nipoLogo 30>}} 2024/7/9 サイレントアップデート{#sv20240709}
 
@@ -234,7 +234,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 #### {{<nipoPlusLogo 30>}} 2024/6/26 v1.57.3{#vp1_57_3}
 
 - 電卓入力で特殊キーの配置を一部修正しました（小数点ボタンを右下へ移動、正負反転ボタンを右上へ移動）
-- [写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)で添付した写真の回転・トリミング・表示切替ができるようになりました
+- [写真入力フォーム](/docs/template/binarys/#picture)で添付した写真の回転・トリミング・表示切替ができるようになりました
 
 #### {{<nipoPlusLogo 30>}} 2024/6/26 v1.56.2{#vp1_56_2}
 
@@ -247,22 +247,22 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 - [レポート作成画面](/docs/manual/write-report/write/)で一番下まで一気にスクロールできるボタンを追加しました（初期状態では無効になっています。「左メニュー ＞アカウント ＞ レポート作成画面でページ下部へスクロールするボタンを配置する 」をONにすることで利用できます
 - [タイムカード](/docs/manual/timecard/input/)の打刻時、これまで初期値が8:00 - 17:00で固定でしたがこれを自由に変更できるようになりました
 - タイムカードの設定をリアルタイム反映ではなく、保存ボタン押下で反映されるように仕様を変更しました
-- レポート作成で[共用機能](/docs/manual/initial-setting/staff-local/share/)にバグがありましたのでこちらを修正しました（報告ありがとうございます）
+- レポート作成で[共用機能](/docs/setup/staff-local/share/)にバグがありましたのでこちらを修正しました（報告ありがとうございます）
 - 書きかけのレポートを復元する際、「期間入力フォーム（時刻のみ）」が復元されないバグを修正しました
 
-このバージョンは「[反復入力](/docs/manual/initial-setting/template/array/)を使い、かつ２行以上のデータがあり、かつ入力必須がセットされており、かつ下書きからの清書を行うという限定的な条件下」において入力必須の解除ができないバグがあります。Version1.56.2で修正済みです（どんだけエッヂケースやねんって感じですね）
+このバージョンは「[反復入力](/docs/template/array/)を使い、かつ２行以上のデータがあり、かつ入力必須がセットされており、かつ下書きからの清書を行うという限定的な条件下」において入力必須の解除ができないバグがあります。Version1.56.2で修正済みです（どんだけエッヂケースやねんって感じですね）
 
 #### {{<nipoPlusLogo 30>}} 2024/6/19 v1.55.1{#vp1_55_1}
 
-- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)でNipoPlus独自のテンキーを使えるようになりました（GOLDPLAN限定機能）
+- [数値入力フォーム](/docs/template/digital/#commonNumber)でNipoPlus独自のテンキーを使えるようになりました（GOLDPLAN限定機能）
 
 今回のアップデートは特にスマートフォン・タブレットなどタッチパネルに対応した機器で利便性が向上します。特に負数の入力がOS標準の入力システムでは操作しにくかったですが、その点が改善されています。
 
 #### {{<nipoPlusLogo 30>}} 2024/6/11 v1.54.0{#vp1_54_0}
 
 - [CSV出力オプション](/docs/manual/analytics/csvoption/)に 非可変を可変に合わせて同値で埋める を追加しました
-- [反復入力](/docs/manual/initial-setting/template/array/)で[期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)を使用する際、同じ時刻がセットされたときに警告が表示される様になりました
-- [反復入力](/docs/manual/initial-setting/template/array/)で横にスクロールが必要なケースで、これまで「行単位」で行われたスクロールを「表全体」でスクロールするように修正しました
+- [反復入力](/docs/template/array/)で[期間入力フォーム](/docs/template/date_time/#range)を使用する際、同じ時刻がセットされたときに警告が表示される様になりました
+- [反復入力](/docs/template/array/)で横にスクロールが必要なケースで、これまで「行単位」で行われたスクロールを「表全体」でスクロールするように修正しました
 - [レポート作成](/docs/manual/write-report/write/)の途中でページを移動しようとすると、警告が表示されるように修正しました
 - [レポート作成](/docs/manual/write-report/write/)の途中でページを離脱した時、一部のデータの復元ができないバグを修正しました
 - 「既読して次へ」ボタンを追加しました
@@ -271,7 +271,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 #### {{<nipoPlusLogo 30>}} 2024/5/28 v1.53.1{#vp1_53_1}
 
-- [２層式選択入力フォーム](/docs/manual/initial-setting/template/selects/#layerd)の警告文を一部削除しました
+- [２層式選択入力フォーム](/docs/template/selects/#layerd)の警告文を一部削除しました
 - 文字サイズ変更時に正しく反映されなかった一部の文字及びボタンを変化するように調整しました
 - [目標実績表](/docs/manual/analytics/progress/)の作成画面をわかりやすく改善しました
 - わかりにくい箇所のヘルプガイドを追加しました
@@ -325,12 +325,12 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 
 #### {{<nipoPlusLogo 30>}} 2024/4/14 v1.50.1{#vp1_50_1}
 
-- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)に[動的変化機能](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)が実装されました。
+- [選択式入力フォーム](/docs/template/selects/#plain)に[動的変化機能](/docs/template/selects/#dinamic_switch_select)が実装されました。
 - ポップアップビューで日報を表示する際、各項目のタイトル文字が小さくなりすぎる問題を修正しました
 
 #### {{<nipoPlusLogo 30>}} 2024/4/6 v1.49.0{#vp1_49_0}
 
-- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)（単体・複数両方）に初期値の設定ができるようになりました
+- [選択式入力フォーム](/docs/template/selects/#plain)（単体・複数両方）に初期値の設定ができるようになりました
 - レポート作成に使用した端末のOS・端末タイプ（デスクトップ・モバイル）の判別情報が追加されるようになりました
 
 #### {{<nipoPlusLogo 30>}} 2024/4/6 v1.48.2{#vp1_48_2}
@@ -482,7 +482,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2023/12/10 v1.45.0{#vp1_45_0}
 
-- アカウントの[一括作成機能](/docs/manual/initial-setting/staff/make/#batch_create)がサポートされました
+- アカウントの[一括作成機能](/docs/setup/staff-global/make/#batch_create)がサポートされました
 - [シフト管理](/docs/manual/utils/shift/)がサポートされました
 - 週カレンダー/提出簿でスタッフを非表示にできるオプションが追加されました
 - スタッフアカウント作成時にパスワードが短いと「不明なエラー」となる問題を修正しました
@@ -527,8 +527,8 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 - レポート作成画面にタイムカード入力ボタンを追加しました。[【詳細はこちら】](/docs/manual/timecard/input/#withReport)
 - CSVダウンロード時にスタッフごとやテンプレートごとに個別に分けてダウンロードできるようになりました。[【詳細はこちら】](/docs/manual/analytics/csv/#splid_download)
-- [タグの管理画面](/docs/manual/initial-setting/advanced-setting/tag/)で分類による絞り込みをサポートしました
-- テンプレートの管理にフォルダ分けが使えるようになりました。[【詳細はこちら】](/docs/manual/initial-setting/template/directory/)
+- [タグの管理画面](/docs/setup/advanced-setting/tag/)で分類による絞り込みをサポートしました
+- テンプレートの管理にフォルダ分けが使えるようになりました。[【詳細はこちら】](/docs/template/directory/)
 - 起動時に所属グループの権限が無い場合に他のグループ一覧を表示するように修正しました。関連してグループに一切所属していない場合適切なエラーメッセージを表示するように修正しました
 - 集計時にレポート一覧を表示する機能が正式に実装されました
 - 反復入力で入力時に縦の合計を自動で計算表示するようになりました
@@ -589,16 +589,16 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2023/04/07 v1.36.0{#vp1_36_0}
 
-- [スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)で入力必須の指定ができるようになりました
-- [テキスト入力フォーム](/docs/manual/initial-setting/template/text/)でURLを入力するとリンクを生成するオプションが追加されました
+- [スライダ入力フォーム](/docs/template/digital/#slider)で入力必須の指定ができるようになりました
+- [テキスト入力フォーム](/docs/template/text/)でURLを入力するとリンクを生成するオプションが追加されました
 - （試作）言語切替機能を追加しました。一部翻訳されていない箇所については順次対応します
 - [ログ機能](/docs/manual/utils/log/)でスタッフIDだとわかりにくいためスタッフ名を表示するように修正しました
-- [スタッフアカウント](/docs/manual/initial-setting/staff/rank/)を「無効」にすると利用人数から減るように修正しました
+- [スタッフアカウント](/docs/setup/staff-global/rank/)を「無効」にすると利用人数から減るように修正しました
 
 #### {{<nipoPlusLogo 30>}} 2023/04/02 v1.35.0{#vp1_35_0}
 
-- [商品データ](/docs/manual/initial-setting/advanced-setting/point/)の一括CSV出力をサポートしました
-- [商品データ](/docs/manual/initial-setting/advanced-setting/point/)の数量推移CSV出力をサポートしました
+- [商品データ](/docs/setup/advanced-setting/point/)の一括CSV出力をサポートしました
+- [商品データ](/docs/setup/advanced-setting/point/)の数量推移CSV出力をサポートしました
 - レポート内の商品データをCSV出力できるようになりました
 - レポート内の商品データをクリックするとページ遷移ではなくポップアップで数量推移を確認できるように修正しました
 - スタッフの名前を変更しても過去のレポートの作成者名が一部正しく反映されていない箇所があったバグを修正しました
@@ -606,7 +606,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2023/03/24 v1.34.1{#vp1_34_1}
 
-- [タグ管理](/docs/manual/initial-setting/advanced-setting/tag/)機能について項目ごとに使い分けができるように機能が強化されました
+- [タグ管理](/docs/setup/advanced-setting/tag/)機能について項目ごとに使い分けができるように機能が強化されました
 - タグのアイコンがゴミ箱になるバグを修正しました
 - [週カレンダー](/docs/manual/calendar/weekly/)でスタッフの並び順を変更するウインドウに「閉じる」ボタンを追加しました
 - グループ設定で保存をせずに画面を切り替えたときに設定が戻らないバグを修正しました
@@ -617,7 +617,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2023/03/18 v1.33.0{#vp1_33_0}
 
-- [スタッフごとに利用可能なレポートテンプレート](/docs/manual/initial-setting/staff/manage/)を指定できるようになりました
+- [スタッフごとに利用可能なレポートテンプレート](/docs/setup/staff-global/manage/)を指定できるようになりました
 - 週間カレンダーでスタッフの並び順を任意に変更できるようになりました
 - カレンダーの設定情報の保存方式が変わりました。これまでスタッフ単位で記録されていましたが、スタッフごとで且つグループごとに設定が記録されるようになります
 - CSV出力設定の設定情報の保存方式が変わりました。これまでスタッフ単位で記録されていましたが、スタッフごとで且つグループごとに設定が記録されるようになります
@@ -631,7 +631,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2023/03/14 v1.32.0{#vp1_32_0}
 
-- [レポートの入力順序を制御](/docs/manual/initial-setting/template/make/)できるようになりました
+- [レポートの入力順序を制御](/docs/template/make/)できるようになりました
 - テンプレート編集時の個別プレビュー機能を廃止しました
 - テンプレート作成時に選択肢の語録をその場で新規作成できるようになりました
 - スマートフォンでフッターメニューの項目を自由に変更できるようになりました
@@ -650,7 +650,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2023/02/21 v1.30.0{#vp1_30_0}
 
-- [日付と時刻の入力フォーム](/docs/manual/initial-setting/template/date_time/#point)で初期表示時の見た目を指定できるようになりました（リクエスト）
+- [日付と時刻の入力フォーム](/docs/template/date_time/#point)で初期表示時の見た目を指定できるようになりました（リクエスト）
 - クレジットで[GOLD PLAN](/docs/price/fee/)お申込み時、会社名の記入が必須になりました
 - レポートの文書番号採番中に承認すると承認処理が取り消される問題を受けて、採番中に承認処理が行えないように修正しました（バグ修正）
 
@@ -674,8 +674,8 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2023/01/28 v1.27.0{#vp1_27_0}
 
-- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
-- [スタッフ権限](/docs/manual/initial-setting/staff/rank/)に「ゲスト権限」が追加されました（リクエスト）
+- [数値入力フォーム](/docs/template/digital/#commonNumber)の上限・下限指定が可能になりました。（▲▼ボタンを押した時のみ検知します。直接の入力は制限が機能しません）（リクエスト）
+- [スタッフ権限](/docs/setup/staff-global/rank/)に「ゲスト権限」が追加されました（リクエスト）
 
 #### {{<nipoPlusLogo 30>}} 2023/01/23 v1.26.0{#vp1_26_0}
 
@@ -684,14 +684,14 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2023/01/16 v1.25.2{#vp1_25_2}
 
-- [チェックボックス入力フォーム](/docs/manual/initial-setting/template/selects/#checkbox)をグラフ化した際に項目が３種類に分類されるバグを修正しました
-- [テンプレート](/docs/manual/initial-setting/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
+- [チェックボックス入力フォーム](/docs/template/selects/#checkbox)をグラフ化した際に項目が３種類に分類されるバグを修正しました
+- [テンプレート](/docs/template/make/)一覧をリストモード、カードモードの切替表示が可能になりました
 - 長らく放置されていた全体設定の色に関するバグを修正しました
 
 #### {{<nipoPlusLogo 30>}} 2023/01/13 v1.25.1{#vp1_25_1}
 
 - レポート一括削除機能でIDの取得に失敗するバグを修正しました
-- （[組織全体設定](/docs/manual/initial-setting/staff/make/)）スタッフ管理の画面切替機能を追加しました
+- （[組織全体設定](/docs/setup/staff-global/make/)）スタッフ管理の画面切替機能を追加しました
 
 #### {{<nipoPlusLogo 30>}} 2023/01/03 v1.25.0{#vp1_25_0}
 
@@ -739,7 +739,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 #### {{<nipoPlusLogo 30>}} 2022/12/09 v1.21.1{#vp1_21_1}
 
 - 軽微なバグを修正しました
-- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の単語を削除しても過去のデータ推移やグラフで単語が消えないように修正しました
+- [選択式入力フォーム](/docs/template/selects/#plain)の単語を削除しても過去のデータ推移やグラフで単語が消えないように修正しました
 - 期間入力フォームにおいて休憩時間の入力に「簡易モード」を追加しました
 
 #### {{<nipoPlusLogo 30>}} 2022/12/08 v1.21.0{#vp1_21_0}
@@ -819,12 +819,12 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 - [CSV出力](/docs/manual/analytics/csv/)時、バイナリの出力をスタッフ名ごとにフォルダ分けして出力するように修正しました
 - [ログ表示](/docs/manual/utils/log/)の日付入力を使いやすく改良しました
-- [期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました
+- [期間入力フォーム](/docs/template/date_time/#range)で算出される経過時間の計算が特定の条件で負数になるバグを修正しました
 
 #### {{<nipoPlusLogo 30>}} 2022/08/31 v1.12.1{#vp1_12_1}
 
-- [反復入力](/docs/manual/initial-setting/template/array/)時に見出し項目を1行目以外非表示にしました
-- [期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)の表示を一部変更しました
+- [反復入力](/docs/template/array/)時に見出し項目を1行目以外非表示にしました
+- [期間入力フォーム](/docs/template/date_time/#range)の表示を一部変更しました
 
 #### {{<nipoPlusLogo 30>}} 2022/08/29 v1.12.0{#vp1_12_0}
 
@@ -838,7 +838,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 - 集計機能の画面レイアウトを一部変更しました
 - レポート作成時のテンプレート選択画面においてスマートフォンのように画面幅が狭い端末は見た目をカードレイアウトに切り替えました
 - [CSV出力](/docs/manual/analytics/csv/)オプションに「反復入力」に関するオプションが追加されました
-- [反復入力のレポート](/docs/manual/initial-setting/template/array/)のデザインを変更しました
+- [反復入力のレポート](/docs/template/array/)のデザインを変更しました
 
 #### {{<nipoPlusLogo 30>}} 2022/08/16 v1.10.0{#vp1_10_0}
 
@@ -858,7 +858,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 #### {{<nipoPlusLogo 30>}} 2022/07/30 v1.8.0{#vp1_8_0}
 
 - レポートテンプレート選択時に本日の作成枚数が表示されるようになりました
-- [チェックボックス入力フォーム](/docs/manual/initial-setting/template/selects/#checkbox)のデータが集計可能になりました
+- [チェックボックス入力フォーム](/docs/template/selects/#checkbox)のデータが集計可能になりました
 
 #### {{<nipoPlusLogo 30>}} 2022/07/30 v1.7.5{#vp1_7_5}
 
@@ -878,12 +878,12 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### {{<nipoPlusLogo 30>}} 2022/07/23 v1.7.1{#vp1_7_1}
 
-- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)の色付けを目立つように修正しました
+- [選択式入力フォーム](/docs/template/selects/#plain)の色付けを目立つように修正しました
 - テンプレートの編集でKeyの修正ができるようになりました
 
 #### {{<nipoPlusLogo 30>}} 2022/07/21 v1.7.0{#vp1_7_0}
 
-- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)に色分け機能が実装されました
+- [選択式入力フォーム](/docs/template/selects/#plain)に色分け機能が実装されました
 
 #### {{<nipoPlusLogo 30>}} 2022/07/19 v1.6.0{#vp1_6_0}
 
@@ -894,8 +894,8 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 - 過去データ推移の1列目を固定にしました
 - レポートの修正後に続けてレポートを書くと上書きされてしまうバグを修正しました
 - 特定の環境で過去の[データ推移](/docs/manual/analytics/transition/)が取得できないバグを修正しました
-- [共用機能](/docs/manual/initial-setting/staff-local/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました
-- [グループへの所属画面](/docs/manual/initial-setting/staff/manage/)をより見やすく変更しました
+- [共用機能](/docs/setup/staff-local/share/)について提出先の指定が適用されないバグが確認されたため修正を行いました
+- [グループへの所属画面](/docs/setup/staff-global/manage/)をより見やすく変更しました
 - NipoPlusで使用している[Quasarフレームワーク](https://quasar.dev/)のバージョンを最新版に変更しました
 - サイトURLの一部変更に伴うリンクの修正を行いました
 
@@ -904,7 +904,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 - [CSV出力設定が保存可能](/docs/manual/analytics/csv/)になりました
 - グループのテーマカラーがうまく反映されないバグを修正しました
 - グループ毎にメニュー項目の表示・非表示切替ができるようになりました
-- [選択肢（複）フォーム](/docs/manual/initial-setting/template/selects/#multiple)で特定の条件が整うと1つしか入力できないバグを修正しました
+- [選択肢（複）フォーム](/docs/template/selects/#multiple)で特定の条件が整うと1つしか入力できないバグを修正しました
 
 #### {{<nipoPlusLogo 30>}} 2022/06/28 v1.5.0{#vp1_5_0}
 
@@ -930,11 +930,11 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 #### {{<nipoPlusLogo 30>}} 2022/06/13 v1.2.2{#vp1_2_2}
 
 - レポート作成後に他のテンプレートを選択できるように修正しました
-- [選択肢(複)](/docs/manual/initial-setting/template/selects/#multiple)の[集計](/docs/manual/analytics/transition/)が行われないバグを修正しました
+- [選択肢(複)](/docs/template/selects/#multiple)の[集計](/docs/manual/analytics/transition/)が行われないバグを修正しました
 
 #### {{<nipoPlusLogo 30>}} 2022/06/10 v1.2.0{#vp1_2_0}
 
-- [レポートテンプレート](/docs/manual/initial-setting/template/make/)のラベルを色分けできる機能が追加されました
+- [レポートテンプレート](/docs/template/make/)のラベルを色分けできる機能が追加されました
 
 #### {{<nipoPlusLogo 30>}} 2022/06/08 v1.1.0{#vp1_1_0}
 

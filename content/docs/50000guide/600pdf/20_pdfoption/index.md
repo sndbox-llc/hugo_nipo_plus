@@ -14,14 +14,14 @@ PDFの出力オプションは大きく分けて２種類有ります。
 
 <dl class="basic">
 <dt><a href="#setDefault">初期値の変更</a></dt>
-<dd>一度設定するとデフォルト値として記録されます。次回以降もこのデフォルト値が使用されます。<a href="/docs/manual/initial-setting/template/make/#pdf">テンプレート編集</a>から設定します</dd>
+<dd>一度設定するとデフォルト値として記録されます。次回以降もこのデフォルト値が使用されます。<a href="/docs/template/make/#pdf">テンプレート編集</a>から設定します</dd>
 <dt><a href="#once">一時的な変更</a></dt>
 <dd>１回限り有効な設定です。文章が長くてレイアウトがはみ出してしまう場合など、一時的に使用します。PDF出力画面から設定します</dd>
 </dl>
 
 ## PDF出力設定の初期値を変更する{#setDefault}
 
-[テンプレート編集](/docs/manual/initial-setting/template/make/#pdf)からPDF出力設定を行うと、初期値として記録されます。
+[テンプレート編集](/docs/template/make/#pdf)からPDF出力設定を行うと、初期値として記録されます。
 PDF設定はテンプレート編集画面の中程までスクロールしていただくと設定項目が見えてきます。
 
 {{<icatch filename="img/pdf-setting-ini" msg="レポートのPDF出力時の設定画面は折りたたまれているためクリックで展開します">}}
@@ -90,13 +90,13 @@ PDF出力前に設定することで、１回限りの設定を記録できま�
 
 ### レイアウト１は忠実にテンプレートを再現{#layout1}
 
-レイアウト１は従来からサポートされている形式で、NipoPlusで[作ったテンプレート](/docs/manual/initial-setting/template/make/)をできるだけ再現できるようにテーブルを多用して構成されます。
-[専有幅](/docs/manual/initial-setting/template/make/#width)をできるだけ模倣してPDF出力します。
+レイアウト１は従来からサポートされている形式で、NipoPlusで[作ったテンプレート](/docs/template/make/)をできるだけ再現できるようにテーブルを多用して構成されます。
+[専有幅](/docs/template/make/#width)をできるだけ模倣してPDF出力します。
 反復入力が含まれる場合、テーブルの中にテーブルが組み込まれるため、見た目上少し雑然と見えます。
 
 ### レイアウト2はテーブルを使わずシンプル{#layout2}
 
-レイアウト2は列の数を1〜6から選択してPDFに出力します。テンプレート内の[専有幅](/docs/manual/initial-setting/template/make/#width)は無視されます。
+レイアウト2は列の数を1〜6から選択してPDFに出力します。テンプレート内の[専有幅](/docs/template/make/#width)は無視されます。
 最大列に満たない場合は残りの列で均等に割り当てられます。
-テーブルは[反復入力フォーム](/docs/manual/initial-setting/template/array/)の出力にのみ使用され、全体のレイアウト構成にテーブルは一切使用されません。
+テーブルは[反復入力フォーム](/docs/template/array/)の出力にのみ使用され、全体のレイアウト構成にテーブルは一切使用されません。
 タイトルは赤文字で強調されます。

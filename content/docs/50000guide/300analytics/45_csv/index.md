@@ -12,7 +12,7 @@ contributors = []
 
 {{< callout context="note" title="[CSVの出力設定](/docs/manual/analytics/csvoption/)も併せてご覧ください" icon="outline/info-circle" />}}
 
-{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 {{< callout context="caution" title="Web版のみ" icon="outline/alert-triangle" >}}
 [Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)版では利用できません。[Web版](/docs/system/mobile-install/#web)をご利用ください
@@ -28,7 +28,7 @@ contributors = []
 
 - CSVはテンプレートごとに分けて出力されます。テンプレートが多いとCSVファイルも比例して多くなります。
 - 指定期間内に1度も使用されなかったテンプレートは自動で除外されます。
-- [無効化したテンプレート](/docs/manual/initial-setting/template/make/#disableTemplate)であっても集計期間内にデータが存在する場合は出力されます
+- [無効化したテンプレート](/docs/template/make/#disableTemplate)であっても集計期間内にデータが存在する場合は出力されます
 - 出力対象のファイルが1つの場合はCSVファイル、2つ以上ある場合はCSVをZIPでまとめた形で出力されます
 
 出力されたCSVファイルはエクセルで開くことができます。NipoPlusのデータを[エクセル加工テクニック集](/excel/)も併せてご覧ください。

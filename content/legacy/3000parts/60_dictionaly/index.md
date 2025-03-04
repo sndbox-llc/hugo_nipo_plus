@@ -14,7 +14,7 @@ isNipo = true
 
 ## 語録入力{#dictionaly}
 
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/advanced-setting/goroku/)です" icon="outline/note" />}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/setup/advanced-setting/goroku/)です" icon="outline/note" />}}
 
 語録は**語録集**という大きな単位と、その語録集の中に登録される実際の値である**語録**から構成されます。例えば「顧客リスト」という語録集の中に、
 

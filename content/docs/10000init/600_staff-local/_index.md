@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/staff-local/"
-# aliases = ["/docs/manual/initial-setting/staff-local/"]
+url = "/docs/setup/staff-local/"
+aliases = ["/docs/manual/initial-setting/staff-local/"]
 title = "グループ内のスタッフ管理"
 description = ""
 weight = 10600

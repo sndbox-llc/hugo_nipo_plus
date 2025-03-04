@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/date_time/"
-# aliases = ["/docs/manual/initial-setting/template/date_time/"]
+url = "/docs/template/date_time/"
+aliases = ["/docs/manual/initial-setting/template/date_time/"]
 title = "【日付・時刻入力】をレポートテンプレートに追加"
 menuTitle = "🧩日付時刻"
 description = "テンプレートカスタムパーツの1つ。作業開始時間のように一定時点の日付時刻を入力できます。10:00 〜 13:00のように範囲を入力する場合は別途期間入力フォームをご利用ください"
@@ -69,7 +69,7 @@ contributors = []
 | 時刻のみ         | HH:mm            | 13:21            | 可       |
 | 日付と時刻       | YYYY/MM/DD HH:mm | 2022/12/01 13:21 | 不可     |
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 </details>
 
@@ -124,12 +124,12 @@ contributors = []
 | 時刻のみ         | HH:mm            | 13:21            | 可       |
 | 日付と時刻       | YYYY/MM/DD HH:mm | 2022/12/01 13:21 | 不可     |
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 日付と時刻（範囲）では、入力した期間を下に自動で差分（経過した時間）を計算し画面に表示します。
 
 {{< callout context="note" title="反復入力との合せ技" icon="outline/info-circle" >}}
-[反復入力](/docs/manual/initial-setting/template/array/)の中で日付と時刻（範囲）を使い、かつ入力形式が「時刻のみ」の場合、時刻の始点が自動セットされる入力補助が発動します
+[反復入力](/docs/template/array/)の中で日付と時刻（範囲）を使い、かつ入力形式が「時刻のみ」の場合、時刻の始点が自動セットされる入力補助が発動します
 {{< /callout >}}
 
 ### 期間入力の集計は分単位で行われる{#subtotal}

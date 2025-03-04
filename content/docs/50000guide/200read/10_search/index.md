@@ -23,7 +23,7 @@ weight = 50210
 
 ## カレンダーを使ってレポートを探す{#calendar}
 
-{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 提出された日報はカレンダー上に掲載されます。日別で日報を読みたい場合はカレンダーが便利です。
 
@@ -43,7 +43,7 @@ weight = 50210
 ## 保存箱を使ってレポートを探す{#listbox}
 
 {{< callout context="caution" title="権限によって表示が変わる？" icon="outline/alert-triangle" >}}
-[権限](/docs/manual/initial-setting/staff/rank/)が「ゲスト」のアカウントは「保存箱」自体表示されません。「書き込みのみ」のアカウントは「受信BOX」が表示されません。
+[権限](/docs/setup/staff-global/rank/)が「ゲスト」のアカウントは「保存箱」自体表示されません。「書き込みのみ」のアカウントは「受信BOX」が表示されません。
 
 {{< /callout >}}
 
@@ -115,7 +115,7 @@ weight = 50210
 表示されるレポートのタイプが変わるだけで基本的な使い方はどのBOXも一緒です。
 
 {{< callout context="caution" title="受信BOXが表示されないケース" icon="outline/alert-triangle" >}}
-他人の日報を読む権限が無いため、[書き込みのみの権限](/docs/manual/initial-setting/staff/rank/#others)アカウントは受信BOXが表示されません。
+他人の日報を読む権限が無いため、[書き込みのみの権限](/docs/setup/staff-global/rank/#others)アカウントは受信BOXが表示されません。
 {{< /callout >}}
 
 表示形式は次の3種類があります

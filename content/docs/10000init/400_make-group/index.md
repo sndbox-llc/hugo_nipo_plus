@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/make-group/"
-# aliases = ["/docs/manual/initial-setting/make-group/"]
+url = "/docs/setup/make-group/"
+aliases = ["/docs/manual/initial-setting/make-group/"]
 title = "グループの作成"
 description = "グループを作りその中でレポートのやり取りを行います。グループはいくつでも作成でき、不要になれば簡単に削除できます。本ページはグループ作成に関する操作ガイドです"
 toc = true
@@ -20,7 +20,7 @@ contributors = []
 
 早速グループを作ってみましょう。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 2. 右メニューから「グループ設定」をクリック
 3. 新規作成をクリック
 4. グループ名やカラーテーマを設定
@@ -41,7 +41,7 @@ contributors = []
 
 ## グループにスタッフを所属させる{#join_staff}
 
-スタッフをまだ作っていない場合は[スタッフアカウントの作成](/docs/manual/initial-setting/staff/make/)を御覧ください。
+スタッフをまだ作っていない場合は[スタッフアカウントの作成](/docs/setup/staff-global/make/)を御覧ください。
 グループにアクセスできるのはグループに所属しているスタッフのみです。
 スタッフをグループに所属させることで利用が可能になります。
 
@@ -51,7 +51,7 @@ contributors = []
 
 {{<icatch filename="img/assign-staff2" msg="グループに所属するスタッフを選択しましょう。✅の入ったスタッフは所属済みです">}}
 
-グループの中で様々な設定を行う必要が出てきますが、グループの設定ができるのは[編集者権限](/docs/manual/initial-setting/staff/rank/)以上の権限が必要になります。
+グループの中で様々な設定を行う必要が出てきますが、グループの設定ができるのは[編集者権限](/docs/setup/staff-global/rank/)以上の権限が必要になります。
 
 {{< callout context="caution" title="編集者権限以上のスタッフを追加しておく" icon="outline/info-triangle" >}}
 
@@ -84,7 +84,7 @@ contributors = []
 
 ### グループの無効化と削除の方法{#disable}
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 1. グループ管理のセクションまでスクロールします
 1. 削除したいグループの行にあるゴミ箱ボタンをクリックします
 1. 無効化されたグループから削除したいグループを完全に削除します

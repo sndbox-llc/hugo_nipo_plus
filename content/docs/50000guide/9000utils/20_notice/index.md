@@ -68,7 +68,7 @@ weight = 59020
 
 毎月50通のメール通知を1度のお支払いで毎月10,000通にまで拡張することができます。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 1. 「組織全般」までスクロール
 1. 「今月のメール送信」の列にある鉛筆アイコンをクリック
 

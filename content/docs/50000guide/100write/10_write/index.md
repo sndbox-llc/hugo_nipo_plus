@@ -21,11 +21,11 @@ weight = 50110
 レポート作成をクリックすると使用可能なテンプレート一覧が表示されますので、使用するテンプレートを選びます。
 （※テンプレートが1種類の場合はこの画面は省略されます）
 
-{{< callout context="note" title="スタッフごとに[使用可能なテンプレートを制御](/docs/manual/initial-setting/staff-local/template/)することもできます" icon="outline/info-circle" />}}
+{{< callout context="note" title="スタッフごとに[使用可能なテンプレートを制御](/docs/setup/staff-local/template/)することもできます" icon="outline/info-circle" />}}
 
 {{<icatch filename="img/report-template-select" msg="まずは使うテンプレートを選ぼう。テンプレートは名前順に並ぶよ" alice="guide">}}
 
-テンプレート選択画面では、その日何件提出したかがテンプレートごとに表示されます。[提出枚数目安](/docs/manual/initial-setting/template/make/#memo)が設定されている場合は進捗バーで表示されます。
+テンプレート選択画面では、その日何件提出したかがテンプレートごとに表示されます。[提出枚数目安](/docs/template/make/#memo)が設定されている場合は進捗バーで表示されます。
 
 ## テンプレートに沿って記入する{#write}
 
@@ -39,7 +39,7 @@ weight = 50110
 <dl class="basic">
 <dt>レポート作成エリア</dt>
 <dd>選択したテンプレートをもとに表示される入力エリアです。スマートフォンでは縦1列に表示されます。タブレット以上の画面では普通のレイアウトで表示されます</dd>
-<dt><a href="/docs/manual/initial-setting/advanced-setting/tag/">タグエリア</a></dt>
+<dt><a href="/docs/setup/advanced-setting/tag/">タグエリア</a></dt>
 <dd>タグが一覧で表示されます。クリックするとレポートににタグを付けることができます。タグは<a href="/docs/manual/read-report/list/#searchFunction">検索</a>や目印として使用できます</dd>
 <dt>ヘッダーエリア</dt>
 <dd>提出日付や、<a href="/docs/manual/write-report/dist/">提出先共有先</a>、<a href="/docs/manual/write-report/draft/">下書き</a>などの情報を設定します</dd>
@@ -53,7 +53,7 @@ weight = 50110
 
 本文が終わったらヘッダー周りの指定です。特に重要なのは<a href="/docs/manual/write-report/dist/">提出先の指定</a>です。誰宛にレポートを提出するのかを選んでください。 提出先は一度選べば次回以降は自動でセットされます。
 
-{{< callout context="note" title="[提出先は管理者が固定する](/docs/manual/initial-setting/staff-local/dist/)こともできます" icon="outline/info-circle" />}}
+{{< callout context="note" title="[提出先は管理者が固定する](/docs/setup/staff-local/dist/)こともできます" icon="outline/info-circle" />}}
 
 {{<icatch filename="img/report-header" msg="レポートの提出日・提出先といったヘッダ情報を入力します">}}
 
@@ -75,7 +75,7 @@ weight = 50110
 最後に提出ボタンをクリックして完了です。これでレポートが作成され提出先に送られます。
 提出したレポートは[カレンダー](/docs/manual/read-report/list/#calendar)や[保存BOX](/docs/manual/read-report/list/#listbox)からアクセス可能です。
 
-{{< callout context="caution" title="[権限がゲスト](/docs/manual/initial-setting/staff/rank/#others)の場合、自分で書いたレポートを読むことができません" icon="outline/alert-triangle" />}}
+{{< callout context="caution" title="[権限がゲスト](/docs/setup/staff-global/rank/#others)の場合、自分で書いたレポートを読むことができません" icon="outline/alert-triangle" />}}
 
 {{< callout context="note" title="提出ボタンが押せないときは入力必須が残っていないか確認してみましょう" icon="outline/info-circle" />}}
 

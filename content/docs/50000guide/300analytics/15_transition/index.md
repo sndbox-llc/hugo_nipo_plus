@@ -10,7 +10,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 レポートを最新日付順に並べて日毎にまとめた表を「推移表」といいます。データの移り変わりや異常値の検出に適しています。
 

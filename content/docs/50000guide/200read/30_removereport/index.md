@@ -41,7 +41,7 @@ NipoPlusではデータ保護の観点から、[承認されたレポート](/do
 
 ## グループ内のレポートをまとめて削除{#batch_remove}
 
-{{< callout context="note" title="[管理者権限](/docs/manual/initial-setting/staff/rank/)が必要です" icon="outline/info-circle" />}}
+{{< callout context="note" title="[管理者権限](/docs/setup/staff-global/rank/)が必要です" icon="outline/info-circle" />}}
 
 ロックのかかったレポートや他スタッフが作成したレポートでもお構いなしに管理者権限で削除できる機能です。
 
@@ -60,7 +60,7 @@ NipoPlusではデータ保護の観点から、[承認されたレポート](/do
 <dl class="basic">
   <dt><a href="/docs/manual/read-report/state/#status">レポートの状態</a></dt>
   <dd>未読・あなた宛のレポート・あなたの承認を待っているレポート・新規・承認・棄却・修正・進行から選択</dd>
-  <dt><a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ</a></dt>
+  <dt><a href="/docs/setup/advanced-setting/tag/">タグ</a></dt>
   <dd>レポートにセットされているタグから絞り込み</dd>
   <dt>本文検索</dt>
   <dd>レポートの本文に含まれる文字から検索できます。</dd>

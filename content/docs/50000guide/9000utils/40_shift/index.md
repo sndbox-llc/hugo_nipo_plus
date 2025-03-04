@@ -9,7 +9,7 @@ tags = ["編集者権限"]
 contributors = []
 +++
 
-{{< callout context="note" title="シフト管理がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="シフト管理がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 {{< callout context="note" title="シフト表は[提出状況表](/docs/manual/read-report/list/#teishutuMap)と連動します" icon="outline/info-circle" />}}
 
@@ -18,7 +18,7 @@ contributors = []
 
 この機能はお客様のリクエストにより実装されました。
 
-シフト表の編集には[編集者権限](/docs/manual/initial-setting/staff/rank/)以上が必要です。
+シフト表の編集には[編集者権限](/docs/setup/staff-global/rank/)以上が必要です。
 閲覧は提出状況からシフト表の内容を確認できます。このときに必要な権限は「メンバー権限以上」です。
 
 ## シフト表を登録する{#entry_shift}

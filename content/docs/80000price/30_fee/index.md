@@ -30,7 +30,7 @@ contributors = []
 お申し込みには管理者権限が必要です。権限をご確認のうえ操作してください。  
 お申し込みはWeb版のNipoPlusを起動して行います。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 2. 組織全般までスクロール
 3. 「自動更新有りで申し込み」をクリック
 4. 各種必要事項の入力
@@ -154,7 +154,7 @@ contributors = []
 
 NipoPlusの有料プランを解除するには、以下の手順で操作します。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 2. ページ末尾までスクロール
 3. サブスクリプション情報の中の「課金を停止」をクリック
 4. 確認メッセージに「OK」を選択

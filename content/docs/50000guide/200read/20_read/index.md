@@ -8,7 +8,7 @@ weight = 50220
 +++
 
 {{< callout context="caution" title="権限によって読めないことも" icon="outline/alert-triangle" >}}
-[権限が「ゲスト」](/docs/manual/initial-setting/staff/rank/#others)のアカウントは自分の書いたレポートも含めて読むことができません。
+[権限が「ゲスト」](/docs/setup/staff-global/rank/#others)のアカウントは自分の書いたレポートも含めて読むことができません。
 {{< /callout >}}
 
 [保存箱](/docs/manual/read-report/list/#listbox)や[カレンダー](/docs/manual/read-report/list/#calendar)からレポートをクリックするとレポートの詳細が表示されます。
@@ -21,7 +21,7 @@ weight = 50220
 読めないレポートは受信BOX一覧に表示されません。また集計の対象にもなりません。
 
 {{< callout context="note" title="共有モードがONの場合" icon="outline/info-circle" >}}
-グループ設定で [日報共有モード](/docs/manual/initial-setting/setting-group/#reportShare)が有効の場合は権限に関係なく、グループに所属しているスタッフがレポートを閲覧可能です
+グループ設定で [日報共有モード](/docs/setup/setting-group/#reportShare)が有効の場合は権限に関係なく、グループに所属しているスタッフがレポートを閲覧可能です
 {{< /callout >}}
 
 ## レポートの状態{#status}
@@ -106,7 +106,7 @@ weight = 50220
 
 <dl class="basic">
 <dt>作者ID</dt>
-<dd>レポートを作成したスタッフのIDです。通常は下の「作成者アカウント」と同じものになりますが、<a href="/docs/manual/initial-setting/staff-local/share/">共用</a>を使って書かれたレポートの場合にかぎり共用先のIDがセットされます</dd>
+<dd>レポートを作成したスタッフのIDです。通常は下の「作成者アカウント」と同じものになりますが、<a href="/docs/setup/staff-local/share/">共用</a>を使って書かれたレポートの場合にかぎり共用先のIDがセットされます</dd>
 <dt>作成者アカウント</dt>
 <dd>作成したスタッフのIDです</dd>
 <dt>文書ID</dt>
@@ -147,7 +147,7 @@ weight = 50220
 ### コメントの通知とログ{#log}
 
 コメントが作成されるとレポートのオーナーに対して[通知が発行](/docs/manual/utils/notice/)されます。[ログ](/docs/manual/utils/log/)上にもコメントが残ります。
-スタッフの[活動実績](/docs/manual/initial-setting/staff-local/_about/#activity)としてもカウントされます。
+スタッフの[活動実績](/docs/setup/staff-local/_about/#activity)としてもカウントされます。
 
 ---
 

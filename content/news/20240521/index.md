@@ -95,14 +95,14 @@ A:
 簡易的な四則演算をテンプレート内に組み込むことができます。また、特定の値に応じて別の値に変化させる機能があります。
 以下が参考になります
 
-- [四則演算の算術フォーム](/docs/manual/initial-setting/template/digital/#calc)
-- [動的に回答を変化させる](/docs/manual/initial-setting/template/selects/#dinamic_switch_select)
+- [四則演算の算術フォーム](/docs/template/digital/#calc)
+- [動的に回答を変化させる](/docs/template/selects/#dinamic_switch_select)
 
 Q:
 SPALOで職人の方に作業日報を書いてもらっています。日報から作業時間を計算して報酬の計算に使用したい
 
 A:
-可能です。作業時間については[期間入力フォーム](/docs/manual/initial-setting/template/date_time/#range)をつかうことで、そのデータをそのまま計算に使用できます。
+可能です。作業時間については[期間入力フォーム](/docs/template/date_time/#range)をつかうことで、そのデータをそのまま計算に使用できます。
 もし単位が「分」であればCSV出力時点で自動で作業時間も計算された状態で一覧表として出力されます。（単位が分とは、例えば1時間30分を90分と表現します）
 
 Q:

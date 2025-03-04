@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/array/"
-# aliases = ["/docs/manual/initial-setting/template/array/"]
+url = "/docs/template/array/"
+aliases = ["/docs/manual/initial-setting/template/array/"]
 title = "【反復入力】行数を自由に増減できる表です"
 menuTitle = "🧩反復入力"
 description = "テンプレートカスタムパーツの1つ。報告内容によって行をまるごと増やしたいときに使用します。例えば時間ごとに作業内容を記したいとき、時間が何行になるか都度変わるためこのフォームを使用して解決できます。"
@@ -35,7 +35,7 @@ contributors = []
   <dd>レポート作成時に反復入力を生成する行数です。初期値は1です</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 反復入力フォームを含んだテンプレートを使って[レポートを書く](/docs/manual/write-report/parts/#array)ときの画面は次のように見えます。
 

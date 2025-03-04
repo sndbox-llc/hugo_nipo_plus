@@ -43,37 +43,37 @@ NipoPlusでは様々な入力フォームがありますが、入力必須は一
   <summary>詳細情報を見る</summary>
 
 <dl class="basic">
-  <dt><a href="/docs/manual/initial-setting/template/text/">本文入力</a></dt>
+  <dt><a href="/docs/template/text/">本文入力</a></dt>
   <dd>1文字以上文字を入力する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/selects/#plain">選択式入力</a></dt>
+  <dt><a href="/docs/template/selects/#plain">選択式入力</a></dt>
   <dd>選択肢から1つ選ぶ</dd>
-  <dt><a href="/docs/manual/initial-setting/template/selects/#multiple">選択式入力（複）</a></dt>
+  <dt><a href="/docs/template/selects/#multiple">選択式入力（複）</a></dt>
   <dd>選択肢から少なくとも1つ選ぶ</dd>
-  <dt><a href="/docs/manual/initial-setting/template/selects/#layerd">選択式入力（2層）</a></dt>
+  <dt><a href="/docs/template/selects/#layerd">選択式入力（2層）</a></dt>
   <dd>問2の選択肢から1つ選ぶ</dd>
-  <dt><a href="/docs/manual/initial-setting/template/date_time/#point">日付・時刻入力</a></dt>
+  <dt><a href="/docs/template/date_time/#point">日付・時刻入力</a></dt>
   <dd>日付または時刻を入力する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/date_time/#range">期間入力</a></dt>
+  <dt><a href="/docs/template/date_time/#range">期間入力</a></dt>
   <dd>期間（開始・終了両方とも）を入力する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/selects/#checkbox">チェックボックス入力</a></dt>
+  <dt><a href="/docs/template/selects/#checkbox">チェックボックス入力</a></dt>
   <dd>チェックボックスにチェックを入れる（同意や確認として利用を推奨します）</dd>
-  <dt><a href="/docs/manual/initial-setting/template/digital/#range">範囲入力</a></dt>
+  <dt><a href="/docs/template/digital/#range">範囲入力</a></dt>
   <dd>この項目は入力必須の指定ができません</dd>
-  <dt><a href="/docs/manual/initial-setting/template/binarys/#sign">署名入力</a></dt>
+  <dt><a href="/docs/template/binarys/#sign">署名入力</a></dt>
   <dd>イラスト・署名を書く（空白のイラストでも入力必須は解除されます）</dd>
-  <dt><a href="/docs/manual/initial-setting/template/binarys/#picture">写真入力</a></dt>
+  <dt><a href="/docs/template/binarys/#picture">写真入力</a></dt>
   <dd>少なくとも1枚以上のJpeg・またはPngの画像を添付する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/binarys/#file">ファイル入力</a></dt>
+  <dt><a href="/docs/template/binarys/#file">ファイル入力</a></dt>
   <dd>少なくとも1つ以上のファイルを添付する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/digital/#slider">スライダ入力</a></dt>
+  <dt><a href="/docs/template/digital/#slider">スライダ入力</a></dt>
   <dd>スライダにつまみを置く</dd>
-  <dt><a href="/docs/manual/initial-setting/template/digital/#rate">レート入力</a></dt>
+  <dt><a href="/docs/template/digital/#rate">レート入力</a></dt>
   <dd>星ゼロ(☆☆☆☆☆）以外の状態にする</dd>
-  <dt><a href="/docs/manual/initial-setting/template/digital/#commonNumber">数値入力</a></dt>
+  <dt><a href="/docs/template/digital/#commonNumber">数値入力</a></dt>
   <dd>数値を入力する</dd>
-  <dt><a href="/docs/manual/initial-setting/template/digital/#calc">算術</a></dt>
+  <dt><a href="/docs/template/digital/#calc">算術</a></dt>
   <dd>この項目は入力必須の指定ができません</dd>
-  <dt><a href="/docs/manual/initial-setting/template/array/">反復入力</a></dt>
+  <dt><a href="/docs/template/array/">反復入力</a></dt>
   <dd>反復の中に配置した各種入力フォームに対してそれぞれ入力必須の指定が可能</dd>
 </dl>
 
@@ -96,7 +96,7 @@ NipoPlusの**入力順序の強制機能**を使うことで入力の順序を�
 入力順序の指定は手順遵守の他にも、次に入力すべき項目がわかりやすいので特に操作に不慣れなスタッフには有益な機能として活用できます。
 ※入力必須と組み合わせることも可能です。
 
-{{< link-card title="テンプレート作成" description="入力順序の指定はテンプレート作成時に指定することができます" href="/docs/manual/initial-setting/template/make/#input_control" >}}
+{{< link-card title="テンプレート作成" description="入力順序の指定はテンプレート作成時に指定することができます" href="/docs/template/make/#input_control" >}}
 
 ---
 

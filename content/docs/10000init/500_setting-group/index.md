@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/setting-group/"
-# aliases = ["/docs/manual/initial-setting/setting-group/"]
+url = "/docs/setup/setting-group/"
+aliases = ["/docs/manual/initial-setting/setting-group/"]
 title = "グループの基本設定"
 description = "グループの設定はグループ内でのみ適用されるローカルなルールです。変更には編集者の権限が必要です。本ページはグループ基本設定に関する操作ガイドです"
 toc = true
@@ -10,7 +10,7 @@ contributors = []
 +++
 
 {{< callout context="caution" title="権限要求" icon="outline/alert-triangle" >}}
-グループの設定は[編集者権限以上](/docs/manual/initial-setting/staff/rank/)が必要です。
+グループの設定は[編集者権限以上](/docs/setup/staff-global/rank/)が必要です。
 {{< /callout >}}
 
 ## 作業グループの確認と切替{#swich_group}
@@ -36,16 +36,16 @@ contributors = []
 <dl class="basic">
 <dt>グループ全般</dt>
 <dd>グループ全般に関する設定が行なえます。本ページで解説</dd>
-<dt><a href="/docs/manual/initial-setting/staff-local/_about/">スタッフ管理</a></dt>
+<dt><a href="/docs/setup/staff-local/_about/">スタッフ管理</a></dt>
 <dd>グループに所属しているスタッフを管理します</dd>
-<dt><a href="/docs/manual/initial-setting/template/make/">テンプレート管理</a></dt>
+<dt><a href="/docs/template/make/">テンプレート管理</a></dt>
 <dd>テンプレートの作成や修正を行います</dd>
-<dt><a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ管理</a></dt>
+<dt><a href="/docs/setup/advanced-setting/tag/">タグ管理</a></dt>
 <dd>タグの追加や削除を行います</dd>
-<dt><a href="/docs/manual/initial-setting/advanced-setting/point/">商品管理</a></dt>
-<dd>商品などの在庫状況を簡易的ですが管理可能です。<a href="/docs/manual/initial-setting/template/mod/">商品入力フォーム</a>と組み合わせて使用します</dd>
-<dt><a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録管理</a></dt>
-<dd><a href="/docs/manual/initial-setting/template/selects/">選択式入力フォーム</a>で使える語録を管理します</dd>
+<dt><a href="/docs/setup/advanced-setting/point/">商品管理</a></dt>
+<dd>商品などの在庫状況を簡易的ですが管理可能です。<a href="/docs/template/mod/">商品入力フォーム</a>と組み合わせて使用します</dd>
+<dt><a href="/docs/setup/advanced-setting/goroku/">語録管理</a></dt>
+<dd><a href="/docs/template/selects/">選択式入力フォーム</a>で使える語録を管理します</dd>
 <dt><a href="/docs/manual/read-report/removereport/#batch_remove">一括削除</a></dt>
 <dd>レポートをまとめて削除します</dd>
 </dl>
@@ -76,10 +76,10 @@ contributors = []
 </dl>
 
 全員が全員のレポートを読みたい場合は「共有する」がおすすめです。一方で上司だけが読めれば良い場合など、公開範囲を制限する場合は「通常」がおすすめです。
-なお共有モードであっても[書き込みのみ権限とゲスト権限](/docs/manual/initial-setting/staff/rank/#others)は他人のレポートを読むことはできません。
+なお共有モードであっても[書き込みのみ権限とゲスト権限](/docs/setup/staff-global/rank/#others)は他人のレポートを読むことはできません。
 
 {{< callout context="note" title="現場の手間を減らすために" icon="outline/info-circle" >}}
-[提出先と共有先の固定](/docs/manual/initial-setting/staff-local/dist/)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
+[提出先と共有先の固定](/docs/setup/staff-local/dist/)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
 {{< /callout >}}
 
 ### バナー{#banner}

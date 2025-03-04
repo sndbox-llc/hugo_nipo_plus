@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/advanced-setting/point/"
-# aliases = ["/docs/manual/initial-setting/advanced-setting/point/"]
+url = "/docs/setup/advanced-setting/point/"
+aliases = ["/docs/manual/initial-setting/advanced-setting/point/"]
 title = "📦 商品在庫・状態管理"
 description = "商品状態管理機能を活用して、予め登録した商品の状態（仕掛中、完成、破棄など）や数量を効果的に管理する方法を学びます。この記事では、商品管理の基本的なフロー、商品の登録方法、および商品状態や数量の追跡をレポートと組み合わせて行うプロセスについて詳しく解説します。管理対象が物理的な商品であるか、ポイントやスコアなど目に見えない値であるかに関わらず、このガイドは効率的な在庫管理や商品追跡を実現するための貴重なヒントを提供します。"
 toc = true
@@ -9,7 +9,7 @@ tags = ["編集者権限"]
 contributors = []
 +++
 
-{{< callout context="tip" title="在庫管理は[商品在庫入力フォーム](/docs/manual/initial-setting/template/mod/)と組み合わせて使用できます" icon="outline/note" />}}
+{{< callout context="tip" title="在庫管理は[商品在庫入力フォーム](/docs/template/mod/)と組み合わせて使用できます" icon="outline/note" />}}
 
 ## 商品管理の目的{#about}
 
@@ -62,7 +62,7 @@ contributors = []
 
 ## 登録した商品の使い方{#usage}
 
-登録した商品の状態を変化させたり、在庫数の増減をさせるには伝票を発行します。この「伝票」はテンプレートから「[商品入力フォーム](/docs/manual/initial-setting/template/mod/)」を追加することで、
+登録した商品の状態を変化させたり、在庫数の増減をさせるには伝票を発行します。この「伝票」はテンプレートから「[商品入力フォーム](/docs/template/mod/)」を追加することで、
 レポート作成時に伝票が発行されるようになります。
 
 {{<icatch filename="img/itemReport" msg="レポート作成画面から在庫の増減や状態変更が可能です" alice="ok">}}

@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/advanced-setting/tag/"
-# aliases = ["/docs/manual/initial-setting/advanced-setting/tag/"]
+url = "/docs/setup/advanced-setting/tag/"
+aliases = ["/docs/manual/initial-setting/advanced-setting/tag/"]
 title = "🏷タグの管理"
 description = "検索や目印としてレポートにタグをセットできます。タグは編集者権限のスタッフが作成管理できます"
 toc = true
@@ -38,13 +38,13 @@ contributors = []
 <dd>タグに表示されるアイコンを選びます</dd>
 <dt><a href="/docs/manual/write-report/write/">レポート用</a></dt>
 <dd>レポート自体にタグを付けることができます。レポート作成時でも、提出後でもタグの付け外しが可能です</dd>
-<dt><a href="/docs/manual/initial-setting/template/make/">テンプレート用</a></dt>
+<dt><a href="/docs/template/make/">テンプレート用</a></dt>
 <dd>テンプレートにタグを付けることができます</dd>
 <dt><a href="/docs/manual/event/add/">予定用</a></dt>
 <dd>予定にタグを付けることができます</dd>
-<dt><a href="/docs/manual/initial-setting/advanced-setting/point/">商品用</a></dt>
+<dt><a href="/docs/setup/advanced-setting/point/">商品用</a></dt>
 <dd>商品２タグを付けることができます</dd>
-<dt><a href="/docs/manual/initial-setting/advanced-setting/goroku/">語録用</a></dt>
+<dt><a href="/docs/setup/advanced-setting/goroku/">語録用</a></dt>
 <dd>語録にタグを付けることができます</dd>
 <dt>メモ</dt>
 <dd>タグ自身のメモです。管理画面以外では表示されません</dd>

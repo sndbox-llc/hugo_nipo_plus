@@ -39,7 +39,7 @@ contributors = []
 
 ### 請求書の発行とダウンロード{#createInvoice}
 
-[左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)し、「組織全般」までスクロールし、「自動更新無しで申し込み」ボタンをクリックします
+[左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)し、「組織全般」までスクロールし、「自動更新無しで申し込み」ボタンをクリックします
 
 {{<icatch filename="img/invoice1" msg="請求書を発行して決済をするには「自動更新無しで申込」を選びます" alice="guide">}}
 

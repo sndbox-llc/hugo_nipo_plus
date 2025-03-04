@@ -8,7 +8,7 @@ toc = true
 weight = 50910
 +++
 
-{{< callout context="note" title="案件がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="案件がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 イメージしやすいようにここでは建築業をベースに解説します。
 建築業であれば「宇都宮市１丁目道路工事」や「●●様宅改装」「鬼怒川橋建築」など１つ１つの現場を案件として管理できます。
@@ -74,7 +74,7 @@ weight = 50910
 <dd>案件名や状態などを書き換えた場合その日付が記録されます</dd>
 <dt>状態</dt>
 <dd>「仕掛」「完了」の２種類があります。「完了」の案件はレポート作成時に検索から除外されます</dd>
-<dt><a href="/docs/manual/initial-setting/advanced-setting/tag/">タグ</a></dt>
+<dt><a href="/docs/setup/advanced-setting/tag/">タグ</a></dt>
 <dd>案件にタグをセットできます。詳しくはタグ管理を御覧ください</dd>
 <dt>メモ</dt>
 <dd>案件のメモです</dd>

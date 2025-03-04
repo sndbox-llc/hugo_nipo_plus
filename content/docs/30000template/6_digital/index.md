@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/digital/"
-# aliases = ["/docs/manual/initial-setting/template/digital/"]
+url = "/docs/template/digital/"
+aliases = ["/docs/manual/initial-setting/template/digital/"]
 title = "数値入力"
 menuTitle = "🧩数値入力"
 description = "テンプレートカスタムパーツの1つ。シンプルな数値の入力枠をレポートテンプレートに追加します。集計に対応しています。"
@@ -58,7 +58,7 @@ NipoPlusで数値の入力をするフォームは何種類かあります。
   <dd>数値入力の右端に表示されます。「個」や「枚」「箱」など用途にあった文字を入力してください</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 数値データは集計やグラフ化に適しています。たくさんのレポートから簡単にグラフや一覧表を作成可能です
 
@@ -105,7 +105,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
   <dd>小さめ・大きめ・最大の3種類から選択できます。初期値は「小さめ」です。</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 レートフォームのデータは集計・グラフ化が可能です。レート入力は２つの集計方式があります。
 
@@ -184,7 +184,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{< callout context="caution" title="レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。" icon="outline/alert-triangle" />}}
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 スライダは数値のためデータ集計に対応しています。
 
@@ -235,7 +235,7 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 {{< callout context="caution" title="レートの上限下限が極端に広い、または刻みの単位が極端に小さいと密度が高くなり操作性が低下します。" icon="outline/alert-triangle" />}}
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 【CSV出力】
 
@@ -283,10 +283,10 @@ NipoPlusのグラフ化機能を使えばアプリ内のレポートをほぼリ
 
 計算式として利用できる入力フォームは以下のとおりです。
 
-- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)
-- [レート入力フォーム](/docs/manual/initial-setting/template/digital/#rate)
-- [スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)
-- [選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)
+- [数値入力フォーム](/docs/template/digital/#commonNumber)
+- [レート入力フォーム](/docs/template/digital/#rate)
+- [スライダ入力フォーム](/docs/template/digital/#slider)
+- [選択式入力フォーム](/docs/template/selects/#plain)
 
 選択式入力フォーム、選択式の単語中に数字が含まれている場合、その数字が計算式に利用されます。
 例えば次のように設計してください

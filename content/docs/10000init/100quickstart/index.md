@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/quickstart/"
-# aliases = ["/docs/manual/quickstart/"]
+url = "/docs/setup/quickstart/"
+aliases = ["/docs/manual/quickstart/"]
 title = "🔰初めての方向けスタートガイド"
 menuTitle = "🔰初めての方へ"
 description = "初めてNipoPlusを使う方向けのチュートリアルガイドです"
@@ -64,7 +64,7 @@ contributors = []
 {{<icatch filename="img/make-template" msg="入力フォームを並べるだけで簡単にテンプレートが作れるよ" alice="ok">}}
 
 お疲れさまでした。これで初めてのテンプレート作成は完了です。次章でこのテンプレートを使って実際に[レポートを書いて](/docs/manual/write-report/write/)みましょう。
-より詳しいガイドについては[テンプレート作成ガイド](/docs/manual/initial-setting/template/make/)の記事をご覧ください
+より詳しいガイドについては[テンプレート作成ガイド](/docs/template/make/)の記事をご覧ください
 
 {{<nextArrow>}}
 
@@ -105,15 +105,15 @@ contributors = []
 ## 手順6:上司や部下など他のスタッフのアカウントを作成しよう{#add_member}
 
 スタッフアカウントを追加して、[レポートを読む](/docs/manual/read-report/state/)人と[レポートを書く](/docs/manual/write-report/write/)人を明確に区別しましょう。
-[スタッフのアカウントを作る](/docs/manual/initial-setting/staff/make/)必要があります。
+[スタッフのアカウントを作る](/docs/setup/staff-global/make/)必要があります。
 
 1. メニュー「グループ設定」＞「スタッフ管理」＞「アカウント作成」の順にクリック
 2. スタッフが使用するE-mailを入力（パスワードは自動で用意しますが手動で変更も可）
 
 {{<icatch filename="img/create-account" msg="スタッフアカウントを作ってみましょう。" alice="guide">}}
 
-スタッフのアカウントを作ると「スタッフ」という[権限](/docs/manual/initial-setting/staff/rank/)になります。
-スタッフ権限は[テンプレートの編集](/docs/manual/initial-setting/template/make/)やアカウント作成はできないので安心です。
+スタッフのアカウントを作ると「スタッフ」という[権限](/docs/setup/staff-global/rank/)になります。
+スタッフ権限は[テンプレートの編集](/docs/template/make/)やアカウント作成はできないので安心です。
 
 ## 手順7： スタッフにNipoPlusのログイン情報を伝えて相互にやり取りしてみよう{#join_staff}
 
@@ -133,7 +133,7 @@ contributors = []
 
 ### レポートの提出先を固定する{#locked}
 
-スタッフが誤って別の人にレポートを提出してしまわないように、管理者が予め[レポートの提出先を固定](/docs/manual/initial-setting/staff-local/dist/)することができます。
+スタッフが誤って別の人にレポートを提出してしまわないように、管理者が予め[レポートの提出先を固定](/docs/setup/staff-local/dist/)することができます。
 固定するとスタッフはレポート作成時に提出先の指定をする必要が無いため、余分な手間を減らすことができるようになります。
 また、「**誰に提出すればいいかわからない？**」という問題も未然に防げます
 
@@ -141,7 +141,7 @@ contributors = []
 
 ### タグでレポートや予定を効率よく管理する{#tags}
 
-タグって便利ですよね。受信したレポートや予定、テンプレートなど色々なものに[タグを付ける](/docs/manual/initial-setting/advanced-setting/tag/)ことができます。
+タグって便利ですよね。受信したレポートや予定、テンプレートなど色々なものに[タグを付ける](/docs/setup/advanced-setting/tag/)ことができます。
 
 {{<icatch filename="img/tag" msg="レポートにタグを付けると目印になるし、検索にも使えるよ" alice="here">}}
 
@@ -158,7 +158,7 @@ contributors = []
 チュートリアルでは意図的に触れませんでしたが、「デフォルトグループ」が自動で作成されております。これまでの作業も全てグループ内での作業です
 {{< /callout >}}
 
-{{< link-card title="マニュアル:グループの作成"  description="操作ガイド"  href="/docs/manual/initial-setting/make-group/" >}}
+{{< link-card title="マニュアル:グループの作成"  description="操作ガイド"  href="/docs/setup/make-group/" >}}
 
 ---
 

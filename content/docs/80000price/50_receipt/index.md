@@ -16,7 +16,7 @@ contributors = []
 
 領収証は過去の決済履歴からダウンロードできます。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 2. 右のサイドバーから「決済履歴」をクリック
 3. 領収証のダウンロード
 

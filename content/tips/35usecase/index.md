@@ -14,7 +14,7 @@ weight = 35
 
 ## NipoPlusってどんな使われ方をしているの？{#howtousage}
 
-NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-setting/template/make/)することで、様々な業種、業界で使用することが可能です。
+NipoPlusは[テンプレートをカスタマイズ](/docs/template/make/)することで、様々な業種、業界で使用することが可能です。
 しかしこれだと漠然としすぎてしまい、結局のところ何ができるのかわかりにくいですね。
 
 最大の特徴は「決まった様式に沿って入力できる」という点。だから範囲が非常に広く、そして曖昧になります。
@@ -45,7 +45,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 ある警備会社では、以前は手書きの報告書を使用していましたが、NipoPlusに移行しました。
 警備員が業務報告をNipoPlusに入力し、[レポートをPDFに出力](/docs/manual/pdf/pdfbatch/)してクライアントに提出するという運用をされているとのこと。
 クライアントにもNipoPlusのPDFは概ね好印象とのことで、開発者としてもとてもうれしく思います。
-[写真付きのレポート](/docs/manual/initial-setting/template/binarys/#picture)を簡単に作成できる点が好評で、情報共有や顧客への報告がスムーズになったと評価されています。
+[写真付きのレポート](/docs/template/binarys/#picture)を簡単に作成できる点が好評で、情報共有や顧客への報告がスムーズになったと評価されています。
 
 {{< callout context="note" title="警備会社のユースケース" icon="outline/info-circle" >}}
 従業員・経営者同士のやり取りではなく、更にその先の顧客への報告ツールとしてNipoPlusを活用いただけます。
@@ -68,7 +68,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 
 新入社員の研修会を数ヶ月、しっかり行う企業では、新入社員同士の情報共有、そして研修内容の報告用としてNipoPlusをご利用いただいています。
 スポット的な使い方で、研修の時期のみ有料プランに加入いただき、それ以外の時期は無料プランに切り替えて運用されています。
-毎年30名ほど新入社員のアカウントを作成する手間があり、大変との声を聞きました。それに対する解決策としてNipoPlusでは[アカウントの一括登録機能](/docs/manual/initial-setting/staff/make/#batch_create)を実装させていただきました。
+毎年30名ほど新入社員のアカウントを作成する手間があり、大変との声を聞きました。それに対する解決策としてNipoPlusでは[アカウントの一括登録機能](/docs/setup/staff-global/make/#batch_create)を実装させていただきました。
 このように、繁忙期や必要な時期だけ賢く使うといったフレキシブルな使い方ができるのもNipoPlusの特徴です。料金はとても柔軟に設計されているので、１ヶ月の短期間からご利用可能です。
 また、[無料プラン](/docs/price/free/)に切り替えても過去のレポートは残り続けるのでご安心ください。
 
@@ -85,7 +85,7 @@ NipoPlusは[テンプレートをカスタマイズ](/docs/manual/initial-settin
 {{<iTablet filename="img/factory" msg="効率よく入力するために数値入力を敢えて選択式とする工夫がなされていました" alice="ok">}}
 
 点検台の上にタブレットを固定し、点検をしながらタブレットを操作して効率よく点検を行っています。
-製品のズレ幅を記録する必要がありますが、キー入力ではなくあえて[選択式入力](/docs/manual/initial-setting/template/selects/#plain)を採用することで、点検の入力効率を高めています。
+製品のズレ幅を記録する必要がありますが、キー入力ではなくあえて[選択式入力](/docs/template/selects/#plain)を採用することで、点検の入力効率を高めています。
 NipoPlusでは[レポート作成後](/docs/manual/write-report/write/#then)に「続けて書く」という機能がありますが、この機能はこちらのお客様の希望によって実装されたものです。工場では効率が最も重要とのことでした。
 
 {{< callout context="note" title="部屋ひとつ分の紙を減らす一助となれて幸いです" icon="outline/info-circle" />}}

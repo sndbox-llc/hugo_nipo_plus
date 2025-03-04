@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/staff-local/_about/"
-# aliases = ["/docs/manual/initial-setting/staff-local/_about/"]
+url = "/docs/setup/staff-local/_about/"
+aliases = ["/docs/manual/initial-setting/staff-local/_about/"]
 title = "グループ内のスタッフ管理"
 menuTitle = "ℹ️概要"
 description = "グループ内のスタッフはレポートの提出先や利用可能なテンプレートの制限など様々な設定が可能です。本ページはグループ内スタッフの設定に関する操作ガイドです"
@@ -10,10 +10,10 @@ tags = ["スタッフ管理", "編集者権限"]
 contributors = []
 +++
 
-スタッフは[組織から作成](/docs/manual/initial-setting/staff/make/)されて各グループに所属します。
+スタッフは[組織から作成](/docs/setup/staff-global/make/)されて各グループに所属します。
 
 {{< callout context="caution" title="類似ページ注意" icon="outline/info-circle" >}}
-組織上のスタッフについては[組織のスタッフ](/docs/manual/initial-setting/staff/manage/)を参照してください
+組織上のスタッフについては[組織のスタッフ](/docs/setup/staff-global/manage/)を参照してください
 {{< /callout >}}
 
 ---
@@ -31,22 +31,22 @@ contributors = []
 
 <dl class="basic">
 <dt>名前</dt>
-<dd>スタッフの名前です。<a href="/docs/manual/initial-setting/staff/manage/#change_staff_data">名前の変更は組織のスタッフ管理</a>から行います</dd>
-<dt><a href="/docs/manual/initial-setting/staff/rank/">権限</a></dt>
-<dd>スタッフの権限です。<a href="/docs/manual/initial-setting/staff/manage/#change_staff_data">権限の変更は組織のスタッフ管理</a>から行います。</dd>
+<dd>スタッフの名前です。<a href="/docs/setup/staff-global/manage/#change_staff_data">名前の変更は組織のスタッフ管理</a>から行います</dd>
+<dt><a href="/docs/setup/staff-global/rank/">権限</a></dt>
+<dd>スタッフの権限です。<a href="/docs/setup/staff-global/manage/#change_staff_data">権限の変更は組織のスタッフ管理</a>から行います。</dd>
 <dt>状態</dt>
 <dd><ul><li>緑：有効</li><li>赤：無効</li></ul>変更は組織のスタッフ管理から行います</dd>
 <dt>E-mail</dt>
 <dd>スタッフがログインに使用するメールアドレス</dd>
-<dt><a href="/docs/manual/initial-setting/staff-local/dist/">提出先の指定</a></dt>
+<dt><a href="/docs/setup/staff-local/dist/">提出先の指定</a></dt>
 <dd>レポートの提出先をスタッフごとに制御可能です</dd>
-<dt><a href="/docs/manual/initial-setting/staff-local/template/">テンプレートの制限</a></dt>
+<dt><a href="/docs/setup/staff-local/template/">テンプレートの制限</a></dt>
 <dd>使用可能なテンプレートをスタッフごとに制御可能です</dd>
 <dt>追放</dt>
-<dd>グループからスタッフを追放します。アカウントの削除ではなく、このグループへのアクセス権を失効させるだけです。アカウントを削除するには組織設定から<a href="/docs/manual/initial-setting/staff/make/#remove">スタッフアカウントの削除</a>を行う必要があります。</dd>
+<dd>グループからスタッフを追放します。アカウントの削除ではなく、このグループへのアクセス権を失効させるだけです。アカウントを削除するには組織設定から<a href="/docs/setup/staff-global/make/#remove">スタッフアカウントの削除</a>を行う必要があります。</dd>
 <dt>重役</dt>
 <dd>グループ内のすべてのレポートが閲覧可能になります。通常は<a href="/docs/manual/write-report/dist/">提出先か共有先</a>に名前が無いとレポートが閲覧できませんが、重役はこれらの制約をバイパスします。</dd>
-<dt><a href="/docs/manual/initial-setting/staff-local/share/">共用</a></dt>
+<dt><a href="/docs/setup/staff-local/share/">共用</a></dt>
 <dd>１つのアカウントを複数人で使い回す際に使用します。応用的な設定のため基本的に非推奨です</dd>
 </dl>
 
@@ -88,9 +88,9 @@ contributors = []
 
 ## グループの管理画面からスタッフを作成する{#createStaff}
 
-通常は組織管理画面からスタッフを作成しますが、[管理者権限](/docs/manual/initial-setting/staff/rank/)がある場合に限り、グループ管理画面からスタッフの作成が可能です。
+通常は組織管理画面からスタッフを作成しますが、[管理者権限](/docs/setup/staff-global/rank/)がある場合に限り、グループ管理画面からスタッフの作成が可能です。
 グループ管理画面からスタッフのアカウントを作成しても、自動で組織上にも登録されます。
 
 {{<iTablet filename="img/makeStaff" msg="グループ画面からもスタッフ作成が可能です" alice="pc">}}
 
-詳細な項目説明については[組織設定のスタッフ作成ガイド](/docs/manual/initial-setting/staff/make/#create_account_one)を御覧ください。
+詳細な項目説明については[組織設定のスタッフ作成ガイド](/docs/setup/staff-global/make/#create_account_one)を御覧ください。

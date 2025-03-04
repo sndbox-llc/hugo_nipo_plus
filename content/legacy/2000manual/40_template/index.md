@@ -12,7 +12,7 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/template/make/)です" icon="outline/note" />}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/template/make/)です" icon="outline/note" />}}
 
 ## テンプレートの役割{#about}
 

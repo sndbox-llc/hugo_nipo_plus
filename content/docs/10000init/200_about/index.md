@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/_about/"
-# aliases = ["/docs/manual/initial-setting/_about/"]
+url = "/docs/setup/_about/"
+aliases = ["/docs/manual/initial-setting/_about/"]
 title = "組織とグループの意味"
 menuTitle = "組織とグループ"
 description = "NipoPlusにおける組織とグループの基本構造と役割を具体的に解説。組織内でどのようにグループを作成し、スタッフを管理するか、またレポートのやり取りがグループ単位で行われる仕組みについて学びます。小規模組織でのグループ分けのメリットや、管理者によるアクセス権限の設定方法も紹介します。"
@@ -17,10 +17,10 @@ contributors = []
 <dl class="basic">
 <dt>組織</dt>
 <dd>最も基底にあるものです。組織の中に「グループ」や「スタッフ」を登録していきます。<a href="/docs/price/_about/#fee">料金プラン</a>は組織単位で適用されます</dd>
-<dt><a href="/docs/manual/initial-setting/make-group/">グループ</a></dt>
+<dt><a href="/docs/setup/make-group/">グループ</a></dt>
 <dd>組織の中に作ります。レポートなどをやり取りする、日常業務で最も使用される場所です。部署や部門、支店で分けたり、「研修会」のように一時的な使い方も可能です。最低でも1グループは必須です</dd>
 <dt>スタッフ</dt>
-<dd>利用者アカウントのことです。<a href="/docs/manual/initial-setting/staff/make/">組織上にアカウントを作成</a>し、その後各<a href="/docs/manual/initial-setting/staff/manage/#join_staff">グループに所属</a>させます。</dd>
+<dd>利用者アカウントのことです。<a href="/docs/setup/staff-global/make/">組織上にアカウントを作成</a>し、その後各<a href="/docs/setup/staff-global/manage/#join_staff">グループに所属</a>させます。</dd>
 </dl>
 
 ## 組織とグループとスタッフの相関性{#about_group}
@@ -43,7 +43,7 @@ graph TD;
 
 また、管理者はサンプルグループに所属した状態になっています。
 
-アプリ上から確認する場合は[左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)します。
+アプリ上から確認する場合は[左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)します。
 
 {{<iTablet filename="img/company" msg="組織設定画面では組織内のスタッフとグループを管理できるよ" alice="ok">}}
 
@@ -76,9 +76,9 @@ graph TD;
 
 複雑に見えて意外とシンプルです。
 
-1. [グループを作成する](/docs/manual/initial-setting/make-group/)（グループ分けが不要な場合はスキップ）
-1. [スタッフを追加する](/docs/manual/initial-setting/staff/make/)
-1. [スタッフをグループに所属させる](/docs/manual/initial-setting/staff/manage/#join_staff)
+1. [グループを作成する](/docs/setup/make-group/)（グループ分けが不要な場合はスキップ）
+1. [スタッフを追加する](/docs/setup/staff-global/make/)
+1. [スタッフをグループに所属させる](/docs/setup/staff-global/manage/#join_staff)
 
 実はこれだけです。次のページへ進みましょう。
 

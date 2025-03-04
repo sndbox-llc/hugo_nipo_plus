@@ -10,7 +10,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-[テンプレート](/docs/manual/initial-setting/template/make/)内に集計が可能な入力フォームが含まれている場合は、そのデータを抜き出して累積表や推移表、グラフなどを表示できます。
+[テンプレート](/docs/template/make/)内に集計が可能な入力フォームが含まれている場合は、そのデータを抜き出して累積表や推移表、グラフなどを表示できます。
 集計可能な入力フォームは以下のとおりです。大きく２種類に分けることができます。
 
 <dl class="basic">
@@ -18,19 +18,19 @@ contributors = []
 <dd>
 選ばれた回数を集計できます。
 <ul>
-<li><a href="/docs/manual/initial-setting/template/selects/#plain">選択式（単）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/selects/#multiple">選択式（複）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/selects/#layerd">選択式（階層）フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/digital/#rate">レート入力フォーム</a></li>
+<li><a href="/docs/template/selects/#plain">選択式（単）フォーム</a></li>
+<li><a href="/docs/template/selects/#multiple">選択式（複）フォーム</a></li>
+<li><a href="/docs/template/selects/#layerd">選択式（階層）フォーム</a></li>
+<li><a href="/docs/template/digital/#rate">レート入力フォーム</a></li>
 </ul>
 </dd>
 <dt>合計の集計</dt>
 <dd>
 単純に合算した集計ができます。
 <ul>
-<li><a href="/docs/manual/initial-setting/template/date_time/#range">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
-<li><a href="/docs/manual/initial-setting/template/digital/#commonNumber">数値入力フォーム</a></li>
-<li><a href="/docs/manual/initial-setting/template/digital/#slider">スライダ入力フォーム</a></li>
+<li><a href="/docs/template/date_time/#range">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
+<li><a href="/docs/template/digital/#commonNumber">数値入力フォーム</a></li>
+<li><a href="/docs/template/digital/#slider">スライダ入力フォーム</a></li>
 </ul>
 </dl>
 

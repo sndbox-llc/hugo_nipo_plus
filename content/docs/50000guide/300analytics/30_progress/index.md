@@ -10,7 +10,7 @@ tags = ["有料プラン限定"]
 contributors = []
 +++
 
-{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/manual/initial-setting/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="集計がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 1ヶ月の目標が決まったらそれを稼働日で按分することで１日あたりの目標が求まります。
 1日あたりの目標達成未達、及び累積による目標達成未達を一覧表で表示できます。
@@ -20,11 +20,11 @@ contributors = []
 
 目標・実績管理には次のフォームが利用できます。
 
-- [スライダ入力フォーム](/docs/manual/initial-setting/template/digital/#slider)
-- [数値入力フォーム](/docs/manual/initial-setting/template/digital/#commonNumber)
-- [算術フォーム](/docs/manual/initial-setting/template/digital/#calc)
+- [スライダ入力フォーム](/docs/template/digital/#slider)
+- [数値入力フォーム](/docs/template/digital/#commonNumber)
+- [算術フォーム](/docs/template/digital/#calc)
 
-上記いずれかのフォームが含まれた[テンプレートを作成](/docs/manual/initial-setting/template/make/)してください。
+上記いずれかのフォームが含まれた[テンプレートを作成](/docs/template/make/)してください。
 
 ### 予定・実績表を作成する{#make}
 

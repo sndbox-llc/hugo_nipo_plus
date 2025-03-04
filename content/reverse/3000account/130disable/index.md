@@ -19,7 +19,7 @@ contributors = []
 
 通常、アカウントは削除する必要はなく、この「無効化」で十分です。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 2. 無効にしたいスタッフを探す
 3. 状態の列にあるボタンをクリックし、赤色に切り替える（赤は無効化の意味）
 

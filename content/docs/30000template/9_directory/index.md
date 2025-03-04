@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/directory/"
-# aliases = ["/docs/manual/initial-setting/template/directory/"]
+url = "/docs/template/directory/"
+aliases = ["/docs/manual/initial-setting/template/directory/"]
 title = "📂レポートテンプレートをフォルダ分けして効率よく管理"
 menuTitle = "📂フォルダによる管理"
 description = "テンプレートを効率よく管理するためにフォルダ分けをすることができます"

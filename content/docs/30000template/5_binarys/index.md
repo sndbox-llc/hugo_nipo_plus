@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/binarys/"
-# aliases = ["/docs/manual/initial-setting/template/binarys/"]
+url = "/docs/template/binarys/"
+aliases = ["/docs/manual/initial-setting/template/binarys/"]
 title = "直筆サイン・写真・ファイルのフォームをテンプレートに追加する"
 menuTitle = "🧩署名や写真等"
 description = "テンプレートカスタムパーツの1つ。レポートに直筆サインを追加できます。タブレット＆スタイラスペン推奨。受領サインなどに"
@@ -59,7 +59,7 @@ contributors = []
   <dd>以下から選択します。<ul><li>署名サイズ</li><li>全画面サイズ</li></ul>全画面サイズでは色変え機能も利用可能です。</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 </details>
 
@@ -99,7 +99,7 @@ contributors = []
   <dd>これがONの場合、ファイルが添付されていない場合レポートの提出ができなくなります</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 </details>
 
@@ -130,7 +130,7 @@ PDFに埋め込まれる画像の大きさは、テンプレートの設計に�
 ## ファイル{#file}
 
 {{< callout context="note" title="印刷前提なら写真入力フォームを" icon="outline/info-circle" >}}
-写真データを添付したい場合は[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)をご利用ください。PDF出力時などに差がでます。
+写真データを添付したい場合は[写真入力フォーム](/docs/template/binarys/#picture)をご利用ください。PDF出力時などに差がでます。
 {{< /callout >}}
 
 [実際の入力イメージはこちら](/docs/manual/write-report/parts/#file)
@@ -141,10 +141,10 @@ PDFに埋め込まれる画像の大きさは、テンプレートの設計に�
 ファイルの追加はファイル入力フォームをクリックまたはフォーム上にドロップします。
 
 ファイル入力フォームの初期設定項目は特に有りません。
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)
 
 レポートを受け取った際はそのレポートに添付されたファイルが一覧で表示されます。クリックで添付されたファイルをダウンロード可能です。
-仮に添付されたファイルが画像データであってもプレビューされません。[写真入力フォーム](/docs/manual/initial-setting/template/binarys/#picture)との大きな違いの１つです。
+仮に添付されたファイルが画像データであってもプレビューされません。[写真入力フォーム](/docs/template/binarys/#picture)との大きな違いの１つです。
 
 {{< callout context="caution" title="もとのファイル名に加えて無作為なランダム文字列が自動で追加されます" icon="outline/alert-triangle" />}}
 {{< callout context="caution" title="ファイル入力フォームはPDF出力に対応していません" icon="outline/alert-triangle" />}}

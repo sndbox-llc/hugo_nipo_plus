@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/staff-local/share/"
-# aliases = ["/docs/manual/initial-setting/staff-local/share/"]
+url = "/docs/setup/staff-local/share/"
+aliases = ["/docs/manual/initial-setting/staff-local/share/"]
 title = "⛔アカウントの共用"
 description = "用途として限定的な機能です。人数分の端末が用意できない際にご利用ください"
 toc = true
@@ -55,9 +55,9 @@ graph RL;
 
 <dl class="basic">
   <dt>共用先</dt>
-  <dd>アカウントを借りる側。<a href="/docs/manual/initial-setting/staff/make/">ログイン不可能アカウント</a>で、共用元のアカウントを借りてレポートを書きます。</dd>
+  <dd>アカウントを借りる側。<a href="/docs/setup/staff-global/make/">ログイン不可能アカウント</a>で、共用元のアカウントを借りてレポートを書きます。</dd>
   <dt>共用元</dt>
-  <dd>アカウントを貸す側。<a href="/docs/manual/initial-setting/staff/make/">ログイン可能アカウント</a>で共通PC上でログインしている</dd>
+  <dd>アカウントを貸す側。<a href="/docs/setup/staff-global/make/">ログイン可能アカウント</a>で共通PC上でログインしている</dd>
 </dl>
 
 ## 共用を使うメリットとデメリット{#about}
@@ -67,5 +67,5 @@ graph RL;
 
 一方でアルバイトAが誤ってアルバイトBとしてレポートを書いてしまうといった事故を防ぐ手段が無いことに注意してください。
 つまりなりすましが容易に行えるため、レポートを受け取る側は適切に運用されているかを定期的に確認する必要があります。
-なりすましを防ぐには共用アカウントを使わずに、1ユーザにつき[ログイン可能なアカウント](/docs/manual/initial-setting/staff/make/)を1つ割り当ててください。
+なりすましを防ぐには共用アカウントを使わずに、1ユーザにつき[ログイン可能なアカウント](/docs/setup/staff-global/make/)を1つ割り当ててください。
 その際、PCが足りない場合はスマートフォンやタブレットからもNipoPlusは利用できるため、それらの機器をうまく活用してください。

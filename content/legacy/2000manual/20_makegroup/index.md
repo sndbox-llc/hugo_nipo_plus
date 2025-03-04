@@ -13,7 +13,7 @@ isNipo = true
   priority = 0.2
 +++
 
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/initial-setting/make-group/)です" icon="outline/note" />}}
+{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/setup/make-group/)です" icon="outline/note" />}}
 
 ## グループの役割{#about}
 

@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/template/text/"
-# aliases = ["/docs/manual/initial-setting/template/text/"]
+url = "/docs/template/text/"
+aliases = ["/docs/manual/initial-setting/template/text/"]
 title = "文字入力フォーム"
 menuTitle = "🧩文字入力"
 description = "テンプレートカスタムパーツの1つ。本文や備考・引き継ぎといった文字入力エリアをレポートに追加できます"
@@ -42,4 +42,4 @@ contributors = []
   <dd>文字の中にURLが含まれる場合、自動でハイパーリンクに変換します</dd>
 </dl>
 
-補足:[共通設定事項](/docs/manual/initial-setting/template/make/#common_setting)
+補足:[共通設定事項](/docs/template/make/#common_setting)

@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/staff/manage/"
-# aliases = ["/docs/manual/initial-setting/staff/manage/"]
+url = "/docs/setup/staff-global/manage/"
+aliases = ["/docs/manual/initial-setting/staff/manage/"]
 title = "スタッフアカウントの管理"
 menuTitle = "🛠️アカウントの管理"
 description = "スタッフアカウントの権限変更や修正といったアカウントの管理に関する操作ガイドです。管理者権限が必要です。組織のスタッフ管理では所属先グループの指定や、各スタッフの権限、アカウントの停止といった管理が可能です。"
@@ -11,28 +11,28 @@ contributors = []
 +++
 
 {{< callout context="caution" title="類似ページ注意" icon="outline/info-triangle" >}}
-このページは「組織」のスタッフ管理です。「グループ」のスタッフ管理については[こちらを参照](/docs/manual/initial-setting/staff-local/_about/)してください
+このページは「組織」のスタッフ管理です。「グループ」のスタッフ管理については[こちらを参照](/docs/setup/staff-local/_about/)してください
 {{< /callout >}}
 
 ## グループへ所属させる{#join_staff}
 
 {{< callout context="note" title="グループ分けが不要な場合はこのセクションは不要です" icon="outline/alert-circle" />}}
 
-グループを増やすには「[グループの作成](/docs/manual/initial-setting/make-group/)」を御覧ください。
+グループを増やすには「[グループの作成](/docs/setup/make-group/)」を御覧ください。
 グループに所属することで初めてグループ内でレポートの読み書きができるようになります。そのため、**グループへの所属はとても重要**です。
 
-1. [左メニューから組織設定をクリック](/docs/manual/initial-setting/staff/rank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/docs/setup/staff-global/rank/#rootSettingBtn)
 1. 操作したいスタッフの行にある「所属グループ」をクリック
 1. グループ一覧が表示されるので所属させるグループをクリック
 
 {{<icatch filename="img/join" msg="組織のスタッフをそれぞれのグループに所属させましょう" alice="book">}}
 
 {{< callout context="note" title="グループから見たスタッフ一覧" icon="outline/info-circle" >}}
-グループに所属するとグループの管理画面にそのスタッフ名が追加されます。次の画像は[グループ内のスタッフ](/docs/manual/initial-setting/staff-local/_about/)一覧画面の例です。
+グループに所属するとグループの管理画面にそのスタッフ名が追加されます。次の画像は[グループ内のスタッフ](/docs/setup/staff-local/_about/)一覧画面の例です。
 
 {{<icatch filename="img/group-member" msg="グループ内から見た所属スタッフの一覧画面です" alice="here">}}
 
-組織のスタッフ管理（現在ご覧のページです）と[グループ内のスタッフ管理](/docs/manual/initial-setting/staff-local/_about/)とは似ていますが別物です。
+組織のスタッフ管理（現在ご覧のページです）と[グループ内のスタッフ管理](/docs/setup/staff-local/_about/)とは似ていますが別物です。
 
 組織内のスタッフ管理では名前や権限など基本的な情報の管理が可能です。一方でグループのスタッフ管理では使用可能なテンプレートの設定やレポートの提出先といった、グループの中でのみ適用される設定を行います。
 {{< /callout >}}
@@ -53,7 +53,7 @@ contributors = []
 <dt>権限</dt>
 <dd>権限をクリックして編集します。自分の権限を変更することはできません。やむを得ず自身の権限を変更する際は他の管理者に依頼してください</dd>
 <dt>状態</dt>
-<dd>クリックで「有効」「無効」が交互に切り替わります。無効の場合は料金プランの人数にカウントされません。無効のアカウントはログインも含めてすべての操作ができなくなります。<a href="/docs/manual/initial-setting/staff/make/#disable">関連ページ</a></dd>
+<dd>クリックで「有効」「無効」が交互に切り替わります。無効の場合は料金プランの人数にカウントされません。無効のアカウントはログインも含めてすべての操作ができなくなります。<a href="/docs/setup/staff-global/make/#disable">関連ページ</a></dd>
 <dt>所属グループ</dt>
 <dd>スタッフが所属してるグループを変更できます。どこのグループにも所属していない場合は警告が表示されます</dd>
 <dt>Email</dt>

@@ -23,7 +23,7 @@ CSV出力設定には「展開」に関する設定があります。
 
 列の展開では、データの表示方法を選択できます。展開がOFFの場合、1つの列にまとめて表示し、ONにすると項目ごとに列が増えます。
 
-以下は[選択式入力フォーム](/docs/manual/initial-setting/template/selects/#plain)をCSV出力したときのイメージです。選択肢は「Windows,Mac,Android,iOS」があるとします。
+以下は[選択式入力フォーム](/docs/template/selects/#plain)をCSV出力したときのイメージです。選択肢は「Windows,Mac,Android,iOS」があるとします。
 
 ### 列展開をOFFにして出力した例{#off_output_example}
 
@@ -82,7 +82,7 @@ CSV出力設定では一括で展開のON/OFFが適用されてしまいます�
 </dd>
 
 <dt>写真・ファイル等を出力</dt>
-<dd><a href="/docs/manual/initial-setting/template/binarys/#picture">写真入力フォーム</a>、<a href="/docs/manual/initial-setting/template/binarys/#sign">署名入力フォーム</a>、<a href="/docs/manual/initial-setting/template/binarys/#file">ファイル入力フォーム</a>で添付されたデータをCSVファイルとは別のフォルダに出力します。また、ダウンロード形式がZIPに変化します</dd>
+<dd><a href="/docs/template/binarys/#picture">写真入力フォーム</a>、<a href="/docs/template/binarys/#sign">署名入力フォーム</a>、<a href="/docs/template/binarys/#file">ファイル入力フォーム</a>で添付されたデータをCSVファイルとは別のフォルダに出力します。また、ダウンロード形式がZIPに変化します</dd>
 
 <dt>コメントを出力</dt>
 <dd>レポートに書き込まれたコメントを出力します</dd>
@@ -93,10 +93,10 @@ CSV出力設定では一括で展開のON/OFFが適用されてしまいます�
 <dt>【可変-提出日】<br>同レポートの2行目以降も出力</dt>
 <dd>
 <ul>
-<li>ON:<a href="/docs/manual/initial-setting/template/array/">反復入力</a>の2行目以降も日付を出力します</li>
+<li>ON:<a href="/docs/template/array/">反復入力</a>の2行目以降も日付を出力します</li>
 <li>OFF:反復入力の2行目以降は日付を省略します</li>
 </ul>
-<a href="/docs/manual/initial-setting/template/array/">反復入力</a>がない場合、設定の意味は有りません。
+<a href="/docs/template/array/">反復入力</a>がない場合、設定の意味は有りません。
 </dd>
 
 <dt>提出者IDを出力</dt>
@@ -123,6 +123,6 @@ CSV出力設定では一括で展開のON/OFFが適用されてしまいます�
 
 ### CSVで出力不可能な項目{#disabled}
 
-[バイナリ関係のデータ](/docs/manual/initial-setting/template/binarys/)はCSVには出力できないため、ファイルとしてダウンロードされます。CSV上には「CSV出力不可」と表示されます。
+[バイナリ関係のデータ](/docs/template/binarys/)はCSVには出力できないため、ファイルとしてダウンロードされます。CSV上には「CSV出力不可」と表示されます。
 
 写真などのバイナリファイルをダウンロードするには、CSV出力設定から「写真・ファイル等を出力」の項目をONにします。

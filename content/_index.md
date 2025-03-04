@@ -21,12 +21,12 @@ heroLinks = [
 <h2 class="display-4 fw-bold text-body-emphasis lh-1">日報アプリを自作できる</h2>
 <p class="lead">
 
-[文字入力](/docs/manual/initial-setting/template/text/)、[数字入力](/docs/manual/initial-setting/template/digital/#commonNumber)、[画像入力](/docs/manual/initial-setting/template/binarys/#picture)などを自由に組み合わせるだけで、日報に使うフォームを簡単に自作できます。
+[文字入力](/docs/template/text/)、[数字入力](/docs/template/digital/#commonNumber)、[画像入力](/docs/template/binarys/#picture)などを自由に組み合わせるだけで、日報に使うフォームを簡単に自作できます。
 レイアウトだってドラッグ操作で簡単に調整可能です。
 テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
 
 </p>
-{{< link-card title="テンプレートの作り方" description="" href="/docs/manual/initial-setting/template/make/">}}
+{{< link-card title="テンプレートの作り方" description="" href="/docs/template/make/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc">}}
@@ -68,7 +68,7 @@ heroLinks = [
 
 書いて提出するだけの簡単操作。  
 PC苦手な方の鬼門「名前をつけて保存」も有りません。
-[提出先をあらかじめ固定](/docs/manual/initial-setting/staff-local/dist/)しておけば更に楽に使えます。  
+[提出先をあらかじめ固定](/docs/setup/staff-local/dist/)しておけば更に楽に使えます。  
 また、文字サイズ調整機能が備わっているので年配の方でも視認性抜群です。
 
 </p>
@@ -144,7 +144,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 <p class="lead">
 
 プログラミングのような日報を誰でも簡単に組み立て可能です。  
-例えば「地域」の値に応じて「支店」の[選択肢](/docs/manual/initial-setting/template/selects/)を変化させることが可能です。下にサンプルを用意しました。
+例えば「地域」の値に応じて「支店」の[選択肢](/docs/template/selects/)を変化させることが可能です。下にサンプルを用意しました。
 
 <div class="container my-4" style="border:1px solid black">
 <div class="mb-3">
@@ -178,7 +178,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 例では2層ですが、更につなげて行くことも可能です。（例えば地域・支店・担当者 のように）
 
 </p>
-{{< link-card title="動的変化について"  description="ノーコードで動きのある日報を作れる"  href="/docs/manual/initial-setting/template/selects/#dinamic_switch_select">}}
+{{< link-card title="動的変化について"  description="ノーコードで動きのある日報を作れる"  href="/docs/template/selects/#dinamic_switch_select">}}
 
 </div>
 <div class="col-lg-9">

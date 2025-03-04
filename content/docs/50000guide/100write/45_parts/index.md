@@ -20,10 +20,10 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 {{<icatch filename="img/text-preview" msg="シンプルな文字入力です。改行も使えるし、URLを貼ればリンクもできるよ" alice="pc">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/text/)
+[▶このフォームを追加する方法](/docs/template/text/)
 
 シンプルな文字入力です。見た目は１行しか入力できそうに有りませんが、改行をいれることで自動で高さが広がります。
-設定で「[リンクを有効にする](/docs/manual/initial-setting/template/text/#settings)」がONの場合、URLなどを入力するとリンクが自動で貼られます。
+設定で「[リンクを有効にする](/docs/template/text/#settings)」がONの場合、URLなどを入力するとリンクが自動で貼られます。
 
 ## 選択入力系{#selectCategory}
 
@@ -34,16 +34,16 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 {{<icatch filename="img/select" msg="あらかじめ用意したリストから選ぶだけ" alice="ok">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#plain)
+[▶このフォームを追加する方法](/docs/template/selects/#plain)
 
 該当する選択肢をタップやクリックで選択します。1つだけ選択可能です。「入力モード切替」を押すとプルダウン・ラジオボタンを交互に切り替えます。
-「入力モード切替」ボタンを非表示にしたい場合はテンプレート[設定](/docs/manual/initial-setting/template/selects/#plainSettings)から「入力切替を無効にする」をONにします。
+「入力モード切替」ボタンを非表示にしたい場合はテンプレート[設定](/docs/template/selects/#plainSettings)から「入力切替を無効にする」をONにします。
 
 ### 選択肢入力（複数回答）{#select2}
 
 {{<icatch filename="img/select2" msg="あらかじめ用意したリストから選ぶだけ。見た目はチェックボックス" alice="ok">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#multiple)
+[▶このフォームを追加する方法](/docs/template/selects/#multiple)
 
 該当する選択肢をタップやクリックで選択します。任意の数を選択可能です。「入力モード切替」を押すとプルダウン・チェックボタンを交互に切り替えます。
 
@@ -51,7 +51,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 {{<icatch filename="img/select2-preview" msg="問1の選択によって問2の解凍リストが変化します。問２を忘れずに入力しましょう" alice="ok">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#layerd)
+[▶このフォームを追加する方法](/docs/template/selects/#layerd)
 
 レポート作成直後の画面では問1しか表示されませんが、問1を選択すると自動で問2が出現します。**問2の内容は問1によって変化**します。
 入力必須が設定されている場合は、**問2まで回答して初めて提出が可能**になります。
@@ -60,7 +60,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 {{<icatch filename="img/checkbox-preview"  msg="タップでON.もう一度タップでOFF。それだけです" alice="phone">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/selects/#checkbox)
+[▶このフォームを追加する方法](/docs/template/selects/#checkbox)
 
 クリックでONになり、もう一度クリックするとOFFになります。
 
@@ -70,7 +70,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 {{<icatch filename="img/date-time" msg="日付や時刻が入力できます" alice="here">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/date_time/#point)
+[▶このフォームを追加する方法](/docs/template/date_time/#point)
 
 正しい形式で日付や時刻を入力します。カレンダーなどのデイトピッカーを使うことで正しい値を間違えずに入力可能です。直接キーボードから打ち込む際は入力ミスに注意！
 
@@ -78,7 +78,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 {{<icatch filename="img/datetimes-preview" msg="開始日時と終了日時を入力します。正しい日時が入力されると経過時間が自動で表示されます">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/date_time/#range)
+[▶このフォームを追加する方法](/docs/template/date_time/#range)
 
 正しい日付や時刻入力がされると経過時間が自動で表示されます。
 
@@ -90,7 +90,7 @@ NipoPlusは設計されたテンプレートに沿って入力します。10種�
 
 {{<icatch filename="img/sign-input" msg="署名ボタンをタップすると署名入力ウインドウがポップ表示されます" alice="tablet">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#sign)
+[▶このフォームを追加する方法](/docs/template/binarys/#sign)
 
 描画キャンバスは署名用とイラスト用の２種類があります。
 署名用キャンパス▼
@@ -108,7 +108,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/picinput" msg="PCはドラッグ＆ドロップで追加、スマホやタブレットの場合はボタンをタップして写真追加します" alice="pc">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#picture)
+[▶このフォームを追加する方法](/docs/template/binarys/#picture)
 
 レポート作成時は高さ制限があるため縦長の画像は上下がカットされたように見えますが、単にクロップされているだけです。データ自体は残っているのでご安心ください。
 全体の写真はレポート受信時に表示できるようになります。
@@ -122,7 +122,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/file-input" msg="おもにPCで利用を想定しています。ドラッグでファイルを追加できます" alice="pc">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/binarys/#file)
+[▶このフォームを追加する方法](/docs/template/binarys/#file)
 
 レポートにファイルを添付するにはドラッグ＆ドロップ、またはフォームをタップしてファイルを追加します。
 1つの入力フォームに対して10ファイルまで添付可能です。
@@ -139,7 +139,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/math-input" msg="キーボードから数値を入力します。タッチパネル対応なら専用入力も使いやすいのでおすすめ" alice="tablet">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#commonNumber)
+[▶このフォームを追加する方法](/docs/template/digital/#commonNumber)
 
 ### レート入力{#rate}
 
@@ -147,7 +147,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/rate-preview" msg="タップで星の数を選びます。同じ数をもう一度タップすると★0の状態になります">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#rate)
+[▶このフォームを追加する方法](/docs/template/digital/#rate)
 
 ### スライダ入力{#slider}
 
@@ -155,7 +155,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/slider-preview" msg="ドラッグやスワイプでつまみを動かします" alice="here">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#slider)
+[▶このフォームを追加する方法](/docs/template/digital/#slider)
 
 ### 範囲入力{#range}
 
@@ -163,7 +163,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/range-preview"  msg="ドラッグやスワイプでつまみを動かします。つまみは2つあるので1つづつ操作します" alice="tablet">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#range)
+[▶このフォームを追加する方法](/docs/template/digital/#range)
 
 ### 算術入力{#calc}
 
@@ -171,7 +171,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/calc-preview" msg="自動で入力されるので手動で入力はできません。" alice="guide">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/digital/#calc)
+[▶このフォームを追加する方法](/docs/template/digital/#calc)
 
 ## その他{#otherCategory}
 
@@ -181,7 +181,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/itemReport" msg="在庫の入力" alice="guide">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/mod/)
+[▶このフォームを追加する方法](/docs/template/mod/)
 
 商品入力フォームでは、商品名または商品コードから商品を探すことから始まります。
 対象の商品を見つけたらクリックして商品を決定します。
@@ -197,7 +197,7 @@ PCからはドラッグ操作で写真をレポートに添付できます。ス
 
 {{<icatch filename="img/array-input" msg="反復入力の偶数行は水色の背景で表示されます。視認性UP" alice="ok">}}
 
-[▶このフォームを追加する方法](/docs/manual/initial-setting/template/array/)
+[▶このフォームを追加する方法](/docs/template/array/)
 
 表示形式が**表・カードの2種類から切替が可能**です。スマートフォンではカード表示が初期状態になります。
 画像では見えていませんが、1行追加ボタンをクリックすると新規の行が一番下に挿入されます。

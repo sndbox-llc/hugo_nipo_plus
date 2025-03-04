@@ -1,6 +1,6 @@
 +++
-url = "/docs/manual/initial-setting/staff-local/dist/"
-# aliases = ["/docs/manual/initial-setting/staff-local/dist/"]
+url = "/docs/setup/staff-local/dist/"
+aliases = ["/docs/manual/initial-setting/staff-local/dist/"]
 title = "🔐レポートの提出先を固定する"
 menuTitle = "🔐提出先の固定"
 description = "スタッフがレポートを書く際にレポートの提出先や共有先といった指定を管理者側が予め固定できます。"
@@ -23,7 +23,7 @@ contributors = []
 </dl>
 
 {{< callout context="note" title="共有モード時は注意" icon="outline/info-circle" >}}
-グループ設定で[レポートの共有モード](/docs/manual/initial-setting/setting-group/#reportShare)がONの場合は多くのスタッフが閲覧可能です。
+グループ設定で[レポートの共有モード](/docs/setup/setting-group/#reportShare)がONの場合は多くのスタッフが閲覧可能です。
 {{< /callout >}}
 
 では提出先などの情報はどこでセットするのでしょう？[レポート作成時](/docs/manual/write-report/write/#dist)に作成者が指定します。

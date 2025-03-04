@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/utils/words/"
-# aliases = ["/docs/manual/utils/words/"]
+aliases = ["/docs/manual/utils/words/"]
 title = "用語集"
 menuTitle = "用語集"
 description = "NipoPlusで使われる用語リスト"

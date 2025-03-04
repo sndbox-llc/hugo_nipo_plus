@@ -1,11 +1,10 @@
 +++
 url = "/docs/manual/utils/log/"
-# aliases = ["/docs/manual/utils/log/"]
+aliases = ["/docs/manual/utils/log/"]
 description = "レポートの提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
 title = "📚ログデータ"
 toc = true
 weight = 59030
-aliases = []
 +++
 
 {{< callout context="note" title="ログがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

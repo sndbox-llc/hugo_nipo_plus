@@ -5,7 +5,7 @@ title = "📄複数のレポートをまとめてPDFに変換する"
 menuTitle = "📄PDF一括出力"
 description = "レポートのデータをPDFに一括で変換します。"
 toc = true
-weight = 50610
+weight = 50615
 tags = ["有料プラン限定", "PDF出力"]
 contributors = []
 +++

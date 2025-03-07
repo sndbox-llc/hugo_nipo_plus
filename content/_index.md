@@ -63,7 +63,7 @@ heroLinks = [
 <div class="container my-5" id="easy_for_seniors">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">年配の方でも使える簡単操作</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">年配の方も使える簡単操作・大きな文字</h2>
 <p class="lead">
 
 書いて提出するだけの簡単操作。  
@@ -115,7 +115,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 <div class="container my-5" id="submission_status">
 <div class="row align-items-center rounded-3 border shadow-lg">
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">日報の未提出者を簡単に特定</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1">日報の提出状況を一覧で表示</h2>
 <p class="lead">
 
 日報の提出状況一覧表を使えば、提出漏れの状況を簡単に把握できます。件数も把握できるので過剰に提出しているケースでも特定可能です。  

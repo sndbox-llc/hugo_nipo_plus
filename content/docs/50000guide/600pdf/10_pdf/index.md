@@ -1,45 +1,42 @@
 +++
-url = "/legacy/manual/pdf/"
-# aliases = []
+url = "/docs/manual/pdf/about/"
+aliases = ["/legacy/manual/pdf/"]
 title = "日報をPDFに変換する"
 description = "Nipo【旧版】で作成したレポートはワンクリックでかんたんにPDFに変換できます。PDF変換前の設定で多少の見た目を変更することもできます"
 toc = true
-weight = 2060
-isNipo = true
-
-[sitemap]
-  changefreq = "yearly"
-  priority = 0.2
+weight = 50610
 +++
-
-{{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/manual/read-report/state/#pdf_export)です" icon="outline/note" />}}
 
 ## 日報をかんたんにPDFへ変換できます。スマホからも操作可能{#pdf}
 
-Nipo【旧版】の大きな特徴の1つにPDF変換があります。日報アプリで作成された日報をワンクリックでかんたんにPDFへ変換できます。
+NipoPlusの大きな特徴の1つにPDF変換があります。日報アプリで作成された日報をワンクリックでかんたんにPDFへ変換できます。
 スマートフォンやタブレットからも直接変換可能です。PDF表示可能なアプリがあればそのまま表示もできます。
 
 やり方はかんたんです。PDFに変換したいレポートを表示して、**PDF出力**ボタンをクリックするだけ。
 
-{{<iTablet filename="img/pdfGen" msg="PDFに変換する"  alice="ok">}}
+{{<icatch filename="img/report-to-pdf" msg="PDF❗PDF❗">}}
 
 ### PDF化された日報の保存について{#document}
 
 PDF出力をすると、あなたのPCに日報PDFが保存されます。
 Windows/Macでご利用の際、ファイル名は
-「nipo-20180921_11時54分.pdf」
+1741316223067.pdf」
 のようになります。
+
+<!--
 日付がファイル名になるわけですが、この日付は「日報が提出された日時」となります。
+
 [Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp) /[iOS](https://apps.apple.com/jp/app/nipo/id1385965600)版では挙動が少し変わり、自動で共有機能が立ち上がります。
 
 AndroidやiOSからもWeb版のNipo【旧版】を利用できます。この場合はWindows/Macと同様に「ファイル」として保存されます。
 詳しくは[モバイル機器にインストールする](/legacy/system/mobile-install/)を御覧ください
+-->
 
 {{< callout context="note" title="Web版との違い" icon="outline/info-circle" >}}
-AndroidやiPhoneでもWeb版Nipo【旧版】を使えば、共有機能は立ち上がらずタブとして表示されます。
+AndroidやiPhoneでもWeb版NipoPlusを使えば、共有機能は立ち上がらずタブとして表示されます。
 {{< /callout >}}
 
-## Web版のNipo【旧版】であれば複数の日報を一括でPDFデータに変換可能{#convert}
+## 複数の日報を一括でPDFデータに変換可能{#convert}
 
 複数のレポートをまとめてPDFに変換してダウンロードするには、PDF化したいレポートを表示して「日報を一括PDFに追加」ボタンをクリックします。
 ボタンをクリックするたびにボタン上の数字が増えていきます。
@@ -47,10 +44,8 @@ AndroidやiPhoneでもWeb版Nipo【旧版】を使えば、共有機能は立ち
 ある程度リストに追加したら、▼ボタン（下向きの三角アイコン）をクリックし、「ダウンロード」ボタンを押して下さい。
 1件しか追加されていない場合はPDFファイルとしてダウンロードされますが、2件以上追加した場合は、自動でZIPファイルに纏められてダウンロードされます。
 なお**一括PDFダウンロードはWebアプリ版でのみ利用可能**です。
-[Android](https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp) /[iOS](https://apps.apple.com/jp/app/nipo/id1385965600)版では利用できませんので注意してください。
+
 もしAndroidやiOSでこの機能が必要な場合は、PWA版としてインストールしてください。
-詳しくは[モバイル機器にインストールする](/legacy/system/mobile-install/)を御覧ください。
-この機能は[GOLD PLAN](/legacy/system/price/)限定の機能です
 
 ## PDFに出力前の設定で余白やレイアウトを調整する{#edit}
 
@@ -59,45 +54,9 @@ PDF出力の設定をするには、日報表示画面上で「PDF設定」を�
 
 PDF出力設定画面に切り替わります。
 
-{{<iTablet filename="img/pdfSetting" msg="左側がプレビューとデータの書き換え、右側がPDFの余白や向きなどの設定項目"  alice="ok">}}
+{{<icatch filename="img/pdf-setting-ini" msg="レポートのPDF出力時の設定画面は折りたたまれているためクリックで展開します">}}
 
-用語解説
-
-<dl class="basic">
-  <dt>新しい様式</dt>
-  <dd>罫線の少ないすっきりしたデザインでPDF出力できます。</dd>
-  <dt>チェックシート式</dt>
-  <dd>出力するPDFが「チェックシート風」のレイアウトに変わります(設問幅が長くなる)</dd>
-  <dt>見出し項目に色付け</dt>
-  <dd>デフォルトでONです。OFFにすると設問全ての背景が「白」になります</dd>
-  <dt>コメント</dt>
-  <dd>コメントが付いていた場合にそのコメントもPDFに含めて出力します</dd>
-  <dt>日付</dt>
-  <dd>右上に配置される日報作成日を表示するか設定できます</dd>
-  <dt>作者と宛名</dt>
-  <dd>日報作成者と宛名をPDFに表示するか設定できます</dd>
-  <dt>接頭語と文書番号</dt>
-  <dd>右上に配置される文書番号をPDFに表示するか設定できます</dd>
-  <dt>検印欄</dt>
-  <dd>ONにすると検印欄に配置する名前を入力できます。上限はありませんが多すぎると紙面をはみ出しますので注意して下さい</dd>
-  <dt>文字サイズ</dt>
-  <dd>3段階から選べます</dd>
-  <dt>項目名の幅</dt>
-  <dd>項目名の幅を微調整できます。3段階から選べます</dd>
-  <dt>ページの余白</dt>
-  <dd>1ページに収まらない場合は「狭い」にして下さい</dd>
-  <dt>印刷の向き</dt>
-  <dd>縦・横から選択してください。実際の例は本ページ上部に掲示しています。</dd>
-  <dt>透かし文字</dt>
-  <dd>PDF文書に透かし（ウォーターマーク）が入れられます。紫色です</dd>
-  <dt>設定を保存</dt>
-  <dd>このボタンを押すと指定した設定が保存されます。PDFの設定を保存すれば、次回以降はボタン1つで同じ設定でPDF化できます。
-  保存しないで1枚だけPDF出力することも可能です。設定はグループのメンバー全員に適用されます</dd>
-  <dt>PDF出力</dt>
-  <dd>表示されている日報をそのままPDFに出力します</dd>
-  <dt>Back</dt>
-  <dd>日報画面へ戻ります</dd>
-</dl>
+各項目の細かい説明は[PDF出力設定](/docs/manual/pdf/pdfoption/)のページを御覧ください。
 
 {{< callout context="note" title="内容の変更もOK" icon="outline/info-circle" >}}
 PDF設定画面では出力される日報の本文自体も変更可能です。本文自体の変更は保存されずPDF出力後にもとの日報の文章に戻ります
@@ -107,19 +66,35 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 
 例えばPDF出力の向きを縦にした場合と横にした場合の比較です
 
-{{<figure src="img/pdf_sample3.png"  alt="PDF設定で縦と横にした場合の比較" caption="PDF設定で縦と横にした場合の比較" >}}
+<div class="row">
+<div class="col-6">
+
+<div >
+{{<figure src="img/shuzen.webp"  alt="縦向きPDF出力" caption="縦向きPDF出力" >}}
+
+</div>
+
+</div>
+<div class="col-10">
+
+<div>
+{{<figure src="img/shuzen_landscape.webp"  alt="横向きで出力もOK" caption="横向きで出力もOK" >}}
+
+</div>
+
+</div>
+</div>
 
 新レイアウトは従来に比べてスッキリとした見た目になります。
 また、表示されるデータ自体も情報量が増えました（例えば[スライダー](/legacy/parts/math/#slider)入力における大まかな位置などが #と-で表現）
 
-{{<figure src="img/pdf_sample4.png"  alt="新レイアウトのPDF出力例" caption="新レイアウトのPDF出力例" >}}
+{{<iTablet filename="img/pdf" msg="同じレポートを異なるレイアウトで出力したよ"  alice="ok">}}
 
 ## 無料プランにおけるPDF出力の制約{#limited}
 
 [無料プラン](/legacy/system/price/)でも日報をPDFに変換する機能をご利用になれますが、以下の制限があります
 
-- 使用可能な漢字の種類に制限があります。おおよそ小学校5年生前後までに習う漢字までしか利用できません
-- 赤文字で透かしが強制的に入ります
+- NipoPlusの透かしが強制的に入ります
 
 ## PDFと日報の相性について{#hint}
 

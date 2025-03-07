@@ -98,7 +98,7 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 
 </p>
 
-{{< link-card title="PDF出力"  description="レイアウトの設定や縦横の指定もOK" href="/docs/manual/read-report/state/#pdf_export">}}
+{{< link-card title="PDF出力"  description="レイアウトの設定や縦横の指定もOK" href="/docs/manual/pdf/about">}}
 
 </div>
 <div class="col-lg-9">

@@ -88,7 +88,7 @@ Nipo【旧版】では日報のやり取りをすべて**グループ内**で行
 - 共有する
 
 の3種類から1つを選びます。ここでは細かく制御のできる「通常」を選びました。
-[グループモードについて詳しくはこちら](/legacy/manual/group-mode/)
+[グループモードについて詳しくはこちら](/legacy/manual/group#mode)
 
 {{<iTablet filename="img/wizard2" msg="グループのモードを選ぶ" alice="ok">}}
 

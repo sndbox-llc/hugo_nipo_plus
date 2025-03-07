@@ -7,9 +7,7 @@ toc = true
 weight = 50220
 +++
 
-{{< callout context="caution" title="権限によって読めないことも" icon="outline/alert-triangle" >}}
-[権限が「ゲスト」](/docs/setup/staff-global/rank/#others)のアカウントは自分の書いたレポートも含めて読むことができません。
-{{< /callout >}}
+{{< callout context="caution" title="[権限が「ゲスト」](/docs/setup/staff-global/rank/#others)のアカウントは自分の書いた日報も読めません" icon="outline/alert-triangle" />}}
 
 [保存箱](/docs/manual/read-report/list/#listbox)や[カレンダー](/docs/manual/read-report/list/#calendar)からレポートをクリックするとレポートの詳細が表示されます。
 ポップアップで表示されるケースとページ遷移して表示されるケースがありますが内容としては同一です。

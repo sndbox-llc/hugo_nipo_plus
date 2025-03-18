@@ -64,7 +64,7 @@ NipoPlusでチェックシートを作るには、テンプレートを編集し
 テンプレートは複数保存でき、点検時は使用するテンプレートを選び点検項目に沿って入力するだけです。
 
 </p>
-{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/template/make/">}}
+{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/template/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/checksheet" msg="これはバルブ設備点検シートの例です。簡単に作れるよ"  alice="tablet">}}

@@ -26,7 +26,7 @@ heroLinks = [
 テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
 
 </p>
-{{< link-card title="テンプレートの作り方" description="" href="/docs/template/make/">}}
+{{< link-card title="テンプレートとは" description="" href="/docs/template/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc">}}

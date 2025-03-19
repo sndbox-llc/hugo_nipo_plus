@@ -72,7 +72,7 @@ NipoPlusで書いたレポートをCSVに出力し、エクセルで開くと次
 料金もNipoPlusと結構似ています。まず無料プランがNipoPlusnにもSPALOにもあります。そして有料プランのほうがSPALOは何種類かありますが、一番安価なもので1ユーザ480円（最小人数5名）でした。
 NipoPlusよりは高いですが業界を見渡してみると良心的な価格設定です。この料金設定には個人的にとても好感を持てました。なおNipoPlusは1ユーザ180円で、最少人数もSPALOと同じ5名です。
 
-{{< link-card title="ご利用料金" description="業界最安値水準の低価格でご提供します" href="/docs/price/_about/" >}}
+{{< link-card title="ご利用料金" description="業界最安値水準の低価格でご提供します" href="/docs/price/" >}}
 
 ## 相違点{#differences}
 

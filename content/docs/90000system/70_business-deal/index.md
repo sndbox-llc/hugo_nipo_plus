@@ -11,7 +11,7 @@ weight = 90070
   priority = 0.1
 +++
 
-Nipo【旧版】およびNipoPlusはネットを媒介した販売([GOLD PLAN](/docs/price/_about/)）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。
+Nipo【旧版】およびNipoPlusはネットを媒介した販売([GOLD PLAN](/docs/price/)）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。
 
 ## 特定商取引法に基づく表記{#about}
 

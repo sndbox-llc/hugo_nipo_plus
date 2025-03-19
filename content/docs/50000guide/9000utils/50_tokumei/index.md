@@ -38,7 +38,7 @@ E-mailやパスワードの登録がありません。
 - 予期せぬログアウトによりデータをロストするリスクがあります
 - 一度ログアウトすると同じ匿名アカウントでログインできなくなります
 - 「PCとスマホ」のように複数の端末でログインができません
-- [メール通知](/docs/manual/utils/notice/#email)や[GOLDPLAN加入](/docs/price/_about/#fee)など、一部の機能は利用できません
+- [メール通知](/docs/manual/utils/notice/#email)や[GOLDPLAN加入](/docs/price/#fee)など、一部の機能は利用できません
 
 {{< callout context="caution" title="予期せぬログアウトに注意" icon="outline/info-triangle" >}}
 特にブラウザキャッシュは意図しないタイミングでクリアされてしまうことがあるため注意が必要です。匿名で長期利用はしないように注意して下さい

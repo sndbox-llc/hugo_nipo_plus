@@ -10,7 +10,7 @@ tags = ["テンプレート", "有料プラン限定", "編集者権限"]
 contributors = []
 +++
 
-{{< callout context="caution" title="この機能は[有料プラン](/docs/price/_about/#fee)限定です" icon="outline/alert-triangle" />}}
+{{< callout context="caution" title="この機能は[有料プラン](/docs/price/#fee)限定です" icon="outline/alert-triangle" />}}
 
 NipoPlusではテンプレートの検索機能もありますが、より直感的に管理するためにフォルダ機能を使うこともできます。
 

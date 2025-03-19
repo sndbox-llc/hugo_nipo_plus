@@ -10,7 +10,7 @@ weight = 50140
 
 ## アカウントが無くてもレポートを書けます。アンケートや社外利用者に最適
 
-{{< callout context="tip" title="[この機能はGOLDPLAN限定です](/docs/price/_about/#fee)" icon="outline/info-circle" />}}
+{{< callout context="tip" title="[この機能はGOLDPLAN限定です](/docs/price/#fee)" icon="outline/info-circle" />}}
 
 この機能は試作段階です。不具合があれば報告いただけると幸いです。
 

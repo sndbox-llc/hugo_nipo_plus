@@ -125,7 +125,7 @@ weight = 50220
 
 ## レポートにコメントを書く{#comment}
 
-{{< callout context="tip" title="[この機能はGOLDPLAN限定です](/docs/price/_about/#fee)" icon="outline/info-circle" />}}
+{{< callout context="tip" title="[この機能はGOLDPLAN限定です](/docs/price/#fee)" icon="outline/info-circle" />}}
 
 [レポートを読む](/docs/manual/read-report/state/)権限があればレポートにコメントを残すことができます。
 

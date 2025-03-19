@@ -30,7 +30,7 @@ contributors = []
 
 グループの新規作成ポップが表示されます。グループ名を入力し、作成ボタンをクリックしてください。
 作成したグループはグループ管理の一覧に表示されます。
-作成可能なグループの数は[無料プラン](/docs/price/free/)と[有料プラン](/docs/price/_about/#fee)で異なります。
+作成可能なグループの数は[無料プラン](/docs/price/free/)と[有料プラン](/docs/price/#fee)で異なります。
 
 <dl class="basic">
 <dt><a href="/docs/price/free/">無料プラン</a></dt>

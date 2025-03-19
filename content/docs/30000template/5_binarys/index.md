@@ -87,7 +87,7 @@ contributors = []
 ファイル入力はより汎用的ですが、利便性では写真入力フォームのほうが優れています。
 
 {{< callout context="caution" title="画質低下に注意" icon="outline/alert-triangle" >}}
-写真UP時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/_about/#fee)は中画質、[無料プラン](/docs/price/_about/#free)は低画質）
+写真UP時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/#fee)は中画質、[無料プラン](/docs/price/#free)は低画質）
 {{< /callout >}}
 
 {{< link-card title="写真付きレポート" description="コラム記事" href="/tips/mobile-device/" >}}

@@ -240,7 +240,7 @@ NipoPlusはマルチデバイス対応です。
 
 </p>
 
-{{< link-card title="ご利用料金"  description="無料版あり" href="/docs/price/_about/">}}
+{{< link-card title="ご利用料金"  description="無料版あり" href="/docs/price/">}}
 
 </div>
 </div>

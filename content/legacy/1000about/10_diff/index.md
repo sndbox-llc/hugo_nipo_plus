@@ -74,7 +74,7 @@ Nipo【旧版】ではFirebaseとTypesenseを使用していましたが、NipoP
 
 サーバコストの工夫により、人件費と並ぶWebアプリの主要なコスト要因を抑え、より経済的な価格設定を実現しています。
 
-{{< link-card title="ご利用料金" description="より明瞭で安価に" href="/docs/price/_about/" >}}
+{{< link-card title="ご利用料金" description="より明瞭で安価に" href="/docs/price/" >}}
 
 ## 新機能のピックアップ{#pickup}
 

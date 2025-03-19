@@ -13,7 +13,7 @@ isNipo = true
 +++
 
 {{< callout context="caution" title="こちらはNipo(旧)の料金ページです" icon="outline/info-triangle" >}}
-[NipoPlusの料金](/docs/price/_about/)と混同されないように注意してください
+[NipoPlusの料金](/docs/price/)と混同されないように注意してください
 {{< /callout >}}
 
 {{< callout context="danger" title="2024年8月13日から料金と決済手順が変更になりました" icon="outline/alert-triangle" />}}

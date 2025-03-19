@@ -11,7 +11,7 @@
 
 [[main]]
   name = "💰料金"
-  url = "/docs/price/_about/"
+  url = "/docs/price/"
   weight = 20
 [[main]]
   name = "📩問合せ・検索"

@@ -10,7 +10,7 @@ weight = 50135
 
 ## 早番・遅番や前工程・後工程の報告をリレー方式で繋ぎながらレポートを作成できます
 
-{{< callout context="tip" title="[この機能はGOLDPLAN限定です](/docs/price/_about/#fee)" icon="outline/info-circle" />}}
+{{< callout context="tip" title="[この機能はGOLDPLAN限定です](/docs/price/#fee)" icon="outline/info-circle" />}}
 
 複数人でレポートを引き継ぎながら作成し、１つのレポートとして作成する機能が実装されました。  
 この機能はデフォルトで「無効」になっているため、使用するには手動で機能を有効にする必要があります。  

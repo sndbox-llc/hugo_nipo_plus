@@ -33,6 +33,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2025/3/26 v1.69.1{#vp1_69_1}
+
+- 日付と時刻（期間、時刻のみ）入力で、１度目の入力がスルーされるバグを修正しました
+
 #### {{<nipoPlusLogo 30>}} 2025/2/24 v1.69.0{#vp1_69_0}
 
 - レポートを[アカウントが無くても作成できる外部共有機能](/docs/manual/write-report/outside/)が実装されました

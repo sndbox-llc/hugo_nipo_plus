@@ -165,10 +165,11 @@ async function submit() {
 
   const config = {
     method: "POST",
-    url: "https://us-central1-nipo-plus.cloudfunctions.net/inqueryWeb",
-    params: {
+    url: "https://us-central1-nipo-plus.cloudfunctions.net/inqueryWebCommon",
+    data: {
       email: email.value,
-      text: `${content.value}\n【${target.value}】`
+      text: `${content.value}\n【${target.value}】`,
+      site: "nipoplus"  // ← ここを追加！
     }
   };
 

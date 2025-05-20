@@ -4,14 +4,14 @@ description = "NipoPlus（ニポプラス）は、自由に項目設計できる
 date = "2023-04-01"
 showPrice = true
 heroTitle = "クラウド日報 NipoPlus"
-heroSubTitle = "スマホ・PC対応！カスタマイズ自由な日報アプリ"
-heroText = "NipoPlusはカスタマイズ性の高い日報アプリです。<br>テンプレートを自由に設計し、作ったテンプレートに沿って入力するだけの簡単操作。<br>蓄積したデータは集計やグラフ化して分析にも役立ちます。<br>その他PDF出力や提出状況管理など便利機能が盛り沢山で１名180円の低価格です。"
+heroSubTitle = "チャット日報をエクセルに転記するの卒業しよう！"
+heroText = "NipoPlusなら溜まった日報を１枚のスプレッドシートに簡単出力。二度手間も転記ミスも有りません。"
 heroLinks = [
+  { label = "📱 スマホ・PCに完全対応", url = "/tips/mobile-device/" },
+  { label = "💰️ 業界最安値水準！", url = "/docs/price/" },
   { label = "🏭 設備点検シートにも", url = "/lp/checksheet/" },
-  { label = "📱 スマホ・PCもOK", url = "/tips/mobile-device/" },
-  { label = "💰️ 業界最安値水準！", url = "/docs/price/" }
-]
 
+]
 +++
 
 <!-- ▼自作できる -->

@@ -3,6 +3,8 @@ title = "クラウド日報 NipoPlus"
 description = "NipoPlus(ニポプラス)はスマホやタブレットで日報の読み書きが可能です。無料プランもあり。PDF出力や集計機能も完備しています"
 images = ["favicon.png"]
 
+keywords = ["NipoPlus", "Nipo Plus", "ニポプラス", "にぽぷらす", "にぽ＋", "Nipoぷらす", "ニッポウプラス", "日報", "点検表", "業務日誌", "Webシステム", "Webアプリ", "業務補助"]
+
 # mainSections
 mainSections = ["docs"]
 

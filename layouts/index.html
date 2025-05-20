@@ -17,6 +17,48 @@
 
 {{ define "rootHero" }}
   {{ if .Params.heroTitle }}
+  <section class="hero-bg d-flex align-items-center text-center py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <!-- サブタイトル -->
+          <h2 class="text-muted mb-2">{{ .Params.heroSubTitle | safeHTML }}</h2>
+
+          <!-- メインタイトル -->
+          <h1 class="display-4 fw-bold  mb-4">{{ .Params.heroTitle | safeHTML }}</h1>
+
+          <!-- 本文 -->
+          <p class="lead mb-4" style="max-width: 800px; margin: 0 auto;">
+            {{ .Params.heroText | safeHTML }}
+          </p>
+
+          <!-- 特徴リスト -->
+          <ul class="list-unstyled d-flex flex-column flex-md-row justify-content-center gap-3 my-4">
+            {{ range .Params.heroLinks }}
+            <li>
+              {{ if .url }}
+              <a href="{{ .url }}" class="text-decoration-none d-block">{{ .label }}</a>
+              {{ else }} {{ .label }} {{ end }}
+            </li>
+            {{ end }}
+          </ul>
+
+          <!-- ボタン -->
+          <div class="mt-4">
+          <a href="https://nipoplus.sndbox.jp/" class="btn btn-primary btn-lg my-5">今すぐはじめる</a>
+          <a href="/nipoplus3.pdf" target="_blank" rel="noopener"  class="btn btn-info btn-lg my-5">資料ダウンロード（PDF）</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+
+{{ define "rootHero2" }}
+  {{ if .Params.heroTitle }}
   <section class="wrap container-lg">
     <div id="myhero">
       <h2 style="margin-bottom: 0">{{ .Params.heroSubTitle | safeHTML }}</h2>

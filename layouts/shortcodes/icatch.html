@@ -44,7 +44,8 @@
   [{
     "@context": "https://schema.org/",
     "@type": "ImageObject",
-    "caption": "{{ printf "%s（タブレットとPC画面）" $msg | safeHTML }}",
+    "caption": "{{ printf "%s（Nipo Plus大画面）" $msg | safeHTML }}",
+    "alternateName": ["NipoPlus", "ニポプラス", "にぽぷらす", "にぽ＋", "Nipoぷらす", "ニッポープラス"],
     "contentUrl": "{{ $imgTablet.Permalink | safeHTML }}",
     "license": "/system/credit/",
     "acquireLicensePage": "/system/credit/",
@@ -55,7 +56,8 @@
   {
     "@context": "https://schema.org/",
     "@type": "ImageObject",
-    "caption": "{{ printf "%s（スマートフォン画面）" $msg | safeHTML }}",
+    "caption": "{{ printf "%s（Nipo Plusモバイル画面）" $msg | safeHTML }}",
+    "alternateName": ["NipoPlus", "ニポプラス", "にぽぷらす", "にぽ＋", "Nipoぷらす", "ニッポープラス"],
     "contentUrl": "{{ $imgPhone.Permalink | safeHTML }}",
     "license": "/system/credit/",
     "acquireLicensePage": "/system/credit/",

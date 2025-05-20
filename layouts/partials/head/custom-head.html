@@ -1,4 +1,7 @@
 <!-- Custom head -->
+{{ with site.Params.keywords }}
+  <meta name="keywords" content="{{ delimit . ", " }}">
+{{ end }}
 
 <!-- GTAG -->
 {{ partial "custom/gtagHead" . }}

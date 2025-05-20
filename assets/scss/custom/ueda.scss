@@ -112,44 +112,6 @@ blockquote {
   }
 }
 
-#myhero {
-  margin-top: 5em ;
-  margin-bottom: 5em;
-  .headLine {
-    animation: SlideIn 1s forwards;
-    font-size: calc(1.875rem + 1.5vw);
-  }
-  .heroList {
-    margin-top: 30px;
-    font-size: 2rem;
-    list-style: none;
-    li::before {
-      content: '✅ ';
-    }
-  }
-  /* CSSアニメーションの設定 */
-  @keyframes SlideIn {
-    0% {
-      opacity: 0; /*初期状態では透明に*/
-      transform: translateY(30px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-}
-
-@media screen and (max-width: 599px) {
-  #myhero {
-    padding: 0;
-    .heroList {
-      padding-left: 10px;
-      font-size: 1.2em;
-    }
-  }
-}
-
 .rootMainText p {
   font-size: 1.3em;
 }

@@ -5,13 +5,45 @@
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  transition: filter 0.3s ease;
+  .headLine {
+    animation: SlideIn 1s forwards;
+    font-size: calc(1.875rem + 1.5vw);
+  }
+    /* CSSアニメーションの設定 */
+  @keyframes SlideIn {
+    0% {
+      opacity: 0; /*初期状態では透明に*/
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+  // デフォルト（ライトモード用）
+  filter: brightness(1) contrast(1);
+
+  // ダークモード時：背景を落ち着かせて文字とのコントラストを確保
+  [data-bs-theme="dark"] & {
+    filter: brightness(0.6) contrast(1.2) saturate(0.9);
+  }
 
   &::before {
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(255, 255, 255, 0.4); // ウォッシュアウト効果
     z-index: 1;
+    transition: background-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.4); // デフォルト
+
+    // ダークモード時：白→黒に切り替え
+    [data-bs-theme="dark"] & {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
   }
 
   .container {
@@ -19,3 +51,4 @@
     z-index: 2;
   }
 }
+

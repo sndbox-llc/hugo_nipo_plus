@@ -1,8 +1,10 @@
 <!-- Custom head -->
-{{ with site.Params.keywords }}
-  <meta name="keywords" content="{{ delimit . ", " }}">
+{{ if .Params.keywords }}
+  <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
+{{ else if site.Params.keywords }}
+  <meta name="keywords" content="{{ delimit site.Params.keywords ", " }}">
 {{ end }}
+
 
 <!-- GTAG -->
 {{ partial "custom/gtagHead" . }}
-

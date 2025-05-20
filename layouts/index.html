@@ -17,7 +17,7 @@
 
 {{ define "rootHero" }}
   {{ if .Params.heroTitle }}
-  <section class="hero-bg d-flex align-items-center text-center py-5">
+  <section class="hero-bg d-flex align-items-center text-center py-5" style="background-image: url('{{ .Params.heroBg | default "/images/bg.webp" }}');">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12">
@@ -56,36 +56,6 @@
   {{ end }}
 {{ end }}
 
-
-{{ define "rootHero2" }}
-  {{ if .Params.heroTitle }}
-  <section class="wrap container-lg">
-    <div id="myhero">
-      <h2 style="margin-bottom: 0">{{ .Params.heroSubTitle | safeHTML }}</h2>
-      <h1 class="headLine" style="margin-top: 0;">{{ .Params.heroTitle | safeHTML }}</h1> <!-- safeHTML を追加 -->
-      <div class="w-100" style="font-size: 1.3em; max-width: 1200px">{{ .Params.heroText | safeHTML}}</div>
-      <ul class="heroList">
-        {{ range .Params.heroLinks }}
-        <li>
-          {{ if .url }}
-          <a href="{{ .url }}">{{ .label }}</a>
-          {{ else }} {{ .label }} {{ end }}
-        </li>
-        {{ end }}
-      </ul>
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-3">
-          <a href="https://nipoplus.sndbox.jp/" class="btn btn-primary btn-lg my-5 w-100">今すぐはじめる</a>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <a href="/nipoplus3.pdf" target="_blank" rel="noopener"  class="btn btn-primary btn-lg my-5 w-100">資料ダウンロード（PDF）</a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  {{ end }}
-{{ end }}
 
 
 

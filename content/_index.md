@@ -4,6 +4,8 @@ description = "NipoPlus（ニポプラス）は、自由に項目設計できる
 date = "2023-04-01"
 showPrice = true
 heroTitle = "クラウド日報 NipoPlus"
+heroBg = "/images/bg.webp"
+
 heroSubTitle = "チャット日報を卒業しよう。もうエクセル転記はいりません。"
 heroText = "NipoPlusなら溜まった日報を１枚のスプレッドシートに簡単出力。二度手間も転記ミスも有りません。承認やコメントなどの基本機能ももちろん完備！"
 heroLinks = [

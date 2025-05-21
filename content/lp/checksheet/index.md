@@ -7,15 +7,29 @@ toc = false
 showPrice = true
 heroBg = "/images/bg222.webp"
 heroBgSp = "/images/bg222sp.webp"
-heroTitle = "スマホ・タブレットで使える業務用点検アプリ"
-heroSubTitle = "紙のチェックシート運用から、アプリでの点検記録へ"
-heroText = "カスタム可能な業務テンプレート × 繰り返しの現場入力"
+heroTitle = "業務用点検アプリ NipoPlus"
+heroText = "NipoPlusは、スマホ・タブレットで使える業務用チェックシートアプリ。点検内容を自由に設計でき、繰り返しの記録業務に最適です。"
+heroSubTitle  = "カスタム可能な業務テンプレート × 繰り返しの現場入力"
 keywords = [
   "設備点検アプリ",
   "巡回点検",
   "スマホ点検記録",
   "チェックリスト",
-  "製造業DX"
+  "製造業DX",
+  "NipoPlus",
+  "Nipo Plus",
+  "ニポプラス",
+  "にぽぷらす",
+  "Nipoぷらす",
+  "にぽ＋",
+  "ニッポウプラス",
+  "にっぽぷらす",
+  "NIPO Plus",
+  "にぽplus",
+  "Nipo＋",
+  "Nipoプラス",
+  "NIPOPLUS",
+  "Nipo-Plus"
 ]
 
 heroLinks = [

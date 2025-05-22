@@ -4,6 +4,7 @@ title = "設備点検アプリ・巡回記録をスマホで残せるNipoPlus"
 menuTitle = "点検チェックシートアプリ"
 description = "設備点検や警備巡回、製造業の品質確認をスマホで記録。テンプレートを自由に設計でき、繰り返し使える業務特化型クラウドアプリ。"
 toc = false
+cta=1
 showPrice = true
 heroBg = "/images/bg222.webp"
 heroBgSp = "/images/bg222sp.webp"

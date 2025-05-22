@@ -5,7 +5,7 @@ date = "2023-04-01"
 showPrice = true
 heroTitle = "クラウド日報 NipoPlus"
 heroBg = "/images/bg.webp"
-
+cta = 0
 heroSubTitle = "チャット日報を卒業しよう。もうエクセル転記はいりません。"
 heroText = "チャットの日報をエクセルに書き写すことはしていませんか？🚫2度手間✋️。NipoPlusなら溜まった日報を簡単出力。二度手間も転記ミスも有りません。"
 heroLinks = [

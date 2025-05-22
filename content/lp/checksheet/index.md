@@ -259,7 +259,7 @@ NipoPlusは、点検表やチェックシートだけでなく、
 <!-- ▲ DX -->
 
 <!-- ▼ コスト -->
-<div class="container my-5" id="csv_output">
+<div class="container my-5" id="price_section">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">高機能でも、月額180円。だから選ばれています</h2>
 

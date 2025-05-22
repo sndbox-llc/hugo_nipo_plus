@@ -6,7 +6,14 @@
 {{ $id := partial "make-random-md5.hugo" }}
 {{ $uniqueID := (printf "character-container-%s" $moji) }}
 
-<div class="uTabletContainer mb-2 mt-5">
+{{/* ★ marginLess パラメータを取得 */}}
+{{ $noMargin := .Get "marginLess" | default "false" }}
+{{ $containerClass := "uTabletContainer mb-2 mt-5" }}
+{{ if eq $noMargin "true" }}
+  {{ $containerClass = "uTabletContainer mb-2" }}
+{{ end }}
+
+<div class="{{ $containerClass }}">
   <div class="uedaTabletFrame" >
     <picture class="uedaTabletPicture">
       <source srcset="{{ $imgPhone.RelPermalink }}" media="(max-width: 768px)">

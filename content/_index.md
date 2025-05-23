@@ -222,8 +222,9 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 <!-- ▼ コスト -->
 <div class="container my-5" id="cost">
 <div class="row align-items-center rounded-3 border shadow-lg">
-<div class="col-lg-16">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">180円！圧倒的低コスト-無料プラン有</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">180円！圧倒的低コスト-無料プラン有</h2>
+
+<div class="col-lg-7">
 <p class="lead">
 
 徹底したコストカットにより、1名180円の低価格でご提供しています。無料プランもあり。  
@@ -238,6 +239,11 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 {{< link-card title="ご利用料金"  description="業界最安値を目指します！安価で多機能" href="/docs/price/">}}
 
 </div>
+<div class="col-lg-9">
+{{<figure src="lawprice.webp"  alt="アイキャッチ" caption="">}}
+
+</div>
+
 </div>
 </div>
 

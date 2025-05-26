@@ -52,8 +52,7 @@ Nipo Plus（ニポプラス）は、業務に必要な入力形式を自由に�
 <div class="col-lg-7">
 <p class="lead">
 
-スマホで現場からサッと記録。  
-そのままクラウドに保存されるから、オフィスに戻らずにすぐ共有できます。  
+スマホで現場からサッと記録。そのままクラウドに保存されるから、オフィスに戻らずにすぐ共有できます。
 PCでの集計やタブレットでの入力もOK。**使う人のスタイルに合わせて**、どこからでも日報を確認・編集できます。
 
 NipoPlus（にぽぷらす）は、[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)アプリにも対応しており、  
@@ -80,7 +79,7 @@ NipoPlus（にぽぷらす）は、[Android](/docs/system/mobile-install/#google
 <p class="lead">
 
 簡単な操作で提出された日報や点検表をPDFに変換してダウンロードできます。
-A4サイズで向きは縦・横から選択可能。見た目のレイアウトも2種類あり、[PDF出力設定](/docs/manual/pdf/pdfoption/)から簡単に切替が可能です。  
+A4サイズで向きは縦・横から選択可能。見た目のレイアウトも2種類あり、[PDF出力設定](/docs/manual/pdf/pdfoption/)から簡単に切替が可能です。
 まとめて出力したいときに便利な[一括PDF出力](/docs/manual/pdf/pdfbatch/)にも対応しています。
 
 </p>
@@ -98,33 +97,6 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 
 <!-- ▲PDF -->
 
-<!-- ▼年輩の方もOK -->
-<div class="container my-5" id="easy_for_seniors">
-<div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">ITが苦手な方でも安心。見やすくてカンタン</h2>
-
-<div class="col-lg-7">
-<p class="lead">
-
-Nipo Plusは、**初めてでも迷わず使える操作設計**。  
-「テンプレートを選んで、記録して、提出するだけ」なので、ITが得意でない方や年配の現場スタッフでも安心して使えます。
-さらに、文字サイズは調整可能なため、目が疲れやすい環境や、高年齢層のスタッフにも配慮された設計です。
-日報の[提出先](/docs/setup/staff-local/dist/)もあらかじめ設定しておけるので、煩わしい操作は最小限に抑えられます。
-
-</p>
-
-{{< link-card title="テンプレートを選んで書くだけの簡単日報"  description="" href="/docs/manual/write-report/write/">}}
-
-</div>
-<div class="col-lg-9">
-
-{{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet" marginLess="true">}}
-
-</div>
-</div>
-</div>
-<!-- ▲年輩の方もOK -->
-
 <!-- ▼ 提出簿 -->
 <div class="container my-5" id="submission_status">
 <div class="row rounded-3 border shadow-lg">
@@ -133,15 +105,11 @@ Nipo Plusは、**初めてでも迷わず使える操作設計**。
 <div class="col-lg-7">
 <p class="lead">
 
-NipoPlus（にぽぷらす）では、提出された日報を**出席簿のように一覧表示**できます。  
-誰がいつ提出したか、**未提出者は誰か、何件出しているか**まで一目でわかるので、  
-日報の確認・管理がとてもスムーズになります。
+NipoPlus（にぽぷらす）では、提出された日報を**出席簿のように一覧表示**できます。
+誰がいつ提出したか、**未提出者は誰か、何件出しているか**まで一目でわかるので、日報の確認・管理がとてもスムーズになります。
 
-1日2通・3通と提出されていれば**件数で表示される**ため、  
-重複報告の確認や、**複数回提出ルールの実施状況チェック**にも活用可能です。
-
-また、**シフト情報と連携**することで、  
-「休みで出してない」のか「出し忘れ」なのかの**見分けも簡単**です。
+1日2通・3通と提出されていれば**件数で表示される**ため、重複報告の確認や、**複数回提出ルールの実施状況チェック**にも活用可能です。
+また、**シフト情報と連携**することで、「休みで出してない」のか「出し忘れ」なのかの**見分けも簡単**です。
 
 </p>
 
@@ -168,12 +136,10 @@ NipoPlus（にぽぷらす）では、提出された日報を**出席簿のよ�
 
 NipoPlus（にぽぷらす）では、[選択肢](/docs/template/selects/)の内容を**前の回答に応じて動的に切り替える**ことができます。
 
-例えば「地域」で「栃木」を選ぶと、次の「支店」選択肢が**宇都宮・足利・鹿沼**に絞られ、  
-他地域の支店は非表示になります。  
+例えば「地域」で「栃木」を選ぶと、次の「支店」選択肢が**宇都宮・足利・鹿沼**に絞られ、他地域の支店は非表示になります。  
 このように、**関係ない選択肢を非表示にすることで、入力ミスを防ぎ、記録の精度を向上**させることができます。
 
-通常は専用アプリでしか実現できない機能ですが、NipoPlusなら**ノーコードで自由に構築可能**。  
-さらに、3層・4層とつなげていく応用も可能です。
+通常は専用アプリでしか実現できない機能ですが、NipoPlusなら**ノーコードで自由に構築可能**。さらに、3層・4層とつなげていく応用も可能です。
 
 以下はサンプルイメージです。
 
@@ -267,6 +233,33 @@ NipoPlus（にぽぷらす）なら、あらかじめ定義されたテンプレ
 -->
 
 <!-- ▲ CSV -->
+
+<!-- ▼年輩の方もOK -->
+<div class="container my-5" id="easy_for_seniors">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">ITが苦手な方でも安心。見やすくてカンタン</h2>
+
+<div class="col-lg-7">
+<p class="lead">
+
+Nipo Plusは、**初めてでも迷わず使える操作設計**。  
+「テンプレートを選んで、記録して、提出するだけ」なので、ITが得意でない方や年配の現場スタッフでも安心して使えます。
+さらに、文字サイズは調整可能なため、目が疲れやすい環境や、高年齢層のスタッフにも配慮された設計です。
+日報の[提出先](/docs/setup/staff-local/dist/)もあらかじめ設定しておけるので、煩わしい操作は最小限に抑えられます。
+
+</p>
+
+{{< link-card title="テンプレートを選んで書くだけの簡単日報"  description="" href="/docs/manual/write-report/write/">}}
+
+</div>
+<div class="col-lg-9">
+
+{{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet" marginLess="true">}}
+
+</div>
+</div>
+</div>
+<!-- ▲年輩の方もOK -->
 
 <!-- ▼ コスト -->
 <div class="container my-5" id="cost">

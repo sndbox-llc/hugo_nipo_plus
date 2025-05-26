@@ -1,18 +1,17 @@
 +++
-title = "NipoPlus（ニポプラス・にぽぷらす）｜格安・自由設計の日報アプリ"
-description = "NipoPlus（ニポプラス・にぽぷらす）は、自由に項目設計できるクラウド日報アプリ。スマホ・PC両対応で設備点検にも最適。低価格で多機能。"
+title = "NipoPlus（ニポプラス・にぽぷらす）｜零細企業向け・自由設計のクラウド日報"
+description = "零細企業でも低価格で自社にピッタリの日報を。NipoPlusは自由にテンプレートを設計できるクラウド日報アプリ。スマホ・PC対応で業務効率とDX化を促進。"
 date = "2023-04-01"
 showPrice = true
-heroTitle = "クラウド日報 NipoPlus"
+heroTitle = "「独自の日報」諦めていませんか？\nコストをかけずに、自由に作れるクラウド日報NipoPlus"
 heroBg = "/images/bg.webp"
 cta = 0
-heroSubTitle = "チャット日報を卒業しよう。もうエクセル転記はいりません。"
-heroText = "チャットの日報をエクセルに書き写すことはしていませんか？🚫2度手間✋️。NipoPlusなら溜まった日報を簡単出力。二度手間も転記ミスも有りません。"
+heroSubTitle = "チャット日報の“二度手間”も、エクセル転記の“ミス”ももう不要。"
+heroText = "「うちの会社に合う日報システムがない…」と諦めていた零細企業のあなたへ。NipoPlusなら、自社の業務に合わせた日報テンプレートを自由に作成。スマホ・PCから簡単入力、データは自動で集計・出力。月額180円/名〜で、今日から効率的な日報運用とDX化を実現します。"
 heroLinks = [
-  { label = "📱 スマホ・PCに完全対応", url = "/tips/mobile-device/" },
-  { label = "💰️ 業界最安値水準！", url = "/docs/price/" },
-  { label = "🏭 設備点検シートにも", url = "/lp/checksheet/" },
-
+  { label = "🏭 設備点検シートにも使える", url = "/lp/checksheet/" },
+  { label = "💰️ 月額180円/名〜！業界最安値水準", url = "/docs/price/" },
+  { label = "📱 全デバイス対応", url = "/tips/mobile-device/" },
 ]
 +++
 

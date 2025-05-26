@@ -1,6 +1,6 @@
 +++
-title = "NipoPlus（ニポプラス）｜格安・自由設計の日報＆点検アプリ"
-description = "NipoPlus（ニポプラス）は、自由に項目設計できるクラウド日報アプリ。スマホ・PC両対応で設備点検にも最適。低価格で多機能。"
+title = "NipoPlus（ニポプラス・にぽぷらす）｜格安・自由設計の日報アプリ"
+description = "NipoPlus（ニポプラス・にぽぷらす）は、自由に項目設計できるクラウド日報アプリ。スマホ・PC両対応で設備点検にも最適。低価格で多機能。"
 date = "2023-04-01"
 showPrice = true
 heroTitle = "クラウド日報 NipoPlus"
@@ -18,20 +18,27 @@ heroLinks = [
 
 <!-- ▼自作できる -->
 <div class="container my-5" id="nocode-custom-daily-report">
-<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">「うちの業務には合わない」を解決。誰でも自社専用の日報が作れる</h2>
+
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">日報アプリを自作できる</h2>
 <p class="lead">
 
-[文字入力](/docs/template/text/)、[数字入力](/docs/template/digital/#commonNumber)、[画像入力](/docs/template/binarys/#picture)などを自由に組み合わせるだけで、日報に使うフォームを簡単に自作できます。
-レイアウトだってドラッグ操作で簡単に調整可能です。
-テンプレートは複数保存でき、報告業務内容に応じて使い分けができます。
+Nipo Plus（ニポプラス）は、業務に必要な入力形式を自由に組み合わせて、現場にフィットする“自社専用”の業務日報テンプレートが作れます。
+入力形式には例えば次のような項目があります。
+
+- [文字入力](/docs/template/text/)
+- [数字入力](/docs/template/digital/#commonNumber)
+- [画像入力](/docs/template/binarys/#picture)など
+
+複数のテンプレートを保存・切り替えて使えるので、日報以外にも  
+作業報告書・申し送りメモ・[検査記録](/lp/checksheet)など、あらゆる現場記録に対応できます。
 
 </p>
-{{< link-card title="テンプレートとは" description="" href="/docs/template/">}}
+{{< link-card title="日報テンプレートを作る" description="" href="/docs/template/">}}
 </div>
 <div class="col-lg-9">
-{{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc">}}
+{{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc" marginLess="true">}}
 </div>
 </div>
 </div>
@@ -39,9 +46,10 @@ heroLinks = [
 
 <!-- ▼スマホ対応 -->
 <div class="container my-5" id="browser_app">
-<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">PC・スマホ・タブレットに対応</h2>
+
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">PC・スマホ・タブレットに対応</h2>
 <p class="lead">
 
 ブラウザが使える機器なら何でもOK。  
@@ -55,7 +63,7 @@ heroLinks = [
 
 </div>
 <div class="col-lg-9">
-{{<icatch filename="read-report" msg="スマホもタブレットもPCも全部OK"  alice="tablet">}}
+{{<icatch filename="read-report" msg="スマホもタブレットもPCも全部OK"  alice="tablet" marginLess="true">}}
 </div>
 </div>
 </div>

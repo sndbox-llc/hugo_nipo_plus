@@ -47,19 +47,21 @@ Nipo Plus（ニポプラス）は、業務に必要な入力形式を自由に�
 <!-- ▼スマホ対応 -->
 <div class="container my-5" id="browser_app">
 <div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">PC・スマホ・タブレットに対応</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">マルチデバイス対応で、現場とオフィスが繋がる</h2>
 
 <div class="col-lg-7">
 <p class="lead">
 
-ブラウザが使える機器なら何でもOK。  
-スマホで書いた日報をPCで見たり、タブレットで点検表を入力したり。  
-全てのデータはクラウドに保存されているので時間、場所に囚われない快適な日報ライフを実現できます。  
-[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)は専用アプリもご用意しています。
+スマホで現場からサッと記録。  
+そのままクラウドに保存されるから、オフィスに戻らずにすぐ共有できます。  
+PCでの集計やタブレットでの入力もOK。**使う人のスタイルに合わせて**、どこからでも日報を確認・編集できます。
+
+NipoPlus（にぽぷらす）は、[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)アプリにも対応しており、  
+写真の添付や手書き入力など、スマホならではの使い方も可能です。
 
 </p>
 
-{{< link-card title="モバイルデバイス活用" description="写真などスマホの特徴を使った活用術" href="/tips/mobile-device/">}}
+{{< link-card title="写真などスマホの特徴を使った活用術" description="" href="/tips/mobile-device/">}}
 
 </div>
 <div class="col-lg-9">
@@ -71,24 +73,25 @@ Nipo Plus（ニポプラス）は、業務に必要な入力形式を自由に�
 
 <!-- ▼年輩の方もOK -->
 <div class="container my-5" id="easy_for_seniors">
-<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">ITが苦手な方でも安心。見やすくてカンタン</h2>
+
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">年配の方も使える簡単操作・大きな文字</h2>
 <p class="lead">
 
-書いて提出するだけの簡単操作。  
-PC苦手な方の鬼門「名前をつけて保存」も有りません。
-[提出先をあらかじめ固定](/docs/setup/staff-local/dist/)しておけば更に楽に使えます。  
-また、文字サイズ調整機能が備わっているので年配の方でも視認性抜群です。
+Nipo Plusは、**初めてでも迷わず使える操作設計**。  
+「テンプレートを選んで、記録して、提出するだけ」なので、ITが得意でない方や年配の現場スタッフでも安心して使えます。
+さらに、文字サイズは調整可能なため、目が疲れやすい環境や、高年齢層のスタッフにも配慮された設計です。
+日報の[提出先](/docs/setup/staff-local/dist/)もあらかじめ設定しておけるので、煩わしい操作は最小限に抑えられます。
 
 </p>
 
-{{< link-card title="レポートを書く方法"  description="テンプレートを選んで書くだけの簡単操作" href="/docs/manual/write-report/write/">}}
+{{< link-card title="テンプレートを選んで書くだけの簡単日報"  description="" href="/docs/manual/write-report/write/">}}
 
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet">}}
+{{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet" marginLess="true">}}
 
 </div>
 </div>
@@ -97,9 +100,10 @@ PC苦手な方の鬼門「名前をつけて保存」も有りません。
 
 <!-- ▼PDF -->
 <div class="container my-5" id="pdf_output">
-<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">印刷してもきれい。地味に便利で嬉しいPDF出力機能</h2>
+
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">日報を1クリックでPDFに変換</h2>
 <p class="lead">
 
 簡単な操作で提出された日報や点検表をPDFに変換してダウンロードできます。

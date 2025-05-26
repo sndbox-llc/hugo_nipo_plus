@@ -71,6 +71,33 @@ NipoPlus（にぽぷらす）は、[Android](/docs/system/mobile-install/#google
 </div>
 <!-- ▲スマホ対応 -->
 
+<!-- ▼PDF -->
+<div class="container my-5" id="pdf_output">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">印刷してもきれい。地味に便利で嬉しいPDF出力機能</h2>
+
+<div class="col-lg-7">
+<p class="lead">
+
+簡単な操作で提出された日報や点検表をPDFに変換してダウンロードできます。
+A4サイズで向きは縦・横から選択可能。見た目のレイアウトも2種類あり、[PDF出力設定](/docs/manual/pdf/pdfoption/)から簡単に切替が可能です。  
+まとめて出力したいときに便利な[一括PDF出力](/docs/manual/pdf/pdfbatch/)にも対応しています。
+
+</p>
+
+{{< link-card title="日報を簡単にPDF出力"  description="" href="/docs/manual/pdf/about">}}
+
+</div>
+<div class="col-lg-9">
+
+{{<iTablet filename="pdf-yoko" msg="日報やチェックシートなどのデータを簡単にPDFに変換してダウンロードできます"  alice="ok">}}
+
+</div>
+</div>
+</div>
+
+<!-- ▲PDF -->
+
 <!-- ▼年輩の方もOK -->
 <div class="container my-5" id="easy_for_seniors">
 <div class="row  rounded-3 border shadow-lg">
@@ -98,51 +125,32 @@ Nipo Plusは、**初めてでも迷わず使える操作設計**。
 </div>
 <!-- ▲年輩の方もOK -->
 
-<!-- ▼PDF -->
-<div class="container my-5" id="pdf_output">
-<div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">印刷してもきれい。地味に便利で嬉しいPDF出力機能</h2>
-
-<div class="col-lg-7">
-<p class="lead">
-
-簡単な操作で提出された日報や点検表をPDFに変換してダウンロードできます。
-A4サイズで向きは縦・横から選択可能。見た目のレイアウトも2種類あり、[PDF出力設定](/docs/manual/pdf/pdfoption/)から簡単に切替が可能です。  
-まとめて出力したいときに便利な一括PDF出力にも対応しています。
-
-</p>
-
-{{< link-card title="PDF出力"  description="レイアウトの設定や縦横の指定もOK" href="/docs/manual/pdf/about">}}
-
-</div>
-<div class="col-lg-9">
-
-{{<iTablet filename="pdf-yoko" msg="日報やチェックシートなどのデータを簡単にPDFに変換してダウンロードできます"  alice="ok">}}
-
-</div>
-</div>
-</div>
-
-<!-- ▲PDF -->
-
 <!-- ▼ 提出簿 -->
 <div class="container my-5" id="submission_status">
-<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="row rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">提出漏れゼロへ。日報の提出状況が一覧で見える安心感</h2>
+
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">日報の提出状況を一覧で表示</h2>
 <p class="lead">
 
-日報の提出状況一覧表を使えば、提出漏れの状況を簡単に把握できます。件数も把握できるので過剰に提出しているケースでも特定可能です。  
-シフト登録をしておけば、未提出か休みによる漏れかも簡単に区別可能です。
+NipoPlus（にぽぷらす）では、提出された日報を**出席簿のように一覧表示**できます。  
+誰がいつ提出したか、**未提出者は誰か、何件出しているか**まで一目でわかるので、  
+日報の確認・管理がとてもスムーズになります。
+
+1日2通・3通と提出されていれば**件数で表示される**ため、  
+重複報告の確認や、**複数回提出ルールの実施状況チェック**にも活用可能です。
+
+また、**シフト情報と連携**することで、  
+「休みで出してない」のか「出し忘れ」なのかの**見分けも簡単**です。
 
 </p>
 
-{{< link-card title="シフト管理"  description="提出状況表と組み合わせて更に便利に"  href="/docs/manual/utils/shift/">}}
+{{< link-card title="提出状況表とシフト管理の合せ技で更に便利"  description=""  href="/docs/manual/utils/shift/" >}}
 
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="report-list" msg="提出状況を見れば提出漏れも一目でわかります。欠勤フラグも使えば更に便利に"  alice="here">}}
+{{<icatch filename="report-list" msg="提出状況を見れば提出漏れも一目でわかります。欠勤フラグも使えば更に便利に"  alice="here"  marginLess="true">}}
 
 </div>
 </div>
@@ -152,13 +160,22 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 
 <!-- ▼ 動的変化 -->
 <div class="container my-5" id="dynamic">
-<div class="row align-items-center rounded-3 border shadow-lg">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">回答に応じて“次の選択肢”が変わる。動きのあるフォームが簡単に作れる</h2>
+
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">回答に応じて動的に設問を変化</h2>
 <p class="lead">
 
-プログラミングのような日報を誰でも簡単に組み立て可能です。  
-例えば「地域」の値に応じて「支店」の[選択肢](/docs/template/selects/)を変化させることが可能です。下にサンプルを用意しました。
+NipoPlus（にぽぷらす）では、[選択肢](/docs/template/selects/)の内容を**前の回答に応じて動的に切り替える**ことができます。
+
+例えば「地域」で「栃木」を選ぶと、次の「支店」選択肢が**宇都宮・足利・鹿沼**に絞られ、  
+他地域の支店は非表示になります。  
+このように、**関係ない選択肢を非表示にすることで、入力ミスを防ぎ、記録の精度を向上**させることができます。
+
+通常は専用アプリでしか実現できない機能ですが、NipoPlusなら**ノーコードで自由に構築可能**。  
+さらに、3層・4層とつなげていく応用も可能です。
+
+以下はサンプルイメージです。
 
 <div class="container my-4" style="border:1px solid black">
 <div class="mb-3">
@@ -187,17 +204,13 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 </div>
 </div>
 
-選択肢を動的に変化させることで関係のない選択を隠すことができ、入力者の負担軽減に繋がります。  
-専用アプリで作るにはお金がかかりますが、NipoPlusなら自分たちで簡単にこのような機能を実装可能です。  
-例では2層ですが、更につなげて行くことも可能です。（例えば地域・支店・担当者 のように）
-
 </p>
-{{< link-card title="動的変化について"  description="ノーコードで動きのある日報を作れる"  href="/docs/template/selects/#dinamic_switch_select">}}
+{{< link-card title="ノーコードで動きのある日報を作る"  description=""  href="/docs/template/selects/#dinamic_switch_select">}}
 
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="dinamic-selection" msg="プログラマが居なくても自分で作れちゃうよ" alice="pc">}}
+{{<icatch filename="dinamic-selection" msg="プログラマが居なくても自分で作れちゃうよ" alice="pc"  marginLess="true">}}
 
 </div>
 </div>
@@ -207,27 +220,51 @@ A4サイズで向きは縦・横から選択可能。見た目のレイアウト
 
 <!-- ▼ CSV -->
 <div class="container my-5" id="csv_output">
-<div class="row align-items-center rounded-3 border shadow-lg">
+
+<div class="row rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">チャット日報ではできない。記録が“活用”に変わる仕組み</h2>
+
 <div class="col-lg-7">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1">分析・CSV出力</h2>
 <p class="lead">
 
-DX化のメリットはなんといってもデータの集計や分析が容易な点です。日報内の「売上高」や「訪問件数」といった数値データを簡単にグラフ化できます。  
-グラフも折れ線グラフ📈・棒グラフ📊・円グラフなど複数種類を作成可能で、ワンクリックで切替が可能です。  
-またデータをCSV出力することで、そのままエクセルなどのスプレッドシートで開いて編集も可能です。
+最近はチャットアプリで日報を送るケースも増えていますが、記録が流れてしまったり、後から数値を集めるのに時間がかかったりと、**“その場限りの報告”で終わってしまう**ことも少なくありません。
+また、チャットで受けた報告をExcelに転記するケースもよく耳にしますが、二度手間、転記ミスなど、改善すべき課題も多くあります。
+
+NipoPlus（にぽぷらす）なら、あらかじめ定義されたテンプレートに入力するだけで「売上」「訪問件数」などの数値を**自動で集計・グラフ化**。  
+複数のグラフ種（折れ線、棒、円）で傾向を把握でき、さらに**CSV形式で出力してExcelで再活用**することも可能です。
+
+日報を“流さず、活かす”なら、NipoPlusが、チャットでは実現できないデータ活用を叶えます。
 
 </p>
 
-{{< link-card title="エクセル集計とアプリ集計" description="エクセルを使った集計テクニックをご紹介"  href="/tips/analytics/">}}
+{{< link-card title="日報データをエクセルで分析するテクニック集" description=""  href="/tips/analytics/">}}
 
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="make-charts" msg="エクセルが無くても！積み上げ縦棒&折れ線の複合グラフくらいは作成できるよ" alice="pc">}}
+{{<icatch filename="make-charts" msg="エクセルが無くても！積み上げ縦棒&折れ線の複合グラフくらいは作成できるよ" alice="pc"  marginLess="true">}}
 
 </div>
 </div>
 </div>
+
+<!--
+
+
+たくさんの日報を1枚のシートにまとめるにはCSV出力が便利です。NipoPlusのCSV出力を使うとエクセルでそのまま開ける日報データ一覧を簡単に出力可能。
+例えば次のようにエクセルで開くことができます。（※見やすくするため◯を⭕に脚色しています）
+
+{{< excelTable>}}
+提出日, 提出者名, 承認者1, 承認者1詳細, 【日当たり良好】特徴, 【駅近く】特徴, 【コンビニあり】特徴, 【スーパーあり】特徴, 【新築】特徴, 風呂トイレ別, 所在地住所, 管理番号, 外観上の評価, 利便性評価, 調査員総合評価, 建物外観
+2024/02/29 10:26, ueda 管理者, ueda 管理者, 未処理, ⭕, ⭕, , ⭕, , ON, 栃木県中岡本, BA-1, 5, 5, 4, CSV出力不可
+2024/02/25 10:26, ueda 管理者, ueda 管理者, 未処理, , , , ⭕, , ON, 栃木県宇都宮市益子XXX-1, MA-1, 3, 4, 1, CSV出力不可
+2024/02/19 10:26, ueda 管理者, ueda 管理者, 未処理, , , ⭕, ⭕, ⭕, ON, 栃木県鹿沼市XX, ZZC-1, 4, 1, 4, CSV出力不可
+2024/02/17 10:26, ueda 管理者, ueda 管理者, 未処理, ⭕, , , ⭕, , ON, 栃木県日光市１１１, NI-24, 3, 1, 2, CSV出力不可
+2024/02/03 09:25, ueda 管理者, ueda 管理者, 未処理, , ⭕, ⭕, ⭕, , ON, "栃木県宇都宮市XXX-XX ◯◯ハイツXX", GATXG0-12, 3, 2, 4, CSV出力不可
+{{< /excelTable>}}
+
+
+-->
 
 <!-- ▲ CSV -->
 
@@ -260,21 +297,6 @@ DX化のメリットはなんといってもデータの集計や分析が容易
 </div>
 
 <!-- ▲ コスト -->
-
-<!--
-
-たくさんの日報を1枚のシートにまとめるにはCSV出力が便利です。NipoPlusのCSV出力を使うとエクセルでそのまま開ける日報データ一覧を簡単に出力可能。
-例えば次のようにエクセルで開くことができます。（※見やすくするため◯を⭕に脚色しています）
-
-{{< excelTable>}}
-提出日, 提出者名, 承認者1, 承認者1詳細, 【日当たり良好】特徴, 【駅近く】特徴, 【コンビニあり】特徴, 【スーパーあり】特徴, 【新築】特徴, 風呂トイレ別, 所在地住所, 管理番号, 外観上の評価, 利便性評価, 調査員総合評価, 建物外観
-2024/02/29 10:26, ueda 管理者, ueda 管理者, 未処理, ⭕, ⭕, , ⭕, , ON, 栃木県中岡本, BA-1, 5, 5, 4, CSV出力不可
-2024/02/25 10:26, ueda 管理者, ueda 管理者, 未処理,  ,  ,  , ⭕,  , ON, 栃木県宇都宮市益子XXX-1, MA-1, 3, 4, 1, CSV出力不可
-2024/02/19 10:26, ueda 管理者, ueda 管理者, 未処理,  ,  , ⭕, ⭕, ⭕, ON, 栃木県鹿沼市XX, ZZC-1, 4, 1, 4, CSV出力不可
-2024/02/17 10:26, ueda 管理者, ueda 管理者, 未処理, ⭕,  ,  , ⭕,  , ON, 栃木県日光市１１１, NI-24, 3, 1, 2, CSV出力不可
-2024/02/03 09:25, ueda 管理者, ueda 管理者, 未処理,  , ⭕, ⭕, ⭕,  , ON, "栃木県宇都宮市XXX-XX ◯◯ハイツXX", GATXG0-12, 3, 2, 4, CSV出力不可
-{{< /excelTable>}}
--->
 
 {{<nextArrow>}}
 

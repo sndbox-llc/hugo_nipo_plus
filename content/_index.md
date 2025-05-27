@@ -45,6 +45,42 @@ NipoPlus（ニポプラス）なら、そんな零細企業の悩みを解決し
 </div>
 <!-- ▲自作できる -->
 
+<!-- ▼年輩の方もOK -->
+<div class="container my-5" id="easy_for_seniors">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">現場スタッフに優しい設計<br>ITが苦手でも、迷わず使える超カンタン日報</h2>
+
+<div class="col-lg-7">
+<p class="lead">
+
+「新しいツールは、現場のスタッフが使いこなせるか不安…」「日報が定着しないと意味がない…」
+
+NipoPlus（ニポプラス）は、そんな管理者の悩みに応えます。
+日々の **日報作成はわずか2ステップ** で完了。
+
+1. 使うテンプレートを選ぶ
+2. テンプレートに沿って記入し提出ボタンを押す
+
+これだけなので、ITツールに不慣れな方や、ベテランの現場スタッフでも**迷わず直感的に**使えます。
+
+[提出先](/docs/setup/staff-local/dist/)はあらかじめ設定済み、文字サイズも調整可能で目に優しく、日々の操作負担を徹底的に軽減。  
+**初期設定は管理者様が少し頑張るだけ。**
+一度仕組みを整えれば、現場のスタッフはストレスなく、 **今日からすぐに日報作成を始められます。**定着率の高い日報運用をNipoPlusが実現します。
+
+</p>
+
+{{< link-card title="テンプレートを選んで書くだけの簡単日報"  description="" href="/docs/manual/write-report/write/">}}
+
+</div>
+<div class="col-lg-9">
+
+{{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet" marginLess="true">}}
+
+</div>
+</div>
+</div>
+<!-- ▲年輩の方もOK -->
+
 <!-- ▼スマホ対応 -->
 <div class="container my-5" id="browser_app">
 <div class="row  rounded-3 border shadow-lg">
@@ -71,68 +107,6 @@ NipoPlus（ニポプラス）は、お手持ちのスマホ、PC、タブレッ�
 </div>
 </div>
 <!-- ▲スマホ対応 -->
-
-<!-- ▼PDF -->
-<div class="container my-5" id="pdf_output">
-<div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日本のビジネス文化にフィット！<br>作成した日報を「そのまま」PDF出力、美しく印刷。</h2>
-
-<div class="col-lg-7">
-<p class="lead">
-
-「電子化もいいけど、やっぱり紙で提出したい」「取引先への報告書は、きちんと体裁を整えたい」。  
-NipoPlus（ニポプラス）は、そんな日本のビジネスシーンに寄り添います。  
-あなたが **自由に設計した日報テンプレートのレイアウトを極力再現**し、簡単な操作で提出された日報や点検表を **見やすいPDF形式で出力** できます。
-A4サイズ、縦・横の用紙向き、2種類のレイアウトから選択可能。[PDF出力設定](/docs/manual/pdf/pdfoption/)から簡単に切替が可能です。必要な時に必要な分だけ、高品質な紙の書類として手元に残せます。
-
-複数日分をまとめて出力できる **[一括PDF出力](/docs/manual/pdf/pdfbatch/)** にも対応。
-もう手書きでの清書や、別のソフトで整える手間は不要です。
-
-</p>
-
-{{< link-card title="日報を簡単にPDF出力"  description="" href="/docs/manual/pdf/about">}}
-
-</div>
-<div class="col-lg-9">
-
-{{<iTablet filename="pdf-yoko" msg="日報をワンクリックでPDFに変換してダウンロード"  alice="ok">}}
-
-</div>
-</div>
-</div>
-
-<!-- ▲PDF -->
-
-<!-- ▼ 提出簿 -->
-<div class="container my-5" id="submission_status">
-<div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の「出し忘れ」「未提出」もう見逃さない。<br>管理者も安心！提出状況を一覧で瞬時に把握。</h2>
-
-<div class="col-lg-7">
-<p class="lead">
-
-「あの人の日報、まだかな？」「誰が出してないんだっけ…？」<br>
-NipoPlus（にぽぷらす）の<strong>提出簿（日報状況一覧）</strong>は、そんな管理者の悩みを解消します。
-まるで出席簿のように、<strong>誰がいつ、何枚日報を提出したかが一目で把握</strong>できるため、日報の回収・確認にかかる手間を大幅に削減します。  
-未提出者がいればすぐに気づき<strong>迅速に提出を促すことが可能</strong>に。
-
-また、同じ日に複数枚提出された場合は件数で表示されるため、重複報告や、多すぎる報告を**簡単にチェック**できます。
-さらに、**シフト管理機能と連携**すれば、「休みで未提出」なのか、「ただの出し忘れ」なのかが判別でき、より的確な状況判断をサポートします。
-
-</p>
-
-{{< link-card title="提出状況表とシフト管理の合せ技で更に便利"  description=""  href="/docs/manual/utils/shift/" >}}
-
-</div>
-<div class="col-lg-9">
-
-{{<icatch filename="report-list" msg="提出状況を見れば提出漏れも一目でわかります"  alice="here"  marginLess="true">}}
-
-</div>
-</div>
-</div>
-
-<!-- ▲ 提出簿 -->
 
 <!-- ▼ 動的変化 -->
 <div class="container my-5" id="dynamic">
@@ -193,6 +167,37 @@ NipoPlus（ニポプラス）なら、プログラミング知識がなくても
 
 <!-- ▲ 動的変化 -->
 
+<!-- ▼ 提出簿 -->
+<div class="container my-5" id="submission_status">
+<div class="row rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の「出し忘れ」「未提出」もう見逃さない。<br>管理者も安心！提出状況を一覧で瞬時に把握。</h2>
+
+<div class="col-lg-7">
+<p class="lead">
+
+「あの人の日報、まだかな？」「誰が出してないんだっけ…？」<br>
+NipoPlus（にぽぷらす）の<strong>提出簿（日報状況一覧）</strong>は、そんな管理者の悩みを解消します。
+まるで出席簿のように、<strong>誰がいつ、何枚日報を提出したかが一目で把握</strong>できるため、日報の回収・確認にかかる手間を大幅に削減します。  
+未提出者がいればすぐに気づき<strong>迅速に提出を促すことが可能</strong>に。
+
+また、同じ日に複数枚提出された場合は件数で表示されるため、重複報告や、多すぎる報告を**簡単にチェック**できます。
+さらに、**シフト管理機能と連携**すれば、「休みで未提出」なのか、「ただの出し忘れ」なのかが判別でき、より的確な状況判断をサポートします。
+
+</p>
+
+{{< link-card title="提出状況表とシフト管理の合せ技で更に便利"  description=""  href="/docs/manual/utils/shift/" >}}
+
+</div>
+<div class="col-lg-9">
+
+{{<icatch filename="report-list" msg="提出状況を見れば提出漏れも一目でわかります"  alice="here"  marginLess="true">}}
+
+</div>
+</div>
+</div>
+
+<!-- ▲ 提出簿 -->
+
 <!-- ▼ CSV -->
 <div class="container my-5" id="csv_output">
 
@@ -241,56 +246,53 @@ CSV出力した例▼（※見やすくするため◯を⭕に脚色してい�
 
 <!-- ▲ CSV -->
 
-<!-- ▼年輩の方もOK -->
-<div class="container my-5" id="easy_for_seniors">
+<!-- ▼PDF -->
+<div class="container my-5" id="pdf_output">
 <div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">現場スタッフに優しい設計<br>ITが苦手でも、迷わず使える超カンタン日報</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日本のビジネス文化にフィット！<br>作成した日報を「そのまま」PDF出力、美しく印刷。</h2>
 
 <div class="col-lg-7">
 <p class="lead">
 
-「新しいツールは、現場のスタッフが使いこなせるか不安…」「日報が定着しないと意味がない…」
+「電子化もいいけど、やっぱり紙で提出したい」「取引先への報告書は、きちんと体裁を整えたい」。  
+NipoPlus（ニポプラス）は、そんな日本のビジネスシーンに寄り添います。  
+あなたが **自由に設計した日報テンプレートのレイアウトを極力再現**し、簡単な操作で提出された日報や点検表を **見やすいPDF形式で出力** できます。
+A4サイズ、縦・横の用紙向き、2種類のレイアウトから選択可能。[PDF出力設定](/docs/manual/pdf/pdfoption/)から簡単に切替が可能です。必要な時に必要な分だけ、高品質な紙の書類として手元に残せます。
 
-NipoPlus（ニポプラス）は、そんな管理者の悩みに応えます。
-日々の **日報作成はわずか2ステップ** で完了。
-
-1. 使うテンプレートを選ぶ
-2. テンプレートに沿って記入し提出ボタンを押す
-
-これだけなので、ITツールに不慣れな方や、ベテランの現場スタッフでも**迷わず直感的に**使えます。
-
-[提出先](/docs/setup/staff-local/dist/)はあらかじめ設定済み、文字サイズも調整可能で目に優しく、日々の操作負担を徹底的に軽減。  
-**初期設定は管理者様が少し頑張るだけ。**
-一度仕組みを整えれば、現場のスタッフはストレスなく、 **今日からすぐに日報作成を始められます。**定着率の高い日報運用をNipoPlusが実現します。
+複数日分をまとめて出力できる **[一括PDF出力](/docs/manual/pdf/pdfbatch/)** にも対応。
+もう手書きでの清書や、別のソフトで整える手間は不要です。
 
 </p>
 
-{{< link-card title="テンプレートを選んで書くだけの簡単日報"  description="" href="/docs/manual/write-report/write/">}}
+{{< link-card title="日報を簡単にPDF出力"  description="" href="/docs/manual/pdf/about">}}
 
 </div>
 <div class="col-lg-9">
 
-{{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet" marginLess="true">}}
+{{<iTablet filename="pdf-yoko" msg="日報をワンクリックでPDFに変換してダウンロード"  alice="ok">}}
 
 </div>
 </div>
 </div>
-<!-- ▲年輩の方もOK -->
+
+<!-- ▲PDF -->
 
 <!-- ▼ コスト -->
 <div class="container my-5" id="cost">
 <div class="row align-items-center rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">180円！圧倒的低コスト-無料プラン有</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">初期費用ゼロ！１名180円！圧倒的低コスト-無料プラン有</h2>
 
 <div class="col-lg-7">
 <p class="lead">
 
-徹底したコストカットにより、1名180円の低価格でご提供しています。無料プランもあり。  
-業界最安値水準を目指しております。  
-解約時の違約金や、契約時の登録料など、様々な手数料を心配されるかもしれませんがそういった費用は一切かかりませんのでご安心ください。  
-(※ただし口座振込決済における振込手数料はご負担をお願いしています)
+新しいシステム導入で、最も気になるのが「費用」ではないでしょうか？  
+NipoPlus（にぽぷらす）は、**月額1名あたり180円という圧倒的な低価格**を実現。
+**初期費用や解約時の違約金も一切かかりません**ので、安心してスタートいただけます。  
+（無料プランもご用意しております。）
 
-解約して無料プランに切り替わっても過去のデータはそのまま残り続けますので、「特定のシーズンのみ使用する」といった柔軟な利用法も可能です。
+業界最安値水準を目指しつつ、必要な機能はしっかりカバー。
+さらに、ユニークなのは**有料プランをやめても過去データが残り続ける**こと。これにより、特定の繁忙期だけ利用したり、プロジェクト期間中だけ人数を増やしたりと、 **御社のビジネスサイクルに合わせた柔軟な運用が可能**です。
+無駄なコストを徹底的に削減し、高機能な日報システムを手軽に導入したい零細企業様に最適なプランをご提供します。
 
 </p>
 

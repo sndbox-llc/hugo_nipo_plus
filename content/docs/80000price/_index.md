@@ -1,6 +1,7 @@
 +++
 url = "/docs/price/"
 aliases = ["/docs/price/_about/"]
+menuTitle = "💰️料金"
 title = "料金プラン概要｜無料から始められるシンプル料金"
 description = "NipoPlusの料金プランについてご紹介します。1ヶ月の無料トライアルから、機能制限付きの無料プラン、月額180円からの有料プランまで、御社の規模に合わせた最適な選択肢をご案内します。"
 weight = 80000

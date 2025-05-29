@@ -2,6 +2,7 @@
 url = "/docs/setup/make-group/"
 aliases = ["/docs/manual/initial-setting/make-group/"]
 title = "グループの作成"
+menuTitle = "グループの作成"
 description = "グループを作りその中でレポートのやり取りを行います。グループはいくつでも作成でき、不要になれば簡単に削除できます。本ページはグループ作成に関する操作ガイドです"
 toc = true
 weight = 10400

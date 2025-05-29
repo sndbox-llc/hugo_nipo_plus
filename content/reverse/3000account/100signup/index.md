@@ -1,6 +1,7 @@
 +++
 url ="/reverse-lookup/account/signup/"
 title = "NipoPlusのアカウントを始めて作りたい"
+menuTitle = "NipoPlusのアカウントを始めて作りたい"
 description = "NipoPlusの利用が始めたの方はこちらの手順に沿ってアカウントの作成ができます"
 toc = false
 isDictionaly = true

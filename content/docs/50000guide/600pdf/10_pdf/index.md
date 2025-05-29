@@ -2,6 +2,7 @@
 url = "/docs/manual/pdf/about/"
 aliases = ["/legacy/manual/pdf/"]
 title = "日報をPDFに変換する"
+menuTitle = "日報をPDFに変換する"
 description = "Nipo【旧版】で作成したレポートはワンクリックでかんたんにPDFに変換できます。PDF変換前の設定で多少の見た目を変更することもできます"
 toc = true
 weight = 50610

@@ -2,6 +2,7 @@
 url = "/reverse-lookup/view/fontsize/"
 # aliases = []
 title = "表示される文字サイズを変更したい"
+menuTitle = "表示される文字サイズを変更したい"
 description = "必要に応じて12〜24の間で文字サイズを調整できます"
 isDictionaly = true
 toc = false

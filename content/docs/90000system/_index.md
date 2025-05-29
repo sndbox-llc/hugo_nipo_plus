@@ -2,6 +2,7 @@
 url = "/docs/system/"
 # aliases = []
 title = "システム概要"
+menuTitle = "システム概要"
 description = ""
 weight = 90000
 toc = true

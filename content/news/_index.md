@@ -1,11 +1,10 @@
 +++
 description = "最新のお知らせ"
 title = "News"
+menuTitle = "News"
 toc = true
 weight = 11000
 
-[seo]
-title = "News[セクション]"
 
 [sitemap]
   changefreq = "monthly"

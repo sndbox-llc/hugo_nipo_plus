@@ -1,6 +1,7 @@
 +++
 url = "reverse-lookup"
 title = "逆引き"
+menuTitle = "逆引き"
 description = "逆引きアーカイブ"
 date = "2024-10-03"
 weight = 1

@@ -2,6 +2,7 @@
 url = "/reverse-lookup/view/themecolor/"
 # aliases = []
 title = "テーマカラーを変更したい"
+menuTitle = "テーマカラーを変更したい"
 description = "ラベルやタイトルの色をワンクリックで簡単に切り替えが可能です。複数のグループを運用する際は色分けすることで視認性を向上し、作業ミスを軽減できます。"
 isDictionaly = true
 toc = false

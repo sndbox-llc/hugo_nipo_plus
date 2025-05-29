@@ -2,6 +2,7 @@
 url = "/docs/manual/utils/shift/"
 aliases = ["/docs/manual/utils/shift/"]
 title = "🗓️シフト管理"
+menuTitle = "🗓️シフト管理"
 description = "シフト管理機能"
 toc = true
 weight = 59040

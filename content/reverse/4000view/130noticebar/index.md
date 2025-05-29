@@ -2,6 +2,7 @@
 url = "/reverse-lookup/view/noticebar/"
 # aliases = []
 title = "スタッフ全員に通達したいとき"
+menuTitle = "スタッフ全員に通達したいとき"
 description = "グループ内の全スタッフに告知したい場合はバナー機能が便利です。画面上部に目立つ形で表示され、見落としません"
 isDictionaly = true
 toc = false

@@ -1,5 +1,6 @@
 +++
 title = "Nipo【旧版】とNipoPlusのホームページを統合しました"
+menuTitle = "Nipo【旧版】とNipoPlusのホームページを統合しました"
 description = "Nipo【旧版】とNipoPlusのホームページを1つのサイトに統合しました"
 toc = true
 date = "2022-11-14"

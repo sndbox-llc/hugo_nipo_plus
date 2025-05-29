@@ -2,6 +2,7 @@
 url = "/reverse-lookup/report/share/"
 # aliases = []
 title = "レポートを全員が読めるように運用したい"
+menuTitle = "レポートを全員が読めるように運用したい"
 description = "みんなの書いた日報などの報告書を全員が読めるようにすることも、逆に管理者しか読めないようにすることもできます。"
 isDictionaly = true
 toc = false

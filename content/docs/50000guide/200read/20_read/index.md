@@ -2,6 +2,7 @@
 url = "/docs/manual/read-report/state/"
 # aliases = []
 title = "📖レポートを読む"
+menuTitle = "📖レポートを読む"
 description = "レポートを読み、承認や棄却する手順についてのガイドです。承認者が複数いる場合はリレー方式で承認のバトンが連鎖していき、全員が承認した時点で初めて承認状態になります。"
 toc = true
 weight = 50220

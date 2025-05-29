@@ -1,11 +1,10 @@
 +++
 title = "NipoPlus活用Tips"
+menuTitle = "NipoPlus活用Tips"
 description = "NipoPlusは、テンプレートに沿って入力する入力管理アプリであるが、テンプレートの工夫によりチェックシートアプリや日報アプリとしても利用できる。具体的なユースケースについてのTips集【アーカイブスページ】"
 toc = true
 weight = 1
 
-[seo]
-title = "NipoPlusの活用Tips集[セクション]"
 
 [sitemap]
   changefreq = "monthly"

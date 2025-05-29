@@ -2,6 +2,7 @@
 url = "/others/search/"
 # aliases = []
 title = "検索"
+menuTitle = "検索"
 description = "サイト内のコンテンツを簡単に検索して見つけることができます。キーワードを入力して、関連する記事や情報をすぐにリストアップ。NipoPlusの機能や活用法を探すのに便利な検索ページです。データベースには速度と精度に定評のあるAlgoliaを使用しています。"
 toc = false
 weight = 12001

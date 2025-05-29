@@ -10,8 +10,6 @@ toc = true
 [sidebar]
 collapsed = true
 
-[seo]
-title = "テンプレートの管理[セクション]"
 
 [sitemap]
   changefreq = "monthly"

@@ -2,6 +2,7 @@
 url = "/docs/setup/"
 aliases = ["/docs/manual/"]
 title = "初期設定"
+menuTitle = "初期設定"
 description = "NipoPlusの操作マニュアルをセクションごとに分けて掲載しています。初期設定からレポートの読み書き、集計方法、PDF出力やAPIガイドまで、様々な使い方ガイドをまとめたセクションページです。"
 weight = 10000
 

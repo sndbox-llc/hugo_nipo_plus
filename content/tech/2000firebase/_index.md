@@ -3,6 +3,7 @@ url = "/tech/firebase"
 # aliases = []
 aliases = ["/tech/about"]
 title = "Firebase関連"
+menuTitle = "Firebase関連"
 description = "Firebase関連"
 date = "2025-02-25"
 weight = 2000

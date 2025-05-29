@@ -2,6 +2,7 @@
 url = "/docs/setup/advanced-setting/goroku/"
 aliases = ["/docs/manual/initial-setting/advanced-setting/goroku/"]
 title = "📚語録管理"
+menuTitle = "📚語録管理"
 description = "語録管理機能を活用して、選択肢の効率的な作成と管理を実現する方法を解説。選択式入力フォームと組み合わせることで、大量の選択肢をスムーズに扱い、リストの再利用や動的な追加が可能になります。語録の作成、編集、整理、削除方法も詳しく説明"
 toc = true
 weight = 10920

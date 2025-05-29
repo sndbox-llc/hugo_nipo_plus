@@ -7,8 +7,6 @@ description = "NipoPlusの操作ガイドやご利用料金、利用規約など
 weight = 1
 toc = true
 
-[seo]
-title = "NipoPlusドキュメント[セクション]"
 
 [sitemap]
   changefreq = "monthly"

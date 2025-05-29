@@ -1,6 +1,7 @@
 +++
 url ="/reverse-lookup/report/posttime/"
 title = "作成日を変更して勤務日に出し忘れた日報を作りたい"
+menuTitle = "作成日を変更して勤務日に出し忘れた日報を作りたい"
 description = "作成日を変更して勤務日に出し忘れた日報を作りたい"
 isDictionaly = true
 toc = false

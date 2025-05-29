@@ -2,7 +2,7 @@
 url = "/docs/manual/utils/org/"
 aliases = ["/docs/manual/utils/org/"]
 title = "組織を削除する(退会)"
-menuTitle ="☔退会する"
+menuTitle = "☔退会する"
 description = "退会に伴いすべてのデータを安全に削除します"
 toc = true
 weight = 59090

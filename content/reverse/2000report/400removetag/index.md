@@ -2,6 +2,7 @@
 url = "/reverse-lookup/report/removetag/"
 # aliases = []
 title = "レポートにつけられたタグを外したい"
+menuTitle = "レポートにつけられたタグを外したい"
 description = "レポートにセットされたタグが不要になったときはワンクリックで簡単に外せます。異なるタグを付けたいときも同じ手順で簡単につけ外しができます"
 isDictionaly = true
 toc = false

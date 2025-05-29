@@ -2,6 +2,7 @@
 url = "/reverse-lookup/view/disablefunction/"
 # aliases = []
 title = "使わない機能を消して見た目をシンプルにしたい"
+menuTitle = "使わない機能を消して見た目をシンプルにしたい"
 description = "使用していない機能は無効化することでメニューから消すことができます。見た目をシンプルに保ち、スタッフの混乱を軽減しましょう。"
 toc = false
 isDictionaly = true

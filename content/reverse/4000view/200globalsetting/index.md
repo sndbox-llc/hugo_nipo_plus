@@ -2,6 +2,7 @@
 url = "/reverse-lookup/view/globalsetting/"
 # aliases = []
 title = "組織設定画面の表示方法"
+menuTitle = "組織設定画面の表示方法"
 description = "組織設定画面を表示する方法"
 toc = false
 isDictionaly = true

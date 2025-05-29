@@ -2,6 +2,7 @@
 url = "/tech/js/proptype/"
 aliases = ["/tech/proptype/"]
 title = "Vue3 Propsの型推論"
+menuTitle = "Vue3 Propsの型推論"
 description = "JavaScriptからTypeScriptへの移行は初めは挑戦的かもしれませんが、型安全性と効率的な開発プロセスを提供します。本記事では、Vue3でpropsの型指定をInterfaceを使用する方法を紹介し、PropTypeを利用してよりクリーンで効率的なコードを書くためのテクニックを解説します。TypeScriptの強力な型システムを活用し、Vue3の開発において型推論のメリットを最大限に引き出す方法を学びましょう。"
 toc = true
 date = "2020-10-18"

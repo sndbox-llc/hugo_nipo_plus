@@ -2,6 +2,7 @@
 url = "/docs/setup/setting-group/"
 aliases = ["/docs/manual/initial-setting/setting-group/"]
 title = "グループの基本設定"
+menuTitle = "グループの基本設定"
 description = "グループの設定はグループ内でのみ適用されるローカルなルールです。変更には編集者の権限が必要です。本ページはグループ基本設定に関する操作ガイドです"
 toc = true
 weight = 10500

@@ -1,6 +1,7 @@
 +++
 url ="/reverse-lookup/report/"
 title = "レポート関連"
+menuTitle = "レポート関連"
 description = "逆引きアーカイブ（レポート関連）"
 date = "2024-10-03"
 weight = 2000

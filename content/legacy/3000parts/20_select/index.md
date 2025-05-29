@@ -2,6 +2,7 @@
 url = "/legacy/parts/select/"
 # aliases = []
 title = "選択式の入力"
+menuTitle = "選択式の入力"
 description = "予め回答を用意しておき、日報作成時には選ぶだけで入力ができるようになる日報構成部品です。回答は1つまでです。"
 toc = true
 weight = 3020

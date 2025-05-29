@@ -2,6 +2,7 @@
 url = "/docs/manual/account/"
 # aliases = []
 title = "アカウント"
+menuTitle = "アカウント"
 description = ""
 weight = 50800
 toc = true
@@ -9,8 +10,6 @@ toc = true
 [sidebar]
 collapsed = true
 
-[seo]
-title = "アカウント[セクション]"
 
 [sitemap]
   changefreq = "monthly"

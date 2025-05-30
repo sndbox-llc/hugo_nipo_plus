@@ -18,9 +18,14 @@ tags = ["編集者権限"]
 - 据え置きのタブレットやPCを複数人で共有で使用している
 - スタッフごとに集計や分析が必要
 
-{{<nextBlog>}}
+{{< /callout >}}
+
+{{< callout context="note" title="外部共有でも代用可能です" icon="outline/alert-circle" >}}
+アカウントが無くてもレポートを書ける[外部共有機能](/docs/manual/write-report/outside/)がVersion[1.69.0](/docs/system/release-note/#vp1_69_0)から実装されました。複雑な「共用」よりもシンプルにご利用可能でおすすめです
 
 {{< /callout >}}
+
+{{<nextBlog>}}
 
 ---
 

@@ -1,73 +1,81 @@
 +++
 url = "/docs/template/binarys/"
 aliases = ["/docs/manual/initial-setting/template/binarys/"]
-title = "直筆サイン・写真・ファイルのフォームをテンプレートに追加する"
+title = "🧩署名・写真・ファイル入力フォーム - 現場の状況や証拠を記録" # 汎用性とSEOを意識したタイトル
 menuTitle = "🧩署名や写真等"
-description = "テンプレートカスタムパーツの1つ。レポートに直筆サインを追加できます。タブレット＆スタイラスペン推奨。受領サインなどに"
+description = "NipoPlusの署名・写真・ファイル入力フォームは、日報、点検記録、作業報告書などに、直筆サイン、現場写真、関連資料などを直接添付できるテンプレートパーツです。スマートフォンやタブレットからの簡単操作で、視覚的な情報や、証拠、補足資料を効率的に記録・管理し、業務の正確性と透明性を高めます。" # 汎用性とSEOを意識した説明文
 toc = true
 weight = 30705
-tags = ["テンプレートパーツ", "テンプレート"]
+tags = ["テンプレートパーツ", "画像添付", "写真添付", "電子署名", "ファイル添付", "現場記録", "証拠写真", "品質管理", "点検報告", "デジタル化", "バイナリファイル"] # SEOタグを拡充
 contributors = []
 +++
 
-写真などのメディアをレポートに添付して提出することができます。
-これらはバイナリーファイルと呼ばれています。NipoPlusで扱えるバイナリファイルは以下の３種類です
+写真や直筆サイン、各種ファイルといった**非テキストデータ**（バイナリファイル）をレポートに添付して提出できる入力フォームです。現場の状況を視覚的に記録したり、作業の承認を得たり、関連資料を紐付けたりする際に非常に役立ちます。
+
+NipoPlusで扱えるバイナリファイルは以下の3種類です。これらを活用することで、**日報に現場の写真を添付**したり、**点検記録に異常箇所の写真**や**作業完了のサイン**を含めたりと、よりリッチで説得力のある報告書を作成できます。
 
 <dl class="basic">
-<dt><a href="#sign">署名・イラスト</a></dt>
-<dd>スタイラスペンや指を使って直筆サイン（またはイラスト）を手軽に作成できます</dd>
-<dt><a href="#picture">写真</a></dt>
-<dd>スマートフォンのカメラで撮影した写真をそのままレポートに添付できます</dd>
-<dt><a href="#file">ファイル</a></dt>
-<dd>ZipやExcelなど、いわゆる通常のファイルを添付可能です</dd>
+<dt><a href="#sign"><strong>署名・イラスト</strong></a></dt>
+<dd>スタイラスペンや指を使って<strong>直筆サイン（電子署名）</strong>やイラストを手軽に作成・添付できます。<strong>顧客からの受領サイン</strong>、<strong>作業完了の承認</strong>、現場での簡単な図示などに適しています。</dd>
+<dt><a href="#picture"><strong>写真</strong></a></dt>
+<dd>スマートフォンやタブレットのカメラで撮影した写真を、その場でレポートに直接添付できます。<strong>現場の状況記録</strong>、<strong>設備の状態確認</strong>、<strong>品質管理における不良箇所の証拠写真</strong>などに最適です。</dd>
+<dt><a href="#file"><strong>ファイル</strong></a></dt>
+<dd>ZipやExcel、PDFなどの<strong>各種ファイルを添付</strong>できます。レポートに紐付ける補足資料や、設計図、検査結果のデータなどを添付する際に活用できます。</dd>
 </dl>
 
-|   名前   | [集計可否](/docs/manual/analytics/) | [CSV出力](/docs/manual/analytics/csv/) | [PDF出力](/docs/manual/read-report/state/#pdf_export) | [文字検索](/docs/manual/read-report/list/#searchFunction) |
-| :------: | :---------------------------------: | :------------------------------------: | :---------------------------------------------------: | :-------------------------------------------------------: |
-|   署名   |                  ✗                  |                   ✗                    |                          ⭕                           |                             ✗                             |
-|   写真   |                  ✗                  |                   ✗                    |                          ⭕                           |                             ✗                             |
-| ファイル |                  ✗                  |                   ✗                    |                           ✗                           |                             ✗                             |
+|         **名前**          |    **集計可否**    |    **CSV出力**     |     **PDF出力**     |    **文字検索**    |
+| :-----------------------: | :----------------: | :----------------: | :-----------------: | :----------------: |
+|   <strong>署名</strong>   | <strong>✗</strong> | <strong>✗</strong> | <strong>⭕</strong> | <strong>✗</strong> |
+|   <strong>写真</strong>   | <strong>✗</strong> | <strong>✗</strong> | <strong>⭕</strong> | <strong>✗</strong> |
+| <strong>ファイル</strong> | <strong>✗</strong> | <strong>✗</strong> | <strong>✗</strong>  | <strong>✗</strong> |
 
-{{< callout context="caution" title="PDF出力時は1枚目のみ出力される" icon="outline/alert-triangle" >}}
-全ての写真を[PDF出力](/docs/manual/pdf/pdfbatch/)したい場合は写真入力フォームを必要な数配置してご利用下さい
+{{< callout context="caution" title="PDF出力時の注意点" icon="outline/alert-triangle" >}}
+写真入力フォームで添付した写真が複数枚ある場合、[PDF出力](/docs/manual/pdf/pdfbatch/)時には先頭の1枚目のみが出力されます。全ての写真をPDFに出力したい場合は、<strong>写真入力フォームを必要な数だけ配置</strong>してご利用ください。
 {{< /callout >}}
 
 ## ファイル系の入力フォームをテンプレートに追加する{#addForm}
 
-左パネルからクリックしてバイナリファイルをレポートのテンプレートに追加できます。
+左パネルからクリックして署名、写真、ファイルをレポートのテンプレートに追加できます。
 
-{{<icatch filename="img/add-binary" msg="左のパーツリストからバイナリ関係のパーツを追加します。緑色がバイナリ系です">}}
+{{<icatch filename="img/add-binary" msg="左のパーツリストから、現場の状況を記録するための署名、写真、ファイル系のパーツを追加します。緑色がバイナリ系です" alice="ok">}}
 
 ## 署名・イラストフォーム{#sign}
 
-{{< callout context="note" title="署名はスマートフォン・タブレットなどのタッチパネル対応機器でご利用ください" icon="outline/info-circle" />}}
+NipoPlusの署名・イラストフォームは、スマートフォンやタブレットなどのタッチパネル対応機器で、**指やスタイラスペンを使って直筆サインや簡単なイラストを直接入力できる**フォームです。
 
-[実際の入力イメージはこちら](/docs/manual/write-report/parts/#sign)
+[<strong>実際の入力イメージはこちら</strong>](/docs/manual/write-report/parts/#sign)
 
-{{<figure src="img/use-stylus-pen.webp"  alt="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" caption="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" >}}
+{{<figure src="img/use-stylus-pen.webp" alt="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" caption="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子">}}
 
-スタイラスペンや指でキャンバスに自由に描くことができます。顧客からの受領サインが必要な場合や、手書きのイラストが必要な場合に便利です。
-[特設記事](/tips/mobile-device/#draw_sign)も御覧ください
+顧客からの**受領サイン**、**作業完了の承認サイン**、現場での簡易的な図解や**軽微な損傷箇所のマーキング**など、手書きによる証拠や表現が必要な場合に非常に便利です。
+[特設記事：NipoPlusをモバイルデバイスで使うメリット](/tips/mobile-device/#draw_sign)も御覧ください。
 
 <details class="mb-5">
-  <summary>詳細設定</summary>
+  <summary>詳細設定</summary>
 
 <dl class="basic">
-  <dt><a href="/tips/required/">入力必須</a></dt>
-  <dd>これがONの場合、イラストが描画されていないとレポートの提出ができません</dd>
-  <dt>キャンバスサイズ</dt>
-  <dd>以下から選択します。<ul><li>署名サイズ</li><li>全画面サイズ</li></ul>全画面サイズでは色変え機能も利用可能です。</dd>
+<dt><strong>入力必須</strong></dt>
+<dd>ONにすると、イラストが描画されていないとレポートの提出ができません。<strong>承認や確認のサインが必須</strong>のレポートに設定します。</dd>
+<dt><strong>キャンバスサイズ</strong></dt>
+<dd>以下から選択します。
+<ul>
+<li><strong>署名サイズ</strong>：署名に最適なサイズ。</li>
+<li><strong>全画面サイズ</strong>：画面全体を使ってイラストを描くのに適しています。色変え機能も利用可能です。</li>
+</ul>
+</dd>
 </dl>
 
-補足:[共通設定事項](/docs/template/make/#common_setting)
+補足：[共通設定事項](/docs/template/make/#common_setting)もご確認ください。
 
 </details>
 
-描かれたデータはレポート内に埋め込まれます。大きさはレポートのテンプレートによって変化します。
+描かれたデータはレポート内に画像として埋め込まれます。大きさはレポートのテンプレートの幅によって変化します。
 
-{{<icatch filename="img/sign-post" msg="テンプレートの幅によって大きさが変わって見えます" alice="here">}}
+{{<icatch filename="img/sign-post" msg="署名やイラストはテンプレートの幅によって大きさが変わって見えます。現場の状況説明図やサインを分かりやすく配置しましょう" alice="here">}}
 
-{{< callout context="note" title="表示が縮小されるだけでもとの署名データは同一です" icon="outline/info-circle" />}}
+{{< callout context="note" title="表示が縮小されるだけでもとの署名データは同一です" icon="outline/info-circle" >}}
+レポート画面で表示が縮小されても、元の署名データ自体の品質や情報が損なわれることはありません。
+{{< /callout >}}
 
 ### 署名のレポートをPDFに出力{#pdf_sign}
 
@@ -77,36 +85,36 @@ contributors = []
 
 ## 写真入力フォーム{#picture}
 
-[実際の入力イメージはこちら](/docs/manual/write-report/parts/#picture)
+スマートフォンやタブレットで撮影した**現場の写真を、レポートに直接添付できる**フォームです。**設備点検時の異常箇所の写真、作業完了の証拠写真、製造工程の記録、資材の到着確認**など、視覚的な情報が重要となる場面で特に役立ちます。
 
-{{<icatch filename="img/posted1" msg="スマホならカメラでパシャ。そのまま添付のお手軽さ"  alice="phone">}}
+[<strong>実際の入力イメージはこちら</strong>](/docs/manual/write-report/parts/#picture)
 
-レポートに画像ファイルを添付できます。
+{{<icatch filename="img/posted1" msg="スマートフォンならカメラでパシャッと撮るだけ。現場の状況をその場で手軽に記録・添付できます" alice="phone">}}
+
 画像ファイルは1枚あたり5MBまで、合計10枚までアップロードできます。
-後述する[ファイル入力フォーム](#file)でも写真を添付できますが、ファイル入力フォームはレポートを表示しても写真は見えず、手動でダウンロードして開く必要があります。
-ファイル入力はより汎用的ですが、利便性では写真入力フォームのほうが優れています。
+後述する[ファイル入力フォーム](#file)でも写真を添付できますが、写真入力フォームはレポート表示時に写真が直接表示されるため、視認性と利便性に優れています。
 
 {{< callout context="caution" title="画質低下に注意" icon="outline/alert-triangle" >}}
-写真UP時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/#fee)は中画質、[無料プラン](/docs/price/#free)は低画質）
+写真アップロード時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/#fee)は中画質、[無料プラン](/docs/price/#free)は低画質）。<strong>鮮明な画像が必須の用途では、オリジナルファイルを別途ファイル入力フォームで添付することや、画質設定の確認を推奨します。</strong>
 {{< /callout >}}
 
-{{< link-card title="写真付きレポート" description="コラム記事" href="/tips/mobile-device/" >}}
+{{< link-card title="写真付きレポートで業務の現場を明確に" description="コラム記事" href="/tips/mobile-device/" >}}
 
 <details>
-  <summary>詳細設定</summary>
+  <summary>詳細設定</summary>
 <dl class="basic">
-  <dt><a href="/tips/required/">入力必須</a></dt>
-  <dd>これがONの場合、ファイルが添付されていない場合レポートの提出ができなくなります</dd>
+<dt><strong>入力必須</strong></dt>
+<dd>ONにすると、ファイルが添付されていない場合レポートの提出ができなくなります。<strong>現場写真が必須となる点検報告</strong>などに設定します。</dd>
 </dl>
 
-補足:[共通設定事項](/docs/template/make/#common_setting)
+補足：[共通設定事項](/docs/template/make/#common_setting)もご確認ください。
 
 </details>
 
 ### PDFに出力{#pdf_picture}
 
-PDFに出力する際、添付した画像が複数枚ある場合は先頭の1枚目のみ出力されます。2枚目以降は出力されない点に注意してください
-複数枚PDFに出力したい際は**写真入力フォームを複数設置**することで回避できます。
+PDFに出力する際、添付した画像が複数枚ある場合は先頭の1枚目のみ出力されます。2枚目以降は出力されない点に注意してください。
+複数枚PDFに出力したい際は<strong>写真入力フォームを複数設置</strong>することで回避できます。
 
 また、極端に小さい幅だと枠線からはみ出すことがあります。
 PDF出力を前提とする場合、写真入力フォームの幅は最低でも5以上を取るようにしてください。
@@ -115,48 +123,54 @@ PDFに埋め込まれる画像の大きさは、テンプレートの設計に�
 
 {{< tabs "pdf_tabs" >}}
 {{< tab "小さくPDF出力" >}}
-{{<figure src="img/w4.webp"  alt="幅4で出力した例" caption="幅4でPDF出力すると比較的小さな画像として残せます。" >}}
+{{<figure src="img/w4.webp" alt="幅4で出力した例" caption="幅4でPDF出力すると比較的小さな画像として残せます。設備点検の状況を一覧で確認する際に適しています。" >}}
 {{< /tab >}}
 {{< tab "中程度でPDF出力" >}}
-{{<figure src="img/w8.webp"  alt="幅8で出力した例" caption="半分より少し広めで出力した例。同じ画像ですが大きく出よくされます" >}}
+{{<figure src="img/w8.webp" alt="幅8で出力した例" caption="半分より少し広めで出力した例。同じ画像ですが大きく出力されます。異常箇所の詳細を明確にしたい場合に有効です。" >}}
 {{< /tab >}}
 {{< tab "最大サイズでPDF出力" >}}
-{{<figure src="img/w12.webp"  alt="最大幅で出力した例" caption="最大幅で出力した例（幅12）です。縦長の画像の場合、１ページ丸ごと使用してしまうこともあるため注意が必要です" >}}
+{{<figure src="img/w12.webp" alt="最大幅で出力した例" caption="最大幅で出力した例（幅12）です。縦長の画像の場合、1ページ丸ごと使用してしまうこともあるため注意が必要です。全体図の記録などに。" >}}
 {{< /tab >}}
 {{< /tabs >}}
 
 ---
 
-## ファイル{#file}
+## ファイル入力フォーム{#file}
 
-{{< callout context="note" title="印刷前提なら写真入力フォームを" icon="outline/info-circle" >}}
-写真データを添付したい場合は[写真入力フォーム](/docs/template/binarys/#picture)をご利用ください。PDF出力時などに差がでます。
+PDF、Excel、Word、Zipファイルなど、**あらゆる種類のファイルをレポートに添付できる**フォームです。**現場の図面、設計書、検査成績書、顧客との契約書スキャン**など、日報や点検記録に紐付けて補足資料を管理したい場合に便利です。
+
+{{< callout context="note" title="画像添付なら写真入力フォームを推奨" icon="outline/info-circle" >}}
+写真データを添付したい場合は[写真入力フォーム](#picture)をご利用ください。レポート表示時やPDF出力時（写真フォームはPDF出力対応）に違いが出ます。
 {{< /callout >}}
 
-[実際の入力イメージはこちら](/docs/manual/write-report/parts/#file)
+[<strong>実際の入力イメージはこちら</strong>](/docs/manual/write-report/parts/#file)
 
-{{<icatch filename="img/file-post" msg="添付されたファイルはクリックしてローカルにダウンロードして使用できます" alice="ok">}}
+{{<icatch filename="img/file-post" msg="添付されたファイルはクリックしてローカルにダウンロードして使用できます。各種資料の共有や保管に" alice="ok">}}
 
 レポートにファイルを添付できるフォームを追加できます。1つのファイルにつき1MB、最大で10ファイルまでファイルを添付できます。
 ファイルの追加はファイル入力フォームをクリックまたはフォーム上にドロップします。
 
 ファイル入力フォームの初期設定項目は特に有りません。
-補足:[共通設定事項](/docs/template/make/#common_setting)
+補足：[共通設定事項](/docs/template/make/#common_setting)もご確認ください。
 
-レポートを受け取った際はそのレポートに添付されたファイルが一覧で表示されます。クリックで添付されたファイルをダウンロード可能です。
-仮に添付されたファイルが画像データであってもプレビューされません。[写真入力フォーム](/docs/template/binarys/#picture)との大きな違いの１つです。
+レポートを受け取った際は、そのレポートに添付されたファイルが一覧で表示されます。クリックで添付されたファイルをダウンロード可能です。
+仮に添付されたファイルが画像データであっても、レポート表示画面で直接プレビューされません。[写真入力フォーム](#picture)との大きな違いの一つです。
 
-{{< callout context="caution" title="もとのファイル名に加えて無作為なランダム文字列が自動で追加されます" icon="outline/alert-triangle" />}}
-{{< callout context="caution" title="ファイル入力フォームはPDF出力に対応していません" icon="outline/alert-triangle" />}}
+{{< callout context="caution" title="ファイル名にランダム文字列が自動追加" icon="outline/alert-triangle" >}}
+アップロードされたファイル名には、元のファイル名に加えて、システムが生成するランダムな文字列が自動で追加されます。
+{{< /callout >}}
+{{< callout context="caution" title="ファイル入力フォームはPDF出力に対応していません" icon="outline/alert-triangle" >}}
+ファイル入力フォームで添付されたファイルは、PDF出力には対応していません。PDFに含めたい場合は、別途対応可能な方法をご検討ください。
+{{< /callout >}}
 
 ---
 
 ## 写真や署名ファイルのダウンロードについて{#download}
 
 レポートをCSV出力する際に、写真や署名、ファイルのデータをセットでダウンロードすることができます。
-ダウンロードするには[CSV出力のオプション設定](/docs/manual/analytics/csvoption/)から「写真・ファイル等を出力する」をONにします。
+ダウンロードするには[CSV出力のオプション設定](/docs/manual/analytics/csvoption/)から「**写真・ファイル等を出力する**」をONにします。
 
-{{<icatch filename="img/file-download" msg="デフォルトではファイルDLがOFFなので手動でONにする必要があります" alice="book">}}
+{{<icatch filename="img/file-download" msg="デフォルトではファイルダウンロードがOFFなので、CSV出力オプションから手動でONにする必要があります。レポートに添付された証拠写真や関連資料を一括でダウンロードしましょう" alice="book">}}
 
 写真、ファイルの出力がONの場合、CSVファイルとは別のフォルダにファイルとして格納されます。
-ダウンロード時のファイル形式はZIPになるため、別途解凍ソフトをご用意ください。（とはいえ、昨今のOSはデフォルトで備えているので別途用意する必要性は減りました）
+ダウンロード時のファイル形式はZIPになるため、別途解凍ソフトをご用意ください。（昨今のOSはデフォルトで解凍機能を備えているため、別途用意する必要性は減りました）

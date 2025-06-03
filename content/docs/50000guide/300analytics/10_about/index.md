@@ -1,117 +1,125 @@
 +++
 url = "/docs/manual/analytics/_about/"
 # aliases = []
-title = "📊日報集計概要"
+title = "ℹ️概要 - NipoPlusのデータ集計とは？種類と活用方法" # 機能を魅力的に表現しSEOを意識
 menuTitle = "ℹ️概要"
-description = "NipoPlusでのレポート作成から、データの集計・グラフ化までを効率的に行う方法を詳しく解説します。スマホからもアクセス可能で、業務の効率化とデータ活用をサポート。ここでは推移表、累積表、グラフ作成などの機能を徹底解説します。"
+description = "NipoPlusのデータ集計機能の概要と、集計可能なデータの種類、SUM（合計）とCOUNT（回数）の2種類の集計方法について解説します。日報や点検記録から、売上、生産数、異常発生回数などの数値を自動で集計し、推移表、累積表、グラフで可視化。データに基づいた業務改善と意思決定を強力にサポートします。" # メリットと具体的な状況、信頼性を提示
 toc = true
 weight = 50310
-tags = ["有料プラン限定"]
+tags = ["有料プラン限定", "データ集計", "データ分析", "KPI管理", "実績可視化", "業務改善", "定型入力集計", "品質データ分析", "日報集計", "点検データ集計", "集計機能概要", "データ活用"] # SEOタグを拡充
 contributors = []
 +++
 
-[テンプレート](/docs/template/make/)内に集計が可能な入力フォームが含まれている場合は、そのデータを抜き出して累積表や推移表、グラフなどを表示できます。
-集計可能な入力フォームは以下のとおりです。大きく２種類に分けることができます。
+NipoPlusでは、日報や<strong>点検記録、業務報告書</strong>などのレポートに記録されたデータを自動で集計し、**業務の現状把握や課題発見、意思決定**に役立てることができます。
+ただし 全てのデータが集計できるわけではありません。例えば写真やファイルのようなバイナリデータは集計の対象外となります。
+
+**【NipoPlusで集計できるデータの種類】**
+
+集計可能な入力フォームは以下のとおりです。大きく2種類に分けることができます。
 
 <dl class="basic">
-<dt>回数の集計</dt>
+<dt><strong>回数の集計（COUNT）</strong></dt>
 <dd>
-選ばれた回数を集計できます。
+特定の項目が<strong>「選ばれた回数」</strong>や<strong>「チェックされた回数」</strong>を集計できます。<strong>文字列データ（選択肢）の傾向分析</strong>に特に有効です。
 <ul>
-<li><a href="/docs/template/selects/#plain">選択式（単）フォーム</a></li>
-<li><a href="/docs/template/selects/#multiple">選択式（複）フォーム</a></li>
-<li><a href="/docs/template/selects/#layerd">選択式（階層）フォーム</a></li>
-<li><a href="/docs/template/digital/#rate">レート入力フォーム</a></li>
+<li><a href="/docs/template/selects/#plain">選択入力（単一選択）フォーム</a>：「<strong>良好</strong>」「<strong>不良</strong>」「<strong>異常</strong>」といった選択肢の中で、「異常」が何回選ばれたかなど。</li>
+<li><a href="/docs/template/selects/#multiple">選択入力（複数選択）フォーム</a>：使用した機材の種類や、該当する不具合項目の選択回数など。</li>
+<li><a href="/docs/template/selects/#layerd">２層式選択（非推奨）フォーム</a>（※現在非推奨ですが集計は可能です）</li>
+<li><a href="/docs/template/digital/#rate">レート入力フォーム</a>：製品やサービスの評価（星の数）の合計や、各評価（星1、星5など）が何回選ばれたか。</li>
 </ul>
 </dd>
-<dt>合計の集計</dt>
+<dt><strong>合計の集計（SUM）</strong></dt>
 <dd>
-単純に合算した集計ができます。
+<strong>数値データ</strong>を単純に合算して集計できます。<strong>売上合計、作業時間合計、生産数合計</strong>など、量的な分析に用います。
 <ul>
-<li><a href="/docs/template/date_time/#range">期間入力フォーム</a> (単位は分:1時間半は90分として出力)</li>
-<li><a href="/docs/template/digital/#commonNumber">数値入力フォーム</a></li>
-<li><a href="/docs/template/digital/#slider">スライダ入力フォーム</a></li>
+<li><a href="/docs/template/date_time/#range">日付と時刻（期間）入力フォーム</a> (単位は分：1時間半は90分として出力)。<strong>作業工数</strong>や<strong>設備稼働時間</strong>の合計など。</li>
+<li><a href="/docs/template/digital/#commonNumber">数値入力（汎用）フォーム</a>：売上高、訪問件数、<strong>生産数、測定値</strong>など。</li>
+<li><a href="/docs/template/digital/#slider">スライダ入力フォーム</a>：<strong>気温や湿度などの平均値</strong>や、測定範囲内の合計など。</li>
+<li><a href="/docs/template/digital/#calc">算術フォーム</a>：他のフォームから算出された計算結果（例：不良率、合計コスト）の合計など。</li>
 </ul>
+</dd>
 </dl>
 
-{{< callout context="note" title="見れないレポートは集計されません" icon="outline/info-circle" >}}
-あなたが閲覧可能なレポート（[提出先か共有先に含まれているもの](/docs/manual/write-report/dist/)）のみが集計の対象となります。
+{{< callout context="note" title="閲覧可能なレポートのみが集計対象です" icon="outline/info-circle" >}}
+あなたが閲覧可能なレポート（<a href="/docs/manual/write-report/dist/">提出先または共有先に含まれているもの</a>）のみが集計の対象となります。
 {{< /callout >}}
 
-## 集計の種類について{#category}
+## 集計の種類について - 多様な視点でデータを分析{#category}
 
-NipoPlusでは、集計データをもとに自動で推移表や累積表を作成できます。期間と集計方式を選ぶだけで、自動集計が可能です。また、集計結果から折れ線グラフや棒グラフも簡単に生成できます。
+NipoPlusでは、収集したデータをもとに、多様な視点で業務状況を分析するための集計機能を提供しています。期間と集計方式を選ぶだけで、**ほぼリアルタイムで自動集計**が可能です。また、集計結果から**折れ線グラフや棒グラフ、円グラフ**も簡単に生成できます。
 
-{{<iTablet filename="img/sumtotal" msg="左メニューに集計ボタンが出てない場合はグループ設定から機能を有効にしてね" alice="pc">}}
+{{<iTablet filename="img/sumtotal" msg="集計ボタンが左メニューに出ていない場合は、グループ設定から機能を有効にしてください。日報や点検記録のデータ分析を始めましょう" alice="pc">}}
 
-まず大きな括りとして、次の3種類があります
-
-<dl class="basic">
-<dt>推移・累積・グラフ</dt>
-<dd>1種類のテンプレートを対象として推移表や累積表、グラフを作成できます</dd>
-<dt><a href="#schedule">予定・実績表</a></dt>
-<dd>複数のテンプレートを対象に集計できます。目標とそれに対する進捗を見るのに適しています</dd>
-<dt>クロス集計</dt>
-<dd>複数のテンプレートを対象に集計できます。異なるテンプレート同士の入力フォームをまとめて集計できます</dd>
-</dl>
-
-推移・累積・グラフを選択する場合は、更に次の集計方式から選択してください
+まず大きな括りとして、次の3種類があります。
 
 <dl class="basic">
-<dt><a href="#stack">累積</a></dt>
-<dd>一定期間のスタッフ別の合計を見るのに適しています</dd>
-<dt><a href="#line">推移</a></dt>
-<dd>一定期間のデータの移り変わりを見るのに適しています</dd>
-<dt><a href="#excel">個別DL</a></dt>
-<dd>集計対象のレポートをスタッフ毎、または日付毎に任意にCSV形式でダウンロードできます。CSVはエクセルで開いて独自に集計することができます</dd>
-<dt>一覧表</dt>
-<dd>集計対象のレポートを一覧表で表示します</dd>
-<dt><a href="#charts">グラフ</a></dt>
-<dd>推移表・累積表のデータを元に折れ線や棒グラフを生成可能です</dd>
+<dt><strong>推移・累積・グラフ（単一テンプレート分析）</strong></dt>
+<dd><strong>1種類のテンプレート</strong>（例：日報、または特定種類の点検シート）を対象として、データの推移表や累積表、各種グラフを作成できます。特定の業務や項目に絞った詳細な分析に適しています。</dd>
+<dt><a href="#schedule"><strong>予定・実績表（目標管理）</strong></a></dt>
+<dd><strong>複数のテンプレート</strong>を対象に集計でき、設定した「目標」に対する「実績」の進捗を見るのに適しています。<strong>生産管理の目標達成度</strong>や、<strong>営業の売上目標に対する進捗</strong>など、多目的に利用可能です。</dd>
+<dt><strong>クロス集計（複数テンプレート横断分析）</strong></dt>
+<dd><strong>複数のテンプレート</strong>を対象に集計できます。異なるテンプレート同士の入力フォームをまとめて集計できるため、<strong>複数の業務記録を横断的に分析</strong>し、新たな相関関係や課題を発見するのに役立ちます。</dd>
 </dl>
 
-## 累積表（スタッフごとの成績比較に便利）{#stack}
+推移・累積・グラフを選択する場合は、さらに次の集計方式から選択してください。
 
-レポートの作成者ごとに分けて一定期間の累積合計を表示します。
+<dl class="basic">
+<dt><a href="#stack"><strong>累積</strong></a></dt>
+<dd>一定期間の<strong>スタッフ別の合計</strong>（例：各営業担当者の訪問件数合計）や、<strong>特定の項目の総合計</strong>（例：今月の総生産数）を見るのに適しています。<strong>成績比較</strong>や<strong>全体的な実績把握</strong>に便利です。</dd>
+<dt><a href="#line"><strong>推移</strong></a></dt>
+<dd>一定期間におけるデータの<strong>変化や流れ</strong>を見るのに適しています。<strong>過去の検査結果の変動</strong>、<strong>日々の売上推移</strong>、<strong>設備点検の測定値のブレ</strong>などを手軽に知ることができます。スタッフごとの分別はされず、全員のレポートが推移表に掲載されます。</dd>
+<dt><a href="#excel"><strong>個別DL</strong></a></dt>
+<dd>集計対象のレポートをスタッフごと、または日付ごとに、任意にCSV形式でダウンロードできます。CSVはExcelで開いて<strong>独自に集計や詳細な分析</strong>を行うことができます。</dd>
+<dt><strong>一覧表</strong></dt>
+<dd>集計対象のレポートをシンプルに一覧表で表示します。<strong>大量のデータを俯瞰的に確認したい</strong>場合に便利です。</dd>
+<dt><a href="#charts"><strong>グラフ</strong></a></dt>
+<dd>前述の<a href="#line">推移表</a>・<a href="#stack">累積表</a>のデータをもとにして、<strong>折れ線グラフ、円グラフ、棒グラフ、積み上げ縦棒グラフ</strong>などを作成可能です。グラフは複数種類作成でき、ワンクリックで瞬時に切り替えが可能です。<strong>データの傾向を視覚的に把握</strong>し、迅速な意思決定を支援します。</dd>
+</dl>
 
-営業日報の「訪問件数」など、活動に直結する入力フォームを追加するだけで、スタッフごとの成績を簡単に比較できます。また、レポートの提出件数も確認できるため、提出漏れのチェックにも役立ちます。
+## 累積表 - スタッフや項目の成績比較に便利{#stack}
 
-{{<iTablet filename="img/stack" msg="スタッフ同士の比較に便利だね">}}
+レポートの作成者ごと、または特定の項目ごとに分けて、一定期間の累積合計を表示します。
 
-{{< link-card title="累積表について" description="操作ガイド"  href="/docs/manual/analytics/accumn/" >}}
+<strong>営業日報の「訪問件数」や「契約件数」</strong>、<strong>製造業の日報における「生産数」</strong>、<strong>設備点検における「異常報告回数」</strong>など、活動に直結する数値や回数データを集計することで、**スタッフごとの成績や、項目ごとの実績を簡単に比較**できます。また、レポートの提出件数も確認できるため、提出漏れのチェックにも役立ちます。
 
-## 推移表（データの流れを見る）{#line}
+{{<iTablet filename="img/stack" msg="各スタッフの訪問件数や生産数、点検時の異常報告回数など、累積表で比較して実績を把握しましょう" alice="ok">}}
 
-過去の検査結果を一覧で表示します。過去と比べて今回の検査結果がどの程度乖離しているかを手軽に知ることができます。
-スタッフごとの分別はされず、全員のレポートが推移表に掲載されます。
+{{< link-card title="累積表について" description="操作ガイド" href="/docs/manual/analytics/accumn/" >}}
 
-{{<iTablet filename="img/flow" msg="過去との比較が見たいときに便利だね" alice="ok">}}
+## 推移表 - データの傾向や変化の流れを把握{#line}
 
-{{< link-card title="推移表について" description="操作ガイド"  href="/docs/manual/analytics/transition/" >}}
+過去の記録データを一覧で表示し、データの「流れ」や「変化」を視覚的に把握するのに最適なフォームです。<strong>製造業の現場で特に重要となる、過去の検査結果や測定値が、今回と比較してどの程度乖離しているか</strong>を、手軽に知ることができます。
 
-### グラフ作成{#charts}
+スタッフごとの分別はされず、全てのスタッフのレポートが推移表に掲載されます。これにより、**設備稼働率の変動、品質データのトレンド、環境測定値の推移**など、特定の項目の変化を時系列で追うことで、**異常の早期発見や予兆管理**に貢献します。
 
-前述の[推移表](#line)・[累積表](#stack)のデータをもとにして折れ線や円グラフ、積み上げ縦棒グラフなどを作成可能です。
-グラフは複数種類作成でき、ワンクリックで瞬時に切り替えが可能です。
+{{<iTablet filename="img/flow" msg="過去の点検データや生産数の推移など、データの変化の流れを把握するのに便利です。異常の兆候も発見しやすくなります" alice="ok">}}
 
-{{<icatch filename="img/chart" msg="グラフはワンクリックでいつでも切替可" alice="guide">}}
+{{< link-card title="推移表について" description="操作ガイド" href="/docs/manual/analytics/transition/" >}}
 
-{{< link-card title="グラフ化について" description="操作ガイド"  href="/docs/manual/analytics/chart/" >}}
+### グラフ作成 - データ傾向を視覚的に可視化{#charts}
 
-## 予定と実績の対比表{#schedule}
+前述の[推移表](#line)や[累積表](#stack)のデータをもとにして、<strong>折れ線グラフ、円グラフ、棒グラフ、積み上げ縦棒グラフ</strong>などを作成可能です。グラフは複数種類作成でき、ワンクリックで瞬時に切り替えが可能です。
 
-生産管理の方からいただいたリクエストで、今月の生産ノルマと実績を比較する機能として実装されました。
-目標とそれに対する実績のため、生産管理以外でも例えば売上に対する目標と実績など、多目的に利用可能です。
-目標を予め定めておくことで日別の達成・未達を簡単に確認できます。
-前月の繰越を使うことで実績の調整も可能です。
+<strong>売上推移、生産数の月次変動、点検項目の合否割合、スタッフごとの業務達成率</strong>など、複雑な数値データを視覚的に分かりやすく表現することで、<strong>データの傾向や課題を直感的に把握し、迅速な意思決定</strong>に繋げることができます。
 
-{{<icatch filename="img/list" msg="予定と実績・進捗の管理" alice="guide">}}
+{{<icatch filename="img/chart" msg="グラフはワンクリックでいつでも切り替え可能。日報や点検記録のデータを様々なグラフ形式で可視化し、分析に役立てましょう" alice="guide">}}
 
-{{< link-card title="予定実績機能" description="操作ガイド"  href="/docs/manual/analytics/progress/" >}}
+{{< link-card title="グラフ化について" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
-## エクセルを用いた集計・分析{#excel}
+## 予定と実績の対比表 - 目標管理と進捗把握{#schedule}
 
-NipoPlusの集計機能でカバーできない場合、CSV出力してエクセルで集計や分析が可能です。例えば、⭕の数を数えたり、提出日で並び替えることがエクセルで簡単に行えます。
+この機能は、<strong>生産管理における今月の生産ノルマと実績を比較する</strong>といった、目標とそれに対する進捗を可視化するために実装されました。
+
+生産管理以外でも、例えば<strong>営業の売上目標に対する実績</strong>、<strong>プロジェクトの進捗目標</strong>など、多目的に利用可能です。目標を予め定めておくことで、日別の達成・未達を簡単に確認できます。
+前月の繰越を使うことで、実績の調整も可能です。**製造業における生産計画の達成度**や、**日々の作業進捗**の管理に最適です。
+
+{{<icatch filename="img/list" msg="予定と実績を比較し、進捗を管理します。生産計画の達成度や、日々の作業進捗を一目で把握できます" alice="guide">}}
+
+{{< link-card title="予定実績機能" description="操作ガイド" href="/docs/manual/analytics/progress/" >}}
+
+## Excelを用いた集計・分析 - 柔軟なカスタム分析に{#excel}
+
+NipoPlusの標準集計機能でカバーできない、より複雑な集計や分析が必要な場合は、<strong>レポートデータをCSV出力してExcelで集計や分析を行う</strong>ことが可能です。例えば、特定のキーワードの出現回数を数えたり、複数の項目を組み合わせて詳細なクロス集計を行ったりといったことがExcelで簡単に行えます。
 
 {{< excelTable >}}
 提出日, 調査地住所, 【0】日当たり, 【1】日当たり, 【2】日当たり, 【3】日当たり, 【4】日当たり, 【5】日当たり
@@ -121,4 +129,6 @@ NipoPlusの集計機能でカバーできない場合、CSV出力してエクセ
 2023/06/08 09:35, 栃木県宇都宮市XXXX, -, -, -, -, ⭕, -
 {{< /excelTable >}}
 
-{{< link-card title="エクセルにて集計する" description="コラム記事"  href="/excel/sales_report/" >}}
+NipoPlusから出力されるCSVデータは、Excelでの加工に非常に適した形式です。これにより、**紙のアンケート用紙のように手動で集計する手間をなくし**、**デジタルデータのメリットを最大限に活かした分析**が可能になります。
+
+{{< link-card title="Excelにて集計する" description="コラム記事" href="/excel/sales_report/" >}}

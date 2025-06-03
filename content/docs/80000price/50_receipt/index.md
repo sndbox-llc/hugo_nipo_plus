@@ -10,7 +10,7 @@ contributors = []
 +++
 
 {{< callout context="note" title="【重要】NipoPlus（現行版）の領収証について" icon="outline/info-circle" >}}
-このガイドは**NipoPlus（現行版）**でのお支払いに対する領収証発行手順です。
+このガイドはNipoPlus（現行版）でのお支払いに対する領収証発行手順です。
 Nipo【旧版】をご利用の方は、[Nipo【旧版】の料金ページ](/legacy/system/price/)をご確認ください。
 {{< /callout >}}
 

@@ -33,6 +33,17 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2025/6/13 v1.70.1{#vp1_70_1}
+
+- ビルドシステム変更に伴うアップデートです。アプリ内容の変更は有りません
+
+このアップデートはAndroid／iOS版に適用され、Web版は除外されます。NipoPlusはCapacitorという、WebアプリをAndroid/iOSに変換する機能を使って各プレイストアにリリースしています。  
+この度、CapacitorがVersion6からVersion7に更新されたため、それに伴いCapacitor7で生成し直したNipoPlusになります。
+
+iOSの最小バージョンが13から14に更新されました。
+Android SDKバージョンが22から23に更新されました。
+（これらは相当古いため、今回のアップデートで更新できなくなる方はほとんどいないはずです）
+
 #### {{<nipoPlusLogo 30>}} 2025/6/12 v1.70.0{#vp1_70_0}
 
 - 提出状況表の「✗」がボタンになりました。クリックすると未提出者に対してメールを送れます。

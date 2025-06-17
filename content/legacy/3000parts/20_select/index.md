@@ -119,7 +119,7 @@ apple, banana, apple, banana, banana, -
 
 {{< callout context="tip" title="[後続のNipoPlusでも利用可能](/docs/template/selects/#checkbox)です" icon="outline/note" />}}
 
-チェックボックスは **「はい・いいえ」の回答が簡単**にできるシンプルな項目です。見た目もわかりやすく、誰でも簡単に操作できます。
+チェックボックスは 「**はい・いいえ**」の回答が簡単にできるシンプルな項目です。見た目もわかりやすく、誰でも簡単に操作できます。
 入力必須の指定がされた場合、チェックがONになっていないと、提出ができません。（入力必須の設定については後述）
 
 {{<iTablet filename="img/checkbox" msg="チェックボックスの日報を入力する画面"  alice="ok">}}

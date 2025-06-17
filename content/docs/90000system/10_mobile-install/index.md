@@ -113,7 +113,7 @@ iOSではSafariブラウザの機能を使って、NipoPlusをアプリのよう
 
 1.  Safariブラウザで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp/)を開きます。
     {{< link-card title="NipoPlusを起動" description="このカードをクリックするとNipoPlusが別タブで起動します" href="https://nipoplus.sndbox.jp/" target="_blank" >}}
-2.  画面下部にある **「共有」アイコン**（↑が四角から出るようなアイコン）をタップします。
+2.  画面下部にある 「共有」アイコン（↑が四角から出るようなアイコン）をタップします。
 3.  メニューの中から「**ホーム画面に追加**」をタップします。
 4.  追加するアイコンの名前を任意で決め、画面右上の「追加」をタップします。
 5.  ホーム画面にNipoPlusのアイコンが追加されたことを確認してください。

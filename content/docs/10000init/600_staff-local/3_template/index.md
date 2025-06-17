@@ -44,7 +44,7 @@ NipoPlusの**テンプレートの制限**機能は、このような現場の�
 
 {{<icatch filename="img/show-template-setting" msg="スタッフごとに使用できる日報テンプレートを制限します。これにより、スタッフが迷わず日報を作成できます。" alice="shield">}}
 
-### 設定画面での操作
+### 設定画面での操作{#settings_ui_operation}
 
 ポップアップで開いた設定画面で、以下の操作を行います。
 

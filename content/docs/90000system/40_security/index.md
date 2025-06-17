@@ -15,11 +15,11 @@ contributors = []
 
 ---
 
-## １．Google Cloud Platform (GCP) が支える強固な基盤
+## １．Google Cloud Platform (GCP) が支える強固な基盤{#gcp_infrastructure}
 
 NipoPlusは、世界有数のクラウドプロバイダーである**Google Cloud Platform (GCP)** を基盤としています。GCPは、Googleが自社のサービス（Gmail、YouTubeなど）で培った技術を活かし、**堅牢なインフラと多層的なセキュリティ対策**を提供しています。
 
-### GCPの主なセキュリティ特徴
+### GCPの主なセキュリティ特徴{#gcp_security_features}
 
 <dl class="basic">
 <dt>世界最高水準のデータセンター</dt>
@@ -36,11 +36,11 @@ NipoPlusは、世界有数のクラウドプロバイダーである**Google Clo
 
 ---
 
-## ２．厳重な認証システムとデータ暗号化
+## ２．厳重な認証システムとデータ暗号化{#auth_and_encryption}
 
 お客様のNipoPlusへのアクセスや、データの保管には、さらに高度なセキュリティ技術が用いられています。
 
-### Firebase Authenticationによる安全な認証
+### Firebase Authenticationによる安全な認証{#firebase_auth}
 
 NipoPlusの認証には、Googleが提供する**Firebase Authentication**を採用しています。
 
@@ -52,7 +52,7 @@ NipoPlusの認証には、Googleが提供する**Firebase Authentication**を採
 <dd>万が一ログインパスワードが漏洩し、アカウントが乗っ取られた場合でも、<a href="/docs/manual/account/email/">ログインE-mailの変更ページ</a>で解説しているFirebaseの保護機能により、アカウントを安全に回復できます。メール通知による不正ログインの早期発見や、変更されたメールアカウントを巻き戻す仕組みが搭載されています。</dd>
 </dl>
 
-### 機密情報の徹底した暗号化
+### 機密情報の徹底した暗号化{#data_encryption}
 
 NipoPlusで扱うすべてのデータは、保存時も通信時も厳しく暗号化されています。
 
@@ -69,13 +69,13 @@ NipoPlusで扱うすべてのデータは、保存時も通信時も厳しく暗
 </dd>
 </dl>
 
-### NoSQLデータベースによる構造的安全性
+### NoSQLデータベースによる構造的安全性{#nosql_security}
 
 NipoPlusは、**Firestore**や**Elastic**といった**NoSQL型のデータベース**を利用しています。これは、広く知られているSQLインジェクションのような、従来のリレーショナルデータベースを標的とした攻撃が、**構造的に適用されない**という大きな利点があります。これにより、システム設計の段階からセキュリティ上の潜在的なリスクを低減しています。
 
 ---
 
-## ３．お客様自身によるアカウント保護のお願い
+## ３．お客様自身によるアカウント保護のお願い{#user_account_protection}
 
 システムは最高のセキュリティを提供しますが、お客様自身もパスワードの管理などにご注意いただくことで、より安全にご利用いただけます。
 
@@ -108,7 +108,7 @@ NipoPlusは、**Firestore**や**Elastic**といった**NoSQL型のデータベ�
 
 ---
 
-## ４．セキュリティに関するよくあるご質問（FAQ）
+## ４．セキュリティに関するよくあるご質問（FAQ）{#security_faq}
 
 お客様からいただくセキュリティに関するご質問をまとめました。
 

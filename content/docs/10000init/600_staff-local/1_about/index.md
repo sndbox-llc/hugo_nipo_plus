@@ -57,7 +57,7 @@ NipoPlusには「**組織のスタッフ管理**」と「**グループ内のス
 
 {{<icatch filename="img/staff-local" msg="この画面では、現在選択しているグループに参加しているスタッフの一覧を確認できます。各スタッフのグループ内での設定をここで行います。" alice="pc">}}
 
-### スタッフリストの項目解説
+### スタッフリストの項目解説{#staff_list_fields}
 
 表示されるスタッフリストの各項目についてご説明します。
 
@@ -106,7 +106,7 @@ NipoPlusには「**組織のスタッフ管理**」と「**グループ内のス
 
 {{<icatch filename="img/staff-activity" msg="各スタッフがその月に何件のレポート作成や承認などを行ったか、活動実績を一覧で確認できます。" alice="ok">}}
 
-### 活動実績の項目解説
+### 活動実績の項目解説{#activity_record_fields}
 
 <dl class="basic">
 <dt><a href="/docs/manual/read-report/state/#agree">承認</a></dt>

@@ -11,7 +11,7 @@ weight = 1010
 
 {{<figure src="img/eye-catch.png"  alt="Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" caption="Nipo【旧版】とNipoPlusのロゴ。緑ベースがNipo【旧版】・紫ベースがNipoPlusのロゴです" >}}
 
-## 今から導入するならNipoPlusを推奨します
+## 今から導入するならNipoPlusを推奨します{#recommend_nipoplus}
 
 NipoとNipoPlusはどちらも同じ会社で作られたクラウド型日報アプリです。  
 Nipoの作成で培ったノウハウをベースに、より洗練されたアプリを作りたい！という思いからNipoPlusの開発がスタートしました。

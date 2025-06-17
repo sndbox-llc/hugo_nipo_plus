@@ -15,13 +15,13 @@ NipoPlusは**Webアプリケーション**なので、インターネットに�
 
 ---
 
-## NipoPlusのインストールと利用方法
+## NipoPlusのインストールと利用方法{#nipo_install_usage}
 
 NipoPlusは、Web版を **PWA（Progressive Web App）としてホーム画面に追加する**のが最もおすすめの利用方法です。通常のアプリのようにアイコンから起動でき、フル機能が利用可能です。
 
 もちろん、PCならブラウザを開くだけでOK。AndroidとiOSでは、App StoreやGoogle Playからも手軽にアプリをダウンロードできます。
 
-### 【推奨】PWA（Webアプリ）をホーム画面に追加するメリット
+### 【推奨】PWA（Webアプリ）をホーム画面に追加するメリット{#pwa_home_merits}
 
 - **フル機能が使える**: CSV出力など、ストア版アプリでは制限される機能もすべて利用できます。
 - **常に最新版**: アップデートが即座に反映され、常に最新の機能をご利用いただけます。
@@ -29,7 +29,7 @@ NipoPlusは、Web版を **PWA（Progressive Web App）としてホーム画面�
 
 ---
 
-## １．PCで使う：ブラウザでアクセスするだけ！
+## １．PCで使う：ブラウザでアクセスするだけ！{#pc_usage}
 
 今このページをPCでご覧いただいている方は、下のボタンをクリックするだけでNipoPlusをすぐに使い始められます。面倒なインストールは一切不要です。
 
@@ -62,11 +62,11 @@ Windows 7以降のPCであれば、ほとんどの環境で問題なく動作し
 
 ---
 
-## ２．Androidで使う：PWAインストールがおすすめ！
+## ２．Androidで使う：PWAインストールがおすすめ！{#android_usage}
 
 AndroidスマートフォンやタブレットでNipoPlusを使うには、以下の2つの方法があります。**PWA（Webアプリ）としてインストール**するのがおすすめです。
 
-### 【推奨】WebのNipoPlusをインストール（PWA）
+### 【推奨】WebのNipoPlusをインストール（PWA）{#android_pwa_install}
 
 WebのNipoPlusはPWAという技術により、**Webサイトでありながらアプリのようにホーム画面に追加して利用できます。**
 
@@ -82,7 +82,7 @@ WebのNipoPlusはPWAという技術により、**Webサイトでありながら�
 
 インストール後は、普通のアプリと同様にNipoPlusを快適にご利用いただけます。
 
-### Google Playストアからインストール
+### Google Playストアからインストール{#android_playstore_install}
 
 一般的に広く知られている方法です。Google PlayストアからNipoPlusアプリをダウンロードできます。
 
@@ -103,11 +103,11 @@ WebのNipoPlusはPWAという技術により、**Webサイトでありながら�
 
 ---
 
-## ３．iOSで使う：PWAインストールがおすすめ！
+## ３．iOSで使う：PWAインストールがおすすめ！{#ios_usage}
 
 iPhone・iPadでNipoPlusを使うには、以下の2つの方法があります。iOSでも**PWA（Webアプリ）としてインストール**するのがおすすめです。
 
-### 【推奨】WebのNipoPlusをホーム画面に追加（PWA）
+### 【推奨】WebのNipoPlusをホーム画面に追加（PWA）{#ios_pwa_add_home}
 
 iOSではSafariブラウザの機能を使って、NipoPlusをアプリのようにホーム画面に追加できます。
 
@@ -123,7 +123,7 @@ iOSではSafariブラウザの機能を使って、NipoPlusをアプリのよう
 これでインストールは完了です。アイコンを長押しすると、通常のアプリと同様に削除できます。
 厳密にはウェブページへのショートカットリンクですが、全画面表示になり、まるでアプリのように快適にご利用いただけます。
 
-### App Storeからインストール
+### App Storeからインストール{#ios_appstore_install}
 
 一般的に広く知られている方法です。App StoreからNipoPlusアプリをダウンロードできます。
 
@@ -140,7 +140,7 @@ iOSではSafariブラウザの機能を使って、NipoPlusをアプリのよう
 
 ---
 
-## ストア版専用アプリの制限事項
+## ストア版専用アプリの制限事項{#store_app_limitations}
 
 App Store版・Google Play版のNipoPlusは、ストアの規約や技術的な制約により、Web版（PWA含む）と比べていくつかの機能が制限されます。
 

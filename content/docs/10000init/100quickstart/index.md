@@ -13,8 +13,7 @@ contributors = []
 NipoPlusへようこそ！
 
 「日報アプリって、設定が難しそう…」「何から始めればいいんだろう？」と感じていませんか？
-ご安心ください。このクイックスタートガイドでは、NipoPlusを使い始めるために**必要最小限のステップ**に絞って、その全体像と基本操作を分かりやすくご紹介します。
-
+ご安心ください。このクイックスタートガイドでは、NipoPlusを使い始めるために**必要最小限のステップ**に絞って、その全体像と基本操作を分かりやすくご紹介します。  
 まるで地図のように、あなたがNipoPlusを使いこなすまでの道筋を示します。このガイドに沿って進めば、30分程度で日報作成・確認の基本的な流れをマスターできますよ！
 
 {{< callout context="note" title="最初の設定はPCがおすすめです" icon="outline/info-circle" >}}
@@ -25,8 +24,7 @@ NipoPlusへようこそ！
 
 ## ステップ1：NipoPlusを起動しよう！ {#start}
 
-まずはNipoPlusのサービスを開始します。
-
+まずはNipoPlusのサービスを開始します。  
 画面右上の「[NipoPlusを起動](https://nipoplus.sndbox.jp/)」ボタンをクリックしてください。
 
 <a href="https://nipoplus.sndbox.jp/" class=" btn btn-block btn-lg btn-outline-primary mt-auto" target="_blank">Nipo+を起動</a>
@@ -53,7 +51,8 @@ NipoPlusへようこそ！
 
 ## ステップ3：あなたの「日報」の形を決めよう！テンプレート作成 {#make_template}
 
-テンプレートは、日報やチェックシートの「ひな形」です。このテンプレートに沿って情報を入力していくのが、NipoPlusの最も基本的な操作になります。最初からいくつかサンプルテンプレートも用意されていますが、ここではあなた専用のシンプルなテンプレートを作ってみましょう。
+テンプレートは、日報やチェックシートの「ひな形」です。
+このテンプレートに沿って情報を入力していくのが、NipoPlusの最も基本的な操作になります。最初からいくつかサンプルテンプレートも用意されていますが、ここではあなた専用のシンプルなテンプレートを作ってみましょう。
 
 ### テンプレート作成のステップ{#step_create_template}
 
@@ -94,21 +93,21 @@ NipoPlusへようこそ！
 
 ## ステップ5：提出されたレポートを承認してみよう！ {#read_report}
 
-レポート作成後に「作成したレポート表示」を選ぶと、その[レポートを読む画面](/docs/manual/read-report/state/)へ移動します。ここからは、レポートを受け取る上司の立場になってみましょう。
-
-レポートに対して[コメントを書く](/docs/manual/read-report/state/#comment)ことや、レポートを[承認](/docs/manual/read-report/state/#agree)したり、[PDFとして出力](/docs/manual/read-report/state/#pdf_export)したりできます。
-
+レポート作成後に「作成したレポート表示」を選ぶと、その[レポートを読む画面](/docs/manual/read-report/state/)へ移動します。ここからは、レポートを受け取る上司の立場になってみましょう。  
+レポートに対して[コメントを書く](/docs/manual/read-report/state/#comment)ことや、レポートを[承認](/docs/manual/read-report/state/#agree)したり、[PDFとして出力](/docs/manual/read-report/state/#pdf_export)したりできます。  
 右側メニューから「**承認**」ボタンをクリックして、レポートを承認してみましょう。
 
 {{<icatch filename="img/report-agree" msg="自分の書いたレポートを承認してみましょう。上司としての操作を体験できます。" alice="here">}}
 
-レポートを承認すると、そのレポートは内容がロックされ、不正な修正を防ぐことができます。もし内容に不備があれば、承認を「棄却」したり、コメントで具体的な指摘をしたり、[上司が直接修正](/docs/manual/write-report/rewrite/#agent)することも可能です。
+レポートを承認すると、そのレポートは内容がロックされ、不正な修正を防ぐことができます。  
+もし内容に不備があれば、承認を「棄却」したり、コメントで具体的な指摘をしたり、[上司が直接修正](/docs/manual/write-report/rewrite/#agent)することも可能です。
 
 ---
 
 ## ステップ6：チームメンバーを追加しよう！ {#add_member}
 
-NipoPlusはチームで使うことで、その真価を発揮します。いよいよ、上司や部下など、他のスタッフのアカウントを追加して、[レポートを読む人](/docs/manual/read-report/state/)と[レポートを書く人](/docs/manual/write-report/write/)を明確に区別してみましょう。
+NipoPlusはチームで使うことで、その真価を発揮します。  
+いよいよ、上司や部下など、他のスタッフのアカウントを追加して、[レポートを読む人](/docs/manual/read-report/state/)と[レポートを書く人](/docs/manual/write-report/write/)を明確に区別してみましょう。
 
 ### スタッフアカウント作成のステップ{#step_create_staff}
 
@@ -117,7 +116,8 @@ NipoPlusはチームで使うことで、その真価を発揮します。いよ
 
 {{<icatch filename="img/create-account" msg="あなたのチームメンバーのスタッフアカウントを作成してみましょう。各スタッフの権限は後から変更できます。" alice="guide">}}
 
-作成されたスタッフアカウントは、自動的に「スタッフ」という[権限](/docs/setup/staff-global/rank/)になります。スタッフ権限では、[テンプレートの編集](/docs/template/make/)や新しいアカウントの作成はできないので、安心して利用させることができます。
+作成されたスタッフアカウントは、自動的に「スタッフ」という[権限](/docs/setup/staff-global/rank/)になります。  
+スタッフ権限では、[テンプレートの編集](/docs/template/make/)や新しいアカウントの作成はできないので、安心して利用させることができます。
 
 ---
 
@@ -166,7 +166,6 @@ NipoPlusは、部署やプロジェクト、目的（例：新人研修用、製
 ## 最後に：匿名アカウントは早期に正規アカウントへ昇格しましょう {#last}
 
 クイックスタートガイドで作成した[匿名アカウント](/docs/manual/utils/tokumei/)は、あくまでNipoPlusを簡単にお試しいただくための「仮のID」です。継続してNipoPlusのご利用を検討される際は、**必ず正規アカウントへ昇格させてください。**
-
 正規アカウントへ昇格することで、複数の端末から安全に[ログイン・ログアウト](/docs/manual/account/signin/)が可能になり、データの消失リスクもなくなります。
 
 {{< callout context="caution" title="匿名アカウントはデータ消失のリスクがあります" icon="outline/alert-triangle" >}}
@@ -176,9 +175,5 @@ NipoPlusは、部署やプロジェクト、目的（例：新人研修用、製
 {{< link-card title="匿名アカウントを正規アカウントへ昇格する手順" description="詳細な手順はこちらのマニュアルをご覧ください。" href="/docs/manual/utils/tokumei/" >}}
 
 ここまでNipoPlusのクイックスタートガイドをご覧いただき、ありがとうございました。
-
 NipoPlusには、このガイドで紹介しきれなかった便利な機能がまだまだたくさんあります。詳しくは[マニュアル](/docs/manual/)をご覧ください。
-
 「こんなことはできる？」「この操作方法が知りたい」など、ご不明な点がございましたらいつでも遠慮なく[お問い合わせ](/others/inquery/)ください。
-
----

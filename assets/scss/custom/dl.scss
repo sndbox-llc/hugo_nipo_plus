@@ -103,6 +103,9 @@ dl.faq {
 
   dd {
     margin-bottom: 2em;
+    display: flex;
+    align-items: flex-start;
+
 
     &:before {
       content: 'A';

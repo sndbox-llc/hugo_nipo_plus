@@ -65,6 +65,97 @@ JSON形式は { key: value }の形で表現されたデータ構造です。
 };
 ```
 
+## タイムカードのJSON構造 {#timecard}
+
+| キー          | 型             | 説明                                                                                   |
+| ------------- | -------------- | -------------------------------------------------------------------------------------- |
+| id            | String（任意） | 20文字で構成されるランダムな文字列です。ユニークです(厳密には異なるが考慮の必要はない) |
+| date          | String         | 日付を表す文字列。形式は "YYYY-MM-DD"（例: "2023-03-21"）                              |
+| day           | Number         | 日付のUnixタイムスタンプ（ミリ秒）。JSTの0時基準                                       |
+| start         | String         | 出勤時刻。\"08:00\" のような文字列                                                     |
+| end           | String         | 退勤時刻。\"17:00\" のような文字列                                                     |
+| breaks        | Array<Object>  | 休憩時間の配列。各要素は `{ start: string, end: string }` 形式                         |
+| redacted      | Boolean        | 編集済みフラグ。ユーザーが編集した場合 true                                            |
+| isHolydayWork | Boolean        | 休日出勤フラグ。休日に勤務した場合 true                                                |
+| memo          | String         | 備考欄の文字列。自由記述                                                               |
+| generator     | String         | このタイムカードを作成したスタッフID                                                   |
+| staffId       | String         | このタイムカードの対象スタッフのID                                                     |
+| createTs      | Number         | 初回作成日時。Unixタイムスタンプ（ミリ秒）                                             |
+| updateTs      | Number         | 最終更新日時。Unixタイムスタンプ（ミリ秒）                                             |
+| calcData      | Object         | 下記の計算結果データ（打刻や休憩などを元に算出された集計値）                           |
+
+### calcData の中身
+
+| キー               | 型     | 説明                              |
+| ------------------ | ------ | --------------------------------- |
+| editStart          | String | 丸め後の出勤時刻（例: \"08:00\"） |
+| editEnd            | String | 丸め後の退勤時刻（例: \"17:00\"） |
+| dayWork            | Number | 日勤労働時間（分）                |
+| nightWork          | Number | 夜勤労働時間（分）                |
+| totalWorkTime      | Number | 実労働時間（分）。日勤＋夜勤−休憩 |
+| overWorkTime       | Number | 超過労働時間（分）                |
+| calcBreakTimeDay   | Number | 日勤中の休憩時間（分）            |
+| calcBreakTimeNight | Number | 夜勤中の休憩時間（分）            |
+| dayWorkHolyDay     | Number | 休日の日勤労働時間（分）          |
+| nightWorkHolyDay   | Number | 休日の夜勤労働時間（分）          |
+
+### 📌 備考
+
+- `calcData` はサーバ側で勤務情報から自動算出される集計値。
+- `breaks` に複数の休憩時間がある場合も、`calcBreakTimeDay` や `calcBreakTimeNight` に反映されます。
+- `isHolydayWork` が true のとき、`dayWorkHolyDay` や `nightWorkHolyDay` に値が入る場合があります。
+- `memo` や `redacted` はユーザー操作により変更される要素です。
+
+### タイムカードのAPIレスポンス例
+
+```json
+{
+  "error": false,
+  "result": {
+    "data": [
+      {
+        "id": "vY8ovmFPaaz3z41GzKAy",
+        "date": "2023-03-21",
+        "breaks": [{ "start": "12:00", "end": "13:00" }],
+        "redacted": false,
+        "isHolydayWork": false,
+        "start": "08:00",
+        "generator": "mMSejOQa21d9OtXo1BtjFzrEt6J3",
+        "memo": "",
+        "createTs": 1679400813656,
+        "end": "17:00",
+        "day": 1679353200000,
+        "updateTs": 1679400813656,
+        "staffId": "mMSejOQa21d9OtXo1BtjFzrEt6J3",
+        "calcData": {
+          "calcBreakTimeDay": 60,
+          "calcBreakTimeNight": 0,
+          "dayWorkHolyDay": 0,
+          "nightWorkHolyDay": 0,
+          "dayWork": 480,
+          "nightWork": 0,
+          "totalWorkTime": 480,
+          "overWorkTime": 0,
+          "editStart": "08:00",
+          "editEnd": "17:00"
+        }
+      }
+    ],
+    "count": 10,
+    "totalCalc": {
+      "totalWorkTime": 5040,
+      "overWorkTime": 240,
+      "dayWorkHolyDay": 0,
+      "nightWorkHolyDay": 0,
+      "dayWork": 5040,
+      "nightWork": 0,
+      "calcBreakTimeDay": 540,
+      "calcBreakTimeNight": 0
+    }
+  }
+}
+```
+
 ## テンプレートのJSON構造{#template}
 
 | キー   | 型         | 説明                                                       |

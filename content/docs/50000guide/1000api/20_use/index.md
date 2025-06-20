@@ -211,6 +211,42 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 -d "{ "groupId": "nipodefaultgroup" }"
 ```
 
+### タイムカード取得エンドポイント{#timecard}
+
+<dl class="basic">
+<dt>/timecards/取得するスタッフのID</dt>
+<dd>指定したスタッフのタイムカード情報を取得します</dd>
+</dl>
+
+| 名称    | 型     | 説明                                                                    | 必須 |
+| ------- | ------ | ----------------------------------------------------------------------- | ---- |
+| groupId | String | 取得するグループのID                                                    | ○    |
+| size    | Number | 取得するタイムカードの件数。1〜1000の間で指定。未指定の場合は1000となる |      |
+| from    | String | 取得するタイムカードの期間（開始点) 2022/08/01 00:00:00のような形で指定 | ○    |
+| to      | string | 取得するタイムカードの期間（終了点) 2022/09/31 23:59:59のような形で指定 | ○    |
+
+このAPIポイントは「編集者権限」以上が必要です。
+タイムカードの制限解除がされていない場合、取得件数は5件で固定されます（指定が5未満でも5になります）
+タイムカードの制限解除がされている場合、取得件数は1〜1000の間で任意に指定できます。
+Sizeの指定が無い場合は1000として扱われます。
+
+```bash {frame="none"}
+# 記述例（パラメータを改行する場合はこんな感じでEOSつければOK。お好みで）
+
+curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/timecards/mMSejOQa21d9OtXo1BtjFzrEt6J3 \
+-H "Content-Type:application/json" \
+-H "Authorization: Bearer 【取得したAPIキー】" \
+-d @- <<EOS
+{
+  "groupId": "0XRC0tEQXvcMb2zRFKYj",
+  "size": 10,
+  "from": "2024/08/01 10:10:10",
+  "to": "2025/06/30 23:59:59"
+}
+EOS
+
+```
+
 ### 組織全体のエンドポイント{#org}
 
 組織全体に関する情報のためアクセスには[管理者権限](/docs/setup/staff-global/rank/)が必要です。

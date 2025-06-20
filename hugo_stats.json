@@ -40,6 +40,7 @@
       "meta",
       "nav",
       "noscript",
+      "object",
       "ol",
       "option",
       "p",
@@ -378,6 +379,8 @@
       "wrap"
     ],
     "ids": [
+      "-apiレスポンス例",
+      "-備考",
       "20240906",
       "20240910",
       "20241210",
@@ -472,6 +475,7 @@
       "calc_r_polish",
       "calc_result",
       "calc_sum",
+      "calcdata-の中身",
       "calculate_time_results_in_minutes",
       "calculate_time_spent_on_each_task_category",
       "calculation_method_for_working_time_of_each_row",
@@ -2579,7 +2583,8 @@
       "yes_no",
       "zettai",
       "zip",
-      "zip_decode_issue_with_lhaplus_lhaca"
+      "zip_decode_issue_with_lhaplus_lhaca",
+      "タイムカードのapiレスポンス例"
     ]
   }
 }

@@ -33,6 +33,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2025/6/20 サーバサイドアップデート
+
+APIのエンドポイントに[タイムカードのエンドポイント](/docs/manual/api/ref/#timecard)を追加しました。
+
 #### {{<nipoPlusLogo 30>}} 2025/6/13 v1.70.1{#vp1_70_1}
 
 - ビルドシステム変更に伴うアップデートです。アプリ内容の変更は有りません

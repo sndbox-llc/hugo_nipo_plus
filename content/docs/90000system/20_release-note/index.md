@@ -33,6 +33,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoLogo 30>}} 2025/7/3 v10.1.1{#legacy10_1_1}
+
+- 集計処理で特定の条件時に集計結果がNaNになってしまうバグを修正しました
+
 #### {{<nipoPlusLogo 30>}} 2025/6/20 サーバサイドアップデート
 
 APIのエンドポイントに[タイムカードのエンドポイント](/docs/manual/api/ref/#timecard)を追加しました。

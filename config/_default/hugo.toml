@@ -1,4 +1,4 @@
-title = "NipoPlus(ニポプラス・にぽぷらす)"
+title = "クラウド日報 NipoPlus(ニポプラス)"
 # baseurl = "http://localhost/"
 baseurl = "https://nipo-plus-doc.sndbox.jp/"
 canonifyURLs = false

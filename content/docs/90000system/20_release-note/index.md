@@ -33,6 +33,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2025/8/26 v1.71.2{#vp1_71_2}
+
+- PDF出力機能　検印欄が多いとはみ出してしまう問題に対応しました。少なくとも6個設置してもはみ出さないように調整しています。
+
 #### {{<nipoPlusLogo 30>}} 2025/8/25 v1.71.1{#vp1_71_1}
 
 前回の1.71.0で漏れてしまったバグの修正がメインです。

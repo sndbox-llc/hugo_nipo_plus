@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/calendar/weekly/"
-# aliases = []
+
 title = "週カレンダーについて"
 menuTitle = "週カレンダー"
 description = "レポートや予定を週単位で管理できる「週カレンダー」機能について詳しく解説します。予定の確認や管理が容易にでき、任意の期間も柔軟に設定可能です。"

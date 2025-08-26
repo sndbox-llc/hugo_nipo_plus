@@ -1,6 +1,5 @@
 +++
 url = "/test/p1"
-# aliases = []
 title = "about"
 menuTitle = "about"
 description = ""

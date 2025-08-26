@@ -1,6 +1,6 @@
 +++
 url = "/legacy/manual/delete/"
-# aliases = []
+
 title = "日報の一括削除"
 menuTitle = "日報の一括削除"
 description = "この機能は管理者限定です。蓄積したレポートをまとめて削除することができます。"

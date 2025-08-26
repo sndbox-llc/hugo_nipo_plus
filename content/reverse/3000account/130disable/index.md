@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/account/disable/"
-# aliases = []
+
 title = "スタッフのアカウントを無効にしたい"
 menuTitle = "退職したスタッフのアカウントを無効にしたい"
 description = "退職や休職で使用しなくなったスタッフのアカウントは無効化することで権限を安全に剥奪できます。"

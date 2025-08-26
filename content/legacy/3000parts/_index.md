@@ -1,6 +1,6 @@
 +++
 url = "/legacy/parts/"
-# aliases = []
+
 title = "Nipo(旧)各種入力フォーム"
 menuTitle = "Nipo(旧)各種入力フォーム"
 description = ""

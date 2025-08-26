@@ -1,6 +1,6 @@
 +++
 url = "/legacy/about/diff/"
-# aliases = []
+
 description = "NipoPlusは、クラウド型日報管理システムの新バージョンです。旧版Nipoとの違いを詳しく解説し、組織全体の管理機能や柔軟なテンプレートカスタマイズ、CSV出力、通知機能、グラフ作成など、NipoPlusで強化されたポイントを紹介します。特に製造業での活用がしやすく、コスト面でも優れた選択肢です。"
 title = "Nipo【旧版】とNipoPlusの違い"
 menuTitle = "Nipo【旧版】とNipoPlusの違い"

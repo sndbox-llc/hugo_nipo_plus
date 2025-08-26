@@ -1,6 +1,6 @@
 +++
 url = "/legacy/about/warning/"
-# aliases = []
+
 title = "Nipo【旧版】無料プラン廃止のおしらせ"
 menuTitle = "無料プラン廃止のおしらせ"
 description = "Nipo【旧版】の無料プランが2024年12月31日をもって廃止されます。引き続きNipoPlusでは無料プランが利用可能です。サーバコスト増加などを背景に、Nipo【旧版】は有料プラン専用のサービスとなります。"

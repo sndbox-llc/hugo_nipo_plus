@@ -1,6 +1,6 @@
 +++
 url = "/legacy/manual/email-verify/"
-# aliases = []
+
 title = "メールアドレスを確認する"
 menuTitle = "メールアドレスを確認する"
 description = "Nipo【旧版】に登録されたE-mailに誤りが無いかを確認することを「メールの確認」といいます。このページではE-mailの確認について解説しています"

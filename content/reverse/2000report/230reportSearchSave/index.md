@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/report/reportsearchsave/"
-# aliases = []
+
 description = "細かい条件を毎回指定するのが大変だと感じませんか？検索条件は保存すれば次からはワンクリックで検索できます"
 isDictionaly = true
 title = "よく使う検索条件を保存して作業効率を上げたい"

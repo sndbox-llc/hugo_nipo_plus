@@ -1,6 +1,6 @@
 +++
 url = "/legacy/manual/group-self/"
-# aliases = []
+
 title = "グループ内の個人設定"
 menuTitle = "グループ内の個人設定"
 description = "グループは複数名で利用します。個人単位で設定可能な項目とグループ全体に影響する設定があります。"

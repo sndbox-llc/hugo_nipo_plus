@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/report/reportsearch/"
-# aliases = []
+
 title = "細かい条件指定し日報を検索したい"
 description = "棄却された日報やタグの付いた日報など、様々な条件を組み合わせて目的の日報を検索できます"
 isDictionaly = true

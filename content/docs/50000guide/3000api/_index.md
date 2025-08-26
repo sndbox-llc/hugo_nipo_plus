@@ -1,6 +1,5 @@
 +++
 url = "/docs/manual/api/"
-# aliases = []
 title = "API"
 menuTitle = "API"
 description = ""

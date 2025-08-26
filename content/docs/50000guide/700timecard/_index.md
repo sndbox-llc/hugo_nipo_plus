@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/timecard/"
-# aliases = []
+
 title = "タイムカード"
 menuTitle = "タイムカード"
 description = ""

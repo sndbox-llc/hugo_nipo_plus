@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/pdf/pdfbatch/"
-# aliases = []
+
 title = "📄複数のレポートをまとめてPDFに変換する"
 menuTitle = "📄PDF一括出力"
 description = "レポートのデータをPDFに一括で変換します。"

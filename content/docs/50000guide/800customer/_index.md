@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/customer/"
-# aliases = []
+
 title = "顧客管理"
 menuTitle = "顧客管理"
 description = ""

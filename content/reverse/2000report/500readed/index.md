@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/report/readed/"
-# aliases = []
+
 title = "既読にする"
 menuTitle = "既読にする"
 description = "既読にする"

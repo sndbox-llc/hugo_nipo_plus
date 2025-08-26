@@ -1,6 +1,6 @@
 +++
 url = "/docs/system/credit/"
-# aliases = []
+
 title = "権利・クレジット"
 menuTitle = "権利・クレジット"
 description = "本Webサイトに使用されている画像の取り扱いについて記載しています。NipoPlusの画像は転載可能です"

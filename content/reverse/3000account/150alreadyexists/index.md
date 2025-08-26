@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/account/already-exists/"
-# aliases = []
+
 title = "重複したメールアドレスの問題を解決"
 menuTitle = "「すでに使用済みのメールアドレスです」と表示される"
 description = "スタッフのアカウントを新規に作成しようとしたとき、すでに使用済みのメールアドレスと表示されて作成できない場合の対処法について説明します"

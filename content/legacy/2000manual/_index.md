@@ -1,6 +1,6 @@
 +++
 url = "/legacy/manual/"
-# aliases = []
+
 title = "Nipo（旧）操作ガイド"
 menuTitle = "Nipo（旧）操作ガイド"
 description = ""

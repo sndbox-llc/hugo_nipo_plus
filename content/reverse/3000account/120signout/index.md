@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/account/signout/"
-# aliases = []
+
 title = "NipoPlusからログアウトしたい"
 menuTitle = "NipoPlusからログアウトしたい"
 description = "ログアウトの手順について"

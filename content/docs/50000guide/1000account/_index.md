@@ -1,6 +1,5 @@
 +++
 url = "/docs/manual/account/"
-# aliases = []
 title = "アカウント"
 menuTitle = "アカウント"
 description = ""

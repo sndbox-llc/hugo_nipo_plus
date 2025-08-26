@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/account/"
-# aliases = []
+
 title = "アカウント"
 menuTitle = "アカウント"
 description = "逆引きアーカイブ（アカウント関係）"

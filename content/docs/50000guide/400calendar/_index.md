@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/calendar/"
-# aliases = []
+
 title = "カレンダー"
 menuTitle = "カレンダー"
 description = ""

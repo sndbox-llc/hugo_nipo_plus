@@ -1,6 +1,5 @@
 +++
 url = "/docs/"
-# aliases = []
 title = "NipoPlus"
 menuTitle = "nipoPlus"
 description = "NipoPlusの操作ガイドやご利用料金、利用規約など多岐にわたるセクションをまとめた入口となります。記事は階層化されていますので、効率よく目的の情報にアクセスできます。調べてもわからない場合はいつでも遠慮なくお問い合わせください。"

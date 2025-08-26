@@ -1,6 +1,6 @@
 +++
 url = "/legacy/system/privacypolicy/"
-# aliases = []
+
 title = "プライバシーポリシー"
 menuTitle = "プライバシーポリシー"
 description = "クラウド日報Nipo【旧版】でお客様からお預かりする個人情報の取り扱いについてのお約束事をまとめました"

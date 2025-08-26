@@ -1,6 +1,6 @@
 +++
 url = "/legacy/parts/math/"
-# aliases = []
+
 title = "数値に関するフォーム"
 menuTitle = "数値に関するフォーム"
 description = "数値のデータレポートテンプレートに追加できます。数値は集計にも対応しております。"

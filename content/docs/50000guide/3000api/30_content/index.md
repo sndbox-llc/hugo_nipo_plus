@@ -1,6 +1,5 @@
 +++
 url = "/docs/manual/api/report/"
-# aliases = []
 title = "📄API取得のデータ構造"
 menuTitle = "📄API取得のデータ構造"
 description = "WebAPIで取得したレポートデータの構造に関する操作ガイドです"
@@ -84,7 +83,7 @@ JSON形式は { key: value }の形で表現されたデータ構造です。
 | updateTs      | Number         | 最終更新日時。Unixタイムスタンプ（ミリ秒）                                             |
 | calcData      | Object         | 下記の計算結果データ（打刻や休憩などを元に算出された集計値）                           |
 
-### calcData の中身
+### calcData の中身{#document_details}
 
 | キー               | 型     | 説明                              |
 | ------------------ | ------ | --------------------------------- |
@@ -99,14 +98,14 @@ JSON形式は { key: value }の形で表現されたデータ構造です。
 | dayWorkHolyDay     | Number | 休日の日勤労働時間（分）          |
 | nightWorkHolyDay   | Number | 休日の夜勤労働時間（分）          |
 
-### 📌 備考
+### 📌 備考{#columns_info}
 
 - `calcData` はサーバ側で勤務情報から自動算出される集計値。
 - `breaks` に複数の休憩時間がある場合も、`calcBreakTimeDay` や `calcBreakTimeNight` に反映されます。
 - `isHolydayWork` が true のとき、`dayWorkHolyDay` や `nightWorkHolyDay` に値が入る場合があります。
 - `memo` や `redacted` はユーザー操作により変更される要素です。
 
-### タイムカードのAPIレスポンス例
+### タイムカードのAPIレスポンス例{#timecard_result}
 
 ```json
 {

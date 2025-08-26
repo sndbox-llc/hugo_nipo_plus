@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/pdf/"
-# aliases = []
+
 title = "PDF出力"
 menuTitle = "PDF出力"
 description = ""

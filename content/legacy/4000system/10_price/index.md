@@ -1,6 +1,6 @@
 +++
 url = "/legacy/system/price/"
-# aliases = []
+
 title = "Nipo【旧版】料金"
 menuTitle = "Nipo【旧版】料金"
 description = "Nipo【旧版】を利用する上での利用規約になります。同じ内容のものがクラウド日報Nipo【旧版】のアカウント作成後に表示されます"

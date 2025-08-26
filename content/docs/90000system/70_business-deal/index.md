@@ -1,6 +1,6 @@
 +++
 url = "/docs/system/business-deal/"
-# aliases = []
+
 title = "📋特定商取引法に基づく表記"
 menuTitle = "📋特定商取引法に基づく表記"
 description = "NipoPlusはオンラインによるお支払いが発生するため「特定商取引」に分類されます。法令に従い特定商取引法に基づく表記を掲載しています"

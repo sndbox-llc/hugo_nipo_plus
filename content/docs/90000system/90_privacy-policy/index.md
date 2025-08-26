@@ -1,6 +1,6 @@
 +++
 url = "/docs/system/privacy-policy/"
-# aliases = []
+
 title = "🔒 NipoPlusプライバシーポリシー：お客様のデータは私たちの宝物です"
 menuTitle = "🔒プライバシーポリシー"
 description = "クラウド日報NipoPlusでお客様からお預かりする個人情報の取り扱いについてのお約束事をまとめました"

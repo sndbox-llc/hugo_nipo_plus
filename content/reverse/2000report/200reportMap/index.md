@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/report/reportmap/"
-# aliases = []
+
 title = "スタッフの提出状況を一覧で確認したい"
 menuTitle = "スタッフの提出状況を一覧で確認したい"
 description = "提出忘れなどを見つけるときは提出簿を使うと簡単です"

@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/calendar/dayly/"
-# aliases = []
+
 title = "日カレンダーの使い方"
 menuTitle = "日カレンダー"
 description = "日カレンダーにレポートや予定を表示し、スタッフ別に1日のスケジュールを管理できます。会議の設定や業務調整に役立つ機能です。"

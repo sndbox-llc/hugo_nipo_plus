@@ -1,6 +1,6 @@
 +++
 url = "/excel/countif/"
-# aliases = []
+
 title = "エクセルのCOUNTIF・COUNTIFSを駆使してスタッフの日報提出回数や機材使用回数を効率的に集計"
 menuTitle = "スタッフ別日報提出回数を求める【COUNTIF関数】"
 description = "スタッフの名前や使用した機材の回数をエクセルで簡単に集計するためのCOUNTIF関数を紹介。さらに複数条件での集計に役立つCOUNTIFS関数も解説します"

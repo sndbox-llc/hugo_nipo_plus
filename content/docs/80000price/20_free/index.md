@@ -14,13 +14,7 @@ NipoPlusは、<strong>「無料」で使い始め、そのまま「無料」で�
 
 ### 無料プランへの切り替えイメージ{#downgrade_to_free_image}
 
-```kroki {type=mermaid}
-graph LR;
-classDef class1 fill:#7BCCAC
-  利用開始 --> トライアル --> 満了 -->  無料プランへ:::class1
-  無料プランへ--> 無料で継続利用:::class1
-  無料プランへ--> 有料プランへ加入
-```
+<img src="img/free_flow.svg" />
 
 [トライアル期間](/docs/price/#trial)が終了すると自動で無料プランへ切り替わります。
 

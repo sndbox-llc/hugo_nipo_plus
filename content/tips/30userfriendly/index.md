@@ -62,34 +62,7 @@ NipoPlusではテンプレートを独自にカスタマイズできます。
 
 大きく４種類に分類できますが、更に細かく分けると次のツリーのように細分化できます。
 
-```kroki {type=mermaid}
-graph TD;
-    classDef green fill:#76b947,stroke:#333,stroke-width:2px
-    classDef orange fill:#f18c2d,stroke:#333,stroke-width:1px
-
-    A[入力タイプ] --> B[文字入力]
-    B --> TEXT[テキスト]
-    A --> C[数値入力]
-    C --> MATH[数値]
-    C --> STEP[スライダ]
-    C --> DATETIME[日付時刻]
-    C --> DATETIMES[期間]
-    C --> RANGE[範囲]
-    C --> RATE[レート]
-    C --> CALC[算術]
-    A --> D[選択入力]
-    D --> SELECT[単体回答]
-    D --> SELECTS[複数回答]
-    D --> CHECKBOX[チェックボックス]
-    D --> MOD[商品]
-    A --> E[現場写真など]
-    E --> PICTURE[写真]
-    E --> SIGN[署名]
-    E --> FILE[ファイル]
-
-    class B,C,D,E green
-
-```
+<img src="img/lists.svg" />
 
 例として、日報になにかの数値を入力するフォームを追加したいとしましょう。次の画像はどれも数値の入力フォームになります。
 

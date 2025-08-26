@@ -57,27 +57,7 @@ NipoPlusの「組織」「グループ」「スタッフ」の関係性は、あ
 
 図で表すと、次のような構造です。
 
-```kroki {type=mermaid}
-graph TD;
-  classDef class2 fill:#ffa23e;
-  classDef class1 fill:#ff9999;
-  classDef class3 fill:#99ccff;
-
-  A[お客様の会社] --> B(NipoPlusの組織);
-  B --> C(NipoPlusのグループ);
-  B --> D(NipoPlusのスタッフ);
-  C --> E(サンプルグループ):::class2;
-  D --> F(管理者アカウント):::class1;
-  C --> G(新しく作成するグループ):::class3;
-  D --> H(新しく追加するスタッフ):::class3;
-
-  subgraph 組織の枠組み
-    B
-    C
-    D
-  end
-
-```
+<img src="img/tree.svg" />
 
 また、管理者はサンプルグループに所属した状態になっています。
 

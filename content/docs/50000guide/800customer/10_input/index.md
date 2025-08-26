@@ -10,6 +10,8 @@ weight = 50810
 
 {{< callout context="note" title="顧客機能がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
+{{< callout context="caution" title="先に[顧客テンプレート](/docs/template/customer/)の設定を済ませておきましょう" icon="outline/info-circle" />}}
+
 ## 顧客管理とは{#about_customer_management}
 
 NipoPlusにある顧客管理機能は、顧客とその顧客に対する対応履歴を残し、社内での情報共有、そして最終的には顧客満足度の向上につなげるために使えるツールです。

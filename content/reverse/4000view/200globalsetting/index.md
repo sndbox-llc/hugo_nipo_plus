@@ -1,9 +1,8 @@
 +++
 url = "/reverse-lookup/view/globalsetting/"
-
-title = "組織設定画面の表示方法"
-menuTitle = "組織設定画面の表示方法"
-description = "組織設定画面を表示する方法"
+title = "組織IDを確認する"
+menuTitle = "組織IDを確認する"
+description = "組織IDを確認する"
 toc = false
 isDictionaly = true
 weight = 4200
@@ -21,3 +20,9 @@ NipoPlusでは通常、グループ内で業務を行いますが、グループ
 {{<icatch filename="img/sosiki" msg="組織ボタンを押すと組織設定です" alice="ok">}}
 
 組織に関する設定の各詳細記事は「要管理者」タグの付いたページでまとめています。
+
+## 組織IDを確認する
+
+組織IDは組織設定画面の中に記載されています。
+
+{{<iTablet filename="img/orgid" msg="組織ボタンを押すと組織設定です" alice="ok">}}

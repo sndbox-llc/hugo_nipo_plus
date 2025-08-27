@@ -39,6 +39,9 @@
   <a href="#{{ $uniqueID }}_pc" class="lightbox-link btn btn-outline-primary d-inline d-md-none" title="PC用の画面を表示">
     PCの画面
   </a>
+  <a href="#{{ $uniqueID }}_pc_zoom" class="lightbox-link btn btn-outline-primary d-md-inline d-none" title="PC画像を拡大表示">
+    画像を拡大
+  </a>
 </div>
 <a href="javascript:history.back();" class="lightbox" id="{{ $uniqueID }}_pc" title="クリックで閉じる">
   <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="lightbox-image" loading="lazy" width="2000" height="1390">
@@ -46,6 +49,11 @@
 <a href="javascript:history.back();" class="lightbox" id="{{ $uniqueID }}_phone" title="クリックで閉じる">
   <img src="{{ $imgPhone.RelPermalink }}" alt="{{ $msg }}" class="lightbox-image" loading="lazy" width="752" height="1330">
 </a>
+
+<a href="javascript:history.back();" class="lightbox" id="{{ $uniqueID }}_pc_zoom" title="クリックで閉じる">
+  <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="lightbox-image" loading="lazy" width="2000" height="1390">
+</a>
+
 
 <script type="application/ld+json">
   [{

@@ -16,7 +16,7 @@ contributors = []
 
 {{< callout context="caution" title="アカウントの作成・管理は、[管理者権限](/docs/setup/staff-global/rank/)が必要です" icon="outline/info-triangle" />}}
 
-## スタッフのアカウントを新規作成する
+## スタッフのアカウントを新規作成する{#howto_make}
 
 日報をチームで運用するには各スタッフの「アカウント」を作成し、適切に管理していく必要があります。  
 アカウントの追加方法にはいくつかのやり方があります。お好みの方法でご利用ください。

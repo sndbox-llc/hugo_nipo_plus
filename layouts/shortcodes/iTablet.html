@@ -30,6 +30,18 @@
   </div>
 </div>
 
+{{/* --- 追加ここから --- */}}
+<div class="mb-5">
+  <a href="#{{ $uniqueID }}_zoom" class="lightbox-link btn btn-outline-primary" title="画像を拡大表示">
+    画像を拡大
+  </a>
+</div>
+
+<a href="javascript:history.back();" class="lightbox" id="{{ $uniqueID }}_zoom">
+  <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="lightbox-image" loading="lazy" width="2000" height="1390">
+</a>
+{{/* --- 追加ここまで --- */}}
+
 <a href="javascript:history.back();" class="lightbox" id="{{ $uniqueID }}_pc">
   <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="lightbox-image" loading="lazy" width="2000" height="1390">
 </a>

@@ -1,8 +1,8 @@
 +++
 url = "/docs/setup/staff-local/_about/"
 aliases = ["/docs/manual/initial-setting/staff-local/_about/"]
-title = "🔑 グループ内のスタッフ管理：チームごとの詳細設定"
-menuTitle = "ℹ️概要"
+title = "グループ内のスタッフ管理"
+menuTitle = "👤グループ内のスタッフ管理"
 description = "NipoPlusのグループ内でスタッフの役割を詳細に設定する方法を解説します。レポートの提出先固定、使用可能テンプレートの制限など、チームごとの柔軟な運用を可能にする設定について学びましょう。組織全体のスタッフ管理との違いも明確に説明します。"
 toc = true
 weight = 10601
@@ -10,52 +10,53 @@ tags = ["スタッフ管理", "編集者権限"]
 contributors = []
 +++
 
-このページでは、NipoPlusの**特定のグループ内**におけるスタッフの管理方法について解説します。
-スタッフは、まず[組織全体にアカウントが作成](/docs/setup/staff-global/make/)され、その後各グループに所属します。
+{{< callout context="caution" title="[組織のスタッフ管理についてはこちら](/docs/setup/staff-global/make/)です" icon="outline/info-triangle" />}}
+{{< callout context="caution" title="この設定には編集者権限以上が必要です" icon="outline/info-triangle" />}}
+
+グループ内のスタッフ管理では、特定グループの中に所属しているスタッフの各種設定を行うことができます。  
+[組織設定からグループへの所属](<(/docs/setup/staff-global/make/)>)させることができます。  
+グループ内のスタッフ管理は、「日報の提出先固定」や「重役の設定」など、そのグループ内でのみ適用（複数グループに所属しても他のグループに影響しない）される詳細な設定が可能です。
 
 ---
 
-## 1. 組織のスタッフ管理との違いを理解しよう {#distinction}
+## 組織のスタッフ管理との違いを理解しよう {#distinction}
 
-NipoPlusには「**組織のスタッフ管理**」と「**グループ内のスタッフ管理**」の2種類があります。この違いを理解することが、適切な設定を行う上で最も重要です。
+スタッフ管理には類似した名称で「**組織のスタッフ管理**」と「**グループ内のスタッフ管理**」の２種類があります。  
+両者の違いについては以下のとおりです。
 
 <dl class="basic">
 <dt>組織のスタッフ管理</dt>
 <dd>
-    NipoPlusに登録されている<strong>会社全体のスタッフ</strong>を管理する場所です。<a href="/docs/setup/staff-global/manage/">[こちらを参照]</a>
+    <a href="/docs/setup/staff-global/manage/">会社全体のスタッフを管理する場所です。</a>以下の設定は組織設定から行う必要があります
     <ul>
-        <li><strong>アカウントの新規作成・削除</strong></li>
-        <li><strong>スタッフの権限変更（管理者・編集者など）</strong></li>
-        <li><strong>スタッフの基本情報（名前・E-mail）の変更</strong></li>
-        <li>アカウントの有効/無効の切り替え</li>
-        <li>API利用設定</li>
+        <li><a href="/docs/setup/staff-global/make/#howto_make">アカウントの新規作成</a></li>
+        <li><a href="/docs/setup/staff-global/rank/">権限変更</a></li>
+        <li><a href="/docs/setup/staff-global/make/#change_staff_data">スタッフの基本情報（名前・E-mail）の変更</a></li>
+        <li><a href="/docs/setup/staff-global/make/#stop_remove">アカウントの有効/無効の切り替え</a></li>
+        <li><a href="/docs/manual/api/key/">API利用設定</a></li>
     </ul>
-    これらは<strong>組織全体に関わる設定</strong>であり、<strong>組織のスタッフ管理画面からのみ行えます</strong>。
 </dd>
-<dt>グループ内のスタッフ管理（本ページで解説）</dt>
+<dt>グループ内のスタッフ管理</dt>
 <dd>
-    特定のグループに所属しているスタッフを管理する場所です。
-    ここでは、<strong>そのグループ内でのみ適用される、より詳細なルールや機能の制御</strong>を行います。
+    本ページで解説します。
     <ul>
-        <li><strong>グループからのスタッフの追放</strong></li>
-        <li><strong>レポートの提出先を固定</strong></li>
-        <li><strong>使用可能なテンプレートを制限</strong></li>
-        <li>グループ内の全てのレポート閲覧権限（重役設定）</li>
-        <li>共用アカウントの設定</li>
-        <li>グループ内でのスタッフの活動実績確認</li>
+        <li><a href="/docs/setup/staff-local/dist/">レポートの提出先を固定</a></li>
+        <li><a href="/docs/setup/staff-local/template/">使用可能なテンプレートを制限</a></li>
+        <li>グループ内の全てのレポート閲覧権限（重役）</li>
+        <li>グループ内スタッフ活動実績確認</li>
+        <li><a href="#bang">グループからの追放</a></li>
     </ul>
-    このページで解説する操作は、<a href="/docs/setup/staff-global/rank/">編集者権限</a>以上のスタッフが行えます。
 </dd>
 </dl>
 
-## 2. グループに所属しているスタッフを確認しよう {#showStaffList}
+## グループに所属しているスタッフを確認しよう {#showStaffList}
 
-まずは、現在設定を行いたいグループに所属しているスタッフの一覧を確認しましょう。
+所属中のアカウントを確認するには以下の手順で操作します。
 
-1.  NipoPlusにログイン後、左メニューから「**グループ設定**」をクリック
-2.  上部メニュー（またはグループ設定画面内）の「**スタッフ管理**」をクリック
+1.  左メニューから「**グループ設定**」をクリック
+2.  上部メニューの「**スタッフ管理**」をクリック
 
-{{<icatch filename="img/staff-local" msg="この画面では、現在選択しているグループに参加しているスタッフの一覧を確認できます。各スタッフのグループ内での設定をここで行います。" alice="pc">}}
+{{<icatch filename="img/staff-local" msg="スタッフ一覧が表示されたね" alice="pc">}}
 
 ### スタッフリストの項目解説{#staff_list_fields}
 
@@ -139,4 +140,16 @@ NipoPlusには「**組織のスタッフ管理**」と「**グループ内のス
 
 詳細な項目説明については[組織設定のスタッフ作成ガイド](/docs/setup/staff-global/make/#create_account_one)をご覧ください。
 
----
+## グループからの追放{#bang}
+
+スタッフをグループから追放することで、そのスタッフはグループ内の日報データにアクセス出来なくなります。  
+誤って追放しないようにするため、追放アイコンは「非表示」の状態になっています。
+
+1. 追放アイコンを表示する
+2. 追放アイコンをクリックする
+
+{{<iTablet filename="img/bang" msg="追放しても組織にアカウントは残るからね" alice="ok">}}
+
+{{< callout context="note" title="再加入させるには" icon="outline/info-circle" >}}
+追放されてもアカウントは組織上に残るので、[組織設定から該当グループに再アサイン](/docs/setup/make-group/#join_staff)できます。
+{{</callout>}}

@@ -60,36 +60,38 @@ contributors = []
 
 ### スタッフリストの項目解説{#staff_list_fields}
 
-表示されるスタッフリストの各項目についてご説明します。
+スタッフリストの各項目の詳細です。
+
+{{< callout context="note" title="項目は表示非表示が切り替え可能です" icon="outline/info-circle" >}}
+お探しの項目が画面上に表示されていない場合は表右上の「項目」から表示項目をONにしてください
+{{</callout>}}
 
 <dl class="basic">
 <dt>名前</dt>
-<dd>スタッフの名前です。<strong>名前の変更は<a href="/docs/setup/staff-global/manage/#change_staff_data">組織のスタッフ管理</a>から行います</strong>。</dd>
+<dd>スタッフの名前です。名前の変更は<a href="/docs/setup/staff-global/manage/#change_staff_data">組織のスタッフ管理</a>から行います</dd>
 <dt><a href="/docs/setup/staff-global/rank/">権限</a></dt>
-<dd>スタッフの権限（管理者、編集者、スタッフなど）です。<strong>権限の変更は<a href="/docs/setup/staff-global/manage/#change_staff_data">組織のスタッフ管理</a>から行います</strong>。</dd>
-<dt>状態</dt>
-<dd>スタッフアカウントの状態（有効：緑 / 無効：赤）を示します。<strong>有効/無効の変更は<a href="/docs/setup/staff-global/manage/#disable">組織のスタッフ管理</a>から行います</strong>。</dd>
+<dd>スタッフの権限です。権限の変更は<a href="/docs/setup/staff-global/manage/#change_staff_data">組織のスタッフ管理</a>から行います</dd>
+<dt><a href="/docs/setup/staff-global/make/#stop_remove">状態</a></dt>
+<dd>アカウントの状態（有効：緑 / 無効：赤）を示します。<br>変更は<a href="/docs/setup/staff-global/manage/#disable">組織のスタッフ管理</a>から行います</dd>
 <dt>E-mail</dt>
-<dd>スタッフがログインに使用するメールアドレスです。</dd>
+<dd>スタッフがログインに使用するメールアドレスです。変更は<a href="/docs/manual/account/signin/">当該スタッフ自身で行う</a>ことができます。</dd>
 <dt><a href="/docs/setup/staff-local/dist/">提出先の指定</a></dt>
 <dd>
     スタッフが日報を作成する際のレポート提出先を、事前に固定・設定できます。
-    これにより、スタッフが提出先を毎回選ぶ手間が省け、誤提出を防ぎます。
 </dd>
 <dt><a href="/docs/setup/staff-local/template/">テンプレートの制限</a></dt>
 <dd>
-    スタッフがこのグループで利用できるテンプレートの種類を制限できます。
-    例えば、「一般スタッフは特定のテンプレートしか使えない」といった運用が可能です。
+    スタッフがこのグループで利用できるテンプレートの種類を制限できます。テンプレートの種類が多い場合は制限することで操作性を向上出来ます
 </dd>
-<dt>追放</dt>
+<dt><a href="#bang">追放</a></dt>
 <dd>
     このグループからスタッフを追放します。これはアカウントの削除ではなく、<strong>このグループへのアクセス権を失効させるだけです</strong>。
-    アカウントそのものを削除するには、<a href="/docs/setup/staff-global/make/#remove">組織設定からスタッフアカウントの削除</a>を行う必要があります。
+    アカウントそのものを削除するには<a href="/docs/setup/staff-global/make/#remove">組織設定からスタッフアカウントの削除</a>を行う必要があります。
 </dd>
 <dt>重役</dt>
 <dd>
     この設定をONにすると、そのスタッフは<strong>グループ内のすべてのレポートを閲覧可能</strong>になります。
-    通常は<a href="/docs/manual/write-report/dist/">提出先か共有先</a>に名前がないとレポートは閲覧できませんが、重役設定はこれらの制約をバイパスします。
+    通常は<a href="/docs/manual/write-report/dist/">提出先か共有先</a>に名前がないとレポートは閲覧できませんが、重役設定はこれらの制約をバイパスします
 </dd>
 <dt><a href="/docs/setup/staff-local/share/">共用</a></dt>
 <dd>
@@ -97,7 +99,7 @@ contributors = []
 </dd>
 </dl>
 
-## 3. スタッフの活動実績を確認しよう {#activity}
+## スタッフの活動実績を確認する {#activity}
 
 このセクションでは、グループ内で各スタッフがどれくらい活動しているか、その実績を月ごとに確認できます。
 
@@ -105,40 +107,34 @@ contributors = []
 2.  上部メニュー（またはグループ設定画面内）の「**スタッフ管理**」をクリック
 3.  画面下部にある活動実績の表を確認します。
 
-{{<icatch filename="img/staff-activity" msg="各スタッフがその月に何件のレポート作成や承認などを行ったか、活動実績を一覧で確認できます。" alice="ok">}}
-
-### 活動実績の項目解説{#activity_record_fields}
+{{<icatch filename="img/staff-activity" msg="スタッフの人事評価としても使えるかも？" alice="question">}}
 
 <dl class="basic">
 <dt><a href="/docs/manual/read-report/state/#agree">承認</a></dt>
-<dd>1ヶ月の間にレポートを承認した回数を表示します。</dd>
+<dd>1ヶ月の間にレポートを承認した回数を表示</dd>
 <dt><a href="/docs/manual/read-report/state/#reject">棄却</a></dt>
-<dd>1ヶ月の間にレポートを棄却した回数を表示します。</dd>
+<dd>1ヶ月の間にレポートを棄却した回数を表示</dd>
 <dt><a href="/docs/manual/write-report/write/">レポート</a></dt>
-<dd>1ヶ月の間にレポートを作成した回数を表示します。</dd>
+<dd>1ヶ月の間にレポートを作成した回数を表示</dd>
 <dt><a href="/docs/manual/read-report/state/#readed">既読</a></dt>
-<dd>1ヶ月の間にレポートを既読した回数を表示します。</dd>
+<dd>1ヶ月の間にレポートを既読した回数を表示</dd>
 <dt><a href="/docs/manual/event/list/">予定作成</a></dt>
-<dd>1ヶ月の間に予定を作成した回数を表示します。</dd>
+<dd>1ヶ月の間に予定を作成した回数を表示</dd>
 <dt>予定完了</dt>
-<dd>1ヶ月の間に予定を完了済みにした回数を表示します。</dd>
+<dd>1ヶ月の間に予定を完了済みにした回数を表示</dd>
 <dt><a href="/docs/manual/read-report/state/#comment">コメント</a></dt>
-<dd>1ヶ月の間にレポートや予定にコメントを書き込んだ回数を表示します。</dd>
+<dd>1ヶ月の間にレポートや予定にコメントを書き込んだ回数を表示</dd>
 </dl>
 
 集計する期間は1ヶ月単位で切り替えができます。期間を変更するには、日付が書かれたボタンをクリックしてください。
 
----
+## グループの管理画面からスタッフを作成する {#createStaff}
 
-## 4. グループの管理画面からスタッフを作成する（管理者のみ） {#createStaff}
+{{< callout context="caution" title="アカウントに関する操作のため管理者権限が必要です" icon="outline/info-triangle" />}}
 
-通常は[組織のスタッフ管理画面](/docs/setup/staff-global/make/)からスタッフを作成しますが、**[管理者権限](/docs/setup/staff-global/rank/)がある場合に限り**、このグループ管理画面からもスタッフを作成することが可能です。
+通常は[組織のスタッフ管理画面](/docs/setup/staff-global/make/)からスタッフを作成しますが、グループ管理画面からもスタッフを作成することが可能です。
 
-グループ管理画面からスタッフのアカウントを作成しても、自動で組織上にも登録されます。
-
-{{<iTablet filename="img/makeStaff" msg="グループ管理画面からも新しいスタッフアカウントを作成できます。管理者権限がある場合にご利用ください。" alice="pc">}}
-
-詳細な項目説明については[組織設定のスタッフ作成ガイド](/docs/setup/staff-global/make/#create_account_one)をご覧ください。
+詳しくは[グループ設定からアカウントを１件追加](/docs/setup/staff-global/make/#make_group)を御覧ください。
 
 ## グループからの追放{#bang}
 

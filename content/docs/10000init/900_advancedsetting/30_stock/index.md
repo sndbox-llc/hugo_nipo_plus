@@ -10,6 +10,8 @@ tags = ["編集者権限", "簡易在庫管理", "備品管理", "資材管理",
 contributors = []
 +++
 
+{{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}
+
 {{< callout context="tip" title="在庫・状態の変更は[商品入力フォーム](/docs/template/mod/)と組み合わせて使用できます" icon="outline/note" >}}
 この機能単体でも商品登録や一覧確認は可能ですが、数量の増減や状態変更には、レポートに組み込む「商品入力フォーム」の利用が必須です。
 {{< /callout >}}

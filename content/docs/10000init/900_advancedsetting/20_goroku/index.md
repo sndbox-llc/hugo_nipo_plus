@@ -10,6 +10,8 @@ tags = ["語録機能", "定型入力", "選択肢", "マスターデータ", "�
 contributors = []
 +++
 
+{{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}
+
 {{< callout context="caution" title="テンプレートとの組み合わせが必須" icon="outline/alert-triangle" >}}
 語録は単体では機能しません。[選択式入力フォーム](/docs/template/selects/#plain)（単体または複数選択）と組み合わせて使用することで、その真価を発揮します。
 {{< /callout >}}

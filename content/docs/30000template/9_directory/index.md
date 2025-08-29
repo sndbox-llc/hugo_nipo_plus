@@ -10,6 +10,8 @@ tags = ["テンプレート管理", "フォルダ分け", "ファイル整理", 
 contributors = []
 +++
 
+{{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}
+
 {{< callout context="caution" title="この機能は[有料プラン](/docs/price/#fee)限定です" icon="outline/alert-triangle" />}}
 
 NipoPlusで作成できる**日報や点検シート、各種業務報告書**など、テンプレートの種類が増えてくると、目的のテンプレートを探すのが難しくなることがあります。そのような課題を解決するために、NipoPlusには**直感的にテンプレートを整理できるフォルダ機能**が備わっています。

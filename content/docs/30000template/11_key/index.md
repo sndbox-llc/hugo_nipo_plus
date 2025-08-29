@@ -10,6 +10,8 @@ tags = ["テンプレート", "データ復旧", "フォームデータ消失", 
 contributors = []
 +++
 
+{{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}
+
 {{< callout context="danger" title="重要：過去のレポートデータが正しく表示されなくなるリスクについて" icon="outline/alert-triangle" >}}
 このページで解説する「キー」の操作は、NipoPlusのデータの根幹に関わる重要な設定です。**誤った操作を行うと、過去に作成された大切なレポートデータ（日報、点検記録など）の項目が表示されなくなるなどの問題が発生する可能性があります。**
 作業は**細心の注意を払い、手順をよく理解してから**行ってください。

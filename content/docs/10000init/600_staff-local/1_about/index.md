@@ -11,7 +11,8 @@ contributors = []
 +++
 
 {{< callout context="caution" title="[組織のスタッフ管理についてはこちら](/docs/setup/staff-global/make/)です" icon="outline/info-triangle" />}}
-{{< callout context="caution" title="この設定には編集者権限以上が必要です" icon="outline/info-triangle" />}}
+
+{{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}
 
 グループ内のスタッフ管理では、特定グループの中に所属しているスタッフの各種設定を行うことができます。  
 [組織設定からグループへの所属](<(/docs/setup/staff-global/make/)>)させることができます。  
@@ -104,7 +105,7 @@ contributors = []
 このセクションでは、グループ内で各スタッフがどれくらい活動しているか、その実績を月ごとに確認できます。
 
 1.  左メニューから「**グループ設定**」をクリック
-2.  上部メニュー（またはグループ設定画面内）の「**スタッフ管理**」をクリック
+2.  上部メニューの「**スタッフ管理**」をクリック
 3.  画面下部にある活動実績の表を確認します。
 
 {{<icatch filename="img/staff-activity" msg="スタッフの人事評価としても使えるかも？" alice="question">}}

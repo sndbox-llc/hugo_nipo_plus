@@ -10,6 +10,8 @@ tags = ["テンプレート作成", "カスタムフォーム", "業務報告書
 contributors = []
 +++
 
+{{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}
+
 ## NipoPlusでオリジナルテンプレートを作成しよう！{#template_guide}
 
 NipoPlusは、「**入力フォーム**」と呼ばれる様々なパーツ（部品）を、まるでブロックを組み立てるように組み合わせていくだけで、**あなただけのオリジナルテンプレート**を簡単に作成できるWebアプリです。

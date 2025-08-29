@@ -10,6 +10,8 @@ tags = ["テンプレート"]
 contributors = []
 +++
 
+{{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}
+
 日報テンプレートとは別に、顧客情報を管理するための「顧客テンプレート」も備わっています。  
 日報テンプレートほど自由にカスタムは出来ませんが、項目の表示非表示、項目名の変更、並べ替えといった基本的なカスタマイズは可能です。
 

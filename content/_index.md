@@ -278,6 +278,39 @@ A4サイズ、縦・横の用紙向き、2種類のレイアウトから選択�
 
 <!-- ▲PDF -->
 
+<!-- ▼顧客管理 -->
+<div class="container my-5" id="pdf_output">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">顧客管理＋日報<br>お客様の対応履歴をチーム内で共有</h2>
+
+<div class="col-lg-7">
+<p class="lead">
+
+実はNipoPlus、日報だけじゃないんです。  
+顧客管理機能も最近実装されました。
+
+名前や電話番号といった基本的な情報はもちろんのこと、顧客一人ひとりに対しての対応履歴を日報のように作成できます。  
+顧客の対応履歴を時系列で追えるので、過去にどのような対応をしたのか？これからどのような対応が必要なのか？を同一グループ内のメンバーと共有できます。  
+未来の対応は「予定」としても管理できます。カレンダー機能と連携するのでスケジュール管理もバッチリですね。
+
+顧客対応メモはシンプルなメモでもいいし、なんと日報テンプレートを使って書くことも出来ちゃいます。  
+顧客検索機能も豊富です。名前や電話番号など様々な方法で特定の顧客を瞬時に見つけ出せます。
+
+</p>
+
+{{< link-card title="顧客管理"  description="" href="/docs/manual/customer/input/">}}
+
+</div>
+<div class="col-lg-9">
+
+{{<iTablet filename="customer" msg="お客様の対応履歴もタイムラインで見やすく管理"  alice="ok">}}
+
+</div>
+</div>
+</div>
+
+<!-- ▲顧客管理も -->
+
 <!-- ▼ コスト -->
 <div class="container my-5" id="cost">
 <div class="row align-items-center rounded-3 border shadow-lg">

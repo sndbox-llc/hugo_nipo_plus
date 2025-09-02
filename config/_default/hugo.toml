@@ -1,7 +1,5 @@
 title = "クラウド日報 NipoPlus(ニポプラス)"
-# baseurl = "http://localhost/"
 baseurl = "https://nipo-plus-doc.sndbox.jp/"
-canonifyURLs = false
 disableAliases = false
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
@@ -9,7 +7,6 @@ enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "ja-JP"
-pagerSize = 50
 rssLimit = 50
 summarylength = 70 # 70 (default)
 
@@ -69,12 +66,11 @@ notAlternative = true
   docs = "/docs/:sections[1:]/:slug/"
 
 
-[frontmatter]
-  date = ["date", "publishDate", "lastmod", ":default"]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
-
 [minify.tdewolff.html]
   keepWhitespace = false
+
+[pagination]
+  pagerSize = 50
 
 [related]
   threshold = 80
@@ -96,3 +92,7 @@ notAlternative = true
   hint = "photo"
   quality = 85
   resampleFilter = "Lanczos"
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod", ":default"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]

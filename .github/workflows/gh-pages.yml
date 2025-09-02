@@ -41,13 +41,13 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive
           fetch-depth: 0
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: yarn install --frozen-lockfile # `npm ci`の代わりに`yarn install --frozen-lockfile`を使用
         # run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"

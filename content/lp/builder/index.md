@@ -11,6 +11,9 @@ heroLinks = [
   { label = "スマートフォン・タブレット対応", url = "/tips/mobile-device/" },
   { label = "点検表としても使えます", url = "/lp/checksheet/" }
 ]
+
+heroBg = "img/icatch.webp"
+
 [sitemap]
   priority = 1.0
 +++

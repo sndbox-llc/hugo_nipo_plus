@@ -1,3 +1,22 @@
+
+{{define "lpbread"}}
+  			{{ if site.Params.doks.breadcrumbTrail -}}
+				<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						{{ partial "main/breadcrumb" . -}}
+					{{ with .Params.menuTitle }}
+						<li class="breadcrumb-item active" aria-current="page">{{ . }}</li>
+					{{ else }}
+						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+					{{end}}
+
+					</ol>
+				</nav>
+			{{ end }}
+{{end}}
+
+
 {{ define "main" }}
 <div role="document">
   <div class="content" style="max-width: 2000px;margin-left:auto;margin-right:auto">
@@ -15,8 +34,15 @@
 {{ end }}
 
 {{ define "rootHero" }}
+
   {{ if .Params.heroTitle }}
-  <section class="hero-bg d-flex align-items-center text-center py-5" style="background-image: url('{{ .Params.heroBg | default "/images/bg.webp" }}');">
+    {{ with .Params.heroBg }}
+    {{ $bgPath := printf "/%s%s" ($.File.Dir) . }}
+    <section class="hero-bg d-flex align-items-center text-center py-5" style="background-image: url('{{ $bgPath }}');">
+  {{ else }}
+    <section class="hero-bg d-flex align-items-center text-center py-5" style="background-image: url('/images/bg.webp');">
+  {{ end }}
+
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12">

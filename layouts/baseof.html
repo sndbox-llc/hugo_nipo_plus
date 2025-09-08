@@ -5,6 +5,8 @@
   <body class="{{ delimit (.Scratch.Get "class") " " }}"{{ if eq site.Params.doks.scrollSpy true }} data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0"{{ end }}>
     {{ partial "custom/gtagBody.html" . }}
     {{ partial "header/header" . }}
+    {{ block "lpbread" . }}{{ end }}
+
     {{ block "rootHero" . }}{{ end }}
 
     <div class="wrap container-{{ site.Params.doks.containerBreakpoint | default "lg" }}" role="document">

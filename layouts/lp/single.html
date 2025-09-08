@@ -36,12 +36,13 @@
 {{ define "rootHero" }}
 
   {{ if .Params.heroTitle }}
+  
     {{ with .Params.heroBg }}
-    {{ $bgPath := printf "/%s%s" ($.File.Dir) . }}
-    <section class="hero-bg d-flex align-items-center text-center py-5" style="background-image: url('{{ $bgPath }}');">
-  {{ else }}
-    <section class="hero-bg d-flex align-items-center text-center py-5" style="background-image: url('/images/bg.webp');">
-  {{ end }}
+      {{ $bgPath := printf "/%s%s" ($.File.Dir) . }}
+      <section class="hero-bg d-flex align-items-center text-center py-5" style="background-image: url('{{ $bgPath }}');">
+    {{ else }}
+      <section class="hero-bg d-flex align-items-center text-center py-5" style="background-image: url('/images/bg.webp');">
+    {{ end }}
 
     <div class="container">
       <div class="row justify-content-center">

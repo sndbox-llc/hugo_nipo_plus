@@ -37,7 +37,8 @@ NipoPlus（ニポプラス）なら、そんな零細企業の悩みを解決し
 複数のテンプレートを保存・切り替えて使えるので、日報はもちろん、 **作業報告書・申し送りメモ・[設備点検シート](/lp/checksheet)** など、あらゆる現場の記録に対応。あなたの業務プロセスに完璧にフィットする日報運用を実現します。
 
 </p>
-{{< link-card title="日報テンプレートの作り方" description="" href="/docs/template/">}}
+{{< link-card title="テンプレートの特徴"  href="/lp/template/">}}
+{{< link-card title="テンプレートの作り方"  href="/docs/template/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc" marginLess="true">}}

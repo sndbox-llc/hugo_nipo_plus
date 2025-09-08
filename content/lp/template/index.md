@@ -228,7 +228,7 @@ NipoPlusでは様々な入力フォームがありますが、タブレットや
 スタイラスペンのもう一つの特徴はペンだから直筆サインにも使える点。例えば次の画像では直筆サインを埋め込んでいます。
 
 </p>
-{{< link-card title="スマートフォン・タブレットの最適な利用"  href="/tips/mobile-device/" >}}
+{{< link-card title="スマートフォン・タブレットの最適な利用"  href="/lp/phone/" >}}
 
 </div>
 <div class="col-lg-9">

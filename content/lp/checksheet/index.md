@@ -35,7 +35,7 @@ keywords = [
 
 heroLinks = [
   { label = "入力漏れや手順飛ばしをブロック", url = "/tips/required/" },
-  { label = "スマホ・タブレットなら写真や手描きもOK", url = "/tips/mobile-device/" },
+  { label = "スマホ・タブレットなら写真や手描きもOK", url = "/lp/phone/" },
   { label = "日報アプリとしてもOK", url = "/" }
 ]
 [sitemap]
@@ -216,7 +216,7 @@ NipoPlus（ニポプラス）の**点検アプリ**は、現場のあらゆる**
 
 **入力場所やデバイスにとらわれず、すべての点検データを一元管理**。<br>現場の**点検業務をデジタル化**し、**作業効率とデータ精度を飛躍的に向上**させます。
 
-{{< link-card title="モバイルデバイス対応" description=""  href="/tips/mobile-device/">}}
+{{< link-card title="モバイルデバイス対応" description=""  href="/lp/phone/">}}
 
 </p>
 

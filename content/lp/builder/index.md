@@ -8,7 +8,7 @@ heroTitle = "ブラウザで動くクラウド型の日報管理システム - N
 heroText = "NipoPlusは、建設業をはじめとする様々な業種での日報作成を効率化するために設計された、カスタマイズ可能な日報アプリです。社内独自の日報テンプレートを自分たちで簡単に作れます。現場や出先からスマホ１つで簡単日報作成！写真の添付やPDF出力もできます"
 heroLinks = [
   { label = "データ集計分析も簡単", url = "/tips/analytics/" },
-  { label = "スマートフォン・タブレット対応", url = "/tips/mobile-device/" },
+  { label = "スマートフォン・タブレット対応", url = "/lp/phone/" },
   { label = "点検表としても使えます", url = "/lp/checksheet/" }
 ]
 
@@ -81,7 +81,7 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 <p>PC不要でスマホやタブレットから日報を作成。現場の写真をその場で撮影し、日報に添付して報告。モバイル対応でいつでもどこでも利用可能。</p>
 <div class="mt-auto">
 
-{{< link-card title="モバイル対応" description="コラム記事"  href="/tips/mobile-device/" >}}
+{{< link-card title="モバイル対応" description="コラム記事"  href="/lp/phone/" >}}
 
 </div>
 </div>

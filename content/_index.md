@@ -12,7 +12,7 @@ heroText = "「うちの会社に合う日報システムがない…」と諦�
 heroLinks = [
   { label = "🏭 設備点検シートにも使える", url = "/lp/checksheet/" },
   { label = "💰️ 月額180円/名〜！業界最安値水準", url = "/docs/price/" },
-  { label = "📱 全デバイス対応", url = "/tips/mobile-device/" },
+  { label = "📱 スマホ対応", url = "/lp/phone/" },
 ]
 +++
 
@@ -100,7 +100,7 @@ NipoPlus（ニポプラス）は、お手持ちのスマホ、PC、タブレッ�
 
 </p>
 
-{{< link-card title="写真などスマホの特徴を使った活用術" description="" href="/tips/mobile-device/">}}
+{{< link-card title="写真などスマホの特徴を使った活用術" description="" href="/lp/phone/">}}
 
 </div>
 <div class="col-lg-9">

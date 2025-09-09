@@ -33,7 +33,7 @@ keywords = [
 +++
 
 <!-- ▼ 概要 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="abouts">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">業務にピッタリのテンプレートを自分で作れる</h2>
 
@@ -58,7 +58,7 @@ NipoPlusならオリジナルの日報テンプレートを簡単に作成でき
 <!-- ▲ 概要 -->
 
 <!-- ▼ 入力フォーム -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="multi_form">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">豊富な入力フォームを組み合わせて使いやすい日報テンプレートにカスタムしよう</h2>
 
@@ -91,7 +91,7 @@ NipoPlusならオリジナルの日報テンプレートを簡単に作成でき
 <!-- ▲ 入力フォーム -->
 
 <!-- ▼ 色分け -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="change_color">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">色分けや補足画像で日報入力者の「わからない？」を回避</h2>
 
@@ -127,7 +127,7 @@ NipoPlusではそのような補助機能をとても重視しています。
 <!-- ▲ 色分け -->
 
 <!-- ▼ 入力順序 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="input_order">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">入力順序を制御し「手順飛ばし」をブロック！視認性向上効果もあり</h2>
 
@@ -153,7 +153,7 @@ NipoPlusではそのような補助機能をとても重視しています。
 <!-- ▲ 入力順序 -->
 
 <!-- ▼ 入力必須 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="require_input">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">入力必須を使って「入力漏れ」を先回りブロック</h2>
 
@@ -180,7 +180,7 @@ NipoPlusのテンプレート機能には入力必須機能が備わっており
 <!-- ▲ 入力必須 -->
 
 <!-- ▼ 反復 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="arrayInput">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">行数が決まっていない日報も作れます</h2>
 
@@ -214,7 +214,7 @@ NipoPlusではこの機能を「反復入力」と読んでいます。<br>
 <!-- ▲ 反復 -->
 
 <!-- ▼ 入力順序 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="mobile_devices">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">タブレットやスマホからも入力しやすい日報テンプレートを作れる</h2>
 
@@ -240,7 +240,7 @@ NipoPlusでは様々な入力フォームがありますが、タブレットや
 <!-- ▲ 入力順序 -->
 
 <!-- ▼ 算術 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="auto_calc">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">四則演算を取り入れた日報テンプレートが作れます</h2>
 

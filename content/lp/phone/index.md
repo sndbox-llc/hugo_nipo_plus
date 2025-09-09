@@ -59,7 +59,7 @@ NipoPlusのテンプレート作成を少し工夫することで、スマート
 <!-- ▲ 概要 -->
 
 <!-- ▼ 写真機能 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="photo_report">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">スマートフォンの強みを活かした日報-カメラ</h2>
 
@@ -83,7 +83,7 @@ PCだとSDカードを抜き差しして、ファイルを取り出して・・�
 <!-- ▲ 写真機能 -->
 
 <!-- ▼ 署名 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="signeture">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">スタイラスペンを使って直筆サインを日報に埋め込む</h2>
 
@@ -108,7 +108,7 @@ PCだとSDカードを抜き差しして、ファイルを取り出して・・�
 <!-- ▲ 署名 -->
 
 <!-- ▼ タブレットとスマホ比較（幅がこれは違うので注意！） -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="differ">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">スマホで日報を書いてタブレットで読むことも。その逆もOK</h2>
 
@@ -132,7 +132,7 @@ PCだとSDカードを抜き差しして、ファイルを取り出して・・�
 <!-- ▲ タブレットとスマホ比較（幅がこれは違うので注意！） -->
 
 <!-- ▼ 作業台固定 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="fixed_tablet">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">作業台にスマートフォンやタブレットを固定して検査結果を入力</h2>
 
@@ -155,7 +155,7 @@ PCだとSDカードを抜き差しして、ファイルを取り出して・・�
 <!-- ▲ 作業台固定 -->
 
 <!-- ▼ スマホからPDF生成 -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="make_pdf_report">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">スマホだけで日報作成からPDF出力までできちゃいます</h2>
 

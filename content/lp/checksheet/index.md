@@ -34,7 +34,7 @@ keywords = [
 ]
 
 heroLinks = [
-  { label = "入力漏れや手順飛ばしをブロック", url = "/tips/required/" },
+  { label = "入力漏れや手順飛ばしをブロック", url = "/lp/required/" },
   { label = "スマホ・タブレットなら写真や手描きもOK", url = "/lp/phone/" },
   { label = "日報アプリとしてもOK", url = "/" }
 ]
@@ -43,7 +43,7 @@ heroLinks = [
 +++
 
 <!-- ▼ DX -->
-<div class="container my-5" id="dx_equip_inspection">
+<div class="container my-5" id="doityourself">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">設備点検や巡回点検のテンプレートを自分たちで簡単に作れます</h2>
 
@@ -87,8 +87,8 @@ NipoPlusのチェックシートテンプレートには、**現場の課題を�
 
 例えば…
 
-- [**入力必須チェック**](/tips/required/#setting)で**点検漏れ**やうっかりミスを防止
-- [**入力順序の制御**](/tips/required/#miss_care)で、複雑な**点検手順**も確実に遵守
+- [**入力必須チェック**](/lp/required/#require_input)で**点検漏れ**やうっかりミスを防止
+- [**入力順序の制御**](/lp/required/#miss_care)で、複雑な**点検手順**も確実に遵守
 - [**色分け・文字拡大**](/docs/template/selects/#color)で年配の方にも**見やすい点検表**を実現
 - [**点検箇所の画像表示**](/docs/template/make/#common_setting)で「どこを見ればいいか」が**一目瞭然の点検アプリ**
 
@@ -106,10 +106,10 @@ NipoPlusのチェックシートテンプレートには、**現場の課題を�
 
 <div class="col-lg-8">
 
-✅ [入力必須機能で**点検漏れ**を防止](/tips/required/#setting)  
+✅ [入力必須機能で**点検漏れ**を防止](/lp/required/#require_input)  
 ✅ [**点検箇所**を画像でわかりやすく説明](/docs/template/make/#common_setting)  
 ✅ [色分けで視認性向上](/docs/template/selects/#color)  
-✅ [**入力順序**をロックして手順遵守](/tips/required/#miss_care)
+✅ [**入力順序**をロックして手順遵守](/lp/required/#miss_care)
 
 </div>
 <div class="col-lg-8">

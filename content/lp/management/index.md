@@ -2,9 +2,9 @@
 aliases = ["/tips/management/", "/tips/required/"]
 
 url = "/lp/management/"
-title = "日報をシステム化し増え続ける日報を効率的に管理する"
-menuTitle = "日報をシステム化し増え続ける日報を効率的に管理する"
-description = "増え続ける日報の管理に悩んでいませんか？NipoPlusは、手間のかかるフォルダ分けやファイル名管理から解放し、効率的に日報を整理・検索できるシステムです。スマートな日報管理で業務をスムーズに進めましょう。"
+title = "日報管理の悩みを解決！効率的なシステム化で業務をスムーズに"
+menuTitle = "日報を効率よく管理する"
+description = "【日報管理の課題を解決】NipoPlusは、増え続ける日報の提出・記入漏れを防ぎ、検索・整理を自動化。スマートな日報管理で管理者の負担を軽減します。"
 toc = false
 cta=1
 showPrice = true
@@ -37,12 +37,15 @@ keywords = [
 <!-- ▼ 概要 -->
 <div class="container my-5" id="calendar_usage">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">カレンダー上に日報を表示して日々の日報状況を俯瞰する</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報がチャットツールに埋もれていませんか？<br>全体の提出状況を俯瞰できていますか？</h2>
+
+<p class="lead fw-bold pt-5 fs-4" >▶ カレンダー上に日報をマッピングして日々の日報状況を俯瞰できます</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
-メッセージアプリで日報のやり取りをすると、どうしてもタイムラインに流れていってしまいます。<br>
+チャットツールで日報のやり取りをすると、管理が煩雑になり、見返すのに手間がかかります。<br>
 少人数ならマンパワーで管理できますがそれでも手間や労力が掛かります。<br>
 「日々の日報をカレンダー上に表示する」というアイデアはいかがでしょう？NipoPlusは提出された日報をカレンダー上に表示することで、月別、週別の日報提出状況を俯瞰することができます。<br>
 また、「先週の水曜日の日報を見返したい」といった場合もカレンダーならアクセスが簡単。見たい日のセルにある日報アイコンをクリックするだけで当該日報を瞬時に表示できます。<br>
@@ -62,10 +65,13 @@ keywords = [
 <!-- ▼ 提出状況 -->
 <div class="container my-5" id="report_booking">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報提出状況表を使えば未提出者がすぐわかります。便利な日報管理機能の１つです</h2>
+
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報管理者の悩みとして日報の出し忘れ確認作業は無駄だと思いませんか？ </h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 日報提出状況表を使えば未提出者がすぐわかります。</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 日報をうっかり提出し忘れてしまったり、忙しくて翌日提出するなんてことも日常業務では良くあること。<br>
 気持ちはわかるけど日報を管理する側からしたら、管理が煩雑になって大変ですよね。<br>
@@ -94,10 +100,12 @@ keywords = [
 <!-- ▼ タグ -->
 <div class="container my-5" id="report_tags">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報にタグを付けて効率よく日報管理運営を行う</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">見返したい日報がどこにあるのかわからない！増え続ける日報に翻弄されていませんか？</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 日報にタグを付ければ瞬時に目的の日報を見つけられます。全文検索も対応○</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 印刷済み、検証済み、などのタグを自由に作成し、それらを日報の「タグ」として付与することができます。<br>
 タグには任意の色やアイコンもつけられるので視覚的にも見やすい付箋代わりとして日報管理をサポートします。<br>
@@ -122,10 +130,12 @@ keywords = [
 <!-- ▼ 入力必須 -->
 <div class="container my-5" id="require_input">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の記入漏れも防いで日報の品質自体をグーンとUpさせる</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の記入漏れがあれば指摘する。<br>だけど手間も掛かるし笑顔も消えるよ</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 日報の記入漏れはアプリでブロック！日報の品質自体をグーンとUpさせてチェックの手間も軽減できるよ</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 人間はうっかりミスします。日報においてもそう。本来記入しなければならない項目を空欄で提出してしまい、突っ返された経験はだれしもあることでしょう。<br>
 書き手にとっては追記すれば済みますが、チェックする側にとって記入漏れは「余計な仕事が増える」だけです。<br>
@@ -190,10 +200,12 @@ keywords = [
 <!-- ▼ 入力順序 -->
 <div class="container my-5" id="miss_care">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の入力順序まで厳格に管理したい？可能ですよ</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">点検表などで記入順序通りに書かれているか、仕上がりだけ見ても分からない</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 日報の入力順序まで厳格に管理したい？可能ですよ</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 日報は基本的には上から下に書いていくことが多いですがこれはルールではなくその方が書きやすいからです。<br>
 しかし中には「上から下に書く」あるいは「特定の順番で記入する」ことをルール化（強制化）したいケースもあります。<br>
@@ -215,10 +227,12 @@ keywords = [
 <!-- ▼ 入力順序 -->
 <div class="container my-5" id="input_order">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の保存場所は１箇所。どこに保存した？なんてトラブルともさようなら</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報を共有フォルダに入れましたよ。<br>入ってないよ？どこに保存した？こんなやり取りも今日限り</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 日報の保存場所は１箇所。シンプル・イズ・ベスト</p>
 
+<hr >
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 PCを普段使っていると、「フォルダ」「ファイル」という階層構造をよく使っていると思います。<br>
 細かく分類できるメリットが有る一方で、「どこに保存したっけ？」と、うっかり保存場所を忘れてしまうことも・・・。<br>

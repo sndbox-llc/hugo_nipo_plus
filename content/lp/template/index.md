@@ -35,10 +35,13 @@ keywords = [
 <!-- ▼ 概要 -->
 <div class="container my-5" id="abouts">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">業務にピッタリのテンプレートを自分で作れる</h2>
+
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">自社の業務に沿った雛形の日報アプリが見つからないとお困りですか？</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ NipoPlusなら業務にピッタリのテンプレートを自分で作れる！だからどんな業種にもマッチします</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 一言に「日報」と言っても業務内容によって使用するテンプレートが違います。  
 自社の業務にピッタリ合う日報テンプレートがあれば話はシンプルですが、なかなかそう都合よくは行きません。
@@ -60,10 +63,12 @@ NipoPlusならオリジナルの日報テンプレートを簡単に作成でき
 <!-- ▼ 入力フォーム -->
 <div class="container my-5" id="multi_form">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">豊富な入力フォームを組み合わせて使いやすい日報テンプレートにカスタムしよう</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">ただのテキストだけで無く、より使いやすい日報をお求めですか？</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 豊富な入力フォームを組み合わせて使いやすい日報テンプレートにカスタムできますよ</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 テンプレートは様々な入力フォームをブロックのように並べて作成します。専門知識も不要で簡単に作れます。<br>
 この「入力フォーム」は10種類以上あり、必要に応じてピックアップして行くことで作成します。<br>
@@ -93,10 +98,12 @@ NipoPlusならオリジナルの日報テンプレートを簡単に作成でき
 <!-- ▼ 色分け -->
 <div class="container my-5" id="change_color">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">色分けや補足画像で日報入力者の「わからない？」を回避</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の書き方に同じ質問ばかりされ辟易していませんか？</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 色分けや補足画像で日報入力者の「わからない？」を回避。読み手も書き手もWin-Winに</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 「何を書いたらいいかわからない？」「どこを見たらいいかわからない？」<br>
 現場の悲痛な叫びも、テンプレートの捕捉機能で先回り回避が可能です。<br>
@@ -126,39 +133,15 @@ NipoPlusではそのような補助機能をとても重視しています。
 </div>
 <!-- ▲ 色分け -->
 
-<!-- ▼ 入力順序 -->
-<div class="container my-5" id="input_order">
-<div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">入力順序を制御し「手順飛ばし」をブロック！視認性向上効果もあり</h2>
-
-<div class="col-lg-7">
-<p class="lead">
-
-項目が沢山あるとうっかり「飛ばして」記入してしまうこともあります。<br>
-通常大きな問題にはなりませんが、設備点検などで順序が大切な場合、手順飛ばしが問題になることも？<br>
-
-入力順序の制御を使えば、指定した項目が未入力の場合、入力をできないようにコントロールできます。<br>
-全体に制御することも、一部だけを制御することも可能なので、「手順を守る必要がある」並びの項目のみ設定するといった柔軟なテンプレートの作成も可能です。<br>
-
-副次効果として、まだ入力できない項目はグレースケールになるため、次にどの項目を入力すれば良いのかが視覚的に明瞭になるという利点もあります。
-
-</p>
-</div>
-<div class="col-lg-9">
-{{<icatch filename="img/input-order" msg="決まった順番での入力を矯正できるよ"  alice="ok">}}
-
-</div>
-</div>
-</div>
-<!-- ▲ 入力順序 -->
-
 <!-- ▼ 入力必須 -->
 <div class="container my-5" id="require_input">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">入力必須を使って「入力漏れ」を先回りブロック</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の書き漏らしがあるたびに余計な仕事が増えるとお悩みですか？</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 入力必須を使って「入力漏れ」を先回りブロック。記入漏れを0に</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 記入しなければならない欄を空欄のまま提出してしまった。<br>
 こんな経験は誰しも１度はあることでしょう。うっかりミスは誰しもが遭遇しうる身近な問題の１つです。<br>
@@ -179,13 +162,39 @@ NipoPlusのテンプレート機能には入力必須機能が備わっており
 </div>
 <!-- ▲ 入力必須 -->
 
+<!-- ▼ 入力順序 -->
+<div class="container my-5" id="input_order">
+<div class="row rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">入力順序を制御し「手順飛ばし」をブロック！視認性向上効果もあり</h2>
+
+<div class="col-lg-7">
+<p>
+
+項目が沢山あるとうっかり「飛ばして」記入してしまうこともあります。<br>
+通常大きな問題にはなりませんが、設備点検などで順序が大切な場合、手順飛ばしが問題になることも？<br>
+
+入力順序の制御を使えば、指定した項目が未入力の場合、入力をできないようにコントロールできます。<br>
+全体に制御することも、一部だけを制御することも可能なので、「手順を守る必要がある」並びの項目のみ設定するといった柔軟なテンプレートの作成も可能です。<br>
+
+副次効果として、まだ入力できない項目はグレースケールになるため、次にどの項目を入力すれば良いのかが視覚的に明瞭になるという利点もあります。
+
+</p>
+</div>
+<div class="col-lg-9">
+{{<icatch filename="img/input-order" msg="決まった順番での入力を矯正できるよ"  alice="ok">}}
+
+</div>
+</div>
+</div>
+<!-- ▲ 入力順序 -->
+
 <!-- ▼ 反復 -->
 <div class="container my-5" id="arrayInput">
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">行数が決まっていない日報も作れます</h2>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 １日の業務内容を時間ごとに分けて記述する方式の日報は非常によく目にする形です。
 
@@ -216,10 +225,13 @@ NipoPlusではこの機能を「反復入力」と読んでいます。<br>
 <!-- ▼ 入力順序 -->
 <div class="container my-5" id="mobile_devices">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">タブレットやスマホからも入力しやすい日報テンプレートを作れる</h2>
+
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">現場で入力するからタブレットと相性の良い日報アプリがほしいけどできる？</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ タブレットやスマホからも入力しやすい日報テンプレートを作れます。ポイントは「タッチパネル式」</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 WordやExcelを使った日報テンプレートは、どうしてもモバイル機器との相性がよくありません。見にくいし、入力もしづらいです。<br>
 NipoPlusでは様々な入力フォームがありますが、タブレットやスマートフォンなど、タッチパネルからの操作がしやすい入力フォームも多数存在します。<br>
@@ -242,10 +254,13 @@ NipoPlusでは様々な入力フォームがありますが、タブレットや
 <!-- ▼ 算術 -->
 <div class="container my-5" id="auto_calc">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">四則演算を取り入れた日報テンプレートが作れます</h2>
+
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報のデータから「率」を手動で計算するのが面倒です。</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 四則演算を取り入れた日報テンプレートが作れます。不良率や解約率など何でもOK</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 例えば生産数と不良数を入力したら「不良率」を計算することができます。<br>
 単純な四則演算であれば人の手でやる必要すらありません。NipoPlusの算術フォームを使って計算式を設定しておけば、入力と同時に自動で計算結果が表示されます。<br>
@@ -268,10 +283,13 @@ NipoPlusでは様々な入力フォームがありますが、タブレットや
 <!-- ▼ 動的変化 -->
 <div class="container my-5" id="dynamic">
 <div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">プログラムっぽい入力フォームもつくれます</h2>
+
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">安価で動きのある日報テンプレートって無理？</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ プログラムっぽい入力フォームもつくれます</p>
+<hr>
 
 <div class="col-lg-7">
-<p class="lead">
+<p>
 
 地域に「栃木」が選ばれたら、支店は賢く、その地域にある支店だけをリストアップできたら便利です。<br>
 Excelなどでも少し工夫すれば作れますが、NipoPlusでもこのようなことが実装できちゃいます。<br>

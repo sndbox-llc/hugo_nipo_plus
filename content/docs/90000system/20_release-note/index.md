@@ -33,6 +33,12 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoLogo 30>}} 2025/9/12 v10.1.3{#legacy10_1_3}
+
+- 主にAndroid/iOS向けの内部的プログラムの更新がなされました
+- Androidでアプリタイトルが Quasar Appになっている問題を修正しました
+- Androidの一部の端末で上部ボタンがデザイン的に隠れてしまう問題を修正しました
+
 #### {{<nipoPlusLogo 30>}} 2025/9/12 v1.72.0{#vp1_72_0}
 
 - ダークモード🌃をサポートしました。あなたの目を優しく守ります👀

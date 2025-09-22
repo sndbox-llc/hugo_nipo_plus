@@ -1,51 +1,20 @@
 +++
-title = "【初期費用ゼロ】零細企業の悩みを解決！自由設計のクラウド日報アプリ"
-menuTitle = "【初期費用ゼロ】零細企業の悩みを解決！自由設計のクラウド日報アプリ"
-description = "初期費用・違約金ゼロ！月額180円〜のNipoPlus。零細企業でも簡単に自社専用日報が作れるノーコードのクラウド日報アプリ。スマホ・PCで入力・集計、データ活用まで。定着率の高い日報運用で業務を効率化し、DXを推進します。"
+title = "1名180円5名〜のクラウド日報アプリ。テンプレートを自在に設計。無料プラン有"
+menuTitle = "日報アプリ"
+description = "小規模な事業者様にも無理の無い低コスト。建設業・製造業・飲食業・販売業など幅広い規模、業種でご利用いただいております。スマホ・PC対応。100名を超える事業所様のご利用実績もあり。"
 date = "2023-04-01"
 showPrice = true
-heroTitle = "カスタム可能な日報アプリ\n安価でオリジナル日報を作れる！クラウド日報 NipoPlus"
+heroTitle = "カスタム可能な日報アプリ\nクラウド日報 NipoPlus"
 heroBg = "/images/bg.webp"
 cta = 0
-heroSubTitle = "チャット日報の“二度手間”も、エクセル転記の“ミス”ももう不要。"
-heroText = "「うちの会社に合う日報システムがない…」と諦めていた零細企業のあなたへ。NipoPlusなら、自社の業務に合わせた日報テンプレートを自由に作成。スマホ・PCから簡単入力、データは自動で集計・出力。月額180円/名〜で、今日から効率的な日報運用とDX化を実現します。"
+heroSubTitle = "10年探し求めていた日報アプリかも？無料でも使える"
+heroText = "「うちの会社に合う日報システムがない…」と諦めていませんか？自社の業務に合わせた日報テンプレートを自由に作成。スマホ・PCから簡単入力、データは自動で集計しCSV出力できます。<br>10年探していたアプリとお褒め頂いたこともある、安価で最強の日報アプリです"
 heroLinks = [
   { label = "🏭 設備点検シートにも使える", url = "/lp/checksheet/" },
   { label = "💰️ 月額180円/名〜！業界最安値水準", url = "/docs/price/" },
   { label = "📱 スマホ対応", url = "/lp/phone/" },
 ]
 +++
-
-<!-- ▼自作できる -->
-<div class="container my-5" id="nocode-custom-daily-report">
-<div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">「うちの会社には合わない…」もう悩まない！<br>誰でも”ノーコード”で自社専用の日報を自由自在に作成</h2>
-
-<div class="col-lg-7">
-<p class="lead">
-
-「業務内容が特殊だから、市販の日報システムでは使いづらい…」「独自のフォーマットで運用したいけど、開発コストはかけられない…」  
-NipoPlus（ニポプラス）なら、そんな零細企業の悩みを解決します。
-
-- [文字入力](/docs/template/text/)
-- [数字入力](/docs/template/digital/#commonNumber)
-- [画像入力](/docs/template/binarys/#picture)
-
-など、必要な項目をドラッグ＆ドロップで組み合わせるだけで、現場にフィットする **“自社専用のオリジナル日報テンプレート”** が誰でも簡単に作成可能。  
-もう記入漏れやフォーマットの不統一に悩むことはありません。
-
-複数のテンプレートを保存・切り替えて使えるので、日報はもちろん、 **作業報告書・申し送りメモ・[設備点検シート](/lp/checksheet)** など、あらゆる現場の記録に対応。あなたの業務プロセスに完璧にフィットする日報運用を実現します。
-
-</p>
-{{< link-card title="テンプレートの特徴"  href="/lp/template/">}}
-{{< link-card title="テンプレートの作り方"  href="/docs/template/">}}
-</div>
-<div class="col-lg-9">
-{{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc" marginLess="true">}}
-</div>
-</div>
-</div>
-<!-- ▲自作できる -->
 
 <!-- ▼年輩の方もOK -->
 <div class="container my-5" id="easy_for_seniors">
@@ -55,23 +24,22 @@ NipoPlus（ニポプラス）なら、そんな零細企業の悩みを解決し
 <div class="col-lg-7">
 <p class="lead">
 
-「新しいツールは、現場のスタッフが使いこなせるか不安…」「日報が定着しないと意味がない…」
-
-NipoPlus（ニポプラス）は、そんな管理者の悩みに応えます。
-日々の **日報作成はわずか2ステップ** で完了。
+NipoPlusは誰でも使えることを前提に設計開発されました。
+日々の **日報作成はわずか2ステップ** です
 
 1. 使うテンプレートを選ぶ
 2. テンプレートに沿って記入し提出ボタンを押す
 
-これだけなので、ITツールに不慣れな方や、ベテランの現場スタッフでも**迷わず直感的に**使えます。
+本当にこれだけです。ITに不慣れな方や、新人でも迷わず直感的に使えます。
 
-[提出先](/docs/setup/staff-local/dist/)はあらかじめ設定済み、文字サイズも調整可能で目に優しく、日々の操作負担を徹底的に軽減。  
-**初期設定は管理者様が少し頑張るだけ。**
-一度仕組みを整えれば、現場のスタッフはストレスなく、 **今日からすぐに日報作成を始められます。**定着率の高い日報運用をNipoPlusが実現します。
+<h3>初期設定だけは頑張ろう</h3>
+
+日常業務はシンプルですが、スタッフの登録や、日報テンプレートの作成など、どうしても初期設定は必要です。最初だけは頑張りましょう。
+「楽をするための努力を惜しまない気質」の方が初期設定されると相性抜群です。<br>
 
 </p>
 
-{{< link-card title="テンプレートを選んで書くだけの簡単日報"  description="" href="/docs/manual/write-report/write/">}}
+{{< link-card title="初期設定"  description="" href="/docs/setup/quickstart/">}}
 
 </div>
 <div class="col-lg-9">
@@ -79,24 +47,85 @@ NipoPlus（ニポプラス）は、そんな管理者の悩みに応えます。
 {{<icatch filename="large" msg="文字も大きくできて見やすいよ"  alice="tablet" marginLess="true">}}
 
 </div>
+
 </div>
 </div>
 <!-- ▲年輩の方もOK -->
 
+<!-- ▼自作できる -->
+<div class="container my-5" id="nocode-custom-daily-report">
+<div class="row  rounded-3 border shadow-lg">
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">自社の業務報告に最適化された日報テンプレートの使えるアプリが無い！とお困りですか？</h2>
+<p class="lead fw-bold pt-5 fs-4" >▶ 自分たちでテンプレートを作れるからどんなニッチな業務にもピッタリ収まります</p>
+<hr>
+<div class="col-lg-7">
+<p class="lead">
+
+日報ってたとえ同業種であっても全くテンプレートの形が違うなんてことも良くあります。<br>
+独自のテンプレートはWordで作れますが、いざ日報をシステム化しよう！となったときに、困りますよね。
+オーダーメイドのシステムだと高額だし、市販品では役に立たないし・・・
+
+<h3>入力フォームを自分たちで作っちゃえ</h3>
+
+自社に合う日報テンプレートが無いなら作ればいいんです。オーダーメイドは高いですが、セルフメイクならコストも抑えられますよ。
+専門知識不要でレスポンシブに動作する日報テンプレートを簡単に作れます。
+
+作り方次第で日報に限らず点検表や旅費交通費申請書なんかも作れちゃいます
+
+</p>
+
+{{< card-grid >}}
+{{< link-card title="テンプレートの特徴"  href="/lp/template/">}}
+{{< link-card title="テンプレートの作り方"  href="/docs/template/">}}
+{{< /card-grid >}}
+
+</div>
+<div class="col-lg-9">
+{{<icatch filename="make-template" msg="入力フォームを並べるだけでテンプレートが作れるよ"  alice="pc" marginLess="true">}}
+</div>
+
+<h3>入力フォームの一例</h3>
+
+いろいろな入力フォームがあるのでお好みにカスタムしてください。一部だけご紹介します
+
+<dl class="basic">
+<dt><a href="/docs/template/text/">文字入力</a></dt>
+<dd>業務内容や引き継ぎ・備考といった一般的な文字入力ができます</dd>
+<dt><a href="/docs/template/digital/#commonNumber">数字入力</a></dt>
+<dd>売上高・訪問数・移動距離など、数値として入力したいデータに最適。集計にも対応しています</dd>
+<dt><a href="/docs/template/binarys/#picture">画像入力</a></dt>
+<dd>現地の写真や作業前後の写真など、日報に画像を添付できます。PDF出力時にもしっかり埋め込まれます</dd>
+</dl>
+
+</div>
+
+</div>
+<!-- ▲自作できる -->
+
 <!-- ▼スマホ対応 -->
 <div class="container my-5" id="browser_app">
 <div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">場所も時間も選ばない！<br>スマホ・PC・タブレットで、どこからでも日報入力・共有</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">スマホ・PC・タブレット完全対応で、どこからでも日報作成、閲覧ができます</h2>
 
 <div class="col-lg-7">
 <p class="lead">
 
-営業先の移動中、製造現場の片隅、出張先のホテルからでも。  
-NipoPlus（ニポプラス）は、お手持ちのスマホ、PC、タブレットから **いつでもどこでも日報の入力・確認が可能** です。  
-[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)アプリにも対応しており、  
-写真の添付や手書き入力など、スマホならではの使い方も可能です。  
-入力された日報はリアルタイムでクラウドに保存されるため、オフィスに戻ってからの **二度手間や転記作業は一切不要** です。
-情報共有が迅速になり、業務効率が格段にアップします。
+NipoPlusはレスポンシブデザインに対応した日報アプリです。<br>
+PCのように画面が広い環境と・スマホのように画面が縦長の環境、それぞれに合わせて自動で日報のデザインが変わるので、どこからでもストレスなく日報の閲覧や作成が可能です。
+
+<h3>実はスマホ・タブレットと日報は相性抜群です</h3>
+
+スマートフォンにはカメラ、タッチパネルが搭載されています。実はこの２つが日報作成にとても便利。
+現場写真をスマホで撮ってそのまま日報に添付したり、スタイラスペンで手書きの図やメモを日報に添付したり。
+PCだと写真取り込むのもひと手間必要でしたが、スマホはこれらをシームレスに行うことができます。
+[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)アプリもご用意しております。
+
+<a href="/docs/system/mobile-install/#appStore" class="d-inline-block mx-2">
+<img loading="lazy" src="/images/apple.svg" width="150" height="auto" alt="iOS App Store" class="img-fluid">
+</a>
+<a href="/docs/system/mobile-install/#googlePlay" class="d-inline-block mx-2">
+<img loading="lazy" src="/images/google-play-badge.png" width="180" height="auto" alt="Android Google Play Store" class="img-fluid">
+</a>
 
 </p>
 

@@ -1,0 +1,15 @@
++++
+url = "/reverse-lookup/query/123/"
+title = "37名での利用を検討しております。お支払いは「33名分（＝37名－4名）」になるのでしょうか。"
+menuTitle = ""
+description = ""
+toc = false
+isDictionaly = true
+weight = 123
+date = "2025-09-22"
+tags = ["FAQ"]
+contributors = []
++++
+
+この場合は37名全員分となります。
+有料プランは人数制限の他にも、コメント機能や集計、一括PDF出力の緩和など、様々な付加価値を全員分に付与することになるため、３７名でお申し込みをお願いします。

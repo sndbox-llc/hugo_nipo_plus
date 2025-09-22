@@ -1,6 +1,7 @@
 {{ $moji := .Get "filename" }}
 {{ $aliceIcon := .Get "alice" | default "default"}}
-{{ $msg := .Get "msg" | default "zzz... zzz..."}}
+{{ $msg := .Get "msg" }}
+
 {{ $imgTablet := .Page.Resources.GetMatch (printf "%s_tablet*" ($moji)) }}
 {{ $id := partial "make-random-md5.hugo" }}
 {{ $uniqueID := (printf "character-container-%s" $moji) }}
@@ -19,6 +20,7 @@
       <img src="{{ $imgTablet.RelPermalink }}" alt="{{ $msg }}" class="uedaTabletPicture" loading="lazy"  width="2000" height="1390" >
     </picture>
   </div>
+  {{ if ne $msg "" }}
   <div class="uedaCharactorContainer" id="{{ $uniqueID }}">
     <div class="ueda_character">
       <img src='/images/alice/{{$aliceIcon}}.png' alt="キャラクター" loading="lazy" width="120" height="120">
@@ -28,6 +30,8 @@
       <button class="btn btn-primary close-btn" onclick="closeBubble('{{ $uniqueID }}')">✗</button>
     </div>
   </div>
+  {{ end }}
+
 </div>
 
 {{/* --- 追加ここから --- */}}

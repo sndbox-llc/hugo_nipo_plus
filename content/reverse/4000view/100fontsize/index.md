@@ -6,7 +6,7 @@ menuTitle = "表示される文字サイズを変更したい"
 description = "必要に応じて12〜24の間で文字サイズを調整できます"
 isDictionaly = true
 toc = false
-weight = 4100
+weight = 100
 date = "2024-10-03"
 +++
 

@@ -7,7 +7,7 @@ description = "グループ内の全スタッフに告知したい場合はバ�
 isDictionaly = true
 toc = false
 date = "2024-10-15"
-weight = 4130
+weight = 130
 +++
 
 ## バナーを使えばグループ内の全スタッフに目立つ形で必要事項を通達できます{#use_banner}

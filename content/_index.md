@@ -139,80 +139,21 @@ PCだと写真取り込むのもひと手間必要でしたが、スマホはこ
 </div>
 <!-- ▲スマホ対応 -->
 
-<!-- ▼ 動的変化 -->
-<div class="container my-5" id="dynamic">
-<div class="row  rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">まるで魔法！入力に合わせて“自動で変化する”賢い日報をノーコードで実現。</h2>
-
-<div class="col-lg-7">
-<p class="lead">
-
-「日報の選択肢が多すぎて、入力ミスが多い…」「現場の状況によって、記入項目を変えたい」  
-NipoPlus（ニポプラス）なら、プログラミング知識がなくても、そんな悩みを解決します。
-例えば、<strong>「地域」で「栃木」を選ぶと、次の「支店」の選択肢が自動で「宇都宮・足利・鹿沼」だけに絞られる</strong>など、前の回答に応じて次の項目が動的に切り替わるフォームを簡単に作成できます。
-これにより、<strong>関係ない選択肢を非表示にして入力ミスを大幅に削減し、日報の記入時間を短縮。</strong>さらに、集計時のデータもより正確になります。
-
-通常、専門アプリでしか実現できないような高度な機能を、NipoPlusでは直感的な操作で3層、4層とつなげて応用することも可能です。
-御社独自の業務フローに完璧にフィットする、 **“生きている”日報**をぜひご体験ください。
-
-以下はサンプルイメージです。
-
-<div class="container my-4" style="border:1px solid black">
-<div class="mb-3">
-<p class="fw-bold">地域：</p>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="region" id="regionTochigi" value="tochigi">
-<label class="form-check-label" for="regionTochigi">栃木</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="region" id="regionGunma" value="gunma">
-<label class="form-check-label" for="regionGunma">群馬</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="radio" name="region" id="regionIbaraki" value="ibaraki">
-<label class="form-check-label" for="regionIbaraki">茨城</label>
-</div>
-</div>
-<div class="mb-3">
-<p class="fw-bold">支店：</p>
-<div id="cities">
-<div class="form-check">
-<input class="form-check-input" type="radio" name="city" id="defaultCity" value="">
-<label class="form-check-label" for="defaultCity">地域を選択して下さい</label>
-</div>
-</div>
-</div>
-</div>
-
-</p>
-{{< link-card title="ノーコードで動きのある日報を作る"  description=""  href="/docs/template/selects/#dinamic_switch_select">}}
-
-</div>
-<div class="col-lg-9">
-
-{{<icatch filename="dinamic-selection" msg="プログラマが居なくても自分で作れちゃうよ" alice="pc"  marginLess="true">}}
-
-</div>
-</div>
-</div>
-
-<!-- ▲ 動的変化 -->
-
 <!-- ▼ 提出簿 -->
 <div class="container my-5" id="submission_status">
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報の「出し忘れ」「未提出」もう見逃さない。<br>管理者も安心！提出状況を一覧で瞬時に把握。</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">日報管理者の強い味方。未提出者発見機能です</h2>
 
 <div class="col-lg-7">
 <p class="lead">
 
-「あの人の日報、まだかな？」「誰が出してないんだっけ…？」<br>
-NipoPlus（にぽぷらす）の<strong>提出簿（日報状況一覧）</strong>は、そんな管理者の悩みを解消します。
-まるで出席簿のように、<strong>誰がいつ、何枚日報を提出したかが一目で把握</strong>できるため、日報の回収・確認にかかる手間を大幅に削減します。  
-未提出者がいればすぐに気づき<strong>迅速に提出を促すことが可能</strong>に。
+「一人日報が足りないぞ・・・？」そんなときため息をついて犯人探しをしているあなたに朗報です。<br>
+提出状況を一覧で確認できる機能があるので、誰が未提出かすぐわかるんです。イメージとしては学生時代に先生が付けていた「出席簿」あれです。<br>
 
-また、同じ日に複数枚提出された場合は件数で表示されるため、重複報告や、多すぎる報告を**簡単にチェック**できます。
-さらに、**シフト管理機能と連携**すれば、「休みで未提出」なのか、「ただの出し忘れ」なのかが判別でき、より的確な状況判断をサポートします。
+<h3>出席簿ならぬ日報提出簿</h3>
+
+見た目も出席簿そのものですが、調査する対象は出席ではなく日報です。横軸にスタッフ、縦軸に日付の格子状の表。もうこれだけでおわかりですよね。<br>
+シフト管理機能というものもあるんですが、それと組み合わせれば、休みの記号が提出簿に表示されるので、提出忘れなのか休みなのかの判別も簡単です。シフト制の職場でも安心して使えますよ。
 
 </p>
 
@@ -233,18 +174,26 @@ NipoPlus（にぽぷらす）の<strong>提出簿（日報状況一覧）</stron
 <div class="container my-5" id="csv_output">
 
 <div class="row rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">チャット日報のデータ、エクセルに転記してませんか？Nipo Plusなら転記不要です</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">チャット日報のデータ、エクセルに転記してませんか？</h2>
+
+<p class="lead fw-bold pt-5 fs-4" >▶ Nipo Plusなら転記不要です</p>
 
 <div class="col-lg-7">
 <p class="lead">
 
-チャットアプリでの日報は手軽ですが、「後からデータを探すのが大変」「集計のために手動でExcelに転記している」といった **“二度手間”や“転記ミス”の課題** に直面していませんか？
-NipoPlus（にぽぷらす）は、そんな「その場限りの報告」を「 **未来を拓くデータ資産** 」へと変革します。
+チャットアプリの日報は手軽ですが「集計のために手動でExcelに転記している」なんてこと、まさかしていませんよね？え？しているのですか？流石にそれは、今すぐ改善しましょう
 
-**あらかじめ設計したテンプレートの項目に従って入力**するだけで、「売上」「訪問件数」「作業時間」などの数値を **自動で集計し、見やすいグラフ（折れ線、棒、円）で可視化**。
-これにより、日々の業務傾向を瞬時に把握し、 **タイムリーな経営判断や業務改善**に繋げることが可能です。
-さらに、 **ワンクリックでCSV形式に出力**できるため、使い慣れたExcelでより詳細な分析を行うことも簡単です。
-NipoPlusで、日報をただの記録で終わらせず、 **御社の成長に貢献する活きたデータ**として最大限に活用しましょう。
+<h3>あなたの転記、はっきり言って無駄です</h3>
+
+それ本当に人間がやる仕事ですか？今一度考えてみましょう。
+人間がやるとデメリットばかりです。
+
+- 転記ミス
+- 転記漏れ
+- 時間と労力の無駄
+
+NipoPlus（にぽぷらす）は、一瞬で数百枚の日報を1枚のエクセルシートに転記（正確にはCSV出力）できます。転記ミスも転記漏れも有りません。<br>
+おわかりですよね？単純な作業は機械のほうが圧倒的に効率いいんです。
 
 </p>
 
@@ -344,19 +293,24 @@ A4サイズ、縦・横の用紙向き、2種類のレイアウトから選択�
 <!-- ▼ コスト -->
 <div class="container my-5" id="cost">
 <div class="row align-items-center rounded-3 border shadow-lg">
-<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">初期費用ゼロ！１名180円！圧倒的低コスト-無料プラン有</h2>
+<h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">1名180円最強コスパでご提供中！無料プラン有</h2>
 
 <div class="col-lg-7">
 <p class="lead">
 
 新しいシステム導入で、最も気になるのが「費用」ではないでしょうか？  
 NipoPlus（にぽぷらす）は、**月額1名あたり180円という圧倒的な低価格**を実現。
-**初期費用や解約時の違約金も一切かかりません**ので、安心してスタートいただけます。  
-（無料プランもご用意しております。）
+**初期費用や解約時の違約金も一切かかりません**ので、安心してスタートいただけます。
 
-業界最安値水準を目指しつつ、必要な機能はしっかりカバー。
-さらに、ユニークなのは**有料プランをやめても過去データが残り続ける**こと。これにより、特定の繁忙期だけ利用したり、プロジェクト期間中だけ人数を増やしたりと、 **御社のビジネスサイクルに合わせた柔軟な運用が可能**です。
-無駄なコストを徹底的に削減し、高機能な日報システムを手軽に導入したい零細企業様に最適なプランをご提供します。
+<h3>無料プランもあり</h3>
+
+はい、ちゃんと用意しています。一部の機能制限はありますが本当に無料でもお使いいただけます。
+有料プランを解約したり、試用期間がすぎるとこのプランに切り替わります。
+
+<h3>無料プランと有料プランを行き来する</h3>
+
+特定の期間だけ使いたいお客様にはメリットです。繁忙期だけ日報アプリを使いたい場合、新人研修などで一時的に使いたい方、実際にそういったお客様もいます。<br>
+必要な時期だけ有料プランにして、他の月は無料プランでコストを節約。そんな運用もできちゃいます。とても柔軟なんです
 
 </p>
 
@@ -392,49 +346,3 @@ NipoPlus（にぽぷらす）は、**月額1名あたり180円という圧倒的
 ※お客様の声を書いてくれる方大募集！協力してくれる方はぜひ[お問い合わせ](/others/inquery/)からコンタクトしてください（謝礼はできませんがそれでも良い方）
 
 {{<nextArrow>}}
-
-<script>
-    // DOMの読み込み完了後に処理を実行
-    document.addEventListener('DOMContentLoaded', function() {
-      // 各地域に対応する主要な地名のマッピング
-      var regionCities = {
-        tochigi: ['宇都宮', '鹿沼', '足利'],
-        gunma: ['前橋', '高崎', '伊勢崎'],
-        ibaraki: ['水戸', '日立', '土浦']
-      };
-
-      // 地域ラジオボタンにイベントリスナーを追加
-      var regionRadios = document.getElementsByName('region');
-      for (var i = 0; i < regionRadios.length; i++) {
-        regionRadios[i].addEventListener('change', function() {
-          // 選択された地域の値を取得
-          var selectedRegion = this.value;
-          // 対応する主要な地名のリストを取得
-          var cities = regionCities[selectedRegion];
-
-          // radio2側のコンテナを取得し、初期表示をクリア
-          var citiesContainer = document.getElementById('cities');
-          citiesContainer.innerHTML = '';
-
-          // 対応する地名が存在する場合、ラジオボタンを生成
-          if (cities && cities.length > 0) {
-            for (var j = 0; j < cities.length; j++) {
-              // ラベル要素を生成
-              var label = document.createElement('label');
-              // ラジオボタンを生成
-              var radio = document.createElement('input');
-              radio.type = 'radio';
-              radio.name = 'city';
-              radio.value = cities[j];
-
-              // ラジオボタンとテキストをラベルに追加
-              label.appendChild(radio);
-              label.appendChild(document.createTextNode(' ' + cities[j]));
-              // コンテナに追加
-              citiesContainer.appendChild(label);
-            }
-          }
-        });
-      }
-    });
-  </script>

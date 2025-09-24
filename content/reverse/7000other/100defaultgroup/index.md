@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/other/defaultgroup/"
-
 title = "起動時のグループを固定したい"
 menuTitle = "起動時のグループを固定したい"
 description = "起動時に最初にセットされるグループを指定できます"
@@ -8,7 +7,7 @@ toc = false
 isDictionaly = true
 weight = 100
 date = "2024-10-03"
-tags = ["アカウント設定"]
+tags = ["個人設定"]
 contributors = []
 +++
 

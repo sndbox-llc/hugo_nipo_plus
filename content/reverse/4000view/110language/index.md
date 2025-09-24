@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/view/language/"
-
 title = "日本語以外の言語に切り替えたい"
 menuTitle = "日本語以外の言語に切り替えたい"
 description = "日本語・英語に対応しています。"
@@ -8,7 +7,7 @@ toc = false
 isDictionaly = true
 weight = 110
 date = "2024-10-03"
-tags = ["アカウント設定"]
+tags = ["個人設定"]
 contributors = []
 +++
 

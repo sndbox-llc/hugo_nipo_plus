@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/account/rename/"
-
 title = "自分の名前を「管理者」から変更したいとき"
 menuTitle = "自分の名前を「管理者」から変更したいとき"
 description = ""
@@ -8,7 +7,7 @@ isDictionaly = true
 toc = false
 weight = 3160
 date = "2024-12-27"
-tags = ["アカウント設定"]
+tags = ["アカウント設定", "管理者権限"]
 contributors = []
 +++
 

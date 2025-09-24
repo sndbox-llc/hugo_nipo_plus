@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/view/scrollbottom/"
-
 title = "レポート作成画面の一番下にスクロールしたい"
 menuTitle = "レポート作成画面の一番下にスクロールしたい"
 description = "日報作成時にページ下部へスクロールするボタンを配置します"
@@ -8,7 +7,7 @@ isDictionaly = true
 toc = false
 weight = 210
 date = "2024-10-03"
-tags = ["アカウント設定"]
+tags = ["個人設定"]
 contributors = []
 +++
 

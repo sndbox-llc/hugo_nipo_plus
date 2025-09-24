@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/account/disable/"
-
 title = "スタッフのアカウントを無効にしたい"
 menuTitle = "退職したスタッフのアカウントを無効にしたい"
 description = "退職や休職で使用しなくなったスタッフのアカウントは無効化することで権限を安全に剥奪できます。"
@@ -8,7 +7,7 @@ isDictionaly = true
 toc = false
 weight = 3130
 date = "2024-12-05"
-tags = ["アカウント設定"]
+tags = ["アカウント設定", "管理者権限"]
 contributors = []
 +++
 

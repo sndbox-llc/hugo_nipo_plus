@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/account/editpass/"
-
 title = "スタッフのパスワードを管理者権限で変更したい"
 menuTitle = "スタッフのパスワードを管理者権限で変更したい"
 description = "スタッフのパスワードは管理者権限で強制的に変更することができます。"
@@ -8,7 +7,7 @@ isDictionaly = true
 toc = false
 weight = 3140
 date = "2024-12-05"
-tags = ["アカウント設定"]
+tags = ["アカウント設定", "管理者権限"]
 contributors = []
 +++
 

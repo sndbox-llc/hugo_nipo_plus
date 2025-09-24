@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/account/already-exists/"
-
 title = "重複したメールアドレスの問題を解決"
 menuTitle = "「すでに使用済みのメールアドレスです」と表示される"
 description = "スタッフのアカウントを新規に作成しようとしたとき、すでに使用済みのメールアドレスと表示されて作成できない場合の対処法について説明します"
@@ -8,7 +7,7 @@ isDictionaly = true
 toc = false
 weight = 3150
 date = "2024-12-27"
-tags = ["アカウント設定"]
+tags = ["アカウント作成", "トラブルシューティング"]
 contributors = []
 +++
 

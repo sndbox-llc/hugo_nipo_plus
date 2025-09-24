@@ -58,9 +58,9 @@ contributors = []
 
 {{< callout context="note" title="選択されたテンプレートだけが、そのスタッフの日報作成画面に表示されます" icon="outline/info-circle" />}}
 
-この設定により、該当スタッフの[レポート作成時](/docs/manual/write-report/write/#select_template)には、ここで選ばれたテンプレートだけが一覧に表示されるようになります。
+この設定により、該当スタッフの[日報作成時](/docs/manual/write-report/write/#select_template)には、ここで選ばれたテンプレートだけが一覧に表示されるようになります。
 
-## 制限はレポート作成時にのみ適用されます {#info}
+## 制限は日報作成時にのみ適用されます {#info}
 
-「利用可能なテンプレートの制限」機能は、**レポート作成時**にスタッフが選択できるテンプレートを制御するためのものです。
-それ以外の操作、例えば[レポートの集計](/docs/manual/analytics/_about/)や、制限されたテンプレートで既に作成された[過去のレポートを閲覧する](/docs/manual/read-report/state/)ことについては、この制限は適用されません。
+「利用可能なテンプレートの制限」機能は、**日報作成時**にスタッフが選択できるテンプレートを制御するためのものです。
+それ以外の操作、例えば[日報の集計](/docs/manual/analytics/_about/)や、制限されたテンプレートで既に作成された[過去の日報を閲覧する](/docs/manual/read-report/state/)ことについては、この制限は適用されません。

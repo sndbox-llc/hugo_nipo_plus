@@ -22,9 +22,9 @@ CSVファイルの用途に合わせて出力形式をカスタマイズでき�
 CSV一括出力機能は、スマートフォンアプリ版（<a href="/docs/system/mobile-install/#googlePlay">Android</a> / <a href="/docs/system/mobile-install/#appStore">iOS</a>版）ではご利用いただけません。<a href="/docs/system/mobile-install/#web">Web版NipoPlus</a>をご利用ください。
 {{< /callout >}}
 
-## 1ヶ月分のレポート（日報・点検記録）をCSV出力する - 大量データの分析と保管に最適{#monthly}
+## 1ヶ月分の日報（日報・点検記録）をCSV出力する - 大量データの分析と保管に最適{#monthly}
 
-NipoPlusの「CSV一括出力」機能は、1件のレポートを個別にCSV出力する（これは<a href="/docs/manual/read-report/state/#csv_export">レポート詳細画面</a>から可能です）だけでなく、**1ヶ月や2週間といった指定した期間内の日報、チェックシート、点検シートといった大量のレポートデータを、1枚のCSVファイルにまとめて出力できる**機能です。
+NipoPlusの「CSV一括出力」機能は、1件の日報を個別にCSV出力する（これは<a href="/docs/manual/read-report/state/#csv_export">日報詳細画面</a>から可能です）だけでなく、**1ヶ月や2週間といった指定した期間内の日報、チェックシート、点検シートといった大量の日報データを、1枚のCSVファイルにまとめて出力できる**機能です。
 
 これにより、以下のような様々なメリットが得られます。
 

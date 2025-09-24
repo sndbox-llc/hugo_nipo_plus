@@ -3,7 +3,7 @@ url = "/docs/setup/staff-local/_about/"
 aliases = ["/docs/manual/initial-setting/staff-local/_about/"]
 title = "グループ内のスタッフ管理"
 menuTitle = "👤グループ内のスタッフ管理"
-description = "NipoPlusのグループ内でスタッフの役割を詳細に設定する方法を解説します。レポートの提出先固定、使用可能テンプレートの制限など、チームごとの柔軟な運用を可能にする設定について学びましょう。組織全体のスタッフ管理との違いも明確に説明します。"
+description = "NipoPlusのグループ内でスタッフの役割を詳細に設定する方法を解説します。日報の提出先固定、使用可能テンプレートの制限など、チームごとの柔軟な運用を可能にする設定について学びましょう。組織全体のスタッフ管理との違いも明確に説明します。"
 toc = true
 weight = 10601
 tags = ["スタッフ管理", "編集者権限"]
@@ -41,9 +41,9 @@ contributors = []
 <dd>
     本ページで解説します。
     <ul>
-        <li><a href="/docs/setup/staff-local/dist/">レポートの提出先を固定</a></li>
+        <li><a href="/docs/setup/staff-local/dist/">日報の提出先を固定</a></li>
         <li><a href="/docs/setup/staff-local/template/">使用可能なテンプレートを制限</a></li>
-        <li>グループ内の全てのレポート閲覧権限（重役）</li>
+        <li>グループ内の全ての日報閲覧権限（重役）</li>
         <li>グループ内スタッフ活動実績確認</li>
         <li><a href="#bang">グループからの追放</a></li>
     </ul>
@@ -78,7 +78,7 @@ contributors = []
 <dd>スタッフがログインに使用するメールアドレスです。変更は<a href="/docs/manual/account/signin/">当該スタッフ自身で行う</a>ことができます。</dd>
 <dt><a href="/docs/setup/staff-local/dist/">提出先の指定</a></dt>
 <dd>
-    スタッフが日報を作成する際のレポート提出先を、事前に固定・設定できます。
+    スタッフが日報を作成する際の日報提出先を、事前に固定・設定できます。
 </dd>
 <dt><a href="/docs/setup/staff-local/template/">テンプレートの制限</a></dt>
 <dd>
@@ -91,8 +91,8 @@ contributors = []
 </dd>
 <dt>重役</dt>
 <dd>
-    この設定をONにすると、そのスタッフは<strong>グループ内のすべてのレポートを閲覧可能</strong>になります。
-    通常は<a href="/docs/manual/write-report/dist/">提出先か共有先</a>に名前がないとレポートは閲覧できませんが、重役設定はこれらの制約をバイパスします
+    この設定をONにすると、そのスタッフは<strong>グループ内のすべての日報を閲覧可能</strong>になります。
+    通常は<a href="/docs/manual/write-report/dist/">提出先か共有先</a>に名前がないと日報は閲覧できませんが、重役設定はこれらの制約をバイパスします
 </dd>
 <dt><a href="/docs/setup/staff-local/share/">共用</a></dt>
 <dd>
@@ -112,19 +112,19 @@ contributors = []
 
 <dl class="basic">
 <dt><a href="/docs/manual/read-report/state/#agree">承認</a></dt>
-<dd>1ヶ月の間にレポートを承認した回数を表示</dd>
+<dd>1ヶ月の間に日報を承認した回数を表示</dd>
 <dt><a href="/docs/manual/read-report/state/#reject">棄却</a></dt>
-<dd>1ヶ月の間にレポートを棄却した回数を表示</dd>
-<dt><a href="/docs/manual/write-report/write/">レポート</a></dt>
-<dd>1ヶ月の間にレポートを作成した回数を表示</dd>
+<dd>1ヶ月の間に日報を棄却した回数を表示</dd>
+<dt><a href="/docs/manual/write-report/write/">日報</a></dt>
+<dd>1ヶ月の間に日報を作成した回数を表示</dd>
 <dt><a href="/docs/manual/read-report/state/#readed">既読</a></dt>
-<dd>1ヶ月の間にレポートを既読した回数を表示</dd>
+<dd>1ヶ月の間に日報を既読した回数を表示</dd>
 <dt><a href="/docs/manual/event/list/">予定作成</a></dt>
 <dd>1ヶ月の間に予定を作成した回数を表示</dd>
 <dt>予定完了</dt>
 <dd>1ヶ月の間に予定を完了済みにした回数を表示</dd>
 <dt><a href="/docs/manual/read-report/state/#comment">コメント</a></dt>
-<dd>1ヶ月の間にレポートや予定にコメントを書き込んだ回数を表示</dd>
+<dd>1ヶ月の間に日報や予定にコメントを書き込んだ回数を表示</dd>
 </dl>
 
 集計する期間は1ヶ月単位で切り替えができます。期間を変更するには、日付が書かれたボタンをクリックしてください。

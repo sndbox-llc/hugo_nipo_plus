@@ -1,7 +1,7 @@
 +++
 url = "/docs/manual/utils/log/"
 aliases = ["/docs/manual/utils/log/"]
-description = "レポートの提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
+description = "日報の提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
 title = "📚ログデータ"
 menuTitle = "📚ログデータ"
 toc = true
@@ -18,12 +18,12 @@ weight = 59030
 ログは以下のアクションに対して記録を残します
 
 1. [タイムカードが削除](/docs/manual/timecard/list/#remove)されたとき
-2. レポートや予定に[コメントが書かれた](/docs/manual/read-report/state/#comment)とき
-3. レポートや予定からコメントが削除されたとき
-4. [レポートが削除](/docs/manual/read-report/removereport/)されたとき
-5. [レポートが作成されたとき](/docs/manual/write-report/write/)
-6. レポートが既読・[承認](/docs/manual/read-report/state/#agree)・[棄却](/docs/manual/read-report/state/#reject)されたとき
-7. レポートにタグがセット・解除されたとき
+2. 日報や予定に[コメントが書かれた](/docs/manual/read-report/state/#comment)とき
+3. 日報や予定からコメントが削除されたとき
+4. [日報が削除](/docs/manual/read-report/removereport/)されたとき
+5. [日報が作成されたとき](/docs/manual/write-report/write/)
+6. 日報が既読・[承認](/docs/manual/read-report/state/#agree)・[棄却](/docs/manual/read-report/state/#reject)されたとき
+7. 日報にタグがセット・解除されたとき
 8. 予定が作成されたとき
 9. 予定の状態が変化したとき
 10. 予定にタグがセット・解除されたとき

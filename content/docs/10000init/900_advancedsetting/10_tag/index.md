@@ -53,8 +53,8 @@ contributors = []
 <dd>タグの色を選びます。視覚的な識別に役立ちます<br>種類: 赤・紫・緑・青・黄</dd>
 <dt>タグのアイコン</dt>
 <dd>タグに表示されるアイコンを選びます<br>15種類用意しています</dd>
-<dt><a href="/docs/manual/write-report/write/">レポート用</a></dt>
-<dd>レポートに対して使用する場合はチェックをON</dd>
+<dt><a href="/docs/manual/write-report/write/">日報用</a></dt>
+<dd>日報に対して使用する場合はチェックをON</dd>
 <dt><a href="/docs/template/make/">テンプレート用</a></dt>
 <dd>テンプレートに対して使用する場合はチェックをON</dd>
 <dt><a href="/docs/manual/event/add/">予定用</a></dt>
@@ -131,7 +131,7 @@ contributors = []
 
 {{< callout context="caution" title="削除するとそのタグを使った検索が一切できなくなるため注意！" icon="outline/info-triangle" />}}
 
-タグの削除は慎重に行ってください。過去にタグをセットしたレポートや**点検記録**などに対してもまとめて当該タグが削除されます。
+タグの削除は慎重に行ってください。過去にタグをセットした日報や**点検記録**などに対してもまとめて当該タグが削除されます。
 
 1.  削除するタグをクリック
 1.  「削除」をクリック

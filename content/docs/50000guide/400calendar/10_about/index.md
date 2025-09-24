@@ -1,9 +1,9 @@
 +++
 url = "/docs/manual/calendar/_about/"
 
-title = "レポートや予定をまとめて表示できる万能管理画面です"
+title = "日報や予定をまとめて表示できる万能管理画面です"
 menuTitle = "カレンダー概要"
-description = "カレンダー上にレポートや予定が表示され、日別や月別にレポートを管理できる便利なツールです。週ごとの確認やスタッフ別の予定管理にも対応しており、業務の効率化に役立ちます。"
+description = "カレンダー上に日報や予定が表示され、日別や月別に日報を管理できる便利なツールです。週ごとの確認やスタッフ別の予定管理にも対応しており、業務の効率化に役立ちます。"
 toc = true
 weight = 50410
 tags = ["有料プラン限定"]
@@ -12,13 +12,13 @@ contributors = []
 
 {{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
-[レポート保存箱](/docs/manual/read-report/list/#listbox)と[予定管理](/docs/manual/event/list/)、２つの機能を一箇所で管理できます。
+[日報保存箱](/docs/manual/read-report/list/#listbox)と[予定管理](/docs/manual/event/list/)、２つの機能を一箇所で管理できます。
 カレンダを表示するには左メニューから「カレンダー」を選択します。
 
-{{<icatch filename="img/calendar" msg="カレンダーモードではレポートの提出日や枚数が月単位で俯瞰できます"  alice="here">}}
+{{<icatch filename="img/calendar" msg="カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます"  alice="here">}}
 
-カレンダは[レポート保存箱](/docs/manual/read-report/list/#listbox)にあるレポートを決まったルールで各セルに描画します。
-予定についても同様で、決まったルールで各セルに描画します。各セルにあるボタンをクリックすることで、該当のレポートや予定をポップアップで表示します。
+カレンダは[日報保存箱](/docs/manual/read-report/list/#listbox)にある日報を決まったルールで各セルに描画します。
+予定についても同様で、決まったルールで各セルに描画します。各セルにあるボタンをクリックすることで、該当の日報や予定をポップアップで表示します。
 
 ## カレンダーの表示対象切替{#switch_dist}
 
@@ -26,9 +26,9 @@ contributors = []
 
 <dl class="basic">
 <dt>受</dt>
-<dd>自分が受け取ったレポートをカレンダーに表示します。保存箱の「受信BOX」と同じです</dd>
+<dd>自分が受け取った日報をカレンダーに表示します。保存箱の「受信BOX」と同じです</dd>
 <dt>送</dt>
-<dd>自分が書いたレポートをカレンダーに表示します。保存箱の「送信BOX」と同じです</dd>
+<dd>自分が書いた日報をカレンダーに表示します。保存箱の「送信BOX」と同じです</dd>
 </dl>
 
 ## カレンダーの表示モード切替{#switch_view}

@@ -51,7 +51,7 @@ NipoPlusでは大きく分けて2種類の日付・時刻入力フォームを�
 
 <dl class="basic">
 <dt><strong>入力必須</strong></dt>
-<dd>これがONの場合、日付や時刻が空欄だとレポートの提出ができなくなります。<strong>重要な記録の入力漏れを防ぐ</strong>際に設定します。</dd>
+<dd>これがONの場合、日付や時刻が空欄だと日報の提出ができなくなります。<strong>重要な記録の入力漏れを防ぐ</strong>際に設定します。</dd>
 <dt><strong>形式</strong></dt>
 <dd>
 <ul>
@@ -101,9 +101,9 @@ NipoPlusでは大きく分けて2種類の日付・時刻入力フォームを�
 
 <dl class="basic">
 <dt><strong>入力必須</strong></dt>
-<dd>これがONの場合、日付や時刻が空欄だとレポートの提出ができなくなります。<strong>作業開始・終了時刻の入力漏れを防ぐ</strong>際に設定します。</dd>
+<dd>これがONの場合、日付や時刻が空欄だと日報の提出ができなくなります。<strong>作業開始・終了時刻の入力漏れを防ぐ</strong>際に設定します。</dd>
 <dt><strong>初期状態でONにする</strong></dt>
-<dd>これがONの場合、レポート作成時にこのチェックボックスはONの状態でスタートします。デフォルトでONにしたい場合に設定します。</dd>
+<dd>これがONの場合、日報作成時にこのチェックボックスはONの状態でスタートします。デフォルトでONにしたい場合に設定します。</dd>
 <dt><strong>集計する</strong></dt>
 <dd>ONにすると[集計機能](/docs/manual/analytics/)で利用できます。<strong>作業時間や稼働時間の合計をグラフで可視化したい</strong>場合に設定します。</dd>
 <dt><strong>形式</strong></dt>
@@ -147,7 +147,7 @@ NipoPlusでは大きく分けて2種類の日付・時刻入力フォームを�
 
 {{<icatch filename="img/charts" msg="期間のデータ（単位：分）を使って棒グラフを作成してみました。作業時間の傾向、設備稼働率などを視覚的に把握できます。色々な分析が可能ですので、ぜひお試しください" alice="ok">}}
 
-{{< link-card title="レポートをグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+{{< link-card title="日報をグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
 
 #### CSV出力{#csv_2}
 

@@ -5,7 +5,7 @@ menuTitle = "🔐セキュリティ対策"
 description = "NipoPlus（ニポプラス）は、お客様の大切な日報データを守るため、Google Cloud Platform（GCP）を基盤とした最高水準のセキュリティ対策を講じています。安心・安全なご利用環境を提供します。"
 toc = true
 weight = 90040
-tags = ["セキュリティ", "データ保護", "Firebase", "GCP", "暗号化"]
+tags = ["セキュリティ対策", "データ保護"]
 contributors = []
 +++
 

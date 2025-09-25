@@ -7,7 +7,6 @@ description = "NipoPlusを初めて使う方向けのチュートリアルガイ
 toc = true
 weight = 10100
 tags = []
-contributors = []
 +++
 
 NipoPlusへようこそ！

@@ -8,7 +8,6 @@ isDictionaly = true
 weight = 120
 date = "2025-09-22"
 tags = ["インボイス制度", "FAQ"] 
-contributors = []
 +++
 
 900円または1000円です。（税込み）

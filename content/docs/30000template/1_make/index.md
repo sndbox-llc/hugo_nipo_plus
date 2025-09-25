@@ -7,7 +7,7 @@ description = "NipoPlusでは、専門知識がなくても、様々な入力フ
 toc = true
 weight = 30701
 tags = ["テンプレート作成", "日報テンプレート", "点検シート", "製造業DX", "PDF出力", "編集者権限"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 100
 date = "2024-10-03"
 tags = ["個人設定"]
-contributors = []
+
 +++
 
 ## 起動時に最初にロードされるグループの指定{#default_group}

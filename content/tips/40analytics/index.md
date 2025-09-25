@@ -8,7 +8,7 @@ toc = true
 date = "2023-06-15"
 tags = ["日報の集計"]
 weight = 40
-contributors = []
+
 
 [sitemap]
   priority = 0.9

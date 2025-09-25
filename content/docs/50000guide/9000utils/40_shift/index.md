@@ -7,7 +7,7 @@ description = "シフト管理機能"
 toc = true
 weight = 59040
 tags = ["編集者権限"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="シフト管理がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

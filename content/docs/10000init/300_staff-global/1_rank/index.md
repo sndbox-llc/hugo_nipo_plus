@@ -7,7 +7,6 @@ description = "NipoPlusにおけるスタッフアカウントの権限につい
 toc = true
 weight = 10301
 tags = []
-contributors = []
 +++
 
 NipoPlusのスタッフアカウントには、それぞれ「権限」が設定されます。この権限によって、NipoPlusで**できること**や**表示される画面**が異なります。

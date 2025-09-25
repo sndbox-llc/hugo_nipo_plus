@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 126
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 レポート作成者などの絞り込みは有るのですが、現場名による絞り込み機能は、NipoPlusの提供する集計機能には残念ながら対応できません。

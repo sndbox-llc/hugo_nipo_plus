@@ -7,7 +7,7 @@ description = "日報や予定を週単位で管理できる「週カレンダ�
 toc = true
 weight = 50430
 tags = ["有料プラン限定"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

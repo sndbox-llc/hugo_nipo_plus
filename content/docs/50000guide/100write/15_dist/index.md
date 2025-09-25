@@ -6,7 +6,7 @@ description = "NipoPlusでは、日報（日報、点検記録など）の「提
 toc = true
 weight = 50115
 tags = ["日報承認", "承認フロー", "アクセス権限", "情報共有", "提出先",  "日報提出"]
-contributors = []
+
 +++
 
 ## 提出先と共有先の意味 - 日報ごとのアクセス権限管理{#whatisDist}

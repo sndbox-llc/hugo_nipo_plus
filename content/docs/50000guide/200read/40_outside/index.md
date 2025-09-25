@@ -6,7 +6,7 @@ description = "NipoPlusの外部共有機能を使えば、アカウントを持
 toc = true
 weight = 50240
 tags = ["日報共有", "外部アクセス", "ログイン不要", "セキュリティ対策",  "情報連携", "日報閲覧", "アンケート入力"]
-contributors = []
+
 +++
 
 ## NipoPlusのアカウントを持たない相手に日報を共有する機能{#about}

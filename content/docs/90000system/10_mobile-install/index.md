@@ -6,7 +6,7 @@ description = "NipoPlusはWebブラウザで動作するため、お手持ちの
 toc = true
 weight = 90010
 tags = ["モバイル", "PWA"]
-contributors = []
+
 +++
 
 NipoPlusは**Webアプリケーション**なので、インターネットにつながるブラウザさえあれば、PC、スマートフォン、タブレットなど、**あらゆるデバイスから利用可能**です。

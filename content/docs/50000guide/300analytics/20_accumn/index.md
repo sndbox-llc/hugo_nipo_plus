@@ -7,7 +7,7 @@ description = "NipoPlusの累積表機能は、日報や点検記録、業務報
 toc = true
 weight = 50320
 tags = ["有料プラン限定", "データ累積", "合計集計", "スタッフ別集計", "部門別実績",  "日報集計",  "品質データ分析", "データ分析", "データ可視化"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="集計機能の有効化が必要です" icon="outline/info-circle" >}}

@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 108
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 PDF出力設定で「内容を簡易にする」のチェックをONにしていただくことで、実現できます。

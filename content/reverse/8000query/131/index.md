@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 131
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 請求書をアプリ上から発行いただくと振込先口座が確定します。

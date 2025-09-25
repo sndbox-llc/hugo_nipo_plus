@@ -7,7 +7,7 @@ description = "NipoPlusでは、日報や点検記録、業務報告から収集
 toc = true
 weight = 50325
 tags = ["有料プラン限定", "グラフ作成", "データ可視化", "データ分析", "リアルタイムグラフ", "業務改善", "KPI可視化", "異常検知", "品質管理", "生産性分析",  "日報集計"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="集計機能の有効化が必要です" icon="outline/info-circle" >}}

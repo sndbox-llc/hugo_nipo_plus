@@ -6,7 +6,7 @@ description = "NipoPlus（ニポプラス）の有料プランでお支払いい
 toc = false
 weight = 80050
 tags = ["Web版限定", "管理者権限", "領収証", "インボイス制度"] 
-contributors = []
+
 +++
 
 {{< callout context="note" title="【重要】NipoPlus（現行版）の領収証について" icon="outline/info-circle" >}}

@@ -8,7 +8,7 @@ toc = false
 weight = 3140
 date = "2024-12-05"
 tags = ["アカウント設定", "管理者権限"]
-contributors = []
+
 +++
 
 ## 管理者がスタッフのパスワードを強制的に変更できます{#update_pass_word}

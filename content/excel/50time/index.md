@@ -7,7 +7,7 @@ description = "エクセルでの時刻計算が難しいと感じる方必見�
 toc = true
 date = "2023-10-26"
 tags = ["エクセル",  "集計"]
-contributors = []
+
 weight = 1050
 +++
 

@@ -6,7 +6,7 @@ description = "NipoPlusでは、提出された日報や点検記録の詳細を
 toc = true
 weight = 50220
 tags = ["日報閲覧", "日報詳細",  "日報承認", "データ分析", "過去データ推移", "異常発見", "品質管理",  "コメント機能", "PDF出力", "CSV出力", "日報状態", "承認リレー"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="閲覧権限にご注意ください" icon="outline/alert-triangle" >}}

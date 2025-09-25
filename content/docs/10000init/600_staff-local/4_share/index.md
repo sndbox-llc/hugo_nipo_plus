@@ -6,7 +6,7 @@ menuTitle = "⛔アカウントの共用"
 description = "用途として限定的な機能です。人数分の端末が用意できない際にご利用ください"
 toc = true
 weight = 10604
-contributors = []
+
 tags = ["編集者権限"]
 +++
 

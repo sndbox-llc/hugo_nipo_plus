@@ -6,7 +6,7 @@ description = "NipoPlusの有料プランは請求書払いにも対応。自動
 toc = true
 weight = 80040
 tags = ["Web版限定", "管理者権限", "請求書払い", "自動更新なし"] # タグに請求書払いと自動更新なしを追加
-contributors = []
+
 +++
 
 {{< callout context="note" title="自動更新なしプランです" icon="outline/info-circle" >}}

@@ -7,7 +7,7 @@ description = "NipoPlusでは、一度作成したテンプレートをコピー
 toc = true
 weight = 30710
 tags = ["テンプレート複製",  "テンプレート管理",  "テンプレート", "PDF出力", "編集者権限"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

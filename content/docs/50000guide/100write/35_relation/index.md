@@ -6,7 +6,7 @@ description = "NipoPlusの「複数人日報作成機能」は、早番・遅番
 toc = true
 weight = 50135
 tags = ["共同日報", "リレー日報",  "日報"]
-contributors = []
+
 +++
 
 ## 複数人で日報をリレー - 交代勤務や共同作業の記録を明確に{#about}

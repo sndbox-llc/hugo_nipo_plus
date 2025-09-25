@@ -7,7 +7,7 @@ description = "カレンダー上に日報や予定が表示され、日別や�
 toc = true
 weight = 50410
 tags = ["有料プラン限定"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

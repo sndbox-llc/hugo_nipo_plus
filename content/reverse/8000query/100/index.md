@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 100
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 集計セクションで数値の1が●として表示されるのは仕様ですが、設定で1と表示することができます。

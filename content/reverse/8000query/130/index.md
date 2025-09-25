@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 130
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 NipoPlusnにはそもそも「注文書」という概念がありません。

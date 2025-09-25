@@ -7,7 +7,7 @@ description = "スタッフの名前や使用した機材の回数をエクセ�
 toc = true
 date = "2023-10-23"
 tags = ["エクセル",  "集計"]
-contributors = []
+
 weight = 1030
 +++
 

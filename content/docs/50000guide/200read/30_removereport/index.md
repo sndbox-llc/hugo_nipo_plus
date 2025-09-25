@@ -6,7 +6,7 @@ description = "NipoPlusでは、提出された日報や点検記録の削除に
 toc = true
 weight = 50230
 tags = [ "日報削除", "管理者権限"]
-contributors = []
+
 +++
 
 ## 日報（日報・点検記録）の削除について - なぜ制限があるのか？{#whyRestrict}

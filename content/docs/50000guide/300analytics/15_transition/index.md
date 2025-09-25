@@ -6,7 +6,7 @@ description = "NipoPlusの推移表機能は、日報や点検記録、業務報
 toc = true
 weight = 50315
 tags = ["有料プラン限定", "データ推移", "異常検知",  "品質管理", "時系列データ",  "データ可視化", "製造業DX", "点検記録"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="集計機能の有効化が必要です" icon="outline/info-circle" >}}

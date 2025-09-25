@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 113
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 はい、もちろん大丈夫です。

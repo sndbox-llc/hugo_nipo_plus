@@ -6,7 +6,7 @@ description = "NipoPlusの下書き機能は、日報、点検記録、業務報
 toc = true
 weight = 50120
 tags = ["下書き保存",  "日報作成", "テンプレート"]
-contributors = []
+
 +++
 
 書きかけの日報を途中で保存し、後から編集・提出できるのがNipoPlusの<strong>下書き機能</strong>です。

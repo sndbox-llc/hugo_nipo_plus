@@ -7,7 +7,7 @@ description = "NipoPlusの日付・時刻入力フォームは、作業開始時
 toc = true
 weight = 30704
 tags = ["テンプレートパーツ", "日付入力", "時刻入力", "期間入力", "作業時間管理", "工数管理", "稼働時間記録", "日報", "点検記録",  "集計可能フォーム"]
-contributors = []
+
 +++
 
 {{<icatch filename="img/date-time" msg="日報の作業開始・終了時刻、設備点検の実施日時、作業期間など、正確な日時情報を記録できます" alice="here">}}

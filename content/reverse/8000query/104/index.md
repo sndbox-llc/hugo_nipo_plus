@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 104
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 基本的に日報は削除しないことを前提に設計されていますが、テストで作成した日報など、どうしても削除したいケースはあります。

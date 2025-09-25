@@ -6,7 +6,7 @@ description = "NipoPlusでは、日々増え続ける日報や点検記録、業
 toc = true
 weight = 50210
 tags = ["日報検索",  "データ管理",  "カレンダー表示", "提出状況", "未提出者特定", "情報整理"]
-contributors = []
+
 +++
 
 ## 日報（日報・点検記録）を効率的に探すための方法{#findReportMethod}

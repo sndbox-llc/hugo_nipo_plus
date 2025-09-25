@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 128
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 Amazonタブレットが手元に無いため、「使える」と断言することはできません。

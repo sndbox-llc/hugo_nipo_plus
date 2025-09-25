@@ -7,7 +7,7 @@ description = "NipoPlusのクロス集計機能は、日報や点検シート、
 toc = true
 weight = 50335
 tags = ["有料プラン限定",  "品質管理", "生産性分析", "業務改善", "複数テンプレート集計", "データ分析"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="集計機能の有効化が必要です" icon="outline/info-circle" >}}

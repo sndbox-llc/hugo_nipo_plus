@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 124
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 はい、原則として閲覧専用であってもアカウント作成が必要です。

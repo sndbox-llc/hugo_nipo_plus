@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 111
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 ## 今回の入金を取消・年間契約で再度請求書を発行頂く事は出来ますでしょうか？

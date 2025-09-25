@@ -7,7 +7,6 @@ description = "NipoPlusのグループ内でスタッフの役割を詳細に設
 toc = true
 weight = 10601
 tags = ["スタッフ管理", "編集者権限"]
-contributors = []
 +++
 
 {{< callout context="caution" title="[組織のスタッフ管理についてはこちら](/docs/setup/staff-global/make/)です" icon="outline/info-triangle" />}}

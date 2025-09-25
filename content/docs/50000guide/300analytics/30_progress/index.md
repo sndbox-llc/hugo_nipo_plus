@@ -7,7 +7,7 @@ description = "NipoPlusの「目標と実績の管理」機能は、製造業の
 toc = true
 weight = 50330
 tags = ["有料プラン限定", "目標管理", "実績管理", "生産計画", "進捗管理",  "製造業DX", "生産性可視化"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="集計機能の有効化が必要です" icon="outline/info-circle" >}}

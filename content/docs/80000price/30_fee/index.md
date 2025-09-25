@@ -7,7 +7,7 @@ description = "NipoPlusの有料プランは、月額180円/名（5名〜）で�
 toc = true
 weight = 80030
 tags = ["Web版限定", "管理者権限"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="本ページは自動更新有りです。[自動更新無しのお申込みはこちら](/docs/price/invoice/)" icon="outline/info-circle" />}}

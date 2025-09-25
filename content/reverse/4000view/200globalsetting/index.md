@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 200
 date = "2024-10-03"
 tags = ["管理者権限"]
-contributors = []
+
 +++
 
 ## 組織設定が表示可能なのは管理者のみ{#require_admin}

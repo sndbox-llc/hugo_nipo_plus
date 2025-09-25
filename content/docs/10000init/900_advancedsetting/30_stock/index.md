@@ -7,7 +7,7 @@ description = "NipoPlusの商品在庫・状態管理機能は、簡易的に商
 toc = true
 weight = 10930
 tags = ["編集者権限", "簡易在庫管理", "備品管理", "資材管理",  "数量管理",  "製造業"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

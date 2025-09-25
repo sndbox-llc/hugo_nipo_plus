@@ -7,7 +7,6 @@ description = "NipoPlusにおける組織とグループの基本構造と役割
 toc = true
 weight = 10200
 tags = []
-contributors = []
 +++
 
 NipoPlusはお客様の会社全体、そしてその中のチームや部署ごとに日報を管理できるよう、独自の構造を持っています。

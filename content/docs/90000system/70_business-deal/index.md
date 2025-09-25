@@ -6,7 +6,7 @@ description = "NipoPlusはオンラインによるお支払いが発生するた
 toc = false
 weight = 90070
 tags = ["インボイス制度"] 
-contributors = []
+
 
 [sitemap]
   changefreq = "yearly"

@@ -7,7 +7,6 @@ description = "NipoPlusで新しいグループを作成し、そのグループ
 toc = true
 weight = 10400
 tags = ["管理者権限"]
-contributors = []
 +++
 
 グループとは実際に日報の作成や提出を行う隔離されたスペースです。  

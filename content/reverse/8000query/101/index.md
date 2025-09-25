@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 101
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 申し訳ございません。CSV出力は「分」単位でのみの出力となります。

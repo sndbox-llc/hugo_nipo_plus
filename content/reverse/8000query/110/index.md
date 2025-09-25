@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 110
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 ## 例えば、「売上」＋「受注残」＝「売上予測」に対し、「受注残」が選べない、ような状態です。何か制限があったりしますか？

@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 115
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 オンライン請求書の決済方法によって時間差が生まれます。

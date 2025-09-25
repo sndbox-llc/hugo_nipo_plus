@@ -7,7 +7,7 @@ description = "NipoPlusのタグ機能は、日報や点検シート、各種デ
 toc = true
 weight = 10910
 tags = ["編集者権限", "データ管理", "日報検索", "タグによる管理"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

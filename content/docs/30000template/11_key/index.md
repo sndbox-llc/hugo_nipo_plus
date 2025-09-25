@@ -7,7 +7,7 @@ description = "NipoPlusのテンプレートで入力フォームを削除して
 toc = true
 weight = 30711
 tags = ["テンプレート", "データ復旧",  "入力フォーム", "日報データ","応用設定"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

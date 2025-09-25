@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 116
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 ## スマートフォンだと100件で、パソコン版からだと107件表示されます

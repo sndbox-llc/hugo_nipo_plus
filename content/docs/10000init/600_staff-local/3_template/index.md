@@ -8,7 +8,7 @@ description = "NipoPlusの「テンプレートの制限」機能は、スタッ
 toc = false
 weight = 10603
 tags = ["スタッフ管理", "編集者権限"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

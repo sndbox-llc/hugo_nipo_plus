@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 102
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 申し訳ございません。任意のIDに変更することは、仕組み上不可能なため、仮にご要望いただいても実装することが不可能です。

@@ -8,7 +8,7 @@ toc = false
 weight = 120
 date = "2024-10-15"
 tags = ["編集者権限"]
-contributors = []
+
 +++
 
 ## グループのテーマカラーを変えて視認性をUP{#theme_color}

@@ -7,7 +7,7 @@ description = "NipoPlusの語録機能は、選択式入力フォームの回答
 toc = true
 weight = 10920
 tags = ["語録機能", "選択肢", "マスターデータ",  "業務効率化", "日報", "点検シート", "入力フォーム", "編集者権限"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

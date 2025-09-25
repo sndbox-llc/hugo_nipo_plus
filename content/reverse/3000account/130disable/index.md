@@ -8,7 +8,7 @@ toc = false
 weight = 3130
 date = "2024-12-05"
 tags = ["アカウント設定", "管理者権限"]
-contributors = []
+
 +++
 
 ## 退職や休職のスタッフアカウントを無効にする{#disable}

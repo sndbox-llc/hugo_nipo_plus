@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 103
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 権限を「書き込みのみ」に設定することで、左側メニューには「日報作成」と「日報表示」以外非表示にすることができます。

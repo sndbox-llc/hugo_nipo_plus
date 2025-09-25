@@ -7,7 +7,7 @@ description = "NipoPlusのフォルダ機能は、日報、点検シート、業
 toc = true
 weight = 30709
 tags = ["テンプレート管理", "フォルダ分け", "製造業",  "テンプレート", "有料プラン限定", "編集者権限"]
-contributors = []
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

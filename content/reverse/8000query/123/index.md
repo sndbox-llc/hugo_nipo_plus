@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 123
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 この場合は37名全員分となります。

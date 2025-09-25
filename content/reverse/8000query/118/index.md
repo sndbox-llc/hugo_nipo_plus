@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 118
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 申し訳ございません。現時点で「自動でメール」を送る機能は備わっておりません。

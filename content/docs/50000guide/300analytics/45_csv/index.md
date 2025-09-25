@@ -7,7 +7,7 @@ description = "NipoPlusのCSV一括出力機能を使えば、1ヶ月や2週間�
 toc = true
 weight = 50345
 tags = ["有料プラン限定", "Web版限定", "CSV出力",  "日報ダウンロード",  "ペーパーレス化", "データ活用"]
-contributors = []
+
 +++
 
 {{< callout context="note" title="CSVの出力設定も併せてご確認ください" icon="outline/info-circle" >}}

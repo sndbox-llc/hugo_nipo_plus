@@ -8,7 +8,7 @@ toc = false
 weight = 3160
 date = "2024-12-27"
 tags = ["アカウント設定", "管理者権限"]
-contributors = []
+
 +++
 
 ## 自分の名前は組織設定画面から変更できます{#rename_staff}

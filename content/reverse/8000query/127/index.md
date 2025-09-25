@@ -8,7 +8,7 @@ isDictionaly = true
 weight = 127
 date = "2025-09-22"
 tags = ["FAQ"]
-contributors = []
+
 +++
 
 ログインを試みたアカウントが「無効」になっていると、このようなエラーが発生してしまいます。

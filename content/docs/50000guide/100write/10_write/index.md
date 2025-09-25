@@ -6,7 +6,7 @@ description = "NipoPlusで日報や点検記録、各種業務報告書を作成
 toc = true
 weight = 50110
 tags = ["日報作成", "日報提出", "点検記録",  "デジタル化", "現場記録"]
-contributors = []
+
 +++
 
 NipoPlusで<strong>日報</strong>や<strong>設備点検記録</strong>、<strong>各種業務報告書</strong>といった「日報」を作成し、提出するまでの大まかな流れは以下のとおりです。

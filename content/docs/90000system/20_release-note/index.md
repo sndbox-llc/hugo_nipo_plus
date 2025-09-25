@@ -33,6 +33,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/doc
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoLogo 30>}} 2025/9/26 v10.1.4{#legacy10_1_4}
+
+- 補足説明欄がセンタリングになるバグを修正し、左詰めになるようにしました
+
 #### {{<nipoPlusLogo 30>}} 2025/9/24 v1.73.1{#vp1_73_1}
 
 認識していたが優先度の低いバグを今更ですが修正しました。

@@ -5,7 +5,7 @@ menuTitle = "🍏iOS・🤖Android・PCで使う"
 description = "NipoPlusはWebブラウザで動作するため、お手持ちのスマホ（iOS/Android）、PC、タブレットからいつでも利用できます。推奨のPWAインストール方法から、ストア版アプリでの利用まで、デバイスごとの最適な使い方を解説します。"
 toc = true
 weight = 90010
-tags = ["モバイル", "PWA", "アプリ", "Web版"]
+tags = ["モバイル", "PWA"]
 contributors = []
 +++
 

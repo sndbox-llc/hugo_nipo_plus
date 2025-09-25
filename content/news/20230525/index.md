@@ -4,6 +4,7 @@ menuTitle = "インボイス制度登録番号"
 description = "インボイス制度登録番号が交付されました"
 toc = true
 date = "2023-05-26"
+tags = [ "インボイス制度"] 
 +++
 
 いつもNipo【旧版】/NipoPlusをご利用いただきありがとうございます。

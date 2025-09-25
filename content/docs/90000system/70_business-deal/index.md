@@ -5,7 +5,8 @@ menuTitle = "📋特定商取引法に基づく表記"
 description = "NipoPlusはオンラインによるお支払いが発生するため「特定商取引」に分類されます。法令に従い特定商取引法に基づく表記を掲載しています"
 toc = false
 weight = 90070
-tags = [ "インボイス制度"] 
+tags = ["インボイス制度"] 
+contributors = []
 
 [sitemap]
   changefreq = "yearly"

@@ -7,7 +7,7 @@ toc = false
 isDictionaly = true
 weight = 120
 date = "2025-09-22"
-tags = [ "インボイス制度", "FAQ"] 
+tags = ["インボイス制度", "FAQ"] 
 contributors = []
 +++
 

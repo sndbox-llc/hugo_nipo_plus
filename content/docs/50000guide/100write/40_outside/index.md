@@ -6,7 +6,6 @@ description = "NipoPlusの外部共有機能は、アカウントを持たない
 toc = true
 weight = 50_140
 tags = [ "Webアンケート", "データ収集", "データ集計", "ログイン不要", "外部アクセス", "日報作成" ]
-contributors = [ ]
 +++
 
 ## アカウント不要！ログインなしで日報（アンケート）を記入してもらう{#whatisDist}

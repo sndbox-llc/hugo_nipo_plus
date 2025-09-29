@@ -1,10 +1,6 @@
 +++
 url = "/docs/setup/staff-global/make/"
-aliases = [
-    "/docs/manual/initial-setting/staff/make/",
-    "/docs/setup/staff-global/manage/",
-    "/docs/manual/initial-setting/staff/manage/"
-]
+aliases = ["/docs/setup/staff-global/manage/"] # これは残せ
 title = "👤従業員アカウントの作成・管理"
 menuTitle = "👤アカウントの作成・管理"
 description = "NipoPlusで新しいスタッフアカウントを作成し、利用を開始するまでの手順を解説します。アカウント情報の編集、権限変更、停止・削除、そして特殊な共用アカウントの利用まで、管理者向けに詳細に説明します。"

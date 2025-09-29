@@ -8,7 +8,7 @@ weight = 50420
 tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "テンプレート管理", "料金について", "有料プラン限定", "DX化・業務効率化"]
 +++
 
-{{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 ## 月カレンダーに切り替える{#calendar_switch}
 

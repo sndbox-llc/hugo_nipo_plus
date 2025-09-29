@@ -1,6 +1,6 @@
 +++
 url = "/docs/template/"
-aliases = ["/docs/manual/initial-setting/template/"]
+#aliases = []
 title = "テンプレート"
 menuTitle = "テンプレート"
 description = "作成したテンプレートに沿って、スタッフはレポートを作成することができます。そのためテンプレートは最初に作る必要がある重要です。"

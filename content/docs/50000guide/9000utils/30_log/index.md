@@ -1,6 +1,6 @@
 +++
 url = "/docs/manual/utils/log/"
-aliases = ["/docs/manual/utils/log/"]
+#aliases = []
 description = "日報の提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます"
 title = "📚ログデータ"
 menuTitle = "📚ログデータ"
@@ -8,7 +8,7 @@ toc = true
 weight = 59030
 +++
 
-{{< callout context="note" title="ログがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 グループ内の様々な出来事はログデータとして自動保存されます。ログは改ざん防止のため**読み取り専用**であり、管理者であってもログの書き換えや削除はできません。
 ログデータは2年以上保存されます。それを超えた古いログは一定期間ごとに削除されます。

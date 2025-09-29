@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/quickstart/"
-aliases = ["/docs/manual/quickstart/"]
+aliases = ["/docs/manual/quickstart/"] #これは残せ
 title = "🔰 クイックガイド：30分で始める日報アプリ"
 menuTitle = "🔰クイックガイド"
 description = "NipoPlusを初めて使う方向けのチュートリアルガイドです。初期設定から日報作成・確認まで、必要最小限の手順で基本的な使い方をマスターできます。"

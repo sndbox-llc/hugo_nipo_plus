@@ -8,7 +8,7 @@ toc = true
 weight = 50820
 +++
 
-{{< callout context="note" title="顧客機能がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 ※このページで掲載されている顧客データはChatGPTによって作成されたダミー情報です。実在の人物ではありません。
 

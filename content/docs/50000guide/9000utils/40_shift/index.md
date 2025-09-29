@@ -1,6 +1,5 @@
 +++
 url = "/docs/manual/utils/shift/"
-aliases = ["/docs/manual/utils/shift/"]
 title = "🗓️シフト管理"
 menuTitle = "🗓️シフト管理"
 description = "シフト管理機能"
@@ -9,7 +8,7 @@ weight = 59040
 tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "DX化・業務効率化", "要編集者権限"]
 +++
 
-{{< callout context="note" title="シフト管理がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 {{< callout context="note" title="シフト表は[提出状況表](/docs/manual/read-report/list/#teishutuMap)と連動します" icon="outline/info-circle" />}}
 

@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/staff-local/dist/"
-aliases = ["/docs/manual/initial-setting/staff-local/dist/"]
+#aliases = []
 title = "🔐 日報の提出先を固定する（誤提出防止）"
 menuTitle = "🔐提出先の固定と閲覧権限"
 description = "NipoPlusの「提出先の固定」機能は、現場スタッフの誤操作を防ぎ、日報提出の手間を大幅に削減します。管理者側が事前に日報の提出先や共有先を固定する方法を解説。この設定を行うことで、日報の提出をスムーズにし、管理を効率化できます。"

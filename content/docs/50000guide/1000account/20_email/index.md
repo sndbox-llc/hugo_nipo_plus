@@ -87,4 +87,4 @@ weight = 51020
 
 {{<icatch filename="img/force-update-pw" msg="管理者権限でスタッフのパスワードを変更することも可能です">}}
 
-詳しくは[組織のスタッフ管理](/docs/setup/staff-global/manage/)を御覧ください。
+詳しくは[組織のスタッフ管理](/docs/setup/staff-global/make/)を御覧ください。

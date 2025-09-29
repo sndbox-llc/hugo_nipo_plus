@@ -23,7 +23,7 @@ mainSections = ["docs"]
 
   ## Button
   navBarButton = false # false (default) or true
-  navBarButtonUrl = "/docs/manual/quickstart/"
+  navBarButtonUrl = "/docs/setup/quickstart/"
   navBarButtonText = "詳細を見る"
 
   # FlexSearch

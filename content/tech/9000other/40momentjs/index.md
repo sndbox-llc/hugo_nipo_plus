@@ -1,6 +1,6 @@
 +++
 url = "/tech/other/momentjs/"
-aliases = ["/tech/momentjs/"]
+#aliases = []
 title = "moment.jsが非推奨になっていたようです"
 menuTitle = "moment.jsよ永遠に"
 description = "javascriptの世界で日付処理の金字塔を築きあげた有名なライブラリですが、惜しまれながらも開発を終了する運びになったようです。長いことありがとうございました。"

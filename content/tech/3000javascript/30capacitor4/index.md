@@ -1,6 +1,6 @@
 +++
 url = "/tech/js/capacitor4/"
-aliases = ["/tech/capacitor4/"]
+#aliases = []
 title = "Android API Level31以上に対応する（QuasarとCapacitor4を利用）"
 menuTitle = "Android API Level31以上に対応"
 description = "CapacitorでAndroid API Lv31に対応する（Quasar Frameworkを使用)"

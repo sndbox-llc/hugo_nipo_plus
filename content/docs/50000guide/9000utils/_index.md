@@ -1,6 +1,5 @@
 +++
 url = "/docs/manual/utils/"
-aliases = ["/docs/manual/utils/"]
 title = "その他"
 menuTitle = "その他"
 description = ""

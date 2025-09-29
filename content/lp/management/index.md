@@ -1,6 +1,5 @@
 +++
-aliases = ["/tips/management/", "/tips/required/"]
-
+#aliases = []
 url = "/lp/management/"
 title = "日報管理の悩みを解決！効率的なシステム化で業務をスムーズに"
 menuTitle = "日報を効率よく管理する"

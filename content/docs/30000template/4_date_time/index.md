@@ -1,6 +1,6 @@
 +++
 url = "/docs/template/date_time/"
-aliases = ["/docs/manual/initial-setting/template/date_time/"]
+#aliases = []
 title = "🧩日付・時刻入力フォーム - 作業時間・点検日時・工程進捗記録に"
 menuTitle = "🧩日付時刻"
 description = "NipoPlusの日付・時刻入力フォームは、作業開始時間や終了時刻、点検日時、製造工程のタイムスタンプなど、正確な日時情報を記録するためのテンプレートパーツです。特定時点の記録に加え、期間入力では自動で所要時間を計算し、工数管理や設備稼働時間の計測を効率化します。日報や点検記録、業務報告に欠かせない日時管理機能です。"

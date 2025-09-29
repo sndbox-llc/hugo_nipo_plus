@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/staff-local/_about/"
-aliases = ["/docs/manual/initial-setting/staff-local/_about/"]
+#aliases = []
 title = "グループ内のスタッフ管理"
 menuTitle = "👤グループ内のスタッフ管理"
 description = "NipoPlusのグループ内でスタッフの役割を詳細に設定する方法を解説します。日報の提出先固定、使用可能テンプレートの制限など、チームごとの柔軟な運用を可能にする設定について学びましょう。組織全体のスタッフ管理との違いも明確に説明します。"
@@ -27,7 +27,7 @@ tags = ["日常業務編", "日報の管理", "要編集者権限", "権限に�
 <dl class="basic">
 <dt>組織のスタッフ管理</dt>
 <dd>
-    <a href="/docs/setup/staff-global/manage/">会社全体のスタッフを管理する場所です。</a>以下の設定は組織設定から行う必要があります
+    <a href="/docs/setup/staff-global/make/">会社全体のスタッフを管理する場所です。</a>以下の設定は組織設定から行う必要があります
     <ul>
         <li><a href="/docs/setup/staff-global/make/#howto_make">アカウントの新規作成</a></li>
         <li><a href="/docs/setup/staff-global/rank/">権限変更</a></li>
@@ -68,11 +68,11 @@ tags = ["日常業務編", "日報の管理", "要編集者権限", "権限に�
 
 <dl class="basic">
 <dt>名前</dt>
-<dd>スタッフの名前です。名前の変更は<a href="/docs/setup/staff-global/manage/#change_staff_data">組織のスタッフ管理</a>から行います</dd>
+<dd>スタッフの名前です。名前の変更は<a href="/docs/setup/staff-global/make/#change_staff_data">組織のスタッフ管理</a>から行います</dd>
 <dt><a href="/docs/setup/staff-global/rank/">権限</a></dt>
-<dd>スタッフの権限です。権限の変更は<a href="/docs/setup/staff-global/manage/#change_staff_data">組織のスタッフ管理</a>から行います</dd>
+<dd>スタッフの権限です。権限の変更は<a href="/docs/setup/staff-global/make/#change_staff_data">組織のスタッフ管理</a>から行います</dd>
 <dt><a href="/docs/setup/staff-global/make/#stop_remove">状態</a></dt>
-<dd>アカウントの状態（有効：緑 / 無効：赤）を示します。<br>変更は<a href="/docs/setup/staff-global/manage/#disable">組織のスタッフ管理</a>から行います</dd>
+<dd>アカウントの状態（有効：緑 / 無効：赤）を示します。<br>変更は<a href="/docs/setup/staff-global/make/#disable">組織のスタッフ管理</a>から行います</dd>
 <dt>E-mail</dt>
 <dd>スタッフがログインに使用するメールアドレスです。変更は<a href="/docs/manual/account/signin/">当該スタッフ自身で行う</a>ことができます。</dd>
 <dt><a href="/docs/setup/staff-local/dist/">提出先の指定</a></dt>

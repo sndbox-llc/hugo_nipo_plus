@@ -8,7 +8,7 @@ toc = true
 weight = 50510
 +++
 
-{{< callout context="note" title="予定がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 予定は[カレンダー](/docs/manual/calendar/_about/)や予定管理画面から追加可能です。予定を追加する方法として、以下の3種類が用意されています。
 

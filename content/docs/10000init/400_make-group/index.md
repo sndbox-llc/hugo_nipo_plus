@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/make-group/"
-aliases = ["/docs/manual/initial-setting/make-group/"]
+#aliases = []
 title = "グループの作成"
 menuTitle = "グループの作成"
 description = "NipoPlusで新しいグループを作成し、そのグループで日報のやり取りを開始するまでの一連の手順を解説します。グループにスタッフを所属させる方法や、必要な権限について学び、グループを効果的に活用しましょう。"

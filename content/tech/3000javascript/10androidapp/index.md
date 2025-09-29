@@ -1,6 +1,6 @@
 +++
 url = "/tech/js/androidapp/"
-aliases = ["/tech/androidapp/"]
+#aliases = []
 title = "Quasar FrameworkでAndroidアプリをビルドしてストア提出する(AABファイル)"
 menuTitle = "QuasarでAndroidアプリを作る"
 description = "QuasarでAndroidアプリを作成"

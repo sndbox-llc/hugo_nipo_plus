@@ -1,6 +1,6 @@
 +++
 url = "/tech/firebase/firestore-backup/"
-aliases = ["/tech/firestore-backup/"]
+#aliases = []
 title = "Firestoreのポイントインタイムリカバリでバックアップ。実際に一部の復元もやってみた"
 menuTitle = "ポイント・イン・タイム・リカバリ"
 description = "長いことFirestoreはバックアップ機能を提供してきませんでした。この度Firebase公式のバックアップ手順が紹介されたため実際に導入してみたときの記事です"

@@ -1,6 +1,6 @@
 +++
 url = "/docs/template/manage/"
-aliases = ["/docs/manual/initial-setting/template/manage/"]
+#aliases = []
 title = "⚙テンプレートの複製・削除・管理 - 再利用で業務フォーム作成を効率化"
 menuTitle = "テンプレートの複製、削除等"
 description = "NipoPlusでは、一度作成したテンプレートをコピー・インポートして効率的に再利用できます。特に製造業における類似の点検シートや作業報告書の作成を効率化。不要になったテンプレートの安全な無効化・削除方法も解説し、テンプレート管理を最適化します。"

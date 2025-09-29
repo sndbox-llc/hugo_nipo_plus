@@ -1,6 +1,6 @@
 +++
 url = "/tech/other/m1macbook/"
-aliases = ["/tech/m1macbook/"]
+#aliases = []
 description = "速いと噂のM1マックブックを買ってみました。プログラマ視点でM1マックは業務にそのまま使えるのかを書いてみました。"
 title = "M1/M2 Macをプログラマが購入して実際に使った感想"
 menuTitle = "M1マックブック"

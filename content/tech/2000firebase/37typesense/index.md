@@ -1,6 +1,6 @@
 +++
 url = "/tech/firebase/typesense/"
-aliases = ["/tech/typesense/"]
+#aliases = []
 title = "TypesenseとFireStoreを併用してアプリ内検索を実装【Algoliaから移住】"
 menuTitle = "Typesense+Firestoreの全文検索"
 description = "FireStoreは非常に強力なデータベースですが唯一の欠点に「全文検索ができない」という弱点があります。この記事はFireStoreとTypesenseを組み合わせることで全文検索もできるというお話です。"
@@ -9,7 +9,7 @@ date = "2022-11-14"
 weight = 2037
 +++
 
-この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/fulltext/)を書きました。
+この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/firebase/fulltext/)を書きました。
 
 ## AlgoliaからTypeSenseへ切り替えは可能か？{#switching_from_algolia_to_typesense}
 

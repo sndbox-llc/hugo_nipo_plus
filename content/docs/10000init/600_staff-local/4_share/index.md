@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/staff-local/share/"
-aliases = ["/docs/manual/initial-setting/staff-local/share/"]
+#aliases = []
 title = "⛔アカウントの共用"
 menuTitle = "⛔アカウントの共用"
 description = "用途として限定的な機能です。人数分の端末が用意できない際にご利用ください"

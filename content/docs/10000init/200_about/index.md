@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/_about/"
-aliases = ["/docs/manual/initial-setting/_about/"]
+#aliases = []
 title = "組織とグループ"
 menuTitle = "組織とグループ"
 description = "NipoPlusにおける組織とグループの基本構造と役割を具体的に解説。組織内でどのようにグループを作成し、スタッフを管理するか、また日報のやり取りがグループ単位で行われる仕組みについて学びます。小規模組織でのグループ分けのメリットや、管理者によるアクセス権限の設定方法も紹介します。"
@@ -27,7 +27,7 @@ NipoPlusを使い始める上で、知っておきたい3つの大切な言葉�
 <dt><a href="/docs/setup/make-group/">グループ</a></dt>
 <dd>「組織」の中に作る、<strong>日報のやり取りが行われる「場所」</strong>です。部署や部門、支店ごとに分けたり、「新人研修会」のように一時的な利用目的で作ることも可能です。<br>利用開始直後は「サンプルグループ」が自動で作成された状態でスタートします。</dd>
 <dt>スタッフ</dt>
-<dd>NipoPlusの<strong>利用者アカウント</strong>のことです。<a href="/docs/setup/staff-global/make/">組織内にアカウントを作成</a>した後、管理者がそのスタッフを任意の<a href="/docs/setup/staff-global/manage/#join_staff">グループに所属</a>させます。<br>1人のスタッフが複数のグループに所属することもできます。</dd>
+<dd>NipoPlusの<strong>利用者アカウント</strong>のことです。<a href="/docs/setup/staff-global/make/">組織内にアカウントを作成</a>した後、管理者がそのスタッフを任意の<a href="/docs/setup/staff-global/make/#join_staff">グループに所属</a>させます。<br>1人のスタッフが複数のグループに所属することもできます。</dd>
 </dl>
 
 ## 構造の具体的なイメージ例 {#about_group}
@@ -40,7 +40,7 @@ NipoPlusの「組織」「グループ」「スタッフ」の関係性は、あ
 - **グループ ＝ チームやプロジェクトごとのチャンネル**
 - **スタッフ ＝ 各チャンネルに参加するメンバー**
 
-[新規にNipoPlusを始める](/docs/manual/quickstart/#create_acount)と、お客様の組織が自動的に作成され、その中に1つのグループ（サンプルグループ）と1つのアカウント（管理者）が登録された状態でスタートします。
+[新規にNipoPlusを始める](/docs/setup/quickstart/#create_acount)と、お客様の組織が自動的に作成され、その中に1つのグループ（サンプルグループ）と1つのアカウント（管理者）が登録された状態でスタートします。
 （管理者はサンプルグループに所属した状態で開始される）
 
 <img src="img/tree.svg" />
@@ -100,4 +100,4 @@ NipoPlusの「組織」「グループ」「スタッフ」の関係性は、あ
 
 {{< link-card title="新しいグループを作成する"  description=""  href="/docs/setup/make-group/" >}}
 {{< link-card title="スタッフのアカウントを追加する"  description=""  href="/docs/setup/staff-global/make/" >}}
-{{< link-card title="追加したスタッフを各グループに所属させる"  description=""  href="/docs/setup/staff-global/manage/#join_staff" >}}
+{{< link-card title="追加したスタッフを各グループに所属させる"  description=""  href="/docs/setup/staff-global/make/#join_staff" >}}

@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/staff-global/"
-aliases = ["/docs/manual/initial-setting/staff/"]
+#aliases = []
 title = "組織のスタッフ管理"
 menuTitle = "組織のスタッフ管理"
 description = ""

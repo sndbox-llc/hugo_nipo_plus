@@ -1,6 +1,5 @@
 +++
 url = "/docs/manual/customer/reportlist/"
-
 title = "顧客対応メモを見る"
 menuTitle = "顧客対応メモの閲覧"
 description = ""
@@ -8,7 +7,7 @@ toc = true
 weight = 50850
 +++
 
-{{< callout context="note" title="顧客機能がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 ## 顧客メモ一覧表示について{#customer_report_list}
 

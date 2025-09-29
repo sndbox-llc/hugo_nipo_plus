@@ -1,7 +1,7 @@
 
 [[main]]
   name = "📖操作ガイド"
-  url = "/docs/manual/quickstart/"
+  url = "/docs/setup/quickstart/"
   weight = 10
 [[main]]
   name = "逆引き辞典"

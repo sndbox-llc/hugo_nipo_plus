@@ -1,6 +1,5 @@
 +++
 url = "/docs/manual/customer/report/"
-
 title = "顧客対応メモ"
 menuTitle = "顧客対応メモの作成"
 description = ""
@@ -8,7 +7,7 @@ toc = true
 weight = 50840
 +++
 
-{{< callout context="note" title="顧客機能がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 顧客に対して何かしらのアクションがあったとき、「顧客応対メモ」を使って記録を残す事が出来ます。通常の日報とは少し異なる特性があります。
 

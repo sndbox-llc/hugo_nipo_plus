@@ -1,6 +1,6 @@
 +++
 url = "/tech/js/flexheight/"
-aliases = ["/tech/flexheight/"]
+#aliases = []
 title = "Quasar Framework QCardの高さを揃えて見た目を良くする"
 menuTitle = "Quasar Qcardの見た目を整える"
 description = "Quasar FrameworkのGridを使ってQcardの高さを揃える"

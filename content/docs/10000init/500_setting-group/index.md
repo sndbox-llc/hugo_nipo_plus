@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/setting-group/"
-aliases = ["/docs/manual/initial-setting/setting-group/"]
+#aliases = []
 title = "⚙️ グループの基本設定"
 menuTitle = "グループの基本設定"
 description = "NipoPlusのグループは「自治権」を持つ独立した管理単位です。このページでは、グループ内で日報運用を最適化するための基本設定（テーマカラー、共有モード、機能の有効/無効など）について解説します。編集者以上の権限が必要です。"

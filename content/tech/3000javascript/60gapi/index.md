@@ -1,6 +1,6 @@
 +++
 url = "/tech/js/gapi/"
-aliases = ["/tech/gapi/"]
+#aliases = []
 title = "Vue.js（ts）でGoogle API(gapi)を使いカレンダーを取得するまで"
 menuTitle = "gapiを使いカレンダーを取得"
 description = "GAPIを使うまでの流れ"

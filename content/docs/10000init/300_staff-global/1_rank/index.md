@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/staff-global/rank/"
-aliases = ["/docs/manual/initial-setting/staff/rank/"]
+#aliases = []
 title = "🔑スタッフの権限：役割とできること"
 menuTitle = "🔑権限について"
 description = "NipoPlusにおけるスタッフアカウントの権限について解説します。権限の種類によって操作できる範囲や表示される画面が異なります。管理者、編集者、スタッフの主要な権限と、限定的な用途の権限について理解し、あなたの会社に最適な役割設定を行いましょう。"

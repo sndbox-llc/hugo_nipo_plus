@@ -8,7 +8,7 @@ toc = true
 weight = 50810
 +++
 
-{{< callout context="note" title="顧客機能がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 {{< callout context="caution" title="先に[顧客テンプレート](/docs/template/customer/)の設定を済ませておきましょう" icon="outline/info-circle" />}}
 

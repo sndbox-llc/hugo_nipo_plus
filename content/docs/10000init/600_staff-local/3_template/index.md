@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/staff-local/template/"
-aliases = ["/docs/manual/initial-setting/staff-local/template/"]
+#aliases = []
 title = "🚫 スタッフが利用できるテンプレートを制限する"
 subtitle = "現場の混乱を防ぎ、日報をスムーズに"
 menuTitle = "🚫利用可能テンプレートの制限"

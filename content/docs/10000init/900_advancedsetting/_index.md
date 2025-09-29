@@ -1,6 +1,6 @@
 +++
 url = "/docs/setup/advanced-setting/"
-aliases = ["/docs/manual/initial-setting/advanced-setting/"]
+#aliases = []
 title = "応用設定"
 menuTitle = "応用設定"
 description = ""

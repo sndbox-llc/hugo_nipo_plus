@@ -1,6 +1,6 @@
 +++
 url = "/docs/template/selects/"
-aliases = ["/docs/manual/initial-setting/template/selects/"]
+#aliases = []
 title = "🧩選択入力フォーム - プルダウン・チェックボックスで定型入力を効率化"
 menuTitle = "🧩選択入力系"
 description = "NipoPlusの選択入力フォームは、日報、点検シート、業務報告書などで、予め用意した回答リストから選ぶだけで入力できる効率的な機能です。ラジオボタン、チェックボックス、プルダウンなど多様な形式に対応し、キーボード入力不要でデータ入力の効率化と品質統一を実現。製造業の品質チェックや設備点検、アンケートなどに最適です。"

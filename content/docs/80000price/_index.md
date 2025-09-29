@@ -1,6 +1,5 @@
 +++
 url = "/docs/price/"
-aliases = ["/docs/price/_about/"]
 menuTitle = "💰️料金"
 title = "料金プラン概要｜無料から始められるシンプル料金"
 description = "NipoPlusの料金プランについてご紹介します。1ヶ月の無料トライアルから、機能制限付きの無料プラン、月額180円からの有料プランまで、御社の規模に合わせた最適な選択肢をご案内します。"
@@ -102,7 +101,7 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 | [houren.so](https://www.houren.so/)                | <span style="color:blue">不明</span> | <span style="color:blue">不明</span> |                                                     2,500円 | 無料有                           |
 | [FieldPlus](https://www.fieldplus.net/price/)      |                                500円 | <span style="color:blue">不明</span> |                                                     5,500円 | 基本料5,000円                    |
 | [Gamba](https://www.getgamba.com/price/)           |                                980円 |                                  5名 |                                                     4,900円 | 税別                             |
-| [未来日報](https://www.mirairepo.net/)         |                                330円 |                                 20名 |                                                     6,600円 |
+| [未来日報](https://www.mirairepo.net/)             |                                330円 |                                 20名 |                                                     6,600円 |
 | [Nanoty](https://www.nanotybp.jp/price/)           |                                600円 |                                 20名 |                                                    12,000円 |
 | [i-Reporter](https://i-reporter.jp/)               | <span style="color:blue">不明</span> |                                  5名 |                                                    37,500円 | 初期費用50,000円                 |
 

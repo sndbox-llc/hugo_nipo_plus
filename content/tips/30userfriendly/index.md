@@ -6,7 +6,7 @@ description = "NipoPlusでどんな日報テンプレートが作れるのか気
 toc = true
 date = "2023-04-01"
 weight = 30
-aliases= ["/tips/userfriendly/"]
+#aliases= []
 
 [sitemap]
   priority = 0.9

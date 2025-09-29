@@ -1,6 +1,6 @@
 +++
 url = "/docs/template/array/"
-aliases = ["/docs/manual/initial-setting/template/array/"]
+#aliases = []
 title = "🧩反復入力フォーム - 複数行・繰り返し発生する作業や記録の管理に"
 menuTitle = "🧩反復入力"
 description = "NipoPlusの反復入力フォームは、日報の作業時間記録、製造工程の進捗記録、設備点検の項目別記録など、繰り返し発生するデータを行単位で自由に増やして入力できるテンプレートパーツです。可変行の表形式で、作業内容や点検結果を効率的に記録・管理し、業務の標準化とデータの一覧性を高めます。"

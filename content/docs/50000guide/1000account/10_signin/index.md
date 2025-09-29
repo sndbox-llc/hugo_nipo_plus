@@ -32,9 +32,9 @@ E-mailとパスワードの組み合わせが正しくない場合はログイ�
 <dt>User ID</dt>
 <dd>現在ログイン中のアカウントのIDです。IDは変更できません</dd>
 <dt>名前</dt>
-<dd>現在ログイン中のアカウントにセットされた名前です。<a href="/docs/setup/staff-global/manage/#change_staff_data">名前の変更</a>は組織設定から行います。<a href="/docs/setup/staff-global/rank/">管理者権限</a>が必要です</dd>
+<dd>現在ログイン中のアカウントにセットされた名前です。<a href="/docs/setup/staff-global/make/#change_staff_data">名前の変更</a>は組織設定から行います。<a href="/docs/setup/staff-global/rank/">管理者権限</a>が必要です</dd>
 <dt>権限</dt>
-<dd>現在ログイン中のアカウントの権限です。<a href="/docs/setup/staff-global/manage/#change_staff_data">権限の変更</a>は<a href="/docs/setup/staff-global/rank/">管理者権限</a>が必要です</dd>
+<dd>現在ログイン中のアカウントの権限です。<a href="/docs/setup/staff-global/make/#change_staff_data">権限の変更</a>は<a href="/docs/setup/staff-global/rank/">管理者権限</a>が必要です</dd>
 <dt>EMAIL</dt>
 <dd>ログイン中のアカウントが使用しているEmailです。ログイン時に使用します。各自で独自に修正することも、管理者が変更することもできます</dd>
 <dt>パスワード</dt>

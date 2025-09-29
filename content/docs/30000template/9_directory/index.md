@@ -1,6 +1,5 @@
 +++
 url = "/docs/template/directory/"
-aliases = ["/docs/manual/initial-setting/template/directory/"]
 title = "📂テンプレートのフォルダ管理 - 膨大な業務フォームを効率的に整理"
 menuTitle = "📂フォルダによる管理"
 description = "NipoPlusのフォルダ機能は、日報、点検シート、業務報告書など、増え続けるテンプレートを効率的に分類・管理するための機能です。製造業における膨大な点検シートの管理や、部署・用途ごとの業務フォーム整理に最適。直感的なフォルダ分けで、必要なテンプレートを素早く見つけ、業務効率を大幅に向上させます。"

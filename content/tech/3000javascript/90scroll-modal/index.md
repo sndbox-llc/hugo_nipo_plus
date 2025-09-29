@@ -1,6 +1,6 @@
 +++
 url = "/tech/js/scroll-modal/"
-aliases = ["/tech/scroll-modal/"]
+#aliases = []
 title = "QuasarのQ-Dialog内で目的の場所へスクロールさせる処理を書く"
 menuTitle = "目的の位置へスクロールさせるJavaScript"
 description = "Javascriptで特定のDOM要素までスクロールさせる処理（Modal内）について"

@@ -1,5 +1,4 @@
 +++
-aliases = ["/lp/phone/"]
 url = "/lp/phone/"
 title = "スマートフォンで手軽に日報作成"
 menuTitle = "スマートフォンで手軽に日報作成"

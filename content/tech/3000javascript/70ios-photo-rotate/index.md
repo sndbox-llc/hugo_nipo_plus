@@ -1,6 +1,6 @@
 +++
 url = "/tech/js/ios-photo-rotate/"
-aliases = [ "/tech/ios-photo-rotate/"]
+#aliases = []
 title = "iOS13.4.1で写真をアップロードすると画像が横向きになる問題"
 menuTitle = "iOS13.4.1における写真回転問題"
 description = "iOSで撮影した画像をブラウザにアップすると画像が勝手に変な方向に回転するという経験はありませんか？Androidでは発生しませんがiOSではこの問題がよく起こります。この問題に対する解決に奔走したときのお話です"

@@ -1,6 +1,6 @@
 +++
 url = "/tech/firebase/coldstart/"
-aliases = ["/tech/coldstart/"]
+#aliases = []
 title = "Cloud Functionsのコールドスタートを回避する"
 menuTitle = "Cloud Functionsのコールドスタートを回避する"
 description = "Firebase Cloud Functionsのコールドスタートに関する問題をcronで定期的に実行して回避する"

@@ -1,6 +1,6 @@
 +++
 url = "/docs/template/text/"
-aliases = ["/docs/manual/initial-setting/template/text/"]
+#aliases = []
 title = "🧩文字入力フォーム - 日報・点検記録・報告書の自由記述欄に"
 menuTitle = "🧩文字入力"
 description = "NipoPlusの文字入力フォームは、日報の本文、点検時の所見、作業メモ、引き継ぎ事項など、あらゆるテキスト情報を自由に記述するための入力エリアです。改行対応で、文字数制限のない詳細な報告や記録に最適。シンプルな操作で、あなたの日報やチェックシートに欠かせない自由記述欄を追加できます。"

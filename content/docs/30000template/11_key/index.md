@@ -1,6 +1,6 @@
 +++
 url = "/docs/template/key/"
-aliases = ["/docs/manual/initial-setting/template/key/"]
+#aliases = []
 title = "【応用】キーについて - 削除した入力項目の復旧とデータ整合性"
 menuTitle = "【応用】キーについて"
 description = "NipoPlusのテンプレートで入力フォームを削除してしまい、過去の日報データが見えなくなった場合の復旧方法を解説します。日報データの「キー（識別子）」の概念と、それを手動で再設定することで、大切な過去の記録を正しく表示させるための手順を、専門知識がない方にも分かりやすく説明します。"

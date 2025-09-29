@@ -1,6 +1,6 @@
 +++
 url = "/docs/template/customer/"
-aliases = ["/docs/manual/initial-setting/template/key/"]
+#aliases = []
 title = "👨‍💼👩‍💼顧客テンプレート"
 menuTitle = "👨‍💼👩‍💼顧客テンプレート"
 description = ""

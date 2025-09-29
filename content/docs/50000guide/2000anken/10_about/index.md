@@ -7,7 +7,7 @@ toc = true
 weight = 52010
 +++
 
-{{< callout context="note" title="案件がメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
+{{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 イメージしやすいようにここでは建築業をベースに解説します。
 建築業であれば「宇都宮市１丁目道路工事」や「●●様宅改装」「鬼怒川橋建築」など１つ１つの現場を案件として管理できます。

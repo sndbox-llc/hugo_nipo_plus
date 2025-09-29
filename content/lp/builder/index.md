@@ -51,7 +51,7 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 <h3>未提出者の早期発見が簡単</h3>
 <p>日報の提出状況が一目でわかるので、未提出をすぐに発見し、迅速に対応できます。ペーパーレス化で効率的な管理を実現。</p>
 <div class="mt-auto">
-{{< link-card title="提出状況表" description="コラム記事"  href="/lp/required/" >}}
+{{< link-card title="提出状況表" description="コラム記事"  href="/lp/template/#require_input" >}}
 
 </div>
 </div>

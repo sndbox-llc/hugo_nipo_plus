@@ -175,8 +175,8 @@ PCだと写真取り込むのもひと手間必要でしたが、スマホはこ
 
 <div class="row rounded-3 border shadow-lg">
 <h2 class="display-4 fw-bold text-body-emphasis lh-1 pt-4">チャット日報のデータ、エクセルに転記してませんか？</h2>
-
 <p class="lead fw-bold pt-5 fs-4" >▶ Nipo Plusなら転記不要です</p>
+<hr>
 
 <div class="col-lg-7">
 <p class="lead">

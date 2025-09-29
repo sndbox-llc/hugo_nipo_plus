@@ -1,13 +1,11 @@
 +++
 url = "/docs/manual/calendar/table/"
-
 title = "表カレンダーについて"
 menuTitle = "表カレンダー"
 description = "スタッフごとに日報や予定を管理できる「表カレンダー」機能について解説します。スタッフごとの進捗状況を一目で把握し、効率的に作業を管理できます。"
 toc = true
 weight = 50440
-tags = ["有料プラン限定"]
-
+tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "料金について", "有料プラン限定", "DX化・業務効率化"]
 +++
 
 {{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

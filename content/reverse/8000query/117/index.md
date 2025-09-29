@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 117
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["日常業務編", "データ活用編", "CSV・PDF出力", "FAQ・トラブルシューティング"]
 +++
 
 申し訳ございません。現時点では不可能です。

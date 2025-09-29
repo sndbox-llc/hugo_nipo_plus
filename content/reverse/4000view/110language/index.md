@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 110
 date = "2024-10-03"
-tags = ["個人設定"]
-
+tags = ["日常業務編"]
 +++
 
 ## 日本語・英語から選択します{#select_language}

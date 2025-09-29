@@ -1,13 +1,11 @@
 +++
 url = "/docs/manual/calendar/dayly/"
-
 title = "日カレンダーの使い方"
 menuTitle = "日カレンダー"
 description = "日カレンダーに日報や予定を表示し、スタッフ別に1日のスケジュールを管理できます。会議の設定や業務調整に役立つ機能です。"
 toc = true
 weight = 50450
-tags = ["有料プラン限定"]
-
+tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "料金について", "有料プラン限定", "DX化・業務効率化"]
 +++
 
 {{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

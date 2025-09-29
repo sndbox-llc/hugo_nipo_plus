@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 112
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["日常業務編", "日報の管理", "データ活用編", "DX化・業務効率化", "FAQ・トラブルシューティング"]
 +++
 
 はい、可能です。

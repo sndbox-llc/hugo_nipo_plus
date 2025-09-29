@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 113
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["初期設定編", "日常業務編", "料金について", "DX化・業務効率化", "FAQ・トラブルシューティング"]
 +++
 
 はい、もちろん大丈夫です。

@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 100
 date = "2024-10-03"
-tags = ["個人設定"]
-
+tags = ["日常業務編", "日報の管理", "DX化・業務効率化"]
 +++
 
 ## 起動時に最初にロードされるグループの指定{#default_group}

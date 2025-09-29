@@ -6,8 +6,7 @@ menuTitle = "🔐提出先の固定と閲覧権限"
 description = "NipoPlusの「提出先の固定」機能は、現場スタッフの誤操作を防ぎ、日報提出の手間を大幅に削減します。管理者側が事前に日報の提出先や共有先を固定する方法を解説。この設定を行うことで、日報の提出をスムーズにし、管理を効率化できます。"
 toc = true
 weight = 10602
-tags = ["編集者権限", "スタッフ管理"]
-
+tags = ["日常業務編", "日報の管理", "要編集者権限", "権限について", "スタッフ管理", "DX化・業務効率化"]
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 132
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["データ活用編", "データ集計分析", "CSV・PDF出力", "DX化・業務効率化", "FAQ・トラブルシューティング"]
 +++
 
 kintoneとの専用連携機能は提供しておりませんが、いくつかの方法があります。

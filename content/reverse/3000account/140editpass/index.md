@@ -7,8 +7,7 @@ isDictionaly = true
 toc = false
 weight = 3140
 date = "2024-12-05"
-tags = ["アカウント設定", "管理者権限"]
-
+tags = ["日常業務編", "日報の管理", "要管理者権限"]
 +++
 
 ## 管理者がスタッフのパスワードを強制的に変更できます{#update_pass_word}

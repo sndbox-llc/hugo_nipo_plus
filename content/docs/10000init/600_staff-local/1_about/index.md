@@ -6,7 +6,7 @@ menuTitle = "👤グループ内のスタッフ管理"
 description = "NipoPlusのグループ内でスタッフの役割を詳細に設定する方法を解説します。日報の提出先固定、使用可能テンプレートの制限など、チームごとの柔軟な運用を可能にする設定について学びましょう。組織全体のスタッフ管理との違いも明確に説明します。"
 toc = true
 weight = 10601
-tags = ["スタッフ管理", "編集者権限"]
+tags = ["日常業務編", "日報の管理", "要編集者権限", "権限について", "スタッフ管理"]
 +++
 
 {{< callout context="caution" title="[組織のスタッフ管理についてはこちら](/docs/setup/staff-global/make/)です" icon="outline/info-triangle" />}}

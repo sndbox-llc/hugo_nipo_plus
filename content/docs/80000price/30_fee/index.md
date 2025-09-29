@@ -1,13 +1,11 @@
 +++
 url = "/docs/price/fee/"
-
 title = "【月額180円/名】有料プラン（自動更新あり）でNipoPlus全機能を活用"
 menuTitle = "💳有料プラン（自動更新有）"
 description = "NipoPlusの有料プランは、月額180円/名（5名〜）で全機能が利用できるサブスクリプションです。自動更新で継続利用もスムーズ。お申し込み方法から詳細までご案内します。"
 toc = true
 weight = 80030
-tags = ["Web版限定", "管理者権限"]
-
+tags = ["初期設定編", "日常業務編", "料金について", "有料プラン限定", "DX化・業務効率化", "要管理者権限"]
 +++
 
 {{< callout context="note" title="本ページは自動更新有りです。[自動更新無しのお申込みはこちら](/docs/price/invoice/)" icon="outline/info-circle" />}}

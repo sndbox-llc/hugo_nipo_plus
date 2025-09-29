@@ -6,8 +6,7 @@ menuTitle = "🏷タグによるデータ管理"
 description = "NipoPlusのタグ機能は、日報や点検シート、各種データに目印や検索キーワードとして自由に設定できます。情報の整理や業務効率化に役立つタグの作成・管理方法をご紹介します。"
 toc = true
 weight = 10910
-tags = ["編集者権限", "データ管理", "日報検索", "タグによる管理"]
-
+tags = ["日常業務編", "データ集計分析", "DX化・業務効率化", "要編集者権限"]
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

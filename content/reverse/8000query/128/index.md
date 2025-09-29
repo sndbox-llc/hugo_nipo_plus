@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 128
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["日常業務編", "FAQ・トラブルシューティング"]
 +++
 
 Amazonタブレットが手元に無いため、「使える」と断言することはできません。

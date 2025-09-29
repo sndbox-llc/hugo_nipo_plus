@@ -6,8 +6,7 @@ menuTitle = "テンプレートの複製、削除等"
 description = "NipoPlusでは、一度作成したテンプレートをコピー・インポートして効率的に再利用できます。特に製造業における類似の点検シートや作業報告書の作成を効率化。不要になったテンプレートの安全な無効化・削除方法も解説し、テンプレート管理を最適化します。"
 toc = true
 weight = 30710
-tags = ["テンプレート複製",  "テンプレート管理",  "テンプレート", "PDF出力", "編集者権限"]
-
+tags = ["日常業務編", "データ活用編", "テンプレート管理", "DX化・業務効率化", "要編集者権限", "CSV・PDF出力"]
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

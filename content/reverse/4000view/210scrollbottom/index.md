@@ -7,8 +7,7 @@ isDictionaly = true
 toc = false
 weight = 210
 date = "2024-10-03"
-tags = ["個人設定"]
-
+tags = ["日常業務編", "DX化・業務効率化"]
 +++
 
 ## レポートが長い場合は一気に提出ボタンまでスクロールするボタンを配置できます{#scroll_to_bottom}

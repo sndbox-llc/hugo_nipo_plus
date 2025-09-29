@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 135
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["日常業務編", "FAQ・トラブルシューティング"]
 +++
 
 通常、NipoPlusでは一度ログインすると、「意図的にログアウトしない限り」ログイン状態を維持しつづけます。

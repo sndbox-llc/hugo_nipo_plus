@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 130
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["日常業務編", "料金について", "有料プラン限定", "請求書・領収証", "FAQ・トラブルシューティング"]
 +++
 
 NipoPlusnにはそもそも「注文書」という概念がありません。

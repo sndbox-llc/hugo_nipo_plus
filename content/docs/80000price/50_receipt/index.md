@@ -5,8 +5,7 @@ menuTitle = "🧾領収証の発行"
 description = "NipoPlus（ニポプラス）の有料プランでお支払いいただいた領収証は、Web版の管理画面から簡単にダウンロードできます。インボイス制度にも対応。"
 toc = false
 weight = 80050
-tags = ["Web版限定", "管理者権限", "領収証", "インボイス制度"] 
-
+tags = ["初期設定編", "料金について", "有料プラン限定", "請求書・領収証", "DX化・業務効率化", "要管理者権限", "FAQ・トラブルシューティング"]
 +++
 
 {{< callout context="note" title="【重要】NipoPlus（現行版）の領収証について" icon="outline/info-circle" >}}

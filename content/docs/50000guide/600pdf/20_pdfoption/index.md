@@ -1,13 +1,11 @@
 +++
 url = "/docs/manual/pdf/pdfoption/"
-
 title = "⚙️PDF出力の設定"
 menuTitle = "⚙️PDF出力の設定"
 description = "PDF出力のオプション設定について"
 toc = true
 weight = 50620
-tags = ["有料プラン限定", "CSV出力"]
-
+tags = ["初期設定編", "日常業務編", "データ活用編", "テンプレート管理", "CSV・PDF出力", "料金について", "有料プラン限定", "DX化・業務効率化"]
 +++
 
 PDFの出力オプションは大きく分けて２種類有ります。

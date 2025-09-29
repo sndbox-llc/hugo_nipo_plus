@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/account/signout/"
-
 title = "NipoPlusからログアウトしたい"
 menuTitle = "NipoPlusからログアウトしたい"
 description = "ログアウトの手順について"
@@ -8,8 +7,7 @@ isDictionaly = true
 toc = false
 weight = 3120
 date = "2024-10-03"
-tags = ["アカウント設定"]
-
+tags = ["日常業務編"]
 +++
 
 {{< callout context="note" title="[関連ページ](/docs/manual/account/signin/#signout)" icon="outline/info-circle" />}}

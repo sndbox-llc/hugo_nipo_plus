@@ -6,8 +6,7 @@ menuTitle = "🗣️語録の管理"
 description = "NipoPlusの語録機能は、選択式入力フォームの回答リスト（選択肢）を一元管理し、日報や点検シートなどの定型入力を劇的に効率化します。入力ミスの削減、データ品質の統一、業務の標準化に貢献する語録の作成、編集、整理、削除方法を詳しく解説。"
 toc = true
 weight = 10920
-tags = ["語録機能", "選択肢", "マスターデータ",  "業務効率化", "日報", "点検シート", "入力フォーム", "編集者権限"]
-
+tags = ["日常業務編", "テンプレート管理", "DX化・業務効率化", "要編集者権限"]
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

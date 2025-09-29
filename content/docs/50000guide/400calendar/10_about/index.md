@@ -1,13 +1,11 @@
 +++
 url = "/docs/manual/calendar/_about/"
-
 title = "日報や予定をまとめて表示できる万能管理画面です"
 menuTitle = "カレンダー概要"
 description = "カレンダー上に日報や予定が表示され、日別や月別に日報を管理できる便利なツールです。週ごとの確認やスタッフ別の予定管理にも対応しており、業務の効率化に役立ちます。"
 toc = true
 weight = 50410
-tags = ["有料プラン限定"]
-
+tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "料金について", "有料プラン限定", "DX化・業務効率化"]
 +++
 
 {{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

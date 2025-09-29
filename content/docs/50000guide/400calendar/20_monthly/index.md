@@ -1,13 +1,11 @@
 +++
 url = "/docs/manual/calendar/monthly/"
-
 title = "月カレンダーについて"
 menuTitle = "月カレンダー"
 description = "月カレンダー上で日報や予定を一目で確認し、効率的に管理できます。予定の追加や日報の閲覧も簡単に操作可能です。"
 toc = true
 weight = 50420
-tags = ["有料プラン限定"]
-
+tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "テンプレート管理", "料金について", "有料プラン限定", "DX化・業務効率化"]
 +++
 
 {{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

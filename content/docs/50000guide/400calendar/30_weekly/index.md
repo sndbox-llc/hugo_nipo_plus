@@ -1,13 +1,11 @@
 +++
 url = "/docs/manual/calendar/weekly/"
-
 title = "週カレンダーについて"
 menuTitle = "週カレンダー"
 description = "日報や予定を週単位で管理できる「週カレンダー」機能について詳しく解説します。予定の確認や管理が容易にでき、任意の期間も柔軟に設定可能です。"
 toc = true
 weight = 50430
-tags = ["有料プラン限定"]
-
+tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "料金について", "有料プラン限定", "DX化・業務効率化"]
 +++
 
 {{< callout context="note" title="カレンダがメニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}

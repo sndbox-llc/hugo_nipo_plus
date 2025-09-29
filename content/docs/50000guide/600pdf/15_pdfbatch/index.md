@@ -1,13 +1,11 @@
 +++
 url = "/docs/manual/pdf/pdfbatch/"
-
 title = "📄複数の日報をまとめてPDFに変換する"
 menuTitle = "📄PDF一括出力"
 description = "日報のデータをPDFに一括で変換します。"
 toc = true
 weight = 50615
-tags = ["有料プラン限定", "PDF出力"]
-
+tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "データ活用編", "CSV・PDF出力", "料金について", "有料プラン限定", "DX化・業務効率化"]
 +++
 
 {{< callout context="note" title="関連ページ案内" icon="outline/info-circle" >}}

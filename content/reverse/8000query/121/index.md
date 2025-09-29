@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 121
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["日常業務編", "データ活用編", "データ集計分析", "CSV・PDF出力", "DX化・業務効率化", "FAQ・トラブルシューティング"]
 +++
 
 可能です。CSV出力のオプション設定を操作してください。

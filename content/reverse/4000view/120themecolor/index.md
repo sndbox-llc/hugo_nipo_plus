@@ -7,8 +7,7 @@ isDictionaly = true
 toc = false
 weight = 120
 date = "2024-10-15"
-tags = ["編集者権限"]
-
+tags = ["日常業務編", "日報の管理", "DX化・業務効率化", "要編集者権限"]
 +++
 
 ## グループのテーマカラーを変えて視認性をUP{#theme_color}

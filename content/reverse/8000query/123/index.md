@@ -7,8 +7,7 @@ toc = false
 isDictionaly = true
 weight = 123
 date = "2025-09-22"
-tags = ["FAQ"]
-
+tags = ["日常業務編", "料金について", "有料プラン限定", "FAQ・トラブルシューティング"]
 +++
 
 この場合は37名全員分となります。

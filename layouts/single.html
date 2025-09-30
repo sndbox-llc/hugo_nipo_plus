@@ -1,5 +1,5 @@
 {{ define "main" }}
-	<div class="row flex-xl-nowrap">
+	<div class="row flex-xl-nowrap{{ if eq .Params.isNipo true }} legacyPage{{ end }}">
 		{{ if (in site.Params.doks.sectionNav .Section) -}}
 		{{- $pathParts := split .File.Path "/" }}
 		{{- $section := index $pathParts 0 }}

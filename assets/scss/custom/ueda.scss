@@ -11,6 +11,48 @@ h3 {
 h4 {
   color: $h4Color;
 }
+
+
+/** Nipo旧バージョン用スタイル */
+.legacyPage {
+  h1 { color: darkgreen; }
+  h2 { color: forestgreen; }
+  h3 { color: limegreen; }
+  h4 { color: seagreen; }
+}
+
+
+/** Excelページ */
+.excel {
+  h1 { color: darkgreen; }
+  h2 { color: forestgreen; }
+  h3 { color: limegreen; }
+  h4 { color: seagreen; }
+}
+/** 逆引き辞典用 */
+.reverse {
+  h1 { color: darkgoldenrod; }
+  h2 { color: sandybrown; }
+  h3 { color: chocolate; }
+  h4 { color: peru; }
+}
+
+/** 技術系ページ */
+.tech {
+  h1 {
+    color: mediumvioletred;
+  }
+  h2 {
+    color: hotpink;
+  }
+  h3 {
+    color: deeppink;
+  }
+  h4 {
+    color: palevioletred;
+  }
+}
+
 /* Algolia検索結果のハイライト */
 #app em {
   color: red;

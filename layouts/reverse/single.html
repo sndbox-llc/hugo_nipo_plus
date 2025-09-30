@@ -1,5 +1,5 @@
 {{ define "main" }}
-	<div class="row flex-xl-nowrap{{ if eq .Params.isNipo true }} legacyPage{{ end }}">
+	<div class="row flex-xl-nowrap reverse {{ if eq .Params.isNipo true }} legacyPage{{ end }}">
 		{{ if (in site.Params.doks.sectionNav .Section) -}}
 		{{- $pathParts := split .File.Path "/" }}
 		{{- $section := index $pathParts 0 }}
@@ -32,6 +32,7 @@
 					{{ else }}
 						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
 					{{end}}
+
 					</ol>
 				</nav>
 			{{ end }}
@@ -69,6 +70,9 @@
 					{{ partial "main/edit-page.html" . }}
 				{{ end -}}
 			</div>
+			{{ if eq .Params.isNipo true }}
+			{{ partial "custom/oldapp-warning.html" . }}
+		{{ end }}
 
 			{{ partial "main/docs-navigation.html" . }}
 
@@ -79,38 +83,9 @@
 				<div class="my-n3"></div>
 			{{ end -}}
 			-->
-			<!-- ブランチページのみ、一覧を出す -->
-			<aside>
-				<h2 style="border-bottom:2px solid purple">-関連記事-</h2>
-                <div class="row">
-                    {{ $currentSection := .CurrentSection }}
-                    {{ range where .Site.RegularPages.ByTitle "Section" .Section }}
-                        {{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
-                        <div class="col-16 col-md-8 my-3">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <a class="stretched-link card-title" style="font-weight: bold;" href="{{ .RelPermalink }}">
-                                        {{ .Params.title | title }} &rarr;
-                                    </a>
-                                    {{ with .Params.description }}
-                                        <p class="card-text mt-2" style="color: #888;font-size:16px">{{ . | truncate 50 }}</p>
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-                        {{ end }}
-					{{end}}
-				</div>
-			</aside>
-			{{ if eq .Params.isNipo true }}
-				{{ partial "custom/oldapp-warning.html" . }}
-			{{ end }}
-
-			<!-- ブランチ　ここまで -->
 		</main>
 		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
 			</div>
 		{{ end }}
 	</div>
-	
 {{ end }}

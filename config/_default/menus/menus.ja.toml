@@ -4,7 +4,7 @@
   url = "/docs/setup/quickstart/"
   weight = 10
 [[main]]
-  name = "逆引き辞典"
+  name = "🔍️FAQ"
   identifier = "reverse-lookup/about/about"
   url = "/reverse-lookup/"
   weight = 15

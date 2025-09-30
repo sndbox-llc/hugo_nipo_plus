@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/other/"
-
 title = "その他の逆引きガイド"
 menuTitle = "その他"
 description = "逆引きアーカイブ（その他の記事）"

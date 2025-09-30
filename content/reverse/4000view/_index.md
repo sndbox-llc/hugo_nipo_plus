@@ -1,6 +1,5 @@
 +++
 url = "/reverse-lookup/view/"
-
 title = "見た目の変更"
 menuTitle = "見た目の変更"
 description = "逆引きアーカイブ（見た目の変更）"

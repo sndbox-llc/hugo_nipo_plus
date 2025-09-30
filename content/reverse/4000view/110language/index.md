@@ -1,8 +1,8 @@
 +++
 url = "/reverse-lookup/view/language/"
 title = "日本語以外の言語に切り替えたい"
-menuTitle = "日本語以外の言語に切り替えたい"
-description = "日本語・英語に対応しています。"
+menuTitle = "使用言語を日本語以外に設定できますか？"
+description = "日本語・英語に対応した言語切り替え機能について解説します。端末ごとの設定手順、および設定が他アカウントに影響しない仕組みをご説明します"
 toc = false
 isDictionaly = true
 weight = 110

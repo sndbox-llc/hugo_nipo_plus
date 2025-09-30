@@ -1,8 +1,7 @@
 +++
 url = "/reverse-lookup/view/noticebar/"
-
-title = "スタッフ全員に通達したいとき"
-menuTitle = "スタッフ全員に通達したいとき"
+title = "グループ内の全員に伝達事項などを伝える効率的な方法はありませんか？"
+menuTitle = "全スタッフに目立つ形で通達する方法はありますか？"
 description = "グループ内の全スタッフに告知したい場合はバナー機能が便利です。画面上部に目立つ形で表示され、見落としません"
 isDictionaly = true
 toc = false

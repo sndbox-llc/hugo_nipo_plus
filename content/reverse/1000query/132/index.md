@@ -1,7 +1,7 @@
 +++
 url = "/reverse-lookup/query/132/"
 title = "こちらのサービスは、キントーンとの連携は可能でしょうか。"
-menuTitle = ""
+menuTitle = "kintoneとの連携は可能ですか？"
 description = ""
 toc = false
 isDictionaly = true
@@ -10,7 +10,8 @@ date = "2025-09-22"
 tags = ["データ活用編", "データ集計分析", "CSV・PDF出力", "DX化・業務効率化", "FAQ・トラブルシューティング"]
 +++
 
-kintoneとの専用連携機能は提供しておりませんが、いくつかの方法があります。
+## A:kintoneとの専用連携機能は提供しておりませんが、いくつかの方法があります。
+
 最も一般的な方法としてはCSV出力があります。
 CSV（カンマ区切り）は最もシンプルなデータ構造で、Nipo PlusのデータをCSVで出力ー＞KintoneにCSVで入力　という工程で取り込むことができます。
 

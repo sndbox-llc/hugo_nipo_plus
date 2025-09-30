@@ -84,13 +84,30 @@ h4 {
   }
 }
 
+
+
+:root {
+  // Light Mode のハイライト色 (デフォルト)
+  --highlight-text-color: #333;
+  --highlight-bg-color: rgba(255, 235, 59, 0.3);
+}
+
+[data-bs-theme="dark"] {
+  // Dark Mode のハイライト色
+  --highlight-text-color: #f8f9fa;
+  --highlight-bg-color: rgba(30, 144, 255, 0.4);
+}
+
 /** 強調表示 アンダーバーを引く */
 .content strong {
-  color: #333; /* やや濃いグレー */
+  // 💡 カスタムプロパティを使用
+  color: var(--highlight-text-color); 
   font-weight: 700;
-  background: linear-gradient(to bottom, transparent 70%, rgba(255, 235, 59, 0.3) 70%);
   padding: 0 2px;
+  background: linear-gradient(to bottom, transparent 70%, var(--highlight-bg-color) 70%);
 }
+
+
 /** 段落内のリンクを強調 */
 p {
   font-size: 1.1em;

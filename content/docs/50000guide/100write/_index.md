@@ -27,7 +27,7 @@ NipoPlusで日報を書く手順について解説するセクションです。
 何人でも何回でも引継が可能です。複数人で日報を書く仕組み上、誰がどこまで書いたのかをしっかり記録しないとトラブルのもとになります。  
 NipoPlusでは誰がどこまで書いたかを全て記録しているため、責任の所在をより明確に把握可能です。
 
-{{< link-card title="引継機能"  description="複数人で日報を書く際に便利です" href="/docs/manual/write-report/relation/">}}
+{{< link-card title="引継機能についてはこちら"  href="/docs/manual/write-report/relation/">}}
 
 ### 外部の利用者にも日報を書いてもらう{#external_user_report}
 
@@ -35,4 +35,4 @@ NipoPlusでは誰がどこまで書いたかを全て記録しているため、
 そんなときは外部利用機能を使えば問題解決。ログインしなくてもテンプレートに沿って普通に日報の作成が可能です。外部のスタッフさんに伝えるのはURLだけでOK.  
 うまく使えば顧客アンケートフォームのような使い方も可能です。
 
-{{< link-card title="外部利用"  description="アンケートにも使える外部利用機能" href="/docs/manual/write-report/outside/">}}
+{{< link-card title="外部利用についてはこちら"  href="/docs/manual/write-report/outside/">}}

@@ -82,7 +82,7 @@ NipoPlusでは、収集したデータをもとに、多様な視点で業務状
 
 {{<iTablet filename="img/stack" msg="各スタッフの訪問件数や生産数、点検時の異常報告回数など、累積表で比較して実績を把握しましょう" alice="ok">}}
 
-{{< link-card title="累積表について" description="操作ガイド" href="/docs/manual/analytics/accumn/" >}}
+{{< link-card title="累積表についてはこちら"  href="/docs/manual/analytics/accumn/" >}}
 
 ## 推移表 - データの傾向や変化の流れを把握{#line}
 
@@ -92,7 +92,7 @@ NipoPlusでは、収集したデータをもとに、多様な視点で業務状
 
 {{<iTablet filename="img/flow" msg="過去の点検データや生産数の推移など、データの変化の流れを把握するのに便利です。異常の兆候も発見しやすくなります" alice="ok">}}
 
-{{< link-card title="推移表について" description="操作ガイド" href="/docs/manual/analytics/transition/" >}}
+{{< link-card title="推移表についてはこちら"  href="/docs/manual/analytics/transition/" >}}
 
 ### グラフ作成 - データ傾向を視覚的に可視化{#charts}
 
@@ -102,7 +102,7 @@ NipoPlusでは、収集したデータをもとに、多様な視点で業務状
 
 {{<icatch filename="img/chart" msg="グラフはワンクリックでいつでも切り替え可能。日報や点検記録のデータを様々なグラフ形式で可視化し、分析に役立てましょう" alice="guide">}}
 
-{{< link-card title="グラフ化について" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+{{< link-card title="グラフ化についてはこちら"  href="/docs/manual/analytics/chart/" >}}
 
 ## 予定と実績の対比表 - 目標管理と進捗把握{#schedule}
 
@@ -113,7 +113,7 @@ NipoPlusでは、収集したデータをもとに、多様な視点で業務状
 
 {{<icatch filename="img/list" msg="予定と実績を比較し、進捗を管理します。生産計画の達成度や、日々の作業進捗を一目で把握できます" alice="guide">}}
 
-{{< link-card title="予定実績機能" description="操作ガイド" href="/docs/manual/analytics/progress/" >}}
+{{< link-card title="予定実績機能はこちら"  href="/docs/manual/analytics/progress/" >}}
 
 ## Excelを用いた集計・分析 - 柔軟なカスタム分析に{#excel}
 
@@ -129,4 +129,4 @@ NipoPlusの標準集計機能でカバーできない、より複雑な集計や
 
 NipoPlusから出力されるCSVデータは、Excelでの加工に非常に適した形式です。これにより、**紙のアンケート用紙のように手動で集計する手間をなくし**、**デジタルデータのメリットを最大限に活かした分析**が可能になります。
 
-{{< link-card title="Excelにて集計する" description="コラム記事" href="/excel/sales_report/" >}}
+{{< link-card title="Excel集計テクはこちら" href="/excel/sales_report/" >}}

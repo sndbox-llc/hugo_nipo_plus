@@ -26,7 +26,7 @@ tags = ["日常業務編", "料金について", "有料プラン限定", "請�
 
 【参考URL】
 
-{{< link-card title="自動更新あり"  href="/docs/price/fee/">}}
-{{< link-card title="自動更新無し"  href="/docs/price/invoice/">}}
-{{< link-card title="インボイス制度"  href="/docs/system/business-deal/#invoiceNo">}}
-{{< link-card title="領収証のダウンロード"  href="/docs/price/receipt/">}}
+{{< link-card title="自動更新ありはこちら"  href="/docs/price/fee/">}}
+{{< link-card title="自動更新無しはこちら"  href="/docs/price/invoice/">}}
+{{< link-card title="インボイス制度はこちら"  href="/docs/system/business-deal/#invoiceNo">}}
+{{< link-card title="領収証ダウンロードはこちら"  href="/docs/price/receipt/">}}

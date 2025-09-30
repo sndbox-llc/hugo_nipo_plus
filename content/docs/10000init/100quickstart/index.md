@@ -211,7 +211,7 @@ NipoPlusへようこそ！
 
 {{< /callout >}}
 
-{{< link-card title="マニュアル：グループの作成"  href="/docs/setup/make-group/" >}}
+{{< link-card title="グループの作成方法はこちら"  href="/docs/setup/make-group/" >}}
 
 {{<icatch filename="img/switch-group" msg="グループを分ければ、部署やプロジェクトごとの日報管理が格段にしやすくなります。管理も、日報提出もスムーズに！" alice="ok">}}
 
@@ -226,4 +226,4 @@ NipoPlusへようこそ！
 匿名アカウントは**パスワードが未登録**のため、ブラウザのキャッシュクリアなど、何らかの理由で接続情報が途絶えてしまうと、それまでのデータにアクセスできなくなる可能性があります。大切なデータを守るためにも、お早めの昇格をおすすめします。
 {{< /callout >}}
 
-{{< link-card title="匿名アカウントを正規アカウントへ昇格する手順"  href="/docs/manual/utils/tokumei/" >}}
+{{< link-card title="匿名を正規に昇格する手順はこちら"  href="/docs/manual/utils/tokumei/" >}}

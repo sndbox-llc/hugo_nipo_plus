@@ -1,8 +1,8 @@
 +++
 url = "/reverse-lookup/query/104/"
 title = "受信した日報を削除するにはどうすれば良いでしょうか。"
-menuTitle = ""
-description = ""
+menuTitle = "受信した日報を削除できますか？"
+description = "基本的に日報の削除は推奨されませんが、管理者権限で受信した日報や、他者が作成した日報を削除する方法を解説します。「一括削除」機能を利用する手順を説明。"
 toc = false
 isDictionaly = true
 weight = 104
@@ -10,10 +10,12 @@ date = "2025-09-22"
 tags = ["日常業務編", "日報の管理", "日報を受け取ったらやること", "要管理者権限", "FAQ・トラブルシューティング"]
 +++
 
+## A: 管理者権限で削除ができます
+
 基本的に日報は削除しないことを前提に設計されていますが、テストで作成した日報など、どうしても削除したいケースはあります。
 また、通常は自分が書いた日報以外削除することはできません。
 
 しかし管理者権限があればこれらの制限をバイパスして削除ができます。
 詳しくは「一括削除」を御覧ください。
 
-{{< link-card title="ゲスト権限"    href="/docs/manual/read-report/removereport/#batch_remove">}}
+{{< link-card title="一括削除についてはこちら" href="/docs/manual/read-report/removereport/#batch_remove">}}

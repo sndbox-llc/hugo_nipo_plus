@@ -17,8 +17,8 @@ weight = 1090
 NipoPlus上で集計やグラフを作ることが可能です。こちらの記事でできることを紹介しています。
 
 {{< card-grid >}}
-{{< link-card title="日報をワンクリックで集計" description="コラム記事"  href="/tips/analytics/" >}}
-{{< link-card title="集計"  description="操作ガイド"  href="/docs/manual/analytics/_about/" >}}
+{{< link-card title="分析はこちら" href="/tips/analytics/" >}}
+{{< link-card title="集計はこちら" href="/docs/manual/analytics/_about/" >}}
 {{< /card-grid >}}
 
 アプリからの集計は手軽で便利ですが、できることにどうしても限りがあります。より細かな集計や分析がしたい場合は日報のデータをCSVに出力してエクセル上から集計や分析を行うことが可能です。
@@ -63,7 +63,7 @@ CSVファイルがエクセルで次のように表示されます。
 なおCSVの項目は出力オプションで変更可能です。文書IDや提出者IDなど不要な項目は出力OFFにすることで見た目をスッキリさせることができます。
 詳しくはCSV出力オプション設定を御覧ください
 
-{{< link-card title="CSV出力設定" description="操作ガイド"  href="/docs/manual/analytics/csvoption/" >}}
+{{< link-card title="CSV出力設定についてはこちら"  href="/docs/manual/analytics/csvoption/" >}}
 
 CSV出力を使えばこのようにたくさんのバラバラなレポートを1枚のエクセルにまとめ、その後の様々な集計や分析が簡単に行えるようになります。
 テンプレートに沿ってフィールド分け（列が分かれる）されるので、集計や並べかえにも簡単にできます。

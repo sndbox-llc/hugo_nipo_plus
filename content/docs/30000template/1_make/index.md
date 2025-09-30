@@ -65,7 +65,7 @@ NipoPlusは、「**入力フォーム**」と呼ばれる様々なパーツ（�
 
 テンプレート作成では、**いかにスタッフの入力負担を軽減できるか？** を意識することが重要です。日報はもちろん、**日々の点検記録や業務報告**など、繰り返し行う入力作業を楽にする工夫をしましょう。
 
-{{< link-card title="日報入力の手間を減らす" description="楽をするのではない。効率化するのだ" href="/tips/templatesample/">}}
+{{< link-card title="日報入力の手間を減らす方法はこちら" href="/tips/templatesample/">}}
 
 ### Step2. テンプレートを新規作成する{#make_template}
 

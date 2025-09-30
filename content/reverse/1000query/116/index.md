@@ -27,8 +27,8 @@ Web版をスマートフォンにインストールすることで、この制�
 
 AndroidにWeb版（PWA版）をインストールする方法
 
-{{< link-card title="日報を簡単にPDF出力"    href="/docs/system/mobile-install/#android_usage">}}
+{{< link-card title="Androidにインストールはこちら" href="/docs/system/mobile-install/#android_usage">}}
 
 iOSにWeb版（PWA版）をインストールする方法
 
-{{< link-card title="日報を簡単にPDF出力"    href="/docs/system/mobile-install/#ios_usage">}}
+{{< link-card title="IOSにインストールはこちら" href="/docs/system/mobile-install/#ios_usage">}}

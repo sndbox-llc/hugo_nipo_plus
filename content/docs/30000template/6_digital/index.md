@@ -119,7 +119,7 @@ NipoPlusでは、多様な数値入力ニーズに応えるために、以下の
 
 {{<icatch filename="img/rate-charts" msg="日報に含まれるレートのデータを使って円グラフや折れ線グラフを作成できます。評価の傾向を視覚的に把握しましょう" alice="ok">}}
 
-{{< link-card title="日報をグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+{{< link-card title="日報のグラフ化についてはこちら"  href="/docs/manual/analytics/chart/" >}}
 
 【CSV出力】
 

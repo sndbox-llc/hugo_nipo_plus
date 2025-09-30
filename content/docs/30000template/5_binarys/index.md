@@ -98,7 +98,7 @@ NipoPlusの署名・イラストフォームは、スマートフォンやタブ
 写真アップロード時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/#fee)は中画質、[無料プラン](/docs/price/#free)は低画質）。<strong>鮮明な画像が必須の用途では、オリジナルファイルを別途ファイル入力フォームで添付することや、画質設定の確認を推奨します。</strong>
 {{< /callout >}}
 
-{{< link-card title="写真付き日報で業務の現場を明確に" description="コラム記事" href="/lp/phone/" >}}
+{{< link-card title="写真付き日報の作り方はこちら" href="/lp/phone/" >}}
 
 <details>
   <summary>詳細設定</summary>

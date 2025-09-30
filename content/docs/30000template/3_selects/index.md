@@ -187,9 +187,9 @@ NipoPlusの基本となる選択式入力フォームで、複数の回答候補
 
 出力形式を変えることができます。
 
-{{< link-card title="日報をグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+{{< link-card title="日報をグラフ化する方法はこちら"  href="/docs/manual/analytics/chart/" >}}
 
-{{< link-card title="CSV出力オプション" description="操作ガイド" href="/docs/manual/analytics/csvoption/" >}}
+{{< link-card title="CSV出力オプションについてはこちら"  href="/docs/manual/analytics/csvoption/" >}}
 
 **列展開がON**の場合のCSV出力例（ON/OFFの状態が個別の列に展開されます）
 

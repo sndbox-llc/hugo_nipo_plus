@@ -69,8 +69,8 @@ NipoPlusの有料プランは、**月額180円/名**から利用できる**GOLD�
 自動更新有りの方が、継続利用に便利でおすすめです。
 
 {{< card-grid >}}
-{{< link-card title="月額払い（自動更新有り）" description="1名180円の低価格。継続利用に便利" href="/docs/price/fee/" >}}
-{{< link-card title="都度払い（自動更新無し）" description="必要な期間をまとめて購入可能。請求書払いにも対応" href="/docs/price/invoice/" >}}
+{{< link-card title="月額払い（自動更新有り）はこちら"  href="/docs/price/fee/" >}}
+{{< link-card title="都度払い（自動更新無し）はこちら"  href="/docs/price/invoice/" >}}
 {{< /card-grid >}}
 
 ## 現在のプランを確認する{#current_plan}

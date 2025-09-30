@@ -66,7 +66,7 @@ NipoPlus（にぽぷらす）は、専門知識不要のノーコードで、機
 安い・早い・簡単な点検アプリはいかがですか？
 
 </p>
-{{< link-card title="テンプレート作成" description="操作ガイド" href="/docs/template/">}}
+{{< link-card title="テンプレート作成はこちら"  href="/docs/template/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/checksheet" msg="これはバルブ設備点検シートの例です。簡単に作れるよ"  alice="tablet" marginLess="true">}}
@@ -223,7 +223,7 @@ NipoPlusで入力された点検データはワンクリックで簡単にCSV出
 もしタブレットが無いならPCからでもNipoPlusを利用できます。タブレットに比べると少しかさばるかもしれませんが、問題なく利用できますよ。<br>
 また、CSV出力やテンプレートの作成はむしろPCからのほうが最適です。用途に応じて、PC・スマートフォン・タブレットを使い分けられるのも、Webアプリの大きな強みの１つです。
 
-{{< link-card title="モバイルデバイス対応"    href="/lp/phone/">}}
+{{< link-card title="モバイル活用術はこちら" href="/lp/phone/">}}
 
 </p>
 
@@ -252,7 +252,7 @@ NipoPlus（にぽぷらす）は、 **自由なテンプレートカスタマイ
 **点検業務**のDXをきっかけに、 **全社的な業務改善**を実現しませんか？
 
 </p>
-{{< link-card title="日報アプリとしての紹介ページ"   href="/">}}
+{{< link-card title="日報アプリとしての紹介ページはこちら" href="/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/seihin" msg="生産品の品質チェックとしても使えます"  alice="ok" marginLess="true">}}
@@ -279,7 +279,7 @@ NipoPlus（にぽぷらす）は、 **自由なテンプレートカスタマイ
 
 </p>
 
-{{< link-card title="ご利用料金"  description="無料版あり" href="/docs/price/">}}
+{{< link-card title="ご利用料金はこちら"  href="/docs/price/">}}
 
 </div>
 <div class="col-lg-9">

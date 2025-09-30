@@ -51,7 +51,7 @@ keywords = [
 カレンダーを使った日報管理はとても効率が良く、また相性も良いものです。
 
 </p>
-{{< link-card title="取説:月間カレンダー"  href="/docs/manual/calendar/monthly/">}}
+{{< link-card title="月間カレンダーはこちら"  href="/docs/manual/calendar/monthly/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/monthly-calendar" msg="これは月間カレンダー。他にもあるよ">}}
@@ -116,7 +116,7 @@ keywords = [
 もちろんタグ以外も「テンプレート」や「作成者」「日報の状態」など、様々な角度から検索ができます。
 
 </p>
-{{< link-card title="取説:日報を探す"  href="/docs/manual/read-report/list/">}}
+{{< link-card title="日報の検索はこちら"  href="/docs/manual/read-report/list/">}}
 </div>
 <div class="col-lg-9">
 {{<iTablet filename="img/tagSearch" msg="検索は日報管理システムの花形よ"  alice="here">}}
@@ -213,7 +213,7 @@ keywords = [
 すこし応用的な機能ですが、より厳格な管理がしたい場合には一つの補助ツールとしてお役に立つはずです。
 
 </p>
-{{< link-card title="取説:提出状況表"  href="/docs/manual/read-report/list/#teishutuMap">}}
+{{< link-card title="提出状況表についてはこちら"  href="/docs/manual/read-report/list/#teishutuMap">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/input-order" msg="入力順序の制御により工程飛ばしをブロックします"  alice="here">}}
@@ -246,7 +246,7 @@ NipoPlusの日報保存場所は実はたったの１箇所です。全ての日
 フォルダから開放された、シンプルな日報管理を始めてみませんか？
 
 </p>
-{{< link-card title="取説:提出状況表"  href="/docs/manual/read-report/list/#teishutuMap">}}
+{{< link-card title="提出状況表についてはこちら"  href="/docs/manual/read-report/list/#teishutuMap">}}
 </div>
 <div class="col-lg-9">
 

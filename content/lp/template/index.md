@@ -51,7 +51,7 @@ keywords = [
 NipoPlusならオリジナルの日報テンプレートを簡単に作成できます
 
 </p>
-{{< link-card title="取説:テンプレート作成"  href="/docs/template/">}}
+{{< link-card title="テンプレート作成はこちら"  href="/docs/template/">}}
 </div>
 <div class="col-lg-9">
 {{<iTablet filename="img/makeTemplate" msg="テンプレートを作っている画面。並べるだけの簡単操作"  alice="ok" marginLess="true">}}
@@ -211,7 +211,7 @@ NipoPlusではこの機能を「反復入力」と読んでいます。<br>
 
 </p>
 
-{{< link-card title="反復入力について"   href="/docs/template/array/">}}
+{{< link-card title="反復入力についてはこちら" href="/docs/template/array/">}}
 
 </div>
 <div class="col-lg-9">
@@ -240,7 +240,7 @@ NipoPlusでは様々な入力フォームがありますが、タブレットや
 スタイラスペンのもう一つの特徴はペンだから直筆サインにも使える点。例えば次の画像では直筆サインを埋め込んでいます。
 
 </p>
-{{< link-card title="スマートフォン・タブレットの最適な利用"  href="/lp/phone/" >}}
+{{< link-card title="スマホ・タブレット活用はこちら"  href="/lp/phone/" >}}
 
 </div>
 <div class="col-lg-9">
@@ -269,7 +269,7 @@ NipoPlusでは様々な入力フォームがありますが、タブレットや
 
 </p>
 
-{{< link-card title="算術フォームについて"  href="/docs/template/digital/#calc" >}}
+{{< link-card title="算術フォームについてはこちら"  href="/docs/template/digital/#calc" >}}
 
 </div>
 <div class="col-lg-9">
@@ -332,7 +332,7 @@ Excelなどでも少し工夫すれば作れますが、NipoPlusでもこのよ�
 </div>
 
 </p>
-{{< link-card title="ノーコードで動きのある日報を作る"     href="/docs/template/selects/#dinamic_switch_select">}}
+{{< link-card title="動きのある日報の作り方はこちら" href="/docs/template/selects/#dinamic_switch_select">}}
 
 </div>
 <div class="col-lg-9">

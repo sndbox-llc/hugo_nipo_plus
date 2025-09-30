@@ -26,14 +26,14 @@ collapsed = true
 意外にも、日報を紙に印刷したい企業は多くあります。その１つが「ハンコを押したい」というもの。  
 NipoPlusならアプリ上で「承認」を押すだけでハンコも押せます。まずは小さなところから、徐々にIT化を進めてみませんか？
 
-{{< link-card title="日報を承認する"  description="日報にコメントを書きコミュニケーションを促しましょう" href="/docs/manual/read-report/state/#agree">}}
+{{< link-card title="日報の承認はこちら"  href="/docs/manual/read-report/state/#agree">}}
 
 ## 日報に対してコメントを書いてみる{#comment_report}
 
 システムは人と人との繋がりもサポートします。日報に一言「お疲れ様」と書いてあげるだけでも、スタッフ同士のコミュニケーションの一助になります。  
 組織を運営するのは人です。人と人が気持ちよくコミュニケーションを取ることも、上席の重要な仕事です。面倒くさがらずに一言、コメント機能を活用してみて下さい。
 
-{{< link-card title="コメントを書く"  description="日報にコメントを書きコミュニケーションを促しましょう" href="/docs/manual/read-report/state/#comment">}}
+{{< link-card title="コメントの使い方はこちら"  href="/docs/manual/read-report/state/#comment">}}
 
 ## 日報を検索する{#search_report}
 
@@ -41,4 +41,4 @@ NipoPlusならアプリ上で「承認」を押すだけでハンコも押せま
 日報はどんどん増えていくので、目的の日報を効率よく探すための機能も充実しています。  
 人数が多い場合は未提出者を見つけるのも一苦労。でもNipoPlusなら提出状況表を使って簡単に提出状況を確認することも可能です。
 
-{{< link-card title="日報を探す"  description="目的の日報を素早く探す" href="docs/manual/read-report/list/">}}
+{{< link-card title="日報検索はこちら"  href="docs/manual/read-report/list/">}}

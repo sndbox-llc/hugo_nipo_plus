@@ -1,15 +1,35 @@
+:root {
+  // Light Mode のハイライト色 (デフォルト)
+  --highlight-text-color: #333;
+  --highlight-bg-color: rgba(255, 235, 59, 0.3);
+  --font-xxl: 3.5rem;
+  --font-xl: 2rem;
+  --font-lg: 1.75rem;
+  --font-md: 1.5rem;
+  --font-sm: 1.25rem;
+}
+
+[data-bs-theme="dark"] {
+  // Dark Mode のハイライト色
+  --highlight-text-color: #f8f9fa;
+  --highlight-bg-color: rgba(30, 144, 255, 0.4);
+}
+
 h1 {
   color: $baseColor;
-  font-size: 3.5rem;
+  font-size: var(--font-xxl)
 }
 h2 {
   color: $accentColor;
+  font-size: var(--font-xl);
 }
 h3 {
   color: $subColor;
+  font-size: var(--font-lg);
 }
 h4 {
   color: $h4Color;
+  font-size: var(--font-md);
 }
 
 
@@ -29,27 +49,41 @@ h4 {
   h3 { color: limegreen; }
   h4 { color: seagreen; }
 }
+
 /** 逆引き辞典用 */
 .reverse {
-  h1 { color: darkgoldenrod; }
-  h2 { color: sandybrown; }
-  h3 { color: chocolate; }
-  h4 { color: peru; }
+  h1 {
+    color: darkgoldenrod;
+    font-size: var(--font-xl);
+    &::before {
+      content: "Q: "; 
+    }
+  }
+  h2 {
+    color: sandybrown;
+    font-size: var(--font-lg);
+  }
+  h3 { color: chocolate; font-size: var(--font-md) }
+  h4 { color: peru;  font-size: var(--font-sm) }
 }
 
 /** 技術系ページ */
 .tech {
   h1 {
     color: mediumvioletred;
+    font-size: var(--font-xl);
   }
   h2 {
     color: hotpink;
+    font-size: var(--font-lg);
   }
   h3 {
     color: deeppink;
+    font-size: var(--font-md);
   }
   h4 {
     color: palevioletred;
+    font-size: var(--font-sm);
   }
 }
 
@@ -85,18 +119,6 @@ h4 {
 }
 
 
-
-:root {
-  // Light Mode のハイライト色 (デフォルト)
-  --highlight-text-color: #333;
-  --highlight-bg-color: rgba(255, 235, 59, 0.3);
-}
-
-[data-bs-theme="dark"] {
-  // Dark Mode のハイライト色
-  --highlight-text-color: #f8f9fa;
-  --highlight-bg-color: rgba(30, 144, 255, 0.4);
-}
 
 /** 強調表示 アンダーバーを引く */
 .content strong {

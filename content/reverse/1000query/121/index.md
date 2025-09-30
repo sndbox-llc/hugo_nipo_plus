@@ -14,6 +14,6 @@ tags = ["日常業務編", "データ活用編", "データ集計分析", "CSV�
 具体的には「列展開：OFF」にすることで、◯ではなく、選ばれたメニュー項目が出力されるようになります。
 詳しくはこちらのガイドを御覧ください。
 
-{{< link-card title="CSV出力設定"  href="/docs/manual/analytics/csvoption/#off_output_example">}}
+{{< link-card title="CSV出力設定はこちら"  href="/docs/manual/analytics/csvoption/#off_output_example">}}
 
 {{<iTablet filename="p1" msg="" alice="ok">}}

@@ -98,6 +98,6 @@ NipoPlusの「組織」「グループ」「スタッフ」の関係性は、あ
 
 グループ作成を先読みしたい方は関連リンクを乗せておきますので御覧ください。
 
-{{< link-card title="新しいグループを作成する"     href="/docs/setup/make-group/" >}}
-{{< link-card title="スタッフのアカウントを追加する"     href="/docs/setup/staff-global/make/" >}}
-{{< link-card title="追加したスタッフを各グループに所属させる"     href="/docs/setup/staff-global/make/#join_staff" >}}
+{{< link-card title="新しいグループを作成する" href="/docs/setup/make-group/" >}}
+{{< link-card title="スタッフのアカウントを追加する" href="/docs/setup/staff-global/make/" >}}
+{{< link-card title="追加したスタッフを各グループに所属させる" href="/docs/setup/staff-global/make/#join_staff" >}}

@@ -47,7 +47,7 @@ PCと違い、スマートフォンにはキーボードやマウスがありま
 NipoPlusのテンプレート作成を少し工夫することで、スマートフォンやタブレットからストレス無く日報の作成ができるテンプレートを作り上げることができます。<br>
 
 </p>
-{{< link-card title="テンプレート作成"  href="/lp/template/">}}
+{{< link-card title="テンプレート作成はこちら"  href="/lp/template/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/touch" msg="タップやスワイプと相性抜群"  alice="here">}}
@@ -71,7 +71,7 @@ PCだとSDカードを抜き差しして、ファイルを取り出して・・�
 <br>
 
 </p>
-{{< link-card title="写真入力フォーム"  href="/docs/template/binarys/#picture">}}
+{{< link-card title="写真入力フォームはこちら"  href="/docs/template/binarys/#picture">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/sample20"  msg="手軽に撮って手軽に添付♫"  alice="phone">}}
@@ -96,7 +96,7 @@ PCだとSDカードを抜き差しして、ファイルを取り出して・・�
 もちろん、これらの描いたデータをそのまま日報に添付することができます。PCではなかなか難しいことも、タブレットを使えばとても簡単に実現可能です。
 
 </p>
-{{< link-card title="署名入力フォーム"  href="/docs/template/binarys/#sign">}}
+{{< link-card title="署名入力フォームはこちら"  href="/docs/template/binarys/#sign">}}
 </div>
 <div class="col-lg-9">
 {{<figure src="img/pen2.webp"  alt="署名が終わりレポート画面に戻ると署名が埋め込まれています" caption="署名が終わりレポート画面に戻ると署名が埋め込まれています" >}}

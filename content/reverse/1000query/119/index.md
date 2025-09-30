@@ -19,7 +19,7 @@ E-mailがわかり、パスワードを忘れている場合は、パスワー�
 
 詳しいガイドはこちらに記載しています。▼
 
-{{< link-card title="初期設定"    href="/docs/manual/account/email/#forget">}}
+{{< link-card title="パスワード忘れはこちら" href="/docs/manual/account/email/#forget">}}
 
 【補足：メールがわからない・メールがダミー・メールが受信できない場合】
 
@@ -27,6 +27,6 @@ E-mailがわかり、パスワードを忘れている場合は、パスワー�
 その際は管理者が、各スタッフのログインパスワードを強制的に変更できます。
 詳しくはこちらのガイドを御覧ください。
 
-{{< link-card title="初期設定"    href="/docs/manual/account/email/#change_admin">}}
+{{< link-card title="管理者が変更する手順はこちら" href="/docs/manual/account/email/#change_admin">}}
 
 メールがわからない場合でも、上記手順では全スタッフのE-mailが記載されて確認ができますので、そこから推測が可能です。

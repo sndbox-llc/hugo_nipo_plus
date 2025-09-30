@@ -146,7 +146,7 @@ NipoPlusでは大きく分けて2種類の日付・時刻入力フォームを�
 
 {{<icatch filename="img/charts" msg="期間のデータ（単位：分）を使って棒グラフを作成してみました。作業時間の傾向、設備稼働率などを視覚的に把握できます。色々な分析が可能ですので、ぜひお試しください" alice="ok">}}
 
-{{< link-card title="日報をグラフ化する" description="操作ガイド" href="/docs/manual/analytics/chart/" >}}
+{{< link-card title="日報のグラフ化についてはこちら"  href="/docs/manual/analytics/chart/" >}}
 
 #### CSV出力{#csv_2}
 

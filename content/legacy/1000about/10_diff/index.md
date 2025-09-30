@@ -75,7 +75,7 @@ Nipo【旧版】ではFirebaseとTypesenseを使用していましたが、NipoP
 
 サーバコストの工夫により、人件費と並ぶWebアプリの主要なコスト要因を抑え、より経済的な価格設定を実現しています。
 
-{{< link-card title="ご利用料金" description="より明瞭で安価に" href="/docs/price/" >}}
+{{< link-card title="ご利用料金についてはこちら"  href="/docs/price/" >}}
 
 ## 新機能のピックアップ{#pickup}
 
@@ -101,7 +101,7 @@ Nipo【旧版】は１行に最大で２列までしか追加できなかった�
 他にも見出しの色変え機能や説明用画像の添付、入力順序の制御など、数多くの機能がNipoPlusにて実装されました。
 選択肢１に応じて他の選択肢が変化する[動的変化機能](/docs/template/selects/#dinamic_switch_select)など、ユニークな機能も追加されています。
 
-{{< link-card title="テンプレート概要" description="より自由度が高くなりました" href="/docs/template/make/" >}}
+{{< link-card title="テンプレート概要についてはこちら"  href="/docs/template/make/" >}}
 
 ### レポートの検索もこれまで以上に多機能に{#report_search}
 
@@ -145,7 +145,7 @@ Nipo【旧版】は画像データを出力するにはPDF出力するしかな�
 複数のグラフを作り、ワンクリックで切り替えも可能です。
 他にも多くの機能がありますがここに書くには内容が多すぎるのでよしておきましょう。詳しくはグラフ作成のページを御覧ください。
 
-{{< link-card title="グラフ作成" description="複合グラフや積み上げ縦棒などグラフの種類も大幅UP！" href="/docs/manual/analytics/chart/" >}}
+{{< link-card title="グラフ作成についてはこちら"  href="/docs/manual/analytics/chart/" >}}
 
 ### アプリ内の通知機能が実装{#notify}
 

@@ -138,4 +138,4 @@ Yesなら✔するだけのシンプルなテンプレートです。補足事�
 
 具体的なテンプレートの作成手順については以下のリンクを参照してください。
 
-{{< link-card title="テンプレートの作り方" description="操作ガイド" href="/docs/template/make/" >}}
+{{< link-card title="テンプレートの作り方はこちら"  href="/docs/template/make/" >}}

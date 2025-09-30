@@ -21,4 +21,4 @@ NipoPlusでは、いわゆる「全文検索」に対応しており、フリー
 
 全文検索以外の検索についてはこちらをご覧ください。
 
-{{< link-card title="レポートを探す"   href="/docs/manual/read-report/list/">}}
+{{< link-card title="日報検索はこちら" href="/docs/manual/read-report/list/">}}

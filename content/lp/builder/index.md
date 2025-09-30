@@ -51,7 +51,7 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 <h3>未提出者の早期発見が簡単</h3>
 <p>日報の提出状況が一目でわかるので、未提出をすぐに発見し、迅速に対応できます。ペーパーレス化で効率的な管理を実現。</p>
 <div class="mt-auto">
-{{< link-card title="提出状況表" description="コラム記事"  href="/lp/template/#require_input" >}}
+{{< link-card title="提出状況表についてはこちら" href="/lp/template/#require_input" >}}
 
 </div>
 </div>
@@ -61,7 +61,7 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 <p>日報の承認や棄却機能があり、複数の承認者を指定することで承認リレーを実現。クラウド上でリアルタイムに承認プロセスを管理。</p>
 <div class="mt-auto">
 
-{{< link-card title="承認フロー" description="操作ガイド"  href="/docs/manual/write-report/dist/" >}}
+{{< link-card title="承認フローについてはこちら" href="/docs/manual/write-report/dist/" >}}
 
 </div>
 </div>
@@ -71,7 +71,7 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 <p>日報データを手軽に集計・分析し、CSV出力にも対応。点検結果や作業報告を一元管理し、業務効率化をサポート。</p>
 <div class="mt-auto">
 
-{{< link-card title="集計・グラフ化" description="操作ガイド"  href="/docs/manual/analytics/_about/" >}}
+{{< link-card title="集計・グラフ化についてはこちら" href="/docs/manual/analytics/_about/" >}}
 
 </div>
 </div>
@@ -81,7 +81,7 @@ Android/iOS用の専用アプリも用意しており、PCからはブラウザ�
 <p>PC不要でスマホやタブレットから日報を作成。現場の写真をその場で撮影し、日報に添付して報告。モバイル対応でいつでもどこでも利用可能。</p>
 <div class="mt-auto">
 
-{{< link-card title="モバイル対応" description="コラム記事"  href="/lp/phone/" >}}
+{{< link-card title="モバイル活用術はこちら"   href="/lp/phone/" >}}
 
 </div>
 </div>

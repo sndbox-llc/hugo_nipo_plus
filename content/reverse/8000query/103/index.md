@@ -12,11 +12,11 @@ tags = ["日常業務編", "日報の管理", "要管理者権限", "権限に�
 
 権限を「書き込みのみ」に設定することで、左側メニューには「日報作成」と「日報表示」以外非表示にすることができます。
 
-{{< link-card title="スタッフの権限"  description="" href="/docs/setup/staff-global/rank/#writer">}}
+{{< link-card title="スタッフの権限"    href="/docs/setup/staff-global/rank/#writer">}}
 
 この権限では、日報の作成と自分が書いた日報の表示、修正のみ可能です。
 より厳格に制限したい場合、「ゲスト」という権限もあります。ゲストは作成のみで、自身の書いた日報を見返すこともできません。
 
-{{< link-card title="ゲスト権限"  description="" href="/docs/setup/staff-global/rank/#guest">}}
+{{< link-card title="ゲスト権限"    href="/docs/setup/staff-global/rank/#guest">}}
 
 権限の変更は「管理者」のみが行えます。左メニュー「組織設定」から変更できます。

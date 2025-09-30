@@ -22,4 +22,4 @@ tags = ["日常業務編", "日報の管理", "料金について", "有料プ�
 
 詳しくはこちらをご覧ください。
 
-{{< link-card title="アカウントの使い回しによるリスク" description="" href="/docs/price/#warning_lisk">}}
+{{< link-card title="アカウントの使い回しによるリスク"   href="/docs/price/#warning_lisk">}}

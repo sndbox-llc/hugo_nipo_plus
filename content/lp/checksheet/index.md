@@ -223,7 +223,7 @@ NipoPlusで入力された点検データはワンクリックで簡単にCSV出
 もしタブレットが無いならPCからでもNipoPlusを利用できます。タブレットに比べると少しかさばるかもしれませんが、問題なく利用できますよ。<br>
 また、CSV出力やテンプレートの作成はむしろPCからのほうが最適です。用途に応じて、PC・スマートフォン・タブレットを使い分けられるのも、Webアプリの大きな強みの１つです。
 
-{{< link-card title="モバイルデバイス対応" description=""  href="/lp/phone/">}}
+{{< link-card title="モバイルデバイス対応"    href="/lp/phone/">}}
 
 </p>
 
@@ -252,7 +252,7 @@ NipoPlus（にぽぷらす）は、 **自由なテンプレートカスタマイ
 **点検業務**のDXをきっかけに、 **全社的な業務改善**を実現しませんか？
 
 </p>
-{{< link-card title="日報アプリとしての紹介ページ" description="" href="/">}}
+{{< link-card title="日報アプリとしての紹介ページ"   href="/">}}
 </div>
 <div class="col-lg-9">
 {{<icatch filename="img/seihin" msg="生産品の品質チェックとしても使えます"  alice="ok" marginLess="true">}}

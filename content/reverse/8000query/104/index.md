@@ -16,4 +16,4 @@ tags = ["日常業務編", "日報の管理", "日報を受け取ったらやる
 しかし管理者権限があればこれらの制限をバイパスして削除ができます。
 詳しくは「一括削除」を御覧ください。
 
-{{< link-card title="ゲスト権限"  description="" href="/docs/manual/read-report/removereport/#batch_remove">}}
+{{< link-card title="ゲスト権限"    href="/docs/manual/read-report/removereport/#batch_remove">}}

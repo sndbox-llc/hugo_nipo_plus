@@ -18,8 +18,8 @@ tags = ["日常業務編", "日報の管理", "要管理者権限", "FAQ・ト�
 管理者は正式なE-mailが望ましいですが、従業員各位の場合、ダミーのメールアドレスをご利用いただいても問題ありません。
 これは、管理者が従業員各位のパスワードを強制リセットする権限があるため、万が一パスワードを忘失しても対応できる仕組みがあるため、許容されています。
 
-{{< link-card title="従業員アカウントの作成と管理"  description="" href="/docs/setup/staff-global/make/#change_staff_data">}}
+{{< link-card title="従業員アカウントの作成と管理"    href="/docs/setup/staff-global/make/#change_staff_data">}}
 
 また、通知関係のメールはログインE-mailとは異なるアドレスの指定が可能です。
 
-{{< link-card title="メール通知"  description="" href="/docs/manual/utils/notice/#email">}}
+{{< link-card title="メール通知"    href="/docs/manual/utils/notice/#email">}}

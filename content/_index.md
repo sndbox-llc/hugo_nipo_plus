@@ -39,7 +39,7 @@ NipoPlusは誰でも使えることを前提に設計開発されました。
 
 </p>
 
-{{< link-card title="初期設定"  description="" href="/docs/setup/quickstart/">}}
+{{< link-card title="初期設定"    href="/docs/setup/quickstart/">}}
 
 </div>
 <div class="col-lg-9">
@@ -129,7 +129,7 @@ PCだと写真取り込むのもひと手間必要でしたが、スマホはこ
 
 </p>
 
-{{< link-card title="写真などスマホの特徴を使った活用術" description="" href="/lp/phone/">}}
+{{< link-card title="写真などスマホの特徴を使った活用術"   href="/lp/phone/">}}
 
 </div>
 <div class="col-lg-9">
@@ -157,7 +157,7 @@ PCだと写真取り込むのもひと手間必要でしたが、スマホはこ
 
 </p>
 
-{{< link-card title="提出状況表とシフト管理の合せ技で更に便利"  description=""  href="/docs/manual/utils/shift/" >}}
+{{< link-card title="提出状況表とシフト管理の合せ技で更に便利"     href="/docs/manual/utils/shift/" >}}
 
 </div>
 <div class="col-lg-9">
@@ -197,7 +197,7 @@ NipoPlus（にぽぷらす）は、一瞬で数百枚の日報を1枚のエク�
 
 </p>
 
-{{< link-card title="日報データをエクセルで分析するテクニック集" description=""  href="/tips/analytics/">}}
+{{< link-card title="日報データをエクセルで分析するテクニック集"    href="/tips/analytics/">}}
 
 </div>
 <div class="col-lg-9">
@@ -244,7 +244,7 @@ A4サイズ、縦・横の用紙向き、2種類のレイアウトから選択�
 
 </p>
 
-{{< link-card title="日報を簡単にPDF出力"  description="" href="/docs/manual/pdf/about">}}
+{{< link-card title="日報を簡単にPDF出力"    href="/docs/manual/pdf/about">}}
 
 </div>
 <div class="col-lg-9">
@@ -277,7 +277,7 @@ A4サイズ、縦・横の用紙向き、2種類のレイアウトから選択�
 
 </p>
 
-{{< link-card title="顧客管理"  description="" href="/docs/manual/customer/input/">}}
+{{< link-card title="顧客管理"    href="/docs/manual/customer/input/">}}
 
 </div>
 <div class="col-lg-9">

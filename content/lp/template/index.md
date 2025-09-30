@@ -211,7 +211,7 @@ NipoPlusではこの機能を「反復入力」と読んでいます。<br>
 
 </p>
 
-{{< link-card title="反復入力について" description="" href="/docs/template/array/">}}
+{{< link-card title="反復入力について"   href="/docs/template/array/">}}
 
 </div>
 <div class="col-lg-9">
@@ -332,7 +332,7 @@ Excelなどでも少し工夫すれば作れますが、NipoPlusでもこのよ�
 </div>
 
 </p>
-{{< link-card title="ノーコードで動きのある日報を作る"  description=""  href="/docs/template/selects/#dinamic_switch_select">}}
+{{< link-card title="ノーコードで動きのある日報を作る"     href="/docs/template/selects/#dinamic_switch_select">}}
 
 </div>
 <div class="col-lg-9">

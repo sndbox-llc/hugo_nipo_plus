@@ -1,7 +1,7 @@
 +++
 url = "/reverse-lookup/query/142/"
-title = "レポートの提出された本当の時間を知りたい"
-menuTitle = "レポートの提出された本当の時間を知りたい"
+title = "従業員が実際に日報を書いた日時を知ることってできますか？"
+menuTitle = "日報を書いた本当の時間をしりたい"
 description = "スタッフが書いた日報の日付は任意に操作できますが、本当に提出されたのはいつなのか？知る方法があります"
 isDictionaly = true
 toc = false

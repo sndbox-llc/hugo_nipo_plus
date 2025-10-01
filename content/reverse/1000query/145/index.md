@@ -1,6 +1,6 @@
 +++
 url = "/reverse-lookup/query/145/"
-title = "スタッフの提出状況を一覧で確認したい"
+title = "日報の提出状況を「日報の日付基準」で確認したい"
 menuTitle = "スタッフの提出状況を一覧で確認したい"
 description = "提出忘れなどを見つけるときは提出簿を使うと簡単です"
 toc = false

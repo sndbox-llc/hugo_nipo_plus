@@ -7,7 +7,7 @@ enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "ja-JP"
-rssLimit = 50
+rssLimit = 500
 summarylength = 70 # 70 (default)
 
 # Multilingual
@@ -70,7 +70,7 @@ notAlternative = true
   keepWhitespace = false
 
 [pagination]
-  pagerSize = 50
+  pagerSize = 500
 
 [related]
   threshold = 80

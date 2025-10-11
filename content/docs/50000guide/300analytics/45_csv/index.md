@@ -17,7 +17,7 @@ CSVファイルの用途に合わせて出力形式をカスタマイズでき�
 {{< /callout >}}
 
 {{< callout context="caution" title="Web版のみ対応" icon="outline/alert-triangle" >}}
-CSV一括出力機能は、スマートフォンアプリ版（<a href="/docs/system/mobile-install/#android_usage">Android</a> / <a href="/docs/system/mobile-install/#ios_usage">iOS</a>版）ではご利用いただけません。<a href="/docs/system/mobile-install/#web">Web版NipoPlus</a>をご利用ください。
+CSV一括出力機能は、スマートフォンアプリ版（<a href="/docs/system/mobile-install/#android_usage">Android</a> / <a href="/docs/system/mobile-install/#ios_usage">iOS</a>版）ではご利用いただけません。<a href="/docs/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください。
 {{< /callout >}}
 
 ## 1ヶ月分の日報（日報・点検記録）をCSV出力する - 大量データの分析と保管に最適{#monthly}
@@ -41,7 +41,7 @@ NipoPlusの「CSV一括出力」機能は、1件の日報を個別にCSV出力�
 
 - CSVファイルは、**テンプレートごとに分けて出力**されます。テンプレートの種類が多い場合、出力されるCSVファイルの数も比例して多くなります。
 - 指定期間内に1度も使用されなかったテンプレートは、CSV出力の対象から自動で除外されます。
-- <a href="/docs/template/make/#disableTemplate"><strong>無効化したテンプレート</strong></a>であっても、集計期間内にデータが存在する場合は出力対象となります。
+- <a href="/docs/template/manage/#delete_template"><strong>無効化したテンプレート</strong></a>であっても、集計期間内にデータが存在する場合は出力対象となります。
 - 出力対象のファイルが1つの場合はCSVファイルがそのまま、2つ以上ある場合は、複数のCSVファイルをZIPでまとめた形で出力されます。
 
 出力されたCSVファイルはExcelなどの表計算ソフトで開くことができます。NipoPlusのデータを活用するための<a href="/excel/">Excel加工テクニック集</a>も併せてご覧ください。

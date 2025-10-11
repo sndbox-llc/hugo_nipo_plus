@@ -107,7 +107,7 @@ NipoPlus（にぽぷらす）は、専門知識不要のノーコードで、機
 <dl class="basic">
 <dt><a href="/lp/template/#require_input">入力必須チェック</a></dt>
 <dd>点検漏れやうっかりミスを事前にブロック！</dd>
-<dt><a href="/lp/template/#require_input#miss_care">入力順序の制御</a></dt>
+<dt><a href="/lp/template/#require_input">入力順序の制御</a></dt>
 <dd>点検手順も確実に遵守させます。手順飛ばしはBlock</dd>
 <dt><a href="/docs/template/selects/#color">色分け・文字拡大</a></dt>
 <dd>年配の方にも見やすい点検表を実現</dd>

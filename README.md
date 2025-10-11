@@ -17,7 +17,7 @@ localhost環境下で同サイト内のリンク切れをチェックします�
 ```sh
 hugo
 quasar serve public
-muffet  http://127.0.0.1:4000 -b 100000
+muffet  http://127.0.0.1:4000 -b 100000 --exclude '.*sitemap.xml$'
 
 ```
 

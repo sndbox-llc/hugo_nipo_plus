@@ -112,7 +112,7 @@ Androidに標準でインストールされているGoogle Chromeを起動して
 
 ---
 
-## Webアプリ版{#web}
+## Webアプリ版{#pc_usage}
 
 <dl class="basic">
   <dt>OS</dt>

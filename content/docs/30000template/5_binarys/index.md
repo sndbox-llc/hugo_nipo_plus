@@ -48,7 +48,7 @@ NipoPlusの署名・イラストフォームは、スマートフォンやタブ
 {{<figure src="img/use-stylus-pen.webp" alt="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子" caption="iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子">}}
 
 顧客からの**受領サイン**、**作業完了の承認サイン**、現場での簡易的な図解や**軽微な損傷箇所のマーキング**など、手書きによる証拠や表現が必要な場合に非常に便利です。
-[特設記事：NipoPlusをモバイルデバイスで使うメリット](/lp/phone/#draw_sign)も御覧ください。
+[特設記事：NipoPlusをモバイルデバイスで使うメリット](/lp/phone)も御覧ください。
 
 <details class="mb-5">
   <summary>詳細設定</summary>

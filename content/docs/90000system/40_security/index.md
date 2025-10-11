@@ -133,7 +133,7 @@ NipoPlusは、**Firestore**や**Elastic**といった**NoSQL型のデータベ�
   <dt><div>従業員による情報流出などについての罰則や就業規則はありますか？</div></dt>
   <dd><div>いいえ、個別の罰則や就業規則は設けておりません。</div></dd>
   <dt><div>開発者のマスターパスワードは定期的に変更されていますか？</div></dt>
-  <dd><div>いいえ、パスワードの定期的な変更は行っていません。現代のセキュリティ基準では、定期的なパスワード変更はむしろ推奨されておらず、<a href="https://www.soumu.go.jp/main_sosiki/cybersecurity/research/technical/02_02.html" target="_blank">総務省</a>なども推奨していません。</div></dd>
+  <dd><div>いいえ、パスワードの定期的な変更は行っていません。現代のセキュリティ基準では、定期的なパスワード変更はむしろ推奨されておらず、<a href="https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/staff/06/" target="_blank">総務省</a>なども推奨していません。</div></dd>
   <dt><div>開発に利用する端末はセキュリティ対策ソフトが導入されていますか？</div></dt>
   <dd><div>はい、ESETウイルス対策ソフトを導入しています。なお、ウォッチガードなどのUTMは利用しておりません。</div></dd>
   <dt><div>開発に利用する端末は施錠できるロッカーに保存されていますか？または盗難防止用チェーンなどの対策は取られていますか？</div></dt>

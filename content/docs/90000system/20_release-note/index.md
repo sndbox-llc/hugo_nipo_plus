@@ -8,7 +8,7 @@ toc = false
 weight = 90020
 +++
 
-NipoPlusは[Android版](/docs/system/mobile-install/#googlePlay)・[iOS版](/docs/system/mobile-install/#appStore)・[Web版](/docs/system/mobile-install/#web)の3種類があります。ご利用中のNipoPlusバージョンは左サイドメニュー下部に記載されています。
+NipoPlusは[Android版](/docs/system/mobile-install/#android_usage)・[iOS版](/docs/system/mobile-install/#ios_usage)・[Web版](/docs/system/mobile-install/#web)の3種類があります。ご利用中のNipoPlusバージョンは左サイドメニュー下部に記載されています。
 更新はWeb版が先行し、ついでAndroid版・iOS版の順に更新が行われます。Web版とiOS版の更新タイミングのズレは最長でも3日程度です。
 
 <details>
@@ -503,7 +503,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 - Web/PWA版の場合、「メニュー＞アカウント」から「**キャッシュクリア**」をクリックしてください。（下の画像を参照）
 - 読み込みが完了しない場合、再起動してください
 
-本記事執筆時点で[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)各アプリストアには更新の申請を行っている段階で、まだリリースされていません。
+本記事執筆時点で[Android](/docs/system/mobile-install/#android_usage) / [iOS](/docs/system/mobile-install/#ios_usage)各アプリストアには更新の申請を行っている段階で、まだリリースされていません。
 リリース後に本ページにてご案内いたします。 ー＞ リリースされました（２月１日）
 
 今回のバグについてはスマートフォンとPCで使えるリソースが異なるのに、PCと同じような処理をスマートフォンで行わせていたことが主たる原因でした。

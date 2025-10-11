@@ -118,12 +118,12 @@ PCのように画面が広い環境と・スマホのように画面が縦長の
 スマートフォンにはカメラ、タッチパネルが搭載されています。実はこの２つが日報作成にとても便利。
 現場写真をスマホで撮ってそのまま日報に添付したり、スタイラスペンで手書きの図やメモを日報に添付したり。
 PCだと写真取り込むのもひと手間必要でしたが、スマホはこれらをシームレスに行うことができます。
-[Android](/docs/system/mobile-install/#googlePlay) / [iOS](/docs/system/mobile-install/#appStore)アプリもご用意しております。
+[Android](/docs/system/mobile-install/#android_usage) / [iOS](/docs/system/mobile-install/#ios_usage)アプリもご用意しております。
 
-<a href="/docs/system/mobile-install/#appStore" class="d-inline-block mx-2">
+<a href="/docs/system/mobile-install/#ios_usage" class="d-inline-block mx-2">
 <img loading="lazy" src="/images/apple.svg" width="150" height="auto" alt="iOS App Store" class="img-fluid">
 </a>
-<a href="/docs/system/mobile-install/#googlePlay" class="d-inline-block mx-2">
+<a href="/docs/system/mobile-install/#android_usage" class="d-inline-block mx-2">
 <img loading="lazy" src="/images/google-play-badge.png" width="180" height="auto" alt="Android Google Play Store" class="img-fluid">
 </a>
 

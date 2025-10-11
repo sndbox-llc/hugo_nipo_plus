@@ -17,7 +17,7 @@ CSVファイルの用途に合わせて出力形式をカスタマイズでき�
 {{< /callout >}}
 
 {{< callout context="caution" title="Web版のみ対応" icon="outline/alert-triangle" >}}
-CSV一括出力機能は、スマートフォンアプリ版（<a href="/docs/system/mobile-install/#googlePlay">Android</a> / <a href="/docs/system/mobile-install/#appStore">iOS</a>版）ではご利用いただけません。<a href="/docs/system/mobile-install/#web">Web版NipoPlus</a>をご利用ください。
+CSV一括出力機能は、スマートフォンアプリ版（<a href="/docs/system/mobile-install/#android_usage">Android</a> / <a href="/docs/system/mobile-install/#ios_usage">iOS</a>版）ではご利用いただけません。<a href="/docs/system/mobile-install/#web">Web版NipoPlus</a>をご利用ください。
 {{< /callout >}}
 
 ## 1ヶ月分の日報（日報・点検記録）をCSV出力する - 大量データの分析と保管に最適{#monthly}

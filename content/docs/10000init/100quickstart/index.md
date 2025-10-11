@@ -48,7 +48,7 @@ NipoPlusへようこそ！
 {{<icatch filename="img/temp-id" msg="お試しで使うのにわざわざアカウントを作るのは面倒ですよね。ご安心ください、匿名アカウントならすぐに始められます。後から正規アカウントへ昇格も可能です！" alice="ok">}}
 
 {{< callout context="caution" title="匿名アカウントはWeb版限定です" icon="outline/alert-triangle" >}}
-匿名アカウントは、[Web版](/docs/system/mobile-install/#web)でのみご利用いただけます。[Androidアプリ版](/docs/system/mobile-install/#googlePlay)や[iOSアプリ版](/docs/system/mobile-install/#appStore)ではご利用いただけません
+匿名アカウントは、[Web版](/docs/system/mobile-install/#web)でのみご利用いただけます。[Androidアプリ版](/docs/system/mobile-install/#android_usage)や[iOSアプリ版](/docs/system/mobile-install/#ios_usage)ではご利用いただけません
 {{< /callout >}}
 
 {{<nextArrow>}}

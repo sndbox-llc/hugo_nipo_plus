@@ -174,7 +174,7 @@ NipoPlusのユニークな強みの一つが、**数値データを含む日報�
 
 表示中の日報をNipoPlus以外の場所で使いたいケースもあります。
 NipoPlusでは、日報データを「<strong>CSV出力</strong>」と「<strong>PDF出力</strong>」でエクスポートすることをサポートしています。
-これらの機能はWeb版のNipoPlusでご利用ください。（[Android](/docs/system/mobile-install#googlePlay/)・[iOS](/docs/system/mobile-install#appStore/) アプリは非対応）
+これらの機能はWeb版のNipoPlusでご利用ください。（[Android](/docs/system/mobile-install#android_usage)・[iOS](/docs/system/mobile-install#ios_usage) アプリは非対応）
 
 ### 表示中の日報をCSV出力する📊{#csv_export}
 

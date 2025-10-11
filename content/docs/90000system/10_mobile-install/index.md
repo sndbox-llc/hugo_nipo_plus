@@ -84,7 +84,7 @@ WebのNipoPlusはPWAという技術により、**Webサイトでありながら�
 
 インストール後は、普通のアプリと同様にNipoPlusを快適にご利用いただけます。
 
-### Google Playストアからインストール{#android_playstore_install}
+### Google Playストアからインストール{#android_usage}
 
 一般的に広く知られている方法です。Google PlayストアからNipoPlusアプリをダウンロードできます。
 

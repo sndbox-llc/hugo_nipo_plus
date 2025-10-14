@@ -13,16 +13,17 @@
     }}
     {{/* ⭐ セクション名と表示名のマッピング（辞書）を定義 ⭐ */}}
     {{ $sectionMap := dict
-        "docs" "NipoPlusマニュアル"
-        "excel" "エクセル活用テクニック"
-        "legacy" "旧バージョンのNipo"
-        "news" "お知らせ"
-        "tech" "技術ブログ"
-        "tips" "便利な使い方"
-        "lp" "特設記事"
-        "reverse" "過去の質問集"
-        "others" "その他"
+        "docs" "📘 NipoPlusマニュアル"
+        "excel" "📊 エクセル活用テクニック"
+        "legacy" "💾 旧バージョンのNipo"
+        "news" "📢 お知らせ"
+        "tech" "💻 技術ブログ"
+        "tips" "💡 便利な使い方"
+        "lp" "✨ 特設記事"
+        "reverse" "🔎 過去の質問集"
+        "others" "🏷️ その他"
     }}
+
     {{/* 1. showBottom: true の記事を取得 */}}
     {{ $allRegularPages := .Site.RegularPages }}
     {{ $footerPages := where $allRegularPages "Params.hideFooter" "!=" true }}
@@ -47,11 +48,19 @@
                         {{/* セクション名（列のタイトル）を表示 */}}
                         <h4 class="column-title">{{ $sectionTitle }}</h4>
 
+            
                         <ul class="list-unstyled column-list">
                             {{/* with の中は . がグループオブジェクトを指すため .Pages を使用 */}}
                             {{ range sort .Pages "Params.bottomWeight" }}
                                 {{ $linkText := default .Title .Params.menuTitle }}
-                                <li class="nav-item"><a href="{{ .Permalink | relURL }}" title="{{ .Title }}">{{ $linkText }}</a></li>
+                                {{/* 💡 ここから追加・修正 💡 */}}
+                                {{ $isActive := eq . ($.Page) }} 
+                                {{ $activeClass := "" }}
+                                {{ if $isActive }}
+                                    {{ $activeClass = "footerNaviActive" }}
+                                {{ end }}
+
+                                <li class="nav-item {{ $activeClass }}"><a href="{{ .Permalink | relURL }}" title="{{ .Title }}">{{ $linkText }}</a></li>
                             {{ end }}
                         </ul>
                     </div>

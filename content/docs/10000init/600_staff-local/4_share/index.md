@@ -7,6 +7,8 @@ description = "用途として限定的な機能です。人数分の端末が�
 toc = true
 weight = 10604
 tags = ["日常業務編", "日報作成", "要編集者権限", "スタッフ管理"]
+showBottom= true 
+
 +++
 
 {{< callout context="caution" title="この設定には[編集者権限以上](/docs/setup/staff-global/rank/#manager)が必要です" icon="outline/info-triangle" />}}

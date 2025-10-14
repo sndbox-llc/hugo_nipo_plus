@@ -7,6 +7,7 @@ description = "NipoPlusで新しいスタッフアカウントを作成し、利
 toc = true
 weight = 10302
 tags = ["初期設定編", "スタッフ管理", "要管理者権限", "権限について", "料金について"]
+showBottom= true 
 +++
 
 {{< callout context="caution" title="アカウントの作成・管理は、[管理者権限](/docs/setup/staff-global/rank/)が必要です" icon="outline/info-triangle" />}}

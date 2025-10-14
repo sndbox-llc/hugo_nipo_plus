@@ -1,0 +1,45 @@
+<nav class="footer-nav">
+    {{/* 1. showBottom: true の記事を取得 */}}
+    {{ $footerPages := where .Site.RegularPages ".Params.showBottom" true }}
+
+    {{/* 2. 取得した記事をセクション名でグループ化（カテゴリ分け）*/}}
+    {{ $groupedPages := $footerPages.GroupBy "Section" }}
+
+    {{/* 修正点: Bootstrapの行クラス (row) を使用 */}}
+    <div class="row"> 
+        
+        {{/* 3. グループ化された各セクション（列）を処理 */}}
+        {{ range $groupedPages }}
+        
+        {{/* 修正点: Bootstrapの列クラス (col-md-3など) を使用 */}}
+        {{/* col-md-3 は中サイズ以上の画面で12/3=4列を意味します */}}
+        <div class="footer-column col-12 col-md-3"> 
+            
+            {{/* セクション名（列のタイトル）を表示 */}}
+            <h4 class="column-title">{{ .Key }}</h4>
+            
+            <ul class="list-unstyled column-list">
+                {{/* 4. グループ内の記事を処理 */}}
+                {{ range sort .Pages "Params.bottomWeight" }}
+                <li class="nav-item">
+                    <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
+                        {{ .Title }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        
+        {{/* 5. その他の固定リンク用の列を追加 */}}
+        {{/* 固定リンク用も col-md-3 で1列分として扱う */}}
+        <div class="footer-column utility-links col-12 col-md-3">
+            <h4 class="column-title">その他</h4>
+            <ul class="list-unstyled column-list">
+                <li class="nav-item"><a href="/contact/" relURL>お問い合わせ</a></li>
+                <li class="nav-item"><a href="/privacy/" relURL>プライバシーポリシー</a></li>
+                </ul>
+        </div>
+        
+    </div>
+</nav>

@@ -1,58 +1,80 @@
 <nav class="footer-nav" style="overflow: hidden;">
-    
-    {{/* 1. showBottom: true の記事を取得 -> 修正 */}}
-    {{/* ⭐ 修正ポイント: 全ての記事から、.Params.dissableFooterNavi が *存在しないか* または *false* のものを選出する */}}
-    {{ $allRegularPages := .Site.RegularPages }}
-    {{ $footerPages := where $allRegularPages "Params.dissableFooterNavi" "!=" true }}
 
-    {{/* 2. 取得した記事をセクション名でグループ化（カテゴリ分け）*/}}
-    {{ $groupedPages := $footerPages.GroupBy "Section" }}
+ {{/* 1. showBottom: true の記事を取得 */}}
+ {{ $allRegularPages := .Site.RegularPages }}
+ {{ $footerPages := where $allRegularPages "Params.dissableFooterNavi" "!=" true }}
 
-    {{/* 修正点: Bootstrapの行クラス (row) を使用 */}}
-    <div class="row px-2"> 
-        
-        {{/* 3. グループ化された各セクション（列）を処理 */}}
-        {{ range $groupedPages }}
-        
-        {{/* 修正点: Bootstrapの列クラス (col-md-3など) を使用 */}}
-        {{/* col-md-3 は中サイズ以上の画面で12/3=4列を意味します */}}
-        <div class="footer-column col-16 col-lg-3 col-md-4 col-sm-8 col-xs-16"> 
+ {{/* 2. 取得した記事をセクション名でグループ化（カテゴリ分け）*/}}
+ {{ $groupedPages := $footerPages.GroupBy "Section" }}
 
-            {{/* ⭐ セクション名と表示名のマッピング（辞書）を定義 ⭐ */}}
-            {{ $sectionMap := dict 
-                "docs" "NipoPlusマニュアル" 
-                "excel" "エクセル活用テクニック" 
-                "legacy" "旧バージョンのNipo" 
-                "news" "お知らせ" 
-                "tech" "技術ブログ" 
-                "tips" "便利な使い方"
-                "lp" "特設記事"
-                "reverse" "過去の質問集"
-                "others" "その他"
-            }}
-            {{/* ⭐ 表示するセクション名を取得 ⭐ */}}
-            {{ $sectionKey := .Key }}
-            {{ $sectionTitle := default $sectionKey (index $sectionMap $sectionKey) }}
+    {{/* ⭐ 修正ポイント: セクションの表示順を定義した配列（スライス）を追加 ⭐ */}}
+    {{/* この配列の順序でフッターの列が表示されます */}}
+    {{ $sectionOrder := slice 
+        "docs" 
+        "legacy"
+        "lp"
+        "reverse"
+        "tech" 
+        "news" 
+        "excel" 
+        "tips" 
 
+        "others" 
+    }}
+
+ {{/* 修正点: Bootstrapの行クラス (row) を使用 */}}
+ <div class="row px-2">
+
+ {{/* 3. グループ化された各セクション（列）を処理 */}}
+        {{/* ⭐ 修正ポイント: $sectionOrder に従ってグループを検索して処理する ⭐ */}}
+        {{ range $key := $sectionOrder }}
+            {{/* $groupedPages の中で Key が $key に一致するグループを探す */}}
+            {{ $groupList := where $groupedPages "Key" $key }} 
             
-            {{/* セクション名（列のタイトル）を表示 */}}
-            <h4 class="column-title">{{ $sectionTitle }}</h4>
+            {{/* グループが存在する場合（リストの最初の要素がある場合）のみ処理 */}}
+            {{ with index $groupList 0 }}
             
-            <ul class="list-unstyled column-list">
-                {{/* 4. グループ内の記事を処理 */}}
-                {{ range sort .Pages "Params.bottomWeight" }}
-                {{ $linkText := default .Title .Params.menuTitle }}
+ {{/* 修正点: Bootstrapの列クラス (col-md-3など) を使用 */}}
+ <div class="footer-column  col-xl-4 col-md-5 col-sm-8 col-xs-16">
 
-                <li class="nav-item">
-                    <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
-                        {{ $linkText }}
-                    </a>
-                </li>
-                {{ end }}
-            </ul>
-        </div>
-        {{ end }}
-        
-        
-    </div>
+ {{/* ⭐ セクション名と表示名のマッピング（辞書）を定義 ⭐ */}}
+            {{/* . と index $groupList 0 が同じオブジェクトを指すため、.Key は省略可能 */}}
+ {{ $sectionMap := dict
+ "docs" "NipoPlusマニュアル"
+ "excel" "エクセル活用テクニック"
+ "legacy" "旧バージョンのNipo"
+ "news" "お知らせ"
+ "tech" "技術ブログ"
+ "tips" "便利な使い方"
+ "lp" "特設記事"
+ "reverse" "過去の質問集"
+ "others" "その他"
+ }}
+ {{/* ⭐ 表示するセクション名を取得 ⭐ */}}
+ {{ $sectionKey := .Key }}
+ {{ $sectionTitle := default $sectionKey (index $sectionMap $sectionKey) }}
+
+
+ {{/* セクション名（列のタイトル）を表示 */}}
+ <h4 class="column-title">{{ $sectionTitle }}</h4>
+
+ <ul class="list-unstyled column-list">
+ {{/* 4. グループ内の記事を処理 */}}
+                {{/* with の中は . がグループオブジェクトを指すため .Pages を使用 */}}
+ {{ range sort .Pages "Params.bottomWeight" }}
+ {{ $linkText := default .Title .Params.menuTitle }}
+
+ <li class="nav-item">
+ <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
+ {{ $linkText }}
+ </a>
+ </li>
+ {{ end }}
+ </ul>
+ </div>
+ {{ end }} {{/* with の閉じタグ */}}
+ {{ end }} {{/* range $key の閉じタグ */}}
+
+
+ </div>
 </nav>

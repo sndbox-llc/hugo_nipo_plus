@@ -14,6 +14,13 @@ tags = ["初期設定編", "日常業務編", "料金について", "有料プ�
 [Android版](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus)/[iOS版](https://apps.apple.com/jp/app/nipoplus/id1625797169)からはお申し込みできません。Web版からお申し込みください（Web版でお申し込み後はAndroid/iOS版でも有料プランが適用されます）
 {{< /callout >}}
 
+{{< callout context="danger" title="料金改定予定有り" icon="outline/info-triangle" >}}
+
+2025年10月14日現在1名180円の有料プラン（自動更新有）は本年中に1名200円（請求書払いと同額）に引き上げを予定しています。<br>
+なお、これまで本プランをご利用いただいているお客様は、解約しない限り現在の180円のままご提供させていただきます。<br>
+
+{{</callout>}}
+
 ## 月額180円/名から！NipoPlus有料プランの基本情報{#jouken}
 
 NipoPlusの有料プラン（GOLDプラン）は、**月額180円/名**でご利用いただけます。

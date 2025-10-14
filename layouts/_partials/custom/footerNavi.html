@@ -1,6 +1,9 @@
 <nav class="footer-nav" style="overflow: hidden;">
-    {{/* 1. showBottom: true の記事を取得 */}}
-    {{ $footerPages := where .Site.RegularPages ".Params.toc" true }}
+    
+    {{/* 1. showBottom: true の記事を取得 -> 修正 */}}
+    {{/* ⭐ 修正ポイント: 全ての記事から、.Params.dissableFooterNavi が *存在しないか* または *false* のものを選出する */}}
+    {{ $allRegularPages := .Site.RegularPages }}
+    {{ $footerPages := where $allRegularPages "Params.dissableFooterNavi" "!=" true }}
 
     {{/* 2. 取得した記事をセクション名でグループ化（カテゴリ分け）*/}}
     {{ $groupedPages := $footerPages.GroupBy "Section" }}
@@ -15,18 +18,21 @@
         {{/* col-md-3 は中サイズ以上の画面で12/3=4列を意味します */}}
         <div class="footer-column col-16 col-lg-3 col-md-4 col-sm-8 col-xs-16"> 
 
-             {{/* ⭐ 修正点1: セクション名と表示名のマッピング（辞書）を定義 ⭐ */}}
-    {{ $sectionMap := dict 
-        "docs" "NipoPlusマニュアル" 
-        "excel" "エクセル活用テクニック" 
-        "legacy" "旧バージョンのNipo" 
-        "news" "お知らせ" 
-        "tech" "技術ブログ" 
-        "tips" "便利な使い方"
-    }}
-     {{/* ⭐ 修正点2: 表示するセクション名を取得 ⭐ */}}
-        {{ $sectionKey := .Key }}
-        {{ $sectionTitle := default $sectionKey (index $sectionMap $sectionKey) }}
+            {{/* ⭐ セクション名と表示名のマッピング（辞書）を定義 ⭐ */}}
+            {{ $sectionMap := dict 
+                "docs" "NipoPlusマニュアル" 
+                "excel" "エクセル活用テクニック" 
+                "legacy" "旧バージョンのNipo" 
+                "news" "お知らせ" 
+                "tech" "技術ブログ" 
+                "tips" "便利な使い方"
+                "lp" "特設記事"
+                "reverse" "過去の質問集"
+                "others" "その他"
+            }}
+            {{/* ⭐ 表示するセクション名を取得 ⭐ */}}
+            {{ $sectionKey := .Key }}
+            {{ $sectionTitle := default $sectionKey (index $sectionMap $sectionKey) }}
 
             
             {{/* セクション名（列のタイトル）を表示 */}}
@@ -35,7 +41,7 @@
             <ul class="list-unstyled column-list">
                 {{/* 4. グループ内の記事を処理 */}}
                 {{ range sort .Pages "Params.bottomWeight" }}
-                 {{ $linkText := default .Title .Params.menuTitle }}
+                {{ $linkText := default .Title .Params.menuTitle }}
 
                 <li class="nav-item">
                     <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
@@ -47,15 +53,6 @@
         </div>
         {{ end }}
         
-        {{/* 5. その他の固定リンク用の列を追加 */}}
-        {{/* 固定リンク用も col-md-3 で1列分として扱う */}}
-        <div class="footer-column utility-links col-12 col-md-3">
-            <h4 class="column-title">その他</h4>
-            <ul class="list-unstyled column-list">
-                <li class="nav-item"><a href="/others/inquery/" relURL>お問い合わせ</a></li>
-                <li class="nav-item"><a href="/docs/system/privacy-policy/" relURL>プライバシーポリシー</a></li>
-                </ul>
-        </div>
         
     </div>
 </nav>

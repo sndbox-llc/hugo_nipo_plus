@@ -11,6 +11,7 @@ heroBgSp = "/images/bg222sp.webp"
 heroTitle = " 設備機器の点検項目を自分で作れる！巡回点検にも"
 heroText = "機材の保守点検にチェックシートを使いますが未だに紙のチェックシートでは不便も多くあります。機器ごとに点検項目が異なるためなかなか電子化できずに困っていませんか？NipoPlusなら設備ごとの点検項目を自分たちで自由に設計できます。"
 heroSubTitle  = "タブレットが点検アプリに早変わり！"
+dissableFooterNavi=true
 keywords = [
   "設備点検アプリ",
   "巡回点検",

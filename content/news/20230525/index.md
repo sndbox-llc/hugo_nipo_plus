@@ -5,6 +5,8 @@ description = "インボイス制度登録番号が交付されました"
 toc = true
 date = "2023-05-26"
 tags = ["請求書・領収証"] 
+hideFooter = true
+
 +++
 
 いつもNipo【旧版】/NipoPlusをご利用いただきありがとうございます。

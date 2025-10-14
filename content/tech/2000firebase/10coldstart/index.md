@@ -1,12 +1,12 @@
 +++
 url = "/tech/firebase/coldstart/"
-#aliases = []
 title = "Cloud Functionsのコールドスタートを回避する"
 menuTitle = "Cloud Functionsのコールドスタートを回避する"
 description = "Firebase Cloud Functionsのコールドスタートに関する問題をcronで定期的に実行して回避する"
 toc = true
 date = "2022-11-14"
 weight = 2010
+hideFooter = true
 +++
 
 {{< callout context="caution" title="Cloud Functions2を使おう" icon="outline/info-triangle" >}}

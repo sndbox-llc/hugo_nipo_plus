@@ -1,7 +1,7 @@
 +++
 url = "/reverse-lookup/query/101/"
 title = "集計/CSV出力の時間単位を分単位ではなく時間単位で表示することはできますか？"
-menuTitle = "CSV出力の時間単位は変更できますか？"
+menuTitle = "CSV出力の時間単位は変更できる？"
 description = ""
 toc = false
 isDictionaly = true

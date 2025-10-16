@@ -1,7 +1,7 @@
 +++
 url = "/reverse-lookup/query/102/"
-title = "ログインする際にメールアドレスではなく任意のIDに仕様を変更する予定はないのでしょうか。"
-menuTitle = "ログインIDをメールアドレス以外にできますか？"
+title = "ログインIDをメールアドレス以外にできますか？"
+menuTitle = "ログインIDをEmail以外に変更できる？"
 description = "任意のIDでのログインはシステムの仕組み上、実装が不可能です。従業員アカウントでダミーメールを使用する方法や、通知用メールアドレスを個別に設定する方法を解説します。"
 toc = false
 isDictionaly = true

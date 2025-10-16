@@ -1,7 +1,7 @@
 +++
 url = "/reverse-lookup/query/105/"
 title = "支払がX月の決済が出来ずに滞っているようです。"
-menuTitle = "クレジットカード決済に失敗した場合は？"
+menuTitle = "カード決済に失敗した場合は？"
 description = "クレジットカード決済が失敗・滞納する一般的な原因（与信不足、認証失敗など）と、手動での再支払い方法を解説します。無料プランへの自動切替リスクについてもご説明します。"
 toc = false
 isDictionaly = true

@@ -11,6 +11,7 @@ weight = 50810
 {{< callout context="note" title="メニューに無いときは[グループ設定](/docs/setup/setting-group/#optionalFunction)から機能を有効にしてください" icon="outline/info-circle" />}}
 
 {{< callout context="caution" title="先に[顧客テンプレート](/docs/template/customer/)の設定を済ませておきましょう" icon="outline/info-circle" />}}
+{{< callout context="danger" title="Version1.74.0で「顧客を続けて登録」をすると最後の顧客しか保存されないバグが発生しています。1.74.1に更新の上ご利用下さい" icon="outline/info-circle" />}}
 
 ## 顧客管理とは{#about_customer_management}
 

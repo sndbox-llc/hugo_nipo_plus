@@ -33,6 +33,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#android_usage)・[iOS版](/
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2025/10/16 v1.74.1{#vp1_74_1}
+
+- 顧客の新規登録で、「続けて登録」を選択すると、最後の顧客しか保存されないバグを修正しました
+
 #### {{<nipoPlusLogo 30>}} 2025/10/08 v1.74.0{#vp1_74_0}
 
 - 写真入力フォームの使い勝手を向上させました

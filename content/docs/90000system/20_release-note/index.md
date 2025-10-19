@@ -33,6 +33,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#android_usage)・[iOS版](/
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2025/10/20 v1.74.2{#vp1_74_2}
+
+- 顧客メモの検索条件が削除できないバグを修正しました
+
 #### {{<nipoLogo 30>}} 2025/10/17 v10.2.0{#legacy10_2_0}
 
 - クレジットカード課金ボタンを削除しました

@@ -33,6 +33,10 @@ NipoPlusは[Android版](/docs/system/mobile-install/#android_usage)・[iOS版](/
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoPlusLogo 30>}} 2025/12/9 v1.75.7{#vp1_75_7}
+
+- より安全にご利用いただけるようセキュリティアップデートを実施しました
+
 #### {{<nipoLogo 30>}} 2025/10/21 v11.0.1{#legacy11_0_1}
 
 - より安全にご利用いただけるようセキュリティアップデートを実施しました

@@ -45,6 +45,14 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      # --- ここから追加 ---
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22' # 22系の最新を使う設定
+          # cache: 'yarn'      # yarnのキャッシュも有効化して爆速に
+      # --- ここまで追加 ---
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

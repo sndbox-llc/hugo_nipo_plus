@@ -33,6 +33,12 @@ NipoPlusは[Android版](/docs/system/mobile-install/#android_usage)・[iOS版](/
 
 ### リリース詳細▼{#more}
 
+#### {{<nipoLogo 30>}} 2025/12/23 v11.0.2{#legacy11_0_2}
+
+- モバイルアプリ向けセキュリティアップデートを実施しました
+
+※Android / iOSアプリのみの更新となり、Web版のリリースは有りません。
+
 #### {{<nipoPlusLogo 30>}} 2025/12/22 v1.76.5{#vp1_76_5}
 
 - CSV出力時に、日付時刻の「休憩時間」が出力されないバグを修正しました
